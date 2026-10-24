@@ -25,16 +25,62 @@ body.blog-page,
 
 /* Vogue / Newspaper Broadsheet Drop Caps & Typography */
 .editorial-dropcap::first-letter,
+.post-full-content > p:first-of-type::first-letter,
+.post-full-content h2.editorial-heading + p::first-letter,
 .post-full-content .flipbook-page[data-page="1"] > p:first-of-type::first-letter {
     font-family: var(--font-serif);
     font-size: 3.4rem;
     line-height: 0.82;
     float: left;
     margin-top: 0.15rem;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
     margin-bottom: -0.1rem;
     font-weight: 700;
-    color: var(--teal, #416b49);
+    color: var(--post-palette-accent, var(--teal, #416b49));
+}
+
+@media (max-width: 768px) {
+    .editorial-dropcap::first-letter,
+    .post-full-content > p:first-of-type::first-letter,
+    .post-full-content h2.editorial-heading + p::first-letter,
+    .post-full-content .flipbook-page[data-page="1"] > p:first-of-type::first-letter {
+        font-size: 2.8rem;
+        line-height: 0.85;
+        margin-right: 0.35rem;
+    }
+}
+
+/* Editorial Visual Dividers */
+hr,
+.editorial-divider,
+.gazette-divider {
+    border: none;
+    border-top: 3px double var(--post-palette-accent, var(--border, rgba(74, 107, 80, 0.25)));
+    margin: 2.25rem 0;
+    clear: both;
+    position: relative;
+}
+
+hr::after,
+.editorial-divider::after,
+.gazette-divider::after {
+    content: "✦";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--blog-paper-light, var(--cream, #fdfcf8));
+    padding: 0 0.6rem;
+    font-size: 0.7rem;
+    color: var(--post-palette-accent, var(--teal, #416b49));
+}
+
+@media (max-width: 768px) {
+    hr,
+    .editorial-divider,
+    .gazette-divider {
+        margin: 1.5rem 0;
+    }
 }
 
 /* Editorial Blockquotes & Pull Quotes */
@@ -515,21 +561,51 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media (max-width: 768px) {
+    .blog-header {
+        padding-bottom: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .blog-header-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+    }
+
+    .blog-header-title {
+        font-size: 2.2rem;
+    }
+
+    .blog-header-tagline {
+        font-size: 1rem;
+    }
+
+    .blog-issue-ribbon {
+        font-size: 0.8rem;
+    }
+
+    .post-meta {
+        font-size: 0.82rem;
+        gap: 4px 8px;
+    }
+}
+
 @media (max-width: 480px) {
     .blog-wrapper {
         padding: 1.25rem 1rem 3rem;
     }
     .blog-header-title {
-        font-size: 2.1rem;
+        font-size: 1.85rem;
     }
     .featured-post-hero {
-        padding: 1.5rem;
+        padding: 1.25rem;
     }
     .featured-title {
-        font-size: 1.65rem;
+        font-size: 1.5rem;
     }
     .post-card-title {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
     }
 }
 
@@ -1002,15 +1078,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Broadsheet Newspaper Tables & Content Blocks */
-.post-full-content table {
+.table-responsive-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.post-full-content table,
+.gazette-editorial-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.5rem 0;
+    margin: 0;
     font-size: 0.95rem;
     background: #ffffff;
     border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
     border-radius: 8px;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .table-responsive-container {
+        margin: 1.25rem 0;
+        box-shadow: inset -6px 0 8px -4px rgba(0, 0, 0, 0.08);
+    }
+
+    .post-full-content table,
+    .gazette-editorial-table {
+        font-size: 0.88rem;
+        min-width: 520px;
+    }
+
+    .post-full-content th,
+    .post-full-content td {
+        padding: 0.6rem 0.75rem;
+    }
 }
 
 .post-full-content th {
