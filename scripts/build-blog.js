@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_BASE } = require('./site-config');
 let marked;
 try {
   const markedModule = require('marked');
@@ -139,17 +140,23 @@ function parseFormattedText(text) {
   return html;
 }
 
-function getDocumentTitle(title) {
-  const fullTitle = `${title} — COSYmagazine`;
-  const characters = Array.from(fullTitle);
-  let documentTitle = characters.length <= 70
-    ? fullTitle
-    : `${characters.slice(0, 69).join('').trimEnd()}…`;
+const MAX_TITLE_LENGTH = 70;
+const BRAND_SUFFIX = ' — COSYmagazine';
 
-  while (documentTitle.length > 70) {
-    documentTitle = `${Array.from(documentTitle).slice(0, -2).join('').trimEnd()}…`;
-  }
-  return documentTitle;
+/**
+ * Builds the <title> text. Keeps the brand suffix when it fits; otherwise uses the
+ * article title alone; only if that is still too long, shortens it at a word boundary.
+ * (The result is escaped once, at the output boundary.)
+ */
+function getDocumentTitle(title) {
+  const length = (text) => Array.from(text).length;
+  const full = `${title}${BRAND_SUFFIX}`;
+  if (length(full) <= MAX_TITLE_LENGTH) return full;
+  if (length(title) <= MAX_TITLE_LENGTH) return title;
+  const chars = Array.from(title).slice(0, MAX_TITLE_LENGTH - 1).join('');
+  const lastSpace = chars.lastIndexOf(' ');
+  const cut = lastSpace > 30 ? chars.slice(0, lastSpace) : chars;
+  return `${cut.replace(/[\s,;:\u2014\u2013-]+$/u, '')}…`;
 }
 
 function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
@@ -563,11 +570,11 @@ async function buildBlog() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(getDocumentTitle(post.title))}</title>
     <meta name="description" content="${escapeHtml(post.dek)}">
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYblog/${escapeHtml(post.slug)}.html">
+    <link rel="canonical" href="${SITE_BASE}${escapeHtml(post.slug)}.html">
     <meta property="og:title" content="${escapeHtml(getDocumentTitle(post.title))}">
     <meta property="og:description" content="${escapeHtml(post.dek)}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYblog/${escapeHtml(post.slug)}.html">
+    <meta property="og:url" content="${SITE_BASE}${escapeHtml(post.slug)}.html">
     <link rel="icon" href="images/logo.png">
     <meta name="theme-color" content="${escapeHtml(palette[1] || '#faf7f2')}">
     <script src="js/theme-init.js"></script>
@@ -842,4 +849,4 @@ if (require.main === module) {
   buildBlog();
 }
 
-module.exports = { buildBlog };
+module.exports = { buildBlog, getDocumentTitle };

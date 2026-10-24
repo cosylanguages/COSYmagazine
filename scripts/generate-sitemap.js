@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
-const BASE = 'https://cosylanguages.github.io/COSYblog/';
+const { SITE_BASE: BASE } = require('./site-config');
 const posts = JSON.parse(fs.readFileSync(path.join(ROOT, 'posts.json'), 'utf-8'));
 const today = new Date().toISOString().slice(0, 10);
 const urls = [{ loc: BASE, lastmod: today }, { loc: BASE + 'podcast.html', lastmod: today }]

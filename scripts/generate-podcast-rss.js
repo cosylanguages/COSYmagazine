@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_BASE } = require('./site-config');
 
 const BLOG_DIR = path.join(__dirname, '..');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
@@ -46,9 +47,9 @@ function generatePodcastRss() {
 
         const absoluteAudioUrl = audioUrl.startsWith('http')
           ? audioUrl
-          : `https://cosylanguages.github.io/COSYblog/${audioUrl}`;
+          : `${SITE_BASE}${audioUrl}`;
 
-        const postUrl = `https://cosylanguages.github.io/COSYblog/${post.slug}.html`;
+        const postUrl = `${SITE_BASE}${post.slug}.html`;
         const scriptUrl = `${postUrl}?script=1`;
         const stageUrl = `${postUrl}?stage=1`;
 
@@ -85,7 +86,7 @@ function generatePodcastRss() {
 
   const channelTitle = 'cosylanguages / такиеязыки';
   const channelDesc = 'Official podcast for natural, speaking-first language acquisition. Every post includes teleprompter scripts, read-along sync, and 16:9 stage mode decks.';
-  const channelLink = 'https://cosylanguages.github.io/COSYblog/podcast.html';
+  const channelLink = `${SITE_BASE}podcast.html`;
   const logoUrl = 'https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png';
 
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>

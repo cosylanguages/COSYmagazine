@@ -57,7 +57,7 @@ assert.strictEqual(
   'replace-very-50-stronger-adjectives.html should not double-escape HTML entities in title tag'
 );
 assert.ok(
-  adjectivesHtml.includes('<title>Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English Lear…'),
+  adjectivesHtml.includes('<title>Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English'),
   'replace-very-50-stronger-adjectives.html title tag should be properly escaped once'
 );
 console.log('✅ Passed: replace-very-50-stronger-adjectives.html title tag correctly formatted.');
