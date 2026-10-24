@@ -52,12 +52,12 @@ assert.ok(fs.existsSync(adjectivesHtmlPath), 'replace-very-50-stronger-adjective
 const adjectivesHtml = fs.readFileSync(adjectivesHtmlPath, 'utf8');
 
 assert.strictEqual(
-  adjectivesHtml.includes('&amp;#39;'),
+  adjectivesHtml.includes('&amp;#39;') || adjectivesHtml.includes('&amp;quot;'),
   false,
   'replace-very-50-stronger-adjectives.html should not double-escape HTML entities in title tag'
 );
 assert.ok(
-  adjectivesHtml.includes('<title>Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English'),
+  adjectivesHtml.includes('<title>Stronger Adjectives: When &quot;Very&quot; Is Not Enough'),
   'replace-very-50-stronger-adjectives.html title tag should be properly escaped once'
 );
 console.log('✅ Passed: replace-very-50-stronger-adjectives.html title tag correctly formatted.');
