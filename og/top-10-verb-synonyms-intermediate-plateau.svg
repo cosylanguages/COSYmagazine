@@ -93,11 +93,10 @@
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
-        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#225B58" stroke-width="1.2" />
-        <text x="54" y="474" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
-        <text x="54" y="510" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Top 10 Overused Verbs and Their</text>
-<text x="54" y="542" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Precise Synonyms for the</text>
-<text x="54" y="574" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Intermediate Plateau</text>
+        <rect class="cover-overlay-box" x="24" y="460" width="1152" height="146" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#225B58" stroke-width="1.2" />
+        <text x="54" y="498" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
+        <text x="54" y="536" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Top 10 Everyday Verbs and</text>
+<text x="54" y="572" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">More Precise Alternatives</text>
       </g>
     
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />

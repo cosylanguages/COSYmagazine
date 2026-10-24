@@ -17,44 +17,44 @@
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
-
+      
     <rect width="1200" height="630" fill="#FAF6EE" />
-
+    
       <polygon points="1314,507 1023,962 688,690 625,346 1131,195" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="755,354 151,660 196,172" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="647,465 456,624 202,587 174,309 510,185" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="378,237 209,491 -129,342 -168,46 198,-128" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="261,257 240,373 11,423 -14,247 27,98 201,55" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="449,22 371,107 258,70 231,-87 397,-100" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
-
-
+    
+  
+      
       <g transform="rotate(7 606.5 363.5)">
         <rect x="427" y="244" width="359" height="239" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#1A6360" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(-6 358 257)">
         <rect x="170" y="117" width="376" height="280" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#1A6360" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
-
+    
+      
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
       <polygon points="974,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 994,157.5 974,0" fill="#FCF9F2" opacity="0.9" stroke="#1A6360" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
-
-
+  
+      
     <g transform="rotate(2 266 46)" filter="url(#soft-shadow)">
       <rect x="206" y="34" width="120" height="24" rx="2" fill="#ecfdf5" opacity="0.45" />
       <line x1="206" y1="34" x2="206" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="326" y1="34" x2="326" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
-
-
+  
+      
     <g class="cover-tiny-doodles" stroke="#1A6360" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
       <path d="M 941 36 Q 941 48 953 48 Q 941 48 941 60 Q 941 48 929 48 Q 941 48 941 36 Z" fill="#ecfdf5" opacity="0.3" />
@@ -64,20 +64,20 @@
       <circle cx="72" cy="122" r="3" fill="#1A6360" opacity="0.5" />
       <circle cx="78" cy="105" r="3" fill="#ecfdf5" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-sketchy-underline">
       <path d="M 97 577 Q 236 580 375 580" stroke="#ecfdf5" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
       <path d="M 107 580 Q 236 583 365 579" stroke="#1A6360" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
       <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ecfdf5" stroke-width="1.2" />
       <text x="34" y="40" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
-
-
+  
+      
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#1A6360" stroke-width="1.2" />
@@ -86,6 +86,6 @@
 <text x="54" y="536" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">10 фигыль, 3 нче өлеш</text>
 <text x="54" y="572" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">(A0–A1 / A2)</text>
       </g>
-
+    
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>

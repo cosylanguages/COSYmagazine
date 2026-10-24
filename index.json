@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-23T23:07:39.687Z",
+  "generatedAt": "2026-10-24T15:04:11.289Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
@@ -1503,15 +1503,15 @@
       "language": "en",
       "desk": "Grammar",
       "format": "essay",
-      "level": "A2–C1",
+      "level": "A2–B2",
       "issue": {
         "number": "Vol. 2026.11",
         "title": "November Academia"
       },
       "date": "2026-11-15",
-      "title": "Demystifying English Tenses: The Ultimate Master Timeline Guide for Learners",
+      "title": "Demystifying English Tenses: A Step-by-Step Timeline Guide",
       "kicker": "GRAMMAR MADE COSY",
-      "dek": "A progressive cluster-by-cluster timeline breakdown of all 12 English tenses—from simple time anchors to everyday spoken frequency versus formal academic usage.",
+      "dek": "Understand English tenses step by step: time, tense and aspect, a timeline for each of the 12 forms, and which forms you really need in speech and writing.",
       "tags": [
         "Grammar",
         "EnglishTenses",
@@ -1520,7 +1520,7 @@
         "AcademicEnglish",
         "Fluency"
       ],
-      "readingTime": 14,
+      "readingTime": 12,
       "podcast": {
         "episode": 12,
         "audioUrl": "audio/blog/demystifying-english-tenses-podcast.mp3"
@@ -2922,16 +2922,16 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-13",
-      "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
+      "title": "Everyday Phrases and Natural Alternatives for B1–B2",
       "kicker": "WORDS",
-      "dek": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
+      "dek": "Choose the right phrase for the situation: agreeing, giving opinions, thanking, apologising and more, with register notes, dialogues and practice.",
       "tags": [
         "Phrases",
         "IntermediatePlateau",
         "Fluency",
         "B1-B2"
       ],
-      "readingTime": 11,
+      "readingTime": 10,
       "podcast": {
         "episode": 2,
         "audioUrl": "audio/replace-50-overused-phrases.mp3"
@@ -3155,16 +3155,16 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-12",
-      "title": "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know",
+      "title": "Stronger Adjectives: When \"Very\" Is Not Enough",
       "kicker": "WORDS",
-      "dek": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.",
+      "dek": "Learn 50 stronger adjectives, how they differ in meaning and strength, and when very is still the best choice.",
       "tags": [
         "Vocabulary",
         "IntermediatePlateau",
         "Adjectives",
         "B1-B2"
       ],
-      "readingTime": 6,
+      "readingTime": 9,
       "podcast": {
         "episode": 3,
         "audioUrl": "audio/replace-very-50-stronger-adjectives.mp3"
@@ -3388,16 +3388,17 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
-      "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
+      "title": "Top 10 Everyday Verbs and More Precise Alternatives",
       "kicker": "WORDS",
-      "dek": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
+      "dek": "Learn when get, make, do, go, say and think are enough, and when a more precise verb says it better, with examples, grammar notes and practice.",
       "tags": [
         "IntermediatePlateau",
         "Vocabulary",
         "B1-B2",
-        "Verbs"
+        "Verbs",
+        "Collocations"
       ],
-      "readingTime": 7,
+      "readingTime": 10,
       "podcast": {
         "episode": 4,
         "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau.mp3"
