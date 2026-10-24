@@ -10,16 +10,16 @@
     "title": "Me vs Intermediate Plateau"
   },
   "date": "2026-09-12",
-  "title": "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know",
+  "title": "Stronger Adjectives: When \"Very\" Is Not Enough",
   "kicker": "WORDS",
-  "dek": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.",
+  "dek": "Learn 50 stronger adjectives, how they differ in meaning and strength, and when very is still the best choice.",
   "tags": [
     "Vocabulary",
     "IntermediatePlateau",
     "Adjectives",
     "B1-B2"
   ],
-  "readingTime": 6,
+  "readingTime": 9,
   "podcast": {
     "episode": 3,
     "audioUrl": "audio/replace-very-50-stronger-adjectives.mp3"
@@ -44,509 +44,951 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "One of the most noticeable signs of reaching the **\"intermediate plateau\"** in English is relying on the modifier **\"very\"** to intensify everyday adjectives."
+      "text": "*Very good* and *very tired* are correct, natural English, and often the best choice in speech. A stronger adjective is useful when it says something more **specific** than \"very + adjective\". This guide shows 50 options, explains how they differ, and shows when to keep *very*.",
+      "say": "Very good and very tired are correct, natural English, and often the best choice in speech. A stronger adjective is useful when it says something more specific than \"very + adjective\". This guide shows 50 options, explains how they differ, and shows when to keep very.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rule 1: some adjectives do not take \"very\"",
+      "say": "Rule 1: some adjectives do not take \"very\"",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
     },
     {
       "type": "paragraph",
-      "text": "While saying *\"very big\"*, *\"very good\"*, or *\"very bad\"* is grammatically correct and understandable, overusing *\"very\"* makes your speech and writing sound repetitive. Transitioning to stronger, more expressive single-word adjectives immediately makes your English sound more natural, sophisticated, and precise."
+      "text": "Adjectives such as *good, big* and *tired* are **gradable**: they have degrees, so *very good*, *quite big* and *a bit tired* all work. Strong adjectives such as *excellent, enormous, exhausted* and *terrifying* already mean \"extremely\", so we do not normally say *very excellent* or *very exhausted*. With these we use *absolutely*, *completely* or *really*: *absolutely exhausted*, *completely wrong*.",
+      "say": "Adjectives such as good, big and tired are gradable: they have degrees, so very good, quite big and a bit tired all work. Strong adjectives such as excellent, enormous, exhausted and terrifying already mean \"extremely\", so we do not normally say very excellent or very exhausted. With these we use absolutely, completely or really: absolutely exhausted, completely wrong.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-2"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Gradable (use \"very\")",
+        "Extreme (use \"absolutely\")",
+        "Example"
+      ],
+      "rows": [
+        [
+          "good",
+          "excellent",
+          "The food was very good. / The food was absolutely excellent."
+        ],
+        [
+          "big",
+          "enormous",
+          "It is a very big house. / It is an absolutely enormous house."
+        ],
+        [
+          "tired",
+          "exhausted",
+          "I am very tired. / I am absolutely exhausted."
+        ],
+        [
+          "hungry",
+          "starving",
+          "I am very hungry. / I am absolutely starving."
+        ],
+        [
+          "cold",
+          "freezing",
+          "It is very cold. / It is absolutely freezing."
+        ]
+      ],
+      "caption": "Gradable and extreme adjectives",
+      "say": "Gradable and extreme adjectives. For example: good means excellent. big means enormous. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rule 2: strong words change the meaning, not just the volume",
+      "say": "Rule 2: strong words change the meaning, not just the volume",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-4"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "*Very sad* and *devastated* are not the same. *Devastated* suggests a shock or a serious loss. *Very small* and *microscopic* are not the same either: *microscopic* means almost too small to see. Before you replace *very + adjective*, check that the new word still says what you mean, and check its register (informal, neutral or formal).",
+      "say": "Very sad and devastated are not the same. Devastated suggests a shock or a serious loss. Very small and microscopic are not the same either: microscopic means almost too small to see. Before you replace very + adjective, check that the new word still says what you mean, and check its register (informal, neutral or formal).",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-5"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Five scales to know",
+      "say": "Five scales to know",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Each table moves from a neutral word to stronger ones. The examples show typical partners. Strength is a guide, not a measurement: native speakers disagree about exact order.",
+      "say": "Each table moves from a neutral word to stronger ones. The examples show typical partners. Strength is a guide, not a measurement: native speakers disagree about exact order.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-7"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Strength",
+        "Adjectives",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Neutral",
+          "good, nice, fine",
+          "The food was good."
+        ],
+        [
+          "Stronger",
+          "great, impressive, excellent",
+          "Her presentation was excellent."
+        ],
+        [
+          "Very strong",
+          "outstanding, exceptional, superb",
+          "an outstanding achievement"
+        ],
+        [
+          "Special meanings",
+          "brilliant (clever or exceptional), flawless (no mistakes), exquisite (fine detail)",
+          "a brilliant idea; flawless English; exquisite craftsmanship"
+        ]
+      ],
+      "caption": "Scale 1: good",
+      "say": "Scale 1: good. For example: Neutral means good, nice, fine. Stronger means great, impressive, excellent. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Strength",
+        "Adjectives",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Neutral",
+          "bad, poor",
+          "The service was poor."
+        ],
+        [
+          "Mild",
+          "disappointing, inadequate",
+          "a disappointing score"
+        ],
+        [
+          "Strong",
+          "awful, terrible, dreadful",
+          "terrible weather"
+        ],
+        [
+          "Very strong (often formal)",
+          "appalling, atrocious, abysmal",
+          "an appalling mistake"
+        ],
+        [
+          "About results",
+          "disastrous, catastrophic",
+          "a disastrous failure (it describes the consequences)"
+        ]
+      ],
+      "caption": "Scale 2: bad",
+      "say": "Scale 2: bad. For example: Neutral means bad, poor. Mild means disappointing, inadequate. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Strength",
+        "Adjectives",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Neutral",
+          "big, large",
+          "a large room"
+        ],
+        [
+          "Stronger",
+          "huge, enormous, massive",
+          "an enormous crowd"
+        ],
+        [
+          "Very strong",
+          "gigantic, immense, colossal",
+          "a colossal effort"
+        ],
+        [
+          "For amounts and ideas",
+          "substantial, considerable (medium); monumental, astronomical (very large)",
+          "substantial progress; astronomical costs (numbers only)"
+        ]
+      ],
+      "caption": "Scale 3: big",
+      "say": "Scale 3: big. For example: Neutral means big, large. Stronger means huge, enormous, massive. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-10"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "For",
+        "Adjectives",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Looks (neutral to strong)",
+          "attractive, gorgeous, stunning, breathtaking",
+          "a breathtaking view"
+        ],
+        [
+          "Interest (neutral to strong)",
+          "engaging, fascinating, captivating, enthralling",
+          "a fascinating book"
+        ],
+        [
+          "Mystery",
+          "intriguing",
+          "an intriguing story"
+        ],
+        [
+          "Strong, often about performance",
+          "mesmerising",
+          "a mesmerising performance"
+        ]
+      ],
+      "caption": "Scale 4: beautiful and interesting",
+      "say": "Scale 4: beautiful and interesting. For example: Looks (neutral to strong) means attractive, gorgeous, stunning, breathtaking. Interest (neutral to strong) means engaging, fascinating, captivating, enthralling. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Strength",
+        "Adjectives",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Tired: neutral",
+          "tired",
+          "I am tired."
+        ],
+        [
+          "Tired: mild to strong",
+          "weary (literary), drained (no energy), exhausted, worn out",
+          "I am worn out after the trip."
+        ],
+        [
+          "Angry: neutral",
+          "angry",
+          "He is angry."
+        ],
+        [
+          "Angry: mild",
+          "annoyed, irritated",
+          "I am annoyed by the delay."
+        ],
+        [
+          "Angry: strong",
+          "furious, livid, enraged",
+          "She was furious."
+        ],
+        [
+          "Special meanings",
+          "outraged (angry at something unfair), seething (very angry but quiet)",
+          "The public was outraged."
+        ]
+      ],
+      "caption": "Scale 5: tired and angry",
+      "say": "Scale 5: tired and angry. For example: Tired: neutral means tired. Tired: mild to strong means weary (literary), drained (no energy), exhausted, worn out. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-12"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "50 options, grouped by meaning",
+      "say": "50 options, grouped by meaning",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Read the notes. Many of these words are *not* simply \"stronger\": they add a meaning or a register.",
+      "say": "Read the notes. Many of these words are not simply \"stronger\": they add a meaning or a register.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-14"
+      }
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "📈 The Spectrum of Adjectives: From Baseline to Elite Level"
-    },
-    {
-      "type": "paragraph",
-      "text": "To truly break through the intermediate plateau, you need to understand that vocabulary words aren't just synonyms—they sit on a spectrum of nuance, intensity, and context. Here is how to navigate from level 0 to elite vocabulary across major everyday adjective categories:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🌟 1. Praise & Quality (\"Good\")"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"spectrum-visual-flow\"><div class=\"flow-title\">📊 Visual Progression: Baseline ➔ Overused Chain vs. Smart Spectrum Upgrade</div><div class=\"flow-row\"><span class=\"flow-step-bad\">good</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very good</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">extremely good</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">super good</span></div><div class=\"flow-row\"><span class=\"flow-step-good\">good</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">enjoyable</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">great</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">excellent</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-pinnacle\">brilliant / masterful</span></div></div>"
-    },
-    {
-      "type": "list-item",
-      "ordered": true,
-      "items": [
-        "**Level 0: Baseline (Good / Nice)** — Functional, but generic and plain.",
-        "**Level 1: Slight Upgrade (Pleasant & Satisfactory)** — *Enjoyable* (an enjoyable afternoon walk), *Satisfying* (a satisfying meal), *Solid* (a solid performance).",
-        "**Level 2: Strong & Impressive (Ditch \"Very Good\")** — *Great* (a great effort), *Impressive* (impressive results), *Remarkable* (a remarkable talent), *Superb* (superb customer service).",
-        "**Level 3: Top Tier (Ditch \"Extremely Good\")** — *Excellent* (an excellent contribution), *Exceptional* (exceptional service), *Outstanding* (an outstanding achievement), *Top-notch* (top-notch atmosphere).",
-        "**Level 4: Pinnacle / Elite (Ditch \"Super Good\")** — *Brilliant* (a brilliant idea), *Masterful* (masterful storytelling), *Phenomenal* (a phenomenal performance), *Flawless* (flawless execution), *Exquisite* (exquisite craftsmanship)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "⚠️ 2. Criticism & Negativity (\"Bad\")"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"spectrum-visual-flow\"><div class=\"flow-title\">📊 Visual Progression: Baseline ➔ Overused Chain vs. Smart Spectrum Upgrade</div><div class=\"flow-row\"><span class=\"flow-step-bad\">bad / poor</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very bad</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">extremely bad</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">super bad</span></div><div class=\"flow-row\"><span class=\"flow-step-good\">subpar</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">disappointing</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">awful</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">atrocious</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-pinnacle\">disastrous / abysmal</span></div></div>"
-    },
-    {
-      "type": "list-item",
-      "ordered": true,
-      "items": [
-        "**Level 0: Baseline (Bad / Poor)** — Basic negative assessment.",
-        "**Level 1: Moderate Flaw (Subpar & Unsatisfactory)** — *Disappointing* (a disappointing score), *Inadequate* (inadequate preparation), *Subpar* (subpar quality).",
-        "**Level 2: Strong Negativity (Ditch \"Very Bad\")** — *Awful* (awful weather), *Terrible* (terrible service), *Dreadful* (a dreadful mistake).",
-        "**Level 3: High Impact / Severe (Ditch \"Extremely Bad\")** — *Atrocious* (atrocious conditions), *Abysmal* (abysmal turnout), *Appalling* (appalling behavior).",
-        "**Level 4: Catastrophic / Crisis Level** — *Disastrous* (a disastrous failure), *Catastrophic* (catastrophic breakdown), *Deplorable* (deplorable hygiene)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🏔️ 3. Size & Scale (\"Big\")"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"spectrum-visual-flow\"><div class=\"flow-title\">📊 Visual Progression: Baseline ➔ Overused Chain vs. Smart Spectrum Upgrade</div><div class=\"flow-row\"><span class=\"flow-step-bad\">big / large</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very big</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">extremely big</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">super big</span></div><div class=\"flow-row\"><span class=\"flow-step-good\">big</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">sizable</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">huge</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">gigantic</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-pinnacle\">colossal / monumental</span></div></div>"
-    },
-    {
-      "type": "list-item",
-      "ordered": true,
-      "items": [
-        "**Level 0: Baseline (Big / Large)** — Standard dimension indicator.",
-        "**Level 1: Moderate Scale** — *Sizable* (a sizable investment), *Substantial* (substantial progress), *Considerable* (considerable experience).",
-        "**Level 2: Strong Scale (Ditch \"Very Big\")** — *Huge* (a huge milestone), *Enormous* (enormous pressure), *Massive* (a massive success).",
-        "**Level 3: Top Tier Scale** — *Gigantic* (a gigantic structure), *Immense* (immense pride), *Tremendous* (tremendous growth).",
-        "**Level 4: Astronomical / Elite Scale** — *Colossal* (a colossal effort), *Monumental* (a monumental achievement), *Astronomical* (astronomical costs)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "✨ 4. Aesthetics & Engagement (\"Beautiful\" & \"Interesting\")"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"spectrum-visual-flow\"><div class=\"flow-title\">📊 Visual Progression: Baseline ➔ Overused Chain vs. Smart Spectrum Upgrade</div><div class=\"flow-row\"><span class=\"flow-step-bad\">pretty</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very beautiful</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very interesting</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">super interesting</span></div><div class=\"flow-row\"><span class=\"flow-step-good\">attractive</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">gorgeous</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">breathtaking</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">captivating</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-pinnacle\">mesmerizing / enthralling</span></div></div>"
-    },
-    {
-      "type": "list-item",
-      "ordered": true,
-      "items": [
-        "**Level 0: Baseline (Pretty / Interesting)** — Common conversational fillers.",
-        "**Level 1: Pleasant Upgrade** — *Attractive* (attractive design), *Engaging* (an engaging topic), *Appealing* (an appealing option).",
-        "**Level 2: Strong Appeal (Ditch \"Very Beautiful/Interesting\")** — *Gorgeous* (gorgeous view), *Fascinating* (a fascinating book), *Stunning* (a stunning gown).",
-        "**Level 3: Deep Impact** — *Breathtaking* (breathtaking landscape), *Captivating* (a captivating speaker), *Intriguing* (an intriguing mystery).",
-        "**Level 4: Spellbinding / Elite Level** — *Mesmerizing* (a mesmerizing sunset), *Enthralling* (an enthralling performance), *Radiant* (a radiant smile)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "⚡ 5. Emotion & Energy (\"Angry\" & \"Tired\")"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"spectrum-visual-flow\"><div class=\"flow-title\">📊 Visual Progression: Baseline ➔ Overused Chain vs. Smart Spectrum Upgrade</div><div class=\"flow-row\"><span class=\"flow-step-bad\">angry / tired</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very angry</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">very tired</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-bad\">extremely tired</span></div><div class=\"flow-row\"><span class=\"flow-step-good\">annoyed / weary</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">furious</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">exhausted</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-good\">outraged</span><span class=\"flow-arrow\">➔</span><span class=\"flow-step-pinnacle\">seething / utterly spent</span></div></div>"
-    },
-    {
-      "type": "list-item",
-      "ordered": true,
-      "items": [
-        "**Level 0: Baseline (Angry / Tired)** — Everyday state descriptions.",
-        "**Level 1: Mild Intensity** — *Annoyed / Irritated* (annoyed by delay), *Weary* (a weary traveler), *Drained* (feeling drained).",
-        "**Level 2: High Intensity (Ditch \"Very Angry/Tired\")** — *Furious* (furious at the decision), *Exhausted* (exhausted after the marathon), *Livid* (livid about the breach).",
-        "**Level 3: Extreme Intensity** — *Outraged* (outraged public), *Worn-out* (completely worn-out), *Enraged* (enraged crowd).",
-        "**Level 4: Maximum Threshold** — *Seething* (seething with anger), *Utterly Spent* (utterly spent after work)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "💡 Quick Cheat-Sheet Matrix for Readers"
+      "text": "Feelings and sensations",
+      "say": "Feelings and sensations",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-15"
+      }
     },
     {
       "type": "table",
       "headers": [
         "Instead of...",
-        "Try saying...",
-        "Context / Nuance"
+        "Try...",
+        "Note"
       ],
       "rows": [
         [
-          "\"Very good food\"",
-          "*Delicious / Exquisite*",
-          "Taste & Culinary Craftsmanship"
+          "**very sad**",
+          "*miserable, heartbroken, devastated*",
+          "*Miserable* is unhappy in general; *heartbroken* follows a loss; *devastated* means a strong shock."
         ],
         [
-          "\"A very good idea\"",
-          "*Brilliant / Ingenious*",
-          "Intellect & Problem-solving"
+          "**very happy**",
+          "*delighted, thrilled, ecstatic*",
+          "*Delighted* is common and polite; *ecstatic* is extreme."
         ],
         [
-          "\"A very bad result\"",
-          "*Disastrous / Abysmal*",
-          "Failures & Severe Outcomes"
+          "**very angry**",
+          "*furious, livid, outraged*",
+          "*Outraged* means angry at something unfair."
         ],
         [
-          "\"A very big company\"",
-          "*Colossal / Massive*",
-          "Scale & Industry Influence"
+          "**very afraid**",
+          "*terrified, petrified*",
+          "*Petrified* means too scared to move."
         ],
         [
-          "\"A very beautiful sunset\"",
-          "*Breathtaking / Mesmerizing*",
-          "Visual Splendor & Nature"
+          "**very surprised**",
+          "*astonished, stunned*",
+          "*Stunned* means shocked and silent for a moment."
         ],
         [
-          "\"A very interesting book\"",
-          "*Fascinating / Enthralling*",
-          "Narrative & Focus"
+          "**very excited**",
+          "*thrilled, exhilarated*",
+          "*Exhilarated* means excited and full of energy."
         ],
         [
-          "\"Feeling very tired\"",
-          "*Exhausted / Drained*",
-          "Physical & Mental Energy"
+          "**very worried**",
+          "*anxious, concerned*",
+          "*Anxious* is stronger and lasts longer; *concerned* is milder and polite."
+        ],
+        [
+          "**very confused**",
+          "*bewildered, perplexed*",
+          "*Perplexed* is formal."
+        ],
+        [
+          "**very tired**",
+          "*exhausted, drained, worn out*",
+          "*Drained* often means mentally tired."
+        ],
+        [
+          "**very hungry**",
+          "*starving, famished*",
+          "*Starving* is an informal exaggeration."
+        ],
+        [
+          "**very thirsty**",
+          "*parched*",
+          "Common in speech."
         ]
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "Here are 50 of the most common *\"very...\"* combinations along with their natural, powerful alternatives."
+      ],
+      "caption": "Feelings and sensations",
+      "say": "Feelings and sensations. For example: very sad means miserable, heartbroken, devastated. very happy means delighted, thrilled, ecstatic. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-16"
+      }
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "50 Better Alternatives to \"Very + Adjective\""
+      "text": "Quality and value",
+      "say": "Quality and value",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-17"
+      }
     },
     {
       "type": "table",
       "headers": [
         "Instead of...",
-        "Try using..."
+        "Try...",
+        "Note"
       ],
       "rows": [
         [
-          "**Very bad**",
-          "*awful, terrible, dreadful*"
+          "**very good**",
+          "*excellent, outstanding, superb*",
+          "*Superb* is formal and positive."
         ],
         [
-          "**Very good**",
-          "*excellent, outstanding, superb*"
+          "**very bad**",
+          "*awful, terrible, dreadful*",
+          "*Dreadful* sounds slightly formal or British."
         ],
         [
-          "**Very big**",
-          "*enormous, gigantic, massive*"
+          "**very beautiful**",
+          "*gorgeous, stunning, breathtaking*",
+          "*Gorgeous* is informal."
         ],
         [
-          "**Very small**",
-          "*tiny, miniature, microscopic*"
+          "**very ugly**",
+          "*hideous, grotesque*",
+          "Very strong. Use for things, not people."
         ],
         [
-          "**Very beautiful**",
-          "*gorgeous, stunning, breathtaking*"
+          "**very interesting**",
+          "*fascinating, captivating*",
+          "*Captivating* holds your attention completely."
         ],
         [
-          "**Very ugly**",
-          "*hideous, grotesque*"
+          "**very boring**",
+          "*tedious, dull, monotonous*",
+          "*Tedious* is boring and long; *monotonous* never changes."
         ],
         [
-          "**Very interesting**",
-          "*fascinating, captivating*"
+          "**very funny**",
+          "*hilarious, hysterical*",
+          "*Hysterical* is informal."
         ],
         [
-          "**Very boring**",
-          "*tedious, dull, monotonous*"
+          "**very important**",
+          "*crucial, essential, vital*",
+          "*Crucial* means decisive; *vital* means necessary."
         ],
         [
-          "**Very funny**",
-          "*hilarious, hysterical*"
+          "**very famous**",
+          "*renowned, legendary, iconic*",
+          "*Iconic* means a symbol of something."
         ],
         [
-          "**Very sad**",
-          "*miserable, heartbroken, devastated*"
+          "**very easy**",
+          "*effortless, straightforward*",
+          "*Straightforward* means simple to do or understand."
         ],
         [
-          "**Very happy**",
-          "*delighted, thrilled, ecstatic*"
-        ],
-        [
-          "**Very angry**",
-          "*furious, livid, outraged*"
-        ],
-        [
-          "**Very tired**",
-          "*exhausted, drained, worn out*"
-        ],
-        [
-          "**Very hungry**",
-          "*starving, famished*"
-        ],
-        [
-          "**Very thirsty**",
-          "*parched*"
-        ],
-        [
-          "**Very cold**",
-          "*freezing, icy*"
-        ],
-        [
-          "**Very hot**",
-          "*boiling, scorching*"
-        ],
-        [
-          "**Very fast**",
-          "*rapid, swift, lightning-fast*"
-        ],
-        [
-          "**Very slow**",
-          "*sluggish, leisurely*"
-        ],
-        [
-          "**Very loud**",
-          "*deafening, thunderous*"
-        ],
-        [
-          "**Very quiet**",
-          "*silent, hushed*"
-        ],
-        [
-          "**Very bright**",
-          "*brilliant, dazzling*"
-        ],
-        [
-          "**Very dark**",
-          "*pitch-black, gloomy*"
-        ],
-        [
-          "**Very clean**",
-          "*spotless, immaculate*"
-        ],
-        [
-          "**Very dirty**",
-          "*filthy, grimy*"
-        ],
-        [
-          "**Very old**",
-          "*ancient* (things), *elderly* (people), *outdated* (concepts)"
-        ],
-        [
-          "**Very new**",
-          "*brand-new, cutting-edge*"
-        ],
-        [
-          "**Very rich**",
-          "*wealthy, affluent*"
-        ],
-        [
-          "**Very poor**",
-          "*impoverished, penniless*"
-        ],
-        [
-          "**Very easy**",
-          "*effortless, straightforward*"
-        ],
-        [
-          "**Very difficult**",
-          "*challenging, demanding, arduous*"
-        ],
-        [
-          "**Very important**",
-          "*crucial, essential, vital*"
-        ],
-        [
-          "**Very famous**",
-          "*renowned, legendary, iconic*"
-        ],
-        [
-          "**Very afraid**",
-          "*terrified, petrified*"
-        ],
-        [
-          "**Very surprised**",
-          "*astonished, stunned*"
-        ],
-        [
-          "**Very excited**",
-          "*exhilarated, thrilled*"
-        ],
-        [
-          "**Very worried**",
-          "*anxious, concerned*"
-        ],
-        [
-          "**Very confused**",
-          "*bewildered, perplexed*"
-        ],
-        [
-          "**Very smart**",
-          "*brilliant, intelligent*"
-        ],
-        [
-          "**Very stupid**",
-          "*foolish, idiotic* (strong), *unintelligent*"
-        ],
-        [
-          "**Very brave**",
-          "*courageous, fearless*"
-        ],
-        [
-          "**Very weak**",
-          "*feeble, frail*"
-        ],
-        [
-          "**Very strong**",
-          "*powerful, robust*"
-        ],
-        [
-          "**Very expensive**",
-          "*costly, overpriced*"
-        ],
-        [
-          "**Very cheap**",
-          "*inexpensive, affordable*"
-        ],
-        [
-          "**Very crowded**",
-          "*packed, overcrowded*"
-        ],
-        [
-          "**Very empty**",
-          "*deserted, vacant*"
-        ],
-        [
-          "**Very busy**",
-          "*hectic, swamped*"
-        ],
-        [
-          "**Very lazy**",
-          "*idle, lethargic*"
-        ],
-        [
-          "**Very depressed**",
-          "*devastated, despondent, miserable**"
+          "**very difficult**",
+          "*challenging, demanding, arduous*",
+          "*Challenging* sounds positive; *arduous* is tiring and long."
         ]
-      ]
+      ],
+      "caption": "Quality and value",
+      "say": "Quality and value. For example: very good means excellent, outstanding, superb. very bad means awful, terrible, dreadful. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-18"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Size, speed and degree",
+      "say": "Size, speed and degree",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-19"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Instead of...",
+        "Try...",
+        "Note"
+      ],
+      "rows": [
+        [
+          "**very big**",
+          "*enormous, gigantic, massive*",
+          "*Massive* is common in speech."
+        ],
+        [
+          "**very small**",
+          "*tiny, miniature, microscopic*",
+          "*Miniature* is a small copy; *microscopic* is almost invisible."
+        ],
+        [
+          "**very fast**",
+          "*rapid, swift, lightning-fast*",
+          "*Rapid* often describes change or growth."
+        ],
+        [
+          "**very slow**",
+          "*sluggish, leisurely*",
+          "*Sluggish* is negative; *leisurely* is relaxed and pleasant."
+        ],
+        [
+          "**very loud**",
+          "*deafening, thunderous*",
+          "Both describe a very strong sound."
+        ],
+        [
+          "**very quiet**",
+          "*silent, hushed*",
+          "*Silent* means no sound at all."
+        ],
+        [
+          "**very bright**",
+          "*brilliant, dazzling*",
+          "*Dazzling* means too bright to look at."
+        ],
+        [
+          "**very dark**",
+          "*pitch-black, gloomy*",
+          "*Gloomy* is dark and depressing."
+        ],
+        [
+          "**very crowded**",
+          "*packed, overcrowded*",
+          "*Overcrowded* means too many people."
+        ],
+        [
+          "**very empty**",
+          "*deserted, vacant*",
+          "*Deserted* means no people where you expect them; *vacant* means not in use."
+        ],
+        [
+          "**very busy**",
+          "*hectic, swamped*",
+          "*Swamped* means too much work (informal)."
+        ]
+      ],
+      "caption": "Size, speed and degree",
+      "say": "Size, speed and degree. For example: very big means enormous, gigantic, massive. very small means tiny, miniature, microscopic. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-20"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Temperature and condition",
+      "say": "Temperature and condition",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-21"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Instead of...",
+        "Try...",
+        "Note"
+      ],
+      "rows": [
+        [
+          "**very cold**",
+          "*freezing, icy*",
+          "*Freezing* is informal in speech."
+        ],
+        [
+          "**very hot**",
+          "*boiling, scorching*",
+          "*Scorching* is painfully hot weather."
+        ],
+        [
+          "**very clean**",
+          "*spotless, immaculate*",
+          "*Immaculate* is formal."
+        ],
+        [
+          "**very dirty**",
+          "*filthy, grimy*",
+          "*Grimy* means covered in dirt."
+        ],
+        [
+          "**very old**",
+          "*ancient, elderly, outdated*",
+          "*Ancient* for history, *elderly* for polite talk about people, *outdated* for ideas."
+        ],
+        [
+          "**very new**",
+          "*brand-new, cutting-edge*",
+          "*Cutting-edge* means the most advanced."
+        ],
+        [
+          "**very rich**",
+          "*wealthy, affluent*",
+          "*Affluent* is formal."
+        ],
+        [
+          "**very poor**",
+          "*impoverished, penniless*",
+          "*Penniless* means with no money at all."
+        ],
+        [
+          "**very expensive**",
+          "*costly, overpriced*",
+          "*Overpriced* means more than it is worth."
+        ],
+        [
+          "**very cheap**",
+          "*inexpensive, affordable*",
+          "Neither is \"stronger\". They sound more positive, because *cheap* can suggest low quality."
+        ]
+      ],
+      "caption": "Temperature and condition",
+      "say": "Temperature and condition. For example: very cold means freezing, icy. very hot means boiling, scorching. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-22"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "People",
+      "say": "People",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-23"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Instead of...",
+        "Try...",
+        "Note"
+      ],
+      "rows": [
+        [
+          "**very smart**",
+          "*brilliant, intelligent*",
+          "*Brilliant* means exceptional."
+        ],
+        [
+          "**very brave**",
+          "*courageous, fearless*",
+          "*Fearless* means without fear."
+        ],
+        [
+          "**very weak**",
+          "*feeble, frail*",
+          "*Frail* is physically weak, often older people."
+        ],
+        [
+          "**very strong**",
+          "*powerful, robust*",
+          "*Robust* means strong and well built."
+        ],
+        [
+          "**very lazy**",
+          "*idle, lethargic*",
+          "*Idle* means not working; *lethargic* means without energy."
+        ],
+        [
+          "**very kind**",
+          "*compassionate, generous*",
+          "*Compassionate* means caring about others' suffering."
+        ],
+        [
+          "**very polite**",
+          "*courteous, well-mannered*",
+          "*Courteous* is formal."
+        ]
+      ],
+      "caption": "People",
+      "say": "People. For example: very smart means brilliant, intelligent. very brave means courageous, fearless. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-24"
+      }
     },
     {
       "type": "pullquote",
-      "quote": "**\\*A Note on \"Very Depressed\":** *Depressed* is a clinical medical term. Unless you are specifically referring to a clinical mental health condition, words like *despondent*, *down*, *miserable*, or *dejected* are often more accurate and appropriate choices in casual conversation."
+      "quote": "**A note on \"very depressed\":** *Depressed* is a clinical term. Unless you mean a medical condition, words such as *down*, *miserable* or *despondent* are often more accurate in everyday conversation.",
+      "say": "A note on \"very depressed\": Depressed is a clinical term. Unless you mean a medical condition, words such as down, miserable or despondent are often more accurate in everyday conversation.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-25"
+      }
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "Bonus: 20 Advanced Upgrades Learners Love"
+      "level": 2,
+      "text": "When \"very\" is the right choice",
+      "say": "When \"very\" is the right choice",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-26"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "*It was a very good film, but not a masterpiece.* *Very good* shows a high but not extreme level.",
+        "*That's very kind of you.* *Very* is natural and polite here. *Compassionate* would sound odd.",
+        "*I'm very sorry.* This is a fixed polite phrase."
+      ],
+      "say": "It was a very good film, but not a masterpiece. Very good shows a high but not extreme level. That's very kind of you. Very is natural and polite here. Compassionate would sound odd. I'm very sorry. This is a fixed polite phrase.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-27"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Ready to go beyond the basics? Here are 20 additional high-impact adjective upgrades:"
+      "text": "Use a stronger adjective when it is more exact, not to sound more advanced.",
+      "say": "Use a stronger adjective when it is more exact, not to sound more advanced.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-28"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quiz: choose the best word",
+      "say": "Quiz: choose the best word",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-29"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The film was ___ excellent.",
+      "options": [
+        "very",
+        "absolutely",
+        "a bit",
+        "slightly"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Excellent* is an extreme adjective, so use *absolutely*, not *very*.",
+      "say": "The film was excellent. Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-30"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence sounds most natural?",
+      "options": [
+        "I'm very exhausted.",
+        "I'm absolutely exhausted.",
+        "I'm so much exhausted.",
+        "I'm exhausted very."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Exhausted* already means \"extremely tired\". Use *absolutely*, *completely* or *really*.",
+      "say": "Which sentence sounds most natural? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-31"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which adjective means angry about something unfair?",
+      "options": [
+        "annoyed",
+        "outraged",
+        "drained",
+        "dazzling"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Outraged* describes anger at something unfair or shocking.",
+      "say": "Which adjective means angry about something unfair? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-32"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A shop is not expensive. Which word sounds most positive?",
+      "options": [
+        "costly",
+        "overpriced",
+        "affordable",
+        "grimy"
+      ],
+      "correctIndex": 2,
+      "explanation": "*Affordable* is positive. *Overpriced* means too expensive for what you get.",
+      "say": "A shop is not expensive. Which word sounds most positive? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-33"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The street was ___ at midnight. Nobody was there.",
+      "options": [
+        "packed",
+        "deserted",
+        "vacant",
+        "hectic"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Deserted* means there are no people where you expect them.",
+      "say": "The street was at midnight. Nobody was there. Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-34"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "That's ___ kind of you, thank you.",
+      "options": [
+        "very",
+        "compassionate",
+        "courteous",
+        "generous"
+      ],
+      "correctIndex": 0,
+      "explanation": "*Very* is the natural choice here. The other words do not fit this fixed phrase.",
+      "say": "That's kind of you, thank you. Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-35"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Now you try",
+      "say": "Now you try",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-36"
+      }
     },
     {
       "type": "list-item",
       "ordered": true,
       "items": [
-        "**Very scary** → *terrifying*",
-        "**Very funny** → *side-splitting*",
-        "**Very beautiful** → *mesmerizing*",
-        "**Very smart** → *gifted*",
-        "**Very dirty** → *squalid*",
-        "**Very noisy** → *chaotic*",
-        "**Very calm** → *serene*",
-        "**Very kind** → *compassionate*",
-        "**Very polite** → *courteous*",
-        "**Very rude** → *obnoxious*",
-        "**Very strange** → *bizarre*",
-        "**Very obvious** → *evident*",
-        "**Very careful** → *meticulous*",
-        "**Very lucky** → *fortunate*",
-        "**Very unlucky** → *unfortunate*",
-        "**Very painful** → *excruciating*",
-        "**Very dangerous** → *hazardous*",
-        "**Very tasty** → *delicious*",
-        "**Very dry** → *arid*",
-        "**Very wet** → *soaking / soaked*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "🌐 Multilingual Adaptations for FR, RU, IT & EL Learners"
+        "Take five sentences from your journal with *very*. Change one only if a stronger adjective is more exact. Leave the others.",
+        "Describe yesterday aloud for one minute. Use three strong adjectives and one *very*.",
+        "Check your choices with the notes column and decide: is it stronger, more exact, or just more formal?"
+      ],
+      "say": "Take five sentences from your journal with very. Change one only if a stronger adjective is more exact. Leave the others. Describe yesterday aloud for one minute. Use three strong adjectives and one very. Check your choices with the notes column and decide: is it stronger, more exact, or just more formal?",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-37"
+      }
     },
     {
       "type": "paragraph",
-      "text": "In every target language, intermediate learners fall into the habit of relying on a single general intensifier (*très*, *очень*, *molto*, *πολύ*). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:"
+      "text": "Continue with [Everyday Phrases and Natural Alternatives](replace-50-overused-phrases.html) and [Top 10 Everyday Verbs and More Precise Alternatives](top-10-verb-synonyms-intermediate-plateau.html).",
+      "say": "Continue with Everyday Phrases and Natural Alternatives and Top 10 Everyday Verbs and More Precise Alternatives.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-38"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "🇫🇷 French (*très* + adjectif → adjectifs forts)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**très grand** → *immense, gigantesque*",
-        "**très bon** → *excellent, remarquable, formidable*",
-        "**très fatigué** → *épuisé, exténué*",
-        "**très beau** → *superbe, magnifique, splendide*",
-        "**très intéressant** → *passionnant, captivant*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇷🇺 Russian (*очень* + прилагательное → сильные прилагательные)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**очень большой** → *огромный, гигантский*",
-        "**очень хороший** → *отличный, великолепный, превосходный*",
-        "**очень усталый** → *изнуренный, обессиленный*",
-        "**очень красивый** → *прекрасный, изумительный*",
-        "**очень интересный** → *захватывающий, увлекательный*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇮🇹 Italian (*molto* + aggettivo → aggettivi forti)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**molto grande** → *immenso, gigantesco*",
-        "**molto buono** → *eccellente, squisito, ottimo*",
-        "**molto stanco** → *esausto, sinito*",
-        "**molto bello** → *bellissimo, magnifico, splendido*",
-        "**molto interessante** → *affascinante, coinvolgente*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇬🇷 Greek (*πολύ* + επίθετο → ισχυρά επίθετα)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**πολύ μεγάλος** → *τεράστιος, γιγάντιος*",
-        "**πολύ καλός** → *εξαιρετικός, υπέροχος*",
-        "**πολύ κουρασμένος** → *εξαντλημένος, κατάκοπος*",
-        "**πολύ ωραίος / όμορφος** → *πανέμορφος, καταπληκτικός*",
-        "**πολύ ενδιαφέρων** → *συναρπαστικός, καθηλωτικός*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Summary: Practicing Strong Adjectives"
+      "level": 2,
+      "text": "Summary",
+      "say": "Summary",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-39"
+      }
     },
     {
       "type": "paragraph",
-      "text": "When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying *\"I had a very busy day and I am very tired\"*, say **\"I had a hectic day and I am exhausted.\"** Notice how much more vivid and clear your sentence becomes!"
+      "text": "Keep *very* for everyday speech and polite phrases. Choose a stronger adjective when it is more exact, and use *absolutely* or *completely* with extreme adjectives. Always check the meaning, not just the strength.",
+      "say": "Keep very for everyday speech and polite phrases. Choose a stronger adjective when it is more exact, and use absolutely or completely with extreme adjectives. Always check the meaning, not just the strength.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-40"
+      }
     }
   ],
   "draft": false

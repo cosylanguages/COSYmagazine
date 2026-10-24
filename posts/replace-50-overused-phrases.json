@@ -10,16 +10,16 @@
     "title": "Me vs Intermediate Plateau"
   },
   "date": "2026-09-13",
-  "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
+  "title": "Everyday Phrases and Natural Alternatives for B1–B2",
   "kicker": "WORDS",
-  "dek": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
+  "dek": "Choose the right phrase for the situation: agreeing, giving opinions, thanking, apologising and more, with register notes, dialogues and practice.",
   "tags": [
     "Phrases",
     "IntermediatePlateau",
     "Fluency",
     "B1-B2"
   ],
-  "readingTime": 11,
+  "readingTime": 10,
   "podcast": {
     "episode": 2,
     "audioUrl": "audio/replace-50-overused-phrases.mp3"
@@ -44,667 +44,1379 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "When you reach the **intermediate plateau (CEFR B1–B2)**, you can comfortably hold conversations, share opinions, and make yourself understood. However, almost every language teacher notices the same pattern: learners find themselves relying on a tiny cluster of \"safe\" phrases in every single discussion—defaulting over and over to *\"I think...\"*, *\"I agree\"*, *\"It depends\"*, or *\"I don't know\"*."
+      "text": "At B1–B2 you can hold conversations, but you may use the same few phrases every time. That is normal, and simple phrases are often the most natural: *Thanks*, *I think so*, *Sorry about that*. This guide gives you more choices, so you can match the phrase to the situation: who you are talking to, how strong your feeling is, and whether you are speaking or writing.",
+      "say": "At B1–B2 you can hold conversations, but you may use the same few phrases every time. That is normal, and simple phrases are often the most natural: Thanks, I think so, Sorry about that. This guide gives you more choices, so you can match the phrase to the situation: who you are talking to, how strong your feeling is, and whether you are speaking or writing.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Three questions before you choose",
+      "say": "Three questions before you choose",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Who am I talking to?** A friend, a colleague, a customer, a stranger?",
+        "**How strong is my opinion or feeling?** Stronger words change the message.",
+        "**Am I speaking or writing?** Some phrases sound stiff in conversation."
+      ],
+      "say": "Who am I talking to? A friend, a colleague, a customer, a stranger? How strong is my opinion or feeling? Stronger words change the message. Am I speaking or writing? Some phrases sound stiff in conversation.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-2"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Register labels in this guide",
+      "say": "Register labels in this guide",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Informal:** with friends and family, in relaxed talk.",
+        "**Neutral:** safe in most situations.",
+        "**Polite:** softer and more careful, good with people you do not know well.",
+        "**Formal:** writing, emails and official meetings."
+      ],
+      "say": "Informal: with friends and family, in relaxed talk. Neutral: safe in most situations. Polite: softer and more careful, good with people you do not know well. Formal: writing, emails and official meetings.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-4"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Upgrading these daily expressions doesn't require memorizing complex, obscure idioms. By adopting subtle, natural conversational alternatives—and mastering clear **direct contrasts and opposites**—your English immediately sounds more expressive, warm, and authentic."
-    },
-    {
-      "type": "paragraph",
-      "text": "Here are 50 overused intermediate phrases broken down into practical conversational categories, complete with natural upgrades and direct opposites where applicable."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Agreeing & Disagreeing (Direct Opposites)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Expressing agreement or disagreement is the backbone of active conversation. Instead of defaulting to plain *\"I agree\"* or *\"I disagree\"*, try these nuanced alternatives:"
+      "text": "These labels are general guidance. Usage changes between countries, regions and generations, so listen to how people around you speak.",
+      "say": "These labels are general guidance. Usage changes between countries, regions and generations, so listen to how people around you speak.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-5"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "1. I agree ↔ 2. I disagree"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Agree:** *I agree.*\n- **Natural Upgrades:** *I completely agree.* • *Absolutely.* • *I couldn't agree more.* • *That's true.* • *You have a point.*",
-        "**Overused Disagree:** *I disagree.*\n- **Natural Upgrades:** *I'm not so sure.* • *I see it differently.* • *I don't quite agree.* • *I have a different view on this.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "3. It depends"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *It depends.*",
-        "**Natural Upgrades:** *It varies.* • *It really depends on the situation.* • *It isn't that simple.* • *It comes down to...*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "2. Giving Opinions & Stating Uncertainty"
-    },
-    {
-      "type": "paragraph",
-      "text": "Moving beyond a mechanical *\"I think\"* or blunt *\"I don't know\"* adds instant polish to your discussions:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "4. I think..."
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I think...*",
-        "**Natural Upgrades:** *I believe...* • *I'd say...* • *In my opinion...* • *From my point of view...* • *It seems to me...*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "5. I don't know"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I don't know.*",
-        "**Natural Upgrades:** *I'm not sure.* • *It's hard to say.* • *I haven't thought about that.* • *That's a good question.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "6. Maybe"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Maybe.*",
-        "**Natural Upgrades:** *Perhaps.* • *Possibly.* • *There's a chance.* • *It could be.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "3. Affirmation & Refusal (Yes vs. No)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Polite conversations rely on varied ways to say yes, no, or of course:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "7. Of course"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Of course.*",
-        "**Natural Upgrades:** *Absolutely.* • *Definitely.* • *Naturally.* • *Without a doubt.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "8. Yes ↔ 9. No"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Yes:** *Yes.*\n- **Natural Upgrades:** *Certainly.* • *Definitely.* • *Exactly.* • *That's right.*",
-        "**Overused No:** *No.*\n- **Natural Upgrades:** *Not really.* • *I don't think so.* • *I'm afraid not.* • *Not exactly.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4. Courtesy, Apologies & Appreciation"
-    },
-    {
-      "type": "paragraph",
-      "text": "Everyday social etiquette sounds much warmer when you expand your polite toolkit:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "10. Thank you"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Thank you.*",
-        "**Natural Upgrades:** *Thanks a lot.* • *I really appreciate it.* • *That's very kind of you.* • *Much appreciated.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "11. You're welcome"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *You're welcome.*",
-        "**Natural Upgrades:** *No problem.* • *My pleasure.* • *Anytime.* • *Don't mention it.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "12. I'm sorry"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I'm sorry.*",
-        "**Natural Upgrades:** *I apologize.* • *My apologies.* • *I didn't mean to.* • *Sorry about that.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "5. Liking, Disliking & Loving (Direct Opposites)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Instead of relying solely on *\"like\"* or *\"don't like\"*, describe your interests with precision:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "13. I like it ↔ 14. I don't like it"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Like:** *I like it.*\n- **Natural Upgrades:** *I'm a fan of it.* • *I'm really into it.* • *I enjoy it.* • *It's right up my alley.*",
-        "**Overused Dislike:** *I don't like it.*\n- **Natural Upgrades:** *It's not really my thing.* • *I'm not a fan.* • *It doesn't appeal to me.* • *I'm not keen on it.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "15. I love it"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I love it.*",
-        "**Natural Upgrades:** *I'm crazy about it.* • *I'm obsessed with it.* • *I absolutely love it.* • *I can't get enough of it.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "6. Evaluative Judgments (Good vs. Bad / Interesting vs. Boring)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Broad evaluative adjectives carry far more impact when replaced with precise descriptive alternatives:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "16. It's good ↔ 17. It's bad"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Good:** *It's good.*\n- **Natural Upgrades:** *It's great.* • *It's excellent.* • *It's impressive.* • *It's outstanding.*",
-        "**Overused Bad:** *It's bad.*\n- **Natural Upgrades:** *It's disappointing.* • *It's awful.* • *It's poor.* • *It's terrible.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "18. It's interesting ↔ 19. It's boring"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Interesting:** *It's interesting.*\n- **Natural Upgrades:** *It's fascinating.* • *It's intriguing.* • *It's thought-provoking.* • *It's captivating.*",
-        "**Overused Boring:** *It's boring.*\n- **Natural Upgrades:** *It's dull.* • *It's repetitive.* • *It failed to keep my attention.* • *It's uninspiring.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "20. It's important"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *It's important.*",
-        "**Natural Upgrades:** *It's essential.* • *It's crucial.* • *It's vital.* • *It matters a lot.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "21. It's difficult ↔ 22. It's easy"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Difficult:** *It's difficult.*\n- **Natural Upgrades:** *It's challenging.* • *It's demanding.* • *It's complicated.* • *It's tough.*",
-        "**Overused Easy:** *It's easy.*\n- **Natural Upgrades:** *It's straightforward.* • *It's simple.* • *It's manageable.* • *It's a piece of cake (informal).*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "7. Comprehension & Clarification (Direct Opposites)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Clear communication requires smooth signals when listening to others:"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "23. I understand ↔ 24. I don't understand"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Understand:** *I understand.*\n- **Natural Upgrades:** *I see.* • *That makes sense.* • *I get it.* • *I follow you.*",
-        "**Overused Don't Understand:** *I don't understand.*\n- **Natural Upgrades:** *I'm confused.* • *Could you explain that?* • *I'm not following.* • *Could you clarify?*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Discourse Connectors & Structure"
-    },
-    {
-      "type": "paragraph",
-      "text": "Transition words connect ideas logically and keep long turn-taking fluid:"
+      "level": 2,
+      "text": "1. Agreeing, disagreeing and hedging",
+      "say": "1. Agreeing, disagreeing and hedging",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
     },
     {
       "type": "table",
       "headers": [
-        "Basic Connector",
-        "Natural Conversational Upgrades"
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
       ],
       "rows": [
         [
-          "**25. For example...**",
-          "*For instance...* • *Such as...* • *To give an example...*"
+          "I agree.",
+          "I couldn't agree more.",
+          "Neutral",
+          "You fully share the view."
         ],
         [
-          "**26. Also...**",
-          "*In addition...* • *What's more...* • *Besides...* • *Furthermore...*"
+          "I agree.",
+          "That's true. / You have a point.",
+          "Neutral",
+          "You accept a good argument, often before a *but*."
         ],
         [
-          "**27. But...**",
-          "*However...* • *On the other hand...* • *Having said that...* • *Even so...*"
+          "I agree.",
+          "Absolutely. / Exactly.",
+          "Informal",
+          "You want a quick, strong reply."
         ],
         [
-          "**28. Because...**",
-          "*Since...* • *As...* • *Due to the fact that...* • *That's because...*"
+          "I disagree.",
+          "I see it differently.",
+          "Polite",
+          "You disagree without starting an argument."
         ],
         [
-          "**29. So...**",
-          "*Therefore...* • *As a result...* • *Consequently...* • *That's why...*"
+          "I disagree.",
+          "I'm not so sure.",
+          "Polite",
+          "You have doubts, but it is not a direct *no*."
         ],
         [
-          "**30. Finally...**",
-          "*In the end...* • *Ultimately...* • *Lastly...* • *To sum up...*"
+          "I disagree.",
+          "I don't quite agree.",
+          "Polite",
+          "You agree with part of the idea."
+        ],
+        [
+          "It depends.",
+          "It depends on the situation.",
+          "Neutral",
+          "You then say what it depends on."
+        ],
+        [
+          "It depends.",
+          "It isn't that simple.",
+          "Neutral",
+          "The answer has many parts."
+        ],
+        [
+          "It depends.",
+          "It comes down to cost.",
+          "Neutral",
+          "One factor decides the answer."
         ]
-      ]
+      ],
+      "caption": "Agreeing, disagreeing and hedging",
+      "say": "Agreeing, disagreeing and hedging. For example: I agree. means I couldn't agree more.. I agree. means That's true. / You have a point.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-7"
+      }
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "9. Desiring, Needing & Capability (Can vs. Can't)"
+      "level": 2,
+      "text": "2. Giving opinions and showing doubt",
+      "say": "2. Giving opinions and showing doubt",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "I think...",
+          "I believe...",
+          "Neutral–formal",
+          "You feel fairly sure."
+        ],
+        [
+          "I think...",
+          "In my opinion, ... / From my point of view, ...",
+          "Neutral–formal",
+          "You present your view in a discussion or in writing."
+        ],
+        [
+          "I think...",
+          "I'd say...",
+          "Informal–neutral",
+          "You want to sound relaxed and less absolute."
+        ],
+        [
+          "I think...",
+          "It seems to me that...",
+          "Formal",
+          "You give a careful opinion."
+        ],
+        [
+          "I don't know.",
+          "I'm not sure.",
+          "Neutral",
+          "You have an idea, but you doubt it."
+        ],
+        [
+          "I don't know.",
+          "It's hard to say.",
+          "Neutral",
+          "The answer is truly difficult."
+        ],
+        [
+          "I don't know.",
+          "I haven't thought about that.",
+          "Neutral",
+          "The question is new to you."
+        ],
+        [
+          "I don't know.",
+          "Good question.",
+          "Informal–neutral",
+          "You need a moment to think."
+        ],
+        [
+          "Maybe.",
+          "Perhaps. / Possibly.",
+          "Neutral–formal",
+          "You want a more careful word."
+        ],
+        [
+          "Maybe.",
+          "It could be. / There's a chance.",
+          "Neutral",
+          "You mean it is possible."
+        ]
+      ],
+      "caption": "Opinions and doubt",
+      "say": "Opinions and doubt. For example: I think... means I believe.... I think... means In my opinion, ... / From my point of view, .... See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Yes, no and of course",
+      "say": "3. Yes, no and of course",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-10"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "Yes.",
+          "Exactly. / That's right.",
+          "Neutral",
+          "You confirm what someone said."
+        ],
+        [
+          "No.",
+          "Not really.",
+          "Informal–neutral",
+          "You want a softer no."
+        ],
+        [
+          "No.",
+          "I'm afraid not.",
+          "Polite",
+          "You refuse or give bad news politely."
+        ],
+        [
+          "No.",
+          "I don't think so.",
+          "Neutral",
+          "You are not completely sure."
+        ],
+        [
+          "Of course.",
+          "Absolutely. / Definitely.",
+          "Neutral",
+          "You answer with strong confidence."
+        ],
+        [
+          "Of course.",
+          "Naturally.",
+          "Formal",
+          "In writing or formal speech."
+        ]
+      ],
+      "caption": "Yes, no and of course",
+      "say": "Yes, no and of course. For example: Yes. means Exactly. / That's right.. No. means Not really.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Differentiate between basic desires, obligations, and physical or situational ability:"
+      "text": "**Careful:** *Of course* can sound impatient if the answer seems obvious: *Of course I know!* Check your tone.",
+      "say": "Careful: Of course can sound impatient if the answer seems obvious: Of course I know! Check your tone.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-12"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "31. I want..."
+      "level": 2,
+      "text": "4. Courtesy, apologies and requests",
+      "say": "4. Courtesy, apologies and requests",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I want...*",
-        "**Natural Upgrades:** *I'd like...* • *I'm hoping to...* • *I'm looking to...* • *My goal is to...*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "32. I need..."
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I need...*",
-        "**Natural Upgrades:** *I have to...* • *I'm supposed to...* • *It's necessary for me to...* • *I require...*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "33. I can... ↔ 34. I can't..."
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Can:** *I can...*\n- **Natural Upgrades:** *I'm able to...* • *I manage to...* • *I have the opportunity to...*",
-        "**Overused Can't:** *I can't...*\n- **Natural Upgrades:** *I'm unable to...* • *I don't have the chance to...* • *It's impossible for me...*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Quantity, Frequency & Time Horizons (Future vs. Past)"
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "Thank you.",
+          "Thanks a lot.",
+          "Informal",
+          "Friends and everyday situations."
+        ],
+        [
+          "Thank you.",
+          "I really appreciate it.",
+          "Neutral",
+          "You want to show real gratitude."
+        ],
+        [
+          "Thank you.",
+          "That's very kind of you.",
+          "Polite",
+          "Someone offers help or a gift."
+        ],
+        [
+          "Thank you.",
+          "Much appreciated.",
+          "Informal–business",
+          "Short messages and emails."
+        ],
+        [
+          "You're welcome.",
+          "No problem.",
+          "Informal",
+          "A small favour."
+        ],
+        [
+          "You're welcome.",
+          "My pleasure.",
+          "Polite",
+          "Service situations or a favour you enjoyed."
+        ],
+        [
+          "You're welcome.",
+          "Anytime.",
+          "Informal",
+          "You are happy to help again."
+        ],
+        [
+          "I'm sorry.",
+          "Sorry about that.",
+          "Informal",
+          "A small mistake."
+        ],
+        [
+          "I'm sorry.",
+          "I apologise. / My apologies.",
+          "Formal",
+          "Emails and official situations."
+        ],
+        [
+          "Excuse me.",
+          "Sorry to interrupt.",
+          "Polite",
+          "You join a conversation."
+        ],
+        [
+          "Excuse me.",
+          "Would you mind...?",
+          "Polite",
+          "You make a request."
+        ]
+      ],
+      "caption": "Courtesy, apologies and requests",
+      "say": "Courtesy, apologies and requests. For example: Thank you. means Thanks a lot.. Thank you. means I really appreciate it.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-14"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Expressing amounts and time perspectives with precision:"
+      "text": "**Remember:** *Thank you*, *You're welcome*, *I'm sorry* and *Excuse me* are not mistakes. They are the standard phrases. Use alternatives to change the tone, not because the basic phrases are wrong. For a serious mistake, add the reason and what you will do next.",
+      "say": "Remember: Thank you, You're welcome, I'm sorry and Excuse me are not mistakes. They are the standard phrases. Use alternatives to change the tone, not because the basic phrases are wrong. For a serious mistake, add the reason and what you will do next.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-15"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "35. A lot of..."
+      "level": 2,
+      "text": "5. Likes, dislikes and strong feelings",
+      "say": "5. Likes, dislikes and strong feelings",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-16"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *A lot of...*",
-        "**Natural Upgrades:** *Plenty of...* • *Numerous...* • *A great deal of...* • *Tons of (informal).*"
-      ]
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "I like it.",
+          "I enjoy it.",
+          "Neutral",
+          "You mean an activity or experience."
+        ],
+        [
+          "I like it.",
+          "I'm into it. / I'm a fan of it.",
+          "Informal",
+          "With friends."
+        ],
+        [
+          "I like it.",
+          "It's right up my alley.",
+          "Informal idiom",
+          "It suits your interests."
+        ],
+        [
+          "I don't like it.",
+          "It's not really my thing.",
+          "Informal",
+          "You want a gentle way to refuse."
+        ],
+        [
+          "I don't like it.",
+          "It doesn't appeal to me.",
+          "Neutral",
+          "You are explaining your taste."
+        ],
+        [
+          "I don't like it.",
+          "I'm not keen on it.",
+          "Neutral (British)",
+          "You are a little negative."
+        ],
+        [
+          "I love it.",
+          "I'm crazy about it.",
+          "Informal",
+          "You are very enthusiastic."
+        ],
+        [
+          "I love it.",
+          "I can't get enough of it.",
+          "Informal",
+          "Food, music, hobbies."
+        ],
+        [
+          "I love it.",
+          "I absolutely love it.",
+          "Neutral",
+          "You want a stronger version."
+        ]
+      ],
+      "caption": "Likes and dislikes",
+      "say": "Likes and dislikes. For example: I like it. means I enjoy it.. I like it. means I'm into it. / I'm a fan of it.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-17"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "36. Very often ↔ 37. Sometimes ↔ 38. Never"
+      "level": 2,
+      "text": "6. Important, difficult, easy and understanding",
+      "say": "6. Important, difficult, easy and understanding",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-18"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Very Often:** *Very often.* → *Frequently.* • *Regularly.* • *Quite often.* • *Time and again.*",
-        "**Overused Sometimes:** *Sometimes.* → *From time to time.* • *Every now and then.* • *Occasionally.*",
-        "**Overused Never:** *Never.* → *Not once.* • *Under no circumstances.* • *At no time.*"
-      ]
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "It's important.",
+          "It's essential. / It's crucial. / It's vital.",
+          "Neutral",
+          "Strong need. See the adjectives guide for notes."
+        ],
+        [
+          "It's difficult.",
+          "It's challenging.",
+          "Neutral",
+          "You see it as a positive difficulty."
+        ],
+        [
+          "It's difficult.",
+          "It's complicated.",
+          "Neutral",
+          "It has many parts."
+        ],
+        [
+          "It's difficult.",
+          "It's tough.",
+          "Informal",
+          "It is hard to deal with."
+        ],
+        [
+          "It's easy.",
+          "It's straightforward.",
+          "Neutral",
+          "It is simple to do or understand."
+        ],
+        [
+          "It's easy.",
+          "It's manageable.",
+          "Neutral",
+          "You can deal with it, not necessarily easily."
+        ],
+        [
+          "It's easy.",
+          "It's a piece of cake.",
+          "Informal idiom",
+          "Very easy."
+        ],
+        [
+          "I understand.",
+          "I see. / That makes sense.",
+          "Neutral",
+          "You show you follow the speaker."
+        ],
+        [
+          "I understand.",
+          "I get it.",
+          "Informal",
+          "Friends and relaxed talk."
+        ],
+        [
+          "I don't understand.",
+          "Could you explain that?",
+          "Polite",
+          "You need more information."
+        ],
+        [
+          "I don't understand.",
+          "Could you clarify?",
+          "Formal",
+          "Meetings and work."
+        ],
+        [
+          "I don't understand.",
+          "I'm not following.",
+          "Neutral",
+          "You lost the thread."
+        ]
+      ],
+      "caption": "Important, difficult, easy and understanding",
+      "say": "Important, difficult, easy and understanding. For example: It's important. means It's essential. / It's crucial. / It's vital.. It's difficult. means It's challenging.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-19"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "39. Every day"
+      "level": 2,
+      "text": "7. Connecting your ideas",
+      "say": "7. Connecting your ideas",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-20"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Every day.*",
-        "**Natural Upgrades:** *On a daily basis.* • *Day after day.* • *Each day.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "40. In the future ↔ 41. In the past"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused Future:** *In the future.*\n- **Natural Upgrades:** *Going forward.* • *Down the road.* • *Eventually.* • *In years to come.*",
-        "**Overused Past:** *In the past.*\n- **Natural Upgrades:** *Previously.* • *Back then.* • *In earlier times.* • *Once upon a time (stories).*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "11. Closing, Questions & Interactions"
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "For example...",
+          "For instance...",
+          "Neutral–formal",
+          "You add an example."
+        ],
+        [
+          "Also...",
+          "In addition... / Furthermore...",
+          "Formal",
+          "Writing and formal talk."
+        ],
+        [
+          "Also...",
+          "What's more...",
+          "Neutral",
+          "You add a stronger point."
+        ],
+        [
+          "Also...",
+          "Besides...",
+          "Informal",
+          "You add another reason."
+        ],
+        [
+          "But...",
+          "However...",
+          "Formal",
+          "You start a new sentence with contrast."
+        ],
+        [
+          "But...",
+          "On the other hand...",
+          "Neutral",
+          "You compare two sides."
+        ],
+        [
+          "But...",
+          "Having said that... / Even so...",
+          "Neutral",
+          "You accept a point and then add a limit."
+        ],
+        [
+          "Because...",
+          "Since... / As...",
+          "Formal",
+          "The reason is already known."
+        ],
+        [
+          "Because...",
+          "That's because...",
+          "Neutral",
+          "You explain what you just said."
+        ],
+        [
+          "So...",
+          "Therefore... / Consequently...",
+          "Formal",
+          "Writing and formal talk."
+        ],
+        [
+          "So...",
+          "As a result... / That's why...",
+          "Neutral",
+          "You show a result."
+        ],
+        [
+          "Finally...",
+          "Lastly... / To sum up...",
+          "Neutral",
+          "You end a list or a talk."
+        ]
+      ],
+      "caption": "Connectors",
+      "say": "Connectors. For example: For example... means For instance.... Also... means In addition... / Furthermore.... See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-21"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Wrapping up thoughts, prompting others, and reacting in real time:"
+      "text": "**Remember:** *however* and *therefore* normally start a new sentence or follow a semicolon. *But* and *so* join two clauses in the same sentence.",
+      "say": "Remember: however and therefore normally start a new sentence or follow a semicolon. But and so join two clauses in the same sentence.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-22"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "42. That's all"
+      "level": 2,
+      "text": "8. Wants, needs and ability",
+      "say": "8. Wants, needs and ability",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-23"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *That's all.*",
-        "**Natural Upgrades:** *That's about it.* • *That's everything.* • *That's pretty much it.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "43. What do you think?"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *What do you think?*",
-        "**Natural Upgrades:** *What's your opinion?* • *How do you see it?* • *What's your take on this?*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "44. Really?"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Really?*",
-        "**Natural Upgrades:** *Is that so?* • *Seriously?* • *No way!* • *You're kidding!*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "45. I hope so"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I hope so.*",
-        "**Natural Upgrades:** *Fingers crossed.* • *Let us hope so.* • *I'm optimistic.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "46. Good luck!"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Good luck!*",
-        "**Natural Upgrades:** *Best of luck!* • *Wish you all the best!* • *I'm rooting for you!*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "47. Be careful"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Be careful.*",
-        "**Natural Upgrades:** *Watch out.* • *Take care.* • *Stay safe.* • *Be cautious.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "48. Excuse me"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *Excuse me.*",
-        "**Natural Upgrades:** *Pardon me.* • *Sorry to interrupt.* • *May I ask...?* • *Would you mind...?*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "49. I don't care"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *I don't care.*",
-        "**Natural Upgrades:** *It doesn't matter to me.* • *I'm fine either way.* • *I don't mind.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "50. That's amazing!"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Overused:** *That's amazing!*",
-        "**Natural Upgrades:** *That's incredible!* • *That's impressive!* • *That's unbelievable!* • *That's fantastic!*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "🌐 Multilingual Adaptations for FR, RU, IT & EL Learners"
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "I want...",
+          "I'd like...",
+          "Polite",
+          "Requests, shops, restaurants."
+        ],
+        [
+          "I want...",
+          "I'm hoping to...",
+          "Neutral",
+          "You have a plan but are not sure."
+        ],
+        [
+          "I want...",
+          "My goal is to...",
+          "Neutral–formal",
+          "You state a clear aim."
+        ],
+        [
+          "I need...",
+          "I have to...",
+          "Neutral",
+          "Someone or something forces you."
+        ],
+        [
+          "I need...",
+          "I'm supposed to...",
+          "Neutral",
+          "You are expected to. The meaning is different."
+        ],
+        [
+          "I can...",
+          "I'm able to...",
+          "Formal",
+          "You stress ability."
+        ],
+        [
+          "I can...",
+          "I manage to...",
+          "Neutral",
+          "You succeed, often with effort. The meaning is different."
+        ],
+        [
+          "I can't...",
+          "I'm unable to...",
+          "Formal",
+          "Emails: *I'm unable to attend*."
+        ]
+      ],
+      "caption": "Wants, needs and ability",
+      "say": "Wants, needs and ability. For example: I want... means I'd like.... I want... means I'm hoping to.... See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-24"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Every language has its own overused intermediate safety phrases and natural B1–B2 conversational upgrades. Here is how to express these key concepts in French, Russian, Italian, and Greek:"
+      "text": "**Careful:** *need* is fine and common. Phrases like *I'm supposed to* and *I manage to* do not mean the same thing, so only use them when the new meaning is what you want.",
+      "say": "Careful: need is fine and common. Phrases like I'm supposed to and I manage to do not mean the same thing, so only use them when the new meaning is what you want.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-25"
+      }
     },
     {
       "type": "heading",
-      "level": 4,
-      "text": "🇫🇷 French (Phrases fréquentes & Opposés)"
+      "level": 2,
+      "text": "9. Quantity, frequency and time",
+      "say": "9. Quantity, frequency and time",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-26"
+      }
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**D'accord ↔ Pas d'accord:** *Je suis d'accord.* → *Tout à fait.* / *Absolument.* / *Je partage votre avis.* ↔ *Je ne suis pas si sûr(e).* / *Je vois les choses différemment.*",
-        "**Je pense...:** *Je pense que...* → *À mon avis...* / *Selon moi...* / *Il me semble que...*",
-        "**Ça dépend:** *Ça dépend.* → *Ça varie.* / *Cela dépend de la situation.* / *Ce n'est pas si simple.*",
-        "**Je ne sais pas:** *Je ne sais pas.* → *C'est difficile à dire.* / *Je ne suis pas sûr(e).*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇷🇺 Russian (Частые фразы и противоположности)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Согласен ↔ Не согласен:** *Я согласен.* → *Совершенно верно.* / *Полностью согласен.* / *Вы правы.* ↔ *Я не совсем уверен.* / *Я смотрю на это иначе.*",
-        "**Я думаю...:** *Я думаю, что...* → *На мой взгляд...* / *Мне кажется, что...* / *По-моему...*",
-        "**Зависит:** *Это зависит.* → *По-разному.* / *Всё зависит от обстоятельств.*",
-        "**Не знаю:** *Я не знаю.* → *Сложно сказать.* / *Хороший вопрос.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇮🇹 Italian (Frasi comuni e opposti)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**D'accordo ↔ Non d'accordo:** *Sono d'accordo.* → *Sono assolutamente d'accordo.* / *Hai ragione.* / *Condivido in pieno.* ↔ *Non ne sono così sicuro/a.* / *La vedo diversamente.*",
-        "**Penso...:** *Penso che...* → *A mio parere...* / *Secondo me...* / *Mi sembra che...*",
-        "**Dipende:** *Dipende.* → *Cambia da caso a caso.* / *Dipende dalle circostanze.*",
-        "**Non so:** *Non lo so.* → *È difficile da dire.* / *È una buona domanda.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "🇬🇷 Greek (Συχνές φράσεις & Αντίθετα)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Συμφωνώ ↔ Διαφωνώ:** *Συμφωνώ.* → *Συμφωνώ απόλυτα.* / *Έχεις δίκιο.* ↔ *Δεν είμαι τόσο σίγουρος/η.* / *Το βλέπω διαφορετικά.*",
-        "**Νομίζω...:** *Νομίζω ότι...* → *Κατά τη γνώμη μου...* / *Από τη δική μου πλευρά...* / *Μου φαίνεται ότι...*",
-        "**Εξαρτάται:** *Εξαρτάται.* → *Ποικίλλει.* / *Εξαρτάται από την περίπτωση.*",
-        "**Δεν ξέρω:** *Δεν ξέρω.* → *Δύσκολο να πω.* / *Καλή ερώτηση.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Summary Practice: A Natural Upgrade in Action"
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "a lot of...",
+          "plenty of...",
+          "Neutral",
+          "You mean enough or more than enough."
+        ],
+        [
+          "a lot of...",
+          "numerous...",
+          "Formal",
+          "With plural countable nouns."
+        ],
+        [
+          "a lot of...",
+          "a great deal of...",
+          "Formal",
+          "With uncountable nouns."
+        ],
+        [
+          "a lot of...",
+          "tons of...",
+          "Informal",
+          "Relaxed talk."
+        ],
+        [
+          "very often",
+          "frequently",
+          "Neutral–formal",
+          "Writing."
+        ],
+        [
+          "very often",
+          "regularly",
+          "Neutral",
+          "It happens at fixed times."
+        ],
+        [
+          "very often",
+          "time and again",
+          "Neutral",
+          "It keeps happening, often with annoyance."
+        ],
+        [
+          "sometimes",
+          "from time to time / every now and then",
+          "Neutral",
+          "Not often."
+        ],
+        [
+          "sometimes",
+          "occasionally",
+          "Formal",
+          "Writing."
+        ],
+        [
+          "every day",
+          "each day",
+          "Neutral",
+          "General statements."
+        ],
+        [
+          "every day",
+          "on a daily basis",
+          "Formal",
+          "Reports and emails."
+        ],
+        [
+          "every day",
+          "day after day",
+          "Neutral",
+          "It repeats, often with a negative feeling."
+        ],
+        [
+          "in the future",
+          "eventually",
+          "Neutral",
+          "Something happens at the end of a long time."
+        ],
+        [
+          "in the future",
+          "down the road",
+          "Informal",
+          "Some time later."
+        ],
+        [
+          "in the future",
+          "going forward",
+          "Business",
+          "Plans from now on."
+        ],
+        [
+          "in the past",
+          "back then",
+          "Informal",
+          "You talk about a specific earlier period."
+        ],
+        [
+          "in the past",
+          "previously",
+          "Formal",
+          "Writing."
+        ]
+      ],
+      "caption": "Quantity, frequency and time",
+      "say": "Quantity, frequency and time. For example: a lot of... means plenty of.... a lot of... means numerous.... See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-27"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Notice how replacing just a few generic phrases changes the tone of a real conversation:"
+      "text": "**Careful:** *never* is not the same as *under no circumstances*. The second phrase is a strong rule: *Under no circumstances open this door.*",
+      "say": "Careful: never is not the same as under no circumstances. The second phrase is a strong rule: Under no circumstances open this door.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-28"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10. Reactions and closing",
+      "say": "10. Reactions and closing",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-29"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Everyday phrase",
+        "Alternative",
+        "Register",
+        "Use it when..."
+      ],
+      "rows": [
+        [
+          "That's all.",
+          "That's about it. / That's pretty much it.",
+          "Informal",
+          "You finish speaking."
+        ],
+        [
+          "What do you think?",
+          "What's your opinion?",
+          "Neutral",
+          "Asking for a view."
+        ],
+        [
+          "What do you think?",
+          "How do you see it? / What's your take on this?",
+          "Informal",
+          "Relaxed or business talk."
+        ],
+        [
+          "Really?",
+          "Seriously? / No way!",
+          "Informal",
+          "You are surprised."
+        ],
+        [
+          "Really?",
+          "Is that so?",
+          "Formal",
+          "You show polite interest. It can sound ironic."
+        ],
+        [
+          "I hope so.",
+          "Fingers crossed.",
+          "Informal",
+          "You hope for good luck."
+        ],
+        [
+          "I hope so.",
+          "Let's hope so.",
+          "Neutral",
+          "You share the hope."
+        ],
+        [
+          "Good luck!",
+          "Best of luck! / All the best!",
+          "Neutral",
+          "A warm wish."
+        ],
+        [
+          "Good luck!",
+          "I'm rooting for you!",
+          "Informal",
+          "You support someone."
+        ],
+        [
+          "Be careful.",
+          "Watch out!",
+          "Informal",
+          "Danger now."
+        ],
+        [
+          "Be careful.",
+          "Take care. / Stay safe.",
+          "Neutral",
+          "General care, also a goodbye."
+        ],
+        [
+          "I don't care.",
+          "I don't mind. / I'm fine either way.",
+          "Polite",
+          "You are flexible."
+        ],
+        [
+          "I don't care.",
+          "It doesn't matter to me.",
+          "Neutral",
+          "It has no effect on you."
+        ],
+        [
+          "That's amazing!",
+          "That's incredible! / That's impressive!",
+          "Neutral",
+          "You admire something."
+        ]
+      ],
+      "caption": "Reactions and closing",
+      "say": "Reactions and closing. For example: That's all. means That's about it. / That's pretty much it.. What do you think? means What's your opinion?. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-30"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Same meaning, different social effect",
+      "say": "Same meaning, different social effect",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-31"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Phrase",
+        "How it sounds"
+      ],
+      "rows": [
+        [
+          "What?",
+          "Blunt. It can sound rude."
+        ],
+        [
+          "Sorry?",
+          "Polite and neutral."
+        ],
+        [
+          "Could you say that again, please?",
+          "Polite and clear."
+        ],
+        [
+          "Come again?",
+          "Informal and friendly."
+        ],
+        [
+          "I don't care.",
+          "Can sound rude or uninterested."
+        ],
+        [
+          "I don't mind.",
+          "Polite. You are flexible."
+        ],
+        [
+          "It doesn't matter to me.",
+          "Neutral."
+        ]
+      ],
+      "caption": "Asking someone to repeat, and saying you are flexible",
+      "say": "Asking someone to repeat, and saying you are flexible. For example: What? means Blunt. It can sound rude.. Sorry? means Polite and neutral.. See the full table on the page.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "target": "#block-32"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Two short dialogues",
+      "say": "Two short dialogues",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-33"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "**At work (formal):**",
+      "say": "At work (formal):",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-34"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Manager:** What's your take on the new plan?",
+        "**Sam:** From my point of view, it's a good idea, but it comes down to the budget.",
+        "**Manager:** I see it differently. I think we should wait.",
+        "**Sam:** That's true, you have a point. Could you clarify the timeline?"
+      ],
+      "say": "Manager: What's your take on the new plan? Sam: From my point of view, it's a good idea, but it comes down to the budget. Manager: I see it differently. I think we should wait. Sam: That's true, you have a point. Could you clarify the timeline?",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-35"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "**With friends (informal):**",
+      "say": "With friends (informal):",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-36"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ana:** Do you like the new café?",
+        "**Ben:** Honestly, it's not really my thing. It's pretty loud.",
+        "**Ana:** Really? I'm a fan of the coffee.",
+        "**Ben:** Fair enough. Thanks for showing me, anyway.",
+        "**Ana:** No problem."
+      ],
+      "say": "Ana: Do you like the new café? Ben: Honestly, it's not really my thing. It's pretty loud. Ana: Really? I'm a fan of the coffee. Ben: Fair enough. Thanks for showing me, anyway. Ana: No problem.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-37"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A natural upgrade in action",
+      "say": "A natural upgrade in action",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-38"
+      }
     },
     {
       "type": "pullquote",
-      "quote": "**Before (Repetitive B1):**\n*\"I think this proposal is good. I agree with you, but it depends on the budget. In the future, I want to do this.\"*"
+      "quote": "**Before:**\n*\"I think this proposal is good. I agree with you, but it depends on the budget. In the future, I want to do this.\"*",
+      "say": "Before: \"I think this proposal is good. I agree with you, but it depends on the budget. In the future, I want to do this.\"",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-39"
+      }
     },
     {
       "type": "pullquote",
-      "quote": "**After (Upgraded B2):**\n*\"From my point of view, this proposal is impressive. I couldn't agree more, though it really comes down to the budget. Going forward, I'm hoping to move this forward.\"*"
+      "quote": "**After:**\n*\"In my opinion, this is a good proposal. You have a point, though it comes down to the budget. Down the road, I'd like to do this.\"*",
+      "say": "After: \"In my opinion, this is a good proposal. You have a point, though it comes down to the budget. Down the road, I'd like to do this.\"",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-40"
+      }
     },
     {
       "type": "paragraph",
-      "text": "Try picking **three phrases** from this list every week and actively applying them during your speaking club or writing practice!"
+      "text": "The meaning stays the same. The phrases only fit the situation better.",
+      "say": "The meaning stays the same. The phrases only fit the situation better.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-41"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quiz: choose the best phrase",
+      "say": "Quiz: choose the best phrase",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-42"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In a work meeting your manager asks for your opinion. Which phrase fits best?",
+      "options": [
+        "Dunno.",
+        "From my point of view, ...",
+        "No way!",
+        "I reckon it's rubbish."
+      ],
+      "correctIndex": 1,
+      "explanation": "*From my point of view* is neutral to formal, so it suits a meeting.",
+      "say": "In a work meeting your manager asks for your opinion. Which phrase fits best? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-43"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A friend thanks you for a small favour. A natural informal reply is:",
+      "options": [
+        "It was my honour.",
+        "I apologise.",
+        "No problem.",
+        "You are welcome, sir."
+      ],
+      "correctIndex": 2,
+      "explanation": "*No problem* is informal and common for small favours.",
+      "say": "A friend thanks you for a small favour. A natural informal reply is: Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-44"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which phrase often shows that you accept part of an argument?",
+      "options": [
+        "You have a point.",
+        "I couldn't agree more.",
+        "Absolutely.",
+        "Exactly."
+      ],
+      "correctIndex": 0,
+      "explanation": "*You have a point* often comes before *but* or *though*.",
+      "say": "Which phrase often shows that you accept part of an argument? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-45"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which reply is the most polite way to say you do not mind which restaurant?",
+      "options": [
+        "I don't care.",
+        "Whatever.",
+        "I don't mind.",
+        "It's not important."
+      ],
+      "correctIndex": 2,
+      "explanation": "*I don't mind* is polite and shows you are flexible. *I don't care* can sound rude.",
+      "say": "Which reply is the most polite way to say you do not mind which restaurant? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-46"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "You cannot come to a meeting. In a formal email you write:",
+      "options": [
+        "No way.",
+        "I can't, sorry.",
+        "I'm unable to attend.",
+        "I won't."
+      ],
+      "correctIndex": 2,
+      "explanation": "*I'm unable to attend* is formal and suitable for emails.",
+      "say": "You cannot come to a meeting. In a formal email you write: Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-47"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which phrase shows you are following the speaker?",
+      "options": [
+        "I see.",
+        "I'm confused.",
+        "I don't care.",
+        "Really?"
+      ],
+      "correctIndex": 0,
+      "explanation": "*I see* tells the speaker you understand.",
+      "say": "Which phrase shows you are following the speaker? Think about it, then check the answer on the page.",
+      "beat": {
+        "duration": 1500,
+        "camera": "pan-zoom",
+        "target": "#block-48"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Now you try",
+      "say": "Now you try",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "target": "#block-49"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Pick **three** phrases from this guide each week. Use them in a speaking club, in messages or in writing.",
+        "Take the work dialogue and rewrite it for friends. Which phrases change?",
+        "Record yourself for one minute giving an opinion. Use one phrase for agreeing, one for doubt and one for a reaction."
+      ],
+      "say": "Pick three phrases from this guide each week. Use them in a speaking club, in messages or in writing. Take the work dialogue and rewrite it for friends. Which phrases change? Record yourself for one minute giving an opinion. Use one phrase for agreeing, one for doubt and one for a reaction.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-50"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Continue with [Stronger Adjectives: When \"Very\" Is Not Enough](replace-very-50-stronger-adjectives.html) and [Top 10 Everyday Verbs and More Precise Alternatives](top-10-verb-synonyms-intermediate-plateau.html).",
+      "say": "Continue with Stronger Adjectives: When \"Very\" Is Not Enough and Top 10 Everyday Verbs and More Precise Alternatives.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-51"
+      }
     }
   ],
   "draft": false
