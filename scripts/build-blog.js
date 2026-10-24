@@ -201,15 +201,16 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
       const headers = block.headers || [];
       const rows = block.rows || [];
 
-      const headersHtml = headers.map(h => `<th>${parseFormattedText(h)}</th>`).join('');
+      const headersHtml = headers.map(h => `<th scope="col">${parseFormattedText(h)}</th>`).join('');
       const rowsHtml = rows.map(row => {
         const cellsHtml = row.map(cell => `<td>${parseFormattedText(cell)}</td>`).join('');
         return `<tr>${cellsHtml}</tr>`;
       }).join('\n');
 
       return `
-<div class="table-responsive-container">
+<div class="table-responsive-container" tabindex="0" role="region" aria-label="${escapeHtml(block.caption || 'Table')}">
   <table class="gazette-editorial-table">
+    ${block.caption ? `<caption>${parseFormattedText(block.caption)}</caption>` : ''}
     ${headers.length > 0 ? `<thead><tr>${headersHtml}</tr></thead>` : ''}
     <tbody>
       ${rowsHtml}
@@ -248,15 +249,21 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
 </figure>`;
     }
     case 'quiz': {
-      const optionsHtml = (block.options || []).map((opt, i) => `
-        <button type="button" class="quiz-option-btn${i === block.correctIndex ? ' correct-option' : ''}">
-          <span>${i === block.correctIndex ? '✅' : '⚪'}</span> ${parseFormattedText(opt)}
+      // Static fallback shows the answer; js/quiz.js hides it and makes the quiz interactive.
+      const optionsHtml = (block.options || []).map((opt, i) => {
+        const isCorrect = i === block.correctIndex;
+        return `
+        <button type="button" class="quiz-option-btn" data-correct="${isCorrect ? 'true' : 'false'}">
+          <span class="quiz-mark" aria-hidden="true">${isCorrect ? '\u2705' : '\u26AA'}</span> ${parseFormattedText(opt)}
         </button>
-      `).join('');
+      `;
+      }).join('');
+      const questionLabel = escapeHtml(String(block.question || '').replace(/[*_`]/g, ''));
       return `
 <div class="gazette-quiz-card">
-  <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
-  <div class="quiz-options-list">${optionsHtml}</div>
+  <p class="quiz-question">\u2753 ${parseFormattedText(block.question)}</p>
+  <div class="quiz-options-list" role="group" aria-label="${questionLabel}">${optionsHtml}</div>
+  <p class="quiz-feedback" role="status" aria-live="polite"></p>
   ${block.explanation ? `<p class="quiz-explanation">${parseFormattedText(block.explanation)}</p>` : ''}
 </div>`;
     }
@@ -676,6 +683,7 @@ async function buildBlog() {
 
     <script src="js/shell.js"></script>
     <script src="js/flipbook.js"></script>
+    <script src="js/quiz.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
 

@@ -58,7 +58,7 @@ In addition, **every block MAY include optional stage direction fields**:
 4. **`table`**
    - `headers` (`string[]`): Table header column labels.
    - `rows` (`string[][]`): Table row cells array.
-   - `caption` (`string`, optional): Display caption text.
+   - `caption` (`string`, optional): Display caption text (rendered as the table caption and used as its accessible label).
 5. **`example`**
    - `targetText` (`string`): Sentence or phrase in the target language.
    - `gloss` (`string`): Monolingual explanation or structural gloss.
