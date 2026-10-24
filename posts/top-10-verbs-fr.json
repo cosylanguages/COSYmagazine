@@ -11,16 +11,16 @@
     "title": "Get ready for school"
   },
   "date": "2026-03-01",
-  "title": "Les 10 verbes essentiels en français pour débutants (A0–A1 / A2)",
+  "title": "Les 10 verbes essentiels en français pour débutants, partie 1 (A0–A1 / A2)",
   "kicker": "GUIDE DU FRANÇAIS — PARTIE 1 SUR 2",
-  "dek": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, aller/futur proche, pouvoir, manger, boire). Conjugaisons consultables sur COSYtools.",
+  "dek": "Être, avoir, penser, savoir et connaître, aimer, vouloir, aller, pouvoir, manger et boire : dix verbes, dix leçons complètes. Formes, phrases utiles, schémas clairs, erreurs fréquentes et quiz, pour débutants (A0–A1) avec un pas de plus pour le A2.",
   "tags": [
     "Verbs",
     "French",
     "A0-A1",
     "14Languages"
   ],
-  "readingTime": 10,
+  "readingTime": 52,
   "podcast": {
     "episode": 2,
     "audioUrl": null
@@ -44,110 +44,2825 @@
   },
   "blocks": [
     {
+      "type": "heading",
+      "level": 2,
+      "text": "Pour commencer : dix verbes, une boîte à outils",
+      "id": "start"
+    },
+    {
       "type": "paragraph",
-      "text": "Bienvenue dans la Partie 1 de notre série en 2 parties sur les verbes essentiels en français pour les niveaux A0–A1 et A2 ! Ce guide présente des phrases simples adaptées à l'apprentissage pratique. (Consultez aussi la [Partie 2](top-10-verbs-part-2-fr.html)). Les tableaux complets de conjugaison sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Avec dix verbes, vous pouvez déjà faire beaucoup de choses en français. Vous pouvez dire qui vous êtes (**être**), ce que vous avez (**avoir**), ce que vous pensez et savez (**penser, savoir, connaître**), ce que vous aimez et voulez (**aimer, vouloir**), où vous allez (**aller**), ce que vous pouvez faire (**pouvoir**), et commander à **manger** et à **boire**."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque verbe a sa double page : les formes, les phrases utiles, les erreurs fréquentes et un petit quiz. Les dix verbes sont ceux de l’épisode du podcast. Le lecteur est au-dessus des pages dès que l’épisode est disponible : vous pouvez écouter d’abord, puis lire."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Toutes les phrases de ce numéro sont construites de la même façon</p><div class=\"lx-engine-row\">\n       <div><span class=\"lx-label\">Qui ?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">je</li><li class=\"lx-chip \">tu</li><li class=\"lx-chip \">il</li><li class=\"lx-chip \">elle</li><li class=\"lx-chip \">on</li><li class=\"lx-chip \">nous</li><li class=\"lx-chip \">vous</li><li class=\"lx-chip \">ils</li><li class=\"lx-chip \">elles</li></ul></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">Quel verbe ?</span><ul class=\"lx-chips\"><li class=\"lx-chip lx-chip-verb\">être</li><li class=\"lx-chip lx-chip-verb\">avoir</li><li class=\"lx-chip lx-chip-verb\">penser</li><li class=\"lx-chip lx-chip-verb\">savoir</li><li class=\"lx-chip lx-chip-verb\">connaître</li><li class=\"lx-chip lx-chip-verb\">aimer</li><li class=\"lx-chip lx-chip-verb\">vouloir</li><li class=\"lx-chip lx-chip-verb\">aller</li><li class=\"lx-chip lx-chip-verb\">pouvoir</li><li class=\"lx-chip lx-chip-verb\">manger</li><li class=\"lx-chip lx-chip-verb\">boire</li></ul></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">Quoi ?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">professeur</li><li class=\"lx-chip \">fatigué</li><li class=\"lx-chip \">une voiture</li><li class=\"lx-chip \">que c’est bon</li><li class=\"lx-chip \">la réponse</li><li class=\"lx-chip \">le café</li><li class=\"lx-chip \">apprendre</li><li class=\"lx-chip \">à Paris</li><li class=\"lx-chip \">nager</li><li class=\"lx-chip \">du pain</li></ul></div>\n     </div><figcaption class=\"lx-cap\">Changez une partie et vous obtenez une nouvelle phrase : <em>J’aime le café. Elle veut un café. Ils peuvent boire du café.</em></figcaption></figure>",
+      "say": "Toutes les phrases sont construites de la même façon : qui, plus un verbe, plus quoi. Par exemple : j’aime le café. Elle veut un café. Ils peuvent boire du café."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Les 10 verbes fondamentaux (Partie 1)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Être:** Identité, état et lieu.\n  • *Phrases simples:* 'Je suis étudiant', 'Il est à la maison', 'Nous sommes prêts'.\n  • *Expressions:* 'être à l'heure', 'être d'accord', 'être en forme'.",
-        "**2. Avoir:** Possession, âge et sensations.\n  • *Phrases simples:* 'J'ai une voiture', 'J'ai 25 ans', 'J'ai faim'.\n  • *Expressions:* 'avoir besoin de', 'avoir envie de', 'avoir peur'.",
-        "**3. Penser:** Opinion et réflexion.\n  • *Phrases simples:* 'Je pense que oui', 'Qu'en penses-tu ?', 'Je pense à toi'.\n  • *Expressions:* 'penser à', 'penser de', 'bien penser'.",
-        "**4. Savoir / Connaître:** Faits, compétences et lieux/personnes.\n  • *Phrases simples:* 'Je sais parler français', 'Je connais cette ville'.\n  • *Expressions:* 'savoir faire', 'faire savoir', 'connaître du monde'.",
-        "**5. Aimer:** Goûts et préférences.\n  • *Phrases simples:* 'J'aime le café', 'J'aime voyager', 'Il aime le sport'.\n  • *Expressions:* 'aimer bien', 'aimer beaucoup', 'j'aimerais'.",
-        "**6. Vouloir / Voudrais:** Souhaits et politesse.\n  • *Phrases simples:* 'Je veux de l'eau', 'Je voudrais réserver une table'.\n  • *Expressions:* 'vouloir dire', 'si vous voulez', 'je voudrais bien'.",
-        "**7. Aller / Futur proche:** Déplacement et futur immédiat.\n  • *Phrases simples:* 'Je vais au travail', 'Elle va à Paris', 'Nous allons manger'.\n  • *Expressions:* 'comment ça va ?', 'y aller', 'aller à pied'.",
-        "**8. Pouvoir:** Capacité et permission.\n  • *Phrases simples:* 'Je peux vous aider ?', 'Tu peux venir ?'.\n  • *Expressions:* 'pouvoir faire', 'si possible', 'comme vous pouvez'.",
-        "**9. Manger:** Alimentation et repas.\n  • *Phrases simples:* 'Je mange une pomme', 'Qu'est-ce qu'on mange ?'.\n  • *Expressions:* 'bon appétit', 'donner à manger', 'manger équilibré'.",
-        "**10. Boire:** Boissons et hydratation.\n  • *Phrases simples:* 'Je bois du thé', 'Voulez-vous boire quelque chose ?'.\n  • *Expressions:* 'avoir à boire', 'boire un coup', 'boire du café'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tableau comparatif des verbes"
+      "text": "Trouvez votre niveau"
     },
     {
       "type": "paragraph",
-      "text": "Comparaison des verbes essentiels selon les familles linguistiques :"
+      "text": "Le cœur de chaque double page est du niveau **A0–A1** : ce qu’il faut apprendre en premier. Les points marqués **A2** vont un peu plus loin. Lisez-les quand le reste vous semble facile."
     },
     {
       "type": "table",
       "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
+        "Verbe",
+        "Cœur A0–A1",
+        "Un pas de plus (A2)"
       ],
       "rows": [
         [
-          "Be / Exist",
-          "être / essere / ser, estar / ser, estar",
-          "be / sein",
-          "быть / είναι / bezañ / լինել",
-          "булу / булыу / пуласси",
-          "ყოფნა (qopna)"
+          "**être** *(to be)*",
+          "je suis, tu es… ; profession sans article ; *ne … pas* ; trois façons de poser une question",
+          "*c’est* ou *il est* ; le féminin des adjectifs ; *Comment est … ?*"
         ],
         [
-          "Have / Possess",
-          "avoir / avere / tener / ter",
-          "have / haben",
-          "иметь (у меня есть) / έχω / kaout / ունենալ",
-          "бар (минем бар) / бар / пур",
-          "ქոնա / ყოლა"
+          "**avoir** *(to have)*",
+          "possession, famille, âge, *j’ai faim* ; *il y a* ; *je n’ai pas de …*",
+          "*en* (*j’en ai deux*) ; *avoir besoin de*, *avoir envie de*"
         ],
         [
-          "Do / Make",
-          "faire / fare / hacer / fazer",
-          "do, make / machen, tun",
-          "делать / κάνω / ober / անել",
-          "эшләү / эшләү / тăвасси",
-          "կետება (keteba)"
+          "**penser** *(to think)*",
+          "*je pense que …* ; *je pense que oui / non* ; *penser à*",
+          "*trouver que* ; *penser* + infinitif ; *réfléchir*"
         ],
         [
-          "Go",
-          "aller / andare / ir / ir",
-          "go / gehen",
-          "идти, ехать / πηγαίνω / mont / գնալ",
-          "бару / барыу / кайни",
-          "წასვლა (tsasvla)"
+          "**savoir / connaître** *(to know)*",
+          "*je sais*, *je ne sais pas* ; *savoir* ou *connaître* ?",
+          "*Tu sais où il habite ?* ; *je le connais*"
         ],
         [
-          "See / Look",
-          "voir, regarder / vedere, guardare",
-          "see, look / sehen, schauen",
-          "видеть, смотреть / βλέπω / gwelout / տեսնել",
-          "күрү, карау / күреү, ҡарау / курасси",
-          "ნახვა, ყურება"
+          "**aimer** *(to like / love)*",
+          "*j’aime le café* ; *j’aime nager* ; *moi aussi / moi non plus*",
+          "*aimer bien* ou *aimer* ; *Il est comment ?*"
+        ],
+        [
+          "**vouloir** *(to want)*",
+          "*je veux* ; *je voudrais, s’il vous plaît* ; *vouloir* + infinitif",
+          "*je veux bien* ; *je prendrais* ; *Vous désirez ?*"
+        ],
+        [
+          "**aller** *(to go)*",
+          "*à / au / en / chez* ; *en bus, à pied*",
+          "*aller* + infinitif (futur proche) ; *je suis allé(e)*"
+        ],
+        [
+          "**pouvoir** *(can)*",
+          "possibilité, permission, demande ; *je ne peux pas*",
+          "*pouvoir* ou *savoir* ? ; *je pourrai*"
+        ],
+        [
+          "**manger / boire** *(to eat / to drink)*",
+          "*du, de la, des* ; *je ne mange pas de viande*",
+          "*en train de* ; *j’ai mangé, j’ai bu*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">Aller directement à un verbe</h3><div class=\"verb-map-grid\">\n    <a href=\"#verb-be\" class=\"verb-node-card\"><strong>1 · être</strong> — to be : qui, comment, où</a>\n    <a href=\"#verb-have\" class=\"verb-node-card\"><strong>2 · avoir</strong> — to have : objets, famille, âge, faim</a>\n    <a href=\"#verb-think\" class=\"verb-node-card\"><strong>3 · penser</strong> — to think : opinions et idées</a>\n    <a href=\"#verb-know\" class=\"verb-node-card\"><strong>4 · savoir / connaître</strong> — to know</a>\n    <a href=\"#verb-like\" class=\"verb-node-card\"><strong>5 · aimer</strong> — to like : goûts et préférences</a>\n    <a href=\"#verb-want\" class=\"verb-node-card\"><strong>6 · vouloir</strong> — to want : désirs, demandes polies</a>\n    <a href=\"#verb-go\" class=\"verb-node-card\"><strong>7 · aller</strong> — to go : lieux et projets</a>\n    <a href=\"#verb-can\" class=\"verb-node-card\"><strong>8 · pouvoir</strong> — can : capacité, permission, demande</a>\n    <a href=\"#verb-eat\" class=\"verb-node-card\"><strong>9 · manger</strong> — to eat : repas et articles</a>\n    <a href=\"#verb-drink\" class=\"verb-node-card\"><strong>10 · boire</strong> — to drink : boissons et commandes</a>\n    <a href=\"#verb-together\" class=\"verb-node-card\"><strong>Tout ensemble</strong> — les dix verbes en une page</a>\n  </div></div>",
+      "say": "Aller directement à un verbe : être, avoir, penser, savoir et connaître, aimer, vouloir, aller, pouvoir, manger, boire, ou la dernière page où les dix verbes sont réunis."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><strong>Comment utiliser ce numéro</strong><p>1. Écoutez l’épisode une fois. 2. Lisez une double page. 3. Dites les exemples <strong>à voix haute</strong>. 4. Faites le quiz. Dix minutes par jour suffisent.</p></div>",
+      "say": "Comment utiliser ce numéro 1. Écoutez l’épisode une fois. 2. Lisez une double page. 3. Dites les exemples à voix haute . 4. Faites le quiz. Dix minutes par jour suffisent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 1 — être",
+      "id": "verb-be"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Être** sert à dire qui vous êtes, comment vous allez, où vous êtes et comment sont les choses. Au présent, il a six formes. Il n’a pas besoin d’aide : pour dire « non », on ajoute *ne … pas* ; pour poser une question, on change l’intonation ou on ajoute *est-ce que*."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">suis</mark><small>j’suis (à l’oral, très vite)</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">es</mark></div><div class=\"lx-cell s2\"><b>il / elle / on</b> <mark class=\"lx-hl\">est</mark></div><div class=\"lx-cell s3\"><b>nous</b> <mark class=\"lx-hl\">sommes</mark></div><div class=\"lx-cell s3\"><b>vous</b> <mark class=\"lx-hl\">êtes</mark><small>on prononce le <i>s</i> : /vu zɛt/</small></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">sont</mark></div></div></figure>",
+      "say": "Les formes de être au présent : je suis, tu es, il, elle, on est, nous sommes, vous êtes, ils, elles sont."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Forme",
+        "Exemple",
+        "In English"
+      ],
+      "rows": [
+        [
+          "je",
+          "suis",
+          "Je suis fatigué.",
+          "I am tired."
+        ],
+        [
+          "tu",
+          "es",
+          "Tu es en retard.",
+          "You are late."
+        ],
+        [
+          "il / elle / on",
+          "est",
+          "Elle est à la maison.",
+          "She is at home."
+        ],
+        [
+          "nous",
+          "sommes",
+          "Nous sommes prêts.",
+          "We are ready."
+        ],
+        [
+          "vous",
+          "êtes",
+          "Vous êtes étudiants.",
+          "You are students."
+        ],
+        [
+          "ils / elles",
+          "sont",
+          "Ils sont français.",
+          "They are French."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Tu ou vous ?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤝</span><span><b>tu</b> : une seule personne</span></div><p>famille, amis, enfants, jeunes, collègues proches</p><p class=\"lx-ex\">Tu es de Lyon ?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎩</span><span><b>vous</b> : une personne</span></div><p>quelqu’un que vous ne connaissez pas, un adulte, un client, un professeur</p><p class=\"lx-ex\">Vous êtes de Lyon ?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">👥</span><span><b>vous</b> : plusieurs personnes</span></div><p>toujours <em>vous</em>, même entre amis</p><p class=\"lx-ex\">Vous êtes prêts ?</p></div>\n     </div><figcaption class=\"lx-cap\"><em>On</em> veut dire « nous » à l’oral : <em>On est fatigués</em> = <em>Nous sommes fatigués</em>. En cas de doute, dites <em>vous</em> : c’est toujours poli.</figcaption></figure>",
+      "say": "Tu ou vous ? Tu, pour une seule personne proche : famille, amis, enfants. Vous, pour une personne que vous ne connaissez pas, ou pour plusieurs personnes. On veut dire nous à l’oral. En cas de doute, dites vous."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ce que l’on peut dire avec être"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Modèle",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "Qui ou quoi",
+          "être + nom",
+          "Je **suis** Damian. / **C’est** mon frère. / Ce **sont** mes amis."
+        ],
+        [
+          "Une profession",
+          "être + profession, **sans article**",
+          "Je **suis** professeur. / Elle **est** ingénieure."
+        ],
+        [
+          "La nationalité, l’origine",
+          "être + nationalité / **de** + ville",
+          "Je **suis** français. / Nous **sommes** de Paris."
+        ],
+        [
+          "Comment est quelqu’un",
+          "être + adjectif",
+          "Il **est** grand. / Elle **est** fatiguée. / La soupe **est** chaude."
+        ],
+        [
+          "Où est quelqu’un",
+          "être + **à / en / dans / chez** + lieu",
+          "Elle **est** à la maison. / Nous **sommes** en France."
+        ],
+        [
+          "L’heure",
+          "**Il est** + heure",
+          "Il **est** neuf heures. / Il **est** midi."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Trois pièges avec être</strong><p><strong>1. Pas d’article pour une profession :</strong> <em>Je suis professeur.</em> (pas <s>Je suis un professeur</s>). Avec <em>c’est</em>, on met l’article : <em>C’est un professeur.</em> <span class=\"lx-ex\">(A2)</span></p><p><strong>2. L’âge n’utilise pas être :</strong> <em>J’ai 20 ans.</em> Voir le verbe <em>avoir</em>.</p><p><strong>3. Le temps qu’il fait utilise <em>faire</em> :</strong> <em>Il fait froid. Il fait beau.</em> (pas <s>Il est froid</s>).</p></div>",
+      "say": "Trois pièges avec être 1. Pas d’article pour une profession : Je suis professeur. (pas Je suis un professeur ). Avec c’est , on met l’article : C’est un professeur. (A2) 2. L’âge n’utilise pas être : J’ai 20 ans. Voir le verbe avoir . 3. Le temps qu’il fait utilise faire : Il fait froid. Il fait beau. (pas Il est froid )."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les adjectifs s’accordent"
+    },
+    {
+      "type": "paragraph",
+      "text": "Avec **être**, l’adjectif change selon la personne : au féminin on ajoute souvent **-e**, au pluriel **-s**. À l’oral, le *-e* change parfois le son."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Masculin",
+        "Féminin",
+        "Pluriel (m. / f.)",
+        "In English"
+      ],
+      "rows": [
+        [
+          "grand",
+          "grande",
+          "grands / grandes",
+          "tall, big"
+        ],
+        [
+          "petit",
+          "petite",
+          "petits / petites",
+          "small"
+        ],
+        [
+          "content",
+          "contente",
+          "contents / contentes",
+          "happy"
+        ],
+        [
+          "fatigué",
+          "fatiguée",
+          "fatigués / fatiguées",
+          "tired"
+        ],
+        [
+          "français",
+          "française",
+          "français / françaises",
+          "French"
+        ],
+        [
+          "sympa",
+          "sympa",
+          "sympas",
+          "nice *(ne change pas au féminin)*"
         ]
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Structures grammaticales adaptées (A0–A1 / A2)"
+      "text": "Dire « non » : ne … pas"
     },
     {
       "type": "paragraph",
-      "text": "• **Structures simples :** Sujet + Verbe + Complément.\n• **Futur proche et modaux :** Utilisation de 'aller + infinitif' et 'pouvoir/devoir'.\n• **Conjugaisons :** Tous les temps et formes sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Le « sandwich » de la négation</p><div class=\"lx-neg\"><span class=\"lx-chip lx-chip-hot\">ne</span><span class=\"lx-plus\">+</span><span class=\"lx-chip lx-chip-verb\">verbe</span><span class=\"lx-plus\">+</span><span class=\"lx-chip lx-chip-hot\">pas</span></div>\n     <ul class=\"lx-chips\" style=\"justify-content:center\"><li class=\"lx-chip\">Je <b>ne</b> suis <b>pas</b> fatigué.</li><li class=\"lx-chip\">Tu <b>n’</b>es <b>pas</b> seul.</li><li class=\"lx-chip\">Elle <b>n’</b>est <b>pas</b> là.</li></ul><figcaption class=\"lx-cap\"><em>Ne</em> devient <em>n’</em> devant une voyelle. À l’oral, beaucoup de gens disent seulement <em>pas</em> : <em>Je suis pas fatigué.</em> À l’écrit, gardez <em>ne … pas</em>.</figcaption></figure>",
+      "say": "Le sandwich de la négation : ne, plus le verbe, plus pas. Je ne suis pas fatigué. Tu n’es pas seul. Elle n’est pas là. Ne devient n devant une voyelle. À l’oral, beaucoup de gens disent seulement pas, mais à l’écrit, gardez ne pas."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratique et conjugaison"
+      "text": "Poser une question : trois façons"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Façon",
+        "Exemple",
+        "Quand l’utiliser"
+      ],
+      "rows": [
+        [
+          "**1. L’intonation** : la voix monte",
+          "Tu es fatigué ?",
+          "À l’oral, tous les jours"
+        ],
+        [
+          "**2. Est-ce que**",
+          "Est-ce que tu es fatigué ?",
+          "À l’oral et à l’écrit, partout"
+        ],
+        [
+          "**3. L’inversion** *(A2, pour reconnaître)*",
+          "Es-tu fatigué ? / Êtes-vous prêts ?",
+          "Style formel, textes écrits"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Réponses courtes"
+      ],
+      "rows": [
+        [
+          "Tu es étudiant ?",
+          "Oui, je suis étudiant. / Non, je ne suis pas étudiant."
+        ],
+        [
+          "Elle est à la maison ?",
+          "Oui, elle est à la maison. / Non, elle n’est pas à la maison."
+        ],
+        [
+          "Vous êtes prêts ?",
+          "Oui, nous sommes prêts. / Non, nous ne sommes pas prêts."
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "En français, on répond souvent par *oui* ou *non* et on répète une partie de la phrase. Après une question négative (*Tu n’es pas fatigué ?*), « oui » se dit **si** : *Si, je suis fatigué.*"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les mots interrogatifs avec être"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mot",
+        "On demande…",
+        "Question → réponse"
+      ],
+      "rows": [
+        [
+          "Qui",
+          "une personne",
+          "Qui est-ce ? — C’est ma sœur."
+        ],
+        [
+          "Où",
+          "un lieu",
+          "Où es-tu ? — Je suis à la maison."
+        ],
+        [
+          "Quand",
+          "un moment",
+          "Quand est ton anniversaire ? — C’est en mai."
+        ],
+        [
+          "Pourquoi",
+          "une raison",
+          "Pourquoi tu es en retard ? — Parce que le bus est en retard."
+        ],
+        [
+          "Comment",
+          "la façon, l’état",
+          "Comment est ton professeur ? — Il est sympa."
+        ],
+        [
+          "Quel / Quelle",
+          "un choix",
+          "Quelle est ton adresse ? — C’est 12, rue Victor Hugo."
+        ],
+        [
+          "C’est combien ?",
+          "le prix",
+          "C’est combien ? — C’est vingt euros."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Expressions utiles avec être"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Les sentiments et les états :** *Je suis content. Je suis fatigué. Je suis malade.* Mais pour la faim et la soif, on dit **avoir** : *J’ai faim.*",
+        "**Le temps :** *Je suis en retard. Je suis à l’heure. Je suis occupé. Je suis libre demain.*",
+        "**Les opinions :** *Je suis d’accord. Je ne suis pas d’accord. Je suis sûr.*",
+        "**Les salutations :** *Comment allez-vous ?* se dit avec **aller** (verbe 7) : *Je vais bien, merci.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je suis 20 ans.</s></td><td>J’<strong>ai</strong> 20 ans.</td><td>L’âge se dit avec <em>avoir</em>.</td></tr><tr><td><s>Je suis faim.</s></td><td>J’<strong>ai</strong> faim.</td><td>Faim, soif, froid : <em>avoir</em>.</td></tr><tr><td><s>Je suis un professeur.</s></td><td>Je suis professeur.</td><td>Pas d’article avec une profession.</td></tr><tr><td><s>Elle est grand.</s></td><td>Elle est <strong>grande</strong>.</td><td>L’adjectif s’accorde.</td></tr><tr><td><s>Il est froid dehors.</s></td><td>Il <strong>fait</strong> froid dehors.</td><td>Le temps : <em>faire</em>.</td></tr><tr><td><s>Je suis pas fatigué. <i>(à l’écrit)</i></s></td><td>Je <strong>ne</strong> suis pas fatigué.</td><td>À l’écrit : <em>ne … pas</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je suis 20 ans. ». Dites « J' ai 20 ans. ». Pas « Je suis faim. ». Dites « J' ai faim. ». Pas « Je suis un professeur. ». Dites « Je suis professeur. ». Pas « Elle est grand. ». Dites « Elle est grande . ». Pas « Il est froid dehors. ». Dites « Il fait froid dehors. ». Pas « Je suis pas fatigué. (à l’écrit) ». Dites « Je ne suis pas fatigué. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Choisissez la bonne phrase.",
+      "options": [
+        "Je suis vingt ans.",
+        "J’ai vingt ans.",
+        "Je fais vingt ans."
+      ],
+      "correctIndex": 1,
+      "explanation": "L’âge se dit avec *avoir* : *J’ai vingt ans.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Elle ___ professeur.",
+      "options": [
+        "est un",
+        "est",
+        "a"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pas d’article avec une profession : *Elle est professeur.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Il ___ froid aujourd’hui.",
+      "options": [
+        "est",
+        "a",
+        "fait"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pour le temps, on utilise *faire* : *Il fait froid.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 2 — avoir",
+      "id": "verb-have"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Avoir** sert à parler de ce que vous possédez, de votre famille, de votre apparence, de votre âge et de certaines sensations (la faim, la soif, le froid). C’est aussi le verbe de **il y a** (*there is / there are*). En français, il fait beaucoup de choses que l’anglais fait avec *to be*."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>j’</b> <mark class=\"lx-hl\">ai</mark><small>j’ai /ʒe/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">as</mark></div><div class=\"lx-cell s2\"><b>il / elle / on</b> <mark class=\"lx-hl\">a</mark></div><div class=\"lx-cell s3\"><b>nous</b> <mark class=\"lx-hl\">avons</mark><small>liaison : /nu za.vɔ̃/</small></div><div class=\"lx-cell s3\"><b>vous</b> <mark class=\"lx-hl\">avez</mark><small>liaison : /vu za.ve/</small></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">ont</mark><small>/il zɔ̃/ ≠ ils <i>sont</i> /il sɔ̃/</small></div></div></figure>",
+      "say": "Les formes de avoir au présent : j’ai, tu as, il, elle, on a, nous avons, vous avez, ils, elles ont."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><strong>À l’oral : ils ont ou ils sont ?</strong><p>Écoutez le son avant le verbe : <strong>ils <em>ont</em></strong> /il <b>z</b>ɔ̃/ (avec un son « z ») et <strong>ils <em>sont</em></strong> /il <b>s</b>ɔ̃/ (avec un son « s »). C’est la seule différence.</p></div>",
+      "say": "À l’oral : ils ont ou ils sont ? Écoutez le son avant le verbe : ils ont /il z ɔ̃/ (avec un son « z ») et ils sont /il s ɔ̃/ (avec un son « s »). C’est la seule différence."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Être ou avoir ? Le français ne pense pas comme l’anglais</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎂</span><span><b>avoir</b></span></div>\n         <p><b>l’âge</b> : J’ai 20 ans. <span class=\"lx-ex\">(I am 20.)</span></p>\n         <p><b>la faim, la soif</b> : J’ai faim. J’ai soif. <span class=\"lx-ex\">(I am hungry / thirsty.)</span></p>\n         <p><b>chaud, froid, peur, sommeil</b> : J’ai froid. <span class=\"lx-ex\">(I am cold.)</span></p>\n         <p><b>mal</b> : J’ai mal à la tête. <span class=\"lx-ex\">(I have a headache.)</span></p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🧍</span><span><b>être</b></span></div>\n         <p><b>une profession</b> : Je suis professeur.</p>\n         <p><b>une nationalité</b> : Je suis français.</p>\n         <p><b>un adjectif</b> : Je suis fatigué. Je suis content.</p>\n         <p><b>un lieu</b> : Je suis à la maison.</p></div>\n     </div><figcaption class=\"lx-cap\">Le français dit <em>J’ai 20 ans</em> (« j’ai vingt années »), jamais <s>Je suis 20 ans</s>. Mais on dit <em>Je suis fatigué</em> avec <em>être</em>.</figcaption></figure>",
+      "say": "Être ou avoir ? Avec avoir : l’âge, par exemple j’ai vingt ans ; la faim et la soif, j’ai faim, j’ai soif ; chaud, froid, peur, sommeil ; et mal, j’ai mal à la tête. Avec être : une profession, une nationalité, un adjectif, un lieu. Le français dit j’ai vingt ans, jamais je suis vingt ans."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ce que l’on peut dire avec avoir"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Exemples",
+        "In English"
+      ],
+      "rows": [
+        [
+          "Ce que vous possédez",
+          "J'**ai** un ordinateur. / Nous **avons** une maison à Lyon.",
+          "I have a computer."
+        ],
+        [
+          "Votre famille",
+          "J'**ai** deux frères. / Elle **a** une fille.",
+          "I have two brothers."
+        ],
+        [
+          "Votre apparence",
+          "J'**ai** les yeux marron. / Il **a** les cheveux courts.",
+          "I have brown eyes."
+        ],
+        [
+          "Votre âge",
+          "J'**ai** 29 ans. / Quel âge **as**-tu ?",
+          "I am 29."
+        ],
+        [
+          "Une sensation",
+          "J'**ai** faim. / Elle **a** froid. / Ils **ont** peur.",
+          "I am hungry."
+        ],
+        [
+          "Un problème de santé",
+          "J'**ai** mal à la tête. / Il **a** un rhume. / Nous **avons** de la fièvre.",
+          "I have a headache."
+        ],
+        [
+          "Le temps, l’envie *(A2)*",
+          "J'**ai** besoin d’aide. / Tu **as** envie de partir ?",
+          "I need help. / Do you feel like leaving?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Avec les parties du corps, on met l’article : *J’ai mal **à la** tête, **au** dos, **aux** pieds.* (pas <s>à ma tête</s>)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Il y a"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Il y a** veut dire *there is* et *there are*. La forme ne change pas : *il y a un chat*, *il y a deux chats*."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Il y a un chat dans le jardin. / Il y a deux chaises dans la cuisine."
+        ],
+        [
+          "**−**",
+          "Il n’y a pas de chat. / Il n’y a pas de chaises."
+        ],
+        [
+          "**?**",
+          "Il y a une banque près d’ici ? / Est-ce qu’il y a des magasins ouverts ?"
+        ],
+        [
+          "**Réponses**",
+          "Oui, il y a une banque. / Non, il n’y a pas de banque."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dire « non » avec avoir : un / une / des deviennent de"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Phrase positive",
+        "Phrase négative"
+      ],
+      "rows": [
+        [
+          "J’ai **une** voiture.",
+          "Je n’ai pas **de** voiture."
+        ],
+        [
+          "J’ai **un** frère.",
+          "Je n’ai pas **de** frère."
+        ],
+        [
+          "J’ai **des** enfants.",
+          "Je n’ai pas <strong>d’</strong>enfants."
+        ],
+        [
+          "J’ai **du** temps.",
+          "Je n’ai pas **de** temps."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>La règle</strong><p>Après <em>ne … pas</em>, <em>un, une, des, du, de la</em> deviennent <strong>de</strong> (ou <strong>d’</strong> devant une voyelle). <strong>Attention :</strong> avec <em>être</em>, l’article ne change pas : <em>C’est un chat. → Ce n’est pas un chat.</em></p></div>",
+      "say": "La règle Après ne … pas , un, une, des, du, de la deviennent de (ou d' devant une voyelle). Attention : avec être , l’article ne change pas : C’est un chat. → Ce n’est pas un chat."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Réponses"
+      ],
+      "rows": [
+        [
+          "Tu as une voiture ?",
+          "Oui, j’ai une voiture. / Non, je n’ai pas de voiture."
+        ],
+        [
+          "Elle a des frères ?",
+          "Oui, elle a deux frères. / Non, elle n’a pas de frères."
+        ],
+        [
+          "Tu as des frères ? *(A2)*",
+          "Oui, **j’en ai** deux. / Non, **je n’en ai pas**."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je suis 25 ans. / Je suis faim.</s></td><td>J’<strong>ai</strong> 25 ans. / J’<strong>ai</strong> faim.</td><td>Âge et sensations : <em>avoir</em>.</td></tr><tr><td><s>Je n’ai pas une voiture.</s></td><td>Je n’ai pas <strong>de</strong> voiture.</td><td>Après la négation : <em>de</em>.</td></tr><tr><td><s>Tu a un frère ?</s></td><td>Tu <strong>as</strong> un frère ?</td><td><em>tu as</em>, avec un <em>s</em>.</td></tr><tr><td><s>Ils sont deux enfants.</s></td><td>Ils <strong>ont</strong> deux enfants.</td><td>Posséder, avoir une famille : <em>avoir</em>.</td></tr><tr><td><s>J’ai mal à ma tête.</s></td><td>J’ai mal <strong>à la</strong> tête.</td><td>Parties du corps : l’article.</td></tr><tr><td><s>J’ai une faim.</s></td><td>J’ai faim.</td><td>Pas d’article avec <em>faim, soif, froid</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je suis 25 ans. / Je suis faim. ». Dites « J' ai 25 ans. / J' ai faim. ». Pas « Je n’ai pas une voiture. ». Dites « Je n’ai pas de voiture. ». Pas « Tu a un frère ? ». Dites « Tu as un frère ? ». Pas « Ils sont deux enfants. ». Dites « Ils ont deux enfants. ». Pas « J’ai mal à ma tête. ». Dites « J’ai mal à la tête. ». Pas « J’ai une faim. ». Dites « J’ai faim. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je suis faim.",
+        "J’ai faim.",
+        "Je fais faim."
+      ],
+      "correctIndex": 1,
+      "explanation": "La faim se dit avec *avoir* : *J’ai faim.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Elle n’a pas ___ voiture.",
+      "options": [
+        "une",
+        "de",
+        "des"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après la négation, *une* devient *de* : *Elle n’a pas de voiture.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Il a vingt ans.",
+        "Il est vingt ans.",
+        "Il fait vingt ans."
+      ],
+      "correctIndex": 0,
+      "explanation": "L’âge se dit avec *avoir* : *Il a vingt ans.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 3 — penser",
+      "id": "verb-think"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Penser** sert à donner une opinion (*Je pense que c’est bon*), à demander l’opinion de quelqu’un (*Qu’est-ce que tu penses de ce film ?*) et à dire à quoi on pense (*Je pense à mes vacances*). C’est un verbe régulier en **-er**, comme la majorité des verbes français."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La grande famille des verbes en -er</p><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> pens<mark class=\"lx-hl\">e</mark><small>on n’entend pas le <i>e</i></small></div><div class=\"lx-cell s1\"><b>tu</b> pens<mark class=\"lx-hl\">es</mark><small>on n’entend pas <i>es</i></small></div><div class=\"lx-cell s1\"><b>il / elle / on</b> pens<mark class=\"lx-hl\">e</mark></div><div class=\"lx-cell s2\"><b>nous</b> pens<mark class=\"lx-hl\">ons</mark><small>on entend <i>-ons</i></small></div><div class=\"lx-cell s2\"><b>vous</b> pens<mark class=\"lx-hl\">ez</mark><small>on entend <i>-ez</i></small></div><div class=\"lx-cell s3\"><b>ils / elles</b> pens<mark class=\"lx-hl\">ent</mark><small>= il pense (même son)</small></div></div><figcaption class=\"lx-cap\">Apprenez ce modèle une fois : il fonctionne aussi pour <em>aimer, manger, parler, travailler, étudier…</em> Seules les formes <em>nous</em> et <em>vous</em> sont différentes à l’oral.</figcaption></figure>",
+      "say": "La grande famille des verbes en er. Pour penser : je pense, tu penses, il, elle, on pense, nous pensons, vous pensez, ils, elles pensent. Ce modèle fonctionne aussi pour aimer, manger, parler. On n’entend pas les terminaisons e, es et ent. Seules les formes nous et vous sont différentes à l’oral."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les phrases que vous allez utiliser"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez…",
+        "Modèle",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "Donner une opinion",
+          "penser **que** + phrase",
+          "Je pense **que le film est long.** / Elle pense **que c’est facile.**"
+        ],
+        [
+          "Répondre vite",
+          "Je pense **que oui** / **que non**.",
+          "« C’est ouvert ? » — « Je pense que oui. » / « C’est cher ? » — « Je pense que non. »"
+        ],
+        [
+          "Demander une opinion",
+          "Qu’est-ce que tu penses **de** … ?",
+          "Qu’est-ce que tu penses **de cette chanson** ? / Tu penses **que c’est une bonne idée** ?"
+        ],
+        [
+          "Dire à quoi vous pensez",
+          "penser **à** + nom / personne",
+          "Je pense **à mes vacances.** / Je pense **à toi.** / **À quoi** tu penses ?"
+        ],
+        [
+          "Dire un projet *(A2)*",
+          "penser + infinitif",
+          "Je pense partir demain. *(I’m thinking of leaving tomorrow.)*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Trois verbes pour une opinion</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💭</span><span><b>penser que</b></span></div><p>votre idée, votre avis</p><p class=\"lx-ex\">Je pense que c’est une bonne idée.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">👅</span><span><b>trouver que</b></span></div><p>votre avis sur ce que vous voyez, goûtez, essayez</p><p class=\"lx-ex\">Je trouve ce gâteau délicieux.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤔</span><span><b>croire que</b></span></div><p>vous n’êtes pas tout à fait sûr</p><p class=\"lx-ex\">Je crois que c’est ouvert.</p></div>\n     </div><figcaption class=\"lx-cap\">On peut aussi dire <em>À mon avis, …</em> ou <em>Selon moi, …</em>. Pour réfléchir longtemps, utilisez <em>réfléchir</em> : <em>Attends, je réfléchis.</em></figcaption></figure>",
+      "say": "Trois verbes pour une opinion. Penser que, pour votre idée ou votre avis. Trouver que, pour votre avis sur ce que vous voyez, goûtez ou essayez, par exemple : je trouve ce gâteau délicieux. Croire que, quand vous n’êtes pas tout à fait sûr. Pour réfléchir longtemps, dites réfléchir."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Demander une opinion</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Demander une opinion\"><p class=\"lx-say\"><b>Ana</b>Qu’est-ce que tu penses de ce gâteau ?</p><p class=\"lx-say\"><b>Tom</b>Je le trouve délicieux !</p><p class=\"lx-say\"><b>Ana</b>Tu penses qu’il est cher ?</p><p class=\"lx-say\"><b>Tom</b>Je pense que non. Il coûte seulement trois euros.</p></div></figure>",
+      "say": "Demander une opinion. Ana : Qu’est-ce que tu penses de ce gâteau ? Tom : Je le trouve délicieux ! Ana : Tu penses qu’il est cher ? Tom : Je pense que non. Il coûte seulement trois euros."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Après « Je ne pense pas que… »</strong><p>Pour dire que vous n’êtes pas d’accord, dites simplement <em>Je ne pense pas.</em> ou <em>Je pense que non.</em> Après <em>Je ne pense pas que + phrase</em>, le français utilise le <strong>subjonctif</strong> : <em>Je ne pense pas que ce soit cher.</em> C’est du niveau B1 : pour l’instant, retenez seulement les deux petites réponses.</p></div>",
+      "say": "Après « Je ne pense pas que… » Pour dire que vous n’êtes pas d’accord, dites simplement Je ne pense pas. ou Je pense que non. Après Je ne pense pas que + phrase , le français utilise le subjonctif : Je ne pense pas que ce soit cher. C’est du niveau B1 : pour l’instant, retenez seulement les deux petites réponses."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Négatif et questions"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Je pense qu’il est gentil. / Nous pensons que c’est possible."
+        ],
+        [
+          "**−**",
+          "Je ne pense pas. / Elle ne pense pas à ça."
+        ],
+        [
+          "**?**",
+          "Tu penses que c’est cher ? / Est-ce que vous pensez que c’est possible ?"
+        ],
+        [
+          "**Réponses**",
+          "Oui, je pense que oui. / Non, je ne pense pas."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je pense à que c’est bon.</s></td><td>Je pense <strong>que</strong> c’est bon.</td><td>Pour une opinion : <em>penser que</em>, sans <em>à</em>.</td></tr><tr><td><s>Je pense de toi.</s></td><td>Je pense <strong>à</strong> toi.</td><td><em>Penser à</em> quelqu’un ; <em>penser de</em> seulement pour demander un avis.</td></tr><tr><td><s>Je pense oui. / Je pense non.</s></td><td>Je pense <strong>que</strong> oui. / Je pense que non.</td><td>Il faut <em>que</em>.</td></tr><tr><td><s>Nous pensent que oui.</s></td><td>Nous <strong>pensons</strong> que oui.</td><td><em>nous</em> → <em>-ons</em>.</td></tr><tr><td><s>Ils pense.</s></td><td>Ils <strong>pensent</strong>.</td><td><em>-ent</em> avec <em>ils / elles</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je pense à que c’est bon. ». Dites « Je pense que c’est bon. ». Pas « Je pense de toi. ». Dites « Je pense à toi. ». Pas « Je pense oui. / Je pense non. ». Dites « Je pense que oui. / Je pense que non. ». Pas « Nous pensent que oui. ». Dites « Nous pensons que oui. ». Pas « Ils pense. ». Dites « Ils pensent . »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Je ___ que ce film est très long.",
+      "options": [
+        "pense",
+        "penses",
+        "pensent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avec *je*, la terminaison est *-e* : *Je pense que…*"
+    },
+    {
+      "type": "quiz",
+      "question": "« C’est cher ? » — « Je pense ___. »",
+      "options": [
+        "que oui",
+        "que non",
+        "les deux sont possibles"
+      ],
+      "correctIndex": 2,
+      "explanation": "On peut répondre *Je pense que oui* ou *Je pense que non*, selon ce que l’on pense."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je pense de mes vacances.",
+        "Je pense à mes vacances.",
+        "Je pense en mes vacances."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Penser à* quelque chose : *Je pense à mes vacances.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 4 — savoir et connaître",
+      "id": "verb-know"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le français a **deux verbes** pour *to know* : **savoir** et **connaître**. Le bon choix dépend de ce qui vient après. Pas de panique : une règle simple suffit pour commencer."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Savoir ou connaître ?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🧠</span><span><b>savoir</b> + information ou action</span></div>\n         <p>une information : <span class=\"lx-ex\">Je sais la réponse.</span></p>\n         <p>+ <b>que, où, quand, si…</b> : <span class=\"lx-ex\">Je sais où il habite.</span></p>\n         <p>+ <b>un verbe</b> = une compétence : <span class=\"lx-ex\">Je sais nager. Elle sait conduire.</span></p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤝</span><span><b>connaître</b> + personne, lieu, chose</span></div>\n         <p>une personne : <span class=\"lx-ex\">Je connais Anna.</span></p>\n         <p>un lieu : <span class=\"lx-ex\">Il connaît bien Londres.</span></p>\n         <p>une chose : <span class=\"lx-ex\">Tu connais cette chanson ?</span></p></div>\n     </div><figcaption class=\"lx-cap\">Test rapide : après le verbe, y a-t-il un <strong>nom de personne, de lieu ou de chose</strong> ? → <em>connaître</em>. Y a-t-il <em>que / où / si</em>, un verbe ou une information ? → <em>savoir</em>.</figcaption></figure>",
+      "say": "Savoir ou connaître ? Savoir, pour une information, ou avec que, où, quand, si, ou avec un verbe pour une compétence : je sais nager. Connaître, pour une personne, un lieu ou une chose : je connais Anna, il connaît bien Londres. Test rapide : après le verbe, un nom de personne, de lieu ou de chose, c’est connaître. Que, où, si, un verbe ou une information, c’est savoir."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">sais</mark><small>je connais</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">sais</mark><small>tu connais</small></div><div class=\"lx-cell s1\"><b>il / elle / on</b> <mark class=\"lx-hl\">sait</mark><small>il <mark class=\"lx-hl\">connaît</mark> (î)</small></div><div class=\"lx-cell s2\"><b>nous</b> <mark class=\"lx-hl\">savons</mark><small>nous connaiss<mark class=\"lx-hl\">ons</mark></small></div><div class=\"lx-cell s2\"><b>vous</b> <mark class=\"lx-hl\">savez</mark><small>vous connaiss<mark class=\"lx-hl\">ez</mark></small></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">savent</mark><small>ils connaiss<mark class=\"lx-hl\">ent</mark></small></div></div><figcaption class=\"lx-cap\">Dans chaque case : la forme de savoir, et en petit la forme de connaître. Je sais, tu sais, il sait. Nous savons, vous savez, ils savent. Je connais, tu connais, il connaît. Nous connaissons, vous connaissez, ils connaissent.</figcaption></figure>",
+      "say": "je sais je connais tu sais tu connais il / elle / on sait il connaît (î) nous savons nous connaiss ons vous savez vous connaiss ez ils / elles savent ils connaiss ent Dans chaque case : la forme de savoir, et en petit la forme de connaître. Je sais, tu sais, il sait. Nous savons, vous savez, ils savent. Je connais, tu connais, il connaît. Nous connaissons, vous connaissez, ils connaissent."
+    },
+    {
+      "type": "paragraph",
+      "text": "*Sais* et *sait* se prononcent pareil : /sɛ/. Les trois formes du singulier de *connaître* aussi : /kɔ.nɛ/."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Êtes-vous sûr ?</p><ol class=\"lx-scale\">\n       <li><b>Je ne sais pas.</b><span>« La boulangerie est ouverte ? » — « Je ne sais pas. »</span></li>\n       <li><b>Je ne suis pas sûr.</b><span>« Peut-être. Je ne suis pas sûr. »</span></li>\n       <li><b>Je pense que oui.</b><span>« Je pense que oui. Elle ouvre à sept heures. »</span></li>\n       <li><b>Je suis sûr.</b><span>« Oui, je suis sûr. J’étais là hier. »</span></li>\n       <li><b>Je sais.</b><span>« Oui, je sais. Elle ferme à dix-neuf heures. »</span></li>\n     </ol><figcaption class=\"lx-cap\">Cinq façons de répondre, de « pas du tout sûr » à « tout à fait sûr ».</figcaption></figure>",
+      "say": "Êtes-vous sûr ? Du moins sûr au plus sûr : je ne sais pas ; je ne suis pas sûr ; je pense que oui ; je suis sûr ; je sais."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les phrases que vous allez utiliser"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "Une information",
+          "Je **sais** la réponse. / Elle **sait** son numéro de téléphone."
+        ],
+        [
+          "Une information dans une phrase",
+          "Je **sais que** tu es fatigué. / Nous **savons quand** le cours commence."
+        ],
+        [
+          "Une compétence",
+          "Je **sais** nager. / Elle **sait** cuisiner. / Il **sait** parler trois langues."
+        ],
+        [
+          "Une personne ou un lieu",
+          "Je **connais** Anna. / Il **connaît** bien Londres."
+        ],
+        [
+          "Une chose *(A2)*",
+          "Tu **connais** cette chanson ? / Je **connais** un bon restaurant."
+        ],
+        [
+          "Répondre",
+          "Oui, je sais. / Non, je ne sais pas. / Oui, je la **connais**. / Non, je ne la **connais** pas. *(A2)*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Une question dans une question"
+    },
+    {
+      "type": "paragraph",
+      "text": "Après *Tu sais … ?*, la deuxième partie a l’ordre d’une phrase normale : **sujet + verbe**."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question directe",
+        "Dans « Tu sais … ? »"
+      ],
+      "rows": [
+        [
+          "Où habite-t-il ?",
+          "Tu sais **où il habite** ?"
+        ],
+        [
+          "Quelle heure est-il ?",
+          "Tu sais **quelle heure il est** ?"
+        ],
+        [
+          "Qui est-ce ?",
+          "Tu sais **qui c’est** ?"
+        ],
+        [
+          "Pourquoi est-elle en retard ?",
+          "Tu sais **pourquoi elle est en retard** ?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Connaître ou rencontrer ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbe",
+        "Sens",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "**connaître** quelqu’un",
+          "vous le connaissez déjà",
+          "Je **connais** Pierre. Nous travaillons ensemble."
+        ],
+        [
+          "**rencontrer** quelqu’un",
+          "première fois, ou un rendez-vous",
+          "J’ai **rencontré** Pierre hier. / **Enchanté(e) !**"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Pas de « -ing » en français</strong><p>Le français n’a pas de forme comme <em>I am knowing</em>. <em>Je sais, je connais, j’aime, je veux</em> parlent d’un état : on utilise simplement le présent. Pour une action en cours, on dit <em>être en train de</em> (voir la dernière page).</p></div>",
+      "say": "Pas de « -ing » en français Le français n’a pas de forme comme I am knowing . Je sais, je connais, j’aime, je veux parlent d’un état : on utilise simplement le présent. Pour une action en cours, on dit être en train de (voir la dernière page)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Phrases utiles"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je ne sais pas.** / *Je sais pas.* (à l’oral) — *I don’t know.*",
+        "**Je n’en sais rien.** — *I have no idea.* *(A2)*",
+        "**Faire connaissance** — *to get to know someone* : *J’aimerais faire connaissance avec vos amis.*",
+        "**Tiens-moi au courant.** — *Keep me posted.* *(A2)*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je connais nager.</s></td><td>Je <strong>sais</strong> nager.</td><td>Un verbe après : <em>savoir</em>.</td></tr><tr><td><s>Je sais Paris. / Je sais Anna.</s></td><td>Je <strong>connais</strong> Paris. / Je <strong>connais</strong> Anna.</td><td>Un lieu, une personne : <em>connaître</em>.</td></tr><tr><td><s>Je connais où il habite.</s></td><td>Je <strong>sais</strong> où il habite.</td><td><em>où, que, si</em> : <em>savoir</em>.</td></tr><tr><td><s>Tu sait la réponse ?</s></td><td>Tu <strong>sais</strong> la réponse ?</td><td><em>tu sais</em>, avec un <em>s</em>.</td></tr><tr><td><s>Je sais pas la réponse. <i>(à l’écrit)</i></s></td><td>Je <strong>ne</strong> sais <strong>pas</strong> la réponse.</td><td>À l’écrit : <em>ne … pas</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je connais nager. ». Dites « Je sais nager. ». Pas « Je sais Paris. / Je sais Anna. ». Dites « Je connais Paris. / Je connais Anna. ». Pas « Je connais où il habite. ». Dites « Je sais où il habite. ». Pas « Tu sait la réponse ? ». Dites « Tu sais la réponse ? ». Pas « Je sais pas la réponse. (à l’écrit) ». Dites « Je ne sais pas la réponse. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Je ___ nager depuis l’âge de cinq ans.",
+      "options": [
+        "connais",
+        "sais",
+        "sait"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une compétence (un verbe après) : *savoir* → *Je sais nager.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Tu ___ mon frère ?",
+      "options": [
+        "sais",
+        "connais",
+        "penses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une personne : *connaître* → *Tu connais mon frère ?*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Tu sais où est-il ?",
+        "Tu sais où il est ?",
+        "Tu sais où est il ?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après *Tu sais…*, ordre normal : *où il est*."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 5 — aimer",
+      "id": "verb-like"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Aimer** sert à parler de vos goûts : la nourriture, la musique, les loisirs, les personnes. C’est un verbe en **-er**, comme *penser*. Devant une voyelle, *je* devient *j'* : **j’aime**."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>j’</b> aim<mark class=\"lx-hl\">e</mark><small>/ʒɛm/</small></div><div class=\"lx-cell s1\"><b>tu</b> aim<mark class=\"lx-hl\">es</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> aim<mark class=\"lx-hl\">e</mark></div><div class=\"lx-cell s2\"><b>nous</b> aim<mark class=\"lx-hl\">ons</mark></div><div class=\"lx-cell s2\"><b>vous</b> aim<mark class=\"lx-hl\">ez</mark></div><div class=\"lx-cell s3\"><b>ils / elles</b> aim<mark class=\"lx-hl\">ent</mark><small>liaison : /il zɛm/</small></div></div><figcaption class=\"lx-cap\">Les formes de aimer au présent : j’aime, tu aimes, il, elle, on aime, nous aimons, vous aimez, ils, elles aiment.</figcaption></figure>",
+      "say": "j' aim e /ʒɛm/ tu aim es il / elle / on aim e nous aim ons vous aim ez ils / elles aim ent liaison : /il zɛm/ Les formes de aimer au présent : j’aime, tu aimes, il, elle, on aime, nous aimons, vous aimez, ils, elles aiment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">De « je déteste » à « j’adore »</p><ol class=\"lx-scale\">\n       <li><b>😠 Je déteste…</b><span>Je déteste me lever tôt.</span></li>\n       <li><b>👎 Je n’aime pas…</b><span>Je n’aime pas le froid.</span></li>\n       <li><b>😐 Ça m’est égal.</b><span>« Thé ou café ? » — « Ça m’est égal. »</span></li>\n       <li><b>🙂 J’aime bien…</b><span>J’aime bien le chocolat.</span></li>\n       <li><b>❤️ J’adore…</b><span>J’adore la musique. / J’aime beaucoup ça.</span></li>\n     </ol><figcaption class=\"lx-cap\">Pour dire que vous n’aimez pas beaucoup : <em>Je n’aime pas trop le café.</em> Pour dire « pas du tout » : <em>Je n’aime pas du tout le froid.</em></figcaption></figure>",
+      "say": "De je déteste à j’adore. Je déteste me lever tôt. Je n’aime pas le froid. Ça m’est égal. J’aime bien le chocolat. J’adore la musique. Pour dire que vous n’aimez pas beaucoup : je n’aime pas trop le café. Pour pas du tout : je n’aime pas du tout le froid."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Attention avec les personnes</strong><p><em>J’aime bien Paul</em> = « Paul est sympa pour moi » (amitié). <em>J’aime Paul</em> et <em>Je t’aime</em> = un sentiment <strong>très fort</strong>, l’amour. Avec les amis et la famille, utilisez souvent <em>j’aime bien</em> ou <em>je l’adore</em>.</p></div>",
+      "say": "Attention avec les personnes J’aime bien Paul = « Paul est sympa pour moi » (amitié). J’aime Paul et Je t’aime = un sentiment très fort , l’amour. Avec les amis et la famille, utilisez souvent j’aime bien ou je l’adore ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "J’aime la musique. / Elle aime lire. / Nous aimons voyager."
+        ],
+        [
+          "**−**",
+          "Je n’aime pas le café. / Il n’aime pas danser."
+        ],
+        [
+          "**?**",
+          "Tu aimes le jazz ? / Est-ce que vous aimez les chats ? / Qu’est-ce que tu aimes ?"
+        ],
+        [
+          "**Réponses**",
+          "Oui, j’aime ça. / Oui, j’aime bien. / Non, je n’aime pas ça."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Que peut-on mettre après aimer ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Modèle",
+        "Sens",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "aimer + **le / la / les** + nom",
+          "un goût en général",
+          "J’aime **le** café. / Elle aime **la** musique. / Ils aiment **les** chats."
+        ],
+        [
+          "aimer + **infinitif**",
+          "une activité",
+          "J’aime nager. / Il aime cuisiner des pâtes."
+        ],
+        [
+          "aimer + **personne**",
+          "un sentiment fort",
+          "J’aime mes parents. / Je t’aime."
+        ],
+        [
+          "aimer**ais** + nom / infinitif *(A2)*",
+          "un souhait poli (voir le verbe vouloir)",
+          "J’aimerais un café. / J’aimerais voyager."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Aimer demande l’article défini</strong><p>Pour parler d’un goût <strong>en général</strong>, le français met toujours l’article : <em>J’aime <strong>le</strong> café.</em> (pas <s>J’aime café</s>). Mais pour la quantité, on dit <em>du</em> : <em>Je bois <strong>du</strong> café.</em> (voir les verbes manger et boire).</p></div>",
+      "say": "Aimer demande l’article défini Pour parler d’un goût en général , le français met toujours l’article : J’aime le café. (pas J’aime café ). Mais pour la quantité, on dit du : Je bois du café. (voir les verbes manger et boire)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Moi aussi, moi non plus"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Quelqu’un dit…",
+        "Vous répondez…",
+        "Sens"
+      ],
+      "rows": [
+        [
+          "J’aime le café.",
+          "Moi **aussi**. / Moi, **pas** du tout.",
+          "I do too. / I don’t."
+        ],
+        [
+          "Je n’aime pas le thé.",
+          "Moi **non plus**. / Moi, **si** !",
+          "I don’t either. / I do!"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quatre questions qui se ressemblent"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "On demande…",
+        "Réponse"
+      ],
+      "rows": [
+        [
+          "**Tu aimes** Anna ?",
+          "ce que vous ressentez pour elle",
+          "Oui, je l’aime bien. Elle est super."
+        ],
+        [
+          "**Qu’est-ce qu’Anna aime** ?",
+          "ses goûts",
+          "Elle aime le tennis et le thé."
+        ],
+        [
+          "Anna, elle est **comment** ? *(A2)*",
+          "son caractère, son apparence",
+          "Elle est gentille et drôle."
+        ],
+        [
+          "**Comment va** Anna ?",
+          "sa santé, son humeur",
+          "Elle va bien, merci."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>J’aime café.</s></td><td>J’aime <strong>le</strong> café.</td><td>Un goût en général : l’article défini.</td></tr><tr><td><s>Je aime la musique.</s></td><td><strong>J’</strong>aime la musique.</td><td><em>Je</em> devient <em>j’</em> devant une voyelle.</td></tr><tr><td><s>J’aime très le café.</s></td><td>J’aime <strong>beaucoup</strong> le café.</td><td><em>Très</em> ne va pas avec <em>aimer</em>.</td></tr><tr><td><s>Moi aussi non.</s></td><td>Moi <strong>non plus</strong>.</td><td>Après une phrase négative : <em>non plus</em>.</td></tr><tr><td><s>Ils aime le sport.</s></td><td>Ils <strong>aiment</strong> le sport.</td><td><em>-ent</em> avec <em>ils / elles</em>.</td></tr><tr><td><s>J’aime Paul. <i>(= un ami)</i></s></td><td>J’aime <strong>bien</strong> Paul.</td><td><em>J’aime</em> + personne = amour.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « J’aime café. ». Dites « J’aime le café. ». Pas « Je aime la musique. ». Dites « J' aime la musique. ». Pas « J’aime très le café. ». Dites « J’aime beaucoup le café. ». Pas « Moi aussi non. ». Dites « Moi non plus . ». Pas « Ils aime le sport. ». Dites « Ils aiment le sport. ». Pas « J’aime Paul. (= un ami) ». Dites « J’aime bien Paul. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "J’aime café.",
+        "J’aime le café.",
+        "J’aime du café."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pour un goût en général : *J’aime le café.*"
+    },
+    {
+      "type": "quiz",
+      "question": "« Je n’aime pas le thé. » — « Moi ___. »",
+      "options": [
+        "aussi",
+        "non plus",
+        "pas aussi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après une phrase négative : *Moi non plus.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Vous voulez dire que Paul est un bon ami. Quelle phrase est la meilleure ?",
+      "options": [
+        "J’aime Paul.",
+        "J’aime bien Paul.",
+        "J’aime beaucoup de Paul."
+      ],
+      "correctIndex": 1,
+      "explanation": "*J’aime bien Paul* est amical ; *J’aime Paul* peut être très fort."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 6 — vouloir",
+      "id": "verb-want"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Vouloir** dit ce que vous désirez. **Je voudrais** dit la même chose, mais de façon plus **polie** : vous allez l’utiliser tout le temps dans les magasins, les cafés et les restaurants. *Vouloir* est irrégulier."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">veux</mark><small>/ʒə vø/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">veux</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> <mark class=\"lx-hl\">veut</mark><small>veux = veut /vø/</small></div><div class=\"lx-cell s2\"><b>nous</b> <mark class=\"lx-hl\">voulons</mark></div><div class=\"lx-cell s2\"><b>vous</b> <mark class=\"lx-hl\">voulez</mark></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">veulent</mark><small>/vœl/</small></div></div></figure>",
+      "say": "Les formes de vouloir au présent : je veux, tu veux, il, elle, on veut, nous voulons, vous voulez, ils, elles veulent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Comment demander quelque chose : du direct au poli</p><ol class=\"lx-ladder\">\n       <li class=\"lx-no\"><b>Donnez-moi un café.</b><small>On dirait un ordre. À éviter.</small></li>\n       <li><b>Je veux un café.</b><small>Possible entre amis. Dans un café, c’est un peu trop direct.</small></li>\n       <li class=\"lx-yes\"><b>Un café, s’il vous plaît.</b><small>Normal et très courant. C’est la phrase la plus courte et la plus naturelle.</small></li>\n       <li class=\"lx-yes\"><b>Je voudrais un café, s’il vous plaît.</b><small>Poli. Parfait au café, au restaurant, à l’hôtel.</small></li>\n     </ol><figcaption class=\"lx-cap\">Autres demandes très naturelles : <em>Je peux avoir un café, s’il vous plaît ?</em> et <em>Je prendrais un café</em> <span class=\"lx-ex\">(A2)</span>.</figcaption></figure>",
+      "say": "Comment demander quelque chose, du direct au poli. Donnez-moi un café : on dirait un ordre, à éviter. Je veux un café : possible entre amis, un peu direct dans un café. Un café, s’il vous plaît : normal et très courant. Je voudrais un café, s’il vous plaît : poli, parfait au café, au restaurant, à l’hôtel."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les phrases que vous allez utiliser"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Modèle",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "Une chose que vous voulez",
+          "vouloir + nom",
+          "Je veux un verre d’eau. / Elle veut un nouveau téléphone."
+        ],
+        [
+          "Une action que vous voulez faire",
+          "vouloir + **infinitif** *(pas de « à » ni de « de »)*",
+          "Je veux **apprendre** le français. / Nous voulons **partir**."
+        ],
+        [
+          "Accepter une offre",
+          "**Je veux bien.**",
+          "« Tu veux du thé ? » — « Oui, **je veux bien.** »"
+        ],
+        [
+          "Refuser poliment",
+          "Non, merci.",
+          "« Vous voulez un dessert ? » — « Non, merci. »"
+        ],
+        [
+          "Poser une question",
+          "Tu veux … ? / Qu’est-ce que vous voulez … ?",
+          "Tu veux venir ? / Qu’est-ce que vous voulez boire ?"
+        ],
+        [
+          "Dire « non »",
+          "ne … pas (**de** + nom)",
+          "Je ne veux pas de sucre. / Il ne veut pas venir."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Je voudrais : la demande polie"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Modèle",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "Un souhait poli",
+          "**Je voudrais** + nom",
+          "Je voudrais une table pour deux, s’il vous plaît."
+        ],
+        [
+          "Une action polie",
+          "**Je voudrais** + infinitif",
+          "Je voudrais payer, s’il vous plaît. / Nous voudrions voir la carte."
+        ],
+        [
+          "Au restaurant, du serveur",
+          "**Vous désirez ?** / Qu’est-ce que je vous sers ?",
+          "« Vous désirez ? » — « Je voudrais un café. »"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Je voudrais* est une forme de politesse : à ce niveau, retenez-la comme un « bloc » : **je voudrais** (moi), **nous voudrions** (nous). Une autre forme polie est **j’aimerais** : *J’aimerais un café, s’il vous plaît.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Au café</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Au café\"><p class=\"lx-say\"><b>Serveur</b>Bonjour. Vous désirez ?</p><p class=\"lx-say\"><b>Vous</b>Je voudrais un café, s’il vous plaît.</p><p class=\"lx-say\"><b>Serveur</b>Vous voulez aussi quelque chose à manger ?</p><p class=\"lx-say\"><b>Vous</b>Oui, je veux bien. Un croissant, s’il vous plaît.</p></div></figure>",
+      "say": "Au café. Serveur : Bonjour. Vous désirez ? Vous : Je voudrais un café, s’il vous plaît. Serveur : Vous voulez aussi quelque chose à manger ? Vous : Oui, je veux bien. Un croissant, s’il vous plaît."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aimer, vouloir, voudrais, pouvoir : quelle différence ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Phrase",
+        "Sens"
+      ],
+      "rows": [
+        [
+          "**J’aime** le café.",
+          "En général, j’aime ça."
+        ],
+        [
+          "**Je veux** un café.",
+          "Je désire un café maintenant. Direct."
+        ],
+        [
+          "**Je voudrais** un café, s’il vous plaît.",
+          "Une demande polie."
+        ],
+        [
+          "**Je peux** boire un café.",
+          "C’est possible ou permis. *(verbe suivant : pouvoir)*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je veux à manger. / Je veux de manger.</s></td><td>Je veux <strong>manger</strong>.</td><td>Pas de préposition après <em>vouloir</em>.</td></tr><tr><td><s>Je veut un café.</s></td><td>Je <strong>veux</strong> un café.</td><td><em>je veux</em>, <em>il veut</em>.</td></tr><tr><td><s>Ils veut partir.</s></td><td>Ils <strong>veulent</strong> partir.</td><td>Ils : <em>veulent</em>.</td></tr><tr><td><s>Je ne veux pas du sucre.</s></td><td>Je ne veux pas <strong>de</strong> sucre.</td><td>Après la négation : <em>de</em>.</td></tr><tr><td><s>Je veux un café, s’il vous plaît. <i>(trop direct)</i></s></td><td>Je <strong>voudrais</strong> un café, s’il vous plaît.</td><td><em>Je voudrais</em> est plus poli.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je veux à manger. / Je veux de manger. ». Dites « Je veux manger . ». Pas « Je veut un café. ». Dites « Je veux un café. ». Pas « Ils veut partir. ». Dites « Ils veulent partir. ». Pas « Je ne veux pas du sucre. ». Dites « Je ne veux pas de sucre. ». Pas « Je veux un café, s’il vous plaît. (trop direct) ». Dites « Je voudrais un café, s’il vous plaît. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Vous êtes dans un restaurant. Quelle phrase est la plus polie ?",
+      "options": [
+        "Donnez-moi une pizza.",
+        "Je veux une pizza.",
+        "Je voudrais une pizza, s’il vous plaît."
+      ],
+      "correctIndex": 2,
+      "explanation": "*Je voudrais …, s’il vous plaît* est poli et naturel."
+    },
+    {
+      "type": "quiz",
+      "question": "Elle ___ partir demain.",
+      "options": [
+        "veux",
+        "veut",
+        "voulons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avec *elle* : *elle veut*."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je veux de manger.",
+        "Je veux manger.",
+        "Je veux à manger."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pas de préposition entre *vouloir* et l’infinitif."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 7 — aller",
+      "id": "verb-go"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Aller** a trois rôles : **aller** quelque part (*Je vais à Paris*), parler de la santé (*Comment allez-vous ?*) et annoncer le **futur proche** (*Je vais étudier ce soir*). C’est un verbe très irrégulier : il faut apprendre ses formes par cœur."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">vais</mark><small>/ʒə vɛ/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">vas</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> <mark class=\"lx-hl\">va</mark></div><div class=\"lx-cell s2\"><b>nous</b> <mark class=\"lx-hl\">allons</mark></div><div class=\"lx-cell s2\"><b>vous</b> <mark class=\"lx-hl\">allez</mark></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">vont</mark><small>/vɔ̃/</small></div></div></figure>",
+      "say": "Les formes de aller au présent : je vais, tu vas, il, elle, on va, nous allons, vous allez, ils, elles vont."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Aller + quoi ? Le bon petit mot</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏙️</span><span>aller <b>à</b> + ville</span></div><p class=\"lx-ex\">à Paris · à Lyon · à Rome</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏢</span><span>aller <b>à la / à l' / au / aux</b> + lieu</span></div><p class=\"lx-ex\">à la gare · à l’école · au cinéma · aux toilettes</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🇫🇷</span><span>aller <b>en / au</b> + pays</span></div><p class=\"lx-ex\">en France · en Italie · au Canada · aux États-Unis</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🩺</span><span>aller <b>chez</b> + personne</span></div><p class=\"lx-ex\">chez le médecin · chez Anna · chez moi</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🚌</span><span>aller <b>en / à</b> + transport</span></div><p class=\"lx-ex\">en bus · en train · en voiture · à pied · à vélo</p></div>\n     </div><figcaption class=\"lx-cap\">Pour « go home », on dit souvent <em>rentrer</em> : <em>Je rentre à la maison. Je rentre chez moi.</em> <em>Aller à la maison</em> est correct aussi.</figcaption></figure>",
+      "say": "Aller plus quoi ? Aller à plus une ville : à Paris. Aller à la, à l', au, aux plus un lieu : à la gare, au cinéma. Aller en ou au plus un pays : en France, au Canada. Aller chez plus une personne : chez le médecin, chez moi. Aller en ou à plus un transport : en bus, en train, à pied, à vélo. Pour go home, on dit souvent rentrer : je rentre chez moi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le futur proche : aller + infinitif"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour parler de ce que vous allez faire, mettez **aller au présent** + un **verbe à l’infinitif**. Le verbe qui suit ne change jamais."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Modèle",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "je vais / tu vas / il va… + **infinitif**",
+          "Je vais étudier ce soir. / Elle va acheter un téléphone."
+        ],
+        [
+          "**−**",
+          "je **ne** vais **pas** + infinitif",
+          "Je ne vais pas travailler demain. / Ils ne vont pas venir."
+        ],
+        [
+          "**?**",
+          "Tu vas + infinitif ? / Est-ce que … ?",
+          "Tu vas étudier ce soir ? / Qu’est-ce que tu vas faire demain ?"
+        ],
+        [
+          "**Réponses**",
+          "—",
+          "Oui, je vais étudier. / Non, je ne vais pas étudier."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Emploi",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**Un projet** : vous avez décidé",
+          "Nous allons rendre visite à des amis. / Il va chercher du travail."
+        ],
+        [
+          "**Une prévision** : vous voyez que cela arrive",
+          "Regarde les nuages ! Il va pleuvoir. / Attention ! Tu vas tomber !"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Passé, présent et futur avec aller</p><div class=\"lx-timeline\">\n       <div class=\"lx-time\"><h5>Passé <span class=\"lx-ex\">(A2)</span></h5><p><b>je suis allé(e)</b></p><p class=\"lx-ex\">Hier, je suis allé à Paris.</p><p class=\"lx-ex\">Je ne suis pas allé au travail.</p></div>\n       <div class=\"lx-time\"><h5>Maintenant</h5><p><b>je vais</b> : habitude <b>ou</b> en ce moment</p><p class=\"lx-ex\">Je vais au travail en bus.</p><p class=\"lx-ex\">Je vais au travail maintenant.</p></div>\n       <div class=\"lx-time\"><h5>Futur proche</h5><p><b>je vais + infinitif</b></p><p class=\"lx-ex\">Je vais étudier ce soir.</p><p class=\"lx-ex\">Je vais aller à Paris.</p></div>\n     </div><figcaption class=\"lx-cap\">En français, <em>Je vais au travail</em> veut dire à la fois « I go to work » et « I’m going to work » : le sens vient de <em>maintenant, tous les jours, en ce moment…</em></figcaption></figure>",
+      "say": "Passé, présent et futur avec aller. Passé, niveau A2 : je suis allé, par exemple hier, je suis allé à Paris. Maintenant : je vais, pour une habitude ou pour en ce moment : je vais au travail en bus. Futur proche : je vais plus un infinitif : je vais étudier ce soir. En français, je vais au travail veut dire à la fois I go to work et I’m going to work."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le piège : aller au travail ou aller travailler ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Phrase",
+        "Sens"
+      ],
+      "rows": [
+        [
+          "Je vais **au travail**.",
+          "Je me déplace vers mon lieu de travail *(le nom « travail »)*."
+        ],
+        [
+          "Je vais **travailler**.",
+          "Je vais faire mon travail : un projet *(le verbe « travailler »)*."
+        ],
+        [
+          "Je vais **aller** au travail.",
+          "Je vais me déplacer vers mon travail : un projet."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le passé de aller (A2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Au passé composé, **aller** utilise **être** (pas *avoir*), et le participe **s’accorde** avec le sujet."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sujet",
+        "Forme",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "je",
+          "suis allé (m.) / allée (f.)",
+          "Hier, je suis allé au cinéma."
+        ],
+        [
+          "tu",
+          "es allé / allée",
+          "Tu es allée où ?"
+        ],
+        [
+          "il / elle",
+          "est allé / allée",
+          "Elle est allée à la gare."
+        ],
+        [
+          "nous",
+          "sommes allés / allées",
+          "Nous sommes allés en France."
+        ],
+        [
+          "vous",
+          "êtes allé(e)(s)",
+          "Vous êtes allés au musée ?"
+        ],
+        [
+          "ils / elles",
+          "sont allés / allées",
+          "Ils sont allés chez le médecin."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Expressions avec aller"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Allons-y ! / On y va !** — *Let’s go!*",
+        "**Comment allez-vous ? / Ça va ?** — *How are you?* → **Je vais bien. / Ça va bien. / Ça ne va pas.**",
+        "**aller + chez quelqu’un** : *Je vais chez Anna ce soir.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je vais à France.</s></td><td>Je vais <strong>en</strong> France.</td><td>Un pays féminin : <em>en</em>.</td></tr><tr><td><s>Je vais à le cinéma.</s></td><td>Je vais <strong>au</strong> cinéma.</td><td><em>à + le = au</em>.</td></tr><tr><td><s>Je vais au Paris.</s></td><td>Je vais <strong>à</strong> Paris.</td><td>Une ville : <em>à</em>.</td></tr><tr><td><s>Je vais à étudier. / Je vais de manger.</s></td><td>Je vais <strong>étudier</strong>. / Je vais <strong>manger</strong>.</td><td>Pas de préposition avant l’infinitif.</td></tr><tr><td><s>Je vais en le bus.</s></td><td>Je vais <strong>en bus</strong>.</td><td>Moyen de transport : <em>en</em> + nom, sans article.</td></tr><tr><td><s>Tu va. / Ils va.</s></td><td>Tu <strong>vas</strong>. / Ils <strong>vont</strong>.</td><td>Les formes de <em>aller</em> sont irrégulières.</td></tr><tr><td><s>Hier, j’ai allé au cinéma.</s></td><td>Hier, je <strong>suis allé</strong> au cinéma.</td><td>Au passé : <em>être</em> + participe.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je vais à France. ». Dites « Je vais en France. ». Pas « Je vais à le cinéma. ». Dites « Je vais au cinéma. ». Pas « Je vais au Paris. ». Dites « Je vais à Paris. ». Pas « Je vais à étudier. / Je vais de manger. ». Dites « Je vais étudier . / Je vais manger . ». Pas « Je vais en le bus. ». Dites « Je vais en bus . ». Pas « Tu va. / Ils va. ». Dites « Tu vas . / Ils vont . ». Pas « Hier, j’ai allé au cinéma. ». Dites « Hier, je suis allé au cinéma. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Je vais ___ France cet été.",
+      "options": [
+        "à",
+        "en",
+        "au"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un pays féminin : *en France*."
+    },
+    {
+      "type": "quiz",
+      "question": "Regardez les nuages ! Il ___ pleuvoir.",
+      "options": [
+        "va",
+        "vont",
+        "est"
+      ],
+      "correctIndex": 0,
+      "explanation": "Une prévision : *Il va pleuvoir.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je vais à manger.",
+        "Je vais manger.",
+        "Je vais de manger."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pas de préposition entre *aller* et l’infinitif."
+    },
+    {
+      "type": "quiz",
+      "question": "Hier, nous ___ au cinéma.",
+      "options": [
+        "avons allé",
+        "sommes allés",
+        "allons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le passé de *aller* utilise *être* : *Nous sommes allés.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 8 — pouvoir",
+      "id": "verb-can"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Pouvoir** veut dire *can* et *may*. Il sert pour la possibilité, la permission, la capacité du moment et les demandes. Après *pouvoir*, on met directement un **verbe à l’infinitif** : pas de « à » ni de « de »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les formes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">peux</mark><small>/ʒə pø/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">peux</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> <mark class=\"lx-hl\">peut</mark><small>peux = peut /pø/</small></div><div class=\"lx-cell s2\"><b>nous</b> <mark class=\"lx-hl\">pouvons</mark></div><div class=\"lx-cell s2\"><b>vous</b> <mark class=\"lx-hl\">pouvez</mark></div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">peuvent</mark><small>/pœv/</small></div></div></figure>",
+      "say": "Les formes de pouvoir au présent : je peux, tu peux, il, elle, on peut, nous pouvons, vous pouvez, ils, elles peuvent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La règle en une ligne</p><p class=\"lx-core\">sujet + <b>pouvoir</b> + infinitif</p>\n     <div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🗓️</span>Possibilité</div><p>Ce qui est possible.</p><p class=\"lx-ex\">On peut aller au cinéma demain. · Il peut faire froid ici en hiver.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">✅</span>Permission</div><p>Ce qui est permis.</p><p class=\"lx-ex\">Je peux entrer ? · Vous ne pouvez pas stationner ici.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🙏</span>Demande</div><p>Demander à quelqu’un de faire quelque chose.</p><p class=\"lx-ex\">Tu peux m’aider ? · Vous pouvez répéter, s’il vous plaît ?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💪</span>Capacité du moment</div><p>Ce que vous pouvez faire <em>maintenant</em>.</p><p class=\"lx-ex\">Je ne peux pas venir : je suis malade.</p></div>\n     </div><figcaption class=\"lx-cap\"><em>S’il vous plaît</em> rend toute demande plus polie : <em>Vous pouvez répéter, s’il vous plaît ?</em></figcaption></figure>",
+      "say": "La règle en une ligne : sujet plus pouvoir plus infinitif. Quatre emplois : la possibilité, comme on peut aller au cinéma demain ; la permission, comme je peux entrer ; la demande, comme tu peux m’aider ; et la capacité du moment, comme je ne peux pas venir, je suis malade. S’il vous plaît rend toute demande plus polie."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Pouvoir ou savoir ?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎓</span><span><b>savoir</b> + infinitif</span></div><p>une compétence <b>apprise</b></p><p class=\"lx-ex\">Je sais nager. · Elle sait conduire.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🚪</span><span><b>pouvoir</b> + infinitif</span></div><p>c’est possible <b>maintenant</b> : j’ai le temps, c’est permis, rien ne m’empêche</p><p class=\"lx-ex\">Je peux nager ici ? · Je peux venir demain.</p></div>\n     </div><figcaption class=\"lx-cap\">Exemple complet : <em>Je sais nager, mais aujourd’hui je ne peux pas : j’ai mal au dos.</em></figcaption></figure>",
+      "say": "Pouvoir ou savoir ? Savoir plus infinitif, pour une compétence apprise : je sais nager. Pouvoir plus infinitif, quand c’est possible maintenant : je peux nager ici ? Exemple complet : je sais nager, mais aujourd’hui je ne peux pas, j’ai mal au dos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les phrases que vous allez utiliser"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Je peux venir. / Il peut conduire. / Ils peuvent nous aider."
+        ],
+        [
+          "**−**",
+          "Je ne peux pas venir. / Elle ne peut pas répondre. / Nous ne pouvons pas partir."
+        ],
+        [
+          "**?**",
+          "Tu peux m’aider ? / Est-ce que je peux entrer ? / Vous pouvez parler plus lentement ?"
+        ],
+        [
+          "**Réponses**",
+          "Oui, bien sûr ! / Avec plaisir. / Désolé, je ne peux pas."
+        ],
+        [
+          "**Formel** *(A2, pour reconnaître)*",
+          "Puis-je entrer ? / Pouvez-vous répéter ?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "À l’oral : je peux ou je veux ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "On entend",
+        "Sens",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "/ʒə **p**ø/ — **peux**",
+          "c’est possible",
+          "Je **peux** venir demain."
+        ],
+        [
+          "/ʒə **v**ø/ — **veux**",
+          "je désire",
+          "Je **veux** venir demain."
+        ],
+        [
+          "les deux ensemble",
+          "",
+          "Je **veux** y aller, mais je ne **peux** pas."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les autres temps (A2)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Idée",
+        "Dites",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Possibilité au passé",
+          "**j’ai pu** / **je n’ai pas pu**",
+          "Je n’ai pas pu venir hier."
+        ],
+        [
+          "Capacité dans le passé",
+          "**je pouvais**",
+          "Je pouvais nager à cinq ans."
+        ],
+        [
+          "Possibilité dans le futur",
+          "**je pourrai**",
+          "Je pourrai conduire l’année prochaine."
+        ],
+        [
+          "Demande très polie",
+          "**pourriez-vous** / **je pourrais**",
+          "Pourriez-vous m’aider, s’il vous plaît ?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je peux à venir.</s></td><td>Je peux <strong>venir</strong>.</td><td>Pas de préposition après <em>pouvoir</em>.</td></tr><tr><td><s>Tu peut m’aider ?</s></td><td>Tu <strong>peux</strong> m’aider ?</td><td><em>je peux, tu peux</em>, mais <em>il peut</em>.</td></tr><tr><td><s>Ils peut venir.</s></td><td>Ils <strong>peuvent</strong> venir.</td><td>Ils : <em>peuvent</em>.</td></tr><tr><td><s>Je sais venir demain.</s></td><td>Je <strong>peux</strong> venir demain.</td><td>Possibilité : <em>pouvoir</em>, pas <em>savoir</em>.</td></tr><tr><td><s>Je peux nager. <i>(compétence apprise)</i></s></td><td>Je <strong>sais</strong> nager.</td><td>Compétence apprise : <em>savoir</em>.</td></tr><tr><td><s>Je peux pas venir. <i>(à l’écrit)</i></s></td><td>Je ne peux pas venir.</td><td>À l’écrit : <em>ne … pas</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je peux à venir. ». Dites « Je peux venir . ». Pas « Tu peut m’aider ? ». Dites « Tu peux m’aider ? ». Pas « Ils peut venir. ». Dites « Ils peuvent venir. ». Pas « Je sais venir demain. ». Dites « Je peux venir demain. ». Pas « Je peux nager. (compétence apprise) ». Dites « Je sais nager. ». Pas « Je peux pas venir. (à l’écrit) ». Dites « Je ne peux pas venir. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Elle ___ venir demain, c’est sûr.",
+      "options": [
+        "peut",
+        "peux",
+        "peuvent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avec *elle* : *elle peut*."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je peux à partir.",
+        "Je peux partir.",
+        "Je peux de partir."
+      ],
+      "correctIndex": 1,
+      "explanation": "Pas de préposition après *pouvoir*."
+    },
+    {
+      "type": "quiz",
+      "question": "Il a appris à nager quand il était enfant. Que dit-on ?",
+      "options": [
+        "Il peut nager.",
+        "Il sait nager.",
+        "Il connaît nager."
+      ],
+      "correctIndex": 1,
+      "explanation": "Une compétence apprise : *savoir* → *Il sait nager.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 9 — manger",
+      "id": "verb-eat"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Manger** veut dire mettre de la nourriture dans la bouche et l’avaler. C’est un verbe en **-er** : même modèle que *penser* et *aimer*. Une petite particularité d’orthographe : on écrit **nous mangeons** (avec un *e*) pour garder le son /ʒ/."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> mang<mark class=\"lx-hl\">e</mark><small>/ʒə mɑ̃ʒ/</small></div><div class=\"lx-cell s1\"><b>tu</b> mang<mark class=\"lx-hl\">es</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> mang<mark class=\"lx-hl\">e</mark></div><div class=\"lx-cell s2\"><b>nous</b> mang<mark class=\"lx-hl\">eons</mark><small>attention : <i>-eons</i></small></div><div class=\"lx-cell s2\"><b>vous</b> mang<mark class=\"lx-hl\">ez</mark></div><div class=\"lx-cell s3\"><b>ils / elles</b> mang<mark class=\"lx-hl\">ent</mark><small>= il mange</small></div></div></figure>",
+      "say": "Les formes de manger au présent : je mange, tu manges, il, elle, on mange, nous mangeons avec un e, vous mangez, ils, elles mangent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Quel article choisir ? Suivez les questions de haut en bas</p><div class=\"lx-flow\">\n       <div class=\"lx-step\"><div class=\"lx-q\">1. Vous parlez d’un <b>goût en général</b> (aimer, adorer, détester) ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>le / la / l' / les</b> : <em>J’aime le pain. Je déteste les épinards.</em></div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">2. La phrase est <b>négative</b> (ne … pas) ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>de / d’</b> : <em>Je ne mange pas de viande. Il ne mange pas d’œufs.</em></div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">3. C’est <b>un seul objet</b> que l’on peut compter ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>un / une</b> : <em>Je mange une pomme. Il mange un sandwich.</em></div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">4. Une <b>quantité</b>, ou plusieurs objets ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>du / de la / de l' / des</b> : <em>Je mange du pain, de la viande, de l’ail, des fruits.</em></div></div>\n     </div><figcaption class=\"lx-cap\">C’est la partie la plus difficile pour un anglophone : en anglais, on dit simplement <em>I eat bread</em>. En français, il faut <strong>toujours</strong> un article.</figcaption></figure>",
+      "say": "Quel article choisir ? Un : si vous parlez d’un goût en général, avec aimer, adorer, détester : le, la, l' ou les. Deux : si la phrase est négative : de ou d'. Trois : si c’est un seul objet que l’on peut compter : un ou une. Quatre : pour une quantité ou plusieurs objets : du, de la, de l' ou des. En anglais on dit simplement I eat bread. En français il faut toujours un article."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les mots de la nourriture"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mot",
+        "Exemple",
+        "In English"
+      ],
+      "rows": [
+        [
+          "du pain",
+          "Je mange du pain avec du fromage.",
+          "bread"
+        ],
+        [
+          "du fromage",
+          "Elle ne mange pas de fromage.",
+          "cheese"
+        ],
+        [
+          "de la viande",
+          "Il mange de la viande.",
+          "meat"
+        ],
+        [
+          "du poisson",
+          "Tu manges du poisson ?",
+          "fish"
+        ],
+        [
+          "du poulet",
+          "Nous mangeons du poulet le dimanche.",
+          "chicken"
+        ],
+        [
+          "du riz",
+          "Ils mangent du riz tous les jours.",
+          "rice"
+        ],
+        [
+          "des pâtes",
+          "J’aime les pâtes. Je mange des pâtes ce soir.",
+          "pasta"
+        ],
+        [
+          "des légumes",
+          "Mangez des légumes !",
+          "vegetables"
+        ],
+        [
+          "des fruits",
+          "Je mange des fruits au petit-déjeuner.",
+          "fruit"
+        ],
+        [
+          "une pomme",
+          "Elle mange une pomme par jour.",
+          "an apple"
+        ],
+        [
+          "un œuf",
+          "Il mange un œuf le matin.",
+          "an egg"
+        ],
+        [
+          "un sandwich",
+          "Je voudrais un sandwich, s’il vous plaît.",
+          "a sandwich"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les repas"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Repas",
+        "Le verbe",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "le petit-déjeuner",
+          "**prendre** le petit-déjeuner",
+          "Je prends le petit-déjeuner à sept heures."
+        ],
+        [
+          "le déjeuner (midi)",
+          "**déjeuner**",
+          "Nous déjeunons à midi."
+        ],
+        [
+          "le dîner (soir)",
+          "**dîner**",
+          "Ils dînent à huit heures."
+        ],
+        [
+          "dans un restaurant",
+          "**manger au restaurant**",
+          "Le samedi, nous mangeons parfois au restaurant."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bon appétit !** — on le dit avant de manger : *Enjoy your meal!*",
+        "**quelque chose à manger** : *J’ai faim. Je veux quelque chose à manger.* (La faim se dit avec *avoir* : verbe 2.)",
+        "**manger trop, manger sain, manger ensemble.**"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Maintenant, ou habituellement ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemple",
+        "In English"
+      ],
+      "rows": [
+        [
+          "**Habitude** (présent)",
+          "Je mange à midi. / Elle mange des fruits chaque jour.",
+          "I eat at noon."
+        ],
+        [
+          "**En ce moment** *(être en train de)*",
+          "Je suis en train de manger. / Ils sont en train de déjeuner.",
+          "I’m eating right now."
+        ],
+        [
+          "**Passé** *(A2, passé composé)*",
+          "J’ai mangé une pizza hier. / Nous avons mangé au restaurant.",
+          "I ate pizza yesterday."
+        ],
+        [
+          "**Négatif**",
+          "Je ne mange pas de viande. / Je n’ai pas mangé.",
+          "I don’t eat meat. / I didn’t eat."
+        ],
+        [
+          "**Question**",
+          "Tu manges de la viande ? / Tu as mangé ?",
+          "Do you eat meat? / Have you eaten?"
+        ],
+        [
+          "**Réponses** *(A2)*",
+          "Oui, j’en mange. / Non, je n’en mange pas. / Non, pas encore.",
+          "Yes, I do. / No, not yet."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je mange pain.</s></td><td>Je mange <strong>du</strong> pain.</td><td>Il faut un article.</td></tr><tr><td><s>Je ne mange pas de la viande.</s></td><td>Je ne mange pas <strong>de</strong> viande.</td><td>Négation : <em>de</em>.</td></tr><tr><td><s>Nous mangons.</s></td><td>Nous <strong>mangeons</strong>.</td><td>On garde le <em>e</em> pour le son /ʒ/.</td></tr><tr><td><s>Je mange un petit-déjeuner.</s></td><td>Je <strong>prends</strong> le petit-déjeuner.</td><td>Repas : <em>prendre</em> ou <em>déjeuner / dîner</em>.</td></tr><tr><td><s>Je suis faim.</s></td><td>J’<strong>ai</strong> faim.</td><td>La faim : <em>avoir</em>.</td></tr><tr><td><s>Il mangent.</s></td><td>Il <strong>mange</strong>. / Ils <strong>mangent</strong>.</td><td>Singulier ou pluriel ?</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je mange pain. ». Dites « Je mange du pain. ». Pas « Je ne mange pas de la viande. ». Dites « Je ne mange pas de viande. ». Pas « Nous mangons. ». Dites « Nous mangeons . ». Pas « Je mange un petit-déjeuner. ». Dites « Je prends le petit-déjeuner. ». Pas « Je suis faim. ». Dites « J' ai faim. ». Pas « Il mangent. ». Dites « Il mange . / Ils mangent . »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Elle ___ pas de viande.",
+      "options": [
+        "mange",
+        "ne mange",
+        "ne mangeons"
+      ],
+      "correctIndex": 1,
+      "explanation": "La négation entoure le verbe : *Elle ne mange pas de viande.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Je mange ___ pain.",
+      "options": [
+        "le",
+        "du",
+        "de"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une quantité : *du pain*. (*le pain* parle d’un pain précis ou d’un goût.)"
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ au restaurant ce soir.",
+      "options": [
+        "mangons",
+        "mangeons",
+        "mangez"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avec *nous* : *nous mangeons* (avec un *e*)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbe 10 — boire",
+      "id": "verb-drink"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Boire** veut dire avaler un liquide. C’est un verbe **irrégulier** : il a **trois radicaux** différents. Mais une fois que vous les connaissez, c’est simple."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Trois radicaux, six formes</p><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>je</b> <mark class=\"lx-hl\">bois</mark><small>/bwa/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">bois</mark></div><div class=\"lx-cell s1\"><b>il / elle / on</b> <mark class=\"lx-hl\">boit</mark><small>bois = boit /bwa/</small></div><div class=\"lx-cell s2\"><b>nous</b> <mark class=\"lx-hl\">buv</mark>ons<small>radical <b>buv-</b></small></div><div class=\"lx-cell s2\"><b>vous</b> <mark class=\"lx-hl\">buv</mark>ez</div><div class=\"lx-cell s3\"><b>ils / elles</b> <mark class=\"lx-hl\">boiv</mark>ent<small>radical <b>boiv-</b> /bwav/</small></div></div><figcaption class=\"lx-cap\">Participe passé : <em>bu</em> → <em>J’ai bu de l’eau.</em></figcaption></figure>",
+      "say": "Trois radicaux, six formes. Je bois, tu bois, il boit : radical bois. Nous buvons, vous buvez : radical buv. Ils boivent : radical boiv. Participe passé : bu. J’ai bu de l’eau."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les boissons"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mot",
+        "Exemple",
+        "In English"
+      ],
+      "rows": [
+        [
+          "de l’eau",
+          "Je bois de l’eau après le sport.",
+          "water"
+        ],
+        [
+          "du lait",
+          "Il boit du lait le matin.",
+          "milk"
+        ],
+        [
+          "du café",
+          "Tu bois du café ?",
+          "coffee"
+        ],
+        [
+          "du thé",
+          "Elle boit du thé le soir.",
+          "tea"
+        ],
+        [
+          "du jus d’orange",
+          "Les enfants boivent du jus d’orange.",
+          "orange juice"
+        ],
+        [
+          "de la limonade",
+          "Nous buvons de la limonade.",
+          "lemonade"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "On dit",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "**un verre de** eau / jus / lait",
+          "Je voudrais un verre d’eau, s’il vous plaît."
+        ],
+        [
+          "**une tasse de** thé / café",
+          "Elle prend une tasse de thé chaque matin."
+        ],
+        [
+          "**une bouteille de** eau / jus",
+          "Je bois une bouteille d’eau par jour."
+        ],
+        [
+          "**une canette de** cola",
+          "Il voudrait une canette de cola."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Après *un verre de, une tasse de…*, il n’y a pas d’article : *un verre d’eau*, *une tasse de thé*."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Boire ou prendre ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour commander ou proposer une boisson, les Français disent très souvent **prendre** : *Qu’est-ce que vous **prenez** ? Je **prends** un café. Tu **prends** un verre ?* (**prendre un verre** = aller boire quelque chose avec quelqu’un)."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Proposer :** *Tu veux quelque chose à boire ? / Qu’est-ce que vous voulez boire ?*",
+        "**Avoir soif :** *J’ai soif.* (verbe 2 : *avoir*)",
+        "**Trinquer :** *Santé ! / À la tienne ! / À la vôtre !* — *Cheers!*"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>« Il boit. » tout seul</strong><p>Sans complément, <em>Il boit.</em> suggère souvent qu’il boit de l’alcool. Précisez ce que l’on boit : <em>Il boit de l’eau.</em></p></div>",
+      "say": "« Il boit. » tout seul Sans complément, Il boit. suggère souvent qu’il boit de l’alcool. Précisez ce que l’on boit : Il boit de l’eau."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Au restaurant</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Au restaurant\"><p class=\"lx-say\"><b>Serveur</b>Qu’est-ce que vous voulez boire ?</p><p class=\"lx-say\"><b>Vous</b>Je voudrais une carafe d’eau, s’il vous plaît.</p><p class=\"lx-say\"><b>Serveur</b>Plate ou gazeuse ?</p><p class=\"lx-say\"><b>Vous</b>Plate. Et un café après le repas.</p></div></figure>",
+      "say": "Au restaurant. Serveur : Qu’est-ce que vous voulez boire ? Vous : Je voudrais une carafe d’eau, s’il vous plaît. Serveur : Plate ou gazeuse ? Vous : Plate. Et un café après le repas."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Présent, maintenant, passé"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Exemple",
+        "In English"
+      ],
+      "rows": [
+        [
+          "**Habitude**",
+          "Je bois du café le matin. / Ils boivent du thé.",
+          "I drink coffee in the morning."
+        ],
+        [
+          "**En ce moment**",
+          "Je suis en train de boire un thé.",
+          "I’m drinking tea."
+        ],
+        [
+          "**Passé** *(A2)*",
+          "J’ai bu de l’eau après la course. / Il n’a pas bu son café.",
+          "I drank water after the run."
+        ],
+        [
+          "**Négatif**",
+          "Je ne bois pas de café. / Elle ne boit pas de lait.",
+          "I don’t drink coffee."
+        ],
+        [
+          "**Question**",
+          "Tu bois du café ? / Qu’est-ce que vous buvez ?",
+          "Do you drink coffee?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Erreurs fréquentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>À éviter</th><th>À dire</th><th>Pourquoi</th></tr></thead><tbody><tr><td><s>Je bois l’eau.</s></td><td>Je bois <strong>de l’</strong>eau.</td><td>Une quantité : <em>de l’eau</em>.</td></tr><tr><td><s>Je ne bois pas du café.</s></td><td>Je ne bois pas <strong>de</strong> café.</td><td>Négation : <em>de</em>.</td></tr><tr><td><s>Nous boivons.</s></td><td>Nous <strong>buvons</strong>.</td><td>Radical <em>buv-</em> avec <em>nous / vous</em>.</td></tr><tr><td><s>Ils boit.</s></td><td>Ils <strong>boivent</strong>.</td><td>Radical <em>boiv-</em> avec <em>ils / elles</em>.</td></tr><tr><td><s>J’ai bois de l’eau.</s></td><td>J’ai <strong>bu</strong> de l’eau.</td><td>Passé composé : <em>bu</em>.</td></tr><tr><td><s>Je suis soif.</s></td><td>J’<strong>ai</strong> soif.</td><td>La soif : <em>avoir</em>.</td></tr></tbody></table></div>",
+      "say": "Erreurs fréquentes. Pas « Je bois l’eau. ». Dites « Je bois de l' eau. ». Pas « Je ne bois pas du café. ». Dites « Je ne bois pas de café. ». Pas « Nous boivons. ». Dites « Nous buvons . ». Pas « Ils boit. ». Dites « Ils boivent . ». Pas « J’ai bois de l’eau. ». Dites « J’ai bu de l’eau. ». Pas « Je suis soif. ». Dites « J' ai soif. »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Petit quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ du thé le soir.",
+      "options": [
+        "boivons",
+        "buvons",
+        "bois"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avec *nous* : radical *buv-* → *nous buvons*."
+    },
+    {
+      "type": "quiz",
+      "question": "Elle ne boit pas ___ café.",
+      "options": [
+        "du",
+        "de",
+        "le"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après la négation : *de* → *Elle ne boit pas de café.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "J’ai bois de l’eau.",
+        "J’ai bu de l’eau.",
+        "J’ai buvé de l’eau."
+      ],
+      "correctIndex": 1,
+      "explanation": "Le participe passé de *boire* est *bu* : *J’ai bu de l’eau.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tout ensemble",
+      "id": "verb-together"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vous connaissez maintenant dix verbes. Cette dernière double page montre comment ils fonctionnent **ensemble** : comment choisir la bonne forme, comment parler du passé et du futur, et comment faire des phrases plus longues."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Quelle forme choisir ? Suivez les questions de haut en bas</p><div class=\"lx-flow\">\n       <div class=\"lx-step\"><div class=\"lx-q\">1. C’est une phrase <b>négative</b> ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>ne</b> + verbe + <b>pas</b> : <em>Je ne mange pas. Il n’est pas là.</em><br>Avec <em>avoir, manger, boire, vouloir</em> : <b>pas de</b> + nom : <em>Je n’ai pas de voiture.</em></div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">2. C’est une <b>question</b> ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> La voix monte : <em>Tu manges ?</em> ou <b>est-ce que</b> : <em>Est-ce que tu manges ?</em><br>L’inversion (<em>Manges-tu ?</em>) est formelle.</div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">3. On parle du <b>passé</b> ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> Une action finie : <b>passé composé</b> (<em>j’ai mangé, je suis allé</em>). Un état ou une description : <b>imparfait</b> (<em>j’étais fatigué, j’avais faim</em>).</div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">4. C’est un <b>projet</b> ou une prévision ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>aller</b> + infinitif : <em>Je vais étudier. Il va pleuvoir.</em></div></div>\n       <div class=\"lx-then\">non ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">5. C’est une <b>habitude</b>, un fait, un état, ou une action <b>en cours</b> ?</div><div class=\"lx-a\"><b class=\"lx-tag\">Oui</b> <b>Présent</b> : <em>Je mange à midi. Je sais la réponse.</em> En cours, avec insistance : <b>être en train de</b> + infinitif : <em>Je suis en train de manger.</em></div></div>\n     </div><figcaption class=\"lx-cap\">Ce schéma vaut pour les dix verbes. Il n’y a pas de « verbe d’aide » comme en anglais (<em>do / does</em>).</figcaption></figure>",
+      "say": "Quelle forme choisir ? Un : phrase négative, ne plus verbe plus pas, et pas de plus nom avec avoir, manger, boire. Deux : question, la voix monte, ou est-ce que. Trois : passé, passé composé pour une action finie, imparfait pour un état ou une description. Quatre : projet ou prévision, aller plus infinitif. Cinq : habitude, fait ou état, présent ; action en cours, être en train de plus infinitif. Il n’y a pas de verbe d’aide comme en anglais."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les dix verbes en un coup d’œil"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbe",
+        "Présent : je / nous",
+        "Passé",
+        "À retenir"
+      ],
+      "rows": [
+        [
+          "**être** *(to be)*",
+          "je suis / nous sommes",
+          "j’étais · j’ai été",
+          "profession sans article"
+        ],
+        [
+          "**avoir** *(to have)*",
+          "j’ai / nous avons",
+          "j’avais · j’ai eu",
+          "âge, faim ; **de** après la négation"
+        ],
+        [
+          "**penser** *(to think)*",
+          "je pense / nous pensons",
+          "je pensais · j’ai pensé",
+          "**penser que**, **penser à**"
+        ],
+        [
+          "**savoir** *(to know)*",
+          "je sais / nous savons",
+          "je savais",
+          "infinitif ou information"
+        ],
+        [
+          "**connaître** *(to know)*",
+          "je connais / nous connaissons",
+          "je connaissais",
+          "personne, lieu, chose"
+        ],
+        [
+          "**aimer** *(to like)*",
+          "j’aime / nous aimons",
+          "j’aimais · j’ai aimé",
+          "**le / la / les**"
+        ],
+        [
+          "**vouloir** *(to want)*",
+          "je veux / nous voulons",
+          "je voulais",
+          "**je voudrais** = poli"
+        ],
+        [
+          "**aller** *(to go)*",
+          "je vais / nous allons",
+          "je suis allé(e)",
+          "**à / au / en / chez**"
+        ],
+        [
+          "**pouvoir** *(can)*",
+          "je peux / nous pouvons",
+          "je pouvais · je n’ai pas pu",
+          "pouvoir ≠ savoir"
+        ],
+        [
+          "**manger** *(to eat)*",
+          "je mange / nous mangeons",
+          "j’ai mangé",
+          "**du / de la / des**"
+        ],
+        [
+          "**boire** *(to drink)*",
+          "je bois / nous buvons",
+          "j’ai bu",
+          "**de l’eau**"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le passé : deux temps pour deux idées (A2)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Passé composé",
+        "Imparfait"
+      ],
+      "rows": [
+        [
+          "**Pour dire…**",
+          "une action **finie**",
+          "un **état**, une description, une habitude du passé"
+        ],
+        [
+          "**Formation**",
+          "avoir (ou être) au présent + **participe passé**",
+          "radical de *nous* + **-ais, -ais, -ait, -ions, -iez, -aient**"
+        ],
+        [
+          "**Exemples**",
+          "J’ai mangé une pizza. / Je suis allé à Paris. / J’ai bu de l’eau.",
+          "J’étais fatigué. / J’avais faim. / Je voulais un café. / Je pouvais nager."
+        ],
+        [
+          "**Négatif**",
+          "Je n’ai pas mangé.",
+          "Je n’avais pas faim."
+        ],
+        [
+          "**Question**",
+          "Tu as mangé ?",
+          "Tu étais fatigué ?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbe",
+        "Participe passé",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "être",
+          "été",
+          "J’ai été malade la semaine dernière."
+        ],
+        [
+          "avoir",
+          "eu /y/",
+          "J’ai eu une idée."
+        ],
+        [
+          "penser",
+          "pensé",
+          "J’ai pensé à toi."
+        ],
+        [
+          "aimer",
+          "aimé",
+          "J’ai aimé ce film."
+        ],
+        [
+          "aller",
+          "allé *(avec être)*",
+          "Elle est allée au marché."
+        ],
+        [
+          "manger",
+          "mangé",
+          "Nous avons mangé des pâtes."
+        ],
+        [
+          "boire",
+          "bu",
+          "Il a bu un verre d’eau."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><strong>Pour savoir, connaître, vouloir, pouvoir</strong><p>Pour dire « je savais, je connaissais, je voulais, je pouvais », on utilise surtout l’<strong>imparfait</strong> : <em>Je savais la réponse. Je voulais un café.</em> Au passé composé, le sens change (<em>j’ai su</em> = <em>j’ai appris</em>) : c’est pour plus tard.</p></div>",
+      "say": "Pour savoir, connaître, vouloir, pouvoir Pour dire « je savais, je connaissais, je voulais, je pouvais », on utilise surtout l' imparfait : Je savais la réponse. Je voulais un café. Au passé composé, le sens change ( j’ai su = j’ai appris ) : c’est pour plus tard."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Maintenant ou toujours ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Présent",
+        "Être en train de + infinitif"
+      ],
+      "rows": [
+        [
+          "**Sens**",
+          "habitude, fait, état ; ou action en cours",
+          "action en cours, avec insistance"
+        ],
+        [
+          "**Exemples**",
+          "Je mange à midi. / Je mange maintenant.",
+          "Je suis en train de manger. / Elle est en train de boire un thé."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Les verbes d’état n’utilisent pas « en train de »</strong><p>On ne dit pas <s>Je suis en train de savoir</s>, <s>Je suis en train d’aimer</s> ni <s>Je suis en train de vouloir</s>. Pour ces verbes, le présent suffit : <em>Je sais. J’aime ça. Je veux de l’eau.</em></p></div>",
+      "say": "Les verbes d’état n’utilisent pas « en train de » On ne dit pas Je suis en train de savoir , Je suis en train d’aimer ni Je suis en train de vouloir . Pour ces verbes, le présent suffit : Je sais. J’aime ça. Je veux de l’eau."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Faire des phrases plus longues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vous n’avez pas besoin de centaines de verbes pour parler. Il suffit de quelques verbes et de savoir les combiner."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dites…",
+        "Ce qui est combiné"
+      ],
+      "rows": [
+        [
+          "Je pense que le français est intéressant parce que j’aime apprendre de nouveaux mots.",
+          "**penser que** + phrase · **aimer** + infinitif"
+        ],
+        [
+          "Je veux aller au restaurant, mais je ne peux pas aujourd’hui.",
+          "**vouloir** + infinitif · **ne … pas**"
+        ],
+        [
+          "Elle travaille tous les jours, étudie le soir et boit du thé avant de dormir.",
+          "présent, troisième personne"
+        ],
+        [
+          "J’ai mangé à huit heures, mais j’ai faim maintenant.",
+          "passé composé + **avoir** (faim)"
+        ],
+        [
+          "Nous allons étudier, dîner et regarder un film ce soir.",
+          "**aller** + infinitifs"
+        ],
+        [
+          "Je sais la réponse, mais je pense que c’est difficile à expliquer.",
+          "**savoir** + nom · **penser que**"
+        ],
+        [
+          "Je voudrais un verre d’eau, s’il vous plaît. Je peux avoir aussi du pain ?",
+          "**je voudrais** + nom · **pouvoir** + infinitif"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Une petite histoire : Ma journée"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lisez le texte, puis retrouvez les structures dans le tableau."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><p>Je <b>suis</b> Alex. Je <b>travaille</b> dans un bureau et j’<b>étudie</b> le français le soir. J’<b>aime</b> apprendre des langues parce que je <b>pense</b> que c’<b>est</b> intéressant.</p>\n<p>Chaque matin, je <b>mange</b> du pain et je <b>bois</b> du café. Je <b>vais</b> au travail en bus. Je <b>sais</b> que mon travail est parfois difficile, mais je l’<b>aime</b> bien.</p>\n<p>Aujourd’hui, je <b>suis en train de travailler</b> à la maison. J’<b>ai</b> faim : je <b>mange</b> un sandwich et je <b>bois</b> de l’eau. Je <b>peux</b> étudier pendant ma pause.</p>\n<p>Hier, je <b>suis allé</b> au restaurant avec une amie. Nous <b>avons mangé</b> des pâtes et <b>bu</b> du jus.</p>\n<p>Demain, je <b>vais travailler</b> le matin et étudier le soir. Je <b>voudrais</b> parler français sans difficulté un jour.</p></div>",
+      "say": "Ma journée. Je suis Alex. Je travaille dans un bureau et j’étudie le français le soir. J’aime apprendre des langues parce que je pense que c’est intéressant. Chaque matin, je mange du pain et je bois du café. Je vais au travail en bus. Je sais que mon travail est parfois difficile, mais je l’aime bien. Aujourd’hui, je suis en train de travailler à la maison. J’ai faim : je mange un sandwich et je bois de l’eau. Je peux étudier pendant ma pause. Hier, je suis allé au restaurant avec une amie. Nous avons mangé des pâtes et bu du jus. Demain, je vais travailler le matin et étudier le soir. Je voudrais parler français sans difficulté un jour."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dans le texte",
+        "Structure"
+      ],
+      "rows": [
+        [
+          "Je suis Alex.",
+          "**être**"
+        ],
+        [
+          "Je travaille · j’étudie · j’aime · je pense · je mange · je bois",
+          "présent (habitudes, goûts, opinions)"
+        ],
+        [
+          "J’ai faim.",
+          "**avoir** + sensation"
+        ],
+        [
+          "Je suis en train de travailler.",
+          "action en cours"
+        ],
+        [
+          "Je sais que… · je l’aime bien",
+          "**savoir que** · **aimer bien**"
+        ],
+        [
+          "Je peux étudier.",
+          "**pouvoir** + infinitif"
+        ],
+        [
+          "Je suis allé · nous avons mangé et bu",
+          "passé composé"
+        ],
+        [
+          "Je vais travailler.",
+          "**aller** + infinitif (projet)"
+        ],
+        [
+          "Je voudrais parler français.",
+          "**je voudrais** + infinitif"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fiche mémo"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vous voulez dire…",
+        "Structure",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Un fait, une habitude",
+          "sujet + verbe au présent",
+          "Je travaille."
+        ],
+        [
+          "« Non »",
+          "ne + verbe + pas (**pas de** + nom)",
+          "Je ne travaille pas. / Je n’ai pas de voiture."
+        ],
+        [
+          "Une question",
+          "intonation · **est-ce que**",
+          "Tu travailles ? / Est-ce que tu travailles ?"
+        ],
+        [
+          "Une profession, un état, un lieu",
+          "**être** (+ adjectif accordé)",
+          "Je suis professeur. / Elle est contente."
+        ],
+        [
+          "L’âge, la faim, le froid",
+          "**avoir**",
+          "J’ai vingt ans. / J’ai faim."
+        ],
+        [
+          "Une action en cours",
+          "**être en train de** + infinitif",
+          "Je suis en train de manger."
+        ],
+        [
+          "Une possibilité, une demande",
+          "**pouvoir** + infinitif",
+          "Je peux venir. / Tu peux m’aider ?"
+        ],
+        [
+          "Une compétence",
+          "**savoir** + infinitif",
+          "Je sais nager."
+        ],
+        [
+          "Une personne, un lieu",
+          "**connaître** + nom",
+          "Je connais Anna."
+        ],
+        [
+          "Un désir",
+          "**vouloir** + nom / infinitif",
+          "Je veux de l’eau. / Je veux manger."
+        ],
+        [
+          "Un désir poli",
+          "**je voudrais** + nom / infinitif",
+          "Je voudrais un café."
+        ],
+        [
+          "Un goût",
+          "**aimer** + le / la / les · + infinitif",
+          "J’aime le café. / J’aime nager."
+        ],
+        [
+          "Un projet",
+          "**aller** + infinitif",
+          "Je vais étudier."
+        ],
+        [
+          "Un événement passé",
+          "passé composé",
+          "J’ai mangé. / Je suis allé(e)."
+        ],
+        [
+          "Un état passé",
+          "imparfait",
+          "J’étais fatigué."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ce que vous savez faire maintenant"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "✅ Vous présenter : nom, âge, profession, origine (**être, avoir**).",
+        "✅ Parler de ce que vous avez, aimez et voulez (**avoir, aimer, vouloir**).",
+        "✅ Donner une opinion et demander celle des autres (**penser, trouver**), et dire si vous êtes sûr (**savoir**).",
+        "✅ Commander à manger et à boire poliment (**je voudrais, s’il vous plaît**, **manger, boire**).",
+        "✅ Dire où vous allez, comment, et ce que vous allez faire (**aller**).",
+        "✅ Demander de l’aide ou la permission, et dire ce que vous pouvez ou ne pouvez pas faire (**pouvoir**).",
+        "✅ Raconter une petite histoire sur hier, aujourd’hui et demain."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "À dire à voix haute"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Dites votre nom, votre âge, votre profession et votre pays. *(être, avoir)*",
+        "Dites trois choses que vous avez et deux choses que vous n’avez pas. *(avoir, ne … pas de)*",
+        "Donnez votre opinion sur votre chanson préférée. *(penser, trouver)*",
+        "Dites trois choses que vous savez, et une personne ou un lieu que vous connaissez. *(savoir, connaître)*",
+        "Dites ce que vous aimez, ce que vous adorez et ce que vous détestez. *(aimer)*",
+        "Commandez une boisson et quelque chose à manger au café. *(vouloir, je voudrais)*",
+        "Dites comment vous allez au travail ou à l’école, et où vous allez aller ce week-end. *(aller)*",
+        "Dites trois choses que vous pouvez faire et une chose que vous ne pouvez pas faire. *(pouvoir, savoir)*",
+        "Dites ce que vous avez mangé et bu hier. *(manger, boire)*",
+        "Racontez votre journée à un ami, en cinq phrases. *(tous les verbes)*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vérification finale"
+    },
+    {
+      "type": "quiz",
+      "question": "Hier, elle ___ au cinéma.",
+      "options": [
+        "a allé",
+        "est allée",
+        "va"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le passé de *aller* utilise *être*, et le participe s’accorde : *Elle est allée au cinéma.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase demande de l’eau poliment ?",
+      "options": [
+        "Je veux de l’eau.",
+        "Je voudrais de l’eau, s’il vous plaît.",
+        "Donne de l’eau."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Je voudrais …, s’il vous plaît* est la forme polie."
+    },
+    {
+      "type": "quiz",
+      "question": "Je ne peux pas ___ ce soir.",
+      "options": [
+        "venir",
+        "à venir",
+        "de venir"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pas de préposition après *pouvoir* : *Je ne peux pas venir.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ manger chez nous ce soir.",
+      "options": [
+        "allons",
+        "sommes",
+        "avons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un projet : *aller* + infinitif → *Nous allons manger.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Je ___ la réponse, mais je ne ___ pas cette personne.",
+      "options": [
+        "sais / connais",
+        "connais / sais",
+        "sais / sais"
+      ],
+      "correctIndex": 0,
+      "explanation": "*Savoir* pour une information ; *connaître* pour une personne."
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Continuez à pratiquer sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), consultez toutes les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/) et passez aux dix verbes suivants dans la [partie 2](top-10-verbs-part-2-fr.html).",
+      "say": "Continuez à pratiquer sur COSYpractice, consultez toutes les conjugaisons sur COSYtools et passez aux dix verbes suivants dans la partie 2."
     }
   ],
-  "draft": false
+  "draft": false,
+  "flipbook": {
+    "pageLimit": 12,
+    "headingBreakAfter": 6
+  }
 }
