@@ -1477,3 +1477,12 @@ html[data-theme="dark"] .ppt-slide-footer {
     padding: 0.85rem;
   }
 }
+
+/* Interactive quiz states (js/quiz.js). Without JS the answers stay visible. */
+.js .gazette-quiz-card:not(.quiz-ready) .quiz-mark,
+.js .gazette-quiz-card:not(.quiz-ready) .quiz-explanation { visibility: hidden; }
+.quiz-option-btn.is-correct { border-color: #15803d; background: rgba(21, 128, 61, .12); }
+.quiz-option-btn.is-wrong { border-color: #b91c1c; background: rgba(185, 28, 28, .10); }
+.quiz-option-btn:disabled { cursor: default; opacity: 1; color: inherit; }
+.quiz-option-btn.is-wrong:disabled { opacity: .75; }
+.quiz-feedback { min-height: 1.4em; margin: .6rem 0 0; font-weight: 700; }
