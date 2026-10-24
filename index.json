@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-23T23:07:39.687Z",
+  "generatedAt": "2026-10-24T15:02:28.679Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
@@ -1503,15 +1503,15 @@
       "language": "en",
       "desk": "Grammar",
       "format": "essay",
-      "level": "A2–C1",
+      "level": "A2–B2",
       "issue": {
         "number": "Vol. 2026.11",
         "title": "November Academia"
       },
       "date": "2026-11-15",
-      "title": "Demystifying English Tenses: The Ultimate Master Timeline Guide for Learners",
+      "title": "Demystifying English Tenses: A Step-by-Step Timeline Guide",
       "kicker": "GRAMMAR MADE COSY",
-      "dek": "A progressive cluster-by-cluster timeline breakdown of all 12 English tenses—from simple time anchors to everyday spoken frequency versus formal academic usage.",
+      "dek": "Understand English tenses step by step: time, tense and aspect, a timeline for each of the 12 forms, and which forms you really need in speech and writing.",
       "tags": [
         "Grammar",
         "EnglishTenses",
@@ -1520,7 +1520,7 @@
         "AcademicEnglish",
         "Fluency"
       ],
-      "readingTime": 14,
+      "readingTime": 12,
       "podcast": {
         "episode": 12,
         "audioUrl": "audio/blog/demystifying-english-tenses-podcast.mp3"
