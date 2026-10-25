@@ -1570,3 +1570,128 @@ html[data-theme="dark"] .ppt-slide-footer {
     padding: 0.85rem;
   }
 }
+
+
+/* Quick Present Tense Conjugation Practice Box */
+.quick-practice-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--sand-light, #faf7f2);
+  border: 1px solid var(--post-palette-accent, #d97706);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.quick-practice-header {
+  margin-bottom: 1.25rem;
+}
+
+.quick-practice-badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: var(--post-palette-accent, #d97706);
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.quick-practice-title {
+  margin: 0.25rem 0 0.5rem;
+  font-family: var(--post-font-display, inherit);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--post-palette-text, #1e293b);
+  line-height: 1.3;
+}
+
+.quick-practice-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-secondary, #475569);
+  line-height: 1.5;
+}
+
+.quick-practice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.verb-chip-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.85rem;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.verb-chip-btn:hover {
+  background: var(--post-palette-accent, #d97706);
+  color: #ffffff;
+  border-color: var(--post-palette-accent, #d97706);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.verb-chip-btn small {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin-left: 0.25rem;
+  font-weight: 400;
+}
+
+.verb-chip-btn:hover small {
+  opacity: 0.95;
+}
+
+/* Dark theme overrides for Quick Practice Box */
+html[data-theme="dark"] .quick-practice-container {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(217, 119, 6, 0.6);
+}
+
+html[data-theme="dark"] .quick-practice-title {
+  color: #f1f5f9;
+}
+
+html[data-theme="dark"] .quick-practice-desc {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .verb-chip-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .verb-chip-btn:hover {
+  background: var(--post-palette-accent, #d97706);
+  border-color: var(--post-palette-accent, #d97706);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .quick-practice-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .verb-chip-btn {
+    padding: 0.5rem 0.65rem;
+    font-size: 0.825rem;
+  }
+}

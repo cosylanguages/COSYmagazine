@@ -14,3 +14,6 @@ og/
 # Build outputs
 *.html
 og/
+
+__pycache__/
+*.pyc
