@@ -1,10 +1,10 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-25T09:43:07.602Z",
+  "generatedAt": "2026-10-25T17:54:37.969Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
-    "totalIssues": 7
+    "totalIssues": 6
   },
   "desks": [
     {
@@ -102,10 +102,6 @@
     {
       "number": "Vol. 2026.10",
       "title": "JY DM's birthday & His favs"
-    },
-    {
-      "number": "Vol. 2026.12",
-      "title": "Winter Grammar & High Frequency Verbs"
     },
     {
       "number": "Vol. 2026 — December Issue",
@@ -816,7 +812,7 @@
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
-        "number": "Vol. 2026.12",
+        "number": "Vol. 2026 — December Issue",
         "title": "Winter Grammar & High Frequency Verbs"
       },
       "date": "2026-12-01",
@@ -3710,7 +3706,7 @@
       "date": "2026-03-01",
       "title": "Top 10 Essential English Verbs for Absolute Beginners (A0–A1 / A2 Master Guide)",
       "kicker": "ENGLISH CORE GUIDE — PART 1 OF 2",
-      "dek": "A complete 12-page magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
+      "dek": "A complete magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
       "tags": [
         "Verbs",
         "English",

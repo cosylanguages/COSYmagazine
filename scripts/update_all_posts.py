@@ -607,12 +607,27 @@ languages_data = {
     }
 }
 
+# Load rich verbs_data.json if present
+try:
+    verbs_data_path = os.path.join(os.path.dirname(__file__), "verbs_data.json")
+    if os.path.exists(verbs_data_path):
+        with open(verbs_data_path, "r", encoding="utf-8") as vf:
+            extra_verbs = json.load(vf)
+            for lcode, vlist in extra_verbs.items():
+                if lcode in languages_data:
+                    languages_data[lcode]["p1_verbs"] = vlist
+except Exception as e:
+    print("Notice: Could not load verbs_data.json:", e)
+
+
 posts_dir = "posts"
 os.makedirs(posts_dir, exist_ok=True)
 
 for code, lang in languages_data.items():
     for is_part_2 in [False, True]:
         slug = f"top-10-verbs-part-2-{code}" if is_part_2 else (f"top-10-verbs-{code}" if code != "en" else "top-10-verbs-en")
+        if code == "en" and not is_part_2:
+            continue
         filepath = os.path.join(posts_dir, f"{slug}.json")
 
         post_obj = {
@@ -649,63 +664,78 @@ for code, lang in languages_data.items():
                 "seed": slug,
                 "coverOverride": None
             },
-            "blocks": [
-                {
-                    "type": "paragraph",
-                    "text": lang["p2_intro"] if is_part_2 else lang["p1_intro"]
-                },
-                {
-                    "type": "heading",
-                    "level": 3,
-                    "text": lang["h_breakdown_p2"] if is_part_2 else lang["h_breakdown_p1"]
-                },
-                {
-                    "type": "list-item",
-                    "ordered": False,
-                    "items": lang["p2_items"] if is_part_2 else lang["p1_items"]
-                },
-                {
-                    "type": "heading",
-                    "level": 3,
-                    "text": lang["h_matrix"]
-                },
-                {
-                    "type": "paragraph",
-                    "text": lang["matrix_intro"]
-                },
-                {
-                    "type": "table",
-                    "headers": ["Concept", "Romance (FR/IT/ES/PT)", "Germanic (EN/DE)", "Slavic / Hellenic / Celtic / Arm", "Turkic (TT/BA/CV)", "Kartvelian (KA)"],
-                    "rows": [
-                        ["Be / Exist", "être / essere / ser, estar / ser, estar", "be / sein", "быть / είναι / bezañ / լինել", "булу / булыу / пуласси", "ყოფნა (qopna)"],
-                        ["Have / Possess", "avoir / avere / tener / ter", "have / haben", "иметь (у меня есть) / έχω / kaout / ունենալ", "бар (минем бар) / бар / пур", "ქոնա / ყოლა"],
-                        ["Do / Make", "faire / fare / hacer / fazer", "do, make / machen, tun", "делать / κάνω / ober / անել", "эшләү / эшләү / тăвасси", "կետება (keteba)"],
-                        ["Go", "aller / andare / ir / ir", "go / gehen", "идти, ехать / πηγαίνω / mont / գնալ", "бару / барыу / кайни", "წასვლა (tsasvla)"],
-                        ["See / Look", "voir, regarder / vedere, guardare", "see, look / sehen, schauen", "видеть, смотреть / βλέπω / gwelout / տեսնել", "күрү, карау / күреү, ҡарау / курасси", "ნახვა, ყურება"]
+            "blocks": (
+                [
+                    {
+                        "type": "paragraph",
+                        "text": lang["p2_intro"] if is_part_2 else lang["p1_intro"]
+                    },
+                    {
+                        "type": "heading",
+                        "level": 3,
+                        "text": lang["h_breakdown_p2"] if is_part_2 else lang["h_breakdown_p1"]
+                    }
+                ] + (
+                    [
+                        b for v in lang.get("p1_verbs", []) for b in [
+                            {"type": "heading", "level": 3, "text": f"{v['num']}. {v['title']}"},
+                            {"type": "paragraph", "text": v["desc"]},
+                            {"type": "table", "headers": v["headers"], "rows": v["conjugation"]},
+                            {"type": "list-item", "ordered": False, "items": v["usage"]}
+                        ]
+                    ] if (not is_part_2 and "p1_verbs" in lang) else [
+                        {
+                            "type": "list-item",
+                            "ordered": False,
+                            "items": lang["p2_items"] if is_part_2 else lang["p1_items"]
+                        }
                     ]
-                },
-                {
-                    "type": "heading",
-                    "level": 3,
-                    "text": lang["h_family"]
-                },
-                {
-                    "type": "paragraph",
-                    "text": lang["family_text"]
-                },
-                {
-                    "type": "heading",
-                    "level": 3,
-                    "text": lang["h_practice"]
-                },
-                {
-                    "type": "paragraph",
-                    "text": lang["practice_text"]
-                }
-            ],
+                ) + [
+                    {
+                        "type": "heading",
+                        "level": 3,
+                        "text": lang["h_matrix"]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": lang["matrix_intro"]
+                    },
+                    {
+                        "type": "table",
+                        "headers": ["Concept", "Romance (FR/IT/ES/PT)", "Germanic (EN/DE)", "Slavic / Hellenic / Celtic / Arm", "Turkic (TT/BA/CV)", "Kartvelian (KA)"],
+                        "rows": [
+                            ["Be / Exist", "être / essere / ser, estar / ser, estar", "be / sein", "быть / είναι / bezañ / լինել", "булу / булыу / пуласси", "ყოფნა (qopna)"],
+                            ["Have / Possess", "avoir / avere / tener / ter", "have / haben", "иметь (у меня есть) / έχω / kaout / ունենալ", "бар (минем бар) / бар / пур", "ქոնա / ყოლა"],
+                            ["Do / Make", "faire / fare / hacer / fazer", "do, make / machen, tun", "делать / κάνω / ober / անել", "эшләү / эшләү / тăвасси", "կետება (keteba)"],
+                            ["Go", "aller / andare / ir / ir", "go / gehen", "идти, ехать / πηγαίνω / mont / գնալ", "бару / барыу / кайни", "წასვლა (tsasvla)"],
+                            ["See / Look", "voir, regarder / vedere, guardare", "see, look / sehen, schauen", "видеть, смотреть / βλέπω / gwelout / տեսնել", "күрү, карау / күреү, ҡарау / курасси", "ნახვა, ყურება"]
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "level": 3,
+                        "text": lang["h_family"]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": lang["family_text"]
+                    },
+                    {
+                        "type": "heading",
+                        "level": 3,
+                        "text": lang["h_practice"]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": lang["practice_text"]
+                    }
+                ]
+            ),
             "draft": False
         }
 
+        if False:
+            pass
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(post_obj, f, ensure_ascii=False, indent=2)
 

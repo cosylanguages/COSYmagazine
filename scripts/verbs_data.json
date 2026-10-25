@@ -1,0 +1,6000 @@
+{
+  "fr": [
+    {
+      "num": "1",
+      "title": "Être (To Be)",
+      "desc": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "suis",
+          "Je suis étudiant."
+        ],
+        [
+          "Tu",
+          "es",
+          "Tu es prêt ?"
+        ],
+        [
+          "Il / Elle / On",
+          "est",
+          "Il est à la maison."
+        ],
+        [
+          "Nous",
+          "sommes",
+          "Nous sommes heureux."
+        ],
+        [
+          "Vous",
+          "êtes",
+          "Vous êtes en avance."
+        ],
+        [
+          "Ils / Elles",
+          "sont",
+          "Ils sont très sympathiques."
+        ]
+      ],
+      "usage": [
+        "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
+        "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
+        "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Avoir (To Have)",
+      "desc": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "J'",
+          "ai",
+          "J'ai une voiture."
+        ],
+        [
+          "Tu",
+          "as",
+          "Tu as le temps."
+        ],
+        [
+          "Il / Elle / On",
+          "a",
+          "Elle a deux frères."
+        ],
+        [
+          "Nous",
+          "avons",
+          "Nous avons une question."
+        ],
+        [
+          "Vous",
+          "avez",
+          "Vous avez raison."
+        ],
+        [
+          "Ils / Elles",
+          "ont",
+          "Ils ont un chien."
+        ]
+      ],
+      "usage": [
+        "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
+        "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
+        "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Penser (To Think)",
+      "desc": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "pense",
+          "Je pense que oui."
+        ],
+        [
+          "Tu",
+          "penses",
+          "Qu'en penses-tu ?"
+        ],
+        [
+          "Il / Elle / On",
+          "pense",
+          "Il pense à son avenir."
+        ],
+        [
+          "Nous",
+          "pensons",
+          "Nous pensons arriver bientôt."
+        ],
+        [
+          "Vous",
+          "pensez",
+          "Que pensez-vous de ce livre ?"
+        ],
+        [
+          "Ils / Elles",
+          "pensent",
+          "Elles pensent la même chose."
+        ]
+      ],
+      "usage": [
+        "**Opinion:** 'Je pense que c'est une excellente idée'.",
+        "**Réflexion:** 'Je pense à mes vacances'.",
+        "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Savoir / Connaître (To Know)",
+      "desc": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes.",
+      "headers": [
+        "Pronom",
+        "Savoir",
+        "Connaître"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "sais",
+          "connais"
+        ],
+        [
+          "Tu",
+          "sais",
+          "connais"
+        ],
+        [
+          "Il / Elle / On",
+          "sait",
+          "connaît"
+        ],
+        [
+          "Nous",
+          "savons",
+          "connaissons"
+        ],
+        [
+          "Vous",
+          "savez",
+          "connaissez"
+        ],
+        [
+          "Ils / Elles",
+          "savent",
+          "connaissent"
+        ]
+      ],
+      "usage": [
+        "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
+        "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
+        "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Aimer (To Like / Love)",
+      "desc": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "J'",
+          "aime",
+          "J'aime le chocolat."
+        ],
+        [
+          "Tu",
+          "aimes",
+          "Tu aimes la musique ?"
+        ],
+        [
+          "Il / Elle / On",
+          "aime",
+          "Il aime voyager."
+        ],
+        [
+          "Nous",
+          "aimons",
+          "Nous aimons le sport."
+        ],
+        [
+          "Vous",
+          "aimez",
+          "Vous aimez le cinéma ?"
+        ],
+        [
+          "Ils / Elles",
+          "aiment",
+          "Elles aiment lire."
+        ]
+      ],
+      "usage": [
+        "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
+        "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
+        "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Vouloir / Voudrais (To Want / Would Like)",
+      "desc": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Politesse (Conditionnel)"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Tu",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Il / Elle / On",
+          "veut",
+          "voudrait"
+        ],
+        [
+          "Nous",
+          "voulons",
+          "voudrions"
+        ],
+        [
+          "Vous",
+          "voulez",
+          "voudriez"
+        ],
+        [
+          "Ils / Elles",
+          "veulent",
+          "voudraient"
+        ]
+      ],
+      "usage": [
+        "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
+        "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
+        "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Aller / Futur proche (To Go)",
+      "desc": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*).",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "vais",
+          "Je vais au travail / Je vais manger."
+        ],
+        [
+          "Tu",
+          "vas",
+          "Tu vas à la gare ?"
+        ],
+        [
+          "Il / Elle / On",
+          "va",
+          "Il va à Paris."
+        ],
+        [
+          "Nous",
+          "allons",
+          "Nous allons au cinéma."
+        ],
+        [
+          "Vous",
+          "allez",
+          "Comment allez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "vont",
+          "Elles vont réussir."
+        ]
+      ],
+      "usage": [
+        "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
+        "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
+        "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Pouvoir (To Can / Be able to)",
+      "desc": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "peux",
+          "Je peux vous aider."
+        ],
+        [
+          "Tu",
+          "peux",
+          "Tu peux venir ce soir ?"
+        ],
+        [
+          "Il / Elle / On",
+          "peut",
+          "On peut commencer."
+        ],
+        [
+          "Nous",
+          "pouvons",
+          "Nous pouvons le faire."
+        ],
+        [
+          "Vous",
+          "pouvez",
+          "Vous pouvez répéter ?"
+        ],
+        [
+          "Ils / Elles",
+          "peuvent",
+          "Ils peuvent entrer."
+        ]
+      ],
+      "usage": [
+        "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
+        "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
+        "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Manger (To Eat)",
+      "desc": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "mange",
+          "Je mange une pomme."
+        ],
+        [
+          "Tu",
+          "manges",
+          "Qu'est-ce que tu manges ?"
+        ],
+        [
+          "Il / Elle / On",
+          "mange",
+          "Il mange à midi."
+        ],
+        [
+          "Nous",
+          "mangeons",
+          "Nous mangeons ensemble."
+        ],
+        [
+          "Vous",
+          "mangez",
+          "Vous mangez de la viande ?"
+        ],
+        [
+          "Ils / Elles",
+          "mangent",
+          "Elles mangent une salade."
+        ]
+      ],
+      "usage": [
+        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
+        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
+        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Boire (To Drink)",
+      "desc": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "bois",
+          "Je bois de l'eau."
+        ],
+        [
+          "Tu",
+          "bois",
+          "Tu bois du café ?"
+        ],
+        [
+          "Il / Elle / On",
+          "boit",
+          "Il boit un thé vert."
+        ],
+        [
+          "Nous",
+          "buvons",
+          "Nous buvons du jus de pomme."
+        ],
+        [
+          "Vous",
+          "buvez",
+          "Que buvez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "boivent",
+          "Elles boivent de l'eau fraîche."
+        ]
+      ],
+      "usage": [
+        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
+        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
+        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
+      ]
+    }
+  ],
+  "es": [
+    {
+      "num": "1",
+      "title": "Ser / Estar (To Be)",
+      "desc": "En español, **ser** se usa para identidad, origen y profesión; **estar** para ubicación, estados temporales y emociones.",
+      "headers": [
+        "Pronombre",
+        "Ser",
+        "Estar"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "soy",
+          "estoy"
+        ],
+        [
+          "Tú",
+          "eres",
+          "estás"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "es",
+          "está"
+        ],
+        [
+          "Nosotros/-as",
+          "somos",
+          "estamos"
+        ],
+        [
+          "Vosotros/-as",
+          "sois",
+          "estáis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "son",
+          "están"
+        ]
+      ],
+      "usage": [
+        "**Ser:** 'Soy estudiante', 'Es de España', 'Es interesante'.",
+        "**Estar:** 'Estoy en casa', '¿Cómo estás?', 'Está cansado'.",
+        "**Expresiones:** 'ser de acuerdo', 'estar listo', 'estar de vacaciones'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Tener (To Have)",
+      "desc": "El verbo **tener** expresa posesión, edad, relaciones familiares y sensaciones físicas.",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "tengo",
+          "Tengo un coche."
+        ],
+        [
+          "Tú",
+          "tienes",
+          "¿Tienes tiempo?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "tiene",
+          "Tiene dos hermanos."
+        ],
+        [
+          "Nosotros/-as",
+          "tenemos",
+          "Tenemos una duda."
+        ],
+        [
+          "Vosotros/-as",
+          "tenéis",
+          "Tenéis razón."
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "tienen",
+          "Tienen un perro."
+        ]
+      ],
+      "usage": [
+        "**Posesión & Edad:** 'Tengo un libro', 'Tengo 20 años'.",
+        "**Sensaciones:** 'Tengo hambre', 'Tengo sed', 'Tengo frío', 'Tengo calor'.",
+        "**Expresiones:** 'tener que' (obligación), 'tener ganas de', 'tener miedo'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Pensar (To Think)",
+      "desc": "El verbo **pensar** expresa opiniones, reflexiones y planes futuros (pensar + infinitivo).",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "pienso",
+          "Pienso que sí."
+        ],
+        [
+          "Tú",
+          "piensas",
+          "¿Qué piensas tú?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "piensa",
+          "Piensa viajar pronto."
+        ],
+        [
+          "Nosotros/-as",
+          "pensamos",
+          "Pensamos en el futuro."
+        ],
+        [
+          "Vosotros/-as",
+          "pensáis",
+          "¿Qué pensáis hacer?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "piensan",
+          "Piensan lo mismo."
+        ]
+      ],
+      "usage": [
+        "**Opinión:** 'Pienso que es una buena idea'.",
+        "**Planes:** 'Pienso ir al cine mañana'.",
+        "**Expresiones:** 'pensar en', 'pensar que', 'dar que pensar'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Saber / Conocer (To Know)",
+      "desc": "**Saber** se usa para datos y habilidades (*saber + infinitivo*). **Conocer** para personas, lugares y cosas.",
+      "headers": [
+        "Pronombre",
+        "Saber",
+        "Conocer"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "sé",
+          "conozco"
+        ],
+        [
+          "Tú",
+          "sabes",
+          "conoces"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "sabe",
+          "conoce"
+        ],
+        [
+          "Nosotros/-as",
+          "sabemos",
+          "conocemos"
+        ],
+        [
+          "Vosotros/-as",
+          "sabéis",
+          "conocéis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "saben",
+          "conocen"
+        ]
+      ],
+      "usage": [
+        "**Saber (Habilidad):** 'Sé hablar español', 'Sé dónde está'.",
+        "**Conocer (Lugar/Persona):** 'Conozco Madrid', '¿Conoces a Juan?'.",
+        "**Expresiones:** 'a saber', 'dar a conocer', 'hacer saber'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Gustar / Querer (To Like / Love)",
+      "desc": "El verbo **gustar** se usa con pronombres indirectos (*me gusta*). **Querer** para expresar cariño o deseos.",
+      "headers": [
+        "Pronombre",
+        "Gustar",
+        "Querer"
+      ],
+      "conjugation": [
+        [
+          "Me / Yo",
+          "gusta / gustan",
+          "quiero"
+        ],
+        [
+          "Te / Tú",
+          "gusta / gustan",
+          "quieres"
+        ],
+        [
+          "Le / Él",
+          "gusta / gustan",
+          "quiere"
+        ],
+        [
+          "Nos / Nosotros",
+          "gusta / gustan",
+          "queremos"
+        ],
+        [
+          "Os / Vosotros",
+          "gusta / gustan",
+          "queréis"
+        ],
+        [
+          "Les / Ellos",
+          "gusta / gustan",
+          "quieren"
+        ]
+      ],
+      "usage": [
+        "**Gustar:** 'Me gusta el café', 'Me gustan los deportes'.",
+        "**Querer:** 'Quiero a mi familia', 'Quiero aprender más'.",
+        "**Expresiones:** 'me gustaría' (deseo cortés), 'si quieres'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Querer / Quisiera (To Want / Would Like)",
+      "desc": "Para pedir cosas con amabilidad, se utiliza la forma **quisiera** o **me gustaría**.",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Cortesía"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "quiero",
+          "quisiera"
+        ],
+        [
+          "Tú",
+          "quieres",
+          "quisieras"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "quiere",
+          "quisiera"
+        ],
+        [
+          "Nosotros/-as",
+          "queremos",
+          "quisiéramos"
+        ],
+        [
+          "Vosotros/-as",
+          "queréis",
+          "quisierais"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "quieren",
+          "quisieran"
+        ]
+      ],
+      "usage": [
+        "**Deseo directo:** 'Quiero un vaso de agua'.",
+        "**Petición cortés:** 'Quisiera reservar una mesa, por favor'.",
+        "**Expresiones:** 'querer decir' (significar), 'sin querer'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Ir / Futuro próximo (To Go)",
+      "desc": "El verbo **ir** indica movimiento hacia un lugar y forma el futuro próximo (*ir + a + infinitivo*).",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "voy",
+          "Voy a trabajar / Voy a comer."
+        ],
+        [
+          "Tú",
+          "vas",
+          "¿Vas a la casa?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "va",
+          "Va a la universidad."
+        ],
+        [
+          "Nosotros/-as",
+          "vamos",
+          "Vamos al cine."
+        ],
+        [
+          "Vosotros/-as",
+          "vais",
+          "¿Adónde vais?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "van",
+          "Van a estudiar."
+        ]
+      ],
+      "usage": [
+        "**Desplazamiento:** 'Voy al parque', 'Vamos a España'.",
+        "**Futuro próximo:** 'Voy a llamar a mi madre', 'Va a llover'.",
+        "**Expresiones:** '¿Cómo va todo?', '¡Vamos!'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Poder (To Can / Be able to)",
+      "desc": "El verbo modal **poder** expresa capacidad, posibilidad o permiso.",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "puedo",
+          "Puedo ayudarte."
+        ],
+        [
+          "Tú",
+          "puedes",
+          "¿Puedes venir hoy?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "puede",
+          "Puede entrar."
+        ],
+        [
+          "Nosotros/-as",
+          "podemos",
+          "Podemos hacerlo."
+        ],
+        [
+          "Vosotros/-as",
+          "podéis",
+          "¿Podéis repetir?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "pueden",
+          "Pueden hablar español."
+        ]
+      ],
+      "usage": [
+        "**Capacidad & Posibilidad:** 'Puedo conducir', '¿Puedo pasar?'.",
+        "**Petición amable:** '¿Puede hablar más despacio, por favor?'.",
+        "**Expresiones:** 'no poder más', 'si se puede'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Comer (To Eat)",
+      "desc": "El verbo **comer** se refiere a las comidas diarias, alimentos y hábitos de nutrición.",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "como",
+          "Como una manzana."
+        ],
+        [
+          "Tú",
+          "comes",
+          "¿A qué hora comes?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "come",
+          "Come con su familia."
+        ],
+        [
+          "Nosotros/-as",
+          "comemos",
+          "Comemos juntos."
+        ],
+        [
+          "Vosotros/-as",
+          "coméis",
+          "Coméis muy sano."
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "comen",
+          "Comen en el restaurante."
+        ]
+      ],
+      "usage": [
+        "**Comidas:** 'Como fruta por la mañana', 'Vamos a comer'.",
+        "**Expresiones:** '¡Buen provecho!', 'dar de comer', 'comer fuera'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Beber / Tomar (To Drink)",
+      "desc": "Los verbos **beber** y **tomar** se usan para líquidos, bebidas y reuniones sociales.",
+      "headers": [
+        "Pronombre",
+        "Beber",
+        "Tomar"
+      ],
+      "conjugation": [
+        [
+          "Yo",
+          "bebo",
+          "tomo"
+        ],
+        [
+          "Tú",
+          "bebes",
+          "tomas"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "bebe",
+          "toma"
+        ],
+        [
+          "Nosotros/-as",
+          "bebemos",
+          "tomamos"
+        ],
+        [
+          "Vosotros/-as",
+          "bebéis",
+          "tomáis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "beben",
+          "toman"
+        ]
+      ],
+      "usage": [
+        "**Bebidas:** 'Bebo agua todos los días', 'Tomo un café por la mañana'.",
+        "**Social:** '¿Quieres tomar algo?'.",
+        "**Expresiones:** 'dar a beber', 'tomar un refresco'."
+      ]
+    }
+  ],
+  "de": [
+    {
+      "num": "1",
+      "title": "Sein (To Be)",
+      "desc": "Das Verb **sein** drückt Identität, Beruf, Herkunft, Zustand und Ort aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "bin",
+          "Ich bin Student."
+        ],
+        [
+          "du",
+          "bist",
+          "Bist du fertig?"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "Er ist zu Hause."
+        ],
+        [
+          "wir",
+          "sind",
+          "Wir sind glücklich."
+        ],
+        [
+          "ihr",
+          "seid",
+          "Ihr seid pünktlich."
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "Sie sind sehr freundlich."
+        ]
+      ],
+      "usage": [
+        "**Identität & Beruf:** 'Ich bin Paul', 'Sie ist Ärztin'.",
+        "**Ort & Zustand:** 'Wir sind in Berlin', 'Ich bin müde'.",
+        "**Ausdrücke:** 'pünktlich sein', 'bereit sein', 'einverstanden sein'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Haben (To Have)",
+      "desc": "Das Verb **haben** drückt Besitz, Alter, Familie und Empfindungen aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "habe",
+          "Ich habe ein Auto."
+        ],
+        [
+          "du",
+          "hast",
+          "Hast du Zeit?"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "Sie hat zwei Brüder."
+        ],
+        [
+          "wir",
+          "haben",
+          "Wir haben eine Frage."
+        ],
+        [
+          "ihr",
+          "habt",
+          "Habt ihr Hunger?"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "Sie haben einen Hund."
+        ]
+      ],
+      "usage": [
+        "**Besitz & Alter:** 'Ich habe ein Buch', 'Ich habe Zeit'.",
+        "**Empfindungen:** 'Ich habe Hunger', 'Ich habe Durst', 'Ich habe Angst'.",
+        "**Ausdrücke:** 'Lust haben', 'Recht haben', 'Zeit haben'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Denken (To Think)",
+      "desc": "Das Verb **denken** drückt Meinungen, Überlegungen und Gedanken aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "denke",
+          "Ich denke schon."
+        ],
+        [
+          "du",
+          "denkst",
+          "Was denkst du?"
+        ],
+        [
+          "er / sie / es",
+          "denkt",
+          "Er denkt an die Zukunft."
+        ],
+        [
+          "wir",
+          "denken",
+          "Wir denken das Gleiche."
+        ],
+        [
+          "ihr",
+          "denkt",
+          "Was denkt ihr darüber?"
+        ],
+        [
+          "sie / Sie",
+          "denken",
+          "Sie denken nach."
+        ]
+      ],
+      "usage": [
+        "**Meinung:** 'Ich denke, das ist eine gute Idee'.",
+        "**Gedanken:** 'Ich denke an meine Familie'.",
+        "**Ausdrücke:** 'nachdenken über', 'denken an', 'anders denken'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Wissen / Kennen (To Know)",
+      "desc": "**Wissen** nutzt man für Fakten und Wissen (*ich weiß*). **Kennen** nutzt man für Personen, Orte und Dinge.",
+      "headers": [
+        "Pronomen",
+        "Wissen",
+        "Kennen"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "weiß",
+          "kenne"
+        ],
+        [
+          "du",
+          "weißt",
+          "kennst"
+        ],
+        [
+          "er / sie / es",
+          "weiß",
+          "kennt"
+        ],
+        [
+          "wir",
+          "wissen",
+          "kennen"
+        ],
+        [
+          "ihr",
+          "wisst",
+          "kennt"
+        ],
+        [
+          "sie / Sie",
+          "wissen",
+          "kennen"
+        ]
+      ],
+      "usage": [
+        "**Wissen (Fakten):** 'Ich weiß die Antwort', 'Ich weiß, wo das ist'.",
+        "**Kennen (Personen/Orte):** 'Ich kenne Berlin', 'Kennst du diesen Mann?'.",
+        "**Ausdrücke:** 'Bescheid wissen', 'kennenlernen'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Mögen / Gefallen (To Like)",
+      "desc": "Das Verb **mögen** und die Wendung **gefallen** drücken Vorlieben und Geschmack aus.",
+      "headers": [
+        "Pronomen",
+        "Mögen",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "mag",
+          "Ich mag Kaffee."
+        ],
+        [
+          "du",
+          "magst",
+          "Magst du Musik?"
+        ],
+        [
+          "er / sie / es",
+          "mag",
+          "Er mag Sport."
+        ],
+        [
+          "wir",
+          "mögen",
+          "Wir mögen Reisen."
+        ],
+        [
+          "ihr",
+          "mögt",
+          "Mögt ihr Schokolade?"
+        ],
+        [
+          "sie / Sie",
+          "mögen",
+          "Sie mögen Filme."
+        ]
+      ],
+      "usage": [
+        "**Vorlieben:** 'Ich mag Tee', 'Das gefällt mir sehr gut'.",
+        "**Wunsch:** 'ich möchte' (Höflicher Wunsch).",
+        "**Ausdrücke:** 'gern haben', 'Gefallen finden'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Wollen / Möchte (To Want / Would Like)",
+      "desc": "**Wollen** drückt festen Absicht aus. **Möchte** ist die höfliche Form für Wünsche.",
+      "headers": [
+        "Pronomen",
+        "Wollen",
+        "Möchte (Höflich)"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "will",
+          "möchte"
+        ],
+        [
+          "du",
+          "willst",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "will",
+          "möchte"
+        ],
+        [
+          "wir",
+          "wollen",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "wollt",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "wollen",
+          "möchten"
+        ]
+      ],
+      "usage": [
+        "**Fester Wille:** 'Ich will Deutsch lernen'.",
+        "**Höfliche Bitte:** 'Ich möchte einen Kaffee, bitte'.",
+        "**Ausdrücke:** 'willkommen sein', 'was willst du damit sagen?'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Gehen (To Go)",
+      "desc": "Das Verb **gehen** drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "gehe",
+          "Ich gehe nach Hause."
+        ],
+        [
+          "du",
+          "gehst",
+          "Wohin gehst du?"
+        ],
+        [
+          "er / sie / es",
+          "geht",
+          "Er geht zur Arbeit."
+        ],
+        [
+          "wir",
+          "gehen",
+          "Wir gehen ins Kino."
+        ],
+        [
+          "ihr",
+          "geht",
+          "Geht ihr spazieren?"
+        ],
+        [
+          "sie / Sie",
+          "gehen",
+          "Sie gehen einkaufen."
+        ]
+      ],
+      "usage": [
+        "**Bewegung:** 'Ich gehe in die Schule', 'Wir gehen spazieren'.",
+        "**Befinden:** 'Wie geht es Ihnen? / Wie geht's?'.",
+        "**Ausdrücke:** 'spazieren gehen', 'einkaufen gehen'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Können (To Can / Be able to)",
+      "desc": "Das Modalverb **können** drückt Fähigkeit, Möglichkeit oder Erlaubnis aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "kann",
+          "Ich kann Deutsch sprechen."
+        ],
+        [
+          "du",
+          "kannst",
+          "Kannst du mir helfen?"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "Er kann gut schwimmen."
+        ],
+        [
+          "wir",
+          "können",
+          "Wir können anfangen."
+        ],
+        [
+          "ihr",
+          "könnt",
+          "Könnt ihr kommen?"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "Sie können hier sitzen."
+        ]
+      ],
+      "usage": [
+        "**Fähigkeit:** 'Ich kann Auto fahren', 'Kannst du Englisch?'.",
+        "**Möglichkeit:** 'Das kann sein', 'Wir können später sprechen'.",
+        "**Ausdrücke:** 'Kann sein', 'so gut ich kann'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Essen (To Eat)",
+      "desc": "Das Verb **essen** wird für Mahlzeiten, Speisen und Ernährung verwendet.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "esse",
+          "Ich esse einen Apfel."
+        ],
+        [
+          "du",
+          "isst",
+          "Was isst du gern?"
+        ],
+        [
+          "er / sie / es",
+          "isst",
+          "Er isst zu Mittag."
+        ],
+        [
+          "wir",
+          "essen",
+          "Wir essen zusammen."
+        ],
+        [
+          "ihr",
+          "esst",
+          "Esst ihr Fleisch?"
+        ],
+        [
+          "sie / Sie",
+          "essen",
+          "Sie essen im Restaurant."
+        ]
+      ],
+      "usage": [
+        "**Mahlzeiten:** 'Ich esse Frühstück', 'Wir essen Brot'.",
+        "**Vokalwechsel:** Beachten Sie den Wechsel e → i (*du isst, er isst*).",
+        "**Ausdrücke:** 'Guten Appetit!', 'essen gehen'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Trinken (To Drink)",
+      "desc": "Das Verb **trinken** drückt das Trinken von Getränken und Hydratation aus.",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "conjugation": [
+        [
+          "ich",
+          "trinke",
+          "Ich trinke Wasser."
+        ],
+        [
+          "du",
+          "trinkst",
+          "Trinkst du Kaffee?"
+        ],
+        [
+          "er / sie / es",
+          "trinkt",
+          "Er trinkt Tee."
+        ],
+        [
+          "wir",
+          "trinken",
+          "Wir trinken Saft."
+        ],
+        [
+          "ihr",
+          "trinkt",
+          "Was trinkt ihr?"
+        ],
+        [
+          "sie / Sie",
+          "trinken",
+          "Sie trinken ein Glas Wasser."
+        ]
+      ],
+      "usage": [
+        "**Getränke:** 'Ich trinke morgens Kaffee', 'Viel Wasser trinken'.",
+        "**Geselligkeit:** 'Möchten Sie etwas trinken?'.",
+        "**Ausdrücke:** 'Prost!', 'etwas zu trinken haben'."
+      ]
+    }
+  ],
+  "it": [
+    {
+      "num": "1",
+      "title": "Essere (To Be)",
+      "desc": "Il verbo **essere** esprime identità, nazionalità, professione, stato d'animo e posizione.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "sono",
+          "Sono uno studente."
+        ],
+        [
+          "Tu",
+          "sei",
+          "Sei pronto?"
+        ],
+        [
+          "Lui / Lei",
+          "è",
+          "Lui è a casa."
+        ],
+        [
+          "Noi",
+          "siamo",
+          "Siamo felici."
+        ],
+        [
+          "Voi",
+          "siete",
+          "Voi siete in anticipo."
+        ],
+        [
+          "Loro",
+          "sono",
+          "Loro sono molto simpatici."
+        ]
+      ],
+      "usage": [
+        "**Identità & Stato:** 'Sono Marco', 'Sono stanco'.",
+        "**Luogo:** 'Siamo a Roma'.",
+        "**Espressioni:** 'essere d'accordo', 'essere in orario'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Avere (To Have)",
+      "desc": "Il verbo **avere** esprime possesso, età, relazioni familiari e sensazioni fisiche.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "ho",
+          "Ho un'automobile."
+        ],
+        [
+          "Tu",
+          "hai",
+          "Hai tempo?"
+        ],
+        [
+          "Lui / Lei",
+          "ha",
+          "Lei ha due fratelli."
+        ],
+        [
+          "Noi",
+          "abbiamo",
+          "Abbiamo una domanda."
+        ],
+        [
+          "Voi",
+          "avete",
+          "Avete ragione."
+        ],
+        [
+          "Loro",
+          "hanno",
+          "Hanno un cane."
+        ]
+      ],
+      "usage": [
+        "**Possesso & Età:** 'Ho un libro', 'Ho 25 anni'.",
+        "**Sensazioni:** 'Ho fame', 'Ho sete', 'Ho caldo', 'Ho freddo'.",
+        "**Espressioni:** 'avere bisogno di', 'avere voglia di', 'avere paura'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Pensare (To Think)",
+      "desc": "Il verbo **pensare** serve per esprimere opinioni, riflessioni ed idee.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "penso",
+          "Penso di sì."
+        ],
+        [
+          "Tu",
+          "pensi",
+          "Cosa ne pensi?"
+        ],
+        [
+          "Lui / Lei",
+          "pensa",
+          "Pensa al suo futuro."
+        ],
+        [
+          "Noi",
+          "pensiamo",
+          "Pensiamo di arrivare presto."
+        ],
+        [
+          "Voi",
+          "pensate",
+          "Cosa pensate di questo libro?"
+        ],
+        [
+          "Loro",
+          "pensano",
+          "Pensano la stessa cosa."
+        ]
+      ],
+      "usage": [
+        "**Opinione:** 'Penso che sia un'ottima idea'.",
+        "**Riflessione:** 'Penso alle mie vacanze'.",
+        "**Espressioni:** 'pensare a', 'pensare di'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Sapere / Conoscere (To Know)",
+      "desc": "**Sapere** si usa per fatti ed abilità (*sapere + infinito*). **Conoscere** per persone, luoghi e cose.",
+      "headers": [
+        "Pronome",
+        "Sapere",
+        "Conoscere"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "so",
+          "conosco"
+        ],
+        [
+          "Tu",
+          "sai",
+          "conosci"
+        ],
+        [
+          "Lui / Lei",
+          "sa",
+          "conosce"
+        ],
+        [
+          "Noi",
+          "sappiamo",
+          "conosciamo"
+        ],
+        [
+          "Voi",
+          "sapete",
+          "conoscete"
+        ],
+        [
+          "Loro",
+          "sanno",
+          "conoscono"
+        ]
+      ],
+      "usage": [
+        "**Sapere (Abilità):** 'So parlare italiano', 'So guidare'.",
+        "**Conoscere (Luoghi/Persone):** 'Conosco questa città', 'Conosci Luca?'.",
+        "**Espressioni:** 'fare sapere', 'sapere fare'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Piacere / Amare (To Like / Love)",
+      "desc": "Il verbo **piacere** si usa in forma indiretta (*mi piace*). **Amare** per sentimenti intensi e passioni.",
+      "headers": [
+        "Pronome",
+        "Piacere",
+        "Amare"
+      ],
+      "conjugation": [
+        [
+          "A me / Io",
+          "piace / piacciono",
+          "amo"
+        ],
+        [
+          "A te / Tu",
+          "piace / piacciono",
+          "ami"
+        ],
+        [
+          "A lui/lei / Lui",
+          "piace / piacciono",
+          "ama"
+        ],
+        [
+          "A noi / Noi",
+          "piace / piacciono",
+          "amiamo"
+        ],
+        [
+          "A voi / Voi",
+          "piace / piacciono",
+          "amate"
+        ],
+        [
+          "A loro / Loro",
+          "piace / piacciono",
+          "amano"
+        ]
+      ],
+      "usage": [
+        "**Piacere:** 'Mi piace il caffè', 'Mi piacciono i viaggi'.",
+        "**Amare:** 'Amo la musica', 'Amo la mia famiglia'.",
+        "**Espressioni:** 'mi piacerebbe' (desiderio cortese)."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Volere / Vorrei (To Want / Would Like)",
+      "desc": "Il verbo **volere** esprime volontà. La forma **vorrei** esprime una richiesta con cortesia.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Cortesia (Condizionale)"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "voglio",
+          "vorrei"
+        ],
+        [
+          "Tu",
+          "vuoi",
+          "vorresti"
+        ],
+        [
+          "Lui / Lei",
+          "vuole",
+          "vorrebbe"
+        ],
+        [
+          "Noi",
+          "vogliamo",
+          "vorremmo"
+        ],
+        [
+          "Voi",
+          "volete",
+          "vorreste"
+        ],
+        [
+          "Loro",
+          "vogliono",
+          "vorrebbero"
+        ]
+      ],
+      "usage": [
+        "**Volontà:** 'Voglio imparare l'italiano'.",
+        "**Richiesta cortese:** 'Vorrei un caffè, per favore'.",
+        "**Espressioni:** 'voler dire' (significare), 'se vuoi'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Andare (To Go)",
+      "desc": "Il verbo **andare** indica movimento nello spazio verso una destinazione.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "vado",
+          "Vado al lavoro."
+        ],
+        [
+          "Tu",
+          "vai",
+          "Dove vai?"
+        ],
+        [
+          "Lui / Lei",
+          "va",
+          "Lei va a Roma."
+        ],
+        [
+          "Noi",
+          "andiamo",
+          "Andiamo al cinema."
+        ],
+        [
+          "Voi",
+          "andate",
+          "Andate in vacanza?"
+        ],
+        [
+          "Loro",
+          "vanno",
+          "Vanno a scuola."
+        ]
+      ],
+      "usage": [
+        "**Movimento:** 'Vado a casa', 'Andiamo in Italia'.",
+        "**Stato:** 'Come va?'.",
+        "**Espressioni:** 'andare a piedi', 'andare d'accordo'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Potere (To Can / Be able to)",
+      "desc": "Il verbo modale **potere** esprime possibilità, capacità o richiesta di permesso.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "posso",
+          "Posso aiutarti."
+        ],
+        [
+          "Tu",
+          "puoi",
+          "Puoi venire stasera?"
+        ],
+        [
+          "Lui / Lei",
+          "può",
+          "Può entrare."
+        ],
+        [
+          "Noi",
+          "possiamo",
+          "Possiamo iniziare."
+        ],
+        [
+          "Voi",
+          "potete",
+          "Potete ripetere?"
+        ],
+        [
+          "Loro",
+          "possono",
+          "Possono parlare italiano."
+        ]
+      ],
+      "usage": [
+        "**Possibilità & Permesso:** 'Posso entrare?', 'Puoi farlo'.",
+        "**Cortesia:** 'Potrebbe parlare più lentamente?'.",
+        "**Espressioni:** 'non poterne più'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Mangiare (To Eat)",
+      "desc": "Il verbo **mangiare** riguarda i pasti quotidiani, il cibo e le abitudini alimentari.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "mangio",
+          "Mangio una mela."
+        ],
+        [
+          "Tu",
+          "mangi",
+          "Cosa mangi?"
+        ],
+        [
+          "Lui / Lei",
+          "mangia",
+          "Mangia a mezzogiorno."
+        ],
+        [
+          "Noi",
+          "mangiamo",
+          "Mangiamo insieme."
+        ],
+        [
+          "Voi",
+          "mangiate",
+          "Mangiate la carne?"
+        ],
+        [
+          "Loro",
+          "mangiano",
+          "Mangiano al ristorante."
+        ]
+      ],
+      "usage": [
+        "**Pasti:** 'Mangio la pizza', 'Andiamo a mangiare'.",
+        "**Espressioni:** 'Buon appetito!', 'mangiare fuori'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Bere (To Drink)",
+      "desc": "Il verbo **bere** riguarda le bevande, l'idratazione e i momenti di convivialità.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Esempio"
+      ],
+      "conjugation": [
+        [
+          "Io",
+          "bevo",
+          "Bevo acqua."
+        ],
+        [
+          "Tu",
+          "bevi",
+          "Bevi il caffè?"
+        ],
+        [
+          "Lui / Lei",
+          "beve",
+          "Beve un tè verde."
+        ],
+        [
+          "Noi",
+          "beviamo",
+          "Beviamo un succo."
+        ],
+        [
+          "Voi",
+          "bevete",
+          "Cosa bevete?"
+        ],
+        [
+          "Loro",
+          "bevono",
+          "Bevono acqua fresca."
+        ]
+      ],
+      "usage": [
+        "**Bevande:** 'Bevo un caffè la mattina'.",
+        "**Convivialità:** 'Vuoi bere qualcosa?'.",
+        "**Espressioni:** 'dare da bere', 'bere un bicchiere'."
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "num": "1",
+      "title": "Быть (To Be)",
+      "desc": "Глагол **быть** выражает существование, состояние, профессию и местоположение.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "есть (опускается)",
+          "Я студент."
+        ],
+        [
+          "Ты",
+          "есть (опускается)",
+          "Ты готов?"
+        ],
+        [
+          "Он / Она / Оно",
+          "есть (опускается)",
+          "Он дома."
+        ],
+        [
+          "Мы",
+          "есть (опускается)",
+          "Мы рады."
+        ],
+        [
+          "Вы",
+          "есть (опускается)",
+          "Вы вовремя."
+        ],
+        [
+          "Они",
+          "есть (опускается)",
+          "Они очень добрые."
+        ]
+      ],
+      "usage": [
+        "**Идентификация:** 'Я Иван', 'Она врач'.",
+        "**Место:** 'Мы в Москве', 'Книга на столе'.",
+        "**Выражения:** 'быть уверенным', 'быть готовым'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Иметь / У меня есть (To Have)",
+      "desc": "В русском языке владение выражается конструкцией **'У меня есть...'**.",
+      "headers": [
+        "Лицо",
+        "Конструкция",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "у меня есть",
+          "У меня есть машина."
+        ],
+        [
+          "Ты",
+          "у тебя есть",
+          "У тебя есть время?"
+        ],
+        [
+          "Он / Она",
+          "у него / у неё есть",
+          "У неё есть брат."
+        ],
+        [
+          "Мы",
+          "у нас есть",
+          "У нас есть вопрос."
+        ],
+        [
+          "Вы",
+          "у вас есть",
+          "У вас есть собака?"
+        ],
+        [
+          "Они",
+          "у них есть",
+          "У них есть дом."
+        ]
+      ],
+      "usage": [
+        "**Владение & Возраст:** 'У меня есть книга', 'Мне 25 лет'.",
+        "**Состояния:** 'Я хочу есть', 'Я хочу пить'.",
+        "**Выражения:** 'уметь иметь в виду'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Думать (To Think)",
+      "desc": "Глагол **думать** выражает мнение, размышление и мысли.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "думаю",
+          "Я думаю, что да."
+        ],
+        [
+          "Ты",
+          "думаешь",
+          "Что ты думаешь?"
+        ],
+        [
+          "Он / Она",
+          "думает",
+          "Он думает о будущем."
+        ],
+        [
+          "Мы",
+          "думаем",
+          "Мы думаем так же."
+        ],
+        [
+          "Вы",
+          "думаете",
+          "Что вы думаете об этом?"
+        ],
+        [
+          "Они",
+          "думают",
+          "Они думают о работе."
+        ]
+      ],
+      "usage": [
+        "**Мнение:** 'Я думаю, это хорошая идея'.",
+        "**Размышление:** 'Я думаю о доме'.",
+        "**Выражения:** 'думать о...', 'передумать'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Знать (To Know)",
+      "desc": "Глагол **знать** используется для фактов, информации и знакомства с людьми/местами.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "знаю",
+          "Я знаю ответ."
+        ],
+        [
+          "Ты",
+          "знаешь",
+          "Ты знаешь его?"
+        ],
+        [
+          "Он / Она",
+          "знает",
+          "Она знает русский язык."
+        ],
+        [
+          "Мы",
+          "знаем",
+          "Мы знаем, где это."
+        ],
+        [
+          "Вы",
+          "знаете",
+          "Вы знаете правила?"
+        ],
+        [
+          "Они",
+          "знают",
+          "Они знают всё."
+        ]
+      ],
+      "usage": [
+        "**Информация:** 'Я знаю правду', 'Я знаю, где он'.",
+        "**Знакомство:** 'Я знаю этого человека'.",
+        "**Выражения:** 'дать знать', 'кто знает'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Любить / Нравиться (To Like / Love)",
+      "desc": "Глагол **любить** выражает чувства и увлечения. Конструкция **'мне нравится'** выражает симпатию.",
+      "headers": [
+        "Местоимение",
+        "Любить",
+        "Нравиться"
+      ],
+      "conjugation": [
+        [
+          "Я / Мне",
+          "люблю",
+          "нравится"
+        ],
+        [
+          "Ты / Тебе",
+          "любишь",
+          "нравится"
+        ],
+        [
+          "Он / Ему",
+          "любит",
+          "нравится"
+        ],
+        [
+          "Мы / Нам",
+          "любим",
+          "нравится"
+        ],
+        [
+          "Вы / Вам",
+          "любите",
+          "нравится"
+        ],
+        [
+          "Они / Им",
+          "любят",
+          "нравится"
+        ]
+      ],
+      "usage": [
+        "**Любить:** 'Я люблю музыку', 'Она любит путешествовать'.",
+        "**Нравиться:** 'Мне нравится этот город'.",
+        "**Выражения:** 'с удовольствием'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Хотеть (To Want)",
+      "desc": "Глагол **хотеть** выражает желания и намерение.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "хочу",
+          "Я хочу чаю."
+        ],
+        [
+          "Ты",
+          "хочешь",
+          "Что ты хочешь?"
+        ],
+        [
+          "Он / Она",
+          "хочет",
+          "Он хочет учиться."
+        ],
+        [
+          "Мы",
+          "хотим",
+          "Мы хотим отдыхать."
+        ],
+        [
+          "Вы",
+          "хотите",
+          "Вы хотите кофе?"
+        ],
+        [
+          "Они",
+          "хотят",
+          "Они хотят поехать домой."
+        ]
+      ],
+      "usage": [
+        "**Желание:** 'Я хочу спать', 'Я хочу учить язык'.",
+        "**Вежливость:** 'Я хотел бы...' / 'Я хотела бы...'.",
+        "**Выражения:** 'как хочешь'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Идти / Ехать (To Go)",
+      "desc": "**Идти** используется для движения пешком, **ехать** — на транспорте.",
+      "headers": [
+        "Местоимение",
+        "Идти (Пешком)",
+        "Ехать (Транспорт)"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "иду",
+          "еду"
+        ],
+        [
+          "Ты",
+          "идёшь",
+          "едешь"
+        ],
+        [
+          "Он / Она",
+          "идёт",
+          "едет"
+        ],
+        [
+          "Мы",
+          "идём",
+          "едем"
+        ],
+        [
+          "Вы",
+          "идёте",
+          "едете"
+        ],
+        [
+          "Они",
+          "идут",
+          "едут"
+        ]
+      ],
+      "usage": [
+        "**Пешком:** 'Я иду в школу', 'Мы идём гулять'.",
+        "**На транспорте:** 'Я еду на работу', 'Они едут в Москву'.",
+        "**Выражения:** 'идти пешком', 'всё идёт хорошо'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Мочь (To Can / Be able to)",
+      "desc": "Модальный глагол **мочь** выражает физическую возможность и разрешение.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "могу",
+          "Я могу помочь вам."
+        ],
+        [
+          "Ты",
+          "можешь",
+          "Ты можешь прийти?"
+        ],
+        [
+          "Он / Она",
+          "может",
+          "Он может говорить по-русски."
+        ],
+        [
+          "Мы",
+          "можем",
+          "Мы можем начать."
+        ],
+        [
+          "Вы",
+          "можете",
+          "Вы можете повторить?"
+        ],
+        [
+          "Они",
+          "могут",
+          "Они могут всё."
+        ]
+      ],
+      "usage": [
+        "**Возможность:** 'Я могу сделать это', 'Могу я войти?'.",
+        "**Выражения:** 'может быть', 'как только смогу'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Есть (To Eat)",
+      "desc": "Глагол **есть** используется для приема пищи и питания.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "ем",
+          "Я ем яблоко."
+        ],
+        [
+          "Ты",
+          "ешь",
+          "Что ты ешь?"
+        ],
+        [
+          "Он / Она",
+          "ест",
+          "Он ест обед."
+        ],
+        [
+          "Мы",
+          "едим",
+          "Мы едим вместе."
+        ],
+        [
+          "Вы",
+          "едите",
+          "Вы едите хлеб?"
+        ],
+        [
+          "Они",
+          "едят",
+          "Они едят в ресторане."
+        ]
+      ],
+      "usage": [
+        "**Еда:** 'Я ем суп на обед', 'Приятного аппетита!'.",
+        "**Выражения:** 'хотеть есть' (быть голодным)."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Пить (To Drink)",
+      "desc": "Глагол **пить** используется для напитков и утоления жажды.",
+      "headers": [
+        "Местоимение",
+        "Настоящее время",
+        "Пример"
+      ],
+      "conjugation": [
+        [
+          "Я",
+          "пью",
+          "Я пью воду."
+        ],
+        [
+          "Ты",
+          "пьёшь",
+          "Ты пьёшь кофе?"
+        ],
+        [
+          "Он / Она",
+          "пьёт",
+          "Он пьёт чай."
+        ],
+        [
+          "Мы",
+          "пьём",
+          "Мы пьём сок."
+        ],
+        [
+          "Вы",
+          "пьёте",
+          "Что вы пьёте?"
+        ],
+        [
+          "Они",
+          "пьют",
+          "Они пьют воду."
+        ]
+      ],
+      "usage": [
+        "**Напитки:** 'Я пью чай каждое утро'.",
+        "**Выражения:** 'хотеть пить' (испытывать жажду)."
+      ]
+    }
+  ],
+  "el": [
+    {
+      "num": "1",
+      "title": "Είμαι (To Be)",
+      "desc": "Το ρήμα **είμαι** δηλώνει ταυτότητα, εθνικότητα, επάγγελμα, κατάσταση και τοποθεσία.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "είμαι",
+          "Εγώ είμαι μαθητής."
+        ],
+        [
+          "Εσύ",
+          "είσαι",
+          "Είσαι έτοιμος;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "είναι",
+          "Αυτός είναι στο σπίτι."
+        ],
+        [
+          "Εμείς",
+          "είμαστε",
+          "Εμείς είμαστε χαρούμενοι."
+        ],
+        [
+          "Εσείς",
+          "είστε",
+          "Εσείς είστε νωρίς."
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "είναι",
+          "Αυτοί είναι πολύ ευγενικοί."
+        ]
+      ],
+      "usage": [
+        "**Ταυτότητα:** 'Είμαι ο Γιώργος', 'Είναι γιατρός'.",
+        "**Τοποθεσία:** 'Είμαστε στην Αθήνα'.",
+        "**Εκφράσεις:** 'είμαι έτοιμος', 'είμαι σύμφωνος'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Έχω (To Have)",
+      "desc": "Το ρήμα **έχω** εκφράζει κατοχή, ηλικία, οικογένεια και συναισθήματα.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "έχω",
+          "Έχω ένα αυτοκίνητο."
+        ],
+        [
+          "Εσύ",
+          "έχεις",
+          "Έχεις χρόνο;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "έχει",
+          "Έχει δύο αδέρφια."
+        ],
+        [
+          "Εμείς",
+          "έχομε",
+          "Έχουμε μια ερώτηση."
+        ],
+        [
+          "Εσείς",
+          "έχετε",
+          "Έχετε δίκιο."
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "έχουν",
+          "Έχουν έναν σκύλο."
+        ]
+      ],
+      "usage": [
+        "**Κατοχή & Ηλικία:** 'Έχω ένα βιβλίο', 'Είμαι 25 ετών'.",
+        "**Εκφράσεις:** 'έχω ανάγκη', 'έχω δίκιο', 'έχω χρόνο'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Σκέφτομαι / Νομίζω (To Think)",
+      "desc": "Τα ρήματα **σκέφτομαι** και **νομίζω** εκφράζουν σκέψεις, γνώμες και ιδέες.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "νομίζω / σκέφτομαι",
+          "Νομίζω πως ναι."
+        ],
+        [
+          "Εσύ",
+          "νομίζεις / σκέφτεσαι",
+          "Τι σκέφτεσαι;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "νομίζει / σκέφτεται",
+          "Σκέφτεται το μέλλον."
+        ],
+        [
+          "Εμείς",
+          "νομίζουμε / σκεφτόμαστε",
+          "Νομίζουμε το ίδιο."
+        ],
+        [
+          "Εσείς",
+          "νομίζετε / σκέφτεστε",
+          "Τι πιστεύετε;"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "νομίζουν / σκέφτονται",
+          "Σκέφτονται τη δουλειά."
+        ]
+      ],
+      "usage": [
+        "**Γνώμη:** 'Νομίζω ότι είναι καλή ιδέα'.",
+        "**Σκέψη:** 'Σκέφτομαι τους φίλους μου'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Ξέρω / Γνωρίζω (To Know)",
+      "desc": "Το **ξέρω** χρησιμοποιείται για πληροφορίες και ικανότητες, το **γνωρίζω** για πρόσωπα και μέρη.",
+      "headers": [
+        "Αντωνυμία",
+        "Ξέρω",
+        "Γνωρίζω"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "ξέρω",
+          "γνωρίζω"
+        ],
+        [
+          "Εσύ",
+          "ξέρεις",
+          "γνωρίζεις"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "ξέρει",
+          "γνωρίζει"
+        ],
+        [
+          "Εμείς",
+          "ξέρουμε",
+          "γνωρίζουμε"
+        ],
+        [
+          "Εσείς",
+          "ξέρετε",
+          "γνωρίζετε"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "ξέρουν",
+          "γνωρίζουν"
+        ]
+      ],
+      "usage": [
+        "**Γνώση:** 'Ξέρω την αλήθεια', 'Γνωρίζω την Αθήνα'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Μου αρέσει / Αγαπώ (To Like / Love)",
+      "desc": "Η έκφραση **μου αρέσει** εκφράζει αρέσκεια, το **αγαπώ** εκφράζει αγάπη.",
+      "headers": [
+        "Αντωνυμία",
+        "Έκφραση",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Σε μένα",
+          "μου αρέσει",
+          "Μου αρέσει ο καφές."
+        ],
+        [
+          "Σε σένα",
+          "σου αρέσει",
+          "Σου αρέσει η μουσική;"
+        ],
+        [
+          "Στον αυτόν",
+          "του/της αρέσει",
+          "Του αρέσει το ταξίδι."
+        ],
+        [
+          "Σε μας",
+          "μας αρέσει",
+          "Μας αρέσει ο αθλητισμός."
+        ],
+        [
+          "Σε σας",
+          "σας αρέσει",
+          "Σας αρέσει το σινεμά;"
+        ],
+        [
+          "Σε αυτούς",
+          "τους αρέσει",
+          "Τους αρέσει το διάβασμα."
+        ]
+      ],
+      "usage": [
+        "**Προτιμήσεις:** 'Μου αρέσει η ελληνική κουζίνα'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Θέλω / Θα ήθελα (To Want / Would Like)",
+      "desc": "Το **θέλω** δηλώνει επιθυμία. Το **θα ήθελα** εκφράζει ευγενική παράκληση.",
+      "headers": [
+        "Αντωνυμία",
+        "Θέλω",
+        "Θα ήθελα (Ευγενικό)"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "θέλω",
+          "θα ήθελα"
+        ],
+        [
+          "Εσύ",
+          "θέλεις",
+          "θα ήθελες"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "θέλει",
+          "θα ήθελε"
+        ],
+        [
+          "Εμείς",
+          "θέλουμε",
+          "θα θέλαμε"
+        ],
+        [
+          "Εσείς",
+          "θέλετε",
+          "θα θέλατε"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "θέλουν",
+          "θα ήθελαν"
+        ]
+      ],
+      "usage": [
+        "**Ευγενική αίτηση:** 'Θα ήθελα έναν καφέ, παρακαλώ'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Πηγαίνω / Πάω (To Go)",
+      "desc": "Το ρήμα **πηγαίνω (πάω)** δηλώνει μετακίνηση και κατεύθυνση.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "πάω / πηγαίνω",
+          "Πάω στη δουλειά."
+        ],
+        [
+          "Εσύ",
+          "πάς / πηγαίνεις",
+          "Πού πάς;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "πάει / πηγαίνει",
+          "Πηγαίνει στο σπίτι."
+        ],
+        [
+          "Εμείς",
+          "πάμε / πηγαίνουμε",
+          "Πάμε σινεμά."
+        ],
+        [
+          "Εσείς",
+          "πάτε / πηγαίνετε",
+          "Πού πηγαίνετε;"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "πάνε / πηγαίνουν",
+          "Πηγαίνουν στο σχολείο."
+        ]
+      ],
+      "usage": [
+        "**Μετακίνηση:** 'Πάμε διακοπές', 'Πώς πάει;'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Μπορώ (To Can / Be able to)",
+      "desc": "Το ρήμα **μπορώ** εκφράζει ικανότητα, δυνατότητα και άδεια.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "μπορώ",
+          "Μπορώ να βοηθήσω."
+        ],
+        [
+          "Εσύ",
+          "μπορείς",
+          "Μπορείς να έρθεις;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "μπορεί",
+          "Μπορεί να μιλήσει."
+        ],
+        [
+          "Εμείς",
+          "μπορούμε",
+          "Μπορούμε να ξεκινήσουμε."
+        ],
+        [
+          "Εσείς",
+          "μπορείτε",
+          "Μπορείτε να επαναλάβετε;"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "μπορούν",
+          "Μπορούν να έρθουν."
+        ]
+      ],
+      "usage": [
+        "**Ικανότητα:** 'Μπορώ να μιλήσω ελληνικά'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Τρώω (To Eat)",
+      "desc": "Το ρήμα **τρώω** αφορά το φαγητό και τα γεύματα.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "τρώω",
+          "Τρώω ένα μήλο."
+        ],
+        [
+          "Εσύ",
+          "τρώς",
+          "Τι τρώς;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "τρώει",
+          "Τρώει μεσημεριανό."
+        ],
+        [
+          "Εμείς",
+          "τρώμε",
+          "Τρώμε μαζί."
+        ],
+        [
+          "Εσείς",
+          "τρώτε",
+          "Τρώτε κρέας;"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "τρώνε",
+          "Τρώνε στο εστιατόριο."
+        ]
+      ],
+      "usage": [
+        "**Γεύματα:** 'Καλή όρεξη!', 'Τρώμε πρωινό'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Πίνω (To Drink)",
+      "desc": "Το ρήμα **πίνω** αφορά τα ποτά και την ενυδάτωση.",
+      "headers": [
+        "Αντωνυμία",
+        "Ενεστώτας",
+        "Παράδειγμα"
+      ],
+      "conjugation": [
+        [
+          "Εγώ",
+          "πίνω",
+          "Πίνω νερό."
+        ],
+        [
+          "Εσύ",
+          "πίνεις",
+          "Πίνεις καφέ;"
+        ],
+        [
+          "Αυτός / Αυτή",
+          "πίνει",
+          "Πίνει τσάι."
+        ],
+        [
+          "Εμείς",
+          "πίνουμε",
+          "Πίνουμε χυμό."
+        ],
+        [
+          "Εσείς",
+          "πίνετε",
+          "Τι πίνετε;"
+        ],
+        [
+          "Αυτοί / Αυτές",
+          "πίνουν",
+          "Πίνουν νερό."
+        ]
+      ],
+      "usage": [
+        "**Ποτά:** 'Πίνω έναν ελληνικό καφέ'."
+      ]
+    }
+  ],
+  "pt": [
+    {
+      "num": "1",
+      "title": "Ser / Estar (To Be)",
+      "desc": "Em português, **ser** expressa identidade e características permanentes; **estar** expressa localização e estados temporários.",
+      "headers": [
+        "Pronome",
+        "Ser",
+        "Estar"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "sou",
+          "estou"
+        ],
+        [
+          "Tu / Você",
+          "és / é",
+          "estás / está"
+        ],
+        [
+          "Ele / Ela",
+          "é",
+          "está"
+        ],
+        [
+          "Nós",
+          "somos",
+          "estamos"
+        ],
+        [
+          "Vós / Vocês",
+          "sois / são",
+          "estais / estão"
+        ],
+        [
+          "Eles / Elas",
+          "são",
+          "estão"
+        ]
+      ],
+      "usage": [
+        "**Ser:** 'Sou estudante', 'Ele é médico'.",
+        "**Estar:** 'Estou em casa', 'Como estás?'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Ter (To Have)",
+      "desc": "O verbo **ter** expressa posse, idade e relações familiares.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "tenho",
+          "Tenho um carro."
+        ],
+        [
+          "Tu / Você",
+          "tens / tem",
+          "Tens tempo?"
+        ],
+        [
+          "Ele / Ela",
+          "tem",
+          "Ela tem dois irmãos."
+        ],
+        [
+          "Nós",
+          "temos",
+          "Temos uma pergunta."
+        ],
+        [
+          "Vocês",
+          "têm",
+          "Vocês têm razão."
+        ],
+        [
+          "Eles / Elas",
+          "têm",
+          "Eles têm um cão."
+        ]
+      ],
+      "usage": [
+        "**Posse & Idade:** 'Tenho um livro', 'Tenho 25 anos'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Pensar (To Think)",
+      "desc": "O verbo **pensar** expressa opiniões e reflexões.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "penso",
+          "Penso que sim."
+        ],
+        [
+          "Tu / Você",
+          "pensas / pensa",
+          "O que pensas?"
+        ],
+        [
+          "Ele / Ela",
+          "pensa",
+          "Ele pensa no futuro."
+        ],
+        [
+          "Nós",
+          "pensamos",
+          "Pensamos o mesmo."
+        ],
+        [
+          "Vocês",
+          "pensam",
+          "O que pensam disto?"
+        ],
+        [
+          "Eles / Elas",
+          "pensam",
+          "Pensam no trabalho."
+        ]
+      ],
+      "usage": [
+        "**Opinião:** 'Penso que é uma boa ideia'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Saber / Conhecer (To Know)",
+      "desc": "**Saber** usa-se para factos e capacidades. **Conhecer** para pessoas e lugares.",
+      "headers": [
+        "Pronome",
+        "Saber",
+        "Conhecer"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "sei",
+          "conheço"
+        ],
+        [
+          "Tu / Você",
+          "sabes / sabe",
+          "conheces / conhece"
+        ],
+        [
+          "Ele / Ela",
+          "sabe",
+          "conhece"
+        ],
+        [
+          "Nós",
+          "sabemos",
+          "conhecemos"
+        ],
+        [
+          "Vocês",
+          "sabem",
+          "conhecem"
+        ],
+        [
+          "Eles / Elas",
+          "sabem",
+          "conhecem"
+        ]
+      ],
+      "usage": [
+        "**Saber:** 'Sei falar português'.",
+        "**Conhecer:** 'Conheço Lisboa'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Gostar / Amar (To Like / Love)",
+      "desc": "O verbo **gostar** usa-se com a preposição *de* (*gosto de*). **Amar** para sentimentos fortes.",
+      "headers": [
+        "Pronome",
+        "Gostar de",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "gosto de",
+          "Gosto de café."
+        ],
+        [
+          "Tu / Você",
+          "gostas / gosta de",
+          "Gostas de música?"
+        ],
+        [
+          "Ele / Ela",
+          "gosta de",
+          "Gosta de viajar."
+        ],
+        [
+          "Nós",
+          "gostamos de",
+          "Gostamos de desporto."
+        ],
+        [
+          "Vocês",
+          "gostam de",
+          "Gostam de cinema?"
+        ],
+        [
+          "Eles / Elas",
+          "gostam de",
+          "Gostam de ler."
+        ]
+      ],
+      "usage": [
+        "**Gostos:** 'Gosto de aprender línguas'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Querer / Gostaria (To Want / Would Like)",
+      "desc": "O verbo **querer** expressa vontade. A forma **gostaria** é usada para pedidos corteses.",
+      "headers": [
+        "Pronome",
+        "Querer",
+        "Gostaria (Cortês)"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "quero",
+          "gostaria"
+        ],
+        [
+          "Tu / Você",
+          "queres / quer",
+          "gostarias / gostaria"
+        ],
+        [
+          "Ele / Ela",
+          "quer",
+          "gostaria"
+        ],
+        [
+          "Nós",
+          "queremos",
+          "gostaríamos"
+        ],
+        [
+          "Vocês",
+          "querem",
+          "gostariam"
+        ],
+        [
+          "Eles / Elas",
+          "querem",
+          "gostariam"
+        ]
+      ],
+      "usage": [
+        "**Pedido cortês:** 'Gostaria de um café, por favor'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Ir / Futuro próximo (To Go)",
+      "desc": "O verbo **ir** indica deslocação e forma o futuro próximo (*ir + infinitivo*).",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "vou",
+          "Vou trabalhar / Vou comer."
+        ],
+        [
+          "Tu / Você",
+          "vais / vai",
+          "Vais a casa?"
+        ],
+        [
+          "Ele / Ela",
+          "vai",
+          "Ele vai para Lisboa."
+        ],
+        [
+          "Nós",
+          "vamos",
+          "Vamos ao cinema."
+        ],
+        [
+          "Vocês",
+          "vão",
+          "Onde vão?"
+        ],
+        [
+          "Eles / Elas",
+          "vão",
+          "Eles vão estudar."
+        ]
+      ],
+      "usage": [
+        "**Futuro próximo:** 'Vou estudar português'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Poder (To Can / Be able to)",
+      "desc": "O verbo modal **poder** expressa capacidade e permissão.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "posso",
+          "Posso ajudar."
+        ],
+        [
+          "Tu / Você",
+          "podes / pode",
+          "Podes vir hoje?"
+        ],
+        [
+          "Ele / Ela",
+          "pode",
+          "Ele pode entrar."
+        ],
+        [
+          "Nós",
+          "podemos",
+          "Podemos começar."
+        ],
+        [
+          "Vocês",
+          "podem",
+          "Podem repetir?"
+        ],
+        [
+          "Eles / Elas",
+          "podem",
+          "Podem falar."
+        ]
+      ],
+      "usage": [
+        "**Permissão:** 'Posso entrar?'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Comer (To Eat)",
+      "desc": "O verbo **comer** refere-se às refeições e alimentação.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "como",
+          "Como uma maçã."
+        ],
+        [
+          "Tu / Você",
+          "comes / come",
+          "A que horas comes?"
+        ],
+        [
+          "Ele / Ela",
+          "come",
+          "Ele come ao almoço."
+        ],
+        [
+          "Nós",
+          "comemos",
+          "Comemos juntos."
+        ],
+        [
+          "Vocês",
+          "comem",
+          "Comem carne?"
+        ],
+        [
+          "Eles / Elas",
+          "comem",
+          "Comem no restaurante."
+        ]
+      ],
+      "usage": [
+        "**Refeições:** 'Bom apetite!'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Beber (To Drink)",
+      "desc": "O verbo **beber** refere-se a bebidas e hidratação.",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "conjugation": [
+        [
+          "Eu",
+          "bebo",
+          "Bebo água."
+        ],
+        [
+          "Tu / Você",
+          "bebes / bebe",
+          "Bebes café?"
+        ],
+        [
+          "Ele / Ela",
+          "bebe",
+          "Ele bebe chá."
+        ],
+        [
+          "Nós",
+          "bebemos",
+          "Bebemos sumo."
+        ],
+        [
+          "Vocês",
+          "bebem",
+          "O que bebem?"
+        ],
+        [
+          "Eles / Elas",
+          "bebem",
+          "Bebem água fresca."
+        ]
+      ],
+      "usage": [
+        "**Bebidas:** 'Bebo um café de manhã'."
+      ]
+    }
+  ],
+  "hy": [
+    {
+      "num": "1",
+      "title": "Լինել (To Be)",
+      "desc": "Լինել բայը ցույց է տալիս ինքնություն, պաշտոն, վիճակ և գտնվելու վայր։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "եմ",
+          "Ես ուսանող եմ։"
+        ],
+        [
+          "Դու",
+          "ես",
+          "Դու պատրաստ ես։"
+        ],
+        [
+          "Նա",
+          "է",
+          "Նա տանն է։"
+        ],
+        [
+          "Մենք",
+          "ենք",
+          "Մենք ուրախ ենք։"
+        ],
+        [
+          "Դուք",
+          "եք",
+          "Դուք շուտ եք եկել։"
+        ],
+        [
+          "Նրանք",
+          "են",
+          "Նրանք բարի են։"
+        ]
+      ],
+      "usage": [
+        "**Ինքնություն:** 'Ես Աննան եմ', 'Նա բժիշկ է'։",
+        "**Վայր:** 'Մենք Երևանում ենք'։"
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Ունենալ (To Have)",
+      "desc": "Ունենալ բայը արտահայտում է պատկանելություն, տարիք և ընտանեկան կապեր։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "ունեմ",
+          "Ես մեքենա ունեմ։"
+        ],
+        [
+          "Դու",
+          "ունես",
+          "Դու ժամանակ ունե՞ս։"
+        ],
+        [
+          "Նա",
+          "ունի",
+          "Նա երկու եղբայր ունի։"
+        ],
+        [
+          "Մենք",
+          "ունենք",
+          "Մենք հարց ունենք։"
+        ],
+        [
+          "Դուք",
+          "ունեք",
+          "Դուք իրավացի եք։"
+        ],
+        [
+          "Նրանք",
+          "ունեն",
+          "Նրանք շուն ունեն։"
+        ]
+      ],
+      "usage": [
+        "**Պատկանելություն:** 'Ես գիրք ունեմ'։"
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Մտածել (To Think)",
+      "desc": "Մտածել բայն արտահայտում է կարծիք, մտքեր և դատողություն։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "մտածում եմ",
+          "Ես մտածում եմ, որ այո։"
+        ],
+        [
+          "Դու",
+          "մտածում ես",
+          "Ի՞նչ ես մտածում։"
+        ],
+        [
+          "Նա",
+          "մտածում է",
+          "Նա մտածում է ապագայի մասին։"
+        ],
+        [
+          "Մենք",
+          "մտածում ենք",
+          "Մենք նույն կերպ ենք մտածում։"
+        ],
+        [
+          "Դուք",
+          "մտածում եք",
+          "Ի՞նչ եք մտածում այս մասին։"
+        ],
+        [
+          "Նրանք",
+          "մտածում են",
+          "Նրանք մտածում են աշխատանքի մասին։"
+        ]
+      ],
+      "usage": [
+        "**Կարծիք:** 'Ես մտածում եմ, որ սա լավ գաղափար է'։"
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Իմանալ / Ճանաչել (To Know)",
+      "desc": "Գիտենալ/իմանալ-ը օգտագործվում է փաստերի համար, ճանաչել-ը՝ մարդկանց և վայրերի համար։",
+      "headers": [
+        "Դերանուն",
+        "Գիտենալ",
+        "Ճանաչել"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "գիտեմ",
+          "ճանաչում եմ"
+        ],
+        [
+          "Դու",
+          "գիտես",
+          "ճանաչում ես"
+        ],
+        [
+          "Նա",
+          "գիտի",
+          "ճանաչում է"
+        ],
+        [
+          "Մենք",
+          "գիտենք",
+          "ճանաչում ենք"
+        ],
+        [
+          "Դուք",
+          "գիտեք",
+          "ճանաչում եք"
+        ],
+        [
+          "Նրանք",
+          "գիտեն",
+          "ճանաչում են"
+        ]
+      ],
+      "usage": [
+        "**Գիտելիք:** 'Ես գիտեմ պատասխանը', 'Ես ճանաչում եմ նրան'։"
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Սիրել (To Like / Love)",
+      "desc": "Սիրել բայն արտահայտում է նախասիրություններ և զգացմունքներ։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "սիրում եմ",
+          "Ես սիրում եմ սուրճ։"
+        ],
+        [
+          "Դու",
+          "սիրում ես",
+          "Դու սիրու՞մ ես երաժշտություն։"
+        ],
+        [
+          "Նա",
+          "սիրում է",
+          "Նա սիրում է ճամփորդել։"
+        ],
+        [
+          "Մենք",
+          "սիրում ենք",
+          "Մենք սիրում ենք սպորտը։"
+        ],
+        [
+          "Դուք",
+          "սիրում եք",
+          "Դուք սիրու՞մ եք կինոն։"
+        ],
+        [
+          "Նրանք",
+          "սիրում են",
+          "Նրանք սիրում են կարդալ։"
+        ]
+      ],
+      "usage": [
+        "**Նախասիրություններ:** 'Ես սիրում եմ լեզուներ սովորել'։"
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Ուզել (To Want)",
+      "desc": "Ուզել բայն արտահայտում է ցանկություն և ցանկություններ։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "ուզում եմ",
+          "Ես ջուր եմ ուզում։"
+        ],
+        [
+          "Դու",
+          "ուզում ես",
+          "Ի՞նչ ես ուզում։"
+        ],
+        [
+          "Նա",
+          "ուզում է",
+          "Նա ուզում է սովորել։"
+        ],
+        [
+          "Մենք",
+          "ուզում ենք",
+          "Մենք ուզում ենք հանգստանալ։"
+        ],
+        [
+          "Դուք",
+          "ուզում եք",
+          "Դուք սուրճ ուզու՞մ եք։"
+        ],
+        [
+          "Նրանք",
+          "ուզում են",
+          "Նրանք ուզում են տուն գնալ։"
+        ]
+      ],
+      "usage": [
+        "**Ցանկություն:** 'Ես ուզում եմ սովորել'։"
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Գնալ (To Go)",
+      "desc": "Գնալ բայն արտահայտում է տեղաշարժ և ուղղություն։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "գնում եմ",
+          "Ես գնում եմ աշխատանքի։"
+        ],
+        [
+          "Դու",
+          "գնում ես",
+          "Ո՞ւր ես գնում։"
+        ],
+        [
+          "Նա",
+          "գնում է",
+          "Նա գնում է տուն։"
+        ],
+        [
+          "Մենք",
+          "գնում ենք",
+          "Մենք գնում ենք կինո։"
+        ],
+        [
+          "Դուք",
+          "գնում եք",
+          "Դուք գնում եք արձակուրդ։"
+        ],
+        [
+          "Նրանք",
+          "գնում են",
+          "Նրանք գնում են դպրոց։"
+        ]
+      ],
+      "usage": [
+        "**Տեղաշարժ:** 'Ես գնում եմ տուն'։"
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Կարողանալ (To Can)",
+      "desc": "Կարողանալ բայն արտահայտում է ունակություն և հնարավորություն։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "կարող եմ",
+          "Ես կարող եմ օգնել ձեզ։"
+        ],
+        [
+          "Դու",
+          "կարող ես",
+          "Դու կարո՞ղ ես գալ։"
+        ],
+        [
+          "Նա",
+          "կարող է",
+          "Նա կարող է խոսել։"
+        ],
+        [
+          "Մենք",
+          "կարող ենք",
+          "Մենք կարող ենք սկսել։"
+        ],
+        [
+          "Դուք",
+          "կարող եք",
+          "Դուք կարո՞ղ եք կրկնել։"
+        ],
+        [
+          "Նրանք",
+          "կարող են",
+          "Նրանք կարող են գալ։"
+        ]
+      ],
+      "usage": [
+        "**Ունակություն:** 'Ես կարող եմ խոսել հայերեն'։"
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Ուտել (To Eat)",
+      "desc": "Ուտել բայն օգտագործվում է կերակրի և ուտելիքի համար։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "ուտում եմ",
+          "Ես խնձոր եմ ուտում։"
+        ],
+        [
+          "Դու",
+          "ուտում ես",
+          "Ի՞նչ ես ուտում։"
+        ],
+        [
+          "Նա",
+          "ուտում է",
+          "Նա ճաշում է։"
+        ],
+        [
+          "Մենք",
+          "ուտում ենք",
+          "Մենք միասին ենք ուտում։"
+        ],
+        [
+          "Դուք",
+          "ուտում եք",
+          "Դուք հաց ուտու՞մ եք։"
+        ],
+        [
+          "Նրանք",
+          "ուտում են",
+          "Նրանք ռեստորանում են ուտում։"
+        ]
+      ],
+      "usage": [
+        "**Ուտելիք:** 'Բարի ախորժակ'։"
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Խմել (To Drink)",
+      "desc": "Խմել բայն օգտագործվում է ըմպելիքների համար։",
+      "headers": [
+        "Դերանուն",
+        "Ներկա ժամանակ",
+        "Օրինակ"
+      ],
+      "conjugation": [
+        [
+          "Ես",
+          "խմում եմ",
+          "Ես ջուր եմ խմում։"
+        ],
+        [
+          "Դու",
+          "խմում ես",
+          "Դու սուրճ խմու՞մ ես։"
+        ],
+        [
+          "Նա",
+          "խմում է",
+          "Նա թեյ է խմում։"
+        ],
+        [
+          "Մենք",
+          "խմում ենք",
+          "Մենք հյութ ենք խմում։"
+        ],
+        [
+          "Դուք",
+          "խմում եք",
+          "Ի՞նչ եք խմում։"
+        ],
+        [
+          "Նրանք",
+          "խմում են",
+          "Նրանք ջուր են խմում։"
+        ]
+      ],
+      "usage": [
+        "**Ըմպելիք:** 'Ես թեյ եմ խմում'։"
+      ]
+    }
+  ],
+  "ka": [
+    {
+      "num": "1",
+      "title": "ყოფნა (To Be)",
+      "desc": "ზმნა **ყოფნა** გამოხატავს იდენტობას, ეროვნებას, პროფესიას და მდებარეობას.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "ვარ",
+          "მე ვარ სტუდენტი."
+        ],
+        [
+          "შენ",
+          "ხარ",
+          "შენ ხარ მზად?"
+        ],
+        [
+          "ის",
+          "არის",
+          "ის არის სახლში."
+        ],
+        [
+          "ჩვენ",
+          "ვართ",
+          "ჩვენ ვართ ბედნიერები."
+        ],
+        [
+          "თქვენ",
+          "ხართ",
+          "თქვენ ხართ ადრე."
+        ],
+        [
+          "ისინი",
+          "არიან",
+          "ისინი არიან კეთილები."
+        ]
+      ],
+      "usage": [
+        "**იდენტობა:** 'მე ვარ გიორგი'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "ქონა / ყოლა (To Have)",
+      "desc": "ზმნა **ქონა** გამოიყენება უსულო საგნებისთვის, **ყოლა** სულიერი არსებებისათვის.",
+      "headers": [
+        "ნაცვალსახელი",
+        "ფორმა",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "მაქვს / მყავს",
+          "მე მაქვს მანქანა."
+        ],
+        [
+          "შენ",
+          "გაქვს / გყავს",
+          "შენ გაქვს დრო?"
+        ],
+        [
+          "მას",
+          "აქვს / ჰყავს",
+          "მას ჰყავს ორი ძმა."
+        ],
+        [
+          "ჩვენ",
+          "გვაქვს / გვყავს",
+          "ჩვენ გვაქვს შეკითხვა."
+        ],
+        [
+          "თქვენ",
+          "გაქვთ / გყავთ",
+          "თქვენ გაქვთ უფლება."
+        ],
+        [
+          "მათ",
+          "აქვთ / ჰყავთ",
+          "მათ ჰყავთ ძაღლი."
+        ]
+      ],
+      "usage": [
+        "**ფლობა:** 'მე მაქვს წიგნი'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "ფიქრი (To Think)",
+      "desc": "ზმნა **ფიქრი** გამოხატავს აზრს, ფიქრს და შეხედულებას.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "ვფიქრობ",
+          "მე ვფიქრობ, რომ დიახ."
+        ],
+        [
+          "შენ",
+          "ფიქრობ",
+          "რას ფიქრობ?"
+        ],
+        [
+          "ის",
+          "ფიქრობს",
+          "ის ფიქრობს მომავალზე."
+        ],
+        [
+          "ჩვენ",
+          "ვფიქრობთ",
+          "ჩვენ ვფიქრობთ იგივეს."
+        ],
+        [
+          "თქვენ",
+          "ფიქრობთ",
+          "რას ფიქრობთ ამაზე?"
+        ],
+        [
+          "ისინი",
+          "ფიქრობენ",
+          "ისინი ფიქრობენ სამუშაოზე."
+        ]
+      ],
+      "usage": [
+        "**აზრი:** 'მე ვფიქრობ, რომ ეს კარგი იდეაა'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "ცოდნა / ცნობა (To Know)",
+      "desc": "**ცოდნა** გამოიყენება ფაქტებისა და უნარებისთვის, **ცნობა** ადამიანების ცნობისთვის.",
+      "headers": [
+        "ნაცვალსახელი",
+        "ცოდნა",
+        "ცნობა"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "ვიცი",
+          "ვცნობ"
+        ],
+        [
+          "შენ",
+          "იცი",
+          "იცნობ"
+        ],
+        [
+          "მან",
+          "იცის",
+          "იცნობს"
+        ],
+        [
+          "ჩვენ",
+          "ვიცით",
+          "ვიცნობთ"
+        ],
+        [
+          "თქვენ",
+          "იცით",
+          "იცნობთ"
+        ],
+        [
+          "მათ",
+          "იციან",
+          "იცნობენ"
+        ]
+      ],
+      "usage": [
+        "**ცოდნა:** 'მე ვიცი ქართული'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "მოწონება / სიყვარული (To Like / Love)",
+      "desc": "გამოხატავს გემოვნებას, ინტერესებსა და გრძნობებს.",
+      "headers": [
+        "ნაცვალსახელი",
+        "ფორმა",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "მომწონს / მიყვარს",
+          "მე მომწონს ყავა."
+        ],
+        [
+          "შენ",
+          "მოგწონს / გიყვარს",
+          "შენ გიყვარს მუსიკა?"
+        ],
+        [
+          "მას",
+          "მოსწონს / უყვარს",
+          "მას უყვარს მოგზაურობა."
+        ],
+        [
+          "ჩვენ",
+          "მოგვწონს / გვიყვარს",
+          "ჩვენ გვიყვარს სპორტი."
+        ],
+        [
+          "თქვენ",
+          "მოგწონთ / გიყვართ",
+          "თქვენ მოგწონთ კინო?"
+        ],
+        [
+          "მათ",
+          "მოსწონთ / უყვართ",
+          "მათ უყვართ კითხვა."
+        ]
+      ],
+      "usage": [
+        "**გემოვნება:** 'მე მომწონს ეს ქალაქი'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "ნდომა (To Want)",
+      "desc": "ზმნა **ნდომა** გამოხატავს სურვილს.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "მინდა",
+          "მე მინდა წყალი."
+        ],
+        [
+          "შენ",
+          "გინდა",
+          "რა გინდა?"
+        ],
+        [
+          "მას",
+          "უნდა",
+          "მას უნდა სწავლა."
+        ],
+        [
+          "ჩვენ",
+          "გვინდა",
+          "ჩვენ გვინდა დასვენება."
+        ],
+        [
+          "თქვენ",
+          "გინდათ",
+          "თქვენ გინდათ ყავა?"
+        ],
+        [
+          "მათ",
+          "უნდათ",
+          "მათ უნდათ წასვლა."
+        ]
+      ],
+      "usage": [
+        "**სურვილი:** 'მე მინდა სწავლა'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "წასვლა / სვლა (To Go)",
+      "desc": "გამოხატავს მოძრაობას და მიმართულებას.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "მივდივარ",
+          "მე მივდივარ სამსახურში."
+        ],
+        [
+          "შენ",
+          "მიდიხარ",
+          "სად მიდიხარ?"
+        ],
+        [
+          "ის",
+          "მიდის",
+          "ის მიდის სახლში."
+        ],
+        [
+          "ჩვენ",
+          "მივდივართ",
+          "ჩვენ მივდივართ კინოში."
+        ],
+        [
+          "თქვენ",
+          "მიდიხართ",
+          "სად მიდიხართ?"
+        ],
+        [
+          "ისინი",
+          "მიდიან",
+          "ისინი მიდიან სკოლაში."
+        ]
+      ],
+      "usage": [
+        "**მოძრაობა:** 'მე მივდივარ სახლში'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "შეძლება (To Can)",
+      "desc": "გამოხატავს შესაძლებლობასა და უნარს.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "შემიძლია",
+          "მე შემიძლია დახმარება."
+        ],
+        [
+          "შენ",
+          "შეგიძლია",
+          "შეგიძლია მოსვლა?"
+        ],
+        [
+          "მას",
+          "შეუძლია",
+          "მას შეუძლია ლაპარაკი."
+        ],
+        [
+          "ჩვენ",
+          "შეგვიძლია",
+          "ჩვენ შეგვიძლია დაწყება."
+        ],
+        [
+          "თქვენ",
+          "შეგიძლიათ",
+          "შეგიძლიათ გაpgMoveორება?"
+        ],
+        [
+          "მათ",
+          "შეუძლიათ",
+          "მათ შეუძლიათ მოსვლა."
+        ]
+      ],
+      "usage": [
+        "**უნარი:** 'მე შემიძლია ქართულად ლაპარაკი'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "ჭამა (To Eat)",
+      "desc": "გამოიყენება საჭმელისა და კვებისათვის.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "ვჭამ",
+          "მე ვჭამ ვაშლს."
+        ],
+        [
+          "შენ",
+          "ჭამ",
+          "რას ჭამ?"
+        ],
+        [
+          "ის",
+          "ჭამს",
+          "ის ჭამს სადილს."
+        ],
+        [
+          "ჩვენ",
+          "ვჭამთ",
+          "ჩვენ ვჭამთ ერთად."
+        ],
+        [
+          "თქვენ",
+          "ჭამთ",
+          "თქვენ ჭამთ პურს?"
+        ],
+        [
+          "ისინი",
+          "ჭამენ",
+          "ისინი ჭამენ რესტორანში."
+        ]
+      ],
+      "usage": [
+        "**კვება:** 'გემრიელად მიირთვით!'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "სმა (To Drink)",
+      "desc": "გამოიყენება სასმელებისათვის.",
+      "headers": [
+        "ნაცვალსახელი",
+        "აწმყო დრო",
+        "მაგალითი"
+      ],
+      "conjugation": [
+        [
+          "მე",
+          "ვსვამ",
+          "მე ვსვამ წყალს."
+        ],
+        [
+          "შენ",
+          "სვამ",
+          "სვამ ყავას?"
+        ],
+        [
+          "ის",
+          "სვამს",
+          "ის სვამს ჩაის."
+        ],
+        [
+          "ჩვენ",
+          "ვსვამთ",
+          "ჩვენ ვსვამთ წვენს."
+        ],
+        [
+          "თქვენ",
+          "სვამთ",
+          "რას სვამთ?"
+        ],
+        [
+          "ისინი",
+          "სვამენ",
+          "ისინი სვამენ წყალს."
+        ]
+      ],
+      "usage": [
+        "**სასმელი:** 'მე ვსვამ წყალს'."
+      ]
+    }
+  ],
+  "tt": [
+    {
+      "num": "1",
+      "title": "Булу (To Be)",
+      "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисaл"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "студент (мын)",
+          "Мин студент."
+        ],
+        [
+          "Син",
+          "әзер (сең)",
+          "Син әзерме?"
+        ],
+        [
+          "Ол / Ул",
+          "өйдә",
+          "Ул өйдә."
+        ],
+        [
+          "Без",
+          "шат (быз)",
+          "Без шат."
+        ],
+        [
+          "Сез",
+          "иртәнге (сез)",
+          "Сез иртә килдегез."
+        ],
+        [
+          "Алар",
+          "игелекле (ләр)",
+          "Алар бик игелекле."
+        ]
+      ],
+      "usage": [
+        "**Зат:** 'Мин Марат'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Бар булу (To Have)",
+      "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
+      "headers": [
+        "Зат",
+        "Төзелеш",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "минем бар",
+          "Минем машинам бар."
+        ],
+        [
+          "Син",
+          "синең бар",
+          "Синең вакытың бармы?"
+        ],
+        [
+          "Ул",
+          "аның бар",
+          "Аның ике агасы бар."
+        ],
+        [
+          "Без",
+          "безнең бар",
+          "Безнең соравыбыз бар."
+        ],
+        [
+          "Сез",
+          "сезнең бар",
+          "Сезнең хакыгыз бар."
+        ],
+        [
+          "Алар",
+          "аларның бар",
+          "Аларның эте бар."
+        ]
+      ],
+      "usage": [
+        "**Барлык:** 'Минем китабым бар'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Уйлау (To Think)",
+      "desc": "Фигыль **уйлау** фикерне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "уйлыйм",
+          "Мин шулай уйлыйм."
+        ],
+        [
+          "Син",
+          "уйлыйсың",
+          "Син нәрсә уйлыйсың?"
+        ],
+        [
+          "Ул",
+          "уйлый",
+          "Ул киләчәк турында уйлый."
+        ],
+        [
+          "Без",
+          "уйлыйбыз",
+          "Без бергә уйлыйбыз."
+        ],
+        [
+          "Сез",
+          "уйлыйсыз",
+          "Сез нәрсә уйлыйсыз?"
+        ],
+        [
+          "Алар",
+          "уйлыйлар",
+          "Алар эш турында уйлыйлар."
+        ]
+      ],
+      "usage": [
+        "**Фикер:** 'Мин яхшы идея дип уйлыйм'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Белү (To Know)",
+      "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "беләм",
+          "Мин җавапны беләм."
+        ],
+        [
+          "Син",
+          "беләсең",
+          "Син аны беләсеңме?"
+        ],
+        [
+          "Ул",
+          "белә",
+          "Ул татарча белә."
+        ],
+        [
+          "Без",
+          "беләбез",
+          "Без кайчан икәнен беләбез."
+        ],
+        [
+          "Сез",
+          "беләсез",
+          "Сез кагыйдәне беләсезме?"
+        ],
+        [
+          "Алар",
+          "беләләр",
+          "Алар барысын да беләләр."
+        ]
+      ],
+      "usage": [
+        "**Белем:** 'Мин татар телен беләм'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Ярату / Ошау (To Like / Love)",
+      "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "яратам",
+          "Мин кофе яратам."
+        ],
+        [
+          "Син",
+          "яратасың",
+          "Син музыка яратасыңмы?"
+        ],
+        [
+          "Ул",
+          "ярата",
+          "Ул сәяхәт итәргә ярата."
+        ],
+        [
+          "Без",
+          "яратабыз",
+          "Без спортны яратабыз."
+        ],
+        [
+          "Сез",
+          "яратасыз",
+          "Сез киноны яратасызмы?"
+        ],
+        [
+          "Алар",
+          "яраталар",
+          "Алар китап укырга яраталар."
+        ]
+      ],
+      "usage": [
+        "**Кызыксыну:** 'Мин татарча сөйләшергә яратам'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Теләү (To Want)",
+      "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "телим",
+          "Мин су телим."
+        ],
+        [
+          "Син",
+          "телисең",
+          "Син нәрсә телисең?"
+        ],
+        [
+          "Ул",
+          "тели",
+          "Ул укырга тели."
+        ],
+        [
+          "Без",
+          "телибез",
+          "Без ял итәргә телибез."
+        ],
+        [
+          "Сез",
+          "телисез",
+          "Сез кофе телисезме?"
+        ],
+        [
+          "Алар",
+          "телиләр",
+          "Алар өйгә кайтырга телиләр."
+        ]
+      ],
+      "usage": [
+        "**Теләк:** 'Мин тел өйрәнергә телим'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Бару (To Go)",
+      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "барам",
+          "Мин эшкә барам."
+        ],
+        [
+          "Син",
+          "барасың",
+          "Кайда барасың?"
+        ],
+        [
+          "Ул",
+          "бара",
+          "Ул өйгә бара."
+        ],
+        [
+          "Без",
+          "барабыз",
+          "Без кинога барабыз."
+        ],
+        [
+          "Сез",
+          "барасыз",
+          "Сез кайда барасыз?"
+        ],
+        [
+          "Алар",
+          "баралар",
+          "Алар мәктәпкә баралар."
+        ]
+      ],
+      "usage": [
+        "**Хәрәкәт:** 'Мин өйгә барам'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Булдыру / Алу (To Can)",
+      "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "булдырам",
+          "Мин ярдәм итә алам."
+        ],
+        [
+          "Син",
+          "булдырасың",
+          "Син килә аласыңмы?"
+        ],
+        [
+          "Ул",
+          "булдыра",
+          "Ул сөйләшә ала."
+        ],
+        [
+          "Без",
+          "булдырабыз",
+          "Без башлый алабыз."
+        ],
+        [
+          "Сез",
+          "булдырасыз",
+          "Сез кабатлый аласызмы?"
+        ],
+        [
+          "Алар",
+          "булдыралар",
+          "Алар килә алалар."
+        ]
+      ],
+      "usage": [
+        "**Мөмкинлек:** 'Мин татарча сөйләшә алам'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Ашау (To Eat)",
+      "desc": "Фигыль **ашау** ашамлыклар турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "ашыйм",
+          "Мин алма ашыйм."
+        ],
+        [
+          "Син",
+          "ашыйсың",
+          "Син нәрсә ашыйсың?"
+        ],
+        [
+          "Ул",
+          "ашый",
+          "Ул төшке аш ашый."
+        ],
+        [
+          "Без",
+          "ашыйбыз",
+          "Без бергә ашыйбыз."
+        ],
+        [
+          "Сез",
+          "ашыйсыз",
+          "Сез икмәк ашыйсызмы?"
+        ],
+        [
+          "Алар",
+          "ашыйлар",
+          "Алар ресторанда ашыйлар."
+        ]
+      ],
+      "usage": [
+        "**Аш:** 'Игелекле аш булсын!'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Эчү (To Drink)",
+      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "эчәм",
+          "Мин су эчәм."
+        ],
+        [
+          "Син",
+          "эчәсең",
+          "Син кофе эчәсеңме?"
+        ],
+        [
+          "Ул",
+          "эчә",
+          "Ул чәй эчә."
+        ],
+        [
+          "Без",
+          "эчәбез",
+          "Без сут эчәбез."
+        ],
+        [
+          "Сез",
+          "эчәсез",
+          "Сез нәрсә эчәсез?"
+        ],
+        [
+          "Алар",
+          "эчәләр",
+          "Алар су эчәләр."
+        ]
+      ],
+      "usage": [
+        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+      ]
+    }
+  ],
+  "ba": [
+    {
+      "num": "1",
+      "title": "Булу (To Be)",
+      "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисaл"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "студент (мын)",
+          "Мин студент."
+        ],
+        [
+          "Син",
+          "әзер (сең)",
+          "Син әзерме?"
+        ],
+        [
+          "Ол / Ул",
+          "өйдә",
+          "Ул өйдә."
+        ],
+        [
+          "Без",
+          "шат (быз)",
+          "Без шат."
+        ],
+        [
+          "Сез",
+          "иртәнге (сез)",
+          "Сез иртә килдегез."
+        ],
+        [
+          "Алар",
+          "игелекле (ләр)",
+          "Алар бик игелекле."
+        ]
+      ],
+      "usage": [
+        "**Зат:** 'Мин Марат'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Бар булу (To Have)",
+      "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
+      "headers": [
+        "Зат",
+        "Төзелеш",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "минем бар",
+          "Минем машинам бар."
+        ],
+        [
+          "Син",
+          "синең бар",
+          "Синең вакытың бармы?"
+        ],
+        [
+          "Ул",
+          "аның бар",
+          "Аның ике агасы бар."
+        ],
+        [
+          "Без",
+          "безнең бар",
+          "Безнең соравыбыз бар."
+        ],
+        [
+          "Сез",
+          "сезнең бар",
+          "Сезнең хакыгыз бар."
+        ],
+        [
+          "Алар",
+          "аларның бар",
+          "Аларның эте бар."
+        ]
+      ],
+      "usage": [
+        "**Барлык:** 'Минем китабым бар'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Уйлау (To Think)",
+      "desc": "Фигыль **уйлау** фикерне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "уйлыйм",
+          "Мин шулай уйлыйм."
+        ],
+        [
+          "Син",
+          "уйлыйсың",
+          "Син нәрсә уйлыйсың?"
+        ],
+        [
+          "Ул",
+          "уйлый",
+          "Ул киләчәк турында уйлый."
+        ],
+        [
+          "Без",
+          "уйлыйбыз",
+          "Без бергә уйлыйбыз."
+        ],
+        [
+          "Сез",
+          "уйлыйсыз",
+          "Сез нәрсә уйлыйсыз?"
+        ],
+        [
+          "Алар",
+          "уйлыйлар",
+          "Алар эш турында уйлыйлар."
+        ]
+      ],
+      "usage": [
+        "**Фикер:** 'Мин яхшы идея дип уйлыйм'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Белү (To Know)",
+      "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "беләм",
+          "Мин җавапны беләм."
+        ],
+        [
+          "Син",
+          "беләсең",
+          "Син аны беләсеңме?"
+        ],
+        [
+          "Ул",
+          "белә",
+          "Ул татарча белә."
+        ],
+        [
+          "Без",
+          "беләбез",
+          "Без кайчан икәнен беләбез."
+        ],
+        [
+          "Сез",
+          "беләсез",
+          "Сез кагыйдәне беләсезме?"
+        ],
+        [
+          "Алар",
+          "беләләр",
+          "Алар барысын да беләләр."
+        ]
+      ],
+      "usage": [
+        "**Белем:** 'Мин татар телен беләм'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Ярату / Ошау (To Like / Love)",
+      "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "яратам",
+          "Мин кофе яратам."
+        ],
+        [
+          "Син",
+          "яратасың",
+          "Син музыка яратасыңмы?"
+        ],
+        [
+          "Ул",
+          "ярата",
+          "Ул сәяхәт итәргә ярата."
+        ],
+        [
+          "Без",
+          "яратабыз",
+          "Без спортны яратабыз."
+        ],
+        [
+          "Сез",
+          "яратасыз",
+          "Сез киноны яратасызмы?"
+        ],
+        [
+          "Алар",
+          "яраталар",
+          "Алар китап укырга яраталар."
+        ]
+      ],
+      "usage": [
+        "**Кызыксыну:** 'Мин татарча сөйләшергә яратам'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Теләү (To Want)",
+      "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "телим",
+          "Мин су телим."
+        ],
+        [
+          "Син",
+          "телисең",
+          "Син нәрсә телисең?"
+        ],
+        [
+          "Ул",
+          "тели",
+          "Ул укырга тели."
+        ],
+        [
+          "Без",
+          "телибез",
+          "Без ял итәргә телибез."
+        ],
+        [
+          "Сез",
+          "телисез",
+          "Сез кофе телисезме?"
+        ],
+        [
+          "Алар",
+          "телиләр",
+          "Алар өйгә кайтырга телиләр."
+        ]
+      ],
+      "usage": [
+        "**Теләк:** 'Мин тел өйрәнергә телим'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Бару (To Go)",
+      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "барам",
+          "Мин эшкә барам."
+        ],
+        [
+          "Син",
+          "барасың",
+          "Кайда барасың?"
+        ],
+        [
+          "Ул",
+          "бара",
+          "Ул өйгә бара."
+        ],
+        [
+          "Без",
+          "барабыз",
+          "Без кинога барабыз."
+        ],
+        [
+          "Сез",
+          "барасыз",
+          "Сез кайда барасыз?"
+        ],
+        [
+          "Алар",
+          "баралар",
+          "Алар мәктәпкә баралар."
+        ]
+      ],
+      "usage": [
+        "**Хәрәкәт:** 'Мин өйгә барам'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Булдыру / Алу (To Can)",
+      "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "булдырам",
+          "Мин ярдәм итә алам."
+        ],
+        [
+          "Син",
+          "булдырасың",
+          "Син килә аласыңмы?"
+        ],
+        [
+          "Ул",
+          "булдыра",
+          "Ул сөйләшә ала."
+        ],
+        [
+          "Без",
+          "булдырабыз",
+          "Без башлый алабыз."
+        ],
+        [
+          "Сез",
+          "булдырасыз",
+          "Сез кабатлый аласызмы?"
+        ],
+        [
+          "Алар",
+          "булдыралар",
+          "Алар килә алалар."
+        ]
+      ],
+      "usage": [
+        "**Мөмкинлек:** 'Мин татарча сөйләшә алам'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Ашау (To Eat)",
+      "desc": "Фигыль **ашау** ашамлыклар турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "ашыйм",
+          "Мин алма ашыйм."
+        ],
+        [
+          "Син",
+          "ашыйсың",
+          "Син нәрсә ашыйсың?"
+        ],
+        [
+          "Ул",
+          "ашый",
+          "Ул төшке аш ашый."
+        ],
+        [
+          "Без",
+          "ашыйбыз",
+          "Без бергә ашыйбыз."
+        ],
+        [
+          "Сез",
+          "ашыйсыз",
+          "Сез икмәк ашыйсызмы?"
+        ],
+        [
+          "Алар",
+          "ашыйлар",
+          "Алар ресторанда ашыйлар."
+        ]
+      ],
+      "usage": [
+        "**Аш:** 'Игелекле аш булсын!'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Эчү (To Drink)",
+      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "эчәм",
+          "Мин су эчәм."
+        ],
+        [
+          "Син",
+          "эчәсең",
+          "Син кофе эчәсеңме?"
+        ],
+        [
+          "Ул",
+          "эчә",
+          "Ул чәй эчә."
+        ],
+        [
+          "Без",
+          "эчәбез",
+          "Без сут эчәбез."
+        ],
+        [
+          "Сез",
+          "эчәсез",
+          "Сез нәрсә эчәсез?"
+        ],
+        [
+          "Алар",
+          "эчәләр",
+          "Алар су эчәләр."
+        ]
+      ],
+      "usage": [
+        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+      ]
+    }
+  ],
+  "br": [
+    {
+      "num": "1",
+      "title": "Être (To Be)",
+      "desc": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "suis",
+          "Je suis étudiant."
+        ],
+        [
+          "Tu",
+          "es",
+          "Tu es prêt ?"
+        ],
+        [
+          "Il / Elle / On",
+          "est",
+          "Il est à la maison."
+        ],
+        [
+          "Nous",
+          "sommes",
+          "Nous sommes heureux."
+        ],
+        [
+          "Vous",
+          "êtes",
+          "Vous êtes en avance."
+        ],
+        [
+          "Ils / Elles",
+          "sont",
+          "Ils sont très sympathiques."
+        ]
+      ],
+      "usage": [
+        "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
+        "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
+        "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Avoir (To Have)",
+      "desc": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "J'",
+          "ai",
+          "J'ai une voiture."
+        ],
+        [
+          "Tu",
+          "as",
+          "Tu as le temps."
+        ],
+        [
+          "Il / Elle / On",
+          "a",
+          "Elle a deux frères."
+        ],
+        [
+          "Nous",
+          "avons",
+          "Nous avons une question."
+        ],
+        [
+          "Vous",
+          "avez",
+          "Vous avez raison."
+        ],
+        [
+          "Ils / Elles",
+          "ont",
+          "Ils ont un chien."
+        ]
+      ],
+      "usage": [
+        "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
+        "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
+        "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Penser (To Think)",
+      "desc": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "pense",
+          "Je pense que oui."
+        ],
+        [
+          "Tu",
+          "penses",
+          "Qu'en penses-tu ?"
+        ],
+        [
+          "Il / Elle / On",
+          "pense",
+          "Il pense à son avenir."
+        ],
+        [
+          "Nous",
+          "pensons",
+          "Nous pensons arriver bientôt."
+        ],
+        [
+          "Vous",
+          "pensez",
+          "Que pensez-vous de ce livre ?"
+        ],
+        [
+          "Ils / Elles",
+          "pensent",
+          "Elles pensent la même chose."
+        ]
+      ],
+      "usage": [
+        "**Opinion:** 'Je pense que c'est une excellente idée'.",
+        "**Réflexion:** 'Je pense à mes vacances'.",
+        "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Savoir / Connaître (To Know)",
+      "desc": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes.",
+      "headers": [
+        "Pronom",
+        "Savoir",
+        "Connaître"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "sais",
+          "connais"
+        ],
+        [
+          "Tu",
+          "sais",
+          "connais"
+        ],
+        [
+          "Il / Elle / On",
+          "sait",
+          "connaît"
+        ],
+        [
+          "Nous",
+          "savons",
+          "connaissons"
+        ],
+        [
+          "Vous",
+          "savez",
+          "connaissez"
+        ],
+        [
+          "Ils / Elles",
+          "savent",
+          "connaissent"
+        ]
+      ],
+      "usage": [
+        "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
+        "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
+        "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Aimer (To Like / Love)",
+      "desc": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "J'",
+          "aime",
+          "J'aime le chocolat."
+        ],
+        [
+          "Tu",
+          "aimes",
+          "Tu aimes la musique ?"
+        ],
+        [
+          "Il / Elle / On",
+          "aime",
+          "Il aime voyager."
+        ],
+        [
+          "Nous",
+          "aimons",
+          "Nous aimons le sport."
+        ],
+        [
+          "Vous",
+          "aimez",
+          "Vous aimez le cinéma ?"
+        ],
+        [
+          "Ils / Elles",
+          "aiment",
+          "Elles aiment lire."
+        ]
+      ],
+      "usage": [
+        "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
+        "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
+        "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Vouloir / Voudrais (To Want / Would Like)",
+      "desc": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Politesse (Conditionnel)"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Tu",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Il / Elle / On",
+          "veut",
+          "voudrait"
+        ],
+        [
+          "Nous",
+          "voulons",
+          "voudrions"
+        ],
+        [
+          "Vous",
+          "voulez",
+          "voudriez"
+        ],
+        [
+          "Ils / Elles",
+          "veulent",
+          "voudraient"
+        ]
+      ],
+      "usage": [
+        "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
+        "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
+        "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Aller / Futur proche (To Go)",
+      "desc": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*).",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "vais",
+          "Je vais au travail / Je vais manger."
+        ],
+        [
+          "Tu",
+          "vas",
+          "Tu vas à la gare ?"
+        ],
+        [
+          "Il / Elle / On",
+          "va",
+          "Il va à Paris."
+        ],
+        [
+          "Nous",
+          "allons",
+          "Nous allons au cinéma."
+        ],
+        [
+          "Vous",
+          "allez",
+          "Comment allez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "vont",
+          "Elles vont réussir."
+        ]
+      ],
+      "usage": [
+        "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
+        "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
+        "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Pouvoir (To Can / Be able to)",
+      "desc": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "peux",
+          "Je peux vous aider."
+        ],
+        [
+          "Tu",
+          "peux",
+          "Tu peux venir ce soir ?"
+        ],
+        [
+          "Il / Elle / On",
+          "peut",
+          "On peut commencer."
+        ],
+        [
+          "Nous",
+          "pouvons",
+          "Nous pouvons le faire."
+        ],
+        [
+          "Vous",
+          "pouvez",
+          "Vous pouvez répéter ?"
+        ],
+        [
+          "Ils / Elles",
+          "peuvent",
+          "Ils peuvent entrer."
+        ]
+      ],
+      "usage": [
+        "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
+        "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
+        "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Manger (To Eat)",
+      "desc": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "mange",
+          "Je mange une pomme."
+        ],
+        [
+          "Tu",
+          "manges",
+          "Qu'est-ce que tu manges ?"
+        ],
+        [
+          "Il / Elle / On",
+          "mange",
+          "Il mange à midi."
+        ],
+        [
+          "Nous",
+          "mangeons",
+          "Nous mangeons ensemble."
+        ],
+        [
+          "Vous",
+          "mangez",
+          "Vous mangez de la viande ?"
+        ],
+        [
+          "Ils / Elles",
+          "mangent",
+          "Elles mangent une salade."
+        ]
+      ],
+      "usage": [
+        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
+        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
+        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Boire (To Drink)",
+      "desc": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "conjugation": [
+        [
+          "Je",
+          "bois",
+          "Je bois de l'eau."
+        ],
+        [
+          "Tu",
+          "bois",
+          "Tu bois du café ?"
+        ],
+        [
+          "Il / Elle / On",
+          "boit",
+          "Il boit un thé vert."
+        ],
+        [
+          "Nous",
+          "buvons",
+          "Nous buvons du jus de pomme."
+        ],
+        [
+          "Vous",
+          "buvez",
+          "Que buvez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "boivent",
+          "Elles boivent de l'eau fraîche."
+        ]
+      ],
+      "usage": [
+        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
+        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
+        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
+      ]
+    }
+  ],
+  "cv": [
+    {
+      "num": "1",
+      "title": "Булу (To Be)",
+      "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисaл"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "студент (мын)",
+          "Мин студент."
+        ],
+        [
+          "Син",
+          "әзер (сең)",
+          "Син әзерме?"
+        ],
+        [
+          "Ол / Ул",
+          "өйдә",
+          "Ул өйдә."
+        ],
+        [
+          "Без",
+          "шат (быз)",
+          "Без шат."
+        ],
+        [
+          "Сез",
+          "иртәнге (сез)",
+          "Сез иртә килдегез."
+        ],
+        [
+          "Алар",
+          "игелекле (ләр)",
+          "Алар бик игелекле."
+        ]
+      ],
+      "usage": [
+        "**Зат:** 'Мин Марат'."
+      ]
+    },
+    {
+      "num": "2",
+      "title": "Бар булу (To Have)",
+      "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
+      "headers": [
+        "Зат",
+        "Төзелеш",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "минем бар",
+          "Минем машинам бар."
+        ],
+        [
+          "Син",
+          "синең бар",
+          "Синең вакытың бармы?"
+        ],
+        [
+          "Ул",
+          "аның бар",
+          "Аның ике агасы бар."
+        ],
+        [
+          "Без",
+          "безнең бар",
+          "Безнең соравыбыз бар."
+        ],
+        [
+          "Сез",
+          "сезнең бар",
+          "Сезнең хакыгыз бар."
+        ],
+        [
+          "Алар",
+          "аларның бар",
+          "Аларның эте бар."
+        ]
+      ],
+      "usage": [
+        "**Барлык:** 'Минем китабым бар'."
+      ]
+    },
+    {
+      "num": "3",
+      "title": "Уйлау (To Think)",
+      "desc": "Фигыль **уйлау** фикерне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "уйлыйм",
+          "Мин шулай уйлыйм."
+        ],
+        [
+          "Син",
+          "уйлыйсың",
+          "Син нәрсә уйлыйсың?"
+        ],
+        [
+          "Ул",
+          "уйлый",
+          "Ул киләчәк турында уйлый."
+        ],
+        [
+          "Без",
+          "уйлыйбыз",
+          "Без бергә уйлыйбыз."
+        ],
+        [
+          "Сез",
+          "уйлыйсыз",
+          "Сез нәрсә уйлыйсыз?"
+        ],
+        [
+          "Алар",
+          "уйлыйлар",
+          "Алар эш турында уйлыйлар."
+        ]
+      ],
+      "usage": [
+        "**Фикер:** 'Мин яхшы идея дип уйлыйм'."
+      ]
+    },
+    {
+      "num": "4",
+      "title": "Белү (To Know)",
+      "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "беләм",
+          "Мин җавапны беләм."
+        ],
+        [
+          "Син",
+          "беләсең",
+          "Син аны беләсеңме?"
+        ],
+        [
+          "Ул",
+          "белә",
+          "Ул татарча белә."
+        ],
+        [
+          "Без",
+          "беләбез",
+          "Без кайчан икәнен беләбез."
+        ],
+        [
+          "Сез",
+          "беләсез",
+          "Сез кагыйдәне беләсезме?"
+        ],
+        [
+          "Алар",
+          "беләләр",
+          "Алар барысын да беләләр."
+        ]
+      ],
+      "usage": [
+        "**Белем:** 'Мин татар телен беләм'."
+      ]
+    },
+    {
+      "num": "5",
+      "title": "Ярату / Ошау (To Like / Love)",
+      "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "яратам",
+          "Мин кофе яратам."
+        ],
+        [
+          "Син",
+          "яратасың",
+          "Син музыка яратасыңмы?"
+        ],
+        [
+          "Ул",
+          "ярата",
+          "Ул сәяхәт итәргә ярата."
+        ],
+        [
+          "Без",
+          "яратабыз",
+          "Без спортны яратабыз."
+        ],
+        [
+          "Сез",
+          "яратасыз",
+          "Сез киноны яратасызмы?"
+        ],
+        [
+          "Алар",
+          "яраталар",
+          "Алар китап укырга яраталар."
+        ]
+      ],
+      "usage": [
+        "**Кызыксыну:** 'Мин татарча сөйләшергә яратам'."
+      ]
+    },
+    {
+      "num": "6",
+      "title": "Теләү (To Want)",
+      "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "телим",
+          "Мин су телим."
+        ],
+        [
+          "Син",
+          "телисең",
+          "Син нәрсә телисең?"
+        ],
+        [
+          "Ул",
+          "тели",
+          "Ул укырга тели."
+        ],
+        [
+          "Без",
+          "телибез",
+          "Без ял итәргә телибез."
+        ],
+        [
+          "Сез",
+          "телисез",
+          "Сез кофе телисезме?"
+        ],
+        [
+          "Алар",
+          "телиләр",
+          "Алар өйгә кайтырга телиләр."
+        ]
+      ],
+      "usage": [
+        "**Теләк:** 'Мин тел өйрәнергә телим'."
+      ]
+    },
+    {
+      "num": "7",
+      "title": "Бару (To Go)",
+      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "барам",
+          "Мин эшкә барам."
+        ],
+        [
+          "Син",
+          "барасың",
+          "Кайда барасың?"
+        ],
+        [
+          "Ул",
+          "бара",
+          "Ул өйгә бара."
+        ],
+        [
+          "Без",
+          "барабыз",
+          "Без кинога барабыз."
+        ],
+        [
+          "Сез",
+          "барасыз",
+          "Сез кайда барасыз?"
+        ],
+        [
+          "Алар",
+          "баралар",
+          "Алар мәктәпкә баралар."
+        ]
+      ],
+      "usage": [
+        "**Хәрәкәт:** 'Мин өйгә барам'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Булдыру / Алу (To Can)",
+      "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "булдырам",
+          "Мин ярдәм итә алам."
+        ],
+        [
+          "Син",
+          "булдырасың",
+          "Син килә аласыңмы?"
+        ],
+        [
+          "Ул",
+          "булдыра",
+          "Ул сөйләшә ала."
+        ],
+        [
+          "Без",
+          "булдырабыз",
+          "Без башлый алабыз."
+        ],
+        [
+          "Сез",
+          "булдырасыз",
+          "Сез кабатлый аласызмы?"
+        ],
+        [
+          "Алар",
+          "булдыралар",
+          "Алар килә алалар."
+        ]
+      ],
+      "usage": [
+        "**Мөмкинлек:** 'Мин татарча сөйләшә алам'."
+      ]
+    },
+    {
+      "num": "9",
+      "title": "Ашау (To Eat)",
+      "desc": "Фигыль **ашау** ашамлыклар турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "ашыйм",
+          "Мин алма ашыйм."
+        ],
+        [
+          "Син",
+          "ашыйсың",
+          "Син нәрсә ашыйсың?"
+        ],
+        [
+          "Ул",
+          "ашый",
+          "Ул төшке аш ашый."
+        ],
+        [
+          "Без",
+          "ашыйбыз",
+          "Без бергә ашыйбыз."
+        ],
+        [
+          "Сез",
+          "ашыйсыз",
+          "Сез икмәк ашыйсызмы?"
+        ],
+        [
+          "Алар",
+          "ашыйлар",
+          "Алар ресторанда ашыйлар."
+        ]
+      ],
+      "usage": [
+        "**Аш:** 'Игелекле аш булсын!'."
+      ]
+    },
+    {
+      "num": "10",
+      "title": "Эчү (To Drink)",
+      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "headers": [
+        "Зат аты",
+        "Хәзерге вакыт",
+        "Мисал"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "эчәм",
+          "Мин су эчәм."
+        ],
+        [
+          "Син",
+          "эчәсең",
+          "Син кофе эчәсеңме?"
+        ],
+        [
+          "Ул",
+          "эчә",
+          "Ул чәй эчә."
+        ],
+        [
+          "Без",
+          "эчәбез",
+          "Без сут эчәбез."
+        ],
+        [
+          "Сез",
+          "эчәсез",
+          "Сез нәрсә эчәсез?"
+        ],
+        [
+          "Алар",
+          "эчәләр",
+          "Алар су эчәләр."
+        ]
+      ],
+      "usage": [
+        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+      ]
+    }
+  ]
+}
