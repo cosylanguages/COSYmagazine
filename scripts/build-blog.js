@@ -124,19 +124,33 @@ function escapeHtml(value) {
 
 function parseFormattedText(text) {
   if (!text) return '';
+  let result = text;
   if (/^\s*<[a-zA-Z][\s\S]*>/i.test(text)) {
-    return text;
+    result = text;
+  } else if (marked && typeof marked.parseInline === 'function') {
+    result = marked.parseInline(text);
+  } else {
+    let html = escapeHtml(text);
+    html = html.replace(/&lt;code&gt;(.*?)&lt;\/code&gt;/g, '<code>$1</code>');
+    html = html.replace(/`(.*?)`/g, '<code>$1</code>');
+    html = html.replace(/\\\*/g, '&#42;');
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    result = html;
   }
-  if (marked && typeof marked.parseInline === 'function') {
-    return marked.parseInline(text);
-  }
-  let html = escapeHtml(text);
-  html = html.replace(/&lt;code&gt;(.*?)&lt;\/code&gt;/g, '<code>$1</code>');
-  html = html.replace(/`(.*?)`/g, '<code>$1</code>');
-  html = html.replace(/\\\*/g, '&#42;');
-  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-  return html;
+
+  // Ensure external links in formatted HTML text have target="_blank" rel="noopener"
+  result = result.replace(/<a\s+([^>]*href=["'](https?:\/\/[^"']+)["'][^>]*)>/gi, (match, p1, url) => {
+    if (!url.startsWith('https://cosylanguages.github.io/COSYblog/')) {
+      let extra = '';
+      if (!/target=/i.test(p1)) extra += ' target="_blank"';
+      if (!/rel=/i.test(p1)) extra += ' rel="noopener"';
+      return `<a ${p1}${extra}>`;
+    }
+    return match;
+  });
+
+  return result;
 }
 
 function getDocumentTitle(title) {
@@ -158,7 +172,11 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
-      return `<h${lvl} class="editorial-heading">${parseFormattedText(block.text)}</h${lvl}>`;
+      const textParsed = parseFormattedText(block.text);
+      // If heading text contains "Page X:", add id="page-X"
+      const pageMatch = block.text && block.text.match(/^Page\s+(\d+)\b/i);
+      const idAttr = pageMatch ? ` id="page-${pageMatch[1]}"` : '';
+      return `<h${lvl}${idAttr} class="editorial-heading">${textParsed}</h${lvl}>`;
     }
     case 'paragraph': {
       const parsedText = parseFormattedText(block.text);
@@ -277,9 +295,11 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
       return `<div class="format-quote-wall">${quotesHtml}</div>`;
     }
     case 'links': {
+      const isExt = block.url && (block.url.startsWith('http://') || block.url.startsWith('https://')) && !block.url.startsWith('https://cosylanguages.github.io/COSYblog/');
+      const extAttrs = isExt ? ' target="_blank" rel="noopener"' : '';
       return `
 <div class="gazette-link-block">
-  <a href="${escapeHtml(block.url)}" class="read-more-link">${parseFormattedText(block.label)} ↗</a>
+  <a href="${escapeHtml(block.url)}"${extAttrs} class="read-more-link">${parseFormattedText(block.label)} ↗</a>
 </div>`;
     }
     default:
@@ -604,7 +624,7 @@ async function buildBlog() {
         <header class="gazette-masthead">
             <div class="gazette-masthead-top">
                 <div class="gazette-masthead-left">
-                    <a href="https://cosylanguages.github.io/COSYlanguages/" class="gazette-home-link" title="COSYlanguages Home">🏡 Home</a>
+                    <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" class="gazette-home-link" title="COSYlanguages Home">🏡 Home</a>
                     <span class="gazette-link-sep">•</span>
                     <a href="index.html" class="gazette-back-link" data-i18n="blog.back_to_hub">${escapeHtml(backToHubText)}</a>
                 </div>
