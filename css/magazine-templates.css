@@ -316,13 +316,28 @@
 
 .gazette-article {
   line-height: 1.8;
-  font-size: var(--blog-text-base, 1.0625rem);
+  font-size: 1.0625rem; /* 17px */
+  font-family: var(--post-font-body, 'DM Sans', sans-serif);
 }
 
 .gazette-article p {
   margin-bottom: 1.35rem;
   overflow-wrap: anywhere;
   word-break: break-word;
+  line-height: 1.8;
+}
+
+.gazette-page-spread {
+  border-top: 3px double #d97706;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.gazette-page-spread:first-of-type,
+#page-1.gazette-page-spread {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .editorial-heading {
@@ -333,7 +348,39 @@
   line-height: 1.3;
 }
 
-h2.editorial-heading { font-size: var(--blog-text-2xl, 2rem); }
+h2.editorial-heading,
+.gazette-page-spread h2 {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-2xl, 2rem);
+  font-weight: 900;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 3px double #d97706;
+}
+
+.gazette-page-spread:first-of-type h2,
+#page-1 h2.editorial-heading {
+  margin-top: 1rem;
+  border-top: none;
+  padding-top: 0;
+}
+
+.parenthetical-gloss,
+.example-gloss,
+.gazette-article em {
+  font-family: var(--post-font-accent, 'Fraunces', Georgia, serif);
+  font-style: italic;
+}
+
+mark.example-chip {
+  background-color: #fef3c7;
+  color: #1e293b;
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+  font-weight: 600;
+  border: 1px solid #fde68a;
+  display: inline;
+}
 h3.editorial-heading { font-size: var(--blog-text-xl, 1.5rem); border-bottom: 2px solid var(--post-palette-accent, #0d9488); padding-bottom: 0.35rem; }
 h4.editorial-heading { font-size: var(--blog-text-lg, 1.25rem); color: var(--post-palette-accent, #0d9488); }
 
@@ -389,24 +436,30 @@ h4.editorial-heading { font-size: var(--blog-text-lg, 1.25rem); color: var(--pos
   color: var(--blog-ink-muted, #78716c);
 }
 
-/* Marginalia */
+/* Marginalia & Callout Cards */
 .gazette-marginalia {
-  background: var(--blog-paper-card, #ffffff);
-  border: 1px dashed var(--blog-border-delicate, #e7e0d6);
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+  border-left: 5px solid #d97706;
   border-radius: 8px;
   padding: 1.25rem;
   font-size: var(--blog-text-sm, 0.875rem);
-  color: var(--blog-ink-secondary, #44403c);
-  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.06));
+  color: #78350f;
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(217, 119, 6, 0.08));
   margin: 1.75rem 0;
 }
 
 .gazette-marginalia-title {
-  font-size: var(--blog-text-xs, 0.75rem);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 0.95rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--post-palette-accent, #0d9488);
+  letter-spacing: 0.08em;
+  color: #b45309;
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 /* Designed Phrase Comparisons & Upgrade Cards */

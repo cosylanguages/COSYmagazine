@@ -1692,7 +1692,9 @@ body.podcast-presentation-mode .flipbook-toolbar {
     .blog-issue-ribbon,
     .flipbook-toolbar,
     .founder-card-actions,
-    .page-audio-guide {
+    .page-audio-guide,
+    .language-switcher-bar,
+    .gazette-masthead-links {
         display: none !important;
     }
 
@@ -1703,7 +1705,8 @@ body.podcast-presentation-mode .flipbook-toolbar {
         line-height: 1.5 !important;
     }
 
-    .blog-wrapper {
+    .blog-wrapper,
+    .gazette-wrapper {
         max-width: 100% !important;
         padding: 0 !important;
         margin: 0 !important;
@@ -1711,6 +1714,83 @@ body.podcast-presentation-mode .flipbook-toolbar {
 
     .blog-layout {
         display: block !important;
+    }
+
+    /* Spread Pagination Rules */
+    .gazette-page-spread,
+    #page-1, #page-2, #page-3, #page-4, #page-5, #page-6, #page-7, #page-8, #page-9, #page-10, #page-11, #page-12 {
+        page-break-before: always !important;
+        break-before: page !important;
+    }
+
+    #page-1,
+    .gazette-page-spread:first-of-type {
+        page-break-before: avoid !important;
+        break-before: avoid !important;
+    }
+
+    /* Page-Break Safety */
+    table,
+    .gazette-editorial-table,
+    .instead-try-spread,
+    .gazette-quiz-card,
+    .gazette-pullquote,
+    .gazette-marginalia,
+    .phrase-upgrade-card,
+    .gazette-example-box,
+    .cosy-timeline,
+    .verb-map-container,
+    .cefr-roadmap-table,
+    .instead-try-row,
+    .quote-tile,
+    .podcast-deck-box {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Broadsheet Running Header & Folio Page Numbers */
+    @page {
+        margin: 20mm 15mm 20mm 15mm;
+        @top-center {
+            content: "COSYMAGAZINE • Vol. 2026.08 — Special Edition";
+            font-family: 'Fraunces', serif;
+            font-size: 9pt;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #1c1917;
+        }
+        @bottom-center {
+            content: "COSYMAGAZINE • Page " counter(page) " of " counter(pages);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 8pt;
+            color: #78716c;
+        }
+    }
+
+    .print-running-header {
+        display: block !important;
+        text-align: center;
+        font-family: var(--post-font-display, 'Fraunces', serif);
+        font-size: 9pt;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        border-bottom: 2px double #d97706;
+        padding-bottom: 6px;
+        margin-bottom: 16px;
+    }
+
+    .print-running-folio {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--post-font-body, 'DM Sans', sans-serif);
+        font-size: 8pt;
+        color: #78716c;
+        border-top: 1px solid #d97706;
+        padding-top: 6px;
+        margin-top: 16px;
     }
 
     .blog-header-title {
