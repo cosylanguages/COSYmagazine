@@ -98,7 +98,13 @@
                     rawChildren.push(...Array.from(p.children));
                 });
             } else {
-                rawChildren = Array.from(this.container.children);
+                Array.from(this.container.children).forEach(child => {
+                    if (child.classList && child.classList.contains('gazette-page-spread') && child.tagName.toLowerCase() === 'section') {
+                        rawChildren.push(...Array.from(child.children));
+                    } else {
+                        rawChildren.push(child);
+                    }
+                });
             }
 
             if (rawChildren.length === 0) return;
@@ -191,9 +197,12 @@
             this.container.innerHTML = '';
             filteredPagesData.forEach((group, idx) => {
                 const pageSection = document.createElement('section');
-                pageSection.className = 'flipbook-page';
-                pageSection.setAttribute('data-page', idx + 1);
-                pageSection.setAttribute('aria-label', `Page ${idx + 1} of ${filteredPagesData.length}`);
+                const pageNum = idx + 1;
+                pageSection.className = 'flipbook-page gazette-page-spread';
+                pageSection.id = `page-${pageNum}`;
+                pageSection.setAttribute('data-page', pageNum);
+                pageSection.setAttribute('aria-labelledby', `page-${pageNum}-heading`);
+                pageSection.setAttribute('aria-label', `Page ${pageNum} of ${filteredPagesData.length}`);
                 pageSection.setAttribute('tabindex', '-1');
                 group.forEach(el => pageSection.appendChild(el));
                 this.container.appendChild(pageSection);
