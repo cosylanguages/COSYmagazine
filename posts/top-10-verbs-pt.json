@@ -53,19 +53,565 @@
       "text": "Os 10 verbos fundamentais (Parte 1)"
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Ser / Estar (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em português, **ser** expressa identidade e características permanentes; **estar** expressa localização e estados temporários."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Ser",
+        "Estar"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "sou",
+          "estou"
+        ],
+        [
+          "Tu / Você",
+          "és / é",
+          "estás / está"
+        ],
+        [
+          "Ele / Ela",
+          "é",
+          "está"
+        ],
+        [
+          "Nós",
+          "somos",
+          "estamos"
+        ],
+        [
+          "Vós / Vocês",
+          "sois / são",
+          "estais / estão"
+        ],
+        [
+          "Eles / Elas",
+          "são",
+          "estão"
+        ]
+      ]
+    },
+    {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Ser / Estar:** Identidade e estado (*Sou estudante*, *Estou em casa*).",
-        "**2. Ter:** Posse e idade (*Tenho um livro*, *Tenho 25 anos*).",
-        "**3. Pensar:** Opiniões (*Penso que sim*).",
-        "**4. Saber / Conhecer:** Conhecimento (*Sei a resposta*).",
-        "**5. Gostar:** Preferências (*Gosto de café*).",
-        "**6. Querer / Gostaria:** Desejos (*Quero água*, *Gostaria de um chá*).",
-        "**7. Ir:** Movimento (*Vou trabalhar*).",
-        "**8. Poder:** Capacidade (*Posso ajudar?*).",
-        "**9. Comer:** Alimentação (*Comer uma maçã*).",
-        "**10. Beber:** Bebidas (*Beber água*)."
+        "**Ser:** 'Sou estudante', 'Ele é médico'.",
+        "**Estar:** 'Estou em casa', 'Como estás?'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Ter (To Have)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **ter** expressa posse, idade e relações familiares."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "tenho",
+          "Tenho um carro."
+        ],
+        [
+          "Tu / Você",
+          "tens / tem",
+          "Tens tempo?"
+        ],
+        [
+          "Ele / Ela",
+          "tem",
+          "Ela tem dois irmãos."
+        ],
+        [
+          "Nós",
+          "temos",
+          "Temos uma pergunta."
+        ],
+        [
+          "Vocês",
+          "têm",
+          "Vocês têm razão."
+        ],
+        [
+          "Eles / Elas",
+          "têm",
+          "Eles têm um cão."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Posse & Idade:** 'Tenho um livro', 'Tenho 25 anos'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Pensar (To Think)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **pensar** expressa opiniões e reflexões."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "penso",
+          "Penso que sim."
+        ],
+        [
+          "Tu / Você",
+          "pensas / pensa",
+          "O que pensas?"
+        ],
+        [
+          "Ele / Ela",
+          "pensa",
+          "Ele pensa no futuro."
+        ],
+        [
+          "Nós",
+          "pensamos",
+          "Pensamos o mesmo."
+        ],
+        [
+          "Vocês",
+          "pensam",
+          "O que pensam disto?"
+        ],
+        [
+          "Eles / Elas",
+          "pensam",
+          "Pensam no trabalho."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Opinião:** 'Penso que é uma boa ideia'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Saber / Conhecer (To Know)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Saber** usa-se para factos e capacidades. **Conhecer** para pessoas e lugares."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Saber",
+        "Conhecer"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "sei",
+          "conheço"
+        ],
+        [
+          "Tu / Você",
+          "sabes / sabe",
+          "conheces / conhece"
+        ],
+        [
+          "Ele / Ela",
+          "sabe",
+          "conhece"
+        ],
+        [
+          "Nós",
+          "sabemos",
+          "conhecemos"
+        ],
+        [
+          "Vocês",
+          "sabem",
+          "conhecem"
+        ],
+        [
+          "Eles / Elas",
+          "sabem",
+          "conhecem"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Saber:** 'Sei falar português'.",
+        "**Conhecer:** 'Conheço Lisboa'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Gostar / Amar (To Like / Love)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **gostar** usa-se com a preposição *de* (*gosto de*). **Amar** para sentimentos fortes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Gostar de",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "gosto de",
+          "Gosto de café."
+        ],
+        [
+          "Tu / Você",
+          "gostas / gosta de",
+          "Gostas de música?"
+        ],
+        [
+          "Ele / Ela",
+          "gosta de",
+          "Gosta de viajar."
+        ],
+        [
+          "Nós",
+          "gostamos de",
+          "Gostamos de desporto."
+        ],
+        [
+          "Vocês",
+          "gostam de",
+          "Gostam de cinema?"
+        ],
+        [
+          "Eles / Elas",
+          "gostam de",
+          "Gostam de ler."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gostos:** 'Gosto de aprender línguas'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Querer / Gostaria (To Want / Would Like)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **querer** expressa vontade. A forma **gostaria** é usada para pedidos corteses."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Querer",
+        "Gostaria (Cortês)"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "quero",
+          "gostaria"
+        ],
+        [
+          "Tu / Você",
+          "queres / quer",
+          "gostarias / gostaria"
+        ],
+        [
+          "Ele / Ela",
+          "quer",
+          "gostaria"
+        ],
+        [
+          "Nós",
+          "queremos",
+          "gostaríamos"
+        ],
+        [
+          "Vocês",
+          "querem",
+          "gostariam"
+        ],
+        [
+          "Eles / Elas",
+          "querem",
+          "gostariam"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Pedido cortês:** 'Gostaria de um café, por favor'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Ir / Futuro próximo (To Go)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **ir** indica deslocação e forma o futuro próximo (*ir + infinitivo*)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "vou",
+          "Vou trabalhar / Vou comer."
+        ],
+        [
+          "Tu / Você",
+          "vais / vai",
+          "Vais a casa?"
+        ],
+        [
+          "Ele / Ela",
+          "vai",
+          "Ele vai para Lisboa."
+        ],
+        [
+          "Nós",
+          "vamos",
+          "Vamos ao cinema."
+        ],
+        [
+          "Vocês",
+          "vão",
+          "Onde vão?"
+        ],
+        [
+          "Eles / Elas",
+          "vão",
+          "Eles vão estudar."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Futuro próximo:** 'Vou estudar português'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Poder (To Can / Be able to)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo modal **poder** expressa capacidade e permissão."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "posso",
+          "Posso ajudar."
+        ],
+        [
+          "Tu / Você",
+          "podes / pode",
+          "Podes vir hoje?"
+        ],
+        [
+          "Ele / Ela",
+          "pode",
+          "Ele pode entrar."
+        ],
+        [
+          "Nós",
+          "podemos",
+          "Podemos começar."
+        ],
+        [
+          "Vocês",
+          "podem",
+          "Podem repetir?"
+        ],
+        [
+          "Eles / Elas",
+          "podem",
+          "Podem falar."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Permissão:** 'Posso entrar?'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Comer (To Eat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **comer** refere-se às refeições e alimentação."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "como",
+          "Como uma maçã."
+        ],
+        [
+          "Tu / Você",
+          "comes / come",
+          "A que horas comes?"
+        ],
+        [
+          "Ele / Ela",
+          "come",
+          "Ele come ao almoço."
+        ],
+        [
+          "Nós",
+          "comemos",
+          "Comemos juntos."
+        ],
+        [
+          "Vocês",
+          "comem",
+          "Comem carne?"
+        ],
+        [
+          "Eles / Elas",
+          "comem",
+          "Comem no restaurante."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Refeições:** 'Bom apetite!'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Beber (To Drink)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo **beber** refere-se a bebidas e hidratação."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "bebo",
+          "Bebo água."
+        ],
+        [
+          "Tu / Você",
+          "bebes / bebe",
+          "Bebes café?"
+        ],
+        [
+          "Ele / Ela",
+          "bebe",
+          "Ele bebe chá."
+        ],
+        [
+          "Nós",
+          "bebemos",
+          "Bebemos sumo."
+        ],
+        [
+          "Vocês",
+          "bebem",
+          "O que bebem?"
+        ],
+        [
+          "Eles / Elas",
+          "bebem",
+          "Bebem água fresca."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bebidas:** 'Bebo um café de manhã'."
       ]
     },
     {

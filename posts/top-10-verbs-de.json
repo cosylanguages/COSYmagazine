@@ -53,19 +53,583 @@
       "text": "Die 10 Grundverben (Teil 1)"
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Sein (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **sein** drückt Identität, Beruf, Herkunft, Zustand und Ort aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "bin",
+          "Ich bin Student."
+        ],
+        [
+          "du",
+          "bist",
+          "Bist du fertig?"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "Er ist zu Hause."
+        ],
+        [
+          "wir",
+          "sind",
+          "Wir sind glücklich."
+        ],
+        [
+          "ihr",
+          "seid",
+          "Ihr seid pünktlich."
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "Sie sind sehr freundlich."
+        ]
+      ]
+    },
+    {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Sein:** Identität, Zustand und Ort.\n  • *Einfache Sätze:* 'Ich bin Student', 'Er ist zu Hause', 'Wir sind fertig'.\n  • *Phrasen:* 'pünktlich sein', 'einverstanden sein', 'bereit sein'.",
-        "**2. Haben:** Besitz, Alter und Zustände.\n  • *Einfache Sätze:* 'Ich habe ein Auto', 'Sie hat eine Schwester', 'Ich habe Hunger'.\n  • *Phrasen:* 'Hunger/Durst haben', 'Zeit haben', 'Glück haben'.",
-        "**3. Denken:** Meinungen und Gedanken.\n  • *Einfache Sätze:* 'Ich denke schon', 'Was denkst du darüber?', 'Ich denke an dich'.\n  • *Phrasen:* 'denken an', 'nachdenken', 'meiner Meinung nach'.",
-        "**4. Wissen / Kennen:** Faktenwissen vs. Personen/Orte.\n  • *Einfache Sätze:* 'Ich weiß die Antwort', 'Ich kenne diese Stadt'.\n  • *Phrasen:* 'Bescheid wissen', 'kennenlernen', 'soweit ich weiß'.",
-        "**5. Mögen / Gefallen:** Vorlieben und Geschmack.\n  • *Einfache Sätze:* 'Ich mag Kaffee', 'Das Buch gefällt mir'.\n  • *Phrasen:* 'sehr mögen', 'Gefallen finden', 'wie du magst'.",
-        "**6. Wollen / Ich möchte:** Wünsche und Höflichkeit.\n  • *Einfache Sätze:* 'Ich will Wasser trinken', 'Ich möchte einen Kaffee bitte'.\n  • *Phrasen:* 'möchte bestellen', 'wenn du willst', 'willkommen'.",
-        "**7. Gehen / Werden:** Bewegung und Zukunftsvorhaben.\n  • *Einfache Sätze:* 'Ich gehe zur Arbeit', 'Sie geht nach Hause', 'Wir werden essen'.\n  • *Phrasen:* 'Wie geht's?', 'zu Fuß gehen', 'einkaufen gehen'.",
-        "**8. Können:** Fähigkeit und Erlaubnis.\n  • *Einfache Sätze:* 'Ich kann Deutsch sprechen', 'Kannst du mir helfen?'.\n  • *Phrasen:* 'kann sein', 'so gut ich kann', 'was kann ich tun?'.",
-        "**9. Essen:** Mahlzeiten und Nahrung.\n  • *Einfache Sätze:* 'Ich esse einen Apfel', 'Was wollen wir essen?'.\n  • *Phrasen:* 'Guten Appetit!', 'gesund essen', 'etwas zu essen'.",
-        "**10. Trinken:** Getränke.\n  • *Einfache Sätze:* 'Ich trinke Tee', 'Möchten Sie etwas trinken?'.\n  • *Phrasen:* 'etwas zu trinken', 'Kaffee trinken', 'Prost!'."
+        "**Identität & Beruf:** 'Ich bin Paul', 'Sie ist Ärztin'.",
+        "**Ort & Zustand:** 'Wir sind in Berlin', 'Ich bin müde'.",
+        "**Ausdrücke:** 'pünktlich sein', 'bereit sein', 'einverstanden sein'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Haben (To Have)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **haben** drückt Besitz, Alter, Familie und Empfindungen aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "habe",
+          "Ich habe ein Auto."
+        ],
+        [
+          "du",
+          "hast",
+          "Hast du Zeit?"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "Sie hat zwei Brüder."
+        ],
+        [
+          "wir",
+          "haben",
+          "Wir haben eine Frage."
+        ],
+        [
+          "ihr",
+          "habt",
+          "Habt ihr Hunger?"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "Sie haben einen Hund."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Besitz & Alter:** 'Ich habe ein Buch', 'Ich habe Zeit'.",
+        "**Empfindungen:** 'Ich habe Hunger', 'Ich habe Durst', 'Ich habe Angst'.",
+        "**Ausdrücke:** 'Lust haben', 'Recht haben', 'Zeit haben'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Denken (To Think)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **denken** drückt Meinungen, Überlegungen und Gedanken aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "denke",
+          "Ich denke schon."
+        ],
+        [
+          "du",
+          "denkst",
+          "Was denkst du?"
+        ],
+        [
+          "er / sie / es",
+          "denkt",
+          "Er denkt an die Zukunft."
+        ],
+        [
+          "wir",
+          "denken",
+          "Wir denken das Gleiche."
+        ],
+        [
+          "ihr",
+          "denkt",
+          "Was denkt ihr darüber?"
+        ],
+        [
+          "sie / Sie",
+          "denken",
+          "Sie denken nach."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Meinung:** 'Ich denke, das ist eine gute Idee'.",
+        "**Gedanken:** 'Ich denke an meine Familie'.",
+        "**Ausdrücke:** 'nachdenken über', 'denken an', 'anders denken'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Wissen / Kennen (To Know)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Wissen** nutzt man für Fakten und Wissen (*ich weiß*). **Kennen** nutzt man für Personen, Orte und Dinge."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Wissen",
+        "Kennen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "weiß",
+          "kenne"
+        ],
+        [
+          "du",
+          "weißt",
+          "kennst"
+        ],
+        [
+          "er / sie / es",
+          "weiß",
+          "kennt"
+        ],
+        [
+          "wir",
+          "wissen",
+          "kennen"
+        ],
+        [
+          "ihr",
+          "wisst",
+          "kennt"
+        ],
+        [
+          "sie / Sie",
+          "wissen",
+          "kennen"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Wissen (Fakten):** 'Ich weiß die Antwort', 'Ich weiß, wo das ist'.",
+        "**Kennen (Personen/Orte):** 'Ich kenne Berlin', 'Kennst du diesen Mann?'.",
+        "**Ausdrücke:** 'Bescheid wissen', 'kennenlernen'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Mögen / Gefallen (To Like)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **mögen** und die Wendung **gefallen** drücken Vorlieben und Geschmack aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Mögen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mag",
+          "Ich mag Kaffee."
+        ],
+        [
+          "du",
+          "magst",
+          "Magst du Musik?"
+        ],
+        [
+          "er / sie / es",
+          "mag",
+          "Er mag Sport."
+        ],
+        [
+          "wir",
+          "mögen",
+          "Wir mögen Reisen."
+        ],
+        [
+          "ihr",
+          "mögt",
+          "Mögt ihr Schokolade?"
+        ],
+        [
+          "sie / Sie",
+          "mögen",
+          "Sie mögen Filme."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Vorlieben:** 'Ich mag Tee', 'Das gefällt mir sehr gut'.",
+        "**Wunsch:** 'ich möchte' (Höflicher Wunsch).",
+        "**Ausdrücke:** 'gern haben', 'Gefallen finden'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Wollen / Möchte (To Want / Would Like)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Wollen** drückt festen Absicht aus. **Möchte** ist die höfliche Form für Wünsche."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Wollen",
+        "Möchte (Höflich)"
+      ],
+      "rows": [
+        [
+          "ich",
+          "will",
+          "möchte"
+        ],
+        [
+          "du",
+          "willst",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "will",
+          "möchte"
+        ],
+        [
+          "wir",
+          "wollen",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "wollt",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "wollen",
+          "möchten"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Fester Wille:** 'Ich will Deutsch lernen'.",
+        "**Höfliche Bitte:** 'Ich möchte einen Kaffee, bitte'.",
+        "**Ausdrücke:** 'willkommen sein', 'was willst du damit sagen?'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Gehen (To Go)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **gehen** drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "gehe",
+          "Ich gehe nach Hause."
+        ],
+        [
+          "du",
+          "gehst",
+          "Wohin gehst du?"
+        ],
+        [
+          "er / sie / es",
+          "geht",
+          "Er geht zur Arbeit."
+        ],
+        [
+          "wir",
+          "gehen",
+          "Wir gehen ins Kino."
+        ],
+        [
+          "ihr",
+          "geht",
+          "Geht ihr spazieren?"
+        ],
+        [
+          "sie / Sie",
+          "gehen",
+          "Sie gehen einkaufen."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bewegung:** 'Ich gehe in die Schule', 'Wir gehen spazieren'.",
+        "**Befinden:** 'Wie geht es Ihnen? / Wie geht's?'.",
+        "**Ausdrücke:** 'spazieren gehen', 'einkaufen gehen'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Können (To Can / Be able to)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Modalverb **können** drückt Fähigkeit, Möglichkeit oder Erlaubnis aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "kann",
+          "Ich kann Deutsch sprechen."
+        ],
+        [
+          "du",
+          "kannst",
+          "Kannst du mir helfen?"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "Er kann gut schwimmen."
+        ],
+        [
+          "wir",
+          "können",
+          "Wir können anfangen."
+        ],
+        [
+          "ihr",
+          "könnt",
+          "Könnt ihr kommen?"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "Sie können hier sitzen."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Fähigkeit:** 'Ich kann Auto fahren', 'Kannst du Englisch?'.",
+        "**Möglichkeit:** 'Das kann sein', 'Wir können später sprechen'.",
+        "**Ausdrücke:** 'Kann sein', 'so gut ich kann'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Essen (To Eat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **essen** wird für Mahlzeiten, Speisen und Ernährung verwendet."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "esse",
+          "Ich esse einen Apfel."
+        ],
+        [
+          "du",
+          "isst",
+          "Was isst du gern?"
+        ],
+        [
+          "er / sie / es",
+          "isst",
+          "Er isst zu Mittag."
+        ],
+        [
+          "wir",
+          "essen",
+          "Wir essen zusammen."
+        ],
+        [
+          "ihr",
+          "esst",
+          "Esst ihr Fleisch?"
+        ],
+        [
+          "sie / Sie",
+          "essen",
+          "Sie essen im Restaurant."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Mahlzeiten:** 'Ich esse Frühstück', 'Wir essen Brot'.",
+        "**Vokalwechsel:** Beachten Sie den Wechsel e → i (*du isst, er isst*).",
+        "**Ausdrücke:** 'Guten Appetit!', 'essen gehen'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Trinken (To Drink)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das Verb **trinken** drückt das Trinken von Getränken und Hydratation aus."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronomen",
+        "Präsens",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "ich",
+          "trinke",
+          "Ich trinke Wasser."
+        ],
+        [
+          "du",
+          "trinkst",
+          "Trinkst du Kaffee?"
+        ],
+        [
+          "er / sie / es",
+          "trinkt",
+          "Er trinkt Tee."
+        ],
+        [
+          "wir",
+          "trinken",
+          "Wir trinken Saft."
+        ],
+        [
+          "ihr",
+          "trinkt",
+          "Was trinkt ihr?"
+        ],
+        [
+          "sie / Sie",
+          "trinken",
+          "Sie trinken ein Glas Wasser."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Getränke:** 'Ich trinke morgens Kaffee', 'Viel Wasser trinken'.",
+        "**Geselligkeit:** 'Möchten Sie etwas trinken?'.",
+        "**Ausdrücke:** 'Prost!', 'etwas zu trinken haben'."
       ]
     },
     {
