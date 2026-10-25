@@ -599,6 +599,43 @@ body.theme-dark #cosy-nav {
   padding-right: 1.5rem;
 }
 
+/* ── COSY Editorial Callout Boxes ────────────────── */
+.cosy-callout {
+  background: var(--blog-paper-card, var(--warm-white, #fdfbf7));
+  border: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.18));
+  border-left: 5px solid var(--post-palette-accent, var(--teal, #0d9488));
+  border-radius: 10px;
+  padding: 1.15rem 1.35rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--blog-ink-primary, var(--ink, #2a2a2a));
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.cosy-callout strong {
+  color: var(--post-palette-accent, var(--teal, #0d9488));
+}
+
+html[data-theme="dark"] .cosy-callout,
+body.theme-dark .cosy-callout {
+  background: var(--blog-paper-card, #221f1d);
+  border-color: var(--blog-border-delicate, #3c3836);
+  border-left-color: var(--post-palette-accent, #2dd4bf);
+  color: var(--blog-ink-primary, #f5f5f4);
+}
+
+@media (max-width: 768px) {
+  .cosy-callout {
+    padding: 0.9rem 1rem;
+    margin: 1.15rem 0;
+    font-size: 0.88rem;
+  }
+}
+
 /* Privacy & Placement Quiz Clean CSS Classes */
 .privacy-sub-desc {
   font-size: 0.9rem;
