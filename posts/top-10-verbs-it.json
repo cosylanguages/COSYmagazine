@@ -11,16 +11,16 @@
     "title": "Get ready for school"
   },
   "date": "2026-03-01",
-  "title": "I 10 verbi essenziali in italiano per principianti (A0–A1 / A2)",
-  "kicker": "GUIDA ALL'ITALIANO — PARTE 1 DI 2",
-  "dek": "Impara i primi 10 verbi fondamentali della lingua italiana (essere, avere, pensare, sapere/conoscere, piacere, volere/vorrei, andare/stare per, potere, mangiare, bere). Coniugazioni consultabili su COSYtools.",
+  "title": "I 10 verbi essenziali in italiano per principianti, parte 1 (A0–A1 / A2)",
+  "kicker": "GUIDA ALL’ITALIANO — PARTE 1 DI 2",
+  "dek": "Essere, avere, pensare, sapere e conoscere, piacere, volere, andare, potere, mangiare e bere: dieci verbi, dieci lezioni complete. Forme, frasi utili, schemi chiari, errori frequenti e quiz, per principianti (A0–A1) con un passo in più per l’A2.",
   "tags": [
     "Verbs",
     "Italian",
     "A0-A1",
     "14Languages"
   ],
-  "readingTime": 10,
+  "readingTime": 45,
   "podcast": {
     "episode": 2,
     "audioUrl": null
@@ -44,110 +44,2753 @@
   },
   "blocks": [
     {
+      "type": "heading",
+      "level": 2,
+      "text": "Per cominciare: dieci verbi, una cassetta degli attrezzi",
+      "id": "start"
+    },
+    {
       "type": "paragraph",
-      "text": "Benvenuti alla Parte 1 della nostra guida in 2 parti sui verbi essenziali in italiano per studenti di livello A0–A1 e A2! Impara frasi utili ed espressioni pratiche per comunicare ogni giorno. (Vedi anche la [Parte 2](top-10-verbs-part-2-it.html)). Le tabelle di coniugazione complete sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Con dieci verbi puoi già fare molte cose in italiano. Puoi dire chi sei (**essere**), che cosa hai (**avere**), che cosa pensi e sai (**pensare, sapere, conoscere**), che cosa ti piace e che cosa vuoi (**piacere, volere**), dove vai (**andare**), che cosa puoi fare (**potere**), e ordinare da **mangiare** e da **bere**."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ogni verbo ha la sua doppia pagina: le forme, le frasi utili, gli errori frequenti e un piccolo quiz. I dieci verbi sono quelli dell’episodio del podcast. Il lettore è sopra le pagine appena l’episodio è disponibile: puoi ascoltare prima e leggere dopo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Tutte le frasi di questo numero si costruiscono allo stesso modo</p><div class=\"lx-engine-row\">\n       <div><span class=\"lx-label\">Chi?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">io</li><li class=\"lx-chip \">tu</li><li class=\"lx-chip \">lui</li><li class=\"lx-chip \">lei</li><li class=\"lx-chip \">noi</li><li class=\"lx-chip \">voi</li><li class=\"lx-chip \">loro</li></ul><p class=\"lx-ex\" style=\"margin:.5rem 0 0;font-size:.85rem\">In italiano spesso non si dice: <b>sono</b> stanco = <i>io</i> sono stanco.</p></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">Quale verbo?</span><ul class=\"lx-chips\"><li class=\"lx-chip lx-chip-verb\">essere</li><li class=\"lx-chip lx-chip-verb\">avere</li><li class=\"lx-chip lx-chip-verb\">pensare</li><li class=\"lx-chip lx-chip-verb\">sapere</li><li class=\"lx-chip lx-chip-verb\">conoscere</li><li class=\"lx-chip lx-chip-verb\">piacere</li><li class=\"lx-chip lx-chip-verb\">volere</li><li class=\"lx-chip lx-chip-verb\">andare</li><li class=\"lx-chip lx-chip-verb\">potere</li><li class=\"lx-chip lx-chip-verb\">mangiare</li><li class=\"lx-chip lx-chip-verb\">bere</li></ul></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">Che cosa?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">insegnante</li><li class=\"lx-chip \">stanco</li><li class=\"lx-chip \">una macchina</li><li class=\"lx-chip \">che è buono</li><li class=\"lx-chip \">la risposta</li><li class=\"lx-chip \">il caffè</li><li class=\"lx-chip \">imparare</li><li class=\"lx-chip \">a Roma</li><li class=\"lx-chip \">nuotare</li><li class=\"lx-chip \">il pane</li></ul></div>\n     </div><figcaption class=\"lx-cap\">Cambia una parte e ottieni una frase nuova: <em>Mi piace il caffè. Vuole un caffè. Possono bere il caffè.</em></figcaption></figure>",
+      "say": "Tutte le frasi si costruiscono allo stesso modo: chi, più un verbo, più che cosa. In italiano spesso il pronome non si dice. Per esempio: mi piace il caffè. Vuole un caffè. Possono bere il caffè."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "I 10 verbi principali (Parte 1)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Essere:** Identità, stato e luogo.\n  • *Frasi semplici:* 'Sono uno studente', 'Lui è a casa', 'Siamo pronti'.\n  • *Frasi utili:* 'essere in orario', 'essere d'accordo', 'essere felice'.",
-        "**2. Avere:** Possesso, età e sensazioni.\n  • *Frasi semplici:* 'Ho una macchina', 'Ho 25 anni', 'Ho fame'.\n  • *Frasi utili:* 'avere bisogno di', 'avere voglia di', 'avere fretta'.",
-        "**3. Pensare:** Opinioni e pensieri.\n  • *Frasi semplici:* 'Penso di sì', 'Che cosa ne pensi?', 'Penso a te'.\n  • *Frasi utili:* 'pensare a', 'pensarci sopra', 'pensare bene'.",
-        "**4. Sapere / Conoscere:** Fatti, abilità e persone.\n  • *Frasi semplici:* 'So parlare italiano', 'Conosco questa città'.\n  • *Frasi utili:* 'fai sapere', 'per quanto ne so', 'conoscere gente'.",
-        "**5. Piacere:** Preferenze e gusti.\n  • *Frasi semplici:* 'Mi piace il caffè', 'Mi piace viaggiare'.\n  • *Frasi utili:* 'mi piace molto', 'mi piacerebbe', 'ti piace?'.",
-        "**6. Volere / Vorrei:** Desideri e cortesia.\n  • *Frasi semplici:* 'Voglio un bicchiere d'acqua', 'Vorrei prenotare un tavolo'.\n  • *Frasi utili:* 'vorrei un caffè', 'se vuoi', 'voler dire'.",
-        "**7. Andare / Stare per:** Movimento e intenzioni.\n  • *Frasi semplici:* 'Vado al lavoro', 'Lei va a Roma', 'Stiamo per mangiare'.\n  • *Frasi utili:* 'come va?', 'andare a piedi', 'andare in vacanza'.",
-        "**8. Potere:** Capacità e permesso.\n  • *Frasi semplici:* 'Posso aiutarti?', 'Puoi venire?'.\n  • *Frasi utili:* 'se possibile', 'può darsi', 'fai come puoi'.",
-        "**9. Mangiare:** Pasti e cibo.\n  • *Frasi semplici:* 'Mangio una mela', 'Cosa mangiamo stasera?'.\n  • *Frasi utili:* 'buon appetito', 'dare da mangiare', 'mangiare sano'.",
-        "**10. Bere:** Bevande.\n  • *Frasi semplici:* 'Bevo un tè', 'Vuoi qualcosa da bere?'.\n  • *Frasi utili:* 'qualcosa da bere', 'bere un caffè', 'bere alla salute'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tabella comparativa dei verbi"
+      "text": "Trova il tuo livello"
     },
     {
       "type": "paragraph",
-      "text": "Confronto dei verbi essenziali nelle famiglie linguistiche:"
+      "text": "Il cuore di ogni doppia pagina è di livello **A0–A1**: quello che serve imparare per primo. I punti segnati **A2** vanno un po’ più in là. Leggili quando il resto ti sembra facile."
     },
     {
       "type": "table",
       "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
+        "Verbo",
+        "Cuore A0–A1",
+        "Un passo in più (A2)"
       ],
       "rows": [
         [
-          "Be / Exist",
-          "être / essere / ser, estar / ser, estar",
-          "be / sein",
-          "быть / είναι / bezañ / լինել",
-          "булу / булыу / пуласси",
-          "ყოფნა (qopna)"
+          "**essere** *(to be)*",
+          "sono, sei, è…; *non* + verbo; *c’è / ci sono*; domande con la voce",
+          "*stare* per «come stai?»; l’accordo degli aggettivi"
         ],
         [
-          "Have / Possess",
-          "avoir / avere / tener / ter",
-          "have / haben",
-          "иметь (у меня есть) / έχω / kaout / ունենալ",
-          "бар (минем бар) / бар / пур",
-          "ქոնա / ყოლა"
+          "**avere** *(to have)*",
+          "possesso, famiglia, età, *ho fame*; *non ho tempo*",
+          "*ne* (*ne ho due*); *avere bisogno di*, *avere voglia di*"
         ],
         [
-          "Do / Make",
-          "faire / fare / hacer / fazer",
-          "do, make / machen, tun",
-          "делать / κάνω / ober / անել",
-          "эшләү / эшләү / тăвасси",
-          "կետება (keteba)"
+          "**pensare** *(to think)*",
+          "*secondo me …*; *penso di sì / di no*; *pensare a*",
+          "*penso di* + infinito; *mi sembra*"
         ],
         [
-          "Go",
-          "aller / andare / ir / ir",
-          "go / gehen",
-          "идти, ехать / πηγαίνω / mont / գնալ",
-          "бару / барыу / кайни",
-          "წასვლა (tsasvla)"
+          "**sapere / conoscere** *(to know)*",
+          "*lo so*, *non lo so*; *sapere* o *conoscere*?",
+          "*Sai dove abita?*; *la conosco*"
         ],
         [
-          "See / Look",
-          "voir, regarder / vedere, guardare",
-          "see, look / sehen, schauen",
-          "видеть, смотреть / βλέπω / gwelout / տեսնել",
-          "күрү, карау / күреү, ҡарау / курасси",
-          "ნახვა, ყურება"
+          "**piacere** *(to like)*",
+          "*mi piace il caffè*; *mi piacciono i gatti*; *anche a me*",
+          "*Com’è?*; *mi è piaciuto*"
+        ],
+        [
+          "**volere** *(to want)*",
+          "*voglio*; *vorrei, per favore*; *volere* + infinito",
+          "*volentieri*; *mi piacerebbe*"
+        ],
+        [
+          "**andare** *(to go)*",
+          "*a / in / da*; *in autobus, a piedi*",
+          "*sto per*; *sono andato/a*; futuro semplice"
+        ],
+        [
+          "**potere** *(can)*",
+          "possibilità, permesso, richiesta; *non posso*",
+          "*potere* o *sapere*?; *potrei*"
+        ],
+        [
+          "**mangiare / bere** *(to eat / to drink)*",
+          "*mangio pane*; *non mangio carne*; *un bicchiere d’acqua*",
+          "*sto mangiando*; *ho mangiato, ho bevuto*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">Vai direttamente a un verbo</h3><div class=\"verb-map-grid\">\n    <a href=\"#verb-be\" class=\"verb-node-card\"><strong>1 · essere</strong> — to be: chi, come, dove</a>\n    <a href=\"#verb-have\" class=\"verb-node-card\"><strong>2 · avere</strong> — to have: cose, famiglia, età, fame</a>\n    <a href=\"#verb-think\" class=\"verb-node-card\"><strong>3 · pensare</strong> — to think: opinioni e idee</a>\n    <a href=\"#verb-know\" class=\"verb-node-card\"><strong>4 · sapere / conoscere</strong> — to know</a>\n    <a href=\"#verb-like\" class=\"verb-node-card\"><strong>5 · piacere</strong> — to like: gusti e preferenze</a>\n    <a href=\"#verb-want\" class=\"verb-node-card\"><strong>6 · volere</strong> — to want: desideri, richieste cortesi</a>\n    <a href=\"#verb-go\" class=\"verb-node-card\"><strong>7 · andare</strong> — to go: luoghi e progetti</a>\n    <a href=\"#verb-can\" class=\"verb-node-card\"><strong>8 · potere</strong> — can: possibilità, permesso, richiesta</a>\n    <a href=\"#verb-eat\" class=\"verb-node-card\"><strong>9 · mangiare</strong> — to eat: pasti e cibo</a>\n    <a href=\"#verb-drink\" class=\"verb-node-card\"><strong>10 · bere</strong> — to drink: bevande e ordinazioni</a>\n    <a href=\"#verb-together\" class=\"verb-node-card\"><strong>Tutto insieme</strong> — i dieci verbi in una pagina</a>\n  </div></div>",
+      "say": "Vai direttamente a un verbo: essere, avere, pensare, sapere e conoscere, piacere, volere, andare, potere, mangiare, bere, oppure all’ultima pagina dove i dieci verbi sono riuniti."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><strong>Come usare questo numero</strong><p>1. Ascolta l’episodio una volta. 2. Leggi una doppia pagina. 3. Ripeti gli esempi <strong>ad alta voce</strong>. 4. Fai il quiz. Dieci minuti al giorno bastano.</p></div>",
+      "say": "Come usare questo numero 1. Ascolta l’episodio una volta. 2. Leggi una doppia pagina. 3. Ripeti gli esempi ad alta voce . 4. Fai il quiz. Dieci minuti al giorno bastano."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 1 — essere",
+      "id": "verb-be"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Essere** serve a dire chi sei, come sei, dove sei e come sono le cose. Al presente ha sei forme. Non ha bisogno di aiuto: per dire «no» si mette **non** prima del verbo; per fare una domanda basta far salire la voce."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">sono</mark><small>/ˈsɔ.no/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">sei</mark></div><div class=\"lx-cell s2\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">è</mark><small>con l’accento: <i>è</i> (is) ≠ <i>e</i> (and)</small></div><div class=\"lx-cell s3\"><b>noi</b> <mark class=\"lx-hl\">siamo</mark></div><div class=\"lx-cell s3\"><b>voi</b> <mark class=\"lx-hl\">siete</mark></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">sono</mark><small>uguale a <i>io sono</i></small></div></div></figure>",
+      "say": "Le forme di essere al presente: io sono, tu sei, lui, lei, Lei è, noi siamo, voi siete, loro sono."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Persona",
+        "Forma",
+        "Esempio",
+        "In English"
+      ],
+      "rows": [
+        [
+          "io",
+          "sono",
+          "Sono stanco.",
+          "I am tired."
+        ],
+        [
+          "tu",
+          "sei",
+          "Sei in ritardo.",
+          "You are late."
+        ],
+        [
+          "lui / lei",
+          "è",
+          "Lei è a casa.",
+          "She is at home."
+        ],
+        [
+          "noi",
+          "siamo",
+          "Siamo pronti.",
+          "We are ready."
+        ],
+        [
+          "voi",
+          "siete",
+          "Siete studenti.",
+          "You are students."
+        ],
+        [
+          "loro",
+          "sono",
+          "Sono francesi.",
+          "They are French."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Tu, Lei o voi?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤝</span><span><b>tu</b>: una persona</span></div><p>famiglia, amici, bambini, giovani, colleghi</p><p class=\"lx-ex\">Sei di Roma?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎩</span><span><b>Lei</b>: una persona</span></div><p>una persona che non conosci, un adulto, un cliente, un professore. Si usa la forma di <i>lui / lei</i>.</p><p class=\"lx-ex\">Lei è di Roma?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">👥</span><span><b>voi</b>: più persone</span></div><p>sempre <em>voi</em>, anche tra amici</p><p class=\"lx-ex\">Siete pronti?</p></div>\n     </div><figcaption class=\"lx-cap\">Per «tu» formale si scrive <em>Lei</em> con la maiuscola e il verbo è alla terza persona: <em>Lei è</em>, <em>Lei ha</em>. Nel dubbio, usa <em>Lei</em>: è sempre cortese.</figcaption></figure>",
+      "say": "Tu, Lei o voi? Tu, per una persona che conosci bene: famiglia, amici, bambini. Lei, per una persona che non conosci, con la forma di lui e lei. Voi, per più persone. Nel dubbio, usa Lei: è sempre cortese."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Che cosa si può dire con essere"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Modello",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Chi o che cosa",
+          "essere + nome",
+          "**Sono** Damian. / **Questo è** mio fratello. / **Sono** i miei amici."
+        ],
+        [
+          "Una professione",
+          "essere + professione, di solito **senza articolo**",
+          "**Sono** insegnante. / Lei **è** infermiera."
+        ],
+        [
+          "La nazionalità, l’origine",
+          "essere + nazionalità / **di** + città",
+          "**Sono** italiano. / **Siamo** di Roma."
+        ],
+        [
+          "Com’è qualcuno",
+          "essere + aggettivo",
+          "Lui **è** alto. / Lei **è** stanca. / La zuppa **è** calda."
+        ],
+        [
+          "Dov’è qualcuno",
+          "essere + **a / in** + luogo",
+          "Lei **è** a casa. / **Siamo** in Italia."
+        ],
+        [
+          "L’ora",
+          "**Sono le** + ore / **È** l’una",
+          "**Sono le** nove. / **È** mezzogiorno. / **È** l’una."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Tre trappole con essere</strong><p><strong>1. L’età non usa essere:</strong> <em>Ho 20 anni.</em> Vedi il verbo <em>avere</em>.</p><p><strong>2. Il tempo atmosferico usa <em>fare</em>:</strong> <em>Fa freddo. Fa caldo.</em> (non <s>È freddo</s> per il tempo). Si dice <em>La zuppa è fredda</em> per una cosa.</p><p><strong>3. «Come stai?» usa <em>stare</em>:</strong> <em>Come stai? — Sto bene, grazie.</em> (non <s>Come sei?</s>).</p></div>",
+      "say": "Tre trappole con essere 1. L’età non usa essere: Ho 20 anni. Vedi il verbo avere . 2. Il tempo atmosferico usa fare: Fa freddo. Fa caldo. (non È freddo per il tempo). Si dice La zuppa è fredda per una cosa. 3. «Come stai?» usa stare: Come stai? — Sto bene, grazie. (non Come sei? )."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gli aggettivi cambiano"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con **essere**, l’aggettivo cambia secondo la persona: *-o* per il maschile, *-a* per il femminile, *-i* e *-e* per il plurale. Gli aggettivi in *-e* hanno una sola forma per maschile e femminile."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Maschile",
+        "Femminile",
+        "Plurale (m. / f.)",
+        "In English"
+      ],
+      "rows": [
+        [
+          "alto",
+          "alta",
+          "alti / alte",
+          "tall"
+        ],
+        [
+          "piccolo",
+          "piccola",
+          "piccoli / piccole",
+          "small"
+        ],
+        [
+          "contento",
+          "contenta",
+          "contenti / contente",
+          "happy"
+        ],
+        [
+          "stanco",
+          "stanca",
+          "stan**chi** / stan**che**",
+          "tired *(attenzione: la h)*"
+        ],
+        [
+          "francese",
+          "francese",
+          "francesi / francesi",
+          "French *(uguale al femminile)*"
+        ],
+        [
+          "simpatico",
+          "simpatica",
+          "simpati**ci** / simpati**che**",
+          "nice"
         ]
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Strutture grammaticali per principianti (A0–A1 / A2)"
+      "text": "Dire «no»: non + verbo"
     },
     {
       "type": "paragraph",
-      "text": "• **Frasi semplici:** Soggetto + Verbo + Oggetto.\n• **Modali e tempo futuro:** Uso di 'andare', 'stare per' e 'potere/dovere'.\n• **Coniugazioni verbali:** Consulta le tabelle dei tempi verbali su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La negazione è facile</p><div class=\"lx-neg\"><span class=\"lx-chip lx-chip-hot\">non</span><span class=\"lx-plus\">+</span><span class=\"lx-chip lx-chip-verb\">verbo</span></div>\n     <ul class=\"lx-chips\" style=\"justify-content:center\"><li class=\"lx-chip\"><b>Non</b> sono stanco.</li><li class=\"lx-chip\"><b>Non</b> sei solo.</li><li class=\"lx-chip\"><b>Non</b> è qui.</li></ul><figcaption class=\"lx-cap\"><em>Non</em> va <strong>sempre prima</strong> del verbo. Non c’è altro da aggiungere. Con parole come <em>niente, mai, nessuno</em> si usa anche <em>non</em>: <em>Non so niente.</em></figcaption></figure>",
+      "say": "La negazione è facile: non, più il verbo. Non sono stanco. Non sei solo. Non è qui. Non va sempre prima del verbo. Con parole come niente, mai, nessuno si usa anche non: non so niente."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratica e coniugazione"
+      "text": "Fare una domanda"
     },
     {
       "type": "paragraph",
-      "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "In italiano la domanda ha **lo stesso ordine** della frase: cambia solo l’intonazione (la voce sale). Non serve nessuna parola in più."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Frase",
+        "Domanda",
+        "Risposte"
+      ],
+      "rows": [
+        [
+          "Sei studente.",
+          "Sei studente?",
+          "Sì, sono studente. / No, non sono studente."
+        ],
+        [
+          "Lei è a casa.",
+          "Lei è a casa?",
+          "Sì, è a casa. / No, non è a casa."
+        ],
+        [
+          "Siete pronti.",
+          "Siete pronti?",
+          "Sì, siamo pronti. / No, non siamo pronti."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le parole interrogative con essere"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parola",
+        "Chiede…",
+        "Domanda → risposta"
+      ],
+      "rows": [
+        [
+          "Chi",
+          "una persona",
+          "Chi è? — È mia sorella."
+        ],
+        [
+          "Dove",
+          "un luogo",
+          "Dove sei? — Sono a casa. / **Dov’è** la stazione? — È lì."
+        ],
+        [
+          "Quando",
+          "un momento",
+          "Quando è il tuo compleanno? — È a maggio."
+        ],
+        [
+          "Perché",
+          "una ragione",
+          "Perché sei in ritardo? — Perché l’autobus è in ritardo."
+        ],
+        [
+          "Come",
+          "il modo, com’è",
+          "**Com’è** il tuo insegnante? — È simpatico."
+        ],
+        [
+          "Quanto",
+          "il prezzo",
+          "**Quant’è?** — Sono venti euro."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "C’è e ci sono"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per dire *there is* e *there are* si usa **ci** + **essere**: **c’è** (uno) e **ci sono** (più di uno)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Uno",
+        "Più di uno"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "**C’è** un gatto in giardino.",
+          "**Ci sono** due sedie in cucina."
+        ],
+        [
+          "**−**",
+          "**Non c’è** un gatto.",
+          "**Non ci sono** sedie."
+        ],
+        [
+          "**?**",
+          "**C’è** una banca qui vicino?",
+          "**Ci sono** negozi aperti?"
+        ],
+        [
+          "**Risposte**",
+          "Sì, c’è. / No, non c’è.",
+          "Sì, ci sono. / No, non ci sono."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Espressioni utili con essere"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Sentimenti e stati:** *Sono contento. Sono stanco. Sono malato.* Ma per la fame e la sete si dice **avere**: *Ho fame.*",
+        "**Il tempo:** *Sono in ritardo. Sono in orario. Sono occupato. Sono libero domani.*",
+        "**Le opinioni:** *Sono d’accordo. Non sono d’accordo. Sono sicuro.*",
+        "**I saluti:** *Come stai? / Come va?* si dicono con **stare** e **andare**: *Sto bene. Va bene.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Sono 20 anni. / Sono fame.</s></td><td><strong>Ho</strong> 20 anni. / <strong>Ho</strong> fame.</td><td>Età e sensazioni: <em>avere</em>.</td></tr><tr><td><s>Lui è alta.</s></td><td>Lui è <strong>alto</strong>.</td><td>L’aggettivo si accorda.</td></tr><tr><td><s>Ci è un gatto.</s></td><td><strong>C’è</strong> un gatto.</td><td><em>ci</em> + <em>è</em> = <em>c’è</em>.</td></tr><tr><td><s>È freddo oggi. <i>(tempo)</i></s></td><td><strong>Fa</strong> freddo oggi.</td><td>Il tempo: <em>fare</em>.</td></tr><tr><td><s>Come sei? <i>(= come stai)</i></s></td><td>Come <strong>stai</strong>?</td><td>La salute: <em>stare</em>.</td></tr><tr><td><s>Sono di acordo.</s></td><td>Sono d’accordo.</td><td>Si scrive <em>d’accordo</em>, con due <em>c</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Sono 20 anni. / Sono fame.». Si dice «Ho 20 anni. / Ho fame.». Non «Lui è alta.». Si dice «Lui è alto .». Non «Ci è un gatto.». Si dice «C’è un gatto.». Non «È freddo oggi. (tempo)». Si dice «Fa freddo oggi.». Non «Come sei? (= come stai)». Si dice «Come stai?». Non «Sono di acordo.». Si dice «Sono d’accordo.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Sono venti anni.",
+        "Ho venti anni.",
+        "Faccio venti anni."
+      ],
+      "correctIndex": 1,
+      "explanation": "L’età si dice con *avere*: *Ho venti anni.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Lei ___ stanca.",
+      "options": [
+        "è",
+        "ha",
+        "sono"
+      ],
+      "correctIndex": 0,
+      "explanation": "Con *lei*: *è*. E l’aggettivo è al femminile: *stanca*."
+    },
+    {
+      "type": "quiz",
+      "question": "___ una banca qui vicino?",
+      "options": [
+        "Ci sono",
+        "C’è",
+        "È"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una sola cosa: *C’è una banca qui vicino?*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 2 — avere",
+      "id": "verb-have"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Avere** serve a parlare di quello che possiedi, della tua famiglia, del tuo aspetto, della tua età e di alcune sensazioni (la fame, la sete, il freddo). In italiano fa molte cose che l’inglese fa con *to be*."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">ho</mark><small>la <i>h</i> non si pronuncia: /ɔ/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">hai</mark><small>/ai/</small></div><div class=\"lx-cell s2\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">ha</mark><small>/a/</small></div><div class=\"lx-cell s3\"><b>noi</b> <mark class=\"lx-hl\">abbiamo</mark><small>doppia <i>b</i></small></div><div class=\"lx-cell s3\"><b>voi</b> <mark class=\"lx-hl\">avete</mark></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">hanno</mark><small>doppia <i>n</i></small></div></div></figure>",
+      "say": "Le forme di avere al presente: io ho, tu hai, lui, lei, Lei ha, noi abbiamo, voi avete, loro hanno."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La h muta: attenzione a come si scrive</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><p><b>ho</b> / <b>o</b></p><p class=\"lx-ex\"><b>Ho</b> fame. · Tè <b>o</b> caffè?</p></div>\n       <div class=\"lx-card\"><p><b>hai</b> / <b>ai</b></p><p class=\"lx-ex\"><b>Hai</b> una penna. · Vado <b>ai</b> giardini.</p></div>\n       <div class=\"lx-card\"><p><b>ha</b> / <b>a</b></p><p class=\"lx-ex\">Lei <b>ha</b> un gatto. · Vado <b>a</b> Roma.</p></div>\n       <div class=\"lx-card\"><p><b>hanno</b> / <b>anno</b></p><p class=\"lx-ex\">Loro <b>hanno</b> due figli. · Un <b>anno</b> ha dodici mesi.</p></div>\n     </div><figcaption class=\"lx-cap\">Si pronunciano allo stesso modo (a parte la doppia <em>n</em>): la <em>h</em> distingue il verbo. Se puoi dire <em>aveva</em>, scrivi <em>ha</em>.</figcaption></figure>",
+      "say": "La h muta. Ho vuol dire io ho, o vuol dire oppure. Hai è del verbo avere, ai vuol dire alle. Ha è del verbo avere, a è una preposizione. Hanno è del verbo avere, anno è un periodo di dodici mesi. Si pronunciano quasi allo stesso modo, ma la h distingue il verbo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Essere o avere? L’italiano non ragiona come l’inglese</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎂</span><span><b>avere</b></span></div>\n         <p><b>l’età</b>: Ho 20 anni. <span class=\"lx-ex\">(I am 20.)</span></p>\n         <p><b>fame, sete</b>: Ho fame. Ho sete. <span class=\"lx-ex\">(I am hungry / thirsty.)</span></p>\n         <p><b>freddo, caldo, paura, sonno</b>: Ho freddo. <span class=\"lx-ex\">(I am cold.)</span></p>\n         <p><b>mal di…</b>: Ho mal di testa. <span class=\"lx-ex\">(I have a headache.)</span></p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🧍</span><span><b>essere</b></span></div>\n         <p><b>una professione</b>: Sono insegnante.</p>\n         <p><b>una nazionalità</b>: Sono italiano.</p>\n         <p><b>un aggettivo</b>: Sono stanco. Sono contento.</p>\n         <p><b>un luogo</b>: Sono a casa.</p></div>\n     </div><figcaption class=\"lx-cap\">L’italiano dice <em>Ho 20 anni</em> («ho venti anni»), mai <s>Sono 20 anni</s>. Ma dice <em>Sono stanco</em> con <em>essere</em>.</figcaption></figure>",
+      "say": "Essere o avere? Con avere: l’età, per esempio ho venti anni; fame e sete, ho fame, ho sete; freddo, caldo, paura, sonno; e mal di, ho mal di testa. Con essere: una professione, una nazionalità, un aggettivo, un luogo. L’italiano dice ho venti anni, mai sono venti anni."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Che cosa si può dire con avere"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Esempi",
+        "In English"
+      ],
+      "rows": [
+        [
+          "Quello che possiedi",
+          "**Ho** un computer. / **Abbiamo** una casa a Roma.",
+          "I have a computer."
+        ],
+        [
+          "La tua famiglia",
+          "**Ho** due fratelli. / Lei **ha** una figlia.",
+          "I have two brothers."
+        ],
+        [
+          "Il tuo aspetto",
+          "**Ho** gli occhi castani. / Lui **ha** i capelli corti.",
+          "I have brown eyes."
+        ],
+        [
+          "La tua età",
+          "**Ho** 29 anni. / Quanti anni **hai**?",
+          "I am 29."
+        ],
+        [
+          "Una sensazione",
+          "**Ho** fame. / Lei **ha** freddo. / Loro **hanno** paura.",
+          "I am hungry."
+        ],
+        [
+          "Un problema di salute",
+          "**Ho** mal di testa. / Lui **ha** il raffreddore. / **Abbiamo** la febbre.",
+          "I have a headache."
+        ],
+        [
+          "Un bisogno, una voglia *(A2)*",
+          "**Ho** bisogno di aiuto. / **Hai** voglia di partire?",
+          "I need help. / Do you feel like leaving?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Dopo *mal di* non c’è articolo: *Ho mal **di** testa, **di** schiena, **di** denti.* (non <s>mal alla testa</s>)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dire «no» con avere"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Frase positiva",
+        "Frase negativa"
+      ],
+      "rows": [
+        [
+          "Ho **una** macchina.",
+          "Non ho **una** macchina."
+        ],
+        [
+          "Ho **un** fratello.",
+          "Non ho **un** fratello."
+        ],
+        [
+          "Ho **dei** fratelli.",
+          "Non ho fratelli."
+        ],
+        [
+          "Ho tempo.",
+          "Non ho tempo."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>L’articolo resta</strong><p>In italiano l’articolo <strong>resta</strong> con un solo oggetto: <em>Non ho una macchina.</em> Si toglie solo con più oggetti o con cose che non si contano: <em>Non ho fratelli. Non ho tempo.</em></p></div>",
+      "say": "L’articolo resta In italiano l’articolo resta con un solo oggetto: Non ho una macchina. Si toglie solo con più oggetti o con cose che non si contano: Non ho fratelli. Non ho tempo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Domanda",
+        "Risposte"
+      ],
+      "rows": [
+        [
+          "Hai una macchina?",
+          "Sì, ho una macchina. / No, non ho una macchina."
+        ],
+        [
+          "Hai fratelli?",
+          "Sì, ho due fratelli. / No, non ho fratelli."
+        ],
+        [
+          "Hai fratelli? *(A2)*",
+          "Sì, **ne ho** due. / No, **non ne ho**."
+        ],
+        [
+          "Hai una macchina? *(A2)*",
+          "Sì, **ce l’ho**. / No, **non ce l’ho**."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Sono 25 anni. / Sono fame.</s></td><td><strong>Ho</strong> 25 anni. / <strong>Ho</strong> fame.</td><td>Età e sensazioni: <em>avere</em>.</td></tr><tr><td><s>Ho mal alla testa.</s></td><td>Ho mal <strong>di</strong> testa.</td><td>Dopo <em>mal</em>: <em>di</em>, senza articolo.</td></tr><tr><td><s>Non ho dei fratelli.</s></td><td>Non ho fratelli.</td><td>Con più oggetti, niente articolo.</td></tr><tr><td><s>Lei a un gatto.</s></td><td>Lei <strong>ha</strong> un gatto.</td><td>Il verbo si scrive con la <em>h</em>.</td></tr><tr><td><s>Tu ha un fratello?</s></td><td>Tu <strong>hai</strong> un fratello?</td><td><em>tu hai</em>.</td></tr><tr><td><s>Loro ha due figli.</s></td><td>Loro <strong>hanno</strong> due figli.</td><td><em>loro hanno</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Sono 25 anni. / Sono fame.». Si dice «Ho 25 anni. / Ho fame.». Non «Ho mal alla testa.». Si dice «Ho mal di testa.». Non «Non ho dei fratelli.». Si dice «Non ho fratelli.». Non «Lei a un gatto.». Si dice «Lei ha un gatto.». Non «Tu ha un fratello?». Si dice «Tu hai un fratello?». Non «Loro ha due figli.». Si dice «Loro hanno due figli.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Sono fame.",
+        "Ho fame.",
+        "Faccio fame."
+      ],
+      "correctIndex": 1,
+      "explanation": "La fame si dice con *avere*: *Ho fame.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase è corretta?",
+      "options": [
+        "Non ho dei fratelli.",
+        "Non ho fratelli.",
+        "Non ho i fratelli."
+      ],
+      "correctIndex": 1,
+      "explanation": "Con più oggetti non si mette l’articolo: *Non ho fratelli.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Lei ___ un gatto.",
+      "options": [
+        "a",
+        "ha",
+        "ho"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il verbo *avere* alla terza persona è *ha* (con la *h*)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 3 — pensare",
+      "id": "verb-think"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Pensare** serve a dire a che cosa pensi (*Penso alle vacanze*) e a rispondere in breve (*Penso di sì*). Per dare un’opinione, in italiano si usa molto anche **secondo me**. **Pensare** è un verbo regolare in **-are**, come tantissimi verbi italiani."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La grande famiglia dei verbi in -are</p><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> pens<mark class=\"lx-hl\">o</mark></div><div class=\"lx-cell s1\"><b>tu</b> pens<mark class=\"lx-hl\">i</mark></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> pens<mark class=\"lx-hl\">a</mark></div><div class=\"lx-cell s2\"><b>noi</b> pens<mark class=\"lx-hl\">iamo</mark></div><div class=\"lx-cell s2\"><b>voi</b> pens<mark class=\"lx-hl\">ate</mark></div><div class=\"lx-cell s3\"><b>loro</b> pens<mark class=\"lx-hl\">ano</mark><small>accento: <b>pèn</b>sano</small></div></div><figcaption class=\"lx-cap\">Questo modello vale anche per <em>mangiare, parlare, lavorare, studiare…</em> Attenzione alla pronuncia di <em>loro</em>: l’accento resta sulla radice (<em>pènsano, màngiano</em>), non sulla fine.</figcaption></figure>",
+      "say": "La grande famiglia dei verbi in are. Per pensare: io penso, tu pensi, lui, lei, Lei pensa, noi pensiamo, voi pensate, loro pensano. Questo modello vale anche per mangiare, parlare, lavorare, studiare. Attenzione alla pronuncia di loro: l’accento resta sulla radice, pènsano, màngiano."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Tre modi per dire la tua opinione</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💬</span><span><b>Secondo me</b> / <b>Per me</b> + frase</span></div><p>il modo più semplice</p><p class=\"lx-ex\">Secondo me è una buona idea.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💭</span><span><b>Penso di sì</b> / <b>di no</b></span></div><p>per rispondere in breve</p><p class=\"lx-ex\">«È aperto?» — «Penso di sì.»</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤔</span><span><b>Credo di sì</b> / <b>di no</b></span></div><p>non sei del tutto sicuro</p><p class=\"lx-ex\">Credo di sì. Apre alle sette.</p></div>\n     </div><figcaption class=\"lx-cap\">Per dire come ti sembra una cosa: <em>Mi sembra buono. Mi sembra difficile.</em> <span class=\"lx-ex\">(A2)</span></figcaption></figure>",
+      "say": "Tre modi per dire la tua opinione. Secondo me o per me, più una frase: secondo me è una buona idea. Penso di sì o penso di no, per rispondere in breve. Credo di sì o credo di no, quando non sei del tutto sicuro. Per dire come ti sembra una cosa: mi sembra buono."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>«Penso che…» richiede il congiuntivo</strong><p>Dopo <em>Penso che</em> l’italiano usa il <strong>congiuntivo</strong>: <em>Penso che sia una buona idea.</em> È un tema di livello B1. Nel parlato di tutti i giorni si sente anche <em>Penso che è buono</em>, ma la forma corretta è il congiuntivo. Per ora usa <em>secondo me</em> o <em>penso di sì / di no</em>: sono sempre corretti.</p></div>",
+      "say": "«Penso che…» richiede il congiuntivo Dopo Penso che l’italiano usa il congiuntivo: Penso che sia una buona idea. È un tema di livello B1. Nel parlato di tutti i giorni si sente anche Penso che è buono , ma la forma corretta è il congiuntivo. Per ora usa secondo me o penso di sì / di no: sono sempre corretti."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le frasi che userai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi…",
+        "Modello",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Dare un’opinione",
+          "**Secondo me** / **Per me** + frase",
+          "**Secondo me** il film è lungo. / **Per me** è facile."
+        ],
+        [
+          "Rispondere in breve",
+          "**Penso di sì** / **di no**",
+          "«È caro?» — «Penso di no.»"
+        ],
+        [
+          "Chiedere un’opinione",
+          "**Che cosa pensi di** …?",
+          "Che cosa pensi **di questa canzone**? / **Secondo te** è una buona idea?"
+        ],
+        [
+          "Dire a che cosa pensi",
+          "pensare **a** + cosa / persona",
+          "Penso **alle vacanze.** / Penso **a te.** / **A che cosa** pensi?"
+        ],
+        [
+          "Dire un progetto *(A2)*",
+          "pensare **di** + infinito",
+          "Penso **di partire** domani. *(I’m thinking of leaving tomorrow.)*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Chiedere un’opinione</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Chiedere un'opinione\"><p class=\"lx-say\"><b>Ana</b>Che cosa pensi di questa torta?</p><p class=\"lx-say\"><b>Tom</b>Secondo me è buonissima!</p><p class=\"lx-say\"><b>Ana</b>È cara, secondo te?</p><p class=\"lx-say\"><b>Tom</b>Penso di no. Costa solo tre euro.</p></div></figure>",
+      "say": "Chiedere un’opinione. Ana: Che cosa pensi di questa torta? Tom: Secondo me è buonissima! Ana: È cara, secondo te? Tom: Penso di no. Costa solo tre euro."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Negativo e domande"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Penso di sì. / Penso alle vacanze. / Pensiamo di partire."
+        ],
+        [
+          "**−**",
+          "Non penso a questo. / Non penso di avere tempo. *(A2)* / Penso di no."
+        ],
+        [
+          "**?**",
+          "A che cosa pensi? / Che cosa pensate di questo film? / Secondo te è caro?"
+        ],
+        [
+          "**Risposte**",
+          "Penso di sì. / Penso di no. / Credo di sì."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Penso di te.</s></td><td>Penso <strong>a</strong> te.</td><td><em>Pensare a</em> qualcuno.</td></tr><tr><td><s>Penso sì. / Penso no.</s></td><td>Penso <strong>di</strong> sì. / Penso di no.</td><td>Serve <em>di</em>.</td></tr><tr><td><s>Penso che è buono.</s></td><td><strong>Secondo me</strong> è buono.</td><td>Dopo <em>penso che</em> serve il congiuntivo (B1).</td></tr><tr><td><s>Lei pensi molto.</s></td><td>Lei <strong>pensa</strong> molto.</td><td>Con <em>lei</em>: <em>-a</em>.</td></tr><tr><td><s>Loro pensa alle vacanze.</s></td><td>Loro <strong>pensano</strong> alle vacanze.</td><td>Con <em>loro</em>: <em>-ano</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Penso di te.». Si dice «Penso a te.». Non «Penso sì. / Penso no.». Si dice «Penso di sì. / Penso di no.». Non «Penso che è buono.». Si dice «Secondo me è buono.». Non «Lei pensi molto.». Si dice «Lei pensa molto.». Non «Loro pensa alle vacanze.». Si dice «Loro pensano alle vacanze.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Io ___ alle vacanze.",
+      "options": [
+        "penso",
+        "pensi",
+        "pensano"
+      ],
+      "correctIndex": 0,
+      "explanation": "Con *io*, la terminazione è *-o*: *Penso alle vacanze.*"
+    },
+    {
+      "type": "quiz",
+      "question": "«È caro?» — «Penso ___.»",
+      "options": [
+        "no",
+        "di no",
+        "che no"
+      ],
+      "correctIndex": 1,
+      "explanation": "La risposta breve è *Penso di no.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Penso di te.",
+        "Penso a te.",
+        "Penso in te."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Pensare a* qualcuno: *Penso a te.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 4 — sapere e conoscere",
+      "id": "verb-know"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’italiano ha **due verbi** per *to know*: **sapere** e **conoscere**. La scelta dipende da quello che viene dopo. Basta una regola semplice per cominciare."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Sapere o conoscere?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🧠</span><span><b>sapere</b> + informazione o azione</span></div>\n         <p>un’informazione: <span class=\"lx-ex\">So la risposta.</span></p>\n         <p>+ <b>che, dove, quando, se…</b>: <span class=\"lx-ex\">So dove abita.</span></p>\n         <p>+ <b>un verbo</b> = una capacità imparata: <span class=\"lx-ex\">So nuotare. Sa guidare.</span></p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🤝</span><span><b>conoscere</b> + persona, luogo, cosa</span></div>\n         <p>una persona: <span class=\"lx-ex\">Conosco Anna.</span></p>\n         <p>un luogo: <span class=\"lx-ex\">Conosce bene Londra.</span></p>\n         <p>una cosa: <span class=\"lx-ex\">Conosci questa canzone?</span></p></div>\n     </div><figcaption class=\"lx-cap\">Prova rapida: dopo il verbo c’è il <strong>nome di una persona, di un luogo o di una cosa</strong>? → <em>conoscere</em>. C’è <em>che / dove / se</em>, un verbo o un’informazione? → <em>sapere</em>.</figcaption></figure>",
+      "say": "Sapere o conoscere? Sapere, per un’informazione, o con che, dove, quando, se, o con un verbo per una capacità: so nuotare. Conoscere, per una persona, un luogo o una cosa: conosco Anna, conosce bene Londra. Prova rapida: dopo il verbo, il nome di una persona, di un luogo o di una cosa, è conoscere. Che, dove, se, un verbo o un’informazione, è sapere."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">so</mark><small>conosco</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">sai</mark><small>conosci</small></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">sa</mark><small>conosce</small></div><div class=\"lx-cell s2\"><b>noi</b> <mark class=\"lx-hl\">sappiamo</mark><small>conosciamo</small></div><div class=\"lx-cell s2\"><b>voi</b> <mark class=\"lx-hl\">sapete</mark><small>conoscete</small></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">sanno</mark><small>conoscono</small></div></div></figure>",
+      "say": "Nelle caselle: la forma di sapere, e in piccolo quella di conoscere. Io so, tu sai, lui sa, noi sappiamo, voi sapete, loro sanno. Io conosco, tu conosci, lui conosce, noi conosciamo, voi conoscete, loro conoscono."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Sei sicuro?</p><ol class=\"lx-scale\">\n       <li><b>Non lo so.</b><span>«Il negozio è aperto?» — «Non lo so.»</span></li>\n       <li><b>Non sono sicuro.</b><span>«Forse. Non sono sicuro.»</span></li>\n       <li><b>Penso di sì.</b><span>«Penso di sì. Apre alle sette.»</span></li>\n       <li><b>Sono sicuro.</b><span>«Sì, sono sicuro. Ero lì ieri.»</span></li>\n       <li><b>Lo so.</b><span>«Sì, lo so. Chiude alle diciannove.»</span></li>\n     </ol><figcaption class=\"lx-cap\">Cinque modi di rispondere, da «per niente sicuro» a «sicurissimo».</figcaption></figure>",
+      "say": "Sei sicuro? Dal meno sicuro al più sicuro: non lo so; non sono sicuro; penso di sì; sono sicuro; lo so."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le frasi che userai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Un’informazione",
+          "**So** la risposta. / Lei **sa** il suo numero di telefono."
+        ],
+        [
+          "Un’informazione in una frase",
+          "**So che** sei stanco. / **Sappiamo quando** inizia il corso."
+        ],
+        [
+          "Una capacità",
+          "**So** nuotare. / Lei **sa** cucinare. / Lui **sa** parlare tre lingue."
+        ],
+        [
+          "Una persona o un luogo",
+          "**Conosco** Anna. / Lui **conosce** bene Londra."
+        ],
+        [
+          "Una cosa *(A2)*",
+          "**Conosci** questa canzone? / **Conosco** un buon ristorante."
+        ],
+        [
+          "Rispondere",
+          "Sì, **lo so**. / No, **non lo so**. / Sì, **la conosco**. / No, **non la conosco**. *(A2)*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Una domanda dentro una domanda"
+    },
+    {
+      "type": "paragraph",
+      "text": "In italiano è facile: la domanda dentro «Sai …?» ha **lo stesso ordine** della domanda diretta. Non cambia niente."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Domanda diretta",
+        "Dentro «Sai …?»"
+      ],
+      "rows": [
+        [
+          "Dove abita?",
+          "Sai **dove abita**?"
+        ],
+        [
+          "Che ore sono?",
+          "Sai **che ore sono**?"
+        ],
+        [
+          "Chi è?",
+          "Sai **chi è**?"
+        ],
+        [
+          "Perché è in ritardo?",
+          "Sai **perché è in ritardo**?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conoscere: sapere chi è, o incontrare per la prima volta"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Frase",
+        "Significato",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "**conosco** qualcuno",
+          "lo conosci già",
+          "**Conosco** Pietro. Lavoriamo insieme."
+        ],
+        [
+          "**ho conosciuto** qualcuno",
+          "l’hai incontrato per la prima volta",
+          "**Ho conosciuto** Pietro ieri."
+        ],
+        [
+          "**Piacere!**",
+          "quando incontri qualcuno per la prima volta",
+          "«Sono Anna.» — «**Piacere!** Sono Marco.»"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Niente forma in -ando con sapere e conoscere</strong><p>L’italiano ha <em>stare</em> + gerundio per le azioni in corso (<em>sto mangiando</em>), ma <strong>non</strong> con i verbi di stato: <em>So la risposta. Conosco Anna. Voglio un caffè.</em> (non <s>sto sapendo</s>).</p></div>",
+      "say": "Niente forma in -ando con sapere e conoscere L’italiano ha stare + gerundio per le azioni in corso ( sto mangiando ), ma non con i verbi di stato: So la risposta. Conosco Anna. Voglio un caffè. (non sto sapendo )."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Frasi utili"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Non lo so.** — *I don’t know.*",
+        "**Che ne so!** — *How should I know!* *(A2, informale)*",
+        "**Fammi sapere.** — *Let me know.* *(A2)*",
+        "**Piacere di conoscerti.** — *Nice to meet you.* *(un po’ più formale: Piacere di conoscerLa)*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Conosco nuotare.</s></td><td><strong>So</strong> nuotare.</td><td>Dopo, un verbo: <em>sapere</em>.</td></tr><tr><td><s>So Roma. / So Anna.</s></td><td><strong>Conosco</strong> Roma. / <strong>Conosco</strong> Anna.</td><td>Un luogo, una persona: <em>conoscere</em>.</td></tr><tr><td><s>Conosco dove abita.</s></td><td><strong>So</strong> dove abita.</td><td><em>dove, che, se</em>: <em>sapere</em>.</td></tr><tr><td><s>Sai Anna?</s></td><td><strong>Conosci</strong> Anna?</td><td>Una persona: <em>conoscere</em>.</td></tr><tr><td><s>Io non so lo.</s></td><td>Io non <strong>lo so</strong>.</td><td><em>lo</em> va prima del verbo.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Conosco nuotare.». Si dice «So nuotare.». Non «So Roma. / So Anna.». Si dice «Conosco Roma. / Conosco Anna.». Non «Conosco dove abita.». Si dice «So dove abita.». Non «Sai Anna?». Si dice «Conosci Anna?». Non «Io non so lo.». Si dice «Io non lo so .»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "___ nuotare da quando avevo cinque anni.",
+      "options": [
+        "Conosco",
+        "So",
+        "Sa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una capacità (dopo, un verbo): *sapere* → *So nuotare.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Tu ___ mio fratello?",
+      "options": [
+        "sai",
+        "conosci",
+        "pensi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una persona: *conoscere* → *Conosci mio fratello?*"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Sai che ore sono?",
+        "Sai che sono ore?",
+        "Sai quanto ore sono?"
+      ],
+      "correctIndex": 0,
+      "explanation": "La domanda dentro «Sai …?» ha l’ordine normale: *che ore sono*."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 5 — piacere",
+      "id": "verb-like"
+    },
+    {
+      "type": "paragraph",
+      "text": "In italiano non si dice «io piaccio la pizza». Si dice **«mi piace la pizza»**. Il verbo **piacere** funziona al contrario rispetto all’inglese *to like*: la **cosa** che ti piace è il soggetto, e tu sei la persona a cui piace. È la struttura più importante di questa pagina."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La cosa che ti piace è il soggetto</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">☕</span><span><b>piace</b> + una cosa</span></div><p>una cosa singolare, o un verbo</p><p class=\"lx-ex\">Mi <b>piace</b> il caffè. · Mi <b>piace</b> nuotare.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🐱</span><span><b>piacciono</b> + più cose</span></div><p>più cose (plurale)</p><p class=\"lx-ex\">Mi <b>piacciono</b> i gatti. · Ti <b>piacciono</b> le pizze?</p></div>\n     </div><figcaption class=\"lx-cap\"><em>Mi piace il caffè</em> vuol dire, alla lettera, «il caffè piace a me». Il verbo concorda con <strong>la cosa</strong>, non con te.</figcaption></figure>",
+      "say": "La cosa che ti piace è il soggetto. Piace, con una cosa singolare o con un verbo: mi piace il caffè, mi piace nuotare. Piacciono, con più cose: mi piacciono i gatti. Mi piace il caffè vuol dire alla lettera: il caffè piace a me. Il verbo concorda con la cosa, non con te."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A chi piace?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>(a me)</b> <mark class=\"lx-hl\">mi</mark> piace<small>Mi piace il tè.</small></div><div class=\"lx-cell s1\"><b>(a te)</b> <mark class=\"lx-hl\">ti</mark> piace<small>Ti piace il tè?</small></div><div class=\"lx-cell s1\"><b>(a lui)</b> <mark class=\"lx-hl\">gli</mark> piace<small>Gli piace il tè.</small></div><div class=\"lx-cell s2\"><b>(a lei / a Lei)</b> <mark class=\"lx-hl\">le</mark> piace<small>Le piace il tè.</small></div><div class=\"lx-cell s3\"><b>(a noi)</b> <mark class=\"lx-hl\">ci</mark> piace<small>Ci piace il tè.</small></div><div class=\"lx-cell s3\"><b>(a voi / a loro)</b> <mark class=\"lx-hl\">vi / gli</mark> piace<small>Vi piace il tè?</small></div></div></figure>",
+      "say": "A chi piace? A me, mi piace. A te, ti piace. A lui, gli piace. A lei, le piace. A noi, ci piace. A voi, vi piace. A loro, gli piace."
+    },
+    {
+      "type": "paragraph",
+      "text": "Con un nome: **A** + nome + *piace* → *A Marco piace il tè.* Per insistere: *A me piace il tè, a te no.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Da «odio» ad «adoro»</p><ol class=\"lx-scale\">\n       <li><b>😠 Odio…</b><span>Odio alzarmi presto.</span></li>\n       <li><b>👎 Non mi piace…</b><span>Non mi piace il freddo.</span></li>\n       <li><b>😐 Non mi dispiace.</b><span>«Tè o caffè?» — «Non mi dispiace nessuno dei due.»</span></li>\n       <li><b>🙂 Mi piace…</b><span>Mi piace il cioccolato.</span></li>\n       <li><b>❤️ Adoro… / Mi piace molto…</b><span>Adoro la musica.</span></li>\n     </ol><figcaption class=\"lx-cap\">Per dire «non molto»: <em>Non mi piace tanto il caffè.</em> Per dire «per niente»: <em>Non mi piace per niente il freddo.</em></figcaption></figure>",
+      "say": "Da odio ad adoro. Odio alzarmi presto. Non mi piace il freddo. Non mi dispiace. Mi piace il cioccolato. Adoro la musica. Per dire non molto: non mi piace tanto il caffè. Per dire per niente: non mi piace per niente il freddo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Attenzione con le persone</strong><p><em>Mi piace Marco</em> può voler dire che lo trovi <strong>attraente</strong>. Per un amico si dice piuttosto <em>Marco è simpatico</em>. Per le persone care, in italiano si dice <em>Ti voglio bene</em> (famiglia, amici); <em>Ti amo</em> è per l’amore.</p></div>",
+      "say": "Attenzione con le persone Mi piace Marco può voler dire che lo trovi attraente . Per un amico si dice piuttosto Marco è simpatico . Per le persone care, in italiano si dice Ti voglio bene (famiglia, amici); Ti amo è per l’amore."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le frasi che userai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Mi piace la musica. / Ci piace viaggiare. / A Marco piacciono i film."
+        ],
+        [
+          "**−**",
+          "Non mi piace il caffè. / Non gli piace ballare."
+        ],
+        [
+          "**?**",
+          "Ti piace il jazz? / Vi piacciono i gatti? / Che cosa ti piace?"
+        ],
+        [
+          "**Risposte**",
+          "Sì, mi piace. / Sì, mi piace molto. / No, non mi piace."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Modello",
+        "Significato",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "mi piace + **il / la / l’** + nome",
+          "un gusto in generale",
+          "Mi piace **il** caffè. / Mi piace **la** musica."
+        ],
+        [
+          "mi piacciono + **i / le** + nome",
+          "più cose",
+          "Mi piacciono **i** gatti. / Mi piacciono **le** mele."
+        ],
+        [
+          "mi piace + **infinito**",
+          "un’attività",
+          "Mi piace nuotare. / Mi piace cucinare."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Con piacere serve sempre l’articolo</strong><p>Per un gusto <strong>in generale</strong>, l’italiano mette l’articolo: <em>Mi piace <strong>il</strong> caffè.</em> (non <s>Mi piace caffè</s>). Ma per mangiare e bere si dice senza articolo: <em>Bevo caffè.</em></p></div>",
+      "say": "Con piacere serve sempre l’articolo Per un gusto in generale , l’italiano mette l’articolo: Mi piace il caffè. (non Mi piace caffè ). Ma per mangiare e bere si dice senza articolo: Bevo caffè."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Anche a me, neanche a me"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Qualcuno dice…",
+        "Tu rispondi…",
+        "Significato"
+      ],
+      "rows": [
+        [
+          "Mi piace il caffè.",
+          "**Anche a me.** / **A me no.**",
+          "Also me. / Not me."
+        ],
+        [
+          "Non mi piace il tè.",
+          "**Neanche a me.** / **A me sì!**",
+          "Me neither. / I do!"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quattro domande che si assomigliano"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Domanda",
+        "Chiede…",
+        "Risposta"
+      ],
+      "rows": [
+        [
+          "**Ti piace** Anna?",
+          "che cosa pensi di lei",
+          "Sì, è simpatica."
+        ],
+        [
+          "**Che cosa piace** ad Anna?",
+          "i suoi gusti",
+          "Le piacciono il tennis e il tè."
+        ],
+        [
+          "**Com’è** Anna? *(A2)*",
+          "il carattere, l’aspetto",
+          "È gentile e divertente."
+        ],
+        [
+          "**Come sta** Anna?",
+          "la salute, l’umore",
+          "Sta bene, grazie."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Io piaccio la pizza.</s></td><td><strong>Mi piace</strong> la pizza.</td><td>La cosa è il soggetto.</td></tr><tr><td><s>Mi piace i gatti.</s></td><td>Mi <strong>piacciono</strong> i gatti.</td><td>Più cose: <em>piacciono</em>.</td></tr><tr><td><s>Mi piace caffè.</s></td><td>Mi piace <strong>il</strong> caffè.</td><td>Un gusto in generale: l’articolo.</td></tr><tr><td><s>Piace mi la musica.</s></td><td><strong>Mi</strong> piace la musica.</td><td>Il pronome va prima del verbo.</td></tr><tr><td><s>Anche non a me.</s></td><td><strong>Neanche</strong> a me.</td><td>Dopo una frase negativa: <em>neanche</em>.</td></tr><tr><td><s>Mi piace molto di Marco. <i>(= è un amico)</i></s></td><td>Marco è <strong>simpatico</strong>.</td><td><em>Mi piace</em> + persona può voler dire «mi attrae».</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Io piaccio la pizza.». Si dice «Mi piace la pizza.». Non «Mi piace i gatti.». Si dice «Mi piacciono i gatti.». Non «Mi piace caffè.». Si dice «Mi piace il caffè.». Non «Piace mi la musica.». Si dice «Mi piace la musica.». Non «Anche non a me.». Si dice «Neanche a me.». Non «Mi piace molto di Marco. (= è un amico)». Si dice «Marco è simpatico .»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Io piaccio la musica.",
+        "Mi piace la musica.",
+        "Io mi piace la musica."
+      ],
+      "correctIndex": 1,
+      "explanation": "La cosa è il soggetto: *Mi piace la musica.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Mi ___ i gatti.",
+      "options": [
+        "piace",
+        "piacciono",
+        "piaccio"
+      ],
+      "correctIndex": 1,
+      "explanation": "*I gatti* è plurale, quindi *piacciono*."
+    },
+    {
+      "type": "quiz",
+      "question": "«Non mi piace il tè.» — «___.»",
+      "options": [
+        "Anche a me",
+        "Neanche a me",
+        "Anche non a me"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dopo una frase negativa si risponde *Neanche a me.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 6 — volere",
+      "id": "verb-want"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Volere** dice quello che desideri. **Vorrei** dice la stessa cosa, ma in modo più **cortese**: lo userai sempre nei negozi, nei bar e nei ristoranti. **Volere** è irregolare."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">voglio</mark><small>/ˈvɔʎ.ʎo/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">vuoi</mark></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">vuole</mark></div><div class=\"lx-cell s2\"><b>noi</b> <mark class=\"lx-hl\">vogliamo</mark></div><div class=\"lx-cell s2\"><b>voi</b> <mark class=\"lx-hl\">volete</mark></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">vogliono</mark><small>accento: <b>vò</b>gliono</small></div></div></figure>",
+      "say": "Le forme di volere al presente: io voglio, tu vuoi, lui, lei, Lei vuole, noi vogliamo, voi volete, loro vogliono."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Come chiedere qualcosa: dal diretto al cortese</p><ol class=\"lx-ladder\">\n       <li class=\"lx-no\"><b>Dammi un caffè.</b><small>Sembra un ordine. Da evitare.</small></li>\n       <li><b>Voglio un caffè.</b><small>Va bene tra amici. Al bar è un po’ troppo diretto.</small></li>\n       <li class=\"lx-yes\"><b>Un caffè, per favore.</b><small>Normale e molto comune. La frase più breve e naturale.</small></li>\n       <li class=\"lx-yes\"><b>Vorrei un caffè, per favore.</b><small>Cortese. Perfetta al bar, al ristorante, in albergo.</small></li>\n     </ol><figcaption class=\"lx-cap\">Altre richieste molto naturali: <em>Prendo un caffè, grazie.</em> e <em>Posso avere un caffè, per favore?</em></figcaption></figure>",
+      "say": "Come chiedere qualcosa, dal diretto al cortese. Dammi un caffè: sembra un ordine, da evitare. Voglio un caffè: va bene tra amici, al bar è un po’ troppo diretto. Un caffè, per favore: normale e molto comune. Vorrei un caffè, per favore: cortese, perfetta al bar, al ristorante, in albergo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le frasi che userai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Modello",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Una cosa che vuoi",
+          "volere + nome",
+          "Voglio un bicchiere d’acqua. / Lei vuole un telefono nuovo."
+        ],
+        [
+          "Un’azione che vuoi fare",
+          "volere + **infinito** *(senza «a» né «di»)*",
+          "Voglio **imparare** l’italiano. / Vogliamo **partire**."
+        ],
+        [
+          "Accettare un’offerta",
+          "**Sì, volentieri!**",
+          "«Vuoi un tè?» — «**Sì, volentieri!**»"
+        ],
+        [
+          "Rifiutare con gentilezza",
+          "No, grazie.",
+          "«Vuole un dolce?» — «No, grazie.»"
+        ],
+        [
+          "Fare una domanda",
+          "Vuoi …? / Che cosa vuoi …?",
+          "Vuoi venire? / Che cosa vuoi bere?"
+        ],
+        [
+          "Dire «no»",
+          "non + volere",
+          "Non voglio zucchero. / Lui non vuole venire."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vorrei: la richiesta cortese"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Modello",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Un desiderio cortese",
+          "**Vorrei** + nome",
+          "Vorrei un tavolo per due, per favore."
+        ],
+        [
+          "Un’azione cortese",
+          "**Vorrei** + infinito",
+          "Vorrei pagare, per favore. / **Vorremmo** vedere il menù."
+        ],
+        [
+          "Al ristorante, dal cameriere",
+          "**Desidera?** / Che cosa prende?",
+          "«Desidera?» — «Vorrei un caffè.»"
+        ],
+        [
+          "Un sogno *(A2)*",
+          "**Mi piacerebbe** + infinito",
+          "Mi piacerebbe viaggiare in Giappone."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Vorrei* è una forma di cortesia: a questo livello, impara **vorrei** (io) e **vorremmo** (noi) come «blocchi» già pronti."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Al bar</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Al bar\"><p class=\"lx-say\"><b>Cameriere</b>Buongiorno. Desidera?</p><p class=\"lx-say\"><b>Tu</b>Vorrei un caffè, per favore.</p><p class=\"lx-say\"><b>Cameriere</b>Vuole anche qualcosa da mangiare?</p><p class=\"lx-say\"><b>Tu</b>Sì, volentieri. Un cornetto, per favore.</p></div></figure>",
+      "say": "Al bar. Cameriere: Buongiorno. Desidera? Tu: Vorrei un caffè, per favore. Cameriere: Vuole anche qualcosa da mangiare? Tu: Sì, volentieri. Un cornetto, per favore."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piacere, volere, vorrei, potere: che differenza c’è?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Frase",
+        "Significato"
+      ],
+      "rows": [
+        [
+          "**Mi piace** il caffè.",
+          "In generale, mi piace."
+        ],
+        [
+          "**Voglio** un caffè.",
+          "Desidero un caffè adesso. Diretto."
+        ],
+        [
+          "**Vorrei** un caffè, per favore.",
+          "Una richiesta cortese."
+        ],
+        [
+          "**Posso** bere un caffè.",
+          "È possibile o permesso. *(verbo successivo: potere)*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Voglio a mangiare. / Voglio di mangiare.</s></td><td>Voglio <strong>mangiare</strong>.</td><td>Nessuna preposizione dopo <em>volere</em>.</td></tr><tr><td><s>Lui voglio un caffè.</s></td><td>Lui <strong>vuole</strong> un caffè.</td><td>Con <em>lui / lei</em>: <em>vuole</em>.</td></tr><tr><td><s>Loro vuole partire.</s></td><td>Loro <strong>vogliono</strong> partire.</td><td>Con <em>loro</em>: <em>vogliono</em>.</td></tr><tr><td><s>Voglio un caffè, per favore. <i>(troppo diretto)</i></s></td><td><strong>Vorrei</strong> un caffè, per favore.</td><td><em>Vorrei</em> è più cortese.</td></tr><tr><td><s>Io vorrei di andare.</s></td><td>Io vorrei <strong>andare</strong>.</td><td>Nessuna preposizione.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Voglio a mangiare. / Voglio di mangiare.». Si dice «Voglio mangiare .». Non «Lui voglio un caffè.». Si dice «Lui vuole un caffè.». Non «Loro vuole partire.». Si dice «Loro vogliono partire.». Non «Voglio un caffè, per favore. (troppo diretto)». Si dice «Vorrei un caffè, per favore.». Non «Io vorrei di andare.». Si dice «Io vorrei andare .»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Sei in un ristorante. Quale frase è la più cortese?",
+      "options": [
+        "Dammi una pizza.",
+        "Voglio una pizza.",
+        "Vorrei una pizza, per favore."
+      ],
+      "correctIndex": 2,
+      "explanation": "*Vorrei …, per favore* è cortese e naturale."
+    },
+    {
+      "type": "quiz",
+      "question": "Lei ___ partire domani.",
+      "options": [
+        "voglio",
+        "vuole",
+        "vogliamo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Con *lei*: *vuole*."
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Voglio di mangiare.",
+        "Voglio mangiare.",
+        "Voglio a mangiare."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nessuna preposizione tra *volere* e l’infinito."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 7 — andare",
+      "id": "verb-go"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Andare** ha due ruoli: **andare** in un posto (*Vado a Roma*) e parlare di come vanno le cose (*Come va? Va bene*). Per il futuro l’italiano usa altre strutture, che vedrai in questa pagina. **Andare** è un verbo molto irregolare: impara le forme a memoria."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">vado</mark><small>/ˈva.do/</small></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">vai</mark></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">va</mark></div><div class=\"lx-cell s2\"><b>noi</b> <mark class=\"lx-hl\">andiamo</mark></div><div class=\"lx-cell s2\"><b>voi</b> <mark class=\"lx-hl\">andate</mark></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">vanno</mark><small>doppia <i>n</i></small></div></div></figure>",
+      "say": "Le forme di andare al presente: io vado, tu vai, lui, lei, Lei va, noi andiamo, voi andate, loro vanno."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Andare + che cosa? La parolina giusta</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏙️</span><span>andare <b>a</b> + città</span></div><p class=\"lx-ex\">a Roma · a Milano · a Parigi</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🇮🇹</span><span>andare <b>in</b> + paese</span></div><p class=\"lx-ex\">in Italia · in Francia · in Spagna</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏢</span><span>andare <b>al / alla / all’ / ai</b> + luogo</span></div><p class=\"lx-ex\">al cinema · alla stazione · all’aeroporto · ai giardini</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🩺</span><span>andare <b>da</b> + persona</span></div><p class=\"lx-ex\">dal medico · da Anna · da me</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🚌</span><span>andare <b>in</b> + mezzo · <b>a</b> piedi</span></div><p class=\"lx-ex\">in autobus · in treno · in macchina · in bici · a piedi</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏠</span><span>andare <b>a casa</b> · <b>a scuola</b></span></div><p class=\"lx-ex\">Vado a casa. · Vado a scuola. <i>(senza articolo)</i></p></div>\n     </div><figcaption class=\"lx-cap\">Con alcuni luoghi si usa <em>in</em> senza articolo: <em>in ufficio, in banca, in centro, in biblioteca</em>. Per «tornare a casa» si dice anche <em>tornare</em>: <em>Torno a casa.</em></figcaption></figure>",
+      "say": "Andare più che cosa? Andare a più una città: a Roma. Andare in più un paese: in Italia. Andare al, alla, all’ o ai più un luogo: al cinema, alla stazione. Andare da più una persona: dal medico, da Anna. Andare in più un mezzo: in autobus, in treno; ma a piedi. Andare a casa e andare a scuola, senza articolo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Come si parla del futuro?"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’italiano **non ha** una forma come l’inglese *be going to*. Per i progetti si usa di solito il **presente** con una parola di tempo, oppure altre espressioni."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Come si dice",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "Un progetto vicino",
+          "**presente** + parola di tempo",
+          "**Domani vado** a Roma. / **Stasera studio.**"
+        ],
+        [
+          "Un’intenzione",
+          "**ho intenzione di** + infinito",
+          "Ho intenzione di **studiare** stasera."
+        ],
+        [
+          "Un’idea",
+          "**penso di** + infinito",
+          "Penso di **partire** domani."
+        ],
+        [
+          "Sta per succedere",
+          "**stare per** + infinito",
+          "Il film **sta per** iniziare. / Guarda le nuvole! **Sta per** piovere."
+        ],
+        [
+          "Il futuro semplice *(A2)*",
+          "andrò, studierò…",
+          "Domani andrò a Roma. / Pioverà."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Attenzione a «andare a + infinito»</strong><p><em>Vado a mangiare</em> vuol dire che <strong>ti muovi</strong> verso un posto per mangiare. Per dire «sono sul punto di mangiare» si usa <em>stare per</em>: <em>Sto per mangiare.</em></p></div>",
+      "say": "Attenzione a «andare a + infinito» Vado a mangiare vuol dire che ti muovi verso un posto per mangiare. Per dire «sono sul punto di mangiare» si usa stare per: Sto per mangiare."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Passato, presente e futuro con andare</p><div class=\"lx-timeline\">\n       <div class=\"lx-time\"><h5>Passato <span class=\"lx-ex\">(A2)</span></h5><p><b>sono andato / andata</b></p><p class=\"lx-ex\">Ieri sono andato a Roma.</p><p class=\"lx-ex\">Non sono andato al lavoro.</p></div>\n       <div class=\"lx-time\"><h5>Adesso</h5><p><b>vado</b>: abitudine <b>o</b> adesso</p><p class=\"lx-ex\">Vado al lavoro in autobus.</p><p class=\"lx-ex\">Vado al lavoro adesso.</p></div>\n       <div class=\"lx-time\"><h5>Futuro</h5><p><b>presente</b> + domani / stasera</p><p class=\"lx-ex\">Domani vado a Roma.</p><p><b>sto per</b> + infinito</p><p class=\"lx-ex\">Sto per uscire.</p></div>\n     </div><figcaption class=\"lx-cap\">In italiano <em>Vado al lavoro</em> significa sia «I go to work» sia «I’m going to work»: il senso viene da <em>adesso, tutti i giorni, domani…</em></figcaption></figure>",
+      "say": "Passato, presente e futuro con andare. Passato, livello A2: sono andato, per esempio ieri sono andato a Roma. Adesso: vado, per un’abitudine o per adesso: vado al lavoro in autobus. Futuro: il presente più domani o stasera: domani vado a Roma; oppure sto per più infinito: sto per uscire. In italiano vado al lavoro significa sia I go to work sia I’m going to work."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Il passato di andare (A2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Al passato prossimo, **andare** usa **essere** (non *avere*), e il participio **concorda** con il soggetto."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Soggetto",
+        "Forma",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "io",
+          "sono andato (m.) / andata (f.)",
+          "Ieri sono andato al cinema."
+        ],
+        [
+          "tu",
+          "sei andato / andata",
+          "Dove sei andata?"
+        ],
+        [
+          "lui / lei",
+          "è andato / andata",
+          "Lei è andata alla stazione."
+        ],
+        [
+          "noi",
+          "siamo andati / andate",
+          "Siamo andati in Italia."
+        ],
+        [
+          "voi",
+          "siete andati / andate",
+          "Siete andati al museo?"
+        ],
+        [
+          "loro",
+          "sono andati / andate",
+          "Sono andati dal medico."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Espressioni con andare"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Andiamo! / Dai, andiamo!** — *Let’s go!*",
+        "**Come va? — Va bene.** — *How’s it going? — Fine.* *(si dice anche «Come stai? — Sto bene»)*",
+        "**Ti va un caffè? / Ti va di uscire?** — *Do you feel like a coffee / going out?* *(A2)*",
+        "**andare a trovare qualcuno** — *to visit someone*: *Vado a trovare Anna stasera.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Vado a Italia.</s></td><td>Vado <strong>in</strong> Italia.</td><td>Un paese: <em>in</em>.</td></tr><tr><td><s>Vado in Roma.</s></td><td>Vado <strong>a</strong> Roma.</td><td>Una città: <em>a</em>.</td></tr><tr><td><s>Vado a il cinema.</s></td><td>Vado <strong>al</strong> cinema.</td><td><em>a + il = al</em>.</td></tr><tr><td><s>Vado a la stazione.</s></td><td>Vado <strong>alla</strong> stazione.</td><td><em>a + la = alla</em>.</td></tr><tr><td><s>Vado di mangiare.</s></td><td>Vado <strong>a</strong> mangiare.</td><td>Scopo del movimento: <em>a</em> + infinito.</td></tr><tr><td><s>Ho andato al cinema.</s></td><td><strong>Sono andato</strong> al cinema.</td><td>Al passato: <em>essere</em> + participio.</td></tr><tr><td><s>Loro va al mare.</s></td><td>Loro <strong>vanno</strong> al mare.</td><td>Con <em>loro</em>: <em>vanno</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Vado a Italia.». Si dice «Vado in Italia.». Non «Vado in Roma.». Si dice «Vado a Roma.». Non «Vado a il cinema.». Si dice «Vado al cinema.». Non «Vado a la stazione.». Si dice «Vado alla stazione.». Non «Vado di mangiare.». Si dice «Vado a mangiare.». Non «Ho andato al cinema.». Si dice «Sono andato al cinema.». Non «Loro va al mare.». Si dice «Loro vanno al mare.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Vado ___ Italia in estate.",
+      "options": [
+        "a",
+        "in",
+        "al"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un paese: *in Italia*."
+    },
+    {
+      "type": "quiz",
+      "question": "Guarda le nuvole! ___ piovere.",
+      "options": [
+        "Sta per",
+        "Vado a",
+        "Ha"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sta per succedere: *Sta per piovere.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase parla del futuro in modo naturale?",
+      "options": [
+        "Domani vado a Roma.",
+        "Domani sono andato a Roma.",
+        "Domani andavo a Roma."
+      ],
+      "correctIndex": 0,
+      "explanation": "Presente + *domani*: *Domani vado a Roma.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Ieri noi ___ al cinema.",
+      "options": [
+        "abbiamo andato",
+        "siamo andati",
+        "andiamo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il passato di *andare* usa *essere*: *Siamo andati.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 8 — potere",
+      "id": "verb-can"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Potere** vuol dire *can* e *may*. Serve per la possibilità, il permesso, la capacità del momento e le richieste. Dopo *potere* si mette direttamente un **verbo all’infinito**: niente «a» e niente «di»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le forme"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">posso</mark></div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">puoi</mark><small>/ˈpwɔi/</small></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">può</mark><small>con l’accento</small></div><div class=\"lx-cell s2\"><b>noi</b> <mark class=\"lx-hl\">possiamo</mark></div><div class=\"lx-cell s2\"><b>voi</b> <mark class=\"lx-hl\">potete</mark></div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">possono</mark><small>accento: <b>pòs</b>sono</small></div></div></figure>",
+      "say": "Le forme di potere al presente: io posso, tu puoi, lui, lei, Lei può, noi possiamo, voi potete, loro possono."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attenzione: **puoi** (tu) e **può** (lui, lei, Lei) si somigliano. *Puoi aiutarmi?* parla a una persona che dai del *tu*; *Può aiutarmi?* parla a una persona che dai del *Lei*."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">La regola in una riga</p><p class=\"lx-core\">soggetto + <b>potere</b> + infinito</p>\n     <div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🗓️</span>Possibilità</div><p>Quello che è possibile.</p><p class=\"lx-ex\">Domani possiamo andare al cinema. · Qui può fare freddo in inverno.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">✅</span>Permesso</div><p>Quello che è permesso.</p><p class=\"lx-ex\">Posso entrare? · Qui non si può parcheggiare.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🙏</span>Richiesta</div><p>Chiedere a qualcuno di fare qualcosa.</p><p class=\"lx-ex\">Puoi aiutarmi? · Può ripetere, per favore?</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💪</span>Capacità del momento</div><p>Quello che puoi fare <em>adesso</em>.</p><p class=\"lx-ex\">Non posso venire: sono malato.</p></div>\n     </div><figcaption class=\"lx-cap\"><em>Per favore</em> rende cortese ogni richiesta: <em>Può ripetere, per favore?</em></figcaption></figure>",
+      "say": "La regola in una riga: soggetto più potere più infinito. Quattro usi: la possibilità, come domani possiamo andare al cinema; il permesso, come posso entrare; la richiesta, come puoi aiutarmi; e la capacità del momento, come non posso venire, sono malato. Per favore rende cortese ogni richiesta."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Potere o sapere?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🎓</span><span><b>sapere</b> + infinito</span></div><p>una capacità <b>imparata</b></p><p class=\"lx-ex\">So nuotare. · Lei sa guidare.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🚪</span><span><b>potere</b> + infinito</span></div><p>è possibile <b>adesso</b>: ho tempo, è permesso, niente mi ferma</p><p class=\"lx-ex\">Posso nuotare qui? · Posso venire domani.</p></div>\n     </div><figcaption class=\"lx-cap\">Esempio completo: <em>So nuotare, ma oggi non posso: ho mal di schiena.</em></figcaption></figure>",
+      "say": "Potere o sapere? Sapere più infinito, per una capacità imparata: so nuotare. Potere più infinito, quando è possibile adesso: posso nuotare qui? Esempio completo: so nuotare, ma oggi non posso, ho mal di schiena."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le frasi che userai"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Esempi"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "Posso venire. / Lui può guidare. / Possono aiutarci."
+        ],
+        [
+          "**−**",
+          "Non posso venire. / Lei non può rispondere. / Non possiamo partire."
+        ],
+        [
+          "**?**",
+          "Puoi aiutarmi? / Posso entrare? / Può parlare più lentamente?"
+        ],
+        [
+          "**Risposte**",
+          "Sì, certo! / Volentieri. / Mi dispiace, non posso."
+        ],
+        [
+          "**Più cortese** *(A2)*",
+          "**Potrebbe** aiutarmi, per favore? / **Potresti** ripetere?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Aiutarmi* = *aiutare* + *mi*. Con un infinito, il pronome si attacca alla fine: *Puoi aiutarmi? Posso farlo? Può ripeterlo?* <span class=\"lx-ex\">(A2)</span>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gli altri tempi (A2)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Idea",
+        "Si dice",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Possibilità nel passato",
+          "**non ho potuto** + infinito",
+          "Non ho potuto rispondere ieri."
+        ],
+        [
+          "Capacità nel passato",
+          "**potevo**",
+          "Potevo nuotare a cinque anni."
+        ],
+        [
+          "Possibilità nel futuro",
+          "**potrò**",
+          "L’anno prossimo potrò guidare."
+        ],
+        [
+          "Richiesta molto cortese",
+          "**potrei** / **potrebbe**",
+          "Potrei avere il conto, per favore?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Posso a venire.</s></td><td>Posso <strong>venire</strong>.</td><td>Nessuna preposizione dopo <em>potere</em>.</td></tr><tr><td><s>Tu può aiutarmi?</s></td><td>Tu <strong>puoi</strong> aiutarmi?</td><td><em>tu puoi</em>, <em>lui può</em>.</td></tr><tr><td><s>Loro può venire.</s></td><td>Loro <strong>possono</strong> venire.</td><td>Con <em>loro</em>: <em>possono</em>.</td></tr><tr><td><s>So venire domani.</s></td><td><strong>Posso</strong> venire domani.</td><td>Possibilità: <em>potere</em>, non <em>sapere</em>.</td></tr><tr><td><s>Posso nuotare. <i>(capacità imparata)</i></s></td><td><strong>So</strong> nuotare.</td><td>Capacità imparata: <em>sapere</em>.</td></tr><tr><td><s>Non posso a venire.</s></td><td>Non posso <strong>venire</strong>.</td><td>Nessuna preposizione.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Posso a venire.». Si dice «Posso venire .». Non «Tu può aiutarmi?». Si dice «Tu puoi aiutarmi?». Non «Loro può venire.». Si dice «Loro possono venire.». Non «So venire domani.». Si dice «Posso venire domani.». Non «Posso nuotare. (capacità imparata)». Si dice «So nuotare.». Non «Non posso a venire.». Si dice «Non posso venire .»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Lei ___ venire domani, è sicuro.",
+      "options": [
+        "può",
+        "puoi",
+        "possono"
+      ],
+      "correctIndex": 0,
+      "explanation": "Con *lei*: *può*."
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Posso a partire.",
+        "Posso partire.",
+        "Posso di partire."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nessuna preposizione dopo *potere*."
+    },
+    {
+      "type": "quiz",
+      "question": "Ha imparato a nuotare da bambino. Che cosa si dice?",
+      "options": [
+        "Può nuotare.",
+        "Sa nuotare.",
+        "Conosce nuotare."
+      ],
+      "correctIndex": 1,
+      "explanation": "Una capacità imparata: *sapere* → *Sa nuotare.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 9 — mangiare",
+      "id": "verb-eat"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Mangiare** vuol dire mettere il cibo in bocca e mandarlo giù. È un verbo in **-are**: stesso modello di *pensare*. Un piccolo dettaglio di scrittura: **tu mangi** ha una sola *i*; **noi mangiamo** ha la *i* davanti alla *a*."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> mang<mark class=\"lx-hl\">io</mark><small>/ˈman.dʒo/</small></div><div class=\"lx-cell s1\"><b>tu</b> mang<mark class=\"lx-hl\">i</mark></div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> mang<mark class=\"lx-hl\">ia</mark></div><div class=\"lx-cell s2\"><b>noi</b> mang<mark class=\"lx-hl\">iamo</mark></div><div class=\"lx-cell s2\"><b>voi</b> mang<mark class=\"lx-hl\">iate</mark></div><div class=\"lx-cell s3\"><b>loro</b> mang<mark class=\"lx-hl\">iano</mark><small>accento: <b>màn</b>giano</small></div></div></figure>",
+      "say": "Le forme di mangiare al presente: io mangio, tu mangi, lui, lei, Lei mangia, noi mangiamo, voi mangiate, loro mangiano."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Con o senza articolo? Segui le domande dall’alto in basso</p><div class=\"lx-flow\">\n       <div class=\"lx-step\"><div class=\"lx-q\">1. Parli di un <b>gusto in generale</b> (piacere, amare, odiare)?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>il / la / l’ / i / le</b>: <em>Mi piace il pane. Odio gli spinaci.</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">2. La frase è <b>negativa</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>niente articolo</b>: <em>Non mangio carne. Non bevo latte.</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">3. È <b>un solo oggetto</b> che puoi contare?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>un / una / un’</b>: <em>Mangio una mela. Lui mangia un panino.</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">4. Una <b>quantità</b>, o più oggetti?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> di solito <b>niente articolo</b>: <em>Mangio pane e formaggio.</em> Per dire «un po’ di»: <b>del / della / dei</b>: <em>Mangio della frutta.</em></div></div>\n     </div><figcaption class=\"lx-cap\">L’italiano usa spesso <strong>nessun articolo</strong> con il cibo e le bevande in generale: <em>Mangio pane. Bevo acqua.</em></figcaption></figure>",
+      "say": "Con o senza articolo? Uno: se parli di un gusto in generale, con piacere, amare, odiare: il, la, l’, i, le. Due: se la frase è negativa: niente articolo. Tre: se è un solo oggetto che puoi contare: un, una, un’. Quattro: per una quantità o più oggetti, di solito niente articolo; per dire un po’ di, del, della, dei."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le parole del cibo"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parola",
+        "Esempio",
+        "In English"
+      ],
+      "rows": [
+        [
+          "il pane",
+          "Mangio pane con formaggio.",
+          "bread"
+        ],
+        [
+          "il formaggio",
+          "Lei non mangia formaggio.",
+          "cheese"
+        ],
+        [
+          "la carne",
+          "Lui mangia carne.",
+          "meat"
+        ],
+        [
+          "il pesce",
+          "Mangi pesce?",
+          "fish"
+        ],
+        [
+          "il pollo",
+          "Mangiamo pollo la domenica.",
+          "chicken"
+        ],
+        [
+          "il riso",
+          "Mangiano riso ogni giorno.",
+          "rice"
+        ],
+        [
+          "la pasta",
+          "Mi piace la pasta. Mangio pasta stasera.",
+          "pasta"
+        ],
+        [
+          "la verdura",
+          "Mangia più verdura!",
+          "vegetables"
+        ],
+        [
+          "la frutta",
+          "A colazione mangio frutta.",
+          "fruit"
+        ],
+        [
+          "una mela",
+          "Lei mangia una mela al giorno.",
+          "an apple"
+        ],
+        [
+          "un uovo (le uova)",
+          "Mangio un uovo. / Mangio due uova.",
+          "an egg (eggs)"
+        ],
+        [
+          "un panino",
+          "Vorrei un panino, per favore.",
+          "a sandwich"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "I pasti"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pasto",
+        "Il verbo",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "la colazione",
+          "**fare** colazione",
+          "Faccio colazione alle sette."
+        ],
+        [
+          "il pranzo (mezzogiorno)",
+          "**pranzare**",
+          "Pranziamo a mezzogiorno."
+        ],
+        [
+          "la cena (sera)",
+          "**cenare**",
+          "Cenano alle otto."
+        ],
+        [
+          "al ristorante",
+          "**mangiare fuori** / **al ristorante**",
+          "Il sabato mangiamo fuori."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Buon appetito!** — si dice prima di mangiare: *Enjoy your meal!*",
+        "**qualcosa da mangiare:** *Ho fame. Voglio qualcosa da mangiare.* (La fame si dice con *avere*: verbo 2.)",
+        "**mangiare troppo, mangiare sano, mangiare insieme.**"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Adesso, o di solito?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Stare + gerundio: l’azione in corso</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><p><b>sto</b> · <b>stai</b> · <b>sta</b> · <b>stiamo</b> · <b>state</b> · <b>stanno</b></p><p>+ verbo in <b>-ando</b> (verbi in <i>-are</i>) o <b>-endo</b> (verbi in <i>-ere, -ire</i>)</p><p class=\"lx-ex\">Sto mangi<b>ando</b>. · Stai studi<b>ando</b>. · Sta bev<b>endo</b> un tè.</p></div>\n     </div><figcaption class=\"lx-cap\">Si usa per un’azione che succede <em>adesso</em>. Non si usa con <em>sapere, conoscere, piacere, volere</em>.</figcaption></figure>",
+      "say": "Stare più gerundio: l’azione in corso. Sto, stai, sta, stiamo, state, stanno, più un verbo in ando per i verbi in are, o in endo per i verbi in ere e ire. Sto mangiando. Stai studiando. Sta bevendo un tè. Si usa per un’azione che succede adesso. Non si usa con sapere, conoscere, piacere, volere."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Esempio",
+        "In English"
+      ],
+      "rows": [
+        [
+          "**Abitudine**",
+          "Mangio a mezzogiorno. / Lei mangia frutta ogni giorno.",
+          "I eat at noon."
+        ],
+        [
+          "**Adesso**",
+          "Sto mangiando. / Stanno pranzando.",
+          "I’m eating right now."
+        ],
+        [
+          "**Passato** *(A2)*",
+          "Ieri ho mangiato una pizza. / Abbiamo mangiato al ristorante.",
+          "I ate pizza yesterday."
+        ],
+        [
+          "**Negativo**",
+          "Non mangio carne. / Non ho mangiato.",
+          "I don’t eat meat. / I didn’t eat."
+        ],
+        [
+          "**Domanda**",
+          "Mangi carne? / Hai mangiato?",
+          "Do you eat meat? / Have you eaten?"
+        ],
+        [
+          "**Risposte** *(A2)*",
+          "Sì, ne mangio. / No, non ne mangio. / No, non ancora.",
+          "Yes, I do. / No, not yet."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Io mangi pasta.</s></td><td>Io <strong>mangio</strong> pasta.</td><td>Con <em>io</em>: <em>-o</em>.</td></tr><tr><td><s>Loro mangia.</s></td><td>Loro <strong>mangiano</strong>.</td><td>Con <em>loro</em>: <em>-ano</em>.</td></tr><tr><td><s>Mangio una colazione.</s></td><td><strong>Faccio</strong> colazione.</td><td>Pasto: <em>fare colazione</em>.</td></tr><tr><td><s>Non mangio della carne.</s></td><td>Non mangio carne.</td><td>Nella frase negativa: niente articolo.</td></tr><tr><td><s>Sono fame.</s></td><td><strong>Ho</strong> fame.</td><td>La fame: <em>avere</em>.</td></tr><tr><td><s>Sono mangiato una pizza.</s></td><td><strong>Ho</strong> mangiato una pizza.</td><td>Con <em>mangiare</em>: <em>avere</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Io mangi pasta.». Si dice «Io mangio pasta.». Non «Loro mangia.». Si dice «Loro mangiano .». Non «Mangio una colazione.». Si dice «Faccio colazione.». Non «Non mangio della carne.». Si dice «Non mangio carne.». Non «Sono fame.». Si dice «Ho fame.». Non «Sono mangiato una pizza.». Si dice «Ho mangiato una pizza.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Loro ___ alle otto.",
+      "options": [
+        "mangia",
+        "mangiano",
+        "mangiate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Con *loro*: *mangiano*."
+    },
+    {
+      "type": "quiz",
+      "question": "Lei non mangia ___.",
+      "options": [
+        "la carne",
+        "carne",
+        "della carne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nella frase negativa di solito non si mette l’articolo: *Non mangia carne.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Che cosa si dice per un’azione che succede adesso?",
+      "options": [
+        "Mangio adesso.",
+        "Sto mangiando.",
+        "Ho mangiato."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Stare* + gerundio: *Sto mangiando.*"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verbo 10 — bere",
+      "id": "verb-drink"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Bere** vuol dire mandare giù un liquido. Il verbo ha una particolarità: l’infinito è corto (**bere**), ma la radice di tutte le forme è **bev-**."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Una radice: bev-</p><div class=\"lx-grid3\"><div class=\"lx-cell s1\"><b>io</b> <mark class=\"lx-hl\">bev</mark>o</div><div class=\"lx-cell s1\"><b>tu</b> <mark class=\"lx-hl\">bev</mark>i</div><div class=\"lx-cell s1\"><b>lui / lei / Lei</b> <mark class=\"lx-hl\">bev</mark>e</div><div class=\"lx-cell s2\"><b>noi</b> <mark class=\"lx-hl\">bev</mark>iamo</div><div class=\"lx-cell s2\"><b>voi</b> <mark class=\"lx-hl\">bev</mark>ete</div><div class=\"lx-cell s3\"><b>loro</b> <mark class=\"lx-hl\">bev</mark>ono<small>accento: <b>bè</b>vono</small></div></div><figcaption class=\"lx-cap\">Participio passato: <em>bevuto</em> → <em>Ho bevuto dell’acqua.</em> (non <s>ho bevo</s>)</figcaption></figure>",
+      "say": "Una radice: bev. Io bevo, tu bevi, lui, lei, Lei beve, noi beviamo, voi bevete, loro bevono. Participio passato: bevuto. Ho bevuto dell’acqua."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le bevande"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parola",
+        "Esempio",
+        "In English"
+      ],
+      "rows": [
+        [
+          "l’acqua",
+          "Bevo acqua dopo lo sport.",
+          "water"
+        ],
+        [
+          "il latte",
+          "Lui beve latte la mattina.",
+          "milk"
+        ],
+        [
+          "il caffè",
+          "Bevi caffè?",
+          "coffee"
+        ],
+        [
+          "il tè",
+          "Lei beve tè la sera.",
+          "tea"
+        ],
+        [
+          "il succo d’arancia",
+          "I bambini bevono succo d’arancia.",
+          "orange juice"
+        ],
+        [
+          "la limonata",
+          "Beviamo limonata.",
+          "lemonade"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Si dice",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "**un bicchiere** d’acqua / di succo / di latte",
+          "Vorrei un bicchiere d’acqua, per favore."
+        ],
+        [
+          "**una tazza di** tè / caffè",
+          "Lei prende una tazza di tè ogni mattina."
+        ],
+        [
+          "**una bottiglia** d’acqua / di succo",
+          "Bevo una bottiglia d’acqua al giorno."
+        ],
+        [
+          "**una lattina di** cola",
+          "Lui vorrebbe una lattina di cola."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bere o prendere?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per ordinare o proporre una bevanda, gli italiani dicono spesso **prendere**: *Che cosa prendi? Prendo un caffè. Prendiamo qualcosa da bere?* Per «uscire a bere qualcosa insieme» si dice **bere qualcosa** o **prendere qualcosa**."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Proporre:** *Vuoi qualcosa da bere? / Che cosa vuoi bere?*",
+        "**Avere sete:** *Ho sete.* (verbo 2: *avere*)",
+        "**Brindare:** *Salute! / Cin cin!* — *Cheers!*",
+        "**Al bar:** in Italia «un caffè» è un **espresso**, piccolo e forte."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>«Beve.» da solo</strong><p>Senza complemento, <em>Lui beve.</em> può far pensare all’<strong>alcol</strong>. Specifica sempre che cosa si beve: <em>Lui beve acqua.</em></p></div>",
+      "say": "«Beve.» da solo Senza complemento, Lui beve. può far pensare all’ alcol . Specifica sempre che cosa si beve: Lui beve acqua."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Al ristorante</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Al ristorante\"><p class=\"lx-say\"><b>Cameriere</b>Che cosa desidera da bere?</p><p class=\"lx-say\"><b>Tu</b>Vorrei una bottiglia d’acqua, per favore.</p><p class=\"lx-say\"><b>Cameriere</b>Naturale o frizzante?</p><p class=\"lx-say\"><b>Tu</b>Naturale. E un caffè dopo il pasto.</p></div></figure>",
+      "say": "Al ristorante. Cameriere: Che cosa desidera da bere? Tu: Vorrei una bottiglia d’acqua, per favore. Cameriere: Naturale o frizzante? Tu: Naturale. E un caffè dopo il pasto."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Presente, adesso, passato"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Esempio",
+        "In English"
+      ],
+      "rows": [
+        [
+          "**Abitudine**",
+          "Bevo caffè la mattina. / Bevono tè.",
+          "I drink coffee in the morning."
+        ],
+        [
+          "**Adesso**",
+          "Sto bevendo un tè. / Stiamo bevendo acqua.",
+          "I’m drinking tea."
+        ],
+        [
+          "**Passato** *(A2)*",
+          "Ho bevuto acqua dopo la corsa. / Non ha bevuto il caffè.",
+          "I drank water after the run."
+        ],
+        [
+          "**Negativo**",
+          "Non bevo caffè. / Lei non beve latte.",
+          "I don’t drink coffee."
+        ],
+        [
+          "**Domanda**",
+          "Bevi caffè? / Che cosa bevete?",
+          "Do you drink coffee?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Errori frequenti"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Da evitare</th><th>Da dire</th><th>Perché</th></tr></thead><tbody><tr><td><s>Io bevi acqua.</s></td><td>Io <strong>bevo</strong> acqua.</td><td>Con <em>io</em>: <em>-o</em>.</td></tr><tr><td><s>Loro beve tè.</s></td><td>Loro <strong>bevono</strong> tè.</td><td>Con <em>loro</em>: <em>-ono</em>.</td></tr><tr><td><s>Ho bevo acqua.</s></td><td>Ho <strong>bevuto</strong> acqua.</td><td>Passato prossimo: <em>bevuto</em>.</td></tr><tr><td><s>Bevere acqua.</s></td><td><strong>Bere</strong> acqua.</td><td>L’infinito è <em>bere</em>.</td></tr><tr><td><s>Sono sete.</s></td><td><strong>Ho</strong> sete.</td><td>La sete: <em>avere</em>.</td></tr><tr><td><s>Un bicchiere di l’acqua.</s></td><td>Un bicchiere <strong>d’</strong>acqua.</td><td><em>di</em> + vocale = <em>d’</em>.</td></tr></tbody></table></div>",
+      "say": "Errori frequenti. Non «Io bevi acqua.». Si dice «Io bevo acqua.». Non «Loro beve tè.». Si dice «Loro bevono tè.». Non «Ho bevo acqua.». Si dice «Ho bevuto acqua.». Non «Bevere acqua.». Si dice «Bere acqua.». Non «Sono sete.». Si dice «Ho sete.». Non «Un bicchiere di l’acqua.». Si dice «Un bicchiere d’ acqua.»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Piccolo quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Noi ___ tè la sera.",
+      "options": [
+        "bevono",
+        "beviamo",
+        "bevi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Con *noi*: *beviamo*."
+    },
+    {
+      "type": "quiz",
+      "question": "Ieri ho ___ molta acqua.",
+      "options": [
+        "bevo",
+        "bevuto",
+        "bevuta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il participio passato di *bere* è *bevuto*: *Ho bevuto.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Scegli la frase corretta.",
+      "options": [
+        "Voglio bevere un tè.",
+        "Voglio bere un tè.",
+        "Voglio di bere un tè."
+      ],
+      "correctIndex": 1,
+      "explanation": "L’infinito è *bere*, senza preposizione dopo *volere*."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tutto insieme",
+      "id": "verb-together"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ora conosci dieci verbi. Quest’ultima doppia pagina mostra come funzionano **insieme**: come scegliere la forma giusta, come parlare del passato e del futuro, e come fare frasi più lunghe."
+    },
+    {
+      "type": "paragraph",
+      "text": "<figure class=\"lx-fig \"><p class=\"lx-title\">Quale forma scegliere? Segui le domande dall’alto in basso</p><div class=\"lx-flow\">\n       <div class=\"lx-step\"><div class=\"lx-q\">1. La frase è <b>negativa</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>non</b> + verbo: <em>Non mangio. Non è qui.</em><br>Con <em>niente, mai, nessuno</em> si usa anche <em>non</em>: <em>Non so niente.</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">2. È una <b>domanda</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> Stessa frase, la voce sale: <em>Mangi?</em> Con una parola interrogativa: <em>Dove vai?</em><br>Non serve nessun verbo «di aiuto».</div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">3. Si parla del <b>passato</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> Un’azione finita: <b>passato prossimo</b> (<em>ho mangiato, sono andato</em>). Uno stato o una descrizione: <b>imperfetto</b> (<em>ero stanco, avevo fame, volevo un caffè</em>).</div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">4. È un <b>progetto</b> o un’azione che sta per succedere?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>presente</b> + parola di tempo: <em>Domani vado a Roma.</em> Oppure <b>ho intenzione di</b> + infinito, <b>sto per</b> + infinito.</div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">5. Un’<b>abitudine</b>, un fatto, uno stato, o un’azione <b>in corso</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Sì</b> <b>Presente</b>: <em>Mangio a mezzogiorno. So la risposta.</em> In corso: <b>stare + gerundio</b>: <em>Sto mangiando.</em></div></div>\n     </div><figcaption class=\"lx-cap\">Questo schema vale per tutti e dieci i verbi.</figcaption></figure>",
+      "say": "Quale forma scegliere? Uno: frase negativa, non più il verbo. Due: domanda, la voce sale; non serve nessun verbo di aiuto. Tre: passato, passato prossimo per un’azione finita, imperfetto per uno stato o una descrizione. Quattro: progetto, presente più una parola di tempo, oppure ho intenzione di, oppure sto per. Cinque: abitudine, fatto o stato, presente; azione in corso, stare più gerundio."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "I dieci verbi a colpo d’occhio"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbo",
+        "Presente: io / noi",
+        "Passato",
+        "Da ricordare"
+      ],
+      "rows": [
+        [
+          "**essere** *(to be)*",
+          "sono / siamo",
+          "ero · sono stato/a",
+          "professione senza articolo; **c’è**"
+        ],
+        [
+          "**avere** *(to have)*",
+          "ho / abbiamo",
+          "avevo · ho avuto",
+          "età, fame; la **h** muta"
+        ],
+        [
+          "**pensare** *(to think)*",
+          "penso / pensiamo",
+          "pensavo · ho pensato",
+          "**secondo me**; **penso di sì**"
+        ],
+        [
+          "**sapere** *(to know)*",
+          "so / sappiamo",
+          "sapevo",
+          "informazione o infinito"
+        ],
+        [
+          "**conoscere** *(to know)*",
+          "conosco / conosciamo",
+          "conoscevo · ho conosciuto *(= I met)*",
+          "persona, luogo, cosa"
+        ],
+        [
+          "**piacere** *(to like)*",
+          "mi piace / ci piace",
+          "mi è piaciuto/a",
+          "la cosa è il soggetto"
+        ],
+        [
+          "**volere** *(to want)*",
+          "voglio / vogliamo",
+          "volevo",
+          "**vorrei** = cortese"
+        ],
+        [
+          "**andare** *(to go)*",
+          "vado / andiamo",
+          "sono andato/a",
+          "**a / in / da**"
+        ],
+        [
+          "**potere** *(can)*",
+          "posso / possiamo",
+          "potevo · non ho potuto",
+          "potere ≠ sapere"
+        ],
+        [
+          "**mangiare** *(to eat)*",
+          "mangio / mangiamo",
+          "ho mangiato",
+          "niente articolo"
+        ],
+        [
+          "**bere** *(to drink)*",
+          "bevo / beviamo",
+          "ho bevuto",
+          "bere, radice **bev-**"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Il passato: due tempi per due idee (A2)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Passato prossimo",
+        "Imperfetto"
+      ],
+      "rows": [
+        [
+          "**Per dire…**",
+          "un’azione **finita**",
+          "uno **stato**, una descrizione, un’abitudine del passato"
+        ],
+        [
+          "**Formazione**",
+          "avere (o essere) al presente + **participio passato**",
+          "radice + **-avo, -avi, -ava, -avamo, -avate, -avano** (verbi in -are)"
+        ],
+        [
+          "**Esempi**",
+          "Ho mangiato una pizza. / Sono andato a Roma. / Ho bevuto acqua.",
+          "Ero stanco. / Avevo fame. / Volevo un caffè. / Potevo nuotare."
+        ],
+        [
+          "**Negativo**",
+          "Non ho mangiato.",
+          "Non avevo fame."
+        ],
+        [
+          "**Domanda**",
+          "Hai mangiato?",
+          "Eri stanco?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbo",
+        "Participio passato",
+        "Con…",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "essere",
+          "stato",
+          "essere",
+          "Sono stato a Roma."
+        ],
+        [
+          "avere",
+          "avuto",
+          "avere",
+          "Ho avuto un’idea."
+        ],
+        [
+          "pensare",
+          "pensato",
+          "avere",
+          "Ho pensato a te."
+        ],
+        [
+          "piacere",
+          "piaciuto",
+          "essere",
+          "Mi è piaciuto il film. / Mi sono piaciuti i film."
+        ],
+        [
+          "andare",
+          "andato",
+          "essere",
+          "Lei è andata al mercato."
+        ],
+        [
+          "mangiare",
+          "mangiato",
+          "avere",
+          "Abbiamo mangiato la pasta."
+        ],
+        [
+          "bere",
+          "bevuto",
+          "avere",
+          "Lui ha bevuto un bicchiere d’acqua."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><strong>Per sapere, conoscere, volere, potere</strong><p>Per dire «sapevo, conoscevo, volevo, potevo» si usa soprattutto l’<strong>imperfetto</strong>: <em>Sapevo la risposta. Volevo un caffè.</em> Al passato prossimo il significato cambia (<em>ho saputo</em> = <em>ho scoperto</em>; <em>ho conosciuto</em> = <em>ho incontrato per la prima volta</em>): è un tema per più tardi.</p></div>",
+      "say": "Per sapere, conoscere, volere, potere Per dire «sapevo, conoscevo, volevo, potevo» si usa soprattutto l’ imperfetto: Sapevo la risposta. Volevo un caffè. Al passato prossimo il significato cambia ( ho saputo = ho scoperto; ho conosciuto = ho incontrato per la prima volta ): è un tema per più tardi."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-warn\"><strong>Con questi verbi niente «stare + gerundio»</strong><p>Non si dice <s>sto sapendo</s>, <s>sto conoscendo</s>, <s>mi sto piacendo</s>, <s>sto volendo</s>. Per sapere, conoscere, piacere e volere basta il presente: <em>Lo so. La conosco. Mi piace. Voglio un caffè.</em></p></div>",
+      "say": "Con questi verbi niente «stare + gerundio» Non si dice sto sapendo , sto conoscendo , mi sto piacendo , sto volendo . Per sapere, conoscere, piacere e volere basta il presente: Lo so. La conosco. Mi piace. Voglio un caffè."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fare frasi più lunghe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non servono centinaia di verbi per parlare. Bastano pochi verbi e la capacità di combinarli."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dici…",
+        "Che cosa combini"
+      ],
+      "rows": [
+        [
+          "Secondo me l’italiano è interessante perché mi piace imparare parole nuove.",
+          "**secondo me** + frase · **piacere** + infinito"
+        ],
+        [
+          "Voglio andare al ristorante, ma oggi non posso.",
+          "**volere** + infinito · **non** + verbo"
+        ],
+        [
+          "Lei lavora tutti i giorni, studia la sera e beve un tè prima di dormire.",
+          "presente, terza persona"
+        ],
+        [
+          "Ho mangiato alle otto, ma adesso ho fame.",
+          "passato prossimo + **avere** (fame)"
+        ],
+        [
+          "Stasera studiamo, ceniamo e guardiamo un film.",
+          "presente per il futuro + **stasera**"
+        ],
+        [
+          "So la risposta, ma secondo me è difficile da spiegare.",
+          "**sapere** + nome · **secondo me**"
+        ],
+        [
+          "Vorrei un bicchiere d’acqua, per favore. Posso avere anche del pane?",
+          "**vorrei** + nome · **potere** + infinito"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Una piccola storia: La mia giornata"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leggi il testo, poi ritrova le strutture nella tabella."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"lx-tip\"><p><b>Sono</b> Alex. <b>Lavoro</b> in un ufficio e la sera <b>studio</b> italiano. Mi <b>piace</b> imparare le lingue perché <b>secondo me</b> sono interessanti.</p>\n<p>Ogni mattina <b>mangio</b> pane e burro e <b>bevo</b> un caffè. <b>Vado</b> al lavoro in autobus. <b>So</b> che il mio lavoro a volte è difficile, ma mi piace.</p>\n<p>Oggi <b>sto lavorando</b> a casa. <b>Ho</b> fame: <b>mangio</b> un panino e <b>bevo</b> dell’acqua. <b>Posso</b> studiare durante la pausa.</p>\n<p>Ieri <b>sono andato</b> al ristorante con un’amica. <b>Abbiamo mangiato</b> la pasta e <b>bevuto</b> un succo.</p>\n<p>Domani <b>lavoro</b> la mattina e la sera <b>studio</b>. <b>Vorrei</b> parlare italiano senza difficoltà, un giorno.</p></div>",
+      "say": "La mia giornata. Sono Alex. Lavoro in un ufficio e la sera studio italiano. Mi piace imparare le lingue perché secondo me sono interessanti. Ogni mattina mangio pane e burro e bevo un caffè. Vado al lavoro in autobus. So che il mio lavoro a volte è difficile, ma mi piace. Oggi sto lavorando a casa. Ho fame: mangio un panino e bevo dell’acqua. Posso studiare durante la pausa. Ieri sono andato al ristorante con un’amica. Abbiamo mangiato la pasta e bevuto un succo. Domani lavoro la mattina e la sera studio. Vorrei parlare italiano senza difficoltà, un giorno."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nel testo",
+        "Struttura"
+      ],
+      "rows": [
+        [
+          "Sono Alex.",
+          "**essere**"
+        ],
+        [
+          "Lavoro · studio · mangio · bevo",
+          "presente (abitudini)"
+        ],
+        [
+          "Mi piace imparare · mi piace",
+          "**piacere** + infinito"
+        ],
+        [
+          "Secondo me sono interessanti.",
+          "**secondo me** + frase"
+        ],
+        [
+          "Ho fame.",
+          "**avere** + sensazione"
+        ],
+        [
+          "Sto lavorando.",
+          "**stare + gerundio** (azione in corso)"
+        ],
+        [
+          "So che… · posso studiare",
+          "**sapere che** · **potere** + infinito"
+        ],
+        [
+          "Sono andato · abbiamo mangiato e bevuto",
+          "passato prossimo"
+        ],
+        [
+          "Domani lavoro e studio.",
+          "presente + **domani** (futuro)"
+        ],
+        [
+          "Vorrei parlare italiano.",
+          "**vorrei** + infinito"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Scheda riassuntiva"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vuoi dire…",
+        "Struttura",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Un fatto, un’abitudine",
+          "soggetto (spesso omesso) + presente",
+          "Lavoro."
+        ],
+        [
+          "«No»",
+          "**non** + verbo",
+          "Non lavoro. / Non ho fratelli."
+        ],
+        [
+          "Una domanda",
+          "stessa frase, voce che sale",
+          "Lavori? / Dove lavori?"
+        ],
+        [
+          "Professione, stato, luogo",
+          "**essere** (+ aggettivo concordato)",
+          "Sono insegnante. / Lei è contenta."
+        ],
+        [
+          "Età, fame, freddo",
+          "**avere**",
+          "Ho venti anni. / Ho fame."
+        ],
+        [
+          "Un’azione in corso",
+          "**stare + gerundio**",
+          "Sto mangiando."
+        ],
+        [
+          "Possibilità, richiesta",
+          "**potere** + infinito",
+          "Posso venire. / Puoi aiutarmi?"
+        ],
+        [
+          "Una capacità",
+          "**sapere** + infinito",
+          "So nuotare."
+        ],
+        [
+          "Una persona, un luogo",
+          "**conoscere** + nome",
+          "Conosco Anna."
+        ],
+        [
+          "Un desiderio",
+          "**volere** + nome / infinito",
+          "Voglio acqua. / Voglio mangiare."
+        ],
+        [
+          "Un desiderio cortese",
+          "**vorrei** + nome / infinito",
+          "Vorrei un caffè."
+        ],
+        [
+          "Un gusto",
+          "**mi piace / mi piacciono**",
+          "Mi piace il caffè. / Mi piacciono i gatti."
+        ],
+        [
+          "Un progetto",
+          "presente + tempo · **ho intenzione di**",
+          "Domani vado a Roma."
+        ],
+        [
+          "Un evento passato",
+          "passato prossimo",
+          "Ho mangiato. / Sono andato/a."
+        ],
+        [
+          "Uno stato nel passato",
+          "imperfetto",
+          "Ero stanco."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Che cosa sai fare adesso"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "✅ Presentarti: nome, età, professione, origine (**essere, avere**).",
+        "✅ Parlare di quello che hai, ti piace e vuoi (**avere, piacere, volere**).",
+        "✅ Dare un’opinione e chiedere quella degli altri (**secondo me, pensare**), e dire se sei sicuro (**sapere**).",
+        "✅ Ordinare da mangiare e da bere in modo cortese (**vorrei, per favore**, **mangiare, bere**).",
+        "✅ Dire dove vai, come, e che cosa farai (**andare**).",
+        "✅ Chiedere aiuto o permesso, e dire che cosa puoi o non puoi fare (**potere**).",
+        "✅ Raccontare una piccola storia su ieri, oggi e domani."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Da dire ad alta voce"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Presentati: nome, età, professione e paese. *(essere, avere)*",
+        "Elenca tre cose che hai e due cose che non hai. *(avere, non)*",
+        "Dai la tua opinione sulla tua canzone preferita. *(secondo me, pensare)*",
+        "Elenca tre cose che sai e una persona o un luogo che conosci. *(sapere, conoscere)*",
+        "Spiega che cosa ti piace, che cosa adori e che cosa odi. *(piacere)*",
+        "Ordina una bevanda e qualcosa da mangiare al bar. *(volere, vorrei)*",
+        "Spiega come vai al lavoro o a scuola, e dove vai questo fine settimana. *(andare)*",
+        "Elenca tre cose che puoi fare e una che non puoi fare. *(potere, sapere)*",
+        "Racconta che cosa hai mangiato e bevuto ieri. *(mangiare, bere)*",
+        "Racconta la tua giornata a un amico, in cinque frasi. *(tutti i verbi)*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Verifica finale"
+    },
+    {
+      "type": "quiz",
+      "question": "Ieri lei ___ al cinema.",
+      "options": [
+        "ha andata",
+        "è andata",
+        "va"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il passato di *andare* usa *essere*, e il participio concorda: *Lei è andata al cinema.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase chiede dell’acqua in modo cortese?",
+      "options": [
+        "Voglio acqua.",
+        "Vorrei dell’acqua, per favore.",
+        "Dammi acqua."
+      ],
+      "correctIndex": 1,
+      "explanation": "*Vorrei …, per favore* è la forma cortese."
+    },
+    {
+      "type": "quiz",
+      "question": "Non posso ___ stasera.",
+      "options": [
+        "venire",
+        "a venire",
+        "di venire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nessuna preposizione dopo *potere*: *Non posso venire.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase parla del futuro in modo naturale?",
+      "options": [
+        "Domani vado a Roma.",
+        "Domani sono andato a Roma.",
+        "Domani andavo a Roma."
+      ],
+      "correctIndex": 0,
+      "explanation": "Presente + *domani*: *Domani vado a Roma.*"
+    },
+    {
+      "type": "quiz",
+      "question": "___ la risposta, ma non ___ questa persona.",
+      "options": [
+        "So / conosco",
+        "Conosco / so",
+        "So / so"
+      ],
+      "correctIndex": 0,
+      "explanation": "*Sapere* per un’informazione; *conoscere* per una persona."
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Continua a esercitarti su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), controlla tutte le coniugazioni su [COSYtools](https://cosylanguages.github.io/COSYtools/) e passa ai prossimi dieci verbi nella [parte 2](top-10-verbs-part-2-it.html).",
+      "say": "Continua a esercitarti su COSYpractice, controlla tutte le coniugazioni su COSYtools e passa ai prossimi dieci verbi nella parte 2."
     }
   ],
-  "draft": false
+  "draft": false,
+  "flipbook": {
+    "pageLimit": 12,
+    "headingBreakAfter": 6
+  }
 }
