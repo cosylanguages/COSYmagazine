@@ -133,3 +133,19 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
+
+/* ── Quiz blocks: reveal the answer only after a choice ─────────── */
+document.addEventListener('click', function (e) {
+  var btn = e.target.closest && e.target.closest('[data-quiz] .quiz-option-btn');
+  if (!btn) return;
+  var card = btn.closest('[data-quiz]');
+  if (card.getAttribute('data-done')) return;
+  var ok = btn.getAttribute('data-correct') === 'true';
+  btn.classList.add(ok ? 'is-right' : 'is-wrong');
+  btn.querySelector('.quiz-mark').textContent = ok ? '✅' : '❌';
+  if (ok) {
+    card.setAttribute('data-done', '1');
+    card.querySelectorAll('.quiz-option-btn').forEach(function (b) { b.disabled = true; });
+    var ex = card.querySelector('.quiz-explanation'); if (ex) ex.hidden = false;
+  } else { btn.disabled = true; }
+});

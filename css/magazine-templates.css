@@ -1623,3 +1623,10 @@ html[data-theme="dark"] .ppt-slide-footer {
     padding: 0.85rem;
   }
 }
+
+/* Quiz feedback states */
+.quiz-option-btn.is-right { border-color: #15803d; background: rgba(21, 128, 61, 0.12); }
+.quiz-option-btn.is-wrong { border-color: #b91c1c; background: rgba(185, 28, 28, 0.10); }
+.quiz-option-btn:disabled { cursor: default; opacity: 0.9; }
+.quiz-explanation { font-style: normal; font-size: var(--blog-text-sm, 0.9rem); }
+.gazette-figure-img { max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px; }

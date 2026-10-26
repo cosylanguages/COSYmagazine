@@ -248,16 +248,17 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
 </figure>`;
     }
     case 'quiz': {
+      // Interactive: the answer is not revealed until the learner picks (see js/shell.js)
       const optionsHtml = (block.options || []).map((opt, i) => `
-        <button type="button" class="quiz-option-btn${i === block.correctIndex ? ' correct-option' : ''}">
-          <span>${i === block.correctIndex ? '✅' : '⚪'}</span> ${parseFormattedText(opt)}
+        <button type="button" class="quiz-option-btn" data-correct="${i === block.correctIndex ? 'true' : 'false'}">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>${parseFormattedText(opt)}</span>
         </button>
       `).join('');
       return `
-<div class="gazette-quiz-card">
+<div class="gazette-quiz-card" data-quiz>
   <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
-  <div class="quiz-options-list">${optionsHtml}</div>
-  ${block.explanation ? `<p class="quiz-explanation">${parseFormattedText(block.explanation)}</p>` : ''}
+  <div class="quiz-options-list" role="group">${optionsHtml}</div>
+  ${block.explanation ? `<p class="quiz-explanation" hidden aria-live="polite">${parseFormattedText(block.explanation)}</p>` : ''}
 </div>`;
     }
     case 'culture-bite': {

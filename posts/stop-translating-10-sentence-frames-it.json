@@ -21,7 +21,7 @@
     "A0-B1",
     "Italian"
   ],
-  "readingTime": 8,
+  "readingTime": 9,
   "podcast": {
     "episode": 1,
     "audioUrl": null
@@ -46,62 +46,305 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Uno dei maggiori ostacoli per chi impara è tradurre parola per parola. Quando non conosci una parola, usa strutture per descrivere ciò che intendi."
+      "text": "Sei al mercato. Vuoi chiedere un *caricabatterie*, ma la parola è sparita. Il tuo cervello dice: *traduci!* Esiste un modo migliore. Non cercare la parola che manca. **Descrivila.**"
     },
     {
       "type": "paragraph",
-      "text": "Descrivere direttamente in italiano sviluppa una reale fluidità. Queste 10 strutture ti aiutano a descrivere persone, luoghi, oggetti e azioni."
+      "text": "È una vera abilità, e anche gli italiani la usano. Con 10 **strutture di frase** puoi descrivere una persona, un luogo, un oggetto o un momento. Spesso l'altra persona ti dà la parola. Poi continui a parlare."
+    },
+    {
+      "type": "culture-bite",
+      "title": "La regola d'oro",
+      "content": "Non restare mai in silenzio. Una struttura e un dettaglio bastano. Dillo, guarda la faccia dell'altra persona e aggiungi un secondo dettaglio solo se serve."
+    },
+    {
+      "type": "image",
+      "url": "images/stop-translating-flow-it.svg",
+      "alt": "Schema: 1. Non conosco la parola. 2. Scelgo una struttura. 3. Aggiungo un dettaglio. 4. Mi capiscono, continuo a parlare. Se non è chiaro, provo un'altra struttura.",
+      "caption": "**Il ciclo in 4 passi.** Usalo ogni volta che una parola sparisce."
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "💡 Le 10 strutture di frasi essenziali"
+      "level": 2,
+      "text": "Le 10 strutture di frase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Impara la struttura, non la parola. Leggi l'esempio ad alta voce, poi prova la stessa struttura con una parola nuova."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Struttura",
+        "Esempio",
+        "Serve a descrivere"
+      ],
+      "rows": [
+        [
+          "1",
+          "È una persona che…",
+          "È una persona che insegna ai bambini.",
+          "una persona (un insegnante)"
+        ],
+        [
+          "2",
+          "È un posto dove…",
+          "È un posto dove si compra da mangiare.",
+          "un luogo (un mercato)"
+        ],
+        [
+          "3",
+          "È una cosa che…",
+          "È una cosa che dice l'ora.",
+          "un oggetto (un orologio)"
+        ],
+        [
+          "4",
+          "È una cosa che si usa per…",
+          "È una cosa che si usa per scrivere.",
+          "uno strumento (una penna)"
+        ],
+        [
+          "5",
+          "È un momento in cui…",
+          "È un momento in cui si dorme.",
+          "un momento (la notte)"
+        ],
+        [
+          "6",
+          "È un giorno in cui…",
+          "È un giorno in cui si fa festa.",
+          "un giorno speciale (una festa)"
+        ],
+        [
+          "7",
+          "Per esempio…",
+          "Mi piace lo sport. Per esempio, il calcio e il tennis.",
+          "un'idea: fare esempi"
+        ],
+        [
+          "8",
+          "Vuol dire…",
+          "«Enorme» vuol dire molto grande.",
+          "una parola: usare parole semplici"
+        ],
+        [
+          "9",
+          "Assomiglia a…",
+          "Assomiglia a un piccolo computer.",
+          "l'aspetto: fare un paragone"
+        ],
+        [
+          "10",
+          "Come si dice… in italiano?",
+          "Come si dice questo in italiano?",
+          "qualsiasi parola: chiedere aiuto"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nella vita reale"
+    },
+    {
+      "type": "example",
+      "targetText": "Non conosco la parola, ma è una cosa che si usa per scrivere.",
+      "gloss": "Il cameriere sorride e ti porta una penna.",
+      "context": "In un bar, vuoi firmare il conto."
+    },
+    {
+      "type": "example",
+      "targetText": "Scusi, è un posto dove si compra da mangiare. Dov'è?",
+      "gloss": "La persona risponde: «Il mercato? È a due strade da qui.»",
+      "context": "In una città nuova, cerchi il mercato."
+    },
+    {
+      "type": "example",
+      "targetText": "È un tipo di frutta. È gialla. Assomiglia a una luna.",
+      "gloss": "Il tuo amico ride: «Una banana!»",
+      "context": "A una festa, hai dimenticato la parola."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10 espressioni di sopravvivenza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sono piccole aggiunte. Mettile dopo una struttura per dare più dettagli."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Espressione",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "1",
+          "È un tipo di…",
+          "È un tipo di animale."
+        ],
+        [
+          "2",
+          "È fatto di…",
+          "È fatto di legno o di metallo."
+        ],
+        [
+          "3",
+          "Serve per…",
+          "Serve per viaggiare."
+        ],
+        [
+          "4",
+          "È il contrario di…",
+          "È il contrario di «caro»."
+        ],
+        [
+          "5",
+          "Suona come…",
+          "Suona come musica."
+        ],
+        [
+          "6",
+          "Ha…",
+          "Ha quattro ruote."
+        ],
+        [
+          "7",
+          "È simile a…",
+          "È simile a una macchina."
+        ],
+        [
+          "8",
+          "Viene da…",
+          "Viene dalla Francia."
+        ],
+        [
+          "9",
+          "Non conosco la parola, ma…",
+          "Non conosco la parola, ma serve per cucinare."
+        ],
+        [
+          "10",
+          "Puoi ripetere, per favore?",
+          "Scusa, puoi ripetere più lentamente?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Il metodo in 3 passi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Descriviamo un **ombrello** senza dire la parola:"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Categoria:** È una cosa che ti protegge.",
+        "**Funzione:** Si usa quando piove.",
+        "**Dettaglio:** Assomiglia a un piccolo tetto."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tre frasi brevi. L'altra persona dice «Un ombrello!» e la conversazione continua."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Evita queste 4 trappole"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. È una persona che...** → *È una persona che insegna ai bambini.* (Insegnante)",
-        "**2. È un posto dove...** → *È un posto dove si compra il cibo.* (Mercato)",
-        "**3. È una cosa che...** → *È una cosa che mostra l'ora.* (Orologio)",
-        "**4. È qualcosa che si usa per...** → *È qualcosa che si usa per scrivere.* (Penna)",
-        "**5. È un momento in cui...** → *È un momento in cui le persone dormono.* (Notte)",
-        "**6. È un giorno in cui...** → *È un giorno in cui si festeggia.* (Festa)",
-        "**7. Per esempio...** → *Mi piace lo sport. Per esempio, il calcio.*",
-        "**8. Significa...** → *'Grande' significa non piccolo.*",
-        "**9. Sombra a...** → *Sembra un piccolo computer.*",
-        "**10. Come si dice... in italiano?** → *Come si dice questo in italiano?*"
+        "**Fermarti a «Non so».** Aggiungi una struttura. Il silenzio è l'unica risposta sbagliata.",
+        "**Sbagliare il pronome.** ✗ un posto che si compra → ✓ un posto **dove** si compra. ✗ un momento che si dorme → ✓ un momento **in cui** si dorme.",
+        "**Essere troppo lungo.** Una struttura + un dettaglio bastano. Poi chiedi: «Capisci?»",
+        "**Dimenticare le mani.** Indicare e fare gesti fa parte di una vera conversazione."
       ]
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "🚀 10 frasi di sopravvivenza"
+      "level": 2,
+      "text": "Quiz veloce"
+    },
+    {
+      "type": "quiz",
+      "question": "Dimentichi la parola «panetteria». Quale frase funziona meglio?",
+      "options": [
+        "(Non dire niente.)",
+        "È un posto dove si compra il pane.",
+        "Pane… pane… scusa.",
+        "Non parlo italiano."
+      ],
+      "correctIndex": 1,
+      "explanation": "«È un posto dove…» è la struttura perfetta per i luoghi. Chi ascolta sente «pane» e «posto»: una panetteria!"
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase descrive le «forbici»?",
+      "options": [
+        "È una persona che taglia la carta.",
+        "È una cosa che si usa per tagliare la carta.",
+        "È un giorno in cui si taglia la carta."
+      ],
+      "correctIndex": 1,
+      "explanation": "Le forbici sono uno strumento: usa «È una cosa che si usa per…»."
+    },
+    {
+      "type": "quiz",
+      "question": "Un amico dice: «È il contrario di caro.» Qual è la parola?",
+      "options": [
+        "Economico",
+        "Pesante",
+        "Silenzioso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Il contrario di caro è economico. Un ottimo modo per spiegare gli aggettivi!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Il tuo allenamento di 5 minuti"
     },
     {
       "type": "list-item",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "**1. È una specie di...** (*È una specie di animale.*)",
-        "**2. È fatto di...** (*È fatto di legno o metallo.*)",
-        "**3. Si usa per...** (*Si usa per viaggiare.*)",
-        "**4. È il contrario di...** (*È il contrario di costoso.*)",
-        "**5. Sembra...** (*Sembra musica.*)",
-        "**6. Ha...** (*Ha quattro ruote.*)",
-        "**7. È simile a...** (*È simile a un'auto.*)",
-        "**8. Viene da...** (*Viene dall'Italia.*)",
-        "**9. Non so la parola, ma...** (*Non so la parola, ma serve per cucinare.*)",
-        "**10. Puoi ripetere, per favore?** (*Puoi dirlo di nuovo?*)"
+        "Guardati intorno e scegli **5 oggetti**.",
+        "Descrivi ognuno con **una struttura**, senza dire il nome.",
+        "Aggiungi **un'espressione di sopravvivenza** ai due più difficili.",
+        "**Registrati** con il telefono e ascolta la tua voce.",
+        "Domani ripeti con 5 oggetti **nuovi**."
       ]
     },
     {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Allenati con gli esercizi COSY"
+    },
+    {
       "type": "heading",
-      "level": 3,
-      "text": "📌 Summary"
+      "level": 2,
+      "text": "In sintesi"
     },
     {
       "type": "paragraph",
-      "text": "La fluidità non significa conoscere ogni parola, ma non fermarsi mai. Usa queste frasi!"
+      "text": "Essere fluenti non vuol dire conoscere tutte le parole. Vuol dire non restare mai in silenzio. Impara le strutture, aggiungi un dettaglio e continua a parlare."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Descrivilo. Non tradurlo."
     }
   ],
   "draft": false

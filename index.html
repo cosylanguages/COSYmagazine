@@ -74,7 +74,10 @@
   <script type="module">
     import { renderCover } from './js/art/generator.js';
 
-    const LANG_NAMES = { en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά', es: 'Español', de: 'Deutsch', pt: 'Português' };
+    const LANG_NAMES = { en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά' };
+    const SITE_LANGS = Object.keys(LANG_NAMES); // the five navigation languages
+    // Language of the site navigation (set by js/shell.js), falls back to English
+    const navLang = () => { const l = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase(); return SITE_LANGS.includes(l) ? l : 'en'; };
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const tr = (key, fallback) => (window.t && window.t(key)) || fallback;
@@ -108,6 +111,7 @@
         const seenLangs = new Set();
         const variants = [];
         for (const v of rawVariants) {
+          if (!SITE_LANGS.includes(v.language)) continue;
           if (!seenLangs.has(v.language)) {
             seenLangs.add(v.language);
             variants.push(v);
@@ -115,14 +119,17 @@
         }
         variants.sort((a, b) => (a.translationOf ? 1 : 0) - (b.translationOf ? 1 : 0));
         return { base: variants[0], variants };
-      });
+      }).filter((g) => g.variants.length);
     }
     const hay = (g) => g.variants.map((p) => `${p.title} ${p.dek} ${(p.tags || []).join(' ')}`).join(' ').toLowerCase();
 
     function visibleGroups() {
       const q = state.q.trim().toLowerCase();
       return buildGroups(DATA.posts).map((g) => {
-        const shown = state.lang === 'all' ? g.base : g.variants.find((v) => v.language === state.lang);
+        // 'all' = follow the navigation language; fall back to English, then to the first translation
+        const want = state.lang === 'all' ? navLang() : state.lang;
+        const shown = g.variants.find((v) => v.language === want)
+          || (state.lang === 'all' ? (g.variants.find((v) => v.language === 'en') || g.base) : null);
         return shown ? { ...g, shown } : null;
       }).filter((g) => g
         && (state.desk === 'all' || g.base.desk === state.desk)
@@ -150,8 +157,8 @@
         `<button type="button" class="ns-chip" data-desk="all" aria-pressed="${state.desk === 'all'}">${esc(tr('option.all', 'All'))}<span>${groups.length}</span></button>` +
         desks.map((d) => `<button type="button" class="ns-chip" data-desk="${esc(d.key)}" aria-pressed="${state.desk === d.key}">${esc(deskLabel(d.key))}<span>${counts[d.key]}</span></button>`).join('');
 
-      const langs = [...new Set(DATA.posts.map((p) => p.language))];
-      $('ns-lang').innerHTML = `<option value="all">${esc(tr('blog.read_in', 'Read in').replace(/[:：]\s*$/, ''))}: ${esc(tr('option.all', 'All'))}</option>` +
+      const langs = SITE_LANGS;
+      $('ns-lang').innerHTML = `<option value="all">${esc(tr('blog.read_in', 'Read in').replace(/[:：]\s*$/, ''))}: ${esc(LANG_NAMES[navLang()])}</option>` +
         langs.map((l) => `<option value="${l}">${esc(LANG_NAMES[l] || l)}</option>`).join('');
       $('ns-lang').value = state.lang;
 
@@ -168,8 +175,9 @@
       if (filtering || !groups.length) { el.hidden = true; return; }
       const latestIssue = [...DATA.issues].sort((a, b) => b.number.localeCompare(a.number))[0];
       const inIssue = groups.filter((g) => g.base.issue?.number === latestIssue?.number);
-      const lead = (inIssue[0] || groups[0]).base;
-      const others = inIssue.filter((g) => g.base !== lead).slice(0, 4);
+      const leadGroup = inIssue[0] || groups[0];
+      const lead = leadGroup.shown;
+      const others = inIssue.filter((g) => g !== leadGroup).slice(0, 4);
       el.hidden = false;
       el.innerHTML = `
         <a class="ns-lead-art" href="${url(lead)}" data-cover aria-hidden="true" tabindex="-1">${renderCover(lead, { width: 800, height: 450, showText: false })}</a>
@@ -178,7 +186,7 @@
           <h2><a href="${url(lead)}" data-cover>${esc(lead.title)}</a></h2>
           <p>${esc(lead.dek)}</p>
           <a class="ns-btn" href="${url(lead)}" data-cover>Read the story →</a>
-          ${others.length ? `<ul class="ns-toc" aria-label="Also in this issue">${others.map((g) => `<li><small>${esc(g.base.desk)}</small><a href="${url(g.base)}" data-cover>${esc(g.base.title)}</a></li>`).join('')}</ul>` : ''}
+          ${others.length ? `<ul class="ns-toc" aria-label="Also in this issue">${others.map((g) => `<li><small>${esc(g.base.desk)}</small><a href="${url(g.shown)}" data-cover lang="${g.shown.language}">${esc(g.shown.title)}</a></li>`).join('')}</ul>` : ''}
         </div>`;
     }
 

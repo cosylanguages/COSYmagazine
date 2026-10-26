@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-25T17:54:37.969Z",
+  "generatedAt": "2026-10-26T07:41:57.100Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
@@ -2271,7 +2271,7 @@
         "A0-B1",
         "Greek"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2365,7 +2365,7 @@
         "A0-B1",
         "French"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2459,7 +2459,7 @@
         "A0-B1",
         "Italian"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2600,7 +2600,7 @@
         "A0-B1",
         "Russian"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2675,7 +2675,6 @@
       "id": "post-stop-translating-10-sentence-frames",
       "slug": "stop-translating-10-sentence-frames",
       "language": "en",
-      "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
       "format": "list",
       "level": "A0–A1 / A2",
@@ -2694,7 +2693,7 @@
         "A0-B1",
         "English"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
