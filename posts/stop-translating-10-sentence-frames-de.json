@@ -21,7 +21,7 @@
     "A0-B1",
     "German"
   ],
-  "readingTime": 8,
+  "readingTime": 9,
   "podcast": {
     "episode": 1,
     "audioUrl": null
@@ -46,62 +46,305 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Eines der größten Hindernisse beim Sprachenlernen ist das Wort-für-Wort-Übersetzen. Wenn Sie ein Wort nicht kennen, beschreiben Sie es einfach."
+      "text": "Sie sind auf dem Markt. Sie möchten ein *Ladegerät* kaufen, aber das Wort ist weg. Ihr Kopf sagt: *Übersetze!* Es gibt einen besseren Weg. Suchen Sie nicht das fehlende Wort. **Beschreiben Sie es.**"
     },
     {
       "type": "paragraph",
-      "text": "Dinge direkt auf Deutsch zu beschreiben schafft echte Flüssigkeit. Diese 10 Strukturen helfen Ihnen, Personen, Orte und Gegenstände zu erklären."
+      "text": "Das ist eine echte Fähigkeit, und auch Muttersprachler benutzen sie. Mit 10 **Satzstrukturen** können Sie eine Person, einen Ort, einen Gegenstand oder einen Moment beschreiben. Oft nennt Ihnen der andere das Wort. Dann sprechen Sie einfach weiter."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Die goldene Regel",
+      "content": "Schweigen Sie nie. Eine Struktur und ein Detail reichen. Sagen Sie es, schauen Sie dem anderen ins Gesicht und fügen Sie nur dann ein zweites Detail hinzu, wenn es nötig ist."
+    },
+    {
+      "type": "image",
+      "url": "images/stop-translating-flow-de.svg",
+      "alt": "Schema: 1. Ich kenne das Wort nicht. 2. Ich wähle eine Struktur. 3. Ich füge ein Detail hinzu. 4. Man versteht mich, ich spreche weiter. Wenn es unklar ist, probiere ich eine andere Struktur.",
+      "caption": "**Der Kreislauf in 4 Schritten.** Benutzen Sie ihn jedes Mal, wenn ein Wort fehlt."
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "💡 Die 10 wichtigsten Satzstrukturen"
+      "level": 2,
+      "text": "Die 10 Satzstrukturen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lernen Sie die Struktur, nicht das Wort. Lesen Sie das Beispiel laut und probieren Sie dieselbe Struktur mit einem neuen Wort."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Struktur",
+        "Beispiel",
+        "Hilft Ihnen zu beschreiben"
+      ],
+      "rows": [
+        [
+          "1",
+          "Das ist eine Person, die…",
+          "Das ist eine Person, die Kinder unterrichtet.",
+          "eine Person (Lehrerin)"
+        ],
+        [
+          "2",
+          "Das ist ein Ort, wo…",
+          "Das ist ein Ort, wo man Essen kauft.",
+          "einen Ort (Markt)"
+        ],
+        [
+          "3",
+          "Das ist ein Ding, das…",
+          "Das ist ein Ding, das die Uhrzeit zeigt.",
+          "einen Gegenstand (Uhr)"
+        ],
+        [
+          "4",
+          "Das benutzt man, um … zu…",
+          "Das benutzt man, um zu schreiben.",
+          "ein Werkzeug (Stift)"
+        ],
+        [
+          "5",
+          "Das ist eine Zeit, in der…",
+          "Das ist eine Zeit, in der man schläft.",
+          "einen Moment (Nacht)"
+        ],
+        [
+          "6",
+          "Das ist ein Tag, an dem…",
+          "Das ist ein Tag, an dem man feiert.",
+          "einen besonderen Tag (Feiertag)"
+        ],
+        [
+          "7",
+          "Zum Beispiel…",
+          "Ich mag Sport. Zum Beispiel Fußball und Tennis.",
+          "eine Idee: Beispiele geben"
+        ],
+        [
+          "8",
+          "Das heißt…",
+          "„Riesig“ heißt sehr groß.",
+          "ein Wort: einfach erklären"
+        ],
+        [
+          "9",
+          "Das sieht aus wie…",
+          "Das sieht aus wie ein kleiner Computer.",
+          "das Aussehen: vergleichen"
+        ],
+        [
+          "10",
+          "Wie sagt man … auf Deutsch?",
+          "Wie sagt man das auf Deutsch?",
+          "jedes Wort: um Hilfe bitten"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "So klingt es im Alltag"
+    },
+    {
+      "type": "example",
+      "targetText": "Ich kenne das Wort nicht, aber das benutzt man, um zu schreiben.",
+      "gloss": "Der Kellner lächelt und bringt Ihnen einen Stift.",
+      "context": "In einem Café möchten Sie die Rechnung unterschreiben."
+    },
+    {
+      "type": "example",
+      "targetText": "Entschuldigung, das ist ein Ort, wo man Essen kauft. Wo ist das?",
+      "gloss": "Ihr Gegenüber antwortet: „Der Markt? Zwei Straßen weiter.“",
+      "context": "In einer neuen Stadt suchen Sie den Markt."
+    },
+    {
+      "type": "example",
+      "targetText": "Das ist eine Art von Obst. Es ist gelb. Es sieht aus wie ein Mond.",
+      "gloss": "Ihr Freund lacht: „Eine Banane!“",
+      "context": "Auf einer Party ist Ihnen das Wort entfallen."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10 Überlebenssätze"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das sind kleine Zusätze. Setzen Sie sie nach einer Struktur ein, um mehr Details zu geben."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Satz",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "1",
+          "Das ist eine Art von…",
+          "Das ist eine Art von Tier."
+        ],
+        [
+          "2",
+          "Das ist aus … gemacht.",
+          "Das ist aus Holz oder Metall gemacht."
+        ],
+        [
+          "3",
+          "Man benutzt es zum…",
+          "Man benutzt es zum Reisen."
+        ],
+        [
+          "4",
+          "Das ist das Gegenteil von…",
+          "Das ist das Gegenteil von „teuer“."
+        ],
+        [
+          "5",
+          "Das klingt wie…",
+          "Das klingt wie Musik."
+        ],
+        [
+          "6",
+          "Das hat…",
+          "Das hat vier Räder."
+        ],
+        [
+          "7",
+          "Das ist ähnlich wie…",
+          "Das ist ähnlich wie ein Auto."
+        ],
+        [
+          "8",
+          "Das kommt aus…",
+          "Das kommt aus Italien."
+        ],
+        [
+          "9",
+          "Ich kenne das Wort nicht, aber…",
+          "Ich kenne das Wort nicht, aber es ist zum Kochen."
+        ],
+        [
+          "10",
+          "Können Sie das bitte wiederholen?",
+          "Entschuldigung, können Sie das bitte langsamer sagen?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Die Methode in 3 Schritten"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beschreiben wir einen **Regenschirm**, ohne das Wort zu sagen:"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Kategorie:** Das ist ein Ding, das einen schützt.",
+        "**Funktion:** Man benutzt es, wenn es regnet.",
+        "**Detail:** Das sieht aus wie ein kleines Dach."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Drei kurze Sätze. Der andere sagt „Ein Regenschirm!“ und das Gespräch geht weiter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vermeiden Sie diese 4 Fallen"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Das ist eine Person, die...** → *Das ist eine Person, die Kinder unterrichtet.* (Lehrer)",
-        "**2. Das ist ein Ort, wo...** → *Das ist ein Ort, wo man Essen kauft.* (Markt)",
-        "**3. Das ist ein Ding, das...** → *Das ist ein Ding, das die Zeit zeigt.* (Uhr)",
-        "**4. Das nutzt man, um zu...** → *Das nutzt man, um zu schreiben.* (Stift)",
-        "**5. Das ist eine Zeit, in der...** → *Das ist eine Zeit, in der Menschen schlafen.* (Nacht)",
-        "**6. Das ist ein Tag, an dem...** → *Das ist ein Tag, an dem man feiert.* (Feiertag)",
-        "**7. Zum Beispiel...** → *Ich mag Sport. Zum Beispiel Fußball.*",
-        "**8. Das bedeutet...** → *'Groß' bedeutet nicht klein.*",
-        "**9. Das sieht aus wie...** → *Das sieht aus wie ein kleiner Computer.*",
-        "**10. Wie sagt man... auf Deutsch?** → *Wie sagt man das auf Deutsch?*"
+        "**Bei „Ich weiß nicht“ stehen bleiben.** Fügen Sie stattdessen eine Struktur hinzu. Schweigen ist die einzige falsche Antwort.",
+        "**Das Verb am falschen Platz.** ✗ ein Ort, wo man kauft Essen → ✓ ein Ort, wo man Essen **kauft**. Im Nebensatz steht das Verb am Ende.",
+        "**Zu lang.** Eine Struktur + ein Detail reichen. Fragen Sie danach: „Verstehen Sie?“",
+        "**Die Hände vergessen.** Zeigen und Gesten gehören zu einem echten Gespräch."
       ]
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "🚀 10 wichtige Überlebenssätze"
+      "level": 2,
+      "text": "Kurzes Quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Ihnen fehlt das Wort „Bäckerei“. Welcher Satz funktioniert am besten?",
+      "options": [
+        "(Nichts sagen.)",
+        "Das ist ein Ort, wo man Brot kauft.",
+        "Brot… Brot… Entschuldigung.",
+        "Ich spreche kein Deutsch."
+      ],
+      "correctIndex": 1,
+      "explanation": "„Das ist ein Ort, wo…“ ist die ideale Struktur für Orte. Der andere hört „Brot“ und „Ort“: eine Bäckerei!"
+    },
+    {
+      "type": "quiz",
+      "question": "Welcher Satz beschreibt eine „Schere“?",
+      "options": [
+        "Das ist eine Person, die Papier schneidet.",
+        "Das benutzt man, um Papier zu schneiden.",
+        "Das ist ein Tag, an dem man Papier schneidet."
+      ],
+      "correctIndex": 1,
+      "explanation": "Eine Schere ist ein Werkzeug, also passt „Das benutzt man, um … zu…“."
+    },
+    {
+      "type": "quiz",
+      "question": "Ein Freund sagt: „Das ist das Gegenteil von teuer.“ Welches Wort ist gemeint?",
+      "options": [
+        "billig",
+        "schwer",
+        "leise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Das Gegenteil von „teuer“ ist „billig“. So erklären Sie Adjektive!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ihr 5-Minuten-Training"
     },
     {
       "type": "list-item",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "**1. Das ist eine Art von...** (*Das ist eine Art von Tier.*)",
-        "**2. Das ist aus... gemacht.** (*Das ist aus Holz gemacht.*)",
-        "**3. Das benutzt man für...** (*Das benutzt man zum Reisen.*)",
-        "**4. Das ist das Gegenteil von...** (*Das ist das Gegenteil von teuer.*)",
-        "**5. Das klingt wie...** (*Das klingt wie Musik.*)",
-        "**6. Das hat...** (*Das hat vier Räder.*)",
-        "**7. Das ist ähnlich wie...** (*Das ist ähnlich wie ein Auto.*)",
-        "**8. Das kommt aus...** (*Das kommt aus Deutschland.*)",
-        "**9. Ich kenne das Wort nicht, aber...** (*Ich kenne das Wort nicht, aber es ist zum Kochen.*)",
-        "**10. Können Sie das bitte wiederholen?** (*Noch einmal bitte?*)"
+        "Schauen Sie sich um und wählen Sie **5 Gegenstände**.",
+        "Beschreiben Sie jeden mit **einer Struktur**, ohne den Namen zu sagen.",
+        "Fügen Sie bei den zwei schwierigsten **einen Überlebenssatz** hinzu.",
+        "**Nehmen Sie sich auf** und hören Sie Ihre Stimme an.",
+        "Wiederholen Sie es morgen mit 5 **neuen** Gegenständen."
       ]
     },
     {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Üben Sie mit den COSY-Übungen"
+    },
+    {
       "type": "heading",
-      "level": 3,
-      "text": "📌 Summary"
+      "level": 2,
+      "text": "Zusammenfassung"
     },
     {
       "type": "paragraph",
-      "text": "Flüssigkeit bedeutet nicht, jedes Wort zu kennen, sondern nie zu verstummen. Nutzen Sie diese Sätze!"
+      "text": "Flüssig sprechen heißt nicht, jedes Wort zu kennen. Es heißt, nie zu verstummen. Lernen Sie die Strukturen, fügen Sie ein Detail hinzu und sprechen Sie weiter."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Beschreiben Sie es. Übersetzen Sie es nicht."
     }
   ],
   "draft": false
