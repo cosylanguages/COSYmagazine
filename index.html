@@ -74,28 +74,31 @@
   <script type="module">
     import { renderCover } from './js/art/generator.js';
 
+    // The newsstand shows cards in these five languages, following the language chosen in the site navigation.
+    const SUPPORTED = ['en', 'fr', 'it', 'ru', 'el'];
     const LANG_NAMES = { en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά' };
-    const SITE_LANGS = Object.keys(LANG_NAMES); // the five navigation languages
-    // Language of the site navigation (set by js/shell.js), falls back to English
-    const navLang = () => { const l = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase(); return SITE_LANGS.includes(l) ? l : 'en'; };
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const tr = (key, fallback) => (window.t && window.t(key)) || fallback;
     const url = (p) => `${p.slug}.html`;
 
     let DATA = { posts: [], desks: [], issues: [] };
-    const state = { q: '', desk: 'all', lang: 'all', issue: 'all' };
+    // state.lang: 'ui' = follow the navigation language (default) · a language code or 'all' = the reader pinned it.
+    const state = { q: '', desk: 'all', lang: 'ui', issue: 'all' };
+    const uiLang = () => { const l = (window.cosyUiLang ? window.cosyUiLang() : 'en'); return SUPPORTED.includes(l) ? l : 'en'; };
+    const effLang = () => (state.lang === 'ui' ? uiLang() : state.lang);
 
     /* ── State <-> URL ─────────────────────────────────────────── */
     function readUrl() {
       const sp = new URLSearchParams(location.search);
       state.q = sp.get('q') || ''; state.desk = sp.get('desk') || 'all';
-      state.lang = sp.get('lang') || 'all'; state.issue = sp.get('issue') || 'all';
+      const lp = sp.get('lang'); state.lang = (lp && (lp === 'all' || SUPPORTED.includes(lp))) ? lp : 'ui'; state.issue = sp.get('issue') || 'all';
     }
     function writeUrl() {
       const sp = new URLSearchParams();
       if (state.q) sp.set('q', state.q);
-      ['desk', 'lang', 'issue'].forEach((k) => { if (state[k] !== 'all') sp.set(k, state[k]); });
+      ['desk', 'issue'].forEach((k) => { if (state[k] !== 'all') sp.set(k, state[k]); });
+      if (state.lang !== 'ui') sp.set('lang', state.lang);
       history.replaceState(null, '', location.pathname + (sp.toString() ? '?' + sp : ''));
     }
 
@@ -111,7 +114,6 @@
         const seenLangs = new Set();
         const variants = [];
         for (const v of rawVariants) {
-          if (!SITE_LANGS.includes(v.language)) continue;
           if (!seenLangs.has(v.language)) {
             seenLangs.add(v.language);
             variants.push(v);
@@ -119,18 +121,18 @@
         }
         variants.sort((a, b) => (a.translationOf ? 1 : 0) - (b.translationOf ? 1 : 0));
         return { base: variants[0], variants };
-      }).filter((g) => g.variants.length);
+      });
     }
     const hay = (g) => g.variants.map((p) => `${p.title} ${p.dek} ${(p.tags || []).join(' ')}`).join(' ').toLowerCase();
 
     function visibleGroups() {
       const q = state.q.trim().toLowerCase();
       return buildGroups(DATA.posts).map((g) => {
-        // 'all' = follow the navigation language; fall back to English, then to the first translation
-        const want = state.lang === 'all' ? navLang() : state.lang;
-        const shown = g.variants.find((v) => v.language === want)
-          || (state.lang === 'all' ? (g.variants.find((v) => v.language === 'en') || g.base) : null);
-        return shown ? { ...g, shown } : null;
+        const want = effLang();
+        const exact = state.lang === 'all' ? g.base : g.variants.find((v) => v.language === want);
+        // No version in the chosen language yet: fall back to the original, and say so on the card.
+        const shown = exact || g.base;
+        return { ...g, shown, fallback: !exact };
       }).filter((g) => g
         && (state.desk === 'all' || g.base.desk === state.desk)
         && (state.issue === 'all' || g.base.issue?.number === state.issue)
@@ -141,12 +143,20 @@
     /* ── Rendering ─────────────────────────────────────────────── */
     function fmtDate(d) {
       const x = new Date(d);
-      return isNaN(x) ? d : x.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+      return isNaN(x) ? d : x.toLocaleDateString(effLang(), { month: 'short', day: 'numeric', year: 'numeric' });
     }
     function deskLabel(key) {
       const d = DATA.desks.find((x) => x.key === key) || { icon: '📰', i18n_key: '' };
       const t = d.i18n_key ? window.t(d.i18n_key.replace('_', '.')) : '';
       return `${d.icon} ${t || key.replace('&amp;', '&')}`;
+    }
+
+    // Issue titles come from the i18n dictionaries (blog.issue_<month>_title); fall back to the English title.
+    const MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+    function issueTitle(issue) {
+      const m = /(\d{4})\.(\d{2})/.exec(issue?.number || '');
+      const key = m ? `blog.issue_${MONTHS[parseInt(m[2], 10) - 1]}_title` : '';
+      return (key && window.t && window.t(key)) || issue?.title || '';
     }
 
     function renderFilters() {
@@ -157,21 +167,20 @@
         `<button type="button" class="ns-chip" data-desk="all" aria-pressed="${state.desk === 'all'}">${esc(tr('option.all', 'All'))}<span>${groups.length}</span></button>` +
         desks.map((d) => `<button type="button" class="ns-chip" data-desk="${esc(d.key)}" aria-pressed="${state.desk === d.key}">${esc(deskLabel(d.key))}<span>${counts[d.key]}</span></button>`).join('');
 
-      const langs = SITE_LANGS;
-      $('ns-lang').innerHTML = `<option value="all">${esc(tr('blog.read_in', 'Read in').replace(/[:：]\s*$/, ''))}: ${esc(LANG_NAMES[navLang()])}</option>` +
-        langs.map((l) => `<option value="${l}">${esc(LANG_NAMES[l] || l)}</option>`).join('');
-      $('ns-lang').value = state.lang;
+      $('ns-lang').innerHTML = SUPPORTED.map((l) => `<option value="${l}">${esc(LANG_NAMES[l])}</option>`).join('') +
+        `<option value="all">${esc(tr('index.all_languages', 'All languages'))}</option>`;
+      $('ns-lang').value = effLang();
 
       const issues = [...DATA.issues].sort((a, b) => b.number.localeCompare(a.number));
-      $('ns-issue').innerHTML = `<option value="all">All issues</option>` +
-        issues.map((i) => `<option value="${esc(i.number)}">${esc(i.number.replace('Vol. ', ''))} · ${esc(i.title)}</option>`).join('');
+      $('ns-issue').innerHTML = `<option value="all">${esc(tr('index.all_issues', 'All issues'))}</option>` +
+        issues.map((i) => `<option value="${esc(i.number)}">${esc(i.number.replace('Vol. ', ''))} · ${esc(issueTitle(i))}</option>`).join('');
       $('ns-issue').value = state.issue;
       $('ns-q').value = state.q;
     }
 
     function renderLead(groups) {
       const el = $('ns-lead');
-      const filtering = state.q || state.desk !== 'all' || state.lang !== 'all' || state.issue !== 'all';
+      const filtering = state.q || state.desk !== 'all' || state.issue !== 'all' || (state.lang !== 'ui' && state.lang !== uiLang());
       if (filtering || !groups.length) { el.hidden = true; return; }
       const latestIssue = [...DATA.issues].sort((a, b) => b.number.localeCompare(a.number))[0];
       const inIssue = groups.filter((g) => g.base.issue?.number === latestIssue?.number);
@@ -182,11 +191,11 @@
       el.innerHTML = `
         <a class="ns-lead-art" href="${url(lead)}" data-cover aria-hidden="true" tabindex="-1">${renderCover(lead, { width: 800, height: 450, showText: false })}</a>
         <div>
-          <span class="ns-issue-tag">Latest issue · ${esc((latestIssue?.number || '').replace('Vol. ', ''))} · ${esc(latestIssue?.title || '')}</span>
-          <h2><a href="${url(lead)}" data-cover>${esc(lead.title)}</a></h2>
-          <p>${esc(lead.dek)}</p>
-          <a class="ns-btn" href="${url(lead)}" data-cover>Read the story →</a>
-          ${others.length ? `<ul class="ns-toc" aria-label="Also in this issue">${others.map((g) => `<li><small>${esc(g.base.desk)}</small><a href="${url(g.shown)}" data-cover lang="${g.shown.language}">${esc(g.shown.title)}</a></li>`).join('')}</ul>` : ''}
+          <span class="ns-issue-tag">${esc(tr('index.latest_issue', 'Latest issue'))} · ${esc((latestIssue?.number || '').replace('Vol. ', ''))} · ${esc(issueTitle(latestIssue))}</span>
+          <h2><a href="${url(lead)}" data-cover lang="${lead.language}">${esc(lead.title)}</a></h2>
+          <p lang="${lead.language}">${esc(lead.dek)}</p>
+          <a class="ns-btn" href="${url(lead)}" data-cover>${esc(tr('index.read_story', 'Read the story →'))}</a>
+          ${others.length ? `<ul class="ns-toc" aria-label="${esc(tr('index.also_in_issue', 'Also in this issue'))}">${others.map((g) => `<li><small>${esc(deskLabel(g.base.desk))}</small><a href="${url(g.shown)}" data-cover lang="${g.shown.language}">${esc(g.shown.title)}</a></li>`).join('')}</ul>` : ''}
         </div>`;
     }
 
@@ -211,31 +220,31 @@
             <p class="ns-dek" lang="${p.language}">${esc(p.dek)}</p>
 
             <div class="ns-card-langs">
-              <span class="ns-langs-badge">🌐 ${totalLangs} ${totalLangs === 1 ? 'Language' : 'Languages'}</span>
+              <span class="ns-langs-badge">🌐 ${esc(tr('index.languages_label', 'Languages'))}: ${totalLangs}</span>${g.fallback && p.language === 'en' ? `<span class="ns-fallback">${esc(tr('index.only_in_english', 'Only in English'))}</span>` : ''}
               <div class="ns-langs-pills" aria-label="Available languages">
                 ${langPills}
               </div>
             </div>
 
             <div class="ns-foot">
-              <span>${fmtDate(g.base.date)}</span><span>·</span><span>${p.readingTime || 5} min</span>
+              <span>${fmtDate(g.base.date)}</span><span>·</span><span>${p.readingTime || 5} ${esc(tr('blog.min_read', 'min read'))}</span>
             </div>
           </div>
         </article>`;
       }).join('');
       $('ns-empty').hidden = groups.length > 0;
-      $('ns-count').textContent = `${groups.length} article${groups.length === 1 ? '' : 's'}`;
-      $('ns-reset').hidden = !(state.q || state.desk !== 'all' || state.lang !== 'all' || state.issue !== 'all');
+      $('ns-count').textContent = `${tr('index.articles_label', 'Articles')}: ${groups.length}`;
+      $('ns-reset').hidden = !(state.q || state.desk !== 'all' || state.lang !== 'ui' || state.issue !== 'all');
       document.querySelectorAll('#ns-desks .ns-chip').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.desk === state.desk)));
       writeUrl();
     }
 
     /* ── Events ────────────────────────────────────────────────── */
     $('ns-q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
-    $('ns-lang').addEventListener('change', (e) => { state.lang = e.target.value; render(); });
+    $('ns-lang').addEventListener('change', (e) => { state.lang = e.target.value === uiLang() ? 'ui' : e.target.value; render(); });
     $('ns-issue').addEventListener('change', (e) => { state.issue = e.target.value; render(); });
     $('ns-desks').addEventListener('click', (e) => { const b = e.target.closest('.ns-chip'); if (b) { state.desk = b.dataset.desk; render(); } });
-    $('ns-reset').addEventListener('click', () => { Object.assign(state, { q: '', desk: 'all', lang: 'all', issue: 'all' }); $('ns-q').value = ''; $('ns-lang').value = 'all'; $('ns-issue').value = 'all'; render(); });
+    $('ns-reset').addEventListener('click', () => { Object.assign(state, { q: '', desk: 'all', lang: 'ui', issue: 'all' }); $('ns-q').value = ''; $('ns-lang').value = effLang(); $('ns-issue').value = 'all'; render(); });
     document.addEventListener('click', (e) => {
       const a = e.target.closest('a[data-cover]');
       if (!a || e.ctrlKey || e.metaKey || e.shiftKey || !document.startViewTransition) return;
@@ -244,7 +253,8 @@
       if (art) art.style.viewTransitionName = 'post-cover';
       document.startViewTransition(() => { location.href = a.href; });
     });
-    document.addEventListener('cosy:langchange', () => { renderFilters(); render(); });
+    // Changing the navigation language re-themes the whole newsstand: cards switch to that language.
+    document.addEventListener('cosy:langchange', () => { state.lang = 'ui'; renderFilters(); render(); });
 
     /* ── Boot ──────────────────────────────────────────────────── */
     readUrl();
@@ -254,7 +264,7 @@
       setTimeout(res, 2000);
     });
     Promise.all([fetch('index.json').then((r) => r.json()), i18nReady]).then(([d]) => {
-      DATA = { posts: d.posts || [], desks: d.desks || [], issues: d.issues || [] };
+      DATA = { posts: (d.posts || []).filter((p) => SUPPORTED.includes(p.language)), desks: d.desks || [], issues: d.issues || [] };
       renderFilters(); render();
     }).catch(() => { $('ns-empty').hidden = false; $('ns-empty').textContent = 'The magazine could not be loaded. Please refresh.'; });
   </script>

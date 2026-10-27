@@ -161,7 +161,11 @@
     "latest_issue": "Τελευταίο τεύχος",
     "read_story": "Διαβάστε το άρθρο →",
     "also_in_issue": "Επίσης σε αυτό το τεύχος",
-    "all_issues": "Όλα τα τεύχη"
+    "all_issues": "Όλα τα τεύχη",
+    "languages_label": "Γλώσσες",
+    "articles_label": "Άρθρα",
+    "only_in_english": "Μόνο στα αγγλικά",
+    "all_languages": "Όλες οι γλώσσες"
   },
   "blog": {
     "back_to_hub": "← Πίσω στο Κέντρο Σύνταξης",

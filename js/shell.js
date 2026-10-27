@@ -31,6 +31,8 @@
     return LANGS[s] ? s : 'en';
   }
 
+  window.cosyUiLang = uiLang;
+
   /* ── Translations ─────────────────────────────────────────────── */
   var dict = {};
   function flatten(o, prefix, out) {

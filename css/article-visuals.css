@@ -1,0 +1,246 @@
+/* ==========================================================================
+   COSYmagazine — Article visuals (css/article-visuals.css)
+   Verb cards, step flows, decision trees, collocation maps, meaning scales,
+   before/after panels, practice plan, interactive quiz states.
+   All colours come from the shared tokens, so dark mode follows automatically.
+   Layout is single-column first (flipbook pages are narrow), widening with
+   container queries when the figure has room.
+   ========================================================================== */
+
+:root {
+  --av-everyday: #0d9488;
+  --av-work: #b45309;
+  --av-formal: #4f46e5;
+  --av-bad: #be123c;
+  --av-good: #0f766e;
+  --av-radius: 14px;
+}
+html[data-theme="dark"] {
+  --av-everyday: #2dd4bf;
+  --av-work: #fbbf24;
+  --av-formal: #a5b4fc;
+  --av-bad: #fb7185;
+  --av-good: #5eead4;
+}
+
+.cosy-fig,
+.vcard,
+.ba,
+.plan7,
+.av-legend {
+  container-type: inline-size;
+  box-sizing: border-box;
+  margin: 1.5rem 0;
+  font-family: var(--blog-font-body, 'DM Sans', sans-serif);
+  color: var(--blog-ink-primary, #1c1917);
+  break-inside: avoid;
+  page-break-inside: avoid;
+  clear: both;
+}
+
+/* ── Figure frame ─────────────────────────────────────────────────────── */
+.cosy-fig {
+  background: var(--blog-paper-card, #fff);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-radius: var(--av-radius);
+  padding: 1.1rem 1.1rem 0.9rem;
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,.06));
+}
+.cosy-fig-kicker {
+  font-size: 0.7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--post-palette-accent, #0d9488); margin: 0 0 .25rem;
+}
+.cosy-fig-title {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 1.15rem; line-height: 1.25; margin: 0 0 .85rem; color: var(--blog-ink-primary, #1c1917);
+}
+.cosy-fig-cap {
+  font-size: .8rem; line-height: 1.45; color: var(--blog-ink-muted, #78716c); margin: .85rem 0 0;
+  border-top: 1px dashed var(--blog-border-delicate, #e7e0d6); padding-top: .6rem;
+}
+
+/* ── Legend ───────────────────────────────────────────────────────────── */
+.av-legend {
+  display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center;
+  font-size: .8rem; margin: 1rem 0; padding: .6rem .8rem;
+  background: var(--blog-paper-aged, #f3ede4); border-radius: 10px;
+}
+.av-legend b { font-weight: 800; }
+
+/* ── Register tags (the alternative verbs) ────────────────────────────── */
+.vtag {
+  display: inline-flex; align-items: center; gap: .3rem;
+  padding: .18rem .6rem; border-radius: 999px; font-weight: 700; font-size: .92rem; line-height: 1.35;
+  border: 1.5px solid currentColor; background: transparent; white-space: nowrap;
+}
+.vtag.is-everyday { color: var(--av-everyday); background: color-mix(in srgb, var(--av-everyday) 12%, transparent); }
+.vtag.is-work     { color: var(--av-work);     background: color-mix(in srgb, var(--av-work) 12%, transparent); }
+.vtag.is-formal   { color: var(--av-formal);   background: color-mix(in srgb, var(--av-formal) 12%, transparent); }
+.vtag .vtag-ic { font-size: .78em; opacity: .9; }
+.vtag.is-stretch::after { content: "★"; font-size: .7em; }
+
+/* ── Verb card ────────────────────────────────────────────────────────── */
+.vcard {
+  background: var(--blog-paper-card, #fff);
+  border: 2px solid var(--blog-border-strong, #292524);
+  border-radius: var(--av-radius);
+  box-shadow: var(--blog-shadow-stamp, 3px 3px 0 rgba(28,25,23,.9));
+  padding: 0; overflow: hidden;
+}
+.vcard-head {
+  display: grid; grid-template-columns: auto 1fr; gap: .15rem .8rem; align-items: center;
+  padding: .85rem 1.1rem;
+  background: var(--blog-paper-aged, #f3ede4);
+  border-bottom: 2px solid var(--blog-border-strong, #292524);
+}
+.vcard-num {
+  grid-row: 1 / span 2; width: 2.4rem; height: 2.4rem; display: grid; place-items: center;
+  border-radius: 50%; background: var(--post-palette-accent, #0d9488); color: #fff;
+  font-family: var(--post-font-display, 'Fraunces', serif); font-weight: 800; font-size: 1.1rem;
+}
+.vcard-title {
+  margin: 0; font-family: var(--post-font-display, 'Fraunces', serif); font-size: 1.55rem; line-height: 1.1;
+  color: var(--blog-ink-primary, #1c1917); border: 0; padding: 0;
+}
+.vcard-title::after { display: none; }
+.vcard-sub { margin: 0; font-size: .85rem; color: var(--blog-ink-secondary, #44403c); line-height: 1.35; }
+.vrows { list-style: none; margin: 0; padding: .35rem 1.1rem .2rem; }
+.vrow {
+  display: grid; gap: .35rem; padding: .8rem 0;
+  border-bottom: 1px dashed var(--blog-border-delicate, #e7e0d6);
+}
+.vrow:last-child { border-bottom: 0; }
+.vrow-meaning {
+  font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--blog-ink-muted, #78716c);
+}
+.vrow-verbs { display: flex; flex-wrap: wrap; gap: .4rem; }
+.vrow-ex { font-size: .95rem; line-height: 1.5; color: var(--blog-ink-primary, #1c1917); }
+.vrow-ex .ex-from { color: var(--blog-ink-muted, #78716c); }
+.vrow-ex .ex-arrow { color: var(--blog-ink-muted, #78716c); margin: 0 .2rem; }
+.vrow-ex mark, .ba mark, .hl {
+  background: color-mix(in srgb, var(--post-palette-highlight, #d69e2e) 35%, transparent);
+  color: inherit; padding: 0 .2em; border-radius: 3px; font-weight: 700;
+}
+.vrow-note { font-size: .82rem; color: var(--blog-ink-secondary, #44403c); line-height: 1.4; }
+.vcard-trap {
+  margin: 0; padding: .8rem 1.1rem; font-size: .88rem; line-height: 1.5;
+  background: color-mix(in srgb, var(--av-bad) 9%, transparent);
+  border-top: 2px solid var(--blog-border-strong, #292524);
+  color: var(--blog-ink-primary, #1c1917);
+}
+.vcard-trap b { color: var(--av-bad); }
+.vcard-trap .bad { color: var(--av-bad); text-decoration: line-through; }
+.vcard-trap .good { color: var(--av-good); font-weight: 700; }
+
+@container (min-width: 520px) {
+  .vrow { grid-template-columns: 11rem 1fr; column-gap: 1rem; }
+  .vrow-meaning { grid-column: 1; grid-row: 1 / span 2; padding-top: .3rem; }
+  .vrow-verbs, .vrow-ex, .vrow-note { grid-column: 2; }
+}
+
+/* ── 3-step method flow ───────────────────────────────────────────────── */
+.flow3 { display: grid; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.flow-step {
+  position: relative; display: grid; grid-template-columns: auto 1fr; gap: .15rem .75rem; align-items: start;
+  background: var(--blog-paper-aged, #f3ede4); border-radius: 12px; padding: .8rem .95rem;
+}
+.flow-step + .flow-step::before {
+  content: "↓"; position: absolute; top: -1.05rem; left: 1.35rem; font-weight: 800;
+  color: var(--post-palette-accent, #0d9488);
+}
+.flow-n {
+  grid-row: 1 / span 3; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center;
+  background: var(--post-palette-accent, #0d9488); color: #fff; font-weight: 800;
+}
+.flow-title { font-weight: 800; font-size: 1rem; }
+.flow-text { font-size: .88rem; color: var(--blog-ink-secondary, #44403c); line-height: 1.4; }
+.flow-ex { font-size: .88rem; line-height: 1.45; }
+@container (min-width: 600px) {
+  .flow3 { grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+  .flow-step { grid-template-columns: 1fr; }
+  .flow-n { grid-row: auto; }
+  .flow-step + .flow-step::before { content: "→"; top: 1rem; left: -1.15rem; }
+}
+
+/* ── Decision tree (meaning finder) ───────────────────────────────────── */
+.dtree-q {
+  display: inline-block; padding: .55rem .9rem; border-radius: 10px; font-weight: 800;
+  background: var(--blog-border-strong, #292524); color: var(--blog-paper-card, #fff);
+  margin-bottom: .6rem;
+}
+.dtree { list-style: none; margin: 0; padding: 0 0 0 .9rem; border-left: 3px solid var(--post-palette-accent, #0d9488); display: grid; gap: .55rem; }
+.dtree li { display: grid; gap: .25rem; position: relative; padding: .1rem 0 .1rem .9rem; }
+.dtree li::before {
+  content: ""; position: absolute; left: -.9rem; top: 1.05rem; width: .9rem; border-top: 3px solid var(--post-palette-accent, #0d9488);
+}
+.dtree-if { font-size: .9rem; color: var(--blog-ink-secondary, #44403c); }
+.dtree-then { display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; }
+.dtree-then .arr { font-weight: 800; color: var(--post-palette-accent, #0d9488); }
+.dtree-ex { font-size: .85rem; color: var(--blog-ink-muted, #78716c); font-style: italic; }
+
+/* ── Collocation map ──────────────────────────────────────────────────── */
+.collo { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: .65rem; }
+.collo-col { background: var(--blog-paper-aged, #f3ede4); border-radius: 12px; padding: .7rem .75rem .8rem; }
+.collo-verb {
+  font-family: var(--post-font-display, 'Fraunces', serif); font-weight: 800; font-size: 1.15rem;
+  color: var(--post-palette-accent, #0d9488); margin: 0 0 .1rem;
+}
+.collo-hint { font-size: .72rem; color: var(--blog-ink-muted, #78716c); margin: 0 0 .5rem; line-height: 1.3; }
+.collo-chips { display: flex; flex-wrap: wrap; gap: .3rem; }
+.chip {
+  font-size: .82rem; padding: .12rem .5rem; border-radius: 8px; line-height: 1.4;
+  background: var(--blog-paper-card, #fff); border: 1px solid var(--blog-border-delicate, #e7e0d6);
+}
+
+/* ── Meaning scale (certainty / attention / strength) ─────────────────── */
+.scale { margin: 0; padding: 0; list-style: none; display: grid; gap: .45rem; position: relative; }
+.scale-step {
+  display: grid; grid-template-columns: 1.1rem 1fr; gap: .1rem .7rem; align-items: start; position: relative;
+  padding-bottom: .25rem;
+}
+.scale-dot {
+  width: .95rem; height: .95rem; border-radius: 50%; margin-top: .3rem; position: relative; z-index: 1;
+  background: var(--scale-c, var(--post-palette-accent, #0d9488)); border: 2px solid var(--blog-paper-card, #fff);
+  box-shadow: 0 0 0 1.5px var(--scale-c, #0d9488);
+}
+.scale-step:not(:last-child)::before {
+  content: ""; position: absolute; left: calc(.55rem - 1px); top: 1.2rem; bottom: -.5rem; width: 2px;
+  background: linear-gradient(var(--scale-c), var(--scale-n, var(--scale-c)));
+}
+.scale-verb { font-weight: 800; font-size: 1rem; }
+.scale-desc { font-size: .85rem; line-height: 1.4; color: var(--blog-ink-secondary, #44403c); }
+.scale-ex { font-size: .83rem; font-style: italic; color: var(--blog-ink-muted, #78716c); }
+.scale-ends { display: flex; justify-content: space-between; gap: 1rem; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--blog-ink-muted, #78716c); margin: 0 0 .6rem; }
+
+/* ── Before / after ───────────────────────────────────────────────────── */
+.ba { display: grid; gap: .7rem; }
+.ba-panel { border-radius: 12px; padding: .9rem 1rem; font-size: .95rem; line-height: 1.6; border: 1.5px solid; }
+.ba-before { border-color: color-mix(in srgb, var(--av-bad) 55%, transparent); background: color-mix(in srgb, var(--av-bad) 7%, transparent); }
+.ba-after  { border-color: color-mix(in srgb, var(--av-good) 60%, transparent); background: color-mix(in srgb, var(--av-good) 9%, transparent); }
+.ba-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .3rem; }
+.ba-before .ba-label { color: var(--av-bad); }
+.ba-after .ba-label { color: var(--av-good); }
+.ba-before .weak { text-decoration: underline wavy var(--av-bad); text-underline-offset: 3px; }
+@container (min-width: 640px) { .ba { grid-template-columns: 1fr 1fr; } }
+
+/* ── 7-day plan ───────────────────────────────────────────────────────── */
+.plan7 { list-style: none; padding: 0; display: grid; gap: .5rem; }
+.plan7 li {
+  display: grid; grid-template-columns: 4.2rem 1fr; gap: .75rem; align-items: start;
+  background: var(--blog-paper-card, #fff); border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-left: 4px solid var(--post-palette-accent, #0d9488); border-radius: 10px; padding: .65rem .85rem;
+}
+.plan-day { font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--post-palette-accent, #0d9488); padding-top: .15rem; }
+.plan-task { font-size: .92rem; line-height: 1.45; }
+
+/* ── Quiz explanation box (answer logic lives in js/shell.js) ─────────── */
+.gazette-quiz-card .quiz-explanation {
+  color: var(--blog-ink-primary, #1c1917); line-height: 1.5;
+  background: var(--blog-paper-aged, #f3ede4); border-radius: 8px; padding: .65rem .8rem; margin-top: .9rem;
+}
+.gazette-quiz-card .quiz-explanation[hidden] { display: none; }
+
+@media print {
+  .cosy-fig, .vcard, .ba, .plan7 { box-shadow: none; }
+}

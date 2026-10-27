@@ -117,7 +117,8 @@ function validatePostSchema(postObj, sourceName = 'object') {
   }
 
   // podcast
-  if (!postObj.podcast || typeof postObj.podcast !== 'object' || typeof postObj.podcast.episode !== 'number') {
+  // `podcast` is optional: posts without a published episode show no badge and no player.
+  if (postObj.podcast !== undefined && (typeof postObj.podcast !== 'object' || postObj.podcast === null || typeof postObj.podcast.episode !== 'number')) {
     errors.push(`[${sourceName}] Field "podcast" must be an object containing number "episode".`);
   }
 

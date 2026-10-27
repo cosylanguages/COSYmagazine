@@ -87,3 +87,6 @@ html[data-theme="dark"] .ns-sub-box { background: #141f17 !important; border: 1p
 .ns-chips { flex: 1 1 100%; }
 .ns-select { flex: 1 1 9rem; }
 html, body { overflow-x: clip; }
+
+/* Shown when an article has no version in the selected navigation language yet */
+.ns-fallback { font-size: .68rem; font-weight: 700; padding: .1rem .45rem; border-radius: 999px; background: var(--cosy-color-surface-2, #f1ece3); color: var(--cosy-color-muted, #78716c); }

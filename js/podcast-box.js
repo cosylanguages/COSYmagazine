@@ -5,6 +5,8 @@
  * and optional timestamp-synced "Listen while reading" read-along highlighting.
  */
 
+import { resolvePodcastEmbed } from './podcast-embed.js';
+
 export class PodcastBoxComponent {
   constructor(options = {}) {
     this.container = options.container || null;
@@ -25,13 +27,8 @@ export class PodcastBoxComponent {
     const audioUrl = podcast.audioUrl || null;
     const externalUrl = podcast.externalUrl || null;
     const appleUrl = podcast.appleUrl || null;
-    let iframeUrl = podcast.iframeUrl || null;
-    if (!iframeUrl && externalUrl && externalUrl.includes('spotify.com/episode/')) {
-      const epIdMatch = externalUrl.match(/episode\/([a-zA-Z0-9]+)/);
-      if (epIdMatch && epIdMatch[1]) {
-        iframeUrl = `https://open.spotify.com/embed/episode/${epIdMatch[1]}?utm_source=generator`;
-      }
-    }
+    const embed = resolvePodcastEmbed(podcast);
+    const iframeUrl = embed ? embed.src : null;
     const slug = this.post.slug || '';
     const scriptUrl = `${slug}.html?script=1`;
     const stageUrl = `${slug}.html?stage=1`;
@@ -48,7 +45,7 @@ export class PodcastBoxComponent {
     if (iframeUrl) {
       playerHtml = `
         <div class="podcast-iframe-player-wrapper" style="margin-top: 1rem; border-radius: 12px; overflow: hidden;">
-          <iframe src="${this.escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Podcast Episode Player"></iframe>
+          <iframe src="${this.escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="${embed.height}" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${this.escapeHtml(this.post.title || 'Podcast episode')}"></iframe>
         </div>
       `;
     } else if (audioUrl) {

@@ -155,6 +155,11 @@ function getDocumentTitle(title) {
 function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   if (!block || typeof block !== 'object') return '';
 
+  // Stage-only blocks (e.g. plain headings that the rich web card already contains) are skipped on the page.
+  if (block.stageOnly) return '';
+  // Web-only rich rendering (diagrams, cards). `text`/`items` stay as the plain fallback for Stage & Script modes.
+  if (typeof block.html === 'string' && block.html.trim()) return block.html;
+
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
@@ -312,6 +317,9 @@ function renderLanguageSwitcherHtml(currentPost, allPosts, langDict, lang) {
 </div>`;
 }
 
+// Shared embed resolver (ES module, loaded once at the start of the build).
+let podcastEmbed = { resolvePodcastEmbed: () => null };
+
 function blockAudioUrl(raw) {
   if (!raw) return null;
   if (/^https?:/.test(raw)) return raw;
@@ -328,18 +336,20 @@ function resolveAudioUrl(post) {
   return fs.existsSync(path.join(BLOG_DIR, rel)) ? rel : null;
 }
 
+// A post only advertises audio when a real player exists: a valid embed link or an audio file that is really in the repo.
+// Otherwise there is no episode badge, no box, and no entry on the Podcast page.
+function hasPlayer(post) {
+  if (!post || !post.podcast) return false;
+  return Boolean(podcastEmbed.resolvePodcastEmbed(post.podcast) || resolveAudioUrl(post));
+}
+
 function renderStaticPodcastBoxHtml(post, langDict, lang) {
   const podcast = post.podcast || {};
   const episodeNum = podcast.episode || 1;
   const audioUrl = resolveAudioUrl(post);
 
-  let iframeUrl = podcast.iframeUrl || null;
-  if (!iframeUrl && podcast.externalUrl && podcast.externalUrl.includes('spotify.com/episode/')) {
-    const epIdMatch = podcast.externalUrl.match(/episode\/([a-zA-Z0-9]+)/);
-    if (epIdMatch && epIdMatch[1]) {
-      iframeUrl = `https://open.spotify.com/embed/episode/${epIdMatch[1]}?utm_source=generator`;
-    }
-  }
+  const embed = podcastEmbed.resolvePodcastEmbed(podcast);
+  const iframeUrl = embed ? embed.src : null;
 
   const epText = `${tStrict(langDict, 'blog.episode', lang)} ${episodeNum}`;
   const noticeText = tStrict(langDict, 'blog.podcast_in_production', lang);
@@ -350,7 +360,7 @@ function renderStaticPodcastBoxHtml(post, langDict, lang) {
   if (iframeUrl) {
     playerHtml = `
       <div class="podcast-iframe-player-wrapper" style="margin-top: 1rem; border-radius: 12px; overflow: hidden;">
-        <iframe src="${escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Podcast Episode Player"></iframe>
+        <iframe src="${escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="${embed.height}" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${escapeHtml(post.title || 'Podcast episode')}"></iframe>
       </div>
     `;
   } else if (audioUrl) {
@@ -400,6 +410,13 @@ function renderStaticPodcastBoxHtml(post, langDict, lang) {
 
 async function buildBlog() {
   console.log('🚀 Starting COSYlanguages Vogue Gazette Build Pipeline...');
+
+  // Shared podcast embed resolver (same module the browser uses)
+  try {
+    podcastEmbed = await import(require('url').pathToFileURL(path.join(__dirname, '..', 'js', 'podcast-embed.js')).href);
+  } catch (e) {
+    console.warn('⚠️ Could not import podcast embed resolver:', e.message);
+  }
 
   // Dynamically import procedural SVG cover generator module
   let artModule;
@@ -527,7 +544,11 @@ async function buildBlog() {
     const fontText = post.artDirection?.fonts?.text || 'DM Sans';
     const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
 
-    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
+    const playerReady = hasPlayer(post);
+    if (post.podcast && !playerReady) {
+      console.warn(`  ⚠️ ${post.slug}: podcast hidden (no working embed/audio; add podcast.externalUrl or podcast.iframeUrl)`);
+    }
+    const staticPodcastBoxHtml = playerReady ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
 
     const backToHubText = tStrict(langDict, 'blog.back_to_hub', lang);
     const scriptModeText = tStrict(langDict, 'blog.script_mode', lang);
@@ -542,7 +563,7 @@ async function buildBlog() {
     const kickerKey = DESK_KEY_MAP[kicker];
     const translatedKicker = kickerKey ? tStrict(langDict, 'desk.' + kickerKey, lang) : kicker;
 
-    const epBadgeText = post.podcast ? `${tStrict(langDict, 'blog.episode', lang)} ${post.podcast.episode}` : '';
+    const epBadgeText = playerReady ? `${tStrict(langDict, 'blog.episode', lang)} ${post.podcast.episode}` : '';
 
     const founderDeckTitleText = tStrict(langDict, 'blog.founder_deck_title', lang);
     const expandDeckText = tStrict(langDict, 'blog.expand_deck', lang);
@@ -552,6 +573,8 @@ async function buildBlog() {
 
     const postForScript = {
       ...post,
+      blocks: (post.blocks || []).filter(b => !b.webOnly),
+      podcast: playerReady ? post.podcast : undefined,
       podcast: { ...(post.podcast || {}), audioUrl: resolveAudioUrl(post) },
       audio_podcast: false,
       coverSvg: coverSvgHtml
@@ -576,6 +599,7 @@ async function buildBlog() {
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/article-visuals.css">
     <link rel="stylesheet" href="css/dark-fixes.css">
     <link rel="stylesheet" href="css/stage.css">
     <link rel="stylesheet" href="css/shell.css">
@@ -654,7 +678,7 @@ async function buildBlog() {
                 ${renderedBlocksHtml}
             </article>
 
-            ${(post.podcast || post.audio_podcast) ? `
+            ${playerReady ? `
             <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
                 ${staticPodcastBoxHtml}
             </div>` : ''}
@@ -743,7 +767,7 @@ async function buildBlog() {
       cefr_level: p.level || 'A0–B2',
       vibe: 'Editorial Vibe',
       founder_notes: `Target-language guidance by JY DM for COSYmagazine ${p.issue?.title || 'COSY Editorial'} edition.`,
-      audio_podcast: Boolean(p.podcast?.audioUrl),
+      audio_podcast: hasPlayer(p),
       artDirection: p.artDirection
     })),
     ...guides.map(g => ({
@@ -829,7 +853,11 @@ async function buildBlog() {
     },
     desks: DESKS_CATALOG,
     issues: issuesList,
-    posts: indexPostsList.map(({ blocks, ...meta }) => meta)
+    // Only posts with a real player keep their `podcast` data, so the Podcast page lists real episodes only.
+    posts: indexPostsList.map(({ blocks, ...meta }) => {
+      if (meta.podcast && !hasPlayer(meta)) delete meta.podcast;
+      return meta;
+    })
   };
 
   fs.writeFileSync(INDEX_JSON, JSON.stringify(indexOutput), 'utf-8');

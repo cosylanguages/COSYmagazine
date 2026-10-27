@@ -161,7 +161,11 @@
     "latest_issue": "Latest issue",
     "read_story": "Read the story →",
     "also_in_issue": "Also in this issue",
-    "all_issues": "All issues"
+    "all_issues": "All issues",
+    "languages_label": "Languages",
+    "articles_label": "Articles",
+    "only_in_english": "Only in English",
+    "all_languages": "All languages"
   },
   "blog": {
     "back_to_hub": "← Back to Blog & Editorial Hub",

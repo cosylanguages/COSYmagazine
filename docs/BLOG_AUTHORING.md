@@ -209,3 +209,27 @@ Below is a complete, minimal, valid example of a blog post JSON file (`blog/post
   ]
 }
 ```
+
+## Rich blocks: diagrams, cards and page breaks
+
+Any block may carry optional fields that only affect the **web page**. Stage mode and the Teleprompter always use the plain `text` / `items`, so these blocks stay readable everywhere.
+
+| Field | Where | What it does |
+| --- | --- | --- |
+| `html` | any block | Rich web rendering (verb cards, figures, scales). `text` / `items` remain the plain fallback for Stage & Script. |
+| `webOnly: true` | any block | Shown on the page only; removed from Stage / Script data (use for page-break hints). |
+| `stageOnly: true` | any block | Used by Stage / Script only; not rendered on the page (use for headings already inside an `html` card). |
+
+Ready-made component classes live in `css/article-visuals.css`: `vcard` (verb card), `cosy-fig` (figure frame), `flow3`, `dtree`, `collo`, `scale`, `ba` (before/after), `plan7`.
+To force a page turn in the flipbook, add a block `{ "type": "paragraph", "webOnly": true, "html": "<div class=\"page-break-hint\"></div>", "text": "" }`.
+
+Quiz blocks are interactive: the answer is revealed only after the reader taps an option.
+
+## Podcast episodes are always embedded
+
+Paste **one link** per episode in `podcast`: `externalUrl` (Spotify, Spotify for Podcasters, Apple Podcasts, YouTube) or `iframeUrl` (an existing embed address such as Mave).
+`js/podcast-embed.js` turns it into the right player for both the static page and the browser. If no valid link is set, the page shows the "recording in production" notice and the build prints a warning.
+
+## Newsstand languages
+
+The home page shows cards in **English, French, Italian, Russian and Greek**, following the language selected in the site navigation. Articles with no version in that language show the original, tagged "Only in English".

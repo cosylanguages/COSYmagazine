@@ -17,50 +17,50 @@
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
-
+      
     <rect width="1200" height="630" fill="#FAF6EE" />
-
+    
       <polygon points="191,305 -78,494 -81,178" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1358,400 983,746 486,288 936,-73" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="764,346 534,595 205,275 569,36" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1168,5 847,364 538,58 853,-338" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1150,193 1022,286 901,177 1018,63" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1372,410 1201,577 985,516 1001,344 1222,296" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="204,65 7,226 5,-63" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
-
-
+    
+  
+      
       <g transform="rotate(4 768 380.5)">
         <rect x="557" y="214" width="422" height="333" rx="6" fill="#ecfdf5" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(-1 433 311)">
         <rect x="181" y="139" width="504" height="344" rx="6" fill="#ecfdf5" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(7 646 415.5)">
         <rect x="496" y="258" width="300" height="315" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
-
+    
+      
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
       <polygon points="987,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1007,157.5 987,0" fill="#FCF9F2" opacity="0.9" stroke="#225B58" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
-
-
+  
+      
     <g transform="rotate(-3 653 46)" filter="url(#soft-shadow)">
       <rect x="593" y="34" width="120" height="24" rx="2" fill="#ecfdf5" opacity="0.45" />
       <line x1="593" y1="34" x2="593" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="713" y1="34" x2="713" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
-
-
+  
+      
     <g class="cover-tiny-doodles" stroke="#225B58" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
       <path d="M 858 48 Q 858 60 870 60 Q 858 60 858 72 Q 858 60 846 60 Q 858 60 858 48 Z" fill="#ecfdf5" opacity="0.3" />
@@ -70,20 +70,20 @@
       <circle cx="73" cy="107" r="3" fill="#225B58" opacity="0.5" />
       <circle cx="79" cy="90" r="3" fill="#ecfdf5" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-sketchy-underline">
       <path d="M 55 582 Q 146 583 236 581" stroke="#ecfdf5" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
       <path d="M 65 585 Q 146 586 226 584" stroke="#225B58" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
       <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ecfdf5" stroke-width="1.2" />
       <text x="34" y="40" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
-
-
+  
+      
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#225B58" stroke-width="1.2" />
@@ -92,6 +92,6 @@
 <text x="54" y="542" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">All 14 Languages, Part 3 (CEFR</text>
 <text x="54" y="574" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">A0–A1 / A2)</text>
       </g>
-
+    
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>
