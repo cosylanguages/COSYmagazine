@@ -2,6 +2,8 @@
   "id": "post-top-10-verb-synonyms-intermediate-plateau-it",
   "slug": "top-10-verb-synonyms-intermediate-plateau-it",
   "language": "it",
+  "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+  "draft": false,
   "desk": "Words",
   "format": "list",
   "level": "B1–B2",
@@ -10,20 +12,20 @@
     "title": "Me vs Intermediate Plateau"
   },
   "date": "2026-09-11",
-  "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
-  "kicker": "WORDS",
-  "dek": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
+  "updated": "2026-10-25",
+  "title": "I 10 verbi più abusati e i loro sinonimi precisi per superare il plateau intermedio",
+  "kicker": "Words",
+  "dek": "Dieci verbi «sicuri» fanno troppo lavoro nelle tue frasi. Scopri che cosa significa davvero ciascuno, quale verbo preciso usare al suo posto e quali trappole evitare: schede, schemi, quiz e un piano di 7 giorni.",
   "tags": [
-    "AltopianoIntermedio",
+    "PlateauIntermedio",
     "Vocabolario",
     "B1-B2",
     "Verbi",
     "Italiano"
   ],
-  "readingTime": 3,
+  "readingTime": 16,
   "podcast": {
-    "episode": 4,
-    "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-it.mp3"
+    "episode": 4
   },
   "artDirection": {
     "palette": [
@@ -39,190 +41,717 @@
     },
     "layout": "magazine-spread",
     "motif": "tea-stain",
-    "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+    "seed": "top-10-verb-synonyms-intermediate-plateau",
     "coverOverride": null
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Uno dei segnali più evidenti che uno studente ha raggiunto l'**altopiano intermedio (livello B1–B2)** è la tendenza ad affidarsi a un piccolo gruppo di verbi \"sicuri\" per esprimere quasi ogni concetto."
+      "text": "Leggi ad alta voce queste cinque frasi: **Ho fatto una torta. Ho fatto un errore. Ho fatto la fila. Ho fatto cento chilometri. Fa freddo.** Un solo verbo, cinque significati diversi. Un madrelingua li capisce subito, ma chi conosce soltanto *fare* risulta vago: non sbagliato, solo spento.",
+      "say": "Leggi ad alta voce queste cinque frasi: Ho fatto una torta. Ho fatto un errore. Ho fatto la fila. Ho fatto cento chilometri. Fa freddo. Un solo verbo, cinque significati diversi. Un madrelingua li capisce subito, ma chi conosce soltanto fare risulta vago: non sbagliato, solo spento."
     },
     {
       "type": "paragraph",
-      "text": "Questi verbi fondamentali non sono sbagliati: costituiscono l'ossatura della lingua. Tuttavia, se ripetuti in ogni frase, rendono il discorso banale e generico. Ampliando questo vocabolario base con alternative precise, guadagni immediatamente in fluidità, chiarezza ed eleganza."
+      "text": "Questa piattezza è il cuore del **plateau intermedio** (circa B1–B2). La grammatica va bene e ti capiscono, ma dieci verbi comunissimi svolgono quasi tutto il lavoro: **fare, avere, dire, mettere, prendere, andare, vedere, pensare, dare, trovare**. Non sono verbi «cattivi» e continuerai a usarli ogni giorno. Il trucco è accorgerti di quando un verbo più preciso ti aspetta subito dietro.",
+      "say": "Questa piattezza è il cuore del plateau intermedio (circa B1–B2). La grammatica va bene e ti capiscono, ma dieci verbi comunissimi svolgono quasi tutto il lavoro: fare, avere, dire, mettere, prendere, andare, vedere, pensare, dare, trovare. Non sono verbi «cattivi» e continuerai a usarli ogni giorno. Il trucco è accorgerti di quando un verbo più preciso ti aspetta subito dietro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Questo articolo ti propone una sola abitudine. Prima di usare un verbo «sicuro», chiediti: **«Che cosa è successo esattamente?»** La risposta spesso ti consegna il verbo migliore.",
+      "say": "Questo articolo ti propone una sola abitudine. Prima di usare un verbo «sicuro», chiediti: «Che cosa è successo esattamente?» La risposta spesso ti consegna il verbo migliore."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Come usare questo articolo",
+      "say": "Come usare questo articolo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ogni verbo ha la sua scheda. Ogni riga segue lo stesso schema: **che cosa vuoi dire davvero → i verbi che lo dicono → un esempio**. I colori mostrano dove usare ogni verbo, così non usi una parola da tribunale al bar.",
+      "say": "Ogni verbo ha la sua scheda. Ogni riga segue lo stesso schema: che cosa vuoi dire davvero → i verbi che lo dicono → un esempio. I colori mostrano dove usare ogni verbo, così non usi una parola da tribunale al bar."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"av-legend\" role=\"note\" aria-label=\"Come leggere le schede:\"><b>Come leggere le schede:</b><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>quotidiano</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>lavoro e studio</span><span class=\"vtag is-formal\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>formale / scritto</span><span class=\"vtag is-everyday is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>parola extra</span></div>",
+      "text": "Come leggere le schede: quotidiano; lavoro e studio; formale / scritto; parola extra.",
+      "say": "Come leggere le schede: quotidiano; lavoro e studio; formale / scritto; parola extra."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Metodo</p><p class=\"cosy-fig-title\">Il potenziamento in 3 passi</p><ol class=\"flow3\"><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">1</span><span class=\"flow-title\">Nota</span><span class=\"flow-text\">Cogli un verbo «sicuro» mentre parli o scrivi.</span><span class=\"flow-ex\">«Ho <mark>fatto</mark> una libreria.»</span></li><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">2</span><span class=\"flow-title\">Chiediti</span><span class=\"flow-text\">Che cosa è successo esattamente? Scegli il significato vero.</span><span class=\"flow-ex\">L’ho costruita? Comprata? Disegnata?</span></li><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">3</span><span class=\"flow-title\">Scegli</span><span class=\"flow-text\">Usa il verbo giusto, poi controlla il registro.</span><span class=\"flow-ex\">«Ho <mark>costruito</mark> una libreria.»</span></li></ol><p class=\"cosy-fig-cap\">Non devi sostituire ogni <em>fare</em>. Cambia verbo quando ne esiste uno più preciso, soprattutto quando scrivi.</p></figure>",
+      "text": "Il potenziamento in 3 passi 1. Nota — Cogli un verbo «sicuro» mentre parli o scrivi. «Ho fatto una libreria.» 2. Chiediti — Che cosa è successo esattamente? Scegli il significato vero. L’ho costruita? Comprata? Disegnata? 3. Scegli — Usa il verbo giusto, poi controlla il registro. «Ho costruito una libreria.»",
+      "say": "Il potenziamento in 3 passi 1. Nota — Cogli un verbo «sicuro» mentre parli o scrivi. «Ho fatto una libreria.» 2. Chiediti — Che cosa è successo esattamente? Scegli il significato vero. L’ho costruita? Comprata? Disegnata? 3. Scegli — Usa il verbo giusto, poi controlla il registro. «Ho costruito una libreria.»"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "I 10 verbi",
+      "say": "I 10 verbi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cominciamo dal campione della vaghezza: **fare**. Usa il rilevatore di significati qui sotto, poi apri la sua scheda.",
+      "say": "Cominciamo dal campione della vaghezza: fare. Usa il rilevatore di significati qui sotto, poi apri la sua scheda."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Rilevatore di significati</p><p class=\"cosy-fig-title\">Voglio dire <em>fare</em>… che cosa intendo davvero?</p><div class=\"dtree-q\">Quale significato?</div><ul class=\"dtree\"><li><span class=\"dtree-if\"><strong>Costruisci</strong> un oggetto</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>costruire</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>realizzare</span></span><span class=\"dtree-ex\">Ha fatto una libreria → Ha costruito una libreria.</span></li><li><span class=\"dtree-if\"><strong>Scrivi</strong> un testo</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>redigere</span></span><span class=\"dtree-ex\">Ho fatto una relazione → Ho redatto una relazione.</span></li><li><span class=\"dtree-if\"><strong>Crei</strong> un’opera</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>realizzare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>girare</span></span><span class=\"dtree-ex\">Ha fatto un film → Ha girato un film.</span></li><li><span class=\"dtree-if\">C’è un <strong>verbo nascosto</strong> nel nome</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>viaggiare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>passeggiare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>acquistare</span></span><span class=\"dtree-ex\">Ho fatto un viaggio → Ho viaggiato.</span></li><li><span class=\"dtree-if\">Hai <strong>percorso</strong> una distanza</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>percorrere</span></span><span class=\"dtree-ex\">Abbiamo fatto 100 km → Abbiamo percorso 100 km.</span></li><li><span class=\"dtree-if\"><strong>Pratichi</strong> sport o musica</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>giocare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>suonare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>praticare</span></span><span class=\"dtree-ex\">Faccio calcio → Gioco a calcio.</span></li><li><span class=\"dtree-if\"><strong>Metti in ordine</strong></span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>riordinare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>pulire</span></span><span class=\"dtree-ex\">Ha fatto la camera → Ha riordinato la camera.</span></li></ul><p class=\"cosy-fig-cap\">Se nulla va bene, <em>fare</em> può essere il verbo giusto, e va benissimo così.</p></figure>",
+      "text": "Voglio dire fare… che cosa intendo davvero? Quale significato? Costruisci un oggetto → costruire / realizzare. Scrivi un testo → redigere. Crei un’opera → realizzare / girare. C’è un verbo nascosto nel nome → viaggiare / passeggiare / acquistare. Hai percorso una distanza → percorrere. Pratichi sport o musica → giocare / suonare / praticare. Metti in ordine → riordinare / pulire.",
+      "say": "Voglio dire fare… che cosa intendo davvero? Quale significato? Costruisci un oggetto → costruire / realizzare. Scrivi un testo → redigere. Crei un’opera → realizzare / girare. C’è un verbo nascosto nel nome → viaggiare / passeggiare / acquistare. Hai percorso una distanza → percorrere. Pratichi sport o musica → giocare / suonare / praticare. Metti in ordine → riordinare / pulire."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "I 10 verbi più usati (E le loro alternative precise)"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "1. Fare / Make, Do"
+      "text": "1. fare",
+      "stageOnly": true,
+      "say": "1. fare. Il campione della vaghezza: un verbo, almeno sette significati."
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**creare / produrre**: *L'azienda produce componenti rinnovabili.*",
-        "**realizzare / compiere**: *Ha realizzato tutti gli obiettivi prefissati.*",
-        "**sviluppare / stabilire**: *Abbiamo stabilito una nuova intesa di lavoro.*",
-        "**svolgere / effettuare**: *Il team ha effettuato un controllo approfondito.*"
-      ]
+        "**costruire / realizzare / fabbricare** (costruisci un oggetto) — Ha fatto una libreria. → Ha costruito una libreria. Fabbricare = produrre in quantità: Qui fabbricano biciclette.",
+        "**redigere** (scrivi un testo) — Ho fatto una relazione. → Ho redatto una relazione. Si redige una relazione, un’e-mail, un contratto.",
+        "**creare / realizzare** (crei qualcosa) — Ha fatto un sito web. → Ha creato un sito web. Realizzare = portare a termine un progetto: Abbiamo realizzato il progetto in sei mesi.",
+        "**viaggiare / passeggiare / acquistare / richiedere** (c’è un verbo nascosto nel nome) — Ho fatto un viaggio in Grecia. → Ho viaggiato in Grecia. fare una passeggiata → passeggiare · fare un acquisto → acquistare · fare una richiesta → richiedere",
+        "**percorrere** (percorri una distanza) — Abbiamo fatto cento chilometri. → Abbiamo percorso cento chilometri.",
+        "**giocare / suonare / praticare** (sport o musica) — Faccio calcio il sabato. → Il sabato gioco a calcio. giocare a + sport o gioco · suonare + strumento (suonare la chitarra) · praticare il nuoto = attività regolare.",
+        "⚠️ Trappola: Alcune coppie di parole non si formano con fare: ✗ fare una decisione → ✓ prendere una decisione · ✗ fare un appuntamento → ✓ fissare / prendere un appuntamento"
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-fare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">1</span><h4 class=\"vcard-title\">fare</h4><p class=\"vcard-sub\">Il campione della vaghezza: un verbo, almeno sette significati.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">costruisci un oggetto</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>costruire</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>realizzare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>fabbricare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha fatto una libreria.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ha <mark>costruito</mark> una libreria.</div><div class=\"vrow-note\"><em>Fabbricare</em> = produrre in quantità: <em>Qui <mark>fabbricano</mark> biciclette.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">scrivi un testo</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>redigere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho fatto una relazione.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ho <mark>redatto</mark> una relazione.</div><div class=\"vrow-note\">Si <em>redige</em> una relazione, un’e-mail, un contratto.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">crei qualcosa</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>creare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>realizzare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha fatto un sito web.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ha <mark>creato</mark> un sito web.</div><div class=\"vrow-note\"><em>Realizzare</em> = portare a termine un progetto: <em>Abbiamo <mark>realizzato</mark> il progetto in sei mesi.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">c’è un verbo nascosto nel nome</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>viaggiare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>passeggiare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>acquistare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>richiedere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho fatto un viaggio in Grecia.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho viaggiato</mark> in Grecia.</div><div class=\"vrow-note\"><em>fare una passeggiata → passeggiare · fare un acquisto → acquistare · fare una richiesta → richiedere</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">percorri una distanza</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>percorrere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Abbiamo fatto cento chilometri.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Abbiamo <mark>percorso</mark> cento chilometri.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">sport o musica</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>giocare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>suonare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>praticare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Faccio calcio il sabato.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Il sabato <mark>gioco</mark> a calcio.</div><div class=\"vrow-note\"><strong>giocare a</strong> + sport o gioco · <strong>suonare</strong> + strumento (<em>suonare la chitarra</em>) · <em>praticare il nuoto</em> = attività regolare.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> Alcune coppie di parole non si formano con <em>fare</em>: <span class=\"bad\">fare una decisione</span> → <span class=\"good\">prendere una decisione</span> · <span class=\"bad\">fare un appuntamento</span> → <span class=\"good\">fissare / prendere un appuntamento</span></p></section>",
+      "say": "costruire / realizzare / fabbricare (costruisci un oggetto) — Ha fatto una libreria. → Ha costruito una libreria. Fabbricare = produrre in quantità: Qui fabbricano biciclette. redigere (scrivi un testo) — Ho fatto una relazione. → Ho redatto una relazione. Si redige una relazione, un’e-mail, un contratto. creare / realizzare (crei qualcosa) — Ha fatto un sito web. → Ha creato un sito web. Realizzare = portare a termine un progetto: Abbiamo realizzato il progetto in sei mesi. viaggiare / passeggiare / acquistare / richiedere (c’è un verbo nascosto nel nome) — Ho fatto un viaggio in Grecia. → Ho viaggiato in Grecia. fare una passeggiata → passeggiare · fare un acquisto → acquistare · fare una richiesta → richiedere percorrere (percorri una distanza) — Abbiamo fatto cento chilometri. → Abbiamo percorso cento chilometri. giocare / suonare / praticare (sport o musica) — Faccio calcio il sabato. → Il sabato gioco a calcio. giocare a + sport o gioco · suonare + strumento (suonare la chitarra) · praticare il nuoto = attività regolare. ⚠️ Trappola: Alcune coppie di parole non si formano con fare: ✗ fare una decisione → ✓ prendere una decisione · ✗ fare un appuntamento → ✓ fissare / prendere un appuntamento"
     },
     {
-      "type": "heading",
-      "level": 4,
-      "text": "2. Dire / Say, Tell"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**menzionare / precisare**: *Ha menzionato la scadenza imminente.*",
-        "**spiegare / dichiarare**: *Il portavoce ha dichiarato i fatti con chiarezza.*",
-        "**afermare / sostenere**: *I ricercatori sostengono che l'intervento precoce funzioni.*",
-        "**sottolineare / far notare**: *Ha fatto notare un errore fondamentale.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "3. Pensare / Think"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**ritenere / credere**: *Ritengo sia la decisione migliore.*",
-        "**presumere / supporre**: *Presumiamo che la spedizione arrivi in orario.*",
-        "**considerare / riflettere su**: *Consideriamo tutte le opzioni disponibili.*",
-        "**giungere alla conclusione**: *Siamo giunti alla conclusione che serva un ulteriore studio.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "4. Avere / Have"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**possedere / detenere**: *L'azienda possiede un importante brevetto.*",
-        "**contenere / racchiudere**: *Il rapporto racchiude informazioni cruciali.*",
-        "**vivere / sperimentare**: *Abbiamo vissuto grandi progressi quest'anno.*",
-        "**mantenere / conservare**: *Mantiene una disciplina rigorosa.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "5. Andare / Go"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**viaggiare / spostarsi**: *Hanno viaggiato in tutta Europa l'estate scorsa.*",
-        "**recarsi / dirigersi**: *Si prega di recarsi al gate 4.*",
-        "**partire / uscire**: *Il treno parte alle 08:30.*",
-        "**presenziare a / frequentare**: *Ha presenziato alla conferenza annuale.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "6. Sapere & Conoscere / Know"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**comprendere / riconoscere**: *Ha riconosciuto l'importanza dell'evento.*",
-        "**rendersi conto di / ricordare**: *Mi sono reso conto della risposta durante la presentazione.*",
-        "**padroneggiare**: *Padroneggia la tecnica dopo mesi di pratica.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "7. Dare / Give"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**offrire / fornire**: *Offriamo un supporto completo.*",
-        "**consegnare / trasmettere**: *Ha consegnato il documento al direttore.*",
-        "**concedere / assegnare**: *Il consiglio ha concesso il budget.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "8. Guardare / Look"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**osservare / esaminare**: *Gli scienziati hanno osservato il campione da vicino.*",
-        "**ispezionare / notare**: *L'ispettore ha esaminato l'impianto.*",
-        "**sembrare / apparire**: *I risultati preliminari sembrano promettenti.*"
-      ]
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Miglioramenti professionali: \"Invece di... Scegli...\""
+      "text": "2. avere",
+      "stageOnly": true,
+      "say": "2. avere. Avere può voler dire possedere, contenere, vivere… o quasi niente."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**possedere / disporre di** (possiedi qualcosa) — Ha un appartamento a Torino. → Possiede un appartamento a Torino. Disporre di = avere a disposizione: L’azienda dispone di due sedi.",
+        "**comprendere / contenere / includere** (qualcosa contiene delle parti) — La relazione ha tre parti. → La relazione comprende tre parti. Includere: Il prezzo include la colazione.",
+        "**attraversare / vivere / passare** (attraversi un’esperienza) — Abbiamo avuto un anno difficile. → Abbiamo attraversato un anno difficile. Abbiamo vissuto momenti intensi. · Ha passato un periodo duro.",
+        "**incontrare / affrontare** (affronti una difficoltà) — Ho avuto un problema con la stampante. → Ho incontrato un problema con la stampante. Affrontare = fare fronte a: La squadra affronta una forte richiesta.",
+        "**dubitare / esitare / discutere** (avere + nome = verbo nascosto) — Ho dei dubbi su questo progetto. → Dubito di questo progetto. avere una discussione → discutere · avere un’esitazione → esitare",
+        "⚠️ Trappola: In italiano si ha l’età e certe sensazioni: ✗ Sono 25 anni. → ✓ Ho 25 anni. · ✗ Sono fame. → ✓ Ho fame."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-avere\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">2</span><h4 class=\"vcard-title\">avere</h4><p class=\"vcard-sub\"><em>Avere</em> può voler dire possedere, contenere, vivere… o quasi niente.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">possiedi qualcosa</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>possedere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>disporre di</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha un appartamento a Torino.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Possiede</mark> un appartamento a Torino.</div><div class=\"vrow-note\"><em>Disporre di</em> = avere a disposizione: <em>L’azienda <mark>dispone di</mark> due sedi.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">qualcosa contiene delle parti</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>comprendere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>contenere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>includere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">La relazione ha tre parti.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>La relazione <mark>comprende</mark> tre parti.</div><div class=\"vrow-note\"><em>Includere</em>: <em>Il prezzo <mark>include</mark> la colazione.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">attraversi un’esperienza</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>attraversare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>vivere</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>passare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Abbiamo avuto un anno difficile.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Abbiamo <mark>attraversato</mark> un anno difficile.</div><div class=\"vrow-note\"><em>Abbiamo <mark>vissuto</mark> momenti intensi.</em> · <em>Ha <mark>passato</mark> un periodo duro.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">affronti una difficoltà</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>incontrare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>affrontare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho avuto un problema con la stampante.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho incontrato</mark> un problema con la stampante.</div><div class=\"vrow-note\"><em>Affrontare</em> = fare fronte a: <em>La squadra <mark>affronta</mark> una forte richiesta.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">avere + nome = verbo nascosto</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>dubitare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>esitare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>discutere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho dei dubbi su questo progetto.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Dubito</mark> di questo progetto.</div><div class=\"vrow-note\"><em>avere una discussione → discutere · avere un’esitazione → esitare</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> In italiano si <em>ha</em> l’età e certe sensazioni: <span class=\"bad\">Sono 25 anni.</span> → <span class=\"good\">Ho 25 anni.</span> · <span class=\"bad\">Sono fame.</span> → <span class=\"good\">Ho fame.</span></p></section>",
+      "say": "possedere / disporre di (possiedi qualcosa) — Ha un appartamento a Torino. → Possiede un appartamento a Torino. Disporre di = avere a disposizione: L’azienda dispone di due sedi. comprendere / contenere / includere (qualcosa contiene delle parti) — La relazione ha tre parti. → La relazione comprende tre parti. Includere: Il prezzo include la colazione. attraversare / vivere / passare (attraversi un’esperienza) — Abbiamo avuto un anno difficile. → Abbiamo attraversato un anno difficile. Abbiamo vissuto momenti intensi. · Ha passato un periodo duro. incontrare / affrontare (affronti una difficoltà) — Ho avuto un problema con la stampante. → Ho incontrato un problema con la stampante. Affrontare = fare fronte a: La squadra affronta una forte richiesta. dubitare / esitare / discutere (avere + nome = verbo nascosto) — Ho dei dubbi su questo progetto. → Dubito di questo progetto. avere una discussione → discutere · avere un’esitazione → esitare ⚠️ Trappola: In italiano si ha l’età e certe sensazioni: ✗ Sono 25 anni. → ✓ Ho 25 anni. · ✗ Sono fame. → ✓ Ho fame."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. dire",
+      "stageOnly": true,
+      "say": "3. dire. Dire riporta parole. Scegli un verbo che mostri perché e come si parla."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**informare / comunicare / annunciare** (dai un’informazione) — Ha detto che la riunione era annullata. → Ci ha informati che la riunione era annullata. Comunicare: L’azienda comunica i nuovi orari.",
+        "**spiegare / precisare** (rendi chiare le cose) — Ha detto come funziona la macchina. → Ha spiegato come funziona la macchina. Precisare = aggiungere un dettaglio: Ha precisato l’orario.",
+        "**accennare a / menzionare / segnalare** (lo dici di passaggio) — Ha detto che c’era un problema. → Ha segnalato un problema. Accennare a = parlare brevemente: Ha accennato a un cambiamento.",
+        "**sostenere / dichiarare** (lo dici senza prove) — Dice di non aver mai visto il messaggio. → Sostiene di non aver mai visto il messaggio. Sostenere di lascia intendere: «forse vero, forse no».",
+        "**affermare / far notare / ribadire** (difendi un’idea) — Dice che ci serve più tempo. → Afferma che ci serve più tempo. Far notare = attirare l’attenzione: Ha fatto notare un errore. · Ribadire = ripetere con forza.",
+        "**ammettere / negare** (dici che è vero / non è vero) — Dice che ha rotto il vetro. → Ammette di aver rotto il vetro. Negare: Nega di aver preso i soldi.",
+        "**sussurrare / mormorare / gridare / borbottare** (il modo di parlare) — Ha detto piano: «Attenzione.» → Ha sussurrato: «Attenzione.» Borbottare = parlare a bassa voce e con fastidio.",
+        "⚠️ Trappola: Per un ordine o un consiglio si usa dire di + infinito: ✗ Mi ha detto restare. → ✓ Mi ha detto di restare."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-dire\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">3</span><h4 class=\"vcard-title\">dire</h4><p class=\"vcard-sub\"><em>Dire</em> riporta parole. Scegli un verbo che mostri perché e come si parla.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">dai un’informazione</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>informare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>comunicare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>annunciare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha detto che la riunione era annullata.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ci <mark>ha informati</mark> che la riunione era annullata.</div><div class=\"vrow-note\"><em>Comunicare</em>: <em>L’azienda <mark>comunica</mark> i nuovi orari.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">rendi chiare le cose</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>spiegare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>precisare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha detto come funziona la macchina.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha spiegato</mark> come funziona la macchina.</div><div class=\"vrow-note\"><em>Precisare</em> = aggiungere un dettaglio: <em><mark>Ha precisato</mark> l’orario.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">lo dici di passaggio</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>accennare a</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>menzionare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>segnalare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha detto che c’era un problema.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha segnalato</mark> un problema.</div><div class=\"vrow-note\"><em>Accennare a</em> = parlare brevemente: <em><mark>Ha accennato</mark> a un cambiamento.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">lo dici senza prove</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>sostenere</span><span class=\"vtag is-formal is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>dichiarare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Dice di non aver mai visto il messaggio.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Sostiene</mark> di non aver mai visto il messaggio.</div><div class=\"vrow-note\"><em>Sostenere di</em> lascia intendere: «forse vero, forse no».</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">difendi un’idea</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>affermare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>far notare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ribadire</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Dice che ci serve più tempo.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Afferma</mark> che ci serve più tempo.</div><div class=\"vrow-note\"><em>Far notare</em> = attirare l’attenzione: <em><mark>Ha fatto notare</mark> un errore.</em> · <em>Ribadire</em> = ripetere con forza.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">dici che è vero / non è vero</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ammettere</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>negare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Dice che ha rotto il vetro.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ammette</mark> di aver rotto il vetro.</div><div class=\"vrow-note\"><em>Negare</em>: <em><mark>Nega</mark> di aver preso i soldi.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">il modo di parlare</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>sussurrare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>mormorare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>gridare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>borbottare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha detto piano: «Attenzione.»</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha sussurrato</mark>: «Attenzione.»</div><div class=\"vrow-note\"><em>Borbottare</em> = parlare a bassa voce e con fastidio.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> Per un ordine o un consiglio si usa <em>dire di</em> + infinito: <span class=\"bad\">Mi ha detto restare.</span> → <span class=\"good\">Mi ha detto di restare.</span></p></section>",
+      "say": "informare / comunicare / annunciare (dai un’informazione) — Ha detto che la riunione era annullata. → Ci ha informati che la riunione era annullata. Comunicare: L’azienda comunica i nuovi orari. spiegare / precisare (rendi chiare le cose) — Ha detto come funziona la macchina. → Ha spiegato come funziona la macchina. Precisare = aggiungere un dettaglio: Ha precisato l’orario. accennare a / menzionare / segnalare (lo dici di passaggio) — Ha detto che c’era un problema. → Ha segnalato un problema. Accennare a = parlare brevemente: Ha accennato a un cambiamento. sostenere / dichiarare (lo dici senza prove) — Dice di non aver mai visto il messaggio. → Sostiene di non aver mai visto il messaggio. Sostenere di lascia intendere: «forse vero, forse no». affermare / far notare / ribadire (difendi un’idea) — Dice che ci serve più tempo. → Afferma che ci serve più tempo. Far notare = attirare l’attenzione: Ha fatto notare un errore. · Ribadire = ripetere con forza. ammettere / negare (dici che è vero / non è vero) — Dice che ha rotto il vetro. → Ammette di aver rotto il vetro. Negare: Nega di aver preso i soldi. sussurrare / mormorare / gridare / borbottare (il modo di parlare) — Ha detto piano: «Attenzione.» → Ha sussurrato: «Attenzione.» Borbottare = parlare a bassa voce e con fastidio. ⚠️ Trappola: Per un ordine o un consiglio si usa dire di + infinito: ✗ Mi ha detto restare. → ✓ Mi ha detto di restare."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. mettere",
+      "stageOnly": true,
+      "say": "4. mettere. Mettere dice solo dove. Di’ come."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**posare / collocare / sistemare** (posi con cura) — Metti i fascicoli sulla scrivania. → Posa i fascicoli sulla scrivania. Sistemare = mettere in ordine: Sistema le tue cose.",
+        "**aggiungere / versare / inserire** (aggiungi dentro) — Mette il sale nella zuppa. → Aggiunge il sale nella zuppa. Inserire in una fessura: Inserisci la carta.",
+        "**indossare / infilare** (un indumento) — Oggi mette un cappotto rosso. → Oggi indossa un cappotto rosso. Infilare = mettere in fretta: Infilo la giacca.",
+        "**appendere / fissare / installare** (fissi o installi) — Ha messo un quadro alla parete. → Ha appeso un quadro alla parete. Installare un programma, una mensola · fissare = attaccare saldamente.",
+        "**impiegare** (il tempo che serve) — Ci metto un’ora ad arrivare. → Impiego un’ora per arrivare. Ci metto un’ora è naturalissimo: tienilo!",
+        "⚠️ Trappola: Participio irregolare: ✗ Ho mettuto la chiave sul tavolo. → ✓ Ho messo la chiave sul tavolo."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-mettere\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">4</span><h4 class=\"vcard-title\">mettere</h4><p class=\"vcard-sub\"><em>Mettere</em> dice solo dove. Di’ come.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">posi con cura</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>posare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>collocare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>sistemare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Metti i fascicoli sulla scrivania.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Posa</mark> i fascicoli sulla scrivania.</div><div class=\"vrow-note\"><em>Sistemare</em> = mettere in ordine: <em><mark>Sistema</mark> le tue cose.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">aggiungi dentro</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>aggiungere</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>versare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>inserire</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mette il sale nella zuppa.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Aggiunge</mark> il sale nella zuppa.</div><div class=\"vrow-note\"><em>Inserire</em> in una fessura: <em><mark>Inserisci</mark> la carta.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">un indumento</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>indossare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>infilare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Oggi mette un cappotto rosso.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Oggi <mark>indossa</mark> un cappotto rosso.</div><div class=\"vrow-note\"><em>Infilare</em> = mettere in fretta: <em><mark>Infilo</mark> la giacca.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">fissi o installi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>appendere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>fissare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>installare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha messo un quadro alla parete.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha appeso</mark> un quadro alla parete.</div><div class=\"vrow-note\"><em>Installare</em> un programma, una mensola · <em>fissare</em> = attaccare saldamente.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">il tempo che serve</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>impiegare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ci metto un’ora ad arrivare.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Impiego</mark> un’ora per arrivare.</div><div class=\"vrow-note\"><em>Ci metto un’ora</em> è naturalissimo: tienilo!</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> Participio irregolare: <span class=\"bad\">Ho mettuto la chiave sul tavolo.</span> → <span class=\"good\">Ho messo la chiave sul tavolo.</span></p></section>",
+      "say": "posare / collocare / sistemare (posi con cura) — Metti i fascicoli sulla scrivania. → Posa i fascicoli sulla scrivania. Sistemare = mettere in ordine: Sistema le tue cose. aggiungere / versare / inserire (aggiungi dentro) — Mette il sale nella zuppa. → Aggiunge il sale nella zuppa. Inserire in una fessura: Inserisci la carta. indossare / infilare (un indumento) — Oggi mette un cappotto rosso. → Oggi indossa un cappotto rosso. Infilare = mettere in fretta: Infilo la giacca. appendere / fissare / installare (fissi o installi) — Ha messo un quadro alla parete. → Ha appeso un quadro alla parete. Installare un programma, una mensola · fissare = attaccare saldamente. impiegare (il tempo che serve) — Ci metto un’ora ad arrivare. → Impiego un’ora per arrivare. Ci metto un’ora è naturalissimo: tienilo! ⚠️ Trappola: Participio irregolare: ✗ Ho mettuto la chiave sul tavolo. → ✓ Ho messo la chiave sul tavolo."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. prendere",
+      "stageOnly": true,
+      "say": "5. prendere. Prendere può voler dire afferrare, portare, scegliere, accettare…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**afferrare / cogliere** (afferri) — Ha preso il bicchiere. → Ha afferrato il bicchiere. Cogliere un’occasione.",
+        "**portare / portare via** (porti con te) — Prendi l’ombrello. → Porta l’ombrello. Portare via = togliere da un luogo: Ha portato via i documenti.",
+        "**scegliere / optare per / adottare** (decidi) — Ho preso il menù del giorno. → Ho scelto il menù del giorno. Optare per = scegliere dopo aver riflettuto: Abbiamo optato per la soluzione più semplice.",
+        "**accettare / ricevere** (accetti) — Ha preso il regalo con piacere. → Ha accettato il regalo con piacere.",
+        "**durare / richiedere** (serve tempo) — Ci vogliono due ore. → Il viaggio dura due ore. Questo progetto richiede tempo.",
+        "⚠️ Trappola: Prendere non è imparare né capire: ✗ Prendo l’italiano da tre anni. → ✓ Studio l’italiano da tre anni. · ✗ Non prendo. → ✓ Non capisco."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-prendere\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">5</span><h4 class=\"vcard-title\">prendere</h4><p class=\"vcard-sub\"><em>Prendere</em> può voler dire afferrare, portare, scegliere, accettare…</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">afferri</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>afferrare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>cogliere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha preso il bicchiere.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha afferrato</mark> il bicchiere.</div><div class=\"vrow-note\"><em>Cogliere</em> un’occasione.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">porti con te</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>portare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>portare via</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Prendi l’ombrello.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Porta</mark> l’ombrello.</div><div class=\"vrow-note\"><em>Portare via</em> = togliere da un luogo: <em><mark>Ha portato via</mark> i documenti.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">decidi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>scegliere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>optare per</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>adottare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho preso il menù del giorno.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho scelto</mark> il menù del giorno.</div><div class=\"vrow-note\"><em>Optare per</em> = scegliere dopo aver riflettuto: <em>Abbiamo <mark>optato per</mark> la soluzione più semplice.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">accetti</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>accettare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ricevere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha preso il regalo con piacere.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha accettato</mark> il regalo con piacere.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">serve tempo</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>durare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>richiedere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ci vogliono due ore.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Il viaggio <mark>dura</mark> due ore.</div><div class=\"vrow-note\"><em>Questo progetto <mark>richiede</mark> tempo.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> <em>Prendere</em> non è <em>imparare</em> né <em>capire</em>: <span class=\"bad\">Prendo l’italiano da tre anni.</span> → <span class=\"good\">Studio l’italiano da tre anni.</span> · <span class=\"bad\">Non prendo.</span> → <span class=\"good\">Non capisco.</span></p></section>",
+      "say": "afferrare / cogliere (afferri) — Ha preso il bicchiere. → Ha afferrato il bicchiere. Cogliere un’occasione. portare / portare via (porti con te) — Prendi l’ombrello. → Porta l’ombrello. Portare via = togliere da un luogo: Ha portato via i documenti. scegliere / optare per / adottare (decidi) — Ho preso il menù del giorno. → Ho scelto il menù del giorno. Optare per = scegliere dopo aver riflettuto: Abbiamo optato per la soluzione più semplice. accettare / ricevere (accetti) — Ha preso il regalo con piacere. → Ha accettato il regalo con piacere. durare / richiedere (serve tempo) — Ci vogliono due ore. → Il viaggio dura due ore. Questo progetto richiede tempo. ⚠️ Trappola: Prendere non è imparare né capire: ✗ Prendo l’italiano da tre anni. → ✓ Studio l’italiano da tre anni. · ✗ Non prendo. → ✓ Non capisco."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Mappa delle collocazioni</p><p class=\"cosy-fig-title\">Quale verbo va con quale nome?</p><div class=\"collo\"><div class=\"collo-col\"><p class=\"collo-verb\">fare</p><p class=\"collo-hint\">un’azione o un risultato</p><div class=\"collo-chips\"><span class=chip>un errore</span><span class=chip>progressi</span><span class=chip>uno sforzo</span><span class=chip>attenzione</span><span class=chip>la fila</span><span class=chip>un viaggio</span><span class=chip>una passeggiata</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">prendere</p><p class=\"collo-hint\">scegli o accetti</p><div class=\"collo-chips\"><span class=chip>una decisione</span><span class=chip>un appuntamento</span><span class=chip>un rischio</span><span class=chip>una doccia</span><span class=chip>il treno</span><span class=chip>tempo</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">dare</p><p class=\"collo-hint\">offri agli altri</p><div class=\"collo-chips\"><span class=chip>un consiglio</span><span class=chip>una mano</span><span class=chip>un parere</span><span class=chip>una lezione</span><span class=chip>appuntamento</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">sostenere</p><p class=\"collo-hint\">affronti una prova</p><div class=\"collo-chips\"><span class=chip>un esame</span><span class=chip>un colloquio</span><span class=chip>una tesi</span><span class=chip>una spesa</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">porre</p><p class=\"collo-hint\">metti sul tavolo</p><div class=\"collo-chips\"><span class=chip>una domanda</span><span class=chip>un problema</span><span class=chip>una condizione</span><span class=chip>fine a qualcosa</span></div></div></div><p class=\"cosy-fig-cap\">Le collocazioni sono «coppie di parole». Non sempre si indovinano: impara il nome <em>insieme</em> al suo verbo.</p></figure>",
+      "text": "Quale verbo va con quale nome? fare (un’azione o un risultato): un errore, progressi, uno sforzo, attenzione, la fila, un viaggio, una passeggiata. prendere (scegli o accetti): una decisione, un appuntamento, un rischio, una doccia, il treno, tempo. dare (offri agli altri): un consiglio, una mano, un parere, una lezione, appuntamento. sostenere (affronti una prova): un esame, un colloquio, una tesi, una spesa. porre (metti sul tavolo): una domanda, un problema, una condizione, fine a qualcosa.",
+      "say": "Quale verbo va con quale nome? fare (un’azione o un risultato): un errore, progressi, uno sforzo, attenzione, la fila, un viaggio, una passeggiata. prendere (scegli o accetti): una decisione, un appuntamento, un rischio, una doccia, il treno, tempo. dare (offri agli altri): un consiglio, una mano, un parere, una lezione, appuntamento. sostenere (affronti una prova): un esame, un colloquio, una tesi, una spesa. porre (metti sul tavolo): una domanda, un problema, una condizione, fine a qualcosa."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. andare",
+      "stageOnly": true,
+      "say": "6. andare. Andare dice solo che ti sposti. Di’ come, perché, dove."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**camminare / passeggiare** (a piedi) — Siamo andati in spiaggia a piedi. → Abbiamo camminato fino alla spiaggia. Passeggiare = lentamente, per piacere.",
+        "**viaggiare / recarsi** (viaggi) — Siamo andati in Spagna. → Abbiamo viaggiato in Spagna. Recarsi è formale: Si prega di recarsi alla reception.",
+        "**partecipare a / assistere a** (partecipi a un evento) — Sono andato alla conferenza. → Ho partecipato alla conferenza. Assistere a = essere presente senza intervenire: Ho assistito alla presentazione.",
+        "**visitare** (visiti un luogo) — Siamo andati a Firenze. → Abbiamo visitato Firenze. Visitare un luogo; per una persona: andare a trovare.",
+        "**dirigersi verso** (ti dirigi verso) — È andata verso l’uscita. → Si è diretta verso l’uscita.",
+        "**procedere / svolgersi** (le cose procedono) — Come va il progetto? → Come procede il progetto? Come va? resta perfetto. La riunione si è svolta senza problemi.",
+        "⚠️ Trappola: Andare vuole essere, e da una persona si va da: ✗ Ho andato al cinema. → ✓ Sono andato al cinema. · ✗ Vado a mia nonna. → ✓ Vado da mia nonna."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-andare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">6</span><h4 class=\"vcard-title\">andare</h4><p class=\"vcard-sub\"><em>Andare</em> dice solo che ti sposti. Di’ come, perché, dove.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">a piedi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>camminare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>passeggiare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Siamo andati in spiaggia a piedi.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Abbiamo camminato</mark> fino alla spiaggia.</div><div class=\"vrow-note\"><em>Passeggiare</em> = lentamente, per piacere.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">viaggi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>viaggiare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>recarsi</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Siamo andati in Spagna.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Abbiamo viaggiato</mark> in Spagna.</div><div class=\"vrow-note\"><em>Recarsi</em> è formale: <em>Si prega di <mark>recarsi</mark> alla reception.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">partecipi a un evento</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>partecipare a</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>assistere a</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Sono andato alla conferenza.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho partecipato</mark> alla conferenza.</div><div class=\"vrow-note\"><em>Assistere a</em> = essere presente senza intervenire: <em><mark>Ho assistito</mark> alla presentazione.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">visiti un luogo</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>visitare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Siamo andati a Firenze.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Abbiamo visitato</mark> Firenze.</div><div class=\"vrow-note\"><em>Visitare</em> un luogo; per una persona: <em>andare a trovare</em>.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ti dirigi verso</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>dirigersi verso</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">È andata verso l’uscita.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Si è diretta</mark> verso l’uscita.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">le cose procedono</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>procedere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>svolgersi</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Come va il progetto?</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Come <mark>procede</mark> il progetto?</div><div class=\"vrow-note\"><em>Come va?</em> resta perfetto. <em>La riunione <mark>si è svolta</mark> senza problemi.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> <em>Andare</em> vuole <em>essere</em>, e da una persona si va <em>da</em>: <span class=\"bad\">Ho andato al cinema.</span> → <span class=\"good\">Sono andato al cinema.</span> · <span class=\"bad\">Vado a mia nonna.</span> → <span class=\"good\">Vado da mia nonna.</span></p></section>",
+      "say": "camminare / passeggiare (a piedi) — Siamo andati in spiaggia a piedi. → Abbiamo camminato fino alla spiaggia. Passeggiare = lentamente, per piacere. viaggiare / recarsi (viaggi) — Siamo andati in Spagna. → Abbiamo viaggiato in Spagna. Recarsi è formale: Si prega di recarsi alla reception. partecipare a / assistere a (partecipi a un evento) — Sono andato alla conferenza. → Ho partecipato alla conferenza. Assistere a = essere presente senza intervenire: Ho assistito alla presentazione. visitare (visiti un luogo) — Siamo andati a Firenze. → Abbiamo visitato Firenze. Visitare un luogo; per una persona: andare a trovare. dirigersi verso (ti dirigi verso) — È andata verso l’uscita. → Si è diretta verso l’uscita. procedere / svolgersi (le cose procedono) — Come va il progetto? → Come procede il progetto? Come va? resta perfetto. La riunione si è svolta senza problemi. ⚠️ Trappola: Andare vuole essere, e da una persona si va da: ✗ Ho andato al cinema. → ✓ Sono andato al cinema. · ✗ Vado a mia nonna. → ✓ Vado da mia nonna."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. vedere",
+      "stageOnly": true,
+      "say": "7. vedere. Vedere è automatico; guardare, osservare ed esaminare richiedono attenzione."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**dare un’occhiata / scorrere** (un’occhiata veloce) — Ho visto il giornale. → Ho dato un’occhiata al giornale. Scorrere = leggere velocemente: Scorre la relazione.",
+        "**guardare / osservare** (segui qualcosa che si muove) — I ricercatori hanno visto gli uccelli per una settimana. → I ricercatori hanno osservato gli uccelli per una settimana. vedere = entra nei tuoi occhi · guardare = lo fai apposta: Guardo un film.",
+        "**fissare / scrutare / contemplare** (uno sguardo lungo e fisso) — Mi ha guardato a lungo. → Mi ha fissato. Contemplare = guardare con ammirazione: Contempla il mare.",
+        "**esaminare / ispezionare / controllare** (uno sguardo attento per capire) — Il medico ha visto il mio ginocchio. → Il medico ha esaminato il mio ginocchio. Ispezionare = controllo ufficiale · controllare = verificare.",
+        "**notare / accorgersi di / constatare** (ti accorgi) — Ho visto un errore. → Ho notato un errore. Constatare = registrare un fatto: Constatiamo un aumento dei prezzi.",
+        "⚠️ Trappola: Guardare non vuole preposizione: ✗ Guarda alla foto. → ✓ Guarda la foto. · ✗ Vedo la TV. → ✓ Guardo la TV."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-vedere\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">7</span><h4 class=\"vcard-title\">vedere</h4><p class=\"vcard-sub\"><em>Vedere</em> è automatico; <em>guardare</em>, <em>osservare</em> ed <em>esaminare</em> richiedono attenzione.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">un’occhiata veloce</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>dare un’occhiata</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>scorrere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho visto il giornale.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho dato un’occhiata</mark> al giornale.</div><div class=\"vrow-note\"><em>Scorrere</em> = leggere velocemente: <em><mark>Scorre</mark> la relazione.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">segui qualcosa che si muove</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>guardare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>osservare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">I ricercatori hanno visto gli uccelli per una settimana.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>I ricercatori <mark>hanno osservato</mark> gli uccelli per una settimana.</div><div class=\"vrow-note\"><strong>vedere</strong> = entra nei tuoi occhi · <strong>guardare</strong> = lo fai apposta: <em><mark>Guardo</mark> un film.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">uno sguardo lungo e fisso</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>fissare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>scrutare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>contemplare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi ha guardato a lungo.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Mi <mark>ha fissato</mark>.</div><div class=\"vrow-note\"><em>Contemplare</em> = guardare con ammirazione: <em><mark>Contempla</mark> il mare.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">uno sguardo attento per capire</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>esaminare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ispezionare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>controllare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Il medico ha visto il mio ginocchio.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Il medico <mark>ha esaminato</mark> il mio ginocchio.</div><div class=\"vrow-note\"><em>Ispezionare</em> = controllo ufficiale · <em>controllare</em> = verificare.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ti accorgi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>notare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>accorgersi di</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>constatare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho visto un errore.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho notato</mark> un errore.</div><div class=\"vrow-note\"><em>Constatare</em> = registrare un fatto: <em><mark>Constatiamo</mark> un aumento dei prezzi.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> <em>Guardare</em> non vuole preposizione: <span class=\"bad\">Guarda alla foto.</span> → <span class=\"good\">Guarda la foto.</span> · <span class=\"bad\">Vedo la TV.</span> → <span class=\"good\">Guardo la TV.</span></p></section>",
+      "say": "dare un’occhiata / scorrere (un’occhiata veloce) — Ho visto il giornale. → Ho dato un’occhiata al giornale. Scorrere = leggere velocemente: Scorre la relazione. guardare / osservare (segui qualcosa che si muove) — I ricercatori hanno visto gli uccelli per una settimana. → I ricercatori hanno osservato gli uccelli per una settimana. vedere = entra nei tuoi occhi · guardare = lo fai apposta: Guardo un film. fissare / scrutare / contemplare (uno sguardo lungo e fisso) — Mi ha guardato a lungo. → Mi ha fissato. Contemplare = guardare con ammirazione: Contempla il mare. esaminare / ispezionare / controllare (uno sguardo attento per capire) — Il medico ha visto il mio ginocchio. → Il medico ha esaminato il mio ginocchio. Ispezionare = controllo ufficiale · controllare = verificare. notare / accorgersi di / constatare (ti accorgi) — Ho visto un errore. → Ho notato un errore. Constatare = registrare un fatto: Constatiamo un aumento dei prezzi. ⚠️ Trappola: Guardare non vuole preposizione: ✗ Guarda alla foto. → ✓ Guarda la foto. · ✗ Vedo la TV. → ✓ Guardo la TV."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Scala di significato</p><p class=\"cosy-fig-title\">Con quanta attenzione? La famiglia di <em>vedere</em></p><p class=\"scale-ends\"><span>Veloce</span><span>Dettagliato</span></p><ol class=\"scale\"><li class=\"scale-step\" style=\"--scale-c:#fbbf24;--scale-n:#f59e0b\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">scorgere</span> <span class=\"scale-desc\">— vedi per un istante, senza cercarlo</span><br><span class=\"scale-ex\">Ho scorto Maria tra la folla.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#f59e0b;--scale-n:#fb923c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">dare un’occhiata</span> <span class=\"scale-desc\">— uno sguardo velocissimo, apposta</span><br><span class=\"scale-ex\">Dà un’occhiata all’orologio.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#fb923c;--scale-n:#f97316\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">guardare</span> <span class=\"scale-desc\">— dirigi gli occhi su qualcosa</span><br><span class=\"scale-ex\">Guarda questa foto.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#f97316;--scale-n:#ea580c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">osservare</span> <span class=\"scale-desc\">— segui con attenzione, nel tempo</span><br><span class=\"scale-ex\">I ricercatori osservano gli uccelli.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#ea580c;--scale-n:#c2410c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">esaminare</span> <span class=\"scale-desc\">— uno sguardo attento per capire</span><br><span class=\"scale-ex\">Il medico esamina il mio ginocchio.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#c2410c;--scale-n:#c2410c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">scrutare</span> <span class=\"scale-desc\">— cerchi ogni dettaglio</span><br><span class=\"scale-ex\">Scruta l’orizzonte.</span></span></li></ol><p class=\"cosy-fig-cap\"><em>Fissare</em> = guardare a lungo senza muovere gli occhi. <em>Contemplare</em> = guardare con ammirazione.</p></figure>",
+      "text": "Con quanta attenzione? La famiglia di vedere Veloce → Dettagliato. scorgere: vedi per un istante, senza cercarlo Ho scorto Maria tra la folla. dare un’occhiata: uno sguardo velocissimo, apposta Dà un’occhiata all’orologio. guardare: dirigi gli occhi su qualcosa Guarda questa foto. osservare: segui con attenzione, nel tempo I ricercatori osservano gli uccelli. esaminare: uno sguardo attento per capire Il medico esamina il mio ginocchio. scrutare: cerchi ogni dettaglio Scruta l’orizzonte.",
+      "say": "Con quanta attenzione? La famiglia di vedere Veloce → Dettagliato. scorgere: vedi per un istante, senza cercarlo Ho scorto Maria tra la folla. dare un’occhiata: uno sguardo velocissimo, apposta Dà un’occhiata all’orologio. guardare: dirigi gli occhi su qualcosa Guarda questa foto. osservare: segui con attenzione, nel tempo I ricercatori osservano gli uccelli. esaminare: uno sguardo attento per capire Il medico esamina il mio ginocchio. scrutare: cerchi ogni dettaglio Scruta l’orizzonte."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. pensare",
+      "stageOnly": true,
+      "say": "8. pensare. Pensare nasconde quanto sei sicuro. Scegli un verbo che lo mostri."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**credere / ritenere / trovare che** (hai un’opinione) — Penso che sia una buona idea. → Ritengo che sia una buona idea. Trovo che… = opinione personale, molto comune. Ritengo che… = giudizio più ponderato.",
+        "**supporre / immaginare** (indovini) — Penso che sia a casa. → Suppongo che sia a casa.",
+        "**dare per scontato / presumere** (accetti senza verificare) — Pensavo che lo sapessi. → Davo per scontato che lo sapessi.",
+        "**sospettare** (hai una brutta sensazione) — Penso che Paolo abbia mentito. → Sospetto che Paolo abbia mentito. Sospettare = pensare a qualcosa di negativo.",
+        "**riflettere su / valutare / considerare** (pesi le opzioni) — Penso all’offerta. → Rifletto sull’offerta. Valutare = pesare pro e contro: Stiamo valutando due proposte.",
+        "**chiedersi** (non hai la risposta) — Penso a cosa succederà. → Mi chiedo che cosa succederà.",
+        "**concludere / rendersi conto** (arrivi a una conclusione) — Abbiamo pensato che servisse più tempo. → Abbiamo concluso che serviva più tempo. Rendersi conto = capire all’improvviso: Mi sono reso conto di aver perso le chiavi.",
+        "⚠️ Trappola: Dopo pensare che e credere che si usa il congiuntivo: ✗ Penso che è giusto. → ✓ Penso che sia giusto."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-pensare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">8</span><h4 class=\"vcard-title\">pensare</h4><p class=\"vcard-sub\"><em>Pensare</em> nasconde quanto sei sicuro. Scegli un verbo che lo mostri.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">hai un’opinione</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>credere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ritenere</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>trovare che</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Penso che sia una buona idea.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ritengo</mark> che sia una buona idea.</div><div class=\"vrow-note\"><em>Trovo che…</em> = opinione personale, molto comune. <em>Ritengo che…</em> = giudizio più ponderato.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">indovini</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>supporre</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>immaginare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Penso che sia a casa.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Suppongo</mark> che sia a casa.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">accetti senza verificare</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>dare per scontato</span><span class=\"vtag is-formal is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>presumere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Pensavo che lo sapessi.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Davo per scontato</mark> che lo sapessi.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">hai una brutta sensazione</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>sospettare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Penso che Paolo abbia mentito.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Sospetto</mark> che Paolo abbia mentito.</div><div class=\"vrow-note\"><em>Sospettare</em> = pensare a qualcosa di negativo.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">pesi le opzioni</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>riflettere su</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>valutare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>considerare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Penso all’offerta.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Rifletto</mark> sull’offerta.</div><div class=\"vrow-note\"><em>Valutare</em> = pesare pro e contro: <em><mark>Stiamo valutando</mark> due proposte.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">non hai la risposta</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>chiedersi</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Penso a cosa succederà.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Mi chiedo</mark> che cosa succederà.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">arrivi a una conclusione</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>concludere</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>rendersi conto</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Abbiamo pensato che servisse più tempo.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Abbiamo concluso</mark> che serviva più tempo.</div><div class=\"vrow-note\"><em>Rendersi conto</em> = capire all’improvviso: <em><mark>Mi sono reso conto</mark> di aver perso le chiavi.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> Dopo <em>pensare che</em> e <em>credere che</em> si usa il congiuntivo: <span class=\"bad\">Penso che è giusto.</span> → <span class=\"good\">Penso che sia giusto.</span></p></section>",
+      "say": "credere / ritenere / trovare che (hai un’opinione) — Penso che sia una buona idea. → Ritengo che sia una buona idea. Trovo che… = opinione personale, molto comune. Ritengo che… = giudizio più ponderato. supporre / immaginare (indovini) — Penso che sia a casa. → Suppongo che sia a casa. dare per scontato / presumere (accetti senza verificare) — Pensavo che lo sapessi. → Davo per scontato che lo sapessi. sospettare (hai una brutta sensazione) — Penso che Paolo abbia mentito. → Sospetto che Paolo abbia mentito. Sospettare = pensare a qualcosa di negativo. riflettere su / valutare / considerare (pesi le opzioni) — Penso all’offerta. → Rifletto sull’offerta. Valutare = pesare pro e contro: Stiamo valutando due proposte. chiedersi (non hai la risposta) — Penso a cosa succederà. → Mi chiedo che cosa succederà. concludere / rendersi conto (arrivi a una conclusione) — Abbiamo pensato che servisse più tempo. → Abbiamo concluso che serviva più tempo. Rendersi conto = capire all’improvviso: Mi sono reso conto di aver perso le chiavi. ⚠️ Trappola: Dopo pensare che e credere che si usa il congiuntivo: ✗ Penso che è giusto. → ✓ Penso che sia giusto."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Scala di significato</p><p class=\"cosy-fig-title\">Quanto sei sicuro? La famiglia di <em>pensare</em></p><p class=\"scale-ends\"><span>Poco sicuro</span><span>Molto sicuro</span></p><ol class=\"scale\"><li class=\"scale-step\" style=\"--scale-c:#94a3b8;--scale-n:#7dd3fc\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">chiedersi</span> <span class=\"scale-desc\">— sei curioso ma non hai una risposta</span><br><span class=\"scale-ex\">Mi chiedo chi l’abbia lasciato.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#7dd3fc;--scale-n:#38bdf8\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">supporre</span> <span class=\"scale-desc\">— è probabile, ma non hai verificato</span><br><span class=\"scale-ex\">Suppongo che sia al lavoro.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#38bdf8;--scale-n:#2dd4bf\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">credere</span> <span class=\"scale-desc\">— è un’impressione, senza prove</span><br><span class=\"scale-ex\">Credo che dica la verità.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#2dd4bf;--scale-n:#14b8a6\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">ritenere</span> <span class=\"scale-desc\">— un giudizio dopo aver riflettuto</span><br><span class=\"scale-ex\">Ritengo che il progetto sia fattibile.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#14b8a6;--scale-n:#0f766e\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">essere convinto</span> <span class=\"scale-desc\">— hai ottime ragioni e quasi nessun dubbio</span><br><span class=\"scale-ex\">Sono convinto che abbiamo scelto bene.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#0f766e;--scale-n:#0f766e\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">sapere</span> <span class=\"scale-desc\">— hai fatti o prove</span><br><span class=\"scale-ex\">So che il negozio chiude alle sei.</span></span></li></ol><p class=\"cosy-fig-cap\"><em>Sospettare</em> ha una direzione tutta sua: pensi a qualcosa di negativo. <em>Dare per scontato</em> = accettare senza verificare.</p></figure>",
+      "text": "Quanto sei sicuro? La famiglia di pensare Poco sicuro → Molto sicuro. chiedersi: sei curioso ma non hai una risposta Mi chiedo chi l’abbia lasciato. supporre: è probabile, ma non hai verificato Suppongo che sia al lavoro. credere: è un’impressione, senza prove Credo che dica la verità. ritenere: un giudizio dopo aver riflettuto Ritengo che il progetto sia fattibile. essere convinto: hai ottime ragioni e quasi nessun dubbio Sono convinto che abbiamo scelto bene. sapere: hai fatti o prove So che il negozio chiude alle sei.",
+      "say": "Quanto sei sicuro? La famiglia di pensare Poco sicuro → Molto sicuro. chiedersi: sei curioso ma non hai una risposta Mi chiedo chi l’abbia lasciato. supporre: è probabile, ma non hai verificato Suppongo che sia al lavoro. credere: è un’impressione, senza prove Credo che dica la verità. ritenere: un giudizio dopo aver riflettuto Ritengo che il progetto sia fattibile. essere convinto: hai ottime ragioni e quasi nessun dubbio Sono convinto che abbiamo scelto bene. sapere: hai fatti o prove So che il negozio chiude alle sei."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. dare",
+      "stageOnly": true,
+      "say": "9. dare. Dare è corretto, ma un verbo preciso dice di che tipo di dono si tratta."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**offrire / fornire** (offri un servizio) — Diamo il Wi-Fi gratis. → Offriamo il Wi-Fi gratuito. Fornire = mettere a disposizione: L’azienda fornisce i materiali.",
+        "**consegnare / porgere / recapitare** (passi qualcosa a qualcuno) — Mi ha dato le chiavi. → Mi ha consegnato le chiavi. Recapitare = portare a un indirizzo: Il corriere ha recapitato il pacco.",
+        "**concedere / assegnare** (un’autorità permette o premia) — Mi hanno dato il permesso di uscire prima. → Mi hanno concesso il permesso di uscire prima. Assegnare un premio: Le hanno assegnato una medaglia.",
+        "**donare / prestare** (dai denaro o oggetti) — Ha dato molti soldi alla scuola. → Ha donato molti soldi alla scuola. Prestare = rivuoi indietro: Mi presti la penna?",
+        "**consigliare / raccomandare** (dai un consiglio) — Il mio professore mi ha dato un consiglio. → Il mio professore mi ha consigliato di leggere di più.",
+        "⚠️ Trappola: Con dare e i pronomi, si scrive tutto attaccato: ✗ Dammi-lo. → ✓ Dammelo."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-dare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">9</span><h4 class=\"vcard-title\">dare</h4><p class=\"vcard-sub\"><em>Dare</em> è corretto, ma un verbo preciso dice di che tipo di dono si tratta.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">offri un servizio</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>offrire</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>fornire</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Diamo il Wi-Fi gratis.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Offriamo</mark> il Wi-Fi gratuito.</div><div class=\"vrow-note\"><em>Fornire</em> = mettere a disposizione: <em>L’azienda <mark>fornisce</mark> i materiali.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">passi qualcosa a qualcuno</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>consegnare</span><span class=\"vtag is-formal is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>porgere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>recapitare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi ha dato le chiavi.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Mi <mark>ha consegnato</mark> le chiavi.</div><div class=\"vrow-note\"><em>Recapitare</em> = portare a un indirizzo: <em>Il corriere <mark>ha recapitato</mark> il pacco.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">un’autorità permette o premia</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>concedere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>assegnare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi hanno dato il permesso di uscire prima.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Mi <mark>hanno concesso</mark> il permesso di uscire prima.</div><div class=\"vrow-note\"><em>Assegnare</em> un premio: <em>Le <mark>hanno assegnato</mark> una medaglia.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">dai denaro o oggetti</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>donare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>prestare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha dato molti soldi alla scuola.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha donato</mark> molti soldi alla scuola.</div><div class=\"vrow-note\"><em>Prestare</em> = rivuoi indietro: <em>Mi <mark>presti</mark> la penna?</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">dai un consiglio</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>consigliare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>raccomandare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Il mio professore mi ha dato un consiglio.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Il mio professore mi <mark>ha consigliato</mark> di leggere di più.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> Con <em>dare</em> e i pronomi, si scrive tutto attaccato: <span class=\"bad\">Dammi-lo.</span> → <span class=\"good\">Dammelo.</span></p></section>",
+      "say": "offrire / fornire (offri un servizio) — Diamo il Wi-Fi gratis. → Offriamo il Wi-Fi gratuito. Fornire = mettere a disposizione: L’azienda fornisce i materiali. consegnare / porgere / recapitare (passi qualcosa a qualcuno) — Mi ha dato le chiavi. → Mi ha consegnato le chiavi. Recapitare = portare a un indirizzo: Il corriere ha recapitato il pacco. concedere / assegnare (un’autorità permette o premia) — Mi hanno dato il permesso di uscire prima. → Mi hanno concesso il permesso di uscire prima. Assegnare un premio: Le hanno assegnato una medaglia. donare / prestare (dai denaro o oggetti) — Ha dato molti soldi alla scuola. → Ha donato molti soldi alla scuola. Prestare = rivuoi indietro: Mi presti la penna? consigliare / raccomandare (dai un consiglio) — Il mio professore mi ha dato un consiglio. → Il mio professore mi ha consigliato di leggere di più. ⚠️ Trappola: Con dare e i pronomi, si scrive tutto attaccato: ✗ Dammi-lo. → ✓ Dammelo."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. trovare",
+      "stageOnly": true,
+      "say": "10. trovare. Trovare copre individuare, scoprire, giudicare, ottenere…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**individuare / ritrovare** (individui o ritrovi) — Ho trovato l’uscita. → Ho individuato l’uscita. Ritrovare = trovare ciò che avevi perso: Ho ritrovato le chiavi.",
+        "**identificare / rilevare** (identifichi la causa) — Gli ingegneri hanno trovato il guasto. → Gli ingegneri hanno individuato il guasto. Rilevare = percepire qualcosa di nascosto: Il sensore rileva il fumo.",
+        "**scoprire** (è nuovo per te) — Ho trovato un piccolo bar. → Ho scoperto un piccolo bar.",
+        "**ritenere / giudicare** (dai un giudizio) — Trovo che questo film sia troppo lungo. → Ritengo che questo film sia troppo lungo. Trovo che resta perfetto a voce: tienilo!",
+        "**ottenere / aggiudicarsi** (ottieni dopo uno sforzo) — Ha trovato una borsa di studio. → Ha ottenuto una borsa di studio. Aggiudicarsi = vincere: Si è aggiudicata il premio.",
+        "**essere situato / trovarsi** (un luogo) — Il museo si trova in centro. → Il museo è situato in centro.",
+        "⚠️ Trappola: Trovare = il risultato; cercare = l’azione: ✗ Trovo le chiavi da un’ora. → ✓ Cerco le chiavi da un’ora."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-trovare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">10</span><h4 class=\"vcard-title\">trovare</h4><p class=\"vcard-sub\"><em>Trovare</em> copre individuare, scoprire, giudicare, ottenere…</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">individui o ritrovi</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>individuare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ritrovare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho trovato l’uscita.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho individuato</mark> l’uscita.</div><div class=\"vrow-note\"><em>Ritrovare</em> = trovare ciò che avevi perso: <em><mark>Ho ritrovato</mark> le chiavi.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">identifichi la causa</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>identificare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>rilevare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Gli ingegneri hanno trovato il guasto.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Gli ingegneri <mark>hanno individuato</mark> il guasto.</div><div class=\"vrow-note\"><em>Rilevare</em> = percepire qualcosa di nascosto: <em>Il sensore <mark>rileva</mark> il fumo.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">è nuovo per te</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>scoprire</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ho trovato un piccolo bar.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ho scoperto</mark> un piccolo bar.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">dai un giudizio</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ritenere</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>giudicare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Trovo che questo film sia troppo lungo.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ritengo</mark> che questo film sia troppo lungo.</div><div class=\"vrow-note\"><em>Trovo che</em> resta perfetto a voce: tienilo!</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ottieni dopo uno sforzo</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ottenere</span><span class=\"vtag is-formal is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>aggiudicarsi</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ha trovato una borsa di studio.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ha ottenuto</mark> una borsa di studio.</div><div class=\"vrow-note\"><em>Aggiudicarsi</em> = vincere: <em>Si è <mark>aggiudicata</mark> il premio.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">un luogo</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>essere situato</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>trovarsi</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Il museo si trova in centro.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Il museo <mark>è situato</mark> in centro.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Trappola:</b> <em>Trovare</em> = il risultato; <em>cercare</em> = l’azione: <span class=\"bad\">Trovo le chiavi da un’ora.</span> → <span class=\"good\">Cerco le chiavi da un’ora.</span></p></section>",
+      "say": "individuare / ritrovare (individui o ritrovi) — Ho trovato l’uscita. → Ho individuato l’uscita. Ritrovare = trovare ciò che avevi perso: Ho ritrovato le chiavi. identificare / rilevare (identifichi la causa) — Gli ingegneri hanno trovato il guasto. → Gli ingegneri hanno individuato il guasto. Rilevare = percepire qualcosa di nascosto: Il sensore rileva il fumo. scoprire (è nuovo per te) — Ho trovato un piccolo bar. → Ho scoperto un piccolo bar. ritenere / giudicare (dai un giudizio) — Trovo che questo film sia troppo lungo. → Ritengo che questo film sia troppo lungo. Trovo che resta perfetto a voce: tienilo! ottenere / aggiudicarsi (ottieni dopo uno sforzo) — Ha trovato una borsa di studio. → Ha ottenuto una borsa di studio. Aggiudicarsi = vincere: Si è aggiudicata il premio. essere situato / trovarsi (un luogo) — Il museo si trova in centro. → Il museo è situato in centro. ⚠️ Trappola: Trovare = il risultato; cercare = l’azione: ✗ Trovo le chiavi da un’ora. → ✓ Cerco le chiavi da un’ora."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bonus: tre altri verbi «sicuri»",
+      "say": "Bonus: tre altri verbi «sicuri»"
+    },
+    {
+      "type": "paragraph",
+      "text": "*Mi piace*, *usare* e *c’è* ricorrono in quasi ogni conversazione di chi studia. Ecco potenziamenti rapidi.",
+      "say": "Mi piace, usare e c’è ricorrono in quasi ogni conversazione di chi studia. Ecco potenziamenti rapidi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "mi piace",
+      "stageOnly": true,
+      "say": "mi piace"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**adorare / apprezzare** (lo adori) — Mi piace questa canzone. → Adoro questa canzone. Apprezzare è più sfumato: Apprezzo il tuo aiuto.",
+        "**essere appassionato di / interessarsi a** (è una passione) — Mi piace la storia. → Sono appassionato di storia.",
+        "**preferire** (scegli l’uno invece dell’altro) — Mi piace più il tè del caffè. → Preferisco il tè al caffè."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-piacere\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">mi piace</h4><p class=\"vcard-sub\">«Mi piace…» in ogni frase? Mostra l’intensità.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">lo adori</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>adorare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>apprezzare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi piace questa canzone.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Adoro</mark> questa canzone.</div><div class=\"vrow-note\"><em>Apprezzare</em> è più sfumato: <em><mark>Apprezzo</mark> il tuo aiuto.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">è una passione</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>essere appassionato di</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>interessarsi a</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi piace la storia.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Sono appassionato</mark> di storia.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">scegli l’uno invece dell’altro</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>preferire</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Mi piace più il tè del caffè.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Preferisco</mark> il tè al caffè.</div></li></ul></section>",
+      "say": "adorare / apprezzare (lo adori) — Mi piace questa canzone. → Adoro questa canzone. Apprezzare è più sfumato: Apprezzo il tuo aiuto. essere appassionato di / interessarsi a (è una passione) — Mi piace la storia. → Sono appassionato di storia. preferire (scegli l’uno invece dell’altro) — Mi piace più il tè del caffè. → Preferisco il tè al caffè."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "usare",
+      "stageOnly": true,
+      "say": "usare"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**servirsi di / fare affidamento su** (ne dipendi) — Usiamo questo software ogni giorno. → Ci serviamo di questo software ogni giorno.",
+        "**applicare / adottare** (applichi un metodo) — Usiamo un metodo semplice. → Applichiamo un metodo semplice.",
+        "**azionare / far funzionare** (fai funzionare una macchina) — Sai usare questa macchina? → Sai azionare questa macchina?",
+        "**sfruttare / approfittare di** (ne trai il meglio) — Usa bene il tuo tempo. → Sfrutta bene il tuo tempo."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-usare\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">usare</h4><p class=\"vcard-sub\"><em>Usare</em> è utile, ma puoi dire come e perché.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">ne dipendi</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>servirsi di</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>fare affidamento su</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Usiamo questo software ogni giorno.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ci serviamo di</mark> questo software ogni giorno.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">applichi un metodo</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>applicare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>adottare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Usiamo un metodo semplice.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Applichiamo</mark> un metodo semplice.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">fai funzionare una macchina</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>azionare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>far funzionare</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Sai usare questa macchina?</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Sai <mark>azionare</mark> questa macchina?</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ne trai il meglio</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>sfruttare</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>approfittare di</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Usa bene il tuo tempo.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Sfrutta</mark> bene il tuo tempo.</div></li></ul></section>",
+      "say": "servirsi di / fare affidamento su (ne dipendi) — Usiamo questo software ogni giorno. → Ci serviamo di questo software ogni giorno. applicare / adottare (applichi un metodo) — Usiamo un metodo semplice. → Applichiamo un metodo semplice. azionare / far funzionare (fai funzionare una macchina) — Sai usare questa macchina? → Sai azionare questa macchina? sfruttare / approfittare di (ne trai il meglio) — Usa bene il tuo tempo. → Sfrutta bene il tuo tempo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "c’è / ci sono",
+      "stageOnly": true,
+      "say": "c’è / ci sono"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**trovarsi / sorgere** (un luogo) — C’è un parco qui vicino. → Un parco si trova qui vicino.",
+        "**contare / comprendere** (un numero di elementi) — Ci sono tre camere nell’appartamento. → L’appartamento conta tre camere.",
+        "**porsi / esistere** (compare un problema) — C’è un problema di budget. → Si pone un problema di budget."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-ce\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">c’è / ci sono</h4><p class=\"vcard-sub\"><em>C’è</em> è perfetto a voce. Per iscritto, varia.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">un luogo</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>trovarsi</span><span class=\"vtag is-formal is-stretch\" title=\"Parola extra: utile, ma meglio per la scrittura o per dopo\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>sorgere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">C’è un parco qui vicino.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Un parco <mark>si trova</mark> qui vicino.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">un numero di elementi</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>contare</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>comprendere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ci sono tre camere nell’appartamento.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>L’appartamento <mark>conta</mark> tre camere.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">compare un problema</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>porsi</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>esistere</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">C’è un problema di budget.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Si pone</mark> un problema di budget.</div></li></ul></section>",
+      "say": "trovarsi / sorgere (un luogo) — C’è un parco qui vicino. → Un parco si trova qui vicino. contare / comprendere (un numero di elementi) — Ci sono tre camere nell’appartamento. → L’appartamento conta tre camere. porsi / esistere (compare un problema) — C’è un problema di budget. → Si pone un problema di budget."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mettiamo tutto insieme",
+      "say": "Mettiamo tutto insieme"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ecco la stessa storia due volte. Leggi ad alta voce la versione «prima», poi quella «dopo». La seconda dipinge un quadro più chiaro, senza grammatica difficile.",
+      "say": "Ecco la stessa storia due volte. Leggi ad alta voce la versione «prima», poi quella «dopo». La seconda dipinge un quadro più chiaro, senza grammatica difficile."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quotidiano (B1)",
+      "say": "Quotidiano (B1)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"ba\"><div class=\"ba-panel ba-before\"><span class=\"ba-label\">Prima</span>Ieri <span class=\"weak\">sono andato</span> in centro. <span class=\"weak\">Ho preso</span> un caffè e <span class=\"weak\">ho fatto</span> una lunga chiacchierata con la mia amica. Mi <span class=\"weak\">ha detto</span> che <span class=\"weak\">ha</span> un nuovo lavoro. <span class=\"weak\">Pensavo</span> fosse una bellissima notizia. <span class=\"weak\">Abbiamo fatto</span> un piano per <span class=\"weak\">andare a vedere</span> il suo ufficio la settimana prossima.</div><div class=\"ba-panel ba-after\"><span class=\"ba-label\">Dopo</span>Ieri <mark>ho passeggiato</mark> in centro. <mark>Mi sono gustato</mark> un caffè e <mark>ho chiacchierato</mark> a lungo con la mia amica. Mi <mark>ha annunciato</mark> che <mark>ha ottenuto</mark> un nuovo lavoro. <mark>Mi è sembrata</mark> una bellissima notizia. <mark>Abbiamo deciso</mark> di <mark>visitare</mark> il suo ufficio la settimana prossima.</div></div>",
+      "text": "Prima: Ieri sono andato in centro. Ho preso un caffè e ho fatto una lunga chiacchierata con la mia amica. Mi ha detto che ha un nuovo lavoro. Pensavo fosse una bellissima notizia. Abbiamo fatto un piano per andare a vedere il suo ufficio la settimana prossima. Dopo: Ieri ho passeggiato in centro. Mi sono gustato un caffè e ho chiacchierato a lungo con la mia amica. Mi ha annunciato che ha ottenuto un nuovo lavoro. Mi è sembrata una bellissima notizia. Abbiamo deciso di visitare il suo ufficio la settimana prossima.",
+      "say": "Prima: Ieri sono andato in centro. Ho preso un caffè e ho fatto una lunga chiacchierata con la mia amica. Mi ha detto che ha un nuovo lavoro. Pensavo fosse una bellissima notizia. Abbiamo fatto un piano per andare a vedere il suo ufficio la settimana prossima. Dopo: Ieri ho passeggiato in centro. Mi sono gustato un caffè e ho chiacchierato a lungo con la mia amica. Mi ha annunciato che ha ottenuto un nuovo lavoro. Mi è sembrata una bellissima notizia. Abbiamo deciso di visitare il suo ufficio la settimana prossima."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Al lavoro (B2)",
+      "say": "Al lavoro (B2)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"ba\"><div class=\"ba-panel ba-before\"><span class=\"ba-label\">Prima</span><span class=\"weak\">Ho fatto</span> la relazione e l’<span class=\"weak\">ho data</span> alla mia responsabile. <span class=\"weak\">Ha detto</span> che i numeri non andavano bene. <span class=\"weak\">Ho preso</span> i dati originali e <span class=\"weak\">abbiamo fatto</span> una nuova versione. <span class=\"weak\">Penso</span> che ora sia molto meglio.</div><div class=\"ba-panel ba-after\"><span class=\"ba-label\">Dopo</span><mark>Ho redatto</mark> la relazione e l’<mark>ho consegnata</mark> alla mia responsabile. <mark>Ha fatto notare</mark> che i numeri non tornavano. <mark>Ho recuperato</mark> i dati originali e <mark>abbiamo elaborato</mark> una nuova versione. <mark>Ritengo</mark> che ora sia molto meglio.</div></div>",
+      "text": "Prima: Ho fatto la relazione e l’ho data alla mia responsabile. Ha detto che i numeri non andavano bene. Ho preso i dati originali e abbiamo fatto una nuova versione. Penso che ora sia molto meglio. Dopo: Ho redatto la relazione e l’ho consegnata alla mia responsabile. Ha fatto notare che i numeri non tornavano. Ho recuperato i dati originali e abbiamo elaborato una nuova versione. Ritengo che ora sia molto meglio.",
+      "say": "Prima: Ho fatto la relazione e l’ho data alla mia responsabile. Ha detto che i numeri non andavano bene. Ho preso i dati originali e abbiamo fatto una nuova versione. Penso che ora sia molto meglio. Dopo: Ho redatto la relazione e l’ho consegnata alla mia responsabile. Ha fatto notare che i numeri non tornavano. Ho recuperato i dati originali e abbiamo elaborato una nuova versione. Ritengo che ora sia molto meglio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nei testi «dopo» non c’è grammatica avanzata. La differenza è **la scelta del vocabolario**, ed è proprio questo che ti porta da B1 verso B2.",
+      "say": "Nei testi «dopo» non c’è grammatica avanzata. La differenza è la scelta del vocabolario, ed è proprio questo che ti porta da B1 verso B2."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Potenziamenti professionali e accademici",
+      "say": "Potenziamenti professionali e accademici"
+    },
+    {
+      "type": "paragraph",
+      "text": "In e-mail, relazioni e saggi, i verbi precisi ti rendono credibile. Usa questa tabella come promemoria «invece di → prova con».",
+      "say": "In e-mail, relazioni e saggi, i verbi precisi ti rendono credibile. Usa questa tabella come promemoria «invece di → prova con»."
     },
     {
       "type": "table",
       "headers": [
-        "Invece di...",
-        "Scegli...",
-        "Esempio di utilizzo"
+        "Invece di",
+        "Prova con",
+        "Esempio"
       ],
       "rows": [
         [
-          "**avere**",
-          "*disporre di, beneficiare di*",
-          "\"Disponiamo di un forte sostegno.\""
-        ],
-        [
           "**mostrare**",
-          "*dimostrare, illustrare, rivelare*",
-          "\"I dati **illustrano** una crescita costante.\""
+          "dimostrare, illustrare, rivelare",
+          "Il grafico illustra la tendenza."
         ],
         [
           "**aiutare**",
-          "*assistere, supportare, facilitare*",
-          "\"Questo strumento **facilita** il lavoro.\""
+          "sostenere, facilitare",
+          "Questo strumento facilita il lavoro da remoto."
         ],
         [
           "**aggiustare**",
-          "*risolvere, porre rimedio a*",
-          "\"Il team ha **risolto** il problema tecnico.\""
+          "riparare (oggetti), risolvere (problemi)",
+          "Abbiamo risolto il problema in un’ora."
         ],
         [
           "**cambiare**",
-          "*modificare, trasformare, adeguare*",
-          "\"Abbiamo **adeguato** il calendario.\""
+          "modificare, adeguare, trasformare (molto)",
+          "Abbiamo modificato il calendario."
+        ],
+        [
+          "**iniziare**",
+          "avviare, lanciare (un prodotto), intraprendere",
+          "L’azienda ha lanciato una nuova app."
+        ],
+        [
+          "**chiedere**",
+          "richiedere, informarsi, consultare",
+          "Si è informata sulla posizione aperta."
+        ],
+        [
+          "**avere bisogno di**",
+          "richiedere, necessitare",
+          "Questo ruolo richiede esperienza."
+        ],
+        [
+          "**parlare di**",
+          "trattare, affrontare, accennare a",
+          "L’articolo affronta il tema del plateau."
         ]
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Conclusione: Evoluzione, non eliminazione"
+      ],
+      "html": "<div class=\"instead-try-spread\" aria-label=\"Tabella «Invece di / Prova con» per l’italiano professionale e accademico\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">Invece di ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">Prova con ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">mostrare</mark></div><div class=\"instead-try-cell try-cell\"><em>dimostrare, illustrare, rivelare</em><br><span class=\"vrow-note\">Il grafico <mark>illustra</mark> la tendenza.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">aiutare</mark></div><div class=\"instead-try-cell try-cell\"><em>sostenere, facilitare</em><br><span class=\"vrow-note\">Questo strumento <mark>facilita</mark> il lavoro da remoto.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">aggiustare</mark></div><div class=\"instead-try-cell try-cell\"><em>riparare</em> (oggetti), <em>risolvere</em> (problemi)<br><span class=\"vrow-note\">Abbiamo <mark>risolto</mark> il problema in un’ora.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">cambiare</mark></div><div class=\"instead-try-cell try-cell\"><em>modificare, adeguare, trasformare</em> (molto)<br><span class=\"vrow-note\">Abbiamo <mark>modificato</mark> il calendario.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">iniziare</mark></div><div class=\"instead-try-cell try-cell\"><em>avviare, lanciare</em> (un prodotto), <em>intraprendere</em><br><span class=\"vrow-note\">L’azienda ha <mark>lanciato</mark> una nuova app.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">chiedere</mark></div><div class=\"instead-try-cell try-cell\"><em>richiedere, informarsi, consultare</em><br><span class=\"vrow-note\">Si è <mark>informata</mark> sulla posizione aperta.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">avere bisogno di</mark></div><div class=\"instead-try-cell try-cell\"><em>richiedere, necessitare</em><br><span class=\"vrow-note\">Questo ruolo <mark>richiede</mark> esperienza.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">parlare di</mark></div><div class=\"instead-try-cell try-cell\"><em>trattare, affrontare, accennare a</em><br><span class=\"vrow-note\">L’articolo <mark>affronta</mark> il tema del plateau.</span></div></div></div></div>",
+      "say": ""
     },
     {
       "type": "paragraph",
-      "text": "Sostituire i verbi generici non significa eliminare verbi chiave come *fare* o *dire*. L'obiettivo è cogliere il momento in cui un verbo più preciso rende il tuo pensiero limpido ed elegante."
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mettiti alla prova",
+      "say": "Mettiti alla prova"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sei domande rapide. Tocca una risposta per vedere perché funziona.",
+      "say": "Sei domande rapide. Tocca una risposta per vedere perché funziona."
+    },
+    {
+      "type": "quiz",
+      "question": "Devo ___ una decisione entro domani.",
+      "options": [
+        "fare",
+        "prendere",
+        "mettere",
+        "dare"
+      ],
+      "correctIndex": 1,
+      "explanation": "Si *prende* una decisione. *Fare una decisione* è un calco da altre lingue.",
+      "say": "Devo ___ una decisione entro domani."
+    },
+    {
+      "type": "quiz",
+      "question": "Vorrei ___ un appuntamento con il direttore.",
+      "options": [
+        "fare",
+        "fissare",
+        "mettere",
+        "dire"
+      ],
+      "correctIndex": 1,
+      "explanation": "Si *fissa* (o si *prende*) un appuntamento. *Fare un appuntamento* suona innaturale.",
+      "say": "Vorrei ___ un appuntamento con il direttore."
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase è corretta?",
+      "options": [
+        "Mi ha detto restare.",
+        "Mi ha detto di restare.",
+        "Mi ha detto che restare.",
+        "Mi ha detto a restare."
+      ],
+      "correctIndex": 1,
+      "explanation": "Per un ordine o un consiglio: *dire a qualcuno di* + infinito.",
+      "say": "Quale frase è corretta?"
+    },
+    {
+      "type": "quiz",
+      "question": "Vado ___ mia nonna ogni domenica.",
+      "options": [
+        "a",
+        "da",
+        "in",
+        "per"
+      ],
+      "correctIndex": 1,
+      "explanation": "Per andare da una persona si usa *da*: *vado da mia nonna*.",
+      "say": "Vado ___ mia nonna ogni domenica."
+    },
+    {
+      "type": "quiz",
+      "question": "Quale verbo indica la certezza più debole?",
+      "options": [
+        "sapere",
+        "essere convinto",
+        "supporre",
+        "poter dimostrare"
+      ],
+      "correctIndex": 2,
+      "explanation": "*Supporre* = «è probabile». Gli altri esprimono una forte certezza.",
+      "say": "Quale verbo indica la certezza più debole?"
+    },
+    {
+      "type": "quiz",
+      "question": "Il medico ___ con attenzione il mio ginocchio per trovare la causa.",
+      "options": [
+        "ha dato un’occhiata a",
+        "ha esaminato",
+        "ha fissato",
+        "ha scorto"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Esaminare* = guardare con attenzione per capire. Gli altri verbi non suggeriscono un controllo accurato.",
+      "say": "Il medico ___ con attenzione il mio ginocchio per trovare la causa."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Il tuo piano di 7 giorni",
+      "say": "Il tuo piano di 7 giorni"
+    },
+    {
+      "type": "paragraph",
+      "text": "Breve e centrato sul parlato: bastano dieci minuti al giorno.",
+      "say": "Breve e centrato sul parlato: bastano dieci minuti al giorno."
+    },
+    {
+      "type": "paragraph",
+      "html": "<ol class=\"plan7\"><li><span class=\"plan-day\">Giorno 1</span><span class=\"plan-task\"><strong>Nota.</strong> Parla o scrivi per due minuti della tua giornata. Sottolinea ogni <em>fare, avere, dire, mettere, andare</em>.</span></li><li><span class=\"plan-day\">Giorno 2</span><span class=\"plan-task\"><strong>Fare + avere.</strong> Scegli tre righe sulle schede e riscrivi cinque tue frasi.</span></li><li><span class=\"plan-day\">Giorno 3</span><span class=\"plan-task\"><strong>Dire + pensare.</strong> Racconta una conversazione usando <em>informare, spiegare, segnalare</em> e <em>supporre</em> o <em>ritenere</em>.</span></li><li><span class=\"plan-day\">Giorno 4</span><span class=\"plan-task\"><strong>Andare + vedere.</strong> Descrivi un’uscita con <em>passeggiare, viaggiare</em> o <em>visitare</em>, e un verbo della scala dello sguardo.</span></li><li><span class=\"plan-day\">Giorno 5</span><span class=\"plan-task\"><strong>Prendere + dare + trovare.</strong> Correggi le collocazioni: <em>prendere una decisione, porre una domanda, dare un consiglio, ritrovare le chiavi</em>.</span></li><li><span class=\"plan-day\">Giorno 6</span><span class=\"plan-task\"><strong>Scrivi.</strong> Scrivi sei frasi sulla tua settimana, poi migliorale con il metodo in 3 passi.</span></li><li><span class=\"plan-day\">Giorno 7</span><span class=\"plan-task\"><strong>Parla.</strong> Registra un messaggio vocale di un minuto. Usa <em>fare, avere</em> e <em>dire</em> solo due volte in tutto. Riascoltati.</span></li></ol>",
+      "text": "Giorno 1: Nota. Parla o scrivi per due minuti della tua giornata. Sottolinea ogni fare, avere, dire, mettere, andare. Giorno 2: Fare + avere. Scegli tre righe sulle schede e riscrivi cinque tue frasi. Giorno 3: Dire + pensare. Racconta una conversazione usando informare, spiegare, segnalare e supporre o ritenere. Giorno 4: Andare + vedere. Descrivi un’uscita con passeggiare, viaggiare o visitare, e un verbo della scala dello sguardo. Giorno 5: Prendere + dare + trovare. Correggi le collocazioni: prendere una decisione, porre una domanda, dare un consiglio, ritrovare le chiavi. Giorno 6: Scrivi. Scrivi sei frasi sulla tua settimana, poi migliorale con il metodo in 3 passi. Giorno 7: Parla. Registra un messaggio vocale di un minuto. Usa fare, avere e dire solo due volte in tutto. Riascoltati.",
+      "say": "Giorno 1: Nota. Parla o scrivi per due minuti della tua giornata. Sottolinea ogni fare, avere, dire, mettere, andare. Giorno 2: Fare + avere. Scegli tre righe sulle schede e riscrivi cinque tue frasi. Giorno 3: Dire + pensare. Racconta una conversazione usando informare, spiegare, segnalare e supporre o ritenere. Giorno 4: Andare + vedere. Descrivi un’uscita con passeggiare, viaggiare o visitare, e un verbo della scala dello sguardo. Giorno 5: Prendere + dare + trovare. Correggi le collocazioni: prendere una decisione, porre una domanda, dare un consiglio, ritrovare le chiavi. Giorno 6: Scrivi. Scrivi sei frasi sulla tua settimana, poi migliorale con il metodo in 3 passi. Giorno 7: Parla. Registra un messaggio vocale di un minuto. Usa fare, avere e dire solo due volte in tutto. Riascoltati."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Esercitati con questi verbi su COSYpractice"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Per finire: evolvere, non eliminare",
+      "say": "Per finire: evolvere, non eliminare"
+    },
+    {
+      "type": "paragraph",
+      "text": "*Fare* e *avere* non sono i tuoi nemici. Gli italiani li usano tutto il giorno. L’obiettivo è **la scelta**: sapere che esiste un verbo più preciso e tenerlo pronto quando ti rende più chiaro, più gentile o più convincente. Scegli **un** verbo questa settimana, padroneggia la sua scheda, poi passa al successivo. Così il B1 diventa B2.",
+      "say": "Fare e avere non sono i tuoi nemici. Gli italiani li usano tutto il giorno. L’obiettivo è la scelta: sapere che esiste un verbo più preciso e tenerlo pronto quando ti rende più chiaro, più gentile o più convincente. Scegli un verbo questa settimana, padroneggia la sua scheda, poi passa al successivo. Così il B1 diventa B2."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Studi anche inglese, francese, russo o greco?",
+      "content": "Il plateau è simile in ogni lingua, ma ogni lingua ha i propri verbi «sicuri» (*get, faire, делать, κάνω*…). Usa **Leggi in** in cima alla pagina: ogni versione è scritta per la sua lingua, non tradotta parola per parola.",
+      "say": "Il plateau è simile in ogni lingua, ma ogni lingua ha i propri verbi «sicuri» (get, faire, делать, κάνω…). Usa Leggi in in cima alla pagina: ogni versione è scritta per la sua lingua, non tradotta parola per parola."
     }
-  ],
-  "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-  "draft": false
+  ]
 }

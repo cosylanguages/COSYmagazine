@@ -2,6 +2,8 @@
   "id": "post-top-10-verb-synonyms-intermediate-plateau-el",
   "slug": "top-10-verb-synonyms-intermediate-plateau-el",
   "language": "el",
+  "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+  "draft": false,
   "desk": "Words",
   "format": "list",
   "level": "B1–B2",
@@ -10,20 +12,20 @@
     "title": "Me vs Intermediate Plateau"
   },
   "date": "2026-09-11",
-  "title": "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)",
-  "kicker": "ΛΕΞΕΙΣ",
-  "dek": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.",
+  "updated": "2026-10-25",
+  "title": "Τα 10 πιο φθαρμένα ρήματα και τα ακριβή τους συνώνυμα για το ενδιάμεσο πλατό",
+  "kicker": "Words",
+  "dek": "Δέκα «ασφαλή» ρήματα κάνουν υπερβολικά πολλή δουλειά στις φράσεις σας. Μάθετε τι σημαίνει πραγματικά το καθένα, ποιο ακριβές ρήμα να διαλέξετε στη θέση του και ποιες παγίδες να αποφύγετε: κάρτες, διαγράμματα, κουίζ και πλάνο 7 ημερών.",
   "tags": [
-    "ΕνδιάμεσοΕπίπεδο",
+    "ΕνδιάμεσοΠλατό",
     "Λεξιλόγιο",
     "B1-B2",
     "Ρήματα",
     "Ελληνικά"
   ],
-  "readingTime": 3,
+  "readingTime": 15,
   "podcast": {
-    "episode": 4,
-    "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-el.mp3"
+    "episode": 4
   },
   "artDirection": {
     "palette": [
@@ -39,150 +41,717 @@
     },
     "layout": "magazine-spread",
     "motif": "tea-stain",
-    "seed": "top-10-verb-synonyms-intermediate-plateau-el",
+    "seed": "top-10-verb-synonyms-intermediate-plateau",
     "coverOverride": null
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Ένα από τα πιο εμφανή σημάδια ότι ένας μαθητής έχει φτάσει στο **ενδιάμεσο επίπεδο (B1–B2)** είναι η συνεχής εξάρτηση από μια μικρή ομάδα «ασφαλών»ρημάτων για να εκφράσει σχεδόν τα πάντα."
+      "text": "Διαβάστε φωναχτά αυτές τις πέντε φράσεις: **Κάνω μπάνιο. Κάνω καφέ. Κάνω λάθος. Κάνω γυμναστική. Κάνει κρύο.** Ένα μόνο ρήμα, πέντε διαφορετικά νοήματα. Ένας φυσικός ομιλητής τα καταλαβαίνει αμέσως, αλλά όποιος ξέρει μόνο το *κάνω* ακούγεται ασαφής: όχι λάθος, απλώς άχρωμος.",
+      "say": "Διαβάστε φωναχτά αυτές τις πέντε φράσεις: Κάνω μπάνιο. Κάνω καφέ. Κάνω λάθος. Κάνω γυμναστική. Κάνει κρύο. Ένα μόνο ρήμα, πέντε διαφορετικά νοήματα. Ένας φυσικός ομιλητής τα καταλαβαίνει αμέσως, αλλά όποιος ξέρει μόνο το κάνω ακούγεται ασαφής: όχι λάθος, απλώς άχρωμος."
     },
     {
       "type": "paragraph",
-      "text": "Αυτά τα βασικά ρήματα δεν είναι λάθος: αποτελούν τη δομή της γλώσσας. Ωστόσο, όταν επαναλαμβάνονται σε κάθε πρόταση, ο λόγος ακούγεται μονότονος. Διευρύνοντας αυτό το βασικό λεξιλόγιο με ακριβείς εναλλακτικές, κερδίζετε αμέσως σε ευχέρεια, σαφήνεια και εκφραστικότητα."
+      "text": "Αυτή η αχρωμία είναι η καρδιά του **ενδιάμεσου πλατό** (περίπου B1–B2). Η γραμματική σας είναι σωστή και σας καταλαβαίνουν, όμως δέκα πολύ συχνά ρήματα κάνουν σχεδόν όλη τη δουλειά: **κάνω, έχω, λέω, βάζω, παίρνω, πηγαίνω, βλέπω, νομίζω, δίνω, βρίσκω**. Δεν είναι «κακά» ρήματα και θα τα χρησιμοποιείτε κάθε μέρα. Το κλειδί είναι να καταλαβαίνετε πότε ένα ακριβέστερο ρήμα σάς περιμένει ακριβώς πίσω τους.",
+      "say": "Αυτή η αχρωμία είναι η καρδιά του ενδιάμεσου πλατό (περίπου B1–B2). Η γραμματική σας είναι σωστή και σας καταλαβαίνουν, όμως δέκα πολύ συχνά ρήματα κάνουν σχεδόν όλη τη δουλειά: κάνω, έχω, λέω, βάζω, παίρνω, πηγαίνω, βλέπω, νομίζω, δίνω, βρίσκω. Δεν είναι «κακά» ρήματα και θα τα χρησιμοποιείτε κάθε μέρα. Το κλειδί είναι να καταλαβαίνετε πότε ένα ακριβέστερο ρήμα σάς περιμένει ακριβώς πίσω τους."
+    },
+    {
+      "type": "paragraph",
+      "text": "Αυτό το άρθρο προτείνει μία μόνο συνήθεια. Πριν χρησιμοποιήσετε ένα «ασφαλές» ρήμα, ρωτήστε: **«Τι ακριβώς έγινε;»** Η απάντηση συχνά σας δίνει το καλύτερο ρήμα.",
+      "say": "Αυτό το άρθρο προτείνει μία μόνο συνήθεια. Πριν χρησιμοποιήσετε ένα «ασφαλές» ρήμα, ρωτήστε: «Τι ακριβώς έγινε;» Η απάντηση συχνά σας δίνει το καλύτερο ρήμα."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Πώς να χρησιμοποιήσετε αυτό το άρθρο",
+      "say": "Πώς να χρησιμοποιήσετε αυτό το άρθρο"
+    },
+    {
+      "type": "paragraph",
+      "text": "Κάθε ρήμα έχει τη δική του κάρτα. Κάθε γραμμή ακολουθεί το ίδιο σχήμα: **τι θέλετε πραγματικά να πείτε → τα ρήματα που το λένε → ένα παράδειγμα**. Τα χρώματα δείχνουν πού ταιριάζει κάθε ρήμα, ώστε να μη μιλάτε στο καφενείο με λέξεις δικαστηρίου. Τα ρήματα δίνονται στο α΄ ενικό, όπως στα λεξικά.",
+      "say": "Κάθε ρήμα έχει τη δική του κάρτα. Κάθε γραμμή ακολουθεί το ίδιο σχήμα: τι θέλετε πραγματικά να πείτε → τα ρήματα που το λένε → ένα παράδειγμα. Τα χρώματα δείχνουν πού ταιριάζει κάθε ρήμα, ώστε να μη μιλάτε στο καφενείο με λέξεις δικαστηρίου. Τα ρήματα δίνονται στο α΄ ενικό, όπως στα λεξικά."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"av-legend\" role=\"note\" aria-label=\"Πώς να διαβάσετε τις κάρτες:\"><b>Πώς να διαβάσετε τις κάρτες:</b><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>καθημερινά</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>δουλειά &amp; σπουδές</span><span class=\"vtag is-formal\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>επίσημο / γραπτό</span><span class=\"vtag is-everyday is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>επιπλέον λέξη</span></div>",
+      "text": "Πώς να διαβάσετε τις κάρτες: καθημερινά; δουλειά & σπουδές; επίσημο / γραπτό; επιπλέον λέξη.",
+      "say": "Πώς να διαβάσετε τις κάρτες: καθημερινά; δουλειά & σπουδές; επίσημο / γραπτό; επιπλέον λέξη."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Μέθοδος</p><p class=\"cosy-fig-title\">Η αναβάθμιση σε 3 βήματα</p><ol class=\"flow3\"><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">1</span><span class=\"flow-title\">Προσέξτε</span><span class=\"flow-text\">Πιάστε ένα «ασφαλές» ρήμα όταν μιλάτε ή γράφετε.</span><span class=\"flow-ex\">«<mark>Έκανα</mark> ένα ράφι.»</span></li><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">2</span><span class=\"flow-title\">Ρωτήστε</span><span class=\"flow-text\">Τι ακριβώς έγινε; Διαλέξτε το πραγματικό νόημα.</span><span class=\"flow-ex\">Το κατασκεύασα; Το αγόρασα; Το σχεδίασα;</span></li><li class=\"flow-step\"><span class=\"flow-n\" aria-hidden=\"true\">3</span><span class=\"flow-title\">Διαλέξτε</span><span class=\"flow-text\">Πάρτε το ρήμα που ταιριάζει και ελέγξτε αν ταιριάζει στην περίσταση.</span><span class=\"flow-ex\">«<mark>Κατασκεύασα</mark> ένα ράφι.»</span></li></ol><p class=\"cosy-fig-cap\">Δεν χρειάζεται να αντικαταστήσετε κάθε <em>κάνω</em>. Αλλάξτε ρήμα όταν υπάρχει ακριβέστερο, ειδικά στον γραπτό λόγο.</p></figure>",
+      "text": "Η αναβάθμιση σε 3 βήματα 1. Προσέξτε — Πιάστε ένα «ασφαλές» ρήμα όταν μιλάτε ή γράφετε. «Έκανα ένα ράφι.» 2. Ρωτήστε — Τι ακριβώς έγινε; Διαλέξτε το πραγματικό νόημα. Το κατασκεύασα; Το αγόρασα; Το σχεδίασα; 3. Διαλέξτε — Πάρτε το ρήμα που ταιριάζει και ελέγξτε αν ταιριάζει στην περίσταση. «Κατασκεύασα ένα ράφι.»",
+      "say": "Η αναβάθμιση σε 3 βήματα 1. Προσέξτε — Πιάστε ένα «ασφαλές» ρήμα όταν μιλάτε ή γράφετε. «Έκανα ένα ράφι.» 2. Ρωτήστε — Τι ακριβώς έγινε; Διαλέξτε το πραγματικό νόημα. Το κατασκεύασα; Το αγόρασα; Το σχεδίασα; 3. Διαλέξτε — Πάρτε το ρήμα που ταιριάζει και ελέγξτε αν ταιριάζει στην περίσταση. «Κατασκεύασα ένα ράφι.»"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Τα 10 ρήματα",
+      "say": "Τα 10 ρήματα"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ξεκινάμε με τον πρωταθλητή της ασάφειας: **κάνω**. Χρησιμοποιήστε τον ανιχνευτή νοημάτων παρακάτω και ανοίξτε την κάρτα του.",
+      "say": "Ξεκινάμε με τον πρωταθλητή της ασάφειας: κάνω. Χρησιμοποιήστε τον ανιχνευτή νοημάτων παρακάτω και ανοίξτε την κάρτα του."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Ανιχνευτής νοημάτων</p><p class=\"cosy-fig-title\">Θέλω να πω <em>κάνω</em>… τι εννοώ πραγματικά;</p><div class=\"dtree-q\">Ποιο νόημα;</div><ul class=\"dtree\"><li><span class=\"dtree-if\">Φτιάχνετε ένα <strong>αντικείμενο</strong></span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>κατασκευάζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>φτιάχνω</span></span><span class=\"dtree-ex\">Έκανε ένα ράφι → Κατασκεύασε ένα ράφι.</span></li><li><span class=\"dtree-if\"><strong>Γράφετε</strong> ένα κείμενο</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>συντάσσω</span></span><span class=\"dtree-ex\">Έκανα μια αναφορά → Συνέταξα μια αναφορά.</span></li><li><span class=\"dtree-if\"><strong>Δημιουργείτε</strong> ένα έργο</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>δημιουργώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>γυρίζω</span></span><span class=\"dtree-ex\">Έκανε μια ταινία → Γύρισε μια ταινία.</span></li><li><span class=\"dtree-if\">Ένα <strong>ρήμα κρύβεται</strong> στο ουσιαστικό</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ταξιδεύω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αγοράζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ζητώ</span></span><span class=\"dtree-ex\">Έκανα ένα ταξίδι → Ταξίδεψα.</span></li><li><span class=\"dtree-if\">Διανύσατε μια <strong>απόσταση</strong></span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διανύω</span></span><span class=\"dtree-ex\">Κάναμε 100 χλμ. → Διανύσαμε 100 χλμ.</span></li><li><span class=\"dtree-if\"><strong>Ασχολείστε</strong> με άθλημα ή μουσική</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>παίζω</span></span><span class=\"dtree-ex\">Κάνω ποδόσφαιρο → Παίζω ποδόσφαιρο.</span></li><li><span class=\"dtree-if\"><strong>Τακτοποιείτε</strong> έναν χώρο</span><span class=\"dtree-then\"><span class=\"arr\" aria-hidden=\"true\">→</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>τακτοποιώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>καθαρίζω</span></span><span class=\"dtree-ex\">Έκανε το δωμάτιο → Τακτοποίησε το δωμάτιο.</span></li></ul><p class=\"cosy-fig-cap\">Αν τίποτα δεν ταιριάζει, το <em>κάνω</em> μπορεί να είναι ακριβώς το σωστό ρήμα, και είναι μια χαρά.</p></figure>",
+      "text": "Θέλω να πω κάνω… τι εννοώ πραγματικά; Ποιο νόημα; Φτιάχνετε ένα αντικείμενο → κατασκευάζω / φτιάχνω. Γράφετε ένα κείμενο → συντάσσω. Δημιουργείτε ένα έργο → δημιουργώ / γυρίζω. Ένα ρήμα κρύβεται στο ουσιαστικό → ταξιδεύω / αγοράζω / ζητώ. Διανύσατε μια απόσταση → διανύω. Ασχολείστε με άθλημα ή μουσική → παίζω. Τακτοποιείτε έναν χώρο → τακτοποιώ / καθαρίζω.",
+      "say": "Θέλω να πω κάνω… τι εννοώ πραγματικά; Ποιο νόημα; Φτιάχνετε ένα αντικείμενο → κατασκευάζω / φτιάχνω. Γράφετε ένα κείμενο → συντάσσω. Δημιουργείτε ένα έργο → δημιουργώ / γυρίζω. Ένα ρήμα κρύβεται στο ουσιαστικό → ταξιδεύω / αγοράζω / ζητώ. Διανύσατε μια απόσταση → διανύω. Ασχολείστε με άθλημα ή μουσική → παίζω. Τακτοποιείτε έναν χώρο → τακτοποιώ / καθαρίζω."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Τα 10 πιο συχνά ρήματα και οι ακριβείς αντικαταστάσεις τους"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "1. Κάνω / Make, Do"
+      "text": "1. κάνω",
+      "stageOnly": true,
+      "say": "1. κάνω. Ο πρωταθλητής της ασάφειας: ένα ρήμα, τουλάχιστον επτά νοήματα."
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**δημιουργώ / παράγω**: *Η εταιρεία παράγει ανανεώσιμα προϊόντα.*",
-        "**πραγματοποιώ / ολοκληρώνω**: *Πραγματοποίησε όλους τους τριμηνιαίους στόχους.*",
-        "**αναπτύσσω / θεσπίζω**: *Θεσπίσαμε μια νέα συμφωνία εργασίας.*",
-        "**διεξάγω**: *Διεξαγάγαμε μια σειρά από δοκιμές στην αγορά.*"
-      ]
+        "**κατασκευάζω / φτιάχνω** (φτιάχνετε ένα αντικείμενο) — Έκανε ένα ράφι. → Κατασκεύασε ένα ράφι. Κατασκευάζω = φτιάχνω με σχέδιο ή σε εργοστάσιο: Εδώ κατασκευάζουν ποδήλατα.",
+        "**συντάσσω** (γράφετε ένα κείμενο) — Έκανα μια αναφορά. → Συνέταξα μια αναφορά. Συντάσσω αναφορά, σύμβαση, επιστολή.",
+        "**δημιουργώ / γυρίζω** (δημιουργείτε ένα έργο) — Έκανε μια ταινία. → Γύρισε μια ταινία. Δημιουργώ ιστοσελίδα, εταιρεία, λογότυπο.",
+        "**ταξιδεύω / αγοράζω / ζητώ** (ένα ρήμα κρύβεται στο ουσιαστικό) — Έκανα ένα ταξίδι στην Κρήτη. → Ταξίδεψα στην Κρήτη. κάνω αγορές → αγοράζω · κάνω ταξίδι → ταξιδεύω · κάνω ένα αίτημα → ζητώ",
+        "**διανύω** (διανύετε μια απόσταση) — Κάναμε εκατό χιλιόμετρα. → Διανύσαμε εκατό χιλιόμετρα.",
+        "**παίζω** (άθλημα ή μουσική) — Κάνω ποδόσφαιρο το Σάββατο. → Το Σάββατο παίζω ποδόσφαιρο. παίζω + άθλημα με μπάλα ή μουσικό όργανο (παίζω κιθάρα) · κάνω + γυμναστική, γιόγκα, κολύμπι.",
+        "⚠️ Παγίδα: Δεν λέμε τα πάντα με κάνω: ✗ κάνω απόφαση → ✓ παίρνω απόφαση · ✗ κάνω φωτογραφία → ✓ βγάζω φωτογραφία"
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-kano\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">1</span><h4 class=\"vcard-title\">κάνω</h4><p class=\"vcard-sub\">Ο πρωταθλητής της ασάφειας: ένα ρήμα, τουλάχιστον επτά νοήματα.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">φτιάχνετε ένα αντικείμενο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>κατασκευάζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>φτιάχνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έκανε ένα ράφι.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Κατασκεύασε</mark> ένα ράφι.</div><div class=\"vrow-note\"><em>Κατασκευάζω</em> = φτιάχνω με σχέδιο ή σε εργοστάσιο: <em>Εδώ <mark>κατασκευάζουν</mark> ποδήλατα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">γράφετε ένα κείμενο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>συντάσσω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έκανα μια αναφορά.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Συνέταξα</mark> μια αναφορά.</div><div class=\"vrow-note\"><em>Συντάσσω</em> αναφορά, σύμβαση, επιστολή.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">δημιουργείτε ένα έργο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>δημιουργώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>γυρίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έκανε μια ταινία.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Γύρισε</mark> μια ταινία.</div><div class=\"vrow-note\"><em>Δημιουργώ</em> ιστοσελίδα, εταιρεία, λογότυπο.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ένα ρήμα κρύβεται στο ουσιαστικό</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ταξιδεύω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αγοράζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ζητώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έκανα ένα ταξίδι στην Κρήτη.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ταξίδεψα</mark> στην Κρήτη.</div><div class=\"vrow-note\"><em>κάνω αγορές → αγοράζω · κάνω ταξίδι → ταξιδεύω · κάνω ένα αίτημα → ζητώ</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">διανύετε μια απόσταση</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διανύω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Κάναμε εκατό χιλιόμετρα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Διανύσαμε</mark> εκατό χιλιόμετρα.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">άθλημα ή μουσική</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>παίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Κάνω ποδόσφαιρο το Σάββατο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Το Σάββατο <mark>παίζω</mark> ποδόσφαιρο.</div><div class=\"vrow-note\"><strong>παίζω</strong> + άθλημα με μπάλα ή μουσικό όργανο (<em>παίζω κιθάρα</em>) · <strong>κάνω</strong> + γυμναστική, γιόγκα, κολύμπι.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Δεν λέμε τα πάντα με <em>κάνω</em>: <span class=\"bad\">κάνω απόφαση</span> → <span class=\"good\">παίρνω απόφαση</span> · <span class=\"bad\">κάνω φωτογραφία</span> → <span class=\"good\">βγάζω φωτογραφία</span></p></section>",
+      "say": "κατασκευάζω / φτιάχνω (φτιάχνετε ένα αντικείμενο) — Έκανε ένα ράφι. → Κατασκεύασε ένα ράφι. Κατασκευάζω = φτιάχνω με σχέδιο ή σε εργοστάσιο: Εδώ κατασκευάζουν ποδήλατα. συντάσσω (γράφετε ένα κείμενο) — Έκανα μια αναφορά. → Συνέταξα μια αναφορά. Συντάσσω αναφορά, σύμβαση, επιστολή. δημιουργώ / γυρίζω (δημιουργείτε ένα έργο) — Έκανε μια ταινία. → Γύρισε μια ταινία. Δημιουργώ ιστοσελίδα, εταιρεία, λογότυπο. ταξιδεύω / αγοράζω / ζητώ (ένα ρήμα κρύβεται στο ουσιαστικό) — Έκανα ένα ταξίδι στην Κρήτη. → Ταξίδεψα στην Κρήτη. κάνω αγορές → αγοράζω · κάνω ταξίδι → ταξιδεύω · κάνω ένα αίτημα → ζητώ διανύω (διανύετε μια απόσταση) — Κάναμε εκατό χιλιόμετρα. → Διανύσαμε εκατό χιλιόμετρα. παίζω (άθλημα ή μουσική) — Κάνω ποδόσφαιρο το Σάββατο. → Το Σάββατο παίζω ποδόσφαιρο. παίζω + άθλημα με μπάλα ή μουσικό όργανο (παίζω κιθάρα) · κάνω + γυμναστική, γιόγκα, κολύμπι. ⚠️ Παγίδα: Δεν λέμε τα πάντα με κάνω: ✗ κάνω απόφαση → ✓ παίρνω απόφαση · ✗ κάνω φωτογραφία → ✓ βγάζω φωτογραφία"
     },
     {
-      "type": "heading",
-      "level": 4,
-      "text": "2. Λέω / Say, Tell"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**αναφέρω / επισημαίνω**: *Ανέφερε τη σχετική προθεσμία.*",
-        "**εξηγώ / δηλώνω**: *Ο εκπρόσωπος δήλωσε τα γεγονότα με σαφήνεια.*",
-        "**ισχυρίζομαι / υποστηρίζω**: *Οι ερευνητές υποστηρίζουν ότι η έγκαιρη παρέμβαση βοηθά.*",
-        "**τονίζω**: *Τόνισε ένα σημαντικό σφάλμα.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "3. Σκέφτομαι / Think"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**πιστεύω / θεωρώ**: *Θεωρώ ότι αυτή είναι η καλύτερη επιλογή.*",
-        "**υποθέτω / εικάζω**: *Υποθέτουμε ότι η αποστολή θα φτάσει στην ώρα της.*",
-        "**εξετάζω / αναλογίζομαι**: *Ας εξετάσουμε όλες τις διαθέσιμες επιλογές.*",
-        "**συμπεραίνω**: *Συμπεράναμε ότι χρειάζεται περαιτέρω έρευνα.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "4. Έχω / Have"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**κατέχω / διαθέτω**: *Η εταιρεία διαθέτει σημαντική τεχνογνωσία.*",
-        "**περιέχω / περιλαμβάνω**: *Η αναφορά περιλαμβάνει κρίσιμα ευρήματα.*",
-        "**βιώνω / αποκτώ**: *Βιώσαμε μεγάλη πρόοδο φέτος.*",
-        "**διατηρώ**: *Διατηρεί ένα αυστηρό πρόγραμμα.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "5. Πηγαίνω / Go"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**ταξιδεύω / μετακινούμαι**: *Ταξίδεψαν σε όλη την Ευρώπη πέρυσι.*",
-        "**κατευθύνομαι / προχωρώ**: *Παρακαλώ προχωρήστε στην πύλη 4.*",
-        "**αναχωρώ / φεύγω**: *Το τρένο αναχωρεί στις 08:30.*",
-        "**παρευρίσκομαι / παρακολουθώ**: *Παρευρέθηκε στο ετήσιο συνέδριο.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "6. Ξέρω & Γνωρίζω / Know"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**κατανοώ / αναγνωρίζω**: *Αναγνώρισε τη σημασία του γεγονότος.*",
-        "**αντιλαμβάνομαι**: *Αντιλήφθηκα την απάντηση κατά τη διάρκεια της παρουσίασης.*",
-        "**κατέχω / κατέχω πλήρως**: *Κατέχει την τεχνική μετά από μήνες εξάσκησης.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "7. Δίνω / Give"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**παρέχω / προσφέρω**: *Προσφέρουμε ολοκληρωμένη καθοδήγηση.*",
-        "**παραδίδω / μεταβιβάζω**: *Παρέδωσε την αναφορά στον διευθυντή.*",
-        "**εγκρίνω / παραχωρώ**: *Το συμβούλιο ενέκρινε τον προϋπολογισμό.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "8. Βλέπω & Κοιτάζω / Look"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**παρατηρώ / εξετάζω**: *Οι επιστήμονες παρατήρησαν το δείγμα από κοντά.*",
-        "**επιθεωρώ**: *Ο επιθεωρητής εξέτασε τη συσκευή.*",
-        "**φαίνομαι**: *Τα πρώτα αποτελέσματα φαίνονται υποσχόμενα.*"
-      ]
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Συμπέρασμα: Εξέλιξη και όχι κατάργηση"
+      "text": "2. έχω",
+      "stageOnly": true,
+      "say": "2. έχω. Το έχω μπορεί να σημαίνει κατέχω, περιέχω, βιώνω… ή σχεδόν τίποτα."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**διαθέτω / κατέχω** (διαθέτετε κάτι) — Η εταιρεία έχει δύο γραφεία. → Η εταιρεία διαθέτει δύο γραφεία. Κατέχω = έχω ιδιοκτησία ή γνώση: Κατέχει ένα διαμέρισμα στη Θεσσαλονίκη.",
+        "**αποτελείται από / περιλαμβάνω / περιέχω** (κάτι περιέχει μέρη) — Η αναφορά έχει τρία μέρη. → Η αναφορά αποτελείται από τρία μέρη. Περιλαμβάνω: Η τιμή περιλαμβάνει πρωινό.",
+        "**περνάω / βιώνω** (περνάτε μια εμπειρία) — Είχαμε μια δύσκολη χρονιά. → Περάσαμε μια δύσκολη χρονιά. Βιώνω = ζω κάτι έντονα: Βιώνουμε μια κρίση.",
+        "**αντιμετωπίζω / συναντώ** (αντιμετωπίζετε μια δυσκολία) — Είχα ένα πρόβλημα με τον εκτυπωτή. → Αντιμετώπισα ένα πρόβλημα με τον εκτυπωτή.",
+        "**αμφιβάλλω / διστάζω / συζητώ** (έχω + ουσιαστικό = κρυμμένο ρήμα) — Έχω αμφιβολίες για το έργο. → Αμφιβάλλω για το έργο. έχω συζήτηση → συζητώ · έχω δισταγμό → διστάζω",
+        "⚠️ Παγίδα: Στα ελληνικά είμαστε την ηλικία μας και πεινάμε: ✗ Έχω 25 χρονών. → ✓ Είμαι 25 χρονών. · ✗ Έχω πείνα. → ✓ Πεινάω."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-exo\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">2</span><h4 class=\"vcard-title\">έχω</h4><p class=\"vcard-sub\">Το <em>έχω</em> μπορεί να σημαίνει κατέχω, περιέχω, βιώνω… ή σχεδόν τίποτα.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">διαθέτετε κάτι</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διαθέτω</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>κατέχω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Η εταιρεία έχει δύο γραφεία.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Η εταιρεία <mark>διαθέτει</mark> δύο γραφεία.</div><div class=\"vrow-note\"><em>Κατέχω</em> = έχω ιδιοκτησία ή γνώση: <em><mark>Κατέχει</mark> ένα διαμέρισμα στη Θεσσαλονίκη.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">κάτι περιέχει μέρη</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>αποτελείται από</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>περιλαμβάνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>περιέχω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Η αναφορά έχει τρία μέρη.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Η αναφορά <mark>αποτελείται</mark> από τρία μέρη.</div><div class=\"vrow-note\"><em>Περιλαμβάνω</em>: <em>Η τιμή <mark>περιλαμβάνει</mark> πρωινό.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">περνάτε μια εμπειρία</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>περνάω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>βιώνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είχαμε μια δύσκολη χρονιά.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Περάσαμε</mark> μια δύσκολη χρονιά.</div><div class=\"vrow-note\"><em>Βιώνω</em> = ζω κάτι έντονα: <em><mark>Βιώνουμε</mark> μια κρίση.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">αντιμετωπίζετε μια δυσκολία</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>αντιμετωπίζω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>συναντώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είχα ένα πρόβλημα με τον εκτυπωτή.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Αντιμετώπισα</mark> ένα πρόβλημα με τον εκτυπωτή.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">έχω + ουσιαστικό = κρυμμένο ρήμα</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αμφιβάλλω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>διστάζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>συζητώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έχω αμφιβολίες για το έργο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Αμφιβάλλω</mark> για το έργο.</div><div class=\"vrow-note\"><em>έχω συζήτηση → συζητώ · έχω δισταγμό → διστάζω</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Στα ελληνικά <em>είμαστε</em> την ηλικία μας και <em>πεινάμε</em>: <span class=\"bad\">Έχω 25 χρονών.</span> → <span class=\"good\">Είμαι 25 χρονών.</span> · <span class=\"bad\">Έχω πείνα.</span> → <span class=\"good\">Πεινάω.</span></p></section>",
+      "say": "διαθέτω / κατέχω (διαθέτετε κάτι) — Η εταιρεία έχει δύο γραφεία. → Η εταιρεία διαθέτει δύο γραφεία. Κατέχω = έχω ιδιοκτησία ή γνώση: Κατέχει ένα διαμέρισμα στη Θεσσαλονίκη. αποτελείται από / περιλαμβάνω / περιέχω (κάτι περιέχει μέρη) — Η αναφορά έχει τρία μέρη. → Η αναφορά αποτελείται από τρία μέρη. Περιλαμβάνω: Η τιμή περιλαμβάνει πρωινό. περνάω / βιώνω (περνάτε μια εμπειρία) — Είχαμε μια δύσκολη χρονιά. → Περάσαμε μια δύσκολη χρονιά. Βιώνω = ζω κάτι έντονα: Βιώνουμε μια κρίση. αντιμετωπίζω / συναντώ (αντιμετωπίζετε μια δυσκολία) — Είχα ένα πρόβλημα με τον εκτυπωτή. → Αντιμετώπισα ένα πρόβλημα με τον εκτυπωτή. αμφιβάλλω / διστάζω / συζητώ (έχω + ουσιαστικό = κρυμμένο ρήμα) — Έχω αμφιβολίες για το έργο. → Αμφιβάλλω για το έργο. έχω συζήτηση → συζητώ · έχω δισταγμό → διστάζω ⚠️ Παγίδα: Στα ελληνικά είμαστε την ηλικία μας και πεινάμε: ✗ Έχω 25 χρονών. → ✓ Είμαι 25 χρονών. · ✗ Έχω πείνα. → ✓ Πεινάω."
     },
     {
       "type": "paragraph",
-      "text": "Η αντικατάσταση των συχνώνρημάτων δεν σημαίνει ότι καταργούμε λέξεις όπως *κάνω* ή *λέω*. Ο στόχος είναι να επιλέγουμε το ακριβές ρήμα όταν θέλουμε να εκφράσουμε μια ιδέα με μεγαλύτερη σαφήνεια."
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. λέω",
+      "stageOnly": true,
+      "say": "3. λέω. Το λέω μεταφέρει λόγια. Διαλέξτε ένα ρήμα που δείχνει γιατί και πώς μιλάει κάποιος."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**ενημερώνω / ανακοινώνω** (δίνετε πληροφορία) — Είπε ότι η συνάντηση ακυρώθηκε. → Μας ενημέρωσε ότι η συνάντηση ακυρώθηκε. Ανακοινώνω = κάνω κάτι δημόσια γνωστό: Η εταιρεία ανακοίνωσε το κλείσιμο δύο καταστημάτων.",
+        "**εξηγώ / διευκρινίζω** (ξεκαθαρίζετε) — Είπε πώς λειτουργεί το μηχάνημα. → Εξήγησε πώς λειτουργεί το μηχάνημα. Διευκρινίζω = προσθέτω μια λεπτομέρεια: Διευκρίνισε την ώρα.",
+        "**επισημαίνω / αναφέρω** (το αναφέρετε εν παρόδω) — Είπε ότι υπάρχει πρόβλημα. → Επισήμανε ότι υπάρχει πρόβλημα. Αναφέρω = λέω σύντομα: Ανέφερε μια καθυστέρηση.",
+        "**ισχυρίζομαι** (το λέτε χωρίς απόδειξη) — Λέει ότι δεν είδε ποτέ το μήνυμα. → Ισχυρίζεται ότι δεν είδε ποτέ το μήνυμα. Ισχυρίζομαι αφήνει περιθώριο αμφιβολίας: «ίσως ναι, ίσως όχι».",
+        "**υποστηρίζω / τονίζω** (υποστηρίζετε μια άποψη) — Λέει ότι χρειαζόμαστε περισσότερο χρόνο. → Υποστηρίζει ότι χρειαζόμαστε περισσότερο χρόνο. Τονίζω = δίνω έμφαση: Τόνισε τη σημασία της προθεσμίας.",
+        "**παραδέχομαι / αρνούμαι** (λέτε ότι είναι αλήθεια / όχι) — Λέει ότι έσπασε το τζάμι. → Παραδέχεται ότι έσπασε το τζάμι. Αρνούμαι: Αρνείται ότι πήρε τα χρήματα.",
+        "**ψιθυρίζω / φωνάζω / μουρμουρίζω** (ο τρόπος που ακούγεται) — Είπε σιγά: «Προσοχή.» → Ψιθύρισε: «Προσοχή.» Μουρμουρίζω = μιλάω χαμηλόφωνα, συχνά δυσαρεστημένος.",
+        "⚠️ Παγίδα: Για εντολή ή συμβουλή λέμε λέω να + υποτακτική: ✗ Μου είπε ότι μένω. → ✓ Μου είπε να μείνω."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-leo\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">3</span><h4 class=\"vcard-title\">λέω</h4><p class=\"vcard-sub\">Το <em>λέω</em> μεταφέρει λόγια. Διαλέξτε ένα ρήμα που δείχνει γιατί και πώς μιλάει κάποιος.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">δίνετε πληροφορία</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ενημερώνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ανακοινώνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είπε ότι η συνάντηση ακυρώθηκε.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Μας <mark>ενημέρωσε</mark> ότι η συνάντηση ακυρώθηκε.</div><div class=\"vrow-note\"><em>Ανακοινώνω</em> = κάνω κάτι δημόσια γνωστό: <em>Η εταιρεία <mark>ανακοίνωσε</mark> το κλείσιμο δύο καταστημάτων.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ξεκαθαρίζετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>εξηγώ</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διευκρινίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είπε πώς λειτουργεί το μηχάνημα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Εξήγησε</mark> πώς λειτουργεί το μηχάνημα.</div><div class=\"vrow-note\"><em>Διευκρινίζω</em> = προσθέτω μια λεπτομέρεια: <em><mark>Διευκρίνισε</mark> την ώρα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">το αναφέρετε εν παρόδω</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>επισημαίνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>αναφέρω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είπε ότι υπάρχει πρόβλημα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Επισήμανε</mark> ότι υπάρχει πρόβλημα.</div><div class=\"vrow-note\"><em>Αναφέρω</em> = λέω σύντομα: <em><mark>Ανέφερε</mark> μια καθυστέρηση.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">το λέτε χωρίς απόδειξη</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ισχυρίζομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Λέει ότι δεν είδε ποτέ το μήνυμα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ισχυρίζεται</mark> ότι δεν είδε ποτέ το μήνυμα.</div><div class=\"vrow-note\"><em>Ισχυρίζομαι</em> αφήνει περιθώριο αμφιβολίας: «ίσως ναι, ίσως όχι».</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">υποστηρίζετε μια άποψη</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>υποστηρίζω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>τονίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Λέει ότι χρειαζόμαστε περισσότερο χρόνο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Υποστηρίζει</mark> ότι χρειαζόμαστε περισσότερο χρόνο.</div><div class=\"vrow-note\"><em>Τονίζω</em> = δίνω έμφαση: <em><mark>Τόνισε</mark> τη σημασία της προθεσμίας.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">λέτε ότι είναι αλήθεια / όχι</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>παραδέχομαι</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αρνούμαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Λέει ότι έσπασε το τζάμι.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Παραδέχεται</mark> ότι έσπασε το τζάμι.</div><div class=\"vrow-note\"><em>Αρνούμαι</em>: <em><mark>Αρνείται</mark> ότι πήρε τα χρήματα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ο τρόπος που ακούγεται</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ψιθυρίζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>φωνάζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>μουρμουρίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είπε σιγά: «Προσοχή.»</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ψιθύρισε</mark>: «Προσοχή.»</div><div class=\"vrow-note\"><em>Μουρμουρίζω</em> = μιλάω χαμηλόφωνα, συχνά δυσαρεστημένος.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Για εντολή ή συμβουλή λέμε <em>λέω να</em> + υποτακτική: <span class=\"bad\">Μου είπε ότι μένω.</span> → <span class=\"good\">Μου είπε να μείνω.</span></p></section>",
+      "say": "ενημερώνω / ανακοινώνω (δίνετε πληροφορία) — Είπε ότι η συνάντηση ακυρώθηκε. → Μας ενημέρωσε ότι η συνάντηση ακυρώθηκε. Ανακοινώνω = κάνω κάτι δημόσια γνωστό: Η εταιρεία ανακοίνωσε το κλείσιμο δύο καταστημάτων. εξηγώ / διευκρινίζω (ξεκαθαρίζετε) — Είπε πώς λειτουργεί το μηχάνημα. → Εξήγησε πώς λειτουργεί το μηχάνημα. Διευκρινίζω = προσθέτω μια λεπτομέρεια: Διευκρίνισε την ώρα. επισημαίνω / αναφέρω (το αναφέρετε εν παρόδω) — Είπε ότι υπάρχει πρόβλημα. → Επισήμανε ότι υπάρχει πρόβλημα. Αναφέρω = λέω σύντομα: Ανέφερε μια καθυστέρηση. ισχυρίζομαι (το λέτε χωρίς απόδειξη) — Λέει ότι δεν είδε ποτέ το μήνυμα. → Ισχυρίζεται ότι δεν είδε ποτέ το μήνυμα. Ισχυρίζομαι αφήνει περιθώριο αμφιβολίας: «ίσως ναι, ίσως όχι». υποστηρίζω / τονίζω (υποστηρίζετε μια άποψη) — Λέει ότι χρειαζόμαστε περισσότερο χρόνο. → Υποστηρίζει ότι χρειαζόμαστε περισσότερο χρόνο. Τονίζω = δίνω έμφαση: Τόνισε τη σημασία της προθεσμίας. παραδέχομαι / αρνούμαι (λέτε ότι είναι αλήθεια / όχι) — Λέει ότι έσπασε το τζάμι. → Παραδέχεται ότι έσπασε το τζάμι. Αρνούμαι: Αρνείται ότι πήρε τα χρήματα. ψιθυρίζω / φωνάζω / μουρμουρίζω (ο τρόπος που ακούγεται) — Είπε σιγά: «Προσοχή.» → Ψιθύρισε: «Προσοχή.» Μουρμουρίζω = μιλάω χαμηλόφωνα, συχνά δυσαρεστημένος. ⚠️ Παγίδα: Για εντολή ή συμβουλή λέμε λέω να + υποτακτική: ✗ Μου είπε ότι μένω. → ✓ Μου είπε να μείνω."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. βάζω",
+      "stageOnly": true,
+      "say": "4. βάζω. Το βάζω λέει μόνο πού. Πείτε πώς."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**τοποθετώ / αφήνω** (τοποθετείτε με προσοχή) — Βάλε τους φακέλους στο γραφείο. → Άφησε τους φακέλους στο γραφείο. Τοποθετώ = βάζω σωστά και προσεκτικά: Τοποθέτησε το βάζο στο ράφι.",
+        "**προσθέτω / ρίχνω** (προσθέτετε μέσα) — Βάζει αλάτι στη σούπα. → Προσθέτει αλάτι στη σούπα. Ρίχνω = προσθέτω υγρό ή σκόνη: Ρίξε λίγο λάδι.",
+        "**φοράω** (ένα ρούχο) — Σήμερα βάζει ένα κόκκινο παλτό. → Σήμερα φοράει ένα κόκκινο παλτό. Βάζω το παλτό = η πράξη · φοράω = η κατάσταση.",
+        "**κρεμάω / στερεώνω / εγκαθιστώ** (κρεμάτε ή εγκαθιστάτε) — Έβαλε έναν πίνακα στον τοίχο. → Κρέμασε έναν πίνακα στον τοίχο. Εγκαθιστώ πρόγραμμα, ράφι · στερεώνω = δένω γερά.",
+        "**ανάβω / θέτω σε λειτουργία** (ανάβετε μια συσκευή) — Βάλε το φως. → Άναψε το φως. Βάζω μουσική είναι πολύ φυσικό: κρατήστε το!",
+        "⚠️ Παγίδα: Το βάζω δεν ταιριάζει με όλα: ✗ βάζω ερώτηση → ✓ κάνω ερώτηση · ✗ βάζω ντους → ✓ κάνω ντους"
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-vazo\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">4</span><h4 class=\"vcard-title\">βάζω</h4><p class=\"vcard-sub\">Το <em>βάζω</em> λέει μόνο πού. Πείτε πώς.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">τοποθετείτε με προσοχή</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>τοποθετώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αφήνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βάλε τους φακέλους στο γραφείο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Άφησε</mark> τους φακέλους στο γραφείο.</div><div class=\"vrow-note\"><em>Τοποθετώ</em> = βάζω σωστά και προσεκτικά: <em><mark>Τοποθέτησε</mark> το βάζο στο ράφι.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">προσθέτετε μέσα</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προσθέτω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ρίχνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βάζει αλάτι στη σούπα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Προσθέτει</mark> αλάτι στη σούπα.</div><div class=\"vrow-note\"><em>Ρίχνω</em> = προσθέτω υγρό ή σκόνη: <em><mark>Ρίξε</mark> λίγο λάδι.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ένα ρούχο</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>φοράω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Σήμερα βάζει ένα κόκκινο παλτό.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Σήμερα <mark>φοράει</mark> ένα κόκκινο παλτό.</div><div class=\"vrow-note\"><em>Βάζω</em> το παλτό = η πράξη · <em>φοράω</em> = η κατάσταση.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">κρεμάτε ή εγκαθιστάτε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>κρεμάω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>στερεώνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εγκαθιστώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έβαλε έναν πίνακα στον τοίχο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Κρέμασε</mark> έναν πίνακα στον τοίχο.</div><div class=\"vrow-note\"><em>Εγκαθιστώ</em> πρόγραμμα, ράφι · <em>στερεώνω</em> = δένω γερά.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ανάβετε μια συσκευή</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ανάβω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>θέτω σε λειτουργία</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βάλε το φως.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Άναψε</mark> το φως.</div><div class=\"vrow-note\"><em>Βάζω μουσική</em> είναι πολύ φυσικό: κρατήστε το!</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Το <em>βάζω</em> δεν ταιριάζει με όλα: <span class=\"bad\">βάζω ερώτηση</span> → <span class=\"good\">κάνω ερώτηση</span> · <span class=\"bad\">βάζω ντους</span> → <span class=\"good\">κάνω ντους</span></p></section>",
+      "say": "τοποθετώ / αφήνω (τοποθετείτε με προσοχή) — Βάλε τους φακέλους στο γραφείο. → Άφησε τους φακέλους στο γραφείο. Τοποθετώ = βάζω σωστά και προσεκτικά: Τοποθέτησε το βάζο στο ράφι. προσθέτω / ρίχνω (προσθέτετε μέσα) — Βάζει αλάτι στη σούπα. → Προσθέτει αλάτι στη σούπα. Ρίχνω = προσθέτω υγρό ή σκόνη: Ρίξε λίγο λάδι. φοράω (ένα ρούχο) — Σήμερα βάζει ένα κόκκινο παλτό. → Σήμερα φοράει ένα κόκκινο παλτό. Βάζω το παλτό = η πράξη · φοράω = η κατάσταση. κρεμάω / στερεώνω / εγκαθιστώ (κρεμάτε ή εγκαθιστάτε) — Έβαλε έναν πίνακα στον τοίχο. → Κρέμασε έναν πίνακα στον τοίχο. Εγκαθιστώ πρόγραμμα, ράφι · στερεώνω = δένω γερά. ανάβω / θέτω σε λειτουργία (ανάβετε μια συσκευή) — Βάλε το φως. → Άναψε το φως. Βάζω μουσική είναι πολύ φυσικό: κρατήστε το! ⚠️ Παγίδα: Το βάζω δεν ταιριάζει με όλα: ✗ βάζω ερώτηση → ✓ κάνω ερώτηση · ✗ βάζω ντους → ✓ κάνω ντους"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. παίρνω",
+      "stageOnly": true,
+      "say": "5. παίρνω. Το παίρνω μπορεί να σημαίνει πιάνω, λαμβάνω, επιλέγω, αποκτώ…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**πιάνω / αρπάζω** (πιάνετε) — Πήρε το ποτήρι. → Έπιασε το ποτήρι. Αρπάζω = πιάνω γρήγορα και δυνατά: Άρπαξε την τσάντα.",
+        "**παραλαμβάνω / λαμβάνω** (λαμβάνετε) — Πήρα το δέμα σήμερα. → Παρέλαβα το δέμα σήμερα. Λαμβάνω = παίρνω επίσημα: Λάβαμε το μήνυμά σου.",
+        "**επιλέγω / καταλήγω σε** (επιλέγετε) — Πήρα το μενού της ημέρας. → Επέλεξα το μενού της ημέρας. Καταλήγω σε = επιλέγω μετά από σκέψη: Καταλήξαμε στην πιο απλή λύση.",
+        "**αποκτώ / κερδίζω** (αποκτάτε) — Πήρε πολλή εμπειρία στη Λυών. → Απέκτησε πολλή εμπειρία στη Λυών. Κερδίζω = παίρνω με προσπάθεια: Κέρδισε τον σεβασμό των συναδέλφων.",
+        "**διαρκεί / απαιτεί** (κάτι χρειάζεται χρόνο) — Το ταξίδι παίρνει δύο ώρες. → Το ταξίδι διαρκεί δύο ώρες. Το έργο απαιτεί χρόνο. Το «παίρνει δύο ώρες» είναι κι αυτό φυσικό.",
+        "**βγάζω / κερδίζω** (εισόδημα) — Παίρνει 1.500 ευρώ τον μήνα. → Βγάζει 1.500 ευρώ τον μήνα. Παίρνω μισθό · βγάζω / κερδίζω λεφτά.",
+        "⚠️ Παγίδα: Το παίρνω δεν είναι μαθαίνω ή καταλαβαίνω: ✗ Παίρνω ελληνικά τρία χρόνια. → ✓ Μαθαίνω ελληνικά τρία χρόνια. · ✗ Δεν παίρνω. → ✓ Δεν καταλαβαίνω."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-perno\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">5</span><h4 class=\"vcard-title\">παίρνω</h4><p class=\"vcard-sub\">Το <em>παίρνω</em> μπορεί να σημαίνει πιάνω, λαμβάνω, επιλέγω, αποκτώ…</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">πιάνετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>πιάνω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αρπάζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήρε το ποτήρι.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Έπιασε</mark> το ποτήρι.</div><div class=\"vrow-note\"><em>Αρπάζω</em> = πιάνω γρήγορα και δυνατά: <em><mark>Άρπαξε</mark> την τσάντα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">λαμβάνετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παραλαμβάνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>λαμβάνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήρα το δέμα σήμερα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Παρέλαβα</mark> το δέμα σήμερα.</div><div class=\"vrow-note\"><em>Λαμβάνω</em> = παίρνω επίσημα: <em><mark>Λάβαμε</mark> το μήνυμά σου.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">επιλέγετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>επιλέγω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>καταλήγω σε</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήρα το μενού της ημέρας.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Επέλεξα</mark> το μενού της ημέρας.</div><div class=\"vrow-note\"><em>Καταλήγω σε</em> = επιλέγω μετά από σκέψη: <em><mark>Καταλήξαμε</mark> στην πιο απλή λύση.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">αποκτάτε</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>αποκτώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>κερδίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήρε πολλή εμπειρία στη Λυών.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Απέκτησε</mark> πολλή εμπειρία στη Λυών.</div><div class=\"vrow-note\"><em>Κερδίζω</em> = παίρνω με προσπάθεια: <em><mark>Κέρδισε</mark> τον σεβασμό των συναδέλφων.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">κάτι χρειάζεται χρόνο</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>διαρκεί</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>απαιτεί</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Το ταξίδι παίρνει δύο ώρες.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Το ταξίδι <mark>διαρκεί</mark> δύο ώρες.</div><div class=\"vrow-note\"><em>Το έργο <mark>απαιτεί</mark> χρόνο.</em> Το «παίρνει δύο ώρες» είναι κι αυτό φυσικό.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εισόδημα</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>βγάζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>κερδίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Παίρνει 1.500 ευρώ τον μήνα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Βγάζει</mark> 1.500 ευρώ τον μήνα.</div><div class=\"vrow-note\"><em>Παίρνω</em> μισθό · <em>βγάζω / κερδίζω</em> λεφτά.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Το <em>παίρνω</em> δεν είναι <em>μαθαίνω</em> ή <em>καταλαβαίνω</em>: <span class=\"bad\">Παίρνω ελληνικά τρία χρόνια.</span> → <span class=\"good\">Μαθαίνω ελληνικά τρία χρόνια.</span> · <span class=\"bad\">Δεν παίρνω.</span> → <span class=\"good\">Δεν καταλαβαίνω.</span></p></section>",
+      "say": "πιάνω / αρπάζω (πιάνετε) — Πήρε το ποτήρι. → Έπιασε το ποτήρι. Αρπάζω = πιάνω γρήγορα και δυνατά: Άρπαξε την τσάντα. παραλαμβάνω / λαμβάνω (λαμβάνετε) — Πήρα το δέμα σήμερα. → Παρέλαβα το δέμα σήμερα. Λαμβάνω = παίρνω επίσημα: Λάβαμε το μήνυμά σου. επιλέγω / καταλήγω σε (επιλέγετε) — Πήρα το μενού της ημέρας. → Επέλεξα το μενού της ημέρας. Καταλήγω σε = επιλέγω μετά από σκέψη: Καταλήξαμε στην πιο απλή λύση. αποκτώ / κερδίζω (αποκτάτε) — Πήρε πολλή εμπειρία στη Λυών. → Απέκτησε πολλή εμπειρία στη Λυών. Κερδίζω = παίρνω με προσπάθεια: Κέρδισε τον σεβασμό των συναδέλφων. διαρκεί / απαιτεί (κάτι χρειάζεται χρόνο) — Το ταξίδι παίρνει δύο ώρες. → Το ταξίδι διαρκεί δύο ώρες. Το έργο απαιτεί χρόνο. Το «παίρνει δύο ώρες» είναι κι αυτό φυσικό. βγάζω / κερδίζω (εισόδημα) — Παίρνει 1.500 ευρώ τον μήνα. → Βγάζει 1.500 ευρώ τον μήνα. Παίρνω μισθό · βγάζω / κερδίζω λεφτά. ⚠️ Παγίδα: Το παίρνω δεν είναι μαθαίνω ή καταλαβαίνω: ✗ Παίρνω ελληνικά τρία χρόνια. → ✓ Μαθαίνω ελληνικά τρία χρόνια. · ✗ Δεν παίρνω. → ✓ Δεν καταλαβαίνω."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Χάρτης συνώνυμων συνδυασμών</p><p class=\"cosy-fig-title\">Ποιο ρήμα πάει με ποιο ουσιαστικό;</p><div class=\"collo\"><div class=\"collo-col\"><p class=\"collo-verb\">κάνω</p><p class=\"collo-hint\">μια πράξη ή ένα αποτέλεσμα</p><div class=\"collo-chips\"><span class=chip>λάθος</span><span class=chip>πρόοδο</span><span class=chip>προσπάθεια</span><span class=chip>ντους</span><span class=chip>βόλτα</span><span class=chip>ταξίδι</span><span class=chip>υπομονή</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">παίρνω</p><p class=\"collo-hint\">επιλέγετε ή αποδέχεστε</p><div class=\"collo-chips\"><span class=chip>απόφαση</span><span class=chip>μέρος</span><span class=chip>ρίσκο</span><span class=chip>άδεια</span><span class=chip>το λεωφορείο</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">βγάζω</p><p class=\"collo-hint\">παράγετε ή αποκτάτε</p><div class=\"collo-chips\"><span class=chip>φωτογραφία</span><span class=chip>εισιτήριο</span><span class=chip>συμπέρασμα</span><span class=chip>διαβατήριο</span><span class=chip>χρήματα</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">δίνω</p><p class=\"collo-hint\">προσφέρετε ή περνάτε</p><div class=\"collo-chips\"><span class=chip>εξετάσεις</span><span class=chip>συνέντευξη</span><span class=chip>συμβουλή</span><span class=chip>υπόσχεση</span><span class=chip>ραντεβού</span></div></div><div class=\"collo-col\"><p class=\"collo-verb\">θέτω</p><p class=\"collo-hint\">βάζετε στο τραπέζι</p><div class=\"collo-chips\"><span class=chip>ερώτηση</span><span class=chip>στόχο</span><span class=chip>όρο</span><span class=chip>υποψηφιότητα</span></div></div></div><p class=\"cosy-fig-cap\">Οι συνδυασμοί λέξεων είναι «ζευγάρια». Δεν μαντεύονται πάντα: μάθετε το ουσιαστικό <em>μαζί</em> με το ρήμα του.</p></figure>",
+      "text": "Ποιο ρήμα πάει με ποιο ουσιαστικό; κάνω (μια πράξη ή ένα αποτέλεσμα): λάθος, πρόοδο, προσπάθεια, ντους, βόλτα, ταξίδι, υπομονή. παίρνω (επιλέγετε ή αποδέχεστε): απόφαση, μέρος, ρίσκο, άδεια, το λεωφορείο. βγάζω (παράγετε ή αποκτάτε): φωτογραφία, εισιτήριο, συμπέρασμα, διαβατήριο, χρήματα. δίνω (προσφέρετε ή περνάτε): εξετάσεις, συνέντευξη, συμβουλή, υπόσχεση, ραντεβού. θέτω (βάζετε στο τραπέζι): ερώτηση, στόχο, όρο, υποψηφιότητα.",
+      "say": "Ποιο ρήμα πάει με ποιο ουσιαστικό; κάνω (μια πράξη ή ένα αποτέλεσμα): λάθος, πρόοδο, προσπάθεια, ντους, βόλτα, ταξίδι, υπομονή. παίρνω (επιλέγετε ή αποδέχεστε): απόφαση, μέρος, ρίσκο, άδεια, το λεωφορείο. βγάζω (παράγετε ή αποκτάτε): φωτογραφία, εισιτήριο, συμπέρασμα, διαβατήριο, χρήματα. δίνω (προσφέρετε ή περνάτε): εξετάσεις, συνέντευξη, συμβουλή, υπόσχεση, ραντεβού. θέτω (βάζετε στο τραπέζι): ερώτηση, στόχο, όρο, υποψηφιότητα."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. πηγαίνω",
+      "stageOnly": true,
+      "say": "6. πηγαίνω. Το πηγαίνω λέει μόνο ότι κινείστε. Πείτε πώς, γιατί και πού."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**περπατάω / κάνω βόλτα** (με τα πόδια) — Πήγαμε στην παραλία με τα πόδια. → Περπατήσαμε ως την παραλία. Κάνω βόλτα = περπατάω χαλαρά, για ευχαρίστηση.",
+        "**ταξιδεύω / μεταβαίνω** (ταξιδεύετε) — Πήγαμε στην Ισπανία. → Ταξιδέψαμε στην Ισπανία. Μεταβαίνω είναι επίσημο: Παρακαλούμε μεταβείτε στη ρεσεψιόν.",
+        "**παρακολουθώ / συμμετέχω** (παρακολουθείτε ένα γεγονός) — Πήγα στο συνέδριο. → Παρακολούθησα το συνέδριο. Συμμετέχω = παίρνω ενεργό μέρος: Συμμετέχει στη συζήτηση.",
+        "**επισκέπτομαι / περνάω από** (επισκέπτεστε) — Πήγα στη γιαγιά μου. → Επισκέφθηκα τη γιαγιά μου. Περνάω από = πηγαίνω για λίγο: Πέρασα από τον φούρνο.",
+        "**κατευθύνομαι** (κατευθύνεστε προς) — Πήγε προς την έξοδο. → Κατευθύνθηκε προς την έξοδο.",
+        "**προχωράω / διεξάγομαι** (τα πράγματα εξελίσσονται) — Πώς πάει το έργο; → Πώς προχωράει το έργο; Πώς πάει; μένει τέλειο. Η συνεδρίαση διεξήχθη χωρίς προβλήματα.",
+        "⚠️ Παγίδα: Προσοχή στο γένος και στην πτώση: ✗ Πήγα στο Αθήνα. → ✓ Πήγα στην Αθήνα. · ✗ Πήγα στον σπίτι. → ✓ Πήγα στο σπίτι."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-pigaino\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">6</span><h4 class=\"vcard-title\">πηγαίνω</h4><p class=\"vcard-sub\">Το <em>πηγαίνω</em> λέει μόνο ότι κινείστε. Πείτε πώς, γιατί και πού.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">με τα πόδια</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>περπατάω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>κάνω βόλτα</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήγαμε στην παραλία με τα πόδια.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Περπατήσαμε</mark> ως την παραλία.</div><div class=\"vrow-note\"><em>Κάνω βόλτα</em> = περπατάω χαλαρά, για ευχαρίστηση.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ταξιδεύετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ταξιδεύω</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>μεταβαίνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήγαμε στην Ισπανία.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ταξιδέψαμε</mark> στην Ισπανία.</div><div class=\"vrow-note\"><em>Μεταβαίνω</em> είναι επίσημο: <em>Παρακαλούμε <mark>μεταβείτε</mark> στη ρεσεψιόν.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">παρακολουθείτε ένα γεγονός</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παρακολουθώ</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>συμμετέχω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήγα στο συνέδριο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Παρακολούθησα</mark> το συνέδριο.</div><div class=\"vrow-note\"><em>Συμμετέχω</em> = παίρνω ενεργό μέρος: <em><mark>Συμμετέχει</mark> στη συζήτηση.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">επισκέπτεστε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>επισκέπτομαι</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>περνάω από</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήγα στη γιαγιά μου.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Επισκέφθηκα</mark> τη γιαγιά μου.</div><div class=\"vrow-note\"><em>Περνάω από</em> = πηγαίνω για λίγο: <em><mark>Πέρασα</mark> από τον φούρνο.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">κατευθύνεστε προς</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>κατευθύνομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πήγε προς την έξοδο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Κατευθύνθηκε</mark> προς την έξοδο.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">τα πράγματα εξελίσσονται</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προχωράω</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>διεξάγομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Πώς πάει το έργο;</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Πώς <mark>προχωράει</mark> το έργο;</div><div class=\"vrow-note\"><em>Πώς πάει;</em> μένει τέλειο. <em>Η συνεδρίαση <mark>διεξήχθη</mark> χωρίς προβλήματα.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Προσοχή στο γένος και στην πτώση: <span class=\"bad\">Πήγα στο Αθήνα.</span> → <span class=\"good\">Πήγα στην Αθήνα.</span> · <span class=\"bad\">Πήγα στον σπίτι.</span> → <span class=\"good\">Πήγα στο σπίτι.</span></p></section>",
+      "say": "περπατάω / κάνω βόλτα (με τα πόδια) — Πήγαμε στην παραλία με τα πόδια. → Περπατήσαμε ως την παραλία. Κάνω βόλτα = περπατάω χαλαρά, για ευχαρίστηση. ταξιδεύω / μεταβαίνω (ταξιδεύετε) — Πήγαμε στην Ισπανία. → Ταξιδέψαμε στην Ισπανία. Μεταβαίνω είναι επίσημο: Παρακαλούμε μεταβείτε στη ρεσεψιόν. παρακολουθώ / συμμετέχω (παρακολουθείτε ένα γεγονός) — Πήγα στο συνέδριο. → Παρακολούθησα το συνέδριο. Συμμετέχω = παίρνω ενεργό μέρος: Συμμετέχει στη συζήτηση. επισκέπτομαι / περνάω από (επισκέπτεστε) — Πήγα στη γιαγιά μου. → Επισκέφθηκα τη γιαγιά μου. Περνάω από = πηγαίνω για λίγο: Πέρασα από τον φούρνο. κατευθύνομαι (κατευθύνεστε προς) — Πήγε προς την έξοδο. → Κατευθύνθηκε προς την έξοδο. προχωράω / διεξάγομαι (τα πράγματα εξελίσσονται) — Πώς πάει το έργο; → Πώς προχωράει το έργο; Πώς πάει; μένει τέλειο. Η συνεδρίαση διεξήχθη χωρίς προβλήματα. ⚠️ Παγίδα: Προσοχή στο γένος και στην πτώση: ✗ Πήγα στο Αθήνα. → ✓ Πήγα στην Αθήνα. · ✗ Πήγα στον σπίτι. → ✓ Πήγα στο σπίτι."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. βλέπω",
+      "stageOnly": true,
+      "say": "7. βλέπω. Το βλέπω είναι αυτόματο· το κοιτάζω, το παρατηρώ και το εξετάζω θέλουν προσοχή."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**ρίχνω μια ματιά / ξεφυλλίζω** (μια γρήγορη ματιά) — Είδα την εφημερίδα. → Έριξα μια ματιά στην εφημερίδα. Ξεφυλλίζω = διαβάζω πρόχειρα: Ξεφυλλίζει την αναφορά.",
+        "**παρατηρώ / παρακολουθώ** (ακολουθείτε κάτι που κινείται) — Οι ερευνητές έβλεπαν τα πουλιά μια εβδομάδα. → Οι ερευνητές παρατηρούσαν τα πουλιά μια εβδομάδα. βλέπω = μπαίνει στα μάτια σας · κοιτάζω = το κάνετε επίτηδες: Κοιτάζω έξω από το παράθυρο.",
+        "**κοιτάζω επίμονα / ατενίζω** (μια μακριά, επίμονη ματιά) — Με κοίταζε πολλή ώρα. → Με κοίταζε επίμονα. Ατενίζω = κοιτάζω με θαυμασμό και ηρεμία: Ατενίζει τη θάλασσα.",
+        "**εξετάζω / επιθεωρώ / ελέγχω** (προσεκτική ματιά για να καταλάβετε) — Ο γιατρός είδε το γόνατό μου. → Ο γιατρός εξέτασε το γόνατό μου. Επιθεωρώ = επίσημος έλεγχος · ελέγχω = βεβαιώνομαι ότι είναι σωστό.",
+        "**προσέχω / διακρίνω** (προσέχετε) — Είδα ένα λάθος. → Πρόσεξα ένα λάθος. Διακρίνω = καταλαβαίνω με δυσκολία: Διακρίνω ένα φως στο βάθος.",
+        "⚠️ Παγίδα: Το κοιτάζω θέλει αιτιατική και η τηλεόραση βλέπεται: ✗ Κοιτάζω στη φωτογραφία. → ✓ Κοιτάζω τη φωτογραφία. · ✗ Κοιτάζω τηλεόραση. → ✓ Βλέπω τηλεόραση."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-vlepo\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">7</span><h4 class=\"vcard-title\">βλέπω</h4><p class=\"vcard-sub\">Το <em>βλέπω</em> είναι αυτόματο· το <em>κοιτάζω</em>, το <em>παρατηρώ</em> και το <em>εξετάζω</em> θέλουν προσοχή.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">μια γρήγορη ματιά</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ρίχνω μια ματιά</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ξεφυλλίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είδα την εφημερίδα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Έριξα μια ματιά</mark> στην εφημερίδα.</div><div class=\"vrow-note\"><em>Ξεφυλλίζω</em> = διαβάζω πρόχειρα: <em><mark>Ξεφυλλίζει</mark> την αναφορά.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ακολουθείτε κάτι που κινείται</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παρατηρώ</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παρακολουθώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Οι ερευνητές έβλεπαν τα πουλιά μια εβδομάδα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Οι ερευνητές <mark>παρατηρούσαν</mark> τα πουλιά μια εβδομάδα.</div><div class=\"vrow-note\"><strong>βλέπω</strong> = μπαίνει στα μάτια σας · <strong>κοιτάζω</strong> = το κάνετε επίτηδες: <em><mark>Κοιτάζω</mark> έξω από το παράθυρο.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">μια μακριά, επίμονη ματιά</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>κοιτάζω επίμονα</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>ατενίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Με κοίταζε πολλή ώρα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Με <mark>κοίταζε επίμονα</mark>.</div><div class=\"vrow-note\"><em>Ατενίζω</em> = κοιτάζω με θαυμασμό και ηρεμία: <em><mark>Ατενίζει</mark> τη θάλασσα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">προσεκτική ματιά για να καταλάβετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εξετάζω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>επιθεωρώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ελέγχω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ο γιατρός είδε το γόνατό μου.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ο γιατρός <mark>εξέτασε</mark> το γόνατό μου.</div><div class=\"vrow-note\"><em>Επιθεωρώ</em> = επίσημος έλεγχος · <em>ελέγχω</em> = βεβαιώνομαι ότι είναι σωστό.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">προσέχετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προσέχω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διακρίνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Είδα ένα λάθος.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Πρόσεξα</mark> ένα λάθος.</div><div class=\"vrow-note\"><em>Διακρίνω</em> = καταλαβαίνω με δυσκολία: <em><mark>Διακρίνω</mark> ένα φως στο βάθος.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Το <em>κοιτάζω</em> θέλει αιτιατική και η τηλεόραση <em>βλέπεται</em>: <span class=\"bad\">Κοιτάζω στη φωτογραφία.</span> → <span class=\"good\">Κοιτάζω τη φωτογραφία.</span> · <span class=\"bad\">Κοιτάζω τηλεόραση.</span> → <span class=\"good\">Βλέπω τηλεόραση.</span></p></section>",
+      "say": "ρίχνω μια ματιά / ξεφυλλίζω (μια γρήγορη ματιά) — Είδα την εφημερίδα. → Έριξα μια ματιά στην εφημερίδα. Ξεφυλλίζω = διαβάζω πρόχειρα: Ξεφυλλίζει την αναφορά. παρατηρώ / παρακολουθώ (ακολουθείτε κάτι που κινείται) — Οι ερευνητές έβλεπαν τα πουλιά μια εβδομάδα. → Οι ερευνητές παρατηρούσαν τα πουλιά μια εβδομάδα. βλέπω = μπαίνει στα μάτια σας · κοιτάζω = το κάνετε επίτηδες: Κοιτάζω έξω από το παράθυρο. κοιτάζω επίμονα / ατενίζω (μια μακριά, επίμονη ματιά) — Με κοίταζε πολλή ώρα. → Με κοίταζε επίμονα. Ατενίζω = κοιτάζω με θαυμασμό και ηρεμία: Ατενίζει τη θάλασσα. εξετάζω / επιθεωρώ / ελέγχω (προσεκτική ματιά για να καταλάβετε) — Ο γιατρός είδε το γόνατό μου. → Ο γιατρός εξέτασε το γόνατό μου. Επιθεωρώ = επίσημος έλεγχος · ελέγχω = βεβαιώνομαι ότι είναι σωστό. προσέχω / διακρίνω (προσέχετε) — Είδα ένα λάθος. → Πρόσεξα ένα λάθος. Διακρίνω = καταλαβαίνω με δυσκολία: Διακρίνω ένα φως στο βάθος. ⚠️ Παγίδα: Το κοιτάζω θέλει αιτιατική και η τηλεόραση βλέπεται: ✗ Κοιτάζω στη φωτογραφία. → ✓ Κοιτάζω τη φωτογραφία. · ✗ Κοιτάζω τηλεόραση. → ✓ Βλέπω τηλεόραση."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Κλίμακα νοήματος</p><p class=\"cosy-fig-title\">Με πόση προσοχή; Η οικογένεια του <em>βλέπω</em></p><p class=\"scale-ends\"><span>Γρήγορα</span><span>Αναλυτικά</span></p><ol class=\"scale\"><li class=\"scale-step\" style=\"--scale-c:#fbbf24;--scale-n:#f59e0b\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">διακρίνω</span> <span class=\"scale-desc\">— βλέπετε με δυσκολία, από μακριά</span><br><span class=\"scale-ex\">Διέκρινα τη Μαρία μέσα στο πλήθος.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#f59e0b;--scale-n:#fb923c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">ρίχνω μια ματιά</span> <span class=\"scale-desc\">— μια πολύ γρήγορη ματιά, επίτηδες</span><br><span class=\"scale-ex\">Ρίχνει μια ματιά στο ρολόι.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#fb923c;--scale-n:#f97316\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">κοιτάζω</span> <span class=\"scale-desc\">— στρέφετε τα μάτια σε κάτι</span><br><span class=\"scale-ex\">Κοίτα αυτή τη φωτογραφία.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#f97316;--scale-n:#ea580c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">παρατηρώ</span> <span class=\"scale-desc\">— ακολουθείτε με προσοχή, στον χρόνο</span><br><span class=\"scale-ex\">Οι επιστήμονες παρατηρούν τα πουλιά.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#ea580c;--scale-n:#c2410c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">εξετάζω</span> <span class=\"scale-desc\">— προσεκτική ματιά για να καταλάβετε</span><br><span class=\"scale-ex\">Ο γιατρός εξετάζει το γόνατό μου.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#c2410c;--scale-n:#c2410c\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">επιθεωρώ</span> <span class=\"scale-desc\">— επίσημος, λεπτομερής έλεγχος</span><br><span class=\"scale-ex\">Οι υπάλληλοι επιθεωρούν κάθε κοντέινερ.</span></span></li></ol><p class=\"cosy-fig-cap\"><em>Καρφώνω το βλέμμα</em> = κοιτάζω επίμονα, χωρίς να κουνήσω τα μάτια. <em>Ατενίζω</em> = κοιτάζω με θαυμασμό.</p></figure>",
+      "text": "Με πόση προσοχή; Η οικογένεια του βλέπω Γρήγορα → Αναλυτικά. διακρίνω: βλέπετε με δυσκολία, από μακριά Διέκρινα τη Μαρία μέσα στο πλήθος. ρίχνω μια ματιά: μια πολύ γρήγορη ματιά, επίτηδες Ρίχνει μια ματιά στο ρολόι. κοιτάζω: στρέφετε τα μάτια σε κάτι Κοίτα αυτή τη φωτογραφία. παρατηρώ: ακολουθείτε με προσοχή, στον χρόνο Οι επιστήμονες παρατηρούν τα πουλιά. εξετάζω: προσεκτική ματιά για να καταλάβετε Ο γιατρός εξετάζει το γόνατό μου. επιθεωρώ: επίσημος, λεπτομερής έλεγχος Οι υπάλληλοι επιθεωρούν κάθε κοντέινερ.",
+      "say": "Με πόση προσοχή; Η οικογένεια του βλέπω Γρήγορα → Αναλυτικά. διακρίνω: βλέπετε με δυσκολία, από μακριά Διέκρινα τη Μαρία μέσα στο πλήθος. ρίχνω μια ματιά: μια πολύ γρήγορη ματιά, επίτηδες Ρίχνει μια ματιά στο ρολόι. κοιτάζω: στρέφετε τα μάτια σε κάτι Κοίτα αυτή τη φωτογραφία. παρατηρώ: ακολουθείτε με προσοχή, στον χρόνο Οι επιστήμονες παρατηρούν τα πουλιά. εξετάζω: προσεκτική ματιά για να καταλάβετε Ο γιατρός εξετάζει το γόνατό μου. επιθεωρώ: επίσημος, λεπτομερής έλεγχος Οι υπάλληλοι επιθεωρούν κάθε κοντέινερ."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. νομίζω",
+      "stageOnly": true,
+      "say": "8. νομίζω. Το νομίζω κρύβει πόσο σίγουροι είστε. Διαλέξτε ένα ρήμα που το δείχνει."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**θεωρώ / πιστεύω** (έχετε μια γνώμη) — Νομίζω ότι είναι καλή ιδέα. → Θεωρώ ότι είναι καλή ιδέα. Πιστεύω = η προσωπική σας πεποίθηση · θεωρώ = κρίση μετά από σκέψη, πιο επίσημο.",
+        "**υποθέτω / φαντάζομαι** (εικάζετε) — Νομίζω ότι είναι σπίτι. → Υποθέτω ότι είναι σπίτι.",
+        "**θεωρώ δεδομένο** (το δέχεστε χωρίς έλεγχο) — Νόμιζα ότι ήξερες. → Θεωρούσα δεδομένο ότι ήξερες.",
+        "**υποπτεύομαι** (έχετε κακό προαίσθημα) — Νομίζω ότι ο Πέτρος είπε ψέματα. → Υποπτεύομαι ότι ο Πέτρος είπε ψέματα. Υποπτεύομαι = σκέφτομαι κάτι αρνητικό.",
+        "**εξετάζω / σταθμίζω** (ζυγίζετε επιλογές) — Σκέφτομαι δύο προτάσεις. → Εξετάζω δύο προτάσεις. Σταθμίζω = ζυγίζω υπέρ και κατά: Σταθμίζουμε τις επιλογές.",
+        "**αναρωτιέμαι** (δεν έχετε την απάντηση) — Σκέφτομαι τι θα γίνει. → Αναρωτιέμαι τι θα γίνει.",
+        "**καταλήγω / συνειδητοποιώ** (καταλήγετε σε συμπέρασμα) — Σκεφτήκαμε ότι χρειαζόμαστε περισσότερο χρόνο. → Καταλήξαμε ότι χρειαζόμαστε περισσότερο χρόνο. Συνειδητοποιώ = καταλαβαίνω ξαφνικά: Συνειδητοποίησα ότι έχασα τα κλειδιά.",
+        "⚠️ Παγίδα: Το νομίζω παίρνει ότι, όχι να: ✗ Νομίζω να έρθει. → ✓ Νομίζω ότι θα έρθει."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-nomizo\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">8</span><h4 class=\"vcard-title\">νομίζω</h4><p class=\"vcard-sub\">Το <em>νομίζω</em> κρύβει πόσο σίγουροι είστε. Διαλέξτε ένα ρήμα που το δείχνει.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">έχετε μια γνώμη</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>θεωρώ</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>πιστεύω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Νομίζω ότι είναι καλή ιδέα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Θεωρώ</mark> ότι είναι καλή ιδέα.</div><div class=\"vrow-note\"><em>Πιστεύω</em> = η προσωπική σας πεποίθηση · <em>θεωρώ</em> = κρίση μετά από σκέψη, πιο επίσημο.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εικάζετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>υποθέτω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>φαντάζομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Νομίζω ότι είναι σπίτι.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Υποθέτω</mark> ότι είναι σπίτι.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">το δέχεστε χωρίς έλεγχο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>θεωρώ δεδομένο</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Νόμιζα ότι ήξερες.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Θεωρούσα δεδομένο</mark> ότι ήξερες.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">έχετε κακό προαίσθημα</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>υποπτεύομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Νομίζω ότι ο Πέτρος είπε ψέματα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Υποπτεύομαι</mark> ότι ο Πέτρος είπε ψέματα.</div><div class=\"vrow-note\"><em>Υποπτεύομαι</em> = σκέφτομαι κάτι αρνητικό.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ζυγίζετε επιλογές</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εξετάζω</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>σταθμίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Σκέφτομαι δύο προτάσεις.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Εξετάζω</mark> δύο προτάσεις.</div><div class=\"vrow-note\"><em>Σταθμίζω</em> = ζυγίζω υπέρ και κατά: <em><mark>Σταθμίζουμε</mark> τις επιλογές.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">δεν έχετε την απάντηση</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>αναρωτιέμαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Σκέφτομαι τι θα γίνει.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Αναρωτιέμαι</mark> τι θα γίνει.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">καταλήγετε σε συμπέρασμα</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>καταλήγω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>συνειδητοποιώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Σκεφτήκαμε ότι χρειαζόμαστε περισσότερο χρόνο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Καταλήξαμε</mark> ότι χρειαζόμαστε περισσότερο χρόνο.</div><div class=\"vrow-note\"><em>Συνειδητοποιώ</em> = καταλαβαίνω ξαφνικά: <em><mark>Συνειδητοποίησα</mark> ότι έχασα τα κλειδιά.</em></div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Το <em>νομίζω</em> παίρνει <em>ότι</em>, όχι <em>να</em>: <span class=\"bad\">Νομίζω να έρθει.</span> → <span class=\"good\">Νομίζω ότι θα έρθει.</span></p></section>",
+      "say": "θεωρώ / πιστεύω (έχετε μια γνώμη) — Νομίζω ότι είναι καλή ιδέα. → Θεωρώ ότι είναι καλή ιδέα. Πιστεύω = η προσωπική σας πεποίθηση · θεωρώ = κρίση μετά από σκέψη, πιο επίσημο. υποθέτω / φαντάζομαι (εικάζετε) — Νομίζω ότι είναι σπίτι. → Υποθέτω ότι είναι σπίτι. θεωρώ δεδομένο (το δέχεστε χωρίς έλεγχο) — Νόμιζα ότι ήξερες. → Θεωρούσα δεδομένο ότι ήξερες. υποπτεύομαι (έχετε κακό προαίσθημα) — Νομίζω ότι ο Πέτρος είπε ψέματα. → Υποπτεύομαι ότι ο Πέτρος είπε ψέματα. Υποπτεύομαι = σκέφτομαι κάτι αρνητικό. εξετάζω / σταθμίζω (ζυγίζετε επιλογές) — Σκέφτομαι δύο προτάσεις. → Εξετάζω δύο προτάσεις. Σταθμίζω = ζυγίζω υπέρ και κατά: Σταθμίζουμε τις επιλογές. αναρωτιέμαι (δεν έχετε την απάντηση) — Σκέφτομαι τι θα γίνει. → Αναρωτιέμαι τι θα γίνει. καταλήγω / συνειδητοποιώ (καταλήγετε σε συμπέρασμα) — Σκεφτήκαμε ότι χρειαζόμαστε περισσότερο χρόνο. → Καταλήξαμε ότι χρειαζόμαστε περισσότερο χρόνο. Συνειδητοποιώ = καταλαβαίνω ξαφνικά: Συνειδητοποίησα ότι έχασα τα κλειδιά. ⚠️ Παγίδα: Το νομίζω παίρνει ότι, όχι να: ✗ Νομίζω να έρθει. → ✓ Νομίζω ότι θα έρθει."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"cosy-fig\"><p class=\"cosy-fig-kicker\">Κλίμακα νοήματος</p><p class=\"cosy-fig-title\">Πόσο σίγουροι είστε; Η οικογένεια του <em>νομίζω</em></p><p class=\"scale-ends\"><span>Όχι σίγουρος</span><span>Πολύ σίγουρος</span></p><ol class=\"scale\"><li class=\"scale-step\" style=\"--scale-c:#94a3b8;--scale-n:#7dd3fc\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">αναρωτιέμαι</span> <span class=\"scale-desc\">— είστε περίεργοι, αλλά δεν έχετε απάντηση</span><br><span class=\"scale-ex\">Αναρωτιέμαι ποιος το άφησε.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#7dd3fc;--scale-n:#38bdf8\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">υποθέτω</span> <span class=\"scale-desc\">— είναι πιθανό, αλλά δεν το έχετε ελέγξει</span><br><span class=\"scale-ex\">Υποθέτω ότι είναι στη δουλειά.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#38bdf8;--scale-n:#2dd4bf\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">νομίζω</span> <span class=\"scale-desc\">— μια εντύπωση, χωρίς αποδείξεις</span><br><span class=\"scale-ex\">Νομίζω ότι λέει την αλήθεια.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#2dd4bf;--scale-n:#14b8a6\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">θεωρώ</span> <span class=\"scale-desc\">— κρίση μετά από σκέψη</span><br><span class=\"scale-ex\">Θεωρώ ότι η λύση είναι σωστή.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#14b8a6;--scale-n:#0f766e\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">είμαι βέβαιος</span> <span class=\"scale-desc\">— σοβαροί λόγοι, σχεδόν καμία αμφιβολία</span><br><span class=\"scale-ex\">Είμαι βέβαιος ότι διαλέξαμε σωστά.</span></span></li><li class=\"scale-step\" style=\"--scale-c:#0f766e;--scale-n:#0f766e\"><span class=\"scale-dot\" aria-hidden=\"true\"></span><span><span class=\"scale-verb\">ξέρω</span> <span class=\"scale-desc\">— έχετε στοιχεία ή αποδείξεις</span><br><span class=\"scale-ex\">Ξέρω ότι το μαγαζί κλείνει στις έξι.</span></span></li></ol><p class=\"cosy-fig-cap\">Το <em>πιστεύω</em> είναι μια προσωπική πεποίθηση, κοντά στο <em>νομίζω</em> αλλά πιο σταθερό. Το <em>υποπτεύομαι</em> έχει τη δική του κατεύθυνση: σκέφτεστε κάτι αρνητικό.</p></figure>",
+      "text": "Πόσο σίγουροι είστε; Η οικογένεια του νομίζω Όχι σίγουρος → Πολύ σίγουρος. αναρωτιέμαι: είστε περίεργοι, αλλά δεν έχετε απάντηση Αναρωτιέμαι ποιος το άφησε. υποθέτω: είναι πιθανό, αλλά δεν το έχετε ελέγξει Υποθέτω ότι είναι στη δουλειά. νομίζω: μια εντύπωση, χωρίς αποδείξεις Νομίζω ότι λέει την αλήθεια. θεωρώ: κρίση μετά από σκέψη Θεωρώ ότι η λύση είναι σωστή. είμαι βέβαιος: σοβαροί λόγοι, σχεδόν καμία αμφιβολία Είμαι βέβαιος ότι διαλέξαμε σωστά. ξέρω: έχετε στοιχεία ή αποδείξεις Ξέρω ότι το μαγαζί κλείνει στις έξι.",
+      "say": "Πόσο σίγουροι είστε; Η οικογένεια του νομίζω Όχι σίγουρος → Πολύ σίγουρος. αναρωτιέμαι: είστε περίεργοι, αλλά δεν έχετε απάντηση Αναρωτιέμαι ποιος το άφησε. υποθέτω: είναι πιθανό, αλλά δεν το έχετε ελέγξει Υποθέτω ότι είναι στη δουλειά. νομίζω: μια εντύπωση, χωρίς αποδείξεις Νομίζω ότι λέει την αλήθεια. θεωρώ: κρίση μετά από σκέψη Θεωρώ ότι η λύση είναι σωστή. είμαι βέβαιος: σοβαροί λόγοι, σχεδόν καμία αμφιβολία Είμαι βέβαιος ότι διαλέξαμε σωστά. ξέρω: έχετε στοιχεία ή αποδείξεις Ξέρω ότι το μαγαζί κλείνει στις έξι."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. δίνω",
+      "stageOnly": true,
+      "say": "9. δίνω. Το δίνω είναι σωστό, αλλά ένα ακριβές ρήμα λέει τι είδους «δόσιμο» είναι."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**προσφέρω / παρέχω** (προσφέρετε μια υπηρεσία) — Δίνουμε δωρεάν Wi-Fi. → Προσφέρουμε δωρεάν Wi-Fi. Παρέχω = θέτω στη διάθεση: Η εταιρεία παρέχει τον εξοπλισμό.",
+        "**παραδίδω / εγχειρίζω** (παραδίδετε κάτι σε κάποιον) — Μου έδωσε τα κλειδιά. → Μου παρέδωσε τα κλειδιά. Εγχειρίζω = δίνω επίσημα στο χέρι: Του εγχείρισαν το δίπλωμα.",
+        "**επιτρέπω / απονέμω** (μια αρχή επιτρέπει ή βραβεύει) — Μου έδωσαν άδεια να φύγω νωρίς. → Μου επέτρεψαν να φύγω νωρίς. Απονέμω = δίνω βραβείο: Της απένειμαν μετάλλιο.",
+        "**δωρίζω / δανείζω** (δίνετε χρήματα ή αντικείμενα) — Έδωσε πολλά χρήματα στο σχολείο. → Δώρισε πολλά χρήματα στο σχολείο. Δανείζω = θέλετε να τα πάρετε πίσω: Μου δανείζεις το στυλό σου;",
+        "**συμβουλεύω / προτείνω** (δίνετε συμβουλή) — Ο καθηγητής μου έδωσε μια συμβουλή. → Ο καθηγητής μου με συμβούλεψε να διαβάζω περισσότερο.",
+        "⚠️ Παγίδα: Σε πάγιες εκφράσεις χρειάζεται δίνω: ✗ κάνω συμβουλή → ✓ δίνω συμβουλή · και επίσης δίνω υπόσχεση, συνέντευξη, εξετάσεις."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-dino\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">9</span><h4 class=\"vcard-title\">δίνω</h4><p class=\"vcard-sub\">Το <em>δίνω</em> είναι σωστό, αλλά ένα ακριβές ρήμα λέει τι είδους «δόσιμο» είναι.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">προσφέρετε μια υπηρεσία</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προσφέρω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παρέχω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Δίνουμε δωρεάν Wi-Fi.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Προσφέρουμε</mark> δωρεάν Wi-Fi.</div><div class=\"vrow-note\"><em>Παρέχω</em> = θέτω στη διάθεση: <em>Η εταιρεία <mark>παρέχει</mark> τον εξοπλισμό.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">παραδίδετε κάτι σε κάποιον</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>παραδίδω</span><span class=\"vtag is-formal is-stretch\" title=\"Επιπλέον λέξη: χρήσιμη, αλλά καλύτερα για γραπτό λόγο ή για αργότερα\"><span class=\"vtag-ic\" aria-hidden=\"true\">📜</span>εγχειρίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Μου έδωσε τα κλειδιά.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Μου <mark>παρέδωσε</mark> τα κλειδιά.</div><div class=\"vrow-note\"><em>Εγχειρίζω</em> = δίνω επίσημα στο χέρι: <em>Του <mark>εγχείρισαν</mark> το δίπλωμα.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">μια αρχή επιτρέπει ή βραβεύει</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>επιτρέπω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>απονέμω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Μου έδωσαν άδεια να φύγω νωρίς.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Μου <mark>επέτρεψαν</mark> να φύγω νωρίς.</div><div class=\"vrow-note\"><em>Απονέμω</em> = δίνω βραβείο: <em>Της <mark>απένειμαν</mark> μετάλλιο.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">δίνετε χρήματα ή αντικείμενα</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>δωρίζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>δανείζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Έδωσε πολλά χρήματα στο σχολείο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Δώρισε</mark> πολλά χρήματα στο σχολείο.</div><div class=\"vrow-note\"><em>Δανείζω</em> = θέλετε να τα πάρετε πίσω: <em>Μου <mark>δανείζεις</mark> το στυλό σου;</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">δίνετε συμβουλή</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>συμβουλεύω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προτείνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ο καθηγητής μου έδωσε μια συμβουλή.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ο καθηγητής μου με <mark>συμβούλεψε</mark> να διαβάζω περισσότερο.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> Σε πάγιες εκφράσεις χρειάζεται <em>δίνω</em>: <span class=\"bad\">κάνω συμβουλή</span> → <span class=\"good\">δίνω συμβουλή</span> · και επίσης <em>δίνω</em> υπόσχεση, συνέντευξη, εξετάσεις.</p></section>",
+      "say": "προσφέρω / παρέχω (προσφέρετε μια υπηρεσία) — Δίνουμε δωρεάν Wi-Fi. → Προσφέρουμε δωρεάν Wi-Fi. Παρέχω = θέτω στη διάθεση: Η εταιρεία παρέχει τον εξοπλισμό. παραδίδω / εγχειρίζω (παραδίδετε κάτι σε κάποιον) — Μου έδωσε τα κλειδιά. → Μου παρέδωσε τα κλειδιά. Εγχειρίζω = δίνω επίσημα στο χέρι: Του εγχείρισαν το δίπλωμα. επιτρέπω / απονέμω (μια αρχή επιτρέπει ή βραβεύει) — Μου έδωσαν άδεια να φύγω νωρίς. → Μου επέτρεψαν να φύγω νωρίς. Απονέμω = δίνω βραβείο: Της απένειμαν μετάλλιο. δωρίζω / δανείζω (δίνετε χρήματα ή αντικείμενα) — Έδωσε πολλά χρήματα στο σχολείο. → Δώρισε πολλά χρήματα στο σχολείο. Δανείζω = θέλετε να τα πάρετε πίσω: Μου δανείζεις το στυλό σου; συμβουλεύω / προτείνω (δίνετε συμβουλή) — Ο καθηγητής μου έδωσε μια συμβουλή. → Ο καθηγητής μου με συμβούλεψε να διαβάζω περισσότερο. ⚠️ Παγίδα: Σε πάγιες εκφράσεις χρειάζεται δίνω: ✗ κάνω συμβουλή → ✓ δίνω συμβουλή · και επίσης δίνω υπόσχεση, συνέντευξη, εξετάσεις."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. βρίσκω",
+      "stageOnly": true,
+      "say": "10. βρίσκω. Το βρίσκω καλύπτει εντοπίζω, ανακαλύπτω, κρίνω, εξασφαλίζω…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**εντοπίζω / ξαναβρίσκω** (εντοπίζετε ή ξαναβρίσκετε) — Βρήκα την έξοδο. → Εντόπισα την έξοδο. Ξαναβρίσκω = βρίσκω κάτι που είχα χάσει: Ξαναβρήκα τα κλειδιά μου.",
+        "**εντοπίζω / ανιχνεύω** (εντοπίζετε την αιτία) — Οι μηχανικοί βρήκαν τη βλάβη. → Οι μηχανικοί εντόπισαν τη βλάβη. Ανιχνεύω = αντιλαμβάνομαι κάτι κρυμμένο: Ο αισθητήρας ανιχνεύει καπνό.",
+        "**ανακαλύπτω** (είναι καινούργιο για εσάς) — Βρήκα ένα μικρό καφέ. → Ανακάλυψα ένα μικρό καφέ.",
+        "**κρίνω / θεωρώ** (εκφράζετε μια κρίση) — Βρίσκω ότι αυτή η ταινία είναι πολύ μεγάλη. → Κρίνω ότι αυτή η ταινία είναι υπερβολικά μεγάλη. Βρίσκω ότι είναι φυσικό στην ομιλία: κρατήστε το!",
+        "**εξασφαλίζω** (εξασφαλίζετε με προσπάθεια) — Βρήκε μια θέση εργασίας. → Εξασφάλισε μια θέση εργασίας.",
+        "⚠️ Παγίδα: Βρίσκω = το αποτέλεσμα · ψάχνω = η ενέργεια: ✗ Βρίσκω τα κλειδιά μου μία ώρα. → ✓ Ψάχνω τα κλειδιά μου μία ώρα."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-vrisko\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">10</span><h4 class=\"vcard-title\">βρίσκω</h4><p class=\"vcard-sub\">Το <em>βρίσκω</em> καλύπτει εντοπίζω, ανακαλύπτω, κρίνω, εξασφαλίζω…</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">εντοπίζετε ή ξαναβρίσκετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εντοπίζω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ξαναβρίσκω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βρήκα την έξοδο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Εντόπισα</mark> την έξοδο.</div><div class=\"vrow-note\"><em>Ξαναβρίσκω</em> = βρίσκω κάτι που είχα χάσει: <em><mark>Ξαναβρήκα</mark> τα κλειδιά μου.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εντοπίζετε την αιτία</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εντοπίζω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ανιχνεύω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Οι μηχανικοί βρήκαν τη βλάβη.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Οι μηχανικοί <mark>εντόπισαν</mark> τη βλάβη.</div><div class=\"vrow-note\"><em>Ανιχνεύω</em> = αντιλαμβάνομαι κάτι κρυμμένο: <em>Ο αισθητήρας <mark>ανιχνεύει</mark> καπνό.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">είναι καινούργιο για εσάς</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ανακαλύπτω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βρήκα ένα μικρό καφέ.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ανακάλυψα</mark> ένα μικρό καφέ.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εκφράζετε μια κρίση</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>κρίνω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>θεωρώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βρίσκω ότι αυτή η ταινία είναι πολύ μεγάλη.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Κρίνω</mark> ότι αυτή η ταινία είναι υπερβολικά μεγάλη.</div><div class=\"vrow-note\"><em>Βρίσκω ότι</em> είναι φυσικό στην ομιλία: κρατήστε το!</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εξασφαλίζετε με προσπάθεια</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εξασφαλίζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Βρήκε μια θέση εργασίας.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Εξασφάλισε</mark> μια θέση εργασίας.</div></li></ul><p class=\"vcard-trap\"><b>⚠️ Παγίδα:</b> <em>Βρίσκω</em> = το αποτέλεσμα · <em>ψάχνω</em> = η ενέργεια: <span class=\"bad\">Βρίσκω τα κλειδιά μου μία ώρα.</span> → <span class=\"good\">Ψάχνω τα κλειδιά μου μία ώρα.</span></p></section>",
+      "say": "εντοπίζω / ξαναβρίσκω (εντοπίζετε ή ξαναβρίσκετε) — Βρήκα την έξοδο. → Εντόπισα την έξοδο. Ξαναβρίσκω = βρίσκω κάτι που είχα χάσει: Ξαναβρήκα τα κλειδιά μου. εντοπίζω / ανιχνεύω (εντοπίζετε την αιτία) — Οι μηχανικοί βρήκαν τη βλάβη. → Οι μηχανικοί εντόπισαν τη βλάβη. Ανιχνεύω = αντιλαμβάνομαι κάτι κρυμμένο: Ο αισθητήρας ανιχνεύει καπνό. ανακαλύπτω (είναι καινούργιο για εσάς) — Βρήκα ένα μικρό καφέ. → Ανακάλυψα ένα μικρό καφέ. κρίνω / θεωρώ (εκφράζετε μια κρίση) — Βρίσκω ότι αυτή η ταινία είναι πολύ μεγάλη. → Κρίνω ότι αυτή η ταινία είναι υπερβολικά μεγάλη. Βρίσκω ότι είναι φυσικό στην ομιλία: κρατήστε το! εξασφαλίζω (εξασφαλίζετε με προσπάθεια) — Βρήκε μια θέση εργασίας. → Εξασφάλισε μια θέση εργασίας. ⚠️ Παγίδα: Βρίσκω = το αποτέλεσμα · ψάχνω = η ενέργεια: ✗ Βρίσκω τα κλειδιά μου μία ώρα. → ✓ Ψάχνω τα κλειδιά μου μία ώρα."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Μπόνους: τρία ακόμη «ασφαλή» ρήματα",
+      "say": "Μπόνους: τρία ακόμη «ασφαλή» ρήματα"
+    },
+    {
+      "type": "paragraph",
+      "text": "Το *μου αρέσει*, το *χρησιμοποιώ* και το *υπάρχει* εμφανίζονται σε σχεδόν κάθε συζήτηση όσων μαθαίνουν. Να μερικές γρήγορες αναβαθμίσεις.",
+      "say": "Το μου αρέσει, το χρησιμοποιώ και το υπάρχει εμφανίζονται σε σχεδόν κάθε συζήτηση όσων μαθαίνουν. Να μερικές γρήγορες αναβαθμίσεις."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "μου αρέσει",
+      "stageOnly": true,
+      "say": "μου αρέσει"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**λατρεύω / εκτιμώ** (το λατρεύετε) — Μου αρέσει αυτό το τραγούδι. → Λατρεύω αυτό το τραγούδι. Εκτιμώ είναι πιο διακριτικό: Εκτιμώ τη βοήθειά σου.",
+        "**με ενδιαφέρει / ασχολούμαι με** (είναι ενδιαφέρον σας) — Μου αρέσει η ιστορία. → Με ενδιαφέρει η ιστορία.",
+        "**προτιμώ** (διαλέγετε το ένα αντί για το άλλο) — Μου αρέσει περισσότερο το τσάι από τον καφέ. → Προτιμώ το τσάι από τον καφέ."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-aresei\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">μου αρέσει</h4><p class=\"vcard-sub\">«Μου αρέσει…» σε κάθε φράση; Δείξτε την ένταση.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">το λατρεύετε</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>λατρεύω</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>εκτιμώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Μου αρέσει αυτό το τραγούδι.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Λατρεύω</mark> αυτό το τραγούδι.</div><div class=\"vrow-note\"><em>Εκτιμώ</em> είναι πιο διακριτικό: <em><mark>Εκτιμώ</mark> τη βοήθειά σου.</em></div></li><li class=\"vrow\"><div class=\"vrow-meaning\">είναι ενδιαφέρον σας</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>με ενδιαφέρει</span><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>ασχολούμαι με</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Μου αρέσει η ιστορία.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Με ενδιαφέρει</mark> η ιστορία.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">διαλέγετε το ένα αντί για το άλλο</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>προτιμώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Μου αρέσει περισσότερο το τσάι από τον καφέ.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Προτιμώ</mark> το τσάι από τον καφέ.</div></li></ul></section>",
+      "say": "λατρεύω / εκτιμώ (το λατρεύετε) — Μου αρέσει αυτό το τραγούδι. → Λατρεύω αυτό το τραγούδι. Εκτιμώ είναι πιο διακριτικό: Εκτιμώ τη βοήθειά σου. με ενδιαφέρει / ασχολούμαι με (είναι ενδιαφέρον σας) — Μου αρέσει η ιστορία. → Με ενδιαφέρει η ιστορία. προτιμώ (διαλέγετε το ένα αντί για το άλλο) — Μου αρέσει περισσότερο το τσάι από τον καφέ. → Προτιμώ το τσάι από τον καφέ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "χρησιμοποιώ",
+      "stageOnly": true,
+      "say": "χρησιμοποιώ"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**βασίζομαι σε** (εξαρτάστε από αυτό) — Χρησιμοποιούμε αυτό το λογισμικό κάθε μέρα. → Βασιζόμαστε σε αυτό το λογισμικό κάθε μέρα.",
+        "**εφαρμόζω** (εφαρμόζετε μια μέθοδο) — Χρησιμοποιούμε μια απλή μέθοδο. → Εφαρμόζουμε μια απλή μέθοδο.",
+        "**χειρίζομαι** (λειτουργείτε ένα μηχάνημα) — Ξέρεις να χρησιμοποιείς αυτό το μηχάνημα; → Ξέρεις να χειρίζεσαι αυτό το μηχάνημα;",
+        "**αξιοποιώ** (παίρνετε το καλύτερο) — Χρησιμοποίησε καλά τον χρόνο σου. → Αξιοποίησε καλά τον χρόνο σου."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-hrisimopoio\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">χρησιμοποιώ</h4><p class=\"vcard-sub\">Το <em>χρησιμοποιώ</em> είναι χρήσιμο, αλλά μπορείτε να πείτε πώς και γιατί.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">εξαρτάστε από αυτό</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>βασίζομαι σε</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Χρησιμοποιούμε αυτό το λογισμικό κάθε μέρα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Βασιζόμαστε</mark> σε αυτό το λογισμικό κάθε μέρα.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εφαρμόζετε μια μέθοδο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εφαρμόζω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Χρησιμοποιούμε μια απλή μέθοδο.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Εφαρμόζουμε</mark> μια απλή μέθοδο.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">λειτουργείτε ένα μηχάνημα</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>χειρίζομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Ξέρεις να χρησιμοποιείς αυτό το μηχάνημα;</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ξέρεις να <mark>χειρίζεσαι</mark> αυτό το μηχάνημα;</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">παίρνετε το καλύτερο</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>αξιοποιώ</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Χρησιμοποίησε καλά τον χρόνο σου.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Αξιοποίησε</mark> καλά τον χρόνο σου.</div></li></ul></section>",
+      "say": "βασίζομαι σε (εξαρτάστε από αυτό) — Χρησιμοποιούμε αυτό το λογισμικό κάθε μέρα. → Βασιζόμαστε σε αυτό το λογισμικό κάθε μέρα. εφαρμόζω (εφαρμόζετε μια μέθοδο) — Χρησιμοποιούμε μια απλή μέθοδο. → Εφαρμόζουμε μια απλή μέθοδο. χειρίζομαι (λειτουργείτε ένα μηχάνημα) — Ξέρεις να χρησιμοποιείς αυτό το μηχάνημα; → Ξέρεις να χειρίζεσαι αυτό το μηχάνημα; αξιοποιώ (παίρνετε το καλύτερο) — Χρησιμοποίησε καλά τον χρόνο σου. → Αξιοποίησε καλά τον χρόνο σου."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "υπάρχει",
+      "stageOnly": true,
+      "say": "υπάρχει"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**βρίσκομαι / εντοπίζομαι** (ένας τόπος) — Υπάρχει ένα πάρκο εδώ κοντά. → Ένα πάρκο βρίσκεται εδώ κοντά.",
+        "**διαθέτω / περιλαμβάνω** (ένας αριθμός στοιχείων) — Υπάρχουν τρία δωμάτια στο διαμέρισμα. → Το διαμέρισμα διαθέτει τρία δωμάτια.",
+        "**ανακύπτω** (εμφανίζεται ένα πρόβλημα) — Υπάρχει πρόβλημα με τον προϋπολογισμό. → Ανακύπτει πρόβλημα με τον προϋπολογισμό."
+      ],
+      "html": "<section class=\"vcard\" id=\"verb-yparhei\"><header class=\"vcard-head\"><span class=\"vcard-num\" aria-hidden=\"true\">+</span><h4 class=\"vcard-title\">υπάρχει</h4><p class=\"vcard-sub\">Το <em>υπάρχει</em> είναι τέλειο στην ομιλία. Στον γραπτό λόγο, ποικίλλετε.</p></header><ul class=\"vrows\"><li class=\"vrow\"><div class=\"vrow-meaning\">ένας τόπος</div><div class=\"vrow-verbs\"><span class=\"vtag is-everyday\"><span class=\"vtag-ic\" aria-hidden=\"true\">💬</span>βρίσκομαι</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>εντοπίζομαι</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Υπάρχει ένα πάρκο εδώ κοντά.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Ένα πάρκο <mark>βρίσκεται</mark> εδώ κοντά.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">ένας αριθμός στοιχείων</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>διαθέτω</span><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>περιλαμβάνω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Υπάρχουν τρία δωμάτια στο διαμέρισμα.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span>Το διαμέρισμα <mark>διαθέτει</mark> τρία δωμάτια.</div></li><li class=\"vrow\"><div class=\"vrow-meaning\">εμφανίζεται ένα πρόβλημα</div><div class=\"vrow-verbs\"><span class=\"vtag is-work\"><span class=\"vtag-ic\" aria-hidden=\"true\">💼</span>ανακύπτω</span></div><div class=\"vrow-ex\"><span class=\"ex-from\">Υπάρχει πρόβλημα με τον προϋπολογισμό.</span><span class=\"ex-arrow\" aria-hidden=\"true\">→</span><mark>Ανακύπτει</mark> πρόβλημα με τον προϋπολογισμό.</div></li></ul></section>",
+      "say": "βρίσκομαι / εντοπίζομαι (ένας τόπος) — Υπάρχει ένα πάρκο εδώ κοντά. → Ένα πάρκο βρίσκεται εδώ κοντά. διαθέτω / περιλαμβάνω (ένας αριθμός στοιχείων) — Υπάρχουν τρία δωμάτια στο διαμέρισμα. → Το διαμέρισμα διαθέτει τρία δωμάτια. ανακύπτω (εμφανίζεται ένα πρόβλημα) — Υπάρχει πρόβλημα με τον προϋπολογισμό. → Ανακύπτει πρόβλημα με τον προϋπολογισμό."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Τα βάζουμε όλα μαζί",
+      "say": "Τα βάζουμε όλα μαζί"
+    },
+    {
+      "type": "paragraph",
+      "text": "Να η ίδια ιστορία δύο φορές. Διαβάστε φωναχτά την εκδοχή «πριν» και μετά την «μετά». Η δεύτερη ζωγραφίζει πιο καθαρή εικόνα, χωρίς δύσκολη γραμματική.",
+      "say": "Να η ίδια ιστορία δύο φορές. Διαβάστε φωναχτά την εκδοχή «πριν» και μετά την «μετά». Η δεύτερη ζωγραφίζει πιο καθαρή εικόνα, χωρίς δύσκολη γραμματική."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Καθημερινά (B1)",
+      "say": "Καθημερινά (B1)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"ba\"><div class=\"ba-panel ba-before\"><span class=\"ba-label\">Πριν</span>Χθες <span class=\"weak\">πήγα</span> στο κέντρο. <span class=\"weak\">Πήρα</span> έναν καφέ και <span class=\"weak\">είπαμε</span> πολλή ώρα με τη φίλη μου. Μου <span class=\"weak\">είπε</span> ότι <span class=\"weak\">πήρε</span> μια νέα δουλειά. <span class=\"weak\">Νόμιζα</span> ότι είναι υπέροχα νέα. <span class=\"weak\">Κάναμε</span> σχέδιο να <span class=\"weak\">πάμε να δούμε</span> το νέο της γραφείο την άλλη εβδομάδα.</div><div class=\"ba-panel ba-after\"><span class=\"ba-label\">Μετά</span>Χθες <mark>περπάτησα</mark> στο κέντρο. <mark>Παρήγγειλα</mark> έναν καφέ και <mark>κουβεντιάσαμε</mark> πολλή ώρα με τη φίλη μου. Μου <mark>ανακοίνωσε</mark> ότι <mark>εξασφάλισε</mark> μια νέα δουλειά. <mark>Χάρηκα</mark> πολύ για εκείνη. <mark>Συμφωνήσαμε</mark> να <mark>επισκεφθούμε</mark> το νέο της γραφείο την άλλη εβδομάδα.</div></div>",
+      "text": "Πριν: Χθες πήγα στο κέντρο. Πήρα έναν καφέ και είπαμε πολλή ώρα με τη φίλη μου. Μου είπε ότι πήρε μια νέα δουλειά. Νόμιζα ότι είναι υπέροχα νέα. Κάναμε σχέδιο να πάμε να δούμε το νέο της γραφείο την άλλη εβδομάδα. Μετά: Χθες περπάτησα στο κέντρο. Παρήγγειλα έναν καφέ και κουβεντιάσαμε πολλή ώρα με τη φίλη μου. Μου ανακοίνωσε ότι εξασφάλισε μια νέα δουλειά. Χάρηκα πολύ για εκείνη. Συμφωνήσαμε να επισκεφθούμε το νέο της γραφείο την άλλη εβδομάδα.",
+      "say": "Πριν: Χθες πήγα στο κέντρο. Πήρα έναν καφέ και είπαμε πολλή ώρα με τη φίλη μου. Μου είπε ότι πήρε μια νέα δουλειά. Νόμιζα ότι είναι υπέροχα νέα. Κάναμε σχέδιο να πάμε να δούμε το νέο της γραφείο την άλλη εβδομάδα. Μετά: Χθες περπάτησα στο κέντρο. Παρήγγειλα έναν καφέ και κουβεντιάσαμε πολλή ώρα με τη φίλη μου. Μου ανακοίνωσε ότι εξασφάλισε μια νέα δουλειά. Χάρηκα πολύ για εκείνη. Συμφωνήσαμε να επισκεφθούμε το νέο της γραφείο την άλλη εβδομάδα."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Στη δουλειά (B2)",
+      "say": "Στη δουλειά (B2)"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"ba\"><div class=\"ba-panel ba-before\"><span class=\"ba-label\">Πριν</span><span class=\"weak\">Έκανα</span> την αναφορά και την <span class=\"weak\">έδωσα</span> στην προϊσταμένη μου. Μου <span class=\"weak\">είπε</span> ότι τα νούμερα <span class=\"weak\">φαίνονται</span> περίεργα. <span class=\"weak\">Πήρα</span> τα αρχικά δεδομένα και <span class=\"weak\">κάναμε</span> νέα έκδοση. <span class=\"weak\">Νομίζω</span> ότι τώρα είναι πολύ καλύτερα.</div><div class=\"ba-panel ba-after\"><span class=\"ba-label\">Μετά</span><mark>Συνέταξα</mark> την αναφορά και την <mark>παρέδωσα</mark> στην προϊσταμένη μου. <mark>Επισήμανε</mark> ότι τα νούμερα <mark>προκαλούν</mark> αμφιβολίες. <mark>Ανέκτησα</mark> τα αρχικά δεδομένα και <mark>καταρτίσαμε</mark> νέα έκδοση. <mark>Θεωρώ</mark> ότι τώρα είναι πολύ καλύτερα.</div></div>",
+      "text": "Πριν: Έκανα την αναφορά και την έδωσα στην προϊσταμένη μου. Μου είπε ότι τα νούμερα φαίνονται περίεργα. Πήρα τα αρχικά δεδομένα και κάναμε νέα έκδοση. Νομίζω ότι τώρα είναι πολύ καλύτερα. Μετά: Συνέταξα την αναφορά και την παρέδωσα στην προϊσταμένη μου. Επισήμανε ότι τα νούμερα προκαλούν αμφιβολίες. Ανέκτησα τα αρχικά δεδομένα και καταρτίσαμε νέα έκδοση. Θεωρώ ότι τώρα είναι πολύ καλύτερα.",
+      "say": "Πριν: Έκανα την αναφορά και την έδωσα στην προϊσταμένη μου. Μου είπε ότι τα νούμερα φαίνονται περίεργα. Πήρα τα αρχικά δεδομένα και κάναμε νέα έκδοση. Νομίζω ότι τώρα είναι πολύ καλύτερα. Μετά: Συνέταξα την αναφορά και την παρέδωσα στην προϊσταμένη μου. Επισήμανε ότι τα νούμερα προκαλούν αμφιβολίες. Ανέκτησα τα αρχικά δεδομένα και καταρτίσαμε νέα έκδοση. Θεωρώ ότι τώρα είναι πολύ καλύτερα."
+    },
+    {
+      "type": "paragraph",
+      "text": "Στα κείμενα «μετά» δεν υπάρχει προχωρημένη γραμματική. Η διαφορά είναι **η επιλογή λεξιλογίου**, και ακριβώς αυτό σάς πάει από το B1 προς το B2.",
+      "say": "Στα κείμενα «μετά» δεν υπάρχει προχωρημένη γραμματική. Η διαφορά είναι η επιλογή λεξιλογίου, και ακριβώς αυτό σάς πάει από το B1 προς το B2."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Επαγγελματικές και ακαδημαϊκές αναβαθμίσεις",
+      "say": "Επαγγελματικές και ακαδημαϊκές αναβαθμίσεις"
+    },
+    {
+      "type": "paragraph",
+      "text": "Σε email, αναφορές και εργασίες, τα ακριβή ρήματα σάς κάνουν αξιόπιστους. Χρησιμοποιήστε αυτόν τον πίνακα ως υπενθύμιση «αντί για → δοκιμάστε».",
+      "say": "Σε email, αναφορές και εργασίες, τα ακριβή ρήματα σάς κάνουν αξιόπιστους. Χρησιμοποιήστε αυτόν τον πίνακα ως υπενθύμιση «αντί για → δοκιμάστε»."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Αντί για",
+        "Δοκιμάστε",
+        "Παράδειγμα"
+      ],
+      "rows": [
+        [
+          "**δείχνω**",
+          "αποδεικνύω, απεικονίζω, αποκαλύπτω",
+          "Το διάγραμμα απεικονίζει την τάση."
+        ],
+        [
+          "**βοηθώ**",
+          "υποστηρίζω, διευκολύνω",
+          "Αυτό το εργαλείο διευκολύνει την τηλεργασία."
+        ],
+        [
+          "**διορθώνω**",
+          "επισκευάζω (αντικείμενα), επιλύω (προβλήματα)",
+          "Επιλύσαμε το πρόβλημα σε μία ώρα."
+        ],
+        [
+          "**αλλάζω**",
+          "τροποποιώ, προσαρμόζω, μετασχηματίζω (πολύ)",
+          "Προσαρμόσαμε το πρόγραμμα."
+        ],
+        [
+          "**ξεκινάω**",
+          "κυκλοφορώ (προϊόν), εγκαινιάζω, θέτω σε εφαρμογή",
+          "Η εταιρεία κυκλοφόρησε μια νέα εφαρμογή."
+        ],
+        [
+          "**ρωτάω**",
+          "ζητώ διευκρινίσεις, ενημερώνομαι, συμβουλεύομαι",
+          "Ζήτησε διευκρινίσεις για τη θέση."
+        ],
+        [
+          "**χρειάζομαι**",
+          "απαιτείται, είναι αναγκαίο",
+          "Για τη θέση απαιτείται εμπειρία."
+        ],
+        [
+          "**μιλάω για**",
+          "θίγω, πραγματεύομαι, εξετάζω",
+          "Το άρθρο πραγματεύεται το πρόβλημα του πλατό."
+        ]
+      ],
+      "html": "<div class=\"instead-try-spread\" aria-label=\"Πίνακας «Αντί για / Δοκιμάστε» για επαγγελματικά και ακαδημαϊκά ελληνικά\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">Αντί για ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">Δοκιμάστε ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">δείχνω</mark></div><div class=\"instead-try-cell try-cell\"><em>αποδεικνύω, απεικονίζω, αποκαλύπτω</em><br><span class=\"vrow-note\">Το διάγραμμα <mark>απεικονίζει</mark> την τάση.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">βοηθώ</mark></div><div class=\"instead-try-cell try-cell\"><em>υποστηρίζω, διευκολύνω</em><br><span class=\"vrow-note\">Αυτό το εργαλείο <mark>διευκολύνει</mark> την τηλεργασία.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">διορθώνω</mark></div><div class=\"instead-try-cell try-cell\"><em>επισκευάζω</em> (αντικείμενα), <em>επιλύω</em> (προβλήματα)<br><span class=\"vrow-note\"><mark>Επιλύσαμε</mark> το πρόβλημα σε μία ώρα.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">αλλάζω</mark></div><div class=\"instead-try-cell try-cell\"><em>τροποποιώ, προσαρμόζω, μετασχηματίζω</em> (πολύ)<br><span class=\"vrow-note\"><mark>Προσαρμόσαμε</mark> το πρόγραμμα.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">ξεκινάω</mark></div><div class=\"instead-try-cell try-cell\"><em>κυκλοφορώ</em> (προϊόν), <em>εγκαινιάζω</em>, <em>θέτω σε εφαρμογή</em><br><span class=\"vrow-note\">Η εταιρεία <mark>κυκλοφόρησε</mark> μια νέα εφαρμογή.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">ρωτάω</mark></div><div class=\"instead-try-cell try-cell\"><em>ζητώ διευκρινίσεις, ενημερώνομαι, συμβουλεύομαι</em><br><span class=\"vrow-note\"><mark>Ζήτησε διευκρινίσεις</mark> για τη θέση.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">χρειάζομαι</mark></div><div class=\"instead-try-cell try-cell\"><em>απαιτείται, είναι αναγκαίο</em><br><span class=\"vrow-note\">Για τη θέση <mark>απαιτείται</mark> εμπειρία.</span></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">μιλάω για</mark></div><div class=\"instead-try-cell try-cell\"><em>θίγω, πραγματεύομαι, εξετάζω</em><br><span class=\"vrow-note\">Το άρθρο <mark>πραγματεύεται</mark> το πρόβλημα του πλατό.</span></div></div></div></div>",
+      "say": ""
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Τεστάρετε τον εαυτό σας",
+      "say": "Τεστάρετε τον εαυτό σας"
+    },
+    {
+      "type": "paragraph",
+      "text": "Έξι γρήγορες ερωτήσεις. Πατήστε μια απάντηση για να δείτε γιατί ταιριάζει.",
+      "say": "Έξι γρήγορες ερωτήσεις. Πατήστε μια απάντηση για να δείτε γιατί ταιριάζει."
+    },
+    {
+      "type": "quiz",
+      "question": "Πρέπει να ___ μια απόφαση μέχρι αύριο.",
+      "options": [
+        "κάνω",
+        "πάρω",
+        "βάλω",
+        "δώσω"
+      ],
+      "correctIndex": 1,
+      "explanation": "Μια απόφαση *παίρνεται*. Το *κάνω απόφαση* είναι συχνό λάθος.",
+      "say": "Πρέπει να ___ μια απόφαση μέχρι αύριο."
+    },
+    {
+      "type": "quiz",
+      "question": "Αύριο ___ εξετάσεις στη χημεία.",
+      "options": [
+        "λέω",
+        "δίνω",
+        "βάζω",
+        "βρίσκω"
+      ],
+      "correctIndex": 1,
+      "explanation": "Λέμε *δίνω εξετάσεις*. Τα υπόλοιπα ρήματα δεν συνδυάζονται με αυτό το ουσιαστικό.",
+      "say": "Αύριο ___ εξετάσεις στη χημεία."
+    },
+    {
+      "type": "quiz",
+      "question": "Ποια πρόταση είναι σωστή;",
+      "options": [
+        "Μου είπε ότι μένω.",
+        "Μου είπε να μείνω.",
+        "Μου είπε μένω.",
+        "Μου είπε ότι να μείνω."
+      ],
+      "correctIndex": 1,
+      "explanation": "Για εντολή ή συμβουλή: *λέω σε κάποιον να* + υποτακτική.",
+      "say": "Ποια πρόταση είναι σωστή;"
+    },
+    {
+      "type": "quiz",
+      "question": "Ποια πρόταση είναι σωστή;",
+      "options": [
+        "Έχω 25 χρονών.",
+        "Είμαι 25 χρονών.",
+        "Κάνω 25 χρονών.",
+        "Πηγαίνω 25 χρονών."
+      ],
+      "correctIndex": 1,
+      "explanation": "Στα ελληνικά η ηλικία λέγεται με το *είμαι*.",
+      "say": "Ποια πρόταση είναι σωστή;"
+    },
+    {
+      "type": "quiz",
+      "question": "Ποιο ρήμα δείχνει τη χαμηλότερη βεβαιότητα;",
+      "options": [
+        "ξέρω",
+        "είμαι βέβαιος",
+        "υποθέτω",
+        "μπορώ να αποδείξω"
+      ],
+      "correctIndex": 2,
+      "explanation": "Το *υποθέτω* σημαίνει «είναι πιθανό». Τα άλλα εκφράζουν ισχυρή βεβαιότητα.",
+      "say": "Ποιο ρήμα δείχνει τη χαμηλότερη βεβαιότητα;"
+    },
+    {
+      "type": "quiz",
+      "question": "Ο γιατρός ___ προσεκτικά το γόνατό μου για να βρει την αιτία.",
+      "options": [
+        "έριξε μια ματιά σε",
+        "εξέτασε",
+        "διέκρινε",
+        "κοίταξε επίμονα"
+      ],
+      "correctIndex": 1,
+      "explanation": "Το *εξετάζω* = κοιτάζω προσεκτικά για να καταλάβω. Τα άλλα δεν δείχνουν προσεκτικό έλεγχο.",
+      "say": "Ο γιατρός ___ προσεκτικά το γόνατό μου για να βρει την αιτία."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
+      "text": "",
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Το πλάνο σας για 7 ημέρες",
+      "say": "Το πλάνο σας για 7 ημέρες"
+    },
+    {
+      "type": "paragraph",
+      "text": "Μικρό και με έμφαση στην ομιλία: αρκούν δέκα λεπτά την ημέρα.",
+      "say": "Μικρό και με έμφαση στην ομιλία: αρκούν δέκα λεπτά την ημέρα."
+    },
+    {
+      "type": "paragraph",
+      "html": "<ol class=\"plan7\"><li><span class=\"plan-day\">Ημέρα 1</span><span class=\"plan-task\"><strong>Προσέξτε.</strong> Μιλήστε ή γράψτε δύο λεπτά για τη μέρα σας. Υπογραμμίστε κάθε <em>κάνω, έχω, λέω, βάζω, πηγαίνω</em>.</span></li><li><span class=\"plan-day\">Ημέρα 2</span><span class=\"plan-task\"><strong>Κάνω + έχω.</strong> Διαλέξτε τρεις γραμμές από τις κάρτες και ξαναγράψτε πέντε δικές σας φράσεις.</span></li><li><span class=\"plan-day\">Ημέρα 3</span><span class=\"plan-task\"><strong>Λέω + νομίζω.</strong> Αφηγηθείτε μια συζήτηση με <em>ενημερώνω, εξηγώ, επισημαίνω</em> και <em>υποθέτω</em> ή <em>θεωρώ</em>.</span></li><li><span class=\"plan-day\">Ημέρα 4</span><span class=\"plan-task\"><strong>Πηγαίνω + βλέπω.</strong> Περιγράψτε μια μικρή έξοδο με <em>περπατάω, ταξιδεύω</em> ή <em>επισκέπτομαι</em> και ένα ρήμα από την κλίμακα του βλέμματος.</span></li><li><span class=\"plan-day\">Ημέρα 5</span><span class=\"plan-task\"><strong>Παίρνω + δίνω + βρίσκω.</strong> Διορθώστε τους συνδυασμούς: <em>παίρνω απόφαση, κάνω ερώτηση, δίνω συμβουλή, ξαναβρίσκω τα κλειδιά</em>.</span></li><li><span class=\"plan-day\">Ημέρα 6</span><span class=\"plan-task\"><strong>Γράψτε.</strong> Γράψτε έξι προτάσεις για την εβδομάδα σας και βελτιώστε τις με τη μέθοδο των 3 βημάτων.</span></li><li><span class=\"plan-day\">Ημέρα 7</span><span class=\"plan-task\"><strong>Μιλήστε.</strong> Ηχογραφήστε ένα φωνητικό μήνυμα ενός λεπτού. Χρησιμοποιήστε τα <em>κάνω, έχω</em> και <em>λέω</em> μόνο δύο φορές συνολικά. Ακούστε το.</span></li></ol>",
+      "text": "Ημέρα 1: Προσέξτε. Μιλήστε ή γράψτε δύο λεπτά για τη μέρα σας. Υπογραμμίστε κάθε κάνω, έχω, λέω, βάζω, πηγαίνω. Ημέρα 2: Κάνω + έχω. Διαλέξτε τρεις γραμμές από τις κάρτες και ξαναγράψτε πέντε δικές σας φράσεις. Ημέρα 3: Λέω + νομίζω. Αφηγηθείτε μια συζήτηση με ενημερώνω, εξηγώ, επισημαίνω και υποθέτω ή θεωρώ. Ημέρα 4: Πηγαίνω + βλέπω. Περιγράψτε μια μικρή έξοδο με περπατάω, ταξιδεύω ή επισκέπτομαι και ένα ρήμα από την κλίμακα του βλέμματος. Ημέρα 5: Παίρνω + δίνω + βρίσκω. Διορθώστε τους συνδυασμούς: παίρνω απόφαση, κάνω ερώτηση, δίνω συμβουλή, ξαναβρίσκω τα κλειδιά. Ημέρα 6: Γράψτε. Γράψτε έξι προτάσεις για την εβδομάδα σας και βελτιώστε τις με τη μέθοδο των 3 βημάτων. Ημέρα 7: Μιλήστε. Ηχογραφήστε ένα φωνητικό μήνυμα ενός λεπτού. Χρησιμοποιήστε τα κάνω, έχω και λέω μόνο δύο φορές συνολικά. Ακούστε το.",
+      "say": "Ημέρα 1: Προσέξτε. Μιλήστε ή γράψτε δύο λεπτά για τη μέρα σας. Υπογραμμίστε κάθε κάνω, έχω, λέω, βάζω, πηγαίνω. Ημέρα 2: Κάνω + έχω. Διαλέξτε τρεις γραμμές από τις κάρτες και ξαναγράψτε πέντε δικές σας φράσεις. Ημέρα 3: Λέω + νομίζω. Αφηγηθείτε μια συζήτηση με ενημερώνω, εξηγώ, επισημαίνω και υποθέτω ή θεωρώ. Ημέρα 4: Πηγαίνω + βλέπω. Περιγράψτε μια μικρή έξοδο με περπατάω, ταξιδεύω ή επισκέπτομαι και ένα ρήμα από την κλίμακα του βλέμματος. Ημέρα 5: Παίρνω + δίνω + βρίσκω. Διορθώστε τους συνδυασμούς: παίρνω απόφαση, κάνω ερώτηση, δίνω συμβουλή, ξαναβρίσκω τα κλειδιά. Ημέρα 6: Γράψτε. Γράψτε έξι προτάσεις για την εβδομάδα σας και βελτιώστε τις με τη μέθοδο των 3 βημάτων. Ημέρα 7: Μιλήστε. Ηχογραφήστε ένα φωνητικό μήνυμα ενός λεπτού. Χρησιμοποιήστε τα κάνω, έχω και λέω μόνο δύο φορές συνολικά. Ακούστε το."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Εξασκηθείτε σε αυτά τα ρήματα στο COSYpractice"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Τελική σκέψη: εξέλιξη, όχι εξάλειψη",
+      "say": "Τελική σκέψη: εξέλιξη, όχι εξάλειψη"
+    },
+    {
+      "type": "paragraph",
+      "text": "Το *κάνω* και το *έχω* δεν είναι εχθροί σας. Οι Έλληνες τα χρησιμοποιούν όλη μέρα. Στόχος είναι **η επιλογή**: να ξέρετε ότι υπάρχει ένα ακριβέστερο ρήμα και να το έχετε έτοιμο όταν σάς κάνει πιο καθαρούς, πιο ευγενικούς ή πιο πειστικούς. Διαλέξτε **ένα** ρήμα αυτή την εβδομάδα, κατακτήστε την κάρτα του και προχωρήστε στο επόμενο. Έτσι το B1 γίνεται B2.",
+      "say": "Το κάνω και το έχω δεν είναι εχθροί σας. Οι Έλληνες τα χρησιμοποιούν όλη μέρα. Στόχος είναι η επιλογή: να ξέρετε ότι υπάρχει ένα ακριβέστερο ρήμα και να το έχετε έτοιμο όταν σάς κάνει πιο καθαρούς, πιο ευγενικούς ή πιο πειστικούς. Διαλέξτε ένα ρήμα αυτή την εβδομάδα, κατακτήστε την κάρτα του και προχωρήστε στο επόμενο. Έτσι το B1 γίνεται B2."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Μαθαίνετε και αγγλικά, γαλλικά, ιταλικά ή ρωσικά;",
+      "content": "Το πλατό μοιάζει σε κάθε γλώσσα, αλλά κάθε γλώσσα έχει τα δικά της «ασφαλή» ρήματα (*get, faire, fare, делать*…). Χρησιμοποιήστε το **Διαβάστε στα** στην κορυφή της σελίδας: κάθε εκδοχή είναι γραμμένη για τη δική της γλώσσα, όχι μεταφρασμένη λέξη προς λέξη.",
+      "say": "Το πλατό μοιάζει σε κάθε γλώσσα, αλλά κάθε γλώσσα έχει τα δικά της «ασφαλή» ρήματα (get, faire, fare, делать…). Χρησιμοποιήστε το Διαβάστε στα στην κορυφή της σελίδας: κάθε εκδοχή είναι γραμμένη για τη δική της γλώσσα, όχι μεταφρασμένη λέξη προς λέξη."
     }
-  ],
-  "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-  "draft": false
+  ]
 }
