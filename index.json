@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-27T19:03:57.734Z",
+  "generatedAt": "2026-10-27T19:05:16.771Z",
   "stats": {
-    "totalPosts": 87,
+    "totalPosts": 88,
     "totalDesks": 13,
     "totalIssues": 6
   },
@@ -1489,6 +1489,52 @@
         "layout": "standard-feed",
         "motif": "riso-print",
         "seed": "top-10-verbs-part-2",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-creative-writing-in-language-learning",
+      "slug": "creative-writing-in-language-learning",
+      "language": "en",
+      "desk": "COSYtalks",
+      "format": "essay",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.11",
+        "title": "November Academia"
+      },
+      "date": "2026-11-20",
+      "title": "The Art of Creative Writing in Language Learning: From Micro-Sparks to Stories, Books, and Poetry",
+      "kicker": "NOVEMBER ACADEMIA",
+      "dek": "Discover how creative writing unlocks deep L2 acquisition—transforming passive vocabulary into expressive storytelling, evocative poetry, and full-length narratives.",
+      "tags": [
+        "CreativeWriting",
+        "LanguageAcquisition",
+        "Storytelling",
+        "Poetry",
+        "NovemberAcademia"
+      ],
+      "readingTime": 9,
+      "podcast": {
+        "episode": 7,
+        "audioUrl": "audio/creative-writing-in-language-learning.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#2d3748",
+          "#319795",
+          "#d69e2e",
+          "#f7fafc"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "riso-print",
+        "seed": "creative-writing-in-language-learning",
         "coverOverride": null
       },
       "draft": false
