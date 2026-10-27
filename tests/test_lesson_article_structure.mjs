@@ -5,7 +5,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-const EDITIONS = ['en', 'fr', 'it', 'ru'];           // add 'el' when that edition is rewritten
+const EDITIONS = ['en', 'fr', 'it', 'ru', 'el'];     // all five newsstand languages
 const VERBS = ['be', 'have', 'think', 'know', 'like', 'want', 'go', 'can', 'eat', 'drink'];
 const text = (b) => JSON.stringify(b);
 const load = (lang) => JSON.parse(fs.readFileSync(new URL(`../posts/top-10-verbs-${lang}.json`, import.meta.url), 'utf8'));
@@ -116,4 +116,24 @@ test('[ru] Russian typography: guillemets without inner spaces, no space before 
   assert.ok(!strings.some((s) => s.includes('^')), 'a raw ^ stress marker leaked into the text');
   const accents = strings.join('').split('\u0301').length - 1;
   assert.ok(accents >= 150, `expected stress marks on verb forms and vocabulary (found ${accents})`);
+});
+
+test('[el] Greek typography: ; as question mark with no space before it, no « » inner spaces, precomposed accents', () => {
+  const post = load('el');
+  const keys = ['text', 'question', 'explanation', 'headers', 'rows', 'items', 'options'];
+  const strings = [];
+  const walk = (v, k) => {
+    if (typeof v === 'string') { if (keys.includes(k)) strings.push(v.replace(/<[^>]+>/g, '')); }
+    else if (Array.isArray(v)) v.forEach((x) => walk(x, k));
+    else if (v && typeof v === 'object') Object.entries(v).forEach(([kk, x]) => walk(x, keys.includes(k) ? k : kk));
+  };
+  walk(post.blocks, 'blocks');
+  const spaced = strings.filter((s) => / [;!:]/.test(s) && !/https?:/.test(s));
+  assert.equal(spaced.length, 0, `space before punctuation in: ${spaced.slice(0, 2).join(' | ').slice(0, 160)}`);
+  const latinQ = strings.filter((s) => /[\u0370-\u03FF\u1F00-\u1FFF]\?/.test(s));
+  assert.equal(latinQ.length, 0, `use ; as the Greek question mark in: ${latinQ.slice(0, 2).join(' | ').slice(0, 160)}`);
+  assert.ok(!strings.some((s) => /« | »/.test(s)), 'no spaces inside « »');
+  assert.ok(!strings.some((s) => s.includes('\u0301')), 'use precomposed accented letters, not combining accents');
+  const greekQuestions = strings.filter((s) => /[\u0370-\u03FF]\s*;/.test(s)).length;
+  assert.ok(greekQuestions >= 40, `expected many Greek questions ending in ; (found ${greekQuestions})`);
 });
