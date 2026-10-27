@@ -53,19 +53,583 @@
       "text": "Ar 10 verb pennañ (Rann 1)"
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Être (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "suis",
+          "Je suis étudiant."
+        ],
+        [
+          "Tu",
+          "es",
+          "Tu es prêt ?"
+        ],
+        [
+          "Il / Elle / On",
+          "est",
+          "Il est à la maison."
+        ],
+        [
+          "Nous",
+          "sommes",
+          "Nous sommes heureux."
+        ],
+        [
+          "Vous",
+          "êtes",
+          "Vous êtes en avance."
+        ],
+        [
+          "Ils / Elles",
+          "sont",
+          "Ils sont très sympathiques."
+        ]
+      ]
+    },
+    {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Bezañ:** Bezañs (*Skoaziad on*).",
-        "**2. Kaout:** Perc'henniezh (*Libr am eus*).",
-        "**3. Soñjal:** Soñj (*Soñjal a ran*).",
-        "**4. Gouzout / Anavezout:** Gouziegezh (*Gouzout a ran*).",
-        "**5. Plijout:** Pliadur (*Plijout a ra din*).",
-        "**6. C'hoant kaout:** Fellout (*C'hoant am eus*).",
-        "**7. Mont:** Mont (*Mont d'ar skol*).",
-        "**8. Gallout:** Galloud (*Gallout a ran*).",
-        "**9. Debriñ:** Debriñ (*Debriñ avaloù*).",
-        "**10. Evañ:** Evañ (*Evañ dour*)."
+        "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
+        "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
+        "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Avoir (To Have)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "J'",
+          "ai",
+          "J'ai une voiture."
+        ],
+        [
+          "Tu",
+          "as",
+          "Tu as le temps."
+        ],
+        [
+          "Il / Elle / On",
+          "a",
+          "Elle a deux frères."
+        ],
+        [
+          "Nous",
+          "avons",
+          "Nous avons une question."
+        ],
+        [
+          "Vous",
+          "avez",
+          "Vous avez raison."
+        ],
+        [
+          "Ils / Elles",
+          "ont",
+          "Ils ont un chien."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
+        "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
+        "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Penser (To Think)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "pense",
+          "Je pense que oui."
+        ],
+        [
+          "Tu",
+          "penses",
+          "Qu'en penses-tu ?"
+        ],
+        [
+          "Il / Elle / On",
+          "pense",
+          "Il pense à son avenir."
+        ],
+        [
+          "Nous",
+          "pensons",
+          "Nous pensons arriver bientôt."
+        ],
+        [
+          "Vous",
+          "pensez",
+          "Que pensez-vous de ce livre ?"
+        ],
+        [
+          "Ils / Elles",
+          "pensent",
+          "Elles pensent la même chose."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Opinion:** 'Je pense que c'est une excellente idée'.",
+        "**Réflexion:** 'Je pense à mes vacances'.",
+        "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Savoir / Connaître (To Know)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Savoir",
+        "Connaître"
+      ],
+      "rows": [
+        [
+          "Je",
+          "sais",
+          "connais"
+        ],
+        [
+          "Tu",
+          "sais",
+          "connais"
+        ],
+        [
+          "Il / Elle / On",
+          "sait",
+          "connaît"
+        ],
+        [
+          "Nous",
+          "savons",
+          "connaissons"
+        ],
+        [
+          "Vous",
+          "savez",
+          "connaissez"
+        ],
+        [
+          "Ils / Elles",
+          "savent",
+          "connaissent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
+        "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
+        "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Aimer (To Like / Love)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "J'",
+          "aime",
+          "J'aime le chocolat."
+        ],
+        [
+          "Tu",
+          "aimes",
+          "Tu aimes la musique ?"
+        ],
+        [
+          "Il / Elle / On",
+          "aime",
+          "Il aime voyager."
+        ],
+        [
+          "Nous",
+          "aimons",
+          "Nous aimons le sport."
+        ],
+        [
+          "Vous",
+          "aimez",
+          "Vous aimez le cinéma ?"
+        ],
+        [
+          "Ils / Elles",
+          "aiment",
+          "Elles aiment lire."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
+        "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
+        "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Vouloir / Voudrais (To Want / Would Like)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Politesse (Conditionnel)"
+      ],
+      "rows": [
+        [
+          "Je",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Tu",
+          "veux",
+          "voudrais"
+        ],
+        [
+          "Il / Elle / On",
+          "veut",
+          "voudrait"
+        ],
+        [
+          "Nous",
+          "voulons",
+          "voudrions"
+        ],
+        [
+          "Vous",
+          "voulez",
+          "voudriez"
+        ],
+        [
+          "Ils / Elles",
+          "veulent",
+          "voudraient"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
+        "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
+        "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Aller / Futur proche (To Go)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "vais",
+          "Je vais au travail / Je vais manger."
+        ],
+        [
+          "Tu",
+          "vas",
+          "Tu vas à la gare ?"
+        ],
+        [
+          "Il / Elle / On",
+          "va",
+          "Il va à Paris."
+        ],
+        [
+          "Nous",
+          "allons",
+          "Nous allons au cinéma."
+        ],
+        [
+          "Vous",
+          "allez",
+          "Comment allez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "vont",
+          "Elles vont réussir."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
+        "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
+        "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Pouvoir (To Can / Be able to)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "peux",
+          "Je peux vous aider."
+        ],
+        [
+          "Tu",
+          "peux",
+          "Tu peux venir ce soir ?"
+        ],
+        [
+          "Il / Elle / On",
+          "peut",
+          "On peut commencer."
+        ],
+        [
+          "Nous",
+          "pouvons",
+          "Nous pouvons le faire."
+        ],
+        [
+          "Vous",
+          "pouvez",
+          "Vous pouvez répéter ?"
+        ],
+        [
+          "Ils / Elles",
+          "peuvent",
+          "Ils peuvent entrer."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
+        "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
+        "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Manger (To Eat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "mange",
+          "Je mange une pomme."
+        ],
+        [
+          "Tu",
+          "manges",
+          "Qu'est-ce que tu manges ?"
+        ],
+        [
+          "Il / Elle / On",
+          "mange",
+          "Il mange à midi."
+        ],
+        [
+          "Nous",
+          "mangeons",
+          "Nous mangeons ensemble."
+        ],
+        [
+          "Vous",
+          "mangez",
+          "Vous mangez de la viande ?"
+        ],
+        [
+          "Ils / Elles",
+          "mangent",
+          "Elles mangent une salade."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
+        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
+        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Boire (To Drink)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Présent",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "bois",
+          "Je bois de l'eau."
+        ],
+        [
+          "Tu",
+          "bois",
+          "Tu bois du café ?"
+        ],
+        [
+          "Il / Elle / On",
+          "boit",
+          "Il boit un thé vert."
+        ],
+        [
+          "Nous",
+          "buvons",
+          "Nous buvons du jus de pomme."
+        ],
+        [
+          "Vous",
+          "buvez",
+          "Que buvez-vous ?"
+        ],
+        [
+          "Ils / Elles",
+          "boivent",
+          "Elles boivent de l'eau fraîche."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
+        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
+        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
       ]
     },
     {

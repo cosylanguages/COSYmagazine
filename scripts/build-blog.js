@@ -253,16 +253,17 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
 </figure>`;
     }
     case 'quiz': {
+      // Interactive: the answer is not revealed until the learner picks (see js/shell.js)
       const optionsHtml = (block.options || []).map((opt, i) => `
         <button type="button" class="quiz-option-btn" data-correct="${i === block.correctIndex ? 'true' : 'false'}">
-          <span class="quiz-mark" aria-hidden="true">⚪</span> <span class="quiz-option-text">${parseFormattedText(opt)}</span>
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>${parseFormattedText(opt)}</span>
         </button>
       `).join('');
       return `
 <div class="gazette-quiz-card" data-quiz>
   <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
-  <div class="quiz-options-list">${optionsHtml}</div>
-  ${block.explanation ? `<p class="quiz-explanation" hidden>${parseFormattedText(block.explanation)}</p>` : ''}
+  <div class="quiz-options-list" role="group">${optionsHtml}</div>
+  ${block.explanation ? `<p class="quiz-explanation" hidden aria-live="polite">${parseFormattedText(block.explanation)}</p>` : ''}
 </div>`;
     }
     case 'culture-bite': {
@@ -691,7 +692,6 @@ async function buildBlog() {
 
     <script src="js/shell.js"></script>
     <script src="js/flipbook.js"></script>
-    <script src="js/article-interactions.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
 

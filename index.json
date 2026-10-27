@@ -1,10 +1,10 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-27T06:52:08.128Z",
+  "generatedAt": "2026-10-27T19:03:57.734Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
-    "totalIssues": 7
+    "totalIssues": 6
   },
   "desks": [
     {
@@ -102,10 +102,6 @@
     {
       "number": "Vol. 2026.10",
       "title": "JY DM's birthday & His favs"
-    },
-    {
-      "number": "Vol. 2026.12",
-      "title": "Winter Grammar & High Frequency Verbs"
     },
     {
       "number": "Vol. 2026 — December Issue",
@@ -816,7 +812,7 @@
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
-        "number": "Vol. 2026.12",
+        "number": "Vol. 2026 — December Issue",
         "title": "Winter Grammar & High Frequency Verbs"
       },
       "date": "2026-12-01",
@@ -2171,9 +2167,9 @@
         "title": "JY DM's birthday & His favs"
       },
       "date": "2026-09-14",
-      "title": "Ан куçарăр! Пĕрремĕш кунран калаçмалли 10 хатĕр преджени структури",
-      "kicker": "КАЛАÇĂР ИНЧЕХ",
-      "dek": "Сăмахран сăмах куçармаран хăтăлмалли 10 преджени структурине тата 10 кирлĕ фраза вĕренĕр.",
+      "title": "Ан куҫарӑр! Пӗрремӗш кунран калаҫмалли 10 хатӗр преджени структури",
+      "kicker": "КАЛАҪӐР ИНЧЕХ",
+      "dek": "Сӑмахран сӑмах куҫармаран хӑтӑлмалли 10 преджени структурине тата 10 кирлӗ фраза вӗренӗр.",
       "tags": [
         "SentenceFrames",
         "Circumlocution",
@@ -2228,7 +2224,7 @@
         "A0-B1",
         "German"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2275,7 +2271,7 @@
         "A0-B1",
         "Greek"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2322,7 +2318,7 @@
         "A0-B1",
         "Spanish"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2369,7 +2365,7 @@
         "A0-B1",
         "French"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2463,7 +2459,7 @@
         "A0-B1",
         "Italian"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2557,7 +2553,7 @@
         "A0-B1",
         "Portuguese"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2604,7 +2600,7 @@
         "A0-B1",
         "Russian"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -2679,7 +2675,6 @@
       "id": "post-stop-translating-10-sentence-frames",
       "slug": "stop-translating-10-sentence-frames",
       "language": "en",
-      "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
       "format": "list",
       "level": "A0–A1 / A2",
@@ -2698,7 +2693,7 @@
         "A0-B1",
         "English"
       ],
-      "readingTime": 8,
+      "readingTime": 9,
       "podcast": {
         "episode": 1,
         "audioUrl": null
@@ -3711,7 +3706,7 @@
       "date": "2026-03-01",
       "title": "Top 10 Essential English Verbs for Absolute Beginners (A0–A1 / A2 Master Guide)",
       "kicker": "ENGLISH CORE GUIDE — PART 1 OF 2",
-      "dek": "A complete 12-page magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
+      "dek": "A complete magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
       "tags": [
         "Verbs",
         "English",

@@ -234,14 +234,9 @@ html[data-theme="dark"] {
 .plan-day { font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--post-palette-accent, #0d9488); padding-top: .15rem; }
 .plan-task { font-size: .92rem; line-height: 1.45; }
 
-/* ── Interactive quiz states ──────────────────────────────────────────── */
-.gazette-quiz-card .quiz-option-btn { transition: background .15s, border-color .15s, opacity .15s; }
-.gazette-quiz-card .quiz-option-btn.is-correct { background: color-mix(in srgb, var(--av-good) 16%, transparent); border-color: var(--av-good); }
-.gazette-quiz-card .quiz-option-btn.is-wrong   { background: color-mix(in srgb, var(--av-bad) 14%, transparent); border-color: var(--av-bad); }
-.gazette-quiz-card .quiz-option-btn.is-dim     { opacity: .55; }
-.gazette-quiz-card .quiz-option-btn:disabled   { cursor: default; }
+/* ── Quiz explanation box (answer logic lives in js/shell.js) ─────────── */
 .gazette-quiz-card .quiz-explanation {
-  font-size: .9rem; font-style: normal; color: var(--blog-ink-primary, #1c1917); line-height: 1.5;
+  color: var(--blog-ink-primary, #1c1917); line-height: 1.5;
   background: var(--blog-paper-aged, #f3ede4); border-radius: 8px; padding: .65rem .8rem; margin-top: .9rem;
 }
 .gazette-quiz-card .quiz-explanation[hidden] { display: none; }

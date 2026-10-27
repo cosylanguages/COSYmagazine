@@ -53,19 +53,582 @@
       "text": "Los 10 verbos fundamentales (Parte 1)"
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Ser / Estar (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "En español, **ser** se usa para identidad, origen y profesión; **estar** para ubicación, estados temporales y emociones."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Ser",
+        "Estar"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "soy",
+          "estoy"
+        ],
+        [
+          "Tú",
+          "eres",
+          "estás"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "es",
+          "está"
+        ],
+        [
+          "Nosotros/-as",
+          "somos",
+          "estamos"
+        ],
+        [
+          "Vosotros/-as",
+          "sois",
+          "estáis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "son",
+          "están"
+        ]
+      ]
+    },
+    {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Ser / Estar:** Identidad, estados y ubicación.\n  • *Frases sencillas:* 'Soy estudiante', 'Estoy en casa', 'Estamos listos'.\n  • *Frases útiles:* 'estar a tiempo', 'estar de acuerdo', 'estar bien'.",
-        "**2. Tener:** Posesión, edad y estados físicos.\n  • *Frases sencillas:* 'Tengo un coche', 'Tengo 25 años', 'Tengo hambre'.\n  • *Frases útiles:* 'tener que', 'tener ganas de', 'tener prisa'.",
-        "**3. Pensar:** Opiniones y pensamientos.\n  • *Frases sencillas:* 'Pienso que sí', '¿Qué piensas de esto?', 'Pienso en ti'.\n  • *Frases útiles:* 'pensar en', 'pensarlo bien', 'pensar que'.",
-        "**4. Saber / Conocer:** Información, habilidades y lugares/personas.\n  • *Frases sencillas:* 'Sé hablar español', 'Conozco esta ciudad'.\n  • *Frases útiles:* 'dar a conocer', 'que yo sepa', 'conocer gente'.",
-        "**5. Gustar:** Preferencias y gustos.\n  • *Frases sencillas:* 'Me gusta el café', 'Me gusta viajar', 'Le gusta el deporte'.\n  • *Frases útiles:* 'me gusta mucho', 'me gustaría', '¿te gusta?'.",
-        "**6. Querer / Me gustaría:** Deseos y cortesía.\n  • *Frases sencillas:* 'Quiero agua', 'Me gustaría reservar una mesa'.\n  • *Frases útiles:* 'querer decir', 'si quieres', 'me gustaría pedir'.",
-        "**7. Ir / Ir a + Infinitivo:** Movimiento e intenciones futuras.\n  • *Frases sencillas:* 'Voy al trabajo', 'Ella va a Madrid', 'Vamos a comer'.\n  • *Frases útiles:* '¿cómo te va?', 'ir a pie', 'ir de compras'.",
-        "**8. Poder:** Capacidad y permiso.\n  • *Frases sencillas:* '¿Puedo ayudarte?', '¿Puedes venir?'.\n  • *Frases útiles:* 'si se puede', 'se puede pasar', 'lo antes posible'.",
-        "**9. Comer:** Alimentación y comidas.\n  • *Frases sencillas:* 'Como una manzana', '¿Qué vamos a comer?'.\n  • *Frases útiles:* 'buen provecho', 'dar de comer', 'comer sano'.",
-        "**10. Beber:** Bebidas e hidratación.\n  • *Frases sencillas:* 'Bebo té', '¿Quieres algo de beber?'.\n  • *Frases útiles:* 'algo de beber', 'tomar un trago', 'beber café'."
+        "**Ser:** 'Soy estudiante', 'Es de España', 'Es interesante'.",
+        "**Estar:** 'Estoy en casa', '¿Cómo estás?', 'Está cansado'.",
+        "**Expresiones:** 'ser de acuerdo', 'estar listo', 'estar de vacaciones'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Tener (To Have)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo **tener** expresa posesión, edad, relaciones familiares y sensaciones físicas."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "tengo",
+          "Tengo un coche."
+        ],
+        [
+          "Tú",
+          "tienes",
+          "¿Tienes tiempo?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "tiene",
+          "Tiene dos hermanos."
+        ],
+        [
+          "Nosotros/-as",
+          "tenemos",
+          "Tenemos una duda."
+        ],
+        [
+          "Vosotros/-as",
+          "tenéis",
+          "Tenéis razón."
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "tienen",
+          "Tienen un perro."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Posesión & Edad:** 'Tengo un libro', 'Tengo 20 años'.",
+        "**Sensaciones:** 'Tengo hambre', 'Tengo sed', 'Tengo frío', 'Tengo calor'.",
+        "**Expresiones:** 'tener que' (obligación), 'tener ganas de', 'tener miedo'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Pensar (To Think)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo **pensar** expresa opiniones, reflexiones y planes futuros (pensar + infinitivo)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "pienso",
+          "Pienso que sí."
+        ],
+        [
+          "Tú",
+          "piensas",
+          "¿Qué piensas tú?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "piensa",
+          "Piensa viajar pronto."
+        ],
+        [
+          "Nosotros/-as",
+          "pensamos",
+          "Pensamos en el futuro."
+        ],
+        [
+          "Vosotros/-as",
+          "pensáis",
+          "¿Qué pensáis hacer?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "piensan",
+          "Piensan lo mismo."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Opinión:** 'Pienso que es una buena idea'.",
+        "**Planes:** 'Pienso ir al cine mañana'.",
+        "**Expresiones:** 'pensar en', 'pensar que', 'dar que pensar'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Saber / Conocer (To Know)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Saber** se usa para datos y habilidades (*saber + infinitivo*). **Conocer** para personas, lugares y cosas."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Saber",
+        "Conocer"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "sé",
+          "conozco"
+        ],
+        [
+          "Tú",
+          "sabes",
+          "conoces"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "sabe",
+          "conoce"
+        ],
+        [
+          "Nosotros/-as",
+          "sabemos",
+          "conocemos"
+        ],
+        [
+          "Vosotros/-as",
+          "sabéis",
+          "conocéis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "saben",
+          "conocen"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Saber (Habilidad):** 'Sé hablar español', 'Sé dónde está'.",
+        "**Conocer (Lugar/Persona):** 'Conozco Madrid', '¿Conoces a Juan?'.",
+        "**Expresiones:** 'a saber', 'dar a conocer', 'hacer saber'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Gustar / Querer (To Like / Love)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo **gustar** se usa con pronombres indirectos (*me gusta*). **Querer** para expresar cariño o deseos."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Gustar",
+        "Querer"
+      ],
+      "rows": [
+        [
+          "Me / Yo",
+          "gusta / gustan",
+          "quiero"
+        ],
+        [
+          "Te / Tú",
+          "gusta / gustan",
+          "quieres"
+        ],
+        [
+          "Le / Él",
+          "gusta / gustan",
+          "quiere"
+        ],
+        [
+          "Nos / Nosotros",
+          "gusta / gustan",
+          "queremos"
+        ],
+        [
+          "Os / Vosotros",
+          "gusta / gustan",
+          "queréis"
+        ],
+        [
+          "Les / Ellos",
+          "gusta / gustan",
+          "quieren"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gustar:** 'Me gusta el café', 'Me gustan los deportes'.",
+        "**Querer:** 'Quiero a mi familia', 'Quiero aprender más'.",
+        "**Expresiones:** 'me gustaría' (deseo cortés), 'si quieres'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Querer / Quisiera (To Want / Would Like)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para pedir cosas con amabilidad, se utiliza la forma **quisiera** o **me gustaría**."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Cortesía"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "quiero",
+          "quisiera"
+        ],
+        [
+          "Tú",
+          "quieres",
+          "quisieras"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "quiere",
+          "quisiera"
+        ],
+        [
+          "Nosotros/-as",
+          "queremos",
+          "quisiéramos"
+        ],
+        [
+          "Vosotros/-as",
+          "queréis",
+          "quisierais"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "quieren",
+          "quisieran"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Deseo directo:** 'Quiero un vaso de agua'.",
+        "**Petición cortés:** 'Quisiera reservar una mesa, por favor'.",
+        "**Expresiones:** 'querer decir' (significar), 'sin querer'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Ir / Futuro próximo (To Go)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo **ir** indica movimiento hacia un lugar y forma el futuro próximo (*ir + a + infinitivo*)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "voy",
+          "Voy a trabajar / Voy a comer."
+        ],
+        [
+          "Tú",
+          "vas",
+          "¿Vas a la casa?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "va",
+          "Va a la universidad."
+        ],
+        [
+          "Nosotros/-as",
+          "vamos",
+          "Vamos al cine."
+        ],
+        [
+          "Vosotros/-as",
+          "vais",
+          "¿Adónde vais?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "van",
+          "Van a estudiar."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Desplazamiento:** 'Voy al parque', 'Vamos a España'.",
+        "**Futuro próximo:** 'Voy a llamar a mi madre', 'Va a llover'.",
+        "**Expresiones:** '¿Cómo va todo?', '¡Vamos!'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Poder (To Can / Be able to)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo modal **poder** expresa capacidad, posibilidad o permiso."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "puedo",
+          "Puedo ayudarte."
+        ],
+        [
+          "Tú",
+          "puedes",
+          "¿Puedes venir hoy?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "puede",
+          "Puede entrar."
+        ],
+        [
+          "Nosotros/-as",
+          "podemos",
+          "Podemos hacerlo."
+        ],
+        [
+          "Vosotros/-as",
+          "podéis",
+          "¿Podéis repetir?"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "pueden",
+          "Pueden hablar español."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Capacidad & Posibilidad:** 'Puedo conducir', '¿Puedo pasar?'.",
+        "**Petición amable:** '¿Puede hablar más despacio, por favor?'.",
+        "**Expresiones:** 'no poder más', 'si se puede'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Comer (To Eat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El verbo **comer** se refiere a las comidas diarias, alimentos y hábitos de nutrición."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Presente",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "como",
+          "Como una manzana."
+        ],
+        [
+          "Tú",
+          "comes",
+          "¿A qué hora comes?"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "come",
+          "Come con su familia."
+        ],
+        [
+          "Nosotros/-as",
+          "comemos",
+          "Comemos juntos."
+        ],
+        [
+          "Vosotros/-as",
+          "coméis",
+          "Coméis muy sano."
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "comen",
+          "Comen en el restaurante."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comidas:** 'Como fruta por la mañana', 'Vamos a comer'.",
+        "**Expresiones:** '¡Buen provecho!', 'dar de comer', 'comer fuera'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Beber / Tomar (To Drink)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los verbos **beber** y **tomar** se usan para líquidos, bebidas y reuniones sociales."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronombre",
+        "Beber",
+        "Tomar"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "bebo",
+          "tomo"
+        ],
+        [
+          "Tú",
+          "bebes",
+          "tomas"
+        ],
+        [
+          "Él / Ella / Ud.",
+          "bebe",
+          "toma"
+        ],
+        [
+          "Nosotros/-as",
+          "bebemos",
+          "tomamos"
+        ],
+        [
+          "Vosotros/-as",
+          "bebéis",
+          "tomáis"
+        ],
+        [
+          "Ellos / Ellas / Uds.",
+          "beben",
+          "toman"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bebidas:** 'Bebo agua todos los días', 'Tomo un café por la mañana'.",
+        "**Social:** '¿Quieres tomar algo?'.",
+        "**Expresiones:** 'dar a beber', 'tomar un refresco'."
       ]
     },
     {

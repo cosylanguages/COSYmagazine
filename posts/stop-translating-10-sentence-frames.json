@@ -2,7 +2,6 @@
   "id": "post-stop-translating-10-sentence-frames",
   "slug": "stop-translating-10-sentence-frames",
   "language": "en",
-  "translationOf": "stop-translating-10-sentence-frames",
   "desk": "Words",
   "format": "list",
   "level": "A0–A1 / A2",
@@ -21,7 +20,7 @@
     "A0-B1",
     "English"
   ],
-  "readingTime": 8,
+  "readingTime": 9,
   "podcast": {
     "episode": 1,
     "audioUrl": null
@@ -46,62 +45,305 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "One of the biggest obstacles for language learners is translating word by word. When you don't know a word, use sentence frames to describe what you mean without pausing."
+      "text": "You're at a market. You want to ask for a *charger*, and the word has vanished. Your brain says: *translate it!* But there is a better way. Don't search for the missing word. **Describe it.**"
     },
     {
       "type": "paragraph",
-      "text": "Describing concepts directly in English builds real fluency. These 10 reusable frames help you express people, places, objects, time, and functions instantly."
+      "text": "This is a real skill, and native speakers use it too. With 10 short **sentence frames** you can describe a person, a place, an object or a moment, and the other person usually gives you the word. Then you just keep talking."
+    },
+    {
+      "type": "culture-bite",
+      "title": "The golden rule",
+      "content": "Never stay silent. One frame plus one detail is enough. Say it, watch the face of the other person, and add a second detail only if you need to."
+    },
+    {
+      "type": "image",
+      "url": "images/stop-translating-flow-en.svg",
+      "alt": "Flow diagram: 1. I don't know the word. 2. Pick a frame. 3. Add one detail. 4. They understand, keep talking. If it is still unclear, try another frame.",
+      "caption": "**The 4-step loop.** Use it every time a word disappears."
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "💡 The 10 Essential Sentence Frames"
+      "level": 2,
+      "text": "The 10 sentence frames"
+    },
+    {
+      "type": "paragraph",
+      "text": "Learn the frame, not the word. Read the example aloud, then try the same frame with a new word."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Frame",
+        "Example",
+        "Helps you describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "It's a person who…",
+          "It's a person who teaches children.",
+          "a person (a teacher)"
+        ],
+        [
+          "2",
+          "It's a place where…",
+          "It's a place where people buy food.",
+          "a place (a market)"
+        ],
+        [
+          "3",
+          "It's a thing that…",
+          "It's a thing that tells the time.",
+          "an object (a clock)"
+        ],
+        [
+          "4",
+          "It's something you use to…",
+          "It's something you use to write.",
+          "a tool (a pen)"
+        ],
+        [
+          "5",
+          "It's a time when…",
+          "It's a time when people sleep.",
+          "a moment (night)"
+        ],
+        [
+          "6",
+          "It's a day when…",
+          "It's a day when people celebrate.",
+          "a special day (a holiday)"
+        ],
+        [
+          "7",
+          "For example…",
+          "I like sports. For example, football and tennis.",
+          "an idea: give examples"
+        ],
+        [
+          "8",
+          "It means…",
+          "'Huge' means very big.",
+          "a word: use simpler words"
+        ],
+        [
+          "9",
+          "It looks like…",
+          "It looks like a small computer.",
+          "appearance: compare it"
+        ],
+        [
+          "10",
+          "How do you say… in English?",
+          "How do you say this in English?",
+          "any word: ask for help"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "See it in real life"
+    },
+    {
+      "type": "example",
+      "targetText": "I don't know the word, but it's something you use to write.",
+      "gloss": "The waiter smiles and brings you a pen.",
+      "context": "At a café, you want to sign a bill."
+    },
+    {
+      "type": "example",
+      "targetText": "Excuse me, it's a place where people buy food. Where is it?",
+      "gloss": "Your listener says: “The market? It's two streets away.”",
+      "context": "In a new city, you look for the market."
+    },
+    {
+      "type": "example",
+      "targetText": "It's a kind of fruit. It's yellow. It looks like a moon.",
+      "gloss": "Your friend laughs: “A banana!”",
+      "context": "At a party, you forgot the word."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "10 survival phrases"
+    },
+    {
+      "type": "paragraph",
+      "text": "These are small add-ons. Put them after a frame to give more detail."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "#",
+        "Phrase",
+        "Example"
+      ],
+      "rows": [
+        [
+          "1",
+          "It's a kind of…",
+          "It's a kind of animal."
+        ],
+        [
+          "2",
+          "It's made of…",
+          "It's made of wood or metal."
+        ],
+        [
+          "3",
+          "You use it for…",
+          "You use it for travelling."
+        ],
+        [
+          "4",
+          "It's the opposite of…",
+          "It's the opposite of expensive."
+        ],
+        [
+          "5",
+          "It sounds like…",
+          "It sounds like music."
+        ],
+        [
+          "6",
+          "It has…",
+          "It has four wheels."
+        ],
+        [
+          "7",
+          "It is similar to…",
+          "It is similar to a car."
+        ],
+        [
+          "8",
+          "It comes from…",
+          "It comes from Italy."
+        ],
+        [
+          "9",
+          "I don't know the word, but…",
+          "I don't know the word, but it's for cooking."
+        ],
+        [
+          "10",
+          "Can you repeat that, please?",
+          "Sorry, could you say that again more slowly?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 3-step method"
+    },
+    {
+      "type": "paragraph",
+      "text": "Let's describe an **umbrella** without saying the word:"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Category:** It's a thing that protects you.",
+        "**Function:** You use it when it rains.",
+        "**Detail:** It looks like a small roof."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Three short sentences. The listener says “An umbrella!” and the conversation continues."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avoid these 4 traps"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. It's a person who...** → *It's a person who teaches children.* (Teacher)",
-        "**2. It's a place where...** → *It's a place where people buy food.* (Market)",
-        "**3. It's a thing that...** → *It's a thing that tells the time.* (Clock)",
-        "**4. It's something you use to...** → *It's something you use to write.* (Pen)",
-        "**5. It's a time when...** → *It's a time when people sleep.* (Night)",
-        "**6. It's a day when...** → *It's a day when people celebrate.* (Holiday)",
-        "**7. For example...** → *I like sports. For example, football and tennis.*",
-        "**8. It means...** → *'Huge' means very big.*",
-        "**9. It looks like...** → *It looks like a small computer.*",
-        "**10. How do you say... in English?** → *How do you say this in English?*"
+        "**Stopping at “I don't know”.** Add a frame instead. Silence is the only wrong answer.",
+        "**Wrong verb ending.** ✗ a person who teach → ✓ a person who **teaches**.",
+        "**Too long.** One frame + one detail is enough. Then ask: “Do you understand?”",
+        "**Forgetting your hands.** Pointing and gestures are part of real conversation. Use them!"
       ]
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "🚀 10 Essential Survival Phrases"
+      "level": 2,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "You forget the word for “bakery”. Which sentence works best?",
+      "options": [
+        "(Say nothing.)",
+        "It's a place where people buy bread.",
+        "Bread… bread… sorry.",
+        "I can't speak English."
+      ],
+      "correctIndex": 1,
+      "explanation": "“It's a place where…” is the perfect frame for places. The listener hears bread and a shop: a bakery!"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence describes “scissors”?",
+      "options": [
+        "It's a person who cuts paper.",
+        "It's something you use to cut paper.",
+        "It's a day when people cut paper."
+      ],
+      "correctIndex": 1,
+      "explanation": "Scissors are a tool, so use “It's something you use to…”."
+    },
+    {
+      "type": "quiz",
+      "question": "A friend says: “It's the opposite of expensive.” What is the word?",
+      "options": [
+        "Cheap",
+        "Heavy",
+        "Quiet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The opposite of expensive is cheap. Great way to explain adjectives!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Your 5-minute practice"
     },
     {
       "type": "list-item",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "**1. It's a kind of...** (*It's a kind of animal.*)",
-        "**2. It's made of...** (*It's made of wood or metal.*)",
-        "**3. You use it for...** (*You use it for travelling.*)",
-        "**4. It's the opposite of...** (*It's the opposite of expensive.*)",
-        "**5. It sounds like...** (*It sounds like music.*)",
-        "**6. It has...** (*It has four wheels.*)",
-        "**7. It is similar to...** (*It is similar to a car.*)",
-        "**8. It comes from...** (*It comes from Italy.*)",
-        "**9. I don't know the word, but...** (*I don't know the word, but it's for cooking.*)",
-        "**10. Can you repeat that, please?** (*Could you say that again?*)"
+        "Look around you and choose **5 objects**.",
+        "Describe each one with **one frame**, without saying its name.",
+        "Add **one survival phrase** to the two most difficult ones.",
+        "**Record yourself** on your phone and listen to your voice.",
+        "Tomorrow, repeat with 5 **new** objects."
       ]
     },
     {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Practise with the COSY exercises"
+    },
+    {
       "type": "heading",
-      "level": 3,
-      "text": "📌 Summary"
+      "level": 2,
+      "text": "Summary"
     },
     {
       "type": "paragraph",
-      "text": "Fluency is not about knowing every word—it's about never staying silent. Use these frames to keep talking!"
+      "text": "Fluency is not about knowing every word. It's about never staying silent. Learn the frames, add one detail, and keep talking."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Describe it. Don't translate it."
     }
   ],
   "draft": false
