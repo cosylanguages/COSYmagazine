@@ -161,7 +161,11 @@
     "latest_issue": "Dernière édition",
     "read_story": "Lire l'article →",
     "also_in_issue": "Également dans cette édition",
-    "all_issues": "Toutes les éditions"
+    "all_issues": "Toutes les éditions",
+    "languages_label": "Langues",
+    "articles_label": "Articles",
+    "only_in_english": "Disponible en anglais seulement",
+    "all_languages": "Toutes les langues"
   },
   "blog": {
     "back_to_hub": "← Retour au Hub Éditiorial",

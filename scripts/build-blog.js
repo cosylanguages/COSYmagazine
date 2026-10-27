@@ -155,6 +155,11 @@ function getDocumentTitle(title) {
 function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   if (!block || typeof block !== 'object') return '';
 
+  // Stage-only blocks (e.g. plain headings that the rich web card already contains) are skipped on the page.
+  if (block.stageOnly) return '';
+  // Web-only rich rendering (diagrams, cards). `text`/`items` stay as the plain fallback for Stage & Script modes.
+  if (typeof block.html === 'string' && block.html.trim()) return block.html;
+
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
@@ -249,15 +254,15 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
     }
     case 'quiz': {
       const optionsHtml = (block.options || []).map((opt, i) => `
-        <button type="button" class="quiz-option-btn${i === block.correctIndex ? ' correct-option' : ''}">
-          <span>${i === block.correctIndex ? '✅' : '⚪'}</span> ${parseFormattedText(opt)}
+        <button type="button" class="quiz-option-btn" data-correct="${i === block.correctIndex ? 'true' : 'false'}">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span class="quiz-option-text">${parseFormattedText(opt)}</span>
         </button>
       `).join('');
       return `
-<div class="gazette-quiz-card">
+<div class="gazette-quiz-card" data-quiz>
   <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
   <div class="quiz-options-list">${optionsHtml}</div>
-  ${block.explanation ? `<p class="quiz-explanation">${parseFormattedText(block.explanation)}</p>` : ''}
+  ${block.explanation ? `<p class="quiz-explanation" hidden>${parseFormattedText(block.explanation)}</p>` : ''}
 </div>`;
     }
     case 'culture-bite': {
@@ -311,6 +316,9 @@ function renderLanguageSwitcherHtml(currentPost, allPosts, langDict, lang) {
 </div>`;
 }
 
+// Shared embed resolver (ES module, loaded once at the start of the build).
+let podcastEmbed = { resolvePodcastEmbed: () => null };
+
 function blockAudioUrl(raw) {
   if (!raw) return null;
   if (/^https?:/.test(raw)) return raw;
@@ -332,13 +340,8 @@ function renderStaticPodcastBoxHtml(post, langDict, lang) {
   const episodeNum = podcast.episode || 1;
   const audioUrl = resolveAudioUrl(post);
 
-  let iframeUrl = podcast.iframeUrl || null;
-  if (!iframeUrl && podcast.externalUrl && podcast.externalUrl.includes('spotify.com/episode/')) {
-    const epIdMatch = podcast.externalUrl.match(/episode\/([a-zA-Z0-9]+)/);
-    if (epIdMatch && epIdMatch[1]) {
-      iframeUrl = `https://open.spotify.com/embed/episode/${epIdMatch[1]}?utm_source=generator`;
-    }
-  }
+  const embed = podcastEmbed.resolvePodcastEmbed(podcast);
+  const iframeUrl = embed ? embed.src : null;
 
   const epText = `${tStrict(langDict, 'blog.episode', lang)} ${episodeNum}`;
   const noticeText = tStrict(langDict, 'blog.podcast_in_production', lang);
@@ -349,7 +352,7 @@ function renderStaticPodcastBoxHtml(post, langDict, lang) {
   if (iframeUrl) {
     playerHtml = `
       <div class="podcast-iframe-player-wrapper" style="margin-top: 1rem; border-radius: 12px; overflow: hidden;">
-        <iframe src="${escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Podcast Episode Player"></iframe>
+        <iframe src="${escapeHtml(iframeUrl)}" style="width: 100%; border: none;" height="${embed.height}" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="${escapeHtml(post.title || 'Podcast episode')}"></iframe>
       </div>
     `;
   } else if (audioUrl) {
@@ -399,6 +402,13 @@ function renderStaticPodcastBoxHtml(post, langDict, lang) {
 
 async function buildBlog() {
   console.log('🚀 Starting COSYlanguages Vogue Gazette Build Pipeline...');
+
+  // Shared podcast embed resolver (same module the browser uses)
+  try {
+    podcastEmbed = await import(require('url').pathToFileURL(path.join(__dirname, '..', 'js', 'podcast-embed.js')).href);
+  } catch (e) {
+    console.warn('⚠️ Could not import podcast embed resolver:', e.message);
+  }
 
   // Dynamically import procedural SVG cover generator module
   let artModule;
@@ -526,6 +536,9 @@ async function buildBlog() {
     const fontText = post.artDirection?.fonts?.text || 'DM Sans';
     const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
 
+    if (post.podcast && !podcastEmbed.resolvePodcastEmbed(post.podcast)) {
+      console.warn(`  ⚠️ ${post.slug}: no podcast embed yet (add podcast.iframeUrl or podcast.externalUrl)`);
+    }
     const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
 
     const backToHubText = tStrict(langDict, 'blog.back_to_hub', lang);
@@ -551,6 +564,7 @@ async function buildBlog() {
 
     const postForScript = {
       ...post,
+      blocks: (post.blocks || []).filter(b => !b.webOnly),
       podcast: { ...(post.podcast || {}), audioUrl: resolveAudioUrl(post) },
       audio_podcast: false,
       coverSvg: coverSvgHtml
@@ -575,6 +589,7 @@ async function buildBlog() {
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/article-visuals.css">
     <link rel="stylesheet" href="css/dark-fixes.css">
     <link rel="stylesheet" href="css/stage.css">
     <link rel="stylesheet" href="css/shell.css">
@@ -676,6 +691,7 @@ async function buildBlog() {
 
     <script src="js/shell.js"></script>
     <script src="js/flipbook.js"></script>
+    <script src="js/article-interactions.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
 

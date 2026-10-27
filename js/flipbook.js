@@ -159,17 +159,21 @@
                 const isHeading = isHeadingElement(child);
                 const isHr = tag === 'hr';
                 const isSpreadBlock = child.classList?.contains('instead-try-spread') || child.classList?.contains('phrase-upgrade-grid');
+                // Authors can force a page turn with <div class="page-break-hint"></div>
+                const isPageBreak = child.classList?.contains('page-break-hint');
+                // Never leave a heading alone on a page: a spread block that follows only headings stays with them
+                const pageHasOnlyHeadings = pagesData[currentPageIndex].length > 0 && pagesData[currentPageIndex].every(isHeadingElement);
 
                 // Adjusted page limit for magazine spreads: allow 8-12 paragraph/block items per page
                 // break page only on explicit hr, major section heading with enough preceding items, or when reaching item limit
                 const pageLimit = isHeading ? 6 : 10;
-                if ((isHr || (isHeading && currentItemCount >= 4) || isSpreadBlock || currentItemCount >= pageLimit) && pagesData[currentPageIndex].length > 0) {
+                if ((isHr || isPageBreak || (isHeading && currentItemCount >= 4) || (isSpreadBlock && !pageHasOnlyHeadings) || currentItemCount >= pageLimit) && pagesData[currentPageIndex].length > 0) {
                     currentPageIndex++;
                     pagesData[currentPageIndex] = [];
                     currentItemCount = 0;
                 }
 
-                if (!isHr) {
+                if (!isHr && !isPageBreak) {
                     pagesData[currentPageIndex].push(child);
                     currentItemCount++;
                 }
