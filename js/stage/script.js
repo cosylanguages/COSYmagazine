@@ -345,7 +345,7 @@ export class ScriptController {
     const estTime = this.formatTimestamp(this.totalDurationMs);
 
     let md = `# ${title}\n\n`;
-    md += `**Podcast Episode**: Episode ${this.post.podcast?.episode || 1}\n`;
+    if (this.post.podcast?.episode) md += `**Podcast Episode**: Episode ${this.post.podcast.episode}\n`;
     md += `**Language**: ${this.post.language || 'en'} | **Level**: ${level} | **Date**: ${date}\n`;
     md += `**Estimated Spoken Duration**: ${estTime} | **Total Words**: ${this.totalWords}\n\n`;
     md += `---\n\n`;
@@ -376,7 +376,7 @@ export class ScriptController {
     let txt = `==================================================\n`;
     txt += `${title.toUpperCase()} — PODCAST TELEPROMPTER SCRIPT\n`;
     txt += `==================================================\n`;
-    txt += `Episode: Episode ${this.post.podcast?.episode || 1} | Date: ${date}\n`;
+    txt += `${this.post.podcast?.episode ? `Episode: Episode ${this.post.podcast.episode} | ` : ''}Date: ${date}\n`;
     txt += `Language: ${this.post.language || 'en'} | Level: ${level}\n`;
     txt += `Estimated Spoken Duration: ${estTime} | Words: ${this.totalWords}\n`;
     txt += `--------------------------------------------------\n\n`;

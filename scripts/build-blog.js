@@ -336,6 +336,13 @@ function resolveAudioUrl(post) {
   return fs.existsSync(path.join(BLOG_DIR, rel)) ? rel : null;
 }
 
+// A post only advertises audio when a real player exists: a valid embed link or an audio file that is really in the repo.
+// Otherwise there is no episode badge, no box, and no entry on the Podcast page.
+function hasPlayer(post) {
+  if (!post || !post.podcast) return false;
+  return Boolean(podcastEmbed.resolvePodcastEmbed(post.podcast) || resolveAudioUrl(post));
+}
+
 function renderStaticPodcastBoxHtml(post, langDict, lang) {
   const podcast = post.podcast || {};
   const episodeNum = podcast.episode || 1;
@@ -537,10 +544,11 @@ async function buildBlog() {
     const fontText = post.artDirection?.fonts?.text || 'DM Sans';
     const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
 
-    if (post.podcast && !podcastEmbed.resolvePodcastEmbed(post.podcast)) {
-      console.warn(`  ⚠️ ${post.slug}: no podcast embed yet (add podcast.iframeUrl or podcast.externalUrl)`);
+    const playerReady = hasPlayer(post);
+    if (post.podcast && !playerReady) {
+      console.warn(`  ⚠️ ${post.slug}: podcast hidden (no working embed/audio; add podcast.externalUrl or podcast.iframeUrl)`);
     }
-    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
+    const staticPodcastBoxHtml = playerReady ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
 
     const backToHubText = tStrict(langDict, 'blog.back_to_hub', lang);
     const scriptModeText = tStrict(langDict, 'blog.script_mode', lang);
@@ -555,7 +563,7 @@ async function buildBlog() {
     const kickerKey = DESK_KEY_MAP[kicker];
     const translatedKicker = kickerKey ? tStrict(langDict, 'desk.' + kickerKey, lang) : kicker;
 
-    const epBadgeText = post.podcast ? `${tStrict(langDict, 'blog.episode', lang)} ${post.podcast.episode}` : '';
+    const epBadgeText = playerReady ? `${tStrict(langDict, 'blog.episode', lang)} ${post.podcast.episode}` : '';
 
     const founderDeckTitleText = tStrict(langDict, 'blog.founder_deck_title', lang);
     const expandDeckText = tStrict(langDict, 'blog.expand_deck', lang);
@@ -566,6 +574,7 @@ async function buildBlog() {
     const postForScript = {
       ...post,
       blocks: (post.blocks || []).filter(b => !b.webOnly),
+      podcast: playerReady ? post.podcast : undefined,
       podcast: { ...(post.podcast || {}), audioUrl: resolveAudioUrl(post) },
       audio_podcast: false,
       coverSvg: coverSvgHtml
@@ -669,7 +678,7 @@ async function buildBlog() {
                 ${renderedBlocksHtml}
             </article>
 
-            ${(post.podcast || post.audio_podcast) ? `
+            ${playerReady ? `
             <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
                 ${staticPodcastBoxHtml}
             </div>` : ''}
@@ -758,7 +767,7 @@ async function buildBlog() {
       cefr_level: p.level || 'A0–B2',
       vibe: 'Editorial Vibe',
       founder_notes: `Target-language guidance by JY DM for COSYmagazine ${p.issue?.title || 'COSY Editorial'} edition.`,
-      audio_podcast: Boolean(p.podcast?.audioUrl),
+      audio_podcast: hasPlayer(p),
       artDirection: p.artDirection
     })),
     ...guides.map(g => ({
@@ -844,7 +853,11 @@ async function buildBlog() {
     },
     desks: DESKS_CATALOG,
     issues: issuesList,
-    posts: indexPostsList.map(({ blocks, ...meta }) => meta)
+    // Only posts with a real player keep their `podcast` data, so the Podcast page lists real episodes only.
+    posts: indexPostsList.map(({ blocks, ...meta }) => {
+      if (meta.podcast && !hasPlayer(meta)) delete meta.podcast;
+      return meta;
+    })
   };
 
   fs.writeFileSync(INDEX_JSON, JSON.stringify(indexOutput), 'utf-8');
