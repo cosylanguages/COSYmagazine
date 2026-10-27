@@ -17,9 +17,9 @@
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
-
+      
     <rect width="1200" height="630" fill="#f59e0b" />
-
+    
       <g transform="rotate(7 880.5 475)">
         <rect x="761" y="420" width="239" height="110" rx="6" fill="#faf7f2" opacity="0.25" stroke="#faf7f2" stroke-width="1" />
         <circle cx="761" cy="475" r="10" fill="#f59e0b" />
@@ -28,7 +28,7 @@
         <text x="813" y="455" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
         <text x="813" y="475" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
-
+    
       <g transform="rotate(-1 1051 196)">
         <rect x="948" y="150" width="206" height="92" rx="6" fill="#832222" opacity="0.25" stroke="#832222" stroke-width="1" />
         <circle cx="948" cy="196" r="10" fill="#f59e0b" />
@@ -37,30 +37,30 @@
         <text x="1000" y="185" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
         <text x="1000" y="205" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
-
-
-
+    
+  
+      
       <g transform="rotate(10 676 339.5)">
         <rect x="509" y="210" width="334" height="259" rx="6" fill="#832222" opacity="0.3" stroke="#832222" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(3 795 362.5)">
         <rect x="610" y="228" width="370" height="269" rx="6" fill="#faf7f2" opacity="0.3" stroke="#832222" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
-
+    
+      
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
       <polygon points="976,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 996,157.5 976,0" fill="#FCF9F2" opacity="0.9" stroke="#832222" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
-
-
+  
+      
     <g transform="rotate(3 605 28)" filter="url(#soft-shadow)">
       <rect x="545" y="16" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
       <line x1="545" y1="16" x2="545" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="665" y1="16" x2="665" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
-
-
+  
+      
     <g class="cover-tiny-doodles" stroke="#832222" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
       <path d="M 866 79 Q 866 91 878 91 Q 866 91 866 103 Q 866 91 854 91 Q 866 91 866 79 Z" fill="#faf7f2" opacity="0.3" />
@@ -70,20 +70,20 @@
       <circle cx="79" cy="128" r="3" fill="#832222" opacity="0.5" />
       <circle cx="85" cy="111" r="3" fill="#faf7f2" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-sketchy-underline">
       <path d="M 47 576 Q 139 573 230 575" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
       <path d="M 57 579 Q 139 576 220 578" stroke="#832222" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
       <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
       <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
-
-
+  
+      
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#832222" stroke-width="1.2" />
@@ -92,6 +92,6 @@
 <text x="54" y="542" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">მრავალჯერადი წინადადების</text>
 <text x="54" y="574" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">სტრუქტურა პირველივე დღი...</text>
       </g>
-
+    
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>

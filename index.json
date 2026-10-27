@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-25T09:43:07.602Z",
+  "generatedAt": "2026-10-27T06:52:08.128Z",
   "stats": {
     "totalPosts": 87,
     "totalDesks": 13,
@@ -3192,6 +3192,8 @@
       "id": "post-top-10-verb-synonyms-intermediate-plateau-el",
       "slug": "top-10-verb-synonyms-intermediate-plateau-el",
       "language": "el",
+      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+      "draft": false,
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
@@ -3200,20 +3202,20 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
-      "title": "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)",
-      "kicker": "ΛΕΞΕΙΣ",
-      "dek": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.",
+      "updated": "2026-10-25",
+      "title": "Τα 10 πιο φθαρμένα ρήματα και τα ακριβή τους συνώνυμα για το ενδιάμεσο πλατό",
+      "kicker": "Words",
+      "dek": "Δέκα «ασφαλή» ρήματα κάνουν υπερβολικά πολλή δουλειά στις φράσεις σας. Μάθετε τι σημαίνει πραγματικά το καθένα, ποιο ακριβές ρήμα να διαλέξετε στη θέση του και ποιες παγίδες να αποφύγετε: κάρτες, διαγράμματα, κουίζ και πλάνο 7 ημερών.",
       "tags": [
-        "ΕνδιάμεσοΕπίπεδο",
+        "ΕνδιάμεσοΠλατό",
         "Λεξιλόγιο",
         "B1-B2",
         "Ρήματα",
         "Ελληνικά"
       ],
-      "readingTime": 3,
+      "readingTime": 15,
       "podcast": {
-        "episode": 4,
-        "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-el.mp3"
+        "episode": 4
       },
       "artDirection": {
         "palette": [
@@ -3231,14 +3233,14 @@
         "motif": "riso-print",
         "seed": "top-10-verb-synonyms-intermediate-plateau-el",
         "coverOverride": null
-      },
-      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-      "draft": false
+      }
     },
     {
       "id": "post-top-10-verb-synonyms-intermediate-plateau-fr",
       "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
       "language": "fr",
+      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+      "draft": false,
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
@@ -3247,9 +3249,10 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
-      "title": "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire",
-      "kicker": "WORDS",
-      "dek": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
+      "updated": "2026-10-25",
+      "title": "Les 10 verbes passe-partout et leurs synonymes précis pour sortir du plateau intermédiaire",
+      "kicker": "Words",
+      "dek": "Dix verbes « sûrs » font trop de travail dans vos phrases. Découvrez ce que chacun veut vraiment dire, quel verbe précis choisir à la place et quels pièges éviter : cartes, schémas, quiz et plan sur 7 jours.",
       "tags": [
         "PlateauIntermédiaire",
         "Vocabulaire",
@@ -3257,10 +3260,9 @@
         "Verbes",
         "Français"
       ],
-      "readingTime": 5,
+      "readingTime": 18,
       "podcast": {
-        "episode": 4,
-        "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-fr.mp3"
+        "episode": 4
       },
       "artDirection": {
         "palette": [
@@ -3278,14 +3280,14 @@
         "motif": "riso-print",
         "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
         "coverOverride": null
-      },
-      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-      "draft": false
+      }
     },
     {
       "id": "post-top-10-verb-synonyms-intermediate-plateau-it",
       "slug": "top-10-verb-synonyms-intermediate-plateau-it",
       "language": "it",
+      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+      "draft": false,
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
@@ -3294,20 +3296,20 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
-      "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
-      "kicker": "WORDS",
-      "dek": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
+      "updated": "2026-10-25",
+      "title": "I 10 verbi più abusati e i loro sinonimi precisi per superare il plateau intermedio",
+      "kicker": "Words",
+      "dek": "Dieci verbi «sicuri» fanno troppo lavoro nelle tue frasi. Scopri che cosa significa davvero ciascuno, quale verbo preciso usare al suo posto e quali trappole evitare: schede, schemi, quiz e un piano di 7 giorni.",
       "tags": [
-        "AltopianoIntermedio",
+        "PlateauIntermedio",
         "Vocabolario",
         "B1-B2",
         "Verbi",
         "Italiano"
       ],
-      "readingTime": 3,
+      "readingTime": 16,
       "podcast": {
-        "episode": 4,
-        "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-it.mp3"
+        "episode": 4
       },
       "artDirection": {
         "palette": [
@@ -3325,14 +3327,14 @@
         "motif": "riso-print",
         "seed": "top-10-verb-synonyms-intermediate-plateau-it",
         "coverOverride": null
-      },
-      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-      "draft": false
+      }
     },
     {
       "id": "post-top-10-verb-synonyms-intermediate-plateau-ru",
       "slug": "top-10-verb-synonyms-intermediate-plateau-ru",
       "language": "ru",
+      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
+      "draft": false,
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
@@ -3341,20 +3343,20 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
-      "title": "Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)",
-      "kicker": "СЛОВА",
-      "dek": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами.",
+      "updated": "2026-10-25",
+      "title": "10 заезженных глаголов и их точные синонимы: как выйти из плато среднего уровня",
+      "kicker": "Words",
+      "dek": "Десять «безопасных» глаголов делают слишком много работы в ваших фразах. Узнайте, что каждый из них значит на самом деле, чем его заменить и каких ловушек избегать: карточки, схемы, тесты и план на 7 дней.",
       "tags": [
         "ПлатоСреднегоУровня",
-        "СловарныйЗапас",
+        "Лексика",
         "B1-B2",
         "Глаголы",
         "Русский"
       ],
-      "readingTime": 3,
+      "readingTime": 15,
       "podcast": {
-        "episode": 4,
-        "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau-ru.mp3"
+        "episode": 4
       },
       "artDirection": {
         "palette": [
@@ -3372,14 +3374,13 @@
         "motif": "riso-print",
         "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
         "coverOverride": null
-      },
-      "translationOf": "top-10-verb-synonyms-intermediate-plateau",
-      "draft": false
+      }
     },
     {
       "id": "post-top-10-verb-synonyms-intermediate-plateau",
       "slug": "top-10-verb-synonyms-intermediate-plateau",
       "language": "en",
+      "draft": false,
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
@@ -3388,19 +3389,20 @@
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
+      "updated": "2026-10-25",
       "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
-      "kicker": "WORDS",
-      "dek": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
+      "kicker": "Words",
+      "dek": "Ten “safe” verbs do too much of your talking. Learn what each one really means in a sentence, which exact verb to use instead, and which traps to avoid, with maps, quizzes and a 7-day plan.",
       "tags": [
         "IntermediatePlateau",
         "Vocabulary",
         "B1-B2",
-        "Verbs"
+        "Verbs",
+        "Collocations"
       ],
-      "readingTime": 7,
+      "readingTime": 18,
       "podcast": {
-        "episode": 4,
-        "audioUrl": "audio/top-10-verb-synonyms-intermediate-plateau.mp3"
+        "episode": 4
       },
       "artDirection": {
         "palette": [
@@ -3418,8 +3420,7 @@
         "motif": "riso-print",
         "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
-      },
-      "draft": false
+      }
     },
     {
       "id": "post-welcome-to-cosy-blog",

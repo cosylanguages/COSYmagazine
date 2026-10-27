@@ -17,54 +17,54 @@
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
-
+      
     <rect width="1200" height="630" fill="#FAF6EE" />
-
+    
       <polygon points="280,-2 206,74 120,108 62,1 129,-60 208,-69" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="276,183 174,272 75,173 181,73" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1409,549 1244,793 989,754 934,532 993,338 1286,400" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="443,527 413,707 272,707 204,569 250,452 424,433" fill="#246342" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="775,510 652,723 418,751 334,536 309,400 427,290 658,359" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="873,463 716,763 389,762 207,471 348,113 617,226" fill="#ecfdf5" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
+    
       <polygon points="1046,606 900,855 545,832 419,568 630,382 886,256" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
-
-
+    
+  
+      
       <g transform="rotate(-5 299.5 281)">
         <rect x="111" y="120" width="377" height="322" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#246342" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(6 686.5 274)">
         <rect x="530" y="118" width="313" height="312" rx="6" fill="#246342" opacity="0.3" stroke="#246342" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(-3 756 248.5)">
         <rect x="532" y="125" width="448" height="247" rx="6" fill="#246342" opacity="0.3" stroke="#246342" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
+    
       <g transform="rotate(8 685.5 400)">
         <rect x="442" y="238" width="487" height="324" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#246342" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
-
-
+    
+      
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
       <polygon points="1017,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1037,157.5 1017,0" fill="#FCF9F2" opacity="0.9" stroke="#246342" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
-
-
+  
+      
     <g transform="rotate(7 863 29)" filter="url(#soft-shadow)">
       <rect x="803" y="17" width="120" height="24" rx="2" fill="#ecfdf5" opacity="0.45" />
       <line x1="803" y1="17" x2="803" y2="41" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="923" y1="17" x2="923" y2="41" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
-
-
+  
+      
     <g class="cover-tiny-doodles" stroke="#246342" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
       <path d="M 847 75 Q 847 87 859 87 Q 847 87 847 99 Q 847 87 835 87 Q 847 87 847 75 Z" fill="#ecfdf5" opacity="0.3" />
@@ -74,20 +74,20 @@
       <circle cx="65" cy="88" r="3" fill="#246342" opacity="0.5" />
       <circle cx="71" cy="71" r="3" fill="#ecfdf5" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-sketchy-underline">
       <path d="M 51 599 Q 166 603 280 597" stroke="#ecfdf5" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
       <path d="M 61 602 Q 166 606 270 601" stroke="#246342" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
-
-
+  
+      
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
       <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ecfdf5" stroke-width="1.2" />
       <text x="34" y="40" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
-
-
+  
+      
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#246342" stroke-width="1.2" />
@@ -96,6 +96,6 @@
 <text x="54" y="536" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">português, Parte 3 (A0–A1 /</text>
 <text x="54" y="572" fill="#059669" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">A2)</text>
       </g>
-
+    
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>
