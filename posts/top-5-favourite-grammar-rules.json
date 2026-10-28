@@ -36,10 +36,10 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "doodle-border",
+    "motif": "notebook-handwritten",
     "seed": "top-5-favourite-grammar-rules",
     "coverOverride": null
   },

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="tea-stain" data-seed="off-script-mindset-ru" data-lang="ru">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="off-script-mindset-ru" data-lang="ru">
       <defs>
         <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
@@ -20,23 +20,19 @@
       
     <rect width="1200" height="630" fill="#d69e2e" />
     
-      <ellipse cx="638" cy="158" rx="113" ry="99" fill="#faf7f2" opacity="0.15" transform="rotate(257 638 158)" style="filter: blur(12px);" />
-      <ellipse cx="648" cy="153" rx="67.8" ry="59.4" fill="#A03224" opacity="0.12" transform="rotate(257 638 158)" style="filter: blur(8px);" />
+      <polygon points="516,101 456,301 168,295 158,135 221,-29 388,17" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="301" cy="479" rx="90" ry="145" fill="#faf7f2" opacity="0.15" transform="rotate(297 301 479)" style="filter: blur(12px);" />
-      <ellipse cx="311" cy="474" rx="54" ry="87" fill="#A03224" opacity="0.12" transform="rotate(297 301 479)" style="filter: blur(8px);" />
+      <polygon points="222,113 184,174 127,177 53,157 23,67 107,16 182,32" fill="#A03224" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="911" cy="187" rx="97" ry="115" fill="#faf7f2" opacity="0.15" transform="rotate(118 911 187)" style="filter: blur(12px);" />
-      <ellipse cx="921" cy="182" rx="58.199999999999996" ry="69" fill="#A03224" opacity="0.12" transform="rotate(118 911 187)" style="filter: blur(8px);" />
+      <polygon points="603,340 483,497 284,464 196,201 506,156" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="1110" cy="14" rx="123" ry="70" fill="#faf7f2" opacity="0.15" transform="rotate(56 1110 14)" style="filter: blur(12px);" />
-      <ellipse cx="1120" cy="9" rx="73.8" ry="42" fill="#A03224" opacity="0.12" transform="rotate(56 1110 14)" style="filter: blur(8px);" />
+      <polygon points="871,341 848,694 392,634 190,455 465,108 812,124" fill="#A03224" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="143" cy="524" rx="198" ry="90" fill="#faf7f2" opacity="0.15" transform="rotate(282 143 524)" style="filter: blur(12px);" />
-      <ellipse cx="153" cy="519" rx="118.8" ry="54" fill="#A03224" opacity="0.12" transform="rotate(282 143 524)" style="filter: blur(8px);" />
+      <polygon points="1328,184 854,462 803,-228" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="465" cy="160" rx="113" ry="70" fill="#faf7f2" opacity="0.15" transform="rotate(227 465 160)" style="filter: blur(12px);" />
-      <ellipse cx="475" cy="155" rx="67.8" ry="42" fill="#A03224" opacity="0.12" transform="rotate(227 465 160)" style="filter: blur(8px);" />
+      <polygon points="391,630 317,773 151,743 88,608 134,459 339,425" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="642,400 503,580 211,652 23,465 146,214 326,26 602,69" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
   
       
@@ -58,14 +54,14 @@
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1016,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1036,157.5 1016,0" fill="#FCF9F2" opacity="0.9" stroke="#A03224" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1020,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1040,157.5 1020,0" fill="#FCF9F2" opacity="0.9" stroke="#A03224" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
-    <g transform="rotate(-3 292 34)" filter="url(#soft-shadow)">
-      <rect x="232" y="22" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
-      <line x1="232" y1="22" x2="232" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
-      <line x1="352" y1="22" x2="352" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    <g transform="rotate(-7 801 46)" filter="url(#soft-shadow)">
+      <rect x="741" y="34" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="741" y1="34" x2="741" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="861" y1="34" x2="861" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       

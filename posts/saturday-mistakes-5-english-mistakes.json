@@ -37,10 +37,10 @@
     "fonts": {
       "display": "Fraunces",
       "text": "Commissioner",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "stain-ring",
+    "motif": "notebook-handwritten",
     "seed": "saturday-mistakes-en",
     "coverOverride": null
   },
