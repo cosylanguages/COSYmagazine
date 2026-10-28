@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="tea-stain" data-seed="off-script-mindset-ru" data-lang="ru">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="ticket-stub" data-seed="off-script-mindset-ru" data-lang="ru">
       <defs>
         <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
@@ -18,25 +18,43 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#d69e2e" />
+    <rect width="1200" height="630" fill="#f59e0b" />
     
-      <ellipse cx="638" cy="158" rx="113" ry="99" fill="#faf7f2" opacity="0.15" transform="rotate(257 638 158)" style="filter: blur(12px);" />
-      <ellipse cx="648" cy="153" rx="67.8" ry="59.4" fill="#A03224" opacity="0.12" transform="rotate(257 638 158)" style="filter: blur(8px);" />
+      <g transform="rotate(5 295.5 277)">
+        <rect x="184" y="227" width="223" height="100" rx="6" fill="#faf7f2" opacity="0.25" stroke="#faf7f2" stroke-width="1" />
+        <circle cx="184" cy="277" r="10" fill="#f59e0b" />
+        <circle cx="407" cy="277" r="10" fill="#f59e0b" />
+        <line x1="224" y1="237" x2="224" y2="317" stroke="#faf7f2" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="236" y="262" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="236" y="282" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+      </g>
     
-      <ellipse cx="301" cy="479" rx="90" ry="145" fill="#faf7f2" opacity="0.15" transform="rotate(297 301 479)" style="filter: blur(12px);" />
-      <ellipse cx="311" cy="474" rx="54" ry="87" fill="#A03224" opacity="0.12" transform="rotate(297 301 479)" style="filter: blur(8px);" />
+      <g transform="rotate(8 97 549.5)">
+        <rect x="-3" y="489" width="200" height="121" rx="6" fill="#A03224" opacity="0.25" stroke="#A03224" stroke-width="1" />
+        <circle cx="-3" cy="549.5" r="10" fill="#f59e0b" />
+        <circle cx="197" cy="549.5" r="10" fill="#f59e0b" />
+        <line x1="37" y1="499" x2="37" y2="600" stroke="#A03224" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="49" y="524" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="49" y="544" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+      </g>
     
-      <ellipse cx="911" cy="187" rx="97" ry="115" fill="#faf7f2" opacity="0.15" transform="rotate(118 911 187)" style="filter: blur(12px);" />
-      <ellipse cx="921" cy="182" rx="58.199999999999996" ry="69" fill="#A03224" opacity="0.12" transform="rotate(118 911 187)" style="filter: blur(8px);" />
+      <g transform="rotate(-4 174.5 374)">
+        <rect x="54" y="323" width="241" height="102" rx="6" fill="#faf7f2" opacity="0.25" stroke="#faf7f2" stroke-width="1" />
+        <circle cx="54" cy="374" r="10" fill="#f59e0b" />
+        <circle cx="295" cy="374" r="10" fill="#f59e0b" />
+        <line x1="94" y1="333" x2="94" y2="415" stroke="#faf7f2" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="106" y="358" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="106" y="378" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+      </g>
     
-      <ellipse cx="1110" cy="14" rx="123" ry="70" fill="#faf7f2" opacity="0.15" transform="rotate(56 1110 14)" style="filter: blur(12px);" />
-      <ellipse cx="1120" cy="9" rx="73.8" ry="42" fill="#A03224" opacity="0.12" transform="rotate(56 1110 14)" style="filter: blur(8px);" />
-    
-      <ellipse cx="143" cy="524" rx="198" ry="90" fill="#faf7f2" opacity="0.15" transform="rotate(282 143 524)" style="filter: blur(12px);" />
-      <ellipse cx="153" cy="519" rx="118.8" ry="54" fill="#A03224" opacity="0.12" transform="rotate(282 143 524)" style="filter: blur(8px);" />
-    
-      <ellipse cx="465" cy="160" rx="113" ry="70" fill="#faf7f2" opacity="0.15" transform="rotate(227 465 160)" style="filter: blur(12px);" />
-      <ellipse cx="475" cy="155" rx="67.8" ry="42" fill="#A03224" opacity="0.12" transform="rotate(227 465 160)" style="filter: blur(8px);" />
+      <g transform="rotate(-9 384 99)">
+        <rect x="257" y="54" width="254" height="90" rx="6" fill="#A03224" opacity="0.25" stroke="#A03224" stroke-width="1" />
+        <circle cx="257" cy="99" r="10" fill="#f59e0b" />
+        <circle cx="511" cy="99" r="10" fill="#f59e0b" />
+        <line x1="297" y1="64" x2="297" y2="134" stroke="#A03224" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="309" y="89" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="309" y="109" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+      </g>
     
   
       
@@ -58,14 +76,14 @@
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1016,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1036,157.5 1016,0" fill="#FCF9F2" opacity="0.9" stroke="#A03224" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1011,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1031,157.5 1011,0" fill="#FCF9F2" opacity="0.9" stroke="#A03224" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
-    <g transform="rotate(-3 292 34)" filter="url(#soft-shadow)">
-      <rect x="232" y="22" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
-      <line x1="232" y1="22" x2="232" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
-      <line x1="352" y1="22" x2="352" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    <g transform="rotate(5 965 34)" filter="url(#soft-shadow)">
+      <rect x="905" y="22" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="905" y1="22" x2="905" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="1025" y1="22" x2="1025" y2="46" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       

@@ -531,9 +531,11 @@ async function buildBlog() {
     let issueTitleKey = null;
     if (post.issue?.number === 'Vol. 2026.08' || post.issue?.number === 'Vol. 2026 — August Issue') issueTitleKey = 'blog.issue_august_title';
     else if (post.issue?.number === 'Vol. 2026.09' || post.issue?.number === 'Vol. 2026 — September Issue') issueTitleKey = 'blog.issue_september_title';
+    else if (post.issue?.number === 'Vol. 2026.10' && (post.issue?.title === 'Saturday Mistakes Edition' || post.issue?.title === 'Édition Erreurs du Samedi')) issueTitleKey = 'blog.issue_october_saturday_title';
     else if (post.issue?.number === 'Vol. 2026.10' || post.issue?.number === 'Vol. 2026 — October Issue') issueTitleKey = 'blog.issue_october_title';
     else if (post.issue?.number === 'Vol. 2026.11' || post.issue?.number === 'Vol. 2026 — November Issue') issueTitleKey = 'blog.issue_november_title';
     else if (post.issue?.number === 'Vol. 2026.12' || post.issue?.number === 'Vol. 2026 — December Issue') issueTitleKey = 'blog.issue_december_title';
+    else if (post.issue?.number === 'Vol. 2027.02' || post.issue?.number === 'Vol. 2027 — February Issue') issueTitleKey = 'blog.issue_february_title';
 
     const issueTitle = issueTitleKey
       ? tStrict(langDict, issueTitleKey, lang)

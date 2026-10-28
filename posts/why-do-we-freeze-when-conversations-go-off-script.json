@@ -9,7 +9,7 @@
     "number": "Vol. 2026.10",
     "title": "JY DM's birthday & His favs"
   },
-  "date": "2026-10-19",
+  "date": "2026-10-01",
   "title": "Why Do We Freeze When Conversations Go Off Script?",
   "kicker": "REFLECTIONS",
   "dek": "Script theory explains why one unexpected answer can make us forget a language we know. Learn why it happens and four tools to stay in the conversation.",
@@ -31,7 +31,7 @@
       "#0d9488",
       "#faf7f2",
       "#1e293b",
-      "#d69e2e"
+      "#f59e0b"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -39,7 +39,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "ticket-stub",
     "seed": "off-script-mindset",
     "coverOverride": null
   },

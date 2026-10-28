@@ -9,7 +9,7 @@
     "number": "Vol. 2026.11",
     "title": "November Academia"
   },
-  "date": "2026-11-20",
+  "date": "2026-11-01",
   "title": "The Art of Creative Writing in Language Learning: From Micro-Sparks to Stories, Books, and Poetry",
   "kicker": "NOVEMBER ACADEMIA",
   "dek": "Discover how creative writing unlocks deep L2 acquisition—transforming passive vocabulary into expressive storytelling, evocative poetry, and full-length narratives.",
@@ -38,7 +38,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "editorial-stars",
     "seed": "creative-writing-academia",
     "coverOverride": null
   },

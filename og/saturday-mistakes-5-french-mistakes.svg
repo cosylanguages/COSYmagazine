@@ -18,7 +18,7 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#ca8a04" />
+    <rect width="1200" height="630" fill="#d97706" />
     
       <polygon points="1036,158 823,359 678,155 829,-11" fill="#274B7D" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
@@ -76,7 +76,7 @@
       
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
       <rect x="20" y="20" width="292" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
-      <text x="34" y="40" fill="#16a34a" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • SATURDAY MISTAKES</text>
+      <text x="34" y="40" fill="#2563eb" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • SATURDAY MISTAKES</text>
     </g>
   
       
@@ -84,9 +84,9 @@
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#274B7D" stroke-width="1.2" />
         <text x="54" y="474" fill="#274B7D" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">ERREURS DU SAMEDI • ÉPISODE 1 • Vol. 2026.10</text>
-        <text x="54" y="510" fill="#16a34a" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Erreurs du Samedi Épisode 1 : 5</text>
-<text x="54" y="542" fill="#16a34a" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">erreurs courantes en français et</text>
-<text x="54" y="574" fill="#16a34a" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">comment les corriger</text>
+        <text x="54" y="510" fill="#2563eb" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Erreurs du Samedi Épisode 1 : 5</text>
+<text x="54" y="542" fill="#2563eb" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">erreurs courantes en français et</text>
+<text x="54" y="574" fill="#2563eb" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">comment les corriger</text>
       </g>
     
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />

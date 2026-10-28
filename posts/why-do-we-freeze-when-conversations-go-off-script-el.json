@@ -9,7 +9,7 @@
     "number": "Vol. 2026.10",
     "title": "JY DM's birthday & His favs"
   },
-  "date": "2026-10-19",
+  "date": "2026-10-01",
   "title": "Γιατί παγώνουμε όταν η συζήτηση βγαίνει εκτός σεναρίου;",
   "kicker": "ΣΚΕΨΕΙΣ",
   "dek": "Η θεωρία των σεναρίων εξηγεί γιατί μία απρόσμενη απάντηση μπορεί να μας κάνει να ξεχάσουμε μια γλώσσα που ξέρουμε. Δείτε πώς λειτουργεί και τέσσερα εργαλεία για να μείνετε στη συζήτηση.",
@@ -26,7 +26,7 @@
       "#0d9488",
       "#faf7f2",
       "#1e293b",
-      "#d69e2e"
+      "#f59e0b"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -34,7 +34,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "ticket-stub",
     "seed": "off-script-mindset",
     "coverOverride": null
   },

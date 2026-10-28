@@ -9,7 +9,7 @@
     "number": "Vol. 2026.10",
     "title": "JY DM's birthday & His favs"
   },
-  "date": "2026-10-18",
+  "date": "2026-10-01",
   "title": "Mastering Conversational Flow: Stage & Podcast Demo",
   "kicker": "PODCAST STAGE DEMO",
   "dek": "An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.",
@@ -26,10 +26,10 @@
   },
   "artDirection": {
     "palette": [
-      "#1a202c",
-      "#4a5568",
-      "#a0aec0",
-      "#f7fafc"
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -37,7 +37,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "ticket-stub",
     "seed": "stage-demo-podcast",
     "coverOverride": null
   },
