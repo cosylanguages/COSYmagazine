@@ -39,11 +39,15 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "demystifying-english-tenses",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — November Academia</div>\n    <div class=\"november-banner-content\">\n        <h4>Special Issue: Demystifying English Tenses Master Timeline</h4>\n        <p>Welcome to our November Academia special edition! Master the timeline matrix, aspectual nuances, and conversational tense anchors in English.</p>\n    </div>\n</div>"
+    },
     {
       "type": "culture-bite",
       "title": "Editorial Letter from Founder JY DM — November Academia",
@@ -68,13 +72,17 @@
     },
     {
       "type": "paragraph",
-      "text": "Many English students feel overwhelmed when faced with a massive 3x4 matrix of 12 tenses. Traditional textbook methods often throw all formulas at learners at once, creating cognitive overload. In reality, mastering English tenses requires a step-by-step visual expansion—a timeline approach designed to build confidence cluster by cluster.",
+      "text": "Many English students feel overwhelmed when faced with a massive 3x4 matrix of 12 tenses. Traditional textbook methods often throw all formulas at learners at once, creating cognitive overload. In reality, mastering English tenses requires a step-by-step visual expansion—a timeline approach designed to build confidence cluster by cluster. <span class=\"handwritten-note\">💡 Pro-Tip: Master 5 Core Tenses First!</span>",
       "say": "In this guide, we break down English tenses logically across six visual clusters, concluding with a clear comparison between spoken everyday English and formal academic writing.",
       "beat": {
         "duration": 1000,
         "camera": "focus",
         "target": "#block-2"
       }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n        <h3 class=\"printable-reference-title\">📋 Printable Reference: English Tenses Core Timeline Matrix</h3>\n        <button class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Print / Save PDF Reference Sheet</button>\n    </div>\n    <table class=\"printable-reference-table\">\n        <thead>\n            <tr>\n                <th>Tense</th>\n                <th>Core Structure</th>\n                <th>Key Signal Word</th>\n                <th>Primary Usage</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr><td>Present Simple</td><td>Verb (s)</td><td>every day, usually</td><td>Facts, routines, habits</td></tr>\n            <tr><td>Past Simple</td><td>Verb-ed / V2</td><td>yesterday, last year</td><td>Completed past actions</td></tr>\n            <tr><td>Present Progressive</td><td>am/is/are + V-ing</td><td>right now, currently</td><td>Action in progress right now</td></tr>\n            <tr><td>Present Perfect</td><td>have/has + V3</td><td>already, so far, ever</td><td>Past action with present result</td></tr>\n            <tr><td>Future Simple</td><td>will + V1 / going to</td><td>tomorrow, soon</td><td>Predictions, promises, plans</td></tr>\n        </tbody>\n    </table>\n</div>"
     },
     {
       "type": "heading",
@@ -132,7 +140,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Each time zone is accompanied by unmistakable temporal key words. Spotting these signal words immediately tells your brain which section of the timeline you are operating in.",
+      "text": "Each time zone is accompanied by unmistakable temporal key words. Spotting these signal words immediately tells your brain which section of the timeline you are operating in. <span class=\"notebook-margin-note\">✍️ Signal Anchors: 'Yesterday' = Past Simple, 'Already' = Present Perfect!</span>",
       "say": "Words like yesterday or two days ago lock you into the Past, while right now or currently bind you to the Present, and tomorrow or next year send you into the Future.",
       "beat": {
         "duration": 1000,
