@@ -1,5 +1,5 @@
 /**
- * COSYblog shell: top bar, footer, theme toggle and (on listing pages) the interface language.
+ * COSYmagazine shell: top bar, footer, theme toggle and (on listing pages) the interface language.
  * Plain script, no dependencies. Preferences use the same localStorage keys as the other COSY sites
  * (they share the cosylanguages.github.io origin), so theme and language follow the reader around.
  */

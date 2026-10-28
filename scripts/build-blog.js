@@ -587,11 +587,11 @@ async function buildBlog() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(getDocumentTitle(post.title))}</title>
     <meta name="description" content="${escapeHtml(post.dek)}">
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYblog/${escapeHtml(post.slug)}.html">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(post.slug)}.html">
     <meta property="og:title" content="${escapeHtml(getDocumentTitle(post.title))}">
     <meta property="og:description" content="${escapeHtml(post.dek)}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYblog/${escapeHtml(post.slug)}.html">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(post.slug)}.html">
     <link rel="icon" href="images/logo.png">
     <meta name="theme-color" content="${escapeHtml(palette[1] || '#faf7f2')}">
     <script src="js/theme-init.js"></script>

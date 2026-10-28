@@ -1,8 +1,8 @@
-# COSYblog 🌿
+# COSYmagazine 🌿
 
 **COSYmagazine**: short, speaking-first reads for language learners (words, grammar made cosy, sentence frames, podcast), in English, French, Italian, Russian and Greek.
 
-**Live:** https://cosylanguages.github.io/COSYblog/
+**Live:** https://cosylanguages.github.io/COSYmagazine/
 
 Part of the COSY ecosystem. Hub: [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) · Practice: [COSYpractice](https://github.com/cosylanguages/COSYpractice) · Tools: [COSYtools](https://github.com/cosylanguages/COSYtools).
 
