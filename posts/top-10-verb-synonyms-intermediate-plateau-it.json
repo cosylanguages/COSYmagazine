@@ -34,14 +34,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "top-10-verb-synonyms-intermediate-plateau",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Plateau Intermedio</div>\n    <div class=\"september-banner-content\">\n        <h4>Edizione Speciale: Superare il Livello B1–B2</h4>\n        <p>Benvenuti nella nostra edizione speciale di settembre! Scopri le migliori alternative naturali per arricchire il tuo vocabolario.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Leggi ad alta voce queste cinque frasi: **Ho fatto una torta. Ho fatto un errore. Ho fatto la fila. Ho fatto cento chilometri. Fa freddo.** Un solo verbo, cinque significati diversi. Un madrelingua li capisce subito, ma chi conosce soltanto *fare* risulta vago: non sbagliato, solo spento.",

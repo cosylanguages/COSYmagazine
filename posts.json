@@ -3311,6 +3311,49 @@
     }
   },
   {
+    "slug": "overcoming-intermediate-plateau",
+    "title": "Overcoming the Intermediate Plateau (B1 to B2)",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Stuck in a conversational loop reusing the same basic words? Here is how phrase-level upgrades, stronger adjectives, and precise verb synonyms break the ceiling.",
+    "author": "JY DM",
+    "reading_time": 5,
+    "cover_image": "",
+    "tags": [
+      "Fluency",
+      "B1-B2",
+      "Methodology",
+      "Upgrades"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "overcoming-intermediate-plateau.html",
+    "issue_volume": "Vol. 2026.09",
+    "issue_title": "Me vs Intermediate Plateau",
+    "cefr_level": "B1–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#2d3748",
+        "#319795",
+        "#d69e2e",
+        "#f7fafc"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "riso-print",
+      "seed": "overcoming-intermediate-plateau",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "top-10-verbs-ba",
     "title": "Башҡорт теле буйынса иң мөһим 10 ҡылым (A0–A1 / A2)",
     "date": "2026-03-01",

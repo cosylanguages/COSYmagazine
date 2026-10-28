@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-28T13:16:44.860Z",
+  "generatedAt": "2026-10-28T13:57:56.207Z",
   "stats": {
-    "totalPosts": 91,
+    "totalPosts": 92,
     "totalDesks": 13,
     "totalIssues": 6
   },
@@ -3364,6 +3364,47 @@
         "layout": "standard-feed",
         "motif": "paper-cut",
         "seed": "welcome-to-cosy-blog",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-overcoming-intermediate-plateau",
+      "slug": "overcoming-intermediate-plateau",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "essay",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.09",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-01",
+      "title": "Overcoming the Intermediate Plateau (B1 to B2)",
+      "kicker": "LONG READS",
+      "dek": "Stuck in a conversational loop reusing the same basic words? Here is how phrase-level upgrades, stronger adjectives, and precise verb synonyms break the ceiling.",
+      "tags": [
+        "Fluency",
+        "B1-B2",
+        "Methodology",
+        "Upgrades"
+      ],
+      "readingTime": 5,
+      "artDirection": {
+        "palette": [
+          "#2d3748",
+          "#319795",
+          "#d69e2e",
+          "#f7fafc"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "riso-print",
+        "seed": "overcoming-intermediate-plateau",
         "coverOverride": null
       },
       "draft": false

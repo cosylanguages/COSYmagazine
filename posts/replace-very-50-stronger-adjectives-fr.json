@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-very-50-stronger-adjectives-fr",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Plateau Intermédiaire</div>\n    <div class=\"september-banner-content\">\n        <h4>Édition Spéciale : Dépasser le Niveau B1–B2</h4>\n        <p>Bienvenue dans notre numéro spécial carnet de septembre ! Découvrez les meilleures expressions et synonymes pour enrichir votre vocabulaire.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "L'une des caractéristiques les plus marquantes du **plateau intermédiaire (B1–B2)** est l'utilisation excessive de l'adverbe **\"très\"** pour intensifier tous les adjectifs du quotidien."

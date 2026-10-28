@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-50-overused-phrases-el",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Ενδιάμεσο Πλατώ B1–B2</div>\n    <div class=\"september-banner-content\">\n        <h4>Ειδική Έκδοση: Ξεπερνώντας το Ενδιάμεσο Επίπεδο</h4>\n        <p>Καλώς ήρθατε στο ειδικό τετράδιο Σεπτεμβρίου! Ανακαλύψτε φυσικές εναλλακτικές φράσεις και ακριβή συνώνυμα.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Όταν φτάνετε στο **ενδιάμεσο επίπεδο (B1–B2)**, μπορείτε να επικοινωνείτε με άνεση και να συμμετέχετε σε συζητήσεις. Ωστόσο, οι περισσότεροι καθηγητές παρατηρούν το ίδιο μοτίβο: οι μαθητές επαναλαμβάνουν συνεχώς τις ίδιες «ασφαλείς» εκφράσεις: *\"Νομίζω ότι...\"*, *\"Συμφωνώ\"*, *\"Εξαρτάται\"*, *\"Δεν ξέρω\"*."

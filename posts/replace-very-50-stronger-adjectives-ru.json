@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-very-50-stronger-adjectives-ru",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Средний уровень B1–B2</div>\n    <div class=\"september-banner-content\">\n        <h4>Специальный выпуск: Выход из языкового плато</h4>\n        <p>Добро пожаловать в сентябрьский тетрадный спецвыпуск! Откройте для себя естественные фразы-замены и сильные синонимы.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Один из самых заметных признаков **плато среднего уровня (B1–B2)** — злоупотребление словом **\"очень\"** для усиления простых прилагательных."

@@ -34,14 +34,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-50-overused-phrases",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Me vs Intermediate Plateau</div>\n    <div class=\"september-banner-content\">\n        <h4>Special Edition: Breaking the B1–B2 Ceiling</h4>\n        <p>Welcome to our September notebook special issue! Discover natural upgrades, stronger adjectives, and precise verb synonyms to overcome the intermediate plateau.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "When you reach the **intermediate plateau (CEFR B1–B2)**, you can comfortably hold conversations, share opinions, and make yourself understood. However, almost every language teacher notices the same pattern: learners find themselves relying on a tiny cluster of \"safe\" phrases in every single discussion—defaulting over and over to *\"I think...\"*, *\"I agree\"*, *\"It depends\"*, or *\"I don't know\"*."

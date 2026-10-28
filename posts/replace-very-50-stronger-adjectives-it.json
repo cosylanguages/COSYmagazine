@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-very-50-stronger-adjectives-it",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Plateau Intermedio</div>\n    <div class=\"september-banner-content\">\n        <h4>Edizione Speciale: Superare il Livello B1–B2</h4>\n        <p>Benvenuti nella nostra edizione speciale di settembre! Scopri le migliori alternative naturali per arricchire il tuo vocabolario.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Uno dei tratti distintivi del **livello intermedio (B1–B2)** è l'uso eccessivo dell'avverbio **\"molto\"** per intensificare gli aggettivi quotidiani."

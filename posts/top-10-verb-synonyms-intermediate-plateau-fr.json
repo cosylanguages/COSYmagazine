@@ -34,14 +34,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "top-10-verb-synonyms-intermediate-plateau",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Plateau Intermédiaire</div>\n    <div class=\"september-banner-content\">\n        <h4>Édition Spéciale : Dépasser le Niveau B1–B2</h4>\n        <p>Bienvenue dans notre numéro spécial carnet de septembre ! Découvrez les meilleures expressions et synonymes pour enrichir votre vocabulaire.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Lisez ces cinq phrases à voix haute : **J’ai fait un gâteau. J’ai fait une erreur. J’ai fait la queue. J’ai fait deux cents kilomètres. Ça fait deux ans.** Un seul verbe, cinq sens différents. Un francophone les comprend tout de suite, mais un apprenant qui ne connaît que *faire* paraît vague. Pas incorrect, simplement terne.",

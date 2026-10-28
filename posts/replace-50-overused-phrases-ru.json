@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-50-overused-phrases-ru",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Средний уровень B1–B2</div>\n    <div class=\"september-banner-content\">\n        <h4>Специальный выпуск: Выход из языкового плато</h4>\n        <p>Добро пожаловать в сентябрьский тетрадный спецвыпуск! Откройте для себя естественные фразы-замены и сильные синонимы.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Когда вы достигаете **плато среднего уровня (B1–B2)**, вы легко поддерживаете беседу, выражаете мысли и понимаете собеседника. Однако большинство преподавателей замечают одну и ту же тенденцию: студенты из раза в раз используют несколько базовых фраз-заглушек: *\"Я думаю...\"*, *\"Я согласен\"*, *\"Это зависит\"*, *\"Я не знаю\"*."

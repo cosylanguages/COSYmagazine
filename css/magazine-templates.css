@@ -1205,6 +1205,74 @@ html[data-theme="dark"] .august-banner-content p {
   color: #fde68a;
 }
 
+/* 7g. September Issue — "Me vs Intermediate Plateau" Handwritten Journal & Vogue Vibe */
+
+.september-issue-banner {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ccfbf1 50%, #e0f2fe 100%);
+  border: 2px dashed #0d9488;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 8px 24px rgba(13, 148, 136, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.september-issue-banner::before {
+  content: '✍️ Notebook Edition: B1 → B2 Conversational Upgrades';
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  font-family: 'Caveat', cursive, serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f766e;
+  transform: rotate(1deg);
+}
+
+.september-banner-badge {
+  background: #0d9488;
+  color: #ffffff;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-weight: 900;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.25);
+  flex-shrink: 0;
+}
+
+.september-banner-content h4 {
+  margin: 0 0 0.25rem;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 1.15rem;
+  color: #134e4a;
+}
+
+.september-banner-content p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #115e59;
+}
+
+html[data-theme="dark"] .september-issue-banner {
+  background: linear-gradient(135deg, #042f2e 0%, #115e59 100%);
+  border-color: #2dd4bf;
+}
+
+html[data-theme="dark"] .september-banner-content h4 {
+  color: #ccfbf1;
+}
+
+html[data-theme="dark"] .september-banner-content p {
+  color: #99f6e4;
+}
+
 /* 7d. COSY Verb Network Map & CEFR Roadmap Components */
 
 .verb-map-container {
