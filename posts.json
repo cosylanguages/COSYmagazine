@@ -1731,14 +1731,146 @@
     }
   },
   {
-    "slug": "why-do-we-freeze-when-conversations-go-off-script-ru",
-    "title": "Почему мы ступоримся, когда разговор отклоняется от сценария?",
+    "slug": "why-do-we-freeze-when-conversations-go-off-script-el",
+    "title": "Γιατί παγώνουμε όταν η συζήτηση βγαίνει εκτός σεναρίου;",
     "date": "2026-10-19",
     "updated": null,
     "category": "COSYtalks",
-    "summary": "Разбор теории сценариев (Script Theory), когнитивных механизмов речи и того, почему выход за рамки заученных шаблонов — это начало настоящего освоения языка.",
+    "summary": "Η θεωρία των σεναρίων εξηγεί γιατί μία απρόσμενη απάντηση μπορεί να μας κάνει να ξεχάσουμε μια γλώσσα που ξέρουμε. Δείτε πώς λειτουργεί και τέσσερα εργαλεία για να μείνετε στη συζήτηση.",
     "author": "JY DM",
-    "reading_time": 7,
+    "reading_time": 8,
+    "cover_image": "",
+    "tags": [
+      "Reflections",
+      "ScriptTheory",
+      "PsychologyOfLearning",
+      "MindMatters",
+      "SpeakingClub"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "why-do-we-freeze-when-conversations-go-off-script-el.html",
+    "issue_volume": "Vol. 2026.10",
+    "issue_title": "JY DM's birthday & His favs",
+    "cefr_level": "B1–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#742a2a",
+        "#e53e3e",
+        "#d69e2e",
+        "#fff5f5"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "gingham-knit",
+      "seed": "why-do-we-freeze-when-conversations-go-off-script-el",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "why-do-we-freeze-when-conversations-go-off-script-fr",
+    "title": "Pourquoi se fige-t-on quand la conversation sort du script ?",
+    "date": "2026-10-19",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "La théorie des scripts explique pourquoi une seule réponse inattendue peut nous faire oublier une langue que nous connaissons. Comprenez le mécanisme et découvrez quatre outils pour rester dans la conversation.",
+    "author": "JY DM",
+    "reading_time": 8,
+    "cover_image": "",
+    "tags": [
+      "Reflections",
+      "ScriptTheory",
+      "PsychologyOfLearning",
+      "MindMatters",
+      "SpeakingClub"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "why-do-we-freeze-when-conversations-go-off-script-fr.html",
+    "issue_volume": "Vol. 2026.10",
+    "issue_title": "JY DM's birthday & His favs",
+    "cefr_level": "B1–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#742a2a",
+        "#e53e3e",
+        "#d69e2e",
+        "#fff5f5"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "gingham-knit",
+      "seed": "why-do-we-freeze-when-conversations-go-off-script-fr",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "why-do-we-freeze-when-conversations-go-off-script-it",
+    "title": "Perché ci blocchiamo quando la conversazione esce dal copione?",
+    "date": "2026-10-19",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "La teoria degli script spiega perché una sola risposta inattesa può farci dimenticare una lingua che conosciamo. Scopri come funziona e quattro strumenti per restare nella conversazione.",
+    "author": "JY DM",
+    "reading_time": 8,
+    "cover_image": "",
+    "tags": [
+      "Reflections",
+      "ScriptTheory",
+      "PsychologyOfLearning",
+      "MindMatters",
+      "SpeakingClub"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "why-do-we-freeze-when-conversations-go-off-script-it.html",
+    "issue_volume": "Vol. 2026.10",
+    "issue_title": "JY DM's birthday & His favs",
+    "cefr_level": "B1–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#742a2a",
+        "#e53e3e",
+        "#d69e2e",
+        "#fff5f5"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "gingham-knit",
+      "seed": "why-do-we-freeze-when-conversations-go-off-script-it",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "why-do-we-freeze-when-conversations-go-off-script-ru",
+    "title": "Почему мы впадаем в ступор, когда разговор идёт не по сценарию?",
+    "date": "2026-10-19",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "Теория сценариев объясняет, почему один неожиданный ответ заставляет нас забыть язык, который мы знаем. Разберёмся, почему так происходит, и возьмём четыре инструмента, чтобы остаться в разговоре.",
+    "author": "JY DM",
+    "reading_time": 8,
     "cover_image": "",
     "tags": [
       "Reflections",
@@ -1780,9 +1912,9 @@
     "date": "2026-10-19",
     "updated": null,
     "category": "COSYtalks",
-    "summary": "An inquiry into Script Theory, cognitive processing, and why stumbling off script is where real language acquisition begins.",
+    "summary": "Script theory explains why one unexpected answer can make us forget a language we know. Learn why it happens and four tools to stay in the conversation.",
     "author": "JY DM",
-    "reading_time": 7,
+    "reading_time": 8,
     "cover_image": "",
     "tags": [
       "Reflections",

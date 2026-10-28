@@ -1,0 +1,620 @@
+{
+  "id": "post-why-do-we-freeze-when-conversations-go-off-script-fr",
+  "slug": "why-do-we-freeze-when-conversations-go-off-script-fr",
+  "language": "fr",
+  "desk": "COSYtalks",
+  "format": "essay",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-10-19",
+  "title": "Pourquoi se fige-t-on quand la conversation sort du script ?",
+  "kicker": "RÉFLEXIONS",
+  "dek": "La théorie des scripts explique pourquoi une seule réponse inattendue peut nous faire oublier une langue que nous connaissons. Comprenez le mécanisme et découvrez quatre outils pour rester dans la conversation.",
+  "tags": [
+    "Reflections",
+    "ScriptTheory",
+    "PsychologyOfLearning",
+    "MindMatters",
+    "SpeakingClub"
+  ],
+  "readingTime": 8,
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "off-script-mindset",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Dans mon club de conversation *Mind Matters*, nous explorons la psychologie de l'apprentissage des langues. Récemment, nous avons commencé par une courte vidéo qui nous a fait rire, puis réfléchir. Elle s'intitule « Quand le patient sort du script ». Un employé dit la salutation habituelle : « Comment allez-vous ? » Le patient répond calmement : « Terrible. » Et l'employé disjoncte : il bégaie, se trompe de mots, regarde partout.",
+      "say": "Dans mon club de conversation Mind Matters, nous explorons la psychologie de l'apprentissage des langues. Récemment, nous avons commencé par une courte vidéo qui nous a fait rire, puis réfléchir. Elle s'intitule « Quand le patient sort du script ». Un employé dit la salutation habituelle : « Comment allez-vous ? » Le patient répond calmement : « Terrible. » Et l'employé disjoncte : il bégaie, se trompe de mots, regarde partout.",
+      "beat": {
+        "duration": 30857,
+        "camera": "pan-zoom",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://www.instagram.com/reel/DeO8Gl7hstU/?obrf=bHlmcjNmdnZhbnU3",
+      "label": "📺 Voir la vidéo sur Instagram",
+      "say": "📺 Voir la vidéo sur Instagram",
+      "beat": {
+        "duration": 3000,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Si vous apprenez une langue, vous connaissez ce moment. On vous pose une question de routine, vous donnez la réponse de routine, et soudain l'autre dit quelque chose que vous n'aviez pas préparé. Le vide total. Ce blocage est-il un phénomène réel ? La psychologie a une explication utile : la **théorie des scripts**.",
+      "say": "Si vous apprenez une langue, vous connaissez ce moment. On vous pose une question de routine, vous donnez la réponse de routine, et soudain l'autre dit quelque chose que vous n'aviez pas préparé. Le vide total. Ce blocage est-il un phénomène réel ? La psychologie a une explication utile : la théorie des scripts.",
+      "beat": {
+        "duration": 23143,
+        "camera": "pan-zoom",
+        "target": "#block-2"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "En 30 secondes",
+      "content": "On ne se fige pas parce qu'on ne connaît pas la langue, mais parce que la situation ne correspond plus au script qu'on suivait. La solution n'est pas une meilleure mémoire. Il faut gagner quelques secondes avec une expression tampon, viser la communication plutôt que la perfection, apprendre des briques flexibles plutôt que des dialogues figés, et voir la surprise comme un entraînement.",
+      "say": "En 30 secondes. On ne se fige pas parce qu'on ne connaît pas la langue, mais parce que la situation ne correspond plus au script qu'on suivait. La solution n'est pas une meilleure mémoire. Il faut gagner quelques secondes avec une expression tampon, viser la communication plutôt que la perfection, apprendre des briques flexibles plutôt que des dialogues figés, et voir la surprise comme un entraînement.",
+      "beat": {
+        "duration": 28286,
+        "camera": "pan-zoom",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie 1 : Qu'est-ce qu'un script ?",
+      "say": "Partie 1 : Qu'est-ce qu'un script ?",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-4"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans les années 1970, les chercheurs en sciences cognitives **Roger Schank** et **Robert Abelson** ont proposé que nous stockions nos connaissances des situations quotidiennes sous forme de *scripts* : des séquences typiques d'événements, de rôles et d'attentes. Leur exemple classique est le restaurant :",
+      "say": "Dans les années 1970, les chercheurs en sciences cognitives Roger Schank et Robert Abelson ont proposé que nous stockions nos connaissances des situations quotidiennes sous forme de scripts : des séquences typiques d'événements, de rôles et d'attentes. Leur exemple classique est le restaurant :",
+      "beat": {
+        "duration": 18857,
+        "camera": "pan-zoom",
+        "target": "#block-5"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Vous entrez et attendez qu'on vous place.",
+        "Vous lisez le menu et vous commandez.",
+        "Vous mangez.",
+        "Vous demandez l'addition et vous payez.",
+        "Vous partez."
+      ],
+      "say": "Vous entrez et attendez qu'on vous place. Vous lisez le menu et vous commandez. Vous mangez. Vous demandez l'addition et vous payez. Vous partez.",
+      "beat": {
+        "duration": 10286,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Personne ne vous enseigne cette liste, et personne ne l'oublie. Vous ne commandez pas le dessert avant le plat, et vous ne vous demandez pas qui paie. Les scripts économisent l'énergie mentale : la séquence est prévisible, on peut donc agir presque en pilote automatique.",
+      "say": "Personne ne vous enseigne cette liste, et personne ne l'oublie. Vous ne commandez pas le dessert avant le plat, et vous ne vous demandez pas qui paie. Les scripts économisent l'énergie mentale : la séquence est prévisible, on peut donc agir presque en pilote automatique.",
+      "beat": {
+        "duration": 19286,
+        "camera": "pan-zoom",
+        "target": "#block-7"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "La distinction popularisée par Daniel Kahneman aide ici (c'est une simplification, mais utile). Le comportement scripté est surtout rapide et automatique : le **Système 1**. Les situations nouvelles demandent le **Système 2**, lent et réfléchi. Dans une langue étrangère, le Système 2 travaille déjà dur rien que pour trouver les mots. C'est pourquoi les phrases mémorisées sont un terrain solide : « Comment ça va ? » « Bien, merci, et vous ? » ne coûte presque rien.",
+      "say": "La distinction popularisée par Daniel Kahneman aide ici (c'est une simplification, mais utile). Le comportement scripté est surtout rapide et automatique : le Système 1. Les situations nouvelles demandent le Système 2, lent et réfléchi. Dans une langue étrangère, le Système 2 travaille déjà dur rien que pour trouver les mots. C'est pourquoi les phrases mémorisées sont un terrain solide : « Comment ça va ? » « Bien, merci, et vous ? » ne coûte presque rien.",
+      "beat": {
+        "duration": 33429,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie 2 : Que se passe-t-il quand le script se brise ?",
+      "say": "Partie 2 : Que se passe-t-il quand le script se brise ?",
+      "beat": {
+        "duration": 5143,
+        "camera": "focus",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "image",
+      "url": "images/off-script-flow-fr.svg",
+      "alt": "Schéma. Dans le script : une question, une réponse automatique, une conversation fluide. Hors script : une question, une réponse surprenante, planifier et traduire en même temps, puis le blocage. Votre boîte à outils : une expression tampon, puis réagir et demander, et la conversation continue.",
+      "caption": "**La même question, deux chemins.** Le problème n'est pas la surprise, c'est de n'avoir aucun plan pour elle."
+    },
+    {
+      "type": "paragraph",
+      "text": "La conversation est une activité conjointe. Les psychologues **Martin Pickering** et **Simon Garrod** décrivent le dialogue comme un *alignement interactif* : en parlant, nous nous alignons inconsciemment l'un sur l'autre, dans les mots choisis, les structures employées et le sens supposé. Un script facilite cet alignement, car les deux personnes savent ce qui vient ensuite.",
+      "say": "La conversation est une activité conjointe. Les psychologues Martin Pickering et Simon Garrod décrivent le dialogue comme un alignement interactif : en parlant, nous nous alignons inconsciemment l'un sur l'autre, dans les mots choisis, les structures employées et le sens supposé. Un script facilite cet alignement, car les deux personnes savent ce qui vient ensuite.",
+      "beat": {
+        "duration": 23571,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quand votre interlocuteur dit « Terrible », la prédiction échoue. Vous devez alors comprendre un message inattendu, décider comment réagir, trouver les mots et les prononcer, tout cela en même temps, dans une langue pas encore automatique. Ajoutez la pression du regard des autres : votre mémoire de travail est saturée. Le blocage, le bégaiement et le « court-circuit de robot » sont simplement l'aspect extérieur de cette surcharge.",
+      "say": "Quand votre interlocuteur dit « Terrible », la prédiction échoue. Vous devez alors comprendre un message inattendu, décider comment réagir, trouver les mots et les prononcer, tout cela en même temps, dans une langue pas encore automatique. Ajoutez la pression du regard des autres : votre mémoire de travail est saturée. Le blocage, le bégaiement et le « court-circuit de robot » sont simplement l'aspect extérieur de cette surcharge.",
+      "beat": {
+        "duration": 29571,
+        "camera": "pan-zoom",
+        "target": "#block-12"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Deux choses à retenir. D'abord, le blocage **ne prouve pas que vous êtes mauvais dans la langue**. Les locuteurs natifs se figent aussi quand la conversation part dans une direction inattendue ; ils ont simplement plus de matériel automatique sur lequel s'appuyer. Ensuite, le problème est souvent le **temps**. Vous connaissez beaucoup de mots. Il vous manque les secondes.",
+      "say": "Deux choses à retenir. D'abord, le blocage ne prouve pas que vous êtes mauvais dans la langue. Les locuteurs natifs se figent aussi quand la conversation part dans une direction inattendue ; ils ont simplement plus de matériel automatique sur lequel s'appuyer. Ensuite, le problème est souvent le temps. Vous connaissez beaucoup de mots. Il vous manque les secondes.",
+      "beat": {
+        "duration": 25286,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie 3 : C'est hors script qu'on apprend",
+      "say": "Partie 3 : C'est hors script qu'on apprend",
+      "beat": {
+        "duration": 3429,
+        "camera": "focus",
+        "target": "#block-14"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "J'avais la même peur. Comme enseignant et comme élève, j'aimais les dialogues bien préparés. Après des années auprès d'apprenants d'anglais, de français, d'italien, de russe, de grec et d'autres langues, j'ai changé d'avis. Un dialogue mémorisé est une répétition. Un échange inattendu est de la **vraie communication**.",
+      "say": "J'avais la même peur. Comme enseignant et comme élève, j'aimais les dialogues bien préparés. Après des années auprès d'apprenants d'anglais, de français, d'italien, de russe, de grec et d'autres langues, j'ai changé d'avis. Un dialogue mémorisé est une répétition. Un échange inattendu est de la vraie communication.",
+      "beat": {
+        "duration": 20143,
+        "camera": "pan-zoom",
+        "target": "#block-15"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Le sociologue **Erving Goffman** a montré que l'interaction quotidienne ne consiste pas à suivre un texte. Les gens gèrent constamment la situation : ils interprètent ce que fait l'autre, s'ajustent, réparent les petites gênes et s'aident mutuellement à « sauver la face ». Improviser est une compétence humaine normale, pas un signe d'échec. Quand vous trébuchez hors script, vous exercez exactement cette compétence dans une nouvelle langue.",
+      "say": "Le sociologue Erving Goffman a montré que l'interaction quotidienne ne consiste pas à suivre un texte. Les gens gèrent constamment la situation : ils interprètent ce que fait l'autre, s'ajustent, réparent les petites gênes et s'aident mutuellement à « sauver la face ». Improviser est une compétence humaine normale, pas un signe d'échec. Quand vous trébuchez hors script, vous exercez exactement cette compétence dans une nouvelle langue.",
+      "beat": {
+        "duration": 28714,
+        "camera": "pan-zoom",
+        "target": "#block-16"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Votre boîte à outils hors script",
+      "say": "Votre boîte à outils hors script",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-17"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseil 1 : Gagnez du temps avec des expressions tampons",
+      "say": "Conseil 1 : Gagnez du temps avec des expressions tampons",
+      "beat": {
+        "duration": 4286,
+        "camera": "focus",
+        "target": "#block-18"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quand la question inattendue arrive, ne répondez pas tout de suite. Dites d'abord une courte expression automatique. Elle donne à votre cerveau deux ou trois secondes et sonne naturel, car les locuteurs natifs en utilisent tout le temps.",
+      "say": "Quand la question inattendue arrive, ne répondez pas tout de suite. Dites d'abord une courte expression automatique. Elle donne à votre cerveau deux ou trois secondes et sonne naturel, car les locuteurs natifs en utilisent tout le temps.",
+      "beat": {
+        "duration": 16286,
+        "camera": "pan-zoom",
+        "target": "#block-19"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Langue",
+        "Commencez par…",
+        "Puis ajoutez…"
+      ],
+      "rows": [
+        [
+          "anglais",
+          "That's a good question…",
+          "Let me think for a second…"
+        ],
+        [
+          "français",
+          "C'est une bonne question…",
+          "Voyons voir… laissez-moi réfléchir."
+        ],
+        [
+          "italien",
+          "Bella domanda…",
+          "Allora… vediamo… dammi un attimo."
+        ],
+        [
+          "espagnol",
+          "Buena pregunta…",
+          "A ver… déjame pensar."
+        ],
+        [
+          "russe",
+          "Хороший вопрос…",
+          "Так… дайте подумать."
+        ],
+        [
+          "grec",
+          "Καλή ερώτηση…",
+          "Για να δω… να το σκεφτώ λίγο."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Choisissez **une** expression par langue et faites-en votre réflexe. Dites-la à voix haute dix fois, jusqu'à ce qu'elle ne demande plus aucune réflexion.",
+      "say": "Choisissez une expression par langue et faites-en votre réflexe. Dites-la à voix haute dix fois, jusqu'à ce qu'elle ne demande plus aucune réflexion.",
+      "beat": {
+        "duration": 9857,
+        "camera": "pan-zoom",
+        "target": "#block-21"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseil 2 : Visez la communication, pas la perfection",
+      "say": "Conseil 2 : Visez la communication, pas la perfection",
+      "beat": {
+        "duration": 3857,
+        "camera": "focus",
+        "target": "#block-22"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "L'anxiété du script vient souvent du perfectionnisme : la croyance cachée que chaque phrase doit sonner comme un manuel. Quand quelqu'un sort du script, votre perfectionniste intérieur panique, car le dialogue répété est ruiné. Changez d'objectif. La langue n'est pas un spectacle, c'est un lien. Utilisez des mots plus simples, des gestes ou la **périphrase** : expliquer un mot qu'on ne connaît pas en le décrivant. Le but est de se comprendre, pas de gagner un prix de grammaire.",
+      "say": "L'anxiété du script vient souvent du perfectionnisme : la croyance cachée que chaque phrase doit sonner comme un manuel. Quand quelqu'un sort du script, votre perfectionniste intérieur panique, car le dialogue répété est ruiné. Changez d'objectif. La langue n'est pas un spectacle, c'est un lien. Utilisez des mots plus simples, des gestes ou la périphrase : expliquer un mot qu'on ne connaît pas en le décrivant. Le but est de se comprendre, pas de gagner un prix de grammaire.",
+      "beat": {
+        "duration": 33857,
+        "camera": "pan-zoom",
+        "target": "#block-23"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "stop-translating-10-sentence-frames-fr.html",
+      "label": "→ À lire ensuite : 10 structures pour décrire n'importe quel mot",
+      "say": "→ À lire ensuite : 10 structures pour décrire n'importe quel mot",
+      "beat": {
+        "duration": 5143,
+        "camera": "pan-zoom",
+        "target": "#block-24"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseil 3 : Apprenez des scripts flexibles, pas rigides",
+      "say": "Conseil 3 : Apprenez des scripts flexibles, pas rigides",
+      "beat": {
+        "duration": 3857,
+        "camera": "focus",
+        "target": "#block-25"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Si vous mémorisez un dialogue entier mot à mot, vous vous effondrez quand l'autre ne le suit pas. Apprenez plutôt des **briques**. Une brique très utile est l'échelle en trois étapes : **réagir, demander, proposer**. Elle fonctionne pour presque toutes les surprises.",
+      "say": "Si vous mémorisez un dialogue entier mot à mot, vous vous effondrez quand l'autre ne le suit pas. Apprenez plutôt des briques. Une brique très utile est l'échelle en trois étapes : réagir, demander, proposer. Elle fonctionne pour presque toutes les surprises.",
+      "beat": {
+        "duration": 18000,
+        "camera": "pan-zoom",
+        "target": "#block-26"
+      }
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Langue",
+        "1. Réagir",
+        "2. Demander",
+        "3. Proposer"
+      ],
+      "rows": [
+        [
+          "anglais",
+          "Oh no…",
+          "What happened?",
+          "Do you want to talk about it?"
+        ],
+        [
+          "français",
+          "Oh non…",
+          "Qu'est-ce qui s'est passé ?",
+          "Vous voulez en parler ?"
+        ],
+        [
+          "italien",
+          "Oh no…",
+          "Che cosa è successo?",
+          "Vuoi parlarne?"
+        ],
+        [
+          "espagnol",
+          "Vaya…",
+          "¿Qué ha pasado?",
+          "¿Quieres hablar de ello?"
+        ],
+        [
+          "russe",
+          "Ой, нет…",
+          "Что случилось?",
+          "Хотите поговорить об этом?"
+        ],
+        [
+          "grec",
+          "Ωχ, όχι…",
+          "Τι συνέβη;",
+          "Θέλετε να το συζητήσουμε;"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La même idée marche pour les tâches quotidiennes. Au lieu d'apprendre un dialogue pour acheter un café, apprenez des phrases à trou que vous pouvez modifier :",
+      "say": "La même idée marche pour les tâches quotidiennes. Au lieu d'apprendre un dialogue pour acheter un café, apprenez des phrases à trou que vous pouvez modifier :",
+      "beat": {
+        "duration": 11571,
+        "camera": "pan-zoom",
+        "target": "#block-28"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je pourrais avoir un ___, s'il vous plaît ?",
+      "gloss": "Changez le blanc : un café crème, un thé, un sandwich.",
+      "context": "Commander",
+      "say": "Je pourrais avoir un , s'il vous plaît ?",
+      "beat": {
+        "duration": 3857,
+        "camera": "pan-zoom",
+        "target": "#block-29"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Ah, vous n'avez plus de ___ ? Qu'est-ce que vous me conseillez à la place ?",
+      "gloss": "Votre pivot pour toute surprise. La conversation devient une branche, pas un mur.",
+      "context": "Quand la réponse est « non »",
+      "say": "Ah, vous n'avez plus de ? Qu'est-ce que vous me conseillez à la place ?",
+      "beat": {
+        "duration": 6429,
+        "camera": "pan-zoom",
+        "target": "#block-30"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseil 4 : Redéfinissez l'« erreur »",
+      "say": "Conseil 4 : Redéfinissez l'« erreur »",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-31"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quand vous trébuchez, votre cerveau y voit une menace. Essayez de reformuler cette montée d'adrénaline. Au lieu de « j'ai tout raté, j'ai l'air bête », dites-vous la phrase ci-dessous. Le linguiste **Stephen Krashen** parlait de « filtre affectif » : l'anxiété bloque l'apprentissage. Cette hypothèse est discutée, mais la plupart des enseignants reconnaissent l'effet : les apprenants détendus parlent plus, et parler plus, c'est progresser.",
+      "say": "Quand vous trébuchez, votre cerveau y voit une menace. Essayez de reformuler cette montée d'adrénaline. Au lieu de « j'ai tout raté, j'ai l'air bête », dites-vous la phrase ci-dessous. Le linguiste Stephen Krashen parlait de « filtre affectif » : l'anxiété bloque l'apprentissage. Cette hypothèse est discutée, mais la plupart des enseignants reconnaissent l'effet : les apprenants détendus parlent plus, et parler plus, c'est progresser.",
+      "beat": {
+        "duration": 28286,
+        "camera": "pan-zoom",
+        "target": "#block-32"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Ah, je suis hors script. C'est ici que l'apprentissage réel commence.",
+      "gloss": "Dites-le dans votre tête, puis utilisez votre expression tampon.",
+      "context": "Voix intérieure",
+      "say": "Ah, je suis hors script. C'est ici que l'apprentissage réel commence.",
+      "beat": {
+        "duration": 4714,
+        "camera": "pan-zoom",
+        "target": "#block-33"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Petit quiz",
+      "say": "Petit quiz",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-34"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Le patient dit « Terrible ». Vous vous figez. Selon la théorie des scripts, pourquoi ?",
+      "options": [
+        "Votre vocabulaire est trop petit.",
+        "La situation ne correspond plus au script que vous suiviez.",
+        "Vous n'êtes pas assez doué pour les langues.",
+        "Les locuteurs natifs ne se figent jamais."
+      ],
+      "correctIndex": 1,
+      "explanation": "Un script prédit la suite. Quand la prédiction échoue, il faut passer du traitement automatique au traitement coûteux, et cela vous surcharge."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle est la meilleure première réaction après une question inattendue ?",
+      "options": [
+        "Traduire toute la réponse en silence dans sa tête.",
+        "Dire une expression tampon comme « C'est une bonne question… ».",
+        "Changer de sujet tout de suite.",
+        "S'excuser et arrêter de parler."
+      ],
+      "correctIndex": 1,
+      "explanation": "Une expression tampon est automatique, donc elle ne coûte rien, et elle donne à votre cerveau les secondes dont il a besoin."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle stratégie vous rend plus flexible dans les conversations ?",
+      "options": [
+        "Mémoriser des dialogues entiers mot à mot",
+        "Apprendre des briques interchangeables : réagir, demander, proposer",
+        "Ne parler que quand on est sûr à 100 %",
+        "Éviter les locuteurs natifs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les briques se recombinent. Un dialogue figé ne marche que si l'autre le suit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Votre entraînement hors script de 10 minutes",
+      "say": "Votre entraînement hors script de 10 minutes",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-38"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Choisissez votre **expression tampon** dans le tableau et dites-la dix fois à voix haute.",
+        "Posez à un ami (ou à un enregistreur vocal) cinq questions de routine : « Comment ça va ? », « Qu'as-tu fait aujourd'hui ? »…",
+        "Votre ami répond à chacune par une **réponse inattendue** : « Terrible », « J'ai perdu mes clés », « Je déménage en Norvège ».",
+        "Vous répondez avec la boîte à outils : **expression tampon, réagir, demander**.",
+        "Échangez les rôles. Puis enregistrez le deuxième tour et écoutez la différence."
+      ],
+      "say": "Choisissez votre expression tampon dans le tableau et dites-la dix fois à voix haute. Posez à un ami (ou à un enregistreur vocal) cinq questions de routine : « Comment ça va ? », « Qu'as-tu fait aujourd'hui ? »… Votre ami répond à chacune par une réponse inattendue : « Terrible », « J'ai perdu mes clés », « Je déménage en Norvège ». Vous répondez avec la boîte à outils : expression tampon, réagir, demander. Échangez les rôles. Puis enregistrez le deuxième tour et écoutez la différence.",
+      "beat": {
+        "duration": 38143,
+        "camera": "pan-zoom",
+        "target": "#block-39"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion",
+      "say": "Conclusion",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-40"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "La prochaine fois que vous vous figerez, n'y voyez pas un échec. C'est une invitation à sortir du modèle automatique et à rencontrer la vraie personne en face de vous. Dites votre expression tampon, réagissez, demandez, et gardez la conversation vivante.",
+      "say": "La prochaine fois que vous vous figerez, n'y voyez pas un échec. C'est une invitation à sortir du modèle automatique et à rencontrer la vraie personne en face de vous. Dites votre expression tampon, réagissez, demandez, et gardez la conversation vivante.",
+      "beat": {
+        "duration": 17571,
+        "camera": "pan-zoom",
+        "target": "#block-41"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Le moment où le script s'arrête est celui où la conversation commence.",
+      "say": "Le moment où le script s'arrête est celui où la conversation commence.",
+      "beat": {
+        "duration": 5143,
+        "camera": "pan-zoom",
+        "target": "#block-42"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sources et lectures complémentaires",
+      "say": "Sources et lectures complémentaires",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-43"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "Schank, R. & Abelson, R. (1977). *Scripts, Plans, Goals and Understanding.*",
+        "Pickering, M. & Garrod, S. (2004). Toward a mechanistic psychology of dialogue. *Behavioral and Brain Sciences, 27.*",
+        "Goffman, E. (1959). *The Presentation of Self in Everyday Life.*",
+        "Kahneman, D. (2011). *Thinking, Fast and Slow.*",
+        "Krashen, S. (1982). *Principles and Practice in Second Language Acquisition.*"
+      ],
+      "say": "Schank, R. & Abelson, R. (1977). Scripts, Plans, Goals and Understanding. Pickering, M. & Garrod, S. (2004). Toward a mechanistic psychology of dialogue. Behavioral and Brain Sciences, 27. Goffman, E. (1959). The Presentation of Self in Everyday Life. Kahneman, D. (2011). Thinking, Fast and Slow. Krashen, S. (1982). Principles and Practice in Second Language Acquisition.",
+      "beat": {
+        "duration": 23571,
+        "camera": "pan-zoom",
+        "target": "#block-44"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Entraînez-vous avec les exercices COSY",
+      "say": "Entraînez-vous avec les exercices COSY",
+      "beat": {
+        "duration": 3000,
+        "camera": "pan-zoom",
+        "target": "#block-45"
+      }
+    }
+  ],
+  "draft": false,
+  "translationOf": "why-do-we-freeze-when-conversations-go-off-script"
+}
