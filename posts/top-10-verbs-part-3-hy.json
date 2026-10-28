@@ -7,7 +7,7 @@
   "format": "list",
   "level": "A0–A1 / A2",
   "issue": {
-    "number": "Vol. 2027 — February Issue",
+    "number": "Vol. 2027.02",
     "title": "February Grammar & High Frequency Verbs"
   },
   "date": "2027-02-01",
@@ -34,10 +34,10 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "top-10-verbs-part-3-hy",
     "coverOverride": null
   },
