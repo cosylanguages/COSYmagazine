@@ -1273,6 +1273,74 @@ html[data-theme="dark"] .september-banner-content p {
   color: #99f6e4;
 }
 
+/* 7h. October Issue — "Saturday Mistakes & October Special" Handwritten Notebook & Vogue Vibe */
+
+.october-issue-banner {
+  background: linear-gradient(135deg, #fefce8 0%, #fef3c7 50%, #fed7aa 100%);
+  border: 2px dashed #d97706;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.october-issue-banner::before {
+  content: '📝 October Notebook Edition: Handwritten Notes & Saturday Mistakes';
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  font-family: 'Caveat', cursive, serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  transform: rotate(1deg);
+}
+
+.october-banner-badge {
+  background: #2563eb;
+  color: #ffffff;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-weight: 900;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  flex-shrink: 0;
+}
+
+.october-banner-content h4 {
+  margin: 0 0 0.25rem;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 1.15rem;
+  color: #1e293b;
+}
+
+.october-banner-content p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+html[data-theme="dark"] .october-issue-banner {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  border-color: #60a5fa;
+}
+
+html[data-theme="dark"] .october-banner-content h4 {
+  color: #e0e7ff;
+}
+
+html[data-theme="dark"] .october-banner-content p {
+  color: #c7d2fe;
+}
+
 /* 7d. COSY Verb Network Map & CEFR Roadmap Components */
 
 .verb-map-container {
@@ -1546,6 +1614,8 @@ html[data-theme="dark"] .september-banner-content p {
 }
 
 .ppt-box-hook strong {
+  font-family: 'Caveat', cursive, var(--post-font-accent, serif);
+  font-size: 1.2rem;
   color: #b45309;
   display: block;
   margin-bottom: 0.35rem;

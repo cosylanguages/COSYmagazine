@@ -34,10 +34,10 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "stage-demo-podcast",
     "coverOverride": null
   },

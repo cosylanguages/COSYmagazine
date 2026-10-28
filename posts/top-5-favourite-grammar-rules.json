@@ -36,10 +36,10 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "doodle-border",
+    "motif": "notebook-handwritten",
     "seed": "top-5-favourite-grammar-rules",
     "coverOverride": null
   },
@@ -271,6 +271,10 @@
     {
       "type": "paragraph",
       "text": "  <p>Mastering grammar isn't about avoiding mistakes: it is about adopting Shakespeare's creative courage to make your spoken and written voice memorable, natural, and uniquely yours!</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "  <div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n      <h3 class=\"printable-reference-title\">📋 Top 5 English Grammar Rules Reference Table</h3>\n      <button type=\"button\" class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Print / Save as PDF Table</button>\n    </div>\n    <table class=\"printable-reference-table\">\n      <thead>\n        <tr>\n          <th>Rule</th>\n          <th>Function & Suffix</th>\n          <th>Example & Usage</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>1. Suffix Softeners</strong></td>\n          <td><code>-ish</code>, <code>-like</code>, <code>-esque</code></td>\n          <td><em>\"Seven-ish\"</em>, <em>\"van-Gogh-esque sunset\"</em></td>\n        </tr>\n        <tr>\n          <td><strong>2. Emotional Stative</strong></td>\n          <td>Continuous stative shift</td>\n          <td><em>\"I'm loving this tea!\"</em></td>\n        </tr>\n        <tr>\n          <td><strong>3. Action Verbing</strong></td>\n          <td>Noun continuous state</td>\n          <td><em>\"My brain is not braining.\"</em></td>\n        </tr>\n        <tr>\n          <td><strong>4. Zero-Derivation</strong></td>\n          <td>Noun to verb shift</td>\n          <td><em>\"To spearhead\"</em>, <em>\"Desk-lunching\"</em></td>\n        </tr>\n        <tr>\n          <td><strong>5. Vibe Evaluator</strong></td>\n          <td><code>\"It's giving...\"</code></td>\n          <td><em>\"It's giving main character energy.\"</em></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>"
     },
     {
       "type": "paragraph",

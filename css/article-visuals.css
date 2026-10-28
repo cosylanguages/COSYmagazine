@@ -348,6 +348,97 @@ html[data-theme="dark"] .notebook-margin-line {
   border-left-color: rgba(251, 113, 133, 0.45);
 }
 
+/* Printable Reference Sheet & Vogue Cheat-Sheet Cards */
+.printable-reference-card {
+  background: var(--blog-paper-card, #ffffff);
+  border: 2px solid var(--blog-border-strong, #292524);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.printable-reference-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--blog-border-strong, #292524);
+}
+
+.printable-reference-title {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--post-palette-text, #1c1917);
+  margin: 0;
+}
+
+.print-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2);
+  transition: all 0.2s ease;
+}
+
+.print-download-btn:hover,
+.print-download-btn:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(13, 148, 136, 0.3);
+}
+
+.printable-reference-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.printable-reference-table th,
+.printable-reference-table td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  text-align: left;
+}
+
+.printable-reference-table th {
+  background: var(--blog-paper-aged, #f3ede4);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-weight: 800;
+}
+
 @media print {
+  body * {
+    visibility: hidden;
+  }
+  .printable-reference-card,
+  .printable-reference-card * {
+    visibility: visible;
+  }
+  .printable-reference-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+  }
+  .print-download-btn {
+    display: none !important;
+  }
   .cosy-fig, .vcard, .ba, .plan7 { box-shadow: none; }
 }
