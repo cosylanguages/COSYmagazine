@@ -616,7 +616,10 @@
                         const pNum = idx + 1;
                         if (pNum === leftPageNum || pNum === rightPageNum) {
                             p.classList.add('active');
-                            p.style.display = 'block';
+                            p.style.display = 'flex';
+                            p.style.flexDirection = 'column';
+                            p.style.justifyContent = 'space-between';
+                            p.style.height = '100%';
                             p.style.opacity = '1';
                             p.classList.toggle('spread-left', pNum === leftPageNum);
                             p.classList.toggle('spread-right', pNum === rightPageNum);
