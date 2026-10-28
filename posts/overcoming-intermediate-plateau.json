@@ -119,6 +119,30 @@
       ],
       "correctIndex": 1,
       "explanation": "At B1, learners can communicate basic ideas but stagnate because they default to a small group of safe phrases. Adopting natural phrase upgrades breaks through to B2 fluency."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Academic Bibliography & SLA References"
+    },
+    {
+      "type": "paragraph",
+      "text": "The pedagogical strategies in this issue on overcoming intermediate plateaus are grounded in second language acquisition (SLA) literature and corpus linguistics research:"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Ellis, R. (2008).** *The Study of Second Language Acquisition (2nd ed.).* Oxford University Press.",
+        "**Hinkel, E. (2002).** *Second Language Writers' Text: Linguistic and Rhetorical Features.* Lawrence Erlbaum Associates."
+      ]
     }
   ],
   "draft": false

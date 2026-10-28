@@ -352,6 +352,10 @@
       "text": "Transition words connect ideas logically and keep long turn-taking fluid:"
     },
     {
+      "type": "paragraph",
+      "text": "\n<div class=\"print-table-wrapper\" style=\"margin: 2rem 0; padding: 1.25rem; background: var(--blog-paper-card, #ffffff); border: 2px solid var(--post-palette-accent, #0d9488); border-radius: 12px;\">\n    <div style=\"display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.15)); padding-bottom: 0.75rem;\">\n        <div>\n            <h3 style=\"margin: 0; color: var(--post-palette-accent, #0d9488); font-family: var(--font-serif);\">📊 Complete Vocabulary Reference Table</h3>\n            <p style=\"margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--ink-muted, #4a4a4a);\">Full list of B1 intermediate default expressions and B2 natural upgrades.</p>\n        </div>\n        <button type=\"button\" onclick=\"window.print()\" class=\"blog-print-btn\" style=\"display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--post-palette-accent, #0d9488); color: #ffffff; border: none; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 0.88rem;\">\n            🖨️ Print / Save Table (PDF)\n        </button>\n    </div>\n</div>\n"
+    },
+    {
       "type": "table",
       "headers": [
         "Basic Connector",
@@ -709,6 +713,30 @@
     {
       "type": "paragraph",
       "text": "Try picking **three phrases** from this list every week and actively applying them during your speaking club or writing practice!"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Academic Bibliography & SLA References"
+    },
+    {
+      "type": "paragraph",
+      "text": "The pedagogical strategies in this issue on overcoming intermediate plateaus are grounded in second language acquisition (SLA) literature and corpus linguistics research:"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Ellis, R. (2008).** *The Study of Second Language Acquisition (2nd ed.).* Oxford University Press.",
+        "**Hinkel, E. (2002).** *Second Language Writers' Text: Linguistic and Rhetorical Features.* Lawrence Erlbaum Associates."
+      ]
     }
   ],
   "draft": false

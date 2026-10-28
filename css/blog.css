@@ -947,7 +947,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     perspective: 1400px;
-    align-items: start;
+    align-items: stretch;
     background: var(--warm-white, #fdfbf7);
     border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
     border-radius: 12px;
@@ -960,6 +960,12 @@ h1, h2, h3, h4, h5, h6 {
     backface-visibility: hidden;
     will-change: opacity, transform;
     transition: opacity 0.15s ease-out;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .post-full-content.flipbook-mode .flipbook-page.active {
@@ -2134,4 +2140,71 @@ html[data-theme="dark"] .speed-btn:not(.active) {
 
 html[data-theme="dark"] .speed-label {
     color: #a0aaa1 !important;
+}
+
+/* September Issue Banner */
+.september-issue-banner {
+    width: 100%;
+    min-width: 0;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin: 1rem 0 1.5rem 0;
+    padding: 1.25rem;
+    border: 2px dashed #0d9488;
+    border-radius: 12px;
+    background: rgba(13, 148, 136, 0.05);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.september-banner-badge {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 0.35rem 0.85rem;
+    background: #0d9488;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 999px;
+    letter-spacing: 0.03em;
+}
+
+.september-banner-content {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.september-banner-content h4 {
+    margin: 0 0 0.35rem 0;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.2rem;
+    color: var(--blog-ink-primary, #181614);
+}
+
+.september-banner-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--blog-ink-secondary, #44403c);
+}
+
+html[data-theme="dark"] .september-issue-banner {
+    border-color: #2dd4bf;
+    background: rgba(45, 212, 191, 0.08);
+}
+
+html[data-theme="dark"] .september-banner-badge {
+    background: #0d9488;
+    color: #ffffff;
+}
+
+html[data-theme="dark"] .september-banner-content h4 {
+    color: #f5f5f4;
+}
+
+html[data-theme="dark"] .september-banner-content p {
+    color: #d6d3d1;
 }
