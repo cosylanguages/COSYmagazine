@@ -213,12 +213,22 @@
             });
         },
 
+        // A two-page spread needs about 520px of text per page (~1200px window).
+        // Below that, show one page at a time. Half of a 1920px screen is ~960px.
+        SPREAD_MIN_WIDTH: 1200,
+
+        isSingleView: function () {
+            return window.innerWidth < this.SPREAD_MIN_WIDTH;
+        },
+
         buildSpreads: function () {
-            const isMobile = window.innerWidth <= 860;
+            const isMobile = this.isSingleView();
             this.container.classList.add('flipbook-3d-stage');
             if (isMobile) {
                 this.container.classList.add('mobile-single-view');
                 this.container.classList.remove('desktop-spread-view');
+                this.container.querySelectorAll('.flipbook-page.spread-left, .flipbook-page.spread-right')
+                    .forEach(p => p.classList.remove('spread-left', 'spread-right'));
             } else {
                 this.container.classList.remove('mobile-single-view');
                 this.container.classList.add('desktop-spread-view');
@@ -591,14 +601,28 @@
                 startY = 0;
             }, { passive: true });
 
-            window.addEventListener('resize', () => this.buildSpreads());
+            // Re-render the visible pages when the window crosses the spread breakpoint
+            // (e.g. snapping the window to half the screen). Toggling the class alone
+            // left the previous layout's pages on screen.
+            let wasSingle = this.isSingleView();
+            let resizeTimer = null;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(() => {
+                    const nowSingle = this.isSingleView();
+                    if (nowSingle === wasSingle) return;
+                    wasSingle = nowSingle;
+                    this.buildSpreads();
+                    this.showPage(this.currentPage, false);
+                }, 120);
+            });
         },
 
         showPage: function (pageIndex, updateHistory = true) {
             if (pageIndex < 1) pageIndex = 1;
             if (pageIndex > this.totalPages) pageIndex = this.totalPages;
 
-            const isMobile = window.innerWidth <= 860;
+            const isMobile = this.isSingleView();
 
             // In 2-page desktop mode, normalize current page to odd page (left side of spread)
             if (this.mode === 'flipbook' && !isMobile) {
@@ -672,7 +696,7 @@
         },
 
         nextPage: function () {
-            const isMobile = window.innerWidth <= 860;
+            const isMobile = this.isSingleView();
             const step = (!isMobile && this.mode === 'flipbook') ? 2 : 1;
             if (this.currentPage + step <= this.totalPages) {
                 this.showPage(this.currentPage + step);
@@ -682,7 +706,7 @@
         },
 
         prevPage: function () {
-            const isMobile = window.innerWidth <= 860;
+            const isMobile = this.isSingleView();
             const step = (!isMobile && this.mode === 'flipbook') ? 2 : 1;
             if (this.currentPage - step >= 1) {
                 this.showPage(this.currentPage - step);

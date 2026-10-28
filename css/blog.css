@@ -2219,3 +2219,12 @@ html[data-theme="dark"] .september-banner-content h4 {
 html[data-theme="dark"] .september-banner-content p {
     color: #d6d3d1;
 }
+
+/* Reading measure: when a single page is shown (window narrower than the two-page
+   spread breakpoint, or scroll mode) keep lines to a comfortable length and centre them. */
+.post-full-content.flipbook-mode.mobile-single-view .flipbook-page,
+.post-full-content.scroll-mode .flipbook-page {
+    max-width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+}
