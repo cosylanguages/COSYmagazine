@@ -9,16 +9,17 @@
     "number": "Vol. 2026.09",
     "title": "Me vs Intermediate Plateau"
   },
-  "date": "2026-02-10",
+  "date": "2026-09-01",
   "title": "Overcoming the Intermediate Plateau (B1 to B2)",
   "kicker": "LONG READS",
-  "dek": "Many students feel stuck when moving from basic conversations to expressing nuanced opinions. Here is how active contrast learning and collocation practice break the wall.",
+  "dek": "Stuck in a conversational loop reusing the same basic words? Here is how phrase-level upgrades, stronger adjectives, and precise verb synonyms break the ceiling.",
   "tags": [
     "Fluency",
     "B1-B2",
-    "Methodology"
+    "Methodology",
+    "Upgrades"
   ],
-  "readingTime": 1,
+  "readingTime": 5,
   "podcast": {
     "episode": 5,
     "audioUrl": "audio/overcoming-intermediate-plateau.mp3"
@@ -33,18 +34,92 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "overcoming-intermediate-plateau",
     "coverOverride": null
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "*Draft article content coming soon...*"
+      "text": "\n<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Me vs Intermediate Plateau</div>\n    <div class=\"september-banner-content\">\n        <h4>Special Edition: Breaking the B1–B2 Ceiling</h4>\n        <p>Welcome to our September notebook special issue! Discover how active contrast learning, phrase upgrades, stronger adjectives, and precise verb synonyms elevate your conversational fluency.</p>\n    </div>\n</div>\n"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reaching CEFR B1 is a major achievement in any language. You can comfortably order food, ask for directions, share simple stories, and survive daily interactions without panic. But after a few months at this level, almost every learner runs into an invisible wall: <mark class=\"hl-handwritten\">the Intermediate Plateau</mark>."
+    },
+    {
+      "type": "paragraph",
+      "text": "You find yourself relying on the same tight circle of \"safe\" phrases in every discussion—defaulting over and over to <span class=\"doodle-circle\">\"I think\"</span>, <span class=\"doodle-circle\">\"I agree\"</span>, <span class=\"doodle-circle\">\"very tired\"</span>, or <span class=\"doodle-circle\">\"walk\"</span>. You can communicate your main points, but your speech lacks subtlety, warmth, and stylistic range."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Comfort Trap: Why Learners Stall at CEFR B1"
+    },
+    {
+      "type": "paragraph",
+      "text": "The intermediate plateau occurs because basic fluency creates a false sense of security. Because native speakers understand your basic sentences, your brain stops searching for richer vocabulary under conversational pressure."
+    },
+    {
+      "type": "culture-bite",
+      "title": "💡 Teacher's Notebook Note",
+      "content": "Language learners stay stuck at B1 not because they lack grammar knowledge, but because they reuse 5% of their vocabulary 95% of the time. <span class=\"handwritten-note\">Upgrading doesn't mean memorizing dictionary obscure words—it means substituting overused defaults with natural conversational upgrades!</span>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Three Levers to Break the B1–B2 Ceiling"
+    },
+    {
+      "type": "paragraph",
+      "text": "To move from functional communication (B1) to expressive, natural fluency (B2), focus on three action-oriented linguistic levers:"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Conversational Phrase Upgrades**: Replace blunt intermediate defaults (*\"I agree\"*, *\"I don't know\"*) with nuanced conversational frames (*\"I couldn't agree more\"*, *\"I'm on the fence\"*).",
+        "**2. Adjective Precision**: Eliminate lazy modifiers like *\"very\"* (*\"very cold\"* → *\"freezing\"*, *\"very big\"* → *\"massive\"*).",
+        "**3. Precise Verb Synonyms**: Swap generic action verbs (*\"look\"*, *\"walk\"*, *\"make\"*) for vivid, situation-specific verbs (*\"glance\"*, *\"stroll\"*, *\"craft\"*)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 September Issue Master Guides & Language Hub"
+    },
+    {
+      "type": "paragraph",
+      "text": "\n<section style=\"margin: 1.5rem 0; padding: 1.5rem; background: var(--blog-paper-card, #ffffff); border-radius: 12px; border: 2px solid var(--post-palette-accent, #0d9488);\">\n    <h3 style=\"margin-top:0; color: var(--post-palette-accent, #0d9488);\">🌐 5 Languages Intermediate Upgrade Hub</h3>\n    <p style=\"margin-bottom:1.25rem;\">Select any target language below to explore our detailed September guides with rich phrase examples, natural upgrades, and direct contrasts:</p>\n    \n    <div style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;\">\n        <div style=\"padding: 1rem; background: var(--blog-paper-aged, #f3ede4); border-radius: 8px; border: 1px solid var(--blog-border-delicate, #e7e0d6);\">\n            <h4 style=\"margin:0 0 0.5rem; color:#0d9488;\">💬 50 Overused Phrases Upgrades</h4>\n            <p style=\"font-size:0.88rem; margin-bottom:0.75rem;\">Transform repetitive intermediate filler phrases into natural expressions.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:0.35rem;\">\n                <a href=\"replace-50-overused-phrases.html\" class=\"lang-switcher-link\">🇬🇧 EN</a>\n                <a href=\"replace-50-overused-phrases-fr.html\" class=\"lang-switcher-link\">🇫🇷 FR</a>\n                <a href=\"replace-50-overused-phrases-it.html\" class=\"lang-switcher-link\">🇮🇹 IT</a>\n                <a href=\"replace-50-overused-phrases-ru.html\" class=\"lang-switcher-link\">🇷🇺 RU</a>\n                <a href=\"replace-50-overused-phrases-el.html\" class=\"lang-switcher-link\">🇬🇷 EL</a>\n            </div>\n        </div>\n\n        <div style=\"padding: 1rem; background: var(--blog-paper-aged, #f3ede4); border-radius: 8px; border: 1px solid var(--blog-border-delicate, #e7e0d6);\">\n            <h4 style=\"margin:0 0 0.5rem; color:#0d9488;\">⚡ 50 Stronger Adjectives (Stop Saying \"Very\")</h4>\n            <p style=\"font-size:0.88rem; margin-bottom:0.75rem;\">Swap weak adjective combinations for vivid, single-word upgrades.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:0.35rem;\">\n                <a href=\"replace-very-50-stronger-adjectives.html\" class=\"lang-switcher-link\">🇬🇧 EN</a>\n                <a href=\"replace-very-50-stronger-adjectives-fr.html\" class=\"lang-switcher-link\">🇫🇷 FR</a>\n                <a href=\"replace-very-50-stronger-adjectives-it.html\" class=\"lang-switcher-link\">🇮🇹 IT</a>\n                <a href=\"replace-very-50-stronger-adjectives-ru.html\" class=\"lang-switcher-link\">🇷🇺 RU</a>\n                <a href=\"replace-very-50-stronger-adjectives-el.html\" class=\"lang-switcher-link\">🇬🇷 EL</a>\n            </div>\n        </div>\n\n        <div style=\"padding: 1rem; background: var(--blog-paper-aged, #f3ede4); border-radius: 8px; border: 1px solid var(--blog-border-delicate, #e7e0d6);\">\n            <h4 style=\"margin:0 0 0.5rem; color:#0d9488;\">🎯 Top 10 Verb Synonyms</h4>\n            <p style=\"font-size:0.88rem; margin-bottom:0.75rem;\">Master precise verb synonyms for the 10 most common everyday actions.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:0.35rem;\">\n                <a href=\"top-10-verb-synonyms-intermediate-plateau.html\" class=\"lang-switcher-link\">🇬🇧 EN</a>\n                <a href=\"top-10-verb-synonyms-intermediate-plateau-fr.html\" class=\"lang-switcher-link\">🇫🇷 FR</a>\n                <a href=\"top-10-verb-synonyms-intermediate-plateau-it.html\" class=\"lang-switcher-link\">🇮🇹 IT</a>\n                <a href=\"top-10-verb-synonyms-intermediate-plateau-ru.html\" class=\"lang-switcher-link\">🇷🇺 RU</a>\n                <a href=\"top-10-verb-synonyms-intermediate-plateau-el.html\" class=\"lang-switcher-link\">🇬🇷 EL</a>\n            </div>\n        </div>\n    </div>\n</section>\n"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7-Day Action Plan to Break Out of the B1–B2 Plateau"
+    },
+    {
+      "type": "paragraph",
+      "text": "Follow this simple 7-day routine to turn theoretical vocabulary upgrades into active speaking habits:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\n<ol class=\"plan7\">\n    <li><span class=\"plan-day\">Day 1</span> <span class=\"plan-task\"><strong>Audit your defaults</strong>: Note down 3 overused phrases you rely on every day (e.g., \"I think\", \"very good\").</span></li>\n    <li><span class=\"plan-day\">Day 2</span> <span class=\"plan-task\"><strong>Pick 5 phrase upgrades</strong>: Select 5 natural replacements from our 50 Overused Phrases guide and write them in your notebook.</span></li>\n    <li><span class=\"plan-day\">Day 3</span> <span class=\"plan-task\"><strong>Adjective swap</strong>: Replace \"very + adjective\" combinations with 5 strong single-word adjectives.</span></li>\n    <li><span class=\"plan-day\">Day 4</span> <span class=\"plan-task\"><strong>Verb precision</strong>: Practice substituting 3 generic verbs (make, walk, look) with precise synonyms.</span></li>\n    <li><span class=\"plan-day\">Day 5</span> <span class=\"plan-task\"><strong>Shadowing practice</strong>: Listen to a 2-minute native audio clip and mirror their phrase choices.</span></li>\n    <li><span class=\"plan-day\">Day 6</span> <span class=\"plan-task\"><strong>Self-recording challenge</strong>: Record a 60-second voice note sharing an opinion using at least 3 new phrase upgrades.</span></li>\n    <li><span class=\"plan-day\">Day 7</span> <span class=\"plan-task\"><strong>Live conversation test</strong>: Use your new expressions in a real conversation, language exchange, or lesson!</span></li>\n</ol>\n"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the primary reason language learners feel stuck at the B1 intermediate plateau?",
+      "options": [
+        "They do not know enough rare grammatical tenses",
+        "They reuse a tiny core of safe default phrases instead of adopting nuanced alternatives",
+        "They need to memorize 5,000 extra dictionary words",
+        "They avoid speaking with native speakers entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "At B1, learners can communicate basic ideas but stagnate because they default to a small group of safe phrases. Adopting natural phrase upgrades breaks through to B2 fluency."
     }
   ],
-  "draft": true
+  "draft": false
 }

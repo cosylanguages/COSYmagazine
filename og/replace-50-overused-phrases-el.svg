@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-50-overused-phrases-el" data-lang="el">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="replace-50-overused-phrases-el" data-lang="el">
       <defs>
         <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
@@ -20,20 +20,17 @@
       
     <rect width="1200" height="630" fill="#d69e2e" />
     
-      <ellipse cx="1110" cy="204" rx="193" ry="77" fill="#faf7f2" opacity="0.15" transform="rotate(71 1110 204)" style="filter: blur(12px);" />
-      <ellipse cx="1120" cy="199" rx="115.8" ry="46.199999999999996" fill="#236583" opacity="0.12" transform="rotate(71 1110 204)" style="filter: blur(8px);" />
+      <polygon points="504,529 333,615 334,444" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="380" cy="303" rx="181" ry="76" fill="#faf7f2" opacity="0.15" transform="rotate(174 380 303)" style="filter: blur(12px);" />
-      <ellipse cx="390" cy="298" rx="108.6" ry="45.6" fill="#236583" opacity="0.12" transform="rotate(174 380 303)" style="filter: blur(8px);" />
+      <polygon points="431,412 357,795 -32,747 -97,461 8,245 292,121" fill="#236583" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="442" cy="246" rx="105" ry="122" fill="#faf7f2" opacity="0.15" transform="rotate(314 442 246)" style="filter: blur(12px);" />
-      <ellipse cx="452" cy="241" rx="63" ry="73.2" fill="#236583" opacity="0.12" transform="rotate(314 442 246)" style="filter: blur(8px);" />
+      <polygon points="823,506 753,604 654,568 688,470 756,444" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="904" cy="188" rx="118" ry="110" fill="#faf7f2" opacity="0.15" transform="rotate(357 904 188)" style="filter: blur(12px);" />
-      <ellipse cx="914" cy="183" rx="70.8" ry="66" fill="#236583" opacity="0.12" transform="rotate(357 904 188)" style="filter: blur(8px);" />
+      <polygon points="528,82 447,126 418,26" fill="#236583" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <ellipse cx="662" cy="465" rx="118" ry="72" fill="#faf7f2" opacity="0.15" transform="rotate(49 662 465)" style="filter: blur(12px);" />
-      <ellipse cx="672" cy="460" rx="70.8" ry="43.199999999999996" fill="#236583" opacity="0.12" transform="rotate(49 662 465)" style="filter: blur(8px);" />
+      <polygon points="780,268 730,331 649,323 646,218 758,202" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="469,561 115,811 -179,478 82,101" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
   
       
@@ -51,14 +48,14 @@
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1016,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1036,157.5 1016,0" fill="#FCF9F2" opacity="0.9" stroke="#236583" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="958,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 978,157.5 958,0" fill="#FCF9F2" opacity="0.9" stroke="#236583" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
-    <g transform="rotate(2 672 39)" filter="url(#soft-shadow)">
-      <rect x="612" y="27" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
-      <line x1="612" y1="27" x2="612" y2="51" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
-      <line x1="732" y1="27" x2="732" y2="51" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    <g transform="rotate(5 330 30)" filter="url(#soft-shadow)">
+      <rect x="270" y="18" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="270" y1="18" x2="270" y2="42" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="390" y1="18" x2="390" y2="42" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       

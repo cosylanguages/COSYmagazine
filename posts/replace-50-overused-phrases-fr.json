@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-50-overused-phrases-fr",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Plateau Intermédiaire</div>\n    <div class=\"september-banner-content\">\n        <h4>Édition Spéciale : Dépasser le Niveau B1–B2</h4>\n        <p>Bienvenue dans notre numéro spécial carnet de septembre ! Découvrez les meilleures expressions et synonymes pour enrichir votre vocabulaire.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Lorsque vous atteignez le **plateau intermédiaire (B1–B2)**, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions \"de sécurité\" : *\"Je pense que...\"*, *\"Je suis d'accord\"*, *\"Ça dépend\"*, ou *\"Je ne sais pas\"*."

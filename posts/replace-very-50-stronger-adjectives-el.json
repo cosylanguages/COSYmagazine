@@ -35,14 +35,18 @@
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "replace-very-50-stronger-adjectives-el",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Ενδιάμεσο Πλατώ B1–B2</div>\n    <div class=\"september-banner-content\">\n        <h4>Ειδική Έκδοση: Ξεπερνώντας το Ενδιάμεσο Επίπεδο</h4>\n        <p>Καλώς ήρθατε στο ειδικό τετράδιο Σεπτεμβρίου! Ανακαλύψτε φυσικές εναλλακτικές φράσεις και ακριβή συνώνυμα.</p>\n    </div>\n</div>"
+    },
     {
       "type": "paragraph",
       "text": "Ένα από τα πιο χαρακτηριστικά σημάδια του **ενδιάμεσου επιπέδου (B1–B2)** είναι η υπερβολική χρήση του επιρρήματος **\"πολύ\"** για την ενίσχυση των καθημερινών επιθέτων."
