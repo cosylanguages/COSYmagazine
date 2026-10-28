@@ -1140,17 +1140,29 @@ html[data-theme="dark"] .gazette-masthead-meta {
 /* 7e. August Issue — "Get Ready for School" Back-to-School Vibe & Atmosphere */
 
 .august-issue-banner {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 50%, #fef3c7 100%);
-  border: 2px dashed #d97706;
+  background: linear-gradient(135deg, #fffde7 0%, #fef08a 50%, #fef9c3 100%);
+  border: 2px dashed #0d9488;
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0 2rem;
-  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
+  box-shadow: 0 8px 24px rgba(13, 148, 136, 0.12);
   display: flex;
   align-items: center;
   gap: 1.25rem;
   position: relative;
   overflow: hidden;
+}
+
+.august-issue-banner::before {
+  content: '✏️ Note: August Issue — Editorial Notebook';
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  font-family: 'Caveat', cursive, serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  transform: rotate(2deg);
 }
 
 .august-banner-badge {

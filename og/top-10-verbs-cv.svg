@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="editorial-stars" data-seed="top-10-verbs-cv" data-lang="cv">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="top-10-verbs-cv" data-lang="cv">
       <defs>
         <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
@@ -18,11 +18,11 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#1e293b" />
+    <rect width="1200" height="630" fill="#f59e0b" />
     
       <polygon points="361,505 133,733 -134,407 180,227" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
-      <polygon points="1048,546 895,880 601,871 385,540 607,299 852,184" fill="#fef3c7" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+      <polygon points="1048,546 895,880 601,871 385,540 607,299 852,184" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
       <polygon points="419,334 311,412 313,267" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
     
@@ -41,7 +41,7 @@
       </g>
     
       <g transform="rotate(1 450.5 189)">
-        <rect x="260" y="80" width="381" height="218" rx="6" fill="#fef3c7" opacity="0.3" stroke="#9E5B15" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="260" y="80" width="381" height="218" rx="6" fill="#faf7f2" opacity="0.3" stroke="#9E5B15" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       
@@ -51,7 +51,7 @@
   
       
     <g transform="rotate(3 312 47)" filter="url(#soft-shadow)">
-      <rect x="252" y="35" width="120" height="24" rx="2" fill="#fef3c7" opacity="0.45" />
+      <rect x="252" y="35" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
       <line x1="252" y1="35" x2="252" y2="59" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="372" y1="35" x2="372" y2="59" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
@@ -59,33 +59,33 @@
       
     <g class="cover-tiny-doodles" stroke="#9E5B15" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
-      <path d="M 908 84 Q 908 96 920 96 Q 908 96 908 108 Q 908 96 896 96 Q 908 96 908 84 Z" fill="#fef3c7" opacity="0.3" />
-      <path d="M 953 126 Q 953 134 961 134 Q 953 134 953 142 Q 953 134 945 134 Q 953 134 953 126 Z" stroke="#fef3c7" stroke-width="1" />
+      <path d="M 908 84 Q 908 96 920 96 Q 908 96 908 108 Q 908 96 896 96 Q 908 96 908 84 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 953 126 Q 953 134 961 134 Q 953 134 953 142 Q 953 134 945 134 Q 953 134 953 126 Z" stroke="#faf7f2" stroke-width="1" />
       <!-- Botanical sprig doodle -->
       <path d="M 51 144 C 61 129, 46 109, 66 94" />
       <circle cx="55" cy="129" r="3" fill="#9E5B15" opacity="0.5" />
-      <circle cx="61" cy="112" r="3" fill="#fef3c7" opacity="0.5" />
+      <circle cx="61" cy="112" r="3" fill="#faf7f2" opacity="0.5" />
     </g>
   
       
     <g class="cover-sketchy-underline">
-      <path d="M 66 570 Q 159 567 252 567" stroke="#fef3c7" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 66 570 Q 159 567 252 567" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
       <path d="M 76 573 Q 159 570 242 572" stroke="#9E5B15" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
   
       
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
-      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#fef3c7" stroke-width="1.2" />
-      <text x="34" y="40" fill="#d97706" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
+      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
   
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="460" width="1152" height="146" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#9E5B15" stroke-width="1.2" />
-        <text x="54" y="498" fill="#9E5B15" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">ЧĂВАШ ЧĔЛХИН СУМЛĂ ГИДĔ — 1-МĔШ ПАЙ (ПĔТĔМПЕ 2 ПАЙ) • Vol. 2026 — August Issue</text>
-        <text x="54" y="536" fill="#d97706" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Чăваш чĕлхинчи чи кирлĕ 10</text>
-<text x="54" y="572" fill="#d97706" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">глагол (A0–A1 / A2)</text>
+        <text x="54" y="498" fill="#9E5B15" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">ЧĂВАШ ЧĔЛХИН СУМЛĂ ГИДĔ — 1-МĔШ ПАЙ (ПĔТĔМПЕ 2 ПАЙ) • Vol. 2026.08</text>
+        <text x="54" y="536" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Чăваш чĕлхинчи чи кирлĕ 10</text>
+<text x="54" y="572" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">глагол (A0–A1 / A2)</text>
       </g>
     
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
