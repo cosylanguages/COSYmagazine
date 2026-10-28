@@ -39,11 +39,15 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "playful-brain-neuroplasticity",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — November Academia</div>\n    <div class=\"november-banner-content\">\n        <h4>Special Issue: Neuroplasticity & Playful Brains</h4>\n        <p>Welcome to our November Academia notebook issue! Unlocking cognitive elasticity, dopamine-driven curiosity, and low-affective-filter speaking practices.</p>\n    </div>\n</div>"
+    },
     {
       "type": "culture-bite",
       "title": "Editorial Letter from Founder JY DM — November Academia",
@@ -57,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Welcome to **COSYtalks** and our November **Mind Matters speaking club** session! Today, we are exploring one of the most exciting concepts in cognitive science: **neuroplasticity**—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life.",
+      "text": "Welcome to **COSYtalks** and our November **Mind Matters speaking club** session! Today, we are exploring one of the most exciting concepts in cognitive science: **neuroplasticity**—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life. <span class=\"handwritten-note\">🧠 Synaptic Elasticity!</span>",
       "say": "Welcome to COSYtalks and our November Mind Matters speaking club session! Today, we are exploring one of the most exciting concepts in cognitive science: neuroplasticity—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life.",
       "beat": {
         "duration": 7000,
@@ -67,7 +71,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-callout\"><strong>Neuroscience Note:</strong> Playful language learning reduces emotional friction and triggers dopamine release, consolidating long-term memory pathways.</div>"
+      "text": "<div class=\"cosy-callout\"><strong>Neuroscience Note:</strong> Playful language learning reduces emotional friction and triggers dopamine release, consolidating long-term memory pathways. <span class=\"doodle-circle\">Dopamine Boost!</span></div>"
     },
     {
       "type": "paragraph",
@@ -92,7 +96,7 @@
     },
     {
       "type": "paragraph",
-      "text": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to **play with language**.",
+      "text": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to **play with language**. <span class=\"notebook-margin-note\">💡 Rigidity vs Plasticity: Play with grammar structures!</span>",
       "say": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to play with language.",
       "beat": {
         "duration": 8000,

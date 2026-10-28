@@ -1341,6 +1341,74 @@ html[data-theme="dark"] .october-banner-content p {
   color: #c7d2fe;
 }
 
+/* 7i. November Issue — "November Academia" Editorial Notebook & Vogue Vibe */
+
+.november-issue-banner {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #fef3c7 100%);
+  border: 2px dashed #0284c7;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 8px 24px rgba(2, 132, 199, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.november-issue-banner::before {
+  content: '🎓 November Academia: Editorial Notebook & Deep-Dive Guides';
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  font-family: 'Caveat', cursive, serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0369a1;
+  transform: rotate(1deg);
+}
+
+.november-banner-badge {
+  background: #0284c7;
+  color: #ffffff;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-weight: 900;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+  flex-shrink: 0;
+}
+
+.november-banner-content h4 {
+  margin: 0 0 0.25rem;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: 1.15rem;
+  color: #0c4a6e;
+}
+
+.november-banner-content p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #0369a1;
+}
+
+html[data-theme="dark"] .november-issue-banner {
+  background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+  border-color: #38bdf8;
+}
+
+html[data-theme="dark"] .november-banner-content h4 {
+  color: #e0f2fe;
+}
+
+html[data-theme="dark"] .november-banner-content p {
+  color: #bae6fd;
+}
+
 /* 7d. COSY Verb Network Map & CEFR Roadmap Components */
 
 .verb-map-container {

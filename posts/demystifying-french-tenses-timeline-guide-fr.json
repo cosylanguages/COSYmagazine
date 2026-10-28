@@ -39,11 +39,15 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "demystifying-french-tenses-fr",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — Académie de novembre</div>\n    <div class=\"november-banner-content\">\n        <h4>Édition Spéciale : Démystifier les temps en français</h4>\n        <p>Bienvenue dans notre numéro spécial Académie de novembre ! Maîtrisez la chronologie des temps, l'imparfait vs passé composé et l'ancrage conversationnel.</p>\n    </div>\n</div>"
+    },
     {
       "type": "heading",
       "level": 2,
@@ -57,13 +61,17 @@
     },
     {
       "type": "paragraph",
-      "text": "Le système verbal français s'articule autour de trois grands axes temporels : le **passé**, le **présent** et le **futur**, combinés à deux visions de l'action : l'**aspect accompli** (action terminée) et l'**aspect inaccompli** (action en cours ou habituelle).",
+      "text": "Le système verbal français s'articule autour de trois grands axes temporels : le **passé**, le **présent** et le **futur**, combinés à deux visions de l'action : l'**aspect accompli** (action terminée) et l'**aspect inaccompli** (action en cours ou habituelle). <span class=\"handwritten-note\">💡 Astuce : Pensez en blocs temporels !</span>",
       "say": "Le système verbal français repose sur trois piliers : le passé, le présent et le futur, couplés aux aspects accompli et inaccompli.",
       "beat": {
         "duration": 1000,
         "camera": "focus",
         "target": "#block-1"
       }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n        <h3 class=\"printable-reference-title\">📋 Fiche Aiguillage : Matrice des Temps en Français</h3>\n        <button class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Imprimer / Sauvegarder la Fiche PDF</button>\n    </div>\n    <table class=\"printable-reference-table\">\n        <thead>\n            <tr>\n                <th>Temps / Mode</th>\n                <th>Structure Clé</th>\n                <th>Mot Signal</th>\n                <th>Usage Principal</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr><td>Présent</td><td>Verbe au présent</td><td>aujourd'hui, souvent</td><td>Habitudes, vérités générales</td></tr>\n            <tr><td>Passé Composé</td><td>avoir/être + participe passé</td><td>hier, soudain</td><td>Action ponctuelle et terminée</td></tr>\n            <tr><td>Imparfait</td><td>Radical + -ais, -ait, -aient</td><td>autrefois, pendant que</td><td>Décor, habitude passée</td></tr>\n            <tr><td>Plus-que-parfait</td><td>avait/était + participe passé</td><td>déjà, avant que</td><td>Passé antérieur à un autre passé</td></tr>\n            <tr><td>Futur Simple</td><td>Infinitif + -ai, -as, -a, -ont</td><td>demain, l'année prochaine</td><td>Projets, prédictions futures</td></tr>\n        </tbody>\n    </table>\n</div>"
     },
     {
       "type": "heading",
@@ -103,7 +111,7 @@
     },
     {
       "type": "paragraph",
-      "text": "C'est la difficulté majeure des apprenants. Retenez cette règle visuelle simple :\n\n- **L'Imparfait** pose le décor et décrit l'arrière-plan ou une habitude (*Il pleuvait, les oiseaux chantaient*).\n- **Le Passé Composé** est un événement ponctuel qui surgit au premier plan et fait avancer l'histoire (*Soudain, le téléphone a sonné*).",
+      "text": "C'est la difficulté majeure des apprenants. Retenez cette règle visuelle simple :\n\n- **L'Imparfait** pose le décor et décrit l'arrière-plan ou une habitude (*Il pleuvait, les oiseaux chantaient*).\n- **Le Passé Composé** est un événement ponctuel qui surgit au premier plan et fait avancer l'histoire (*Soudain, le téléphone a sonné*). <span class=\"notebook-margin-note\">✍️ Règle d'or : Imparfait = Film de fond, Passé composé = Éclair !</span>",
       "say": "Considérez l'imparfait comme le décor de fond d'un tableau, et le passé composé comme l'action soudaine au premier plan.",
       "beat": {
         "duration": 1500,

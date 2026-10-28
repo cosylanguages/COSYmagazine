@@ -38,11 +38,15 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "creative-writing-academia",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — November Academia</div>\n    <div class=\"november-banner-content\">\n        <h4>Special Issue: Creative Writing & Storytelling</h4>\n        <p>Welcome to our November Academia notebook issue! Discover micro-sparks, flash fiction, poetry, and narrative tools to unleash creative expression in your second language.</p>\n    </div>\n</div>"
+    },
     {
       "type": "culture-bite",
       "title": "Editorial Note — November Academia Issue",
@@ -56,7 +60,7 @@
     },
     {
       "type": "paragraph",
-      "text": "When we learn a new language, we often begin in the realm of utility: memorizing travel phrases, conjugating regular verbs, and constructing transactional dialogues. While essential, functional language alone can sometimes leave us feeling detached—as if we are wearing someone else's coat. **Creative writing bridges the gap between mechanical output and authentic self-expression.**",
+      "text": "When we learn a new language, we often begin in the realm of utility: memorizing travel phrases, conjugating regular verbs, and constructing transactional dialogues. While essential, functional language alone can sometimes leave us feeling detached—as if we are wearing someone else's coat. **Creative writing bridges the gap between mechanical output and authentic self-expression.** <span class=\"handwritten-note\">✍️ Expressive Voice!</span>",
       "say": "When we learn a new language, we often begin in the realm of utility: memorizing travel phrases, conjugating regular verbs, and constructing transactional dialogues. While essential, functional language alone can sometimes leave us feeling detached. Creative writing bridges the gap between mechanical output and authentic self-expression.",
       "beat": {
         "duration": 9000,
@@ -66,7 +70,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-callout\"><strong>Pedagogical Insight:</strong> Engaging in creative writing lowers the L2 Affective Filter (Krashen), giving learners permission to experiment with word combinations without fear of making structural errors.</div>",
+      "text": "<div class=\"cosy-callout\"><strong>Pedagogical Insight:</strong> Engaging in creative writing lowers the L2 Affective Filter (Krashen), giving learners permission to experiment with word combinations without fear of making structural errors. <span class=\"doodle-circle\">Lower Filter!</span></div>",
       "say": "Pedagogical Insight: Engaging in creative writing lowers the L2 Affective Filter, giving learners permission to experiment with word combinations without fear of making structural errors.",
       "beat": {
         "duration": 7000,
@@ -119,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "text": "You do not need to sit down and draft a 300-page novel on day one. The secret to building a sustainable creative writing habit in a foreign language lies in **micro-steps**. Small daily exercises build confidence, bypass writer's block, and train the brain to think directly in the target language.",
+      "text": "You do not need to sit down and draft a 300-page novel on day one. The secret to building a sustainable creative writing habit in a foreign language lies in **micro-steps**. Small daily exercises build confidence, bypass writer's block, and train the brain to think directly in the target language. <span class=\"notebook-margin-note\">📝 Micro-sparks: Start with 6 words a day!</span>",
       "say": "You do not need to sit down and draft a 300-page novel on day one. The secret to building a sustainable creative writing habit in a foreign language lies in micro-steps. Small daily exercises build confidence, bypass writer's block, and train the brain to think directly in the target language.",
       "beat": {
         "duration": 8000,
@@ -198,7 +202,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Poetry is often perceived as intimidating by language learners, yet free verse poetry is actually one of the most accessible genres for L2 writers. Because poetry does not demand complete sentences or complex subordination, learners can focus purely on rhythm, symbolism, metaphor, and imagery.",
+      "text": "Poetry is often perceived as intimidating by language learners, yet free verse poetry is actually one of the most accessible genres for L2 writers. Because poetry does not demand complete sentences or complex subordination, learners can focus purely on rhythm, symbolism, metaphor, and imagery. <span class=\"handwritten-annotation\">📜 Free Verse: Pure imagery without grammatical constraint!</span>",
       "say": "Poetry is often perceived as intimidating by language learners, yet free verse poetry is actually one of the most accessible genres for L2 writers. Learners can focus purely on rhythm, symbolism, metaphor, and imagery.",
       "beat": {
         "duration": 8000,

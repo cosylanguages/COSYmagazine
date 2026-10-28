@@ -7,7 +7,7 @@
   "level": "B1–B2",
   "issue": {
     "number": "Vol. 2026.11",
-    "title": "Beyond Translation & Code-Switching"
+    "title": "November Academia"
   },
   "date": "2026-11-05",
   "title": "Beyond Code-Switching & Translation: Embracing L2 Integration with Warmth and Practical Strategies",
@@ -38,14 +38,18 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "notebook-handwritten",
     "seed": "beyond-code-switching-and-translation",
     "coverOverride": null
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Picture a familiar, comforting scene from an international speaking club or language classroom: six participants are conversing in English. The atmosphere is warm and enthusiastic. Suddenly, during introductions, one speaker mentions their hometown. A spark of joyful recognition lights up across the table: *\"Wait, you're from Milan? Me too! Che piacere!\"*",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — November Academia</div>\n    <div class=\"november-banner-content\">\n        <h4>Special Issue: Beyond Translation & Code-Switching</h4>\n        <p>Welcome to our November Academia editorial notebook! Explore how L2 integration, child-like natural immersion, and friendly micro-agreements eliminate mental translation.</p>\n    </div>\n</div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Picture a familiar, comforting scene from an international speaking club or language classroom: six participants are conversing in English. The atmosphere is warm and enthusiastic. Suddenly, during introductions, one speaker mentions their hometown. A spark of joyful recognition lights up across the table: *\"Wait, you're from Milan? Me too! Che piacere!\"* <span class=\"handwritten-note\">💡 Note: Origin spark!</span>",
       "say": "Picture a familiar, comforting scene from an international speaking club or language classroom: six participants are conversing in English. The atmosphere is warm and enthusiastic. Suddenly, during introductions, one speaker mentions their hometown. A spark of joyful recognition lights up across the table: Wait, you're from Milan? Me too!",
       "beat": {
         "duration": 7000,
@@ -65,7 +69,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-callout\"><strong>COSY Linguistic Insight:</strong> True fluency begins when you stop translating word-for-word and start activating direct conceptual maps in your target language.</div>"
+      "text": "<div class=\"cosy-callout\"><strong>COSY Linguistic Insight:</strong> True fluency begins when you stop translating word-for-word and start activating direct conceptual maps in your target language. <span class=\"doodle-circle\">Direct Concepts!</span></div>"
     },
     {
       "type": "pullquote",
@@ -111,7 +115,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Linguist Carol Myers-Scotton introduced the **Markedness Model** to explain how we choose languages based on social expectations. In everyday life, using L1 with a fellow native speaker is the default, \"unmarked\" choice. Continuing to speak an L2 can initially feel slightly formal or distance-creating, as if we are holding back our true personality.",
+      "text": "Linguist Carol Myers-Scotton introduced the **Markedness Model** to explain how we choose languages based on social expectations. In everyday life, using L1 with a fellow native speaker is the default, \"unmarked\" choice. Continuing to speak an L2 can initially feel slightly formal or distance-creating, as if we are holding back our true personality. <span class=\"notebook-margin-note\">✍️ Markedness Model: L1 is unmarked comfort, L2 requires intentional L2 agreement!</span>",
       "say": "Linguist Carol Myers-Scotton introduced the Markedness Model to explain how we choose languages based on social expectations. In everyday life, using L1 with a fellow native speaker is the default, unmarked choice.",
       "beat": {
         "duration": 7000,
@@ -162,7 +166,7 @@
     },
     {
       "type": "paragraph",
-      "text": "When you hit a missing word or lose track of a fast explanation, make a bold, friendly pivot! Stop with a smile, stay in the target language, and say: **\"I don't understand you yet—could you rephrase that in simpler terms?\"** or **\"I don't know the exact word, but it's a tool you use to...\"** This simple move keeps the conversation alive entirely within L2.",
+      "text": "When you hit a missing word or lose track of a fast explanation, make a bold, friendly pivot! Stop with a smile, stay in the target language, and say: <mark class=\"highlight-marker\">\"I don't understand you yet—could you rephrase that in simpler terms?\"</mark> or **\"I don't know the exact word, but it's a tool you use to...\"** This simple move keeps the conversation alive entirely within L2.",
       "say": "When you hit a missing word or lose track of a fast explanation, make a bold, friendly pivot! Stop with a smile, stay in the target language, and say: I don't understand you yet—could you rephrase that in simpler terms?",
       "beat": {
         "duration": 8000,
@@ -193,7 +197,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Consider how young children acquire their first language. A toddler learning the word *apple* doesn't look up a translation. They touch the smooth red skin, smell the fresh scent, taste the sweetness, and hear the sound /æp.əl/. The concept and sound connect directly (<code>L2 Word ➔ Direct Concept</code>).",
+      "text": "Consider how young children acquire their first language. A toddler learning the word *apple* doesn't look up a translation. They touch the smooth red skin, smell the fresh scent, taste the sweetness, and hear the sound /æp.əl/. The concept and sound connect directly (<code>L2 Word ➔ Direct Concept</code>). <span class=\"handwritten-annotation\">🍎 Child Method: Sensory maps over dictionary lookups!</span>",
       "say": "Consider how young children acquire their first language. A toddler learning the word apple doesn't look up a translation. They touch the smooth red skin, smell the fresh scent, taste the sweetness, and hear the sound.",
       "beat": {
         "duration": 8000,
@@ -336,7 +340,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Next time you discover a compatriot in a speaking club or feel lost in a fast conversation, smile, take a breath, and embrace the target language. Say *\"Let's keep going in English!\"*, ask for a simpler rephrase, and give yourself permission to learn directly, creatively, and fully.",
+      "text": "Next time you discover a compatriot in a speaking club or feel lost in a fast conversation, smile, take a breath, and embrace the target language. Say <span class=\"doodle-underline\">\"Let's keep going in English!\"</span>, ask for a simpler rephrase, and give yourself permission to learn directly, creatively, and fully.",
       "say": "Next time you discover a compatriot in a speaking club or feel lost in a fast conversation, smile, take a breath, and embrace the target language. Say 'Let's keep going in English!', ask for a simpler rephrase, and give yourself permission to learn directly, creatively, and fully.",
       "beat": {
         "duration": 9000,

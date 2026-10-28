@@ -30,7 +30,8 @@ export const MOTIFS = {
   'pressed-flower': generatePressedFlower,
   'postcard-stamp': generatePostcardStamp,
   'terrazzo-tile': generateTerrazzoTile,
-  'pressed-leaf': generatePressedLeaf
+  'pressed-leaf': generatePressedLeaf,
+  'notebook-handwritten': generateNotebookHandwritten
 };
 
 // Default cozy light, warm paper-based color palettes by desk / theme
@@ -461,5 +462,41 @@ export function generatePressedLeaf({ width, height, palette, prng }) {
   return `
     <rect width="${width}" height="${height}" fill="${bg}" />
     ${leaves}
+  `;
+}
+
+/** 14. Notebook-Handwritten Motif */
+export function generateNotebookHandwritten({ width, height, palette, prng }) {
+  const bg = palette[3] || '#FAF6EE';
+  const ink = palette[0] || '#1E3A8A';
+  const lineClr = palette[1] || '#0D9488';
+  const marginClr = palette[2] || '#E11D48';
+
+  // Lined paper horizontal rules
+  let lines = '';
+  const lineSpacing = 28;
+  for (let y = 35; y < height; y += lineSpacing) {
+    lines += `<line x1="0" y1="${y}" x2="${width}" y2="${y}" stroke="${lineClr}" stroke-width="1" opacity="0.22" />`;
+  }
+
+  // Vertical margin line
+  const marginX = Math.round(width * 0.14);
+  const marginLine = `<line x1="${marginX}" y1="0" x2="${marginX}" y2="${height}" stroke="${marginClr}" stroke-width="2" opacity="0.35" />`;
+
+  // Random doodle curves & hand-drawn loops
+  const doodleCount = prng.rangeInt(3, 6);
+  let doodles = '';
+  for (let i = 0; i < doodleCount; i++) {
+    const cx = prng.rangeInt(marginX + 40, width - 40);
+    const cy = prng.rangeInt(40, height - 40);
+    const r = prng.rangeInt(15, 35);
+    doodles += `<path d="M ${cx - r} ${cy} Q ${cx} ${cy - r} ${cx + r} ${cy} T ${cx + r * 2} ${cy}" fill="none" stroke="${ink}" stroke-width="2" stroke-linecap="round" opacity="0.25" />`;
+  }
+
+  return `
+    <rect width="${width}" height="${height}" fill="${bg}" />
+    ${lines}
+    ${marginLine}
+    ${doodles}
   `;
 }

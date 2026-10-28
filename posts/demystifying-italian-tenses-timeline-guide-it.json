@@ -39,11 +39,15 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "demystifying-italian-tenses-it",
     "coverOverride": null
   },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"november-issue-banner\">\n    <div class=\"november-banner-badge\">🎓 Vol. 2026.11 — Accademia di Novembre</div>\n    <div class=\"november-banner-content\">\n        <h4>Edizione Speciale: Smontare i tempi verbali italiani</h4>\n        <p>Benvenuti nel numero speciale dell'Accademia di Novembre! Scopri la mappa cronologica dei tempi verbali, il congiuntivo ed elementi scritti a mano.</p>\n    </div>\n</div>"
+    },
     {
       "type": "heading",
       "level": 2,
@@ -57,13 +61,17 @@
     },
     {
       "type": "paragraph",
-      "text": "Il sistema verbale italiano si fonda su tre assi temporali: **passato**, **presente** e **futuro**, combinati con l'**aspetto verbale** (azione conclusa rispetto ad azione continuata o abituale).",
+      "text": "Il sistema verbale italiano si fonda su tre assi temporali: **passato**, **presente** e **futuro**, combinati con l'**aspetto verbale** (azione conclusa rispetto ad azione continuata o abituale). <span class=\"handwritten-note\">💡 Consiglio: Visualizza la linea del tempo!</span>",
       "say": "Il sistema italiano si basa su passato, presente e futuro, integrati dall'aspetto dell'azione.",
       "beat": {
         "duration": 1000,
         "camera": "focus",
         "target": "#block-1"
       }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n        <h3 class=\"printable-reference-title\">📋 Scheda di Riferimento: Matrice dei Tempi Italiani</h3>\n        <button class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Stampa / Salva Scheda PDF</button>\n    </div>\n    <table class=\"printable-reference-table\">\n        <thead>\n            <tr>\n                <th>Tempo / Modo</th>\n                <th>Struttura Chiave</th>\n                <th>Parola Segnale</th>\n                <th>Uso Principale</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr><td>Presente</td><td>Radice + desinenza presente</td><td>oggi, di solito</td><td>Abitudini, stato attuale</td></tr>\n            <tr><td>Passato Prossimo</td><td>avere/essere + participio</td><td>ieri, stamattina</td><td>Azione conclusa e puntuale</td></tr>\n            <tr><td>Imperfetto</td><td>Radice + -avo, -evo, -ivo</td><td>mentre, una volta</td><td>Sfondo, abitudine passata</td></tr>\n            <tr><td>Trapassato Prossimo</td><td>avevo/ero + participio</td><td>già, prima che</td><td>Azione anteriore al passato</td></tr>\n            <tr><td>Futuro Semplice</td><td>Radice + -erò, -erai, -erà</td><td>domani, l'anno prossimo</td><td>Progetti futuri, ipotesi</td></tr>\n        </tbody>\n    </table>\n</div>"
     },
     {
       "type": "heading",
@@ -103,7 +111,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Ecco la regola d'oro per non sbagliare mai:\n\n- **Imperfetto**: descrive lo sfondo, la durata, uno stato d'animo o un'abitudine nel passato (*Pioveva e c'era molto traffico*).\n- **Passato Prossimo**: esprime un evento preciso e concluso che fa avanzare l'azione (*All'improvviso è squillato il telefono*).",
+      "text": "Ecco la regola d'oro per non sbagliare mai:\n\n- **Imperfetto**: descrive lo sfondo, la durata, uno stato d'animo o un'abitudine nel passato (*Pioveva e c'era molto traffico*).\n- **Passato Prossimo**: esprime un evento preciso e concluso che fa avanzare l'azione (*All'improvviso è squillato il telefono*). <span class=\"notebook-margin-note\">✍️ Nota: Imperfetto = scenografia, Passato prossimo = azione!</span>",
       "say": "L'imperfetto crea la scenografia del passato, mentre il passato prossimo inserisce le azioni puntuali e concluse.",
       "beat": {
         "duration": 1500,
