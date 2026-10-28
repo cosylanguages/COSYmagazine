@@ -562,6 +562,10 @@
       "say": "Dans un courriel, un rapport ou une dissertation, les verbes précis vous rendent crédible. Utilisez ce tableau comme aide-mémoire « au lieu de → privilégiez »."
     },
     {
+      "type": "paragraph",
+      "text": "\n<div class=\"print-table-wrapper\" style=\"margin: 2rem 0; padding: 1.25rem; background: var(--blog-paper-card, #ffffff); border: 2px solid var(--post-palette-accent, #0d9488); border-radius: 12px;\">\n    <div style=\"display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.15)); padding-bottom: 0.75rem;\">\n        <div>\n            <h3 style=\"margin: 0; color: var(--post-palette-accent, #0d9488); font-family: var(--font-serif);\">📊 Complete Vocabulary Reference Table</h3>\n            <p style=\"margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--ink-muted, #4a4a4a);\">Full list of B1 intermediate default expressions and B2 natural upgrades.</p>\n        </div>\n        <button type=\"button\" onclick=\"window.print()\" class=\"blog-print-btn\" style=\"display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--post-palette-accent, #0d9488); color: #ffffff; border: none; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 0.88rem;\">\n            🖨️ Print / Save Table (PDF)\n        </button>\n    </div>\n</div>\n"
+    },
+    {
       "type": "table",
       "headers": [
         "Au lieu de",
