@@ -8,7 +8,7 @@
   "level": "B1–B2",
   "issue": {
     "number": "Vol. 2026.10",
-    "title": "Édition Erreurs du Samedi"
+    "title": "Saturday Mistakes Edition"
   },
   "date": "2026-10-24",
   "title": "Erreurs du Samedi Épisode 1 : 5 erreurs courantes en français et comment les corriger",
@@ -30,10 +30,10 @@
   },
   "artDirection": {
     "palette": [
-      "#16a34a",
+      "#2563eb",
       "#faf7f2",
       "#1e293b",
-      "#ca8a04"
+      "#d97706"
     ],
     "fonts": {
       "display": "Fraunces",

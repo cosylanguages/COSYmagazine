@@ -9,7 +9,7 @@
     "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
-  "date": "2026-01-15",
+  "date": "2026-08-01",
   "title": "Why Speaking-First is the Only Way to True Fluency",
   "kicker": "EDITORIAL ROOM",
   "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
@@ -25,10 +25,10 @@
   },
   "artDirection": {
     "palette": [
+      "#d97706",
+      "#fef3c7",
       "#0d9488",
-      "#faf7f2",
-      "#1e293b",
-      "#f59e0b"
+      "#1e293b"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -36,7 +36,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "window-light",
+    "motif": "editorial-stars",
     "seed": "why-speaking-first",
     "coverOverride": null
   },

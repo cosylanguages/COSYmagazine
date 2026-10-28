@@ -9,7 +9,7 @@
     "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
-  "date": "2026-03-01",
+  "date": "2026-08-01",
   "title": "How We Built the COSY Master Curriculum Across 13 Languages",
   "kicker": "CURRICULUM",
   "dek": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
@@ -25,10 +25,10 @@
   },
   "artDirection": {
     "palette": [
+      "#d97706",
+      "#fef3c7",
       "#0d9488",
-      "#faf7f2",
-      "#1e293b",
-      "#d69e2e"
+      "#1e293b"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -36,7 +36,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "gingham-knit",
+    "motif": "editorial-stars",
     "seed": "building-cosy-master-curriculum",
     "coverOverride": null
   },

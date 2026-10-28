@@ -7,9 +7,9 @@
   "level": "B1–B2",
   "issue": {
     "number": "Vol. 2026.11",
-    "title": "Beyond Translation & Code-Switching"
+    "title": "November Academia"
   },
-  "date": "2026-11-05",
+  "date": "2026-11-01",
   "title": "Beyond Code-Switching & Translation: Embracing L2 Integration with Warmth and Practical Strategies",
   "kicker": "REFLECTIONS",
   "dek": "A supportive exploration of why we naturally default to our native language when origins are revealed, how to transform code-switching during lessons into creative L2 communication, and practical child-inspired immersion techniques for students and facilitators.",
@@ -30,7 +30,7 @@
       "#0d9488",
       "#faf7f2",
       "#1e293b",
-      "#f59e0b"
+      "#e11d48"
     ],
     "fonts": {
       "display": "Fraunces",
@@ -38,7 +38,7 @@
       "accent": "Fraunces Italic"
     },
     "layout": "magazine-spread",
-    "motif": "tea-stain",
+    "motif": "editorial-stars",
     "seed": "beyond-code-switching-and-translation",
     "coverOverride": null
   },

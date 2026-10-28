@@ -9,7 +9,7 @@
     "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
-  "date": "2026-09-10",
+  "date": "2026-08-01",
   "title": "Welcome to the COSY Editorial & Learning Corner",
   "kicker": "EDITORIAL ROOM",
   "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
@@ -25,8 +25,9 @@
   },
   "artDirection": {
     "palette": [
+      "#d97706",
+      "#fef3c7",
       "#0d9488",
-      "#faf7f2",
       "#1e293b"
     ],
     "fonts": {
