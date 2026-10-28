@@ -241,6 +241,113 @@ html[data-theme="dark"] {
 }
 .gazette-quiz-card .quiz-explanation[hidden] { display: none; }
 
+/* ── Handwritten & Vogue Editorial Notebook Enhancements ─────────────── */
+
+.handwritten-note,
+.handwritten-annotation,
+.notebook-margin-note,
+.doodle-accent,
+.handwritten-kicker {
+  font-family: 'Caveat', cursive, var(--post-font-accent, serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.handwritten-note {
+  display: inline-block;
+  transform: rotate(-1.5deg);
+  background: #fef08a;
+  color: #1e3a8a;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px 12px 6px 14px;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.06);
+  border: 1px dashed #fde047;
+  margin: 0.3rem 0;
+}
+
+.notebook-ruled-bg {
+  background-color: var(--blog-paper-card, #ffffff);
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    rgba(13, 148, 136, 0.12) 28px
+  );
+  background-size: 100% 28px;
+  line-height: 28px;
+}
+
+.notebook-margin-line {
+  position: relative;
+  border-left: 2px solid rgba(225, 29, 72, 0.35);
+  padding-left: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+mark.hl-handwritten,
+.highlight-marker {
+  background: linear-gradient(100deg, rgba(254, 240, 138, 0.85) 0%, rgba(253, 224, 71, 0.85) 100%);
+  color: inherit;
+  padding: 0.1em 0.35em;
+  border-radius: 2px 8px 3px 6px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  font-weight: 700;
+}
+
+.tape-corner {
+  position: relative;
+}
+
+.tape-corner::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  width: 55px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+  transform: rotate(-3deg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  z-index: 2;
+}
+
+.doodle-circle {
+  border: 2px solid #d97706;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  padding: 0.15em 0.4em;
+  display: inline-block;
+}
+
+.doodle-underline {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M0 15 Q 25 5, 50 15 T 100 12' fill='none' stroke='%230d9488' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  padding-bottom: 4px;
+}
+
+html[data-theme="dark"] .handwritten-note {
+  background: #3b82f6;
+  color: #ffffff;
+  border-color: #60a5fa;
+}
+
+html[data-theme="dark"] .handwritten-note,
+html[data-theme="dark"] .handwritten-annotation,
+html[data-theme="dark"] .notebook-margin-note,
+html[data-theme="dark"] .doodle-accent,
+html[data-theme="dark"] .handwritten-kicker {
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .notebook-margin-line {
+  border-left-color: rgba(251, 113, 133, 0.45);
+}
+
 @media print {
   .cosy-fig, .vcard, .ba, .plan7 { box-shadow: none; }
 }

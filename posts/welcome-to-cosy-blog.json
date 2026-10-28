@@ -27,15 +27,16 @@
     "palette": [
       "#0d9488",
       "#faf7f2",
-      "#1e293b"
+      "#1e3a8a",
+      "#f59e0b"
     ],
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "welcome-cosy-001",
     "coverOverride": null
   },

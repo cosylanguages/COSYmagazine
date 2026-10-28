@@ -7,7 +7,7 @@
   "format": "list",
   "level": "A0–A1 / A2",
   "issue": {
-    "number": "Vol. 2026 — August Issue",
+    "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
   "date": "2026-03-01",
@@ -27,18 +27,18 @@
   },
   "artDirection": {
     "palette": [
-      "#d97706",
-      "#fef3c7",
       "#0d9488",
-      "#1e293b"
+      "#faf7f2",
+      "#1e3a8a",
+      "#f59e0b"
     ],
     "fonts": {
       "display": "Fraunces",
       "text": "DM Sans",
-      "accent": "Fraunces Italic"
+      "accent": "Caveat"
     },
     "layout": "magazine-spread",
-    "motif": "editorial-stars",
+    "motif": "notebook-handwritten",
     "seed": "top-10-verbs-de",
     "coverOverride": null
   },
