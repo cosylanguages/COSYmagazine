@@ -84,7 +84,17 @@ In addition, **every block MAY include optional stage direction fields**:
     - `content` (`string`): Cultural context description.
 11. **`quote-wall`**
     - `quotes` (`object[]`): Array of `{ "quote": string, "author": string }` objects.
-12. **`links`**
+12. **`mistake-card`** (Saturday Mistakes pattern)
+    - `title` (`string`): Name of the mistake, e.g. "Future forms".
+    - `wrong` (`string`): The "not quite" sentence (include quotation marks).
+    - `right` (`string`): The corrected sentence.
+    - `rule` (`string`): One-sentence rule.
+    - `number` (`number | string`, optional): Shown as 01, 02…
+    - `why` (`string`, optional): Why learners make this mistake.
+    - `examples` (`string[]`, optional): Short extra examples.
+    - `quiz` (`object`, optional): `{ question, options[], correctIndex, explanation }`, rendered as an interactive "Your turn".
+    - `labels` (`object`, optional): Localised UI labels `{ wrong, right, why, rule, examples, turn }` (defaults are English).
+13. **`links`**
     - `destination` (`string`): Ecosystem destination (`"cosydata"`, `"cosytools"`, `"events"`, `"practice"`).
     - `url` (`string`): Target link URL.
     - `label` (`string`): Link anchor display label.

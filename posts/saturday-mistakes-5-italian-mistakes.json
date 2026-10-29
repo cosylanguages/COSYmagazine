@@ -1,0 +1,352 @@
+{
+  "id": "post-saturday-mistakes-5-italian-mistakes",
+  "slug": "saturday-mistakes-5-italian-mistakes",
+  "language": "it",
+  "desk": "Saturday Mistakes",
+  "format": "list",
+  "level": "A2–B1",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "Edizione Errori del Sabato"
+  },
+  "date": "2026-10-24",
+  "title": "Errori del sabato: 5 errori comuni in italiano e come correggerli",
+  "kicker": "ERRORI DEL SABATO",
+  "dek": "Cinque errori frequenti in italiano, perché succedono e un modello semplice per correggere ognuno. Con esempi e un mini-quiz per ogni errore.",
+  "tags": [
+    "SaturdayMistakes",
+    "ItalianGrammar",
+    "SpeakingFluency"
+  ],
+  "readingTime": 8,
+  "artDirection": {
+    "palette": [
+      "#dc2626",
+      "#faf7f2",
+      "#1e293b",
+      "#0d9488"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "saturday-mistakes-it",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Benvenuti a **Errori del sabato**. Ogni settimana guardiamo cinque piccoli errori che fanno gli studenti, capiamo perché succedono e li sostituiamo con un modello naturale. Gli errori non sono un problema. Sono la prova che stai imparando.",
+      "say": "Benvenuti a Errori del sabato. Ogni settimana guardiamo cinque piccoli errori che fanno gli studenti, capiamo perché succedono e li sostituiamo con un modello naturale. Gli errori non sono un problema. Sono la prova che stai imparando.",
+      "beat": {
+        "duration": 15857,
+        "camera": "pan-zoom",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Questa settimana: cinque errori frequenti in italiano. Ogni errore segue gli stessi passi: la frase non proprio giusta, la frase migliore, il motivo, una regola semplice e un mini-quiz. **Osserva il modello, non solo la singola frase.**",
+      "say": "Questa settimana: cinque errori frequenti in italiano. Ogni errore segue gli stessi passi: la frase non proprio giusta, la frase migliore, il motivo, una regola semplice e un mini-quiz. Osserva il modello, non solo la singola frase.",
+      "beat": {
+        "duration": 15857,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
+    },
+    {
+      "type": "image",
+      "url": "images/saturday-mistakes-routine-it.svg",
+      "alt": "Quattro passi: nota l'errore, capisci perché, impara il modello, allenati. Gli errori sono la prova che stai imparando.",
+      "caption": "**La routine della settimana.** Quattro piccoli passi, ogni sabato."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "I cinque errori di oggi",
+      "say": "I cinque errori di oggi",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Essere o avere?",
+        "Preposizioni articolate",
+        "Il problema (maschile!)",
+        "Piacere",
+        "Conoscere o sapere?"
+      ],
+      "say": "Essere o avere? Preposizioni articolate Il problema (maschile!) Piacere Conoscere o sapere?",
+      "beat": {
+        "duration": 5143,
+        "camera": "pan-zoom",
+        "target": "#block-4"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Essere o avere?",
+      "wrong": "«Ieri ho andato al cinema.»",
+      "right": "«Ieri sono andato al cinema.»",
+      "why": "Il passato prossimo ha due ausiliari. Molti studenti usano sempre «avere», perché è il più frequente.",
+      "rule": "I verbi di movimento e di cambiamento (**andare, venire, arrivare, partire, nascere**) usano **essere**. Il participio si accorda con il soggetto.",
+      "examples": [
+        "Maria è andata a casa.",
+        "Siamo arrivati tardi.",
+        "Ho mangiato una pizza."
+      ],
+      "quiz": {
+        "question": "Maria ___ al mercato ieri.",
+        "options": [
+          "ha andato",
+          "è andata",
+          "è andato"
+        ],
+        "correctIndex": 1,
+        "explanation": "«Andare» usa «essere» e il participio si accorda con Maria: è andata."
+      },
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "1. Essere o avere?. Non proprio: «Ieri ho andato al cinema.». Di' così: «Ieri sono andato al cinema.». Il passato prossimo ha due ausiliari. Molti studenti usano sempre «avere», perché è il più frequente. I verbi di movimento e di cambiamento (andare, venire, arrivare, partire, nascere) usano essere. Il participio si accorda con il soggetto.",
+      "beat": {
+        "duration": 23571,
+        "camera": "pan-zoom",
+        "target": "#block-5"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Preposizioni articolate",
+      "wrong": "«Vado a il cinema.»",
+      "right": "«Vado al cinema.»",
+      "why": "In italiano la preposizione e l'articolo si uniscono in una sola parola: a + il = **al**.",
+      "rule": "**a, di, da, in, su** + articolo diventano una parola: **al, del, dal, nel, sul**.",
+      "examples": [
+        "Vado al mercato.",
+        "Il libro è sul tavolo.",
+        "Esco dalla scuola."
+      ],
+      "quiz": {
+        "question": "Il gatto è ___ divano.",
+        "options": [
+          "su il",
+          "sul",
+          "sulla"
+        ],
+        "correctIndex": 1,
+        "explanation": "su + il = sul."
+      },
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "2. Preposizioni articolate. Non proprio: «Vado a il cinema.». Di' così: «Vado al cinema.». In italiano la preposizione e l'articolo si uniscono in una sola parola: a + il = al. a, di, da, in, su + articolo diventano una parola: al, del, dal, nel, sul.",
+      "beat": {
+        "duration": 19714,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Il problema (maschile!)",
+      "wrong": "«Ho la problema.»",
+      "right": "«Ho un problema.»",
+      "why": "Molte parole in -a sono femminili, ma alcune parole di origine greca in **-ma** sono maschili.",
+      "rule": "Impara queste parole con l'articolo: **il problema, il programma, il tema, il sistema**.",
+      "examples": [
+        "Il problema è facile.",
+        "Un programma interessante.",
+        "Il tema della lezione."
+      ],
+      "quiz": {
+        "question": "___ problema è difficile.",
+        "options": [
+          "La",
+          "Il",
+          "Una"
+        ],
+        "correctIndex": 1,
+        "explanation": "«Problema» è maschile: il problema."
+      },
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "3. Il problema (maschile!). Non proprio: «Ho la problema.». Di' così: «Ho un problema.». Molte parole in -a sono femminili, ma alcune parole di origine greca in -ma sono maschili. Impara queste parole con l'articolo: il problema, il programma, il tema, il sistema.",
+      "beat": {
+        "duration": 18429,
+        "camera": "pan-zoom",
+        "target": "#block-7"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Piacere",
+      "wrong": "«Io piaccio la pizza.»",
+      "right": "«Mi piace la pizza.»",
+      "why": "«Piacere» funziona al contrario: la cosa che piace è il soggetto, la persona è il complemento (mi, ti, gli).",
+      "rule": "**Mi piace** + singolare. **Mi piacciono** + plurale.",
+      "examples": [
+        "Mi piace il caffè.",
+        "Mi piacciono i film italiani.",
+        "Ti piace studiare?"
+      ],
+      "quiz": {
+        "question": "___ i film italiani.",
+        "options": [
+          "Mi piace",
+          "Mi piacciono",
+          "Io piaccio"
+        ],
+        "correctIndex": 1,
+        "explanation": "«I film» è plurale: mi piacciono."
+      },
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "4. Piacere. Non proprio: «Io piaccio la pizza.». Di' così: «Mi piace la pizza.». «Piacere» funziona al contrario: la cosa che piace è il soggetto, la persona è il complemento (mi, ti, gli). Mi piace + singolare. Mi piacciono + plurale.",
+      "beat": {
+        "duration": 17571,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Conoscere o sapere?",
+      "wrong": "«Non so Maria.»",
+      "right": "«Non conosco Maria.»",
+      "why": "In molte lingue c'è un solo verbo. In italiano ce ne sono due, con usi diversi.",
+      "rule": "**Conoscere** = persone, luoghi, cose. **Sapere** = informazioni e capacità (**sapere** + infinito).",
+      "examples": [
+        "Conosco Roma.",
+        "So parlare italiano.",
+        "Non so dove abita."
+      ],
+      "quiz": {
+        "question": "Io ___ nuotare.",
+        "options": [
+          "conosco",
+          "so",
+          "sono"
+        ],
+        "correctIndex": 1,
+        "explanation": "Una capacità: so nuotare."
+      },
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "5. Conoscere o sapere?. Non proprio: «Non so Maria.». Di' così: «Non conosco Maria.». In molte lingue c'è un solo verbo. In italiano ce ne sono due, con usi diversi. Conoscere = persone, luoghi, cose. Sapere = informazioni e capacità (sapere + infinito).",
+      "beat": {
+        "duration": 18429,
+        "camera": "pan-zoom",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Il tuo allenamento di 10 minuti",
+      "say": "Il tuo allenamento di 10 minuti",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-10"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Scegli **due errori** che a volte fai.",
+        "Scrivi **tre frasi nuove** per ognuno, usando la regola.",
+        "Dille ad alta voce e **registrati**.",
+        "Confronta le tue frasi con gli esempi qui sopra.",
+        "La settimana prossima, cerca gli stessi modelli nelle conversazioni vere."
+      ],
+      "say": "Scegli due errori che a volte fai. Scrivi tre frasi nuove per ognuno, usando la regola. Dille ad alta voce e registrati. Confronta le tue frasi con gli esempi qui sopra. La settimana prossima, cerca gli stessi modelli nelle conversazioni vere.",
+      "beat": {
+        "duration": 17571,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Da ricordare",
+      "say": "Da ricordare",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-12"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Osserva il modello. Allenati sul modello. Fallo tuo. Quale risposta ti ha sorpreso di più? Scrivila e usala in una frase oggi.",
+      "say": "Osserva il modello. Allenati sul modello. Fallo tuo. Quale risposta ti ha sorpreso di più? Scrivila e usala in una frase oggi.",
+      "beat": {
+        "duration": 9429,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Gli errori fanno parte dell'apprendimento.",
+      "say": "Gli errori fanno parte dell'apprendimento.",
+      "beat": {
+        "duration": 3000,
+        "camera": "pan-zoom",
+        "target": "#block-14"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Allenati con gli esercizi COSY"
+    }
+  ],
+  "draft": false,
+  "translationOf": "saturday-mistakes-5-english-mistakes"
+}

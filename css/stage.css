@@ -859,3 +859,7 @@ body.stage-render-mode *::after {
     animation: none !important;
   }
 }
+
+/* Stage mode: mistake-card */
+.stage-mistake-card .stage-mc-wrong { color: #fb7185; }
+.stage-mistake-card .stage-mc-right { color: #5eead4; font-weight: 600; }

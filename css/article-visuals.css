@@ -442,3 +442,51 @@ html[data-theme="dark"] .notebook-margin-line {
   }
   .cosy-fig, .vcard, .ba, .plan7 { box-shadow: none; }
 }
+
+/* ── Mistake card (Saturday Mistakes pattern; block type "mistake-card") ───
+   wrong / right / why / rule / examples / interactive quiz.
+   Stacks to one column on narrow pages, two columns when the card has room. */
+.mc {
+  container-type: inline-size;
+  box-sizing: border-box;
+  margin: 1.75rem 0;
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--blog-paper-card, #fff);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-top: 4px solid var(--post-palette-accent, #0d9488);
+  border-radius: var(--av-radius);
+  font-family: var(--blog-font-body, 'DM Sans', sans-serif);
+  color: var(--blog-ink-primary, #1c1917);
+  break-inside: avoid;
+  page-break-inside: avoid;
+  clear: both;
+}
+.mc-head { display: flex; align-items: center; gap: .75rem; margin-bottom: .9rem; }
+.mc-num {
+  flex: none; display: grid; place-items: center; width: 2.2rem; height: 2.2rem; border-radius: 50%;
+  background: var(--post-palette-accent, #0d9488); color: #fff; font-weight: 800; font-size: .85rem;
+}
+.mc-title { margin: 0; font-size: 1.2rem; line-height: 1.25; }
+.mc-compare { display: grid; grid-template-columns: 1fr; gap: .6rem; }
+@container (min-width: 30rem) { .mc-compare { grid-template-columns: 1fr 1fr; } }
+.mc-side { border: 1.5px solid; border-radius: 12px; padding: .65rem .8rem; }
+.mc-wrong { border-color: color-mix(in srgb, var(--av-bad) 55%, transparent); background: color-mix(in srgb, var(--av-bad) 7%, transparent); }
+.mc-right { border-color: color-mix(in srgb, var(--av-good) 60%, transparent); background: color-mix(in srgb, var(--av-good) 9%, transparent); }
+.mc-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: .25rem; }
+.mc-wrong .mc-label { color: var(--av-bad); }
+.mc-right .mc-label { color: var(--av-good); }
+.mc-sentence { margin: 0; font-size: 1.05rem; line-height: 1.4; font-weight: 600; }
+.mc-why, .mc-rule { margin: .85rem 0 0; line-height: 1.55; }
+.mc-rule {
+  padding: .6rem .8rem; border-left: 4px solid var(--post-palette-accent, #0d9488);
+  background: var(--blog-paper-aged, #f3ede4); border-radius: 0 10px 10px 0;
+}
+.mc-more { margin-top: .85rem; }
+.mc-more-label, .mc-turn-label {
+  display: block; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--post-palette-accent, #0d9488); margin-bottom: .3rem;
+}
+.mc-more ul { margin: 0; padding-left: 1.1rem; }
+.mc-more li { margin: .15rem 0; line-height: 1.45; }
+.mc-turn { margin-top: 1rem; }
+.mc-turn .gazette-quiz-card { margin: 0; }

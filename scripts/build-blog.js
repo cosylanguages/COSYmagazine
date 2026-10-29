@@ -152,6 +152,21 @@ function getDocumentTitle(title) {
   return documentTitle;
 }
 
+// Interactive quiz card: the correct answer is not revealed until the learner picks (see js/shell.js)
+function renderQuizCardHtml(q) {
+  const optionsHtml = (q.options || []).map((opt, i) => `
+        <button type="button" class="quiz-option-btn" data-correct="${i === q.correctIndex ? 'true' : 'false'}">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>${parseFormattedText(opt)}</span>
+        </button>
+      `).join('');
+  return `
+<div class="gazette-quiz-card" data-quiz>
+  <h4 class="quiz-question">❓ ${parseFormattedText(q.question)}</h4>
+  <div class="quiz-options-list" role="group">${optionsHtml}</div>
+  ${q.explanation ? `<p class="quiz-explanation" hidden aria-live="polite">${parseFormattedText(q.explanation)}</p>` : ''}
+</div>`;
+}
+
 function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   if (!block || typeof block !== 'object') return '';
 
@@ -253,18 +268,30 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
 </figure>`;
     }
     case 'quiz': {
-      // Interactive: the answer is not revealed until the learner picks (see js/shell.js)
-      const optionsHtml = (block.options || []).map((opt, i) => `
-        <button type="button" class="quiz-option-btn" data-correct="${i === block.correctIndex ? 'true' : 'false'}">
-          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>${parseFormattedText(opt)}</span>
-        </button>
-      `).join('');
+      return renderQuizCardHtml(block);
+    }
+    case 'mistake-card': {
+      // Reusable "Saturday Mistakes" card: wrong / right / why / rule / examples / interactive quiz
+      const L = Object.assign({ wrong: 'Not quite', right: 'Say this', why: 'Why it happens', rule: 'The COSY rule', examples: 'More examples', turn: 'Your turn' }, block.labels || {});
+      const num = block.number !== undefined && block.number !== null && block.number !== '' ? String(block.number).padStart(2, '0') : '';
+      const examplesHtml = Array.isArray(block.examples) && block.examples.length
+        ? `<div class="mc-more"><span class="mc-more-label">${escapeHtml(L.examples)}</span><ul>${block.examples.map((e) => `<li>${parseFormattedText(e)}</li>`).join('')}</ul></div>`
+        : '';
+      const quizHtml = block.quiz
+        ? `<div class="mc-turn"><span class="mc-turn-label">${escapeHtml(L.turn)}</span>${renderQuizCardHtml(block.quiz)}</div>`
+        : '';
       return `
-<div class="gazette-quiz-card" data-quiz>
-  <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
-  <div class="quiz-options-list" role="group">${optionsHtml}</div>
-  ${block.explanation ? `<p class="quiz-explanation" hidden aria-live="polite">${parseFormattedText(block.explanation)}</p>` : ''}
-</div>`;
+<article class="mc">
+  <header class="mc-head">${num ? `<span class="mc-num" aria-hidden="true">${escapeHtml(num)}</span>` : ''}<h3 class="mc-title">${parseFormattedText(block.title)}</h3></header>
+  <div class="mc-compare">
+    <div class="mc-side mc-wrong"><span class="mc-label"><span aria-hidden="true">✗</span> ${escapeHtml(L.wrong)}</span><p class="mc-sentence">${parseFormattedText(block.wrong)}</p></div>
+    <div class="mc-side mc-right"><span class="mc-label"><span aria-hidden="true">✓</span> ${escapeHtml(L.right)}</span><p class="mc-sentence">${parseFormattedText(block.right)}</p></div>
+  </div>
+  ${block.why ? `<p class="mc-why"><strong>${escapeHtml(L.why)}.</strong> ${parseFormattedText(block.why)}</p>` : ''}
+  <p class="mc-rule"><strong>${escapeHtml(L.rule)}.</strong> ${parseFormattedText(block.rule)}</p>
+  ${examplesHtml}
+  ${quizHtml}
+</article>`;
     }
     case 'culture-bite': {
       return `

@@ -206,6 +206,16 @@ export class StageController {
           <p>${this.parseMarkdown(block.content)}</p>
         </div>
       `;
+    } else if (block.type === 'mistake-card') {
+      const num = block.number !== undefined && block.number !== null ? String(block.number).padStart(2, '0') + ' ' : '';
+      return `
+        <div id="${id}" class="stage-card stage-block stage-mistake-card">
+          <h3>${num}${this.parseMarkdown(block.title)}</h3>
+          <p class="stage-mc-wrong">✗ ${this.parseMarkdown(block.wrong)}</p>
+          <p class="stage-mc-right">✓ ${this.parseMarkdown(block.right)}</p>
+          <p class="stage-mc-rule">${this.parseMarkdown(block.rule)}</p>
+        </div>
+      `;
     } else if (block.type === 'pronunciation' || block.word) {
       return `
         <div id="${id}" class="stage-card stage-block stage-vocab-card" data-word="${this.escapeHtml(block.word)}">

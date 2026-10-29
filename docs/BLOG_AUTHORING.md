@@ -101,6 +101,7 @@ Every block MAY include optional stage direction properties for automated audio 
 9. **`quiz`**: Embedded Concept Checking Questions (CCQs) and practice items.
    - `question` (string), `options` (string[]), `correctIndex` (number), `explanation` (string).
 10. **`culture-bite`**: Cultural background or regional notes.
+10b. **`mistake-card`**: A complete "Saturday Mistakes" unit (wrong / right / why / rule / examples / interactive quiz). See SCHEMA.md.
     - `title` (string), `content` (string).
 11. **`quote-wall`**: Multi-quote editorial grids.
     - `quotes` (array of `{ "quote": string, "author": string }`).

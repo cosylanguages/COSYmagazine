@@ -46,6 +46,7 @@ const ALLOWED_BLOCK_TYPES = new Set([
   'image',
   'quiz',
   'culture-bite',
+  'mistake-card',
   'quote-wall',
   'links'
 ]);
@@ -213,6 +214,21 @@ function validatePostSchema(postObj, sourceName = 'object') {
             errors.push(`[${blockRef}] Block "culture-bite" requires string "title" and string "content".`);
           }
           break;
+        case 'mistake-card': {
+          for (const k of ['title', 'wrong', 'right', 'rule']) {
+            if (typeof block[k] !== 'string' || !block[k].trim()) errors.push(`[${blockRef}] Block "mistake-card" requires non-empty string "${k}".`);
+          }
+          if (block.why !== undefined && typeof block.why !== 'string') errors.push(`[${blockRef}] Block "mistake-card" "why" must be a string.`);
+          if (block.examples !== undefined && (!Array.isArray(block.examples) || block.examples.some((e) => typeof e !== 'string'))) errors.push(`[${blockRef}] Block "mistake-card" "examples" must be an array of strings.`);
+          if (block.labels !== undefined && (typeof block.labels !== 'object' || Array.isArray(block.labels))) errors.push(`[${blockRef}] Block "mistake-card" "labels" must be an object.`);
+          if (block.quiz !== undefined) {
+            const q = block.quiz;
+            if (!q || typeof q.question !== 'string' || !Array.isArray(q.options) || q.options.length < 2 || typeof q.correctIndex !== 'number' || q.correctIndex < 0 || q.correctIndex >= q.options.length) {
+              errors.push(`[${blockRef}] Block "mistake-card" "quiz" requires "question", an "options" array (2+) and a valid "correctIndex".`);
+            }
+          }
+          break;
+        }
         case 'quote-wall':
           if (!Array.isArray(block.quotes)) {
             errors.push(`[${blockRef}] Block "quote-wall" requires "quotes" array.`);

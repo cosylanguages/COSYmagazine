@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="saturday-mistakes-it" data-lang="it">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="630" fill="#0d9488" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#faf7f2" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#3A6332" stroke-width="2" opacity="0.35" />
+    <path d="M 889 291 Q 908 272 927 291 T 946 291" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 572 573 Q 605 540 638 573 T 671 573" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 268 57 Q 289 36 310 57 T 331 57" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 554 172 Q 572 154 590 172 T 608 172" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 834 187 Q 854 167 874 187 T 894 187" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+  
+      
+      <g transform="rotate(5 422 258.5)">
+        <rect x="185" y="116" width="474" height="285" rx="6" fill="#faf7f2" opacity="0.3" stroke="#3A6332" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(10 741.5 331)">
+        <rect x="577" y="206" width="329" height="250" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#3A6332" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(9 541 322)">
+        <rect x="349" y="171" width="384" height="302" rx="6" fill="#3A6332" opacity="0.3" stroke="#3A6332" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(5 850 385)">
+        <rect x="655" y="258" width="390" height="254" rx="6" fill="#0d9488" opacity="0.3" stroke="#3A6332" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="1000,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1020,157.5 1000,0" fill="#FCF9F2" opacity="0.9" stroke="#3A6332" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(-3 432 42)" filter="url(#soft-shadow)">
+      <rect x="372" y="30" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="372" y1="30" x2="372" y2="54" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="492" y1="30" x2="492" y2="54" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#3A6332" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 1020 51 Q 1020 63 1032 63 Q 1020 63 1020 75 Q 1020 63 1008 63 Q 1020 63 1020 51 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 1065 93 Q 1065 101 1073 101 Q 1065 101 1065 109 Q 1065 101 1057 101 Q 1065 101 1065 93 Z" stroke="#faf7f2" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 68 127 C 78 112, 63 92, 83 77" />
+      <circle cx="72" cy="112" r="3" fill="#3A6332" opacity="0.5" />
+      <circle cx="78" cy="95" r="3" fill="#faf7f2" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 68 581 Q 203 579 338 582" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 78 584 Q 203 582 328 583" stroke="#3A6332" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="292" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#dc2626" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • SATURDAY MISTAKES</text>
+    </g>
+  
+      
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#3A6332" stroke-width="1.2" />
+        <text x="54" y="462" fill="#3A6332" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">ERRORI DEL SABATO • Vol. 2026.10</text>
+        <text x="54" y="500" fill="#dc2626" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Errori del sabato: 5 errori</text>
+<text x="54" y="536" fill="#dc2626" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">comuni in italiano e come</text>
+<text x="54" y="572" fill="#dc2626" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">correggerli</text>
+      </g>
+    
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+    </svg>
