@@ -19,23 +19,9 @@
       </style>
       
     <rect width="1200" height="630" fill="#d69e2e" />
-    
-      <polygon points="870,361 753,535 475,515 483,203 763,151" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="268,433 134,531 144,386" fill="#236583" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="1149,382 977,574 839,591 697,510 663,263 789,197 966,234" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="1424,614 985,880 925,271" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="198,294 62,448 -85,314 97,153" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="952,518 837,738 600,499 795,324" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
-      <polygon points="985,210 826,488 400,354 486,32 799,-39" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-
-      <polygon points="97,171 14,260 -55,167 19,91" fill="#236583" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
-    
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#faf7f2" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#236583" stroke-width="2" opacity="0.35" />
+    <path d="M 375 359 Q 402 332 429 359 T 456 359" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 708 338 Q 727 319 746 338 T 765 338" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 312 251 Q 327 236 342 251 T 357 251" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 850 464 Q 879 435 908 464 T 937 464" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1065 279 Q 1093 251 1121 279 T 1149 279" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 586 120 Q 615 91 644 120 T 673 120" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" />
   
       
       <g transform="rotate(-3 478.5 252.5)">
@@ -48,14 +34,14 @@
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="971,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 991,157.5 971,0" fill="#FCF9F2" opacity="0.9" stroke="#236583" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1012,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1032,157.5 1012,0" fill="#FCF9F2" opacity="0.9" stroke="#236583" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
-    <g transform="rotate(-4 628 41)" filter="url(#soft-shadow)">
-      <rect x="568" y="29" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
-      <line x1="568" y1="29" x2="568" y2="53" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
-      <line x1="688" y1="29" x2="688" y2="53" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    <g transform="rotate(-2 156 38)" filter="url(#soft-shadow)">
+      <rect x="96" y="26" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="96" y1="26" x2="96" y2="50" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="216" y1="26" x2="216" y2="50" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       
