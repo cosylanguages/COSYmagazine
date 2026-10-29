@@ -48,6 +48,11 @@
       "text": "Bienvenue dans la Partie 1 de notre série en 2 parties sur les verbes essentiels en français pour les niveaux A0–A1 et A2 ! Ce guide présente des phrases simples adaptées à l'apprentissage pratique. (Consultez aussi la [Partie 2](top-10-verbs-part-2-fr.html)). Les tableaux complets de conjugaison sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
     },
     {
+      "type": "culture-bite",
+      "title": "🎵 Chansons et playlists vidéo pour les verbes irréguliers",
+      "content": "Apprenez les verbes irréguliers français en musique ! Retrouvez l'intégralité des chansons et clips pédagogiques sur notre [Playlist YouTube](https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE). Pour les apprenants situés dans des pays sans accès direct à YouTube (notamment la Russie), la playlist complète est également disponible sur [RuTube](https://rutube.ru/plst/1882480)."
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Les 10 verbes fondamentaux (Partie 1)"
@@ -711,6 +716,18 @@
     {
       "type": "paragraph",
       "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE",
+      "label": "📺 Playlist YouTube — Chansons des verbes irréguliers en français"
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://rutube.ru/plst/1882480",
+      "label": "📺 Playlist RuTube — Chansons des verbes irréguliers en français (Accès Russie & international)"
     }
   ],
   "draft": false
