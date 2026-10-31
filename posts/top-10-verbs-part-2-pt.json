@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-pt",
+      "listTitle": "A lista completa",
+      "headers": [
+        "#",
+        "Verbo",
+        "Para que serve",
+        "Exemplo",
+        "Expressões úteis"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fazer",
+          "Atividades (Fazer os TPC).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Falar / Dizer",
+          "Comunicação (Falar português).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Olhar / Ver",
+          "Atenção visual (Olhar para um filme).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Ouvir / Escutar",
+          "Audição (Ouvir música).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Ter de / Dever",
+          "Obrigação (Tenho de estudar).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Tomar / Dar",
+          "Troca (Tomar um café).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Morar / Viver",
+          "Residência (Moro em Lisboa).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Esperar",
+          "Paciência (Esperar o autocarro).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Entender / Compreender",
+          "Compreensão (Entendo a lição).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Perguntar / Responder",
+          "Perguntas (Fazer uma pergunta).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tabela comparativa de verbos"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html), e consulte as conjuções no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Leituras recomendadas",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "As ideias deste artigo apoiam-se em investigação publicada e na prática de ensino. Para começar:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

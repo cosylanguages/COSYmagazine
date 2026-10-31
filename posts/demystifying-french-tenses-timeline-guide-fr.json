@@ -21,7 +21,7 @@
     "Conjugation",
     "Fluency"
   ],
-  "readingTime": 12,
+  "readingTime": 9,
   "podcast": {
     "episode": 13,
     "audioUrl": "audio/blog/demystifying-french-tenses-podcast-fr.mp3"
@@ -51,18 +51,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Introduction : La carte mentale du temps en français",
-      "say": "Bienvenue dans ce guide ultime sur la conjugaison et la temporalité en français. La grammaire française fait parfois peur, mais lorsqu'on l'observe sur une ligne du temps, tout devient clair et logique.",
-      "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
-        "target": "#block-0"
-      }
-    },
-    {
-      "type": "paragraph",
-      "text": "Le système verbal français s'articule autour de trois grands axes temporels : le **passé**, le **présent** et le **futur**, combinés à deux visions de l'action : l'**aspect accompli** (action terminée) et l'**aspect inaccompli** (action en cours ou habituelle). <span class=\"handwritten-note\">💡 Astuce : Pensez en blocs temporels !</span>",
-      "say": "Le système verbal français repose sur trois piliers : le passé, le présent et le futur, couplés aux aspects accompli et inaccompli.",
+      "text": "Introduction : un système à apprivoiser, pas à réciter",
+      "say": "Introduction : un système à apprivoiser, pas à réciter",
       "beat": {
         "duration": 1000,
         "camera": "focus",
@@ -71,71 +61,94 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n        <h3 class=\"printable-reference-title\">📋 Fiche Aiguillage : Matrice des Temps en Français</h3>\n        <button class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Imprimer / Sauvegarder la Fiche PDF</button>\n    </div>\n    <table class=\"printable-reference-table\">\n        <thead>\n            <tr>\n                <th>Temps / Mode</th>\n                <th>Structure Clé</th>\n                <th>Mot Signal</th>\n                <th>Usage Principal</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr><td>Présent</td><td>Verbe au présent</td><td>aujourd'hui, souvent</td><td>Habitudes, vérités générales</td></tr>\n            <tr><td>Passé Composé</td><td>avoir/être + participe passé</td><td>hier, soudain</td><td>Action ponctuelle et terminée</td></tr>\n            <tr><td>Imparfait</td><td>Radical + -ais, -ait, -aient</td><td>autrefois, pendant que</td><td>Décor, habitude passée</td></tr>\n            <tr><td>Plus-que-parfait</td><td>avait/était + participe passé</td><td>déjà, avant que</td><td>Passé antérieur à un autre passé</td></tr>\n            <tr><td>Futur Simple</td><td>Infinitif + -ai, -as, -a, -ont</td><td>demain, l'année prochaine</td><td>Projets, prédictions futures</td></tr>\n        </tbody>\n    </table>\n</div>"
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "1. Le Présent de l'Indicatif : Le point d'ancrage",
-      "say": "Commençons par le présent de l'indicatif, notre point d'ancrage sur la ligne du temps.",
+      "text": "Le français n'a pas douze temps à avaler d'un coup : il a surtout <strong>huit repères</strong> qui font presque tout le travail. Sur la ligne du temps, il y a le passé, le présent et le futur ; mais le français ajoute une seconde question, plus subtile : l'action est-elle <em>vue de l'extérieur, comme un événement terminé</em> (passé composé), ou <em>vue de l'intérieur, comme un décor ou une habitude</em> (imparfait) ? Ce guide suit la grammaire de référence (Riegel, Pellat et Rioul) et vous donne, pour chaque temps, sa forme, son emploi et trois exemples à imiter. <span class=\"handwritten-note\">💡 Astuce : apprenez les temps par paires, pas un par un !</span>",
+      "say": "Le français n'a pas douze temps à avaler d'un coup : il a surtout huit repères qui font presque tout le travail. Sur la ligne du temps, il y a le passé, le présent et le futur ; mais le français ajoute une seconde question, plus subtile : l'action est-elle vue de l'extérieur, comme un événement terminé (passé composé), ou vue de l'intérieur, comme un décor ou une habitude (imparfait) ? Ce guide suit la grammaire de référence (Riegel, Pellat et Rioul) et vous donne, pour chaque temps, sa forme, son emploi et trois exemples à imiter. 💡 Astuce : apprenez les temps par paires, pas un par un !",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-2"
       }
     },
     {
       "type": "paragraph",
-      "text": "Le présent s'utilise pour une action immédiate (*Je parle*), une habitude (*Je lis tous les soirs*) ou une vérité générale (*La Terre tourne autour du Soleil*).",
-      "say": "Le présent exprime l'immédiat, l'habitude quotidienne ou les vérités générales.",
-      "beat": {
-        "duration": 1000,
-        "camera": "focus",
-        "target": "#block-3"
-      }
+      "text": "<div class=\"printable-reference-card\">\n    <div class=\"printable-reference-header\">\n        <h3 class=\"printable-reference-title\">📋 Fiche à imprimer : la carte des temps français</h3>\n        <button class=\"print-download-btn\" onclick=\"window.print()\">🖨️ Imprimer / enregistrer en PDF</button>\n    </div>\n    <table class=\"printable-reference-table\">\n        <thead>\n            <tr><th>Temps</th><th>Formation</th><th>Mots-signaux</th><th>Emploi principal</th></tr>\n        </thead>\n        <tbody>\n            <tr><td>Présent</td><td>radical + -e, -es, -e, -ons, -ez, -ent</td><td>en ce moment, tous les jours, depuis</td><td>Maintenant, habitudes, vérités générales</td></tr><tr><td>Passé composé</td><td>avoir / être (présent) + participe passé</td><td>hier, soudain, ce matin</td><td>Événement terminé, première plan</td></tr><tr><td>Imparfait</td><td>radical de nous + -ais, -ais, -ait, -ions, -iez, -aient</td><td>autrefois, souvent, pendant que</td><td>Décor, habitude passée, action en cours</td></tr><tr><td>Plus-que-parfait</td><td>avoir / être (imparfait) + participe passé</td><td>déjà, jamais, avant</td><td>Passé du passé</td></tr><tr><td>Futur proche</td><td>aller (présent) + infinitif</td><td>bientôt, ce soir, tout de suite</td><td>Futur imminent ou certain</td></tr><tr><td>Futur simple</td><td>infinitif (ou radical irrégulier) + -ai, -as, -a, -ons, -ez, -ont</td><td>demain, un jour, dès que</td><td>Prédiction, promesse, projet</td></tr><tr><td>Conditionnel présent</td><td>radical du futur + -ais, -ais, -ait, -ions, -iez, -aient</td><td>si + imparfait, peut-être</td><td>Politesse, hypothèse, conseil</td></tr><tr><td>Subjonctif présent</td><td>que + radical de ils + -e, -es, -e, -ions, -iez, -ent</td><td>il faut que, bien que, pour que</td><td>Nécessité, volonté, émotion, doute</td></tr>\n        </tbody>\n    </table>\n</div>"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "2. Le Passé : Passé Composé vs Imparfait",
-      "say": "Abordons maintenant le grand duel de la langue française : Passé Composé contre Imparfait.",
+      "text": "La ligne du temps : trois zones, un même verbe",
+      "say": "La ligne du temps : trois zones, un même verbe",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-4"
       }
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-timeline\"><div class=\"timeline-labels\"><span>Passé</span><span class=\"timeline-now-label\">MAINTENANT</span><span>Futur</span></div><div class=\"timeline-line\"><div class=\"timeline-event\" style=\"left:18%; width:20%;\"><div class=\"timeline-bar\"></div><div class=\"timeline-card\"><strong>Passé Composé vs Imparfait</strong><p>Événement ponctuel vs Arrière-plan continu</p></div></div><div class=\"timeline-now\"></div></div></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "C'est la difficulté majeure des apprenants. Retenez cette règle visuelle simple :\n\n- **L'Imparfait** pose le décor et décrit l'arrière-plan ou une habitude (*Il pleuvait, les oiseaux chantaient*).\n- **Le Passé Composé** est un événement ponctuel qui surgit au premier plan et fait avancer l'histoire (*Soudain, le téléphone a sonné*). <span class=\"notebook-margin-note\">✍️ Règle d'or : Imparfait = Film de fond, Passé composé = Éclair !</span>",
-      "say": "Considérez l'imparfait comme le décor de fond d'un tableau, et le passé composé comme l'action soudaine au premier plan.",
+      "text": "Avant de comparer les temps, fixez le cadre : un événement a lieu avant maintenant, pendant maintenant ou après maintenant. Observez comment la même phrase change de place sur la ligne du temps.",
+      "say": "Avant de comparer les temps, fixez le cadre : un événement a lieu avant maintenant, pendant maintenant ou après maintenant. Observez comment la même phrase change de place sur la ligne du temps.",
       "beat": {
-        "duration": 1500,
+        "duration": 1000,
         "camera": "focus",
         "target": "#block-5"
       }
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "3. Le Plus-que-parfait : Le passé du passé",
-      "say": "Quand vous avez besoin d'évoquer une action antérieure à une autre action passée, utilisez le plus-que-parfait.",
+      "type": "table",
+      "headers": [
+        "PASSÉ (avant maintenant)",
+        "PRÉSENT (maintenant)",
+        "FUTUR (après maintenant)"
+      ],
+      "rows": [
+        [
+          "J'ai habité à Lyon pendant deux ans.",
+          "J'habite à Lyon.",
+          "J'habiterai à Lyon."
+        ],
+        [
+          "J'habitais à Lyon quand j'étais petit.",
+          "J'habite à Lyon depuis 2020.",
+          "Je vais habiter à Lyon."
+        ]
+      ],
+      "caption": "Ligne du temps : le verbe habiter dans les trois zones",
+      "say": "Le même verbe, habiter, change de forme selon sa position avant, pendant ou après maintenant.",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-6"
       }
     },
     {
-      "type": "paragraph",
-      "text": "Exemple : *Quand je suis arrivé à la gare (passé composé), le train était déjà parti (plus-que-parfait).* L'action d'être parti s'est produite en premier.",
-      "say": "Par exemple : quand je suis arrivé, le train était déjà parti. Le départ du train précède mon arrivée.",
+      "type": "table",
+      "headers": [
+        "Marqueurs du passé 🕰️",
+        "Marqueurs du présent ⏳",
+        "Marqueurs du futur 🚀"
+      ],
+      "rows": [
+        [
+          "hier, hier soir",
+          "en ce moment, maintenant",
+          "demain, après-demain"
+        ],
+        [
+          "il y a deux jours",
+          "aujourd'hui, de nos jours",
+          "la semaine prochaine"
+        ],
+        [
+          "l'année dernière, en 2010",
+          "depuis + durée, tous les jours",
+          "dans trois jours, bientôt"
+        ]
+      ],
+      "caption": "Mots-signaux : les repères qui annoncent le temps",
+      "say": "Ces mots guident le choix du temps, mais le contexte compte autant : « soudain » appelle le passé composé, « chaque été » appelle l'imparfait.",
       "beat": {
-        "duration": 1200,
+        "duration": 1000,
         "camera": "focus",
         "target": "#block-7"
       }
@@ -143,65 +156,831 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "4. Le Futur Proche & Le Futur Simple",
-      "say": "Pour vous projeter dans l'avenir, le français propose deux formes principales : le futur proche et le futur simple.",
+      "text": "1. Le présent : l'ancre de la ligne du temps",
+      "say": "1. Le présent : l'ancre de la ligne du temps",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-8"
       }
     },
     {
       "type": "paragraph",
-      "text": "- **Futur Proche (Aller + Infinitif)** : intention immédiate ou décision spontanée (*Je vais manger*).\n- **Futur Simple** : prédiction ou projet à plus long terme (*Un jour, j'habiterai à Paris*).",
-      "say": "Le futur proche traduit une intention immédiate, tandis que le futur simple exprime des projets ou prédictions plus lointaines.",
+      "text": "Pour les verbes en -er, on prend le radical et on ajoute -e, -es, -e, -ons, -ez, -ent : <em>je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent</em>. Le présent français couvre à lui seul le présent simple et le présent progressif de l'anglais : <em>je lis</em> signifie « I read » et « I am reading ». Pour insister sur le déroulement, on dit <em>je suis en train de lire</em>. Attention aussi : une situation commencée dans le passé et toujours vraie se dit au présent avec <em>depuis</em>.",
+      "say": "Pour les verbes en -er, on prend le radical et on ajoute -e, -es, -e, -ons, -ez, -ent : je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. Le présent français couvre à lui seul le présent simple et le présent progressif de l'anglais : je lis signifie « I read » et « I am reading ». Pour insister sur le déroulement, on dit je suis en train de lire. Attention aussi : une situation commencée dans le passé et toujours vraie se dit au présent avec depuis.",
       "beat": {
-        "duration": 1200,
+        "duration": 1000,
         "camera": "focus",
         "target": "#block-9"
       }
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "5. Les Modes : Conditionnel et Subjonctif",
-      "say": "Au-delà de l'indicatif, le français utilise le conditionnel pour le souhait et l'hypothèse, et le subjonctif pour la nécessité et l'émotion.",
+      "type": "paragraph",
+      "text": "<div class=\"cosy-timeline\"><div class=\"timeline-labels\"><span>Passé</span><span class=\"timeline-now-label\">MAINTENANT</span><span>Futur</span></div><div class=\"timeline-line\"><div class=\"timeline-event\" style=\"left:48%; width:4%;\"><div class=\"timeline-bar\"></div><div class=\"timeline-card\"><strong>Présent</strong><p>Habitude, vérité générale, action en cours<br>Centré sur maintenant</p></div></div><div class=\"timeline-now\"></div></div></div>",
+      "say": "Voici la ligne du temps du présent, centré sur le moment de la parole.",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-10"
       }
     },
     {
-      "type": "paragraph",
-      "text": "- **Conditionnel** : *Si j'avais du temps, je voyagerais* (hypothèse).\n- **Subjonctif** : *Il faut que tu viennes* (obligation/désir). Le subjonctif s'utilise toujours après des expressions de volonté, de doute ou de sentiment.",
-      "say": "Le conditionnel gère les hypothèses et le désir, tandis que le subjonctif régit l'obligation, l'émotion et l'incertitude.",
+      "type": "example",
+      "targetText": "Je travaille à la bibliothèque tous les matins.",
+      "gloss": "Habitude : le présent exprime ce qui se répète.",
+      "context": "Quotidien",
+      "say": "Je travaille à la bibliothèque tous les matins.",
       "beat": {
-        "duration": 1500,
+        "duration": 1000,
         "camera": "focus",
         "target": "#block-11"
       }
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Conclusion & Tableau Récapitulatif",
-      "say": "En résumé, structurez vos idées sur la ligne du temps. Pratiquez ces distinctions au quotidien et vous gagnerez une aisance naturelle.",
+      "type": "example",
+      "targetText": "J'habite à Lyon depuis 2020.",
+      "gloss": "Présent + depuis : la situation commence avant maintenant et continue.",
+      "context": "Durée jusqu'à aujourd'hui",
+      "say": "J'habite à Lyon depuis 2020.",
       "beat": {
-        "duration": 1200,
-        "camera": "pan-zoom",
+        "duration": 1000,
+        "camera": "focus",
         "target": "#block-12"
       }
     },
     {
-      "type": "paragraph",
-      "text": "En maîtrisant cette chronologie, vous ne traduirez plus mot à mot depuis votre langue maternelle, mais penserez directement la temporalité en français.",
-      "say": "Pensez la temporalité directement en français pour parler naturellement et couramment.",
+      "type": "example",
+      "targetText": "La Seine traverse Paris.",
+      "gloss": "Vérité générale, toujours valable.",
+      "context": "Fait permanent",
+      "say": "La Seine traverse Paris.",
       "beat": {
         "duration": 1000,
         "camera": "focus",
         "target": "#block-13"
       }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Le passé composé : l'événement terminé",
+      "say": "2. Le passé composé : l'événement terminé",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-14"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On le forme avec l'auxiliaire <em>avoir</em> ou <em>être</em> au présent, plus le participe passé : <em>j'ai mangé, elle est partie</em>. Les verbes de mouvement ou de changement d'état (aller, venir, arriver, partir, naître, mourir, tomber, devenir…) et tous les verbes pronominaux prennent <em>être</em> ; le participe s'accorde alors avec le sujet. Avec <em>avoir</em>, le participe ne s'accorde qu'avec un complément d'objet direct placé avant le verbe. À l'oral, le passé composé raconte les événements qui se suivent et exprime aussi le résultat présent : il remplace à la fois le passé simple et le « present perfect » anglais.",
+      "say": "On le forme avec l'auxiliaire avoir ou être au présent, plus le participe passé : j'ai mangé, elle est partie. Les verbes de mouvement ou de changement d'état (aller, venir, arriver, partir, naître, mourir, tomber, devenir…) et tous les verbes pronominaux prennent être ; le participe s'accorde alors avec le sujet. Avec avoir, le participe ne s'accorde qu'avec un complément d'objet direct placé avant le verbe. À l'oral, le passé composé raconte les événements qui se suivent et exprime aussi le résultat présent : il remplace à la fois le passé simple et le « present perfect » anglais.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-15"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Hier, j'ai fini mon devoir avant le dîner.",
+      "gloss": "Événement terminé, situé dans un passé révolu.",
+      "context": "Récit simple",
+      "say": "Hier, j'ai fini mon devoir avant le dîner.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-16"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Elle est arrivée à neuf heures.",
+      "gloss": "Auxiliaire être : le participe s'accorde avec le sujet (arrivée).",
+      "context": "Verbe de mouvement",
+      "say": "Elle est arrivée à neuf heures.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-17"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Les lettres que j'ai écrites sont parties ce matin.",
+      "gloss": "Accord avec le COD antérieur (« que » = les lettres) ; partir se conjugue avec être.",
+      "context": "Double accord",
+      "say": "Les lettres que j'ai écrites sont parties ce matin.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-18"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. L'imparfait : le décor et l'habitude",
+      "say": "3. L'imparfait : le décor et l'habitude",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-19"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On prend le radical de la forme <em>nous</em> du présent, sans -ons, et on ajoute -ais, -ais, -ait, -ions, -iez, -aient : <em>nous parlons → je parlais</em> ; seul <em>être</em> fait exception (<em>j'étais</em>). L'imparfait ne dit ni le début ni la fin de l'action : il peint l'arrière-plan, décrit une habitude passée, ou montre une action en cours quand une autre survient. C'est aussi le temps de la politesse atténuée (<em>Je voulais vous demander…</em>) et de l'hypothèse après <em>si</em>.",
+      "say": "On prend le radical de la forme nous du présent, sans -ons, et on ajoute -ais, -ais, -ait, -ions, -iez, -aient : nous parlons → je parlais ; seul être fait exception (j'étais). L'imparfait ne dit ni le début ni la fin de l'action : il peint l'arrière-plan, décrit une habitude passée, ou montre une action en cours quand une autre survient. C'est aussi le temps de la politesse atténuée (Je voulais vous demander…) et de l'hypothèse après si.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-20"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-timeline\"><div class=\"timeline-labels\"><span>Passé</span><span class=\"timeline-now-label\">MAINTENANT</span><span>Futur</span></div><div class=\"timeline-line\"><div class=\"timeline-event\" style=\"left:12%; width:28%;\"><div class=\"timeline-bar\"></div><div class=\"timeline-card\"><strong>Imparfait</strong><p>Décor, habitude, action en cours<br>Début et fin non précisés</p></div></div><div class=\"timeline-now\"></div></div></div>",
+      "say": "Voici la ligne du temps de l'imparfait : une longue barre sans début ni fin précis.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-21"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Il pleuvait et le vent soufflait sur la cour de la bibliothèque.",
+      "gloss": "Description du décor : plusieurs états simultanés.",
+      "context": "Ambiance de récit",
+      "say": "Il pleuvait et le vent soufflait sur la cour de la bibliothèque.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-22"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Quand j'étais petit, nous allions chez ma grand-mère tous les dimanches.",
+      "gloss": "Habitude répétée dans le passé.",
+      "context": "Souvenir d'enfance",
+      "say": "Quand j'étais petit, nous allions chez ma grand-mère tous les dimanches.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-23"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je lisais quand le téléphone a sonné.",
+      "gloss": "Action en cours (imparfait) interrompue par un événement ponctuel (passé composé).",
+      "context": "Deux plans",
+      "say": "Je lisais quand le téléphone a sonné.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-24"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>La règle visuelle :</strong> l'imparfait est la longue barre en arrière-plan, le passé composé est le point qui apparaît dessus. <em>Il faisait nuit quand nous sommes sortis.</em>",
+      "say": "La règle visuelle : l'imparfait est la longue barre en arrière-plan, le passé composé est le point qui apparaît dessus. Il faisait nuit quand nous sommes sortis.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-25"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase est correcte pour raconter une habitude de l'enfance ?",
+      "options": [
+        "Chaque été, nous sommes allés à la mer.",
+        "Chaque été, nous allions à la mer.",
+        "Chaque été, nous irons à la mer.",
+        "Chaque été, nous allons à la mer."
+      ],
+      "correctIndex": 1,
+      "explanation": "« Chaque été » décrit une habitude passée sans début ni fin précis : on emploie l'imparfait (nous allions).",
+      "say": "Quelle phrase est correcte pour raconter une habitude de l'enfance ?",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-26"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Le plus-que-parfait : le passé du passé",
+      "say": "4. Le plus-que-parfait : le passé du passé",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-27"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Il se forme avec l'auxiliaire <em>avoir</em> ou <em>être</em> à l'imparfait, plus le participe passé : <em>j'avais fini, elle était partie</em>. Il indique qu'une action s'est produite <strong>avant</strong> une autre action passée, ou avant un repère passé. Il sert aussi dans le discours rapporté : si l'on dit au passé « il a dit que… », le verbe de la subordonnée antérieure passe au plus-que-parfait.",
+      "say": "Il se forme avec l'auxiliaire avoir ou être à l'imparfait, plus le participe passé : j'avais fini, elle était partie. Il indique qu'une action s'est produite avant une autre action passée, ou avant un repère passé. Il sert aussi dans le discours rapporté : si l'on dit au passé « il a dit que… », le verbe de la subordonnée antérieure passe au plus-que-parfait.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-28"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Quand je suis arrivé à la gare, le train était déjà parti.",
+      "gloss": "Le départ précède l'arrivée : il est donc au plus-que-parfait.",
+      "context": "Ordre chronologique",
+      "say": "Quand je suis arrivé à la gare, le train était déjà parti.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-29"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Elle n'avait jamais vu la mer avant ce voyage.",
+      "gloss": "Expérience antérieure à un repère dans le passé.",
+      "context": "Premier contact",
+      "say": "Elle n'avait jamais vu la mer avant ce voyage.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-30"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Il m'a dit qu'il avait oublié son livre.",
+      "gloss": "Discours rapporté : l'oubli est antérieur au moment où il parle.",
+      "context": "Discours indirect",
+      "say": "Il m'a dit qu'il avait oublié son livre.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-31"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. Le futur proche : ce qui va arriver",
+      "say": "5. Le futur proche : ce qui va arriver",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-32"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On conjugue <em>aller</em> au présent et on ajoute l'infinitif : <em>je vais partir, tu vas tomber, nous allons manger</em>. C'est la forme la plus fréquente à l'oral pour parler de l'avenir. Elle exprime une intention immédiate, un plan déjà décidé, ou une conséquence quasi certaine que l'on voit venir.",
+      "say": "On conjugue aller au présent et on ajoute l'infinitif : je vais partir, tu vas tomber, nous allons manger. C'est la forme la plus fréquente à l'oral pour parler de l'avenir. Elle exprime une intention immédiate, un plan déjà décidé, ou une conséquence quasi certaine que l'on voit venir.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-33"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Attention, tu vas tomber !",
+      "gloss": "Danger imminent, que l'on perçoit déjà.",
+      "context": "Avertissement",
+      "say": "Attention, tu vas tomber !",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-34"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Ce soir, nous allons regarder un film.",
+      "gloss": "Plan décidé pour très bientôt.",
+      "context": "Projet proche",
+      "say": "Ce soir, nous allons regarder un film.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-35"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Regarde ces nuages : il va pleuvoir.",
+      "gloss": "Prévision fondée sur un indice visible.",
+      "context": "Prévision",
+      "say": "Regarde ces nuages : il va pleuvoir.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-36"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Le futur simple : prédire et promettre",
+      "say": "6. Le futur simple : prédire et promettre",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-37"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On ajoute -ai, -as, -a, -ons, -ez, -ont à l'infinitif (les verbes en -re perdent leur -e : <em>je prendrai</em>). Plusieurs verbes très fréquents ont un radical irrégulier : <em>être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, pouvoir → je pourrai, voir → je verrai, venir → je viendrai, vouloir → je voudrai</em>. Le futur simple convient aux prédictions, aux promesses et aux projets éloignés. Après <em>quand</em>, <em>dès que</em> et <em>aussitôt que</em>, il est obligatoire quand l'idée est future, contrairement à l'anglais.",
+      "say": "On ajoute -ai, -as, -a, -ons, -ez, -ont à l'infinitif (les verbes en -re perdent leur -e : je prendrai). Plusieurs verbes très fréquents ont un radical irrégulier : être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, pouvoir → je pourrai, voir → je verrai, venir → je viendrai, vouloir → je voudrai. Le futur simple convient aux prédictions, aux promesses et aux projets éloignés. Après quand, dès que et aussitôt que, il est obligatoire quand l'idée est future, contrairement à l'anglais.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-38"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-timeline\"><div class=\"timeline-labels\"><span>Passé</span><span class=\"timeline-now-label\">MAINTENANT</span><span>Futur</span></div><div class=\"timeline-line\"><div class=\"timeline-event\" style=\"left:62%; width:22%;\"><div class=\"timeline-bar\"></div><div class=\"timeline-card\"><strong>Futur simple</strong><p>Prédiction, promesse, projet<br>Après maintenant</p></div></div><div class=\"timeline-now\"></div></div></div>",
+      "say": "Voici la ligne du temps du futur simple, placé après maintenant.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-39"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Un jour, j'habiterai à Paris.",
+      "gloss": "Projet lointain ou rêve.",
+      "context": "Avenir éloigné",
+      "say": "Un jour, j'habiterai à Paris.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-40"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je te téléphonerai dès que j'arriverai.",
+      "gloss": "Futur simple dans les deux propositions après dès que.",
+      "context": "Promesse",
+      "say": "Je te téléphonerai dès que j'arriverai.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-41"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Quand tu auras fini, tu pourras sortir.",
+      "gloss": "Futur antérieur (auras fini) puis futur simple : deux étapes dans l'avenir.",
+      "context": "Ordre dans le futur",
+      "say": "Quand tu auras fini, tu pourras sortir.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-42"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Complétez : « Quand je ___ à Paris, je t'appellerai. »",
+      "options": [
+        "arrive",
+        "arriverai",
+        "arrivais",
+        "suis arrivé hier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après « quand » avec un sens futur, le français emploie le futur simple (j'arriverai), alors que l'anglais utilise le présent.",
+      "say": "Complétez : « Quand je ___ à Paris, je t'appellerai. »",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-43"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. Le conditionnel présent : politesse et hypothèse",
+      "say": "7. Le conditionnel présent : politesse et hypothèse",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-44"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On part du radical du futur et on ajoute les terminaisons de l'imparfait : <em>je parlerais, tu viendrais, nous voudrions</em>. Le conditionnel adoucit une demande (<em>je voudrais</em>), donne un conseil (<em>tu devrais</em>), exprime une hypothèse (<em>si + imparfait, conditionnel</em>), présente une information non confirmée (<em>selon la presse, le ministre serait malade</em>) et marque le « futur dans le passé » dans le discours rapporté.",
+      "say": "On part du radical du futur et on ajoute les terminaisons de l'imparfait : je parlerais, tu viendrais, nous voudrions. Le conditionnel adoucit une demande (je voudrais), donne un conseil (tu devrais), exprime une hypothèse (si + imparfait, conditionnel), présente une information non confirmée (selon la presse, le ministre serait malade) et marque le « futur dans le passé » dans le discours rapporté.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-45"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je voudrais un café, s'il vous plaît.",
+      "gloss": "Politesse : le conditionnel atténue la demande.",
+      "context": "Au café",
+      "say": "Je voudrais un café, s'il vous plaît.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-46"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Si j'avais plus de temps, je voyagerais davantage.",
+      "gloss": "Hypothèse irréelle du présent : si + imparfait, conditionnel présent.",
+      "context": "Condition",
+      "say": "Si j'avais plus de temps, je voyagerais davantage.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-47"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Il a dit qu'il viendrait demain.",
+      "gloss": "Futur dans le passé : discours rapporté.",
+      "context": "Discours indirect",
+      "say": "Il a dit qu'il viendrait demain.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-48"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "8. Le subjonctif présent : le mode de la nécessité et de l'émotion",
+      "say": "8. Le subjonctif présent : le mode de la nécessité et de l'émotion",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-49"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "On prend le radical de la forme <em>ils</em> du présent et on ajoute -e, -es, -e, -ions, -iez, -ent, précédés de <em>que</em> : <em>que je parle, que nous finissions</em>. Les verbes irréguliers sont à retenir : <em>être → que je sois, avoir → que j'aie, aller → que j'aille, faire → que je fasse, pouvoir → que je puisse, savoir → que je sache, vouloir → que je veuille</em>. On l'emploie après la nécessité (<em>il faut que</em>), la volonté, le sentiment (<em>je suis content que</em>), le doute, et après des conjonctions comme <em>pour que, avant que, bien que</em>. Si le sujet est le même, on préfère l'infinitif : <em>je veux partir</em>, mais <em>je veux que tu partes</em>.",
+      "say": "On prend le radical de la forme ils du présent et on ajoute -e, -es, -e, -ions, -iez, -ent, précédés de que : que je parle, que nous finissions. Les verbes irréguliers sont à retenir : être → que je sois, avoir → que j'aie, aller → que j'aille, faire → que je fasse, pouvoir → que je puisse, savoir → que je sache, vouloir → que je veuille. On l'emploie après la nécessité (il faut que), la volonté, le sentiment (je suis content que), le doute, et après des conjonctions comme pour que, avant que, bien que. Si le sujet est le même, on préfère l'infinitif : je veux partir, mais je veux que tu partes.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-50"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Il faut que tu viennes demain.",
+      "gloss": "Nécessité exprimée par il faut que.",
+      "context": "Obligation",
+      "say": "Il faut que tu viennes demain.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-51"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je suis content que vous soyez là.",
+      "gloss": "Émotion : subjonctif de être.",
+      "context": "Sentiment",
+      "say": "Je suis content que vous soyez là.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-52"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Bien qu'il pleuve, nous sortons.",
+      "gloss": "Concession : bien que + subjonctif.",
+      "context": "Conjonction",
+      "say": "Bien qu'il pleuve, nous sortons.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-53"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Attention :</strong> <em>espérer que</em> et <em>penser que</em> se construisent avec l'indicatif (<em>j'espère que tu viendras</em>). Mais à la forme négative ou interrogative, <em>je ne pense pas que</em> demande le subjonctif.",
+      "say": "Attention : espérer que et penser que se construisent avec l'indicatif (j'espère que tu viendras). Mais à la forme négative ou interrogative, je ne pense pas que demande le subjonctif.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-54"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les pièges fréquents",
+      "say": "Les pièges fréquents",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-55"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "title": "Depuis + passé composé",
+      "wrong": "« J'ai habité à Lyon depuis 2020. »",
+      "right": "« J'habite à Lyon depuis 2020. »",
+      "rule": "Une situation qui continue jusqu'à maintenant se dit au présent avec depuis.",
+      "why": "En anglais, on dit « I have lived » ; le français reste au présent.",
+      "examples": [
+        "Je travaille ici depuis trois ans.",
+        "Il pleut depuis ce matin."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Correct",
+        "why": "Pourquoi cette erreur ?",
+        "rule": "Règle",
+        "examples": "Autres exemples",
+        "turn": "À vous"
+      },
+      "number": "01",
+      "quiz": {
+        "question": "Comment dit-on « I have been learning French for two years » ?",
+        "options": [
+          "J'ai appris le français depuis deux ans.",
+          "J'apprends le français depuis deux ans.",
+          "J'apprenais le français depuis deux ans.",
+          "Je vais apprendre le français depuis deux ans."
+        ],
+        "correctIndex": 1,
+        "explanation": "Depuis + durée avec une situation toujours vraie : présent."
+      },
+      "say": "Depuis + passé composé. Une situation qui continue jusqu'à maintenant se dit au présent avec depuis.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-56"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "title": "Le mauvais auxiliaire",
+      "wrong": "« J'ai arrivé en retard. »",
+      "right": "« Je suis arrivé en retard. »",
+      "rule": "Les verbes de mouvement et d'état et les verbes pronominaux se conjuguent avec être.",
+      "why": "Avoir est l'auxiliaire le plus fréquent, donc on le généralise.",
+      "examples": [
+        "Elle est née en 1998.",
+        "Nous nous sommes levés tôt."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Correct",
+        "why": "Pourquoi cette erreur ?",
+        "rule": "Règle",
+        "examples": "Autres exemples",
+        "turn": "À vous"
+      },
+      "number": "02",
+      "say": "Le mauvais auxiliaire. Les verbes de mouvement et d'état et les verbes pronominaux se conjuguent avec être.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-57"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "title": "Si + conditionnel",
+      "wrong": "« Si j'aurais le temps, je viendrais. »",
+      "right": "« Si j'avais le temps, je viendrais. »",
+      "rule": "Après si, jamais de conditionnel : imparfait pour l'hypothèse, présent pour la condition possible.",
+      "why": "On transpose la structure de la phrase principale.",
+      "examples": [
+        "Si tu viens, je serai content.",
+        "Si nous avions su, nous serions venus plus tôt."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Correct",
+        "why": "Pourquoi cette erreur ?",
+        "rule": "Règle",
+        "examples": "Autres exemples",
+        "turn": "À vous"
+      },
+      "number": "03",
+      "quiz": {
+        "question": "Quelle phrase est correcte ?",
+        "options": [
+          "Si je saurais, je dirais.",
+          "Si je savais, je dirais.",
+          "Si je sais, je dirais.",
+          "Si je saurai, je dirai."
+        ],
+        "correctIndex": 1,
+        "explanation": "Si + imparfait, conditionnel présent."
+      },
+      "say": "Si + conditionnel. Après si, jamais de conditionnel : imparfait pour l'hypothèse, présent pour la condition possible.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-58"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "title": "Indicatif au lieu du subjonctif",
+      "wrong": "« Il faut que tu viens. »",
+      "right": "« Il faut que tu viennes. »",
+      "rule": "Après il faut que, le verbe est au subjonctif.",
+      "why": "À l'oral, beaucoup de formes sont identiques à l'indicatif (que je parle), l'oreille ne repère plus l'erreur.",
+      "examples": [
+        "Il faut que nous partions.",
+        "Je veux que tu sois à l'heure."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Correct",
+        "why": "Pourquoi cette erreur ?",
+        "rule": "Règle",
+        "examples": "Autres exemples",
+        "turn": "À vous"
+      },
+      "number": "04",
+      "say": "Indicatif au lieu du subjonctif. Après il faut que, le verbe est au subjonctif.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-59"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quel temps choisir ? Votre liste de décision",
+      "say": "Quel temps choisir ? Votre liste de décision",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-60"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "L'action se passe maintenant, ou c'est une habitude ou une vérité ? → <strong>présent</strong> (avec <em>depuis</em> si la situation dure encore).",
+        "L'événement est terminé et on le raconte comme un fait ? → <strong>passé composé</strong>.",
+        "Vous décrivez le décor, l'habitude ou une action en cours dans le passé ? → <strong>imparfait</strong>.",
+        "L'action est antérieure à un autre repère passé ? → <strong>plus-que-parfait</strong>.",
+        "C'est pour très bientôt ou prévisible ? → <strong>futur proche</strong> ; pour un projet lointain, une promesse ou après <em>quand</em> ? → <strong>futur simple</strong>.",
+        "Vous voulez être poli, hypothétique ou donner un conseil ? → <strong>conditionnel</strong>.",
+        "Il y a nécessité, volonté, émotion ou doute après <em>que</em> ? → <strong>subjonctif</strong>."
+      ],
+      "say": "Voici votre liste de décision pour choisir le bon temps en sept questions.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-61"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "« Quand je suis arrivé, elle ___ déjà partie. » Quel temps complète la phrase ?",
+      "options": [
+        "est",
+        "était",
+        "a été",
+        "sera"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le départ précède l'arrivée : plus-que-parfait (elle était partie).",
+      "say": "« Quand je suis arrivé, elle ___ déjà partie. » Quel temps complète la phrase ?",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-62"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Le passé simple : le temps des livres",
+      "content": "Dans la conversation, on ne l'entend presque jamais : le passé composé le remplace. Mais le passé simple (<em>il ouvrit la porte, elle sourit</em>) reste le temps du récit littéraire, des contes et des livres d'histoire, surtout à la troisième personne. Il suffit de savoir le reconnaître en lisant. À l'inverse, <em>L'Étranger</em> d'Albert Camus s'ouvre par une phrase célèbre au passé composé : « Aujourd'hui, maman est morte. »",
+      "say": "Dans la conversation, on ne l'entend presque jamais : le passé composé le remplace. Mais le passé simple (il ouvrit la porte, elle sourit) reste le temps du récit littéraire, des contes et des livres d'histoire, surtout à la troisième personne. Il suffit de savoir le reconnaître en lisant. À l'inverse, L'Étranger d'Albert Camus s'ouvre par une phrase célèbre au passé composé : « Aujourd'hui, maman est morte. »",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-63"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Le passé composé raconte ; l'imparfait peint. Un bon récit a besoin des deux.",
+      "attribution": "COSYmagazine",
+      "say": "Le passé composé raconte ; l'imparfait peint. Un bon récit a besoin des deux.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-64"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "À vous de jouer",
+      "say": "À vous de jouer",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-65"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Écrivez trois phrases au présent sur votre routine, dont une avec <em>depuis</em>.",
+        "Racontez votre dernier week-end en alternant passé composé (événements) et imparfait (décor).",
+        "Ajoutez une phrase au plus-que-parfait avec <em>déjà</em> ou <em>jamais</em>.",
+        "Notez deux projets : un au futur proche, un au futur simple.",
+        "Formulez un souhait poli au conditionnel et un conseil avec <em>il faut que</em> et le subjonctif."
+      ],
+      "say": "À vous de jouer : cinq petits exercices pour faire vivre chaque temps.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-66"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Récapitulatif",
+      "say": "Récapitulatif",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-67"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Ne mémorisez pas huit tableaux : retenez quatre paires. <strong>Présent et futur</strong> pour ce qui est et ce qui sera ; <strong>passé composé et imparfait</strong> pour l'événement et le décor ; <strong>plus-que-parfait</strong> pour le passé du passé ; <strong>conditionnel et subjonctif</strong> pour l'hypothèse, la politesse et la nécessité. En pensant directement dans la logique française, vous cesserez de traduire mot à mot depuis votre langue.",
+      "say": "Ne mémorisez pas huit tableaux : retenez quatre paires. Présent et futur pour ce qui est et ce qui sera ; passé composé et imparfait pour l'événement et le décor ; plus-que-parfait pour le passé du passé ; conditionnel et subjonctif pour l'hypothèse, la politesse et la nécessité. En pensant directement dans la logique française, vous cesserez de traduire mot à mot depuis votre langue.",
+      "beat": {
+        "duration": 1000,
+        "camera": "focus",
+        "target": "#block-68"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Pour aller plus loin",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les idées de cet article s’appuient sur des travaux publiés et sur la pratique de l’enseignement. Pour commencer :",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comrie, B. (1976).** *Aspect: An Introduction to the Study of Verbal Aspect and Related Problems.* Cambridge University Press.",
+        "**Comrie, B. (1985).** *Tense.* Cambridge University Press.",
+        "**Dahl, Ö. (1985).** *Tense and Aspect Systems.* Blackwell.",
+        "**Klein, W. (1994).** *Time in Language.* Routledge.",
+        "**Riegel, M., Pellat, J.-C., & Rioul, R. (1994).** *Grammaire méthodique du français.* Presses Universitaires de France."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

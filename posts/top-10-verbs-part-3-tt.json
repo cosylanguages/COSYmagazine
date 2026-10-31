@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-tt",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Сайлау / Сатып алу / Түләү",
+          "Сайлау һәм сатып алу.",
+          "'Китап сайлау', 'Азык-төлек сатып алу', 'Карта белән түләү'.",
+          "'дөрес сайлау', 'онлайн сатып алу', 'кеш түләү'."
+        ],
+        [
+          "2",
+          "Истә тоту (хәтерләү) / Оныту",
+          "Хәтер һәм фикерләү.",
+          "'Исемеңне истә тотам', 'Ачкычларыңны онытма!'.",
+          "'истә калдыру', 'парольне оныттым'."
+        ],
+        [
+          "3",
+          "Хис итү (үзеңне хис итү)",
+          "Физик һәм эмоциональ хат.",
+          "'Үземне яхшы хис итәм', 'Аңа салкын', 'Үзеңне ничек хис итәсең?'.",
+          "'ару хис итү', 'өйдәгечә хис итү'."
+        ],
+        [
+          "4",
+          "Очрашу",
+          "Социаль бәйләнешләр.",
+          "'Танышуыбызга шатмын', 'Сәгать 5тә очрашабыз', 'Дус белән очрашу'.",
+          "'яңа кешеләр белән очрашу', 'үзәктә очрашу'."
+        ],
+        [
+          "5",
+          "Карар итү",
+          "Карар кабул итү.",
+          "'Калырга карар иттем', 'Проект буенча карар итү'.",
+          "Проблеманы 'хәл итәләр' (solve a problem), 'карар итү' дип әйтелми."
+        ],
+        [
+          "6",
+          "Язу / Уку / Басу (текст җыю)",
+          "Язу һәм уку.",
+          "'Хат язу', 'Китап уку', 'СМС басу'.",
+          "'кулдан язу', 'кычкырып уку', 'тиз басу'."
+        ],
+        [
+          "7",
+          "Сарф итү / Изү (ачу)",
+          "Ресурсларны куллану.",
+          "'Ачага акча сарф итү', 'Вакытыңны бушка измә!'.",
+          "'гаилә белән вакыт үткәрү', 'көчне бушка сарф итү'."
+        ],
+        [
+          "8",
+          "Уйнау (барлык төрләре)",
+          "Уеннар, спорт, музыка, рольләр.",
+          "'Футбол / шахмат ойноо', 'Гитарада / пианинода ойноо', 'Кинода роль ойноо'.",
+          "'музыкаль инструментта ойноо', 'мөһим роль ойноо'."
+        ],
+        [
+          "9",
+          "Килешү / Килешмәү",
+          "Фикердәшлек.",
+          "'Сәнең белән килешәм', 'План белән килешәбез', 'Килешмим'.",
+          "'тулысынча килешү', 'ортга килү'."
+        ],
+        [
+          "10",
+          "Җибәрү / Алу",
+          "Текст һәм нәрсе җибәрү-алу.",
+          "'СМС җибәрү', 'Хат алу', 'Станциягә барып җитү'.",
+          "'имейл җибәрү', 'җавап алу', 'өйгә барып җитү'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Фигыльләрнең чагыштырма таблицасы"
@@ -186,6 +273,30 @@
     {
       "type": "paragraph",
       "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) сайтында шөгыльләнегез, [1 нче өлеш](top-10-verbs-tt.html), [2 нче өлеш](top-10-verbs-part-2-tt.html) һәм [3 нче өлеш](top-10-verbs-part-3-tt.html)не укыгыз, спряжениеларны [COSYtools](https://cosylanguages.github.io/COSYtools/) сайтында карагыз."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өстәмә укырга",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

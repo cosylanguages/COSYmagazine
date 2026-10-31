@@ -20,7 +20,7 @@
     "A0-A1",
     "14Languages"
   ],
-  "readingTime": 10,
+  "readingTime": 16,
   "podcast": {
     "episode": 2,
     "audioUrl": null
@@ -45,26 +45,151 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Bienvenue dans la Partie 1 de notre série en 2 parties sur les verbes essentiels en français pour les niveaux A0–A1 et A2 ! Ce guide présente des phrases simples adaptées à l'apprentissage pratique. (Consultez aussi la [Partie 2](top-10-verbs-part-2-fr.html)). Les tableaux complets de conjugaison sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
-    },
-    {
-      "type": "culture-bite",
-      "title": "🎵 Chansons et playlists vidéo pour les verbes irréguliers",
-      "content": "Apprenez les verbes irréguliers français en musique ! Retrouvez l'intégralité des chansons et clips pédagogiques sur notre [Playlist YouTube](https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE). Pour les apprenants situés dans des pays sans accès direct à YouTube (notamment la Russie), la playlist complète est également disponible sur [RuTube](https://rutube.ru/plst/1882480)."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Les 10 verbes fondamentaux (Partie 1)"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Être (To Be)"
+      "text": "Dix verbes suffisent pour dire presque tout ce dont vous avez besoin le premier jour de classe : qui vous êtes, ce que vous avez, ce que vous pensez, ce que vous voulez, où vous allez. <mark class=\"hl-handwritten\">Ce sont aussi les verbes les plus irréguliers du français.</mark> C'est la mauvaise nouvelle. La bonne, c'est que vous les entendrez cent fois par jour : ils s'installent donc dans votre mémoire plus vite que n'importe quel autre mot.",
+      "say": "Dix verbes suffisent pour dire presque tout ce dont vous avez besoin le premier jour de classe : qui vous êtes, ce que vous avez, ce que vous pensez, ce que vous voulez, où vous allez. Ce sont aussi les verbes les plus irréguliers du français. C'est la mauvaise nouvelle. La bonne, c'est que vous les entendrez cent fois par jour : ils s'installent donc dans votre mémoire plus vite que n'importe quel autre mot."
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation."
+      "text": "Cet article se lit <span class=\"doodle-circle\">à voix haute</span>. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Terminez par la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel.",
+      "say": "Cet article se lit à voix haute. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Terminez par la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bienvenue dans la Partie 1 de notre série en 2 parties sur les verbes essentiels en français, pour les niveaux A0–A1 et A2, dans notre numéro de rentrée. (Consultez aussi la [Partie 2](top-10-verbs-part-2-fr.html).) Les tableaux complets de conjugaison sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Bienvenue dans la Partie 1 de notre série en 2 parties sur les verbes essentiels en français, pour les niveaux A0–A1 et A2, dans notre numéro de rentrée. (Consultez aussi la Partie 2.) Les tableaux complets de conjugaison sont consultables sur COSYtools."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Un verbe appris dans une phrase vaut dix verbes appris dans une liste.",
+      "attribution": "COSYmagazine",
+      "say": "Un verbe appris dans une phrase vaut dix verbes appris dans une liste."
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-fr",
+      "listTitle": "La liste complète",
+      "headers": [
+        "#",
+        "Verbe",
+        "À quoi il sert",
+        "Exemple",
+        "Expressions utiles"
+      ],
+      "rows": [
+        [
+          "1",
+          "Être (To Be)",
+          "Le verbe être sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+          "Il est à la maison.",
+          "'être à l'heure', 'être d'accord', 'être en train de'."
+        ],
+        [
+          "2",
+          "Avoir (To Have)",
+          "Le verbe avoir exprime la possession, l'âge, la famille et les sensations physiques.",
+          "Elle a deux frères.",
+          "'avoir besoin de', 'avoir envie de', 'avoir peur'."
+        ],
+        [
+          "3",
+          "Penser (To Think)",
+          "Le verbe penser permet d'exprimer une opinion, une réflexion ou une idée.",
+          "Il pense à son avenir.",
+          "'penser à', 'penser de', 'bien penser'."
+        ],
+        [
+          "4",
+          "Savoir / Connaître (To Know)",
+          "Savoir s'utilise pour les faits et compétences (savoir + infinitif). Connaître s'utilise pour les lieux et personnes.",
+          "connaît",
+          "'savoir faire', 'faire savoir', 'en savoir plus'."
+        ],
+        [
+          "5",
+          "Aimer (To Like / Love)",
+          "Le verbe aimer exprime les goûts, les préférences, les loisirs et les sentiments.",
+          "Il aime voyager.",
+          "'j'aimerais' (souhait poli), 'aimer beaucoup'."
+        ],
+        [
+          "6",
+          "Vouloir / Voudrais (To Want / Would Like)",
+          "Le verbe vouloir exprime la volonté. La forme voudrais exprime un souhait avec politesse.",
+          "voudrait",
+          "'vouloir dire' (signifier), 'si tu veux'."
+        ],
+        [
+          "7",
+          "Aller / Futur proche (To Go)",
+          "Le verbe aller sert pour les déplacements et permet de former le futur proche (aller + infinitif).",
+          "Il va à Paris.",
+          "'comment ça va ?', 'y aller', 'aller à pied'."
+        ],
+        [
+          "8",
+          "Pouvoir (To Can / Be able to)",
+          "Le verbe modal pouvoir exprime la capacité, la possibilité ou la demande de permission.",
+          "On peut commencer.",
+          "'pouvoir faire', 'si possible', 'comme vous pouvez'."
+        ],
+        [
+          "9",
+          "Manger (To Eat)",
+          "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+          "Il mange à midi.",
+          "'bon appétit', 'donner à manger', 'manger équilibré'."
+        ],
+        [
+          "10",
+          "Boire (To Drink)",
+          "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+          "Il boit un thé vert.",
+          "'avoir à boire', 'boire un coup', 'boire un verre'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "La carte mémoire : dix verbes, cinq fonctions",
+      "say": "La carte mémoire : dix verbes, cinq fonctions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Au lieu d'apprendre dix verbes l'un après l'autre, rangez-les par fonction. Quand vous voulez dire quelque chose, demandez-vous d'abord : <mark class=\"hl-handwritten\">est-ce que je parle de moi, de mon avis, de mes envies, d'un déplacement ou du quotidien ?</mark> Le verbe vient presque tout seul.",
+      "say": "Au lieu d'apprendre dix verbes l'un après l'autre, rangez-les par fonction. Quand vous voulez dire quelque chose, demandez-vous d'abord : est-ce que je parle de moi, de mon avis, de mes envies, d'un déplacement ou du quotidien ? Le verbe vient presque tout seul."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Qui je suis, ce que j'ai :** être, avoir. Identité, âge, profession, sensations.",
+        "**Ce que je pense, ce que je sais :** penser, savoir, connaître. Opinions, compétences, personnes et lieux.",
+        "**Ce que j'aime, ce que je veux :** aimer, vouloir. Goûts, souhaits, demandes polies.",
+        "**Bouger et être capable :** aller, pouvoir. Déplacements, projets proches, permission.",
+        "**Le quotidien :** manger, boire. Repas, boissons, invitations."
+      ],
+      "say": "Qui je suis, ce que j'ai : être, avoir. Identité, âge, profession, sensations. Ce que je pense, ce que je sais : penser, savoir, connaître. Opinions, compétences, personnes et lieux. Ce que j'aime, ce que je veux : aimer, vouloir. Goûts, souhaits, demandes polies. Bouger et être capable : aller, pouvoir. Déplacements, projets proches, permission. Le quotidien : manger, boire. Repas, boissons, invitations."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les 10 verbes fondamentaux (Partie 1)",
+      "say": "Les 10 verbes fondamentaux (Partie 1)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Être (To Be)",
+      "say": "1. Être (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+      "say": "Le verbe être sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation."
     },
     {
       "type": "table",
@@ -113,16 +238,69 @@
         "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
         "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
         "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
-      ]
+      ],
+      "say": "Identité & Profession: 'Je suis Marie', 'Elle est médecin'. Localisation & État: 'Nous sommes à Paris', 'Tu es fatigué'. Expressions courantes: 'être à l'heure', 'être d'accord', 'être en train de'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je suis en retard, désolé !",
+      "gloss": "Vous dites que vous n'êtes pas à l'heure.",
+      "context": "Vous arrivez en classe après la sonnerie.",
+      "say": "Je suis en retard, désolé !"
+    },
+    {
+      "type": "example",
+      "targetText": "Nous sommes le premier septembre : c'est la rentrée.",
+      "gloss": "Pour donner la date, on dit « nous sommes » + le jour.",
+      "context": "Vous parlez du calendrier avec un camarade.",
+      "say": "Nous sommes le premier septembre : c'est la rentrée."
+    },
+    {
+      "type": "example",
+      "targetText": "Elle est professeure de maths.",
+      "gloss": "Devant une profession, pas d'article : elle est professeure.",
+      "context": "Vous présentez quelqu'un à votre famille.",
+      "say": "Elle est professeure de maths."
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "L'accord avec être",
+      "wrong": "« Marie est content. »",
+      "right": "« Marie est contente. »",
+      "why": "Dans beaucoup de langues, l'adjectif ne change pas. En français, après être, il s'accorde avec la personne dont on parle.",
+      "rule": "Après **être**, l'adjectif prend le genre et le nombre du sujet : content → contente → contents → contentes.",
+      "examples": [
+        "Il est grand. / Elle est grande.",
+        "Nous sommes fatigués. (plusieurs garçons ou un groupe mixte)",
+        "Elles sont prêtes."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "L'accord avec être. Pas tout à fait : « Marie est content. » Dites plutôt : « Marie est contente. » Dans beaucoup de langues, l'adjectif ne change pas. En français, après être, il s'accorde avec la personne dont on parle. Après être, l'adjectif prend le genre et le nombre du sujet : content → contente → contents → contentes."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Avoir (To Have)"
+      "text": "2. Avoir (To Have)",
+      "say": "2. Avoir (To Have)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques."
+      "text": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques.",
+      "say": "Le verbe avoir exprime la possession, l'âge, la famille et les sensations physiques."
     },
     {
       "type": "table",
@@ -171,16 +349,69 @@
         "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
         "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
         "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
-      ]
+      ],
+      "say": "Possession & Âge: 'J'ai un livre', 'J'ai 25 ans'. Sensations: 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'. Expressions courantes: 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "J'ai quinze ans et deux petites sœurs.",
+      "gloss": "On dit son âge avec avoir, jamais avec être.",
+      "context": "Vous vous présentez à un nouveau camarade.",
+      "say": "J'ai quinze ans et deux petites sœurs."
+    },
+    {
+      "type": "example",
+      "targetText": "J'ai faim ! On mange à quelle heure ?",
+      "gloss": "Avoir faim : c'est une sensation que l'on « a ».",
+      "context": "Il est midi, devant la cantine.",
+      "say": "J'ai faim ! On mange à quelle heure ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Tu as un stylo à me prêter ?",
+      "gloss": "Vous demandez un objet à quelqu'un.",
+      "context": "Vous avez oublié votre trousse en cours.",
+      "say": "Tu as un stylo à me prêter ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "L'âge et les sensations",
+      "wrong": "« Je suis 25 ans. »",
+      "right": "« J'ai 25 ans. »",
+      "why": "Dans votre langue, on dit peut-être « je suis 25 ans » ou « je suis faim ». Le français choisit avoir.",
+      "rule": "L'âge et les sensations se disent avec **avoir** : j'ai 25 ans, j'ai faim, j'ai soif, j'ai chaud, j'ai froid, j'ai peur.",
+      "examples": [
+        "J'ai soif.",
+        "Elle a seize ans.",
+        "Nous avons froid."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "L'âge et les sensations. Pas tout à fait : « Je suis 25 ans. » Dites plutôt : « J'ai 25 ans. » Dans votre langue, on dit peut-être « je suis 25 ans » ou « je suis faim ». Le français choisit avoir. L'âge et les sensations se disent avec avoir : j'ai 25 ans, j'ai faim, j'ai soif, j'ai chaud, j'ai froid, j'ai peur."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Penser (To Think)"
+      "text": "3. Penser (To Think)",
+      "say": "3. Penser (To Think)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée."
+      "text": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée.",
+      "say": "Le verbe penser permet d'exprimer une opinion, une réflexion ou une idée."
     },
     {
       "type": "table",
@@ -229,16 +460,81 @@
         "**Opinion:** 'Je pense que c'est une excellente idée'.",
         "**Réflexion:** 'Je pense à mes vacances'.",
         "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
-      ]
+      ],
+      "say": "Opinion: 'Je pense que c'est une excellente idée'. Réflexion: 'Je pense à mes vacances'. Expressions courantes: 'penser à', 'penser de', 'bien penser'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je pense que le cours est très utile.",
+      "gloss": "Penser que + phrase : vous donnez votre opinion.",
+      "context": "Le professeur vous demande votre avis.",
+      "say": "Je pense que le cours est très utile."
+    },
+    {
+      "type": "example",
+      "targetText": "À quoi tu penses ?",
+      "gloss": "Penser à : ce qui occupe votre esprit.",
+      "context": "Votre ami regarde par la fenêtre, perdu dans ses idées.",
+      "say": "À quoi tu penses ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Qu'est-ce que vous pensez de cette idée ?",
+      "gloss": "Penser de : on demande l'opinion de quelqu'un.",
+      "context": "Vous posez la question à votre professeur.",
+      "say": "Qu'est-ce que vous pensez de cette idée ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Penser à ou penser de",
+      "wrong": "« Je pense de mes vacances. »",
+      "right": "« Je pense à mes vacances. »",
+      "why": "Les deux petits mots se ressemblent, et dans beaucoup de langues une seule préposition suffit.",
+      "rule": "**Penser à** = avoir quelqu'un ou quelque chose en tête. **Penser de** = avoir une opinion, surtout dans la question « Qu'est-ce que tu penses de… ? ».",
+      "examples": [
+        "Je pense à toi.",
+        "Elle pense à son avenir.",
+        "Que pensez-vous de ce livre ?"
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Penser à ou penser de. Pas tout à fait : « Je pense de mes vacances. » Dites plutôt : « Je pense à mes vacances. » Les deux petits mots se ressemblent, et dans beaucoup de langues une seule préposition suffit. Penser à = avoir quelqu'un ou quelque chose en tête. Penser de = avoir une opinion, surtout dans la question « Qu'est-ce que tu penses de… ? »."
+    },
+    {
+      "type": "quiz",
+      "question": "Que pensez-vous ___ ce livre ?",
+      "options": [
+        "à",
+        "de",
+        "sur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pour demander une opinion, on utilise penser de : « Que pensez-vous de ce livre ? »",
+      "say": "Que pensez-vous ___ ce livre ?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Savoir / Connaître (To Know)"
+      "text": "4. Savoir / Connaître (To Know)",
+      "say": "4. Savoir / Connaître (To Know)"
     },
     {
       "type": "paragraph",
-      "text": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes."
+      "text": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes.",
+      "say": "Savoir s'utilise pour les faits et compétences (savoir + infinitif). Connaître s'utilise pour les lieux et personnes."
     },
     {
       "type": "table",
@@ -287,16 +583,69 @@
         "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
         "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
         "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
-      ]
+      ],
+      "say": "Savoir (Compétences): 'Je sais parler français', 'Je sais conduire'. Connaître (Lieux/Personnes): 'Je connais cette ville', 'Tu connais Marc ?'. Expressions courantes: 'savoir faire', 'faire savoir', 'en savoir plus'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je sais nager, mais je ne sais pas plonger.",
+      "gloss": "Savoir + infinitif : une compétence que l'on a apprise.",
+      "context": "Vous parlez de la piscine de l'école.",
+      "say": "Je sais nager, mais je ne sais pas plonger."
+    },
+    {
+      "type": "example",
+      "targetText": "Tu connais un bon café près d'ici ?",
+      "gloss": "Connaître : un lieu ou une personne que l'on a déjà rencontrés.",
+      "context": "Vous cherchez un endroit calme pour réviser.",
+      "say": "Tu connais un bon café près d'ici ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Je ne sais pas où est la salle 12.",
+      "gloss": "Savoir + mot interrogatif : vous cherchez une information.",
+      "context": "C'est votre premier jour au lycée.",
+      "say": "Je ne sais pas où est la salle 12."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Savoir ou connaître",
+      "wrong": "« Je connais parler français. »",
+      "right": "« Je sais parler français. »",
+      "why": "Dans beaucoup de langues, un seul verbe veut dire « savoir » et « connaître ». En français, il en faut deux.",
+      "rule": "**Savoir** + infinitif ou information (je sais nager, je sais où il habite). **Connaître** + personne, lieu ou chose (je connais Marc, je connais Lyon).",
+      "examples": [
+        "Je connais Marc.",
+        "Je sais où il habite.",
+        "Nous connaissons cette chanson."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Savoir ou connaître. Pas tout à fait : « Je connais parler français. » Dites plutôt : « Je sais parler français. » Dans beaucoup de langues, un seul verbe veut dire « savoir » et « connaître ». En français, il en faut deux. Savoir + infinitif ou information (je sais nager, je sais où il habite). Connaître + personne, lieu ou chose (je connais Marc, je connais Lyon)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Aimer (To Like / Love)"
+      "text": "5. Aimer (To Like / Love)",
+      "say": "5. Aimer (To Like / Love)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments."
+      "text": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments.",
+      "say": "Le verbe aimer exprime les goûts, les préférences, les loisirs et les sentiments."
     },
     {
       "type": "table",
@@ -345,16 +694,69 @@
         "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
         "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
         "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
-      ]
+      ],
+      "say": "Goûts & Préférences: 'J'aime le café', 'Il aime écouter de la musique'. Nuance: 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour). Expressions courantes: 'j'aimerais' (souhait poli), 'aimer beaucoup'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "J'aime beaucoup le chocolat chaud.",
+      "gloss": "Aimer + le, la, les : on parle des goûts en général.",
+      "context": "Vous commandez une boisson à la cafétéria.",
+      "say": "J'aime beaucoup le chocolat chaud."
+    },
+    {
+      "type": "example",
+      "targetText": "Elle aime bien ses nouveaux camarades de classe.",
+      "gloss": "Aimer bien : de la sympathie, pas de l'amour.",
+      "context": "Vous parlez de la rentrée.",
+      "say": "Elle aime bien ses nouveaux camarades de classe."
+    },
+    {
+      "type": "example",
+      "targetText": "Nous aimons lire avant de dormir.",
+      "gloss": "Aimer + infinitif : une activité que l'on apprécie.",
+      "context": "Vous décrivez vos habitudes du soir.",
+      "say": "Nous aimons lire avant de dormir."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Aimer et l'article",
+      "wrong": "« J'aime café. »",
+      "right": "« J'aime le café. »",
+      "why": "Dans beaucoup de langues, on dit « j'aime café » sans article. En français, le nom est presque toujours précédé d'un article.",
+      "rule": "Après **aimer**, on emploie l'article défini pour parler d'un goût général : j'aime **le** café, j'aime **les** chats. Devant une voyelle, je + aime devient **j'aime**.",
+      "examples": [
+        "J'aime la musique.",
+        "Il aime les films d'aventure.",
+        "J'aime bien ce quartier."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Aimer et l'article. Pas tout à fait : « J'aime café. » Dites plutôt : « J'aime le café. » Dans beaucoup de langues, on dit « j'aime café » sans article. En français, le nom est presque toujours précédé d'un article. Après aimer, on emploie l'article défini pour parler d'un goût général : j'aime le café, j'aime les chats. Devant une voyelle, je + aime devient j'aime."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Vouloir / Voudrais (To Want / Would Like)"
+      "text": "6. Vouloir / Voudrais (To Want / Would Like)",
+      "say": "6. Vouloir / Voudrais (To Want / Would Like)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse."
+      "text": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse.",
+      "say": "Le verbe vouloir exprime la volonté. La forme voudrais exprime un souhait avec politesse."
     },
     {
       "type": "table",
@@ -403,16 +805,87 @@
         "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
         "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
         "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
-      ]
+      ],
+      "say": "Volonté: 'Je veux de l'eau', 'Que veux-tu faire ?'. Demande polie: 'Je voudrais une réservation, s'il vous plaît'. Expressions courantes: 'vouloir dire' (signifier), 'si tu veux'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je voudrais un renseignement, s'il vous plaît.",
+      "gloss": "Je voudrais : une demande polie.",
+      "context": "Vous vous adressez à l'accueil de l'école.",
+      "say": "Je voudrais un renseignement, s'il vous plaît."
+    },
+    {
+      "type": "example",
+      "targetText": "Tu veux jouer avec nous ?",
+      "gloss": "Tu veux : une proposition amicale entre jeunes.",
+      "context": "Vous êtes dans la cour de récréation.",
+      "say": "Tu veux jouer avec nous ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Que veut dire « rentrée » ?",
+      "gloss": "Vouloir dire : signifier.",
+      "context": "Vous demandez le sens d'un mot.",
+      "say": "Que veut dire « rentrée » ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Je veux ou je voudrais",
+      "wrong": "« Je veux un café. »",
+      "right": "« Je voudrais un café, s'il vous plaît. »",
+      "why": "La phrase n'est pas fausse, mais elle sonne comme un ordre. Beaucoup d'apprenants traduisent « I want » mot à mot.",
+      "rule": "Pour demander poliment, dites **je voudrais** (ou **j'aimerais**) et ajoutez **s'il vous plaît**. Réservez **je veux** aux amis et aux envies fortes.",
+      "examples": [
+        "Je voudrais de l'eau, s'il vous plaît.",
+        "Nous voudrions une table pour deux.",
+        "Je veux ce livre-là !"
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Je veux ou je voudrais. Pas tout à fait : « Je veux un café. » Dites plutôt : « Je voudrais un café, s'il vous plaît. » La phrase n'est pas fausse, mais elle sonne comme un ordre. Beaucoup d'apprenants traduisent « I want » mot à mot. Pour demander poliment, dites je voudrais (ou j'aimerais) et ajoutez s'il vous plaît. Réservez je veux aux amis et aux envies fortes."
+    },
+    {
+      "type": "quiz",
+      "question": "Au café, pour demander poliment, vous dites :",
+      "options": [
+        "Je veux un café.",
+        "Je voudrais un café, s'il vous plaît.",
+        "Donne-moi un café."
+      ],
+      "correctIndex": 1,
+      "explanation": "« Je voudrais… s'il vous plaît » est la formule polie et naturelle pour commander.",
+      "say": "Au café, pour demander poliment, vous dites :"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Tu ou vous ? Un petit choix qui compte",
+      "content": "En français, on dit « tu » aux amis, aux membres de la famille, aux enfants et, le plus souvent, aux jeunes de son âge. On dit « vous » à une personne que l'on ne connaît pas, à un adulte dans un cadre formel, et à plusieurs personnes. Dans un magasin, à l'accueil ou avec un professeur, on emploie normalement « vous », et on commence par « Bonjour ». Le passage au « tu » se propose souvent : « On peut se tutoyer ? » Si une personne plus âgée ou en position d'autorité vous le propose, vous pouvez accepter. Dans le doute, choisissez « vous » : on vous excusera facilement d'être trop poli, rarement de ne pas l'être assez. Les usages varient selon les régions et les milieux : au Québec, par exemple, le tutoiement est plus répandu.",
+      "say": "Tu ou vous ? Un petit choix qui compte. En français, on dit « tu » aux amis, aux membres de la famille, aux enfants et, le plus souvent, aux jeunes de son âge. On dit « vous » à une personne que l'on ne connaît pas, à un adulte dans un cadre formel, et à plusieurs personnes. Dans un magasin, à l'accueil ou avec un professeur, on emploie normalement « vous », et on commence par « Bonjour ». Le passage au « tu » se propose souvent : « On peut se tutoyer ? » Si une personne plus âgée ou en position d'autorité vous le propose, vous pouvez accepter. Dans le doute, choisissez « vous » : on vous excusera facilement d'être trop poli, rarement de ne pas l'être assez. Les usages varient selon les régions et les milieux : au Québec, par exemple, le tutoiement est plus répandu."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Aller / Futur proche (To Go)"
+      "text": "7. Aller / Futur proche (To Go)",
+      "say": "7. Aller / Futur proche (To Go)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*)."
+      "text": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*).",
+      "say": "Le verbe aller sert pour les déplacements et permet de former le futur proche (aller + infinitif)."
     },
     {
       "type": "table",
@@ -461,16 +934,69 @@
         "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
         "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
         "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
-      ]
+      ],
+      "say": "Déplacement: 'Je vais à l'école', 'Nous allons en France'. Futur proche: 'Je vais étudier', 'Elle va téléphoner'. Expressions courantes: 'comment ça va ?', 'y aller', 'aller à pied'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je vais à l'école à pied.",
+      "gloss": "Aller + à + lieu : on se déplace.",
+      "context": "Vous racontez votre matin.",
+      "say": "Je vais à l'école à pied."
+    },
+    {
+      "type": "example",
+      "targetText": "Demain, nous allons visiter le musée.",
+      "gloss": "Aller + infinitif : le futur proche, quelque chose de prévu.",
+      "context": "Vous parlez d'une sortie scolaire.",
+      "say": "Demain, nous allons visiter le musée."
+    },
+    {
+      "type": "example",
+      "targetText": "Comment ça va ? – Ça va bien, merci.",
+      "gloss": "Aller sert aussi à demander et à donner des nouvelles.",
+      "context": "Vous saluez un camarade le matin.",
+      "say": "Comment ça va ? – Ça va bien, merci."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Aller et les pays",
+      "wrong": "« Je vais à France. »",
+      "right": "« Je vais en France. »",
+      "why": "On apprend « aller à » en premier et on l'emploie partout. Mais la préposition change selon le lieu.",
+      "rule": "**À** + ville (à Paris), **en** + pays féminin (en France, en Italie), **au** + pays masculin (au Canada), **aux** + pluriel (aux États-Unis).",
+      "examples": [
+        "Je vais à Lyon.",
+        "Elle va en Espagne.",
+        "Nous allons au Maroc."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Aller et les pays. Pas tout à fait : « Je vais à France. » Dites plutôt : « Je vais en France. » On apprend « aller à » en premier et on l'emploie partout. Mais la préposition change selon le lieu. À + ville (à Paris), en + pays féminin (en France, en Italie), au + pays masculin (au Canada), aux + pluriel (aux États-Unis)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Pouvoir (To Can / Be able to)"
+      "text": "8. Pouvoir (To Can / Be able to)",
+      "say": "8. Pouvoir (To Can / Be able to)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission."
+      "text": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission.",
+      "say": "Le verbe modal pouvoir exprime la capacité, la possibilité ou la demande de permission."
     },
     {
       "type": "table",
@@ -519,16 +1045,69 @@
         "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
         "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
         "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
-      ]
+      ],
+      "say": "Capacité & Possibilité: 'Je peux parler trois langues', 'Il peut venir'. Permission & Politesse: 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'. Expressions courantes: 'pouvoir faire', 'si possible', 'comme vous pouvez'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je peux entrer ?",
+      "gloss": "On demande la permission.",
+      "context": "Vous arrivez en retard à la porte de la classe.",
+      "say": "Je peux entrer ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Vous pouvez répéter, s'il vous plaît ?",
+      "gloss": "Une demande polie avec vous + pouvoir.",
+      "context": "Vous n'avez pas compris la consigne.",
+      "say": "Vous pouvez répéter, s'il vous plaît ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Ce soir, je ne peux pas venir : j'ai un examen demain.",
+      "gloss": "Je ne peux pas : quelque chose vous en empêche.",
+      "context": "Vous refusez une invitation.",
+      "say": "Ce soir, je ne peux pas venir : j'ai un examen demain."
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Pouvoir + pronom",
+      "wrong": "« Je peux aider vous ? »",
+      "right": "« Je peux vous aider ? »",
+      "why": "En anglais, le complément vient après le verbe (« help you »). En français, le pronom se place juste avant l'infinitif.",
+      "rule": "Après **pouvoir**, on met l'infinitif tout de suite, sans « à » ni « de ». Le pronom se place devant l'infinitif : je peux **vous** aider, il peut **me** répondre.",
+      "examples": [
+        "Tu peux m'aider ?",
+        "Elle peut nous écouter.",
+        "Je ne peux pas le faire."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Pouvoir + pronom. Pas tout à fait : « Je peux aider vous ? » Dites plutôt : « Je peux vous aider ? » En anglais, le complément vient après le verbe (« help you »). En français, le pronom se place juste avant l'infinitif. Après pouvoir, on met l'infinitif tout de suite, sans « à » ni « de ». Le pronom se place devant l'infinitif : je peux vous aider, il peut me répondre."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Manger (To Eat)"
+      "text": "9. Manger (To Eat)",
+      "say": "9. Manger (To Eat)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires."
+      "text": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+      "say": "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires."
     },
     {
       "type": "table",
@@ -577,16 +1156,81 @@
         "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
         "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
         "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
-      ]
+      ],
+      "say": "Repas quotidiens: 'Je mange du pain au petit-déjeuner'. Remarque orthographique: Notez le 'e' intercalé (nous mangeons). Expressions courantes: 'bon appétit', 'donner à manger', 'manger équilibré'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Qu'est-ce que tu manges à midi ?",
+      "gloss": "Une question simple sur le repas.",
+      "context": "Vous discutez dans la cour avec un ami.",
+      "say": "Qu'est-ce que tu manges à midi ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Nous mangeons à la cantine le mardi.",
+      "gloss": "Avec nous, on garde le e : mangeons.",
+      "context": "Vous décrivez votre semaine.",
+      "say": "Nous mangeons à la cantine le mardi."
+    },
+    {
+      "type": "example",
+      "targetText": "Bon appétit ! – Merci, toi aussi.",
+      "gloss": "Une formule avant de commencer le repas.",
+      "context": "Vous êtes à table avec des camarades.",
+      "say": "Bon appétit ! – Merci, toi aussi."
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Manger et l'article partitif",
+      "wrong": "« Je mange pain le matin. »",
+      "right": "« Je mange du pain le matin. »",
+      "why": "Dans beaucoup de langues, on n'a pas besoin d'article pour la nourriture. En français, il en faut un.",
+      "rule": "Pour une quantité non précise, on emploie **du, de la, de l'** : je mange **du** pain, **de la** salade, **de l'**ail.",
+      "examples": [
+        "Je mange de la soupe.",
+        "Il mange des fruits.",
+        "Nous mangeons du fromage."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Manger et l'article partitif. Pas tout à fait : « Je mange pain le matin. » Dites plutôt : « Je mange du pain le matin. » Dans beaucoup de langues, on n'a pas besoin d'article pour la nourriture. En français, il en faut un. Pour une quantité non précise, on emploie du, de la, de l' : je mange du pain, de la salade, de l'ail."
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ à midi.",
+      "options": [
+        "mangons",
+        "mangeons",
+        "mangent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Devant -ons, on garde le « e » pour conserver le son [ʒ] : nous mangeons.",
+      "say": "Nous ___ à midi."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Boire (To Drink)"
+      "text": "10. Boire (To Drink)",
+      "say": "10. Boire (To Drink)"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux."
+      "text": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+      "say": "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux."
     },
     {
       "type": "table",
@@ -635,99 +1279,138 @@
         "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
         "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
         "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tableau comparatif des verbes"
-    },
-    {
-      "type": "paragraph",
-      "text": "Comparaison des verbes essentiels selon les familles linguistiques :"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
       ],
-      "rows": [
-        [
-          "Be / Exist",
-          "être / essere / ser, estar / ser, estar",
-          "be / sein",
-          "быть / είναι / bezañ / լինել",
-          "булу / булыу / пуласси",
-          "ყოფნა (qopna)"
-        ],
-        [
-          "Have / Possess",
-          "avoir / avere / tener / ter",
-          "have / haben",
-          "иметь (у меня есть) / έχω / kaout / ունենալ",
-          "бар (минем бар) / бар / пур",
-          "ქոնա / ყოლა"
-        ],
-        [
-          "Do / Make",
-          "faire / fare / hacer / fazer",
-          "do, make / machen, tun",
-          "делать / κάνω / ober / անել",
-          "эшләү / эшләү / тăвасси",
-          "կետება (keteba)"
-        ],
-        [
-          "Go",
-          "aller / andare / ir / ir",
-          "go / gehen",
-          "идти, ехать / πηγαίνω / mont / գնալ",
-          "бару / барыу / кайни",
-          "წასვლა (tsasvla)"
-        ],
-        [
-          "See / Look",
-          "voir, regarder / vedere, guardare",
-          "see, look / sehen, schauen",
-          "видеть, смотреть / βλέπω / gwelout / տեսնել",
-          "күрү, карау / күреү, ҡарау / курасси",
-          "ნახვა, ყურება"
-        ]
-      ]
+      "say": "Boissons quotidiennes: 'Je bois un grand verre d'eau le matin'. Moment convivial: 'Voulez-vous boire quelque chose ?'. Expressions courantes: 'avoir à boire', 'boire un coup', 'boire un verre'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je bois un verre d'eau avant le cours.",
+      "gloss": "Boire + du, de la, un verre de : une boisson.",
+      "context": "Vous décrivez votre matin.",
+      "say": "Je bois un verre d'eau avant le cours."
+    },
+    {
+      "type": "example",
+      "targetText": "Tu veux boire quelque chose ? – Un thé, s'il te plaît.",
+      "gloss": "Vouloir + boire : une offre amicale.",
+      "context": "Un ami vous reçoit chez lui.",
+      "say": "Tu veux boire quelque chose ? – Un thé, s'il te plaît."
+    },
+    {
+      "type": "example",
+      "targetText": "On boit un café après l'école ?",
+      "gloss": "« On boit » remplace « nous buvons » à l'oral.",
+      "context": "Vous invitez un camarade.",
+      "say": "On boit un café après l'école ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Les formes de boire",
+      "wrong": "« Nous boisons du thé. »",
+      "right": "« Nous buvons du thé. »",
+      "why": "Boire est irrégulier : le radical change. On a tendance à régulariser et à garder « bois » partout.",
+      "rule": "Retenez trois radicaux : **bois** (je, tu, il), **buv-** (nous buvons, vous buvez) et **boiv-** (ils boivent).",
+      "examples": [
+        "Ils boivent de l'eau.",
+        "Vous buvez trop de café.",
+        "Je bois du lait."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Les formes de boire. Pas tout à fait : « Nous boisons du thé. » Dites plutôt : « Nous buvons du thé. » Boire est irrégulier : le radical change. On a tendance à régulariser et à garder « bois » partout. Retenez trois radicaux : bois (je, tu, il), buv- (nous buvons, vous buvez) et boiv- (ils boivent)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Structures grammaticales adaptées (A0–A1 / A2)"
+      "text": "Structures grammaticales adaptées (A0–A1 / A2)",
+      "say": "Structures grammaticales adaptées (A0–A1 / A2)"
     },
     {
-      "type": "paragraph",
-      "text": "• **Structures simples :** Sujet + Verbe + Complément.\n• **Futur proche et modaux :** Utilisation de 'aller + infinitif' et 'pouvoir/devoir'.\n• **Conjugaisons :** Tous les temps et formes sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Structures simples :** Sujet + Verbe + Complément.",
+        "**Futur proche et modaux :** Utilisation de « aller + infinitif » et « pouvoir / devoir ».",
+        "**Conjugaisons :** Tous les temps et formes sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ],
+      "say": "Structures simples : Sujet + Verbe + Complément. Futur proche et modaux : Utilisation de « aller + infinitif » et « pouvoir / devoir ». Conjugaisons : Tous les temps et formes sont consultables sur COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratique et conjugaison"
+      "text": "Votre routine orale de 5 minutes",
+      "say": "Votre routine orale de 5 minutes"
     },
     {
       "type": "paragraph",
-      "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Cinq minutes par jour, à voix haute, valent mieux qu'une heure de lecture silencieuse le dimanche. Voici un plan simple à répéter pendant une semaine : <mark class=\"hl-handwritten\">une minute par étape, pas plus</mark>.",
+      "say": "Cinq minutes par jour, à voix haute, valent mieux qu'une heure de lecture silencieuse le dimanche. Voici un plan simple à répéter pendant une semaine : une minute par étape, pas plus."
     },
     {
-      "type": "links",
-      "destination": "practice",
-      "url": "https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE",
-      "label": "📺 Playlist YouTube — Chansons des verbes irréguliers en français"
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minute 1, échauffement :** dites à voix haute les six formes d'être, puis d'avoir, sans regarder les tableaux.",
+        "**Minute 2, trois verbes, trois phrases :** choisissez trois verbes et dites une phrase vraie sur votre vie pour chacun : « J'ai… », « Je veux… », « Je vais… ».",
+        "**Minute 3, chasse à l'erreur :** relisez une carte « Pas tout à fait » et dites trois fois la bonne phrase, en changeant le sujet à chaque fois.",
+        "**Minute 4, mini-dialogue au café :** jouez les deux rôles avec « Je voudrais… », « Vous avez… ? », « Je peux… ? », et enregistrez-vous sur votre téléphone.",
+        "**Minute 5, réécoute :** écoutez l'enregistrement et choisissez une phrase à garder pour demain. Notez-la sur un papier collé près de votre bureau."
+      ],
+      "say": "Minute 1, échauffement : dites à voix haute les six formes d'être, puis d'avoir, sans regarder les tableaux. Minute 2, trois verbes, trois phrases : choisissez trois verbes et dites une phrase vraie sur votre vie pour chacun : « J'ai… », « Je veux… », « Je vais… ». Minute 3, chasse à l'erreur : relisez une carte « Pas tout à fait » et dites trois fois la bonne phrase, en changeant le sujet à chaque fois. Minute 4, mini-dialogue au café : jouez les deux rôles avec « Je voudrais… », « Vous avez… ? », « Je peux… ? », et enregistrez-vous sur votre téléphone. Minute 5, réécoute : écoutez l'enregistrement et choisissez une phrase à garder pour demain. Notez-la sur un papier collé près de votre bureau."
     },
     {
-      "type": "links",
-      "destination": "practice",
-      "url": "https://rutube.ru/plst/1882480",
-      "label": "📺 Playlist RuTube — Chansons des verbes irréguliers en français (Accès Russie & international)"
+      "type": "heading",
+      "level": 3,
+      "text": "Pratique et conjugaison",
+      "say": "Pratique et conjugaison"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "📌 Pratiquez vos connaissances sur COSYpractice, lisez la Partie 1 et la Partie 2, et consultez les conjugaisons sur COSYtools."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Pour aller plus loin",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les idées de cet article s’appuient sur des travaux publiés et sur la pratique de l’enseignement. Pour commencer :",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lonsdale, D., & Le Bras, Y. (2009).** *A Frequency Dictionary of French: Core Vocabulary for Learners.* Routledge.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

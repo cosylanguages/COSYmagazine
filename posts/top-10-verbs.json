@@ -63,6 +63,36 @@
       "destination": "practice",
       "url": "https://rutube.ru/plst/1882480",
       "label": "📺 RuTube Playlist — French Irregular Verb Songs (RuTube Access)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Davies, M., & Gardner, D. (2010).** *A Frequency Dictionary of Contemporary American English.* Routledge.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

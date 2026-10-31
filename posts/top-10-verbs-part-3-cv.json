@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-cv",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Суйласси / Туянасси / Тӳлесси",
+          "Суйлав тата суту-илӳ.",
+          "'Кĕнеке суйласси', 'Çăкăр туянасси', 'Картапа тӳлесси'.",
+          "'тĕрĕс суйласси', 'онлайн туянасси', 'апатшăн тӳлесси'."
+        ],
+        [
+          "2",
+          "Асра тырасси / Унтăрасси",
+          "Ас тата асра тытни.",
+          "'Сан ятна асра тытатăп', 'Уçăчсене ан унтăр!'.",
+          "'асра тытмалли', 'пароле унтрăм'."
+        ],
+        [
+          "3",
+          "Туясси (хăя туясси)",
+          "Физика тата эмоци лару-маравĕ.",
+          "'Хăма лайăх туятăп', 'Ăна шăннă', 'Кăмăлу мĕнле?'.",
+          "'ывăннине туясси', 'килти пек туясси'."
+        ],
+        [
+          "4",
+          "Тĕл пуласси",
+          "Социаллă хутшăнусем.",
+          "'Паллахнăшăн савăнатăп', '5 сехетре тĕл пулатпăр', 'Тăванпа тĕл пуласси'.",
+          "'çĕнĕ çынсемпе паллашасси', 'центрта тĕл пуласси'."
+        ],
+        [
+          "5",
+          "Йышăнасси (йышăну туасси)",
+          "Йышăну туни.",
+          "'Юлма йышăнтăм', 'Проект пирки йышăну туасси'.",
+          "Проблемана 'тавăрасси / уçса парасси' (solve a problem)."
+        ],
+        [
+          "6",
+          "Çырасси / Вуламасси / Пичетлесси",
+          "Çыру тата вулав.",
+          "'Çыру çырасси', 'Кĕнеке вуламасси', 'СМС пичетлесси'.",
+          "'алăпа çырасси', 'хытă вуламасси', 'хăвăрт пичетлесси'."
+        ],
+        [
+          "7",
+          "Тăкакласси / Ахаль тăкакласси",
+          "Ресурссемпе усă курасси.",
+          "'Укçа тăкакласси', 'Вăхăтна ахаль ан тăкакла!'.",
+          "'çемьепе вăхăт ирттересси', 'вăя ахаль тăкакласси'."
+        ],
+        [
+          "8",
+          "Вылясси (мĕнпур тĕрĕсем)",
+          "Вăйăсем, спорт, музыка, рольсем.",
+          "'Футбол / шахмат вылясси', 'Гитарапа / пианинопа вылясси', 'Кинора роль вылясси'.",
+          "'музыка инструменчĕпе вылясси', 'важлă роль вылясси'."
+        ],
+        [
+          "9",
+          "Килĕшесси / Килĕшмесси",
+          "Килĕшӳ тата шухăш.",
+          "'Санпа килĕшетĕп', 'Планпа килĕшетпĕр', 'Килĕшместĕп'.",
+          "'тĕл пулма килĕшесси', 'пĕр шухăша килесси'."
+        ],
+        [
+          "10",
+          "Ярасси / Илесси",
+          "Передача тата получение.",
+          "'Çыру ярасси', 'Çыру илесси', 'Вокзала çитмесси'.",
+          "'имейл ярасси', 'хурав илесси', 'киле çитмесси'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Глаголсен танлаштару таблици"
@@ -186,6 +273,30 @@
     {
       "type": "paragraph",
       "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) сайтрта пĕлĕве тĕрĕслĕр, [1-мĕш пайне](top-10-verbs-cv.html), [2-мĕш пайне](top-10-verbs-part-2-cv.html) тата [3-мĕш пайне](top-10-verbs-part-3-cv.html) вулăр, спряжени таблицисене [COSYtools](https://cosylanguages.github.io/COSYtools/) сайтрта пăхăр."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

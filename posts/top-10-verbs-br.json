@@ -53,6 +53,93 @@
       "text": "Ar 10 verb pennañ (Rann 1)"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Être (To Be)",
+          "Le verbe être sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+          "Il est à la maison.",
+          "'être à l'heure', 'être d'accord', 'être en train de'."
+        ],
+        [
+          "2",
+          "Avoir (To Have)",
+          "Le verbe avoir exprime la possession, l'âge, la famille et les sensations physiques.",
+          "Elle a deux frères.",
+          "'avoir besoin de', 'avoir envie de', 'avoir peur'."
+        ],
+        [
+          "3",
+          "Penser (To Think)",
+          "Le verbe penser permet d'exprimer une opinion, une réflexion ou une idée.",
+          "Il pense à son avenir.",
+          "'penser à', 'penser de', 'bien penser'."
+        ],
+        [
+          "4",
+          "Savoir / Connaître (To Know)",
+          "Savoir s'utilise pour les faits et compétences (savoir + infinitif). Connaître s'utilise pour les lieux et personnes.",
+          "connaît",
+          "'savoir faire', 'faire savoir', 'en savoir plus'."
+        ],
+        [
+          "5",
+          "Aimer (To Like / Love)",
+          "Le verbe aimer exprime les goûts, les préférences, les loisirs et les sentiments.",
+          "Il aime voyager.",
+          "'j'aimerais' (souhait poli), 'aimer beaucoup'."
+        ],
+        [
+          "6",
+          "Vouloir / Voudrais (To Want / Would Like)",
+          "Le verbe vouloir exprime la volonté. La forme voudrais exprime un souhait avec politesse.",
+          "voudrait",
+          "'vouloir dire' (signifier), 'si tu veux'."
+        ],
+        [
+          "7",
+          "Aller / Futur proche (To Go)",
+          "Le verbe aller sert pour les déplacements et permet de former le futur proche (aller + infinitif).",
+          "Il va à Paris.",
+          "'comment ça va ?', 'y aller', 'aller à pied'."
+        ],
+        [
+          "8",
+          "Pouvoir (To Can / Be able to)",
+          "Le verbe modal pouvoir exprime la capacité, la possibilité ou la demande de permission.",
+          "On peut commencer.",
+          "'pouvoir faire', 'si possible', 'comme vous pouvez'."
+        ],
+        [
+          "9",
+          "Manger (To Eat)",
+          "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+          "Il mange à midi.",
+          "'bon appétit', 'donner à manger', 'manger équilibré'."
+        ],
+        [
+          "10",
+          "Boire (To Drink)",
+          "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+          "Il boit un thé vert.",
+          "'avoir à boire', 'boire un coup', 'boire un verre'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "1. Être (To Be)"
@@ -711,6 +798,30 @@
     {
       "type": "paragraph",
       "text": "📌 Pleustrit war [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit ar [Rann 1](top-10-verbs-br.html) hag ar [Rann 2](top-10-verbs-part-2-br.html), ha kavout an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

@@ -53,6 +53,82 @@
       "text": "Башҡортса тура аңлатыу һөйләмде тиҙләтә. Бу 10 өлгө кешеләрҙе, урындарҙы һәм әйберҙәрҙе һүрәтләргә ярышлы."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-ba",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Бу... кеше.",
+          "Бу балаларҙы уҡытыусы кеше.",
+          "Уҡытыусы"
+        ],
+        [
+          "2",
+          "Бу... урын.",
+          "Бу аҙыҡ-түлек ала торған урын.",
+          "Баҙар"
+        ],
+        [
+          "3",
+          "Бу... әйбер.",
+          "Бу ваҡытты күрһәтә торған әйбер.",
+          "Сәғәт"
+        ],
+        [
+          "4",
+          "Бу... өсөн ҡулланыла.",
+          "Бу яҙыу өсөн ҡулланыла.",
+          "Ҡәләм"
+        ],
+        [
+          "5",
+          "Бу... ваҡыт.",
+          "Бу кешеләр йоҡлай торған ваҡыт.",
+          "Төн"
+        ],
+        [
+          "6",
+          "Бу... көн.",
+          "Бу байрам итә торған көн.",
+          "Байрам"
+        ],
+        [
+          "7",
+          "Мәҫәлән...",
+          "Мин спорт яратам. Мәҫәлән, футбол.",
+          ""
+        ],
+        [
+          "8",
+          "Бу... тигәнде аңлата.",
+          "'Ул' тигән һүҙ аңлата.",
+          ""
+        ],
+        [
+          "9",
+          "Бу... оҡшаған.",
+          "Бу компютерға оҡшаған.",
+          ""
+        ],
+        [
+          "10",
+          "Башҡортса нисәк булыр?",
+          "Бу башҡортса нисәк булыр?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "💡 10 төп һөйләм өлгөһө"
@@ -102,6 +178,30 @@
     {
       "type": "paragraph",
       "text": "Иркен һөйләшеү — бөтә һүҙҙәрҙе белеү түгел, ә туҡтамай һөйләү. Бу фразаларҙы ҡулланығыҙ!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өҫтәмә уҡырға",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

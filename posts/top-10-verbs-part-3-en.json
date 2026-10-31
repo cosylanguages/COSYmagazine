@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-en",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Choose / Buy / Pay",
+          "Selection and commerce.",
+          "'I choose a book', 'I buy groceries', 'I pay by card'.",
+          "'choose wisely', 'buy online', 'pay attention', 'pay for dinner'."
+        ],
+        [
+          "2",
+          "Remember / Forget",
+          "Memory and cognition.",
+          "'I remember your name', 'Don't forget your keys!'.",
+          "'remember to do', 'I forgot my password', 'hard to forget'."
+        ],
+        [
+          "3",
+          "Feel",
+          "Physical and emotional state.",
+          "'I feel happy', 'She feels cold', 'How do you feel?'.",
+          "'feel like doing', 'feel well', 'feel tired'."
+        ],
+        [
+          "4",
+          "Meet",
+          "Social interactions and introductions.",
+          "'Nice to meet you', 'Let's meet at 5 PM', 'Meet my friend'.",
+          "'meet up', 'meet new people', 'pleased to meet you'."
+        ],
+        [
+          "5",
+          "Decide",
+          "Decision-making.",
+          "'I decide to stay', 'Decide on a location'.",
+          "We say 'solve/resolve a problem', NOT 'decide a problem'."
+        ],
+        [
+          "6",
+          "Write / Read / Type",
+          "Textual expression and literacy.",
+          "'Write an email', 'Read a book', 'Type a message'.",
+          "'write down', 'read aloud', 'type fast'."
+        ],
+        [
+          "7",
+          "Spend / Waste",
+          "Managing resources.",
+          "'I spend money on books', 'Don't waste time!'.",
+          "'spend time with family', 'waste energy', 'spend money on'."
+        ],
+        [
+          "8",
+          "Play (all variations)",
+          "Games, sports, instruments, roles.",
+          "'Play football / games', 'Play the guitar / piano', 'Play a role in a film'.",
+          "'play sports', 'play an instrument', 'play a key role'."
+        ],
+        [
+          "9",
+          "Agree / Disagree",
+          "Consensus and opinion.",
+          "'I agree with you', 'We agree on the plan', 'I disagree'.",
+          "'totally agree', 'agree to differ', 'respectfully disagree'."
+        ],
+        [
+          "10",
+          "Send / Get",
+          "Transmitting and receiving.",
+          "'Send a text message', 'I get an email', 'Get home at 6 PM'.",
+          "'send an email', 'get back', 'get to the station'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Comparative Matrix across Language Families"
@@ -186,6 +273,36 @@
     {
       "type": "paragraph",
       "text": "📌 Test your skills in [COSYpractice](https://cosylanguages.github.io/COSYpractice/), read [Part 1](top-10-verbs-en.html), [Part 2](top-10-verbs-part-2-en.html), and [Part 3](top-10-verbs-part-3-en.html), and consult full verb conjugations on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Davies, M., & Gardner, D. (2010).** *A Frequency Dictionary of Contemporary American English.* Routledge.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

@@ -52,156 +52,108 @@
       "type": "culture-bite",
       "title": "Editorial Letter from Founder JY DM — November Academia",
       "content": "Dear readers, JY DM is here and I'd like to congratulate you with a new beginning of a new month, November, and our new issue \"November Academia\". I'm not sure about you, but for me November is quite an interesting time. Whilst many consider September to be the start of an educational process, for me it's about November. Whilst the beautiful season of autumn is wrapping up and a new magical season of winter begins, November is the perfect transition zone between them. In November, darkness becomes longer and I immediately imagine these dark evenings spent in the library while reading books, writing things. The air is already crispy, so we wear trenches, walk with books in our hands, wearing gloves and scarves — in a nutshell, the academia style. That's why our issue is about this.",
-      "say": "Dear readers, JY DM is here and I'd like to congratulate you with a new beginning of a new month, November, and our new issue November Academia. I'm not sure about you, but for me November is quite an interesting time. Whilst many consider September to be the start of an educational process, for me it's about November. Whilst the beautiful season of autumn is wrapping up and a new magical season of winter begins, November is the perfect transition zone between them. In November, darkness becomes longer and I immediately imagine these dark evenings spent in the library while reading books, writing things. The air is already crispy, so we wear trenches, walk with books in our hands, wearing gloves and scarves — in a nutshell, the academia style. That's why our issue is about this.",
-      "beat": {
-        "duration": 12000,
-        "camera": "pan-zoom",
-        "target": "#block-0"
-      }
+      "say": "Dear readers, JY DM is here and I'd like to congratulate you with a new beginning of a new month, November, and our new issue November Academia. I'm not sure about you, but for me November is quite an interesting time. Whilst many consider September to be the start of an educational process, for me it's about November. Whilst the beautiful season of autumn is wrapping up and a new magical season of winter begins, November is the perfect transition zone between them. In November, darkness becomes longer and I immediately imagine these dark evenings spent in the library while reading books, writing things. The air is already crispy, so we wear trenches, walk with books in our hands, wearing gloves and scarves — in a nutshell, the academia style. That's why our issue is about this."
     },
     {
       "type": "paragraph",
       "text": "Welcome to **COSYtalks** and our November **Mind Matters speaking club** session! Today, we are exploring one of the most exciting concepts in cognitive science: **neuroplasticity**—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life. <span class=\"handwritten-note\">🧠 Synaptic Elasticity!</span>",
-      "say": "Welcome to COSYtalks and our November Mind Matters speaking club session! Today, we are exploring one of the most exciting concepts in cognitive science: neuroplasticity—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life.",
-      "beat": {
-        "duration": 7000,
-        "camera": "pan-zoom",
-        "target": "#block-1"
-      }
+      "say": "Welcome to COSYtalks and our November Mind Matters speaking club session! Today, we are exploring one of the most exciting concepts in cognitive science: neuroplasticity—the brain's remarkable ability to reorganize itself by forming new neural connections throughout life."
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-callout\"><strong>Neuroscience Note:</strong> Playful language learning reduces emotional friction and triggers dopamine release, consolidating long-term memory pathways. <span class=\"doodle-circle\">Dopamine Boost!</span></div>"
+      "text": "<div class=\"cosy-callout\"><strong>Neuroscience Note:</strong> Researchers link play, curiosity and reward with better attention and memory, and relaxed learners tend to take in more language. <span class=\"doodle-circle\">Play lowers the barrier.</span></div>",
+      "say": "Neuroscience note: researchers link play, curiosity and reward with better attention and memory, and relaxed learners tend to take in more language."
     },
     {
       "type": "paragraph",
       "text": "Have you ever felt like your brain completely freezes or feels 'broken' when you try to construct a sentence in a new language? You know the vocabulary, and you've memorized the grammar rules, but the moment you try to speak, everything feels rigid, slow, and robotic.",
-      "say": "Have you ever felt like your brain completely freezes or feels broken when you try to construct a sentence in a new language? You know the vocabulary, and you've memorized the grammar rules, but the moment you try to speak, everything feels rigid, slow, and robotic.",
-      "beat": {
-        "duration": 7000,
-        "camera": "focus",
-        "target": "#block-2"
-      }
+      "say": "Have you ever felt like your brain completely freezes or feels broken when you try to construct a sentence in a new language? You know the vocabulary, and you've memorized the grammar rules, but the moment you try to speak, everything feels rigid, slow, and robotic."
     },
     {
       "type": "heading",
       "level": 2,
       "text": "Part 1: Why Does the Brain Feel 'Broken'?",
-      "say": "Part 1: Why Does the Brain Feel Broken?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "target": "#block-3"
-      }
+      "say": "Part 1: Why Does the Brain Feel Broken?"
     },
     {
       "type": "paragraph",
       "text": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to **play with language**. <span class=\"notebook-margin-note\">💡 Rigidity vs Plasticity: Play with grammar structures!</span>",
-      "say": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to play with language.",
-      "beat": {
-        "duration": 8000,
-        "camera": "pan-zoom",
-        "target": "#block-4"
-      }
+      "say": "When we learn languages through traditional methods, we are often trained to rely on fixed, linear templates. We memorize rigid sentence order and apply strict rules step by step. While this creates initial stability, over time it turns into cognitive rigidity. Our brains get locked into narrow pathways, erasing our natural ability to play with language."
     },
     {
       "type": "pullquote",
-      "quote": "Neuroscientific research shows that neuroplasticity relies on synaptic flexibility. When we repeatedly use rigid formulas, neural pathways become stiff. True fluency comes when we intentionally challenge those pathways.",
-      "attribution": "Cognitive Neuroscience & Language Acquisition Research",
-      "say": "Neuroscientific research shows that neuroplasticity relies on synaptic flexibility. When we repeatedly use rigid formulas, neural pathways become stiff. True fluency comes when we intentionally challenge those pathways.",
-      "beat": {
-        "duration": 8000,
-        "camera": "focus",
-        "target": "#block-5"
-      }
+      "quote": "Neuroplasticity means the brain can keep adapting through experience. When we practise language in only one rigid shape, our habits become stiff; true fluency grows when we deliberately vary the shape.",
+      "attribution": "COSYtalks editorial note",
+      "say": "Neuroplasticity means the brain can keep adapting through experience. When we practise language in only one rigid shape, our habits become stiff; true fluency grows when we deliberately vary the shape."
+    },
+    {
+      "type": "paragraph",
+      "text": "To be careful about what we claim: nobody can point at a single synapse and say \"this is your rigid grammar\". Neuroplasticity is a real and well-studied property of the brain, but \"rigid pathways\" is a metaphor we use to talk about habits. The useful bit is the habit. If you only ever practise a sentence in one shape, you will tend to retrieve it in that shape, and it will feel stiff when the conversation asks for something different.",
+      "say": "To be careful about what we claim: nobody can point at a single synapse and say \"this is your rigid grammar\". Neuroplasticity is a real and well-studied property of the brain, but \"rigid pathways\" is a metaphor we use to talk about habits. The useful bit is the habit. If you only ever practise a sentence in one shape, you will tend to retrieve it in that shape, and it will feel stiff when the conversation asks for something different."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What does the research actually say?",
+      "say": "What does the research actually say?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2012, Johan Mårtensson and colleagues in Sweden scanned the brains of military interpreters who were learning difficult languages intensively over about three months, and compared them with a group of students studying other subjects. The language learners showed growth in some brain regions, including the hippocampus, which is linked to memory, and parts of the cortex. It is one study of a particular group, and it does not say that anyone will change in the same way. But it fits a wider picture: <mark class=\"hl-handwritten\">learning a language is associated with structural brain changes</mark>, and the brain keeps its ability to adapt in adulthood.",
+      "say": "In 2012, Johan Mårtensson and colleagues in Sweden scanned the brains of military interpreters who were learning difficult languages intensively over about three months, and compared them with a group of students studying other subjects. The language learners showed growth in some brain regions, including the hippocampus, which is linked to memory, and parts of the cortex. It is one study of a particular group, and it does not say that anyone will change in the same way. But it fits a wider picture: learning a language is associated with structural brain changes, and the brain keeps its ability to adapt in adulthood."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two other well-supported ideas complete the picture. The first is Stephen Krashen's <span class=\"doodle-circle\">affective filter</span>: when we are anxious or embarrassed, less language seems to get through, and when we are relaxed and engaged, more does. Play is a very good way to lower that filter. The second is that memory is strengthened by **spaced retrieval**: trying to recall something, after a short gap, tends to help it last longer than simply re-reading it. Put them together and you have our recipe: play with language, and come back to it often.",
+      "say": "Two other well-supported ideas complete the picture. The first is Stephen Krashen's affective filter: when we are anxious or embarrassed, less language seems to get through, and when we are relaxed and engaged, more does. Play is a very good way to lower that filter. The second is that memory is strengthened by spaced retrieval: trying to recall something, after a short gap, tends to help it last longer than simply re-reading it. Put them together and you have our recipe: play with language, and come back to it often."
     },
     {
       "type": "heading",
       "level": 2,
       "text": "Part 2: Playing with Language Structures",
-      "say": "Part 2: Playing with Language Structures",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "target": "#block-6"
-      }
+      "say": "Part 2: Playing with Language Structures"
     },
     {
       "type": "paragraph",
       "text": "To reactivate neuroplasticity, we need to treat grammar as a flexible playground rather than a set of iron rails. Consider how simple structural flips train the brain to see multiple paths to the same thought:",
-      "say": "To reactivate neuroplasticity, we need to treat grammar as a flexible playground rather than a set of iron rails. Consider how simple structural flips train the brain to see multiple paths to the same thought:",
-      "beat": {
-        "duration": 7000,
-        "camera": "pan-zoom",
-        "target": "#block-7"
-      }
+      "say": "To reactivate neuroplasticity, we need to treat grammar as a flexible playground rather than a set of iron rails. Consider how simple structural flips train the brain to see multiple paths to the same thought:"
     },
     {
       "type": "heading",
       "level": 3,
       "text": "1. Inverting Conditional Sentences",
-      "say": "1. Inverting Conditional Sentences",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "target": "#block-8"
-      }
+      "say": "1. Inverting Conditional Sentences"
     },
     {
       "type": "example",
       "targetText": "If I were a cat, I would play all day. ↔ I would play all day if I were a cat.",
       "gloss": "Swapping the condition and result clauses trains your brain to break free from rigid left-to-right sentence building.",
       "context": "Expressing hypothetical situations with flexible clause ordering.",
-      "say": "If I were a cat, I would play all day. Or: I would play all day if I were a cat. Swapping the condition and result clauses trains your brain to break free from rigid left-to-right sentence building.",
-      "beat": {
-        "duration": 8000,
-        "camera": "focus",
-        "target": "#block-9"
-      }
+      "say": "If I were a cat, I would play all day. Or: I would play all day if I were a cat. Swapping the condition and result clauses trains your brain to break free from rigid left-to-right sentence building."
     },
     {
       "type": "heading",
       "level": 3,
       "text": "2. Shifting Voice (Active vs. Passive)",
-      "say": "2. Shifting Voice (Active vs. Passive)",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "target": "#block-10"
-      }
+      "say": "2. Shifting Voice (Active vs. Passive)"
     },
     {
       "type": "example",
       "targetText": "The team solved the problem smoothly. ↔ The problem was solved smoothly by the team.",
       "gloss": "Changing perspective alters focus and builds mental agility across different subject-verb relationships.",
       "context": "Reframing narrative focus without altering core meaning.",
-      "say": "The team solved the problem smoothly. Or: The problem was solved smoothly by the team. Changing perspective alters focus and builds mental agility across different subject-verb relationships.",
-      "beat": {
-        "duration": 8000,
-        "camera": "pan-zoom",
-        "target": "#block-11"
-      }
+      "say": "The team solved the problem smoothly. Or: The problem was solved smoothly by the team. Changing perspective alters focus and builds mental agility across different subject-verb relationships."
     },
     {
       "type": "heading",
       "level": 2,
       "text": "Part 3: Solutions & Exercises for a Plastic Brain",
-      "say": "Part 3: Solutions & Exercises for a Plastic Brain",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "target": "#block-12"
-      }
+      "say": "Part 3: Solutions & Exercises for a Plastic Brain"
     },
     {
       "type": "paragraph",
       "text": "Here are three practical solutions we practice in our **Mind Matters speaking club** to build language plasticity:",
-      "say": "Here are three practical solutions we practice in our Mind Matters speaking club to build language plasticity:",
-      "beat": {
-        "duration": 5000,
-        "camera": "pan-zoom",
-        "target": "#block-13"
-      }
+      "say": "Here are three practical solutions we practice in our Mind Matters speaking club to build language plasticity:"
     },
     {
       "type": "list-item",
@@ -211,45 +163,118 @@
         "**The Passive Constraint Challenge:** Try describing a simple story or daily routine using only passive voice constructions.",
         "**Circumlocution Sprint:** Describe an object or concept without using its name, forcing your brain to construct alternative semantic routes."
       ],
-      "say": "First, The Sentence Inversion Game: Whenever you utter a conditional or complex sentence, immediately repeat it in reverse order. Second, The Passive Constraint Challenge: Try describing a simple story or daily routine using only passive voice constructions. Third, Circumlocution Sprint: Describe an object or concept without using its name, forcing your brain to construct alternative semantic routes.",
-      "beat": {
-        "duration": 9000,
-        "camera": "focus",
-        "target": "#block-14"
-      }
+      "say": "First, The Sentence Inversion Game: Whenever you utter a conditional or complex sentence, immediately repeat it in reverse order. Second, The Passive Constraint Challenge: Try describing a simple story or daily routine using only passive voice constructions. Third, Circumlocution Sprint: Describe an object or concept without using its name, forcing your brain to construct alternative semantic routes."
     },
     {
       "type": "heading",
       "level": 2,
       "text": "Conclusion & Mind Matters Discussion",
-      "say": "Conclusion & Mind Matters Discussion",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "target": "#block-15"
-      }
+      "say": "Conclusion & Mind Matters Discussion"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Three playful activities to try this week",
+      "say": "Three playful activities to try this week"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. The Sentence Inversion Game",
+      "say": "1. The Sentence Inversion Game"
     },
     {
       "type": "paragraph",
-      "text": "Language learning isn't about assembling pre-fabricated blocks; it's about moulding thoughts in real time. By intentionally playing with grammar structures, you trigger neuroplastic adaptation and unlock genuine, effortless fluency.",
-      "say": "Language learning isn't about assembling pre-fabricated blocks; it's about moulding thoughts in real time. By intentionally playing with grammar structures, you trigger neuroplastic adaptation and unlock genuine, effortless fluency.",
-      "beat": {
-        "duration": 8000,
-        "camera": "pan-zoom",
-        "target": "#block-16"
-      }
+      "text": "**How:** Say a conditional sentence, then flip it. \"If it rains, we'll stay in\" becomes \"We'll stay in if it rains.\" Do five a day, aloud. In class, one student says the first version and their partner has ten seconds to flip it. **Why it helps:** it makes the structure flexible, and the time limit keeps it light.",
+      "say": "How: Say a conditional sentence, then flip it. \"If it rains, we'll stay in\" becomes \"We'll stay in if it rains.\" Do five a day, aloud. In class, one student says the first version and their partner has ten seconds to flip it. Why it helps: it makes the structure flexible, and the time limit keeps it light."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. The Passive Constraint Challenge",
+      "say": "2. The Passive Constraint Challenge"
+    },
+    {
+      "type": "paragraph",
+      "text": "**How:** Describe your morning using only passive sentences. \"The alarm was switched off. Breakfast was made. The bus was missed.\" It will be funny, and you will probably get stuck, which is the point. **Why it helps:** a playful constraint pushes you to find a different route to the same idea, and the humour keeps the filter low.",
+      "say": "How: Describe your morning using only passive sentences. \"The alarm was switched off. Breakfast was made. The bus was missed.\" It will be funny, and you will probably get stuck, which is the point. Why it helps: a playful constraint pushes you to find a different route to the same idea, and the humour keeps the filter low."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. The Circumlocution Sprint",
+      "say": "3. The Circumlocution Sprint"
+    },
+    {
+      "type": "paragraph",
+      "text": "**How:** Pick an object from a bag or a list. In sixty seconds, describe it **without** saying its name, while your partner guesses. \"It's something you use in the morning, it's hot, and it wakes you up.\" **Why it helps:** it trains the very skill you need when you forget a word in real life, and the guessing adds a game element. Then repeat a few days later, with the same words, to use that spaced retrieval.",
+      "say": "How: Pick an object from a bag or a list. In sixty seconds, describe it without saying its name, while your partner guesses. \"It's something you use in the morning, it's hot, and it wakes you up.\" Why it helps: it trains the very skill you need when you forget a word in real life, and the guessing adds a game element. Then repeat a few days later, with the same words, to use that spaced retrieval."
+    },
+    {
+      "type": "example",
+      "targetText": "\"It's the thing you carry when it rains, and you open it over your head.\"",
+      "gloss": "A circumlocution: a describing sentence used when the exact word (umbrella) is missing. This is a useful real-life strategy and a great playful warm-up.",
+      "context": "Circumlocution Sprint (B1–B2).",
+      "say": "\"It's the thing you carry when it rains, and you open it over your head.\". A circumlocution: a describing sentence used when the exact word (umbrella) is missing. This is a useful real-life strategy and a great playful warm-up."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Culture bite: play and learning in many languages",
+      "content": "In many languages, the word for studying and the word for playing are close in spirit: English speaks of a *play on words*, French of *jouer avec les mots*, Spanish of *juego de palabras*. Word games, riddles and tongue-twisters appear in cultures everywhere, which hints that humans have long used play as a way to explore and remember language.",
+      "say": "In many languages, the word for studying and the word for playing are close in spirit: English speaks of a play on words, French of jouer avec les mots, Spanish of juego de palabras. Word games, riddles and tongue-twisters appear in cultures everywhere, which hints that humans have long used play as a way to explore and remember language."
+    },
+    {
+      "type": "quiz",
+      "question": "According to this article, why is play useful for language learning?",
+      "options": [
+        "It permanently rewires the brain in a guaranteed way",
+        "It lowers anxiety, so learners take risks and practise more, while spaced repetition helps memory",
+        "It replaces the need for grammar",
+        "It works only for children"
+      ],
+      "correctIndex": 1,
+      "explanation": "Play lowers the affective filter, which encourages risk-taking and engaged practice. Spaced retrieval then helps what was practised to last. Research is modest: it supports these tendencies, not guarantees."
+    },
+    {
+      "type": "paragraph",
+      "text": "Language learning isn't about assembling pre-fabricated blocks; it's about shaping thoughts in real time. By playing with grammar structures, coming back to them across the week, and keeping the mood light, you give your brain the kind of varied, low-stress practice that supports lasting progress. It will not be effortless, but it can be a lot more fun.",
+      "say": "Language learning isn't about assembling pre-fabricated blocks; it's about shaping thoughts in real time. By playing with grammar structures, coming back to them across the week, and keeping the mood light, you give your brain the kind of varied, low-stress practice that supports lasting progress. It will not be effortless, but it can be a lot more fun."
     },
     {
       "type": "links",
       "destination": "cosydata",
       "url": "index.html",
       "label": "Join Mind Matters Speaking Club & Read More COSYtalks Articles",
-      "say": "Join Mind Matters Speaking Club and Read More COSYtalks Articles",
-      "beat": {
-        "duration": 5000,
-        "camera": "focus",
-        "target": "#block-17"
-      }
+      "say": "Join Mind Matters Speaking Club and Read More COSYtalks Articles"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E., Craik, F. I. M., & Luk, G. (2012).** Bilingualism: Consequences for mind and brain. *Trends in Cognitive Sciences, 16*(4), 240–250.",
+        "**Doidge, N. (2007).** *The Brain That Changes Itself.* Viking.",
+        "**Huizinga, J. (1955).** *Homo Ludens: A Study of the Play-Element in Culture.* Beacon Press.",
+        "**Krashen, S. (1982).** *Principles and Practice in Second Language Acquisition.* Pergamon.",
+        "**Kuhl, P. K. (2010).** Brain mechanisms in early language acquisition. *Neuron, 67*(5), 713–727.",
+        "**Mårtensson, J., Eriksson, J., Bodammer, N. C., Lindgren, M., Johansson, M., Nyberg, L., & Lövdén, M. (2012).** Growth of language-related brain areas after foreign language learning. *NeuroImage, 63*(1), 240–244.",
+        "**Vygotsky, L. S. (1978).** *Mind in Society: The Development of Higher Psychological Processes.* Harvard University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

@@ -62,6 +62,422 @@
       "say": "Questo articolo ti propone una sola abitudine. Prima di usare un verbo «sicuro», chiediti: «Che cosa è successo esattamente?» La risposta spesso ti consegna il verbo migliore."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verb-synonyms-intermediate-plateau-it",
+      "listTitle": "L’elenco completo",
+      "headers": [
+        "#",
+        "Verbo comune",
+        "Vuoi dire…",
+        "Meglio",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "1",
+          "fare",
+          "costruisci un oggetto",
+          "costruire / realizzare / fabbricare",
+          "Ha fatto una libreria.→ Ha costruito una libreria."
+        ],
+        [
+          "1",
+          "fare",
+          "scrivi un testo",
+          "redigere",
+          "Ho fatto una relazione.→ Ho redatto una relazione."
+        ],
+        [
+          "1",
+          "fare",
+          "crei qualcosa",
+          "creare / realizzare",
+          "Ha fatto un sito web.→ Ha creato un sito web."
+        ],
+        [
+          "1",
+          "fare",
+          "c’è un verbo nascosto nel nome",
+          "viaggiare / passeggiare / acquistare / richiedere",
+          "Ho fatto un viaggio in Grecia.→ Ho viaggiato in Grecia."
+        ],
+        [
+          "1",
+          "fare",
+          "percorri una distanza",
+          "percorrere",
+          "Abbiamo fatto cento chilometri.→ Abbiamo percorso cento chilometri."
+        ],
+        [
+          "1",
+          "fare",
+          "sport o musica",
+          "giocare / suonare / praticare",
+          "Faccio calcio il sabato.→ Il sabato gioco a calcio."
+        ],
+        [
+          "2",
+          "avere",
+          "possiedi qualcosa",
+          "possedere / disporre di",
+          "Ha un appartamento a Torino.→ Possiede un appartamento a Torino."
+        ],
+        [
+          "2",
+          "avere",
+          "qualcosa contiene delle parti",
+          "comprendere / contenere / includere",
+          "La relazione ha tre parti.→ La relazione comprende tre parti."
+        ],
+        [
+          "2",
+          "avere",
+          "attraversi un’esperienza",
+          "attraversare / vivere / passare",
+          "Abbiamo avuto un anno difficile.→ Abbiamo attraversato un anno difficile."
+        ],
+        [
+          "2",
+          "avere",
+          "affronti una difficoltà",
+          "incontrare / affrontare",
+          "Ho avuto un problema con la stampante.→ Ho incontrato un problema con la stampante."
+        ],
+        [
+          "2",
+          "avere",
+          "avere + nome = verbo nascosto",
+          "dubitare / esitare / discutere",
+          "Ho dei dubbi su questo progetto.→ Dubito di questo progetto."
+        ],
+        [
+          "3",
+          "dire",
+          "dai un’informazione",
+          "informare / comunicare / annunciare",
+          "Ha detto che la riunione era annullata.→ Ci ha informati che la riunione era annullata."
+        ],
+        [
+          "3",
+          "dire",
+          "rendi chiare le cose",
+          "spiegare / precisare",
+          "Ha detto come funziona la macchina.→ Ha spiegato come funziona la macchina."
+        ],
+        [
+          "3",
+          "dire",
+          "lo dici di passaggio",
+          "accennare a / menzionare / segnalare",
+          "Ha detto che c’era un problema.→ Ha segnalato un problema."
+        ],
+        [
+          "3",
+          "dire",
+          "lo dici senza prove",
+          "sostenere / dichiarare",
+          "Dice di non aver mai visto il messaggio.→ Sostiene di non aver mai visto il messaggio."
+        ],
+        [
+          "3",
+          "dire",
+          "difendi un’idea",
+          "affermare / far notare / ribadire",
+          "Dice che ci serve più tempo.→ Afferma che ci serve più tempo."
+        ],
+        [
+          "3",
+          "dire",
+          "dici che è vero / non è vero",
+          "ammettere / negare",
+          "Dice che ha rotto il vetro.→ Ammette di aver rotto il vetro."
+        ],
+        [
+          "3",
+          "dire",
+          "il modo di parlare",
+          "sussurrare / mormorare / gridare / borbottare",
+          "Ha detto piano: «Attenzione.»→ Ha sussurrato: «Attenzione.»"
+        ],
+        [
+          "4",
+          "mettere",
+          "posi con cura",
+          "posare / collocare / sistemare",
+          "Metti i fascicoli sulla scrivania.→ Posa i fascicoli sulla scrivania."
+        ],
+        [
+          "4",
+          "mettere",
+          "aggiungi dentro",
+          "aggiungere / versare / inserire",
+          "Mette il sale nella zuppa.→ Aggiunge il sale nella zuppa."
+        ],
+        [
+          "4",
+          "mettere",
+          "un indumento",
+          "indossare / infilare",
+          "Oggi mette un cappotto rosso.→ Oggi indossa un cappotto rosso."
+        ],
+        [
+          "4",
+          "mettere",
+          "fissi o installi",
+          "appendere / fissare / installare",
+          "Ha messo un quadro alla parete.→ Ha appeso un quadro alla parete."
+        ],
+        [
+          "4",
+          "mettere",
+          "il tempo che serve",
+          "impiegare",
+          "Ci metto un’ora ad arrivare.→ Impiego un’ora per arrivare."
+        ],
+        [
+          "5",
+          "prendere",
+          "afferri",
+          "afferrare / cogliere",
+          "Ha preso il bicchiere.→ Ha afferrato il bicchiere."
+        ],
+        [
+          "5",
+          "prendere",
+          "porti con te",
+          "portare / portare via",
+          "Prendi l’ombrello.→ Porta l’ombrello."
+        ],
+        [
+          "5",
+          "prendere",
+          "decidi",
+          "scegliere / optare per / adottare",
+          "Ho preso il menù del giorno.→ Ho scelto il menù del giorno."
+        ],
+        [
+          "5",
+          "prendere",
+          "accetti",
+          "accettare / ricevere",
+          "Ha preso il regalo con piacere.→ Ha accettato il regalo con piacere."
+        ],
+        [
+          "5",
+          "prendere",
+          "serve tempo",
+          "durare / richiedere",
+          "Ci vogliono due ore.→ Il viaggio dura due ore."
+        ],
+        [
+          "6",
+          "andare",
+          "a piedi",
+          "camminare / passeggiare",
+          "Siamo andati in spiaggia a piedi.→ Abbiamo camminato fino alla spiaggia."
+        ],
+        [
+          "6",
+          "andare",
+          "viaggi",
+          "viaggiare / recarsi",
+          "Siamo andati in Spagna.→ Abbiamo viaggiato in Spagna."
+        ],
+        [
+          "6",
+          "andare",
+          "partecipi a un evento",
+          "partecipare a / assistere a",
+          "Sono andato alla conferenza.→ Ho partecipato alla conferenza."
+        ],
+        [
+          "6",
+          "andare",
+          "visiti un luogo",
+          "visitare",
+          "Siamo andati a Firenze.→ Abbiamo visitato Firenze."
+        ],
+        [
+          "6",
+          "andare",
+          "ti dirigi verso",
+          "dirigersi verso",
+          "È andata verso l’uscita.→ Si è diretta verso l’uscita."
+        ],
+        [
+          "6",
+          "andare",
+          "le cose procedono",
+          "procedere / svolgersi",
+          "Come va il progetto?→ Come procede il progetto?"
+        ],
+        [
+          "7",
+          "vedere",
+          "un’occhiata veloce",
+          "dare un’occhiata / scorrere",
+          "Ho visto il giornale.→ Ho dato un’occhiata al giornale."
+        ],
+        [
+          "7",
+          "vedere",
+          "segui qualcosa che si muove",
+          "guardare / osservare",
+          "I ricercatori hanno visto gli uccelli per una settimana.→ I ricercatori hanno osservato gli uccelli per una settimana."
+        ],
+        [
+          "7",
+          "vedere",
+          "uno sguardo lungo e fisso",
+          "fissare / scrutare / contemplare",
+          "Mi ha guardato a lungo.→ Mi ha fissato."
+        ],
+        [
+          "7",
+          "vedere",
+          "uno sguardo attento per capire",
+          "esaminare / ispezionare / controllare",
+          "Il medico ha visto il mio ginocchio.→ Il medico ha esaminato il mio ginocchio."
+        ],
+        [
+          "7",
+          "vedere",
+          "ti accorgi",
+          "notare / accorgersi di / constatare",
+          "Ho visto un errore.→ Ho notato un errore."
+        ],
+        [
+          "8",
+          "pensare",
+          "hai un’opinione",
+          "credere / ritenere / trovare che",
+          "Penso che sia una buona idea.→ Ritengo che sia una buona idea."
+        ],
+        [
+          "8",
+          "pensare",
+          "indovini",
+          "supporre / immaginare",
+          "Penso che sia a casa.→ Suppongo che sia a casa."
+        ],
+        [
+          "8",
+          "pensare",
+          "accetti senza verificare",
+          "dare per scontato / presumere",
+          "Pensavo che lo sapessi.→ Davo per scontato che lo sapessi."
+        ],
+        [
+          "8",
+          "pensare",
+          "hai una brutta sensazione",
+          "sospettare",
+          "Penso che Paolo abbia mentito.→ Sospetto che Paolo abbia mentito."
+        ],
+        [
+          "8",
+          "pensare",
+          "pesi le opzioni",
+          "riflettere su / valutare / considerare",
+          "Penso all’offerta.→ Rifletto sull’offerta."
+        ],
+        [
+          "8",
+          "pensare",
+          "non hai la risposta",
+          "chiedersi",
+          "Penso a cosa succederà.→ Mi chiedo che cosa succederà."
+        ],
+        [
+          "8",
+          "pensare",
+          "arrivi a una conclusione",
+          "concludere / rendersi conto",
+          "Abbiamo pensato che servisse più tempo.→ Abbiamo concluso che serviva più tempo."
+        ],
+        [
+          "9",
+          "dare",
+          "offri un servizio",
+          "offrire / fornire",
+          "Diamo il Wi-Fi gratis.→ Offriamo il Wi-Fi gratuito."
+        ],
+        [
+          "9",
+          "dare",
+          "passi qualcosa a qualcuno",
+          "consegnare / porgere / recapitare",
+          "Mi ha dato le chiavi.→ Mi ha consegnato le chiavi."
+        ],
+        [
+          "9",
+          "dare",
+          "un’autorità permette o premia",
+          "concedere / assegnare",
+          "Mi hanno dato il permesso di uscire prima.→ Mi hanno concesso il permesso di uscire prima."
+        ],
+        [
+          "9",
+          "dare",
+          "dai denaro o oggetti",
+          "donare / prestare",
+          "Ha dato molti soldi alla scuola.→ Ha donato molti soldi alla scuola."
+        ],
+        [
+          "9",
+          "dare",
+          "dai un consiglio",
+          "consigliare / raccomandare",
+          "Il mio professore mi ha dato un consiglio.→ Il mio professore mi ha consigliato di leggere di più."
+        ],
+        [
+          "10",
+          "trovare",
+          "individui o ritrovi",
+          "individuare / ritrovare",
+          "Ho trovato l’uscita.→ Ho individuato l’uscita."
+        ],
+        [
+          "10",
+          "trovare",
+          "identifichi la causa",
+          "identificare / rilevare",
+          "Gli ingegneri hanno trovato il guasto.→ Gli ingegneri hanno individuato il guasto."
+        ],
+        [
+          "10",
+          "trovare",
+          "è nuovo per te",
+          "scoprire",
+          "Ho trovato un piccolo bar.→ Ho scoperto un piccolo bar."
+        ],
+        [
+          "10",
+          "trovare",
+          "dai un giudizio",
+          "ritenere / giudicare",
+          "Trovo che questo film sia troppo lungo.→ Ritengo che questo film sia troppo lungo."
+        ],
+        [
+          "10",
+          "trovare",
+          "ottieni dopo uno sforzo",
+          "ottenere / aggiudicarsi",
+          "Ha trovato una borsa di studio.→ Ha ottenuto una borsa di studio."
+        ],
+        [
+          "10",
+          "trovare",
+          "un luogo",
+          "essere situato / trovarsi",
+          "Il museo si trova in centro.→ Il museo è situato in centro."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "paragraph",
       "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
       "text": "",
@@ -757,6 +1173,36 @@
       "title": "Studi anche inglese, francese, russo o greco?",
       "content": "Il plateau è simile in ogni lingua, ma ogni lingua ha i propri verbi «sicuri» (*get, faire, делать, κάνω*…). Usa **Leggi in** in cima alla pagina: ogni versione è scritta per la sua lingua, non tradotta parola per parola.",
       "say": "Il plateau è simile in ogni lingua, ma ogni lingua ha i propri verbi «sicuri» (get, faire, делать, κάνω…). Usa Leggi in in cima alla pagina: ogni versione è scritta per la sua lingua, non tradotta parola per parola."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Per approfondire",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le idee di questo articolo si basano su ricerche pubblicate e sulla pratica didattica. Per cominciare:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Richards, J. C. (2008).** *Moving Beyond the Plateau: From Intermediate to Advanced Levels in Language Learning.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Selinker, L. (1972).** Interlanguage. *International Review of Applied Linguistics, 10*(3), 209–231."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ]
 }

@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-pt",
+      "listTitle": "A lista completa",
+      "headers": [
+        "#",
+        "Verbo",
+        "Para que serve",
+        "Exemplo",
+        "Expressões úteis"
+      ],
+      "rows": [
+        [
+          "1",
+          "Escolher / Comprar / Pagar",
+          "Escolha e comércio.",
+          "'Escolher um livro', 'Comprar pão', 'Pagar com cartão'.",
+          "'escolher bem', 'comprar online', 'pagar o jantar'."
+        ],
+        [
+          "2",
+          "Lembrar / Esquecer",
+          "Memória e cognição.",
+          "'Lembro-me do teu nome', 'Não te esqueças das chaves!'.",
+          "'lembrar-se de', 'esqueci-me da palavra-passe'."
+        ],
+        [
+          "3",
+          "Sentir-se",
+          "Estado físico e emocional.",
+          "'Sinto-me bem', 'Ela tem frio', 'Como te sentes?'.",
+          "'sentir-se cansado', 'sentir-se em casa'."
+        ],
+        [
+          "4",
+          "Encontrar / Conhecer",
+          "Relações sociais.",
+          "'Prazer em conhecer-te', 'Encontramo-nos às 17h', 'Encontrar amigos'.",
+          "'conhecer pessoas novas', 'encontrar-se no centro'."
+        ],
+        [
+          "5",
+          "Decidir",
+          "Tomada de decisão.",
+          "'Decido ficar', 'Decidir um plano'.",
+          "Diz-se 'resolver um problema', NÃO 'decidir um problema'."
+        ],
+        [
+          "6",
+          "Escrever / Ler / Digitar",
+          "Escrita e leitura.",
+          "'Escrever um e-mail', 'Ler um livro', 'Digitar uma mensagem'.",
+          "'escrever à mão', 'ler em voz alta', 'digitar rápido'."
+        ],
+        [
+          "7",
+          "Gastar / Desperdiçar",
+          "Gestão de recursos.",
+          "'Gastar dinheiro', 'Não desperdices o teu tempo!'.",
+          "'gastar em', 'desperdiçar energia', 'passar tempo com a família'."
+        ],
+        [
+          "8",
+          "Jogar / Tocar / Brincar (todas as variações)",
+          "Jogos, desportos, instrumentos, papéis.",
+          "'Jogar futebol / cartas', 'Tocar guitarra / piano', 'Fazer um papel no filme'.",
+          "'tocar um instrumento', 'desempenhar um papel principal'."
+        ],
+        [
+          "9",
+          "Concordar / Discordar",
+          "Consenso e opinião.",
+          "'Concordo contigo', 'Não concordo'.",
+          "'concordar com', 'chegar a um acordo'."
+        ],
+        [
+          "10",
+          "Enviar / Receber",
+          "Transmissão e receção.",
+          "'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.",
+          "'enviar um e-mail', 'receber notícias'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tabela comparativa de verbos"
@@ -186,6 +273,36 @@
     {
       "type": "paragraph",
       "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html), a [Parte 2](top-10-verbs-part-2-pt.html) e a [Parte 3](top-10-verbs-part-3-pt.html), e consulte as conjugações no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Leituras recomendadas",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "As ideias deste artigo apoiam-se em investigação publicada e na prática de ensino. Para começar:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-tt",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Эшләү / Ясау",
+          "Эш һәм ясау (Өй эшләрен эшләү).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Сөйләү / Әйтү",
+          "Сөйләшү (Татарча сөйләшү).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Карау / Күрү",
+          "Игътибар (Фильм карау).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Тыңлау / Ишетү",
+          "Тыңлау (Музыка тыңлау).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Кирәк / Тиеш",
+          "Зарурилык (Миңа өйрәнергә кирәк).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Алу / Бирү",
+          "Алмашу (Китап алу).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Яшәү",
+          "Яшәү урыны (Мин Казанда яшим).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Көтү",
+          "Көтү (Автобус көтү).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Аңлау",
+          "Аңлау (Мин аңлыйм).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Сорау / Җавап бирү",
+          "Сорау бирү (Сорау бирү).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Телләр арасында чагыштырма таблица"
@@ -146,6 +233,30 @@
     {
       "type": "paragraph",
       "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) битендә белемегезне тикшерегез, [1-нче өлеш](top-10-verbs-tt.html) һәм [2-нче өлеш](top-10-verbs-part-2-tt.html) мәкаләләрен укыгыз, фигыль төрләнешен [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә карагыз."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өстәмә укырга",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

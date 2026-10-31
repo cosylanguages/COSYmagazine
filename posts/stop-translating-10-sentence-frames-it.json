@@ -141,7 +141,11 @@
           "Come si dice questo in italiano?",
           "qualsiasi parola: chiedere aiuto"
         ]
-      ]
+      ],
+      "printable": true,
+      "listId": "frames",
+      "listTitle": "L’elenco completo",
+      "csvName": "stop-translating-10-sentence-frames-it"
     },
     {
       "type": "heading",
@@ -345,6 +349,36 @@
     {
       "type": "pullquote",
       "quote": "Descrivilo. Non tradurlo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Per approfondire",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le idee di questo articolo si basano su ricerche pubblicate e sulla pratica didattica. Per cominciare:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

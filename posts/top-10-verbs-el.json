@@ -53,6 +53,93 @@
       "text": "Τα 10 Βασικά Ρήματα (Μέρος 1)"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-el",
+      "listTitle": "Ολόκληρη η λίστα",
+      "headers": [
+        "#",
+        "Ρήμα",
+        "Τι εκφράζει",
+        "Παράδειγμα",
+        "Χρήσιμες εκφράσεις"
+      ],
+      "rows": [
+        [
+          "1",
+          "Είμαι (To Be)",
+          "Το ρήμα είμαι δηλώνει ταυτότητα, εθνικότητα, επάγγελμα, κατάσταση και τοποθεσία.",
+          "Αυτός είναι στο σπίτι.",
+          "'είμαι έτοιμος', 'είμαι σύμφωνος'."
+        ],
+        [
+          "2",
+          "Έχω (To Have)",
+          "Το ρήμα έχω εκφράζει κατοχή, ηλικία, οικογένεια και συναισθήματα.",
+          "Έχει δύο αδέρφια.",
+          "'έχω ανάγκη', 'έχω δίκιο', 'έχω χρόνο'."
+        ],
+        [
+          "3",
+          "Σκέφτομαι / Νομίζω (To Think)",
+          "Τα ρήματα σκέφτομαι και νομίζω εκφράζουν σκέψεις, γνώμες και ιδέες.",
+          "Σκέφτεται το μέλλον.",
+          "'Σκέφτομαι τους φίλους μου'."
+        ],
+        [
+          "4",
+          "Ξέρω / Γνωρίζω (To Know)",
+          "Το ξέρω χρησιμοποιείται για πληροφορίες και ικανότητες, το γνωρίζω για πρόσωπα και μέρη.",
+          "γνωρίζει",
+          "'Ξέρω την αλήθεια', 'Γνωρίζω την Αθήνα'."
+        ],
+        [
+          "5",
+          "Μου αρέσει / Αγαπώ (To Like / Love)",
+          "Η έκφραση μου αρέσει εκφράζει αρέσκεια, το αγαπώ εκφράζει αγάπη.",
+          "Του αρέσει το ταξίδι.",
+          "'Μου αρέσει η ελληνική κουζίνα'."
+        ],
+        [
+          "6",
+          "Θέλω / Θα ήθελα (To Want / Would Like)",
+          "Το θέλω δηλώνει επιθυμία. Το θα ήθελα εκφράζει ευγενική παράκληση.",
+          "θα ήθελε",
+          "'Θα ήθελα έναν καφέ, παρακαλώ'."
+        ],
+        [
+          "7",
+          "Πηγαίνω / Πάω (To Go)",
+          "Το ρήμα πηγαίνω (πάω) δηλώνει μετακίνηση και κατεύθυνση.",
+          "Πηγαίνει στο σπίτι.",
+          "'Πάμε διακοπές', 'Πώς πάει;'."
+        ],
+        [
+          "8",
+          "Μπορώ (To Can / Be able to)",
+          "Το ρήμα μπορώ εκφράζει ικανότητα, δυνατότητα και άδεια.",
+          "Μπορεί να μιλήσει.",
+          "'Μπορώ να μιλήσω ελληνικά'."
+        ],
+        [
+          "9",
+          "Τρώω (To Eat)",
+          "Το ρήμα τρώω αφορά το φαγητό και τα γεύματα.",
+          "Τρώει μεσημεριανό.",
+          "'Καλή όρεξη!', 'Τρώμε πρωινό'."
+        ],
+        [
+          "10",
+          "Πίνω (To Drink)",
+          "Το ρήμα πίνω αφορά τα ποτά και την ενυδάτωση.",
+          "Πίνει τσάι.",
+          "'Πίνω έναν ελληνικό καφέ'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "1. Είμαι (To Be)"
@@ -695,6 +782,36 @@
     {
       "type": "paragraph",
       "text": "📌 Κάντε ασκήσεις στο [COSYpractice](https://cosylanguages.github.io/COSYpractice/), διαβάστε το [Μέρος 1](top-10-verbs-el.html) και το [Μέρος 2](top-10-verbs-part-2-el.html), και συμβουλευτείτε την κλίση των ρημάτων στο [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Για περαιτέρω ανάγνωση",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Οι ιδέες αυτού του άρθρου στηρίζονται σε δημοσιευμένη έρευνα και διδακτική πρακτική. Ξεκινήστε από εδώ:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

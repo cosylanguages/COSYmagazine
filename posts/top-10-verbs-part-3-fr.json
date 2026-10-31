@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-fr",
+      "listTitle": "La liste complète",
+      "headers": [
+        "#",
+        "Verbe",
+        "À quoi il sert",
+        "Exemple",
+        "Expressions utiles"
+      ],
+      "rows": [
+        [
+          "1",
+          "Choisir / Acheter / Payer",
+          "Choix et commerce.",
+          "'Choisir un livre', 'Acheter du pain', 'Payer par carte'.",
+          "'bien choisir', 'acheter en ligne', 'payer le dîner'."
+        ],
+        [
+          "2",
+          "Se souvenir / Oublier",
+          "Mémoire et cognition.",
+          "'Je me souviens de ton nom', 'N'oublie pas tes clés !'.",
+          "'se souvenir de', 'j'ai oublié mon mot de passe'."
+        ],
+        [
+          "3",
+          "Se sentir",
+          "État physique et émotionnel.",
+          "'Je me sens bien', 'Elle a froid', 'Comment te sens-tu ?'.",
+          "'se sentir fatigué', 'se sentir chez soi'."
+        ],
+        [
+          "4",
+          "Rencontrer / Se retrouver",
+          "Interactions sociales.",
+          "'Ravi de vous rencontrer', 'On se retrouve à 17h'.",
+          "'rencontrer du monde', 'se retrouver en ville'."
+        ],
+        [
+          "5",
+          "Décider",
+          "Prise de décision.",
+          "'Je décide de partir', 'Décider d'un projet'.",
+          "On dit 'résoudre un problème', et non 'décider un problème'."
+        ],
+        [
+          "6",
+          "Écrire / Lire / Taper",
+          "Écriture et lecture.",
+          "'Écrire un e-mail', 'Lire un livre', 'Taper un message'.",
+          "'écrire à la main', 'lire à haute voix', 'taper au clavier'."
+        ],
+        [
+          "7",
+          "Dépenser / Gaspiller",
+          "Gestion des ressources.",
+          "'Dépenser de l'argent', 'Ne gaspille pas ton temps !'.",
+          "'dépenser pour', 'gaspiller de l'énergie', 'passer du temps'."
+        ],
+        [
+          "8",
+          "Jouer (toutes variations)",
+          "Jeux, sports, instruments, rôles.",
+          "'Jouer au football / aux cartes', 'Jouer de la guitare / du piano', 'Jouer un rôle'.",
+          "'jouer d'un instrument', 'jouer un rôle important'."
+        ],
+        [
+          "9",
+          "Être d'accord / Pas d'accord",
+          "Consensus et avis.",
+          "'Je suis d'accord avec toi', 'Je ne suis pas d'accord'.",
+          "'être d'accord sur', 'tomber d'accord'."
+        ],
+        [
+          "10",
+          "Envoyer / Recevoir",
+          "Transmission et réception.",
+          "'Envoyer un message', 'Recevoir une lettre', 'Arriver à la gare'.",
+          "'envoyer un e-mail', 'recevoir des nouvelles'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tableau comparatif des verbes"
@@ -186,6 +273,36 @@
     {
       "type": "paragraph",
       "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html), la [Partie 2](top-10-verbs-part-2-fr.html) et la [Partie 3](top-10-verbs-part-3-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Pour aller plus loin",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les idées de cet article s’appuient sur des travaux publiés et sur la pratique de l’enseignement. Pour commencer :",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lonsdale, D., & Le Bras, Y. (2009).** *A Frequency Dictionary of French: Core Vocabulary for Learners.* Routledge.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

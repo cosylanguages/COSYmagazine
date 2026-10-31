@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-fr",
+      "listTitle": "La liste complète",
+      "headers": [
+        "#",
+        "Verbe",
+        "À quoi il sert",
+        "Exemple",
+        "Expressions utiles"
+      ],
+      "rows": [
+        [
+          "1",
+          "Faire",
+          "Activités quotidiennes.",
+          "'Faire du sport', 'Faire la cuisine', 'Faire les courses'.",
+          "'faire attention', 'faire plaisir', 'faire du bien'."
+        ],
+        [
+          "2",
+          "Parler / Dire",
+          "Communication.",
+          "'Parler français', 'Dire la vérité', 'Dis-moi'.",
+          "'parler de', 'dire bonjour', 'pour ainsi dire'."
+        ],
+        [
+          "3",
+          "Regarder / Voir",
+          "Perception visuelle.",
+          "'Regarder un film', 'Je vois un oiseau'.",
+          "'regarder la télé', 'voyons voir', 'à voir'."
+        ],
+        [
+          "4",
+          "Écouter / Entendre",
+          "Perception auditive.",
+          "'Écouter de la musique', 'J'entends du bruit'.",
+          "'écouter attentivement', 'entendre parler de'."
+        ],
+        [
+          "5",
+          "Devoir / Falloir",
+          "Obligation.",
+          "'Je dois étudier', 'Il faut partir'.",
+          "'devoir faire', 'comme il faut', 'il faut absolument'."
+        ],
+        [
+          "6",
+          "Prendre / Donner / Obtenir",
+          "Échanges.",
+          "'Prendre le bus', 'Donner un cadeau'.",
+          "'prendre soin', 'donner rendez-vous', 'prendre son temps'."
+        ],
+        [
+          "7",
+          "Vivre / Habiter",
+          "Résidence.",
+          "'J'habite à Paris', 'Vivre en paix'.",
+          "'vivre à l'étranger', 'habiter près d'ici'."
+        ],
+        [
+          "8",
+          "Attendre",
+          "Attente.",
+          "'Attendre le bus', 'Attendez une minute'.",
+          "'attendre avec impatience', 'en attendant'."
+        ],
+        [
+          "9",
+          "Comprendre",
+          "Assimilation.",
+          "'Je comprends la leçon', 'Vous comprenez ?'.",
+          "'faire comprendre', 'bien comprendre'."
+        ],
+        [
+          "10",
+          "Demander / Répondre",
+          "Questions et réponses.",
+          "'Demander un service', 'Répondre au téléphone'.",
+          "'demander de l'aide', 'répondre vite'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tableau comparatif des verbes"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Pratiquez vos connaissances sur [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html), et consultez les conjugaisons sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Pour aller plus loin",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les idées de cet article s’appuient sur des travaux publiés et sur la pratique de l’enseignement. Pour commencer :",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lonsdale, D., & Le Bras, Y. (2009).** *A Frequency Dictionary of French: Core Vocabulary for Learners.* Routledge.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

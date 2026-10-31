@@ -283,6 +283,32 @@
     {
       "type": "paragraph",
       "text": "  <div class=\"flipbook-page-footer\">\n    <span>🍁 COSY Gazette • October Birthday Issue</span>\n    <span>Page 7 of 7</span>\n  </div>\n</section>\n                </article>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Carter, R., & McCarthy, M. (2006).** *Cambridge Grammar of English.* Cambridge University Press.",
+        "**Leech, G. N. (2004).** *Meaning and the English Verb* (3rd ed.). Longman.",
+        "**Quirk, R., Greenbaum, S., Leech, G., & Svartvik, J. (1985).** *A Comprehensive Grammar of the English Language.* Longman.",
+        "**Swan, M. (2016).** *Practical English Usage* (4th ed.). Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

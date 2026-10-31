@@ -202,6 +202,34 @@
         "camera": "focus",
         "target": "#block-13"
       }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Что почитать дальше",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Идеи этой статьи опираются на научные работы и опыт преподавания. С чего начать:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comrie, B. (1976).** *Aspect: An Introduction to the Study of Verbal Aspect and Related Problems.* Cambridge University Press.",
+        "**Comrie, B. (1985).** *Tense.* Cambridge University Press.",
+        "**Dahl, Ö. (1985).** *Tense and Aspect Systems.* Blackwell.",
+        "**Klein, W. (1994).** *Time in Language.* Routledge.",
+        "**Timberlake, A. (2004).** *A Reference Grammar of Russian.* Cambridge University Press.",
+        "**Wade, T. (2010).** *A Comprehensive Russian Grammar* (3rd ed.). Wiley-Blackwell."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

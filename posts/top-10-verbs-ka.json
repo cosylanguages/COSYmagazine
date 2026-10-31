@@ -53,6 +53,93 @@
       "text": "10 ძირითადი ზმნა (ნაწილი 1)"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-ka",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "ყოფნა (To Be)",
+          "ზმნა ყოფნა გამოხატავს იდენტობას, ეროვნებას, პროფესიას და მდებარეობას.",
+          "ის არის სახლში.",
+          "'მე ვარ გიორგი'."
+        ],
+        [
+          "2",
+          "ქონა / ყოლა (To Have)",
+          "ზმნა ქონა გამოიყენება უსულო საგნებისთვის, ყოლა სულიერი არსებებისათვის.",
+          "მას ჰყავს ორი ძმა.",
+          "'მე მაქვს წიგნი'."
+        ],
+        [
+          "3",
+          "ფიქრი (To Think)",
+          "ზმნა ფიქრი გამოხატავს აზრს, ფიქრს და შეხედულებას.",
+          "ის ფიქრობს მომავალზე.",
+          "'მე ვფიქრობ, რომ ეს კარგი იდეაა'."
+        ],
+        [
+          "4",
+          "ცოდნა / ცნობა (To Know)",
+          "ცოდნა გამოიყენება ფაქტებისა და უნარებისთვის, ცნობა ადამიანების ცნობისთვის.",
+          "იცნობს",
+          "'მე ვიცი ქართული'."
+        ],
+        [
+          "5",
+          "მოწონება / სიყვარული (To Like / Love)",
+          "გამოხატავს გემოვნებას, ინტერესებსა და გრძნობებს.",
+          "მას უყვარს მოგზაურობა.",
+          "'მე მომწონს ეს ქალაქი'."
+        ],
+        [
+          "6",
+          "ნდომა (To Want)",
+          "ზმნა ნდომა გამოხატავს სურვილს.",
+          "მას უნდა სწავლა.",
+          "'მე მინდა სწავლა'."
+        ],
+        [
+          "7",
+          "წასვლა / სვლა (To Go)",
+          "გამოხატავს მოძრაობას და მიმართულებას.",
+          "ის მიდის სახლში.",
+          "'მე მივდივარ სახლში'."
+        ],
+        [
+          "8",
+          "შეძლება (To Can)",
+          "გამოხატავს შესაძლებლობასა და უნარს.",
+          "მას შეუძლია ლაპარაკი.",
+          "'მე შემიძლია ქართულად ლაპარაკი'."
+        ],
+        [
+          "9",
+          "ჭამა (To Eat)",
+          "გამოიყენება საჭმელისა და კვებისათვის.",
+          "ის ჭამს სადილს.",
+          "'გემრიელად მიირთვით!'."
+        ],
+        [
+          "10",
+          "სმა (To Drink)",
+          "გამოიყენება სასმელებისათვის.",
+          "ის სვამს ჩაის.",
+          "'მე ვსვამ წყალს'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "1. ყოფნა (To Be)"
@@ -691,6 +778,30 @@
     {
       "type": "paragraph",
       "text": "📌 ივარჯიშეთ [COSYpractice](https://cosylanguages.github.io/COSYpractice/)-ზე, წაიკითხეთ [1-ელი ნაწილი](top-10-verbs-ka.html) და [მე-2 ნაწილი](top-10-verbs-part-2-ka.html), ხოლო ზმნათა უღვლილება იხილეთ [COSYtools](https://cosylanguages.github.io/COSYtools/)-ზე."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 დამატებითი საკითხავი",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

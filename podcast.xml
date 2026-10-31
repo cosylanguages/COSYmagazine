@@ -32,7 +32,7 @@
       <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/127116641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433699518-44100-2-8081bb8b574d1.m4a" length="3145728" type="audio/mpeg" />
       <itunes:episode>10</itunes:episode>
       <itunes:author>JY DM</itunes:author>
-      <itunes:duration>2700</itunes:duration>
+      <itunes:duration>2835</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
 
@@ -46,7 +46,7 @@
       <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/89733577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908675-44100-2-eafbc55432c38.mp3" length="3145728" type="audio/mpeg" />
       <itunes:episode>2</itunes:episode>
       <itunes:author>JY DM</itunes:author>
-      <itunes:duration>120</itunes:duration>
+      <itunes:duration>315</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

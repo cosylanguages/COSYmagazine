@@ -53,6 +53,82 @@
       "text": "Մտքերը հայերեն նկարագրելը ստեղծում է իրական վարժ տիրապետում։ Այս 10 կառույցները կօգնեն նկարագրել մարդկանց, տեղերն ու իրերը։"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-hy",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Սա մի մարդ է, ով...",
+          "Սա մի մարդ է, ով սովորեցնում է երեխաներին։",
+          "Ուսուցիչ"
+        ],
+        [
+          "2",
+          "Սա մի տեղ է, որտեղ...",
+          "Սա մի տեղ է, որտեղ ուտելիք են գնում։",
+          "Շուկա"
+        ],
+        [
+          "3",
+          "Սա մի իր է, որը...",
+          "Սա մի իր է, որը ցույց է տալիս ժամանակը։",
+          "Ժամացույց"
+        ],
+        [
+          "4",
+          "Սա օգտագործում են... համար",
+          "Սա օգտագործում են գրելու համար։",
+          "Գրիչ"
+        ],
+        [
+          "5",
+          "Սա մի ժամանակ է, երբ...",
+          "Սա մի ժամանակ է, երբ մարդիկ քնում են։",
+          "Գիշեր"
+        ],
+        [
+          "6",
+          "Սա մի օր է, երբ...",
+          "Սա մի օր է, երբ տոնում են։",
+          "Տոն"
+        ],
+        [
+          "7",
+          "Օրինակ...",
+          "Ես սիրում եմ սպորտ։ Օրինակ, ֆուտբոլ։",
+          ""
+        ],
+        [
+          "8",
+          "Սա նշանակում է...",
+          "'Մեծ' նշանակում է ոչ փոքր։",
+          ""
+        ],
+        [
+          "9",
+          "Սա նման է...",
+          "Սա նման է փոքր համակարգչի։",
+          ""
+        ],
+        [
+          "10",
+          "Ինչպե՞ս կլինի... հայերեն։",
+          "Ինչպե՞ս կլինի սա հայերեն։",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "💡 10 հիմնական նախադասության կառույցները"
@@ -102,6 +178,30 @@
     {
       "type": "paragraph",
       "text": "Վարժ տիրապետումը բոլոր բառերն իմանալը չէ, այլ երբեք չլռելը։ Օգտագործեք այս կառույցները։"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Լրացուցիչ ընթերցանություն",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

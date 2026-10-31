@@ -18,7 +18,7 @@
     "Speaking",
     "Methodology"
   ],
-  "readingTime": 1,
+  "readingTime": 6,
   "podcast": {
     "episode": 6,
     "audioUrl": "audio/why-speaking-first.mp3"
@@ -43,8 +43,192 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "*Draft article content coming soon...*"
+      "text": "Open any beginner textbook and you will find the same quiet promise: *first learn the rules, then speak.* Chapter one gives you the verb \"to be\" in a neat table. Chapter two adds articles. Somewhere around chapter six, if you are brave, there is a dialogue. It feels safe, and that is exactly why it is so tempting. But the safe route tends to produce a very particular kind of learner: someone who can fill in every gap on a worksheet and still freezes when a real person says \"Hello, how are you?\"",
+      "say": "Open any beginner textbook and you will find the same quiet promise: first learn the rules, then speak. Chapter one gives you the verb \"to be\" in a neat table. Chapter two adds articles. Somewhere around chapter six, if you are brave, there is a dialogue. It feels safe, and that is exactly why it is so tempting. But the safe route tends to produce a very particular kind of learner: someone who can fill in every gap on a worksheet and still freezes when a real person says \"Hello, how are you?\""
+    },
+    {
+      "type": "paragraph",
+      "text": "At COSY Languages we turn the order around. We call it <mark class=\"hl-handwritten\">speaking-first</mark>: from the very first minute of lesson one, you say something out loud, to someone, for a reason. Not because grammar does not matter, but because grammar becomes much easier to understand once you have a spoken sentence to attach it to.",
+      "say": "At COSY Languages we turn the order around. We call it speaking-first: from the very first minute of lesson one, you say something out loud, to someone, for a reason. Not because grammar does not matter, but because grammar becomes much easier to understand once you have a spoken sentence to attach it to."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Output is not the reward at the end. It is part of the learning.",
+      "say": "Output is not the reward at the end. It is part of the learning."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a long time, many teachers assumed that listening and reading were where acquisition happened, and speaking was simply the proof. The linguist Merrill Swain challenged that in the 1980s with what she called the <span class=\"doodle-circle\">comprehensible output</span> hypothesis. When you try to say something, she argued, you suddenly notice what you cannot say. You reach for a word and it is not there. You build a sentence and realise you do not know the past tense. That moment of noticing is valuable, because your attention is now exactly where the gap is.",
+      "say": "For a long time, many teachers assumed that listening and reading were where acquisition happened, and speaking was simply the proof. The linguist Merrill Swain challenged that in the 1980s with what she called the comprehensible output hypothesis. When you try to say something, she argued, you suddenly notice what you cannot say. You reach for a word and it is not there. You build a sentence and realise you do not know the past tense. That moment of noticing is valuable, because your attention is now exactly where the gap is."
+    },
+    {
+      "type": "paragraph",
+      "text": "A second idea comes from Michael Long: <mark class=\"hl-handwritten\">negotiation of meaning</mark>. When two people really want to understand each other, they slow down, repeat, rephrase, point, draw, check. \"Sorry, which day?\" \"On Tuesday.\" \"Ah, Tuesday!\" Those little repairs are not a sign that the conversation is failing. They are the conversation doing its teaching work, because the input you receive has been adjusted to exactly your level.",
+      "say": "A second idea comes from Michael Long: negotiation of meaning. When two people really want to understand each other, they slow down, repeat, rephrase, point, draw, check. \"Sorry, which day?\" \"On Tuesday.\" \"Ah, Tuesday!\" Those little repairs are not a sign that the conversation is failing. They are the conversation doing its teaching work, because the input you receive has been adjusted to exactly your level."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Every sentence you cannot finish is a map of what to learn next.",
+      "attribution": "JY DM, founder of COSY Languages",
+      "say": "Every sentence you cannot finish is a map of what to learn next."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mistakes are data",
+      "say": "Mistakes are data"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is the part most beginners find hardest to believe. A mistake is not a verdict on you. It is information. If a learner says \"Yesterday I go to the market\", we have just learned three useful things: they can form a sentence, they know the key vocabulary, and they have not yet met the past simple. A teacher with that information knows what to do next. A teacher whose student has stayed silent knows nothing at all.",
+      "say": "Here is the part most beginners find hardest to believe. A mistake is not a verdict on you. It is information. If a learner says \"Yesterday I go to the market\", we have just learned three useful things: they can form a sentence, they know the key vocabulary, and they have not yet met the past simple. A teacher with that information knows what to do next. A teacher whose student has stayed silent knows nothing at all."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Yesterday I go to the market.\" → \"Yesterday I went to the market.\"",
+      "gloss": "The learner says the sentence with a small error; the listener simply repeats it correctly, without stopping the flow. This gentle recast keeps the conversation moving while modelling the form.",
+      "context": "Light correction in a first conversation (recast).",
+      "say": "\"Yesterday I go to the market.\" → \"Yesterday I went to the market.\". The learner says the sentence with a small error; the listener simply repeats it correctly, without stopping the flow. This gentle recast keeps the conversation moving while modelling the form."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is also why we prefer to correct *after* the message has landed. Interrupting a nervous beginner in the middle of a sentence teaches them one thing very effectively: do not start sentences.",
+      "say": "This is also why we prefer to correct after the message has landed. Interrupting a nervous beginner in the middle of a sentence teaches them one thing very effectively: do not start sentences."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The anxiety question",
+      "say": "The anxiety question"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many adults tell me, \"I will speak when I am ready.\" I understand it, but readiness rarely arrives on its own. Researchers who study foreign language anxiety describe a loop: you worry about errors, so you avoid speaking, so you get less practice, so your speaking stays weak, so you worry more. Stephen Krashen described a related idea as the <span class=\"doodle-circle\">affective filter</span>: when we feel anxious or embarrassed, less language gets through. The remedy is not to wait until the fear disappears. It is to make the first speaking tasks so small and so friendly that fear has nothing much to grip.",
+      "say": "Many adults tell me, \"I will speak when I am ready.\" I understand it, but readiness rarely arrives on its own. Researchers who study foreign language anxiety describe a loop: you worry about errors, so you avoid speaking, so you get less practice, so your speaking stays weak, so you worry more. Stephen Krashen described a related idea as the affective filter: when we feel anxious or embarrassed, less language gets through. The remedy is not to wait until the fear disappears. It is to make the first speaking tasks so small and so friendly that fear has nothing much to grip."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Culture bite: the lesson-one \"Hello\"",
+      "content": "In nearly every culture, learners are warmly rewarded for a clumsy greeting. A visitor who says a shaky \"Bonjour\", \"Buenos días\" or \"Guten Tag\" is usually met with a smile and a slower, kinder reply. Locals tend to hear the effort first and the accent second. Take that as permission: your first words do not need to be perfect to be welcome.",
+      "say": "In nearly every culture, learners are warmly rewarded for a clumsy greeting. A visitor who says a shaky \"Bonjour\", \"Buenos días\" or \"Guten Tag\" is usually met with a smile and a slower, kinder reply. Locals tend to hear the effort first and the accent second. Take that as permission: your first words do not need to be perfect to be welcome."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A first-lesson speaking routine (A0–A1)",
+      "say": "A first-lesson speaking routine (A0–A1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Speaking-first does not mean throwing a beginner into the deep end. It means building a staircase of very small spoken steps. Here is the routine I use in a first lesson, and it works in any of our 14 languages.",
+      "say": "Speaking-first does not mean throwing a beginner into the deep end. It means building a staircase of very small spoken steps. Here is the routine I use in a first lesson, and it works in any of our 14 languages."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Listen and echo (2 minutes).** Hear one phrase three times, then repeat it chorally or quietly to yourself. No writing yet.",
+        "**Say it your way (3 minutes).** Swap one word to make it true for you: *My name's Anna* becomes *My name's* and your own name.",
+        "**Ask and answer (5 minutes).** With a partner, a teacher, or even a mirror, ask the question and give a real answer. *Where are you from? I'm from Georgia.*",
+        "**Gap and fix (3 minutes).** Notice what you wanted to say and could not. Write down two words you were missing.",
+        "**Say it again (2 minutes).** Repeat the task with the new words. The second go is always smoother, and that feeling is the engine of confidence."
+      ]
+    },
+    {
+      "type": "example",
+      "targetText": "\"Hi! I'm Nino. I'm from Tbilisi. And you?\"",
+      "gloss": "A complete first-lesson turn with four short moves: greet, give your name, say where you are from, hand the turn back. Each move reuses a phrase you have just practised.",
+      "context": "Meeting someone for the first time (A0–A1).",
+      "say": "\"Hi! I'm Nino. I'm from Tbilisi. And you?\". A complete first-lesson turn with four short moves: greet, give your name, say where you are from, hand the turn back. Each move reuses a phrase you have just practised."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Sorry, can you say that again, please?\"",
+      "gloss": "The most important survival sentence for a beginner. It turns a moment of panic into a normal part of the conversation.",
+      "context": "Asking for repetition at any level.",
+      "say": "\"Sorry, can you say that again, please?\". The most important survival sentence for a beginner. It turns a moment of panic into a normal part of the conversation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "But what about grammar?",
+      "say": "But what about grammar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is still there, and it still matters. The difference is when it arrives. In a speaking-first lesson, the grammar point shows up after learners have tried to say something and felt the need for it. A learner who has just struggled to say what happened yesterday is wonderfully ready to meet the past simple. The rule is no longer an abstract table; it is the answer to a question they have just asked themselves. We follow this principle throughout our lessons, and you can read more about the structure behind it in our curriculum article.",
+      "say": "It is still there, and it still matters. The difference is when it arrives. In a speaking-first lesson, the grammar point shows up after learners have tried to say something and felt the need for it. A learner who has just struggled to say what happened yesterday is wonderfully ready to meet the past simple. The rule is no longer an abstract table; it is the answer to a question they have just asked themselves. We follow this principle throughout our lessons, and you can read more about the structure behind it in our curriculum article."
+    },
+    {
+      "type": "quiz",
+      "question": "A beginner says \"Yesterday I go to the shop.\" What is the most helpful response in a speaking-first lesson?",
+      "options": [
+        "Stop them immediately and explain the past simple rule",
+        "Say nothing, and wait for them to notice",
+        "Reply naturally, \"Oh, you went to the shop? What did you buy?\", then return to the form later",
+        "Ask them to write the sentence ten times"
+      ],
+      "correctIndex": 2,
+      "explanation": "A natural recast keeps the conversation alive and models the correct form, while a follow-up question gives the learner a reason to keep speaking. Detailed grammar explanation can come after the message has been communicated."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Try it today",
+      "say": "Try it today"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "Say three sentences about yourself out loud in your target language, even if you are alone.",
+        "Pick one thing you could not say. Look it up, then say the sentence again.",
+        "Record a 30-second voice note: where you are, what you can see, how you feel.",
+        "Ask one real question to a real person, online or in person, in the language you are learning.",
+        "Write down one mistake you made today, and thank it. It just told you what to learn next."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Speaking first is not a shortcut, and it is not always comfortable. But it is honest. It puts you in the game from day one, and every small spoken success makes the next one a little bit easier. So close the grammar table for ten minutes, open your mouth, and say hello.",
+      "say": "Speaking first is not a shortcut, and it is not always comfortable. But it is honest. It puts you in the game from day one, and every small spoken success makes the next one a little bit easier. So close the grammar table for ten minutes, open your mouth, and say hello."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Practise speaking with COSYpractice"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Horwitz, E. K., Horwitz, M. B., & Cope, J. (1986).** Foreign language classroom anxiety. *The Modern Language Journal, 70*(2), 125–132.",
+        "**Krashen, S. (1982).** *Principles and Practice in Second Language Acquisition.* Pergamon.",
+        "**Long, M. H. (1983).** Native speaker/non-native speaker conversation and the negotiation of comprehensible input. *Applied Linguistics, 4*(2), 126–141.",
+        "**MacIntyre, P. D., & Gardner, R. C. (1994).** The subtle effects of language anxiety on cognitive processing in the second language. *Language Learning, 44*(2), 283–305.",
+        "**Swain, M. (1985).** Communicative competence: Some roles of comprehensible input and comprehensible output in its development. In S. Gass & C. Madden (Eds.), *Input in Second Language Acquisition* (pp. 235–253). Newbury House.",
+        "**Swain, M. (1995).** Three functions of output in second language learning. In G. Cook & B. Seidlhofer (Eds.), *Principle and Practice in Applied Linguistics* (pp. 125–144). Oxford University Press.",
+        "**Thornbury, S. (2005).** *How to Teach Speaking.* Longman."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
-  "draft": true
+  "draft": false
 }

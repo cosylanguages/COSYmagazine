@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Dibab / Prenañ / Paeañ",
+          "Dibab ha kenwerzh.",
+          "'Dibab ul levr', 'Prenañ bara', 'Paeañ dre gartenn'.",
+          "'dibab mat', 'prenañ enlinenn', 'paeañ koan'."
+        ],
+        [
+          "2",
+          "Kounaat / Ankouaat",
+          "Memor hag adkoun.",
+          "'Kounaat a ran da anv', 'Na ankoua ket da alc'hwezioù!'.",
+          "'kounaat ober un dra bennak', 'ankouaat ar ger-tremen'."
+        ],
+        [
+          "3",
+          "Santout",
+          "Statud fizikel hag elfennoù.",
+          "'Santout mat a ran', 'Yen eo dezhi', 'Penaos e santez?'.",
+          "'santout skuizhder', 'santout er gêr'."
+        ],
+        [
+          "4",
+          "Kejañ",
+          "Darempredoù ha tud.",
+          "'Plaejadur o kejañ ganit', 'Kejañ a reomp da 5 eur', 'Kejañ gant ur mignon'.",
+          "'kejañ gant tud nevez', 'kejañ er c'hreiz-kêr'."
+        ],
+        [
+          "5",
+          "Divizout",
+          "Divizoù ha mennozhioù.",
+          "'Divizout a ran chom', 'Divizout diwar-benn ur raktres'.",
+          "'Lenn / diskoulmañ ur gudenn' eo ar ger mat (solve a problem)."
+        ],
+        [
+          "6",
+          "Skrivañ / Lenn / Bizskrivañ",
+          "Skritur ha lennadurezh.",
+          "'Skrivañ ur postel', 'Lenn ul levr', 'Bizskrivañ ur gemennadenn'.",
+          "'skrivañ dre skrid', 'lenn a-vouezh uhel', 'bizskrivañ buan'."
+        ],
+        [
+          "7",
+          "Dispign / Foranañ",
+          "Merañ ar madoù.",
+          "'Dispign arc'hant', 'Na foran ket da amzer!'.",
+          "'dispign evit', 'tremen amzer gant ar familh'."
+        ],
+        [
+          "8",
+          "C'hoari (an holl zoareoù)",
+          "C'hoarioù, sportoù, benvegoù, rolloù.",
+          "'C'hoari mell-droad / c'hoarioù', 'C meur a seurt: c'hoari gitar / piano', 'C'hoari ur roll'.",
+          "'c'hoari ur benveg sonerezh', 'c meur a roll bras'."
+        ],
+        [
+          "9",
+          "Bezañ a-du / Bezañ enep",
+          "A-du hag ali.",
+          "'A-du on ganit', 'N'on ket a-du'.",
+          "'bezañ a-du penn-da-benn', 'Kavout un emglev'."
+        ],
+        [
+          "10",
+          "Kas / Kaout (reçevout)",
+          "Kasañ ha kaout.",
+          "'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.",
+          "'kas ur postel', 'kaout respont'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Taolenn geñveriañ ar verboù"
@@ -186,6 +273,30 @@
     {
       "type": "paragraph",
       "text": "📌 Implijit [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit [Lodenn 1](top-10-verbs-br.html), [Lodenn 2](top-10-verbs-part-2-br.html) ha [Lodenn 3](top-10-verbs-part-3-br.html), ha klaskit ar conjugaison war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false
