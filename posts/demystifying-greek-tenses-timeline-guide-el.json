@@ -181,6 +181,33 @@
         "camera": "focus",
         "target": "#block-11"
       }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Για περαιτέρω ανάγνωση",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Οι ιδέες αυτού του άρθρου στηρίζονται σε δημοσιευμένη έρευνα και διδακτική πρακτική. Ξεκινήστε από εδώ:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comrie, B. (1976).** *Aspect: An Introduction to the Study of Verbal Aspect and Related Problems.* Cambridge University Press.",
+        "**Comrie, B. (1985).** *Tense.* Cambridge University Press.",
+        "**Dahl, Ö. (1985).** *Tense and Aspect Systems.* Blackwell.",
+        "**Holton, D., Mackridge, P., Philippaki-Warburton, I., & Manolessou, I. (2012).** *Greek: A Comprehensive Grammar* (2nd ed.). Routledge.",
+        "**Klein, W. (1994).** *Time in Language.* Routledge."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

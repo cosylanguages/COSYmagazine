@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-ka",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "არჩევა / ყიდვა / გადახდა",
+          "არჩევანი და ვაჭრობა.",
+          "'წიგნის არჩევა', 'პურის ყიდვა', 'ბარათით გადახდა'.",
+          "'სწორად არჩევა', 'ონლაინ ყიდვა', 'ვახშმის გადახდა'."
+        ],
+        [
+          "2",
+          "დამახსოვრება (გახსენება) / დავიწყება",
+          "მეხსიერება.",
+          "'შენი სახელი მახსოვს', 'გასაღები არ დაგავიწყდეს!'.",
+          "'გახსენება', 'პაროლი დამავიწყდა'."
+        ],
+        [
+          "3",
+          "გრძნობა (თავის გრძნობა)",
+          "ფიზიკური და ემოციური მდგომარეობა.",
+          "'კარგად ვგრძნობ თავს', 'სცივა', 'როგორ გრძნობ თავს?'.",
+          "'დაღლილობის გრძნობა', 'ისე გრძნობა, როგორც სახლში'."
+        ],
+        [
+          "4",
+          "შეხვედრა",
+          "სოციალური ურთიერთობა.",
+          "'სასიამოვნოა თქვენი გაცნობა', '5 საათზე შევხვდეთ', 'მეგობრის შეხვედრა'.",
+          "'ახალი ადამიანების გაცნობა', 'ცენტრში შეხვედრა'."
+        ],
+        [
+          "5",
+          "გადაწყვეტა (გადაწყვეტილების მიღება)",
+          "არჩევანი.",
+          "'დარჩენა გადავწყვიტე', 'პროექტის გადაწყვეტა'.",
+          "პრობლემას 'ხსნიან / წყვეტენ' (solve a problem)."
+        ],
+        [
+          "6",
+          "წერა / კითხვა / ბეჭდვა",
+          "ტექსტი და წერა-კითხვა.",
+          "'წერილის წერა', 'წიგნის კითხვა', 'შეტყობინების ბეჭდვა'.",
+          "'ხელით წერა', 'ხმამაღლა კითხვა', 'სწრაფად ბეჭდვა'."
+        ],
+        [
+          "7",
+          "ხარჯვა / ფლანგვა",
+          "რესურსების მართვა.",
+          "'ფულის ხარჯვა', 'დროს ნუ ფლანგავ!'.",
+          "'დროის ოჯახთან გატარება', 'ენერგიის ფლანგვა'."
+        ],
+        [
+          "8",
+          "თამაში / დაკვრა (ყველა ვარიანტი)",
+          "თამაშები, სპორტი, ინსტრუმენტები, როლები.",
+          "'ფეხბურთის თამაში', 'გიტარაზე დაკვრა', 'როლის თამაში'.",
+          "'ინსტრუმენტზე დაკვრა', 'მნიშვნელოვანი როლის შესრულება'."
+        ],
+        [
+          "9",
+          "დათანხმება / უარის თქმა (არ დათანხმება)",
+          "აზრი.",
+          "'გეთანხმები', 'არ ვეთანხმები'.",
+          "'სრულად დათანხმება', 'შეთანხმების მიღწევა'."
+        ],
+        [
+          "10",
+          "გაგზავნა / მიღება",
+          "გადაცემა და მიღება.",
+          "'შეტყობინების გაგზავნა', 'წერილის მიღება', 'სადგურში მიღწევა (მიმოსვლა)'.",
+          "'მეილის გაგზავნა', 'პასუხის მიღება'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "ზმნების შედარებითი ცხრილი"
@@ -186,6 +273,30 @@
     {
       "type": "paragraph",
       "text": "📌 ივარჯიშეთ [COSYpractice](https://cosylanguages.github.io/COSYpractice/)-ზე, წაიკითხეთ [ნაწილი 1](top-10-verbs-ka.html), [ნაწილი 2](top-10-verbs-part-2-ka.html) და [ნაწილი 3](top-10-verbs-part-3-ka.html), ხოლო უღლება შეამოწმეთ [COSYtools](https://cosylanguages.github.io/COSYtools/)-ზე."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 დამატებითი საკითხავი",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

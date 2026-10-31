@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-en",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Do / Make",
+          "Activities and creation.",
+          "'I do my homework' vs 'I make breakfast'.",
+          "'do business', 'do research' | 'make progress', 'make a mistake'."
+        ],
+        [
+          "2",
+          "Speak / Talk / Say / Tell",
+          "Communication.",
+          "'I speak English', 'Let's talk', 'Say hello', 'Tell me'.",
+          "'speak fluently', 'talk with', 'say yes', 'tell a story'."
+        ],
+        [
+          "3",
+          "Look / Watch / See",
+          "Vision and attention.",
+          "'Look at this', 'Watch a movie', 'I see a bird'.",
+          "'look for', 'look forward to', 'watch out', 'see you soon'."
+        ],
+        [
+          "4",
+          "Listen / Hear",
+          "Listening and perception.",
+          "'Listen to music', 'Did you hear that?'.",
+          "'listen carefully', 'hear from', 'glad to hear that'."
+        ],
+        [
+          "5",
+          "Must / Have To",
+          "Necessity and obligation.",
+          "'I must study', 'We have to leave now'.",
+          "'must be', 'have to go', 'don't have to'."
+        ],
+        [
+          "6",
+          "Take / Give / Get",
+          "Exchange and receiving.",
+          "'Take a coat', 'Give me a hand', 'Get home'.",
+          "'take care', 'give up', 'get tired', 'get ready'."
+        ],
+        [
+          "7",
+          "Live",
+          "Residence and lifestyle.",
+          "'I live in London', 'She lives with her family'.",
+          "'live abroad', 'live well', 'live together'."
+        ],
+        [
+          "8",
+          "Wait",
+          "Patience and time.",
+          "'Wait for the bus', 'Can you wait a minute?'.",
+          "'wait for', 'wait in line', 'can't wait'."
+        ],
+        [
+          "9",
+          "Understand",
+          "Comprehension.",
+          "'I understand', 'Do you understand me?'.",
+          "'make yourself understood', 'as I understand', 'fully understand'."
+        ],
+        [
+          "10",
+          "Ask / Answer",
+          "Questions and answers.",
+          "'Ask a question', 'Answer the phone'.",
+          "'ask for help', 'answer questions', 'ask a favour'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Comparative Matrix across Language Families"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Test your skills in [COSYpractice](https://cosylanguages.github.io/COSYpractice/), read [Part 1](top-10-verbs-en.html) and [Part 2](top-10-verbs-part-2-en.html), and consult full verb conjugations on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Davies, M., & Gardner, D. (2010).** *A Frequency Dictionary of Contemporary American English.* Routledge.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

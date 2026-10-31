@@ -14,7 +14,10 @@ try {
   const markedModule = require('marked');
   marked = markedModule.marked || markedModule;
 } catch (e) {
-  // Graceful fallback if marked is not available
+  // Without `marked`, inline HTML in paragraphs (<mark>, <span class="doodle-circle">) is escaped
+  // and shows up as literal text on the page. Fail loudly instead of publishing broken pages.
+  console.error('❌ The "marked" package is missing. Run `npm install` before `npm run build`.');
+  process.exit(1);
 }
 
 const { validatePostSchema } = require('./validate-blog-schema.js');
@@ -112,6 +115,20 @@ const LANG_FLAG_MAP = {
   br: '🌐'
 };
 
+// Labels for the Top 10 "full list" toolbar (languages without a native entry fall back to English)
+const FULLLIST_LABELS = {
+  en: { list: 'The full list', print: '🖨 Print', pdf: '📄 Save as PDF', csv: '⬇ Table (CSV)' },
+  fr: { list: 'La liste complète', print: '🖨 Imprimer', pdf: '📄 Enregistrer en PDF', csv: '⬇ Tableau (CSV)' },
+  it: { list: 'L’elenco completo', print: '🖨 Stampa', pdf: '📄 Salva in PDF', csv: '⬇ Tabella (CSV)' },
+  ru: { list: 'Полный список', print: '🖨 Печать', pdf: '📄 Сохранить в PDF', csv: '⬇ Таблица (CSV)' },
+  el: { list: 'Ολόκληρη η λίστα', print: '🖨 Εκτύπωση', pdf: '📄 Αποθήκευση σε PDF', csv: '⬇ Πίνακας (CSV)' },
+  es: { list: 'La lista completa', print: '🖨 Imprimir', pdf: '📄 Guardar como PDF', csv: '⬇ Tabla (CSV)' },
+  de: { list: 'Die vollständige Liste', print: '🖨 Drucken', pdf: '📄 Als PDF speichern', csv: '⬇ Tabelle (CSV)' },
+  pt: { list: 'A lista completa', print: '🖨 Imprimir', pdf: '📄 Guardar como PDF', csv: '⬇ Tabela (CSV)' }
+};
+let CURRENT_SLUG = '';
+let CURRENT_LANG = 'en';
+
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, char => ({
     '&': '&amp;',
@@ -120,6 +137,19 @@ function escapeHtml(value) {
     '"': '&quot;',
     "'": '&#39;'
   })[char]);
+}
+
+// Which notebook look an article gets (see css/notebook.css)
+function issueKey(post) {
+  const n = String(post.issue?.number || '');
+  if (post.desk === 'Saturday Mistakes') return 'sat';
+  if (/2026\.08|August/.test(n)) return 'aug';
+  if (/2026\.09|September/.test(n)) return 'sep';
+  if (/2026\.10|October/.test(n)) return 'oct';
+  if (/2026\.11|November/.test(n)) return 'nov';
+  if (/2026\.12|December/.test(n)) return 'dec';
+  if (/February|2027\.02/.test(n)) return 'feb';
+  return 'other';
 }
 
 function parseFormattedText(text) {
@@ -220,6 +250,31 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
     case 'table': {
       const headers = block.headers || [];
       const rows = block.rows || [];
+
+      // Printable "full list": a toolbar plus a table that the book may split over pages (they share data-list)
+      if (block.printable) {
+        const L = FULLLIST_LABELS[CURRENT_LANG] || FULLLIST_LABELS.en;
+        const listId = `${CURRENT_SLUG}-${escapeHtml(block.listId || 'list')}`;
+        const title = escapeHtml(block.listTitle || L.list);
+        const fileBase = escapeHtml(block.csvName || CURRENT_SLUG);
+        const th = headers.map(h => `<th>${parseFormattedText(h)}</th>`).join('');
+        const tr = rows.map(row => `<tr>${row.map(cell => `<td>${parseFormattedText(cell)}</td>`).join('')}</tr>`).join('\n');
+        return `
+<div class="fulllist-bar" data-list="${listId}" data-file="${fileBase}">
+  <span class="fulllist-title">${title}</span>
+  <button type="button" class="fulllist-btn" data-act="print">${L.print}</button>
+  <button type="button" class="fulllist-btn" data-act="pdf">${L.pdf}</button>
+  <button type="button" class="fulllist-btn" data-act="csv">${L.csv}</button>
+</div>
+<div class="table-responsive-container fulllist-table" data-list="${listId}">
+  <table class="gazette-editorial-table">
+    <thead><tr>${th}</tr></thead>
+    <tbody>
+${tr}
+    </tbody>
+  </table>
+</div>`;
+      }
 
       const headersHtml = headers.map(h => `<th>${parseFormattedText(h)}</th>`).join('');
       const rowsHtml = rows.map(row => {
@@ -536,6 +591,8 @@ async function buildBlog() {
     const lang = post.language || 'en';
 
     const langDict = getTranslationsForLang(lang);
+    CURRENT_SLUG = post.slug;
+    CURRENT_LANG = lang;
 
     // Render blocks statefully to apply drop cap on the first paragraph
     const blockState = { isFirstParagraph: true };
@@ -630,6 +687,8 @@ async function buildBlog() {
     <link rel="stylesheet" href="css/dark-fixes.css">
     <link rel="stylesheet" href="css/stage.css">
     <link rel="stylesheet" href="css/shell.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/notebook.css">
 
     <style>
       :root {
@@ -643,7 +702,7 @@ async function buildBlog() {
       }
     </style>
 </head>
-<body class="blog-page gazette-body">
+<body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}">
 
     <nav id="cosy-nav"></nav>
 
@@ -727,6 +786,8 @@ async function buildBlog() {
 <footer id="cosy-footer"></footer>
 
     <script src="js/shell.js"></script>
+    <script src="js/doodles.js"></script>
+    <script src="js/fulllist.js"></script>
     <script src="js/flipbook.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';

@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-es",
+      "listTitle": "La lista completa",
+      "headers": [
+        "#",
+        "Verbo",
+        "Para qué sirve",
+        "Ejemplo",
+        "Expresiones útiles"
+      ],
+      "rows": [
+        [
+          "1",
+          "Hacer",
+          "Actividades cotidianas.",
+          "'Hacer los deberes', 'Hacer el desayuno', 'Hacer ejercicio'.",
+          "'hacer falta', 'hacer el favor', 'hacer fotos'."
+        ],
+        [
+          "2",
+          "Hablar / Decir",
+          "Comunicación.",
+          "'Hablar español', 'Decir la verdad', 'Dime'.",
+          "'hablar de', 'decir que sí', 'por decir algo'."
+        ],
+        [
+          "3",
+          "Mirar / Ver",
+          "Percepción visual.",
+          "'Mirar una película', 'Veo un pájaro'.",
+          "'mirar la televisión', 'a ver', 'nos vemos'."
+        ],
+        [
+          "4",
+          "Escuchar / Oír",
+          "Percepción auditiva.",
+          "'Escuchar música', 'Oigo un ruido'.",
+          "'escuchar con atención', 'oír hablar de'."
+        ],
+        [
+          "5",
+          "Tener que / Deber",
+          "Obligación.",
+          "'Tengo que estudiar', 'Debemos salir ya'.",
+          "'tener que hacer', 'debería ser', 'hay que'."
+        ],
+        [
+          "6",
+          "Tomar / Dar",
+          "Intercambios.",
+          "'Tomar el autobús', 'Dar un regalo'.",
+          "'darse prisa', 'dar la mano', 'tomar un café'."
+        ],
+        [
+          "7",
+          "Vivir",
+          "Residencia.",
+          "'Vivo en Madrid', 'Vivir bien'.",
+          "'vivir en el extranjero', 'vivir juntos'."
+        ],
+        [
+          "8",
+          "Esperar",
+          "Espera.",
+          "'Esperar el autobús', 'Espere un momento'.",
+          "'esperar que', 'hacer cola', 'no ver la hora'."
+        ],
+        [
+          "9",
+          "Entender",
+          "Comprensión.",
+          "'Entiendo la lección', '¿Entiendes lo que digo?'.",
+          "'hacerse entender', 'entiendo perfectamente'."
+        ],
+        [
+          "10",
+          "Preguntar / Responder",
+          "Preguntas y respuestas.",
+          "'Hacer una pregunta', 'Responder al teléfono'.",
+          "'pedir ayuda', 'responder rápido'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tabla comparativa de verbos"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Practica en [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lee la [Parte 1](top-10-verbs-es.html) y la [Parte 2](top-10-verbs-part-2-es.html), y consulta las conjugaciones de los verbos en [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Lecturas recomendadas",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las ideas de este artículo se apoyan en investigación publicada y en la práctica docente. Para empezar:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

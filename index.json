@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-28T19:14:06.832Z",
+  "generatedAt": "2026-10-31T07:44:48.824Z",
   "stats": {
-    "totalPosts": 95,
+    "totalPosts": 97,
     "totalDesks": 13,
     "totalIssues": 6
   },
@@ -1481,7 +1481,7 @@
         "Conjugation",
         "Fluency"
       ],
-      "readingTime": 12,
+      "readingTime": 9,
       "artDirection": {
         "palette": [
           "#1a365d",
@@ -3471,7 +3471,7 @@
         "EcosystemUpdate",
         "LanguageLearning"
       ],
-      "readingTime": 1,
+      "readingTime": 3,
       "artDirection": {
         "palette": [
           "#1e293b",
@@ -3528,6 +3528,47 @@
         "layout": "standard-feed",
         "motif": "riso-print",
         "seed": "overcoming-intermediate-plateau",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-building-cosy-master-curriculum",
+      "slug": "building-cosy-master-curriculum",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-03-01",
+      "title": "How We Built the COSY Master Curriculum Across 14 Languages",
+      "kicker": "CURRICULUM",
+      "dek": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
+      "tags": [
+        "Curriculum",
+        "CELTA",
+        "14Languages",
+        "CEFR"
+      ],
+      "readingTime": 6,
+      "artDirection": {
+        "palette": [
+          "#2d3748",
+          "#319795",
+          "#d69e2e",
+          "#f7fafc"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "riso-print",
+        "seed": "building-cosy-master-curriculum",
         "coverOverride": null
       },
       "draft": false
@@ -3847,7 +3888,7 @@
         "A0-A1",
         "14Languages"
       ],
-      "readingTime": 10,
+      "readingTime": 16,
       "artDirection": {
         "palette": [
           "#2d3748",
@@ -3931,7 +3972,7 @@
         "A0-A1",
         "14Languages"
       ],
-      "readingTime": 10,
+      "readingTime": 13,
       "artDirection": {
         "palette": [
           "#2d3748",
@@ -4057,7 +4098,7 @@
         "A0-A1",
         "14Languages"
       ],
-      "readingTime": 10,
+      "readingTime": 12,
       "artDirection": {
         "palette": [
           "#2d3748",
@@ -4161,6 +4202,46 @@
         "layout": "standard-feed",
         "motif": "riso-print",
         "seed": "top-10-verbs",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-why-speaking-first",
+      "slug": "why-speaking-first",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-01-15",
+      "title": "Why Speaking-First is the Only Way to True Fluency",
+      "kicker": "EDITORIAL ROOM",
+      "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+      "tags": [
+        "Philosophy",
+        "Speaking",
+        "Methodology"
+      ],
+      "readingTime": 6,
+      "artDirection": {
+        "palette": [
+          "#742a2a",
+          "#e53e3e",
+          "#d69e2e",
+          "#fff5f5"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "gingham-knit",
+        "seed": "why-speaking-first",
         "coverOverride": null
       },
       "draft": false

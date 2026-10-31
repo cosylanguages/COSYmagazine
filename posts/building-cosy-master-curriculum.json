@@ -10,15 +10,16 @@
     "title": "Get ready for school"
   },
   "date": "2026-03-01",
-  "title": "How We Built the COSY Master Curriculum Across 13 Languages",
+  "title": "How We Built the COSY Master Curriculum Across 14 Languages",
   "kicker": "CURRICULUM",
   "dek": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
   "tags": [
     "Curriculum",
     "CELTA",
-    "13Languages"
+    "14Languages",
+    "CEFR"
   ],
-  "readingTime": 1,
+  "readingTime": 6,
   "podcast": {
     "episode": 7,
     "audioUrl": "audio/building-cosy-master-curriculum.mp3"
@@ -43,8 +44,207 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "*Draft article content coming soon...*"
+      "text": "When people ask what makes COSY lessons different, I usually say: nothing exotic. There is no secret trick. What we have is a **structure**, a lesson shape that we repeat carefully, level after level, in every language we teach. This article opens the notebook and shows how that structure is built, and why.",
+      "say": "When people ask what makes COSY lessons different, I usually say: nothing exotic. There is no secret trick. What we have is a structure, a lesson shape that we repeat carefully, level after level, in every language we teach. This article opens the notebook and shows how that structure is built, and why."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Levels first: A0 to C2",
+      "say": "Levels first: A0 to C2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every COSY course is mapped to the CEFR, the Common European Framework of Reference for Languages. We use its six familiar levels (A1, A2, B1, B2, C1, C2) and add a gentle <mark class=\"hl-handwritten\">A0</mark> at the start for people who are truly meeting the language for the first time. The CEFR is useful because it describes what a learner can *do*, not just what they know: introduce yourself, book a table, explain a problem, argue a point. Each COSY unit begins from a can-do statement like that, and everything in the lesson is chosen to make the statement true by the end.",
+      "say": "Every COSY course is mapped to the CEFR, the Common European Framework of Reference for Languages. We use its six familiar levels (A1, A2, B1, B2, C1, C2) and add a gentle A0 at the start for people who are truly meeting the language for the first time. The CEFR is useful because it describes what a learner can do, not just what they know: introduce yourself, book a table, explain a problem, argue a point. Each COSY unit begins from a can-do statement like that, and everything in the lesson is chosen to make the statement true by the end."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The same lesson shape in every language",
+      "say": "The same lesson shape in every language"
+    },
+    {
+      "type": "paragraph",
+      "text": "COSY currently covers 14 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Greek, Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash. They are very different from each other, with different scripts, sounds and grammar. But the learner's journey through a lesson is the same, and that sameness is a feature. Once you have learned *how* a COSY lesson works in Spanish, you already know how it works in Georgian.",
+      "say": "COSY currently covers 14 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Greek, Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash. They are very different from each other, with different scripts, sounds and grammar. But the learner's journey through a lesson is the same, and that sameness is a feature. Once you have learned how a COSY lesson works in Spanish, you already know how it works in Georgian."
+    },
+    {
+      "type": "paragraph",
+      "text": "The shape comes from the communicative, staged approach familiar to anyone who has trained for the CELTA. We do not claim it is the only way to teach. We chose it because it is clear, it is speaking-first, and it respects the learner's time.",
+      "say": "The shape comes from the communicative, staged approach familiar to anyone who has trained for the CELTA. We do not claim it is the only way to teach. We chose it because it is clear, it is speaking-first, and it respects the learner's time."
+    },
+    {
+      "type": "pullquote",
+      "quote": "A good lesson is a staircase, not a cliff: every step is small enough to climb, and every step leads somewhere.",
+      "attribution": "JY DM",
+      "say": "A good lesson is a staircase, not a cliff: every step is small enough to climb, and every step leads somewhere."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The stages of a COSY lesson",
+      "say": "The stages of a COSY lesson"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage",
+        "What the learner does",
+        "Example (A1, English)"
+      ],
+      "rows": [
+        [
+          "Lead-in",
+          "Warms up, activates what they already know, gets curious about the topic.",
+          "Looks at a photo of a school bag and says what they can see."
+        ],
+        [
+          "Context",
+          "Meets the new language in a short spoken or written text, and reads or listens for the general idea first.",
+          "Listens to two students talking about their first day at school."
+        ],
+        [
+          "Meaning",
+          "Works out what the new words and phrases mean from the context.",
+          "Matches \"timetable\", \"homework\" and \"break\" to pictures."
+        ],
+        [
+          "Form",
+          "Notices how the language is built: word order, endings, patterns.",
+          "Spots the pattern in \"I have maths on Monday.\""
+        ],
+        [
+          "Pronunciation",
+          "Practises the sounds, stress and rhythm of the new phrases.",
+          "Repeats \"Maths on Monday\" with the stress in the right place."
+        ],
+        [
+          "Controlled practice",
+          "Uses the language in tightly guided tasks, with a high chance of success.",
+          "Completes sentences about a given timetable."
+        ],
+        [
+          "Freer practice",
+          "Uses the language to communicate something real, with less support.",
+          "Tells a partner what their own week looks like."
+        ],
+        [
+          "Review",
+          "Reflects on mistakes, revisits what was hard, and plans what to practise next.",
+          "Writes down two things to say more smoothly tomorrow."
+        ]
+      ],
+      "caption": "The eight stages of a COSY lesson, shown with a single A1 example.",
+      "say": "Here are the eight stages of a COSY lesson: lead-in, context, meaning, form, pronunciation, controlled practice, freer practice and review."
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice where the grammar sits. It is not the opening move; it arrives in the middle, after the learner has met the language in context and understood what it is for. And notice the direction of travel: from controlled to freer. Early tasks are designed so you are very likely to succeed. Later tasks take the support away, little by little, until you are using the language to say something that is really yours.",
+      "say": "Notice where the grammar sits. It is not the opening move; it arrives in the middle, after the learner has met the language in context and understood what it is for. And notice the direction of travel: from controlled to freer. Early tasks are designed so you are very likely to succeed. Later tasks take the support away, little by little, until you are using the language to say something that is really yours."
+    },
+    {
+      "type": "example",
+      "targetText": "\"I have English on Monday and Wednesday.\"",
+      "gloss": "A model sentence from the context stage. Learners meet it inside a short dialogue, then notice the pattern (have + subject + on + day) before they are asked to produce anything similar.",
+      "context": "Lesson on school timetables (A1).",
+      "say": "\"I have English on Monday and Wednesday.\". A model sentence from the context stage. Learners meet it inside a short dialogue, then notice the pattern (have + subject + on + day) before they are asked to produce anything similar."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Spaced practice: coming back on purpose",
+      "say": "Spaced practice: coming back on purpose"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the oldest findings in memory research is that revisiting material after a gap helps it stick better than cramming it all in one sitting. We build this into the curriculum rather than leaving it to chance. A phrase that appears in a unit will return in later units, in a new context, so you meet it again just when it is starting to fade. Retrieval practice, trying to recall something rather than just re-reading it, is part of the same idea, and our review stages and quizzes are designed around it.",
+      "say": "One of the oldest findings in memory research is that revisiting material after a gap helps it stick better than cramming it all in one sitting. We build this into the curriculum rather than leaving it to chance. A phrase that appears in a unit will return in later units, in a new context, so you meet it again just when it is starting to fade. Retrieval practice, trying to recall something rather than just re-reading it, is part of the same idea, and our review stages and quizzes are designed around it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authentic tasks, not just exercises",
+      "say": "Authentic tasks, not just exercises"
+    },
+    {
+      "type": "paragraph",
+      "text": "A worksheet can tell you whether you know a form. A task tells you whether you can **use** it. So each unit ends with something close to real life: leave a voice message to a friend, ask for directions, introduce your family, write a short reply to an invitation. We try to keep the language natural and the situation believable. If you would never say a sentence to another human being, we try not to ask you to practise it.",
+      "say": "A worksheet can tell you whether you know a form. A task tells you whether you can use it. So each unit ends with something close to real life: leave a voice message to a friend, ask for directions, introduce your family, write a short reply to an invitation. We try to keep the language natural and the situation believable. If you would never say a sentence to another human being, we try not to ask you to practise it."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Culture bite: why a base level is called A0",
+      "content": "The CEFR officially starts at A1, but many teachers talk about an informal \"A0\" for absolute beginners: the stage before you can reliably introduce yourself. At COSY we use the term as a friendly label for those first steps, such as learning to read a new alphabet, recognising a few sounds and saying hello. It reminds us that starting from zero is a normal and respectable place to begin.",
+      "say": "The CEFR officially starts at A1, but many teachers talk about an informal \"A0\" for absolute beginners: the stage before you can reliably introduce yourself. At COSY we use the term as a friendly label for those first steps, such as learning to read a new alphabet, recognising a few sounds and saying hello. It reminds us that starting from zero is a normal and respectable place to begin."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "One structure, many languages",
+      "say": "One structure, many languages"
+    },
+    {
+      "type": "paragraph",
+      "text": "Why does it matter that the structure is shared? First, for learners: if you study French now and decide to try Breton next year, you do not need to learn a new way of learning. Second, for teachers and authors: a shared lesson shape makes it easier to check that every unit has a context, practice and review. And third, for honesty: the shape keeps us accountable. If a lesson skips a stage, we can see it.",
+      "say": "Why does it matter that the structure is shared? First, for learners: if you study French now and decide to try Breton next year, you do not need to learn a new way of learning. Second, for teachers and authors: a shared lesson shape makes it easier to check that every unit has a context, practice and review. And third, for honesty: the shape keeps us accountable. If a lesson skips a stage, we can see it."
+    },
+    {
+      "type": "paragraph",
+      "text": "We should be clear about what this is. It is a framework we use and keep improving; it is not a promise of results. Languages take time, practice and patience, and different learners will need different amounts. What we can promise is that the path is clear, free and built with care.",
+      "say": "We should be clear about what this is. It is a framework we use and keep improving; it is not a promise of results. Languages take time, practice and patience, and different learners will need different amounts. What we can promise is that the path is clear, free and built with care."
+    },
+    {
+      "type": "quiz",
+      "question": "In a COSY lesson, where does the explicit focus on grammar (form) usually come?",
+      "options": [
+        "Right at the start, before any text",
+        "After the learner has met the language in context and worked out its meaning",
+        "Only in the final review",
+        "It does not appear at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Form follows context and meaning. Learners first see the language used for a purpose, then notice how it is built, and only then practise it in controlled and freer tasks."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you would like to see the structure in action, start a lesson in any of the 14 languages. You will recognise the shape by the second unit, and I hope it feels like a friendly path.",
+      "say": "If you would like to see the structure in action, start a lesson in any of the 14 languages. You will recognise the shape by the second unit, and I hope it feels like a friendly path."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Try a lesson on COSYpractice"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006).** Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin, 132*(3), 354–380.",
+        "**Council of Europe (2020).** *Common European Framework of Reference for Languages: Learning, Teaching, Assessment – Companion Volume.* Council of Europe Publishing.",
+        "**Ellis, R. (2003).** *Task-based Language Learning and Teaching.* Oxford University Press.",
+        "**Lightbown, P. M., & Spada, N. (2013).** *How Languages Are Learned* (4th ed.). Oxford University Press.",
+        "**Scrivener, J. (2011).** *Learning Teaching* (3rd ed.). Macmillan.",
+        "**Willis, J. (1996).** *A Framework for Task-Based Learning.* Longman."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
-  "draft": true
+  "draft": false
 }

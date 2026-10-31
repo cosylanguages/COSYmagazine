@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-it",
+      "listTitle": "L’elenco completo",
+      "headers": [
+        "#",
+        "Verbo",
+        "A cosa serve",
+        "Esempio",
+        "Espressioni utili"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fare",
+          "Attività quotidiane.",
+          "'Fare la spesa', 'Fare colazione', 'Fare i compiti'.",
+          "'fare attenzione', 'fare piacere', 'fare bella figura'."
+        ],
+        [
+          "2",
+          "Parlare / Dire",
+          "Comunicazione.",
+          "'Parlare italiano', 'Dire la verità', 'Dimmi'.",
+          "'parlare di', 'dire di sì', 'per così dire'."
+        ],
+        [
+          "3",
+          "Guardare / Vedere",
+          "Percezione visiva.",
+          "'Guardare un film', 'Vedo un uccello'.",
+          "'guardare la TV', 'stare a vedere', 'ci vediamo'."
+        ],
+        [
+          "4",
+          "Ascoltare / Sentire",
+          "Percezione uditiva.",
+          "'Ascoltare musica', 'Sento un rumore'.",
+          "'ascolta con attenzione', 'sentire parlare di'."
+        ],
+        [
+          "5",
+          "Dovere / Bisognare",
+          "Obbligo e necessità.",
+          "'Devo studiare', 'Bisogna partire ora'.",
+          "'dovere fare', 'come si deve', 'bisogna stare attenti'."
+        ],
+        [
+          "6",
+          "Prendere / Dare",
+          "Scambi.",
+          "'Prendere il treno', 'Dare un regalo'.",
+          "'prendersi cura', 'dare un passaggio', 'prendere un caffè'."
+        ],
+        [
+          "7",
+          "Vivere / Abitare",
+          "Residensa.",
+          "'Abito a Milano', 'Vivere in pace'.",
+          "'vivere all'estero', 'abitare vicino'."
+        ],
+        [
+          "8",
+          "Aspettare",
+          "Attesa.",
+          "'Aspettare l'autobus', 'Aspetta un momento'.",
+          "'non vedere l'ora', 'aspettare in fila'."
+        ],
+        [
+          "9",
+          "Capire",
+          "Comprensione.",
+          "'Capisco la lezione', 'Capisci cosa intendo?'.",
+          "'farsi capire', 'capisco benissimo'."
+        ],
+        [
+          "10",
+          "Chiedere / Rispondere",
+          "Domande e risposte.",
+          "'Chiedere un'informazione', 'Rispondere al telefono'.",
+          "'chiedere aiuto', 'rispondere subito'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Tabella comparativa dei verbi"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Per approfondire",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le idee di questo articolo si basano su ricerche pubblicate e sulla pratica didattica. Per cominciare:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

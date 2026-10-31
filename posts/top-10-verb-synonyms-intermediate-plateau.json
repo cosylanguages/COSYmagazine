@@ -61,6 +61,443 @@
       "say": "This article teaches one habit. Before you use a “safe” verb, ask yourself: “What exactly happened?” The answer usually hands you the better verb."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verb-synonyms-intermediate-plateau",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Common verb",
+        "You really mean…",
+        "Say instead",
+        "Example"
+      ],
+      "rows": [
+        [
+          "1",
+          "get",
+          "you receive something",
+          "receive",
+          "I got your message yesterday.→ I received your message yesterday."
+        ],
+        [
+          "1",
+          "get",
+          "you buy something",
+          "buy",
+          "I got a new phone.→ I bought a new phone."
+        ],
+        [
+          "1",
+          "get",
+          "you earn money",
+          "earn",
+          "She gets €2,000 a month.→ She earns €2,000 a month."
+        ],
+        [
+          "1",
+          "get",
+          "you obtain something official",
+          "obtain / secure",
+          "He got a visa.→ He obtained a visa."
+        ],
+        [
+          "1",
+          "get",
+          "something changes",
+          "improve / rise / grow",
+          "Things got better.→ Things improved."
+        ],
+        [
+          "1",
+          "get",
+          "you arrive somewhere",
+          "arrive at / reach",
+          "We got to the hotel at six.→ We arrived at the hotel at six."
+        ],
+        [
+          "1",
+          "get",
+          "you understand",
+          "understand / follow",
+          "I don’t get it.→ Sorry, I’m not following."
+        ],
+        [
+          "1",
+          "get",
+          "you board a bus or train",
+          "catch / take",
+          "I got the 8:15 train.→ I caught the 8:15 train."
+        ],
+        [
+          "2",
+          "make",
+          "you create something new",
+          "create / develop / design",
+          "They made a new app.→ They created a new app."
+        ],
+        [
+          "2",
+          "make",
+          "a company produces goods",
+          "produce / manufacture",
+          "The factory makes bikes.→ The factory produces bikes."
+        ],
+        [
+          "2",
+          "make",
+          "you cook or build",
+          "cook / prepare / build",
+          "I made dinner for everyone.→ I cooked dinner for everyone."
+        ],
+        [
+          "2",
+          "make",
+          "make + adjective = one verb",
+          "simplify / clarify / shorten",
+          "This app makes my life easier.→ This app simplifies my life."
+        ],
+        [
+          "2",
+          "make",
+          "make + noun = hidden verb",
+          "decide / suggest / compare / complain",
+          "We made a decision to move.→ We decided to move."
+        ],
+        [
+          "3",
+          "do",
+          "you finish a task",
+          "complete / finish",
+          "I did the report on Friday.→ I completed the report on Friday."
+        ],
+        [
+          "3",
+          "do",
+          "you carry out formal work",
+          "carry out / conduct",
+          "We did a survey.→ We carried out a survey."
+        ],
+        [
+          "3",
+          "do",
+          "you deal with a problem",
+          "take care of / handle",
+          "Don’t worry, I’ll do it.→ Don’t worry, I’ll take care of it."
+        ],
+        [
+          "3",
+          "do",
+          "you do sport",
+          "play / go / do",
+          "I do tennis on Saturdays.→ I play tennis on Saturdays."
+        ],
+        [
+          "3",
+          "do",
+          "exams, talks, meetings",
+          "take / give / hold",
+          "I did a presentation.→ I gave a presentation."
+        ],
+        [
+          "4",
+          "have",
+          "you own something",
+          "own / possess",
+          "My uncle has a small farm.→ My uncle owns a small farm."
+        ],
+        [
+          "4",
+          "have",
+          "something contains parts",
+          "contain / include",
+          "The report has three sections.→ The report contains three sections."
+        ],
+        [
+          "4",
+          "have",
+          "you live through an experience",
+          "go through / experience / face",
+          "We had a difficult year.→ We went through a difficult year."
+        ],
+        [
+          "4",
+          "have",
+          "have + noun = hidden verb",
+          "argue / rest / try",
+          "We had an argument about money.→ We argued about money."
+        ],
+        [
+          "4",
+          "have",
+          "you eat or drink",
+          "eat / drink",
+          "I had a sandwich.→ I ate a sandwich."
+        ],
+        [
+          "5",
+          "go",
+          "on foot",
+          "walk / stroll / hike",
+          "We went to the beach.→ We walked to the beach."
+        ],
+        [
+          "5",
+          "go",
+          "by transport",
+          "drive / fly / cycle / take",
+          "We went to Spain last summer.→ We flew to Spain last summer."
+        ],
+        [
+          "5",
+          "go",
+          "you attend an event",
+          "attend / visit",
+          "I went to the conference.→ I attended the conference."
+        ],
+        [
+          "5",
+          "go",
+          "you leave",
+          "leave / set off / depart",
+          "The bus goes at seven.→ The bus leaves at seven."
+        ],
+        [
+          "5",
+          "go",
+          "you move towards",
+          "head / make your way",
+          "She went to the exit.→ She headed for the exit."
+        ],
+        [
+          "5",
+          "go",
+          "things develop",
+          "turn out / work out",
+          "It went well in the end.→ It turned out well in the end."
+        ],
+        [
+          "6",
+          "say",
+          "you give information",
+          "inform / tell / mention",
+          "He said that the meeting was cancelled.→ He informed us that the meeting was cancelled."
+        ],
+        [
+          "6",
+          "say",
+          "you make it clear",
+          "explain / describe",
+          "She said how the machine works.→ She explained how the machine works."
+        ],
+        [
+          "6",
+          "say",
+          "you make it official",
+          "announce / state",
+          "The company said it will close two shops.→ The company announced that it will close two shops."
+        ],
+        [
+          "6",
+          "say",
+          "you say it, but without proof",
+          "claim",
+          "He says he never saw the email.→ He claims he never saw the email."
+        ],
+        [
+          "6",
+          "say",
+          "you give reasons for a view",
+          "argue / point out / suggest",
+          "She said we need more time.→ She argued that we need more time."
+        ],
+        [
+          "6",
+          "say",
+          "you say it is true / not true",
+          "admit / deny",
+          "He said he broke the window.→ He admitted breaking the window."
+        ],
+        [
+          "6",
+          "say",
+          "how it sounds",
+          "whisper / shout / mutter",
+          "She said quietly, “Be careful.”→ She whispered, “Be careful.”"
+        ],
+        [
+          "7",
+          "think",
+          "you have an opinion",
+          "believe / feel",
+          "I think this is a good idea.→ I believe this is a good idea."
+        ],
+        [
+          "7",
+          "think",
+          "you are guessing",
+          "suppose / guess / imagine",
+          "I think he’s at home.→ I suppose he’s at home."
+        ],
+        [
+          "7",
+          "think",
+          "you accept it without checking",
+          "assume",
+          "I thought you knew.→ I assumed you knew."
+        ],
+        [
+          "7",
+          "think",
+          "you have a bad feeling",
+          "suspect",
+          "I think he lied.→ I suspect he lied."
+        ],
+        [
+          "7",
+          "think",
+          "you are weighing options",
+          "consider / weigh up / reflect on",
+          "I’m thinking about the offer.→ I’m considering the offer."
+        ],
+        [
+          "7",
+          "think",
+          "you don’t have the answer",
+          "wonder",
+          "I’m thinking about what will happen next.→ I wonder what will happen next."
+        ],
+        [
+          "7",
+          "think",
+          "you reach a conclusion",
+          "conclude / realise",
+          "We thought we needed more time.→ We concluded that we needed more time."
+        ],
+        [
+          "8",
+          "look",
+          "a very quick look",
+          "glance at",
+          "She looked at her watch quickly.→ She glanced at her watch."
+        ],
+        [
+          "8",
+          "look",
+          "you follow something that moves",
+          "watch / observe",
+          "The scientists looked at the birds for a week.→ The scientists observed the birds for a week."
+        ],
+        [
+          "8",
+          "look",
+          "a long, fixed look",
+          "stare at / gaze at",
+          "He looked at me for ages.→ He stared at me."
+        ],
+        [
+          "8",
+          "look",
+          "a careful look to find out",
+          "examine / inspect / check",
+          "The doctor looked at my knee.→ The doctor examined my knee."
+        ],
+        [
+          "8",
+          "look",
+          "it seems to be",
+          "seem / appear",
+          "The results look good.→ The results seem promising."
+        ],
+        [
+          "8",
+          "look",
+          "you try to find something",
+          "search for / look up",
+          "I’m looking for my keys.→ I’m searching for my keys."
+        ],
+        [
+          "9",
+          "know",
+          "you understand it",
+          "understand / see",
+          "I know the problem.→ I understand the problem."
+        ],
+        [
+          "9",
+          "know",
+          "you suddenly see the truth",
+          "realise",
+          "Now I know I was wrong.→ Now I realise I was wrong."
+        ],
+        [
+          "9",
+          "know",
+          "you have seen it before",
+          "recognise",
+          "I know that face.→ I recognise that face."
+        ],
+        [
+          "9",
+          "know",
+          "you have heard of it",
+          "be familiar with / be aware of",
+          "Do you know this app?→ Are you familiar with this app?"
+        ],
+        [
+          "9",
+          "know",
+          "you have a skill",
+          "speak / can / be good at",
+          "I know French.→ I speak French."
+        ],
+        [
+          "9",
+          "know",
+          "the moment you learn it",
+          "find out / learn / discover",
+          "I knew the news yesterday.→ I found out the news yesterday."
+        ],
+        [
+          "10",
+          "give",
+          "you provide help or a service",
+          "provide / offer / supply",
+          "We give free Wi-Fi.→ We provide free Wi-Fi."
+        ],
+        [
+          "10",
+          "give",
+          "you pass something to a person",
+          "hand / pass / deliver",
+          "She gave me the keys.→ She handed me the keys."
+        ],
+        [
+          "10",
+          "give",
+          "an authority allows or rewards",
+          "grant / award / allow",
+          "They gave me permission to leave early.→ They granted me permission to leave early."
+        ],
+        [
+          "10",
+          "give",
+          "you give money or things",
+          "donate / lend",
+          "He gave a lot of money to the school.→ He donated a lot of money to the school."
+        ],
+        [
+          "10",
+          "give",
+          "you give advice",
+          "advise / recommend",
+          "My teacher gave me some advice.→ My teacher advised me to read more."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "paragraph",
       "html": "<div class=\"page-break-hint\" aria-hidden=\"true\"></div>",
       "text": "",
@@ -761,6 +1198,36 @@
       "title": "Learning French, Italian, Russian or Greek?",
       "content": "The plateau looks the same in every language, but each language has its own “safe” verbs (*faire, fare, делать, κάνω*…). Use **Read in** at the top of the page: each version is written for that language, not translated word for word.",
       "say": "The plateau looks the same in every language, but each language has its own “safe” verbs (faire, fare, делать, κάνω…). Use Read in at the top of the page: each version is written for that language, not translated word for word."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Richards, J. C. (2008).** *Moving Beyond the Plateau: From Intermediate to Advanced Levels in Language Learning.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Selinker, L. (1972).** Interlanguage. *International Review of Applied Linguistics, 10*(3), 209–231."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ]
 }

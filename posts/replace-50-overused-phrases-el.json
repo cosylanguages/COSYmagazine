@@ -177,6 +177,36 @@
     {
       "type": "pullquote",
       "quote": "**Μετά (B2):**\n*\"Κατά τη γνώμη μου, αυτή η πρόταση είναι εξαιρετική. Συμφωνώ απόλυτα, αν και εξαρτάται από την περίπτωση του budget.\"*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Για περαιτέρω ανάγνωση",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Οι ιδέες αυτού του άρθρου στηρίζονται σε δημοσιευμένη έρευνα και διδακτική πρακτική. Ξεκινήστε από εδώ:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Richards, J. C. (2008).** *Moving Beyond the Plateau: From Intermediate to Advanced Levels in Language Learning.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Selinker, L. (1972).** Interlanguage. *International Review of Applied Linguistics, 10*(3), 209–231."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "translationOf": "replace-50-overused-phrases",

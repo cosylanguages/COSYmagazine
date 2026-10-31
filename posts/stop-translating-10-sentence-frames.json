@@ -140,7 +140,11 @@
           "How do you say this in English?",
           "any word: ask for help"
         ]
-      ]
+      ],
+      "printable": true,
+      "listId": "frames",
+      "listTitle": "The full list",
+      "csvName": "stop-translating-10-sentence-frames"
     },
     {
       "type": "heading",
@@ -352,22 +356,32 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "📚 Academic Bibliography & SLA References"
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
     },
     {
       "type": "paragraph",
-      "text": "The pedagogical strategies in this issue on overcoming intermediate plateaus are grounded in second language acquisition (SLA) literature and corpus linguistics research:"
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
-        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
-        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
-        "**Ellis, R. (2008).** *The Study of Second Language Acquisition (2nd ed.).* Oxford University Press.",
-        "**Hinkel, E. (2002).** *Second Language Writers' Text: Linguistic and Rhetorical Features.* Lawrence Erlbaum Associates."
-      ]
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

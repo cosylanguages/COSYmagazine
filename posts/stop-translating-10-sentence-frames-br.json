@@ -53,6 +53,82 @@
       "text": "Displegañ e brezhoneg diouzhtu a ro ur gaoz flour. Ar 10 framm-mañ a sikouro ac'hanoc'h da zeskrivañ tud, lec'hioù ha traoù."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Un den eo hag a...",
+          "Un den eo hag a gelenn d'ar vugale.",
+          "Mestr-skol"
+        ],
+        [
+          "2",
+          "Ur lec'h eo e-lec'h ma...",
+          "Ur lec'h eo e-lec'h ma prener boued.",
+          "C'harc'h"
+        ],
+        [
+          "3",
+          "Un dra eo hag a...",
+          "Un dra eo hag a ziskouez an eur.",
+          "Alerg"
+        ],
+        [
+          "4",
+          "Un dra eo a vez implijet evit...",
+          "Un dra eo a vez implijet evit skrivañ.",
+          "Pluenn"
+        ],
+        [
+          "5",
+          "Ur mare eo e-lec'h ma...",
+          "Ur mare eo e-lec'h ma kousk an dud.",
+          "Noz"
+        ],
+        [
+          "6",
+          "Un deiz eo e-lec'h ma...",
+          "Un deiz eo e-lec'h ma lider.",
+          "Gouel"
+        ],
+        [
+          "7",
+          "Da skouer...",
+          "Plijout a ra ar sport din. Da skouer, ar mell-droad.",
+          ""
+        ],
+        [
+          "8",
+          "Talvezout a ra...",
+          "'Bras' a dalvez n'eo ket bihan.",
+          ""
+        ],
+        [
+          "9",
+          "Hñvel eo ouzh...",
+          "Hñvel eo ouzh ur urzhiataer bihan.",
+          ""
+        ],
+        [
+          "10",
+          "Penaos e laverer... e brezhoneg?",
+          "Penaos e laverer se e brezhoneg?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "💡 Ar 10 framm frazenn pennañ"
@@ -102,6 +178,30 @@
     {
       "type": "paragraph",
       "text": "Ar flourded n'eo ket gouzout pep ger, met chom hep tevel. Implijit ar frammoù-mañ!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

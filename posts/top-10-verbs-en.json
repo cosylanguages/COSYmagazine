@@ -72,6 +72,93 @@
       "text": "Meet <strong>be</strong>: <em>am, is, are</em>. It helps you say who someone is, how someone feels, where something is, what something is like, and what time or weather it is. English often needs <strong>be</strong> where another language may use a different structure. 💡 The trick is to learn the pattern with the meaning, not just the words."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-en",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "To be (am / is / are)",
+          "Identity, age, feelings, place",
+          "I am a student. / He is at home.",
+          "be on time, be quiet, be right"
+        ],
+        [
+          "2",
+          "To have (have / has)",
+          "Possession, family, states",
+          "I have a car. / She has a sister.",
+          "have breakfast, have a shower, have a good day"
+        ],
+        [
+          "3",
+          "To think",
+          "Opinions and thoughts",
+          "I think so. / What do you think?",
+          "think twice, think about, think of"
+        ],
+        [
+          "4",
+          "To know",
+          "Facts, people, skills",
+          "I know the answer. / I know how to drive.",
+          "let me know, as far as I know, you know"
+        ],
+        [
+          "5",
+          "To like",
+          "Preferences and taste",
+          "I like coffee. / Do you like sports?",
+          "like very much, would like, look like"
+        ],
+        [
+          "6",
+          "To want / would like",
+          "Wishes and polite requests",
+          "I want water. / I would like tea, please.",
+          "want to learn, would like to order, if you want"
+        ],
+        [
+          "7",
+          "To go / be going to",
+          "Movement and plans",
+          "I go to work. / We are going to eat.",
+          "go home, go shopping, go on foot"
+        ],
+        [
+          "8",
+          "Can (modal)",
+          "Ability and permission",
+          "I can speak English. / Can you help me?",
+          "can I have…, as fast as I can, can do"
+        ],
+        [
+          "9",
+          "To eat",
+          "Food and meals",
+          "I eat fruit. / Let’s eat out.",
+          "eat healthy, eat out, something to eat"
+        ],
+        [
+          "10",
+          "To drink",
+          "Drinks and hydration",
+          "I drink water. / He drinks coffee.",
+          "drink water, a hot drink, something to drink"
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "01 · The three shapes of BE 🧩"
@@ -926,6 +1013,36 @@
     {
       "type": "paragraph",
       "text": "📌 Test your skills on [COSYpractice](https://cosylanguages.github.io/COSYpractice/), read [Part 2](top-10-verbs-part-2-en.html) for the next 10 core verbs, and consult full verb conjugations on [COSYtools](https://cosylanguages.github.io/COSYtools/).</section>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Davies, M., & Gardner, D. (2010).** *A Frequency Dictionary of Contemporary American English.* Routledge.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ]
 }

@@ -345,6 +345,33 @@
       "destination": "practice",
       "url": "https://cosylanguages.github.io/COSYpractice/",
       "label": "Тренируйтесь с упражнениями COSY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Что почитать дальше",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Идеи этой статьи опираются на научные работы и опыт преподавания. С чего начать:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Corder, S. P. (1967).** The significance of learners' errors. *International Review of Applied Linguistics, 5*(4), 161–170.",
+        "**Hattie, J., & Timperley, H. (2007).** The power of feedback. *Review of Educational Research, 77*(1), 81–112.",
+        "**James, C. (1998).** *Errors in Language Learning and Use: Exploring Error Analysis.* Longman.",
+        "**Lyster, R., & Ranta, L. (1997).** Corrective feedback and learner uptake: Negotiation of form in communicative classrooms. *Studies in Second Language Acquisition, 19*(1), 37–66.",
+        "**Roediger, H. L., & Karpicke, J. D. (2006).** Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science, 17*(3), 249–255."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false,

@@ -20,7 +20,7 @@
     "A0-A1",
     "14Languages"
   ],
-  "readingTime": 10,
+  "readingTime": 13,
   "podcast": {
     "episode": 2,
     "audioUrl": null
@@ -45,21 +45,151 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Benvenuti alla Parte 1 della nostra guida in 2 parti sui verbi essenziali in italiano per studenti di livello A0–A1 e A2! Impara frasi utili ed espressioni pratiche per comunicare ogni giorno. (Vedi anche la [Parte 2](top-10-verbs-part-2-it.html)). Le tabelle di coniugazione complete sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "I 10 verbi principali (Parte 1)"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Essere (To Be)"
+      "text": "Dieci verbi bastano per dire quasi tutto ciò che serve il primo giorno di scuola: chi sei, che cosa hai, che cosa pensi, che cosa vuoi, dove vai. <mark class=\"hl-handwritten\">Sono anche tra i verbi più irregolari dell'italiano.</mark> Questa è la brutta notizia. La buona è che li sentirai cento volte al giorno: per questo si fissano nella memoria più in fretta di qualsiasi altra parola.",
+      "say": "Dieci verbi bastano per dire quasi tutto ciò che serve il primo giorno di scuola: chi sei, che cosa hai, che cosa pensi, che cosa vuoi, dove vai. Sono anche tra i verbi più irregolari dell'italiano. Questa è la brutta notizia. La buona è che li sentirai cento volte al giorno: per questo si fissano nella memoria più in fretta di qualsiasi altra parola."
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **essere** esprime identità, nazionalità, professione, stato d'animo e posizione."
+      "text": "Questo articolo si legge <span class=\"doodle-circle\">ad alta voce</span>. Per ogni verbo comincia dalla tabella e di' le sei forme senza guardare. Poi leggi le tre frasi della rubrica «Ad alta voce», coprile e ripetile a memoria, cambiando una parola per parlare della tua vita. Finisci con la scheda dell'errore: ti mostra la frase che dicono quasi tutti i principianti e quella da dire davvero. Prima parlare, poi capire la regola: è più veloce e più naturale.",
+      "say": "Questo articolo si legge ad alta voce. Per ogni verbo comincia dalla tabella e di' le sei forme senza guardare. Poi leggi le tre frasi della rubrica «Ad alta voce», coprile e ripetile a memoria, cambiando una parola per parlare della tua vita. Finisci con la scheda dell'errore: ti mostra la frase che dicono quasi tutti i principianti e quella da dire davvero. Prima parlare, poi capire la regola: è più veloce e più naturale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Benvenuti alla Parte 1 della nostra guida in 2 parti sui verbi essenziali in italiano, per i livelli A0–A1 e A2, nel nostro numero di inizio scuola. (Consulta anche la [Parte 2](top-10-verbs-part-2-it.html).) Le tabelle complete di coniugazione sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Benvenuti alla Parte 1 della nostra guida in 2 parti sui verbi essenziali in italiano, per i livelli A0–A1 e A2, nel nostro numero di inizio scuola. (Consulta anche la Parte 2.) Le tabelle complete di coniugazione sono consultabili su COSYtools."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Un verbo imparato dentro una frase vale dieci verbi imparati in una lista.",
+      "attribution": "COSYmagazine",
+      "say": "Un verbo imparato dentro una frase vale dieci verbi imparati in una lista."
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-it",
+      "listTitle": "L’elenco completo",
+      "headers": [
+        "#",
+        "Verbo",
+        "A cosa serve",
+        "Esempio",
+        "Espressioni utili"
+      ],
+      "rows": [
+        [
+          "1",
+          "Essere (To Be)",
+          "Il verbo essere esprime identità, nazionalità, professione, stato d'animo e posizione.",
+          "Lui è a casa.",
+          "'essere d'accordo', 'essere in orario'."
+        ],
+        [
+          "2",
+          "Avere (To Have)",
+          "Il verbo avere esprime possesso, età, relazioni familiari e sensazioni fisiche.",
+          "Lei ha due fratelli.",
+          "'avere bisogno di', 'avere voglia di', 'avere paura'."
+        ],
+        [
+          "3",
+          "Pensare (To Think)",
+          "Il verbo pensare serve per esprimere opinioni, riflessioni ed idee.",
+          "Pensa al suo futuro.",
+          "'pensare a', 'pensare di'."
+        ],
+        [
+          "4",
+          "Sapere / Conoscere (To Know)",
+          "Sapere si usa per fatti ed abilità (sapere + infinito). Conoscere per persone, luoghi e cose.",
+          "conosce",
+          "'fare sapere', 'sapere fare'."
+        ],
+        [
+          "5",
+          "Piacere / Amare (To Like / Love)",
+          "Il verbo piacere si usa in forma indiretta (mi piace). Amare per sentimenti intensi e passioni.",
+          "ama",
+          "'mi piacerebbe' (desiderio cortese)."
+        ],
+        [
+          "6",
+          "Volere / Vorrei (To Want / Would Like)",
+          "Il verbo volere esprime volontà. La forma vorrei esprime una richiesta con cortesia.",
+          "vorrebbe",
+          "'voler dire' (significare), 'se vuoi'."
+        ],
+        [
+          "7",
+          "Andare (To Go)",
+          "Il verbo andare indica movimento nello spazio verso una destinazione.",
+          "Lei va a Roma.",
+          "'andare a piedi', 'andare d'accordo'."
+        ],
+        [
+          "8",
+          "Potere (To Can / Be able to)",
+          "Il verbo modale potere esprime possibilità, capacità o richiesta di permesso.",
+          "Può entrare.",
+          "'non poterne più'."
+        ],
+        [
+          "9",
+          "Mangiare (To Eat)",
+          "Il verbo mangiare riguarda i pasti quotidiani, il cibo e le abitudini alimentari.",
+          "Mangia a mezzogiorno.",
+          "'Buon appetito!', 'mangiare fuori'."
+        ],
+        [
+          "10",
+          "Bere (To Drink)",
+          "Il verbo bere riguarda le bevande, l'idratazione e i momenti di convivialità.",
+          "Beve un tè verde.",
+          "'dare da bere', 'bere un bicchiere'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "La mappa della memoria: dieci verbi, cinque funzioni",
+      "say": "La mappa della memoria: dieci verbi, cinque funzioni"
+    },
+    {
+      "type": "paragraph",
+      "text": "Invece di studiare i dieci verbi uno dopo l'altro, mettili in ordine per funzione. Quando vuoi dire qualcosa, chiediti prima: <mark class=\"hl-handwritten\">parlo di me, della mia opinione, dei miei desideri, di uno spostamento o della vita di tutti i giorni?</mark> Il verbo arriva quasi da solo.",
+      "say": "Invece di studiare i dieci verbi uno dopo l'altro, mettili in ordine per funzione. Quando vuoi dire qualcosa, chiediti prima: parlo di me, della mia opinione, dei miei desideri, di uno spostamento o della vita di tutti i giorni? Il verbo arriva quasi da solo."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Chi sono, che cosa ho:** essere, avere. Identità, età, professione, sensazioni.",
+        "**Che cosa penso, che cosa so:** pensare, sapere, conoscere. Opinioni, capacità, persone e luoghi.",
+        "**Che cosa mi piace, che cosa voglio:** piacere, volere. Gusti, desideri, richieste cortesi.",
+        "**Muoversi e riuscire:** andare, potere. Spostamenti, programmi vicini, permesso.",
+        "**La vita di ogni giorno:** mangiare, bere. Pasti, bevande, inviti."
+      ],
+      "say": "Chi sono, che cosa ho: essere, avere. Identità, età, professione, sensazioni. Che cosa penso, che cosa so: pensare, sapere, conoscere. Opinioni, capacità, persone e luoghi. Che cosa mi piace, che cosa voglio: piacere, volere. Gusti, desideri, richieste cortesi. Muoversi e riuscire: andare, potere. Spostamenti, programmi vicini, permesso. La vita di ogni giorno: mangiare, bere. Pasti, bevande, inviti."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "I 10 verbi principali (Parte 1)",
+      "say": "I 10 verbi principali (Parte 1)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Essere (To Be)",
+      "say": "1. Essere (To Be)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Il verbo **essere** esprime identità, nazionalità, professione, stato d'animo e posizione.",
+      "say": "Il verbo essere esprime identità, nazionalità, professione, stato d'animo e posizione."
     },
     {
       "type": "table",
@@ -108,16 +238,69 @@
         "**Identità & Stato:** 'Sono Marco', 'Sono stanco'.",
         "**Luogo:** 'Siamo a Roma'.",
         "**Espressioni:** 'essere d'accordo', 'essere in orario'."
-      ]
+      ],
+      "say": "Identità & Stato: 'Sono Marco', 'Sono stanco'. Luogo: 'Siamo a Roma'. Espressioni: 'essere d'accordo', 'essere in orario'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Sono in ritardo, mi scusi!",
+      "gloss": "Dici che non sei puntuale; «mi scusi» è la forma di cortesia.",
+      "context": "Arrivi in classe dopo il professore.",
+      "say": "Sono in ritardo, mi scusi!"
+    },
+    {
+      "type": "example",
+      "targetText": "Oggi è lunedì: comincia la scuola.",
+      "gloss": "Per dire il giorno della settimana si usa è.",
+      "context": "Parli del calendario con un compagno.",
+      "say": "Oggi è lunedì: comincia la scuola."
+    },
+    {
+      "type": "example",
+      "targetText": "Lui è insegnante di matematica.",
+      "gloss": "Con le professioni non serve l'articolo: è insegnante.",
+      "context": "Presenti una persona alla tua famiglia.",
+      "say": "Lui è insegnante di matematica."
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "L'accordo con essere",
+      "wrong": "«Maria è stanco.»",
+      "right": "«Maria è stanca.»",
+      "why": "In molte lingue l'aggettivo non cambia. In italiano, dopo essere, si accorda con la persona di cui parli.",
+      "rule": "Dopo **essere**, l'aggettivo prende genere e numero del soggetto: stanco → stanca → stanchi → stanche.",
+      "examples": [
+        "Lui è alto. / Lei è alta.",
+        "Siamo stanchi.",
+        "Loro sono pronte."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "L'accordo con essere. Non proprio : «Maria è stanco.» Di' così : «Maria è stanca.» In molte lingue l'aggettivo non cambia. In italiano, dopo essere, si accorda con la persona di cui parli. Dopo essere, l'aggettivo prende genere e numero del soggetto: stanco → stanca → stanchi → stanche."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Avere (To Have)"
+      "text": "2. Avere (To Have)",
+      "say": "2. Avere (To Have)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **avere** esprime possesso, età, relazioni familiari e sensazioni fisiche."
+      "text": "Il verbo **avere** esprime possesso, età, relazioni familiari e sensazioni fisiche.",
+      "say": "Il verbo avere esprime possesso, età, relazioni familiari e sensazioni fisiche."
     },
     {
       "type": "table",
@@ -166,16 +349,69 @@
         "**Possesso & Età:** 'Ho un libro', 'Ho 25 anni'.",
         "**Sensazioni:** 'Ho fame', 'Ho sete', 'Ho caldo', 'Ho freddo'.",
         "**Espressioni:** 'avere bisogno di', 'avere voglia di', 'avere paura'."
-      ]
+      ],
+      "say": "Possesso & Età: 'Ho un libro', 'Ho 25 anni'. Sensazioni: 'Ho fame', 'Ho sete', 'Ho caldo', 'Ho freddo'. Espressioni: 'avere bisogno di', 'avere voglia di', 'avere paura'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Ho quindici anni e due sorelle.",
+      "gloss": "L'età si dice con avere: ho… anni.",
+      "context": "Ti presenti a un nuovo compagno.",
+      "say": "Ho quindici anni e due sorelle."
+    },
+    {
+      "type": "example",
+      "targetText": "Ho fame! A che ora si mangia?",
+      "gloss": "Avere fame: è una sensazione che «hai».",
+      "context": "È mezzogiorno, davanti alla mensa.",
+      "say": "Ho fame! A che ora si mangia?"
+    },
+    {
+      "type": "example",
+      "targetText": "Hai una penna da prestarmi?",
+      "gloss": "Chiedi un oggetto a qualcuno.",
+      "context": "Hai dimenticato l'astuccio a lezione.",
+      "say": "Hai una penna da prestarmi?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Età e sensazioni",
+      "wrong": "«Io sono fame.»",
+      "right": "«Ho fame.»",
+      "why": "Nella tua lingua si può dire «sono fame» o «sono 25 anni». L'italiano sceglie avere.",
+      "rule": "Età e sensazioni si dicono con **avere**: ho 25 anni, ho fame, ho sete, ho caldo, ho freddo, ho sonno, ho paura.",
+      "examples": [
+        "Ho sete.",
+        "Lei ha sedici anni.",
+        "Abbiamo freddo."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Età e sensazioni. Non proprio : «Io sono fame.» Di' così : «Ho fame.» Nella tua lingua si può dire «sono fame» o «sono 25 anni». L'italiano sceglie avere. Età e sensazioni si dicono con avere: ho 25 anni, ho fame, ho sete, ho caldo, ho freddo, ho sonno, ho paura."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Pensare (To Think)"
+      "text": "3. Pensare (To Think)",
+      "say": "3. Pensare (To Think)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **pensare** serve per esprimere opinioni, riflessioni ed idee."
+      "text": "Il verbo **pensare** serve per esprimere opinioni, riflessioni ed idee.",
+      "say": "Il verbo pensare serve per esprimere opinioni, riflessioni ed idee."
     },
     {
       "type": "table",
@@ -224,16 +460,81 @@
         "**Opinione:** 'Penso che sia un'ottima idea'.",
         "**Riflessione:** 'Penso alle mie vacanze'.",
         "**Espressioni:** 'pensare a', 'pensare di'."
-      ]
+      ],
+      "say": "Opinione: 'Penso che sia un'ottima idea'. Riflessione: 'Penso alle mie vacanze'. Espressioni: 'pensare a', 'pensare di'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Penso che sia una buona idea.",
+      "gloss": "Penso che + frase: dai la tua opinione. Dopo «penso che» si usa spesso «sia».",
+      "context": "Il professore ti chiede un parere.",
+      "say": "Penso che sia una buona idea."
+    },
+    {
+      "type": "example",
+      "targetText": "A cosa pensi?",
+      "gloss": "Pensare a: ciò che hai in mente.",
+      "context": "Un amico guarda fuori dalla finestra, assorto.",
+      "say": "A cosa pensi?"
+    },
+    {
+      "type": "example",
+      "targetText": "Che cosa ne pensi di questo libro?",
+      "gloss": "Pensare di / pensarne: chiedere l'opinione di qualcuno.",
+      "context": "Fai una domanda a un compagno.",
+      "say": "Che cosa ne pensi di questo libro?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Pensare a o pensare di",
+      "wrong": "«Penso di mio fratello ogni giorno.»",
+      "right": "«Penso a mio fratello ogni giorno.»",
+      "why": "Le due preposizioni si assomigliano e in molte lingue ne basta una sola.",
+      "rule": "**Pensare a** = avere qualcuno o qualcosa in mente. **Pensare di** = avere un'opinione, soprattutto nella domanda «Che cosa pensi di…?».",
+      "examples": [
+        "Penso a te.",
+        "Lei pensa al suo futuro.",
+        "Che cosa pensate di questa idea?"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Pensare a o pensare di. Non proprio : «Penso di mio fratello ogni giorno.» Di' così : «Penso a mio fratello ogni giorno.» Le due preposizioni si assomigliano e in molte lingue ne basta una sola. Pensare a = avere qualcuno o qualcosa in mente. Pensare di = avere un'opinione, soprattutto nella domanda «Che cosa pensi di…?»."
+    },
+    {
+      "type": "quiz",
+      "question": "Che cosa pensi ___ questo film?",
+      "options": [
+        "a",
+        "di",
+        "su"
+      ],
+      "correctIndex": 1,
+      "explanation": "Per chiedere un'opinione si usa pensare di: «Che cosa pensi di questo film?»",
+      "say": "Che cosa pensi ___ questo film?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Sapere / Conoscere (To Know)"
+      "text": "4. Sapere / Conoscere (To Know)",
+      "say": "4. Sapere / Conoscere (To Know)"
     },
     {
       "type": "paragraph",
-      "text": "**Sapere** si usa per fatti ed abilità (*sapere + infinito*). **Conoscere** per persone, luoghi e cose."
+      "text": "**Sapere** si usa per fatti ed abilità (*sapere + infinito*). **Conoscere** per persone, luoghi e cose.",
+      "say": "Sapere si usa per fatti ed abilità (sapere + infinito). Conoscere per persone, luoghi e cose."
     },
     {
       "type": "table",
@@ -282,16 +583,69 @@
         "**Sapere (Abilità):** 'So parlare italiano', 'So guidare'.",
         "**Conoscere (Luoghi/Persone):** 'Conosco questa città', 'Conosci Luca?'.",
         "**Espressioni:** 'fare sapere', 'sapere fare'."
-      ]
+      ],
+      "say": "Sapere (Abilità): 'So parlare italiano', 'So guidare'. Conoscere (Luoghi/Persone): 'Conosco questa città', 'Conosci Luca?'. Espressioni: 'fare sapere', 'sapere fare'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "So nuotare, ma non so tuffarmi.",
+      "gloss": "Sapere + infinito: una capacità che hai imparato.",
+      "context": "Parli della piscina della scuola.",
+      "say": "So nuotare, ma non so tuffarmi."
+    },
+    {
+      "type": "example",
+      "targetText": "Conosci un buon bar qui vicino?",
+      "gloss": "Conoscere: un luogo o una persona che hai già incontrato.",
+      "context": "Cerchi un posto tranquillo per studiare.",
+      "say": "Conosci un buon bar qui vicino?"
+    },
+    {
+      "type": "example",
+      "targetText": "Non so dov'è l'aula dodici.",
+      "gloss": "Sapere + parola interrogativa: cerchi un'informazione.",
+      "context": "È il tuo primo giorno al liceo.",
+      "say": "Non so dov'è l'aula dodici."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Sapere o conoscere",
+      "wrong": "«Conosco parlare italiano.»",
+      "right": "«So parlare italiano.»",
+      "why": "In molte lingue un solo verbo significa «sapere» e «conoscere». In italiano ne servono due.",
+      "rule": "**Sapere** + infinito o informazione (so nuotare, so dove abita). **Conoscere** + persona, luogo o cosa (conosco Luca, conosco Roma).",
+      "examples": [
+        "Conosco Luca.",
+        "So dove abita.",
+        "Conosciamo questa canzone."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Sapere o conoscere. Non proprio : «Conosco parlare italiano.» Di' così : «So parlare italiano.» In molte lingue un solo verbo significa «sapere» e «conoscere». In italiano ne servono due. Sapere + infinito o informazione (so nuotare, so dove abita). Conoscere + persona, luogo o cosa (conosco Luca, conosco Roma)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Piacere / Amare (To Like / Love)"
+      "text": "5. Piacere / Amare (To Like / Love)",
+      "say": "5. Piacere / Amare (To Like / Love)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **piacere** si usa in forma indiretta (*mi piace*). **Amare** per sentimenti intensi e passioni."
+      "text": "Il verbo **piacere** si usa in forma indiretta (*mi piace*). **Amare** per sentimenti intensi e passioni.",
+      "say": "Il verbo piacere si usa in forma indiretta (mi piace). Amare per sentimenti intensi e passioni."
     },
     {
       "type": "table",
@@ -340,16 +694,69 @@
         "**Piacere:** 'Mi piace il caffè', 'Mi piacciono i viaggi'.",
         "**Amare:** 'Amo la musica', 'Amo la mia famiglia'.",
         "**Espressioni:** 'mi piacerebbe' (desiderio cortese)."
-      ]
+      ],
+      "say": "Piacere: 'Mi piace il caffè', 'Mi piacciono i viaggi'. Amare: 'Amo la musica', 'Amo la mia famiglia'. Espressioni: 'mi piacerebbe' (desiderio cortese)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Mi piace molto la cioccolata calda.",
+      "gloss": "Mi piace + singolare: dici il tuo gusto.",
+      "context": "Ordini una bevanda alla caffetteria.",
+      "say": "Mi piace molto la cioccolata calda."
+    },
+    {
+      "type": "example",
+      "targetText": "Ti piacciono i videogiochi?",
+      "gloss": "Piacciono, perché «i videogiochi» è plurale.",
+      "context": "Fai una domanda a un compagno.",
+      "say": "Ti piacciono i videogiochi?"
+    },
+    {
+      "type": "example",
+      "targetText": "A Marta piace leggere prima di dormire.",
+      "gloss": "Piacere + infinito: si usa sempre piace.",
+      "context": "Parli delle abitudini di una persona.",
+      "say": "A Marta piace leggere prima di dormire."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Il verbo piacere",
+      "wrong": "«Io piace il caffè.»",
+      "right": "«Mi piace il caffè.»",
+      "why": "Piacere funziona al contrario rispetto a «to like»: la cosa che piace è il soggetto, la persona è un complemento.",
+      "rule": "Con **piacere** usa **mi, ti, gli, le, ci, vi, gli** e accorda il verbo con ciò che piace: mi **piace** il caffè, mi **piacciono** i libri.",
+      "examples": [
+        "Mi piace la musica.",
+        "Ti piacciono i gatti?",
+        "Ci piace questo quartiere."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Il verbo piacere. Non proprio : «Io piace il caffè.» Di' così : «Mi piace il caffè.» Piacere funziona al contrario rispetto a «to like»: la cosa che piace è il soggetto, la persona è un complemento. Con piacere usa mi, ti, gli, le, ci, vi, gli e accorda il verbo con ciò che piace: mi piace il caffè, mi piacciono i libri."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Volere / Vorrei (To Want / Would Like)"
+      "text": "6. Volere / Vorrei (To Want / Would Like)",
+      "say": "6. Volere / Vorrei (To Want / Would Like)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **volere** esprime volontà. La forma **vorrei** esprime una richiesta con cortesia."
+      "text": "Il verbo **volere** esprime volontà. La forma **vorrei** esprime una richiesta con cortesia.",
+      "say": "Il verbo volere esprime volontà. La forma vorrei esprime una richiesta con cortesia."
     },
     {
       "type": "table",
@@ -398,16 +805,87 @@
         "**Volontà:** 'Voglio imparare l'italiano'.",
         "**Richiesta cortese:** 'Vorrei un caffè, per favore'.",
         "**Espressioni:** 'voler dire' (significare), 'se vuoi'."
-      ]
+      ],
+      "say": "Volontà: 'Voglio imparare l'italiano'. Richiesta cortese: 'Vorrei un caffè, per favore'. Espressioni: 'voler dire' (significare), 'se vuoi'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Vorrei un'informazione, per favore.",
+      "gloss": "Vorrei: una richiesta cortese.",
+      "context": "Ti rivolgi alla segreteria della scuola.",
+      "say": "Vorrei un'informazione, per favore."
+    },
+    {
+      "type": "example",
+      "targetText": "Vuoi giocare con noi?",
+      "gloss": "Vuoi: una proposta amichevole tra ragazzi.",
+      "context": "Sei in cortile durante l'intervallo.",
+      "say": "Vuoi giocare con noi?"
+    },
+    {
+      "type": "example",
+      "targetText": "Che cosa vuol dire «astuccio»?",
+      "gloss": "Voler dire: significare.",
+      "context": "Chiedi il significato di una parola.",
+      "say": "Che cosa vuol dire «astuccio»?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Voglio o vorrei",
+      "wrong": "«Voglio un caffè.»",
+      "right": "«Vorrei un caffè, per favore.»",
+      "why": "La frase non è sbagliata, ma suona come un ordine. Molti studenti traducono «I want» parola per parola.",
+      "rule": "Per chiedere con cortesia usa **vorrei** e aggiungi **per favore**. Lascia **voglio** agli amici e ai desideri forti.",
+      "examples": [
+        "Vorrei dell'acqua, per favore.",
+        "Vorremmo un tavolo per due.",
+        "Voglio proprio questo libro!"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Voglio o vorrei. Non proprio : «Voglio un caffè.» Di' così : «Vorrei un caffè, per favore.» La frase non è sbagliata, ma suona come un ordine. Molti studenti traducono «I want» parola per parola. Per chiedere con cortesia usa vorrei e aggiungi per favore. Lascia voglio agli amici e ai desideri forti."
+    },
+    {
+      "type": "quiz",
+      "question": "Al bar, per chiedere con cortesia, dici:",
+      "options": [
+        "Voglio un caffè.",
+        "Vorrei un caffè, per favore.",
+        "Dammi un caffè."
+      ],
+      "correctIndex": 1,
+      "explanation": "«Vorrei… per favore» è la formula cortese e naturale per ordinare.",
+      "say": "Al bar, per chiedere con cortesia, dici:"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Tu o Lei? Una piccola scelta che conta",
+      "content": "In italiano si dà del «tu» agli amici, ai familiari, ai bambini e, di solito, ai coetanei. Si dà del «Lei» a una persona che non si conosce, a un adulto in un contesto formale, ai professori e alle persone anziane: «Come sta?», «Mi scusi», «Può ripetere?». Il «Lei» si usa sia per un uomo sia per una donna e il verbo va alla terza persona singolare. Al plurale si dice «voi». Si passa al «tu» con una proposta: «Possiamo darci del tu?». Di solito la fa la persona più grande o con più autorità, e puoi accettare. Nel dubbio scegli il «Lei»: è più facile essere perdonati per un eccesso di cortesia che per la poca cortesia. Gli usi cambiano secondo le regioni e gli ambienti, e in alcune zone del Sud si usa anche il «voi» di rispetto per una sola persona.",
+      "say": "Tu o Lei? Una piccola scelta che conta. In italiano si dà del «tu» agli amici, ai familiari, ai bambini e, di solito, ai coetanei. Si dà del «Lei» a una persona che non si conosce, a un adulto in un contesto formale, ai professori e alle persone anziane: «Come sta?», «Mi scusi», «Può ripetere?». Il «Lei» si usa sia per un uomo sia per una donna e il verbo va alla terza persona singolare. Al plurale si dice «voi». Si passa al «tu» con una proposta: «Possiamo darci del tu?». Di solito la fa la persona più grande o con più autorità, e puoi accettare. Nel dubbio scegli il «Lei»: è più facile essere perdonati per un eccesso di cortesia che per la poca cortesia. Gli usi cambiano secondo le regioni e gli ambienti, e in alcune zone del Sud si usa anche il «voi» di rispetto per una sola persona."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Andare (To Go)"
+      "text": "7. Andare (To Go)",
+      "say": "7. Andare (To Go)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **andare** indica movimento nello spazio verso una destinazione."
+      "text": "Il verbo **andare** indica movimento nello spazio verso una destinazione.",
+      "say": "Il verbo andare indica movimento nello spazio verso una destinazione."
     },
     {
       "type": "table",
@@ -456,16 +934,69 @@
         "**Movimento:** 'Vado a casa', 'Andiamo in Italia'.",
         "**Stato:** 'Come va?'.",
         "**Espressioni:** 'andare a piedi', 'andare d'accordo'."
-      ]
+      ],
+      "say": "Movimento: 'Vado a casa', 'Andiamo in Italia'. Stato: 'Come va?'. Espressioni: 'andare a piedi', 'andare d'accordo'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Vado a scuola a piedi.",
+      "gloss": "Andare + a + luogo: ti sposti.",
+      "context": "Racconti la tua mattina.",
+      "say": "Vado a scuola a piedi."
+    },
+    {
+      "type": "example",
+      "targetText": "Stasera vado al cinema con Anna.",
+      "gloss": "In italiano il presente può dire anche un piano vicino nel futuro.",
+      "context": "Parli dei tuoi programmi.",
+      "say": "Stasera vado al cinema con Anna."
+    },
+    {
+      "type": "example",
+      "targetText": "Come va? – Bene, grazie, e tu?",
+      "gloss": "Andare serve anche per chiedere e dare notizie.",
+      "context": "Saluti un compagno la mattina.",
+      "say": "Come va? – Bene, grazie, e tu?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Andare e le preposizioni",
+      "wrong": "«Vado in Roma.»",
+      "right": "«Vado a Roma.»",
+      "why": "Si impara «andare in» per primo e lo si usa dappertutto. Ma la preposizione cambia secondo il luogo.",
+      "rule": "**A** + città (a Roma, a Milano), **in** + paese o regione (in Italia, in Francia, in Sicilia).",
+      "examples": [
+        "Vado a Napoli.",
+        "Lei va in Spagna.",
+        "Andiamo in Germania."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Andare e le preposizioni. Non proprio : «Vado in Roma.» Di' così : «Vado a Roma.» Si impara «andare in» per primo e lo si usa dappertutto. Ma la preposizione cambia secondo il luogo. A + città (a Roma, a Milano), in + paese o regione (in Italia, in Francia, in Sicilia)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Potere (To Can / Be able to)"
+      "text": "8. Potere (To Can / Be able to)",
+      "say": "8. Potere (To Can / Be able to)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo modale **potere** esprime possibilità, capacità o richiesta di permesso."
+      "text": "Il verbo modale **potere** esprime possibilità, capacità o richiesta di permesso.",
+      "say": "Il verbo modale potere esprime possibilità, capacità o richiesta di permesso."
     },
     {
       "type": "table",
@@ -514,16 +1045,69 @@
         "**Possibilità & Permesso:** 'Posso entrare?', 'Puoi farlo'.",
         "**Cortesia:** 'Potrebbe parlare più lentamente?'.",
         "**Espressioni:** 'non poterne più'."
-      ]
+      ],
+      "say": "Possibilità & Permesso: 'Posso entrare?', 'Puoi farlo'. Cortesia: 'Potrebbe parlare più lentamente?'. Espressioni: 'non poterne più'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Posso entrare?",
+      "gloss": "Chiedi il permesso.",
+      "context": "Arrivi in ritardo alla porta della classe.",
+      "say": "Posso entrare?"
+    },
+    {
+      "type": "example",
+      "targetText": "Può ripetere, per favore?",
+      "gloss": "Può è la forma di cortesia con Lei.",
+      "context": "Parli con il professore.",
+      "say": "Può ripetere, per favore?"
+    },
+    {
+      "type": "example",
+      "targetText": "Stasera non posso venire: domani ho un esame.",
+      "gloss": "Non posso: qualcosa te lo impedisce.",
+      "context": "Rifiuti un invito.",
+      "say": "Stasera non posso venire: domani ho un esame."
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Potere + pronome",
+      "wrong": "«Posso aiutare te?»",
+      "right": "«Posso aiutarti?»",
+      "why": "In inglese il complemento viene dopo il verbo. In italiano il pronome si attacca alla fine dell'infinito.",
+      "rule": "Dopo **potere** va l'infinito, senza preposizione. Il pronome si unisce all'infinito (che perde la -e): aiutare + ti = **aiutarti**; oppure va davanti a potere: **ti** posso aiutare.",
+      "examples": [
+        "Posso chiamarti?",
+        "Ti posso chiamare?",
+        "Non posso farlo."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Potere + pronome. Non proprio : «Posso aiutare te?» Di' così : «Posso aiutarti?» In inglese il complemento viene dopo il verbo. In italiano il pronome si attacca alla fine dell'infinito. Dopo potere va l'infinito, senza preposizione. Il pronome si unisce all'infinito (che perde la -e): aiutare + ti = aiutarti; oppure va davanti a potere: ti posso aiutare."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Mangiare (To Eat)"
+      "text": "9. Mangiare (To Eat)",
+      "say": "9. Mangiare (To Eat)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **mangiare** riguarda i pasti quotidiani, il cibo e le abitudini alimentari."
+      "text": "Il verbo **mangiare** riguarda i pasti quotidiani, il cibo e le abitudini alimentari.",
+      "say": "Il verbo mangiare riguarda i pasti quotidiani, il cibo e le abitudini alimentari."
     },
     {
       "type": "table",
@@ -571,16 +1155,81 @@
       "items": [
         "**Pasti:** 'Mangio la pizza', 'Andiamo a mangiare'.",
         "**Espressioni:** 'Buon appetito!', 'mangiare fuori'."
-      ]
+      ],
+      "say": "Pasti: 'Mangio la pizza', 'Andiamo a mangiare'. Espressioni: 'Buon appetito!', 'mangiare fuori'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Che cosa mangi a pranzo?",
+      "gloss": "Una domanda semplice sul pasto.",
+      "context": "Parli in cortile con un amico.",
+      "say": "Che cosa mangi a pranzo?"
+    },
+    {
+      "type": "example",
+      "targetText": "Il martedì mangiamo in mensa.",
+      "gloss": "Con noi: mangiamo, con una sola i.",
+      "context": "Descrivi la tua settimana.",
+      "say": "Il martedì mangiamo in mensa."
+    },
+    {
+      "type": "example",
+      "targetText": "Buon appetito! – Grazie, altrettanto.",
+      "gloss": "Una formula prima di cominciare a mangiare.",
+      "context": "Sei a tavola con dei compagni.",
+      "say": "Buon appetito! – Grazie, altrettanto."
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Mangiare: una i sola",
+      "wrong": "«Tu mangii troppo in fretta.»",
+      "right": "«Tu mangi troppo in fretta.»",
+      "why": "Nell'infinito c'è una i (mangiare). Molti la tengono anche davanti alla desinenza -i, ma la i della radice si perde.",
+      "rule": "Nei verbi in **-giare** (mangiare, viaggiare) la i della radice non si scrive prima di -i e -iamo: tu **mangi**, noi **mangiamo**.",
+      "examples": [
+        "Tu viaggi spesso.",
+        "Noi mangiamo alle una.",
+        "Voi mangiate qui?"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Mangiare: una i sola. Non proprio : «Tu mangii troppo in fretta.» Di' così : «Tu mangi troppo in fretta.» Nell'infinito c'è una i (mangiare). Molti la tengono anche davanti alla desinenza -i, ma la i della radice si perde. Nei verbi in -giare (mangiare, viaggiare) la i della radice non si scrive prima di -i e -iamo: tu mangi, noi mangiamo."
+    },
+    {
+      "type": "quiz",
+      "question": "Tu ___ la pizza il sabato?",
+      "options": [
+        "mangii",
+        "mangi",
+        "mangie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nei verbi in -giare la i non si raddoppia: tu mangi.",
+      "say": "Tu ___ la pizza il sabato?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Bere (To Drink)"
+      "text": "10. Bere (To Drink)",
+      "say": "10. Bere (To Drink)"
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **bere** riguarda le bevande, l'idratazione e i momenti di convivialità."
+      "text": "Il verbo **bere** riguarda le bevande, l'idratazione e i momenti di convivialità.",
+      "say": "Il verbo bere riguarda le bevande, l'idratazione e i momenti di convivialità."
     },
     {
       "type": "table",
@@ -629,87 +1278,138 @@
         "**Bevande:** 'Bevo un caffè la mattina'.",
         "**Convivialità:** 'Vuoi bere qualcosa?'.",
         "**Espressioni:** 'dare da bere', 'bere un bicchiere'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tabella comparativa dei verbi"
-    },
-    {
-      "type": "paragraph",
-      "text": "Confronto dei verbi essenziali nelle famiglie linguistiche:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
       ],
-      "rows": [
-        [
-          "Be / Exist",
-          "être / essere / ser, estar / ser, estar",
-          "be / sein",
-          "быть / είναι / bezañ / լինել",
-          "булу / булыу / пуласси",
-          "ყოფნა (qopna)"
-        ],
-        [
-          "Have / Possess",
-          "avoir / avere / tener / ter",
-          "have / haben",
-          "иметь (у меня есть) / έχω / kaout / ունենալ",
-          "бар (минем бар) / бар / пур",
-          "ქոնա / ყოლა"
-        ],
-        [
-          "Do / Make",
-          "faire / fare / hacer / fazer",
-          "do, make / machen, tun",
-          "делать / κάνω / ober / անել",
-          "эшләү / эшләү / тăвасси",
-          "կետება (keteba)"
-        ],
-        [
-          "Go",
-          "aller / andare / ir / ir",
-          "go / gehen",
-          "идти, ехать / πηγαίνω / mont / գնալ",
-          "бару / барыу / кайни",
-          "წასვლა (tsasvla)"
-        ],
-        [
-          "See / Look",
-          "voir, regarder / vedere, guardare",
-          "see, look / sehen, schauen",
-          "видеть, смотреть / βλέπω / gwelout / տեսնել",
-          "күрү, карау / күреү, ҡарау / курасси",
-          "ნახვა, ყურება"
-        ]
-      ]
+      "say": "Bevande: 'Bevo un caffè la mattina'. Convivialità: 'Vuoi bere qualcosa?'. Espressioni: 'dare da bere', 'bere un bicchiere'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Bevo un bicchiere d'acqua prima della lezione.",
+      "gloss": "Bere + un bicchiere d'acqua: una bevanda.",
+      "context": "Descrivi la tua mattina.",
+      "say": "Bevo un bicchiere d'acqua prima della lezione."
+    },
+    {
+      "type": "example",
+      "targetText": "Vuoi bere qualcosa? – Un tè, grazie.",
+      "gloss": "Volere + bere: un'offerta amichevole.",
+      "context": "Un amico ti accoglie a casa.",
+      "say": "Vuoi bere qualcosa? – Un tè, grazie."
+    },
+    {
+      "type": "example",
+      "targetText": "Beviamo un caffè dopo la scuola?",
+      "gloss": "Beviamo: noi, anche per fare un invito.",
+      "context": "Inviti un compagno.",
+      "say": "Beviamo un caffè dopo la scuola?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Il participio di bere",
+      "wrong": "«Ieri ho bevato troppo caffè.»",
+      "right": "«Ieri ho bevuto troppo caffè.»",
+      "why": "Bere è irregolare e molti studenti regolarizzano il participio come per i verbi in -are.",
+      "rule": "Il passato prossimo di **bere** è **ho bevuto**. Il verbo è irregolare anche al presente: bevo, bevi, beve, beviamo, bevete, bevono.",
+      "examples": [
+        "Ho bevuto un tè.",
+        "Hai bevuto abbastanza acqua?",
+        "Abbiamo bevuto un caffè insieme."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Il participio di bere. Non proprio : «Ieri ho bevato troppo caffè.» Di' così : «Ieri ho bevuto troppo caffè.» Bere è irregolare e molti studenti regolarizzano il participio come per i verbi in -are. Il passato prossimo di bere è ho bevuto. Il verbo è irregolare anche al presente: bevo, bevi, beve, beviamo, bevete, bevono."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Strutture grammaticali per principianti (A0–A1 / A2)"
+      "text": "Strutture grammaticali per principianti (A0–A1 / A2)",
+      "say": "Strutture grammaticali per principianti (A0–A1 / A2)"
     },
     {
-      "type": "paragraph",
-      "text": "• **Frasi semplici:** Soggetto + Verbo + Oggetto.\n• **Modali e tempo futuro:** Uso di 'andare', 'stare per' e 'potere/dovere'.\n• **Coniugazioni verbali:** Consulta le tabelle dei tempi verbali su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Frasi semplici:** Soggetto + Verbo + Oggetto.",
+        "**Modali e tempo futuro:** Uso di «andare», «stare per» e «potere / dovere».",
+        "**Coniugazioni:** Tutti i tempi e le forme sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ],
+      "say": "Frasi semplici: Soggetto + Verbo + Oggetto. Modali e tempo futuro: Uso di «andare», «stare per» e «potere / dovere». Coniugazioni: Tutti i tempi e le forme sono consultabili su COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratica e coniugazione"
+      "text": "La tua routine orale di 5 minuti",
+      "say": "La tua routine orale di 5 minuti"
     },
     {
       "type": "paragraph",
-      "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Cinque minuti al giorno, ad alta voce, valgono più di un'ora di lettura silenziosa la domenica. Ecco un piano semplice da ripetere per una settimana: <mark class=\"hl-handwritten\">un minuto per passo, non di più</mark>.",
+      "say": "Cinque minuti al giorno, ad alta voce, valgono più di un'ora di lettura silenziosa la domenica. Ecco un piano semplice da ripetere per una settimana: un minuto per passo, non di più."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minuto 1, riscaldamento:** di' ad alta voce le sei forme di essere e poi di avere, senza guardare le tabelle.",
+        "**Minuto 2, tre verbi, tre frasi:** scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: «Ho…», «Voglio…», «Vado…».",
+        "**Minuto 3, caccia all'errore:** rileggi una scheda «Non proprio» e di' tre volte la frase giusta, cambiando ogni volta il soggetto.",
+        "**Minuto 4, mini-dialogo al bar:** recita tutte e due le parti con «Vorrei…», «Avete…?», «Posso…?» e registrati con il telefono.",
+        "**Minuto 5, riascolto:** ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglio vicino alla scrivania."
+      ],
+      "say": "Minuto 1, riscaldamento: di' ad alta voce le sei forme di essere e poi di avere, senza guardare le tabelle. Minuto 2, tre verbi, tre frasi: scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: «Ho…», «Voglio…», «Vado…». Minuto 3, caccia all'errore: rileggi una scheda «Non proprio» e di' tre volte la frase giusta, cambiando ogni volta il soggetto. Minuto 4, mini-dialogo al bar: recita tutte e due le parti con «Vorrei…», «Avete…?», «Posso…?» e registrati con il telefono. Minuto 5, riascolto: ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglio vicino alla scrivania."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pratica e coniugazione",
+      "say": "Pratica e coniugazione"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "📌 Esercitati su COSYpractice, leggi la Parte 1 e la Parte 2, e consulta le coniugazioni dei verbi su COSYtools."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Per approfondire",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le idee di questo articolo si basano su ricerche pubblicate e sulla pratica didattica. Per cominciare:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

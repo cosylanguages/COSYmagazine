@@ -1388,7 +1388,7 @@
     "category": "Grammar",
     "summary": "Du Passé Composé au Subjonctif : maîtrisez la ligne du temps, les aspects et les modes de la langue française avec clarté et logique.",
     "author": "JY DM",
-    "reading_time": 12,
+    "reading_time": 9,
     "cover_image": "",
     "tags": [
       "Grammar",
@@ -3402,7 +3402,7 @@
     "category": "Front Page",
     "summary": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
     "author": "JY DM",
-    "reading_time": 1,
+    "reading_time": 3,
     "cover_image": "",
     "tags": [
       "Welcome",
@@ -3476,6 +3476,49 @@
       "layout": "standard-feed",
       "motif": "riso-print",
       "seed": "overcoming-intermediate-plateau",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "building-cosy-master-curriculum",
+    "title": "How We Built the COSY Master Curriculum Across 14 Languages",
+    "date": "2026-03-01",
+    "updated": null,
+    "category": "Front Page",
+    "summary": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Curriculum",
+      "CELTA",
+      "14Languages",
+      "CEFR"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "building-cosy-master-curriculum.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "cefr_level": "A0–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#2d3748",
+        "#319795",
+        "#d69e2e",
+        "#f7fafc"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "riso-print",
+      "seed": "building-cosy-master-curriculum",
       "coverOverride": null
     }
   },
@@ -3788,7 +3831,7 @@
     "category": "Words",
     "summary": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, aller/futur proche, pouvoir, manger, boire). Conjugaisons consultables sur COSYtools.",
     "author": "JY DM",
-    "reading_time": 10,
+    "reading_time": 16,
     "cover_image": "",
     "tags": [
       "Verbs",
@@ -3874,7 +3917,7 @@
     "category": "Words",
     "summary": "Impara i primi 10 verbi fondamentali della lingua italiana (essere, avere, pensare, sapere/conoscere, piacere, volere/vorrei, andare/stare per, potere, mangiare, bere). Coniugazioni consultabili su COSYtools.",
     "author": "JY DM",
-    "reading_time": 10,
+    "reading_time": 13,
     "cover_image": "",
     "tags": [
       "Verbs",
@@ -4003,7 +4046,7 @@
     "category": "Words",
     "summary": "Освойте первые 10 базовых глаголов русского языка (быть, иметь/у меня есть, думать, знать, нравиться, хотеть/хотел бы, идти/ехать, мочь, есть, пить). Таблицы спряжения доступны на COSYtools.",
     "author": "JY DM",
-    "reading_time": 10,
+    "reading_time": 12,
     "cover_image": "",
     "tags": [
       "Verbs",
@@ -4121,6 +4164,48 @@
       "layout": "standard-feed",
       "motif": "riso-print",
       "seed": "top-10-verbs",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "why-speaking-first",
+    "title": "Why Speaking-First is the Only Way to True Fluency",
+    "date": "2026-01-15",
+    "updated": null,
+    "category": "Front Page",
+    "summary": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Philosophy",
+      "Speaking",
+      "Methodology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "why-speaking-first.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "cefr_level": "A0–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#742a2a",
+        "#e53e3e",
+        "#d69e2e",
+        "#fff5f5"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "gingham-knit",
+      "seed": "why-speaking-first",
       "coverOverride": null
     }
   }

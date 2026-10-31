@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-el",
+      "listTitle": "Ολόκληρη η λίστα",
+      "headers": [
+        "#",
+        "Ρήμα",
+        "Τι εκφράζει",
+        "Παράδειγμα",
+        "Χρήσιμες εκφράσεις"
+      ],
+      "rows": [
+        [
+          "1",
+          "Κάνω / Φτιάχνω",
+          "Δραστηριότητες.",
+          "'Κάνω μαθήματα', 'Φτιάχνω καφέ'.",
+          "'κάνω γυμναστική', 'κάνω λάθος'."
+        ],
+        [
+          "2",
+          "Μιλώ / Λέω",
+          "Επικοινωνία.",
+          "'Μιλώ ελληνικά', 'Λέω την αλήθεια'.",
+          "'μιλώ για', 'λέω γεια'."
+        ],
+        [
+          "3",
+          "Κοιτάζω / Βλέπω",
+          "Όραση.",
+          "'Κοιτάζω την ταινία', 'Βλέπω ένα πουλί'.",
+          "'για να δούμε', 'θα δούμε'."
+        ],
+        [
+          "4",
+          "Ακούω",
+          "Ακοή.",
+          "'Ακούω μουσική', 'Ακούω έναν θόρυβο'.",
+          "'άκουσε με', 'χαίρομαι που το ακούω'."
+        ],
+        [
+          "5",
+          "Πρέπει",
+          "Υποχρέωση.",
+          "'Πρέπει να διαβάσω', 'Πρέπει να φύγουμε'.",
+          "'όπως πρέπει', 'πρέπει να'."
+        ],
+        [
+          "6",
+          "Παίρνω / Δίνω",
+          "Ανταλλαγή.",
+          "'Παίρνω το λεωφορείο', 'Δίνω ένα δώρο'.",
+          "'παίρνω χρόνο', 'δίνω το χέρι'."
+        ],
+        [
+          "7",
+          "Μένω / Ζω",
+          "Κατοικία.",
+          "'Μένω στην Αθήνα', 'Ζω καλά'.",
+          "'ζω στο εξωτερικό', 'μένουμε μαζί'."
+        ],
+        [
+          "8",
+          "Περιμένω",
+          "Αναμονή.",
+          "'Περιμένω το λεωφορείο', 'Περίμενε ένα λεπτό'.",
+          "'περιμένω στη σειρά', 'ανυπομονώ'."
+        ],
+        [
+          "9",
+          "Καταλαβαίνω",
+          "Κατανόηση.",
+          "'Καταλαβαίνω το μάθημα', 'Καταλαβαίνεις;'.",
+          "'καταλαβαίνω απόλυτα'."
+        ],
+        [
+          "10",
+          "Ρωτώ / Απαντώ",
+          "Ερωτήσεις.",
+          "'Κάνω μια ερώτηση', 'Απαντώ στο τηλέφωνο'.",
+          "'ζητώ βοήθεια', 'απαντώ αμέσως'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Συγκριτικός Πίνακας Ρημάτων"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Κάντε ασκήσεις στο [COSYpractice](https://cosylanguages.github.io/COSYpractice/), διαβάστε το [Μέρος 1](top-10-verbs-el.html) και το [Μέρος 2](top-10-verbs-part-2-el.html), και συμβουλευτείτε την κλίση των ρημάτων στο [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Για περαιτέρω ανάγνωση",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Οι ιδέες αυτού του άρθρου στηρίζονται σε δημοσιευμένη έρευνα και διδακτική πρακτική. Ξεκινήστε από εδώ:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

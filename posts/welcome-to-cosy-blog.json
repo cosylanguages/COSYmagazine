@@ -18,7 +18,7 @@
     "EcosystemUpdate",
     "LanguageLearning"
   ],
-  "readingTime": 1,
+  "readingTime": 3,
   "podcast": {
     "episode": 1,
     "audioUrl": "audio/welcome-to-cosy-blog-page-1.mp3"
@@ -43,29 +43,130 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Welcome to the official COSY Editorial & Learning Corner!"
+      "text": "Welcome to **COSYmagazine**, the editorial corner of COSY Languages, a free site for learning 14 languages. Think of it as the notebook that sits next to the lessons: a place for ideas, stories, grammar curiosities and gentle advice for anyone learning a language. I'm JY DM, the founder of COSY, and I'm glad you are here.",
+      "say": "Welcome to COSYmagazine, the editorial corner of COSY Languages, a free site for learning 14 languages. Think of it as the notebook that sits next to the lessons: a place for ideas, stories, grammar curiosities and gentle advice for anyone learning a language. I'm JY DM, the founder of COSY, and I'm glad you are here."
     },
     {
       "type": "paragraph",
-      "text": "Here at COSYlanguages, we believe in **speaking-first, immersion-based pedagogy**. Language learning is not about memorizing abstract tables in isolation; it is about connecting with real people and communicating authentically from day one."
+      "text": "Everything on COSY is built around one belief: <mark class=\"hl-handwritten\">speaking-first, immersion-based learning</mark>. You do not need to memorise abstract tables before you are allowed to talk. You connect with real people and say real things from day one, and the grammar follows. The magazine is where we think about that out loud.",
+      "say": "Everything on COSY is built around one belief: speaking-first, immersion-based learning. You do not need to memorise abstract tables before you are allowed to talk. You connect with real people and say real things from day one, and the grammar follows. The magazine is where we think about that out loud."
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "Our Core Principles"
+      "level": 2,
+      "text": "How the magazine works",
+      "say": "How the magazine works"
+    },
+    {
+      "type": "paragraph",
+      "text": "COSYmagazine is published in **issues**, one for each month, each with its own theme. Inside an issue, articles are grouped into **desks**, a bit like sections in a newspaper:",
+      "say": "COSYmagazine is published in issues, one for each month, each with its own theme. Inside an issue, articles are grouped into desks, a bit like sections in a newspaper:"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**100% Free & Open Access:** All learning materials, practice tools, and reference guides are freely accessible to learners worldwide.",
-        "**No-Translation Immersion:** Direct target-language immersion supported by contextual visual cues.",
-        "**CELTA-Aligned Standard:** Methodologically structured for real communicative competence."
+        "**Front Page:** editorials, introductions and the big ideas behind COSY.",
+        "**Words:** vocabulary, phrases and ways to say things more naturally.",
+        "**Grammar:** clear, friendly explanations and rules worth knowing.",
+        "**COSYtalks:** longer conversations about learning, the mind and teaching.",
+        "**Saturday Mistakes:** common errors, with a corrected sentence and a quick quiz.",
+        "**Podcast:** the articles as listening, for walks, buses and washing-up."
       ]
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "Four ways to read",
+      "say": "Four ways to read"
+    },
+    {
       "type": "paragraph",
-      "text": "Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!"
+      "text": "Not everybody likes to read the same way, so each article can be opened in several modes.",
+      "say": "Not everybody likes to read the same way, so each article can be opened in several modes."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**3D magazine spread:** the default. Pages turn like a real magazine, with the handwritten notes in the margins.",
+        "**Flat scroll:** a simple, calm, one-column page, ideal for phones.",
+        "**Presentation mode:** add `?stage=1` to an article's address and it plays block by block, perfect for a class screen.",
+        "**Teleprompter:** add `?script=1` and you get the spoken script in large type, handy if you want to read an article aloud or record your own version."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The COSY ecosystem",
+      "say": "The COSY ecosystem"
+    },
+    {
+      "type": "paragraph",
+      "text": "The magazine is one part of a small family of free tools. **COSYpractice** is where you do the speaking, listening and reading exercises. **COSYtools** is a set of helpers for learners and teachers. Whenever an article mentions a phrase or a rule, you will usually find a link so you can try it straight away.",
+      "say": "The magazine is one part of a small family of free tools. COSYpractice is where you do the speaking, listening and reading exercises. COSYtools is a set of helpers for learners and teachers. Whenever an article mentions a phrase or a rule, you will usually find a link so you can try it straight away."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Open COSYpractice"
+    },
+    {
+      "type": "links",
+      "destination": "cosytools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Open COSYtools"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is in the current issues",
+      "say": "What is in the current issues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our year follows the shape of a school year, with a few extra surprises:",
+      "say": "Our year follows the shape of a school year, with a few extra surprises:"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**August: Get ready for school.** A fresh start. We talk about why speaking comes first, how the COSY curriculum is built, and how to begin a new language without fear.",
+        "**September: Me vs Intermediate Plateau.** For learners who feel stuck at B1: phrase upgrades, stronger adjectives and more precise verbs.",
+        "**October: JY DM's birthday & His favs.** A personal issue with my favourite grammar rules, words and ideas, together with Saturday Mistakes.",
+        "**November: November Academia.** Dark evenings, libraries and big questions: how the brain learns, and how play helps it."
+      ]
+    },
+    {
+      "type": "pullquote",
+      "quote": "A magazine is just a conversation that has been written down. Come and join in.",
+      "attribution": "JY DM",
+      "say": "A magazine is just a conversation that has been written down. Come and join in."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Culture bite: why a magazine?",
+      "content": "The word *magazine* comes from an Arabic word for a storehouse, and the idea of a publication as a storehouse of many different things passed into French and then English. That is exactly what we want here: a store of small, useful ideas that you can browse in any order, dip into for five minutes and come back to whenever you like.",
+      "say": "The word magazine comes from an Arabic word for a storehouse, and the idea of a publication as a storehouse of many different things passed into French and then English. That is exactly what we want here: a store of small, useful ideas that you can browse in any order, dip into for five minutes and come back to whenever you like."
+    },
+    {
+      "type": "quiz",
+      "question": "What does adding ?stage=1 to an article address do?",
+      "options": [
+        "Opens the article in presentation mode",
+        "Shows the teleprompter script",
+        "Translates the article",
+        "Switches to the flat scroll layout"
+      ],
+      "correctIndex": 0,
+      "explanation": "?stage=1 plays the article block by block in presentation mode. ?script=1 shows the teleprompter script instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pick an issue, pick a desk, pick the way you like to read. And when something sparks an idea, say it out loud in the language you are learning. That is the whole method, really.",
+      "say": "Pick an issue, pick a desk, pick the way you like to read. And when something sparks an idea, say it out loud in the language you are learning. That is the whole method, really."
     }
   ],
   "draft": false

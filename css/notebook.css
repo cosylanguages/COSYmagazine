@@ -1,0 +1,299 @@
+/* ==========================================================================
+   COSYmagazine: "the editor's notebook" layer
+   The printed text stays clean and Vogue (Fraunces headlines, wide margins). On top of it sits the editor's
+   hand: highlighter, circled phrases, tape, paper clips, doodles and notes in the margin.
+   Each issue has its own paper, pen and doodles. <body data-issue="aug|sep|oct|sat|nov|dec|feb">
+   ========================================================================== */
+
+:root {
+  --paper: #fffdf8;
+  --paper-lines: none;
+  --page-ink: #1c1917;
+  --page-ink-soft: #6e5a54;
+  --page-rule-strong: rgba(60, 40, 20, 0.22);
+  --ink-accent: #0d6e66;
+  --hl: 253, 224, 71;
+  --tape: rgba(255, 222, 130, 0.78);
+  --book-cover: #2d5f8b;
+  --hand: 'Caveat', 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', cursive;
+}
+
+/* ---- Issue: August "Get ready for school": squared school notebook, blue biro ------------------------- */
+body[data-issue="aug"], body[data-issue="sat"], body[data-issue="nov"] { --pg-pad-l: 70px; }
+
+body[data-issue="aug"] {
+  --paper: #fffef8;
+  --ink-accent: #1e46a0;
+  --hl: 255, 226, 80;
+  --book-cover: #2d5f8b;
+  --tape: rgba(255, 214, 110, 0.8);
+  --paper-lines:
+    linear-gradient(90deg, transparent 52px, rgba(214, 64, 69, 0.4) 52px, rgba(214, 64, 69, 0.4) 54px, transparent 54px),
+    linear-gradient(rgba(70, 120, 190, 0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(70, 120, 190, 0.18) 1px, transparent 1px);
+  --paper-size: auto, 22px 22px, 22px 22px;
+}
+
+/* ---- Issue: September "Me vs Intermediate Plateau": graph paper, teal pencil -------------------------- */
+body[data-issue="sep"] {
+  --paper: #fbfffd;
+  --ink-accent: #0f6e66;
+  --hl: 160, 235, 210;
+  --book-cover: #0f5f59;
+  --tape: rgba(160, 225, 205, 0.8);
+  --paper-lines:
+    linear-gradient(rgba(13, 148, 136, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(13, 148, 136, 0.3) 1px, transparent 1px),
+    linear-gradient(rgba(13, 148, 136, 0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(13, 148, 136, 0.11) 1px, transparent 1px);
+  --paper-size: 60px 60px, 60px 60px, 12px 12px, 12px 12px;
+}
+
+/* ---- Issue: October "JY DM's birthday & His favs": kraft-paper scrapbook, magenta marker -------------- */
+body[data-issue="oct"] {
+  --paper: #eddcbf;
+  --ink-accent: #b0245f;
+  --hl: 255, 190, 215;
+  --book-cover: #8f3f5c;
+  --tape: rgba(255, 255, 255, 0.6);
+  --paper-lines:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .15 0 0 0 .16 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  --paper-size: 160px 160px;
+}
+body[data-issue="oct"] .flipbook-page .page-body { box-shadow: inset 0 0 0 0 transparent; }
+body[data-issue="oct"] .flipbook-page::after {
+  content: ''; position: absolute; inset: 14px; border: 1.5px dashed rgba(120, 70, 40, 0.38);
+  border-radius: 4px; pointer-events: none; z-index: 1;
+}
+
+/* ---- Issue: Saturday Mistakes: marked-up exercise book, red pen ----------------------------------------- */
+body[data-issue="sat"] {
+  --paper: #fffdf8;
+  --ink-accent: #c62828;
+  --hl: 255, 226, 150;
+  --book-cover: #8f2d2d;
+  --tape: rgba(255, 190, 190, 0.7);
+  --paper-lines:
+    radial-gradient(circle at 16px 25%, rgba(0, 0, 0, 0.16) 0 6px, transparent 7px),
+    radial-gradient(circle at 16px 50%, rgba(0, 0, 0, 0.16) 0 6px, transparent 7px),
+    radial-gradient(circle at 16px 75%, rgba(0, 0, 0, 0.16) 0 6px, transparent 7px),
+    linear-gradient(90deg, transparent 54px, rgba(220, 38, 38, 0.45) 54px, rgba(220, 38, 38, 0.45) 56px, transparent 56px),
+    repeating-linear-gradient(transparent 0 27px, rgba(70, 110, 200, 0.22) 27px 28px);
+  --paper-size: auto, auto, auto, auto, auto;
+}
+
+/* ---- Issue: November "Academia": ruled lecture pad, sepia ink ---------------------------------------------- */
+body[data-issue="nov"] {
+  --paper: #fbf3e2;
+  --ink-accent: #6b4423;
+  --hl: 245, 200, 120;
+  --book-cover: #4a3624;
+  --tape: rgba(210, 170, 110, 0.7);
+  --paper-lines:
+    linear-gradient(90deg, transparent 52px, rgba(36, 92, 60, 0.42) 52px, rgba(36, 92, 60, 0.42) 54px, transparent 54px),
+    repeating-linear-gradient(transparent 0 27px, rgba(110, 80, 40, 0.17) 27px 28px);
+  --paper-size: auto, auto;
+}
+
+/* ---- Issues: December (frost) and February (seed paper) ------------------------------------------------------ */
+body[data-issue="dec"] {
+  --paper: #f3f8ff; --ink-accent: #2a5d9f; --hl: 190, 220, 255; --book-cover: #234b78;
+  --paper-lines: radial-gradient(rgba(120, 170, 230, 0.22) 1.5px, transparent 2px), repeating-linear-gradient(transparent 0 27px, rgba(60, 120, 200, 0.14) 27px 28px);
+  --paper-size: 34px 34px, auto;
+}
+body[data-issue="feb"] {
+  --paper: #f4faef; --ink-accent: #2c7a45; --hl: 190, 235, 170; --book-cover: #2f6a3d;
+  --paper-lines: radial-gradient(rgba(60, 140, 80, 0.16) 1.2px, transparent 1.8px), repeating-linear-gradient(transparent 0 27px, rgba(60, 140, 80, 0.14) 27px 28px);
+  --paper-size: 28px 28px, auto;
+}
+
+/* Paper */
+.post-full-content .flipbook-page {
+  background-image: var(--paper-lines);
+  background-size: var(--paper-size, auto);
+  background-position: 0 0;
+}
+
+/* Night mode: the notebook becomes a dark one */
+html[data-theme="dark"] body[data-issue] {
+  --paper: #232a33;
+  --page-ink: #ece7dc;
+  --page-ink-soft: #b9afa3;
+  --page-rule-strong: rgba(255, 255, 255, 0.2);
+  --ink-accent: #7fd6cc;
+  --paper-lines: repeating-linear-gradient(transparent 0 27px, rgba(255, 255, 255, 0.06) 27px 28px);
+  --paper-size: auto;
+}
+html[data-theme="dark"] body[data-issue="oct"] .flipbook-page::after { border-color: rgba(255, 255, 255, 0.18); }
+
+/* ---- The editor's hand ---------------------------------------------------------------------------------------- */
+.post-full-content mark.hl-handwritten,
+.post-full-content .highlight-marker {
+  font-family: var(--hand);
+  font-size: 1.22em;
+  font-weight: 600;
+  line-height: 1;
+  color: inherit;
+  padding: 0 0.18em;
+  background: linear-gradient(104deg, transparent 0.6%, rgba(var(--hl), 0.85) 2.5%, rgba(var(--hl), 0.65) 97%, transparent 99%);
+  border-radius: 0.5em 0.2em 0.6em 0.3em;
+  transform: rotate(-0.8deg);
+  display: inline;
+}
+
+.post-full-content .doodle-circle {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  padding: 0.02em 0.5em 0.08em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 44' preserveAspectRatio='none'%3E%3Cpath d='M14 8 C 40 1, 94 0, 110 12 C 122 24, 100 41, 58 41 C 22 41, 2 32, 6 18 C 9 9, 30 3, 54 3' fill='none' stroke='%23d94a3d' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+}
+body[data-issue="aug"] .doodle-circle { filter: hue-rotate(205deg) saturate(1.3); }
+body[data-issue="sep"] .doodle-circle { filter: hue-rotate(150deg) saturate(1.1); }
+body[data-issue="nov"] .doodle-circle { filter: hue-rotate(335deg) saturate(.6) brightness(.8); }
+
+/* Headlines get an underline drawn by hand */
+.post-full-content .page-body h2.editorial-heading {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6 C 40 1, 70 9, 110 5 S 190 2, 230 6 S 280 4, 298 5' fill='none' stroke='%23999' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 62% 8px;
+}
+.post-full-content .page-body .editorial-kicker,
+.post-full-content .page-body .stamp-sticker { font-family: var(--hand); font-size: 1.05rem; letter-spacing: 0.02em; }
+
+.post-full-content .page-body .editorial-list { list-style: none; padding-left: 1.4rem; }
+.post-full-content .page-body .editorial-list > li { position: relative; margin-bottom: 0.45rem; }
+.post-full-content .page-body .editorial-list > li::before {
+  content: '✦';
+  position: absolute;
+  left: -1.35rem;
+  top: 0;
+  font-family: var(--hand);
+  font-size: 1.05rem;
+  color: var(--ink-accent);
+}
+.post-full-content .page-body ol.editorial-list { counter-reset: n; }
+.post-full-content .page-body ol.editorial-list > li { counter-increment: n; }
+.post-full-content .page-body ol.editorial-list > li::before { content: counter(n) '.'; font-weight: 700; }
+
+/* Notes pinned to the page */
+.post-full-content .page-body .gazette-quiz-card,
+.post-full-content .page-body .gazette-pullquote,
+.post-full-content .page-body .culture-bite,
+.post-full-content .page-body .gazette-marginalia,
+.post-full-content .page-body .gazette-example-box { position: relative; }
+
+.post-full-content .page-body .gazette-quiz-card::before,
+.post-full-content .page-body .culture-bite::before {
+  content: '';
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  width: 78px;
+  height: 22px;
+  margin-left: -39px;
+  background: var(--tape);
+  transform: rotate(-2.5deg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  clip-path: polygon(0 8%, 4% 0, 8% 10%, 12% 0, 92% 0, 96% 10%, 100% 0, 100% 92%, 96% 100%, 92% 90%, 88% 100%, 8% 100%, 4% 90%, 0 100%);
+  z-index: 3;
+}
+.post-full-content .page-body .gazette-marginalia::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 18px;
+  width: 22px;
+  height: 52px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 52'%3E%3Cpath d='M6 46 V10 a5 5 0 0 1 10 0 V40 a3 3 0 0 1 -6 0 V14' fill='none' stroke='%238a8f98' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  z-index: 3;
+}
+.post-full-content .page-body .gazette-pullquote {
+  border-left: 0;
+  padding-left: 1.6rem;
+}
+.post-full-content .page-body .gazette-pullquote::before {
+  content: '“';
+  position: absolute;
+  left: -0.1rem;
+  top: -0.6rem;
+  font-family: var(--hand);
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--ink-accent);
+  opacity: 0.8;
+}
+.post-full-content .page-body .gazette-figure-img,
+.post-full-content .page-body .cosy-fig {
+  background: #fff;
+  padding: 8px 8px 12px;
+  box-shadow: 0 2px 10px rgba(40, 25, 10, 0.18);
+  transform: rotate(-0.7deg);
+}
+.post-full-content .page-body .example-context,
+.post-full-content .page-body .example-gloss { font-family: var(--hand); font-size: 1.12em; font-style: normal; color: var(--ink-accent); }
+.post-full-content .page-body .stamp-sticker { transform: rotate(-2deg); display: inline-block; }
+
+/* Saturday Mistakes: the corrections are made in red pen */
+body[data-issue="sat"] .mc-wrong .mc-sentence { text-decoration: line-through; text-decoration-color: #c62828; text-decoration-thickness: 2px; }
+body[data-issue="sat"] .mc-right .mc-sentence { font-family: var(--hand); font-size: 1.3em; color: #c62828; }
+
+/* ---- Filler: doodles in the empty bottom of a page ------------------------------------------------------------ */
+.page-filler {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.6rem;
+  overflow: hidden;
+  color: var(--ink-accent);
+  padding: 0.4rem 0 0.6rem;
+  pointer-events: none;
+}
+.page-filler .doodle { width: 100%; height: 100%; filter: url(#cosy-wobble); overflow: visible; }
+.page-filler .filler-doodle { flex: 0 1 112px; height: 76px; max-height: 100%; transform: rotate(var(--tilt, 0deg)); opacity: 0.9; }
+.page-filler .filler-note {
+  flex: 0 1 auto;
+  font-family: var(--hand);
+  font-size: 1.55rem;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+  transform: rotate(var(--tilt, -2deg));
+  max-width: 11rem;
+}
+.page-filler .filler-b { opacity: 0.6; }
+
+/* ---- The Top 10 "full list" cheat sheet ------------------------------------------------------------------------ */
+.fulllist-bar {
+  display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;
+  margin: 0.2rem 0 0.5rem; padding: 0.45rem 0.7rem;
+  background: rgba(255, 255, 255, 0.78); border: 1.5px solid var(--ink-accent); border-radius: 6px;
+}
+.fulllist-title { font-family: var(--hand); font-size: 1.45rem; font-weight: 700; color: var(--ink-accent); margin-right: auto; line-height: 1; }
+.fulllist-btn {
+  font: inherit; font-size: 0.78rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 999px;
+  border: 1.5px solid var(--ink-accent); background: #fff; color: var(--ink-accent); cursor: pointer;
+}
+.fulllist-btn:hover, .fulllist-btn:focus-visible { background: var(--ink-accent); color: #fff; }
+.fulllist-table { margin: 0 0 1rem; }
+.fulllist-table table { width: 100%; border-collapse: collapse; font-size: 0.76rem; line-height: 1.35; }
+.fulllist-table th { text-align: left; font-family: var(--font-display, Fraunces, serif); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; border-bottom: 2px solid var(--ink-accent); padding: 0.25rem 0.35rem; background: transparent; color: inherit; }
+.fulllist-table td { padding: 0.28rem 0.35rem; vertical-align: top; border-bottom: 1px dashed rgba(60, 40, 20, 0.25); background: transparent; }
+.fulllist-table tbody tr:nth-child(odd) td { background: rgba(var(--hl), 0.14); }
+.fulllist-table td:first-child { font-family: var(--hand); font-size: 1.15rem; font-weight: 700; color: var(--ink-accent); width: 1.6rem; }
+
+.cosy-print-sheet { display: none; }
+@media print {
+  body.printing-fulllist > *:not(.cosy-print-sheet) { display: none !important; }
+  body.printing-fulllist .cosy-print-sheet { display: block !important; font-family: var(--font-body, system-ui, sans-serif); color: #000; }
+  .cosy-print-sheet h1 { font-size: 16pt; margin: 0 0 4mm; }
+  .cosy-print-sheet .fulllist-bar { display: none; }
+  .cosy-print-sheet table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+  .cosy-print-sheet th, .cosy-print-sheet td { border: 0.5pt solid #777; padding: 2mm; text-align: left; vertical-align: top; }
+  .cosy-print-sheet th { background: #eee; }
+  .cosy-print-sheet .print-foot { margin-top: 5mm; font-size: 9pt; color: #444; }
+  @page { margin: 14mm; }
+}

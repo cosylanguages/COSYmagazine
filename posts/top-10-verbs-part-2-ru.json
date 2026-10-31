@@ -68,6 +68,93 @@
       ]
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-ru",
+      "listTitle": "Полный список",
+      "headers": [
+        "#",
+        "Глагол",
+        "Для чего нужен",
+        "Пример",
+        "Полезные выражения"
+      ],
+      "rows": [
+        [
+          "1",
+          "Делать",
+          "Действия.",
+          "'Делать работу', 'Делать зарядку'.",
+          "'делать всё возможное', 'что делать?', 'делать кофе'."
+        ],
+        [
+          "2",
+          "Говорить / Сказать",
+          "Общение.",
+          "'Говорить по-русски', 'Сказать правду', 'Скажи мне'.",
+          "'говорить о', 'так сказать', 'сказать да'."
+        ],
+        [
+          "3",
+          "Смотреть / Видеть",
+          "Восприятие.",
+          "'Смотреть фильм', 'Я вижу птицу'.",
+          "'смотреть телевизор', 'посмотрим', 'до встречи'."
+        ],
+        [
+          "4",
+          "Слушать / Слышать",
+          "Слух.",
+          "'Слушать музыку', 'Я слышу шум'.",
+          "'слушай внимательно', 'рад слышать'."
+        ],
+        [
+          "5",
+          "Должен / Надо",
+          "Обязанность.",
+          "'Я должен учиться', 'Надо идти'.",
+          "'так должно быть', 'мне надо'."
+        ],
+        [
+          "6",
+          "Брать / Давать",
+          "Обмен.",
+          "'Брать такси', 'Давать подарок'.",
+          "'принимать решение', 'давать руку', 'получить ответ'."
+        ],
+        [
+          "7",
+          "Жить",
+          "Проживание.",
+          "'Я живу в Москве', 'Жить хорошо'.",
+          "'жить за границей', 'жить вместе'."
+        ],
+        [
+          "8",
+          "Ждать",
+          "Ожидание.",
+          "'Ждать автобус', 'Подожди минуту'.",
+          "'не могу дождаться', 'ждать в очереди'."
+        ],
+        [
+          "9",
+          "Понимать",
+          "Понимание.",
+          "'Я понимаю урок', 'Ты понимаешь меня?'.",
+          "'так сказать', 'прекрасно понимаю'."
+        ],
+        [
+          "10",
+          "Спрашивать / Отвечать",
+          "Вопросы и ответы.",
+          "'Задать вопрос', 'Ответить на звонок'.",
+          "'просить о помощи', 'быстро ответить'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "Сравнительная таблица глаголов"
@@ -146,6 +233,36 @@
     {
       "type": "paragraph",
       "text": "📌 Тренируйтесь на [COSYpractice](https://cosylanguages.github.io/COSYpractice/), читайте [Часть 1](top-10-verbs-ru.html) и [Часть 2](top-10-verbs-part-2-ru.html), а таблицы спряжения смотрите на [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Что почитать дальше",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Идеи этой статьи опираются на научные работы и опыт преподавания. С чего начать:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sharoff, S., Umanskaya, E., & Wilson, J. (2013).** *A Frequency Dictionary of Russian: Core Vocabulary for Learners.* Routledge.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

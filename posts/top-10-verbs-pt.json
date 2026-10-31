@@ -53,6 +53,93 @@
       "text": "Os 10 verbos fundamentais (Parte 1)"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-pt",
+      "listTitle": "A lista completa",
+      "headers": [
+        "#",
+        "Verbo",
+        "Para que serve",
+        "Exemplo",
+        "Expressões úteis"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ser / Estar (To Be)",
+          "Em português, ser expressa identidade e características permanentes; estar expressa localização e estados temporários.",
+          "está",
+          "'Estou em casa', 'Como estás?'."
+        ],
+        [
+          "2",
+          "Ter (To Have)",
+          "O verbo ter expressa posse, idade e relações familiares.",
+          "Ela tem dois irmãos.",
+          "'Tenho um livro', 'Tenho 25 anos'."
+        ],
+        [
+          "3",
+          "Pensar (To Think)",
+          "O verbo pensar expressa opiniões e reflexões.",
+          "Ele pensa no futuro.",
+          "'Penso que é uma boa ideia'."
+        ],
+        [
+          "4",
+          "Saber / Conhecer (To Know)",
+          "Saber usa-se para factos e capacidades. Conhecer para pessoas e lugares.",
+          "conhece",
+          "'Conheço Lisboa'."
+        ],
+        [
+          "5",
+          "Gostar / Amar (To Like / Love)",
+          "O verbo gostar usa-se com a preposição de (gosto de). Amar para sentimentos fortes.",
+          "Gosta de viajar.",
+          "'Gosto de aprender línguas'."
+        ],
+        [
+          "6",
+          "Querer / Gostaria (To Want / Would Like)",
+          "O verbo querer expressa vontade. A forma gostaria é usada para pedidos corteses.",
+          "gostaria",
+          "'Gostaria de um café, por favor'."
+        ],
+        [
+          "7",
+          "Ir / Futuro próximo (To Go)",
+          "O verbo ir indica deslocação e forma o futuro próximo (ir + infinitivo).",
+          "Ele vai para Lisboa.",
+          "'Vou estudar português'."
+        ],
+        [
+          "8",
+          "Poder (To Can / Be able to)",
+          "O verbo modal poder expressa capacidade e permissão.",
+          "Ele pode entrar.",
+          "'Posso entrar?'."
+        ],
+        [
+          "9",
+          "Comer (To Eat)",
+          "O verbo comer refere-se às refeições e alimentação.",
+          "Ele come ao almoço.",
+          "'Bom apetite!'."
+        ],
+        [
+          "10",
+          "Beber (To Drink)",
+          "O verbo beber refere-se a bebidas e hidratação.",
+          "Ele bebe chá.",
+          "'Bebo um café de manhã'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "1. Ser / Estar (To Be)"
@@ -693,6 +780,36 @@
     {
       "type": "paragraph",
       "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html), e consulte as conjuções no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Leituras recomendadas",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "As ideias deste artigo apoiam-se em investigação publicada e na prática de ensino. Para começar:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

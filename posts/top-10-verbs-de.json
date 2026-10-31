@@ -53,6 +53,93 @@
       "text": "Die 10 Grundverben (Teil 1)"
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-de",
+      "listTitle": "Die vollständige Liste",
+      "headers": [
+        "#",
+        "Verb",
+        "Wofür es dient",
+        "Beispiel",
+        "Nützliche Wendungen"
+      ],
+      "rows": [
+        [
+          "1",
+          "Sein (To Be)",
+          "Das Verb sein drückt Identität, Beruf, Herkunft, Zustand und Ort aus.",
+          "Er ist zu Hause.",
+          "'pünktlich sein', 'bereit sein', 'einverstanden sein'."
+        ],
+        [
+          "2",
+          "Haben (To Have)",
+          "Das Verb haben drückt Besitz, Alter, Familie und Empfindungen aus.",
+          "Sie hat zwei Brüder.",
+          "'Lust haben', 'Recht haben', 'Zeit haben'."
+        ],
+        [
+          "3",
+          "Denken (To Think)",
+          "Das Verb denken drückt Meinungen, Überlegungen und Gedanken aus.",
+          "Er denkt an die Zukunft.",
+          "'nachdenken über', 'denken an', 'anders denken'."
+        ],
+        [
+          "4",
+          "Wissen / Kennen (To Know)",
+          "Wissen nutzt man für Fakten und Wissen (ich weiß). Kennen nutzt man für Personen, Orte und Dinge.",
+          "kennt",
+          "'Bescheid wissen', 'kennenlernen'."
+        ],
+        [
+          "5",
+          "Mögen / Gefallen (To Like)",
+          "Das Verb mögen und die Wendung gefallen drücken Vorlieben und Geschmack aus.",
+          "Er mag Sport.",
+          "'gern haben', 'Gefallen finden'."
+        ],
+        [
+          "6",
+          "Wollen / Möchte (To Want / Would Like)",
+          "Wollen drückt festen Absicht aus. Möchte ist die höfliche Form für Wünsche.",
+          "möchte",
+          "'willkommen sein', 'was willst du damit sagen?'."
+        ],
+        [
+          "7",
+          "Gehen (To Go)",
+          "Das Verb gehen drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus.",
+          "Er geht zur Arbeit.",
+          "'spazieren gehen', 'einkaufen gehen'."
+        ],
+        [
+          "8",
+          "Können (To Can / Be able to)",
+          "Das Modalverb können drückt Fähigkeit, Möglichkeit oder Erlaubnis aus.",
+          "Er kann gut schwimmen.",
+          "'Kann sein', 'so gut ich kann'."
+        ],
+        [
+          "9",
+          "Essen (To Eat)",
+          "Das Verb essen wird für Mahlzeiten, Speisen und Ernährung verwendet.",
+          "Er isst zu Mittag.",
+          "'Guten Appetit!', 'essen gehen'."
+        ],
+        [
+          "10",
+          "Trinken (To Drink)",
+          "Das Verb trinken drückt das Trinken von Getränken und Hydratation aus.",
+          "Er trinkt Tee.",
+          "'Prost!', 'etwas zu trinken haben'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "1. Sein (To Be)"
@@ -711,6 +798,36 @@
     {
       "type": "paragraph",
       "text": "📌 Üben Sie auf [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lesen Sie [Teil 1](top-10-verbs-de.html) sowie [Teil 2](top-10-verbs-part-2-de.html), und schlagen Sie die Konjugationen auf [COSYtools](https://cosylanguages.github.io/COSYtools/) nach."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Weiterführende Literatur",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Die Ideen dieses Artikels stützen sich auf veröffentlichte Forschung und Unterrichtspraxis. Zum Einstieg:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false

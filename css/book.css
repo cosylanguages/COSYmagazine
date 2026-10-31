@@ -1,0 +1,378 @@
+/* ==========================================================================
+   COSYmagazine: the book (fixed-size 3:4 pages, spine, page edges, page turn)
+   js/flipbook.js lays the text out on pages of exactly --pg-w x --pg-h CSS px and then scales the whole
+   book with transform, so both pages of a spread are always the same size.
+   Paper colours and doodles per issue live in css/notebook.css.
+   ========================================================================== */
+
+.post-full-content.flipbook-3d-stage {
+  position: relative;
+  display: block;
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  max-width: none !important;
+  perspective: 2600px;
+  perspective-origin: 50% 35%;
+}
+
+/* Cover boards peeking out behind the paper */
+.post-full-content.flipbook-3d-stage.flipbook-mode::before {
+  content: '';
+  position: absolute;
+  inset: -14px -16px -18px;
+  border-radius: 10px;
+  background: var(--book-cover, #2d5f8b);
+  box-shadow: 0 28px 50px -18px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.08);
+  z-index: -1;
+}
+
+/* Spine shadow in the gutter */
+.post-full-content.flipbook-3d-stage.desktop-spread-view.flipbook-mode::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 64px;
+  margin-left: -32px;
+  background: linear-gradient(90deg,
+    rgba(40, 25, 10, 0) 0%,
+    rgba(40, 25, 10, 0.14) 38%,
+    rgba(40, 25, 10, 0.34) 50%,
+    rgba(40, 25, 10, 0.14) 62%,
+    rgba(40, 25, 10, 0) 100%);
+  pointer-events: none;
+  z-index: 25;
+}
+
+/* ---- A page ------------------------------------------------------------------------------------- */
+.post-full-content .flipbook-page {
+  position: relative;
+  box-sizing: border-box;
+  width: var(--pg-w, 580px);
+  height: var(--pg-h, 773px);
+  display: flex;
+  flex-direction: column;
+  padding: 40px 42px 0 var(--pg-pad-l, 42px);
+  background-color: var(--paper, #fffdf8);
+  color: var(--page-ink, #1c1917);
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  font-size: 15px;
+  line-height: 1.62;
+}
+
+.post-full-content.flipbook-mode .flipbook-page {
+  position: absolute;
+  top: 0;
+  display: none;
+  animation: none;
+}
+
+.post-full-content.flipbook-mode .flipbook-page.active { display: flex; }
+.post-full-content.flipbook-mode .flipbook-page.spread-left { left: 0; border-radius: 6px 0 0 6px; }
+.post-full-content.flipbook-mode .flipbook-page.spread-right { left: var(--pg-w, 580px); border-radius: 0 6px 6px 0; }
+.post-full-content.flipbook-mode.mobile-single-view .flipbook-page.active { left: 0; border-radius: 6px; }
+
+/* Stacked pages are measured invisibly before the book is shown */
+.post-full-content.is-measuring {
+  position: relative;
+}
+.post-full-content.is-measuring .flipbook-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  visibility: hidden;
+}
+
+/* Page edges (the thickness of the paper block) */
+.post-full-content.flipbook-mode .flipbook-page.spread-left {
+  box-shadow: -3px 2px 0 -1px #efe6d3, -6px 4px 0 -2px #e4d8c0, -9px 6px 0 -3px #d9ccb0;
+}
+.post-full-content.flipbook-mode .flipbook-page.spread-right {
+  box-shadow: 3px 2px 0 -1px #efe6d3, 6px 4px 0 -2px #e4d8c0, 9px 6px 0 -3px #d9ccb0;
+}
+.post-full-content.flipbook-mode.mobile-single-view .flipbook-page.active {
+  box-shadow: 3px 2px 0 -1px #efe6d3, 6px 4px 0 -2px #e4d8c0;
+}
+
+/* Paper shading towards the spine */
+.post-full-content .flipbook-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 6;
+}
+.post-full-content .flipbook-page.spread-left::before,
+.leaf-forward .leaf-back .flipbook-page::before,
+.leaf-backward .leaf-front .flipbook-page::before {
+  background: linear-gradient(270deg, rgba(60, 40, 20, 0.2) 0, rgba(60, 40, 20, 0.06) 5%, transparent 13%);
+}
+.post-full-content .flipbook-page.spread-right::before,
+.leaf-forward .leaf-front .flipbook-page::before,
+.leaf-backward .leaf-back .flipbook-page::before {
+  background: linear-gradient(90deg, rgba(60, 40, 20, 0.2) 0, rgba(60, 40, 20, 0.06) 5%, transparent 13%);
+}
+
+/* The text area: fixed height, never scrolls, children keep their natural size */
+.post-full-content .page-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.post-full-content .page-body > * { flex: 0 0 auto; }
+.post-full-content .page-body > :first-child { margin-top: 0 !important; }
+.post-full-content .page-body > .page-filler { flex: 1 1 0; min-height: 0; }
+
+/* Typography tuned for a printed page */
+.post-full-content .page-body p { margin: 0 0 0.85em; }
+.post-full-content .page-body p.p-cont { text-indent: 0; }
+.post-full-content .page-body h2.editorial-heading {
+  font-size: 1.6rem;
+  line-height: 1.15;
+  margin: 1.1rem 0 0.7rem;
+  padding: 0 0 0.45rem;
+  border-top: 0;
+}
+.post-full-content .page-body h3.editorial-heading { font-size: 1.2rem; margin: 1rem 0 0.5rem; }
+.post-full-content .page-body h2.editorial-heading + p::first-letter { all: unset; }
+.post-full-content .page-body .is-continued { margin-top: 0; }
+.post-full-content .page-body table { font-size: 0.84rem; }
+.post-full-content .page-body .table-responsive-container { overflow: visible; margin: 0.4rem 0 1rem; }
+.post-full-content .page-body .gazette-quiz-card,
+.post-full-content .page-body .gazette-example-box,
+.post-full-content .page-body .gazette-pullquote { margin-top: 0.7rem; margin-bottom: 1rem; }
+
+/* ---- Folio line and corner turns ------------------------------------------------------------------ */
+.post-full-content .magazine-page-folio {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--page-rule-strong, rgba(60, 40, 20, 0.22));
+  font-family: var(--font-display, Fraunces, serif);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--page-ink-soft, #6e5a54);
+  position: relative;
+  z-index: 3;
+}
+.post-full-content .magazine-page-folio .folio-num { font-size: 0.7rem; letter-spacing: 0.08em; }
+
+.post-full-content .magazine-dog-ear {
+  position: absolute;
+  bottom: 0;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  z-index: 12;
+}
+.post-full-content .dog-ear-prev { left: 0; }
+.post-full-content .dog-ear-next { right: 0; }
+.post-full-content .dog-ear-fold {
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+.post-full-content .dog-ear-next .dog-ear-fold {
+  right: 0;
+  background: linear-gradient(315deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.04) 45%, transparent 46%),
+              linear-gradient(135deg, transparent 50%, #f4ecd9 50%);
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.08);
+}
+.post-full-content .dog-ear-prev .dog-ear-fold {
+  left: 0;
+  background: linear-gradient(225deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.04) 45%, transparent 46%),
+              linear-gradient(45deg, transparent 50%, #f4ecd9 50%);
+  box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.08);
+}
+.post-full-content .magazine-dog-ear:hover .dog-ear-fold,
+.post-full-content .magazine-dog-ear:focus-visible .dog-ear-fold { width: 44px; height: 44px; }
+.post-full-content .dog-ear-label {
+  position: absolute;
+  bottom: 6px;
+  font-family: 'Caveat', 'Segoe Print', cursive;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink-accent, #0d6e66);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+.post-full-content .dog-ear-next .dog-ear-label { right: 36px; }
+.post-full-content .dog-ear-prev .dog-ear-label { left: 36px; }
+.post-full-content .magazine-dog-ear:hover .dog-ear-label,
+.post-full-content .magazine-dog-ear:focus-visible .dog-ear-label { opacity: 1; }
+
+.desktop-spread-view .flipbook-page.spread-left .dog-ear-next,
+.desktop-spread-view .flipbook-page.spread-right .dog-ear-prev,
+.post-full-content .flipbook-page[data-page="1"] .dog-ear-prev,
+.post-full-content .flipbook-page.is-last-page .dog-ear-next { display: none; }
+
+/* ---- The page turn ---------------------------------------------------------------------------------- */
+.page-leaf {
+  position: absolute;
+  top: 0;
+  width: var(--pg-w, 580px);
+  height: var(--pg-h, 773px);
+  transform-style: preserve-3d;
+  z-index: 40;
+  transition: transform 0.85s cubic-bezier(0.5, 0.05, 0.25, 1);
+  will-change: transform;
+}
+.page-leaf.leaf-forward { left: var(--pg-w, 580px); transform-origin: left center; }
+.page-leaf.leaf-backward { left: 0; transform-origin: right center; }
+.page-leaf.leaf-forward.is-flipping { transform: rotateY(-180deg); }
+.page-leaf.leaf-backward.is-flipping { transform: rotateY(180deg); }
+.leaf-face {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.leaf-back { transform: rotateY(180deg); }
+.leaf-face::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(20, 10, 0, 0.35), rgba(20, 10, 0, 0) 60%);
+  opacity: 0;
+  animation: leafShade 0.85s ease-in-out both;
+  z-index: 20;
+}
+.leaf-back::after { background: linear-gradient(270deg, rgba(20, 10, 0, 0.35), rgba(20, 10, 0, 0) 60%); }
+@keyframes leafShade { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; } }
+
+.post-full-content .flipbook-page.in-leaf {
+  display: flex !important;
+  position: absolute !important;
+  inset: 0;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.post-full-content.is-turning .magazine-dog-ear { pointer-events: none; }
+
+/* ---- Colophon page (closes a book with an odd number of pages) -------------------------------------- */
+.page-end .colophon {
+  margin: auto;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.colophon-kicker { font-family: var(--font-display, Fraunces, serif); letter-spacing: 0.3em; font-size: 0.8rem; font-weight: 800; margin: 0 0 1.2rem; }
+.colophon-title { font-family: 'Caveat', cursive; font-size: 2.2rem; line-height: 1.1; color: var(--ink-accent, #0d6e66); margin: 0 0 1rem; }
+.colophon-issue { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 1.5rem; opacity: 0.75; }
+.colophon-note { font-size: 0.78rem; opacity: 0.6; margin: 0; }
+
+/* ---- Scroll mode: one long page, no fixed size ---------------------------------------------------------- */
+.post-full-content.scroll-mode .flipbook-page {
+  position: relative;
+  display: flex;
+  width: auto;
+  max-width: 44rem;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  padding-bottom: 0;
+  box-shadow: 0 2px 14px rgba(40, 25, 10, 0.12);
+  border-radius: 6px;
+}
+.post-full-content.scroll-mode .page-body { overflow: visible; }
+.post-full-content.scroll-mode .magazine-dog-ear,
+.post-full-content.scroll-mode .page-filler { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .page-leaf { transition: none; }
+  .leaf-face::after { animation: none; }
+}
+
+@media print {
+  .post-full-content.flipbook-3d-stage,
+  .post-full-content.flipbook-mode,
+  .post-full-content.scroll-mode {
+    width: auto !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+    perspective: none;
+  }
+  .post-full-content.flipbook-mode::before,
+  .post-full-content.flipbook-mode::after { display: none !important; }
+  .post-full-content .flipbook-page,
+  .post-full-content.flipbook-mode .flipbook-page {
+    position: relative !important;
+    display: flex !important;
+    width: auto !important;
+    height: auto !important;
+    min-height: 0;
+    padding: 0 0 12px;
+    box-shadow: none !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+    break-after: page;
+  }
+  .post-full-content .page-body { overflow: visible; display: block; }
+  .post-full-content .page-filler,
+  .post-full-content .magazine-dog-ear,
+  .page-leaf { display: none !important; }
+}
+
+/* ---- Resets for older single-page styles ------------------------------------------------------------ */
+.post-full-content .flipbook-page:focus { outline: none; }
+.post-full-content .magazine-dog-ear { top: auto; display: block; }
+.post-full-content .dog-ear-prev { right: auto; }
+.post-full-content .dog-ear-next { left: auto; }
+.post-full-content .dog-ear-fold { top: auto; border: 0; filter: none; }
+.post-full-content .page-body [class$="-issue-banner"]::before {
+  position: static;
+  display: block;
+  transform: none;
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+body.has-book .gazette-folio span:last-child { display: none; }
+
+/* ---- Density: cards on a printed page need less padding than on a web page ------------------------------ */
+.post-full-content .page-body .zoomable-section {
+  padding: 0.8rem 1rem;
+  margin: 0 0 0.8rem;
+  border-radius: 8px;
+}
+.post-full-content .page-body .zoomable-section h3,
+.post-full-content .page-body .zoomable-section h4 { margin-top: 0; font-size: 1.05rem; }
+.post-full-content .page-body li { line-height: 1.5; }
+.post-full-content .page-body ul,
+.post-full-content .page-body ol { margin: 0.3rem 0 0.8rem; }
+.post-full-content .page-body .zoom-section-btn,
+.post-full-content .page-body [class*="zoom-btn"] { transform: scale(0.85); transform-origin: top right; }
+
+/* The reading controls stay on screen while the book is on screen */
+.flipbook-toolbar.magazine-furniture-bar {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background: var(--blog-paper-light, #faf7f2);
+}

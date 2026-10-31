@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How We Built the COSY Master Curriculum Across 14 Languages — COSYmag…</title>
+    <meta name="description" content="Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/building-cosy-master-curriculum.html">
+    <meta property="og:title" content="How We Built the COSY Master Curriculum Across 14 Languages — COSYmag…">
+    <meta property="og:description" content="Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/building-cosy-master-curriculum.html">
+    <link rel="icon" href="images/logo.png">
+    <meta name="theme-color" content="#faf7f2">
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/article-visuals.css">
+    <link rel="stylesheet" href="css/dark-fixes.css">
+    <link rel="stylesheet" href="css/stage.css">
+    <link rel="stylesheet" href="css/shell.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/notebook.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e3a8a;
+        --post-palette-highlight: #f59e0b;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Caveat', Georgia, serif;
+      }
+    </style>
+</head>
+<body class="blog-page gazette-body" data-issue="aug" data-issue-label="Get ready for school" data-slug="building-cosy-master-curriculum">
+
+    <nav id="cosy-nav"></nav>
+
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-essay">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <div class="gazette-masthead-left">
+                    <a href="https://cosylanguages.github.io/COSYlanguages/" class="gazette-home-link" title="COSYlanguages Home">🏡 Home</a>
+                    <span class="gazette-link-sep">•</span>
+                    <a href="index.html" class="gazette-back-link" data-i18n="blog.back_to_hub">← Back to Blog &amp; Editorial Hub</a>
+                </div>
+                <p class="gazette-masthead-title">COSYMAGAZINE</p>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode" data-i18n="blog.script_mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode" data-i18n="blog.stage_mode">📺 Stage Mode</a>
+                </div>
+            </div>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.08 • Get ready for school</span>
+                <span class="stamp-sticker" data-i18n="desk.front_page">Front Page</span>
+                <span>2026-03-01</span>
+            </div>
+        </header>
+
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="building-cosy-master-curriculum" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="600" fill="#f59e0b" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#faf7f2" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="600" stroke="#225B58" stroke-width="2" opacity="0.35" />
+    <path d="M 406 246 Q 426 226 446 246 T 466 246" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 368 325 Q 383 310 398 325 T 413 325" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 398 401 Q 421 378 444 401 T 467 401" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 578 425 Q 613 390 648 425 T 683 425" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 607 166 Q 625 148 643 166 T 661 166" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 693 481 Q 710 464 727 481 T 744 481" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+  
+      
+      <g transform="rotate(10 680 288)">
+        <rect x="469" y="168" width="422" height="240" rx="6" fill="#f59e0b" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(3 680.5 231.5)">
+        <rect x="449" y="91" width="463" height="281" rx="6" fill="#faf7f2" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(-8 558.5 223.5)">
+        <rect x="356" y="87" width="405" height="273" rx="6" fill="#f59e0b" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(-5 500.5 198)">
+        <rect x="254" y="96" width="493" height="204" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="1017,0 1200,0 1200,270 1185,252 1165,276 1140,228 1110,245.99999999999997 1080,210 1050,234 1020,192 1037,150 1017,0" fill="#FCF9F2" opacity="0.9" stroke="#225B58" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(-4 549 36)" filter="url(#soft-shadow)">
+      <rect x="489" y="24" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="489" y1="24" x2="489" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="609" y1="24" x2="609" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#225B58" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 889 31 Q 889 43 901 43 Q 889 43 889 55 Q 889 43 877 43 Q 889 43 889 31 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 934 73 Q 934 81 942 81 Q 934 81 934 89 Q 934 81 926 81 Q 934 81 934 73 Z" stroke="#faf7f2" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 70 120 C 80 105, 65 85, 85 70" />
+      <circle cx="74" cy="105" r="3" fill="#225B58" opacity="0.5" />
+      <circle cx="80" cy="88" r="3" fill="#faf7f2" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 100 563 Q 230 560 359 566" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 110 566 Q 230 563 349 565" stroke="#225B58" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="236" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • FRONT PAGE</text>
+    </g>
+  
+      
+      <rect width="1200" height="600" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+    </svg></div>
+
+            <div class="gazette-header-content">
+                <span class="editorial-kicker" >CURRICULUM</span>
+                <h1 class="cover-headline">How We Built the COSY Master Curriculum Across 14 Languages</h1>
+                <p class="editorial-dek">Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.</p>
+
+                
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span><span data-i18n="blog.written_by">Written by</span> <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-03-01</span>
+                        <span>⏱️ 6 <span data-i18n="blog.min_read">min read</span></span>
+                        <span class="stamp-sticker">A0–B2</span>
+                        <span class="stamp-sticker"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">When people ask what makes COSY lessons different, I usually say: nothing exotic. There is no secret trick. What we have is a <strong>structure</strong>, a lesson shape that we repeat carefully, level after level, in every language we teach. This article opens the notebook and shows how that structure is built, and why.</p>
+<h2 class="editorial-heading">Levels first: A0 to C2</h2>
+<p>Every COSY course is mapped to the CEFR, the Common European Framework of Reference for Languages. We use its six familiar levels (A1, A2, B1, B2, C1, C2) and add a gentle <mark class="hl-handwritten">A0</mark> at the start for people who are truly meeting the language for the first time. The CEFR is useful because it describes what a learner can <em>do</em>, not just what they know: introduce yourself, book a table, explain a problem, argue a point. Each COSY unit begins from a can-do statement like that, and everything in the lesson is chosen to make the statement true by the end.</p>
+<h2 class="editorial-heading">The same lesson shape in every language</h2>
+<p>COSY currently covers 14 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Greek, Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash. They are very different from each other, with different scripts, sounds and grammar. But the learner&#39;s journey through a lesson is the same, and that sameness is a feature. Once you have learned <em>how</em> a COSY lesson works in Spanish, you already know how it works in Georgian.</p>
+<p>The shape comes from the communicative, staged approach familiar to anyone who has trained for the CELTA. We do not claim it is the only way to teach. We chose it because it is clear, it is speaking-first, and it respects the learner&#39;s time.</p>
+
+<blockquote class="gazette-pullquote">
+  <p>“A good lesson is a staircase, not a cliff: every step is small enough to climb, and every step leads somewhere.”</p>
+  <cite>— JY DM</cite>
+</blockquote>
+<h2 class="editorial-heading">The stages of a COSY lesson</h2>
+
+<div class="table-responsive-container">
+  <table class="gazette-editorial-table">
+    <thead><tr><th>Stage</th><th>What the learner does</th><th>Example (A1, English)</th></tr></thead>
+    <tbody>
+      <tr><td>Lead-in</td><td>Warms up, activates what they already know, gets curious about the topic.</td><td>Looks at a photo of a school bag and says what they can see.</td></tr>
+<tr><td>Context</td><td>Meets the new language in a short spoken or written text, and reads or listens for the general idea first.</td><td>Listens to two students talking about their first day at school.</td></tr>
+<tr><td>Meaning</td><td>Works out what the new words and phrases mean from the context.</td><td>Matches &quot;timetable&quot;, &quot;homework&quot; and &quot;break&quot; to pictures.</td></tr>
+<tr><td>Form</td><td>Notices how the language is built: word order, endings, patterns.</td><td>Spots the pattern in &quot;I have maths on Monday.&quot;</td></tr>
+<tr><td>Pronunciation</td><td>Practises the sounds, stress and rhythm of the new phrases.</td><td>Repeats &quot;Maths on Monday&quot; with the stress in the right place.</td></tr>
+<tr><td>Controlled practice</td><td>Uses the language in tightly guided tasks, with a high chance of success.</td><td>Completes sentences about a given timetable.</td></tr>
+<tr><td>Freer practice</td><td>Uses the language to communicate something real, with less support.</td><td>Tells a partner what their own week looks like.</td></tr>
+<tr><td>Review</td><td>Reflects on mistakes, revisits what was hard, and plans what to practise next.</td><td>Writes down two things to say more smoothly tomorrow.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Notice where the grammar sits. It is not the opening move; it arrives in the middle, after the learner has met the language in context and understood what it is for. And notice the direction of travel: from controlled to freer. Early tasks are designed so you are very likely to succeed. Later tasks take the support away, little by little, until you are using the language to say something that is really yours.</p>
+
+<div class="gazette-example-box">
+  <span class="example-target">&quot;I have English on Monday and Wednesday.&quot;</span>
+  <p class="example-gloss">A model sentence from the context stage. Learners meet it inside a short dialogue, then notice the pattern (have + subject + on + day) before they are asked to produce anything similar.</p>
+  <p class="example-context">Context: Lesson on school timetables (A1).</p>
+</div>
+<h2 class="editorial-heading">Spaced practice: coming back on purpose</h2>
+<p>One of the oldest findings in memory research is that revisiting material after a gap helps it stick better than cramming it all in one sitting. We build this into the curriculum rather than leaving it to chance. A phrase that appears in a unit will return in later units, in a new context, so you meet it again just when it is starting to fade. Retrieval practice, trying to recall something rather than just re-reading it, is part of the same idea, and our review stages and quizzes are designed around it.</p>
+<h2 class="editorial-heading">Authentic tasks, not just exercises</h2>
+<p>A worksheet can tell you whether you know a form. A task tells you whether you can <strong>use</strong> it. So each unit ends with something close to real life: leave a voice message to a friend, ask for directions, introduce your family, write a short reply to an invitation. We try to keep the language natural and the situation believable. If you would never say a sentence to another human being, we try not to ask you to practise it.</p>
+
+<aside class="gazette-marginalia">
+  <div class="gazette-marginalia-title">📌 Culture bite: why a base level is called A0</div>
+  <p class="marginalia-body">The CEFR officially starts at A1, but many teachers talk about an informal &quot;A0&quot; for absolute beginners: the stage before you can reliably introduce yourself. At COSY we use the term as a friendly label for those first steps, such as learning to read a new alphabet, recognising a few sounds and saying hello. It reminds us that starting from zero is a normal and respectable place to begin.</p>
+</aside>
+<h2 class="editorial-heading">One structure, many languages</h2>
+<p>Why does it matter that the structure is shared? First, for learners: if you study French now and decide to try Breton next year, you do not need to learn a new way of learning. Second, for teachers and authors: a shared lesson shape makes it easier to check that every unit has a context, practice and review. And third, for honesty: the shape keeps us accountable. If a lesson skips a stage, we can see it.</p>
+<p>We should be clear about what this is. It is a framework we use and keep improving; it is not a promise of results. Languages take time, practice and patience, and different learners will need different amounts. What we can promise is that the path is clear, free and built with care.</p>
+
+<div class="gazette-quiz-card" data-quiz>
+  <h4 class="quiz-question">❓ In a COSY lesson, where does the explicit focus on grammar (form) usually come?</h4>
+  <div class="quiz-options-list" role="group">
+        <button type="button" class="quiz-option-btn" data-correct="false">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>Right at the start, before any text</span>
+        </button>
+      
+        <button type="button" class="quiz-option-btn" data-correct="true">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>After the learner has met the language in context and worked out its meaning</span>
+        </button>
+      
+        <button type="button" class="quiz-option-btn" data-correct="false">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>Only in the final review</span>
+        </button>
+      
+        <button type="button" class="quiz-option-btn" data-correct="false">
+          <span class="quiz-mark" aria-hidden="true">⚪</span> <span>It does not appear at all</span>
+        </button>
+      </div>
+  <p class="quiz-explanation" hidden aria-live="polite">Form follows context and meaning. Learners first see the language used for a purpose, then notice how it is built, and only then practise it in controlled and freer tasks.</p>
+</div>
+<p>If you would like to see the structure in action, start a lesson in any of the 14 languages. You will recognise the shape by the second unit, and I hope it feels like a friendly path.</p>
+
+<div class="gazette-link-block">
+  <a href="https://cosylanguages.github.io/COSYpractice/" class="read-more-link">Try a lesson on COSYpractice ↗</a>
+</div>
+<h2 class="editorial-heading">📚 Further reading</h2>
+<p>The ideas in this article rest on published research and teaching practice. Start with any of these:</p>
+<ul class="editorial-list">
+<li><strong>Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., &amp; Rohrer, D. (2006).</strong> Distributed practice in verbal recall tasks: A review and quantitative synthesis. <em>Psychological Bulletin, 132</em>(3), 354–380.</li>
+<li><strong>Council of Europe (2020).</strong> <em>Common European Framework of Reference for Languages: Learning, Teaching, Assessment – Companion Volume.</em> Council of Europe Publishing.</li>
+<li><strong>Ellis, R. (2003).</strong> <em>Task-based Language Learning and Teaching.</em> Oxford University Press.</li>
+<li><strong>Lightbown, P. M., &amp; Spada, N. (2013).</strong> <em>How Languages Are Learned</em> (4th ed.). Oxford University Press.</li>
+<li><strong>Scrivener, J. (2011).</strong> <em>Learning Teaching</em> (3rd ed.). Macmillan.</li>
+<li><strong>Willis, J. (1996).</strong> <em>A Framework for Task-Based Learning.</em> Longman.</li>
+</ul>
+            </article>
+
+            
+
+            
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#Curriculum</span> <span class="post-tag-chip">#CELTA</span> <span class="post-tag-chip">#14Languages</span> <span class="post-tag-chip">#CEFR</span>
+            </div>
+
+            <div class="gazette-folio">
+                <span>🗞️ COSYmagazine • Vol. 2026.08</span>
+                <a href="index.html" class="read-more-link" data-i18n="blog.return_to_index">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
+    </div>
+
+<footer id="cosy-footer"></footer>
+
+    <script src="js/shell.js"></script>
+    <script src="js/doodles.js"></script>
+    <script src="js/fulllist.js"></script>
+    <script src="js/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+
+      const postData = {"id":"post-building-cosy-master-curriculum","slug":"building-cosy-master-curriculum","language":"en","desk":"Front Page","format":"essay","level":"A0–B2","issue":{"number":"Vol. 2026.08","title":"Get ready for school"},"date":"2026-03-01","title":"How We Built the COSY Master Curriculum Across 14 Languages","kicker":"CURRICULUM","dek":"Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.","tags":["Curriculum","CELTA","14Languages","CEFR"],"readingTime":6,"podcast":{"episode":7,"audioUrl":null},"artDirection":{"palette":["#0d9488","#faf7f2","#1e3a8a","#f59e0b"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Caveat"},"layout":"magazine-spread","motif":"notebook-handwritten","seed":"building-cosy-master-curriculum","coverOverride":null},"blocks":[{"type":"paragraph","text":"When people ask what makes COSY lessons different, I usually say: nothing exotic. There is no secret trick. What we have is a **structure**, a lesson shape that we repeat carefully, level after level, in every language we teach. This article opens the notebook and shows how that structure is built, and why.","say":"When people ask what makes COSY lessons different, I usually say: nothing exotic. There is no secret trick. What we have is a structure, a lesson shape that we repeat carefully, level after level, in every language we teach. This article opens the notebook and shows how that structure is built, and why."},{"type":"heading","level":2,"text":"Levels first: A0 to C2","say":"Levels first: A0 to C2"},{"type":"paragraph","text":"Every COSY course is mapped to the CEFR, the Common European Framework of Reference for Languages. We use its six familiar levels (A1, A2, B1, B2, C1, C2) and add a gentle \u003cmark class=\"hl-handwritten\">A0\u003c/mark> at the start for people who are truly meeting the language for the first time. The CEFR is useful because it describes what a learner can *do*, not just what they know: introduce yourself, book a table, explain a problem, argue a point. Each COSY unit begins from a can-do statement like that, and everything in the lesson is chosen to make the statement true by the end.","say":"Every COSY course is mapped to the CEFR, the Common European Framework of Reference for Languages. We use its six familiar levels (A1, A2, B1, B2, C1, C2) and add a gentle A0 at the start for people who are truly meeting the language for the first time. The CEFR is useful because it describes what a learner can do, not just what they know: introduce yourself, book a table, explain a problem, argue a point. Each COSY unit begins from a can-do statement like that, and everything in the lesson is chosen to make the statement true by the end."},{"type":"heading","level":2,"text":"The same lesson shape in every language","say":"The same lesson shape in every language"},{"type":"paragraph","text":"COSY currently covers 14 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Greek, Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash. They are very different from each other, with different scripts, sounds and grammar. But the learner's journey through a lesson is the same, and that sameness is a feature. Once you have learned *how* a COSY lesson works in Spanish, you already know how it works in Georgian.","say":"COSY currently covers 14 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Greek, Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash. They are very different from each other, with different scripts, sounds and grammar. But the learner's journey through a lesson is the same, and that sameness is a feature. Once you have learned how a COSY lesson works in Spanish, you already know how it works in Georgian."},{"type":"paragraph","text":"The shape comes from the communicative, staged approach familiar to anyone who has trained for the CELTA. We do not claim it is the only way to teach. We chose it because it is clear, it is speaking-first, and it respects the learner's time.","say":"The shape comes from the communicative, staged approach familiar to anyone who has trained for the CELTA. We do not claim it is the only way to teach. We chose it because it is clear, it is speaking-first, and it respects the learner's time."},{"type":"pullquote","quote":"A good lesson is a staircase, not a cliff: every step is small enough to climb, and every step leads somewhere.","attribution":"JY DM","say":"A good lesson is a staircase, not a cliff: every step is small enough to climb, and every step leads somewhere."},{"type":"heading","level":2,"text":"The stages of a COSY lesson","say":"The stages of a COSY lesson"},{"type":"table","headers":["Stage","What the learner does","Example (A1, English)"],"rows":[["Lead-in","Warms up, activates what they already know, gets curious about the topic.","Looks at a photo of a school bag and says what they can see."],["Context","Meets the new language in a short spoken or written text, and reads or listens for the general idea first.","Listens to two students talking about their first day at school."],["Meaning","Works out what the new words and phrases mean from the context.","Matches \"timetable\", \"homework\" and \"break\" to pictures."],["Form","Notices how the language is built: word order, endings, patterns.","Spots the pattern in \"I have maths on Monday.\""],["Pronunciation","Practises the sounds, stress and rhythm of the new phrases.","Repeats \"Maths on Monday\" with the stress in the right place."],["Controlled practice","Uses the language in tightly guided tasks, with a high chance of success.","Completes sentences about a given timetable."],["Freer practice","Uses the language to communicate something real, with less support.","Tells a partner what their own week looks like."],["Review","Reflects on mistakes, revisits what was hard, and plans what to practise next.","Writes down two things to say more smoothly tomorrow."]],"caption":"The eight stages of a COSY lesson, shown with a single A1 example.","say":"Here are the eight stages of a COSY lesson: lead-in, context, meaning, form, pronunciation, controlled practice, freer practice and review."},{"type":"paragraph","text":"Notice where the grammar sits. It is not the opening move; it arrives in the middle, after the learner has met the language in context and understood what it is for. And notice the direction of travel: from controlled to freer. Early tasks are designed so you are very likely to succeed. Later tasks take the support away, little by little, until you are using the language to say something that is really yours.","say":"Notice where the grammar sits. It is not the opening move; it arrives in the middle, after the learner has met the language in context and understood what it is for. And notice the direction of travel: from controlled to freer. Early tasks are designed so you are very likely to succeed. Later tasks take the support away, little by little, until you are using the language to say something that is really yours."},{"type":"example","targetText":"\"I have English on Monday and Wednesday.\"","gloss":"A model sentence from the context stage. Learners meet it inside a short dialogue, then notice the pattern (have + subject + on + day) before they are asked to produce anything similar.","context":"Lesson on school timetables (A1).","say":"\"I have English on Monday and Wednesday.\". A model sentence from the context stage. Learners meet it inside a short dialogue, then notice the pattern (have + subject + on + day) before they are asked to produce anything similar."},{"type":"heading","level":2,"text":"Spaced practice: coming back on purpose","say":"Spaced practice: coming back on purpose"},{"type":"paragraph","text":"One of the oldest findings in memory research is that revisiting material after a gap helps it stick better than cramming it all in one sitting. We build this into the curriculum rather than leaving it to chance. A phrase that appears in a unit will return in later units, in a new context, so you meet it again just when it is starting to fade. Retrieval practice, trying to recall something rather than just re-reading it, is part of the same idea, and our review stages and quizzes are designed around it.","say":"One of the oldest findings in memory research is that revisiting material after a gap helps it stick better than cramming it all in one sitting. We build this into the curriculum rather than leaving it to chance. A phrase that appears in a unit will return in later units, in a new context, so you meet it again just when it is starting to fade. Retrieval practice, trying to recall something rather than just re-reading it, is part of the same idea, and our review stages and quizzes are designed around it."},{"type":"heading","level":2,"text":"Authentic tasks, not just exercises","say":"Authentic tasks, not just exercises"},{"type":"paragraph","text":"A worksheet can tell you whether you know a form. A task tells you whether you can **use** it. So each unit ends with something close to real life: leave a voice message to a friend, ask for directions, introduce your family, write a short reply to an invitation. We try to keep the language natural and the situation believable. If you would never say a sentence to another human being, we try not to ask you to practise it.","say":"A worksheet can tell you whether you know a form. A task tells you whether you can use it. So each unit ends with something close to real life: leave a voice message to a friend, ask for directions, introduce your family, write a short reply to an invitation. We try to keep the language natural and the situation believable. If you would never say a sentence to another human being, we try not to ask you to practise it."},{"type":"culture-bite","title":"Culture bite: why a base level is called A0","content":"The CEFR officially starts at A1, but many teachers talk about an informal \"A0\" for absolute beginners: the stage before you can reliably introduce yourself. At COSY we use the term as a friendly label for those first steps, such as learning to read a new alphabet, recognising a few sounds and saying hello. It reminds us that starting from zero is a normal and respectable place to begin.","say":"The CEFR officially starts at A1, but many teachers talk about an informal \"A0\" for absolute beginners: the stage before you can reliably introduce yourself. At COSY we use the term as a friendly label for those first steps, such as learning to read a new alphabet, recognising a few sounds and saying hello. It reminds us that starting from zero is a normal and respectable place to begin."},{"type":"heading","level":2,"text":"One structure, many languages","say":"One structure, many languages"},{"type":"paragraph","text":"Why does it matter that the structure is shared? First, for learners: if you study French now and decide to try Breton next year, you do not need to learn a new way of learning. Second, for teachers and authors: a shared lesson shape makes it easier to check that every unit has a context, practice and review. And third, for honesty: the shape keeps us accountable. If a lesson skips a stage, we can see it.","say":"Why does it matter that the structure is shared? First, for learners: if you study French now and decide to try Breton next year, you do not need to learn a new way of learning. Second, for teachers and authors: a shared lesson shape makes it easier to check that every unit has a context, practice and review. And third, for honesty: the shape keeps us accountable. If a lesson skips a stage, we can see it."},{"type":"paragraph","text":"We should be clear about what this is. It is a framework we use and keep improving; it is not a promise of results. Languages take time, practice and patience, and different learners will need different amounts. What we can promise is that the path is clear, free and built with care.","say":"We should be clear about what this is. It is a framework we use and keep improving; it is not a promise of results. Languages take time, practice and patience, and different learners will need different amounts. What we can promise is that the path is clear, free and built with care."},{"type":"quiz","question":"In a COSY lesson, where does the explicit focus on grammar (form) usually come?","options":["Right at the start, before any text","After the learner has met the language in context and worked out its meaning","Only in the final review","It does not appear at all"],"correctIndex":1,"explanation":"Form follows context and meaning. Learners first see the language used for a purpose, then notice how it is built, and only then practise it in controlled and freer tasks."},{"type":"paragraph","text":"If you would like to see the structure in action, start a lesson in any of the 14 languages. You will recognise the shape by the second unit, and I hope it feels like a friendly path.","say":"If you would like to see the structure in action, start a lesson in any of the 14 languages. You will recognise the shape by the second unit, and I hope it feels like a friendly path."},{"type":"links","destination":"practice","url":"https://cosylanguages.github.io/COSYpractice/","label":"Try a lesson on COSYpractice"}],"draft":false,"audio_podcast":false,"coverSvg":"\u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 600\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\" class=\"cosy-cover-art\" data-motif=\"notebook-handwritten\" data-seed=\"building-cosy-master-curriculum\" data-lang=\"en\">\n      \u003cdefs>\n        \u003cfilter id=\"soft-shadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n          \u003cfeDropShadow dx=\"2\" dy=\"3\" stdDeviation=\"3\" flood-color=\"#3C281E\" flood-opacity=\"0.10\" />\n        \u003c/filter>\n        \u003cfilter id=\"paper-grain\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\">\n          \u003cfeTurbulence type=\"fractalNoise\" baseFrequency=\"0.65\" numOctaves=\"3\" result=\"noise\" />\n          \u003cfeColorMatrix type=\"saturate\" values=\"0\" />\n          \u003cfeComponentTransfer>\n            \u003cfeFuncA type=\"linear\" slope=\"0.05\" />\n          \u003c/feComponentTransfer>\n          \u003cfeBlend mode=\"multiply\" in=\"SourceGraphic\" result=\"blend\" />\n        \u003c/filter>\n      \u003c/defs>\n      \u003cstyle>\n        @media (prefers-reduced-motion: reduce) {\n          .cosy-cover-art * { animation: none !important; transition: none !important; }\n        }\n      \u003c/style>\n      \n    \u003crect width=\"1200\" height=\"600\" fill=\"#f59e0b\" />\n    \u003cline x1=\"0\" y1=\"35\" x2=\"1200\" y2=\"35\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"63\" x2=\"1200\" y2=\"63\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"91\" x2=\"1200\" y2=\"91\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"119\" x2=\"1200\" y2=\"119\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"147\" x2=\"1200\" y2=\"147\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"175\" x2=\"1200\" y2=\"175\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"203\" x2=\"1200\" y2=\"203\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"231\" x2=\"1200\" y2=\"231\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"259\" x2=\"1200\" y2=\"259\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"287\" x2=\"1200\" y2=\"287\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"315\" x2=\"1200\" y2=\"315\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"343\" x2=\"1200\" y2=\"343\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"371\" x2=\"1200\" y2=\"371\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"399\" x2=\"1200\" y2=\"399\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"427\" x2=\"1200\" y2=\"427\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"455\" x2=\"1200\" y2=\"455\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"483\" x2=\"1200\" y2=\"483\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"511\" x2=\"1200\" y2=\"511\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"539\" x2=\"1200\" y2=\"539\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"567\" x2=\"1200\" y2=\"567\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\u003cline x1=\"0\" y1=\"595\" x2=\"1200\" y2=\"595\" stroke=\"#faf7f2\" stroke-width=\"1\" opacity=\"0.22\" />\n    \u003cline x1=\"168\" y1=\"0\" x2=\"168\" y2=\"600\" stroke=\"#225B58\" stroke-width=\"2\" opacity=\"0.35\" />\n    \u003cpath d=\"M 406 246 Q 426 226 446 246 T 466 246\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\u003cpath d=\"M 368 325 Q 383 310 398 325 T 413 325\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\u003cpath d=\"M 398 401 Q 421 378 444 401 T 467 401\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\u003cpath d=\"M 578 425 Q 613 390 648 425 T 683 425\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\u003cpath d=\"M 607 166 Q 625 148 643 166 T 661 166\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\u003cpath d=\"M 693 481 Q 710 464 727 481 T 744 481\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.25\" />\n  \n      \n      \u003cg transform=\"rotate(10 680 288)\">\n        \u003crect x=\"469\" y=\"168\" width=\"422\" height=\"240\" rx=\"6\" fill=\"#f59e0b\" opacity=\"0.3\" stroke=\"#225B58\" stroke-width=\"1\" filter=\"url(#soft-shadow)\" />\n      \u003c/g>\n    \n      \u003cg transform=\"rotate(3 680.5 231.5)\">\n        \u003crect x=\"449\" y=\"91\" width=\"463\" height=\"281\" rx=\"6\" fill=\"#faf7f2\" opacity=\"0.3\" stroke=\"#225B58\" stroke-width=\"1\" filter=\"url(#soft-shadow)\" />\n      \u003c/g>\n    \n      \u003cg transform=\"rotate(-8 558.5 223.5)\">\n        \u003crect x=\"356\" y=\"87\" width=\"405\" height=\"273\" rx=\"6\" fill=\"#f59e0b\" opacity=\"0.3\" stroke=\"#225B58\" stroke-width=\"1\" filter=\"url(#soft-shadow)\" />\n      \u003c/g>\n    \n      \u003cg transform=\"rotate(-5 500.5 198)\">\n        \u003crect x=\"254\" y=\"96\" width=\"493\" height=\"204\" rx=\"6\" fill=\"#FFFFFF\" opacity=\"0.3\" stroke=\"#225B58\" stroke-width=\"1\" filter=\"url(#soft-shadow)\" />\n      \u003c/g>\n    \n      \n    \u003cg class=\"cover-torn-paper\" filter=\"url(#soft-shadow)\">\n      \u003cpolygon points=\"1017,0 1200,0 1200,270 1185,252 1165,276 1140,228 1110,245.99999999999997 1080,210 1050,234 1020,192 1037,150 1017,0\" fill=\"#FCF9F2\" opacity=\"0.9\" stroke=\"#225B58\" stroke-width=\"0.8\" stroke-dasharray=\"3 2\" />\n    \u003c/g>\n  \n      \n    \u003cg transform=\"rotate(-4 549 36)\" filter=\"url(#soft-shadow)\">\n      \u003crect x=\"489\" y=\"24\" width=\"120\" height=\"24\" rx=\"2\" fill=\"#faf7f2\" opacity=\"0.45\" />\n      \u003cline x1=\"489\" y1=\"24\" x2=\"489\" y2=\"48\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-dasharray=\"2 2\" opacity=\"0.7\" />\n      \u003cline x1=\"609\" y1=\"24\" x2=\"609\" y2=\"48\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-dasharray=\"2 2\" opacity=\"0.7\" />\n    \u003c/g>\n  \n      \n    \u003cg class=\"cover-tiny-doodles\" stroke=\"#225B58\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.7\">\n      \u003c!-- Four-pointed sparkle doodle -->\n      \u003cpath d=\"M 889 31 Q 889 43 901 43 Q 889 43 889 55 Q 889 43 877 43 Q 889 43 889 31 Z\" fill=\"#faf7f2\" opacity=\"0.3\" />\n      \u003cpath d=\"M 934 73 Q 934 81 942 81 Q 934 81 934 89 Q 934 81 926 81 Q 934 81 934 73 Z\" stroke=\"#faf7f2\" stroke-width=\"1\" />\n      \u003c!-- Botanical sprig doodle -->\n      \u003cpath d=\"M 70 120 C 80 105, 65 85, 85 70\" />\n      \u003ccircle cx=\"74\" cy=\"105\" r=\"3\" fill=\"#225B58\" opacity=\"0.5\" />\n      \u003ccircle cx=\"80\" cy=\"88\" r=\"3\" fill=\"#faf7f2\" opacity=\"0.5\" />\n    \u003c/g>\n  \n      \n    \u003cg class=\"cover-sketchy-underline\">\n      \u003cpath d=\"M 100 563 Q 230 560 359 566\" stroke=\"#faf7f2\" stroke-width=\"2.5\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.75\" />\n      \u003cpath d=\"M 110 566 Q 230 563 349 565\" stroke=\"#225B58\" stroke-width=\"1.5\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.5\" />\n    \u003c/g>\n  \n      \n    \u003cg class=\"cover-masthead-label\" filter=\"url(#soft-shadow)\">\n      \u003crect x=\"20\" y=\"20\" width=\"236\" height=\"30\" rx=\"4\" fill=\"#FCF9F2\" opacity=\"0.95\" stroke=\"#faf7f2\" stroke-width=\"1.2\" />\n      \u003ctext x=\"34\" y=\"40\" fill=\"#0d9488\" font-family=\"Fraunces, 'Lora', Georgia, serif\" font-size=\"11\" font-weight=\"bold\" letter-spacing=\"1.4\">COSYMAGAZINE • FRONT PAGE\u003c/text>\n    \u003c/g>\n  \n      \n      \u003crect width=\"1200\" height=\"600\" filter=\"url(#paper-grain)\" opacity=\"0.5\" pointer-events=\"none\" />\n    \u003c/svg>"};
+
+      async function initStageOrPodcast() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const isStage = urlParams.get('stage') === '1';
+        const isScript = urlParams.get('script') === '1';
+
+        if (isStage || isScript) {
+          const { StageController } = await import('./js/stage/stage.js');
+          new StageController(document.getElementById('gazette-stage-root'), postData);
+        } else {
+          const pBox = document.getElementById('podcast-box-container');
+          if (pBox && (postData.podcast || postData.audio_podcast)) {
+            new PodcastBoxComponent({ container: pBox, post: postData });
+          }
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        initStageOrPodcast();
+
+        document.querySelectorAll('a[href*="?stage=1"], a[href*="?script=1"]').forEach(link => {
+          link.addEventListener('click', async (e) => {
+            const href = link.getAttribute('href');
+            if (href && href.startsWith('?')) {
+              e.preventDefault();
+              history.pushState(null, '', href);
+              const { StageController } = await import('./js/stage/stage.js');
+              new StageController(document.getElementById('gazette-stage-root'), postData);
+            }
+          });
+        });
+      });
+    </script>
+</body>
+</html>

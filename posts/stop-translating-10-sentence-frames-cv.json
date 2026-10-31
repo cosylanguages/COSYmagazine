@@ -53,6 +53,82 @@
       "text": "Чӑвашла тӳррӗн аңлатни сӑмахлав хӑвӑртлӑхне жӳтерет. Ку 10 структура ҫынсене, вырӑнсене тата япаласене сӑнлама пулӑшать."
     },
     {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-cv",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ку... ҫын.",
+          "Ку ачасене вӗрентекен ҫын.",
+          "Вӗрентекен"
+        ],
+        [
+          "2",
+          "Ку... вырӑн.",
+          "Ку апат-ҫимӗҫ илекен вырӑн.",
+          "Пазар / Магазин"
+        ],
+        [
+          "3",
+          "Ку... япала.",
+          "Ку вӑхӑта кӑтартакан япала.",
+          "Сехет"
+        ],
+        [
+          "4",
+          "Куна... валли усӑ кураҫҫӗ.",
+          "Куна ҫырма валли усӑ кураҫҫӗ.",
+          "Карандаш / Ручка"
+        ],
+        [
+          "5",
+          "Ку... вӑхӑт.",
+          "Ку ҫынсем ҫывӑракан вӑхӑт.",
+          "Ҫӗр"
+        ],
+        [
+          "6",
+          "Ку... кун.",
+          "Ку уявлакан кун.",
+          "Уяв"
+        ],
+        [
+          "7",
+          "Тӗслӗхрен...",
+          "Манӑн спорт кӑмӑла каять. Тӗслӗхрен, футбол.",
+          ""
+        ],
+        [
+          "8",
+          "Ку... пӗлтерет.",
+          "'Пысӑк' сӑмах пӗчӗк маррине пӗлтерет.",
+          ""
+        ],
+        [
+          "9",
+          "Ку... евӗрлӗ.",
+          "Ку пӗчӗк компютер евӗрлӗ.",
+          ""
+        ],
+        [
+          "10",
+          "Чӑвашла мӗнле каламалла?",
+          "Куна чӑвашла мӗнле каламалла?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
       "type": "heading",
       "level": 3,
       "text": "💡 10 тӗп преджени структури"
@@ -102,6 +178,30 @@
     {
       "type": "paragraph",
       "text": "Ирӗклӗ калаҫни — пӗтӗм сӑмаха пӗлни мар, сӑмахсӑр ларассинчен пӑрӑнни. Ку структурӑсемпе усӑ куруҫӗ!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
     }
   ],
   "draft": false
