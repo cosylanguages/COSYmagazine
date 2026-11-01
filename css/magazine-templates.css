@@ -1848,3 +1848,144 @@ html[data-theme="dark"] .ppt-slide-footer {
 .quiz-option-btn:disabled { cursor: default; opacity: 0.9; }
 .quiz-explanation { font-style: normal; font-size: var(--blog-text-sm, 0.9rem); }
 .gazette-figure-img { max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px; }
+
+/* ==========================================================================
+   LESSON COMPONENTS (lx-*)
+   Diagrams and teaching aids for verb lessons. Plain HTML + CSS so they reflow
+   on phones, follow the light/dark tokens and stay readable by screen readers.
+   Used from `paragraph` blocks (raw HTML) in posts/*.json.
+   ========================================================================== */
+.lx-fig {
+  --lx-ink: var(--blog-ink-primary, #1c1917);
+  --lx-soft: var(--blog-ink-secondary, #44403c);
+  --lx-muted: var(--blog-ink-muted, #78716c);
+  --lx-card: var(--blog-paper-card, #fff);
+  --lx-aged: var(--blog-paper-aged, #f3ede4);
+  --lx-line: var(--blog-border-delicate, #e7e0d6);
+  --lx-teal: var(--blog-accent-teal, #0d9488);
+  --lx-gold: var(--blog-accent-gold, #b45309);
+  --lx-red: var(--blog-accent-crimson, #be123c);
+  margin: 1.4rem 0; padding: 1rem 1.1rem 1.1rem; border: 1px solid var(--lx-line); border-radius: 14px;
+  background: var(--lx-card); color: var(--lx-ink); font-family: var(--blog-font-body, 'DM Sans', sans-serif);
+  font-size: .98rem; line-height: 1.5; box-sizing: border-box;
+}
+.lx-fig *, .lx-fig *::before, .lx-fig *::after { box-sizing: border-box; }
+.lx-cap { margin: .9rem 0 0; font-size: .85rem; color: var(--lx-muted); }
+.lx-title { margin: 0 0 .75rem; font-weight: 700; font-size: 1rem; color: var(--lx-ink); }
+.lx-label { display: block; margin-bottom: .4rem; font-size: .8rem; font-weight: 700; color: var(--lx-muted); }
+.lx-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0; padding: 0; list-style: none; }
+.lx-chip { padding: .2rem .6rem; border-radius: 999px; background: var(--lx-aged); border: 1px solid var(--lx-line); font-size: .92rem; white-space: nowrap; }
+.lx-chip-verb { background: color-mix(in srgb, var(--lx-teal) 14%, transparent); border-color: color-mix(in srgb, var(--lx-teal) 45%, transparent); font-weight: 700; }
+.lx-chip-hot { background: color-mix(in srgb, var(--lx-gold) 16%, transparent); border-color: color-mix(in srgb, var(--lx-gold) 50%, transparent); font-weight: 700; }
+.lx-op { align-self: center; font-size: 1.5rem; font-weight: 700; color: var(--lx-teal); text-align: center; }
+.lx-ex { color: var(--lx-soft); font-style: italic; }
+.lx-hl { background: color-mix(in srgb, var(--lx-gold) 28%, transparent); border-radius: 4px; padding: 0 .2em; font-style: normal; font-weight: 700; color: var(--lx-ink); }
+.lx-bad { color: var(--lx-red); text-decoration: line-through; text-decoration-thickness: 1.5px; }
+.lx-good { color: var(--lx-teal); font-weight: 600; }
+
+/* Sentence engine: who + verb + what */
+.lx-engine-row { display: grid; grid-template-columns: 1fr auto 1.25fr auto 1fr; gap: .8rem; align-items: start; }
+@media (max-width: 720px) { .lx-engine-row { grid-template-columns: 1fr; } .lx-op { transform: none; line-height: 1; } }
+
+/* Groups: which form goes with which subject */
+.lx-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: .6rem; }
+.lx-group { border: 1px solid var(--lx-line); border-top: 4px solid var(--lx-teal); border-radius: 10px; padding: .7rem .8rem; background: var(--lx-aged); }
+.lx-group:nth-child(2) { border-top-color: var(--lx-gold); }
+.lx-group:nth-child(3) { border-top-color: var(--lx-red); }
+.lx-group-form { display: block; font-family: var(--blog-font-display, serif); font-size: 1.7rem; font-weight: 700; line-height: 1.1; }
+.lx-group-sub { display: block; margin: .15rem 0 .5rem; font-size: .82rem; color: var(--lx-muted); }
+
+/* Cards (uses of a verb, choices) */
+.lx-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: .8rem; }
+.lx-card { border: 1px solid var(--lx-line); border-radius: 10px; padding: .75rem .85rem; background: var(--lx-aged); }
+.lx-card-head { display: flex; align-items: center; gap: .5rem; margin-bottom: .3rem; font-weight: 700; }
+.lx-card-icon { font-size: 1.35rem; line-height: 1; }
+.lx-card p { margin: .2rem 0; font-size: .92rem; }
+.lx-core { margin: 0 0 .8rem; padding: .55rem .8rem; text-align: center; border-radius: 10px; font-weight: 700; font-size: 1.05rem;
+  background: color-mix(in srgb, var(--lx-teal) 14%, transparent); border: 1px dashed color-mix(in srgb, var(--lx-teal) 55%, transparent); }
+
+/* Scale: a line of choices from one end to the other */
+.lx-scale { position: relative; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: .5rem; margin: .4rem 0 0; padding: 1.6rem 0 0; list-style: none; }
+.lx-scale::before { content: ""; position: absolute; left: 0; right: 0; top: .55rem; height: 6px; border-radius: 6px;
+  background: linear-gradient(90deg, var(--lx-red), var(--lx-gold), var(--lx-teal)); }
+.lx-scale li { position: relative; padding: .5rem .55rem; border: 1px solid var(--lx-line); border-radius: 10px; background: var(--lx-aged); font-size: .9rem; }
+.lx-scale li::before { content: ""; position: absolute; top: -1.35rem; left: 50%; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%;
+  background: var(--lx-card); border: 3px solid var(--lx-ink); }
+.lx-scale b { display: block; font-size: .95rem; }
+.lx-scale span { display: block; color: var(--lx-muted); font-size: .8rem; margin-top: .15rem; }
+@media (max-width: 720px) {
+  .lx-scale { grid-auto-flow: row; padding: 0 0 0 1.6rem; }
+  .lx-scale::before { left: .55rem; right: auto; top: 0; bottom: 0; width: 6px; height: auto; background: linear-gradient(180deg, var(--lx-red), var(--lx-gold), var(--lx-teal)); }
+  .lx-scale li::before { top: 50%; left: -1.6rem; margin: -7px 0 0 -1px; }
+}
+
+/* Ladder: same idea, from blunt to polite */
+.lx-ladder { margin: 0; padding: 0; list-style: none; display: grid; gap: .5rem; counter-reset: lx; }
+.lx-ladder li { position: relative; padding: .55rem .8rem; border-radius: 10px; border: 1px solid var(--lx-line); background: var(--lx-aged); }
+.lx-ladder li:nth-child(2) { margin-left: 1rem; } .lx-ladder li:nth-child(3) { margin-left: 2rem; } .lx-ladder li:nth-child(4) { margin-left: 3rem; }
+.lx-ladder b { display: block; }
+.lx-ladder small { color: var(--lx-muted); font-size: .82rem; }
+.lx-ladder li.lx-no { border-color: color-mix(in srgb, var(--lx-red) 50%, transparent); }
+.lx-ladder li.lx-yes { border-color: color-mix(in srgb, var(--lx-teal) 55%, transparent); background: color-mix(in srgb, var(--lx-teal) 10%, var(--lx-aged)); }
+@media (max-width: 520px) { .lx-ladder li:nth-child(n) { margin-left: 0; } }
+
+/* Decision flow */
+.lx-flow { display: grid; gap: .3rem; }
+.lx-step { display: grid; grid-template-columns: minmax(150px, 1fr) 1.6fr; gap: .6rem; align-items: stretch; }
+.lx-q { padding: .6rem .8rem; border-radius: 10px; font-weight: 700; background: color-mix(in srgb, var(--lx-gold) 14%, transparent); border: 1px solid color-mix(in srgb, var(--lx-gold) 50%, transparent); }
+.lx-a { padding: .6rem .8rem; border-radius: 10px; background: var(--lx-aged); border: 1px solid var(--lx-line); }
+.lx-a b.lx-tag { display: inline-block; margin-right: .35rem; padding: 0 .45rem; border-radius: 6px; font-size: .78rem; color: #fff; background: var(--lx-teal); }
+.lx-then { text-align: center; color: var(--lx-muted); font-size: .82rem; line-height: 1.2; }
+@media (max-width: 640px) { .lx-step { grid-template-columns: 1fr; } }
+
+/* Timeline: past, now, future */
+.lx-timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; padding-top: 1.7rem; }
+.lx-timeline::before { content: ""; position: absolute; left: 0; right: 0; top: .6rem; height: 4px; border-radius: 4px; background: var(--lx-line); }
+.lx-time { position: relative; padding: .7rem .8rem; border: 1px solid var(--lx-line); border-radius: 10px; background: var(--lx-aged); }
+.lx-time::before { content: ""; position: absolute; top: -1.45rem; left: 50%; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: var(--lx-teal); border: 3px solid var(--lx-card); }
+.lx-time:nth-child(1)::before { background: var(--lx-muted); } .lx-time:nth-child(3)::before { background: var(--lx-gold); }
+.lx-time h5 { margin: 0 0 .3rem; font-size: .95rem; }
+.lx-time p { margin: .15rem 0; font-size: .92rem; }
+@media (max-width: 640px) { .lx-timeline { grid-template-columns: 1fr; padding: 0 0 0 1.6rem; } .lx-timeline::before { left: .5rem; right: auto; top: 0; bottom: 0; width: 4px; height: auto; }
+  .lx-time::before { top: 1rem; left: -1.6rem; margin: 0; } }
+
+/* The -s travels: affirmative / negative / question */
+.lx-sflow { display: grid; grid-template-columns: auto 1fr; gap: .4rem .8rem; align-items: center; }
+.lx-sflow .lx-sign { display: inline-grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; font-weight: 800; color: #fff; background: var(--lx-teal); }
+.lx-sflow .lx-sign.neg { background: var(--lx-red); } .lx-sflow .lx-sign.q { background: var(--lx-gold); }
+.lx-sflow .lx-line { padding: .4rem .7rem; border-radius: 8px; background: var(--lx-aged); border: 1px solid var(--lx-line); font-size: 1.02rem; }
+
+/* Three columns: eat / have / drink */
+.lx-triple { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: .7rem; }
+.lx-triple > div { border: 1px solid var(--lx-line); border-radius: 10px; padding: .7rem .8rem; background: var(--lx-aged); }
+.lx-triple > div:nth-child(2) { background: color-mix(in srgb, var(--lx-gold) 12%, var(--lx-aged)); border-color: color-mix(in srgb, var(--lx-gold) 45%, transparent); }
+.lx-triple h5 { margin: 0 0 .3rem; font-size: 1.05rem; } .lx-triple p { margin: .15rem 0; font-size: .92rem; }
+@media (max-width: 640px) { .lx-triple { grid-template-columns: 1fr; } }
+
+/* Dialogue */
+.lx-dialogue { display: grid; gap: .5rem; }
+.lx-say { max-width: 88%; padding: .5rem .8rem; border-radius: 14px; background: var(--lx-aged); border: 1px solid var(--lx-line); margin: 0; }
+.lx-say b { display: block; font-size: .75rem; color: var(--lx-muted); }
+.lx-say:nth-child(even) { justify-self: end; background: color-mix(in srgb, var(--lx-teal) 13%, var(--lx-card)); border-color: color-mix(in srgb, var(--lx-teal) 40%, transparent); }
+
+/* Boxes for rules and tips */
+.lx-warn, .lx-tip { margin: 1.1rem 0; padding: .75rem 1rem; border-radius: 10px; border-left: 5px solid var(--blog-accent-gold, #b45309); background: color-mix(in srgb, var(--blog-accent-gold, #b45309) 11%, var(--blog-paper-card, #fff)); color: var(--blog-ink-primary, #1c1917); font-size: .98rem; line-height: 1.55; }
+.lx-tip { border-left-color: var(--blog-accent-teal, #0d9488); background: color-mix(in srgb, var(--blog-accent-teal, #0d9488) 10%, var(--blog-paper-card, #fff)); }
+.lx-warn p, .lx-tip p { margin: .25rem 0; }
+.lx-warn > strong:first-child, .lx-tip > strong:first-child { display: block; margin-bottom: .15rem; }
+table.lx-mistakes td:first-child { color: var(--blog-accent-crimson, #be123c); }
+table.lx-mistakes td:first-child s { text-decoration-thickness: 1.5px; }
+table.lx-mistakes td:nth-child(2) { color: var(--blog-accent-teal, #0d9488); font-weight: 600; }
+.lx-pron { font-family: 'Segoe UI', 'Noto Sans', 'DejaVu Sans', sans-serif; letter-spacing: .01em; }
+@media print { .lx-fig { break-inside: avoid; } }
+
+/* Lesson components, round 2: grids of forms and "sandwich" patterns */
+.lx-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+.lx-cell { padding: .55rem .7rem; border: 1px solid var(--lx-line); border-radius: 10px; background: var(--lx-aged); font-size: 1.02rem; }
+.lx-cell b { font-weight: 700; }
+.lx-cell small { display: block; margin-top: .1rem; color: var(--lx-muted); font-size: .78rem; }
+.lx-cell.s1 { border-top: 4px solid var(--lx-teal); } .lx-cell.s2 { border-top: 4px solid var(--lx-gold); } .lx-cell.s3 { border-top: 4px solid var(--lx-red); }
+@media (max-width: 520px) { .lx-grid3 { grid-template-columns: repeat(2, 1fr); } }
+.lx-neg { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .5rem; margin: .2rem 0 .8rem; font-size: 1.15rem; }
+.lx-neg .lx-chip { font-size: 1.05rem; padding: .3rem .9rem; }
+.lx-neg .lx-plus { color: var(--lx-teal); font-weight: 800; }

@@ -178,7 +178,8 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
-      return `<h${lvl} class="editorial-heading">${parseFormattedText(block.text)}</h${lvl}>`;
+      const idAttr = block.id && /^[a-z][a-z0-9-]*$/.test(block.id) ? ` id="${block.id}"` : '';
+      return `<h${lvl} class="editorial-heading"${idAttr}>${parseFormattedText(block.text)}</h${lvl}>`;
     }
     case 'paragraph': {
       const parsedText = parseFormattedText(block.text);
@@ -322,7 +323,15 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
 
 function renderLanguageSwitcherHtml(currentPost, allPosts, langDict, lang) {
   const baseSlug = currentPost.translationOf || (currentPost.slug.replace(/-(fr|it|ru|el|tt|ba|br|pt|es|de|hy|ka|cv|en)$/, ''));
-  const variants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
+  const rawVariants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
+  // One entry per language. When a legacy base/hub post and an explicit language edition share a
+  // language (e.g. top-10-verbs and top-10-verbs-en), the edition is the one readers should reach.
+  const byLang = new Map();
+  rawVariants.forEach(v => {
+    const seen = byLang.get(v.language);
+    if (!seen || (v.translationOf && !seen.translationOf)) byLang.set(v.language, v);
+  });
+  const variants = [...byLang.values()];
 
   if (variants.length <= 1) return '';
 
@@ -606,6 +615,12 @@ async function buildBlog() {
       audio_podcast: false,
       coverSvg: coverSvgHtml
     };
+    // Optional per-post pagination tuning for long lesson pages (see docs/BLOG_AUTHORING.md):
+    //   "flipbook": { "pageLimit": 12, "headingBreakAfter": 6 }
+    const flip = post.flipbook || {};
+    const flipAttrs = (Number.isInteger(flip.pageLimit) ? ` data-flip-limit="${flip.pageLimit}"` : '') +
+      (Number.isInteger(flip.headingBreakAfter) ? ` data-flip-heading-break="${flip.headingBreakAfter}"` : '');
+
 
     const htmlContent = `<!DOCTYPE html>
 <html lang="${escapeHtml(post.language)}">
@@ -701,14 +716,14 @@ async function buildBlog() {
 
         <!-- Main Gazette Content Spread -->
         <main class="gazette-reading-view">
-            <article class="post-full-content gazette-article">
-                ${renderedBlocksHtml}
-            </article>
-
             ${playerReady ? `
-            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-bottom: 1.75rem;">
                 ${staticPodcastBoxHtml}
             </div>` : ''}
+
+            <article class="post-full-content gazette-article"${flipAttrs}>
+                ${renderedBlocksHtml}
+            </article>
 
             ${post.tags && post.tags.length > 0 ? `
             <div class="post-tags-row" style="margin-top: 2rem;">

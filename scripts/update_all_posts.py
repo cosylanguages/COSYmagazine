@@ -629,6 +629,15 @@ for code, lang in languages_data.items():
         if code == "en" and not is_part_2:
             continue
         filepath = os.path.join(posts_dir, f"{slug}.json")
+        # Hand-written lessons carry "handAuthored": true and must never be regenerated from templates.
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as existing_post:
+                    if json.load(existing_post).get("handAuthored") is True:
+                        print(f"Skipping hand-authored post: {slug}")
+                        continue
+            except (OSError, ValueError):
+                pass
 
         post_obj = {
             "id": f"post-{slug}",

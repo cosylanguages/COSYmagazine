@@ -111,15 +111,15 @@
         map.get(key).push(p);
       });
       return [...map.values()].map((rawVariants) => {
-        const seenLangs = new Set();
-        const variants = [];
+        // One variant per language; an explicit language edition beats a legacy base/hub post
+        // (e.g. top-10-verbs-en is shown instead of the top-10-verbs hub).
+        const byLang = new Map();
         for (const v of rawVariants) {
-          if (!seenLangs.has(v.language)) {
-            seenLangs.add(v.language);
-            variants.push(v);
-          }
+          const seen = byLang.get(v.language);
+          if (!seen || (v.translationOf && !seen.translationOf)) byLang.set(v.language, v);
         }
-        variants.sort((a, b) => (a.translationOf ? 1 : 0) - (b.translationOf ? 1 : 0));
+        const variants = [...byLang.values()];
+        variants.sort((a, b) => (a.language === 'en' ? 0 : 1) - (b.language === 'en' ? 0 : 1));
         return { base: variants[0], variants };
       });
     }

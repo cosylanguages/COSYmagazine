@@ -234,3 +234,52 @@ Paste **one link** per episode in `podcast`: `externalUrl` (Spotify, Spotify for
 ## Newsstand languages
 
 The home page shows cards in **English, French, Italian, Russian and Greek**, following the language selected in the site navigation. Articles with no version in that language show the original, tagged "Only in English".
+
+---
+
+## Long-form lessons (verb spreads, diagrams)
+
+The "Top 10 verbs, part 1" editions (`posts/top-10-verbs-{en,fr,it,ru,el}.json`) are the reference for a full lesson. Each language edition is **written natively for that language**, not translated.
+
+### Anchors
+Give a `heading` block an `id` (lowercase letters, digits, hyphens) to make a stable deep link:
+
+```json
+{ "type": "heading", "level": 2, "text": "Verb 1 — be", "id": "verb-be" }
+```
+
+The flipbook opens whichever page the element ended up on for `…html#verb-be`. Prefer these over `#page-N`, whose numbers change when content changes.
+
+### Pagination (opt-in)
+Pages normally break after about 4–10 blocks. Long lessons can opt in to roomier pages:
+
+```json
+"flipbook": { "pageLimit": 12, "headingBreakAfter": 6 }
+```
+
+Posts without this field paginate exactly as before.
+
+### Diagram components (`lx-*`)
+Use the rich-block convention: put the HTML in `html` and a plain-text description in `text` (Stage and Teleprompter read `text`). Page-break rules are `{ "type": "paragraph", "webOnly": true, "html": "<hr>", "text": "" }`. Components live in `css/magazine-templates.css`, section "LESSON COMPONENTS":
+
+| Component | Use it for |
+|---|---|
+| `.lx-fig` + `.lx-engine-row` / `.lx-chips` | "who + verb + what" sentence builder |
+| `.lx-groups`, `.lx-grid3` / `.lx-cell` | which form goes with which subject; conjugation grids |
+| `.lx-cards` (+ `.lx-core`) | the uses of a verb, choices |
+| `.lx-scale` (`<ol>`) | a line from one end to the other (sure ↔ unsure, hate ↔ love) |
+| `.lx-ladder` | blunt → polite |
+| `.lx-flow` (`.lx-step`, `.lx-q`, `.lx-a`) | decision chart |
+| `.lx-timeline` (`.lx-time`) | past / now / future |
+| `.lx-sflow` | affirmative / negative / question side by side |
+| `.lx-triple`, `.lx-neg` | three-way contrast; negation "sandwich" |
+| `.lx-dialogue` (`.lx-say`) | short dialogues |
+| `.lx-warn`, `.lx-tip`, `table.lx-mistakes` | rules, tips, "not this / say this / why" |
+
+Use design tokens (`--blog-*`), never hard-coded colours.
+
+### Protecting hand-written lessons
+`scripts/update_all_posts.py` regenerates the multilingual verb posts from templates. A post that contains `"handAuthored": true` is **skipped** by that script, so hand-written lessons are never overwritten. The five "Top 10 verbs, part 1" editions carry this flag.
+
+### Newsstand: edition vs legacy hub
+When a legacy base post and an explicit language edition share a language (for example `top-10-verbs` and `top-10-verbs-en`), the newsstand and the language switcher use the edition.

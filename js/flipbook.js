@@ -59,16 +59,26 @@
             this.initZoomControls();
 
             // Handle URL hash on load (e.g. #page-3)
-            const hashMatch = window.location.hash.match(/^#page-(\d+)$/);
-            if (hashMatch) {
-                const requestedPage = parseInt(hashMatch[1], 10);
-                if (requestedPage >= 1 && requestedPage <= this.totalPages) {
-                    this.currentPage = requestedPage;
-                }
+            const requestedPage = this.pageFromHash(window.location.hash);
+            if (requestedPage >= 1 && requestedPage <= this.totalPages) {
+                this.currentPage = requestedPage;
             }
 
             this.applyMode();
             this.showPage(this.currentPage);
+        },
+
+        // Resolve a URL hash to a page number: "#page-3", or the id of any element in the article
+        // (e.g. "#verb-be" on a heading), which opens the page that element ended up on.
+        pageFromHash: function (hash) {
+            if (!hash || hash === '#') return 0;
+            const m = hash.match(/^#page-(\d+)$/);
+            if (m) return parseInt(m[1], 10);
+            let id = hash.slice(1);
+            try { id = decodeURIComponent(id); } catch (e) { /* keep raw id */ }
+            const target = this.container && this.container.querySelector('[id="' + id.replace(/"/g, '') + '"]');
+            const pageEl = target && target.closest('.flipbook-page');
+            return pageEl ? parseInt(pageEl.getAttribute('data-page'), 10) || 0 : 0;
         },
 
         initLiveAnnouncer: function () {
@@ -151,6 +161,12 @@
             const pagesData = [[]];
             let currentPageIndex = 0;
             let currentItemCount = 0;
+            // Defaults keep every existing article paginating exactly as before; a post can opt in to
+            // roomier pages with "flipbook": { pageLimit, headingBreakAfter } in its JSON.
+            const num = (v, d) => { const n = parseInt(v, 10); return n > 0 ? n : d; };
+            const baseLimit = num(this.container.getAttribute('data-flip-limit'), 10);
+            const headingBreakAfter = num(this.container.getAttribute('data-flip-heading-break'), 4);
+            const headingLimit = baseLimit === 10 ? 6 : baseLimit;
 
             for (let i = 0; i < children.length; i++) {
                 const child = children[i];
@@ -166,8 +182,8 @@
 
                 // Adjusted page limit for magazine spreads: allow 8-12 paragraph/block items per page
                 // break page only on explicit hr, major section heading with enough preceding items, or when reaching item limit
-                const pageLimit = isHeading ? 6 : 10;
-                if ((isHr || isPageBreak || (isHeading && currentItemCount >= 4) || (isSpreadBlock && !pageHasOnlyHeadings) || currentItemCount >= pageLimit) && pagesData[currentPageIndex].length > 0) {
+                const pageLimit = isHeading ? headingLimit : baseLimit;
+                if ((isHr || isPageBreak || (isHeading && currentItemCount >= headingBreakAfter) || (isSpreadBlock && !pageHasOnlyHeadings) || currentItemCount >= pageLimit) && pagesData[currentPageIndex].length > 0) {
                     currentPageIndex++;
                     pagesData[currentPageIndex] = [];
                     currentItemCount = 0;
@@ -546,9 +562,8 @@
 
             // Hashchange navigation support for browser back/forward buttons & deep links
             window.addEventListener('hashchange', () => {
-                const match = window.location.hash.match(/^#page-(\d+)$/);
-                if (match) {
-                    const p = parseInt(match[1], 10);
+                const p = this.pageFromHash(window.location.hash);
+                if (p) {
                     if (p >= 1 && p <= this.totalPages && p !== this.currentPage) {
                         this.showPage(p, false);
                     }
