@@ -13,7 +13,7 @@
   "date": "2027-02-01",
   "title": "I 10 verbi essenziali in italiano, Parte 3 (A0–A1 / A2)",
   "kicker": "GUIDA ALL'ITALIANO — PARTE 3 DI 3",
-  "dek": "Scopri i 10 verbi fondamentali (scegliere/comprare/pagare, ricordare/dimenticare, sentirsi, incontrare, decidere, scrivere/leggere/digitare, spendere/sprecare, giocare/suonare, essere d'accordo/discordare, inviare/ricevere). Tabelle di coniugazione su COSYtools.",
+  "dek": "Scopri i 10 verbi fondamentali (pagare/comprare, ricordare/dimenticare, sentirsi, incontrare, decidere/risolvere, spendere/sprecare, inviare/ricevere, aiutare, chiamare/mandare un messaggio, essere d'accordo/non essere d'accordo). Tabelle di coniugazione su COSYtools.",
   "tags": [
     "Verbs",
     "Italian",
@@ -55,16 +55,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Scegliere / Comprare / Pagare:** Scelta e commercio.\n  • *Frasi semplici:* 'Scegliere un libro', 'Comprare il pane', 'Pagare con carta'.\n  • *Espressioni:* 'scegliere bene', 'comprare online', 'pagare la cena'.",
+        "**1. Pagare / Comprare:** Transazioni e commercio.\n  • *Frasi semplici:* 'Comprare il pane', 'Pagare con carta'.\n  • *Espressioni:* 'comprare online', 'pagare la cena'.",
         "**2. Ricordare / Dimenticare:** Memoria e cognizione.\n  • *Frasi semplici:* 'Ricordo il tuo nome', 'Non dimenticare le chiavi!'.\n  • *Espressioni:* 'ricordarsi di', 'ho dimenticato la password'.",
         "**3. Sentirsi:** Stato fisico ed emotivo.\n  • *Frasi semplici:* 'Mi sento bene', 'Lei ha freddo', 'Come ti senti?'.\n  • *Espressioni:* 'sentirsi stanco', 'sentirsi a casa'.",
         "**4. Incontrare / Incontrarsi:** Relazioni sociali.\n  • *Frasi semplici:* 'Piacere di incontrarti', 'Ci troviamo alle 17'.\n  • *Espressioni:* 'incontrare amici', 'incontrarsi in centro'.",
-        "**5. Decidere:** Decisioni.\n  • *Frasi semplici:* 'Decido di partire', 'Decidere un piano'.\n  • *Nota importante:* Si dice 'risolvere un problema', NON 'decidere un problema'.\n  • *Espressioni:* 'decidere subito', 'farsi un'idea'.",
-        "**6. Scrivere / Leggere / Digitare:** Scrittura e lettura.\n  • *Frasi semplici:* 'Scrivere un'email', 'Leggere un libro', 'Digitare un messaggio'.\n  • *Espressioni:* 'scrivere a mano', 'leggere ad alta voce', 'digitare al computer'.",
-        "**7. Spendere / Sprecare:** Gestione delle risorse.\n  • *Frasi semplici:* 'Spendere soldi', 'Non sprecare tempo!'.\n  • *Espressioni:* 'spendere per', 'sprecare energia', 'passare il tempo'.",
-        "**8. Giocare / Suonare (tutte le variazioni):** Giochi, sport, strumenti, ruoli.\n  • *Frasi semplici:* 'Giocare a calcio / a carte', 'Suonare la chitarra / il pianoforte', 'Recitare un ruolo'.\n  • *Espressioni:* 'suonare uno strumento', 'avere un ruolo importante'.",
-        "**9. Essere d'accordo / Non essere d'accordo:** Consenso e opinioni.\n  • *Frasi semplici:* 'Sono d'accordo con te', 'Non sono d'accordo'.\n  • *Espressioni:* 'essere d'accordo su', 'trovare un accordo'.",
-        "**10. Inviare / Ricevere:** Trasmissione e ricezione.\n  • *Frasi semplici:* 'Inviare un messaggio', 'Ricevere una lettera', 'Arrivare in stazione'.\n  • *Espressioni:* 'inviare un'email', 'ricevere notizie'."
+        "**5. Decidere / Risolvere:** Decisioni e risoluzione di problemi.\n  • *Frasi semplici:* 'Decido di partire', 'Risolvere un problema difficile'.\n  • *Nota importante:* Si dice 'risolvere un problema', NON 'decidere un problema'.\n  • *Espressioni:* 'prendere una decisione', 'risolvere una questione', 'decidere in fretta'.",
+        "**6. Spendere / Sprecare:** Gestione delle risorse.\n  • *Frasi semplici:* 'Spendere soldi', 'Non sprecare tempo!'.\n  • *Espressioni:* 'spendere per', 'sprecare energia', 'passare il tempo'.",
+        "**7. Inviare / Ricevere:** Trasmissione e ricezione.\n  • *Frasi semplici:* 'Inviare un messaggio', 'Ricevere una lettera', 'Arrivare in stazione'.\n  • *Espressioni:* 'inviare un'email', 'ricevere notizie'.",
+        "**8. Aiutare:** Assistenza e supporto.\n  • *Frasi semplici:* 'Mi puoi aiutare?', 'Aiuto i miei colleghi', 'Aiutare a casa'.\n  • *Espressioni:* 'chiedere aiuto', 'dare una mano', 'aiutarsi a vicenda'.",
+        "**9. Chiamare / Mandare un messaggio:** Comunicazione telefonica e digitale.\n  • *Frasi semplici:* 'Chiamami più tardi', 'Ti mando un messaggio', 'Fare una telefonata'.\n  • *Espressioni:* 'chiamare al telefono', 'mandare un messaggio', 'richiamare'.",
+        "**10. Essere d'accordo / Non essere d'accordo:** Consenso e opinioni.\n  • *Frasi semplici:* 'Sono d'accordo con te', 'Non sono d'accordo'.\n  • *Espressioni:* 'essere d'accordo su', 'trovare un accordo'."
       ]
     },
     {
@@ -83,10 +83,10 @@
       "rows": [
         [
           "1",
-          "Scegliere / Comprare / Pagare",
-          "Scelta e commercio.",
-          "'Scegliere un libro', 'Comprare il pane', 'Pagare con carta'.",
-          "'scegliere bene', 'comprare online', 'pagare la cena'."
+          "Pagare / Comprare",
+          "Transazioni e commercio.",
+          "'Comprare il pane', 'Pagare con carta'.",
+          "'comprare online', 'pagare la cena'."
         ],
         [
           "2",
@@ -111,150 +111,48 @@
         ],
         [
           "5",
-          "Decidere",
-          "Decisioni.",
-          "'Decido di partire', 'Decidere un piano'.",
-          "Si dice 'risolvere un problema', NON 'decidere un problema'."
+          "Decidere / Risolvere",
+          "Decisioni e risoluzione.",
+          "'Decido di partire', 'Risolvere un problema'.",
+          "'prendere una decisione', 'risolvere i problemi', 'decidere subito'."
         ],
         [
           "6",
-          "Scrivere / Leggere / Digitare",
-          "Scrittura e lettura.",
-          "'Scrivere un'email', 'Leggere un libro', 'Digitare un messaggio'.",
-          "'scrivere a mano', 'leggere ad alta voce', 'digitare al computer'."
-        ],
-        [
-          "7",
           "Spendere / Sprecare",
           "Gestione delle risorse.",
           "'Spendere soldi', 'Non sprecare tempo!'.",
           "'spendere per', 'sprecare energia', 'passare il tempo'."
         ],
         [
-          "8",
-          "Giocare / Suonare (tutte le variazioni)",
-          "Giochi, sport, strumenti, ruoli.",
-          "'Giocare a calcio / a carte', 'Suonare la chitarra / il pianoforte', 'Recitare un ruolo'.",
-          "'suonare uno strumento', 'avere un ruolo importante'."
-        ],
-        [
-          "9",
-          "Essere d'accordo / Non essere d'accordo",
-          "Consenso e opinioni.",
-          "'Sono d'accordo con te', 'Non sono d'accordo'.",
-          "'essere d'accordo su', 'trovare un accordo'."
-        ],
-        [
-          "10",
+          "7",
           "Inviare / Ricevere",
           "Trasmissione e ricezione.",
           "'Inviare un messaggio', 'Ricevere una lettera', 'Arrivare in stazione'.",
           "'inviare un'email', 'ricevere notizie'."
+        ],
+        [
+          "8",
+          "Aiutare",
+          "Assistenza e supporto reciproco.",
+          "'Puoi aiutarmi?', 'Aiutare gli amici'.",
+          "'chiedere aiuto', 'dare una mano', 'farsi aiutare'."
+        ],
+        [
+          "9",
+          "Chiamare / Mandare un messaggio",
+          "Comunicazione vocale e messaggistica.",
+          "'Chiamami stasera', 'Ti mando un messaggio'.",
+          "'fare una chiamata', 'messaggiare', 'richiamare più tardi'."
+        ],
+        [
+          "10",
+          "Essere d'accordo / Non essere d'accordo",
+          "Consenso e opinioni.",
+          "'Sono d'accordo con te', 'Non sono d'accordo'.",
+          "'essere d'accordo su', 'trovare un accordo'."
         ]
       ],
       "webOnly": true
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tabella comparativa dei verbi"
-    },
-    {
-      "type": "paragraph",
-      "text": "Confronto dei verbi della Parte 3 nelle diverse famiglie linguistiche:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
-      ],
-      "rows": [
-        [
-          "Choose, Buy, Pay",
-          "Choisir / Acheter / Payer",
-          "Choose / Buy / Pay",
-          "Выбирать / Покупать / Платить",
-          "Сайлау / һайлау / Суйлама",
-          "არჩევა / ყიდვა / გადახდა"
-        ],
-        [
-          "Remember & Forget",
-          "Se souvenir / Oublier",
-          "Remember / Forget",
-          "Помнить / Забывать",
-          "Хәтерләү / Хәтерләү / Аса илме",
-          "მახსოვრობა / დავიწყება"
-        ],
-        [
-          "Write, Read, Type",
-          "Écrire / Lire / Taper",
-          "Write / Read / Type",
-          "Писать / Читать / Печатать",
-          "Язу / Яҙыу / Ҫырма",
-          "წერა / კითხვა / ბეჭდვა"
-        ],
-        [
-          "Spend & Waste",
-          "Dépenser / Gaspiller",
-          "Spend / Waste",
-          "Тратить / Транжирить",
-          "Сарыф итү / Тотоноу / Тӑкашлама",
-          "ხარჯვა / გაფლანგვა"
-        ],
-        [
-          "Send & Get",
-          "Envoyer / Obtenir",
-          "Send / Get",
-          "Отправлять / Получать",
-          "Җибәрү / Ебәреү / Ярма",
-          "გაგზავნა / მიღება"
-        ],
-        [
-          "Feel",
-          "Ressentir / Sentir",
-          "Feel / Sense",
-          "Чувствовать / Ощущать",
-          "Хис итү / Хис итеү / Туйма",
-          "გრძნობა / შეგრძნება"
-        ],
-        [
-          "Meet",
-          "Rencontrer / Croiser",
-          "Meet / Encounter",
-          "Встречать / Знакомиться",
-          "Очрашу / Осрашыу / Тĕл пулма",
-          "შეხვედრა / გაცნობა"
-        ],
-        [
-          "Decide",
-          "Décider / Résoudre",
-          "Decide / Resolve",
-          "Решать / Принимать решение",
-          "Карар итү / Ҡарар итеү / Йышӑнма",
-          "გადაწყვეტა / გადაჭრა"
-        ],
-        [
-          "Play",
-          "Jouer / Pratiquer",
-          "Play / Practice",
-          "Играть / Исполнять",
-          "Уйнау / Уйнау / Выляма",
-          "თამაში / დაკვრა"
-        ],
-        [
-          "Agree & Disagree",
-          "Être d'accord / Disconvenir",
-          "Agree / Disagree",
-          "Соглашаться / Не соглашаться",
-          "Килешү / Килешеү / Килĕшме",
-          "დათანხმება / უარყოფა"
-        ]
-      ]
     },
     {
       "type": "heading",
@@ -263,7 +161,7 @@
     },
     {
       "type": "paragraph",
-      "text": "• **Strutture semplici:** Soggetto + Verbo + Complemento.\n• **Distinzione fondamentale:** 'Giocare a' (sport/giochi) vs 'Suonare' (strumenti musicali).\n• **Coniugazioni:** Tutti i tempi sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "• **Strutture semplici:** Soggetto + Verbo + Complemento.\n• **Usi pratici :** 'Risolvere un problema' (mai 'decidere un problema'), 'dare una mano / aiutare'.\n• **Coniugazioni:** Tutti i tempi sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
     },
     {
       "type": "heading",

@@ -13,7 +13,7 @@
   "date": "2027-02-01",
   "title": "Top 10 Essential Verbs in English, Part 3 (CEFR A0–A1 / A2)",
   "kicker": "ENGLISH CORE GUIDE — PART 3 OF 3",
-  "dek": "Master the third 10 high-frequency verbs in English: choose/buy/pay, remember/forget, feel, meet, decide (don't say 'decide a problem'), write/read/type, spend/waste, play (all variations), agree/disagree, and send/get. Conjugation tables on COSYtools.",
+  "dek": "Master the third 10 high-frequency verbs in English: pay/buy, remember/forget, feel, meet, decide/solve, spend/waste, send/get, help, call/text, and agree/disagree. Conjugation tables on COSYtools.",
   "tags": [
     "Verbs",
     "English",
@@ -55,16 +55,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Choose / Buy / Pay:** Selection and commerce.\n  • *Usage & Frames:* 'I choose a book', 'I buy groceries', 'I pay by card'.\n  • *Useful Phrases:* 'choose wisely', 'buy online', 'pay attention', 'pay for dinner'.",
+        "**1. Pay / Buy:** Financial transactions and shopping.\n  • *Usage & Frames:* 'I buy groceries', 'I pay by card'.\n  • *Useful Phrases:* 'buy online', 'pay attention', 'pay for dinner'.",
         "**2. Remember / Forget:** Memory and cognition.\n  • *Usage & Frames:* 'I remember your name', 'Don't forget your keys!'.\n  • *Useful Phrases:* 'remember to do', 'I forgot my password', 'hard to forget'.",
         "**3. Feel:** Physical and emotional state.\n  • *Usage & Frames:* 'I feel happy', 'She feels cold', 'How do you feel?'.\n  • *Useful Phrases:* 'feel like doing', 'feel well', 'feel tired'.",
         "**4. Meet:** Social interactions and introductions.\n  • *Usage & Frames:* 'Nice to meet you', 'Let's meet at 5 PM', 'Meet my friend'.\n  • *Useful Phrases:* 'meet up', 'meet new people', 'pleased to meet you'.",
-        "**5. Decide:** Decision-making.\n  • *Usage & Frames:* 'I decide to stay', 'Decide on a location'.\n  • *Important Note:* We say 'solve/resolve a problem', NOT 'decide a problem'.\n  • *Useful Phrases:* 'decide quickly', 'hard to decide', 'make up your mind'.",
-        "**6. Write / Read / Type:** Textual expression and literacy.\n  • *Usage & Frames:* 'Write an email', 'Read a book', 'Type a message'.\n  • *Useful Phrases:* 'write down', 'read aloud', 'type fast'.",
-        "**7. Spend / Waste:** Managing resources.\n  • *Usage & Frames:* 'I spend money on books', 'Don't waste time!'.\n  • *Useful Phrases:* 'spend time with family', 'waste energy', 'spend money on'.",
-        "**8. Play (all variations):** Games, sports, instruments, roles.\n  • *Usage & Frames:* 'Play football / games', 'Play the guitar / piano', 'Play a role in a film'.\n  • *Useful Phrases:* 'play sports', 'play an instrument', 'play a key role'.",
-        "**9. Agree / Disagree:** Consensus and opinion.\n  • *Usage & Frames:* 'I agree with you', 'We agree on the plan', 'I disagree'.\n  • *Useful Phrases:* 'totally agree', 'agree to differ', 'respectfully disagree'.",
-        "**10. Send / Get:** Transmitting and receiving.\n  • *Usage & Frames:* 'Send a text message', 'I get an email', 'Get home at 6 PM'.\n  • *Useful Phrases:* 'send an email', 'get back', 'get to the station'."
+        "**5. Decide / Solve:** Decision-making and problem-solving.\n  • *Usage & Frames:* 'I decide to stay', 'Decide on a location', 'Solve a problem'.\n  • *Important Note:* We say 'solve/resolve a problem', NOT 'decide a problem'.\n  • *Useful Phrases:* 'decide quickly', 'solve issues', 'make up your mind'.",
+        "**6. Spend / Waste:** Managing resources.\n  • *Usage & Frames:* 'I spend money on books', 'Don't waste time!'.\n  • *Useful Phrases:* 'spend time with family', 'waste energy', 'spend money on'.",
+        "**7. Send / Get:** Transmitting and receiving.\n  • *Usage & Frames:* 'Send a text message', 'I get an email', 'Get home at 6 PM'.\n  • *Useful Phrases:* 'send an email', 'get back', 'get to the station'.",
+        "**8. Help:** Assistance and mutual support.\n  • *Usage & Frames:* 'Can you help me?', 'I help my colleagues', 'Help with homework'.\n  • *Useful Phrases:* 'ask for help', 'help out', 'can't help it'.",
+        "**9. Call / Text:** Voice and digital communication.\n  • *Usage & Frames:* 'Call me later', 'I text you the address', 'Send a text'.\n  • *Useful Phrases:* 'make a phone call', 'text me back', 'call on the phone'.",
+        "**10. Agree / Disagree:** Consensus and opinion.\n  • *Usage & Frames:* 'I agree with you', 'We agree on the plan', 'I disagree'.\n  • *Useful Phrases:* 'totally agree', 'agree to differ', 'respectfully disagree'."
       ]
     },
     {
@@ -83,10 +83,10 @@
       "rows": [
         [
           "1",
-          "Choose / Buy / Pay",
-          "Selection and commerce.",
-          "'I choose a book', 'I buy groceries', 'I pay by card'.",
-          "'choose wisely', 'buy online', 'pay attention', 'pay for dinner'."
+          "Pay / Buy",
+          "Financial transactions and commerce.",
+          "'I buy groceries', 'I pay by card'.",
+          "'buy online', 'pay attention', 'pay for dinner'."
         ],
         [
           "2",
@@ -111,150 +111,48 @@
         ],
         [
           "5",
-          "Decide",
-          "Decision-making.",
-          "'I decide to stay', 'Decide on a location'.",
-          "We say 'solve/resolve a problem', NOT 'decide a problem'."
+          "Decide / Solve",
+          "Decision-making and problem-solving.",
+          "'I decide to stay', 'Solve a difficult problem'.",
+          "'decide quickly', 'solve a problem', 'make up your mind'."
         ],
         [
           "6",
-          "Write / Read / Type",
-          "Textual expression and literacy.",
-          "'Write an email', 'Read a book', 'Type a message'.",
-          "'write down', 'read aloud', 'type fast'."
-        ],
-        [
-          "7",
           "Spend / Waste",
           "Managing resources.",
           "'I spend money on books', 'Don't waste time!'.",
           "'spend time with family', 'waste energy', 'spend money on'."
         ],
         [
-          "8",
-          "Play (all variations)",
-          "Games, sports, instruments, roles.",
-          "'Play football / games', 'Play the guitar / piano', 'Play a role in a film'.",
-          "'play sports', 'play an instrument', 'play a key role'."
-        ],
-        [
-          "9",
-          "Agree / Disagree",
-          "Consensus and opinion.",
-          "'I agree with you', 'We agree on the plan', 'I disagree'.",
-          "'totally agree', 'agree to differ', 'respectfully disagree'."
-        ],
-        [
-          "10",
+          "7",
           "Send / Get",
           "Transmitting and receiving.",
           "'Send a text message', 'I get an email', 'Get home at 6 PM'.",
           "'send an email', 'get back', 'get to the station'."
+        ],
+        [
+          "8",
+          "Help",
+          "Assistance and support.",
+          "'Can you help me?', 'Help a friend'.",
+          "'ask for help', 'help out', 'give a helping hand'."
+        ],
+        [
+          "9",
+          "Call / Text",
+          "Voice and text communication.",
+          "'Call me tonight', 'I will text you'.",
+          "'give a call', 'text back', 'missed call'."
+        ],
+        [
+          "10",
+          "Agree / Disagree",
+          "Consensus and opinion.",
+          "'I agree with you', 'We agree on the plan', 'I disagree'.",
+          "'totally agree', 'agree to differ', 'respectfully disagree'."
         ]
       ],
       "webOnly": true
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Comparative Matrix across Language Families"
-    },
-    {
-      "type": "paragraph",
-      "text": "Comparative breakdown for Part 3 core verbs across language families:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
-      ],
-      "rows": [
-        [
-          "Choose, Buy, Pay",
-          "Choisir / Acheter / Payer",
-          "Choose / Buy / Pay",
-          "Выбирать / Покупать / Платить",
-          "Сайлау / һайлау / Суйлама",
-          "არჩევა / ყიდვა / გადახდა"
-        ],
-        [
-          "Remember & Forget",
-          "Se souvenir / Oublier",
-          "Remember / Forget",
-          "Помнить / Забывать",
-          "Хәтерләү / Хәтерләү / Аса илме",
-          "მახსოვრობა / დავიწყება"
-        ],
-        [
-          "Write, Read, Type",
-          "Écrire / Lire / Taper",
-          "Write / Read / Type",
-          "Писать / Читать / Печатать",
-          "Язу / Яҙыу / Ҫырма",
-          "წერა / კითხვა / ბეჭდვა"
-        ],
-        [
-          "Spend & Waste",
-          "Dépenser / Gaspiller",
-          "Spend / Waste",
-          "Тратить / Транжирить",
-          "Сарыф итү / Тотоноу / Тӑкашлама",
-          "ხარჯვა / გაფლანგვა"
-        ],
-        [
-          "Send & Get",
-          "Envoyer / Obtenir",
-          "Send / Get",
-          "Отправлять / Получать",
-          "Җибәрү / Ебәреү / Ярма",
-          "გაგზავნა / მიღება"
-        ],
-        [
-          "Feel",
-          "Ressentir / Sentir",
-          "Feel / Sense",
-          "Чувствовать / Ощущать",
-          "Хис итү / Хис итеү / Туйма",
-          "გრძნობა / შეგრძნება"
-        ],
-        [
-          "Meet",
-          "Rencontrer / Croiser",
-          "Meet / Encounter",
-          "Встречать / Знакомиться",
-          "Очрашу / Осрашыу / Тĕл пулма",
-          "შეხვედრა / გაცნობა"
-        ],
-        [
-          "Decide",
-          "Décider / Résoudre",
-          "Decide / Resolve",
-          "Решать / Принимать решение",
-          "Карар итү / Ҡарар итеү / Йышӑнма",
-          "გადაწყვეტა / გადაჭრა"
-        ],
-        [
-          "Play",
-          "Jouer / Pratiquer",
-          "Play / Practice",
-          "Играть / Исполнять",
-          "Уйнау / Уйнау / Выляма",
-          "თამაში / დაკვრა"
-        ],
-        [
-          "Agree & Disagree",
-          "Être d'accord / Disconvenir",
-          "Agree / Disagree",
-          "Соглашаться / Не соглашаться",
-          "Килешү / Килешеү / Килĕшме",
-          "დათანხმება / უარყოფა"
-        ]
-      ]
     },
     {
       "type": "heading",
@@ -263,7 +161,7 @@
     },
     {
       "type": "paragraph",
-      "text": "• **Simple Sentence Structures:** Focus on Subject + Verb + Object.\n• **Verb Prepositions:** Note key prepositions like 'agree *with*', 'spend *on*', 'decide *on*'.\n• **Conjugations:** Check full present, past, and future tense tables on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "• **Simple Sentence Structures:** Focus on Subject + Verb + Object.\n• **Key Collocations:** Note pairs like 'call on the phone' vs 'text a message', 'help with', 'solve a problem'.\n• **Conjugations:** Check full present, past, and future tense tables on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
     },
     {
       "type": "heading",

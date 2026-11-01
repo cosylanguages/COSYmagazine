@@ -13,7 +13,7 @@
   "date": "2027-02-01",
   "title": "Os 10 verbos essenciais em português, Parte 3 (A0–A1 / A2)",
   "kicker": "GUIA DE PORTUGUÊS — PARTE 3 DE 3",
-  "dek": "Descubra os próximos 10 verbos essenciais (escolher/comprar/pagar, lembrar/esquecer, sentir-se, encontrar, decidir, escrever/ler/digitar, gastar/desperdiçar, jogar/tocar, concordar/discordar, enviar/receber). Tabelas de conjugação no COSYtools.",
+  "dek": "Descubra os próximos 10 verbos essenciais (pagar/comprar, lembrar/esquecer, sentir-se, encontrar, decidir/resolver, gastar/desperdiçar, enviar/receber, ajudar, ligar/enviar mensagem, concordar/discordar). Tabelas de conjugação no COSYtools.",
   "tags": [
     "Verbs",
     "Portuguese",
@@ -55,16 +55,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Escolher / Comprar / Pagar:** Escolha e comércio.\n  • *Frases simples:* 'Escolher um livro', 'Comprar pão', 'Pagar com cartão'.\n  • *Expressões:* 'escolher bem', 'comprar online', 'pagar o jantar'.",
+        "**1. Pagar / Comprar:** Transações financeiras e compras.\n  • *Frases simples:* 'Comprar pão', 'Pagar com cartão'.\n  • *Expressões:* 'comprar online', 'pagar o jantar'.",
         "**2. Lembrar / Esquecer:** Memória e cognição.\n  • *Frases simples:* 'Lembro-me do teu nome', 'Não te esqueças das chaves!'.\n  • *Expressões:* 'lembrar-se de', 'esqueci-me da palavra-passe'.",
         "**3. Sentir-se:** Estado físico e emocional.\n  • *Frases simples:* 'Sinto-me bem', 'Ela tem frio', 'Como te sentes?'.\n  • *Expressões:* 'sentir-se cansado', 'sentir-se em casa'.",
         "**4. Encontrar / Conhecer:** Relações sociais.\n  • *Frases simples:* 'Prazer em conhecer-te', 'Encontramo-nos às 17h', 'Encontrar amigos'.\n  • *Expressões:* 'conhecer pessoas novas', 'encontrar-se no centro'.",
-        "**5. Decidir:** Tomada de decisão.\n  • *Frases simples:* 'Decido ficar', 'Decidir um plano'.\n  • *Nota importante:* Diz-se 'resolver um problema', NÃO 'decidir um problema'.\n  • *Expressões:* 'decidir rapidamente', 'tomar uma decisão'.",
-        "**6. Escrever / Ler / Digitar:** Escrita e leitura.\n  • *Frases simples:* 'Escrever um e-mail', 'Ler um livro', 'Digitar uma mensagem'.\n  • *Expressões:* 'escrever à mão', 'ler em voz alta', 'digitar rápido'.",
-        "**7. Gastar / Desperdiçar:** Gestão de recursos.\n  • *Frases simples:* 'Gastar dinheiro', 'Não desperdices o teu tempo!'.\n  • *Expressões:* 'gastar em', 'desperdiçar energia', 'passar tempo com a família'.",
-        "**8. Jogar / Tocar / Brincar (todas as variações):** Jogos, desportos, instrumentos, papéis.\n  • *Frases simples:* 'Jogar futebol / cartas', 'Tocar guitarra / piano', 'Fazer um papel no filme'.\n  • *Expressões:* 'tocar um instrumento', 'desempenhar um papel principal'.",
-        "**9. Concordar / Discordar:** Consenso e opinião.\n  • *Frases simples:* 'Concordo contigo', 'Não concordo'.\n  • *Expressões:* 'concordar com', 'chegar a um acordo'.",
-        "**10. Enviar / Receber:** Transmissão e receção.\n  • *Frases simples:* 'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.\n  • *Expressões:* 'enviar um e-mail', 'receber notícias'."
+        "**5. Decidir / Resolver:** Tomada de decisão e resolução de problemas.\n  • *Frases simples:* 'Decido ficar', 'Resolver um problema difícil'.\n  • *Nota importante:* Diz-se 'resolver um problema', NÃO 'decidir um problema'.\n  • *Expressões:* 'tomar uma decisão', 'resolver dúvidas', 'decidir depressa'.",
+        "**6. Gastar / Desperdiçar:** Gestão de recursos.\n  • *Frases simples:* 'Gastar dinheiro', 'Não desperdices o teu tempo!'.\n  • *Expressões:* 'gastar em', 'desperdiçar energia', 'passar tempo com a família'.",
+        "**7. Enviar / Receber:** Transmissão e receção.\n  • *Frases simples:* 'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.\n  • *Expressões:* 'enviar um e-mail', 'receber notícias'.",
+        "**8. Ajudar:** Assistência e apoio mútuo.\n  • *Frases simples:* 'Podes ajudar-me?', 'Ajudo os meus colegas', 'Ajudar em casa'.\n  • *Expressões:* 'pedir ajuda', 'dar uma ajuda', 'dar uma mão'.",
+        "**9. Ligar (Chamar) / Enviar mensagem:** Comunicação telefónica e por mensagens.\n  • *Frases simples:* 'Liga-me mais tarde', 'Envio-te uma mensagem', 'Fazer uma chamada'.\n  • *Expressões:* 'ligar pelo telefone', 'mandar mensagem', 'retribuir a chamada'.",
+        "**10. Concordar / Discordar:** Consenso e opinião.\n  • *Frases simples:* 'Concordo contigo', 'Não concordo'.\n  • *Expressões:* 'concordar com', 'chegar a um acordo'."
       ]
     },
     {
@@ -83,10 +83,10 @@
       "rows": [
         [
           "1",
-          "Escolher / Comprar / Pagar",
-          "Escolha e comércio.",
-          "'Escolher um livro', 'Comprar pão', 'Pagar com cartão'.",
-          "'escolher bem', 'comprar online', 'pagar o jantar'."
+          "Pagar / Comprar",
+          "Pagamento e compras.",
+          "'Comprar pão', 'Pagar com cartão'.",
+          "'comprar online', 'pagar o jantar'."
         ],
         [
           "2",
@@ -111,150 +111,48 @@
         ],
         [
           "5",
-          "Decidir",
-          "Tomada de decisão.",
-          "'Decido ficar', 'Decidir um plano'.",
-          "Diz-se 'resolver um problema', NÃO 'decidir um problema'."
+          "Decidir / Resolver",
+          "Decisões e resolução.",
+          "'Decido ficar', 'Resolver um problema'.",
+          "'tomar uma decisão', 'resolver questões', 'decidir logo'."
         ],
         [
           "6",
-          "Escrever / Ler / Digitar",
-          "Escrita e leitura.",
-          "'Escrever um e-mail', 'Ler um livro', 'Digitar uma mensagem'.",
-          "'escrever à mão', 'ler em voz alta', 'digitar rápido'."
-        ],
-        [
-          "7",
           "Gastar / Desperdiçar",
           "Gestão de recursos.",
           "'Gastar dinheiro', 'Não desperdices o teu tempo!'.",
           "'gastar em', 'desperdiçar energia', 'passar tempo com a família'."
         ],
         [
-          "8",
-          "Jogar / Tocar / Brincar (todas as variações)",
-          "Jogos, desportos, instrumentos, papéis.",
-          "'Jogar futebol / cartas', 'Tocar guitarra / piano', 'Fazer um papel no filme'.",
-          "'tocar um instrumento', 'desempenhar um papel principal'."
-        ],
-        [
-          "9",
-          "Concordar / Discordar",
-          "Consenso e opinião.",
-          "'Concordo contigo', 'Não concordo'.",
-          "'concordar com', 'chegar a um acordo'."
-        ],
-        [
-          "10",
+          "7",
           "Enviar / Receber",
           "Transmissão e receção.",
           "'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.",
           "'enviar um e-mail', 'receber notícias'."
+        ],
+        [
+          "8",
+          "Ajudar",
+          "Apoio e assistência mútua.",
+          "'Podes ajudar-me?', 'Ajudar um amigo'.",
+          "'pedir ajuda', 'dar uma mão', 'prestar apoio'."
+        ],
+        [
+          "9",
+          "Ligar / Enviar mensagem",
+          "Comunicação vocal e por texto.",
+          "'Liga-me esta noite', 'Envio-te uma mensagem'.",
+          "'fazer uma chamada', 'mandar mensagem', 'retribuir a ligação'."
+        ],
+        [
+          "10",
+          "Concordar / Discordar",
+          "Consenso e opinião.",
+          "'Concordo contigo', 'Não concordo'.",
+          "'concordar com', 'chegar a um acordo'."
         ]
       ],
       "webOnly": true
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Tabela comparativa de verbos"
-    },
-    {
-      "type": "paragraph",
-      "text": "Comparação dos verbos da Parte 3 por famílias linguísticas:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
-      ],
-      "rows": [
-        [
-          "Choose, Buy, Pay",
-          "Choisir / Acheter / Payer",
-          "Choose / Buy / Pay",
-          "Выбирать / Покупать / Платить",
-          "Сайлау / һайлау / Суйлама",
-          "არჩევა / ყიდვა / გადახდა"
-        ],
-        [
-          "Remember & Forget",
-          "Se souvenir / Oublier",
-          "Remember / Forget",
-          "Помнить / Забывать",
-          "Хәтерләү / Хәтерләү / Аса илме",
-          "მახსოვრობა / დავიწყება"
-        ],
-        [
-          "Write, Read, Type",
-          "Écrire / Lire / Taper",
-          "Write / Read / Type",
-          "Писать / Читать / Печатать",
-          "Язу / Яҙыу / Ҫырма",
-          "წერა / კითხვა / ბეჭდვა"
-        ],
-        [
-          "Spend & Waste",
-          "Dépenser / Gaspiller",
-          "Spend / Waste",
-          "Тратить / Транжирить",
-          "Сарыф итү / Тотоноу / Тӑкашлама",
-          "ხარჯვა / გაფლანგვა"
-        ],
-        [
-          "Send & Get",
-          "Envoyer / Obtenir",
-          "Send / Get",
-          "Отправлять / Получать",
-          "Җибәрү / Ебәреү / Ярма",
-          "გაგზავნა / მიღება"
-        ],
-        [
-          "Feel",
-          "Ressentir / Sentir",
-          "Feel / Sense",
-          "Чувствовать / Ощущать",
-          "Хис итү / Хис итеү / Туйма",
-          "გრძნობა / შეგრძნება"
-        ],
-        [
-          "Meet",
-          "Rencontrer / Croiser",
-          "Meet / Encounter",
-          "Встречать / Знакомиться",
-          "Очрашу / Осрашыу / Тĕл пулма",
-          "შეხვედრა / გაცნობა"
-        ],
-        [
-          "Decide",
-          "Décider / Résoudre",
-          "Decide / Resolve",
-          "Решать / Принимать решение",
-          "Карар итү / Ҡарар итеү / Йышӑнма",
-          "გადაწყვეტა / გადაჭრა"
-        ],
-        [
-          "Play",
-          "Jouer / Pratiquer",
-          "Play / Practice",
-          "Играть / Исполнять",
-          "Уйнау / Уйнау / Выляма",
-          "თამაში / დაკვრა"
-        ],
-        [
-          "Agree & Disagree",
-          "Être d'accord / Disconvenir",
-          "Agree / Disagree",
-          "Соглашаться / Не соглашаться",
-          "Килешү / Килешеү / Килĕшме",
-          "დათანხმება / უარყოფა"
-        ]
-      ]
     },
     {
       "type": "heading",

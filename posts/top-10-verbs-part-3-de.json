@@ -13,7 +13,7 @@
   "date": "2027-02-01",
   "title": "Die 10 wichtigsten Verben im Deutschen, Teil 3 (A0–A1 / A2)",
   "kicker": "DEUTSCHER VERBEN-LEITFADEN — TEIL 3 VON 3",
-  "dek": "Entdecken Sie die nächsten 10 Verben (wählen/kaufen/bezahlen, erinnern/vergessen, sich fühlen, treffen, entscheiden, schreiben/lesen/tippen, ausgeben/verschwenden, spielen, zustimmen/widersprechen, senden/bekommen). Konjugationstabellen auf COSYtools.",
+  "dek": "Entdecken Sie die nächsten 10 Verben (bezahlen/kaufen, erinnern/vergessen, sich fühlen, treffen/kennenlernen, entscheiden/lösen, ausgeben/verschwenden, senden/bekommen, helfen, anrufen/schreiben, zustimmen/nicht zustimmen). Konjugationstabellen auf COSYtools.",
   "tags": [
     "Verbs",
     "German",
@@ -55,16 +55,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Wählen / Kaufen / Bezahlen:** Auswahl und Handel.\n  • *Einfache Sätze:* 'Ein Buch wählen', 'Essen kaufen', 'Mit Karte bezahlen'.\n  • *Phrasen:* 'gut wählen', 'online kaufen', 'das Abendessen bezahlen'.",
+        "**1. Bezahlen / Kaufen:** Finanzielle Transaktionen und Handel.\n  • *Einfache Sätze:* 'Essen kaufen', 'Mit Karte bezahlen'.\n  • *Phrasen:* 'online kaufen', 'das Abendessen bezahlen'.",
         "**2. Erinnern / Vergessen:** Gedächtnis und Kognition.\n  • *Einfache Sätze:* 'Ich erinnere mich an deinen Namen', 'Vergiss deine Schlüssel nicht!'.\n  • *Phrasen:* 'sich erinnern an', 'Passwort vergessen'.",
         "**3. Sich fühlen:** Körperliches und emotionales Befinden.\n  • *Einfache Sätze:* 'Ich fühle mich gut', 'Ihr ist kalt', 'Wie fühlst du dich?'.\n  • *Phrasen:* 'sich müde fühlen', 'sich wie zu Hause fühlen'.",
         "**4. Treffen / Kennenlernen:** Soziale Kontakte.\n  • *Einfache Sätze:* 'Schön dich kennenzulernen', 'Wir treffen uns um 17 Uhr'.\n  • *Phrasen:* 'Freunde treffen', 'neue Leute kennenlernen'.",
-        "**5. Entscheiden (sich entscheiden):** Entscheidungen.\n  • *Einfache Sätze:* 'Ich entscheide mich zu bleiben', 'Über ein Projekt entscheiden'.\n  • *Wichtiger Hinweis:* Man sagt 'ein Problem lösen', NICHT 'ein Problem entscheiden'.\n  • *Phrasen:* 'schnell entscheiden', 'eine Entscheidung treffen'.",
-        "**6. Schreiben / Lesen / Tippen:** Schrift und Lesen.\n  • *Einfache Sätze:* 'Eine E-Mail schreiben', 'Ein Buch lesen', 'Eine Nachricht tippen'.\n  • *Phrasen:* 'handschriftlich schreiben', 'laut lesen', 'schnell tippen'.",
-        "**7. Ausgeben / Verschwenden:** Ressourcenverwaltung.\n  • *Einfache Sätze:* 'Geld ausgeben', 'Verschwende nicht deine Zeit!'.\n  • *Phrasen:* 'Geld ausgeben für', 'Zeit mit der Familie verbringen'.",
-        "**8. Spielen (alle Varianten):** Spiele, Sport, Instrumente, Rollen.\n  • *Einfache Sätze:* 'Fußball / Karten spielen', 'Gitarre / Klavier spielen', 'Eine Rolle spielen'.\n  • *Phrasen:* 'ein Instrument spielen', 'eine wichtige Rolle spielen'.",
-        "**9. Zustimmen / Nicht zustimmen (widersprechen):** Konsens und Meinung.\n  • *Einfache Sätze:* 'Ich stimme dir zu', 'Ich bin nicht einverstanden'.\n  • *Phrasen:* 'völlig zustimmen', 'sich einigen'.",
-        "**10. Senden / Bekommen:** Übertragung und Empfang.\n  • *Einfache Sätze:* 'Eine Nachricht senden', 'Eine E-Mail bekommen', 'Ankommen'.\n  • *Phrasen:* 'eine E-Mail senden', 'Antwort bekommen', 'am Bahnhof ankommen'."
+        "**5. Entscheiden / Lösen:** Entscheidungsfindung und Problemlösung.\n  • *Einfache Sätze:* 'Ich entscheide mich zu bleiben', 'Ein Problem lösen'.\n  • *Wichtiger Hinweis:* Man sagt 'ein Problem lösen', NICHT 'ein Problem entscheiden'.\n  • *Phrasen:* 'eine Entscheidung treffen', 'Probleme lösen', 'sich schnell entscheiden'.",
+        "**6. Ausgeben / Verschwenden:** Ressourcenverwaltung.\n  • *Einfache Sätze:* 'Geld ausgeben', 'Verschwende nicht deine Zeit!'.\n  • *Phrasen:* 'Geld ausgeben für', 'Zeit mit der Familie verbringen'.",
+        "**7. Senden / Bekommen:** Übertragung und Empfang.\n  • *Einfache Sätze:* 'Eine Nachricht senden', 'Eine E-Mail bekommen', 'Ankommen'.\n  • *Phrasen:* 'eine E-Mail senden', 'Antwort bekommen', 'am Bahnhof ankommen'.",
+        "**8. Helfen:** Unterstützung und Beistand.\n  • *Einfache Sätze:* 'Kannst du mir helfen?', 'Ich helfe meinen Freunden', 'Im Haushalt helfen'.\n  • *Phrasen:* 'um Hilfe bitten', 'jemandem helfen', 'Hilfe leisten'.",
+        "**9. Anrufen / Schreiben (eine Nachricht senden):** Telefonische und schriftliche Kommunikation.\n  • *Einfache Sätze:* 'Ruf mich später an', 'Ich schreibe dir eine Nachricht', 'Eine Nachricht schicken'.\n  • *Phrasen:* 'am Telefon anrufen', 'zurückrufen', 'eine SMS schreiben'.",
+        "**10. Zustimmen / Nicht zustimmen (widersprechen):** Konsens und Meinung.\n  • *Einfache Sätze:* 'Ich stimme dir zu', 'Ich bin nicht einverstanden'.\n  • *Phrasen:* 'völlig zustimmen', 'sich einigen'."
       ]
     },
     {
@@ -83,10 +83,10 @@
       "rows": [
         [
           "1",
-          "Wählen / Kaufen / Bezahlen",
-          "Auswahl und Handel.",
-          "'Ein Buch wählen', 'Essen kaufen', 'Mit Karte bezahlen'.",
-          "'gut wählen', 'online kaufen', 'das Abendessen bezahlen'."
+          "Bezahlen / Kaufen",
+          "Finanzen und Handel.",
+          "'Essen kaufen', 'Mit Karte bezahlen'.",
+          "'online kaufen', 'das Abendessen bezahlen'."
         ],
         [
           "2",
@@ -111,150 +111,48 @@
         ],
         [
           "5",
-          "Entscheiden (sich entscheiden)",
-          "Entscheidungen.",
-          "'Ich entscheide mich zu bleiben', 'Über ein Projekt entscheiden'.",
-          "Man sagt 'ein Problem lösen', NICHT 'ein Problem entscheiden'."
+          "Entscheiden / Lösen",
+          "Entscheidungen und Problemlösung.",
+          "'Ich entscheide mich zu bleiben', 'Ein Problem lösen'.",
+          "'eine Entscheidung treffen', 'Probleme lösen', 'entscheiden'."
         ],
         [
           "6",
-          "Schreiben / Lesen / Tippen",
-          "Schrift und Lesen.",
-          "'Eine E-Mail schreiben', 'Ein Buch lesen', 'Eine Nachricht tippen'.",
-          "'handschriftlich schreiben', 'laut lesen', 'schnell tippen'."
-        ],
-        [
-          "7",
           "Ausgeben / Verschwenden",
           "Ressourcenverwaltung.",
           "'Geld ausgeben', 'Verschwende nicht deine Zeit!'.",
           "'Geld ausgeben für', 'Zeit mit der Familie verbringen'."
         ],
         [
-          "8",
-          "Spielen (alle Varianten)",
-          "Spiele, Sport, Instrumente, Rollen.",
-          "'Fußball / Karten spielen', 'Gitarre / Klavier spielen', 'Eine Rolle spielen'.",
-          "'ein Instrument spielen', 'eine wichtige Rolle spielen'."
-        ],
-        [
-          "9",
-          "Zustimmen / Nicht zustimmen (widersprechen)",
-          "Konsens und Meinung.",
-          "'Ich stimme dir zu', 'Ich bin nicht einverstanden'.",
-          "'völlig zustimmen', 'sich einigen'."
-        ],
-        [
-          "10",
+          "7",
           "Senden / Bekommen",
           "Übertragung und Empfang.",
           "'Eine Nachricht senden', 'Eine E-Mail bekommen', 'Ankommen'.",
           "'eine E-Mail senden', 'Antwort bekommen', 'am Bahnhof ankommen'."
+        ],
+        [
+          "8",
+          "Helfen",
+          "Unterstützung und Hilfe.",
+          "'Kannst du mir helfen?', 'Freunden helfen'.",
+          "'um Hilfe bitten', 'Hilfe anbieten', 'jemandem zur Hand gehen'."
+        ],
+        [
+          "9",
+          "Anrufen / Schreiben",
+          "Telefonische und digitale Kommunikation.",
+          "'Ruf mich heute Abend an', 'Ich schreibe dir gleich'.",
+          "'einen Anruf tätigen', 'eine Nachricht schicken', 'zurückrufen'."
+        ],
+        [
+          "10",
+          "Zustimmen / Nicht zustimmen (widersprechen)",
+          "Konsens und Meinung.",
+          "'Ich stimme dir zu', 'Ich bin nicht einverstanden'.",
+          "'völlig zustimmen', 'sich einigen'."
         ]
       ],
       "webOnly": true
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Sprachenvergleichstabelle"
-    },
-    {
-      "type": "paragraph",
-      "text": "Vergleich der Verben von Teil 3 in verschiedenen Sprachfamilien:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
-      ],
-      "rows": [
-        [
-          "Choose, Buy, Pay",
-          "Choisir / Acheter / Payer",
-          "Choose / Buy / Pay",
-          "Выбирать / Покупать / Платить",
-          "Сайлау / һайлау / Суйлама",
-          "არჩევა / ყიდვა / გადახდა"
-        ],
-        [
-          "Remember & Forget",
-          "Se souvenir / Oublier",
-          "Remember / Forget",
-          "Помнить / Забывать",
-          "Хәтерләү / Хәтерләү / Аса илме",
-          "მახსოვრობა / დავიწყება"
-        ],
-        [
-          "Write, Read, Type",
-          "Écrire / Lire / Taper",
-          "Write / Read / Type",
-          "Писать / Читать / Печатать",
-          "Язу / Яҙыу / Ҫырма",
-          "წერა / კითხვა / ბეჭდვა"
-        ],
-        [
-          "Spend & Waste",
-          "Dépenser / Gaspiller",
-          "Spend / Waste",
-          "Тратить / Транжирить",
-          "Сарыф итү / Тотоноу / Тӑкашлама",
-          "ხარჯვა / გაფლანგვა"
-        ],
-        [
-          "Send & Get",
-          "Envoyer / Obtenir",
-          "Send / Get",
-          "Отправлять / Получать",
-          "Җибәрү / Ебәреү / Ярма",
-          "გაგზავნა / მიღება"
-        ],
-        [
-          "Feel",
-          "Ressentir / Sentir",
-          "Feel / Sense",
-          "Чувствовать / Ощущать",
-          "Хис итү / Хис итеү / Туйма",
-          "გრძნობა / შეგრძნება"
-        ],
-        [
-          "Meet",
-          "Rencontrer / Croiser",
-          "Meet / Encounter",
-          "Встречать / Знакомиться",
-          "Очрашу / Осрашыу / Тĕл пулма",
-          "შეხვედრა / გაცნობა"
-        ],
-        [
-          "Decide",
-          "Décider / Résoudre",
-          "Decide / Resolve",
-          "Решать / Принимать решение",
-          "Карар итү / Ҡарар итеү / Йышӑнма",
-          "გადაწყვეტა / გადაჭრა"
-        ],
-        [
-          "Play",
-          "Jouer / Pratiquer",
-          "Play / Practice",
-          "Играть / Исполнять",
-          "Уйнау / Уйнау / Выляма",
-          "თამაში / დაკვრა"
-        ],
-        [
-          "Agree & Disagree",
-          "Être d'accord / Disconvenir",
-          "Agree / Disagree",
-          "Соглашаться / Не соглашаться",
-          "Килешү / Килешеү / Килĕшме",
-          "დათანხმება / უარყოფა"
-        ]
-      ]
     },
     {
       "type": "heading",
@@ -263,7 +161,7 @@
     },
     {
       "type": "paragraph",
-      "text": "• **Einfache Satzstrukturen:** Subjekt + Verb + Objekt.\n• **Präpositionen mit Verben:** Beachten Sie 'sich erinnern *an*', 'zustimmen *zu*'.\n• **Verbformen & Konjugation:** Alle Zeitformen sind auf [COSYtools](https://cosylanguages.github.io/COSYtools/) abrufbar."
+      "text": "• **Einfache Satzstrukturen:** Subjekt + Verb + Objekt.\n• **Besonderheiten :** 'helfen + Dativ' (Ich helfe *dir*), 'ein Problem lösen' (nicht entscheiden).\n• **Verbformen & Konjugation:** Alle Zeitformen sind auf [COSYtools](https://cosylanguages.github.io/COSYtools/) abrufbar."
     },
     {
       "type": "heading",

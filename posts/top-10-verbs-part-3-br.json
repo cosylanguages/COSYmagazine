@@ -13,7 +13,7 @@
   "date": "2027-02-01",
   "title": "Ar 10 verb pennañ e brezhoneg, Lodennoù 3 (A0–A1 / A2)",
   "kicker": "KAVADENN AR BREZHONEG — LODENN 3 EUS 3",
-  "dek": "Dizoloit ar 10 verb pennañ war-lerc'h (dibab/prenañ/paeañ, kounaat/ankouaat, santout, kejañ, divizout, skrivañ/lenn/bizskrivañ, dispign/foranañ, c'hoari, bezañ a-du/enep, kas/kaout). Taolennoù treuzfeurmiñ war COSYtools.",
+  "dek": "Dizoloit ar 10 verb pennañ war-lerc'h (paeañ/prenañ, kounaat/ankouaat, santout, kejañ, divizout/diskoulmañ, dispign/foranañ, kas/kaout, skoazellañ, gervel/kas ur gemennadenn, bezañ a-du/enep). Taolennoù treuzfeurmiñ war COSYtools.",
   "tags": [
     "Verbs",
     "Breton",
@@ -55,16 +55,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Dibab / Prenañ / Paeañ:** Dibab ha kenwerzh.\n  • *Frazennoù eeun:* 'Dibab ul levr', 'Prenañ bara', 'Paeañ dre gartenn'.\n  • *Troioù-lavar:* 'dibab mat', 'prenañ enlinenn', 'paeañ koan'.",
+        "**1. Paeañ / Prenañ:** Arc'hant ha kenwerzh.\n  • *Frazennoù eeun:* 'Prenañ bara', 'Paeañ dre gartenn'.\n  • *Troioù-lavar:* 'prenañ enlinenn', 'paeañ koan'.",
         "**2. Kounaat / Ankouaat:** Memor hag adkoun.\n  • *Frazennoù eeun:* 'Kounaat a ran da anv', 'Na ankoua ket da alc'hwezioù!'.\n  • *Troioù-lavar:* 'kounaat ober un dra bennak', 'ankouaat ar ger-tremen'.",
         "**3. Santout:** Statud fizikel hag elfennoù.\n  • *Frazennoù eeun:* 'Santout mat a ran', 'Yen eo dezhi', 'Penaos e santez?'.\n  • *Troioù-lavar:* 'santout skuizhder', 'santout er gêr'.",
         "**4. Kejañ:** Darempredoù ha tud.\n  • *Frazennoù eeun:* 'Plaejadur o kejañ ganit', 'Kejañ a reomp da 5 eur', 'Kejañ gant ur mignon'.\n  • *Troioù-lavar:* 'kejañ gant tud nevez', 'kejañ er c'hreiz-kêr'.",
-        "**5. Divizout:** Divizoù ha mennozhioù.\n  • *Frazennoù eeun:* 'Divizout a ran chom', 'Divizout diwar-benn ur raktres'.\n  • *Notenn a-bouez:* 'Lenn / diskoulmañ ur gudenn' eo ar ger mat (solve a problem).\n  • *Troioù-lavar:* 'divizout buan', 'kemer un diviz'.",
-        "**6. Skrivañ / Lenn / Bizskrivañ:** Skritur ha lennadurezh.\n  • *Frazennoù eeun:* 'Skrivañ ur postel', 'Lenn ul levr', 'Bizskrivañ ur gemennadenn'.\n  • *Troioù-lavar:* 'skrivañ dre skrid', 'lenn a-vouezh uhel', 'bizskrivañ buan'.",
-        "**7. Dispign / Foranañ:** Merañ ar madoù.\n  • *Frazennoù eeun:* 'Dispign arc'hant', 'Na foran ket da amzer!'.\n  • *Troioù-lavar:* 'dispign evit', 'tremen amzer gant ar familh'.",
-        "**8. C'hoari (an holl zoareoù):** C'hoarioù, sportoù, benvegoù, rolloù.\n  • *Frazennoù eeun:* 'C'hoari mell-droad / c'hoarioù', 'C meur a seurt: c'hoari gitar / piano', 'C'hoari ur roll'.\n  • *Troioù-lavar:* 'c'hoari ur benveg sonerezh', 'c meur a roll bras'.",
-        "**9. Bezañ a-du / Bezañ enep:** A-du hag ali.\n  • *Frazennoù eeun:* 'A-du on ganit', 'N'on ket a-du'.\n  • *Troioù-lavar:* 'bezañ a-du penn-da-benn', 'Kavout un emglev'.",
-        "**10. Kas / Kaout (reçevout):** Kasañ ha kaout.\n  • *Frazennoù eeun:* 'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.\n  • *Troioù-lavar:* 'kas ur postel', 'kaout respont'."
+        "**5. Divizout / Diskoulmañ:** Divizoù ha diskoulmañ kudennoù.\n  • *Frazennoù eeun:* 'Divizout a ran chom', 'Diskoulmañ ur gudenn diaes'.\n  • *Evezhiadenn bouezus:* 'Diskoulmañ ur gudenn' eo an droienn reizh.\n  • *Troioù-lavar:* 'kemerez un diviz', 'diskoulmañ kudennoù', 'divizout buan'.",
+        "**6. Dispign / Foranañ:** Merañ ar madoù.\n  • *Frazennoù eeun:* 'Dispign arc'hant', 'Na foran ket da amzer!'.\n  • *Troioù-lavar:* 'dispign evit', 'tremen amzer gant ar familh'.",
+        "**7. Kas / Kaout (reçevout):** Kasañ ha kaout.\n  • *Frazennoù eeun:* 'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.\n  • *Troioù-lavar:* 'kas ur postel', 'kaout respont'.",
+        "**8. Skoazellañ / Sikour:** Sikour ha harp.\n  • *Frazennoù eeun:* 'Gallout a rez sikour ac'hanon?', 'Skoazellañ mignoned', 'Sikour er gêr'.\n  • *Troioù-lavar:* 'goulenn sikour', 'reiñ un dorn', 'degas harp'.",
+        "**9. Gervel / Kas ur gemennadenn:** Pellgomz ha kemennadennoù.\n  • *Frazennoù eeun:* 'Galv ac'hanon diwezhatoc'h', 'Kas a ran ur gemennadenn dit', 'Pellgomz'.\n  • *Troioù-lavar:* 'pellgomz dre bellgomzer', 'kas ur gerig', 'adgervel'.",
+        "**10. Bezañ a-du / Bezañ enep:** A-du hag ali.\n  • *Frazennoù eeun:* 'A-du on ganit', 'N'on ket a-du'.\n  • *Troioù-lavar:* 'bezañ a-du penn-da-benn', 'Kavout un emglev'."
       ]
     },
     {
@@ -72,21 +72,21 @@
       "printable": true,
       "listId": "top10",
       "csvName": "top-10-verbs-part-3-br",
-      "listTitle": "The full list",
+      "listTitle": "Roll klok",
       "headers": [
         "#",
         "Verb",
-        "What it is for",
-        "Example",
-        "Useful phrases"
+        "Evit petra servij",
+        "Skouer",
+        "Troioù-lavar talvoudus"
       ],
       "rows": [
         [
           "1",
-          "Dibab / Prenañ / Paeañ",
-          "Dibab ha kenwerzh.",
-          "'Dibab ul levr', 'Prenañ bara', 'Paeañ dre gartenn'.",
-          "'dibab mat', 'prenañ enlinenn', 'paeañ koan'."
+          "Paeañ / Prenañ",
+          "Paeañ ha kenwerzh.",
+          "'Prenañ bara', 'Paeañ dre gartenn'.",
+          "'prenañ enlinenn', 'paeañ koan'."
         ],
         [
           "2",
@@ -111,150 +111,48 @@
         ],
         [
           "5",
-          "Divizout",
-          "Divizoù ha mennozhioù.",
-          "'Divizout a ran chom', 'Divizout diwar-benn ur raktres'.",
-          "'Lenn / diskoulmañ ur gudenn' eo ar ger mat (solve a problem)."
+          "Divizout / Diskoulmañ",
+          "Divizoù ha diskoulmañ kudennoù.",
+          "'Divizout a ran chom', 'Diskoulmañ ur gudenn'.",
+          "'kemerez un diviz', 'diskoulmañ kudennoù', 'divizout buan'."
         ],
         [
           "6",
-          "Skrivañ / Lenn / Bizskrivañ",
-          "Skritur ha lennadurezh.",
-          "'Skrivañ ur postel', 'Lenn ul levr', 'Bizskrivañ ur gemennadenn'.",
-          "'skrivañ dre skrid', 'lenn a-vouezh uhel', 'bizskrivañ buan'."
-        ],
-        [
-          "7",
           "Dispign / Foranañ",
           "Merañ ar madoù.",
           "'Dispign arc'hant', 'Na foran ket da amzer!'.",
           "'dispign evit', 'tremen amzer gant ar familh'."
         ],
         [
-          "8",
-          "C'hoari (an holl zoareoù)",
-          "C'hoarioù, sportoù, benvegoù, rolloù.",
-          "'C'hoari mell-droad / c'hoarioù', 'C meur a seurt: c'hoari gitar / piano', 'C'hoari ur roll'.",
-          "'c'hoari ur benveg sonerezh', 'c meur a roll bras'."
-        ],
-        [
-          "9",
-          "Bezañ a-du / Bezañ enep",
-          "A-du hag ali.",
-          "'A-du on ganit', 'N'on ket a-du'.",
-          "'bezañ a-du penn-da-benn', 'Kavout un emglev'."
-        ],
-        [
-          "10",
+          "7",
           "Kas / Kaout (reçevout)",
           "Kasañ ha kaout.",
           "'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.",
           "'kas ur postel', 'kaout respont'."
+        ],
+        [
+          "8",
+          "Skoazellañ / Sikour",
+          "Sikour ha skoazell.",
+          "'Gallout a rez sikour ac'hanon?', 'Sikour un den'.",
+          "'goulenn sikour', 'reiñ un dorn', 'degas skoazell'."
+        ],
+        [
+          "9",
+          "Gervel / Kas ur gemennadenn",
+          "Pellgomz ha lizheroù bihan.",
+          "'Galv ac'hanon fenoz', 'Kas ur gemennadenn'.",
+          "'pellgomz', 'kas un sms', 'adgervel diwezhatoc'h'."
+        ],
+        [
+          "10",
+          "Bezañ a-du / Bezañ enep",
+          "A-du hag ali.",
+          "'A-du on ganit', 'N'on ket a-du'.",
+          "'bezañ a-du penn-da-benn', 'Kavout un emglev'."
         ]
       ],
       "webOnly": true
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Taolenn geñveriañ ar verboù"
-    },
-    {
-      "type": "paragraph",
-      "text": "Keñveriadur verboù Lodenn 3 hervez ar familhoù yezhoù:"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Concept",
-        "Romance (FR/IT/ES/PT)",
-        "Germanic (EN/DE)",
-        "Slavic / Hellenic / Celtic / Arm",
-        "Turkic (TT/BA/CV)",
-        "Kartvelian (KA)"
-      ],
-      "rows": [
-        [
-          "Choose, Buy, Pay",
-          "Choisir / Acheter / Payer",
-          "Choose / Buy / Pay",
-          "Выбирать / Покупать / Платить",
-          "Сайлау / һайлау / Суйлама",
-          "არჩევა / ყიდვა / გადახდა"
-        ],
-        [
-          "Remember & Forget",
-          "Se souvenir / Oublier",
-          "Remember / Forget",
-          "Помнить / Забывать",
-          "Хәтерләү / Хәтерләү / Аса илме",
-          "მახსოვრობა / დავიწყება"
-        ],
-        [
-          "Write, Read, Type",
-          "Écrire / Lire / Taper",
-          "Write / Read / Type",
-          "Писать / Читать / Печатать",
-          "Язу / Яҙыу / Ҫырма",
-          "წერა / კითხვა / ბეჭდვა"
-        ],
-        [
-          "Spend & Waste",
-          "Dépenser / Gaspiller",
-          "Spend / Waste",
-          "Тратить / Транжирить",
-          "Сарыф итү / Тотоноу / Тӑкашлама",
-          "ხარჯვა / გაფლანგვა"
-        ],
-        [
-          "Send & Get",
-          "Envoyer / Obtenir",
-          "Send / Get",
-          "Отправлять / Получать",
-          "Җибәрү / Ебәреү / Ярма",
-          "გაგზავნა / მიღება"
-        ],
-        [
-          "Feel",
-          "Ressentir / Sentir",
-          "Feel / Sense",
-          "Чувствовать / Ощущать",
-          "Хис итү / Хис итеү / Туйма",
-          "გრძნობა / შეგრძნება"
-        ],
-        [
-          "Meet",
-          "Rencontrer / Croiser",
-          "Meet / Encounter",
-          "Встречать / Знакомиться",
-          "Очрашу / Осрашыу / Тĕл пулма",
-          "შეხვედრა / გაცნობა"
-        ],
-        [
-          "Decide",
-          "Décider / Résoudre",
-          "Decide / Resolve",
-          "Решать / Принимать решение",
-          "Карар итү / Ҡарар итеү / Йышӑнма",
-          "გადაწყვეტა / გადაჭრა"
-        ],
-        [
-          "Play",
-          "Jouer / Pratiquer",
-          "Play / Practice",
-          "Играть / Исполнять",
-          "Уйнау / Уйнау / Выляма",
-          "თამაში / დაკვრა"
-        ],
-        [
-          "Agree & Disagree",
-          "Être d'accord / Disconvenir",
-          "Agree / Disagree",
-          "Соглашаться / Не соглашаться",
-          "Килешү / Килешеү / Килĕшме",
-          "დათანხმება / უარყოფა"
-        ]
-      ]
     },
     {
       "type": "heading",
@@ -263,7 +161,7 @@
     },
     {
       "type": "paragraph",
-      "text": "• **Frammoù eeun:** Rener + Verb + Renadenn.\n• **C'hoari:** implijet e vez 'c'hoari' ken evit ar sportoù ken evit ar benvegoù sonerezh.\n• **Treuzfeurmiñ:** Mirit an taolennoù klok war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "• **Frammoù eeun:** Rener + Verb + Renadenn.\n• **Yezhadur:** 'Sikour / skoazellañ unan bennak', 'diskoulmañ ur gudenn'.\n• **Treuzfeurmiñ:** Mirit an taolennoù klok war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
     },
     {
       "type": "heading",
@@ -277,7 +175,7 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "📚 Further reading",
+      "text": "📚 Evit mont pelloc’h",
       "webOnly": true,
       "listId": "refs"
     },
