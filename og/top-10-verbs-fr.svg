@@ -70,11 +70,11 @@
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
-        <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#274B7D" stroke-width="1.2" />
-        <text x="54" y="462" fill="#274B7D" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">GUIDE DU FRANÇAIS — PARTIE 1 SUR 2 • Vol. 2026.08</text>
-        <text x="54" y="500" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Les 10 verbes essentiels en</text>
-<text x="54" y="536" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">français pour débutants</text>
-<text x="54" y="572" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">(A0–A1 / A2)</text>
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#274B7D" stroke-width="1.2" />
+        <text x="54" y="474" fill="#274B7D" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">GUIDE DU FRANÇAIS — PARTIE 1 SUR 2 • Vol. 2026.08</text>
+        <text x="54" y="510" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Les 10 verbes essentiels en</text>
+<text x="54" y="542" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">français pour débutants, partie</text>
+<text x="54" y="574" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">1 (A0–A1 / A2)</text>
       </g>
     
       <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />

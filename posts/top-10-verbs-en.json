@@ -11,19 +11,19 @@
     "title": "Get ready for school"
   },
   "date": "2026-03-01",
-  "title": "Top 10 Essential English Verbs for Absolute Beginners (A0–A1 / A2 Master Guide)",
+  "title": "Top 10 Essential English Verbs for Beginners, Part 1 (A0–A1 / A2)",
   "kicker": "ENGLISH CORE GUIDE — PART 1 OF 2",
-  "dek": "A complete magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
+  "dek": "Be, have, think, know, like, want, go, can, eat and drink: ten verbs, ten complete lessons. Forms, real patterns, clear diagrams, common mistakes and quizzes, built for beginners (A0–A1) with a step further for A2.",
   "tags": [
     "Verbs",
     "English",
     "A0-A1",
     "14Languages"
   ],
-  "readingTime": 15,
+  "readingTime": 51,
   "podcast": {
     "episode": 2,
-    "audioUrl": null
+    "externalUrl": "https://podcasters.spotify.com/pod/show/james-york6/episodes/2-TOP-10-verbs-e2mgv09"
   },
   "artDirection": {
     "palette": [
@@ -44,888 +44,3069 @@
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "<section id=\"page-1\" class=\"gazette-page-spread\" aria-labelledby=\"page-1-heading\"><h2 id=\"page-1-heading\" class=\"editorial-heading\">Introduction to the Top 10 Core Verbs</h2>"
+      "type": "heading",
+      "level": 2,
+      "text": "Start here: ten verbs, one toolbox",
+      "id": "start"
     },
     {
       "type": "paragraph",
-      "text": "Welcome to Part 1 of our 2-part master verb guide for A0–A1 and A2 English learners! When you start learning English, you don't need thousands of words to start speaking. Frequency research demonstrates that just 10 core verbs carry up to 80% of daily spoken output. This 12-page issue gives every core verb its own dedicated page with clear grammar rules, practical sentence frames, real-world examples, and common traps to avoid."
+      "text": "With ten verbs you can already do a lot in English. You can say who you are (**be**), what you have (**have**), what you think and know (**think, know**), what you like and want (**like, want**), where you are going (**go**), what you are able to do (**can**), and order something to **eat** and **drink**."
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">🗺️ Interactive Verb Map: Part 1 Core Verbs</h3><p style=\"margin-bottom:1rem; color:var(--ink-secondary);\">Flip through this issue page by page or jump directly to any verb spread:</p><div class=\"verb-map-grid\"><a href=\"#page-2\" class=\"verb-node-card\"><strong>1. To Be</strong> — Existence, identity, age, states, location.</a><a href=\"#page-3\" class=\"verb-node-card\"><strong>2. To Have</strong> — Possession, bodily states, routines.</a><a href=\"#page-4\" class=\"verb-node-card\"><strong>3. To Think</strong> — Opinions, thoughts, beliefs.</a><a href=\"#page-5\" class=\"verb-node-card\"><strong>4. To Know</strong> — Facts, familiarity, skills.</a><a href=\"#page-6\" class=\"verb-node-card\"><strong>5. To Like</strong> — Preferences, tastes, polite requests.</a><a href=\"#page-7\" class=\"verb-node-card\"><strong>6. To Want / Would Like</strong> — Desires, ordering, plans.</a><a href=\"#page-8\" class=\"verb-node-card\"><strong>7. To Go / Be Going To</strong> — Movement, travel, future.</a><a href=\"#page-9\" class=\"verb-node-card\"><strong>8. To Can (Modal)</strong> — Ability, requests, permission.</a><a href=\"#page-10\" class=\"verb-node-card\"><strong>9. To Eat</strong> — Meals, dining out, daily food.</a><a href=\"#page-11\" class=\"verb-node-card\"><strong>10. To Drink</strong> — Beverages, hydration, social drinks.</a><a href=\"#page-12\" class=\"verb-node-card\"><strong>Outro & Practice</strong> — Language matrix & test tools.</a></div></div>"
+      "text": "Each verb has its own spread: the forms, the patterns you will really use, the mistakes learners often make, and a short quiz. The ten verbs are the same ones as in the podcast episode embedded below the pages, so you can listen first, then read, or the other way round."
     },
     {
       "type": "paragraph",
-      "text": "<div style=\"margin:1.5rem 0;\"><h3 class=\"editorial-heading\">📈 CEFR Verb Progression Roadmap</h3><div class=\"table-responsive-container\"><table class=\"cefr-roadmap-table\"><caption class=\"sr-only\">CEFR Verb Progression Roadmap for A0, A1, and A2 levels</caption><thead><tr><th>Level</th><th>Core Verb Focus</th><th>Communicative Capability</th></tr></thead><tbody><tr><td><span class=\"cefr-badge cefr-a0\" aria-label=\"Level A0 Beginner\">A0</span></td><td><strong>be, have, go, want</strong></td><td>Survival needs, basic identity, age, physical states, immediate movement.</td></tr><tr><td><span class=\"cefr-badge cefr-a1\" aria-label=\"Level A1 Elementary\">A1</span></td><td><strong>come, do, make, see, say, get, can, eat, drink</strong></td><td>Daily routines, simple descriptions, origin, asking questions, ordering food.</td></tr><tr><td><span class=\"cefr-badge cefr-a2\" aria-label=\"Level A2 Elementary Plus\">A2</span></td><td><strong>take, give, know, think, feel, work, would like</strong></td><td>Preferences, past experiences, future plans, workplace tasks, opinions.</td></tr></tbody></table></div></div></section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-2\" class=\"gazette-page-spread\" aria-labelledby=\"page-2-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-2-heading\" class=\"editorial-heading\">BE — The little verb that does almost everything ✨</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "🗺️ <strong>Your learning route</strong> &nbsp; <span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>A0–A1 · Start here:</strong> identity, age, feelings, descriptions, place, time. &nbsp; <span aria-label=\"Level A1-A2 Intermediate\">🔵</span> <strong>A1–A2 · Build confidence:</strong> negatives, questions, possession, <em>there is/are</em>, everyday expressions. &nbsp; <span aria-label=\"Level A2+ Advanced\">🟣</span> <strong>A2+ · One step further:</strong> <em>be</em> as a helping verb. Keep this page as a reference—you do not need to memorise everything at once."
-    },
-    {
-      "type": "paragraph",
-      "text": "Meet <strong>be</strong>: <em>am, is, are</em>. It helps you say who someone is, how someone feels, where something is, what something is like, and what time or weather it is. English often needs <strong>be</strong> where another language may use a different structure. 💡 The trick is to learn the pattern with the meaning, not just the words."
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Every sentence in this issue is built the same way</p><div class=\"lx-engine-row\">\n       <div><span class=\"lx-label\">Who?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">I</li><li class=\"lx-chip \">you</li><li class=\"lx-chip \">he</li><li class=\"lx-chip \">she</li><li class=\"lx-chip \">it</li><li class=\"lx-chip \">we</li><li class=\"lx-chip \">they</li></ul></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">Which verb?</span><ul class=\"lx-chips\"><li class=\"lx-chip lx-chip-verb\">be</li><li class=\"lx-chip lx-chip-verb\">have</li><li class=\"lx-chip lx-chip-verb\">think</li><li class=\"lx-chip lx-chip-verb\">know</li><li class=\"lx-chip lx-chip-verb\">like</li><li class=\"lx-chip lx-chip-verb\">want</li><li class=\"lx-chip lx-chip-verb\">go</li><li class=\"lx-chip lx-chip-verb\">can</li><li class=\"lx-chip lx-chip-verb\">eat</li><li class=\"lx-chip lx-chip-verb\">drink</li></ul></div>\n       <span class=\"lx-op\" aria-hidden=\"true\">+</span>\n       <div><span class=\"lx-label\">What?</span><ul class=\"lx-chips\"><li class=\"lx-chip \">a teacher</li><li class=\"lx-chip \">tired</li><li class=\"lx-chip \">a car</li><li class=\"lx-chip \">it's good</li><li class=\"lx-chip \">the answer</li><li class=\"lx-chip \">coffee</li><li class=\"lx-chip \">to learn</li><li class=\"lx-chip \">home</li><li class=\"lx-chip \">swim</li><li class=\"lx-chip \">an apple</li></ul></div>\n     </div><figcaption class=\"lx-cap\">Change one part and you get a new sentence: <em>I like coffee. She wants a coffee. They can drink coffee.</em></figcaption></figure>",
+      "text": "Every sentence is built the same way: who, plus a verb, plus what. For example: I like coffee. She wants a coffee. They can drink coffee."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "01 · The three shapes of BE 🧩"
+      "text": "Find your level"
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb BE</caption><thead><tr><th>Subject</th><th>Full form</th><th>Short form</th><th>Example</th></tr></thead><tbody><tr><td>I</td><td>I am</td><td>I’m</td><td><mark class=\"example-chip\">I’m ready.</mark></td></tr><tr><td>You</td><td>You are</td><td>You’re</td><td><mark class=\"example-chip\">You’re early.</mark></td></tr><tr><td>He</td><td>He is</td><td>He’s</td><td><mark class=\"example-chip\">He’s my brother.</mark></td></tr><tr><td>She</td><td>She is</td><td>She’s</td><td><mark class=\"example-chip\">She’s at home.</mark></td></tr><tr><td>It</td><td>It is</td><td>It’s</td><td><mark class=\"example-chip\">It’s cold.</mark></td></tr><tr><td>We</td><td>We are</td><td>We’re</td><td><mark class=\"example-chip\">We’re busy.</mark></td></tr><tr><td>They</td><td>They are</td><td>They’re</td><td><mark class=\"example-chip\">They’re students.</mark></td></tr></tbody></table></div>"
+      "text": "The core of every spread is **A0–A1**: the forms and patterns you need first. Items marked below as **A2** are a small step further. Read them when the core feels comfortable."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "A0–A1 core",
+        "A2 step further"
+      ],
+      "rows": [
+        [
+          "**be**",
+          "am / is / are, negatives, questions, there is / there are",
+          "*What … like?*, fixed expressions (*be good at*)"
+        ],
+        [
+          "**have**",
+          "possessions, family, meals, *don't / doesn't have*",
+          "*have got*, *some / any*, everyday expressions"
+        ],
+        [
+          "**think**",
+          "*I think …*, *What do you think?*",
+          "*I don't think …*, *think about / think of*"
+        ],
+        [
+          "**know**",
+          "*I know*, *I don't know*, *Do you know …?*",
+          "questions inside questions, *know how to*"
+        ],
+        [
+          "**like**",
+          "*like* + noun / *-ing*, the scale from *love* to *hate*",
+          "*What is she like?*, degree words"
+        ],
+        [
+          "**want**",
+          "*want* + noun / *to* + verb",
+          "*I want you to …*, *would like*"
+        ],
+        [
+          "**go**",
+          "*go to*, *go home*, *go by bus*, *went*",
+          "*be going to*: plans and predictions"
+        ],
+        [
+          "**can**",
+          "ability, permission, requests, *can't*",
+          "*could*, *be able to*"
+        ],
+        [
+          "**eat / drink**",
+          "present simple, meals, *ate / drank*",
+          "*eat* vs *have*, offers with *would you like*"
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "💡 <strong>Pattern to remember:</strong> the subject chooses the form: <strong>I am</strong>, <strong>he/she/it is</strong>, <strong>you/we/they are</strong>. Short forms are very common in conversation. Use full forms when you want emphasis or a more formal tone."
+      "html": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">Jump to a verb</h3><div class=\"verb-map-grid\">\n    <a href=\"#verb-be\" class=\"verb-node-card\"><strong>1 · be</strong> — who, what, how, where, how old</a>\n    <a href=\"#verb-have\" class=\"verb-node-card\"><strong>2 · have</strong> — things, family, meals, illness</a>\n    <a href=\"#verb-think\" class=\"verb-node-card\"><strong>3 · think</strong> — opinions and ideas</a>\n    <a href=\"#verb-know\" class=\"verb-node-card\"><strong>4 · know</strong> — facts, people, skills</a>\n    <a href=\"#verb-like\" class=\"verb-node-card\"><strong>5 · like</strong> — tastes and preferences</a>\n    <a href=\"#verb-want\" class=\"verb-node-card\"><strong>6 · want / would like</strong> — wishes, polite requests</a>\n    <a href=\"#verb-go\" class=\"verb-node-card\"><strong>7 · go / be going to</strong> — movement and plans</a>\n    <a href=\"#verb-can\" class=\"verb-node-card\"><strong>8 · can</strong> — ability, permission, requests</a>\n    <a href=\"#verb-eat\" class=\"verb-node-card\"><strong>9 · eat</strong> — food and meals</a>\n    <a href=\"#verb-drink\" class=\"verb-node-card\"><strong>10 · drink</strong> — drinks and ordering</a>\n    <a href=\"#verb-together\" class=\"verb-node-card\"><strong>Put it together</strong> — all ten in one place</a>\n  </div></div>",
+      "text": "Jump to a verb: be, have, think, know, like, want, go, can, eat, drink, or the final page where all ten come together."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-tip\"><strong>How to use this issue</strong><p>1. Listen to the episode once. 2. Read one verb spread. 3. Say the example sentences <strong>out loud</strong>. 4. Do the quiz. Ten minutes a day is enough.</p></div>",
+      "text": "How to use this issue 1. Listen to the episode once. 2. Read one verb spread. 3. Say the example sentences out loud . 4. Do the quiz. Ten minutes a day is enough."
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 1 — be (am / is / are)",
+      "id": "verb-be"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Be** is the most useful verb in English. You use it to say who you are, how you feel, where you are, how old you are, and what things are like. In the present it has three forms: **am, is, are**. It needs no helper: you make a negative with **not**, and a question by changing the order of the subject and the verb."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Which form goes with which word?</p><div class=\"lx-groups\">\n       <div class=\"lx-group\"><span class=\"lx-group-form\">am</span><span class=\"lx-group-sub\">only with <b>I</b></span><ul class=\"lx-chips\"><li class=\"lx-chip \">I am</li><li class=\"lx-chip \">I'm</li></ul></div>\n       <div class=\"lx-group\"><span class=\"lx-group-form\">is</span><span class=\"lx-group-sub\">he, she, it, and one person or thing</span><ul class=\"lx-chips\"><li class=\"lx-chip \">he</li><li class=\"lx-chip \">she</li><li class=\"lx-chip \">it</li><li class=\"lx-chip \">my brother</li><li class=\"lx-chip \">the book</li><li class=\"lx-chip \">Paris</li></ul></div>\n       <div class=\"lx-group\"><span class=\"lx-group-form\">are</span><span class=\"lx-group-sub\">you, we, they, and more than one</span><ul class=\"lx-chips\"><li class=\"lx-chip \">you</li><li class=\"lx-chip \">we</li><li class=\"lx-chip \">they</li><li class=\"lx-chip \">my parents</li><li class=\"lx-chip \">the books</li></ul></div>\n     </div><figcaption class=\"lx-cap\"><em>You</em> always takes <em>are</em>, even when you talk to one person.</figcaption></figure>",
+      "text": "I takes am. He, she, it and one person or thing take is. You, we, they and more than one take are. You always takes are, even for one person."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "02 · Ten everyday jobs for BE 🌟"
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Full form",
+        "Short form",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I",
+          "I am",
+          "I'm",
+          "I'm tired after work."
+        ],
+        [
+          "you",
+          "you are",
+          "you're",
+          "You're on time."
+        ],
+        [
+          "he",
+          "he is",
+          "he's",
+          "He's a doctor."
+        ],
+        [
+          "she",
+          "she is",
+          "she's",
+          "She's at home."
+        ],
+        [
+          "it",
+          "it is",
+          "it's",
+          "It's cold today."
+        ],
+        [
+          "we",
+          "we are",
+          "we're",
+          "We're ready."
+        ],
+        [
+          "they",
+          "they are",
+          "they're",
+          "They're students."
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>A · Identity and names</strong> — say who someone is or identify a thing. <br><strong>Pattern:</strong> subject + be + noun/name. <br><mark class=\"example-chip\">I’m Maya.</mark> <mark class=\"example-chip\">He’s my brother, Leo.</mark> <mark class=\"example-chip\">This is my new book.</mark>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>B · Jobs and roles</strong> — use <em>a/an</em> with a singular countable job. <br><mark class=\"example-chip\">I’m an English teacher.</mark> <mark class=\"example-chip\">She’s a doctor.</mark> <mark class=\"example-chip\">He’s an IT specialist.</mark> <br>⚠️ Say <strong>a doctor / an actor</strong>, not <em>she is doctor</em>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>C · Age</strong> — English uses <strong>be</strong>, not <em>have</em>. <br><mark class=\"example-chip\">I’m 20 (years old).</mark> <mark class=\"example-chip\">My parents are 55.</mark> <mark class=\"example-chip\">How old are you?</mark>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"instead-try-spread\" aria-label=\"Age Expression Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I have 20 years.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I’m 20.</mark> (or <mark class=\"example-chip\">I am 20 years old.</mark>)</div></div></div></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>D · Nationality and origin</strong> — use a nationality adjective or <em>be from + place</em>. <br><mark class=\"example-chip\">I’m French.</mark> <mark class=\"example-chip\">He’s Spanish.</mark> <mark class=\"example-chip\">We’re from Paris.</mark> <br>🔎 Nationality describes a person; <em>from</em> tells you their origin."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>E · Descriptions and characteristics</strong> — be + adjective. <br><mark class=\"example-chip\">My friend is tall and funny.</mark> <mark class=\"example-chip\">The cake is delicious.</mark> <mark class=\"example-chip\">My room is clean today.</mark> <br>💡 Adjectives do not take a plural <strong>-s</strong>: <em>They are happy</em>, not <em>they are happies</em>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>F · Feelings and physical states</strong> — say how someone feels or what state they are in. <br><mark class=\"example-chip\">I’m happy to meet you.</mark> <mark class=\"example-chip\">We’re hungry and thirsty.</mark> <mark class=\"example-chip\">He’s tired today.</mark> <br>🗣️ <strong>Mini-dialogue:</strong> “<mark class=\"example-chip\">Are you okay?</mark>” “<mark class=\"example-chip\">Yes, I’m fine, thanks.</mark>”"
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>G · Location and position</strong> — be + place/preposition. <br><mark class=\"example-chip\">I’m at home.</mark> <mark class=\"example-chip\">She’s in the kitchen.</mark> <mark class=\"example-chip\">The keys are on the table.</mark> <br>📍 <strong>Useful place words:</strong> <strong>in</strong> the room · <strong>on</strong> the table · <strong>under</strong> the bed · <strong>next to</strong> the café · <strong>behind</strong> the house · <strong>in front of</strong> the school · <strong>between</strong> two shops · <strong>near</strong> the station · <strong>at</strong> work/school."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A0-A1 Beginner\">🟢</span> <strong>H · Time, weather and dates</strong> — English commonly uses <strong>it is</strong> for time and weather. <br><mark class=\"example-chip\">It’s 11 o’clock.</mark> <mark class=\"example-chip\">It’s cold and sunny.</mark> <mark class=\"example-chip\">It’s Friday.</mark> <mark class=\"example-chip\">Today is October 23.</mark> <br>💡 For dates, you can also say <mark class=\"example-chip\">It’s October 23rd</mark> (especially in American English) or <mark class=\"example-chip\">It’s the 23rd of October</mark> (common in British English)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A1-A2 Intermediate\">🔵</span> <strong>I · Demonstratives and possession</strong> — <em>this/that is</em> for one thing; <em>these/those are</em> for more than one. <br><mark class=\"example-chip\">This is my bag.</mark> <mark class=\"example-chip\">That is her sister.</mark> <mark class=\"example-chip\">These are our books.</mark> <mark class=\"example-chip\">Those are my parents.</mark> <br>⚖️ <strong>Be vs have:</strong> <mark class=\"example-chip\">This bag is mine</mark> identifies the owner; <mark class=\"example-chip\">I have a car</mark> says what I own."
-    },
-    {
-      "type": "paragraph",
-      "text": "<span aria-label=\"Level A1-A2 Intermediate\">🔵</span> <strong>J · Material, measurements and numbers</strong> — be can describe what something is made of, its price, size or distance. <br><mark class=\"example-chip\">The table is made of wood.</mark> <mark class=\"example-chip\">The ticket is €10.</mark> <mark class=\"example-chip\">The station is two kilometres away.</mark> <mark class=\"example-chip\">My room is four metres wide.</mark> <br>🔎 In <em>is made of</em>, <strong>be</strong> is part of a passive structure—see “One step further” below."
+      "text": "In speech, people nearly always use the short forms: *I'm, you're, he's*. Use the full forms when you want to stress a word (*Yes, I am!*) and in short answers."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "03 · Make it negative 🚦"
+      "text": "What you can say with be"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "You want to say…",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Who or what someone is",
+          "be + name / noun",
+          "My name **is** Damian. / This **is** my brother. / They **are** my friends."
+        ],
+        [
+          "A job",
+          "be + **a / an** + job",
+          "I **am** a teacher. / She **is** an engineer."
+        ],
+        [
+          "Age",
+          "be + number",
+          "I **am** 29. / He **is** 20 years old. / How old **are** you?"
+        ],
+        [
+          "Nationality and origin",
+          "be + nationality / **from** + place",
+          "I **am** French. / We **are** from Paris."
+        ],
+        [
+          "How someone or something is",
+          "be + adjective",
+          "He **is** tall. / I **am** tired. / The soup **is** hot."
+        ],
+        [
+          "Where someone or something is",
+          "be + **in / at / on** + place",
+          "She **is** at home. / Where **are** you?"
+        ],
+        [
+          "Time, weather, price",
+          "**It is** + …",
+          "It **is** nine o'clock. / It **is** cold. / It **is** €20."
+        ],
+        [
+          "Pointing at things *(A2)*",
+          "**this / that** (one) · **these / those** (more)",
+          "This **is** my bag. / That **is** her sister. / These **are** our books. / Those **are** my parents."
+        ],
+        [
+          "Material, size, distance *(A2)*",
+          "be + **made of** / number",
+          "The table **is** made of wood. / The ticket **is** €10. / The station **is** two kilometres away. / My room **is** four metres wide."
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "To make a negative, put <strong>not after am/is/are</strong>. You do not need <em>do</em> or <em>does</em>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Negative conjugation forms table for verb BE</caption><thead><tr><th>Full form</th><th>Short form</th><th>Example</th></tr></thead><tbody><tr><td>am not</td><td>’m not</td><td><mark class=\"example-chip\">I’m not tired today.</mark></td></tr><tr><td>is not</td><td>isn’t / ’s not</td><td><mark class=\"example-chip\">She isn’t at school.</mark></td></tr><tr><td>are not</td><td>aren’t / ’re not</td><td><mark class=\"example-chip\">They aren’t hungry.</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Traps</div><p class=\"marginalia-body\">• Say <strong>I’m not</strong> or <strong>I am not</strong>—standard English does not use <em>I amn’t</em>.</p><div class=\"instead-try-spread\" aria-label=\"Negative BE Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She doesn’t be happy.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She isn’t happy.</mark></div></div></div></div></aside>"
+      "html": "<div class=\"lx-tip\"><strong>Be or have?</strong><p><em>This bag is mine</em> says who the owner is. <em>I have a car</em> says what you own. Both are correct: they answer different questions.</p></div>",
+      "text": "Be or have? This bag is mine says who the owner is. I have a car says what you own. Both are correct: they answer different questions."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "04 · Ask yes/no questions ❓"
+      "text": "Negatives and questions"
     },
     {
       "type": "paragraph",
-      "text": "Move <strong>am/is/are</strong> before the subject: <strong>You are ready. → Are you ready?</strong>"
+      "text": "Negative: put **not** after am / is / are. Question: put am / is / are **before** the subject. Never use *do* or *does* with *be*."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Statement (+)",
+        "Negative (−)",
+        "Question (?)",
+        "Short answers"
+      ],
+      "rows": [
+        [
+          "I am happy.",
+          "I'm not happy.",
+          "Am I late?",
+          "Yes, you are. / No, you aren't."
+        ],
+        [
+          "You are ready.",
+          "You aren't ready.",
+          "Are you ready?",
+          "Yes, I am. / No, I'm not."
+        ],
+        [
+          "He is a doctor.",
+          "He isn't a doctor.",
+          "Is he a doctor?",
+          "Yes, he is. / No, he isn't."
+        ],
+        [
+          "It is cold.",
+          "It isn't cold.",
+          "Is it cold?",
+          "Yes, it is. / No, it isn't."
+        ],
+        [
+          "They are at home.",
+          "They aren't at home.",
+          "Are they at home?",
+          "Yes, they are. / No, they aren't."
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Yes and No questions and short answers table for verb BE</caption><thead><tr><th>Statement</th><th>Question</th><th>Yes, …</th><th>No, …</th></tr></thead><tbody><tr><td>You are ready.</td><td><mark class=\"example-chip\">Are you happy?</mark></td><td><mark class=\"example-chip\">Yes, I am.</mark></td><td><mark class=\"example-chip\">No, I’m not.</mark></td></tr><tr><td>He is a doctor.</td><td><mark class=\"example-chip\">Is he a doctor?</mark></td><td><mark class=\"example-chip\">Yes, he is.</mark></td><td><mark class=\"example-chip\">No, he isn’t.</mark></td></tr><tr><td>She is here.</td><td><mark class=\"example-chip\">Is she here?</mark></td><td><mark class=\"example-chip\">Yes, she is.</mark></td><td><mark class=\"example-chip\">No, she isn’t.</mark></td></tr><tr><td>It is cold.</td><td><mark class=\"example-chip\">Is it cold?</mark></td><td><mark class=\"example-chip\">Yes, it is.</mark></td><td><mark class=\"example-chip\">No, it isn’t.</mark></td></tr><tr><td>They are ready.</td><td><mark class=\"example-chip\">Are they ready?</mark></td><td><mark class=\"example-chip\">Yes, they are.</mark></td><td><mark class=\"example-chip\">No, they aren’t.</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "💡 <strong>Short-answer rule:</strong> in positive short answers, use the full form: ✅ <mark class=\"example-chip\">Yes, she is.</mark> &nbsp; ❌ <mark class=\"example-chip\">Yes, she’s.</mark> Negative short answers can use contractions: <mark class=\"example-chip\">No, she isn’t.</mark>"
+      "html": "<div class=\"lx-warn\"><strong>Two rules for short answers</strong><p>1. In a <strong>positive</strong> short answer, use the full form: <em>Yes, she <strong>is</strong>.</em> (not <s>Yes, she's.</s>)</p><p>2. There is no <s>amn't</s>. Say <em>I'm not</em>. Both <em>he isn't</em> and <em>he's not</em> are correct.</p></div>",
+      "text": "Two rules for short answers 1. In a positive short answer, use the full form: Yes, she is . (not Yes, she's. ) 2. There is no amn't . Say I'm not . Both he isn't and he's not are correct."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "05 · Ask for the detail: WH- questions 🔎"
+      "text": "Question words with be"
     },
     {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">WH- question words and usage table for verb BE</caption><thead><tr><th>Question word</th><th>What it asks</th><th>Example</th></tr></thead><tbody><tr><td>What</td><td>thing / information</td><td><mark class=\"example-chip\">What is your name?</mark></td></tr><tr><td>Who</td><td>person / identity</td><td><mark class=\"example-chip\">Who is she?</mark></td></tr><tr><td>Where</td><td>place</td><td><mark class=\"example-chip\">Where are your keys?</mark></td></tr><tr><td>When</td><td>time / date</td><td><mark class=\"example-chip\">When is your birthday?</mark></td></tr><tr><td>Why</td><td>reason</td><td><mark class=\"example-chip\">Why are you sad?</mark></td></tr><tr><td>How</td><td>state / condition</td><td><mark class=\"example-chip\">How are you today?</mark></td></tr><tr><td>How old</td><td>age</td><td><mark class=\"example-chip\">How old is your brother?</mark></td></tr><tr><td>How much</td><td>price / amount</td><td><mark class=\"example-chip\">How much is this bag?</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "✨ <strong>Two questions that look similar—but do different jobs:</strong> <br>• <strong>What is your teacher like?</strong> → asks about personality or characteristics: <mark class=\"example-chip\">She’s kind and funny.</mark> <br>• <strong>How is your grandfather?</strong> → asks about health or well-being: <mark class=\"example-chip\">He’s fine, thanks.</mark>"
+      "type": "table",
+      "headers": [
+        "Word",
+        "Asks about",
+        "Question → answer"
+      ],
+      "rows": [
+        [
+          "What",
+          "things, names",
+          "What is your name? — My name is Anna."
+        ],
+        [
+          "Who",
+          "people",
+          "Who is she? — She is my sister."
+        ],
+        [
+          "Where",
+          "places",
+          "Where are you? — I'm at home."
+        ],
+        [
+          "When",
+          "time, date",
+          "When is your birthday? — It's in May."
+        ],
+        [
+          "Why",
+          "reasons",
+          "Why are you late? — Because the bus is late."
+        ],
+        [
+          "How",
+          "health, feelings",
+          "How are you? — I'm fine, thanks."
+        ],
+        [
+          "How old",
+          "age",
+          "How old is he? — He's 20."
+        ],
+        [
+          "How much",
+          "price",
+          "How much is this bag? — It's €20."
+        ],
+        [
+          "What … like?",
+          "description *(A2)*",
+          "What is your teacher like? — She's friendly and funny."
+        ]
+      ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "06 · Say that something exists: THERE IS / THERE ARE 🏡"
+      "text": "There is / there are"
     },
     {
       "type": "paragraph",
-      "text": "Use <strong>there is</strong> for one thing and <strong>there are</strong> for more than one. It is a useful way to talk about what you can see or what is available."
+      "text": "Use **there is** (one thing) and **there are** (more than one) to say that something exists or is in a place."
     },
     {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">There is and there are sentence patterns table</caption><thead><tr><th>Meaning</th><th>Positive</th><th>Negative</th><th>Question</th></tr></thead><tbody><tr><td>One thing</td><td><mark class=\"example-chip\">There is a chair.</mark></td><td><mark class=\"example-chip\">There isn’t a chair.</mark></td><td><mark class=\"example-chip\">Is there a chair?</mark></td></tr><tr><td>More than one</td><td><mark class=\"example-chip\">There are two chairs.</mark></td><td><mark class=\"example-chip\">There aren’t any chairs.</mark></td><td><mark class=\"example-chip\">Are there any chairs?</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "🗣️ <strong>In real life:</strong> <mark class=\"example-chip\">Is there a bank near here?</mark> · <mark class=\"example-chip\">There’s a café next to the station.</mark> · <mark class=\"example-chip\">There are two free seats.</mark>"
+      "type": "table",
+      "headers": [
+        "",
+        "One thing",
+        "More than one"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "There **is** a cat in the garden.",
+          "There **are** two chairs in the kitchen."
+        ],
+        [
+          "**−**",
+          "There **isn't** a free chair.",
+          "There **aren't** any students here."
+        ],
+        [
+          "**?**",
+          "**Is there** a bank near here?",
+          "**Are there** any shops open?"
+        ],
+        [
+          "**Short answers**",
+          "Yes, there is. / No, there isn't.",
+          "Yes, there are. / No, there aren't."
+        ]
+      ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "07 · Small words, big meaning: fixed expressions 💬"
+      "text": "Useful expressions with be"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**be right / be wrong** — <mark class=\"example-chip\">You’re right.</mark> <mark class=\"example-chip\">I’m wrong.</mark>",
-        "**be afraid of / be sure** — <mark class=\"example-chip\">She’s afraid of dogs.</mark> <mark class=\"example-chip\">I’m sure it’s okay.</mark>",
-        "**be interested in / be good at** — <mark class=\"example-chip\">He’s interested in music.</mark> <mark class=\"example-chip\">She’s good at English.</mark>",
-        "**be late / early / ready / busy / free** — <mark class=\"example-chip\">We’re late.</mark> <mark class=\"example-chip\">Dinner is ready.</mark> <mark class=\"example-chip\">I’m free tomorrow.</mark>"
+        "**Feelings and states:** *I'm hungry, thirsty, cold, hot, tired, afraid.* In English you **are** hungry — you don't *have* hunger.",
+        "**Opinions and certainty:** *You're right. / I'm wrong. / I'm sure.*",
+        "**Abilities and interests** *(A2)*: *I'm good at English. / He's interested in music.*",
+        "**Time and availability:** *We're late. / She's early. / I'm busy. / I'm free tomorrow.*"
       ]
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "One step further: be as a helping verb (A2)"
+    },
+    {
       "type": "paragraph",
-      "text": "🔎 Notice the prepositions that belong with some expressions: <strong>interested in</strong>, <strong>good at</strong>, <strong>afraid of</strong>. Learn them as little word groups."
+      "text": "So far, *be* has carried the main meaning: *She is happy.* Sometimes *be* helps another word instead. You can recognise these patterns now and learn them gradually."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pattern",
+        "Example",
+        "What be is doing"
+      ],
+      "rows": [
+        [
+          "**be + -ing**",
+          "She **is working**. / They **are eating**.",
+          "Helps form the present continuous: an action happening around now."
+        ],
+        [
+          "**be + past participle**",
+          "The shop **is closed**. / The table **is made** of wood.",
+          "Helps form the passive: the sentence focuses on the thing, not on who did it."
+        ]
+      ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "08 · One step further: BE can be a helping verb 🟣 A2+"
+      "text": "Common mistakes"
     },
     {
       "type": "paragraph",
-      "text": "So far, <strong>be</strong> has carried the main meaning: <em>She is happy.</em> Sometimes, <strong>be</strong> helps another part of the sentence instead. You can recognise these patterns now and learn them gradually."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Helping verb patterns table for verb BE</caption><thead><tr><th>Pattern</th><th>Example</th><th>What BE is doing</th></tr></thead><tbody><tr><td>be + -ing</td><td><mark class=\"example-chip\">She is working.</mark></td><td>Helps form the present continuous: an action happening around now.</td></tr><tr><td>be + past participle</td><td><mark class=\"example-chip\">The table is made of wood.</mark></td><td>Helps form the passive: the sentence focuses on the thing or action, not the doer.</td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "⚖️ <strong>Compare:</strong> <em>She is happy</em> = <strong>be</strong> describes her state. · <em>She is working</em> = <strong>is</strong> helps form the action verb <em>working</em>."
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>I have 25 years.</s></td><td>I <strong>am</strong> 25.</td><td>English uses <em>be</em> for age.</td></tr><tr><td><s>She doesn't be happy.</s></td><td>She <strong>isn't</strong> happy.</td><td>No <em>do / does</em> with <em>be</em>.</td></tr><tr><td><s>Do you are ready?</s></td><td><strong>Are</strong> you ready?</td><td>Swap the subject and <em>be</em>.</td></tr><tr><td><s>I am agree.</s></td><td>I agree.</td><td><em>Agree</em> is a verb. No <em>be</em>.</td></tr><tr><td><s>He is teacher.</s></td><td>He is <strong>a</strong> teacher.</td><td>Use <em>a / an</em> before a job.</td></tr><tr><td><s>Yes, she's.</s></td><td>Yes, she <strong>is</strong>.</td><td>No short form in a positive short answer.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"I have 25 years.\". Say \"I am 25.\". Not \"She doesn't be happy.\". Say \"She isn't happy.\". Not \"Do you are ready?\". Say \"Are you ready?\". Not \"I am agree.\". Say \"I agree.\". Not \"He is teacher.\". Say \"He is a teacher.\". Not \"Yes, she's.\". Say \"Yes, she is .\"."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "09 · Quick check 🎯"
+      "text": "Quick quiz"
     },
     {
       "type": "quiz",
-      "question": "Choose the correct sentence about age and a job.",
+      "question": "Choose the correct sentence.",
       "options": [
-        "She has 25 years and is doctor.",
-        "She is 25 and she is a doctor.",
-        "She is 25 and she has doctor."
+        "She has 25 years old.",
+        "She is 25 years old.",
+        "She does 25 years old."
       ],
       "correctIndex": 1,
-      "explanation": "Use **be** for age and put **a/an** before a singular countable job: *She is 25. She is a doctor.*"
+      "explanation": "English uses *be* for age: *She is 25.* Never use *have* for age."
     },
     {
       "type": "quiz",
-      "question": "Choose the correct positive short answer: “Is she at home?”",
+      "question": "Is she at home? Choose the correct positive short answer.",
       "options": [
-        "Yes, she’s.",
+        "Yes, she's.",
         "Yes, she is.",
         "Yes, she does."
       ],
       "correctIndex": 1,
-      "explanation": "Positive short answers use the full form: *Yes, she is.*"
+      "explanation": "In a positive short answer, use the full form: *Yes, she is.*"
     },
     {
       "type": "quiz",
-      "question": "Complete the sentence: “___ there any cafés near here?”",
+      "question": "___ your parents at home?",
       "options": [
         "Is",
         "Are",
-        "Am"
+        "Do"
       ],
       "correctIndex": 1,
-      "explanation": "Use **are** with the plural noun *cafés*: *Are there any cafés near here?*"
+      "explanation": "*Your parents* means more than one person, so use *are*: *Are your parents at home?*"
     },
     {
-      "type": "quiz",
-      "question": "Which sentence describes an action happening around now?",
-      "options": [
-        "He is tired.",
-        "He is a teacher.",
-        "He is working."
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can now say who you are. Next, discover how to talk about the people and things that are part of your life.</p><p><a href=\"#verb-have\">Next: HAVE 🎒 — My life, my family, my things →</a></p></div>",
+      "text": "Your COSY journey. You can now say who you are. Next, discover how to talk about the people and things that are part of your life. Next: HAVE 🎒 — My life, my family, my things →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 2 — have (have / has)",
+      "id": "verb-have"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Have** shows what you own, who is in your family, what you look like, what you eat, and some health problems. In the present simple it has two forms: **have** (I, you, we, they) and **has** (he, she, it)."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Where does the -s go?</p><div class=\"lx-sflow\"><span class=\"lx-sign\" aria-label=\"affirmative\">+</span><span class=\"lx-line\">She <mark class=\"lx-hl\">has</mark> a car.</span><span class=\"lx-sign neg\" aria-label=\"negative\">−</span><span class=\"lx-line\">She <mark class=\"lx-hl\">doesn't</mark> <b>have</b> a car.</span><span class=\"lx-sign q\" aria-label=\"question\">?</span><span class=\"lx-line\"><mark class=\"lx-hl\">Does</mark> she <b>have</b> a car?</span></div><figcaption class=\"lx-cap\">In the positive sentence, the verb takes the <em>-s</em> (<em>has</em>). In a negative or a question, the <em>-s</em> moves to <em>does / doesn't</em> and the verb goes back to <em>have</em>. This works the same way for every verb in this issue.</figcaption></figure>",
+      "text": "Where does the s go? She has a car. She doesn't have a car. Does she have a car? In a negative or a question, the s moves to does or doesn't, and the verb goes back to its base form."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Positive (+)",
+        "Negative (−)",
+        "Question (?)"
       ],
-      "correctIndex": 2,
-      "explanation": "In *He is working*, **is + working** forms the present continuous. In the other sentences, *is* describes a state or identity."
+      "rows": [
+        [
+          "I",
+          "I have a phone.",
+          "I don't have a car.",
+          "Do I have time?"
+        ],
+        [
+          "you",
+          "You have a nice house.",
+          "You don't have a pen.",
+          "Do you have a question?"
+        ],
+        [
+          "he",
+          "He has a sister.",
+          "He doesn't have a job.",
+          "Does he have a pet?"
+        ],
+        [
+          "she",
+          "She has blue eyes.",
+          "She doesn't have a brother.",
+          "Does she have a bike?"
+        ],
+        [
+          "it",
+          "It has four legs.",
+          "It doesn't have a name.",
+          "Does it have a camera?"
+        ],
+        [
+          "we",
+          "We have two children.",
+          "We don't have time.",
+          "Do we have class today?"
+        ],
+        [
+          "they",
+          "They have a new car.",
+          "They don't have any pets.",
+          "Do they have tickets?"
+        ]
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "🌱 <strong>You do not have to master every pattern today.</strong> Start by noticing <strong>am / is / are</strong>, then practise one use at a time. The more examples you meet, the more natural BE will feel."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can now say who you are. Next, discover how to talk about the people and things that are part of your life.</p><p><a href=\"#page-3\">Next: HAVE 🎒 — My life, my family, my things →</a></p></div></section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-3\" class=\"gazette-page-spread\" aria-labelledby=\"page-3-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-3-heading\" class=\"editorial-heading\">Verb 2 — \"To Have\" (have / has)</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "The verb <strong>to have</strong> is one of the most essential verbs in English. At A0–A1 level, you use it to talk about possessions, family, physical characteristics, food and drink, daily activities, and health conditions."
-    },
-    {
-      "type": "paragraph",
-      "text": "There are two essential present simple forms to learn first:\n• <strong>have</strong> — I, you, we, they\n• <strong>has</strong> — he, she, it"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Forms & Conjugation Table (Present Simple)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb HAVE</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I have a phone.</mark> / <mark class=\"example-chip\">You have a nice house.</mark> / <mark class=\"example-chip\">We have two children.</mark> / <mark class=\"example-chip\">They have a new car.</mark></td><td><mark class=\"example-chip\">I don't have a car.</mark> / <mark class=\"example-chip\">You don't have a pen.</mark> / <mark class=\"example-chip\">We don't have time.</mark> / <mark class=\"example-chip\">They don't have any pets.</mark></td><td><mark class=\"example-chip\">Do I have time?</mark> / <mark class=\"example-chip\">Do you have a question?</mark> / <mark class=\"example-chip\">Do we have class today?</mark> / <mark class=\"example-chip\">Do they have tickets?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He has a sister.</mark> / <mark class=\"example-chip\">She has blue eyes.</mark> / <mark class=\"example-chip\">It has four legs.</mark></td><td><mark class=\"example-chip\">He doesn't have a job.</mark> / <mark class=\"example-chip\">She doesn't have a brother.</mark> / <mark class=\"example-chip\">It doesn't have a name.</mark></td><td><mark class=\"example-chip\">Does he have a pet?</mark> / <mark class=\"example-chip\">Does she have a car?</mark> / <mark class=\"example-chip\">Does it have a camera?</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third Person Conjugation</div><p class=\"marginalia-body\">Use <strong>has</strong> only with <em>he</em>, <em>she</em>, and <em>it</em> in positive present simple sentences.</p><div class=\"instead-try-spread\" aria-label=\"Third Person HAVE Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She have a cat.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She has a cat.</mark></div></div></div></div></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "2. Main Usages & Sentence Frames"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**A. Possessions:** <mark class=\"example-chip\">I have a new laptop.</mark> / <mark class=\"example-chip\">She has a red bicycle.</mark> / <mark class=\"example-chip\">We have a big house in Paris.</mark> / <mark class=\"example-chip\">They have a friendly dog.</mark>",
-        "**B. Family & Relationships:** <mark class=\"example-chip\">I have two brothers.</mark> / <mark class=\"example-chip\">She has a young daughter.</mark> / <mark class=\"example-chip\">He has a big family.</mark> / <mark class=\"example-chip\">We have many good friends.</mark>",
-        "**C. Physical Characteristics:** <mark class=\"example-chip\">I have brown eyes.</mark> / <mark class=\"example-chip\">She has long blonde hair.</mark> / <mark class=\"example-chip\">He has a dark beard.</mark> / <mark class=\"example-chip\">The cat has a long tail.</mark>",
-        "**D. Things & Features:** <mark class=\"example-chip\">The apartment has three bedrooms.</mark> / <mark class=\"example-chip\">The car has four doors.</mark> / <mark class=\"example-chip\">My phone has a great camera.</mark> / <mark class=\"example-chip\">The school has a large library.</mark>",
-        "**E. Problems & Needs:** <mark class=\"example-chip\">I have a problem with my laptop.</mark> / <mark class=\"example-chip\">She has a bad headache.</mark> / <mark class=\"example-chip\">We have an urgent question.</mark> / <mark class=\"example-chip\">He has a lot of work today.</mark>",
-        "**F. Time & Availability:** <mark class=\"example-chip\">I have free time this afternoon.</mark> / <mark class=\"example-chip\">We have an important meeting today.</mark> / <mark class=\"example-chip\">She has an English lesson at 10 AM.</mark> / <mark class=\"example-chip\">They have no money.</mark>",
-        "**G. Food & Drink (Action Meaning):** <mark class=\"example-chip\">I have a delicious sandwich for lunch.</mark> / <mark class=\"example-chip\">She has a cup of tea every morning.</mark> / <mark class=\"example-chip\">We have breakfast at 8 o'clock.</mark> / <mark class=\"example-chip\">They have dinner together at home.</mark> (Here *have* means *eat* or *drink*)."
+      "type": "table",
+      "headers": [
+        "Question",
+        "Short answers"
+      ],
+      "rows": [
+        [
+          "Do you have a car?",
+          "Yes, I do. / No, I don't."
+        ],
+        [
+          "Does he have a brother?",
+          "Yes, he does. / No, he doesn't."
+        ],
+        [
+          "Do they have pets?",
+          "Yes, they do. / No, they don't."
+        ]
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Negative Sentences (-) & The Base Verb Rule"
+      "text": "What you can say with have"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Use",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Things you own",
+          "I **have** a new laptop. / We **have** a house in Paris."
+        ],
+        [
+          "Family and friends",
+          "I **have** two brothers. / She **has** a young daughter."
+        ],
+        [
+          "Appearance",
+          "I **have** brown eyes. / He **has** a dark beard."
+        ],
+        [
+          "Features of things",
+          "The flat **has** three bedrooms. / My phone **has** a good camera."
+        ],
+        [
+          "Time and plans",
+          "I **have** free time today. / She **has** an English lesson at ten."
+        ],
+        [
+          "Problems and illness",
+          "I **have** a headache. / He **has** a cold. / We **have** a problem."
+        ],
+        [
+          "Meals and activities",
+          "I **have** breakfast at eight. / She **has** a coffee. / We **have** a shower. *(have = eat, drink, do)*"
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "To make negative sentences with <em>have</em>, use <strong>don't have</strong> or <strong>doesn't have</strong>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Negative structure table for verb HAVE</caption><thead><tr><th>Subject</th><th>Negative Structure</th><th>Example Sentence</th></tr></thead><tbody><tr><td>I / You / We / They</td><td>don't have</td><td><mark class=\"example-chip\">I don't have any money.</mark> / <mark class=\"example-chip\">We don't have class today.</mark></td></tr><tr><td>He / She / It</td><td>doesn't have</td><td><mark class=\"example-chip\">She doesn't have a brother.</mark> / <mark class=\"example-chip\">My phone doesn't have a good camera.</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Negative Base Verb Rule</div><p class=\"marginalia-body\">After <strong>doesn't</strong>, always use the base form <strong>have</strong>, never <em>has</em>.</p><div class=\"instead-try-spread\" aria-label=\"Negative HAVE Base Verb Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She doesn't has a car.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She doesn't have a car.</mark></div></div></div></div></aside>"
+      "text": "Questions with a question word use the same pattern: *How many brothers **do** you have? What **does** she have in her bag? How much time **do** we have?*"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Yes/No Questions (?) & Short Answers"
+      "text": "Have got (informal)"
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Yes and No questions and short answers table for verb HAVE</caption><thead><tr><th>Question (?)</th><th>Positive Short Answer</th><th>Negative Short Answer</th></tr></thead><tbody><tr><td><mark class=\"example-chip\">Do you have a car?</mark></td><td><mark class=\"example-chip\">Yes, I do.</mark></td><td><mark class=\"example-chip\">No, I don't.</mark></td></tr><tr><td><mark class=\"example-chip\">Does he have a brother?</mark></td><td><mark class=\"example-chip\">Yes, he does.</mark></td><td><mark class=\"example-chip\">No, he doesn't.</mark></td></tr><tr><td><mark class=\"example-chip\">Does she have a job?</mark></td><td><mark class=\"example-chip\">Yes, she does.</mark></td><td><mark class=\"example-chip\">No, she doesn't.</mark></td></tr><tr><td><mark class=\"example-chip\">Do they have pets?</mark></td><td><mark class=\"example-chip\">Yes, they do.</mark></td><td><mark class=\"example-chip\">No, they don't.</mark></td></tr></tbody></table></div>"
+      "text": "For possessions, family and appearance, many people — especially in British English — say **have got**. It has its own negative and question forms, without *do / does*."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "have (with do / does)",
+        "have got"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "I have a car. / She has a cat.",
+          "I've got a car. / She's got a cat."
+        ],
+        [
+          "**−**",
+          "I don't have a dog. / She doesn't have a car.",
+          "I haven't got a dog. / She hasn't got a car."
+        ],
+        [
+          "**?**",
+          "Do you have a pet? / Does she have a car?",
+          "Have you got a pet? / Has she got a car?"
+        ],
+        [
+          "**Short answers**",
+          "Yes, I do. / No, she doesn't.",
+          "Yes, I have. / No, she hasn't."
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Question Base Verb Rule</div><p class=\"marginalia-body\">When you use <strong>does</strong>, the main verb returns to its basic infinitive form, <strong>have</strong>.</p><div class=\"instead-try-spread\" aria-label=\"HAVE Question Base Verb Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she has a cat?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she have a cat?</mark></div></div></div></div></aside>"
+      "html": "<div class=\"lx-warn\"><strong>Never mix the two systems</strong><p>Say <em>Does she have a car?</em> <strong>or</strong> <em>Has she got a car?</em> — not <s>Does she have got a car?</s></p><p><em>Have got</em> is for owning and describing. For meals and activities, use <em>have</em>: <em>I have breakfast at eight.</em> (not <s>I've got breakfast at eight</s> as a routine).</p></div>",
+      "text": "Never mix the two systems Say Does she have a car? or Has she got a car? — not Does she have got a car? Have got is for owning and describing. For meals and activities, use have : I have breakfast at eight. (not I've got breakfast at eight as a routine)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Wh- Questions with \"Have\""
+      "text": "Everyday expressions"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**What:** <mark class=\"example-chip\">What do you have in your bag?</mark> / <mark class=\"example-chip\">What do you have for breakfast?</mark>",
-        "**Who:** <mark class=\"example-chip\">Who do you have in your family?</mark>",
-        "**How many:** <mark class=\"example-chip\">How many brothers do you have?</mark> / <mark class=\"example-chip\">How many bedrooms does the house have?</mark>",
-        "**How much:** <mark class=\"example-chip\">How much money do you have?</mark> / <mark class=\"example-chip\">How much time do we have?</mark>",
-        "**What colour:** <mark class=\"example-chip\">What colour eyes does she have?</mark>",
-        "**What kind:** <mark class=\"example-chip\">What kind of phone does he have?</mark>"
+        "**Daily life:** *have breakfast / lunch / dinner, have a coffee, have a shower, have a break, have a rest, have a look, have a chat.*",
+        "**Good wishes:** *Have a good time! Have a nice weekend!*",
+        "**Illness:** *have a headache, a stomachache, a toothache, a cold, a fever.*",
+        "**some / any:** *I have **some** apples.* (+) / *I don't have **any** money.* (−) / *Do you have **any** questions?* (?)"
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. \"Have got\" vs \"Do/Does Have\""
+      "text": "Common mistakes"
     },
     {
       "type": "paragraph",
-      "text": "<em>Have got</em> is common in informal English (especially British English) for possession, family, and physical features."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Comparison table between Have Got and Do/Does Have systems</caption><thead><tr><th>Structure</th><th>Do/Does + Have System</th><th>Have got System</th></tr></thead><tbody><tr><td>Affirmative (+)</td><td><mark class=\"example-chip\">I have a car.</mark> / <mark class=\"example-chip\">She has a cat.</mark></td><td><mark class=\"example-chip\">I've got a car.</mark> / <mark class=\"example-chip\">She's got a cat.</mark></td></tr><tr><td>Negative (-)</td><td><mark class=\"example-chip\">I don't have a dog.</mark> / <mark class=\"example-chip\">She doesn't have a car.</mark></td><td><mark class=\"example-chip\">I haven't got a dog.</mark> / <mark class=\"example-chip\">She hasn't got a car.</mark></td></tr><tr><td>Question (?)</td><td><mark class=\"example-chip\">Do you have a pet?</mark> / <mark class=\"example-chip\">Does she have a car?</mark></td><td><mark class=\"example-chip\">Have you got a pet?</mark> / <mark class=\"example-chip\">Has she got a car?</mark></td></tr><tr><td>Short Answer</td><td><mark class=\"example-chip\">Yes, I do.</mark> / <mark class=\"example-chip\">No, she doesn't.</mark></td><td><mark class=\"example-chip\">Yes, I have.</mark> / <mark class=\"example-chip\">No, she hasn't.</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — System Mixing</div><p class=\"marginalia-body\"><strong>NEVER MIX THE TWO SYSTEMS:</strong></p><div class=\"instead-try-spread\" aria-label=\"Have Got Mixing Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she have got a car?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she have a car?</mark> OR <mark class=\"example-chip\">Has she got a car?</mark></div></div></div></div></aside>"
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She have a cat.</s></td><td>She <strong>has</strong> a cat.</td><td><em>has</em> with he / she / it.</td></tr><tr><td><s>She doesn't has a cat.</s></td><td>She doesn't <strong>have</strong> a cat.</td><td>After <em>doesn't</em>, the verb is <em>have</em>.</td></tr><tr><td><s>Does she has a cat?</s></td><td>Does she <strong>have</strong> a cat?</td><td>After <em>does</em>, the verb is <em>have</em>.</td></tr><tr><td><s>Does she have got a cat?</s></td><td>Does she have a cat? / Has she got a cat?</td><td>Don't mix <em>do</em> with <em>got</em>.</td></tr><tr><td><s>I have a breakfast at eight.</s></td><td>I have breakfast at eight.</td><td>No <em>a</em> with meals.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She have a cat.\". Say \"She has a cat.\". Not \"She doesn't has a cat.\". Say \"She doesn't have a cat.\". Not \"Does she has a cat?\". Say \"Does she have a cat?\". Not \"Does she have got a cat?\". Say \"Does she have a cat? / Has she got a cat?\". Not \"I have a breakfast at eight.\". Say \"I have breakfast at eight.\"."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Everyday Expressions & Illnesses with \"Have\""
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Daily Activities & Routines:** <mark class=\"example-chip\">have breakfast / lunch / dinner</mark>, <mark class=\"example-chip\">have a coffee</mark>, <mark class=\"example-chip\">have a shower / bath</mark>, <mark class=\"example-chip\">have a break</mark>, <mark class=\"example-chip\">have a rest</mark>, <mark class=\"example-chip\">have a party</mark>, <mark class=\"example-chip\">have a good time</mark>, <mark class=\"example-chip\">have a look</mark>, <mark class=\"example-chip\">have a chat</mark>, <mark class=\"example-chip\">have a holiday</mark>.",
-        "**Illnesses & Physical Conditions:** <mark class=\"example-chip\">have a headache</mark>, <mark class=\"example-chip\">have a stomachache</mark>, <mark class=\"example-chip\">have a cold</mark>, <mark class=\"example-chip\">have a fever</mark>, <mark class=\"example-chip\">have a toothache</mark>.",
-        "**Countable vs Uncountable (some / any):**\n  • Affirmative (+): <mark class=\"example-chip\">I have some apples.</mark> / <mark class=\"example-chip\">I have some water.</mark>\n  • Negative (-): <mark class=\"example-chip\">I don't have any apples.</mark> / <mark class=\"example-chip\">I don't have any money.</mark>\n  • Question (?): <mark class=\"example-chip\">Do you have any questions?</mark>"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Common Mistakes & Side-by-Side Comparisons"
-    },
-    {
-      "type": "paragraph",
-      "text": "Contrast these key structures with 'to be' and 'to have':"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"instead-try-spread\" aria-label=\"Be vs Have Structure Contrast\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">STRUCTURE</span> Meaning Type</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">EXAMPLE SENTENCE ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><strong>State / Feeling:</strong> (be + adjective)</div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I am hungry.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><strong>Possession:</strong> (have + noun)</div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I have a sandwich.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><strong>Activity:</strong> (have + meal)</div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I have breakfast at 8 AM.</mark></div></div></div></div>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "9. Check Your Understanding"
+      "text": "Quick quiz"
     },
     {
       "type": "quiz",
-      "question": "Choose the correct negative form: 'She ___ a brother.'",
+      "question": "Choose the correct negative: She ___ a brother.",
       "options": [
         "doesn't has",
         "doesn't have",
         "don't have"
       ],
       "correctIndex": 1,
-      "explanation": "After 'doesn't', the main verb always returns to its base form 'have'. 'She doesn't have a brother' is correct."
+      "explanation": "After *doesn't*, the verb returns to its base form: *She doesn't have a brother.*"
     },
     {
       "type": "quiz",
-      "question": "Which sentence correctly mixes 'have got' and 'do'?",
+      "question": "Which question is correct?",
       "options": [
         "Does she have got a car?",
         "Has she got a car?",
         "Do she got a car?"
       ],
       "correctIndex": 1,
-      "explanation": "Never mix 'do/does' with 'got'. Use 'Has she got a car?' or 'Does she have a car?'"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>From who you are to what you have — little by little, your world gets bigger.</p><p><a href=\"#page-2\">← Back to BE 🪞</a> &nbsp; <a href=\"#page-5\">Next: KNOW 🤝 — The people and things I know →</a></p></div></section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-4\" class=\"gazette-page-spread\" aria-labelledby=\"page-4-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-4-heading\" class=\"editorial-heading\">Verb 3 — \"To Think\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To Think</strong> allows you to express your opinion, share your thoughts, and ask others for their view."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Forms & Sentence Frames"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Present Simple Forms:** I/You/We/They **think** | He/She/It **thinks**.",
-        "**Expressing Opinions (I think that...):** <mark class=\"example-chip\">I think it is a good idea.</mark> / <mark class=\"example-chip\">I think learning English is fun.</mark> / <mark class=\"example-chip\">She thinks this movie is great.</mark>",
-        "**Short Responses:** <mark class=\"example-chip\">I think so.</mark> (I agree / I believe so) | <mark class=\"example-chip\">I don't think so.</mark> (I disagree).",
-        "**Asking Opinions:** <mark class=\"example-chip\">What do you think about this idea?</mark> / <mark class=\"example-chip\">What do you think of this film?</mark>",
-        "**Key Collocations:** <mark class=\"example-chip\">think twice before deciding</mark> (be careful), <mark class=\"example-chip\">think about the problem</mark> (consider), <mark class=\"example-chip\">think of a solution</mark> (have an opinion/idea)."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-5\" class=\"gazette-page-spread\" aria-labelledby=\"page-5-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-5-heading\" class=\"editorial-heading\">Verb 4 — \"To Know\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "The verb <strong>to know</strong> is essential for talking about facts, information, people, places, skills, and things we understand. In our logical sequence: first we think, and then we know!"
-    },
-    {
-      "type": "paragraph",
-      "text": "The primary present simple forms are:\n• <strong>know</strong> — I, you, we, they\n• <strong>knows</strong> — he, she, it"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Forms & Conjugation Table (Present Simple)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb KNOW</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I know the answer.</mark> / <mark class=\"example-chip\">You know my brother.</mark> / <mark class=\"example-chip\">We know this city well.</mark> / <mark class=\"example-chip\">They know the truth.</mark></td><td><mark class=\"example-chip\">I don't know his name.</mark> / <mark class=\"example-chip\">You don't know this place.</mark> / <mark class=\"example-chip\">We don't know what to do.</mark> / <mark class=\"example-chip\">They don't know anyone here.</mark></td><td><mark class=\"example-chip\">Do I know you?</mark> / <mark class=\"example-chip\">Do you know the way?</mark> / <mark class=\"example-chip\">Do we know the rules?</mark> / <mark class=\"example-chip\">Do they know the price?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He knows the teacher.</mark> / <mark class=\"example-chip\">She knows the answer.</mark> / <mark class=\"example-chip\">It knows the route.</mark></td><td><mark class=\"example-chip\">He doesn't know my address.</mark> / <mark class=\"example-chip\">She doesn't know the truth.</mark> / <mark class=\"example-chip\">It doesn't know any tricks.</mark></td><td><mark class=\"example-chip\">Does he know the time?</mark> / <mark class=\"example-chip\">Does she know Peter?</mark> / <mark class=\"example-chip\">Does it know where to go?</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third Person Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> to <em>know</em> only with <em>he</em>, <em>she</em>, and <em>it</em> in affirmative sentences.</p><div class=\"instead-try-spread\" aria-label=\"Third Person KNOW Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She know the answer.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She knows the answer.</mark></div></div></div></div></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "2. Facts, Information & Embedded Question Words"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**A. Facts & Direct Information (Subject + know/knows + noun):**\n  • <mark class=\"example-chip\">I know the correct answer to question 5.</mark>\n  • <mark class=\"example-chip\">She knows his full name and phone number.</mark>\n  • <mark class=\"example-chip\">He knows the truth about what happened.</mark>\n  • <mark class=\"example-chip\">We know the safety rules at work.</mark>",
-        "**B. Information with Question Words:**\n  • <mark class=\"example-chip\">I know where he lives in London.</mark>\n  • <mark class=\"example-chip\">She knows what you want for your birthday.</mark>\n  • <mark class=\"example-chip\">We know when the English lesson starts.</mark>\n  • <mark class=\"example-chip\">They know why he is angry today.</mark>"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "3. Familiarity with People & Places"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**A. People:** <mark class=\"example-chip\">I know Anna from university.</mark> / <mark class=\"example-chip\">She knows my older brother.</mark> / <mark class=\"example-chip\">Do you know this man?</mark> / <mark class=\"example-chip\">We don't know those people over there.</mark>",
-        "**B. Places:** <mark class=\"example-chip\">I know this city very well.</mark> / <mark class=\"example-chip\">He knows London like the back of his hand.</mark> / <mark class=\"example-chip\">Do you know this Italian restaurant?</mark> / <mark class=\"example-chip\">They don't know the area.</mark>"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Distinction — Knowing Someone</div><p class=\"marginalia-body\">In English, <em>knowing someone</em> means you are familiar with them.<br>• <mark class=\"example-chip\">I know Peter.</mark> = I am familiar with him.<br>• <mark class=\"example-chip\">I meet Peter every day.</mark> = I encounter/see him every day.<br>• <mark class=\"example-chip\">I know Peter well.</mark> = I am very familiar with him.</p></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4. Negative Sentences (-) & \"I don't know\""
-    },
-    {
-      "type": "paragraph",
-      "text": "Use <strong>don't know</strong> or <strong>doesn't know</strong>. After <em>doesn't</em>, always use the base verb <strong>know</strong>, never <em>knows</em>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"instead-try-spread\" aria-label=\"Negative KNOW Base Verb Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Form</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Correct Form</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">He doesn't knows.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">He doesn't know.</mark></div></div></div></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>The Essential Phrase — \"I don't know\":</strong><br>• “What's his name?” — “<mark class=\"example-chip\">I don't know.</mark>”<br>• “Where is my phone?” — “<mark class=\"example-chip\">I don't know.</mark>”<br>• <strong>Useful Variations:</strong> <mark class=\"example-chip\">I really don't know.</mark> / <mark class=\"example-chip\">I don't know yet.</mark> / <mark class=\"example-chip\">I don't know why.</mark> / <mark class=\"example-chip\">I don't know anything about it.</mark>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "5. Yes/No & Wh- Questions (Embedded Word Order)"
-    },
-    {
-      "type": "paragraph",
-      "text": "In embedded questions with <em>Do you know...?</em>, use <strong>statement word order</strong> (Subject + Verb)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"instead-try-spread\" aria-label=\"Embedded Question Word Order Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span> Incorrect Order</div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span> Statement Order</div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Do you know where is the station?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Do you know where the station is?</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Do you know what time is it?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Do you know what time it is?</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Do you know who is she?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Do you know who she is?</mark></div></div></div></div>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "6. \"Know that\" & \"Know how to\" (Skills)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**A. Know (that) + sentence:** <mark class=\"example-chip\">I know that you are tired.</mark> / <mark class=\"example-chip\">She knows that he is French.</mark> / <mark class=\"example-chip\">We know English is important.</mark> ('that' is optional in spoken English).\n  • Negative contrast: <mark class=\"example-chip\">I don't know that he is here.</mark> (lack of awareness) vs <mark class=\"example-chip\">I don't know if he is here.</mark> (uncertainty).",
-        "**B. Skills (know how to + base verb):**\n  • <mark class=\"example-chip\">I know how to swim.</mark> / <mark class=\"example-chip\">She knows how to cook Italian food.</mark> / <mark class=\"example-chip\">He knows how to drive a car.</mark> / <mark class=\"example-chip\">They don't know how to play chess.</mark>",
-        "**C. Know vs Know about:**\n  • <mark class=\"example-chip\">I know Maria.</mark> = I am acquainted with Maria personally.\n  • <mark class=\"example-chip\">I know about computers.</mark> = I have knowledge on the topic of computers."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "7. Stative Verb Rule & Comparisons"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Stative Verb Warning</div><p class=\"marginalia-body\"><em>Know</em> describes a mental state, so it is <strong>not</strong> used in continuous tenses (<em>-ing</em>).</p><div class=\"instead-try-spread\" aria-label=\"Stative KNOW Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I am knowing the answer.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I know the answer.</mark></div></div></div></div><p class=\"marginalia-body\">To talk about gradual familiarity, say: <mark class=\"example-chip\">I am getting to know him.</mark></p></aside>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Comparison table for mental state verbs think, know, and understand</caption><thead><tr><th>Verb</th><th>Meaning</th><th>Example Sentence</th></tr></thead><tbody><tr><td>think</td><td>Have an opinion / belief</td><td><mark class=\"example-chip\">I think he is right.</mark></td></tr><tr><td>know</td><td>Have factual certainty or familiarity</td><td><mark class=\"example-chip\">I know he is right.</mark></td></tr><tr><td>understand</td><td>Grasp the meaning of something</td><td><mark class=\"example-chip\">I understand what he says.</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Key Daily Expressions with \"Know\""
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**let someone know** = inform me (<mark class=\"example-chip\">Let me know when you arrive!</mark>)",
-        "**get to know someone** = gradually become familiar (<mark class=\"example-chip\">I want to get to know you.</mark>)",
-        "**as far as I know** = to my knowledge (<mark class=\"example-chip\">As far as I know, the café is open.</mark>)",
-        "**know by heart** = memorize completely (<mark class=\"example-chip\">I know this poem by heart.</mark>)",
-        "**know for sure** = be 100% certain (<mark class=\"example-chip\">I don't know for sure.</mark>)"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "9. Check Your Understanding"
+      "explanation": "Use *Has she got a car?* or *Does she have a car?* Never mix *does* with *got*."
     },
     {
       "type": "quiz",
-      "question": "Which sentence has correct word order after 'Do you know...?'",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I've got breakfast at eight every day.",
+        "I have breakfast at eight every day.",
+        "I have a breakfast at eight every day."
+      ],
+      "correctIndex": 1,
+      "explanation": "For meals and routines use *have*, with no *a*: *I have breakfast at eight.*"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say what you have. Next, let's put some thoughts into words.</p><p><a href=\"#verb-be\">← Back to BE 🪞</a> &nbsp; <a href=\"#verb-think\">Next: THINK 💭 — What I think →</a></p></div>",
+      "text": "Your COSY journey. You can say what you have. Next, let's put some thoughts into words. ← Back to BE 🪞. Next: THINK 💭 — What I think →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 3 — think",
+      "id": "verb-think"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Think** is how you give an opinion (*I think it's good*), ask for one (*What do you think?*) and say that your mind is busy (*I'm thinking about it*). It is a regular verb: **think** (I, you, we, they) and **thinks** (he, she, it)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Positive (+)",
+        "Negative (−)",
+        "Question (?)"
+      ],
+      "rows": [
+        [
+          "I",
+          "I think it's good.",
+          "I don't think so.",
+          "Do I think too much?"
+        ],
+        [
+          "you",
+          "You think I'm right.",
+          "You don't think it's cheap.",
+          "Do you think it's a good idea?"
+        ],
+        [
+          "he",
+          "He thinks it's boring.",
+          "He doesn't think it's funny.",
+          "Does he think we're late?"
+        ],
+        [
+          "she",
+          "She thinks English is fun.",
+          "She doesn't think so.",
+          "Does she think it's expensive?"
+        ],
+        [
+          "we",
+          "We think it's a great film.",
+          "We don't think it's difficult.",
+          "Do we think the same?"
+        ],
+        [
+          "they",
+          "They think it's too hot.",
+          "They don't think it's true.",
+          "Do they think it's ready?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Patterns you will use"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "You want to…",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Give an opinion",
+          "think *(that)* + sentence",
+          "I think **English is easy.** / She thinks **the film is long.**"
+        ],
+        [
+          "Say you don't agree",
+          "**don't** think + positive sentence",
+          "I **don't think** it's expensive. (This sounds more natural than “I think it isn't expensive.”)"
+        ],
+        [
+          "Ask for an opinion",
+          "What do you think? / **of / about** + noun",
+          "What do you think **of this song**? / Do you think **it's a good idea**?"
+        ],
+        [
+          "Answer quickly",
+          "I think so. / I don't think so.",
+          "\"Is it open?\" — \"I think so.\" / \"Is it cheap?\" — \"I don't think so.\""
+        ],
+        [
+          "Spend time thinking",
+          "think **about** + noun / *-ing*",
+          "I'm thinking **about my holiday**. / Let me think. / Think carefully."
+        ],
+        [
+          "Find an idea or a word *(A2)*",
+          "think **of**",
+          "I can't think of the word. / Who thought of this idea?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Asking for an opinion</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"Asking for an opinion\"><p class=\"lx-say\"><b>Ana</b>What do you think of this cake?</p><p class=\"lx-say\"><b>Tom</b>I think it's delicious!</p><p class=\"lx-say\"><b>Ana</b>Do you think it's expensive?</p><p class=\"lx-say\"><b>Tom</b>I don't think so. It's only €3.</p></div></figure>",
+      "text": "Asking for an opinion. Ana: What do you think of this cake? Tom: I think it's delicious! Ana: Do you think it's expensive? Tom: I don't think so. It's only €3."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-warn\"><strong>Opinion or activity?</strong><p><strong>Opinion → present simple only:</strong> <em>I think it's good.</em> (not <s>I'm thinking it's good</s>)</p><p><strong>Mental activity → present continuous is fine:</strong> <em>I'm thinking about my holiday.</em></p></div>",
+      "text": "Opinion or activity? Opinion → present simple only: I think it's good. (not I'm thinking it's good ) Mental activity → present continuous is fine: I'm thinking about my holiday."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She think it's good.</s></td><td>She <strong>thinks</strong> it's good.</td><td><em>-s</em> with he / she / it.</td></tr><tr><td><s>What think you?</s></td><td>What <strong>do you think</strong>?</td><td>Questions need <em>do / does</em>.</td></tr><tr><td><s>I think yes. / I think no.</s></td><td>I think <strong>so</strong>. / I <strong>don't</strong> think so.</td><td>Use <em>so</em> as the short answer.</td></tr><tr><td><s>I'm thinking it's a good idea.</s></td><td>I think it's a good idea.</td><td>An opinion is not continuous.</td></tr><tr><td><s>I think that is not good.</s></td><td>I <strong>don't think</strong> it's good.</td><td>Put the negative on <em>think</em>.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She think it's good.\". Say \"She thinks it's good.\". Not \"What think you?\". Say \"What do you think ?\". Not \"I think yes. / I think no.\". Say \"I think so . / I don't think so.\". Not \"I'm thinking it's a good idea.\". Say \"I think it's a good idea.\". Not \"I think that is not good.\". Say \"I don't think it's good.\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "He ___ the film is boring.",
+      "options": [
+        "think",
+        "thinks",
+        "is thinking"
+      ],
+      "correctIndex": 1,
+      "explanation": "An opinion uses the present simple, and *he* needs *-s*: *He thinks the film is boring.*"
+    },
+    {
+      "type": "quiz",
+      "question": "\"Is it expensive?\" — \"I ___ so.\"",
+      "options": [
+        "think not",
+        "don't think",
+        "not think"
+      ],
+      "correctIndex": 1,
+      "explanation": "The natural short answer is *I don't think so.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence asks for an opinion?",
+      "options": [
+        "What do you think of this song?",
+        "Where do you think this song?",
+        "Do you thinking this song?"
+      ],
+      "correctIndex": 0,
+      "explanation": "*What do you think of …?* asks for someone's opinion."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can share an opinion. Ready to talk about what you know, and who you know?</p><p><a href=\"#verb-have\">← Back to HAVE 🎒</a> &nbsp; <a href=\"#verb-know\">Next: KNOW 🤝 — The people and things I know →</a></p></div>",
+      "text": "Your COSY journey. You can share an opinion. Ready to talk about what you know, and who you know? ← Back to HAVE 🎒. Next: KNOW 🤝 — The people and things I know →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 4 — know",
+      "id": "verb-know"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Know** is for facts, information, people, places and skills. First we think, then we know! Present simple: **know** (I, you, we, they) and **knows** (he, she, it)."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">How sure are you?</p><ol class=\"lx-scale\">\n       <li><b>I don't know.</b><span>\"Is the shop open?\" — \"I don't know.\"</span></li>\n       <li><b>I'm not sure.</b><span>\"Maybe. I'm not sure.\"</span></li>\n       <li><b>I think so.</b><span>\"I think so. It opens at nine.\"</span></li>\n       <li><b>I'm sure.</b><span>\"Yes, I'm sure. I was there.\"</span></li>\n       <li><b>I know.</b><span>\"Yes, I know. It's open until six.\"</span></li>\n     </ol><figcaption class=\"lx-cap\">Five ways to answer, from not sure at all to completely sure.</figcaption></figure>",
+      "text": "How sure are you? From least sure to most sure: I don't know. I'm not sure. I think so. I'm sure. I know."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Positive (+)",
+        "Negative (−)",
+        "Question (?)"
+      ],
+      "rows": [
+        [
+          "I",
+          "I know the answer.",
+          "I don't know his name.",
+          "Do I know you?"
+        ],
+        [
+          "you",
+          "You know my brother.",
+          "You don't know this place.",
+          "Do you know the way?"
+        ],
+        [
+          "he",
+          "He knows the teacher.",
+          "He doesn't know my address.",
+          "Does he know the time?"
+        ],
+        [
+          "she",
+          "She knows the truth.",
+          "She doesn't know Peter.",
+          "Does she know Anna?"
+        ],
+        [
+          "we",
+          "We know this city well.",
+          "We don't know what to do.",
+          "Do we know the rules?"
+        ],
+        [
+          "they",
+          "They know the price.",
+          "They don't know anyone here.",
+          "Do they know the answer?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Short answers"
+      ],
+      "rows": [
+        [
+          "Do you know her?",
+          "Yes, I do. / No, I don't."
+        ],
+        [
+          "Does he know the answer?",
+          "Yes, he does. / No, he doesn't."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What you can say with know"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Use",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Facts",
+          "know + noun",
+          "I **know** the answer. / She **knows** his phone number."
+        ],
+        [
+          "Information",
+          "know + question word",
+          "I **know where** he lives. / We **know when** the lesson starts."
+        ],
+        [
+          "People and places",
+          "know + person / place",
+          "I **know** Anna. / He **knows** London very well."
+        ],
+        [
+          "A fact as a sentence",
+          "know *(that)* + sentence",
+          "I **know (that)** you are tired."
+        ],
+        [
+          "Skills *(A2)*",
+          "know **how to** + verb",
+          "I **know how to** swim. / She **knows how to** cook."
+        ],
+        [
+          "Topics",
+          "know **about** + topic",
+          "I **know about** computers."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A question inside a question"
+    },
+    {
+      "type": "paragraph",
+      "text": "After *Do you know …?* the second part has **statement word order** (subject + verb). There is no *do / does* and no swapping."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Direct question",
+        "Inside \"Do you know …?\""
+      ],
+      "rows": [
+        [
+          "Where does he live?",
+          "Do you know **where he lives**?"
+        ],
+        [
+          "What time is it?",
+          "Do you know **what time it is**?"
+        ],
+        [
+          "Who is she?",
+          "Do you know **who she is**?"
+        ],
+        [
+          "Where is the station?",
+          "Do you know **where the station is**?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Know or meet?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Word",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        [
+          "**know** a person",
+          "you are familiar with them",
+          "I **know** Peter. We work together."
+        ],
+        [
+          "**meet** a person",
+          "you see them for the first time, or you get together",
+          "I **met** Peter yesterday. / **Nice to meet you.**"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-warn\"><strong>Know is a state, not an action</strong><p>Do not use <em>know</em> in the <em>-ing</em> form: <em>I know the answer.</em> (not <s>I'm knowing</s>). To talk about slowly becoming familiar, say <em>I'm getting to know him.</em></p></div>",
+      "text": "Know is a state, not an action Do not use know in the -ing form: I know the answer. (not I'm knowing ). To talk about slowly becoming familiar, say I'm getting to know him."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Useful phrases"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Let me know.** = Tell me. *(Let me know when you arrive!)*",
+        "**get to know someone** = slowly become familiar. *(I want to get to know you.)*",
+        "**as far as I know** = from what I know. *(As far as I know, the café is open.)*",
+        "**know by heart** = remember completely. *(I know this song by heart.)*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>I'm knowing the answer.</s></td><td>I <strong>know</strong> the answer.</td><td><em>Know</em> is a state.</td></tr><tr><td><s>She know my name.</s></td><td>She <strong>knows</strong> my name.</td><td><em>-s</em> with he / she / it.</td></tr><tr><td><s>Do you know where is the station?</s></td><td>Do you know where <strong>the station is</strong>?</td><td>Statement word order.</td></tr><tr><td><s>I know to swim.</s></td><td>I know <strong>how to</strong> swim.</td><td>Skills need <em>how to</em>.</td></tr><tr><td><s>I don't know nothing.</s></td><td>I don't know <strong>anything</strong>.</td><td>One negative is enough.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"I'm knowing the answer.\". Say \"I know the answer.\". Not \"She know my name.\". Say \"She knows my name.\". Not \"Do you know where is the station?\". Say \"Do you know where the station is ?\". Not \"I know to swim.\". Say \"I know how to swim.\". Not \"I don't know nothing.\". Say \"I don't know anything .\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence has the correct word order?",
       "options": [
         "Do you know where is the station?",
         "Do you know where the station is?",
         "Do you know where is station?"
       ],
       "correctIndex": 1,
-      "explanation": "In embedded questions after 'Do you know...?', use normal statement word order: 'where the station is'."
+      "explanation": "After *Do you know …?* use statement order: *where the station is*."
     },
     {
       "type": "quiz",
-      "question": "Choose the correct skill structure: 'She knows ___ driving a car.'",
+      "question": "She ___ how to drive a car.",
       "options": [
-        "how to",
-        "how to drive",
-        "to drive"
+        "know",
+        "knows",
+        "is knowing"
       ],
       "correctIndex": 1,
-      "explanation": "For skills, use 'know how to + base verb': 'She knows how to drive a car.'"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Now you can talk about what you know. Ready to share what you enjoy and love?</p><p><a href=\"#page-3\">← Back to HAVE 🎒</a> &nbsp; <a href=\"#page-6\">Next: LIKE 💗 — The things I love →</a></p></div></section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-6\" class=\"gazette-page-spread\" aria-labelledby=\"page-6-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-6-heading\" class=\"editorial-heading\">Verb 5 — \"To Like\" <span aria-label=\"Love Emoji\">❤️</span></h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "After learning <em>to be</em>, <em>to have</em>, <em>to think</em>, and <em>to know</em>, let's master <strong>to like</strong>! This is a very useful verb for talking about things you enjoy, your hobbies, food, music, people, and preferences."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "1. Preference Scale: Love, Like, Dislike & Hate"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "<span aria-label=\"Love level 5 out of 5\">❤️</span> **Love (❤️❤️❤️❤️❤️):** Enjoy very much (<mark class=\"example-chip\">\"I love chocolate!\"</mark>)",
-        "<span aria-label=\"Like level 3 out of 5\">❤️</span> **Like (❤️❤️❤️):** Enjoy (<mark class=\"example-chip\">\"I like chocolate.\"</mark>)",
-        "<span aria-label=\"Dislike\">👎</span> **Dislike (👎):** Not enjoy (<mark class=\"example-chip\">\"I dislike chocolate.\"</mark> — Note: *Dislike* sounds formal; in daily English, people usually say <mark class=\"example-chip\">\"I don't like chocolate.\"</mark>)",
-        "<span aria-label=\"Hate\">😠</span> **Hate (😠):** Dislike very strongly (<mark class=\"example-chip\">\"I hate cold weather.\"</mark> — Note: Be careful using *hate* with people, as it sounds harsh)."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "2. Conjugation Table & The Third-Person Rule"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To like</strong> is a regular verb. In the present simple, add <strong>-s</strong> for <em>he</em>, <em>she</em>, and <em>it</em>."
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb LIKE</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I like music.</mark> / <mark class=\"example-chip\">You like pizza.</mark> / <mark class=\"example-chip\">We like traveling.</mark> / <mark class=\"example-chip\">They like concerts.</mark></td><td><mark class=\"example-chip\">I don't like coffee.</mark> / <mark class=\"example-chip\">You don't like tea.</mark> / <mark class=\"example-chip\">We don't like waiting.</mark> / <mark class=\"example-chip\">They don't like noise.</mark></td><td><mark class=\"example-chip\">Do I like this?</mark> / <mark class=\"example-chip\">Do you like tea?</mark> / <mark class=\"example-chip\">Do we like this movie?</mark> / <mark class=\"example-chip\">Do they like cooking?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He likes sports.</mark> / <mark class=\"example-chip\">She likes reading.</mark> / <mark class=\"example-chip\">It likes milk.</mark></td><td><mark class=\"example-chip\">He doesn't like cold weather.</mark> / <mark class=\"example-chip\">She doesn't like cats.</mark> / <mark class=\"example-chip\">It doesn't like water.</mark></td><td><mark class=\"example-chip\">Does he like football?</mark> / <mark class=\"example-chip\">Does she like dancing?</mark> / <mark class=\"example-chip\">Does it like warmth?</mark></td></tr></tbody></table></div>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -s Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> with <em>he</em>, <em>she</em>, and <em>it</em> in positive sentences.</p><div class=\"instead-try-spread\" aria-label=\"LIKE Third Person Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She like pizza.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She likes pizza.</mark></div></div></div></div><p class=\"marginalia-body\">In negatives and questions, after <em>doesn't</em> or <em>does</em>, the main verb returns to base <strong>like</strong>:</p><div class=\"instead-try-spread\" aria-label=\"LIKE Negative/Question Base Verb Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She doesn't likes tea.</mark> / <mark class=\"example-chip\">Does he likes football?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She doesn't like tea.</mark> / <mark class=\"example-chip\">Does he like football?</mark></div></div></div></div></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "3. What Can Come After \"Like\"?"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Pattern 1: Like + Noun:** <mark class=\"example-chip\">I like Italian food.</mark> / <mark class=\"example-chip\">She likes dogs.</mark> / <mark class=\"example-chip\">They like classical music.</mark>",
-        "**Pattern 2: Like + Verb-ing:** <mark class=\"example-chip\">I like swimming in the morning.</mark> / <mark class=\"example-chip\">He likes cooking pasta.</mark> / <mark class=\"example-chip\">We like watching films.</mark> (Emphasizes active enjoyment)",
-        "**Pattern 3: Like + to + Verb:** <mark class=\"example-chip\">I like to read before bed.</mark> / <mark class=\"example-chip\">She likes to dance.</mark> / <mark class=\"example-chip\">They like to travel in summer.</mark> (Emphasizes habit or preference)"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Distinction — Like vs Would Like</div><p class=\"marginalia-body\">• <mark class=\"example-chip\">I like coffee.</mark> = I enjoy coffee generally.<br>• <mark class=\"example-chip\">I'd like a coffee.</mark> = I want a coffee now, politely. (<em>Would like</em> is covered on <em>To Want</em>!).</p></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4. Related Verbs: Love, Dislike & Hate"
-    },
-    {
-      "type": "paragraph",
-      "text": "The same grammar rules apply to <em>love</em>, <em>dislike</em>, and <em>hate</em>:<br>• <mark class=\"example-chip\">I love my family.</mark> / <mark class=\"example-chip\">She loves dancing.</mark><br>• <mark class=\"example-chip\">He dislikes waiting.</mark> (Or naturally: <mark class=\"example-chip\">He doesn't like waiting.</mark>)<br>• <mark class=\"example-chip\">My cat hates water.</mark> / <mark class=\"example-chip\">They hate getting up early.</mark>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "5. Everyday Expressions & Stative Verb Rule"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Intensity:** <mark class=\"example-chip\">I really like it!</mark> (A lot) | <mark class=\"example-chip\">I quite like it.</mark> (To some degree) | <mark class=\"example-chip\">I don't like it very much.</mark>",
-        "**Polite Neutrality:** <mark class=\"example-chip\">I don't mind.</mark> (It is okay / no objection) | <mark class=\"example-chip\">It's not my cup of tea.</mark> (Idiom: Not something I enjoy)"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Stative Verb Rule</div><p class=\"marginalia-body\"><em>Like</em> describes a state or preference, so use present simple in standard English.</p><div class=\"instead-try-spread\" aria-label=\"LIKE Stative Rule Comparison\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I'm liking this song.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I like this song.</mark></div></div></div></div></aside>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "6. Check Your Understanding"
+      "explanation": "With *she*, add *-s*, and *know* is not used in the *-ing* form: *She knows how to drive.*"
     },
     {
       "type": "quiz",
-      "question": "Choose the correct sentence:",
+      "question": "You have met Peter many times. Which sentence is best?",
+      "options": [
+        "I meet Peter.",
+        "I know Peter.",
+        "I am knowing Peter."
+      ],
+      "correctIndex": 1,
+      "explanation": "*I know Peter* means you are familiar with him."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Now you can talk about what you know. Ready to share what you enjoy and love?</p><p><a href=\"#verb-think\">← Back to THINK 💭</a> &nbsp; <a href=\"#verb-like\">Next: LIKE 💗 — What I enjoy →</a></p></div>",
+      "text": "Your COSY journey. Now you can talk about what you know. Ready to share what you enjoy and love? ← Back to THINK 💭. Next: LIKE 💗 — What I enjoy →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 5 — like",
+      "id": "verb-like"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Like** is for tastes: food, music, hobbies, people. It is regular — **like** (I, you, we, they) and **likes** (he, she, it) — and the -s works the same way as with *have*."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">From hate to love</p><ol class=\"lx-scale\">\n       <li><b>😠 I hate …</b><span>I hate getting up early.</span></li>\n       <li><b>👎 I don't like …</b><span>I don't like cold weather.</span></li>\n       <li><b>😐 I don't mind …</b><span>I don't mind waiting.</span></li>\n       <li><b>🙂 I like …</b><span>I like chocolate.</span></li>\n       <li><b>❤️ I love …</b><span>I love my family.</span></li>\n     </ol><figcaption class=\"lx-cap\">In everyday English people say <em>I don't like</em> more often than <em>I dislike</em>, which sounds formal. Be careful with <em>hate</em> about people: it is very strong.</figcaption></figure>",
+      "text": "From hate to love: I hate getting up early. I don't like cold weather. I don't mind waiting. I like chocolate. I love my family."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">The -s moves, again</p><div class=\"lx-sflow\"><span class=\"lx-sign\" aria-label=\"affirmative\">+</span><span class=\"lx-line\">She <mark class=\"lx-hl\">likes</mark> tea.</span><span class=\"lx-sign neg\" aria-label=\"negative\">−</span><span class=\"lx-line\">She <mark class=\"lx-hl\">doesn't</mark> <b>like</b> tea.</span><span class=\"lx-sign q\" aria-label=\"question\">?</span><span class=\"lx-line\"><mark class=\"lx-hl\">Does</mark> she <b>like</b> tea?</span></div><figcaption class=\"lx-cap\">Positive: <em>likes</em>. Negative and question: <em>doesn't / does</em> + <em>like</em>.</figcaption></figure>",
+      "text": "Positive: she likes tea. Negative: she doesn't like tea. Question: does she like tea?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Positive (+)",
+        "Negative (−)",
+        "Question (?)"
+      ],
+      "rows": [
+        [
+          "I",
+          "I like music.",
+          "I don't like coffee.",
+          "Do I like this?"
+        ],
+        [
+          "you",
+          "You like pizza.",
+          "You don't like tea.",
+          "Do you like tea?"
+        ],
+        [
+          "he",
+          "He likes sport.",
+          "He doesn't like cold weather.",
+          "Does he like football?"
+        ],
+        [
+          "she",
+          "She likes reading.",
+          "She doesn't like cats.",
+          "Does she like dancing?"
+        ],
+        [
+          "we",
+          "We like travelling.",
+          "We don't like waiting.",
+          "Do we like this film?"
+        ],
+        [
+          "they",
+          "They like concerts.",
+          "They don't like noise.",
+          "Do they like cooking?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Short answers"
+      ],
+      "rows": [
+        [
+          "Do you like jazz?",
+          "Yes, I do. / No, I don't."
+        ],
+        [
+          "Does she like dogs?",
+          "Yes, she does. / No, she doesn't."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What can come after like?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pattern",
+        "Meaning",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "like + **noun**",
+          "you enjoy a thing or person",
+          "I like Italian food. / She likes dogs."
+        ],
+        [
+          "like + **-ing**",
+          "you enjoy an activity",
+          "I like swimming. / He likes cooking pasta."
+        ],
+        [
+          "like + **to** + verb",
+          "a habit or a choice",
+          "I like to read before bed. / They like to travel in summer."
+        ],
+        [
+          "**I'd like** + noun / to + verb",
+          "a polite wish *right now* (next spread)",
+          "I'd like a coffee, please."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "After *like*, both *-ing* and *to* + verb are usually fine. Use whichever sounds natural; after *love, hate* and *don't mind*, *-ing* is the safest choice."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Four questions that sound alike"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "It asks about…",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "**Do you like** Anna?",
+          "your feeling about her",
+          "Yes, I do. She's great."
+        ],
+        [
+          "**What does** Anna **like**?",
+          "her tastes",
+          "She likes tennis and tea."
+        ],
+        [
+          "**What is** Anna **like**? *(A2)*",
+          "her character and appearance",
+          "She's kind and funny."
+        ],
+        [
+          "**How is** Anna?",
+          "her health or mood today",
+          "She's fine, thanks."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Saying how much"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Stronger:** *I really like it! / I like it a lot. / I like pizza very much.*",
+        "**A little:** *I quite like it.*",
+        "**Neutral:** *I don't mind.* (It's okay for me.) / *It's not my cup of tea.* (I don't enjoy it.)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-warn\"><strong>Word order</strong><p>Keep the object next to the verb: <em>I like pizza <strong>very much</strong>.</em> (not <s>I like very much pizza</s>). And <em>like</em> is a state, so we say <em>I like this song</em>, not <s>I'm liking this song</s>.</p></div>",
+      "text": "Word order Keep the object next to the verb: I like pizza very much . (not I like very much pizza ). And like is a state, so we say I like this song , not I'm liking this song ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She like pizza.</s></td><td>She <strong>likes</strong> pizza.</td><td><em>-s</em> with he / she / it.</td></tr><tr><td><s>She doesn't likes pizza.</s></td><td>She doesn't <strong>like</strong> pizza.</td><td>After <em>doesn't</em>, base verb.</td></tr><tr><td><s>I like very much pizza.</s></td><td>I like pizza <strong>very much</strong>.</td><td>Object next to the verb.</td></tr><tr><td><s>I'm liking this song.</s></td><td>I <strong>like</strong> this song.</td><td><em>Like</em> is a state.</td></tr><tr><td><s>I like to swimming.</s></td><td>I like <strong>swimming</strong>. / I like <strong>to swim</strong>.</td><td>Choose one pattern.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She like pizza.\". Say \"She likes pizza.\". Not \"She doesn't likes pizza.\". Say \"She doesn't like pizza.\". Not \"I like very much pizza.\". Say \"I like pizza very much .\". Not \"I'm liking this song.\". Say \"I like this song.\". Not \"I like to swimming.\". Say \"I like swimming . / I like to swim .\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct sentence.",
       "options": [
         "She doesn't likes coffee.",
         "She don't like coffee.",
         "She doesn't like coffee."
       ],
       "correctIndex": 2,
-      "explanation": "With 'she', use 'doesn't' followed by the base verb 'like' without an -s."
+      "explanation": "With *she*: *doesn't* + base verb *like*."
     },
     {
       "type": "quiz",
-      "question": "What does 'I'd like a glass of water' mean?",
+      "question": "\"What is your sister like?\" — She ___.",
       "options": [
-        "I enjoy water in general.",
-        "I want a glass of water, politely.",
-        "I dislike water."
+        "likes tennis",
+        "is very friendly",
+        "is fine today"
       ],
       "correctIndex": 1,
-      "explanation": "'I'd like' means 'I would like', which expresses a polite desire right now, not a general hobby."
+      "explanation": "*What is she like?* asks for a description of her character."
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I like very much pizza.",
+        "I like pizza very much.",
+        "I am liking pizza very much."
+      ],
+      "correctIndex": 1,
+      "explanation": "Put the object next to the verb: *I like pizza very much.*"
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You’ve moved from <em>me</em>, to <em>my life</em>, to <em>my people</em>, and now to <em>what I love</em>. That’s already a little more English for your real life. ✨</p><p><a href=\"#page-5\">← Revisit KNOW 🤝</a> &nbsp; <a href=\"#page-2\">Start again with BE 🪞</a></p></div></section>"
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say what you love. Now say what you would like, and ask politely.</p><p><a href=\"#verb-know\">← Back to KNOW 🤝</a> &nbsp; <a href=\"#verb-want\">Next: WANT ☕ — What I want, politely →</a></p></div>",
+      "text": "Your COSY journey. You can say what you love. Now say what you would like, and ask politely. ← Back to KNOW 🤝. Next: WANT ☕ — What I want, politely →"
     },
     {
       "type": "paragraph",
-      "text": "<section id=\"page-7\" class=\"gazette-page-spread\" aria-labelledby=\"page-7-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-7-heading\" class=\"editorial-heading\">Verb 6 — \"To Want / Would Like\"</h2>"
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 6 — want / would like",
+      "id": "verb-want"
     },
     {
       "type": "paragraph",
-      "text": "<strong>To Want</strong> and <strong>Would Like</strong> express desires, intentions, and polite requests."
+      "text": "**Want** says what you need or wish. **Would like** says the same thing more politely, and you will use it all the time in shops, cafés and restaurants. **Want** is regular: **want** (I, you, we, they), **wants** (he, she, it). **Would** never changes."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">How to ask for things: from blunt to polite</p><ol class=\"lx-ladder\">\n       <li class=\"lx-no\"><b>Give me a coffee.</b><small>Sounds like an order. Avoid it.</small></li>\n       <li><b>I want a coffee.</b><small>Fine with friends and family. In a café it can sound strong.</small></li>\n       <li class=\"lx-yes\"><b>Can I have a coffee, please?</b><small>Normal and friendly. Works almost everywhere.</small></li>\n       <li class=\"lx-yes\"><b>I'd like a coffee, please.</b><small>Polite and natural in cafés, hotels and restaurants.</small></li>\n     </ol></figure>",
+      "text": "How to ask for things, from blunt to polite. Give me a coffee sounds like an order, so avoid it. I want a coffee is fine with friends. Can I have a coffee, please, is normal and friendly. I'd like a coffee, please, is polite and natural in cafés and restaurants."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "Want"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "You want to say…",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "A thing you want",
+          "want + noun",
+          "I want a glass of water. / She wants a new phone."
+        ],
+        [
+          "An action you want to do",
+          "want **to** + verb",
+          "I want **to learn** English. / We want **to go** home."
+        ],
+        [
+          "What you want someone to do *(A2)*",
+          "want + person + **to** + verb",
+          "I want **you to help** me. / She wants **him to call**."
+        ],
+        [
+          "Negative",
+          "**don't / doesn't** want",
+          "I don't want to be late. / He doesn't want any sugar."
+        ],
+        [
+          "Questions",
+          "**Do / Does** + subject + want …?",
+          "What do you want? / Do you want to come? / Where does she want to go?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Would like"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "You want to say…",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "A polite wish",
+          "**I'd like** + noun",
+          "I'd like a table for two, please."
+        ],
+        [
+          "A polite wish for an action",
+          "**I'd like** + **to** + verb",
+          "I'd like to pay, please. / We'd like to see the menu."
+        ],
+        [
+          "Offer or invite",
+          "**Would you like** + noun / to + verb?",
+          "Would you like some tea? / Would you like to come with us?"
+        ],
+        [
+          "Answer",
+          "—",
+          "Yes, please. / Yes, I'd love to. / No, thank you."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*I'd* is short for *I would*, not *I had*. With *he / she / it* say *he'd like, she'd like* — **never** *woulds*. For a negative at this level, say *I don't want …*."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Like, want, would like: what is the difference?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sentence",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "I **like** coffee.",
+          "In general, I enjoy coffee."
+        ],
+        [
+          "I **want** coffee.",
+          "I would like coffee now. Direct."
+        ],
+        [
+          "I'd like a coffee, please.",
+          "A polite request or order."
+        ],
+        [
+          "I **can** have coffee.",
+          "It is possible or allowed. *(next spread: can)*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">In a café</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"In a café\"><p class=\"lx-say\"><b>Waiter</b>Good morning. What would you like?</p><p class=\"lx-say\"><b>You</b>I'd like a coffee, please.</p><p class=\"lx-say\"><b>Waiter</b>Would you like something to eat?</p><p class=\"lx-say\"><b>You</b>Yes, please. I'd like a croissant.</p></div></figure>",
+      "text": "In a café. Waiter: Good morning. What would you like? You: I'd like a coffee, please. Waiter: Would you like something to eat? You: Yes, please. I'd like a croissant."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She wants to goes.</s></td><td>She wants to <strong>go</strong>.</td><td>After <em>to</em>, the base verb.</td></tr><tr><td><s>I want that you come.</s></td><td>I want <strong>you to come</strong>.</td><td>want + person + to + verb.</td></tr><tr><td><s>I would to go.</s></td><td>I would <strong>like</strong> to go.</td><td>Don't forget <em>like</em>.</td></tr><tr><td><s>Do you would like tea?</s></td><td><strong>Would you</strong> like tea?</td><td>No <em>do</em> with <em>would</em>.</td></tr><tr><td><s>She woulds like a coffee.</s></td><td>She <strong>would</strong> like a coffee.</td><td><em>Would</em> never adds an <em>s</em>.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She wants to goes.\". Say \"She wants to go .\". Not \"I want that you come.\". Say \"I want you to come .\". Not \"I would to go.\". Say \"I would like to go.\". Not \"Do you would like tea?\". Say \"Would you like tea?\". Not \"She woulds like a coffee.\". Say \"She would like a coffee.\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "You are in a restaurant. What is the most polite way to order?",
+      "options": [
+        "Give me a pizza.",
+        "I want a pizza.",
+        "I'd like a pizza, please."
+      ],
+      "correctIndex": 2,
+      "explanation": "*I'd like …, please* is polite and natural."
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "She wants to goes home.",
+        "She want to go home.",
+        "She wants to go home."
+      ],
+      "correctIndex": 2,
+      "explanation": "*Wants* takes the -s; after *to*, use the base verb *go*."
+    },
+    {
+      "type": "quiz",
+      "question": "___ you like some tea?",
+      "options": [
+        "Do",
+        "Would",
+        "Are"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Would you like …?* is the polite way to offer something."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can ask for what you want. Now let's go somewhere.</p><p><a href=\"#verb-like\">← Back to LIKE 💗</a> &nbsp; <a href=\"#verb-go\">Next: GO 🧭 — Where I go and what I'll do →</a></p></div>",
+      "text": "Your COSY journey. You can ask for what you want. Now let's go somewhere. ← Back to LIKE 💗. Next: GO 🧭 — Where I go and what I'll do →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 7 — go / be going to",
+      "id": "verb-go"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Go** has three jobs in this issue: **go** — moving from one place to another; **be going** — moving now; and **be going to + verb** — future plans. Look at these three sentences: *I go to work every day. I'm going to work now. I'm going to work tomorrow.* They look alike but mean different things."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form",
+        "Word",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Base",
+          "go",
+          "I go home."
+        ],
+        [
+          "he / she / it",
+          "goes",
+          "She goes home. *(not gos)*"
+        ],
+        [
+          "Past simple",
+          "**went**",
+          "I went home. *(not goed)*"
+        ],
+        [
+          "Past participle",
+          "gone",
+          "She has gone home. *(later grammar)*"
+        ],
+        [
+          "-ing form",
+          "going",
+          "I'm going home."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Positive (+)",
+        "Negative (−)",
+        "Question (?)"
+      ],
+      "rows": [
+        [
+          "I",
+          "I go to school.",
+          "I don't go on Sundays.",
+          "Do I go there?"
+        ],
+        [
+          "you",
+          "You go by bus.",
+          "You don't go there often.",
+          "Do you go to work every day?"
+        ],
+        [
+          "he",
+          "He goes to work.",
+          "He doesn't go by bus.",
+          "Does he go to school?"
+        ],
+        [
+          "she",
+          "She goes home.",
+          "She doesn't go on Fridays.",
+          "When does she go home?"
+        ],
+        [
+          "we",
+          "We go by train.",
+          "We don't go out every night.",
+          "Where do we go?"
+        ],
+        [
+          "they",
+          "They go home.",
+          "They don't go there.",
+          "How do they go to work?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">go + what?</p><div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏢</span><span>go <b>to</b> + place</span></div><p class=\"lx-ex\">go to work · to school · to the supermarket · to France · to the cinema</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏠</span><span>go + <b>no “to”</b></span></div><p class=\"lx-ex\">go home · go there · go out · go back · go away · go abroad · go upstairs</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🚌</span><span>go <b>by</b> + transport</span></div><p class=\"lx-ex\">go by bus · by train · by car · by plane · by bike<br>but: go <b>on foot</b></p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🏊</span><span>go + <b>-ing</b> / go <b>for</b></span></div><p class=\"lx-ex\">go shopping · go swimming · go running<br>go for a walk · go for a drink</p></div>\n     </div><figcaption class=\"lx-cap\">Say <em>go home</em>, never <s>go to home</s>. But with other places you need <em>to</em>: <em>go to my house, go to the office, go to the shops</em>.</figcaption></figure>",
+      "text": "Go plus what? Go to plus a place: go to work, to school, to France. Go with no to: go home, go there, go out, go back. Go by plus transport: by bus, by train, but on foot. Go plus ing: go shopping, go swimming, or go for a walk. Say go home, never go to home."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Going now: present continuous"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use **am / is / are + going** for movement happening now: *I'm going home. She's going to the shops. They're going to Paris.* Negatives and questions use *be*, not *do*: *I'm not going yet. Are you going home? Where are they going?*"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The future: be going to + verb"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use **am / is / are + going to + base verb** for plans and for things you can see coming. The *be* changes; **going to** stays the same; the verb after it is always the base form."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "I'm / you're / he's … **going to** + verb",
+          "I'm going to study tonight. / She's going to buy a phone."
+        ],
+        [
+          "**−**",
+          "I'm **not** / he **isn't** / they **aren't** going to + verb",
+          "I'm not going to work tomorrow. / They aren't going to come."
+        ],
+        [
+          "**?**",
+          "**Am / Is / Are** + subject + going to + verb?",
+          "Are you going to study? / What are you going to do?"
+        ],
+        [
+          "**Short answers**",
+          "—",
+          "Yes, I am. / No, I'm not. / Yes, he is. / No, they aren't."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Use",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "**Plan or intention** — you have decided",
+          "We're going to visit friends. / He's going to look for a job."
+        ],
+        [
+          "**Prediction from evidence** — you can see it",
+          "Look at those clouds! It's going to rain. / Be careful! You're going to fall!"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-tip\"><strong>Listening tip</strong><p>In fast, informal speech <em>going to</em> sounds like <strong>“gonna”</strong>: <em>I'm gonna study.</em> You will hear it a lot. In writing, use <em>going to</em>.</p></div>",
+      "text": "Listening tip In fast, informal speech going to sounds like “gonna” : I'm gonna study. You will hear it a lot. In writing, use going to ."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Past, now and future with go</p><div class=\"lx-timeline\">\n       <div class=\"lx-time\"><h5>Past</h5><p><b>went</b></p><p class=\"lx-ex\">Yesterday I went to Paris.</p><p class=\"lx-ex\">I didn't go to work.</p></div>\n       <div class=\"lx-time\"><h5>Now</h5><p><b>go / goes</b> — routine</p><p class=\"lx-ex\">I go to work by bus.</p><p><b>am / is / are going</b> — moving now</p><p class=\"lx-ex\">I'm going to work now.</p></div>\n       <div class=\"lx-time\"><h5>Future</h5><p><b>am / is / are going to + verb</b></p><p class=\"lx-ex\">I'm going to study tonight.</p><p class=\"lx-ex\">I'm going to go to Paris.</p></div>\n     </div><figcaption class=\"lx-cap\">To talk about the future with <em>go</em> itself, say <em>going to go</em>: <em>I'm going to go home later.</em></figcaption></figure>",
+      "text": "Past: went. Yesterday I went to Paris. Now: go or goes for routines, and am, is, are going for moving now. Future: am, is, are going to plus a verb. To use go in the future, say going to go: I'm going to go home later."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The tricky one: “I'm going to work”"
+    },
+    {
+      "type": "paragraph",
+      "text": "This sentence can mean two things, because *work* can be a place (a noun) or a verb. Context and time words help."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sentence",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "I'm going to work **now**.",
+          "I am travelling to my workplace right now."
+        ],
+        [
+          "I'm going to work **tomorrow**.",
+          "A plan: either I will go to my workplace, or I will do my job. Context decides."
+        ],
+        [
+          "I'm going **to go** to work.",
+          "Clear: I plan to travel to my workplace."
+        ],
+        [
+          "I'm going **to the office**.",
+          "Clear: movement to a place."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>He go to school.</s></td><td>He <strong>goes</strong> to school.</td><td><em>-es</em> with he / she / it.</td></tr><tr><td><s>She doesn't goes out.</s></td><td>She doesn't <strong>go</strong> out.</td><td>After <em>doesn't</em>, base verb.</td></tr><tr><td><s>I goed home.</s></td><td>I <strong>went</strong> home.</td><td><em>Go</em> is irregular.</td></tr><tr><td><s>Did you went there?</s></td><td>Did you <strong>go</strong> there?</td><td>After <em>did</em>, base verb.</td></tr><tr><td><s>I'm go to work. / I going to study.</s></td><td>I'm <strong>going</strong> to work. / I<strong>'m</strong> going to study.</td><td>Need <em>be</em> + <em>going</em>.</td></tr><tr><td><s>She is going to studies.</s></td><td>She is going to <strong>study</strong>.</td><td>Base verb after <em>going to</em>.</td></tr><tr><td><s>Do you going to leave?</s></td><td><strong>Are</strong> you going to leave?</td><td>Use <em>be</em>, not <em>do</em>.</td></tr><tr><td><s>I'm going to home.</s></td><td>I'm going <strong>home</strong>.</td><td>No <em>to</em> before <em>home</em>.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"He go to school.\". Say \"He goes to school.\". Not \"She doesn't goes out.\". Say \"She doesn't go out.\". Not \"I goed home.\". Say \"I went home.\". Not \"Did you went there?\". Say \"Did you go there?\". Not \"I'm go to work. / I going to study.\". Say \"I'm going to work. / I 'm going to study.\". Not \"She is going to studies.\". Say \"She is going to study .\". Not \"Do you going to leave?\". Say \"Are you going to leave?\". Not \"I'm going to home.\". Say \"I'm going home .\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "She ___ to work every day.",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1,
+      "explanation": "A routine in the present simple: *she goes*."
+    },
+    {
+      "type": "quiz",
+      "question": "Yesterday, we ___ to the cinema.",
+      "options": [
+        "goed",
+        "go",
+        "went"
+      ],
+      "correctIndex": 2,
+      "explanation": "The past of *go* is *went*."
+    },
+    {
+      "type": "quiz",
+      "question": "Look at those clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "does going to",
+        "going to"
+      ],
+      "correctIndex": 0,
+      "explanation": "A prediction from evidence: *It is going to rain.*"
+    },
+    {
+      "type": "quiz",
+      "question": "___ you going to travel tomorrow?",
+      "options": [
+        "Do",
+        "Are",
+        "Does"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Be going to* questions use *am / is / are*: *Are you going to travel?*"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I'm going to home.",
+        "I'm going home.",
+        "I going home."
+      ],
+      "correctIndex": 1,
+      "explanation": "No *to* before *home*, and you need *am*: *I'm going home.*"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can talk about places and plans. What are you able to do when you get there?</p><p><a href=\"#verb-want\">← Back to WANT ☕</a> &nbsp; <a href=\"#verb-can\">Next: CAN 🔑 — What I can do →</a></p></div>",
+      "text": "Your COSY journey. You can talk about places and plans. What are you able to do when you get there? ← Back to WANT ☕. Next: CAN 🔑 — What I can do →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 8 — can",
+      "id": "verb-can"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Can** is a *modal verb*. It is different from the other nine verbs: it never changes, it is followed directly by the base verb (no *to*), and it makes its own negatives and questions. Use it for ability, possibility, permission and requests."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">The whole rule in one line</p><p class=\"lx-core\">subject + <b>can</b> + base verb</p>\n     <div class=\"lx-cards\">\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">💪</span>Ability</div><p>What you are able to do.</p><p class=\"lx-ex\">I can swim. · She can speak three languages.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🗓️</span>Possibility</div><p>What is possible.</p><p class=\"lx-ex\">We can go tomorrow. · You can buy bread here.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">✅</span>Permission</div><p>What is allowed.</p><p class=\"lx-ex\">Can I come in? · You can't park here.</p></div>\n       <div class=\"lx-card\"><div class=\"lx-card-head\"><span class=\"lx-card-icon\">🙏</span>Request</div><p>Asking someone to do something.</p><p class=\"lx-ex\">Can you help me? · Can you speak more slowly?</p></div>\n     </div><figcaption class=\"lx-cap\">Adding <em>please</em> makes any request more polite: <em>Can you repeat that, please?</em></figcaption></figure>",
+      "text": "The whole rule: subject plus can plus the base verb. Four uses: ability, as in I can swim; possibility, as in we can go tomorrow; permission, as in can I come in; and requests, as in can you help me."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Pattern",
+        "Examples",
+        "Short answers"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "subject + **can** + verb",
+          "I can swim. / He can drive. / They can help.",
+          "—"
+        ],
+        [
+          "**−**",
+          "subject + **can't** / **cannot** + verb",
+          "I can't swim. / She can't come. / We can't go today.",
+          "—"
+        ],
+        [
+          "**?**",
+          "**Can** + subject + verb?",
+          "Can you swim? / Can she drive? / Can we go now?",
+          "Yes, I can. / No, I can't."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Can't* and *cannot* mean the same. *Can't* is the one you will hear in conversation; write *cannot* as one word."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Compare with the other verbs</p><div class=\"lx-sflow\"><span class=\"lx-sign\" aria-label=\"affirmative\">+</span><span class=\"lx-line\">He <mark class=\"lx-hl\">can</mark> swim.   <i>(no -s)</i></span><span class=\"lx-sign neg\" aria-label=\"negative\">−</span><span class=\"lx-line\">He <mark class=\"lx-hl\">can't</mark> swim.   <i>(no doesn't)</i></span><span class=\"lx-sign q\" aria-label=\"question\">?</span><span class=\"lx-line\"><mark class=\"lx-hl\">Can</mark> he swim?   <i>(no does)</i></span></div><figcaption class=\"lx-cap\"><em>Can</em> already makes its own negative and question, so you never need <em>do / does</em>, and the verb after it never changes.</figcaption></figure>",
+      "text": "Compare with the other verbs. He can swim, with no s. He can't swim, with no doesn't. Can he swim, with no does."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Listening tip: can or can't?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Word",
+        "Sounds like",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "**can** (in a sentence)",
+          "/kən/ — short and weak",
+          "I can swim. *The word almost disappears.*"
+        ],
+        [
+          "**can** (short answer)",
+          "/kæn/ — full vowel",
+          "Yes, I can."
+        ],
+        [
+          "**can't**",
+          "/kɑːnt/ (UK), /kænt/ (US) — strong and long",
+          "I can't swim. *You can hear the final t.*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Can with the verbs you know"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sentence",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "I can be there at six.",
+          "It is possible for me to be there."
+        ],
+        [
+          "I can have some water.",
+          "It is OK for me to take some water."
+        ],
+        [
+          "I can think about it.",
+          "I am able to consider it."
+        ],
+        [
+          "I can help you.",
+          "I am able to help you."
+        ],
+        [
+          "I can go home now.",
+          "It is possible or allowed for me to go."
+        ],
+        [
+          "I can eat this. / I can drink this water.",
+          "It is possible, allowed or safe."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sentence",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "I **want to** go.",
+          "I wish to go."
+        ],
+        [
+          "I **can** go.",
+          "It is possible for me to go."
+        ],
+        [
+          "I want to go, **but I can't**.",
+          "I wish to go, but it is not possible."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Other times and other words"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Idea",
+        "Say",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Past ability",
+          "**could** / **couldn't**",
+          "I could swim when I was five. / I couldn't drive then."
+        ],
+        [
+          "Future ability *(A2)*",
+          "**will be able to**",
+          "I will be able to drive next year. (not “I will can drive”)"
+        ],
+        [
+          "Same idea as can",
+          "**be able to**",
+          "I am able to swim. = I can swim."
+        ],
+        [
+          "Formal permission",
+          "**May I …?**",
+          "May I sit here? (“Can I sit here?” is also perfectly natural.)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She cans swim.</s></td><td>She <strong>can</strong> swim.</td><td><em>Can</em> never adds an <em>s</em>.</td></tr><tr><td><s>He can goes home.</s></td><td>He can <strong>go</strong> home.</td><td>Base verb after can.</td></tr><tr><td><s>I can to speak English.</s></td><td>I can speak English.</td><td>No <em>to</em> after can.</td></tr><tr><td><s>I don't can drive.</s></td><td>I <strong>can't</strong> drive.</td><td>Can makes its own negative.</td></tr><tr><td><s>Do you can help me?</s></td><td><strong>Can</strong> you help me?</td><td>No <em>do</em> with can.</td></tr><tr><td><s>I will can go.</s></td><td>I will <strong>be able to</strong> go.</td><td>Can has no <em>will</em> form.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She cans swim.\". Say \"She can swim.\". Not \"He can goes home.\". Say \"He can go home.\". Not \"I can to speak English.\". Say \"I can speak English.\". Not \"I don't can drive.\". Say \"I can't drive.\". Not \"Do you can help me?\". Say \"Can you help me?\". Not \"I will can go.\". Say \"I will be able to go.\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "She ___ speak English.",
+      "options": [
+        "can",
+        "cans",
+        "can to"
+      ],
+      "correctIndex": 0,
+      "explanation": "Can never changes: *She can speak English.*"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct short answer: \"Can she drive?\"",
+      "options": [
+        "Yes, she does.",
+        "Yes, she can.",
+        "Yes, she is."
+      ],
+      "correctIndex": 1,
+      "explanation": "Repeat *can* in the short answer: *Yes, she can.*"
+    },
+    {
+      "type": "quiz",
+      "question": "They can't ___ today.",
+      "options": [
+        "comes",
+        "to come",
+        "come"
+      ],
+      "correctIndex": 2,
+      "explanation": "Base verb after *can't*: *They can't come today.*"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say what is possible. Time to talk about what is on the table.</p><p><a href=\"#verb-go\">← Back to GO 🧭</a> &nbsp; <a href=\"#verb-eat\">Next: EAT 🍽️ — Food and meals →</a></p></div>",
+      "text": "Your COSY journey. You can say what is possible. Time to talk about what is on the table. ← Back to GO 🧭. Next: EAT 🍽️ — Food and meals →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 9 — eat",
+      "id": "verb-eat"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Eat** means to put food in your mouth and swallow it. It is irregular in the past: **eat – ate – eaten**."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form",
+        "Word",
+        "Sounds like"
+      ],
+      "rows": [
+        [
+          "Base",
+          "**eat**",
+          "/iːt/"
+        ],
+        [
+          "he / she / it",
+          "**eats**",
+          "/iːts/"
+        ],
+        [
+          "Past simple",
+          "**ate**",
+          "/eɪt/ *(some British speakers say /et/)*"
+        ],
+        [
+          "Past participle",
+          "eaten",
+          "/ˈiːtn/"
+        ],
+        [
+          "-ing form",
+          "eating",
+          "/ˈiːtɪŋ/"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">The -s moves, as always</p><div class=\"lx-sflow\"><span class=\"lx-sign\" aria-label=\"affirmative\">+</span><span class=\"lx-line\">He <mark class=\"lx-hl\">eats</mark> breakfast.</span><span class=\"lx-sign neg\" aria-label=\"negative\">−</span><span class=\"lx-line\">He <mark class=\"lx-hl\">doesn't</mark> <b>eat</b> breakfast.</span><span class=\"lx-sign q\" aria-label=\"question\">?</span><span class=\"lx-line\"><mark class=\"lx-hl\">Does</mark> he <b>eat</b> breakfast?</span></div><figcaption class=\"lx-cap\">In the past, the helper is <em>did</em>, and the verb goes back to <em>eat</em>: <em>He ate. He didn't eat. Did he eat?</em></figcaption></figure>",
+      "text": "He eats breakfast. He doesn't eat breakfast. Does he eat breakfast? In the past: he ate, he didn't eat, did he eat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Present, now and past"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Present simple — habit",
+        "Present continuous — now",
+        "Past simple — finished"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "I eat lunch at noon. / She eats fruit every day.",
+          "I'm eating lunch now. / She's eating an apple.",
+          "I ate pizza yesterday. / We ate at a restaurant."
+        ],
+        [
+          "**−**",
+          "I don't eat meat. / He doesn't eat eggs.",
+          "We aren't eating now.",
+          "I didn't eat breakfast."
+        ],
+        [
+          "**?**",
+          "Do you eat fish? / Does she eat cheese?",
+          "Are you eating?",
+          "Did you eat lunch? — Yes, I did."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Expressions with eat"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Direct Desires (Want + Noun / Verb):** <mark class=\"example-chip\">I want a glass of cold water.</mark> / <mark class=\"example-chip\">I want to learn English fluently.</mark> / <mark class=\"example-chip\">Where do you want to go tonight?</mark>",
-        "**Polite Standard (Would like + Noun / Verb):** <mark class=\"example-chip\">I would like to order lunch now, please.</mark> / <mark class=\"example-chip\">She would like a fresh salad.</mark>",
-        "**Negative Forms:** <mark class=\"example-chip\">I don't want to be late for class.</mark> / <mark class=\"example-chip\">He doesn't want to go home yet.</mark>",
-        "**Common Phrases:** <mark class=\"example-chip\">if you want to come</mark>, <mark class=\"example-chip\">I want to know the truth</mark>, <mark class=\"example-chip\">we would like to see the museum</mark>."
+        "**Meals:** *eat breakfast, eat lunch, eat dinner* — no *a* or *the*: *We eat dinner at seven.*",
+        "**Eat out** = eat in a restaurant: *We sometimes eat out on Saturdays.*",
+        "**something to eat:** *I'm hungry. I want something to eat.*",
+        "**eat healthy / eat healthily · eat too much · eat together.**"
       ]
     },
     {
       "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-8\" class=\"gazette-page-spread\" aria-labelledby=\"page-8-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-8-heading\" class=\"editorial-heading\">Verb 7 — \"To Go / Be Going To\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To Go</strong> expresses movement, travel, routines, and future intentions (<em>be going to</em>)."
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">eat, have or drink?</p><div class=\"lx-triple\">\n       <div><h5>🍽️ eat</h5><p>solid food</p><p class=\"lx-ex\">bread · rice · meat · fruit · an apple · a sandwich</p></div>\n       <div><h5>☕ have</h5><p>food <b>or</b> drink — and meals</p><p class=\"lx-ex\">have breakfast · have a coffee · have some soup · have lunch</p></div>\n       <div><h5>🥤 drink</h5><p>liquids</p><p class=\"lx-ex\">water · milk · coffee · tea · juice · lemonade</p></div>\n     </div><figcaption class=\"lx-cap\"><em>Have</em> is the safe choice when ordering: <em>I'll have a coffee.</em> But you can't <em>drink</em> an apple, and you don't <em>eat</em> water. For soup, say <em>eat</em> or <em>have</em>.</figcaption></figure>",
+      "text": "Eat, have or drink? Eat is for solid food. Drink is for liquids. Have works for both food and drink, and for meals: have breakfast, have a coffee, have some soup."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "Food words"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Word",
+        "Example",
+        "Word",
+        "Example"
+      ],
+      "rows": [
+        [
+          "bread",
+          "I eat bread with cheese.",
+          "rice",
+          "They eat rice every day."
+        ],
+        [
+          "cheese",
+          "She doesn't eat cheese.",
+          "pasta",
+          "We eat pasta on Sundays."
+        ],
+        [
+          "meat",
+          "He eats meat.",
+          "vegetables",
+          "Eat more vegetables!"
+        ],
+        [
+          "fish",
+          "Do you eat fish?",
+          "fruit",
+          "I eat fruit for breakfast."
+        ],
+        [
+          "an apple",
+          "She eats an apple every day.",
+          "a sandwich",
+          "I'd like a sandwich, please."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-tip\"><strong>Hungry? Say it with be</strong><p><em>I'm hungry.</em> (not <s>I have hunger</s>). Offer food with <em>Would you like something to eat?</em></p></div>",
+      "text": "Hungry? Say it with be I'm hungry. (not I have hunger ). Offer food with Would you like something to eat?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Common mistakes"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She doesn't eats meat.</s></td><td>She doesn't <strong>eat</strong> meat.</td><td>After <em>doesn't</em>, base verb.</td></tr><tr><td><s>I eated pizza.</s></td><td>I <strong>ate</strong> pizza.</td><td>Irregular: eat – ate.</td></tr><tr><td><s>Did you ate lunch?</s></td><td>Did you <strong>eat</strong> lunch?</td><td>After <em>did</em>, base verb.</td></tr><tr><td><s>I am eat now.</s></td><td>I am <strong>eating</strong> now.</td><td>be + -ing.</td></tr><tr><td><s>I eat a breakfast at 8.</s></td><td>I eat breakfast at 8.</td><td>No <em>a</em> with meals.</td></tr><tr><td><s>I have hunger.</s></td><td>I'm hungry.</td><td>Use <em>be</em> for this feeling.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She doesn't eats meat.\". Say \"She doesn't eat meat.\". Not \"I eated pizza.\". Say \"I ate pizza.\". Not \"Did you ate lunch?\". Say \"Did you eat lunch?\". Not \"I am eat now.\". Say \"I am eating now.\". Not \"I eat a breakfast at 8.\". Say \"I eat breakfast at 8.\". Not \"I have hunger.\". Say \"I'm hungry.\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "She ___ an apple every day.",
+      "options": [
+        "eat",
+        "eats",
+        "eating"
+      ],
+      "correctIndex": 1,
+      "explanation": "*She* needs *-s*: *She eats an apple.*"
+    },
+    {
+      "type": "quiz",
+      "question": "We ___ pizza yesterday.",
+      "options": [
+        "eat",
+        "eated",
+        "ate"
+      ],
+      "correctIndex": 2,
+      "explanation": "The past of *eat* is *ate*."
+    },
+    {
+      "type": "quiz",
+      "question": "Did you ___ dinner?",
+      "options": [
+        "ate",
+        "eaten",
+        "eat"
+      ],
+      "correctIndex": 2,
+      "explanation": "After *did*, use the base verb: *Did you eat dinner?*"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Food done. What shall we have to drink?</p><p><a href=\"#verb-can\">← Back to CAN 🔑</a> &nbsp; <a href=\"#verb-drink\">Next: DRINK 🥤 — Drinks and orders →</a></p></div>",
+      "text": "Your COSY journey. Food done. What shall we have to drink? ← Back to CAN 🔑. Next: DRINK 🥤 — Drinks and orders →"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Verb 10 — drink",
+      "id": "verb-drink"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Drink** means to take liquid into your mouth and swallow it. It works exactly like *eat*, with its own irregular past: **drink – drank – drunk**. It is also a noun: *a hot drink, a cold drink, let's have a drink*."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form",
+        "Word",
+        "Sounds like"
+      ],
+      "rows": [
+        [
+          "Base",
+          "**drink**",
+          "/drɪŋk/"
+        ],
+        [
+          "he / she / it",
+          "**drinks**",
+          "/drɪŋks/"
+        ],
+        [
+          "Past simple",
+          "**drank**",
+          "/dræŋk/"
+        ],
+        [
+          "Past participle",
+          "drunk",
+          "/drʌŋk/"
+        ],
+        [
+          "-ing form",
+          "drinking",
+          "/ˈdrɪŋkɪŋ/"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-warn\"><strong>Careful with “drunk”</strong><p><em>Drunk</em> is the past participle of <em>drink</em>, but as an adjective it means “affected by alcohol”: <em>He is drunk.</em> Use <em>drank</em> for a finished action: <em>I drank water.</em></p></div>",
+      "text": "Careful with “drunk” Drunk is the past participle of drink , but as an adjective it means “affected by alcohol”: He is drunk. Use drank for a finished action: I drank water."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Present, now and past"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Present simple — habit",
+        "Present continuous — now",
+        "Past simple — finished"
+      ],
+      "rows": [
+        [
+          "**+**",
+          "I drink water. / He drinks milk. / They drink tea every day.",
+          "I'm drinking water. / She's drinking tea.",
+          "I drank water after running. / She drank tea yesterday."
+        ],
+        [
+          "**−**",
+          "I don't drink coffee. / She doesn't drink tea.",
+          "They aren't drinking anything.",
+          "I didn't drink juice."
+        ],
+        [
+          "**?**",
+          "Do you drink coffee? / Does he drink milk?",
+          "Are you drinking water?",
+          "Did he drink his coffee? — Yes, he did."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Drinks and containers"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say",
+        "Example"
+      ],
+      "rows": [
+        [
+          "a **glass** of water / juice / milk",
+          "Can I have a glass of water, please?"
+        ],
+        [
+          "a **cup** of tea / coffee",
+          "She has a cup of tea every morning."
+        ],
+        [
+          "a **bottle** of water / juice",
+          "I drink a bottle of water a day."
+        ],
+        [
+          "a **can** of cola",
+          "He'd like a can of cola."
+        ]
+      ]
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Present Simple Forms:** I/You/We/They **go** | He/She/It **goes**.",
-        "**Movement & Prepositions:** <mark class=\"example-chip\">I go to work by train.</mark> / <mark class=\"example-chip\">She goes to school every morning.</mark> / <mark class=\"example-chip\">We go to the park on Sundays.</mark>",
-        "**Exceptions without 'to':** <mark class=\"example-chip\">go home</mark>, <mark class=\"example-chip\">go abroad on holiday</mark>, <mark class=\"example-chip\">go downtown</mark>, <mark class=\"example-chip\">go grocery shopping</mark>.",
-        "**Future Intentions (be going to + verb):** <mark class=\"example-chip\">I am going to eat dinner with friends.</mark> / <mark class=\"example-chip\">They are going to buy a new car next month.</mark>",
-        "**Transport Phrases:** <mark class=\"example-chip\">go on foot</mark> (walk), <mark class=\"example-chip\">go by bus</mark>, <mark class=\"example-chip\">go by train</mark>, <mark class=\"example-chip\">go by car</mark>."
+        "**Offers:** *Would you like something to drink? / What would you like to drink?*",
+        "**Feelings:** *I'm thirsty.* (not <s>I have thirst</s>)",
+        "**Habits:** *drink water, drink coffee, drink tea, drink too much coffee, drink slowly.*",
+        "**drink up** = finish your drink *(informal)*."
       ]
     },
     {
       "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-9\" class=\"gazette-page-spread\" aria-labelledby=\"page-9-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-9-heading\" class=\"editorial-heading\">Verb 8 — \"To Can\" (Modal Verb)</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Can</strong> is a modal verb expressing ability, permission, and polite requests."
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">In a restaurant</p><div class=\"lx-dialogue\" role=\"group\" aria-label=\"In a restaurant\"><p class=\"lx-say\"><b>Waiter</b>Would you like something to drink?</p><p class=\"lx-say\"><b>You</b>Yes, please. I'd like a glass of water.</p><p class=\"lx-say\"><b>Waiter</b>Still or sparkling?</p><p class=\"lx-say\"><b>You</b>Still, please. And a coffee after the meal.</p></div></figure>",
+      "text": "In a restaurant. Waiter: Would you like something to drink? You: Yes, please. I'd like a glass of water. Waiter: Still or sparkling? You: Still, please. And a coffee after the meal."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "Common mistakes"
     },
     {
       "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Modal Rule</div><p class=\"marginalia-body\"><em>Can</em> never changes form (no '-s' for he/she/it). It is followed directly by a base verb without 'to'.</p></aside>"
+      "html": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table lx-mistakes\"><thead><tr><th>Not this</th><th>Say this</th><th>Why</th></tr></thead><tbody><tr><td><s>She doesn't drinks tea.</s></td><td>She doesn't <strong>drink</strong> tea.</td><td>After <em>doesn't</em>, base verb.</td></tr><tr><td><s>Did you drank water?</s></td><td>Did you <strong>drink</strong> water?</td><td>After <em>did</em>, base verb.</td></tr><tr><td><s>I drinked juice.</s></td><td>I <strong>drank</strong> juice.</td><td>Irregular: drink – drank.</td></tr><tr><td><s>I have thirst.</s></td><td>I'm thirsty.</td><td>Use <em>be</em> for this feeling.</td></tr><tr><td><s>I drink a water.</s></td><td>I drink water. / I drink a glass of water.</td><td>Water has no <em>a</em> on its own.</td></tr></tbody></table></div>",
+      "text": "Common mistakes. Not \"She doesn't drinks tea.\". Say \"She doesn't drink tea.\". Not \"Did you drank water?\". Say \"Did you drink water?\". Not \"I drinked juice.\". Say \"I drank juice.\". Not \"I have thirst.\". Say \"I'm thirsty.\". Not \"I drink a water.\". Say \"I drink water. / I drink a glass of water.\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quick quiz"
+    },
+    {
+      "type": "quiz",
+      "question": "He ___ tea every morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "drinking"
+      ],
+      "correctIndex": 1,
+      "explanation": "*He* needs *-s*: *He drinks tea.*"
+    },
+    {
+      "type": "quiz",
+      "question": "They didn't ___ water.",
+      "options": [
+        "drank",
+        "drinks",
+        "drink"
+      ],
+      "correctIndex": 2,
+      "explanation": "After *didn't*, use the base verb *drink*."
+    },
+    {
+      "type": "quiz",
+      "question": "I want ___ some water.",
+      "options": [
+        "drink",
+        "to drink",
+        "drinking"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Want* + *to* + verb: *I want to drink some water.*"
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You've moved from <em>me</em>, to <em>my life</em>, to <em>my people</em>, to <em>what I love</em>, and now to eating, drinking and planning your day. That's a lot of English for real life. ✨</p><p><a href=\"#verb-know\">← Revisit KNOW 🤝</a> &nbsp; <a href=\"#verb-together\">Put it all together →</a> &nbsp; <a href=\"#verb-be\">Start again with BE 🪞</a></p></div>",
+      "text": "Your COSY journey. You've moved from me, to my life, to my people, to what I love, and now to eating, drinking and planning your day. That's a lot of English for real life. ✨ ← Revisit KNOW 🤝. Put it all together →. Start again with BE 🪞"
+    },
+    {
+      "type": "paragraph",
+      "webOnly": true,
+      "html": "<hr>",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Put it all together",
+      "id": "verb-together"
+    },
+    {
+      "type": "paragraph",
+      "text": "You now have ten verbs. This last spread shows how they work as one system: which helper to use, how the tenses fit, and how to build longer sentences."
+    },
+    {
+      "type": "paragraph",
+      "html": "<figure class=\"lx-fig \"><p class=\"lx-title\">Which helper do I need? Follow the questions from top to bottom</p><div class=\"lx-flow\">\n       <div class=\"lx-step\"><div class=\"lx-q\">1. Is the verb <b>be</b> or <b>can</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Yes</b> No helper. Negative: <em>I'm not · He isn't · I can't</em>. Question: swap the order — <em>Are you …? Can you …?</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">2. Is it about the <b>past</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Yes</b> <b>did / didn't</b> + base verb: <em>Did you go? I didn't eat.</em><br>Exceptions: <em>be → was / were</em>, <em>can → could</em>.</div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">3. Is it a <b>plan</b> or a prediction?</div><div class=\"lx-a\"><b class=\"lx-tag\">Yes</b> <b>am / is / are going to</b> + base verb: <em>I'm going to study. It's going to rain.</em></div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">4. Is it happening <b>right now</b>?</div><div class=\"lx-a\"><b class=\"lx-tag\">Yes</b> <b>am / is / are</b> + verb-ing: <em>I'm eating. She's working.</em><br>Not for <em>know, like, want</em>.</div></div>\n       <div class=\"lx-then\">no ↓</div>\n       <div class=\"lx-step\"><div class=\"lx-q\">5. A habit, a fact or a state?</div><div class=\"lx-a\"><b class=\"lx-tag\">Yes</b> Present simple with <b>do / does</b>: <em>I don't like coffee. Does she work here?</em> Add <em>-s</em> for he / she / it in positive sentences.</div></div>\n     </div><figcaption class=\"lx-cap\">This one chart covers negatives and questions for all ten verbs.</figcaption></figure>",
+      "text": "Which helper do I need? One: if the verb is be or can, you need no helper. Swap the order for questions and use not or can't for negatives. Two: for the past, use did or didn't plus the base verb, with was and were for be and could for can. Three: for plans and predictions, use am, is or are going to plus the base verb. Four: for what is happening right now, use am, is or are plus the ing form, but not with know, like or want. Five: for habits, facts and states, use the present simple with do or does."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The ten verbs at a glance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Present · past",
+        "Helper for − and ?",
+        "Watch out"
+      ],
+      "rows": [
+        [
+          "**be**",
+          "am / is / are · was / were",
+          "none",
+          "No *do* with be"
+        ],
+        [
+          "**have**",
+          "have / has · had",
+          "do / does",
+          "She doesn't **have**"
+        ],
+        [
+          "**think**",
+          "think / thinks · thought",
+          "do / does",
+          "*I don't think so*"
+        ],
+        [
+          "**know**",
+          "know / knows · knew",
+          "do / does",
+          "Not continuous"
+        ],
+        [
+          "**like**",
+          "like / likes · liked",
+          "do / does",
+          "Object next to the verb"
+        ],
+        [
+          "**want**",
+          "want / wants · wanted",
+          "do / does",
+          "*I'd like* is more polite"
+        ],
+        [
+          "**go**",
+          "go / goes · went",
+          "do / does",
+          "*go home*, no *to*"
+        ],
+        [
+          "**can**",
+          "can · could",
+          "none",
+          "Never *cans* or *to*"
+        ],
+        [
+          "**eat**",
+          "eat / eats · ate",
+          "do / does",
+          "Didn't **eat**"
+        ],
+        [
+          "**drink**",
+          "drink / drinks · drank",
+          "do / does",
+          "Didn't **drink**"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Now or always? Present simple and present continuous"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Present simple",
+        "Present continuous"
+      ],
+      "rows": [
+        [
+          "**Use**",
+          "habits, facts, states",
+          "happening now, around now"
+        ],
+        [
+          "**Form**",
+          "I work · she works",
+          "am / is / are + -ing"
+        ],
+        [
+          "**Examples**",
+          "I eat at noon. / He drinks coffee every morning.",
+          "I'm eating now. / He's drinking coffee right now."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-warn\"><strong>Verbs that usually stay in the present simple</strong><p><em>know, like, want</em>, and <em>have</em> (own), <em>think</em> (opinion) describe states, not actions. Say <em>I know him</em>, <em>I like coffee</em>, <em>I want some water</em> — not <s>I'm knowing</s>, <s>I'm liking</s>, <s>I'm wanting</s>. But <em>I'm having lunch</em> and <em>I'm thinking about it</em> are fine, because those are actions.</p></div>",
+      "text": "Verbs that usually stay in the present simple know, like, want , and have (own), think (opinion) describe states, not actions. Say I know him , I like coffee , I want some water — not I'm knowing , I'm liking , I'm wanting . But I'm having lunch and I'm thinking about it are fine, because those are actions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Past simple: talking about yesterday"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Past",
+        "Example",
+        "Negative / question"
+      ],
+      "rows": [
+        [
+          "be",
+          "was / were",
+          "I was tired.",
+          "I wasn't tired. / Were you at home?"
+        ],
+        [
+          "have",
+          "had",
+          "I had breakfast.",
+          "I didn't have breakfast. / Did you have lunch?"
+        ],
+        [
+          "think",
+          "thought",
+          "I thought about it.",
+          "I didn't think so. / Did you think so?"
+        ],
+        [
+          "know",
+          "knew",
+          "I knew the answer.",
+          "I didn't know. / Did you know?"
+        ],
+        [
+          "like",
+          "liked",
+          "I liked the film.",
+          "I didn't like it. / Did you like it?"
+        ],
+        [
+          "want",
+          "wanted",
+          "I wanted some water.",
+          "I didn't want any. / Did you want some?"
+        ],
+        [
+          "go",
+          "**went**",
+          "I went home.",
+          "I didn't go. / Did you go?"
+        ],
+        [
+          "can",
+          "**could**",
+          "I could swim at five.",
+          "I couldn't swim. / Could you swim?"
+        ],
+        [
+          "eat",
+          "**ate**",
+          "I ate pizza.",
+          "I didn't eat. / Did you eat?"
+        ],
+        [
+          "drink",
+          "**drank**",
+          "I drank water.",
+          "I didn't drink. / Did you drink?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Remember: the past form appears **only** in positive sentences. After *did / didn't* the verb goes back to the base form: *I ate. I didn't **eat**. Did you **eat**?*"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Building longer sentences"
+    },
+    {
+      "type": "paragraph",
+      "text": "You don't need hundreds of verbs to start talking. You need a few verbs and the ability to combine them."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say…",
+        "What it combines"
+      ],
+      "rows": [
+        [
+          "I think English is interesting because I like learning new words.",
+          "**think** + sentence · **like** + -ing"
+        ],
+        [
+          "I want to go to the restaurant, but I can't go today.",
+          "**want to** + verb · **can't** + base verb"
+        ],
+        [
+          "She works every day, studies in the evening and drinks tea before bed.",
+          "present simple, third person -s"
+        ],
+        [
+          "I ate breakfast at eight, but I'm hungry now.",
+          "past simple + present with **be**"
+        ],
+        [
+          "We're going to study, eat dinner and watch a film tonight.",
+          "**be going to** + base verbs"
+        ],
+        [
+          "I know the answer, but I think it's difficult to explain.",
+          "**know** + noun · **think** + sentence"
+        ],
+        [
+          "I'd like a glass of water, please. Can I have one?",
+          "**would like** + noun · **can** + subject + verb"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A short story: My day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Read the text, then find the structures in the table below it."
+    },
+    {
+      "type": "paragraph",
+      "html": "<div class=\"lx-tip\"><p>I <b>am</b> Alex. I <b>work</b> in an office and I <b>study</b> English every evening. I <b>like</b> learning languages because I <b>think</b> they <b>are</b> interesting.</p>\n<p>Every morning I <b>eat</b> breakfast and <b>drink</b> coffee. I usually <b>go</b> to work by bus. I <b>know</b> my job is sometimes difficult, but I like it.</p>\n<p>Today I <b>'m working</b> at home. I <b>want</b> to eat something, so I <b>have</b> a sandwich and some water. I <b>can</b> study English during my lunch break.</p>\n<p>Yesterday I <b>went</b> to a restaurant with a friend. We <b>ate</b> pasta and <b>drank</b> juice.</p>\n<p>Tomorrow I <b>'m going to work</b> in the morning and study in the evening. I <b>'d like</b> to speak English confidently one day.</p></div>",
+      "text": "My day. I am Alex. I work in an office and I study English every evening. I like learning languages because I think they are interesting. Every morning I eat breakfast and drink coffee. I usually go to work by bus. I know my job is sometimes difficult, but I like it. Today I'm working at home. I want to eat something, so I have a sandwich and some water. I can study English during my lunch break. Yesterday I went to a restaurant with a friend. We ate pasta and drank juice. Tomorrow I'm going to work in the morning and study in the evening. I'd like to speak English confidently one day."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "In the text",
+        "Structure"
+      ],
+      "rows": [
+        [
+          "I am Alex.",
+          "be"
+        ],
+        [
+          "I work · I study · I like · I think · I know",
+          "present simple (routines, opinions, states)"
+        ],
+        [
+          "I'm working at home.",
+          "present continuous (now)"
+        ],
+        [
+          "I want to eat something.",
+          "want + to + verb"
+        ],
+        [
+          "I can study English.",
+          "can + base verb"
+        ],
+        [
+          "I went · we ate · we drank",
+          "past simple"
+        ],
+        [
+          "I'm going to work in the morning.",
+          "be going to (plan)"
+        ],
+        [
+          "I'd like to speak English.",
+          "would like + to + verb"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cheat sheet"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What you want to say",
+        "Structure",
+        "Example"
+      ],
+      "rows": [
+        [
+          "A fact or routine",
+          "subject + verb",
+          "I work."
+        ],
+        [
+          "A fact about he / she / it",
+          "subject + verb-s",
+          "She works."
+        ],
+        [
+          "A negative",
+          "don't / doesn't + base verb",
+          "I don't work."
+        ],
+        [
+          "A question",
+          "Do / Does + subject + base verb?",
+          "Does she work?"
+        ],
+        [
+          "A state or description with be",
+          "am / is / are",
+          "I'm happy."
+        ],
+        [
+          "A question with be",
+          "Am / Is / Are + subject?",
+          "Are you happy?"
+        ],
+        [
+          "Something happening now",
+          "am / is / are + verb-ing",
+          "I'm eating."
+        ],
+        [
+          "Ability or possibility",
+          "can + base verb",
+          "I can go."
+        ],
+        [
+          "A wish",
+          "want + noun / to + verb",
+          "I want water. / I want to eat."
+        ],
+        [
+          "A preference",
+          "like + noun / -ing",
+          "I like coffee."
+        ],
+        [
+          "A polite wish",
+          "would like + noun / to + verb",
+          "I'd like to eat."
+        ],
+        [
+          "A past event",
+          "past simple",
+          "I went home."
+        ],
+        [
+          "A past negative or question",
+          "didn't / Did + base verb",
+          "I didn't go. / Did you go?"
+        ],
+        [
+          "A future plan",
+          "am / is / are going to + verb",
+          "I'm going to study."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What you can do now"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Ability:** <mark class=\"example-chip\">I can speak three languages.</mark> / <mark class=\"example-chip\">She can swim very fast in the pool.</mark> / <mark class=\"example-chip\">He can play the acoustic guitar.</mark>",
-        "**Negative Ability (cannot / can't):** <mark class=\"example-chip\">I can't drive a manual car.</mark> / <mark class=\"example-chip\">She can't come to the party tonight.</mark>",
-        "**Requests & Permission:** <mark class=\"example-chip\">Can you help me with this bag?</mark> / <mark class=\"example-chip\">Can I have a glass of water?</mark> / <mark class=\"example-chip\">You can sit here near the window.</mark>",
-        "**Useful Phrases:** <mark class=\"example-chip\">as fast as I can</mark>, <mark class=\"example-chip\">I can do it</mark>, <mark class=\"example-chip\">Can I ask a quick question?</mark>"
+        "✅ Introduce yourself: name, age, job, where you are from (*be*).",
+        "✅ Talk about things and people you have (*have*) and what you like and want (*like, want*).",
+        "✅ Give an opinion and ask for one (*think*), and say how sure you are (*know*).",
+        "✅ Order food and drink politely (*I'd like …, Can I have …?*, *eat, drink*).",
+        "✅ Say where you go, how, and what you are going to do (*go, be going to*).",
+        "✅ Ask for help and permission, and say what you can and can't do (*can*).",
+        "✅ Tell a short story about yesterday, today and tomorrow."
       ]
-    },
-    {
-      "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-10\" class=\"gazette-page-spread\" aria-labelledby=\"page-10-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-10-heading\" class=\"editorial-heading\">Verb 9 — \"To Eat\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To Eat</strong> is used for food, daily meals, dining habits, and food preferences."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "Say it out loud"
     },
     {
       "type": "list-item",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "**Present Simple Forms:** I/You/We/They **eat** | He/She/It **eats**.",
-        "**Daily Food:** <mark class=\"example-chip\">I eat fresh fruit every morning for breakfast.</mark> / <mark class=\"example-chip\">He eats lunch at 1 o'clock at work.</mark>",
-        "**Questions & Desires:** <mark class=\"example-chip\">What do you want to eat for dinner?</mark> / <mark class=\"example-chip\">Do you eat vegetarian food?</mark>",
-        "**Phrasal Verbs & Collocations:** <mark class=\"example-chip\">eat out at an Italian restaurant</mark>, <mark class=\"example-chip\">eat healthy food</mark>, <mark class=\"example-chip\">let's find something to eat</mark>."
+        "Say your name, your age, your job and where you are from. *(be)*",
+        "Say three things you have, and two things you don't have. *(have)*",
+        "Give your opinion about your favourite song. *(think)*",
+        "Say three things you know and one thing you don't know. *(know)*",
+        "Say what you like, what you love and what you hate. *(like)*",
+        "Order a drink and something to eat in a café. *(want, would like)*",
+        "Say how you go to work or school, and where you are going to go this weekend. *(go)*",
+        "Say three things you can do and one thing you can't. *(can)*",
+        "Say what you ate and drank yesterday. *(eat, drink)*",
+        "Tell a friend about your day, in five sentences. *(all ten)*"
       ]
     },
     {
-      "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-11\" class=\"gazette-page-spread\" aria-labelledby=\"page-11-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-11-heading\" class=\"editorial-heading\">Verb 10 — \"To Drink\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To Drink</strong> covers beverages, hydration, offering drinks, and social café situations."
-    },
-    {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "Final check"
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Present Simple Forms:** I/You/We/They **drink** | He/She/It **drinks**.",
-        "**Daily Beverages:** <mark class=\"example-chip\">I drink two litres of water every day.</mark> / <mark class=\"example-chip\">He drinks black coffee in the morning.</mark> / <mark class=\"example-chip\">We drink hot tea in winter.</mark>",
-        "**Offers & Polite Phrases:** <mark class=\"example-chip\">Would you like something to drink?</mark> / <mark class=\"example-chip\">What would you like to drink with your meal?</mark>",
-        "**Noun Usage:** <mark class=\"example-chip\">a hot drink on a cold day</mark>, <mark class=\"example-chip\">a cold drink in summer</mark>, <mark class=\"example-chip\">let's have a drink together</mark>."
-      ]
+      "type": "quiz",
+      "question": "She ___ to school every day, but yesterday she ___ at home.",
+      "options": [
+        "goes / was",
+        "go / is",
+        "goes / were"
+      ],
+      "correctIndex": 0,
+      "explanation": "A routine uses the present simple (*goes*); yesterday needs the past of *be* (*was*)."
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence offers a drink politely?",
+      "options": [
+        "Do you want drink?",
+        "Would you like something to drink?",
+        "You want drink?"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Would you like …?* is the polite offer."
+    },
+    {
+      "type": "quiz",
+      "question": "He can't ___ tonight.",
+      "options": [
+        "comes",
+        "come",
+        "to come"
+      ],
+      "correctIndex": 1,
+      "explanation": "Base verb after *can't*."
+    },
+    {
+      "type": "quiz",
+      "question": "We ___ going to eat at home.",
+      "options": [
+        "is",
+        "are",
+        "do"
+      ],
+      "correctIndex": 1,
+      "explanation": "*Be going to* needs *am / is / are*: *We are going to eat at home.*"
+    },
+    {
+      "type": "quiz",
+      "question": "I ___ the answer, but I ___ it's difficult.",
+      "options": [
+        "know / think",
+        "am knowing / am thinking",
+        "knows / thinks"
+      ],
+      "correctIndex": 0,
+      "explanation": "*Know* and *think* (an opinion) stay in the present simple, and *I* takes no *-s*."
     },
     {
       "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-12\" class=\"gazette-page-spread\" aria-labelledby=\"page-12-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-12-heading\" class=\"editorial-heading\">Comparative Matrix & Practice Resources</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Comparative breakdown for core verbs across major language families:"
-    },
-    {
-      "type": "paragraph",
-      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Comparative verb matrix across major language families for core verbs</caption><thead><tr><th>Concept</th><th>Romance (FR/IT/ES/PT)</th><th>Germanic (EN/DE)</th><th>Slavic / Hellenic / Celtic / Arm</th><th>Turkic (TT/BA/CV)</th><th>Kartvelian (KA)</th></tr></thead><tbody><tr><td>Be / Exist</td><td>être / essere / ser, estar / ser, estar</td><td>be / sein</td><td>быть / είναι / bezañ / լինել</td><td>булу / булыу / пуласси</td><td>ყოფნა (qopna)</td></tr><tr><td>Have / Possess</td><td>avoir / avere / tener / ter</td><td>have / haben</td><td>иметь (у меня есть) / έχω / kaout / ունենալ</td><td>бар (минем бар) / бар / пур</td><td>ქონა / ყოლა</td></tr><tr><td>Do / Make</td><td>faire / fare / hacer / fazer</td><td>do, make / machen, tun</td><td>делать / κάνω / ober / անել</td><td>эшләү / эшләү / тăвасси</td><td>կետება (keteba)</td></tr><tr><td>Go</td><td>aller / andare / ir / ir</td><td>go / gehen</td><td>идти, ехать / πηγαίνω / mont / գնալ</td><td>бару / барыу / кайни</td><td>წასვლა (tsasvla)</td></tr><tr><td>See / Look</td><td>voir, regarder /vedere, guardare</td><td>see, look / sehen, schauen</td><td>видеть, смотреть / βλέπω / gwelout / տեսնել</td><td>күрү, карау / күреү, ҡарау / курасси</td><td>ნახვა, ყურება</td></tr></tbody></table></div>"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Grammar & Structure Summary for A0–A1 / A2 Learners"
-    },
-    {
-      "type": "paragraph",
-      "text": "• <strong>Simple Sentence Structures:</strong> Always maintain clear Subject + Verb + Object order.\n• <strong>Auxiliaries & Modals:</strong> Use 'can' for ability and 'would like' for polite requests.\n• <strong>Full Conjugations:</strong> Explore full present, past, and future conjugation tables across all 14 languages on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Interactive Practice Resources"
-    },
-    {
-      "type": "paragraph",
-      "text": "📌 Test your skills on [COSYpractice](https://cosylanguages.github.io/COSYpractice/), read [Part 2](top-10-verbs-part-2-en.html) for the next 10 core verbs, and consult full verb conjugations on [COSYtools](https://cosylanguages.github.io/COSYtools/).</section>"
+      "text": "📌 Keep practising on [COSYpractice](https://cosylanguages.github.io/COSYpractice/), check full conjugations on [COSYtools](https://cosylanguages.github.io/COSYtools/), and continue with the next ten verbs in [Part 2](top-10-verbs-part-2-en.html).",
+      "say": "Keep practising on COSYpractice, check full conjugations on COSYtools, and continue with the next ten verbs in Part 2."
     }
-  ]
+  ],
+  "flipbook": {
+    "pageLimit": 12,
+    "headingBreakAfter": 6
+  },
+  "draft": false,
+  "handAuthored": true
 }
