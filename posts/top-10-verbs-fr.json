@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Les 10 verbes essentiels en français pour débutants (A0–A1 / A2)",
   "kicker": "GUIDE DU FRANÇAIS — PARTIE 1 SUR 2",
-  "dek": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, aller/futur proche, pouvoir, manger, boire). Conjugaisons consultables sur COSYtools.",
+  "dek": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, travailler/étudier/apprendre, aller/futur proche, pouvoir, manger/boire). Conjugaisons consultables sur COSYtools.",
   "tags": [
     "Verbs",
     "French",
@@ -80,73 +80,73 @@
       "rows": [
         [
           "1",
-          "Être (To Be)",
+          "Être",
           "Le verbe être sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
           "Il est à la maison.",
           "'être à l'heure', 'être d'accord', 'être en train de'."
         ],
         [
           "2",
-          "Avoir (To Have)",
+          "Avoir",
           "Le verbe avoir exprime la possession, l'âge, la famille et les sensations physiques.",
           "Elle a deux frères.",
           "'avoir besoin de', 'avoir envie de', 'avoir peur'."
         ],
         [
           "3",
-          "Penser (To Think)",
+          "Penser",
           "Le verbe penser permet d'exprimer une opinion, une réflexion ou une idée.",
           "Il pense à son avenir.",
           "'penser à', 'penser de', 'bien penser'."
         ],
         [
           "4",
-          "Savoir / Connaître (To Know)",
+          "Savoir / Connaître",
           "Savoir s'utilise pour les faits et compétences (savoir + infinitif). Connaître s'utilise pour les lieux et personnes.",
           "connaît",
           "'savoir faire', 'faire savoir', 'en savoir plus'."
         ],
         [
           "5",
-          "Aimer (To Like / Love)",
+          "Aimer",
           "Le verbe aimer exprime les goûts, les préférences, les loisirs et les sentiments.",
           "Il aime voyager.",
           "'j'aimerais' (souhait poli), 'aimer beaucoup'."
         ],
         [
           "6",
-          "Vouloir / Voudrais (To Want / Would Like)",
+          "Vouloir / Voudrais",
           "Le verbe vouloir exprime la volonté. La forme voudrais exprime un souhait avec politesse.",
           "voudrait",
           "'vouloir dire' (signifier), 'si tu veux'."
         ],
         [
           "7",
-          "Aller / Futur proche (To Go)",
-          "Le verbe aller sert pour les déplacements et permet de former le futur proche (aller + infinitif).",
+          "Travailler / Étudier / Apprendre",
+          "Métier, études, apprentissage de compétences.",
+          "Elle étudie le français.",
+          "'travailler dur', 'étudier à l'université', 'apprendre par cœur'."
+        ],
+        [
+          "8",
+          "Aller / Futur proche",
+          "Déplacements et futur proche (aller + infinitif).",
           "Il va à Paris.",
           "'comment ça va ?', 'y aller', 'aller à pied'."
         ],
         [
-          "8",
-          "Pouvoir (To Can / Be able to)",
-          "Le verbe modal pouvoir exprime la capacité, la possibilité ou la demande de permission.",
+          "9",
+          "Pouvoir",
+          "Capacité, possibilité ou demande de permission.",
           "On peut commencer.",
           "'pouvoir faire', 'si possible', 'comme vous pouvez'."
         ],
         [
-          "9",
-          "Manger (To Eat)",
-          "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
-          "Il mange à midi.",
-          "'bon appétit', 'donner à manger', 'manger équilibré'."
-        ],
-        [
           "10",
-          "Boire (To Drink)",
-          "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
-          "Il boit un thé vert.",
-          "'avoir à boire', 'boire un coup', 'boire un verre'."
+          "Manger / Boire",
+          "Repas, nourriture, boissons et convivialité.",
+          "Nous mangeons ensemble.",
+          "'bon appétit', 'boire un coup', 'manger équilibré'."
         ]
       ],
       "webOnly": true
@@ -169,8 +169,8 @@
         "**Qui je suis, ce que j'ai :** être, avoir. Identité, âge, profession, sensations.",
         "**Ce que je pense, ce que je sais :** penser, savoir, connaître. Opinions, compétences, personnes et lieux.",
         "**Ce que j'aime, ce que je veux :** aimer, vouloir. Goûts, souhaits, demandes polies.",
-        "**Bouger et être capable :** aller, pouvoir. Déplacements, projets proches, permission.",
-        "**Le quotidien :** manger, boire. Repas, boissons, invitations."
+        "**Le travail et les études :** travailler, étudier, apprendre. Métier, études, progrès quotidien.",
+        "**Bouger, pouvoir et se nourrir :** aller, pouvoir, manger et boire. Déplacements, capacités, repas et convivialité."
       ],
       "say": "Qui je suis, ce que j'ai : être, avoir. Identité, âge, profession, sensations. Ce que je pense, ce que je sais : penser, savoir, connaître. Opinions, compétences, personnes et lieux. Ce que j'aime, ce que je veux : aimer, vouloir. Goûts, souhaits, demandes polies. Bouger et être capable : aller, pouvoir. Déplacements, projets proches, permission. Le quotidien : manger, boire. Repas, boissons, invitations."
     },
@@ -183,8 +183,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Être (To Be)",
-      "say": "1. Être (To Be)"
+      "text": "1. Être",
+      "say": "1. Être"
     },
     {
       "type": "paragraph",
@@ -294,8 +294,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Avoir (To Have)",
-      "say": "2. Avoir (To Have)"
+      "text": "2. Avoir",
+      "say": "2. Avoir"
     },
     {
       "type": "paragraph",
@@ -405,8 +405,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Penser (To Think)",
-      "say": "3. Penser (To Think)"
+      "text": "3. Penser",
+      "say": "3. Penser"
     },
     {
       "type": "paragraph",
@@ -528,8 +528,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Savoir / Connaître (To Know)",
-      "say": "4. Savoir / Connaître (To Know)"
+      "text": "4. Savoir / Connaître",
+      "say": "4. Savoir / Connaître"
     },
     {
       "type": "paragraph",
@@ -639,8 +639,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Aimer (To Like / Love)",
-      "say": "5. Aimer (To Like / Love)"
+      "text": "5. Aimer",
+      "say": "5. Aimer"
     },
     {
       "type": "paragraph",
@@ -750,8 +750,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Vouloir / Voudrais (To Want / Would Like)",
-      "say": "6. Vouloir / Voudrais (To Want / Would Like)"
+      "text": "6. Vouloir / Voudrais",
+      "say": "6. Vouloir / Voudrais"
     },
     {
       "type": "paragraph",
@@ -879,8 +879,125 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Aller / Futur proche (To Go)",
-      "say": "7. Aller / Futur proche (To Go)"
+      "text": "7. Travailler / Étudier / Apprendre",
+      "say": "Septième groupe clé : travailler, étudier et apprendre. Trois verbes fondamentaux pour parler de son métier, de ses études et de ses progrès."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le trio **travailler**, **étudier** et **apprendre** permet d'exprimer votre profession, vos études et l'acquisition de nouvelles compétences. On distingue le travail professionnel (*travailler*), l'étude académique (*étudier*) et la maîtrise concrète d'un savoir (*apprendre*).",
+      "say": "Travailler concerne votre activité professionnelle. Étudier désigne le fait de réviser ou suivre un cursus, et apprendre exprime l'acquisition durable d'une compétence."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Travailler",
+        "Étudier",
+        "Apprendre"
+      ],
+      "rows": [
+        [
+          "Je",
+          "travaille",
+          "étudie",
+          "apprends"
+        ],
+        [
+          "Tu",
+          "travailles",
+          "étudies",
+          "apprends"
+        ],
+        [
+          "Il / Elle / On",
+          "travaille",
+          "étudie",
+          "apprend"
+        ],
+        [
+          "Nous",
+          "travaillons",
+          "étudions",
+          "apprenons"
+        ],
+        [
+          "Vous",
+          "travaillez",
+          "étudiez",
+          "apprenez"
+        ],
+        [
+          "Ils / Elles",
+          "travaillent",
+          "étudient",
+          "apprennent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Travailler (Emploi & Effort) :** 'Je travaille dans un bureau', 'Elle travaille beaucoup'.",
+        "**Étudier (Cursus & Révisions) :** 'J'étudie à l'université', 'Nous étudions pour l'examen'.",
+        "**Apprendre (Acquisition de savoir) :** 'J'apprends le français', 'Il apprend vite'.",
+        "**Expressions utiles :** 'travailler dur', 'apprendre par cœur', 'étudier le français'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je travaille du lundi au vendredi.",
+      "gloss": "Pour indiquer vos journées de travail habituelles.",
+      "context": "Vous expliquez votre emploi du temps professionnel.",
+      "say": "Je travaille du lundi au vendredi."
+    },
+    {
+      "type": "example",
+      "targetText": "J'apprends le français avec COSYmagazine.",
+      "gloss": "Utilisez apprendre pour une langue ou une compétence pratique.",
+      "context": "Vous partagez vos habitudes d'apprentissage.",
+      "say": "J'apprends le français avec COSYmagazine."
+    },
+    {
+      "type": "example",
+      "targetText": "Nous étudions à la bibliothèque.",
+      "gloss": "Étudier pour une session de révisions ou de cours.",
+      "context": "Vous organisez une séance de travail.",
+      "say": "Nous étudions à la bibliothèque."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Apprendre vs Étudier une compétence",
+      "wrong": "« J'étudie comment conduire. »",
+      "right": "« J'apprends à conduire. »",
+      "why": "Pour acquérir un savoir-faire pratique (conduire, nager, parler une langue), on utilise apprendre à + infinitif.",
+      "rule": "On emploie **apprendre à** + infinitif pour les aptitudes pratiques : apprendre à nager, apprendre à conduire.",
+      "examples": [
+        "J'apprends à cuisiner.",
+        "Elle apprend à nager.",
+        "Nous apprenons à coder."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "Apprendre vs Étudier une compétence. Dites plutôt : J'apprends à conduire."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Aller / Futur proche",
+      "say": "Huitième verbe : aller. Indispensable pour se déplacer et annoncer ce que l'on va faire immédiatement."
     },
     {
       "type": "paragraph",
@@ -966,7 +1083,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 7,
+      "number": 8,
       "title": "Aller et les pays",
       "wrong": "« Je vais à France. »",
       "right": "« Je vais en France. »",
@@ -990,8 +1107,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Pouvoir (To Can / Be able to)",
-      "say": "8. Pouvoir (To Can / Be able to)"
+      "text": "9. Pouvoir",
+      "say": "Neuvième verbe : pouvoir. Le modal par excellence pour exprimer la capacité, la possibilité et demander poliment."
     },
     {
       "type": "paragraph",
@@ -1077,7 +1194,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 8,
+      "number": 9,
       "title": "Pouvoir + pronom",
       "wrong": "« Je peux aider vous ? »",
       "right": "« Je peux vous aider ? »",
@@ -1101,51 +1218,51 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Manger (To Eat)",
-      "say": "9. Manger (To Eat)"
+      "text": "10. Manger / Boire",
+      "say": "Dixième pilier : manger et boire. Deux verbes indissociables de la vie quotidienne, des repas et de l'art de vivre."
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
-      "say": "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires."
+      "text": "Les verbes **manger** et **boire** couvrent les repas, l'alimentation, les boissons et la convivialité. Attention aux particularités de conjugaison : le 'e' intercalé pour *manger* (*nous mangeons*) et l'alternance de radical pour *boire* (*nous buvons, ils boivent*).",
+      "say": "Manger et boire sont vos meilleurs alliés au restaurant ou entre amis. Notez bien : nous mangeons avec un e, et nous buvons avec un v."
     },
     {
       "type": "table",
       "headers": [
         "Pronom",
-        "Présent",
-        "Exemple"
+        "Manger (Présent)",
+        "Boire (Présent)"
       ],
       "rows": [
         [
           "Je",
           "mange",
-          "Je mange une pomme."
+          "bois"
         ],
         [
           "Tu",
           "manges",
-          "Qu'est-ce que tu manges ?"
+          "bois"
         ],
         [
           "Il / Elle / On",
           "mange",
-          "Il mange à midi."
+          "boit"
         ],
         [
           "Nous",
           "mangeons",
-          "Nous mangeons ensemble."
+          "buvons"
         ],
         [
           "Vous",
           "mangez",
-          "Vous mangez de la viande ?"
+          "buvez"
         ],
         [
           "Ils / Elles",
           "mangent",
-          "Elles mangent une salade."
+          "boivent"
         ]
       ]
     },
@@ -1153,174 +1270,49 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
-        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
-        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
-      ],
-      "say": "Repas quotidiens: 'Je mange du pain au petit-déjeuner'. Remarque orthographique: Notez le 'e' intercalé (nous mangeons). Expressions courantes: 'bon appétit', 'donner à manger', 'manger équilibré'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "À voix haute",
-      "say": "À voix haute"
-    },
-    {
-      "type": "example",
-      "targetText": "Qu'est-ce que tu manges à midi ?",
-      "gloss": "Une question simple sur le repas.",
-      "context": "Vous discutez dans la cour avec un ami.",
-      "say": "Qu'est-ce que tu manges à midi ?"
-    },
-    {
-      "type": "example",
-      "targetText": "Nous mangeons à la cantine le mardi.",
-      "gloss": "Avec nous, on garde le e : mangeons.",
-      "context": "Vous décrivez votre semaine.",
-      "say": "Nous mangeons à la cantine le mardi."
-    },
-    {
-      "type": "example",
-      "targetText": "Bon appétit ! – Merci, toi aussi.",
-      "gloss": "Une formule avant de commencer le repas.",
-      "context": "Vous êtes à table avec des camarades.",
-      "say": "Bon appétit ! – Merci, toi aussi."
-    },
-    {
-      "type": "mistake-card",
-      "number": 9,
-      "title": "Manger et l'article partitif",
-      "wrong": "« Je mange pain le matin. »",
-      "right": "« Je mange du pain le matin. »",
-      "why": "Dans beaucoup de langues, on n'a pas besoin d'article pour la nourriture. En français, il en faut un.",
-      "rule": "Pour une quantité non précise, on emploie **du, de la, de l'** : je mange **du** pain, **de la** salade, **de l'**ail.",
-      "examples": [
-        "Je mange de la soupe.",
-        "Il mange des fruits.",
-        "Nous mangeons du fromage."
-      ],
-      "labels": {
-        "wrong": "Pas tout à fait",
-        "right": "Dites plutôt",
-        "why": "Pourquoi cette erreur",
-        "rule": "La règle COSY",
-        "examples": "Plus d'exemples",
-        "turn": "À vous de jouer"
-      },
-      "say": "Manger et l'article partitif. Pas tout à fait : « Je mange pain le matin. » Dites plutôt : « Je mange du pain le matin. » Dans beaucoup de langues, on n'a pas besoin d'article pour la nourriture. En français, il en faut un. Pour une quantité non précise, on emploie du, de la, de l' : je mange du pain, de la salade, de l'ail."
-    },
-    {
-      "type": "quiz",
-      "question": "Nous ___ à midi.",
-      "options": [
-        "mangons",
-        "mangeons",
-        "mangent"
-      ],
-      "correctIndex": 1,
-      "explanation": "Devant -ons, on garde le « e » pour conserver le son [ʒ] : nous mangeons.",
-      "say": "Nous ___ à midi."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Boire (To Drink)",
-      "say": "10. Boire (To Drink)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
-      "say": "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "Je",
-          "bois",
-          "Je bois de l'eau."
-        ],
-        [
-          "Tu",
-          "bois",
-          "Tu bois du café ?"
-        ],
-        [
-          "Il / Elle / On",
-          "boit",
-          "Il boit un thé vert."
-        ],
-        [
-          "Nous",
-          "buvons",
-          "Nous buvons du jus de pomme."
-        ],
-        [
-          "Vous",
-          "buvez",
-          "Que buvez-vous ?"
-        ],
-        [
-          "Ils / Elles",
-          "boivent",
-          "Elles boivent de l'eau fraîche."
-        ]
+        "**Manger :** 'Je mange une pomme', 'Qu'est-ce qu'on mange ?', 'manger équilibré'.",
+        "**Boire :** 'Je bois de l'eau fraîche', 'Voulez-vous boire quelque chose ?', 'boire un café'.",
+        "**Convivialité :** 'bon appétit !', 'prendre un verre', 'déjeuner ensemble'."
       ]
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
-        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
-        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
-      ],
-      "say": "Boissons quotidiennes: 'Je bois un grand verre d'eau le matin'. Moment convivial: 'Voulez-vous boire quelque chose ?'. Expressions courantes: 'avoir à boire', 'boire un coup', 'boire un verre'."
-    },
-    {
       "type": "heading",
       "level": 4,
-      "text": "À voix haute",
-      "say": "À voix haute"
+      "text": "À voix haute"
     },
     {
       "type": "example",
-      "targetText": "Je bois un verre d'eau avant le cours.",
-      "gloss": "Boire + du, de la, un verre de : une boisson.",
-      "context": "Vous décrivez votre matin.",
-      "say": "Je bois un verre d'eau avant le cours."
+      "targetText": "Nous mangeons ensemble à midi.",
+      "gloss": "Pour parler du déjeuner en groupe.",
+      "context": "Vous donnez rendez-vous pour midi.",
+      "say": "Nous mangeons ensemble à midi."
     },
     {
       "type": "example",
-      "targetText": "Tu veux boire quelque chose ? – Un thé, s'il te plaît.",
-      "gloss": "Vouloir + boire : une offre amicale.",
-      "context": "Un ami vous reçoit chez lui.",
-      "say": "Tu veux boire quelque chose ? – Un thé, s'il te plaît."
+      "targetText": "Je bois un grand verre d'eau le matin.",
+      "gloss": "Pour décrire vos habitudes d'hydratation.",
+      "context": "Vous décrivez votre matinée.",
+      "say": "Je bois un grand verre d'eau le matin."
     },
     {
       "type": "example",
-      "targetText": "On boit un café après l'école ?",
-      "gloss": "« On boit » remplace « nous buvons » à l'oral.",
-      "context": "Vous invitez un camarade.",
-      "say": "On boit un café après l'école ?"
+      "targetText": "Voulez-vous boire un café ?",
+      "gloss": "Une proposition cordiale et courante.",
+      "context": "Vous accueillez un invité.",
+      "say": "Voulez-vous boire un café ?"
     },
     {
       "type": "mistake-card",
       "number": 10,
-      "title": "Les formes de boire",
-      "wrong": "« Nous boisons du thé. »",
-      "right": "« Nous buvons du thé. »",
-      "why": "Boire est irrégulier : le radical change. On a tendance à régulariser et à garder « bois » partout.",
-      "rule": "Retenez trois radicaux : **bois** (je, tu, il), **buv-** (nous buvons, vous buvez) et **boiv-** (ils boivent).",
+      "title": "L'orthographe de manger et boire",
+      "wrong": "« Nous mangons et nous buvont. »",
+      "right": "« Nous mangeons et nous buvons. »",
+      "why": "On oublie souvent le e intercalé de nous mangeons, ou la terminaison en -ons de nous buvons.",
+      "rule": "**Manger** prend un **e** devant **-ons** (*nous mangeons*) ; **boire** fait **buvons / buvez** mais **boivent**.",
       "examples": [
-        "Ils boivent de l'eau.",
-        "Vous buvez trop de café.",
-        "Je bois du lait."
+        "Nous mangeons une salade.",
+        "Nous buvons du thé.",
+        "Ils boivent de l'eau."
       ],
       "labels": {
         "wrong": "Pas tout à fait",
@@ -1330,7 +1322,18 @@
         "examples": "Plus d'exemples",
         "turn": "À vous de jouer"
       },
-      "say": "Les formes de boire. Pas tout à fait : « Nous boisons du thé. » Dites plutôt : « Nous buvons du thé. » Boire est irrégulier : le radical change. On a tendance à régulariser et à garder « bois » partout. Retenez trois radicaux : bois (je, tu, il), buv- (nous buvons, vous buvez) et boiv- (ils boivent)."
+      "say": "L'orthographe de manger et boire. Dites plutôt : Nous mangeons et nous buvons."
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle est la forme correcte à la première personne du pluriel ?",
+      "options": [
+        "Nous mangons et nous buvons",
+        "Nous mangeons et nous buvons",
+        "Nous mangeons et nous boivons"
+      ],
+      "correctIndex": 1,
+      "explanation": "On écrit *nous mangeons* avec un 'e' et *nous buvons* avec un 'v'."
     },
     {
       "type": "heading",

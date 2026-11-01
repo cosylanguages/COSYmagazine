@@ -474,7 +474,7 @@
   "es": [
     {
       "num": "1",
-      "title": "Ser / Estar (To Be)",
+      "title": "Ser / Estar",
       "desc": "En español, **ser** se usa para identidad, origen y profesión; **estar** para ubicación, estados temporales y emociones.",
       "headers": [
         "Pronombre",
@@ -521,7 +521,7 @@
     },
     {
       "num": "2",
-      "title": "Tener (To Have)",
+      "title": "Tener",
       "desc": "El verbo **tener** expresa posesión, edad, relaciones familiares y sensaciones físicas.",
       "headers": [
         "Pronombre",
@@ -568,7 +568,7 @@
     },
     {
       "num": "3",
-      "title": "Pensar (To Think)",
+      "title": "Pensar",
       "desc": "El verbo **pensar** expresa opiniones, reflexiones y planes futuros (pensar + infinitivo).",
       "headers": [
         "Pronombre",
@@ -615,7 +615,7 @@
     },
     {
       "num": "4",
-      "title": "Saber / Conocer (To Know)",
+      "title": "Saber / Conocer",
       "desc": "**Saber** se usa para datos y habilidades (*saber + infinitivo*). **Conocer** para personas, lugares y cosas.",
       "headers": [
         "Pronombre",
@@ -662,7 +662,7 @@
     },
     {
       "num": "5",
-      "title": "Gustar / Querer (To Like / Love)",
+      "title": "Gustar / Querer",
       "desc": "El verbo **gustar** se usa con pronombres indirectos (*me gusta*). **Querer** para expresar cariño o deseos.",
       "headers": [
         "Pronombre",
@@ -709,7 +709,7 @@
     },
     {
       "num": "6",
-      "title": "Querer / Quisiera (To Want / Would Like)",
+      "title": "Querer / Quisiera",
       "desc": "Para pedir cosas con amabilidad, se utiliza la forma **quisiera** o **me gustaría**.",
       "headers": [
         "Pronombre",
@@ -756,54 +756,62 @@
     },
     {
       "num": "7",
-      "title": "Ir / Futuro próximo (To Go)",
-      "desc": "El verbo **ir** indica movimiento hacia un lugar y forma el futuro próximo (*ir + a + infinitivo*).",
+      "title": "Trabajar / Estudiar / Aprender",
+      "desc": "Los verbos **trabajar**, **estudiar** y **aprender** cubren el empleo, la educación académica y la adquisición de habilidades prácticas.",
       "headers": [
         "Pronombre",
-        "Presente",
-        "Ejemplo"
+        "Trabajar",
+        "Estudiar",
+        "Aprender"
       ],
       "conjugation": [
         [
           "Yo",
-          "voy",
-          "Voy a trabajar / Voy a comer."
+          "trabajo",
+          "estudio",
+          "aprendo"
         ],
         [
           "Tú",
-          "vas",
-          "¿Vas a la casa?"
+          "trabajas",
+          "estudias",
+          "aprendes"
         ],
         [
           "Él / Ella / Ud.",
-          "va",
-          "Va a la universidad."
+          "trabaja",
+          "estudia",
+          "aprende"
         ],
         [
           "Nosotros/-as",
-          "vamos",
-          "Vamos al cine."
+          "trabajamos",
+          "estudiamos",
+          "aprendemos"
         ],
         [
           "Vosotros/-as",
-          "vais",
-          "¿Adónde vais?"
+          "trabajáis",
+          "estudiáis",
+          "aprendéis"
         ],
         [
           "Ellos / Ellas / Uds.",
-          "van",
-          "Van a estudiar."
+          "trabajan",
+          "estudian",
+          "aprenden"
         ]
       ],
       "usage": [
-        "**Desplazamiento:** 'Voy al parque', 'Vamos a España'.",
-        "**Futuro próximo:** 'Voy a llamar a mi madre', 'Va a llover'.",
-        "**Expresiones:** '¿Cómo va todo?', '¡Vamos!'."
+        "**Trabajar (Empleo):** 'Trabajo en una oficina', 'Trabaja mucho'.",
+        "**Estudiar (Formación):** 'Estudio español todos los días', 'Estudian en la universidad'.",
+        "**Aprender (Habilidades):** 'Aprendo a cocinar', 'Aprendemos rápido'.",
+        "**Expresiones útiles:** 'trabajar duro', 'aprender de memoria', 'aprender a conducir'."
       ]
     },
     {
       "num": "8",
-      "title": "Poder (To Can / Be able to)",
+      "title": "Ir / Futuro próximo",
       "desc": "El verbo modal **poder** expresa capacidad, posibilidad o permiso.",
       "headers": [
         "Pronombre",
@@ -850,7 +858,7 @@
     },
     {
       "num": "9",
-      "title": "Comer (To Eat)",
+      "title": "Poder",
       "desc": "El verbo **comer** se refiere a las comidas diarias, alimentos y hábitos de nutrición.",
       "headers": [
         "Pronombre",
@@ -896,56 +904,56 @@
     },
     {
       "num": "10",
-      "title": "Beber / Tomar (To Drink)",
-      "desc": "Los verbos **beber** y **tomar** se usan para líquidos, bebidas y reuniones sociales.",
+      "title": "Comer / Beber",
+      "desc": "Los verbos **comer** y **beber** (o *tomar*) se refieren a las comidas diarias, la nutrición, las bebidas y la vida social.",
       "headers": [
         "Pronombre",
-        "Beber",
-        "Tomar"
+        "Comer",
+        "Beber"
       ],
       "conjugation": [
         [
           "Yo",
-          "bebo",
-          "tomo"
+          "como",
+          "bebo"
         ],
         [
           "Tú",
-          "bebes",
-          "tomas"
+          "comes",
+          "bebes"
         ],
         [
           "Él / Ella / Ud.",
-          "bebe",
-          "toma"
+          "come",
+          "bebe"
         ],
         [
           "Nosotros/-as",
-          "bebemos",
-          "tomamos"
+          "comemos",
+          "bebemos"
         ],
         [
           "Vosotros/-as",
-          "bebéis",
-          "tomáis"
+          "coméis",
+          "bebéis"
         ],
         [
           "Ellos / Ellas / Uds.",
-          "beben",
-          "toman"
+          "comen",
+          "beben"
         ]
       ],
       "usage": [
-        "**Bebidas:** 'Bebo agua todos los días', 'Tomo un café por la mañana'.",
-        "**Social:** '¿Quieres tomar algo?'.",
-        "**Expresiones:** 'dar a beber', 'tomar un refresco'."
+        "**Comer:** 'Como una manzana al día', '¿Qué comemos hoy?'.",
+        "**Beber:** 'Bebo dos litros de agua', '¿Quieres beber algo?'.",
+        "**Expresiones útiles:** '¡Buen provecho!', 'tomar un café', 'comer juntos'."
       ]
     }
   ],
   "de": [
     {
       "num": "1",
-      "title": "Sein (To Be)",
+      "title": "Sein",
       "desc": "Das Verb **sein** drückt Identität, Beruf, Herkunft, Zustand und Ort aus.",
       "headers": [
         "Pronomen",
@@ -992,7 +1000,7 @@
     },
     {
       "num": "2",
-      "title": "Haben (To Have)",
+      "title": "Haben",
       "desc": "Das Verb **haben** drückt Besitz, Alter, Familie und Empfindungen aus.",
       "headers": [
         "Pronomen",
@@ -1039,7 +1047,7 @@
     },
     {
       "num": "3",
-      "title": "Denken (To Think)",
+      "title": "Denken",
       "desc": "Das Verb **denken** drückt Meinungen, Überlegungen und Gedanken aus.",
       "headers": [
         "Pronomen",
@@ -1086,7 +1094,7 @@
     },
     {
       "num": "4",
-      "title": "Wissen / Kennen (To Know)",
+      "title": "Wissen / Kennen",
       "desc": "**Wissen** nutzt man für Fakten und Wissen (*ich weiß*). **Kennen** nutzt man für Personen, Orte und Dinge.",
       "headers": [
         "Pronomen",
@@ -1133,7 +1141,7 @@
     },
     {
       "num": "5",
-      "title": "Mögen / Gefallen (To Like)",
+      "title": "Mögen / Gefallen",
       "desc": "Das Verb **mögen** und die Wendung **gefallen** drücken Vorlieben und Geschmack aus.",
       "headers": [
         "Pronomen",
@@ -1180,7 +1188,7 @@
     },
     {
       "num": "6",
-      "title": "Wollen / Möchte (To Want / Would Like)",
+      "title": "Wollen / Möchte",
       "desc": "**Wollen** drückt festen Absicht aus. **Möchte** ist die höfliche Form für Wünsche.",
       "headers": [
         "Pronomen",
@@ -1227,54 +1235,62 @@
     },
     {
       "num": "7",
-      "title": "Gehen (To Go)",
-      "desc": "Das Verb **gehen** drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus.",
+      "title": "Arbeiten / Studieren / Lernen",
+      "desc": "Die Verben **arbeiten**, **studieren** und **lernen** decken Beruf, Hochschulbildung und den Erwerb neuer Kenntnisse ab.",
       "headers": [
         "Pronomen",
-        "Präsens",
-        "Beispiel"
+        "Arbeiten",
+        "Studieren",
+        "Lernen"
       ],
       "conjugation": [
         [
           "ich",
-          "gehe",
-          "Ich gehe nach Hause."
+          "arbeite",
+          "studiere",
+          "lerne"
         ],
         [
           "du",
-          "gehst",
-          "Wohin gehst du?"
+          "arbeitest",
+          "studierst",
+          "lernst"
         ],
         [
           "er / sie / es",
-          "geht",
-          "Er geht zur Arbeit."
+          "arbeitet",
+          "studiert",
+          "lernt"
         ],
         [
           "wir",
-          "gehen",
-          "Wir gehen ins Kino."
+          "arbeiten",
+          "studieren",
+          "lernen"
         ],
         [
           "ihr",
-          "geht",
-          "Geht ihr spazieren?"
+          "arbeitet",
+          "studiert",
+          "lernt"
         ],
         [
           "sie / Sie",
-          "gehen",
-          "Sie gehen einkaufen."
+          "arbeiten",
+          "studieren",
+          "lernen"
         ]
       ],
       "usage": [
-        "**Bewegung:** 'Ich gehe in die Schule', 'Wir gehen spazieren'.",
-        "**Befinden:** 'Wie geht es Ihnen? / Wie geht's?'.",
-        "**Ausdrücke:** 'spazieren gehen', 'einkaufen gehen'."
+        "**Arbeiten (Beruf):** 'Ich arbeite im Büro', 'Er arbeitet viel'.",
+        "**Studieren (Universität):** 'Ich studiere Medizin', 'Wir studieren in Berlin'.",
+        "**Lernen (Kenntnisse):** 'Ich lerne Deutsch', 'Sie lernt schnell'.",
+        "**Ausdrücke:** 'hart arbeiten', 'auswendig lernen', 'Deutsch lernen'."
       ]
     },
     {
       "num": "8",
-      "title": "Können (To Can / Be able to)",
+      "title": "Gehen",
       "desc": "Das Modalverb **können** drückt Fähigkeit, Möglichkeit oder Erlaubnis aus.",
       "headers": [
         "Pronomen",
@@ -1321,7 +1337,7 @@
     },
     {
       "num": "9",
-      "title": "Essen (To Eat)",
+      "title": "Können",
       "desc": "Das Verb **essen** wird für Mahlzeiten, Speisen und Ernährung verwendet.",
       "headers": [
         "Pronomen",
@@ -1368,49 +1384,49 @@
     },
     {
       "num": "10",
-      "title": "Trinken (To Drink)",
-      "desc": "Das Verb **trinken** drückt das Trinken von Getränken und Hydratation aus.",
+      "title": "Essen / Trinken",
+      "desc": "Die Verben **essen** und **trinken** begleiten alle Mahlzeiten, Getränke und geselligen Runden.",
       "headers": [
         "Pronomen",
-        "Präsens",
-        "Beispiel"
+        "Essen",
+        "Trinken"
       ],
       "conjugation": [
         [
           "ich",
-          "trinke",
-          "Ich trinke Wasser."
+          "esse",
+          "trinke"
         ],
         [
           "du",
-          "trinkst",
-          "Trinkst du Kaffee?"
+          "isst",
+          "trinkst"
         ],
         [
           "er / sie / es",
-          "trinkt",
-          "Er trinkt Tee."
+          "isst",
+          "trinkt"
         ],
         [
           "wir",
-          "trinken",
-          "Wir trinken Saft."
+          "essen",
+          "trinken"
         ],
         [
           "ihr",
-          "trinkt",
-          "Was trinkt ihr?"
+          "esst",
+          "trinkt"
         ],
         [
           "sie / Sie",
-          "trinken",
-          "Sie trinken ein Glas Wasser."
+          "essen",
+          "trinken"
         ]
       ],
       "usage": [
-        "**Getränke:** 'Ich trinke morgens Kaffee', 'Viel Wasser trinken'.",
-        "**Geselligkeit:** 'Möchten Sie etwas trinken?'.",
-        "**Ausdrücke:** 'Prost!', 'etwas zu trinken haben'."
+        "**Essen:** 'Ich esse Brot zum Frühstück', 'Was essen wir heute?'.",
+        "**Trinken:** 'Ich trinke viel Wasser', 'Trinken wir einen Kaffee?'.",
+        "**Ausdrücke:** 'Guten Appetit!', 'Prost!', 'etwas zu trinken haben'."
       ]
     }
   ],
@@ -2813,7 +2829,7 @@
   "pt": [
     {
       "num": "1",
-      "title": "Ser / Estar (To Be)",
+      "title": "Ser / Estar",
       "desc": "Em português, **ser** expressa identidade e características permanentes; **estar** expressa localização e estados temporários.",
       "headers": [
         "Pronome",
@@ -2859,7 +2875,7 @@
     },
     {
       "num": "2",
-      "title": "Ter (To Have)",
+      "title": "Ter",
       "desc": "O verbo **ter** expressa posse, idade e relações familiares.",
       "headers": [
         "Pronome",
@@ -2904,7 +2920,7 @@
     },
     {
       "num": "3",
-      "title": "Pensar (To Think)",
+      "title": "Pensar",
       "desc": "O verbo **pensar** expressa opiniões e reflexões.",
       "headers": [
         "Pronome",
@@ -2949,7 +2965,7 @@
     },
     {
       "num": "4",
-      "title": "Saber / Conhecer (To Know)",
+      "title": "Saber / Conhecer",
       "desc": "**Saber** usa-se para factos e capacidades. **Conhecer** para pessoas e lugares.",
       "headers": [
         "Pronome",
@@ -2995,7 +3011,7 @@
     },
     {
       "num": "5",
-      "title": "Gostar / Amar (To Like / Love)",
+      "title": "Gostar / Amar",
       "desc": "O verbo **gostar** usa-se com a preposição *de* (*gosto de*). **Amar** para sentimentos fortes.",
       "headers": [
         "Pronome",
@@ -3040,7 +3056,7 @@
     },
     {
       "num": "6",
-      "title": "Querer / Gostaria (To Want / Would Like)",
+      "title": "Querer / Gostaria",
       "desc": "O verbo **querer** expressa vontade. A forma **gostaria** é usada para pedidos corteses.",
       "headers": [
         "Pronome",
@@ -3085,52 +3101,62 @@
     },
     {
       "num": "7",
-      "title": "Ir / Futuro próximo (To Go)",
-      "desc": "O verbo **ir** indica deslocação e forma o futuro próximo (*ir + infinitivo*).",
+      "title": "Trabalhar / Estudar / Aprender",
+      "desc": "Os verbos **trabalhar**, **estudar** e **aprender** cobrem a vida profissional, os estudos e a aquisição de novas competências.",
       "headers": [
         "Pronome",
-        "Presente",
-        "Exemplo"
+        "Trabalhar",
+        "Estudar",
+        "Aprender"
       ],
       "conjugation": [
         [
           "Eu",
-          "vou",
-          "Vou trabalhar / Vou comer."
+          "trabalho",
+          "estudo",
+          "aprendo"
         ],
         [
           "Tu / Você",
-          "vais / vai",
-          "Vais a casa?"
+          "trabalhas / trabalha",
+          "estudas / estuda",
+          "aprendes / aprende"
         ],
         [
           "Ele / Ela",
-          "vai",
-          "Ele vai para Lisboa."
+          "trabalha",
+          "estuda",
+          "aprende"
         ],
         [
           "Nós",
-          "vamos",
-          "Vamos ao cinema."
+          "trabalhamos",
+          "estudamos",
+          "aprendemos"
         ],
         [
           "Vocês",
-          "vão",
-          "Onde vão?"
+          "trabalham",
+          "estudam",
+          "aprendem"
         ],
         [
           "Eles / Elas",
-          "vão",
-          "Eles vão estudar."
+          "trabalham",
+          "estudam",
+          "aprendem"
         ]
       ],
       "usage": [
-        "**Futuro próximo:** 'Vou estudar português'."
+        "**Trabalhar (Emprego):** 'Trabalho num escritório', 'Ela trabalha muito'.",
+        "**Estudar (Educação):** 'Estudo português todos os dias', 'Estudam na universidade'.",
+        "**Aprender (Competências):** 'Aprendo a cozinhar', 'Aprendemos rápido'.",
+        "**Expressões úteis:** 'trabalhar no duro', 'aprender de cor', 'aprender a conduzir'."
       ]
     },
     {
       "num": "8",
-      "title": "Poder (To Can / Be able to)",
+      "title": "Ir / Futuro próximo",
       "desc": "O verbo modal **poder** expressa capacidade e permissão.",
       "headers": [
         "Pronome",
@@ -3175,7 +3201,7 @@
     },
     {
       "num": "9",
-      "title": "Comer (To Eat)",
+      "title": "Poder",
       "desc": "O verbo **comer** refere-se às refeições e alimentação.",
       "headers": [
         "Pronome",
@@ -3220,54 +3246,56 @@
     },
     {
       "num": "10",
-      "title": "Beber (To Drink)",
-      "desc": "O verbo **beber** refere-se a bebidas e hidratação.",
+      "title": "Comer / Beber",
+      "desc": "Os verbos **comer** e **beber** acompanham as refeições, a alimentação diária e o convívio social.",
       "headers": [
         "Pronome",
-        "Presente",
-        "Exemplo"
+        "Comer",
+        "Beber"
       ],
       "conjugation": [
         [
           "Eu",
-          "bebo",
-          "Bebo água."
+          "como",
+          "bebo"
         ],
         [
           "Tu / Você",
-          "bebes / bebe",
-          "Bebes café?"
+          "comes / come",
+          "bebes / bebe"
         ],
         [
           "Ele / Ela",
-          "bebe",
-          "Ele bebe chá."
+          "come",
+          "bebe"
         ],
         [
           "Nós",
-          "bebemos",
-          "Bebemos sumo."
+          "comemos",
+          "bebemos"
         ],
         [
           "Vocês",
-          "bebem",
-          "O que bebem?"
+          "comem",
+          "bebem"
         ],
         [
           "Eles / Elas",
-          "bebem",
-          "Bebem água fresca."
+          "comem",
+          "bebem"
         ]
       ],
       "usage": [
-        "**Bebidas:** 'Bebo um café de manhã'."
+        "**Comer:** 'Como uma maçã de manhã', 'O que comemos hoje?'.",
+        "**Beber:** 'Bebo água fresca', 'Queres beber um café?'.",
+        "**Expressões úteis:** 'Bom apetite!', 'tomar um café', 'comer fora'."
       ]
     }
   ],
   "hy": [
     {
       "num": "1",
-      "title": "Լինել (To Be)",
+      "title": "Լինել",
       "desc": "Լինել բայը ցույց է տալիս ինքնություն, պաշտոն, վիճակ և գտնվելու վայր։",
       "headers": [
         "Դերանուն",
@@ -3313,7 +3341,7 @@
     },
     {
       "num": "2",
-      "title": "Ունենալ (To Have)",
+      "title": "Ունենալ",
       "desc": "Ունենալ բայը արտահայտում է պատկանելություն, տարիք և ընտանեկան կապեր։",
       "headers": [
         "Դերանուն",
@@ -3358,7 +3386,7 @@
     },
     {
       "num": "3",
-      "title": "Մտածել (To Think)",
+      "title": "Մտածել",
       "desc": "Մտածել բայն արտահայտում է կարծիք, մտքեր և դատողություն։",
       "headers": [
         "Դերանուն",
@@ -3403,7 +3431,7 @@
     },
     {
       "num": "4",
-      "title": "Իմանալ / Ճանաչել (To Know)",
+      "title": "Իմանալ / Ճանաչել",
       "desc": "Գիտենալ/իմանալ-ը օգտագործվում է փաստերի համար, ճանաչել-ը՝ մարդկանց և վայրերի համար։",
       "headers": [
         "Դերանուն",
@@ -3448,7 +3476,7 @@
     },
     {
       "num": "5",
-      "title": "Սիրել (To Like / Love)",
+      "title": "Սիրել",
       "desc": "Սիրել բայն արտահայտում է նախասիրություններ և զգացմունքներ։",
       "headers": [
         "Դերանուն",
@@ -3493,7 +3521,7 @@
     },
     {
       "num": "6",
-      "title": "Ուզել (To Want)",
+      "title": "Ուզել",
       "desc": "Ուզել բայն արտահայտում է ցանկություն և ցանկություններ։",
       "headers": [
         "Դերանուն",
@@ -3538,52 +3566,54 @@
     },
     {
       "num": "7",
-      "title": "Գնալ (To Go)",
-      "desc": "Գնալ բայն արտահայտում է տեղաշարժ և ուղղություն։",
+      "title": "Աշխատել / Սովորել",
+      "desc": "**Աշխատել** և **սովորել** բայերը վերաբերում են մասնագիտությանը, ուսմանը և նոր գիտելիքներ ձեռք բերելուն։",
       "headers": [
         "Դերանուն",
-        "Ներկա ժամանակ",
-        "Օրինակ"
+        "Աշխատել",
+        "Սովորել"
       ],
       "conjugation": [
         [
           "Ես",
-          "գնում եմ",
-          "Ես գնում եմ աշխատանքի։"
+          "աշխատում եմ",
+          "սովորում եմ"
         ],
         [
           "Դու",
-          "գնում ես",
-          "Ո՞ւր ես գնում։"
+          "աշխատում ես",
+          "սովորում ես"
         ],
         [
           "Նա",
-          "գնում է",
-          "Նա գնում է տուն։"
+          "աշխատում է",
+          "սովորում է"
         ],
         [
           "Մենք",
-          "գնում ենք",
-          "Մենք գնում ենք կինո։"
+          "աշխատում ենք",
+          "սովորում ենք"
         ],
         [
           "Դուք",
-          "գնում եք",
-          "Դուք գնում եք արձակուրդ։"
+          "աշխատում եք",
+          "սովորում եք"
         ],
         [
           "Նրանք",
-          "գնում են",
-          "Նրանք գնում են դպրոց։"
+          "աշխատում են",
+          "սովորում են"
         ]
       ],
       "usage": [
-        "**Տեղաշարժ:** 'Ես գնում եմ տուն'։"
+        "**Աշխատել:** 'Ես գրասենյակում եմ աշխատում'։",
+        "**Սովորել:** 'Ես հայերեն եմ սովորում', 'Նա համալսարանում է սովորում'։",
+        "**Օգտակար արտահայտություններ:** 'լավ աշխատել', 'անգիր սովորել'։"
       ]
     },
     {
       "num": "8",
-      "title": "Կարողանալ (To Can)",
+      "title": "Գնալ",
       "desc": "Կարողանալ բայն արտահայտում է ունակություն և հնարավորություն։",
       "headers": [
         "Դերանուն",
@@ -3628,7 +3658,7 @@
     },
     {
       "num": "9",
-      "title": "Ուտել (To Eat)",
+      "title": "Կարողանալ",
       "desc": "Ուտել բայն օգտագործվում է կերակրի և ուտելիքի համար։",
       "headers": [
         "Դերանուն",
@@ -3673,54 +3703,56 @@
     },
     {
       "num": "10",
-      "title": "Խմել (To Drink)",
-      "desc": "Խմել բայն օգտագործվում է ըմպելիքների համար։",
+      "title": "Ուտել / Խմել",
+      "desc": "**Ուտել** և **խմել** բայերը վերաբերում են սննդին, խմիչքներին և ամենօրյա ճաշերին։",
       "headers": [
         "Դերանուն",
-        "Ներկա ժամանակ",
-        "Օրինակ"
+        "Ուտել",
+        "Խմել"
       ],
       "conjugation": [
         [
           "Ես",
-          "խմում եմ",
-          "Ես ջուր եմ խմում։"
+          "ուտում եմ",
+          "խմում եմ"
         ],
         [
           "Դու",
-          "խմում ես",
-          "Դու սուրճ խմու՞մ ես։"
+          "ուտում ես",
+          "խմում ես"
         ],
         [
           "Նա",
-          "խմում է",
-          "Նա թեյ է խմում։"
+          "ուտում է",
+          "խմում է"
         ],
         [
           "Մենք",
-          "խմում ենք",
-          "Մենք հյութ ենք խմում։"
+          "ուտում ենք",
+          "խմում ենք"
         ],
         [
           "Դուք",
-          "խմում եք",
-          "Ի՞նչ եք խմում։"
+          "ուտում եք",
+          "խմում եք"
         ],
         [
           "Նրանք",
-          "խմում են",
-          "Նրանք ջուր են խմում։"
+          "ուտում են",
+          "խմում են"
         ]
       ],
       "usage": [
-        "**Ըմպելիք:** 'Ես թեյ եմ խմում'։"
+        "**Ուտել:** 'Ես խնձոր եմ ուտում'։",
+        "**Խմել:** 'Ես ջուր եմ խմում'։",
+        "**Արտահայտություններ:** 'Բարի ախորժակ', 'սուրճ խմել'։"
       ]
     }
   ],
   "ka": [
     {
       "num": "1",
-      "title": "ყოფნა (To Be)",
+      "title": "ყოფნა",
       "desc": "ზმნა **ყოფნა** გამოხატავს იდენტობას, ეროვნებას, პროფესიას და მდებარეობას.",
       "headers": [
         "ნაცვალსახელი",
@@ -3765,7 +3797,7 @@
     },
     {
       "num": "2",
-      "title": "ქონა / ყოლა (To Have)",
+      "title": "ქონა / ყოლა",
       "desc": "ზმნა **ქონა** გამოიყენება უსულო საგნებისთვის, **ყოლა** სულიერი არსებებისათვის.",
       "headers": [
         "ნაცვალსახელი",
@@ -3810,7 +3842,7 @@
     },
     {
       "num": "3",
-      "title": "ფიქრი (To Think)",
+      "title": "ფიქრი",
       "desc": "ზმნა **ფიქრი** გამოხატავს აზრს, ფიქრს და შეხედულებას.",
       "headers": [
         "ნაცვალსახელი",
@@ -3855,7 +3887,7 @@
     },
     {
       "num": "4",
-      "title": "ცოდნა / ცნობა (To Know)",
+      "title": "ცოდნა / ცნობა",
       "desc": "**ცოდნა** გამოიყენება ფაქტებისა და უნარებისთვის, **ცნობა** ადამიანების ცნობისთვის.",
       "headers": [
         "ნაცვალსახელი",
@@ -3900,7 +3932,7 @@
     },
     {
       "num": "5",
-      "title": "მოწონება / სიყვარული (To Like / Love)",
+      "title": "მოწონება / სიყვარული",
       "desc": "გამოხატავს გემოვნებას, ინტერესებსა და გრძნობებს.",
       "headers": [
         "ნაცვალსახელი",
@@ -3945,7 +3977,7 @@
     },
     {
       "num": "6",
-      "title": "ნდომა (To Want)",
+      "title": "ნდომა",
       "desc": "ზმნა **ნდომა** გამოხატავს სურვილს.",
       "headers": [
         "ნაცვალსახელი",
@@ -3990,52 +4022,54 @@
     },
     {
       "num": "7",
-      "title": "წასვლა / სვლა (To Go)",
-      "desc": "გამოხატავს მოძრაობას და მიმართულებას.",
+      "title": "მუშაობა / სწავლა",
+      "desc": "ზმნები **მუშაობა** და **სწავლა** გამოხატავს პროფესიულ საქმიანობას, განათლებას და ახალი ცოდნის შეძენას.",
       "headers": [
         "ნაცვალსახელი",
-        "აწმყო დრო",
-        "მაგალითი"
+        "მუშაობა",
+        "სწავლა"
       ],
       "conjugation": [
         [
           "მე",
-          "მივდივარ",
-          "მე მივდივარ სამსახურში."
+          "ვმუშაობ",
+          "ვსწავლობ"
         ],
         [
           "შენ",
-          "მიდიხარ",
-          "სად მიდიხარ?"
+          "მუშაობ",
+          "სწავლობ"
         ],
         [
           "ის",
-          "მიდის",
-          "ის მიდის სახლში."
+          "მუშაობს",
+          "სწავლობს"
         ],
         [
           "ჩვენ",
-          "მივდივართ",
-          "ჩვენ მივდივართ კინოში."
+          "ვმუშაობთ",
+          "ვსწავლობთ"
         ],
         [
           "თქვენ",
-          "მიდიხართ",
-          "სად მიდიხართ?"
+          "მუშაობთ",
+          "სწავლობთ"
         ],
         [
           "ისინი",
-          "მიდიან",
-          "ისინი მიდიან სკოლაში."
+          "მუშაობენ",
+          "სწავლობენ"
         ]
       ],
       "usage": [
-        "**მოძრაობა:** 'მე მივდივარ სახლში'."
+        "**მუშაობა:** 'მე ვმუშაობ ოფისში', 'ის ბევრს მუშაობს'.",
+        "**სწავლა:** 'მე ვსწავლობ ქართულს', 'ისინი სწავლობენ უნივერსიტეტში'.",
+        "**გამოთქმები:** 'კარგად სწავლა', 'ზეპირად სწავლა'."
       ]
     },
     {
       "num": "8",
-      "title": "შეძლება (To Can)",
+      "title": "წასვლა / სვლა",
       "desc": "გამოხატავს შესაძლებლობასა და უნარს.",
       "headers": [
         "ნაცვალსახელი",
@@ -4080,7 +4114,7 @@
     },
     {
       "num": "9",
-      "title": "ჭამა (To Eat)",
+      "title": "შეძლება",
       "desc": "გამოიყენება საჭმელისა და კვებისათვის.",
       "headers": [
         "ნაცვალსახელი",
@@ -4125,54 +4159,56 @@
     },
     {
       "num": "10",
-      "title": "სმა (To Drink)",
-      "desc": "გამოიყენება სასმელებისათვის.",
+      "title": "ჭამა / სმა",
+      "desc": "ზმნები **ჭამა** და **სმა** ეხება საკვებს, სასმელებსა და ყოველდღიურ ტრაპეზს.",
       "headers": [
         "ნაცვალსახელი",
-        "აწმყო დრო",
-        "მაგალითი"
+        "ჭამა",
+        "სმა"
       ],
       "conjugation": [
         [
           "მე",
-          "ვსვამ",
-          "მე ვსვამ წყალს."
+          "ვჭამ",
+          "ვსვამ"
         ],
         [
           "შენ",
-          "სვამ",
-          "სვამ ყავას?"
+          "ჭამ",
+          "სვამ"
         ],
         [
           "ის",
-          "სვამს",
-          "ის სვამს ჩაის."
+          "ჭამს",
+          "სვამს"
         ],
         [
           "ჩვენ",
-          "ვსვამთ",
-          "ჩვენ ვსვამთ წვენს."
+          "ვჭამთ",
+          "ვსვამთ"
         ],
         [
           "თქვენ",
-          "სვამთ",
-          "რას სვამთ?"
+          "ჭამთ",
+          "სვამთ"
         ],
         [
           "ისინი",
-          "სვამენ",
-          "ისინი სვამენ წყალს."
+          "ჭამენ",
+          "სვამენ"
         ]
       ],
       "usage": [
-        "**სასმელი:** 'მე ვსვამ წყალს'."
+        "**ჭამა:** 'მე ვჭამ ვაშლს'.",
+        "**სმა:** 'მე ვსვამ წყალს'.",
+        "**გამოთქმები:** 'გემრიელად მიირთვით!', 'ყავის დალევა'."
       ]
     }
   ],
   "tt": [
     {
       "num": "1",
-      "title": "Булу (To Be)",
+      "title": "Булу",
       "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
       "headers": [
         "Зат аты",
@@ -4217,7 +4253,7 @@
     },
     {
       "num": "2",
-      "title": "Бар булу (To Have)",
+      "title": "Бар булу",
       "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
       "headers": [
         "Зат",
@@ -4262,7 +4298,7 @@
     },
     {
       "num": "3",
-      "title": "Уйлау (To Think)",
+      "title": "Уйлау",
       "desc": "Фигыль **уйлау** фикерне белдерә.",
       "headers": [
         "Зат аты",
@@ -4307,7 +4343,7 @@
     },
     {
       "num": "4",
-      "title": "Белү (To Know)",
+      "title": "Белү",
       "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
       "headers": [
         "Зат аты",
@@ -4352,7 +4388,7 @@
     },
     {
       "num": "5",
-      "title": "Ярату / Ошау (To Like / Love)",
+      "title": "Ярату / Ошау",
       "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
       "headers": [
         "Зат аты",
@@ -4397,7 +4433,7 @@
     },
     {
       "num": "6",
-      "title": "Теләү (To Want)",
+      "title": "Теләү",
       "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
       "headers": [
         "Зат аты",
@@ -4442,52 +4478,62 @@
     },
     {
       "num": "7",
-      "title": "Бару (To Go)",
-      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "title": "Эшләү / Уку / Өйрәнү",
+      "desc": "Фигыльләр **эшләү**, **уку** һәм **өйрәнү** һөнәрне, белем алуны һәм яңа күнекмәләр үзләштерүне белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Эшләү",
+        "Уку",
+        "Өйрәнү"
       ],
       "conjugation": [
         [
           "Мин",
-          "барам",
-          "Мин эшкә барам."
+          "эшлим",
+          "укыйм",
+          "өйрәнәм"
         ],
         [
           "Син",
-          "барасың",
-          "Кайда барасың?"
+          "эшлисең",
+          "укыйсың",
+          "өйрәнәсең"
         ],
         [
           "Ул",
-          "бара",
-          "Ул өйгә бара."
+          "эшли",
+          "укый",
+          "өйрәнә"
         ],
         [
           "Без",
-          "барабыз",
-          "Без кинога барабыз."
+          "эшлибез",
+          "укыйбыз",
+          "өйрәнәбез"
         ],
         [
           "Сез",
-          "барасыз",
-          "Сез кайда барасыз?"
+          "эшлисез",
+          "укыйсыз",
+          "өйрәнәсез"
         ],
         [
           "Алар",
-          "баралар",
-          "Алар мәктәпкә баралар."
+          "эшлиләр",
+          "укыйлар",
+          "өйрәнәләр"
         ]
       ],
       "usage": [
-        "**Хәрәкәт:** 'Мин өйгә барам'."
+        "**Эшләү:** 'Мин офис эшлим', 'Ул бик күп эшли'.",
+        "**Уку:** 'Мин мәктәптә укыйм', 'Ул университетта укый'.",
+        "**Өйрәнү:** 'Мин татар телен өйрәнәм', 'Без тиз өйрәнәбез'.",
+        "**Гыйбарәләр:** 'тырышып эшләү', 'яттан өйрәнү', 'тел өйрәнү'."
       ]
     },
     {
       "num": "8",
-      "title": "Булдыру / Алу (To Can)",
+      "title": "Бару",
       "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
       "headers": [
         "Зат аты",
@@ -4532,7 +4578,7 @@
     },
     {
       "num": "9",
-      "title": "Ашау (To Eat)",
+      "title": "Булдыру / Алу",
       "desc": "Фигыль **ашау** ашамлыклар турында.",
       "headers": [
         "Зат аты",
@@ -4577,239 +4623,241 @@
     },
     {
       "num": "10",
-      "title": "Эчү (To Drink)",
-      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "title": "Ашау / Эчү",
+      "desc": "Фигыльләр **ашау** һәм **эчү** ашамлыкларны, эчемлекләрне һәм табын серләрен берләштерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Ашау",
+        "Эчү"
       ],
       "conjugation": [
         [
           "Мин",
-          "эчәм",
-          "Мин су эчәм."
+          "ашыйм",
+          "эчәм"
         ],
         [
           "Син",
-          "эчәсең",
-          "Син кофе эчәсеңме?"
+          "ашыйсың",
+          "эчәсең"
         ],
         [
           "Ул",
-          "эчә",
-          "Ул чәй эчә."
+          "ашый",
+          "эчә"
         ],
         [
           "Без",
-          "эчәбез",
-          "Без сут эчәбез."
+          "ашыйбыз",
+          "эчәбез"
         ],
         [
           "Сез",
-          "эчәсез",
-          "Сез нәрсә эчәсез?"
+          "ашыйсыз",
+          "эчәсез"
         ],
         [
           "Алар",
-          "эчәләр",
-          "Алар су эчәләр."
+          "ашыйлар",
+          "эчәләр"
         ]
       ],
       "usage": [
-        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+        "**Ашау:** 'Мин иртән алма ашыйм', 'Бергә ашыйк'.",
+        "**Эчү:** 'Мин су эчәм', 'Чәй эчәсеңме?'.",
+        "**Гыйбарәләр:** 'Ашларыгыз тәмле булсын!', 'чәй эчү', 'бергә ашау'."
       ]
     }
   ],
   "ba": [
     {
       "num": "1",
-      "title": "Булу (To Be)",
-      "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
+      "title": "Булыу",
+      "desc": "Ҡылым **булыу** торошто, һөнәрҙе һәм урынды белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисaл"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
-          "студент (мын)",
-          "Мин студент."
+          "студентмын",
+          "Мин студентмын."
         ],
         [
-          "Син",
-          "әзер (сең)",
-          "Син әзерме?"
+          "Һин",
+          "әҙерһең",
+          "Һин әҙерһеңме?"
         ],
         [
-          "Ол / Ул",
-          "өйдә",
-          "Ул өйдә."
+          "Ул",
+          "өйҙә",
+          "Ул өйҙә."
         ],
         [
-          "Без",
-          "шат (быз)",
-          "Без шат."
+          "Беҙ",
+          "шатбыҙ",
+          "Беҙ шатбыҙ."
         ],
         [
-          "Сез",
-          "иртәнге (сез)",
-          "Сез иртә килдегез."
+          "Һеҙ",
+          "иртә килдегеҙ",
+          "Һеҙ иртә килдегеҙ."
         ],
         [
-          "Алар",
-          "игелекле (ләр)",
-          "Алар бик игелекле."
+          "Улар",
+          "изгеләр",
+          "Улар изгеләр."
         ]
       ],
       "usage": [
-        "**Зат:** 'Мин Марат'."
+        "**Торош:** 'Мин студентмын'."
       ]
     },
     {
       "num": "2",
-      "title": "Бар булу (To Have)",
-      "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
+      "title": "Бар булыу (Минең бар)",
+      "desc": "Башҡорт телендә эйәлек **минең бар** төҙөлөшө менән белдерелә.",
       "headers": [
         "Зат",
-        "Төзелеш",
-        "Мисал"
+        "Төҙөлөш",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
-          "минем бар",
-          "Минем машинам бар."
+          "минең бар",
+          "Минең машинам бар."
         ],
         [
-          "Син",
-          "синең бар",
-          "Синең вакытың бармы?"
+          "Һин",
+          "һинең бар",
+          "Һинең ваҡытың бармы?"
         ],
         [
           "Ул",
-          "аның бар",
-          "Аның ике агасы бар."
+          "уның бар",
+          "Уның китабы бар."
         ],
         [
-          "Без",
-          "безнең бар",
-          "Безнең соравыбыз бар."
+          "Беҙ",
+          "беҙҙең бар",
+          "Беҙҙең һорауыбыҙ бар."
         ],
         [
-          "Сез",
-          "сезнең бар",
-          "Сезнең хакыгыз бар."
+          "Һеҙ",
+          "һеҙҙең бар",
+          "Һеҙҙең хаҡығыҙ бар."
         ],
         [
-          "Алар",
-          "аларның бар",
-          "Аларның эте бар."
+          "Улар",
+          "уларҙың бар",
+          "Уларҙың эте бар."
         ]
       ],
       "usage": [
-        "**Барлык:** 'Минем китабым бар'."
+        "**Эйәлек:** 'Минең китабым бар'."
       ]
     },
     {
       "num": "3",
-      "title": "Уйлау (To Think)",
-      "desc": "Фигыль **уйлау** фикерне белдерә.",
+      "title": "Уйлау",
+      "desc": "Ҡылым **уйлау** фекерҙе белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
-          "уйлыйм",
-          "Мин шулай уйлыйм."
+          "уйлайым",
+          "Мин шулай уйлайым."
         ],
         [
-          "Син",
-          "уйлыйсың",
-          "Син нәрсә уйлыйсың?"
+          "Һин",
+          "уйлайһың",
+          "Һин нимә уйлайһың?"
         ],
         [
           "Ул",
-          "уйлый",
-          "Ул киләчәк турында уйлый."
+          "уйлай",
+          "Ул киләсәк тураһында уйлай."
         ],
         [
-          "Без",
-          "уйлыйбыз",
-          "Без бергә уйлыйбыз."
+          "Беҙ",
+          "уйлайбыҙ",
+          "Беҙ бергә уйлайбыҙ."
         ],
         [
-          "Сез",
-          "уйлыйсыз",
-          "Сез нәрсә уйлыйсыз?"
+          "Һеҙ",
+          "уйлайһығыҙ",
+          "Һеҙ нимә уйлайһығыҙ?"
         ],
         [
-          "Алар",
-          "уйлыйлар",
-          "Алар эш турында уйлыйлар."
+          "Улар",
+          "уйлайҙар",
+          "Улар эш тураһында уйлайҙар."
         ]
       ],
       "usage": [
-        "**Фикер:** 'Мин яхшы идея дип уйлыйм'."
+        "**Фекер:** 'Мин яҡшы идея тип уйлайым'."
       ]
     },
     {
       "num": "4",
-      "title": "Белү (To Know)",
-      "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
+      "title": "Белеү",
+      "desc": "Ҡылым **белеү** белемде һәм мәғлүмәтте белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
           "беләм",
-          "Мин җавапны беләм."
+          "Мин яуапты беләм."
         ],
         [
-          "Син",
-          "беләсең",
-          "Син аны беләсеңме?"
+          "Һин",
+          "беләһең",
+          "Һин уны беләһеңме?"
         ],
         [
           "Ул",
           "белә",
-          "Ул татарча белә."
+          "Ул башҡортса белә."
         ],
         [
-          "Без",
-          "беләбез",
-          "Без кайчан икәнен беләбез."
+          "Беҙ",
+          "беләбеҙ",
+          "Беҙ ҡасан икәнен беләбеҙ."
         ],
         [
-          "Сез",
-          "беләсез",
-          "Сез кагыйдәне беләсезме?"
+          "Һеҙ",
+          "беләһегеҙ",
+          "Һеҙ ҡағиҙәне беләһегеҙме?"
         ],
         [
-          "Алар",
+          "Улар",
           "беләләр",
-          "Алар барысын да беләләр."
+          "Улар барыһын да беләләр."
         ]
       ],
       "usage": [
-        "**Белем:** 'Мин татар телен беләм'."
+        "**Белем:** 'Мин тел беләм'."
       ]
     },
     {
       "num": "5",
-      "title": "Ярату / Ошау (To Like / Love)",
-      "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
+      "title": "Яратыу / Оҡшатыу",
+      "desc": "Ҡылым **яратыу** хистәрҙе һәм ҡыҙыҡһыныуҙы белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
@@ -4818,88 +4866,142 @@
           "Мин кофе яратам."
         ],
         [
-          "Син",
-          "яратасың",
-          "Син музыка яратасыңмы?"
+          "Һин",
+          "яратаһың",
+          "Һин музыка яратаһыңмы?"
         ],
         [
           "Ул",
           "ярата",
-          "Ул сәяхәт итәргә ярата."
+          "Ул сәйәхәт итергә ярата."
         ],
         [
-          "Без",
-          "яратабыз",
-          "Без спортны яратабыз."
+          "Беҙ",
+          "яратабыҙ",
+          "Беҙ спортты яратабыҙ."
         ],
         [
-          "Сез",
-          "яратасыз",
-          "Сез киноны яратасызмы?"
+          "Һеҙ",
+          "яратаһығыҙ",
+          "Һеҙ киноны яратаһығыҙмы?"
         ],
         [
-          "Алар",
+          "Улар",
           "яраталар",
-          "Алар китап укырга яраталар."
+          "Улар китап уҡырға яраталар."
         ]
       ],
       "usage": [
-        "**Кызыксыну:** 'Мин татарча сөйләшергә яратам'."
+        "**Ҡыҙыҡһыныу:** 'Мин тел өйрәнергә яратам'."
       ]
     },
     {
       "num": "6",
-      "title": "Теләү (To Want)",
-      "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
+      "title": "Теләү",
+      "desc": "Ҡылым **теләү** теләкте һәм ниәтте белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
-          "телим",
-          "Мин су телим."
+          "теләйем",
+          "Мин һыу теләйем."
         ],
         [
-          "Син",
-          "телисең",
-          "Син нәрсә телисең?"
+          "Һин",
+          "теләйһең",
+          "Һин нимә теләйһең?"
         ],
         [
           "Ул",
-          "тели",
-          "Ул укырга тели."
+          "теләй",
+          "Ул уҡырға теләй."
         ],
         [
-          "Без",
-          "телибез",
-          "Без ял итәргә телибез."
+          "Беҙ",
+          "теләйбеҙ",
+          "Беҙ ял итергә теләйбеҙ."
         ],
         [
-          "Сез",
-          "телисез",
-          "Сез кофе телисезме?"
+          "Һеҙ",
+          "теләйһегеҙ",
+          "Һеҙ сәй теләйһегеҙме?"
         ],
         [
-          "Алар",
-          "телиләр",
-          "Алар өйгә кайтырга телиләр."
+          "Улар",
+          "теләйҙәр",
+          "Улар өйгә ҡайтырға теләйҙәр."
         ]
       ],
       "usage": [
-        "**Теләк:** 'Мин тел өйрәнергә телим'."
+        "**Теләк:** 'Мин уҡырға теләйем'."
       ]
     },
     {
       "num": "7",
-      "title": "Бару (To Go)",
-      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "title": "Эшләү / Уҡыу / Өйрәнеү",
+      "desc": "Ҡылымдар **эшләү**, **уҡыу** һәм **өйрәнеү** һөнәрҙе, уҡыуҙы һәм яңы белем алыуҙы белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Эшләү",
+        "Уҡыу",
+        "Өйрәнеү"
+      ],
+      "conjugation": [
+        [
+          "Мин",
+          "эшләйем",
+          "уҡыйым",
+          "өйрәнәм"
+        ],
+        [
+          "Һин",
+          "эшләйһең",
+          "уҡыйһың",
+          "өйрәнәһең"
+        ],
+        [
+          "Ул",
+          "эшләй",
+          "уҡый",
+          "өйрәнә"
+        ],
+        [
+          "Беҙ",
+          "эшләйбеҙ",
+          "уҡыйбыҙ",
+          "өйрәнәбеҙ"
+        ],
+        [
+          "Һеҙ",
+          "эшләйһегеҙ",
+          "уҡыйһығыҙ",
+          "өйрәнәһегеҙ"
+        ],
+        [
+          "Улар",
+          "эшләйҙәр",
+          "уҡыйҙар",
+          "өйрәнәләр"
+        ]
+      ],
+      "usage": [
+        "**Эшләү:** 'Мин мәктәптә эшләйем'.",
+        "**Уҡыу:** 'Мин университетта уҡыйым'.",
+        "**Өйрәнеү:** 'Мин башҡорт телен өйрәнәм'."
+      ]
+    },
+    {
+      "num": "8",
+      "title": "Барыу",
+      "desc": "Ҡылым **барыу** хәрәкәтте белдерә.",
+      "headers": [
+        "Зат аты",
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
@@ -4908,9 +5010,9 @@
           "Мин эшкә барам."
         ],
         [
-          "Син",
-          "барасың",
-          "Кайда барасың?"
+          "Һин",
+          "бараһың",
+          "Ҡайҙа бараһың?"
         ],
         [
           "Ул",
@@ -4918,19 +5020,19 @@
           "Ул өйгә бара."
         ],
         [
-          "Без",
-          "барабыз",
-          "Без кинога барабыз."
+          "Беҙ",
+          "барабыҙ",
+          "Беҙ киноға барабыҙ."
         ],
         [
-          "Сез",
-          "барасыз",
-          "Сез кайда барасыз?"
+          "Һеҙ",
+          "бараһығыҙ",
+          "Һеҙ ҡайҙа бараһығыҙ?"
         ],
         [
-          "Алар",
+          "Улар",
           "баралар",
-          "Алар мәктәпкә баралар."
+          "Улар мәктәпкә баралар."
         ]
       ],
       "usage": [
@@ -4938,1062 +5040,1013 @@
       ]
     },
     {
-      "num": "8",
-      "title": "Булдыру / Алу (To Can)",
-      "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
+      "num": "9",
+      "title": "Булдырыу / Алыу",
+      "desc": "Ҡылым **булдырыу** мөмкинлекте белдерә.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хәҙерге ваҡыт",
+        "Миҫал"
       ],
       "conjugation": [
         [
           "Мин",
           "булдырам",
-          "Мин ярдәм итә алам."
+          "Мин ярҙам итә алам."
         ],
         [
-          "Син",
-          "булдырасың",
-          "Син килә аласыңмы?"
+          "Һин",
+          "булдыраһың",
+          "Һин килә алаһыңмы?"
         ],
         [
           "Ул",
           "булдыра",
-          "Ул сөйләшә ала."
+          "Ул һөйләшә ала."
         ],
         [
-          "Без",
-          "булдырабыз",
-          "Без башлый алабыз."
+          "Беҙ",
+          "булдырабыҙ",
+          "Беҙ башлай алабыҙ."
         ],
         [
-          "Сез",
-          "булдырасыз",
-          "Сез кабатлый аласызмы?"
+          "Һеҙ",
+          "булдыраһығыҙ",
+          "Һеҙ ҡабатлай алаһығыҙмы?"
         ],
         [
-          "Алар",
+          "Улар",
           "булдыралар",
-          "Алар килә алалар."
+          "Улар килә алалар."
         ]
       ],
       "usage": [
-        "**Мөмкинлек:** 'Мин татарча сөйләшә алам'."
-      ]
-    },
-    {
-      "num": "9",
-      "title": "Ашау (To Eat)",
-      "desc": "Фигыль **ашау** ашамлыклар турында.",
-      "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
-      ],
-      "conjugation": [
-        [
-          "Мин",
-          "ашыйм",
-          "Мин алма ашыйм."
-        ],
-        [
-          "Син",
-          "ашыйсың",
-          "Син нәрсә ашыйсың?"
-        ],
-        [
-          "Ул",
-          "ашый",
-          "Ул төшке аш ашый."
-        ],
-        [
-          "Без",
-          "ашыйбыз",
-          "Без бергә ашыйбыз."
-        ],
-        [
-          "Сез",
-          "ашыйсыз",
-          "Сез икмәк ашыйсызмы?"
-        ],
-        [
-          "Алар",
-          "ашыйлар",
-          "Алар ресторанда ашыйлар."
-        ]
-      ],
-      "usage": [
-        "**Аш:** 'Игелекле аш булсын!'."
+        "**Мөмкинлек:** 'Мин һөйләшә алам'."
       ]
     },
     {
       "num": "10",
-      "title": "Эчү (To Drink)",
-      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "title": "Ашау / Эсеү",
+      "desc": "Ҡылымдар **ашау** һәм **эсеү** ашамлыҡ һәм эсемлектәр тураһында.",
       "headers": [
         "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Ашау",
+        "Эсеү"
       ],
       "conjugation": [
         [
           "Мин",
-          "эчәм",
-          "Мин су эчәм."
+          "ашайым",
+          "эсәм"
         ],
         [
-          "Син",
-          "эчәсең",
-          "Син кофе эчәсеңме?"
+          "Һин",
+          "ашайһың",
+          "эсәһең"
         ],
         [
           "Ул",
-          "эчә",
-          "Ул чәй эчә."
+          "ашай",
+          "эсә"
         ],
         [
-          "Без",
-          "эчәбез",
-          "Без сут эчәбез."
+          "Беҙ",
+          "ашайбыҙ",
+          "эсәбеҙ"
         ],
         [
-          "Сез",
-          "эчәсез",
-          "Сез нәрсә эчәсез?"
+          "Һеҙ",
+          "ашайһығыҙ",
+          "эсәһегеҙ"
         ],
         [
-          "Алар",
-          "эчәләр",
-          "Алар су эчәләр."
+          "Улар",
+          "ашайҙар",
+          "эсәләр"
         ]
       ],
       "usage": [
-        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+        "**Ашау:** 'Мин алма ашайым'.",
+        "**Эсеү:** 'Мин һыу эсәм'.",
+        "**Ғибәрәләр:** 'Ашығыҙ тәмле булһын!'."
       ]
     }
   ],
   "br": [
     {
       "num": "1",
-      "title": "Être (To Be)",
-      "desc": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
+      "title": "Bezañ",
+      "desc": "Ar verb **bezañ** a verk an identelezh, ar vicher, al lec'h hag ar stad.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "Je",
-          "suis",
-          "Je suis étudiant."
+          "Me",
+          "on",
+          "Skoaziad on."
         ],
         [
-          "Tu",
-          "es",
-          "Tu es prêt ?"
+          "Te",
+          "out",
+          "Prest out?"
         ],
         [
-          "Il / Elle / On",
-          "est",
-          "Il est à la maison."
+          "Eñ / Hi",
+          "zo / emañ",
+          "Er gêr emañ."
         ],
         [
-          "Nous",
-          "sommes",
-          "Nous sommes heureux."
+          "Ni",
+          "omp",
+          "Laouen omp."
         ],
         [
-          "Vous",
-          "êtes",
-          "Vous êtes en avance."
+          "C'hwi",
+          "oc'h",
+          "Abred oc'h."
         ],
         [
-          "Ils / Elles",
-          "sont",
-          "Ils sont très sympathiques."
+          "Int",
+          "int",
+          "Tud vat int."
         ]
       ],
       "usage": [
-        "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
-        "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
-        "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
+        "**Stad:** 'Skoaziad on', 'Er gêr emaon'."
       ]
     },
     {
       "num": "2",
-      "title": "Avoir (To Have)",
-      "desc": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques.",
+      "title": "Kaout",
+      "desc": "Ar verb **kaout** a verk ar perc'henniezh hag an oad.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "J'",
-          "ai",
-          "J'ai une voiture."
+          "Me",
+          "am eus",
+          "Ul levr am eus."
         ],
         [
-          "Tu",
-          "as",
-          "Tu as le temps."
+          "Te",
+          "az peus",
+          "Amzer az peus?"
         ],
         [
-          "Il / Elle / On",
-          "a",
-          "Elle a deux frères."
+          "Eñ / Hi",
+          "en deus / he deus",
+          "Ur c'hoar en deus."
         ],
         [
-          "Nous",
-          "avons",
-          "Nous avons une question."
+          "Ni",
+          "hon eus",
+          "Ur goulenn hon eus."
         ],
         [
-          "Vous",
-          "avez",
-          "Vous avez raison."
+          "C'hwi",
+          "hoc'h eus",
+          "Gwir hoc'h eus."
         ],
         [
-          "Ils / Elles",
-          "ont",
-          "Ils ont un chien."
+          "Int",
+          "o deus",
+          "Ur c'hi o deus."
         ]
       ],
       "usage": [
-        "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
-        "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
-        "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+        "**Perc'henniezh:** 'Ul levr am eus'."
       ]
     },
     {
       "num": "3",
-      "title": "Penser (To Think)",
-      "desc": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée.",
+      "title": "Soñjal",
+      "desc": "Ar verb **soñjal** a verk ar soñjoù hag an ali.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "Je",
-          "pense",
-          "Je pense que oui."
+          "Me",
+          "soñjan",
+          "Soñjal a ran."
         ],
         [
-          "Tu",
-          "penses",
-          "Qu'en penses-tu ?"
+          "Te",
+          "soñjez",
+          "Petra a soñjez?"
         ],
         [
-          "Il / Elle / On",
-          "pense",
-          "Il pense à son avenir."
+          "Eñ / Hi",
+          "soñj",
+          "Soñjal a ra en dazont."
         ],
         [
-          "Nous",
-          "pensons",
-          "Nous pensons arriver bientôt."
+          "Ni",
+          "soñjomp",
+          "Soñjal a reomp kemend-all."
         ],
         [
-          "Vous",
-          "pensez",
-          "Que pensez-vous de ce livre ?"
+          "C'hwi",
+          "soñjit",
+          "Petra a soñjit?"
         ],
         [
-          "Ils / Elles",
-          "pensent",
-          "Elles pensent la même chose."
+          "Int",
+          "soñjont",
+          "Soñjal a reont el labour."
         ]
       ],
       "usage": [
-        "**Opinion:** 'Je pense que c'est une excellente idée'.",
-        "**Réflexion:** 'Je pense à mes vacances'.",
-        "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
+        "**Ali:** 'Soñjal a ran eo mat'."
       ]
     },
     {
       "num": "4",
-      "title": "Savoir / Connaître (To Know)",
-      "desc": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes.",
+      "title": "Gouzout / Anavezout",
+      "desc": "**Gouzout** evit ar fedoù hag an diskoulmoù, **anavezout** evit an dud hag al lec'hioù.",
       "headers": [
-        "Pronom",
-        "Savoir",
-        "Connaître"
+        "Raganv",
+        "Gouzout",
+        "Anavezout"
       ],
       "conjugation": [
         [
-          "Je",
-          "sais",
-          "connais"
+          "Me",
+          "ouzon",
+          "anavezan"
         ],
         [
-          "Tu",
-          "sais",
-          "connais"
+          "Te",
+          "ouzout",
+          "anavezout"
         ],
         [
-          "Il / Elle / On",
-          "sait",
-          "connaît"
+          "Eñ / Hi",
+          "oar",
+          "anavez"
         ],
         [
-          "Nous",
-          "savons",
-          "connaissons"
+          "Ni",
+          "ouzomp",
+          "anavezomp"
         ],
         [
-          "Vous",
-          "savez",
-          "connaissez"
+          "C'hwi",
+          "ouzoc'h",
+          "anavezoc'h"
         ],
         [
-          "Ils / Elles",
-          "savent",
-          "connaissent"
+          "Int",
+          "ouzont",
+          "anavezont"
         ]
       ],
       "usage": [
-        "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
-        "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
-        "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
+        "**Gouiziegezh:** 'Gouzout a ran ar respont'."
       ]
     },
     {
       "num": "5",
-      "title": "Aimer (To Like / Love)",
-      "desc": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments.",
+      "title": "Plijout",
+      "desc": "Ar verb **plijout** a verk ar santimantoù hag ar c'hoantoù.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "J'",
-          "aime",
-          "J'aime le chocolat."
+          "Din",
+          "plij",
+          "Plijout a ra din ar c'hafe."
         ],
         [
-          "Tu",
-          "aimes",
-          "Tu aimes la musique ?"
+          "Dit",
+          "plij",
+          "Plijout a ra dit ar sonerezh?"
         ],
         [
-          "Il / Elle / On",
-          "aime",
-          "Il aime voyager."
+          "Dezhañ / Dezhi",
+          "plij",
+          "Plijout a ra dezhañ beajiñ."
         ],
         [
-          "Nous",
-          "aimons",
-          "Nous aimons le sport."
+          "Deomp",
+          "plij",
+          "Plijout a ra deomp ar sport."
         ],
         [
-          "Vous",
-          "aimez",
-          "Vous aimez le cinéma ?"
+          "Deoc'h",
+          "plij",
+          "Plijout a ra deoc'h al lennegezh?"
         ],
         [
-          "Ils / Elles",
-          "aiment",
-          "Elles aiment lire."
+          "Dezho",
+          "plij",
+          "Plijout a ra dezho lenn."
         ]
       ],
       "usage": [
-        "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
-        "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
-        "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
+        "**Pliadur:** 'Plijout a ra din ar brezhoneg'."
       ]
     },
     {
       "num": "6",
-      "title": "Vouloir / Voudrais (To Want / Would Like)",
-      "desc": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse.",
+      "title": "C'hoant kaout",
+      "desc": "**C'hoant kaout** a verk ar c'hoant hag ar bolontez.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Politesse (Conditionnel)"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "Je",
-          "veux",
-          "voudrais"
+          "Me",
+          "c'hoant am eus",
+          "C'hoant am eus da evañ dour."
         ],
         [
-          "Tu",
-          "veux",
-          "voudrais"
+          "Te",
+          "c'hoant az peus",
+          "Petra az peus c'hoant?"
         ],
         [
-          "Il / Elle / On",
-          "veut",
-          "voudrait"
+          "Eñ / Hi",
+          "c'hoant en/he deus",
+          "C'hoant en deus da zeskiñ."
         ],
         [
-          "Nous",
-          "voulons",
-          "voudrions"
+          "Ni",
+          "c'hoant hon eus",
+          "C'hoant hon eus da ziskuizhañ."
         ],
         [
-          "Vous",
-          "voulez",
-          "voudriez"
+          "C'hwi",
+          "c'hoant hoc'h eus",
+          "C'hoant hoc'h eus kafe?"
         ],
         [
-          "Ils / Elles",
-          "veulent",
-          "voudraient"
+          "Int",
+          "c'hoant o deus",
+          "C'hoant o deus mont d'ar gêr."
         ]
       ],
       "usage": [
-        "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
-        "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
-        "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
+        "**C'hoant:** 'C'hoant am eus da zeskiñ'."
       ]
     },
     {
       "num": "7",
-      "title": "Aller / Futur proche (To Go)",
-      "desc": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*).",
+      "title": "Labourat / Studiñ / Deskiñ",
+      "desc": "Ar verboù **labourat**, **studiñ** ha **deskiñ** a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Labourat",
+        "Studiñ",
+        "Deskiñ"
       ],
       "conjugation": [
         [
-          "Je",
-          "vais",
-          "Je vais au travail / Je vais manger."
+          "Me",
+          "labouran",
+          "studian",
+          "deskan"
         ],
         [
-          "Tu",
-          "vas",
-          "Tu vas à la gare ?"
+          "Te",
+          "labourez",
+          "studiez",
+          "deskez"
         ],
         [
-          "Il / Elle / On",
-          "va",
-          "Il va à Paris."
+          "Eñ / Hi",
+          "labour",
+          "studi",
+          "desk"
         ],
         [
-          "Nous",
-          "allons",
-          "Nous allons au cinéma."
+          "Ni",
+          "labouromp",
+          "studiomp",
+          "deskomp"
         ],
         [
-          "Vous",
-          "allez",
-          "Comment allez-vous ?"
+          "C'hwi",
+          "labourit",
+          "studiit",
+          "deskit"
         ],
         [
-          "Ils / Elles",
-          "vont",
-          "Elles vont réussir."
+          "Int",
+          "labouront",
+          "studiont",
+          "deskont"
         ]
       ],
       "usage": [
-        "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
-        "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
-        "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
+        "**Labourat:** 'Labourat a ran en un ti-embann'.",
+        "**Studiñ:** 'Studiñ a ran brezhoneg'.",
+        "**Deskiñ:** 'Deskiñ a ran buan'."
       ]
     },
     {
       "num": "8",
-      "title": "Pouvoir (To Can / Be able to)",
-      "desc": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission.",
+      "title": "Mont",
+      "desc": "Ar verb **mont** a verk an dilec'hiañ.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "Je",
-          "peux",
-          "Je peux vous aider."
+          "Me",
+          "an",
+          "Mont a ran d'al labour."
         ],
         [
-          "Tu",
-          "peux",
-          "Tu peux venir ce soir ?"
+          "Te",
+          "ez",
+          "Pelec'h ez ez?"
         ],
         [
-          "Il / Elle / On",
-          "peut",
-          "On peut commencer."
+          "Eñ / Hi",
+          "a",
+          "Mont a ra d'ar gêr."
         ],
         [
-          "Nous",
-          "pouvons",
-          "Nous pouvons le faire."
+          "Ni",
+          "eomp",
+          "Mont a reomp d'ar sinema."
         ],
         [
-          "Vous",
-          "pouvez",
-          "Vous pouvez répéter ?"
+          "C'hwi",
+          "it",
+          "Pelec'h ez it?"
         ],
         [
-          "Ils / Elles",
-          "peuvent",
-          "Ils peuvent entrer."
+          "Int",
+          "eont",
+          "Mont a reont d'ar skol."
         ]
       ],
       "usage": [
-        "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
-        "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
-        "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
+        "**Dilec'hiañ:** 'Mont a ran d'ar gêr'."
       ]
     },
     {
       "num": "9",
-      "title": "Manger (To Eat)",
-      "desc": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
+      "title": "Gallout",
+      "desc": "Ar verb **gallout** a verk an aotre hag ar varregezh.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "conjugation": [
         [
-          "Je",
-          "mange",
-          "Je mange une pomme."
+          "Me",
+          "hallan",
+          "Gallout a ran sikour."
         ],
         [
-          "Tu",
-          "manges",
-          "Qu'est-ce que tu manges ?"
+          "Te",
+          "hallez",
+          "Gallout a rez dont?"
         ],
         [
-          "Il / Elle / On",
-          "mange",
-          "Il mange à midi."
+          "Eñ / Hi",
+          "c'hall",
+          "Gallout a ra komz."
         ],
         [
-          "Nous",
-          "mangeons",
-          "Nous mangeons ensemble."
+          "Ni",
+          "hallomp",
+          "Gallout a reomp kregiñ."
         ],
         [
-          "Vous",
-          "mangez",
-          "Vous mangez de la viande ?"
+          "C'hwi",
+          "hallit",
+          "Gallout a rit adlavarout?"
         ],
         [
-          "Ils / Elles",
-          "mangent",
-          "Elles mangent une salade."
+          "Int",
+          "hallont",
+          "Gallout a reont dont."
         ]
       ],
       "usage": [
-        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
-        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
-        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
+        "**Barregezh:** 'Gallout a ran komz brezhoneg'."
       ]
     },
     {
       "num": "10",
-      "title": "Boire (To Drink)",
-      "desc": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
+      "title": "Debriñ / Evañ",
+      "desc": "Ar verboù **debriñ** hag **evañ** evit ar predoù, an diedoù hag an dud asambles.",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Debriñ",
+        "Evañ"
       ],
       "conjugation": [
         [
-          "Je",
-          "bois",
-          "Je bois de l'eau."
+          "Me",
+          "debran",
+          "evan"
         ],
         [
-          "Tu",
-          "bois",
-          "Tu bois du café ?"
+          "Te",
+          "debrez",
+          "evez"
         ],
         [
-          "Il / Elle / On",
-          "boit",
-          "Il boit un thé vert."
+          "Eñ / Hi",
+          "deb",
+          "ev"
         ],
         [
-          "Nous",
-          "buvons",
-          "Nous buvons du jus de pomme."
+          "Ni",
+          "debromp",
+          "evomp"
         ],
         [
-          "Vous",
-          "buvez",
-          "Que buvez-vous ?"
+          "C'hwi",
+          "debrit",
+          "evit"
         ],
         [
-          "Ils / Elles",
-          "boivent",
-          "Elles boivent de l'eau fraîche."
+          "Int",
+          "debront",
+          "evont"
         ]
       ],
       "usage": [
-        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
-        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
-        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
+        "**Debriñ:** 'Debriñ a ran un aval'.",
+        "**Evañ:** 'Evañ a ran dour fresk'.",
+        "**Troioù-lavar:** 'Kalz a galon!', 'evañ ur banne'."
       ]
     }
   ],
   "cv": [
     {
       "num": "1",
-      "title": "Булу (To Be)",
-      "desc": "Фигыль **булу** бәрәбәрлекне, һөнәрне һәм урынны күрсәтә.",
+      "title": "Пулма",
+      "desc": "Глагол **пулма** пулнине, ĕçе тата вырăна пĕлтерет.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисaл"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "студент (мын)",
-          "Мин студент."
+          "Эпĕ",
+          "студент",
+          "Эпĕ студент."
         ],
         [
-          "Син",
-          "әзер (сең)",
-          "Син әзерме?"
+          "Эсĕ",
+          "хатĕр",
+          "Эсĕ хатĕр-и?"
         ],
         [
-          "Ол / Ул",
-          "өйдә",
-          "Ул өйдә."
+          "Вăл",
+          "килте",
+          "Вăл килте."
         ],
         [
-          "Без",
-          "шат (быз)",
-          "Без шат."
+          "Эпир",
+          "хавас",
+          "Эпир хавас."
         ],
         [
-          "Сез",
-          "иртәнге (сез)",
-          "Сез иртә килдегез."
+          "Эсир",
+          "ир килтĕр",
+          "Эсир ир килтĕр."
         ],
         [
-          "Алар",
-          "игелекле (ләр)",
-          "Алар бик игелекле."
+          "Вĕсем",
+          "лайăх",
+          "Вĕсем лайăх çынсем."
         ]
       ],
       "usage": [
-        "**Зат:** 'Мин Марат'."
+        "**Пулни:** 'Эпĕ студент'."
       ]
     },
     {
       "num": "2",
-      "title": "Бар булу (To Have)",
-      "desc": "Татар теле буенча барлык **минем бар** төзелеше белән белдерелә.",
+      "title": "Пур пулма (Манăн пур)",
+      "desc": "Чăваш чĕлхинчи пурлăх **манăн пур** мелĕпе палăрать.",
       "headers": [
-        "Зат",
-        "Төзелеш",
-        "Мисал"
+        "Сăпат",
+        "Ертесси",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "минем бар",
-          "Минем машинам бар."
+          "Эпĕ",
+          "манăн пур",
+          "Манăн машин пур."
         ],
         [
-          "Син",
-          "синең бар",
-          "Синең вакытың бармы?"
+          "Эсĕ",
+          "санăн пур",
+          "Санăн вăхăт пур-и?"
         ],
         [
-          "Ул",
-          "аның бар",
-          "Аның ике агасы бар."
+          "Вăл",
+          "унăн пур",
+          "Унăн кĕнеке пур."
         ],
         [
-          "Без",
-          "безнең бар",
-          "Безнең соравыбыз бар."
+          "Эпир",
+          "пирĕн пур",
+          "Пирĕн ыйту пур."
         ],
         [
-          "Сез",
-          "сезнең бар",
-          "Сезнең хакыгыз бар."
+          "Эсир",
+          "сирĕн пур",
+          "Сирĕн ирĕк пур."
         ],
         [
-          "Алар",
-          "аларның бар",
-          "Аларның эте бар."
+          "Вĕсем",
+          "вĕсен пур",
+          "Вĕсен йытă пур."
         ]
       ],
       "usage": [
-        "**Барлык:** 'Минем китабым бар'."
+        "**Пурлăх:** 'Манăн кĕнеке пур'."
       ]
     },
     {
       "num": "3",
-      "title": "Уйлау (To Think)",
-      "desc": "Фигыль **уйлау** фикерне белдерә.",
+      "title": "Шухăшлама",
+      "desc": "Глагол **шухăшлама** шухăша палăртать.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "уйлыйм",
-          "Мин шулай уйлыйм."
+          "Эпĕ",
+          "шухăшлатăп",
+          "Эпĕ çапла шухăшлатăп."
         ],
         [
-          "Син",
-          "уйлыйсың",
-          "Син нәрсә уйлыйсың?"
+          "Эсĕ",
+          "шухăшлатăн",
+          "Эсĕ мĕн шухăшлатăн?"
         ],
         [
-          "Ул",
-          "уйлый",
-          "Ул киләчәк турында уйлый."
+          "Вăл",
+          "шухăшлать",
+          "Вăл пуласлăх çинчен шухăшлать."
         ],
         [
-          "Без",
-          "уйлыйбыз",
-          "Без бергә уйлыйбыз."
+          "Эпир",
+          "шухăшлатпăр",
+          "Эпир пĕрле шухăшлатпăр."
         ],
         [
-          "Сез",
-          "уйлыйсыз",
-          "Сез нәрсә уйлыйсыз?"
+          "Эсир",
+          "шухăшлатăр",
+          "Эсир мĕн шухăшлатăр?"
         ],
         [
-          "Алар",
-          "уйлыйлар",
-          "Алар эш турында уйлыйлар."
+          "Вĕсем",
+          "шухăшлаççĕ",
+          "Вĕсем ĕç çинчен шухăшлаççĕ."
         ]
       ],
       "usage": [
-        "**Фикер:** 'Мин яхшы идея дип уйлыйм'."
+        "**Шухăш:** 'Эпĕ лайăх тесе шухăшлатăп'."
       ]
     },
     {
       "num": "4",
-      "title": "Белү (To Know)",
-      "desc": "Фигыль **белү** белемне һәм мәгълүматны белдерә.",
+      "title": "Пĕлме",
+      "desc": "Глагол **пĕлме** пĕлĕве тата хыпара пĕлтерет.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "беләм",
-          "Мин җавапны беләм."
+          "Эпĕ",
+          "пĕлетĕп",
+          "Эпĕ хуравне пĕлетĕп."
         ],
         [
-          "Син",
-          "беләсең",
-          "Син аны беләсеңме?"
+          "Эсĕ",
+          "пĕлетĕн",
+          "Эсĕ ăна пĕлетĕн-и?"
         ],
         [
-          "Ул",
-          "белә",
-          "Ул татарча белә."
+          "Вăл",
+          "пĕлет",
+          "Вăл чăвашла пĕлет."
         ],
         [
-          "Без",
-          "беләбез",
-          "Без кайчан икәнен беләбез."
+          "Эпир",
+          "пĕлетпĕр",
+          "Эпир ăçта иккенне пĕлетпĕр."
         ],
         [
-          "Сез",
-          "беләсез",
-          "Сез кагыйдәне беләсезме?"
+          "Эсир",
+          "пĕлетĕр",
+          "Эсир йĕркене пĕлетĕр-и?"
         ],
         [
-          "Алар",
-          "беләләр",
-          "Алар барысын да беләләр."
+          "Вĕсем",
+          "пĕлеççĕ",
+          "Вĕсем пурне те пĕлеççĕ."
         ]
       ],
       "usage": [
-        "**Белем:** 'Мин татар телен беләм'."
+        "**Пĕлӳ:** 'Эпĕ чĕлхе пĕлетĕп'."
       ]
     },
     {
       "num": "5",
-      "title": "Ярату / Ошау (To Like / Love)",
-      "desc": "Фигыль **ярату** хисләрне һәм кызыксынуларны белдерә.",
+      "title": "Кăмăллама",
+      "desc": "Глагол **кăмăллама** туйăмсене тата кăмăла пĕлтерет.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "яратам",
-          "Мин кофе яратам."
+          "Эпĕ",
+          "кăмăллатăп",
+          "Эпĕ кофе кăмăллатăп."
         ],
         [
-          "Син",
-          "яратасың",
-          "Син музыка яратасыңмы?"
+          "Эсĕ",
+          "кăмăллатăн",
+          "Эсĕ кĕвĕ кăмăллатăн-и?"
         ],
         [
-          "Ул",
-          "ярата",
-          "Ул сәяхәт итәргә ярата."
+          "Вăл",
+          "кăмăллать",
+          "Вăл çулçӳреве кăмăллать."
         ],
         [
-          "Без",
-          "яратабыз",
-          "Без спортны яратабыз."
+          "Эпир",
+          "кăмăллатпăр",
+          "Эпир спорт кăмăллатпăр."
         ],
         [
-          "Сез",
-          "яратасыз",
-          "Сез киноны яратасызмы?"
+          "Эсир",
+          "кăмăллатăр",
+          "Эсир кино кăмăллатăр-и?"
         ],
         [
-          "Алар",
-          "яраталар",
-          "Алар китап укырга яраталар."
+          "Вĕсем",
+          "кăмăллаççĕ",
+          "Вĕсем кĕнеке вулама кăмăллаççĕ."
         ]
       ],
       "usage": [
-        "**Кызыксыну:** 'Мин татарча сөйләшергә яратам'."
+        "**Кăмăл:** 'Эпĕ чĕлхе вĕренме кăмăллатăп'."
       ]
     },
     {
       "num": "6",
-      "title": "Теләү (To Want)",
-      "desc": "Фигыль **теләү** теләкне һәм ниятне белдерә.",
+      "title": "Тăвас килме",
+      "desc": "Глагол **тăвас килме** ĕмĕте тата суйлава кăтартать.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "телим",
-          "Мин су телим."
+          "Эпĕ",
+          "тăвас килет",
+          "Манăн шыв ĕçес килет."
         ],
         [
-          "Син",
-          "телисең",
-          "Син нәрсә телисең?"
+          "Эсĕ",
+          "тăвас килет",
+          "Санăн мĕн тăвас килет?"
         ],
         [
-          "Ул",
-          "тели",
-          "Ул укырга тели."
+          "Вăл",
+          "тăвас килет",
+          "Унăн вĕренес килет."
         ],
         [
-          "Без",
-          "телибез",
-          "Без ял итәргә телибез."
+          "Эпир",
+          "тăвас килет",
+          "Пирĕн каchannel пулас килет."
         ],
         [
-          "Сез",
-          "телисез",
-          "Сез кофе телисезме?"
+          "Эсир",
+          "тăвас килет",
+          "Сирĕн кофе ĕçес килет-и?"
         ],
         [
-          "Алар",
-          "телиләр",
-          "Алар өйгә кайтырга телиләр."
+          "Вĕсем",
+          "тăвас килет",
+          "Вĕсен киле каяс килет."
         ]
       ],
       "usage": [
-        "**Теләк:** 'Мин тел өйрәнергә телим'."
+        "**Ĕмĕт:** 'Манăн вĕренес килет'."
       ]
     },
     {
       "num": "7",
-      "title": "Бару (To Go)",
-      "desc": "Фигыль **бару** хәрәкәтне белдерә.",
+      "title": "Ĕçлеме / Вĕренме",
+      "desc": "Глаголсем **ĕçлеме** тата **вĕренме** ĕç вырăнне, вĕренĕве тата ăсталăха палăртаççĕ.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Ĕçлеме",
+        "Вĕренме"
       ],
       "conjugation": [
         [
-          "Мин",
-          "барам",
-          "Мин эшкә барам."
+          "Эпĕ",
+          "ĕçлетĕп",
+          "вĕренетĕп"
         ],
         [
-          "Син",
-          "барасың",
-          "Кайда барасың?"
+          "Эсĕ",
+          "ĕçлетĕн",
+          "вĕренетĕн"
         ],
         [
-          "Ул",
-          "бара",
-          "Ул өйгә бара."
+          "Вăл",
+          "ĕçлет",
+          "вĕренет"
         ],
         [
-          "Без",
-          "барабыз",
-          "Без кинога барабыз."
+          "Эпир",
+          "ĕçлетпĕр",
+          "вĕренетпĕр"
         ],
         [
-          "Сез",
-          "барасыз",
-          "Сез кайда барасыз?"
+          "Эсир",
+          "ĕçлетĕр",
+          "вĕренетĕр"
         ],
         [
-          "Алар",
-          "баралар",
-          "Алар мәктәпкә баралар."
+          "Вĕсем",
+          "ĕçлеççĕ",
+          "вĕренеççĕ"
         ]
       ],
       "usage": [
-        "**Хәрәкәт:** 'Мин өйгә барам'."
+        "**Ĕçлеме:** 'Эпĕ офисре ĕçлетĕп'.",
+        "**Вĕренме:** 'Эпĕ чăвашла вĕренетĕп', 'Вăл шкулта вĕренет'."
       ]
     },
     {
       "num": "8",
-      "title": "Булдыру / Алу (To Can)",
-      "desc": "Фигыль **булдыру** мөмкинлекне белдерә.",
+      "title": "Кайма",
+      "desc": "Глагол **кайма** куçăма пĕлтерет.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "булдырам",
-          "Мин ярдәм итә алам."
+          "Эпĕ",
+          "каятăп",
+          "Эпĕ ĕçе каятăп."
         ],
         [
-          "Син",
-          "булдырасың",
-          "Син килә аласыңмы?"
+          "Эсĕ",
+          "каятăн",
+          "Ăçта каятăн?"
         ],
         [
-          "Ул",
-          "булдыра",
-          "Ул сөйләшә ала."
+          "Вăл",
+          "каять",
+          "Вăл киле каять."
         ],
         [
-          "Без",
-          "булдырабыз",
-          "Без башлый алабыз."
+          "Эпир",
+          "каятпăр",
+          "Эпир кинона каятпăр."
         ],
         [
-          "Сез",
-          "булдырасыз",
-          "Сез кабатлый аласызмы?"
+          "Эсир",
+          "каятăр",
+          "Эсир ăçта каятăр?"
         ],
         [
-          "Алар",
-          "булдыралар",
-          "Алар килә алалар."
+          "Вĕсем",
+          "каяççĕ",
+          "Вĕсем шкула каяççĕ."
         ]
       ],
       "usage": [
-        "**Мөмкинлек:** 'Мин татарча сөйләшә алам'."
+        "**Куçăм:** 'Эпĕ киле каятăп'."
       ]
     },
     {
       "num": "9",
-      "title": "Ашау (To Eat)",
-      "desc": "Фигыль **ашау** ашамлыклар турында.",
+      "title": "Пултарасси",
+      "desc": "Глагол **пултарасси** пултарулăха пĕлтерет.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Хальхи вăхăт",
+        "Тĕслĕх"
       ],
       "conjugation": [
         [
-          "Мин",
-          "ашыйм",
-          "Мин алма ашыйм."
+          "Эпĕ",
+          "пултаратăп",
+          "Эпĕ пулăшма пултаратăп."
         ],
         [
-          "Син",
-          "ашыйсың",
-          "Син нәрсә ашыйсың?"
+          "Эсĕ",
+          "пултаратăн",
+          "Эсĕ килме пултаратăн-и?"
         ],
         [
-          "Ул",
-          "ашый",
-          "Ул төшке аш ашый."
+          "Вăл",
+          "пултарать",
+          "Вăл калаçма пултарать."
         ],
         [
-          "Без",
-          "ашыйбыз",
-          "Без бергә ашыйбыз."
+          "Эпир",
+          "пултаратпăр",
+          "Эпир пуçлама пултаратпăр."
         ],
         [
-          "Сез",
-          "ашыйсыз",
-          "Сез икмәк ашыйсызмы?"
+          "Эсир",
+          "пултаратăр",
+          "Эсир калама пултаратăр-и?"
         ],
         [
-          "Алар",
-          "ашыйлар",
-          "Алар ресторанда ашыйлар."
+          "Вĕсем",
+          "пултараççĕ",
+          "Вĕсем килме пултараççĕ."
         ]
       ],
       "usage": [
-        "**Аш:** 'Игелекле аш булсын!'."
+        "**Пултарулăх:** 'Эпĕ калаçма пултаратăп'."
       ]
     },
     {
       "num": "10",
-      "title": "Эчү (To Drink)",
-      "desc": "Фигыль **эчү** эчемлекләр турында.",
+      "title": "Çеме / Ĕçме",
+      "desc": "Глаголсем **çеме** тата **ĕçме** апат-çимĕçпе ĕçмеллине пĕлтереççĕ.",
       "headers": [
-        "Зат аты",
-        "Хәзерге вакыт",
-        "Мисал"
+        "Хай",
+        "Çеме",
+        "Ĕçме"
       ],
       "conjugation": [
         [
-          "Мин",
-          "эчәм",
-          "Мин су эчәм."
+          "Эпĕ",
+          "çиетĕп",
+          "ĕçетĕп"
         ],
         [
-          "Син",
-          "эчәсең",
-          "Син кофе эчәсеңме?"
+          "Эсĕ",
+          "çиетĕн",
+          "ĕçетĕн"
         ],
         [
-          "Ул",
-          "эчә",
-          "Ул чәй эчә."
+          "Вăл",
+          "çиет",
+          "ĕçет"
         ],
         [
-          "Без",
-          "эчәбез",
-          "Без сут эчәбез."
+          "Эпир",
+          "çиетпĕр",
+          "ĕçетпĕр"
         ],
         [
-          "Сез",
-          "эчәсез",
-          "Сез нәрсә эчәсез?"
+          "Эсир",
+          "çиетĕр",
+          "ĕçетĕр"
         ],
         [
-          "Алар",
-          "эчәләр",
-          "Алар су эчәләр."
+          "Вĕсем",
+          "çиеççĕ",
+          "ĕçеççĕ"
         ]
       ],
       "usage": [
-        "**Эчемлек:** 'Мин иртән чәй эчәм'."
+        "**Çеме:** 'Эпĕ улма çиетĕп'.",
+        "**Ĕçме:** 'Эпĕ шыв ĕçетĕп'.",
+        "**Сăмахсем:** 'Апачĕ тутлă пултăр!'."
       ]
     }
   ]
