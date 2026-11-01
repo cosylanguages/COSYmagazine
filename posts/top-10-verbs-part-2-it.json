@@ -13,7 +13,7 @@
   "date": "2026-12-01",
   "title": "I 10 verbi essenziali in italiano, Parte 2 (A0–A1 / A2)",
   "kicker": "GUIDA ALL'ITALIANO — PARTE 2 DI 2",
-  "dek": "Scopri i successivi 10 verbi essenziali (fare, parlare/dire, guardare/vedere, ascoltare/sentire, dovere/bisognare, prendere/dare, vivere/abitare, aspettare, capire, chiedere/rispondere). Coniugazioni consultabili su COSYtools.",
+  "dek": "Scopri i 10 verbi essenziali della Parte 2: fare, parlare/dire, guardare/vedere, ascoltare/sentire, dovere/bisognare, venire/partire, prendere/dare, chiedere/rispondere, aspettare e vivere/abitare. Coniugazioni consultabili su COSYtools.",
   "tags": [
     "Verbs",
     "Italian",
@@ -44,8 +44,8 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Dieci verbi in più, e la tua conversazione cambia davvero: potrai raccontare la tua giornata, proporre un piano, chiedere un'informazione, dire che non hai capito e rispondere al telefono. <mark class=\"hl-handwritten\">Sono verbi che usi cento volte al giorno</mark>, quindi si memorizzano in fretta, anche quando sono irregolari.",
-      "say": "Dieci verbi in più, e la tua conversazione cambia davvero: potrai raccontare la tua giornata, proporre un piano, chiedere un'informazione, dire che non hai capito e rispondere al telefono. Sono verbi che usi cento volte al giorno, quindi si memorizzano in fretta, anche quando sono irregolari."
+      "text": "Dieci verbi in più, e la tua conversazione quotidiana prende il volo: chiedere indicazioni, rispondere al telefono, venire, partire, prendere un caffè e abitare in una nuova città. Con questi dieci verbi potrai esprimere la maggior parte delle tue intenzioni quotidiane in italiano.",
+      "say": "Dieci verbi in più, e la tua conversazione quotidiana prende il volo: chiedere indicazioni, rispondere al telefono, venire, partire, prendere un caffè e abitare in una nuova città. Con questi dieci verbi potrai esprimere la maggior parte delle tue intenzioni quotidiane in italiano."
     },
     {
       "type": "paragraph",
@@ -80,72 +80,72 @@
         [
           "1",
           "Fare",
-          "Attività quotidiane.",
+          "Attività quotidiane, compiti e creazione.",
           "'Fare la spesa', 'Fare colazione', 'Fare i compiti'.",
           "'fare attenzione', 'fare piacere', 'fare bella figura'."
         ],
         [
           "2",
           "Parlare / Dire",
-          "Comunicazione.",
+          "Comunicazione verbale e trasmissione.",
           "'Parlare italiano', 'Dire la verità', 'Dimmi'.",
           "'parlare di', 'dire di sì', 'per così dire'."
         ],
         [
           "3",
           "Guardare / Vedere",
-          "Percezione visiva.",
+          "Percezione visiva attiva e passiva.",
           "'Guardare un film', 'Vedo un uccello'.",
           "'guardare la TV', 'stare a vedere', 'ci vediamo'."
         ],
         [
           "4",
           "Ascoltare / Sentire",
-          "Percezione uditiva.",
+          "Percezione uditiva e sensoriale.",
           "'Ascoltare musica', 'Sento un rumore'.",
-          "'ascolta con attenzione', 'sentire parlare di'."
+          "'ascolta con attenzione', 'sentire parlare di', 'mi sento bene'."
         ],
         [
           "5",
           "Dovere / Bisognare",
-          "Obbligo e necessità.",
-          "'Devo studiare', 'Bisogna partire ora'.",
+          "Obbligo, necessità e consiglio (dovrebbe).",
+          "'Devo studiare', 'Bisogna partire ora', 'Dovresti riposare'.",
           "'dovere fare', 'come si deve', 'bisogna stare attenti'."
         ],
         [
           "6",
+          "Venire / Partire",
+          "Movimento, arrivo e partenza.",
+          "'Vieni con noi?', 'Il treno parte alle otto'.",
+          "'venire da', 'partire per', 'lasciare la stanza'."
+        ],
+        [
+          "7",
           "Prendere / Dare",
-          "Scambi.",
+          "Scambi, trasporti e offerte.",
           "'Prendere il treno', 'Dare un regalo'.",
           "'prendersi cura', 'dare un passaggio', 'prendere un caffè'."
         ],
         [
-          "7",
-          "Vivere / Abitare",
-          "Residenza.",
-          "'Abito a Milano', 'Vivere in pace'.",
-          "'vivere all'estero', 'abitare vicino'."
-        ],
-        [
           "8",
-          "Aspettare",
-          "Attesa.",
-          "'Aspettare l'autobus', 'Aspetta un momento'.",
-          "'non vedere l'ora', 'aspettare in fila'."
-        ],
-        [
-          "9",
-          "Capire",
-          "Comprensione.",
-          "'Capisco la lezione', 'Capisci cosa intendo?'.",
-          "'farsi capire', 'capisco benissimo'."
-        ],
-        [
-          "10",
           "Chiedere / Rispondere",
           "Domande e risposte.",
           "'Chiedere un'informazione', 'Rispondere al telefono'.",
-          "'chiedere aiuto', 'rispondere subito'."
+          "'chiedere aiuto', 'rispondere subito', 'fare una domanda'."
+        ],
+        [
+          "9",
+          "Aspettare",
+          "Attesa e pazienza.",
+          "'Aspettare l'autobus', 'Aspetta un momento'.",
+          "'non vedere l'ora', 'aspettare in fila', 'farsi attendere'."
+        ],
+        [
+          "10",
+          "Vivere / Abitare",
+          "Residenza e stile di vita.",
+          "'Abito a Milano', 'Vivere in pace'.",
+          "'vivere all'estero', 'abitare vicino', 'vivere bene'."
         ]
       ],
       "webOnly": true
@@ -165,13 +165,14 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Fare e comunicare:** fare, parlare, dire. Azioni quotidiane e parole.",
-        "**Percepire:** guardare, vedere, ascoltare, sentire. Vista e udito.",
-        "**Dovere e scambiare:** dovere, bisognare, prendere, dare. Obblighi e scambi.",
-        "**Dove e quando:** vivere, abitare, aspettare. Residenza e attesa.",
-        "**Capire e domandare:** capire, chiedere, rispondere. Comprensione e dialogo."
+        "**Fare e creare:** fare. Attività quotidiane, sport, cucina.",
+        "**Comunicare:** parlare, dire, chiedere, rispondere. Dialogo, domande e risposte.",
+        "**Percepire:** guardare, vedere, ascoltare, sentire. Gli occhi e le orecchie.",
+        "**Dovere e consiglio:** dovere, bisognare. Regole, necessità e raccomandazioni.",
+        "**Movimento e scambio:** venire, partire, prendere, dare. Arrivi, partenze e passaggi di mano.",
+        "**Tempo e casa:** aspettare, vivere, abitare. La pazienza e la vita di tutti i giorni."
       ],
-      "say": "Fare e comunicare: fare, parlare, dire. Azioni quotidiane e parole. Percepire: guardare, vedere, ascoltare, sentire. Vista e udito. Dovere e scambiare: dovere, bisognare, prendere, dare. Obblighi e scambi. Dove e quando: vivere, abitare, aspettare. Residenza e attesa. Capire e domandare: capire, chiedere, rispondere. Comprensione e dialogo."
+      "say": "Fare e creare: fare. Attività quotidiane, sport, cucina. Comunicare: parlare, dire, chiedere, rispondere. Dialogo, domande e risposte. Percepire: guardare, vedere, ascoltare, sentire. Gli occhi e le orecchie. Dovere e consiglio: dovere, bisognare. Regole, necessità e raccomandazioni. Movimento e scambio: venire, partire, prendere, dare. Arrivi, partenze e passaggi di mano. Tempo e casa: aspettare, vivere, abitare. La pazienza e la vita di tutti i giorni."
     },
     {
       "type": "heading",
@@ -182,8 +183,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Fare (To Do / Make)",
-      "say": "1. Fare (To Do / Make)"
+      "text": "1. Fare",
+      "say": "1. Fare"
     },
     {
       "type": "paragraph",
@@ -289,8 +290,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Parlare / Dire (To Speak / To Say)",
-      "say": "2. Parlare / Dire (To Speak / To Say)"
+      "text": "2. Parlare / Dire",
+      "say": "2. Parlare / Dire"
     },
     {
       "type": "paragraph",
@@ -403,8 +404,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Guardare / Vedere (To Look / To See)",
-      "say": "3. Guardare / Vedere (To Look / To See)"
+      "text": "3. Guardare / Vedere",
+      "say": "3. Guardare / Vedere"
     },
     {
       "type": "paragraph",
@@ -517,8 +518,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Ascoltare / Sentire (To Listen / To Hear)",
-      "say": "4. Ascoltare / Sentire (To Listen / To Hear)"
+      "text": "4. Ascoltare / Sentire",
+      "say": "4. Ascoltare / Sentire"
     },
     {
       "type": "paragraph",
@@ -631,13 +632,13 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Dovere / Bisognare (Must / To Need)",
-      "say": "5. Dovere / Bisognare (Must / To Need)"
+      "text": "5. Dovere / Bisognare",
+      "say": "5. Dovere / Bisognare"
     },
     {
       "type": "paragraph",
-      "text": "**Dovere** esprime obbligo ed è un verbo modale: si usa con l'infinito (devo studiare). **Bisogna** è impersonale e vale per tutti: non cambia con la persona (bisogna partire).",
-      "say": "Dovere esprime obbligo ed è un verbo modale: si usa con l'infinito (devo studiare). Bisogna è impersonale e vale per tutti: non cambia con la persona (bisogna partire)."
+      "text": "**Dovere** esprime un obbligo personale («Devo studiare») o un consiglio delicato al condizionale («Dovresti riposare»). **Bisognare** è impersonale e si usa con **bisogna + infinito** («Bisogna fare presto») per regole o necessità generali.",
+      "say": "Dovere esprime un obbligo personale o un consiglio delicato al condizionale. Bisognare è impersonale e si usa con bisogna più infinito per regole o necessità generali."
     },
     {
       "type": "table",
@@ -745,8 +746,138 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Prendere / Dare (To Take / To Give)",
-      "say": "6. Prendere / Dare (To Take / To Give)"
+      "text": "6. Venire / Partire",
+      "say": "6. Venire / Partire"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Venire** e **partire** descrivono la direzione del movimento. **Venire** indica lo spostamento verso la persona che parla o il luogo di cui si parla («Vieni a trovarmi?»). **Partire** esprime il distacco e l'inizio del viaggio («Il treno parte adesso»). Con i luoghi, si usa «partire per» una destinazione e «partire da» un luogo d'origine.",
+      "say": "Venire e partire descrivono la direzione del movimento. Venire indica lo spostamento verso la persona che parla o il luogo di cui si parla. Partire esprime il distacco e l'inizio del viaggio. Con i luoghi, si usa partire per una destinazione e partire da un luogo d'origine."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "venire",
+        "partire",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "io",
+          "vengo",
+          "parto",
+          "Vengo volentieri."
+        ],
+        [
+          "tu",
+          "vieni",
+          "parti",
+          "A che ora parti?"
+        ],
+        [
+          "lui / lei",
+          "viene",
+          "parte",
+          "Il treno parte."
+        ],
+        [
+          "noi",
+          "veniamo",
+          "partiamo",
+          "Partiamo insieme."
+        ],
+        [
+          "voi",
+          "venite",
+          "partite",
+          "Venite stasera?"
+        ],
+        [
+          "loro",
+          "vengono",
+          "partono",
+          "Partono per Roma."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Arrivo e inviti:** 'vieni qui', 'venire a piedi', 'venire da Napoli'.",
+        "**Partenze:** 'partire per le vacanze', 'partire presto', 'lasciare la città'.",
+        "**Frasi utili:** 'da dove vieni?', 'partire in orario', 'venire incontro'."
+      ],
+      "say": "Arrivo e inviti: 'vieni qui', 'venire a piedi', 'venire da Napoli'. Partenze: 'partire per le vacanze', 'partire presto', 'lasciare la città'. Frasi utili: 'da dove vieni?', 'partire in orario', 'venire incontro'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ripeti ad alta voce",
+      "say": "Ripeti ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Da dove vieni? – Vengo dalla Spagna, ma abito a Bologna.",
+      "gloss": "Venire da + paese per indicare la provenienza.",
+      "context": "Presentarsi a un corso di lingua.",
+      "say": "Da dove vieni? – Vengo dalla Spagna, ma abito a Bologna."
+    },
+    {
+      "type": "example",
+      "targetText": "A che ora parti domani mattina?",
+      "gloss": "Partire per chiedere gli orari di viaggio.",
+      "context": "Organizzare una partenza con un amico.",
+      "say": "A che ora parti domani mattina?"
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Vieni alla festa stasera? B: Sì, vengo volentieri! A che ora parte il pullman? A: Parte alle otto in punto.",
+      "gloss": "Ripeti ad alta voce entrambi i ruoli.",
+      "context": "Scambio informale tra amici.",
+      "say": "Mini-dialogue: A: Vieni alla festa stasera? B: Sì, vengo volentieri! A che ora parte il pullman? A: Parte alle otto in punto."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Andare o venire",
+      "wrong": "« Domani vado da te alle sette. »",
+      "right": "« Domani vengo da te alle sette. »",
+      "why": "In molte lingue si usa 'andare' anche quando ci si muove verso l'interlocutore. In italiano, verso la persona con cui parli si usa sempre 'venire'.",
+      "rule": "Verso chi ascolta si usa **venire** («Vengo da te»). Per allontanarsi o andare in un terzo luogo si usa **andare** («Vado al cinema»).",
+      "examples": [
+        "Vengo a prenderti alle otto.",
+        "Domani andiamo al mare.",
+        "Vieni anche tu con noi?"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché questo errore",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Andare o venire. Non proprio: « Domani vado da te alle sette. » Di' così: « Domani vengo da te alle sette. » Verso chi ascolta si usa venire. Per allontanarsi o andare in un terzo luogo si usa andare."
+    },
+    {
+      "type": "quiz",
+      "question": "Il treno per Milano ___ dal binario 4.",
+      "options": [
+        "parte",
+        "viene",
+        "lascia"
+      ],
+      "correctIndex": 0,
+      "explanation": "I treni 'partono' da un binario: 'Il treno parte dal binario 4.'",
+      "say": "Il treno per Milano ___ dal binario 4."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Prendere / Ricevere (Ottenere) / Dare",
+      "say": "7. Prendere / Ricevere (Ottenere) / Dare"
     },
     {
       "type": "paragraph",
@@ -836,7 +967,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 6,
+      "number": 7,
       "title": "Dà o da?",
       "wrong": "« Lui da un regalo. »",
       "right": "« Lui dà un regalo. »",
@@ -877,336 +1008,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Vivere / Abitare (To Live)",
-      "say": "7. Vivere / Abitare (To Live)"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Abitare** indica dove hai casa (abito a Milano); **vivere** ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa **abitare** per l'indirizzo.",
-      "say": "Abitare indica dove hai casa (abito a Milano); vivere ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa abitare per l'indirizzo."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronome",
-        "Vivere",
-        "Abitare",
-        "Esempio"
-      ],
-      "rows": [
-        [
-          "Io",
-          "vivo",
-          "abito",
-          "Vivo all'estero da due anni."
-        ],
-        [
-          "Tu",
-          "vivi",
-          "abiti",
-          "Dove abiti?"
-        ],
-        [
-          "Lui / Lei",
-          "vive",
-          "abita",
-          "Lei abita vicino al parco."
-        ],
-        [
-          "Noi",
-          "viviamo",
-          "abitiamo",
-          "Abitiamo in centro."
-        ],
-        [
-          "Voi",
-          "vivete",
-          "abitate",
-          "Vivete in campagna?"
-        ],
-        [
-          "Loro",
-          "vivono",
-          "abitano",
-          "Abitano a Torino."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Indirizzo:** 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'.",
-        "**Stile di vita:** 'vivere in pace', 'vivere all'estero', 'vivere da soli'.",
-        "**Espressioni utili:** 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
-      ],
-      "say": "Indirizzo: 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'. Stile di vita: 'vivere in pace', 'vivere all'estero', 'vivere da soli'. Espressioni utili: 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Ad alta voce",
-      "say": "Ad alta voce"
-    },
-    {
-      "type": "example",
-      "targetText": "Abito in un piccolo appartamento vicino alla stazione.",
-      "gloss": "Abitare + in / a + luogo.",
-      "context": "Descrivi casa tua a un nuovo vicino."
-    },
-    {
-      "type": "example",
-      "targetText": "Mio fratello vive a Londra da cinque anni.",
-      "gloss": "Vivere in un paese: spesso con un senso di esperienza di vita.",
-      "context": "Parli della tua famiglia."
-    },
-    {
-      "type": "example",
-      "targetText": "– Dove abiti? – Abito a Bologna, e tu? – Io vivo a Firenze, ma sono nato qui.",
-      "gloss": "Domanda classica per fare conoscenza.",
-      "context": "Due persone si conoscono a una festa."
-    },
-    {
-      "type": "mistake-card",
-      "number": 7,
-      "title": "A o in con abitare",
-      "wrong": "« Abito in Milano. »",
-      "right": "« Abito a Milano. »",
-      "why": "Davanti a una città si usa **a**, davanti a un paese o a una regione si usa **in**. Chi studia altre lingue tende a usare sempre la stessa preposizione.",
-      "rule": "**a** + città: abito a Roma. **in** + paese / regione: abito in Italia, in Toscana.",
-      "examples": [
-        "Abito a Padova.",
-        "Vivo in Francia.",
-        "Abitano a Parigi, in Francia."
-      ],
-      "labels": {
-        "wrong": "Non proprio",
-        "right": "Meglio dire",
-        "why": "Perché si sbaglia",
-        "rule": "La regola COSY",
-        "examples": "Altri esempi",
-        "turn": "Tocca a te"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Aspettare (To Wait)",
-      "say": "8. Aspettare (To Wait)"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Aspettare** è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus ».",
-      "say": "Aspettare è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus »."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronome",
-        "Aspettare",
-        "Esempio"
-      ],
-      "rows": [
-        [
-          "Io",
-          "aspetto",
-          "Aspetto l'autobus da dieci minuti."
-        ],
-        [
-          "Tu",
-          "aspetti",
-          "Chi aspetti?"
-        ],
-        [
-          "Lui / Lei",
-          "aspetta",
-          "Lei aspetta una telefonata."
-        ],
-        [
-          "Noi",
-          "aspettiamo",
-          "Aspettiamo in fila."
-        ],
-        [
-          "Voi",
-          "aspettate",
-          "Aspettate un momento!"
-        ],
-        [
-          "Loro",
-          "aspettano",
-          "Aspettano il treno."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Attesa quotidiana:** 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'.",
-        "**Imperativo:** 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia).",
-        "**Espressioni utili:** 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
-      ],
-      "say": "Attesa quotidiana: 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'. Imperativo: 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia). Espressioni utili: 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Ad alta voce",
-      "say": "Ad alta voce"
-    },
-    {
-      "type": "example",
-      "targetText": "Aspetto il mio amico davanti al cinema.",
-      "gloss": "Aspettare + persona o cosa, senza preposizione.",
-      "context": "Sei in anticipo a un appuntamento."
-    },
-    {
-      "type": "example",
-      "targetText": "Aspetta un momento, arrivo subito!",
-      "gloss": "L'imperativo di cortesia tra amici: aspetta.",
-      "context": "Sei al telefono."
-    },
-    {
-      "type": "example",
-      "targetText": "– Non vedo l'ora di partire! – Anch'io! Aspetto queste vacanze da mesi.",
-      "gloss": "« Non vedere l'ora » = essere molto impazienti.",
-      "context": "Due colleghi parlano delle ferie."
-    },
-    {
-      "type": "mistake-card",
-      "number": 8,
-      "title": "Aspettare e sperare",
-      "wrong": "« Aspetto che tu stai bene. »",
-      "right": "« Spero che tu stia bene. »",
-      "why": "**Aspettare** è attendere un evento o una persona. Per un augurio si usa **sperare**.",
-      "rule": "**Aspettare** + oggetto diretto (aspetto un amico). **Sperare** + che (+ congiuntivo): spero che tu stia bene.",
-      "examples": [
-        "Aspetto il treno.",
-        "Aspetta qui!",
-        "Non vedo l'ora di vederti."
-      ],
-      "labels": {
-        "wrong": "Non proprio",
-        "right": "Meglio dire",
-        "why": "Perché si sbaglia",
-        "rule": "La regola COSY",
-        "examples": "Altri esempi",
-        "turn": "Tocca a te"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "9. Capire (To Understand)",
-      "say": "9. Capire (To Understand)"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Capire** è un verbo in -ire che segue il modello « -isc- »: nelle persone io, tu, lui e loro si aggiunge -isc- (capisco, capisci, capisce, capiscono). Serve per dire che si comprende o per chiedere una spiegazione.",
-      "say": "Capire è un verbo in -ire che segue il modello « -isc- »: nelle persone io, tu, lui e loro si aggiunge -isc- (capisco, capisci, capisce, capiscono). Serve per dire che si comprende o per chiedere una spiegazione."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronome",
-        "Capire",
-        "Esempio"
-      ],
-      "rows": [
-        [
-          "Io",
-          "capisco",
-          "Capisco la lezione."
-        ],
-        [
-          "Tu",
-          "capisci",
-          "Capisci cosa intendo?"
-        ],
-        [
-          "Lui / Lei",
-          "capisce",
-          "Lei capisce tutto."
-        ],
-        [
-          "Noi",
-          "capiamo",
-          "Capiamo un po'."
-        ],
-        [
-          "Voi",
-          "capite",
-          "Capite l'italiano?"
-        ],
-        [
-          "Loro",
-          "capiscono",
-          "Non capiscono la domanda."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Comprensione:** 'Capisco', 'Non capisco', 'Capisci?', 'Ho capito'.",
-        "**Chiedere aiuto:** 'Può ripetere?', 'Non ho capito', 'Che cosa significa… ?'.",
-        "**Espressioni utili:** 'farsi capire', 'capire al volo', 'capisco benissimo'."
-      ],
-      "say": "Comprensione: 'Capisco', 'Non capisco', 'Capisci?', 'Ho capito'. Chiedere aiuto: 'Può ripetere?', 'Non ho capito', 'Che cosa significa… ?'. Espressioni utili: 'farsi capire', 'capire al volo', 'capisco benissimo'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Ad alta voce",
-      "say": "Ad alta voce"
-    },
-    {
-      "type": "example",
-      "targetText": "Scusi, non capisco: può parlare più lentamente?",
-      "gloss": "Frase indispensabile per ogni principiante.",
-      "context": "Sei a un ufficio informazioni."
-    },
-    {
-      "type": "example",
-      "targetText": "Capisco quasi tutto, ma non so ancora rispondere bene.",
-      "gloss": "Capire e parlare crescono a velocità diverse.",
-      "context": "Descrivi il tuo livello."
-    },
-    {
-      "type": "example",
-      "targetText": "– Hai capito la regola? – Più o meno. – Ti faccio un esempio.",
-      "gloss": "« Più o meno » = in parte.",
-      "context": "L'insegnante controlla la classe."
-    },
-    {
-      "type": "mistake-card",
-      "number": 9,
-      "title": "Capire e le persone in -isc-",
-      "wrong": "« Io capo, tu capi. »",
-      "right": "« Io capisco, tu capisci. »",
-      "why": "Molti verbi in -ire (capire, finire, preferire) aggiungono -isc- nelle persone singolari e nella terza plurale. Chi non lo sa tende a togliere la desinenza.",
-      "rule": "In -ire come **capire**: **-isco, -isci, -isce, -iamo, -ite, -iscono**. Anche: finire, preferire, pulire.",
-      "examples": [
-        "Finisco alle sei.",
-        "Preferisci il tè o il caffè?",
-        "Non capiscono."
-      ],
-      "labels": {
-        "wrong": "Non proprio",
-        "right": "Meglio dire",
-        "why": "Perché si sbaglia",
-        "rule": "La regola COSY",
-        "examples": "Altri esempi",
-        "turn": "Tocca a te"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Chiedere / Rispondere (To Ask / To Answer)",
-      "say": "10. Chiedere / Rispondere (To Ask / To Answer)"
+      "text": "8. Chiedere / Rispondere",
+      "say": "8. Chiedere / Rispondere"
     },
     {
       "type": "paragraph",
@@ -1296,7 +1099,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 10,
+      "number": 8,
       "title": "Chiedere a qualcuno",
       "wrong": "« Chiedo lui un favore. »",
       "right": "« Gli chiedo un favore. »",
@@ -1327,6 +1130,229 @@
       "correctIndex": 0,
       "explanation": "Davanti a una città si usa « a », davanti a un paese « in »: « Abito a Torino, in Italia. »",
       "say": "Abito ___ Torino, ___ Italia."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Aspettare",
+      "say": "9. Aspettare"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Aspettare** è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus ».",
+      "say": "Aspettare è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Aspettare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "aspetto",
+          "Aspetto l'autobus da dieci minuti."
+        ],
+        [
+          "Tu",
+          "aspetti",
+          "Chi aspetti?"
+        ],
+        [
+          "Lui / Lei",
+          "aspetta",
+          "Lei aspetta una telefonata."
+        ],
+        [
+          "Noi",
+          "aspettiamo",
+          "Aspettiamo in fila."
+        ],
+        [
+          "Voi",
+          "aspettate",
+          "Aspettate un momento!"
+        ],
+        [
+          "Loro",
+          "aspettano",
+          "Aspettano il treno."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Attesa quotidiana:** 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'.",
+        "**Imperativo:** 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia).",
+        "**Espressioni utili:** 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
+      ],
+      "say": "Attesa quotidiana: 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'. Imperativo: 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia). Espressioni utili: 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Aspetto il mio amico davanti al cinema.",
+      "gloss": "Aspettare + persona o cosa, senza preposizione.",
+      "context": "Sei in anticipo a un appuntamento."
+    },
+    {
+      "type": "example",
+      "targetText": "Aspetta un momento, arrivo subito!",
+      "gloss": "L'imperativo di cortesia tra amici: aspetta.",
+      "context": "Sei al telefono."
+    },
+    {
+      "type": "example",
+      "targetText": "– Non vedo l'ora di partire! – Anch'io! Aspetto queste vacanze da mesi.",
+      "gloss": "« Non vedere l'ora » = essere molto impazienti.",
+      "context": "Due colleghi parlano delle ferie.",
+      "number": 9
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Aspettare e sperare",
+      "wrong": "« Aspetto che tu stai bene. »",
+      "right": "« Spero che tu stia bene. »",
+      "why": "**Aspettare** è attendere un evento o una persona. Per un augurio si usa **sperare**.",
+      "rule": "**Aspettare** + oggetto diretto (aspetto un amico). **Sperare** + che (+ congiuntivo): spero che tu stia bene.",
+      "examples": [
+        "Aspetto il treno.",
+        "Aspetta qui!",
+        "Non vedo l'ora di vederti."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Vivere / Abitare",
+      "say": "10. Vivere / Abitare"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Abitare** indica dove hai casa (abito a Milano); **vivere** ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa **abitare** per l'indirizzo.",
+      "say": "Abitare indica dove hai casa (abito a Milano); vivere ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa abitare per l'indirizzo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Vivere",
+        "Abitare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "vivo",
+          "abito",
+          "Vivo all'estero da due anni."
+        ],
+        [
+          "Tu",
+          "vivi",
+          "abiti",
+          "Dove abiti?"
+        ],
+        [
+          "Lui / Lei",
+          "vive",
+          "abita",
+          "Lei abita vicino al parco."
+        ],
+        [
+          "Noi",
+          "viviamo",
+          "abitiamo",
+          "Abitiamo in centro."
+        ],
+        [
+          "Voi",
+          "vivete",
+          "abitate",
+          "Vivete in campagna?"
+        ],
+        [
+          "Loro",
+          "vivono",
+          "abitano",
+          "Abitano a Torino."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Indirizzo:** 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'.",
+        "**Stile di vita:** 'vivere in pace', 'vivere all'estero', 'vivere da soli'.",
+        "**Espressioni utili:** 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
+      ],
+      "say": "Indirizzo: 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'. Stile di vita: 'vivere in pace', 'vivere all'estero', 'vivere da soli'. Espressioni utili: 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Abito in un piccolo appartamento vicino alla stazione.",
+      "gloss": "Abitare + in / a + luogo.",
+      "context": "Descrivi casa tua a un nuovo vicino."
+    },
+    {
+      "type": "example",
+      "targetText": "Mio fratello vive a Londra da cinque anni.",
+      "gloss": "Vivere in un paese: spesso con un senso di esperienza di vita.",
+      "context": "Parli della tua famiglia."
+    },
+    {
+      "type": "example",
+      "targetText": "– Dove abiti? – Abito a Bologna, e tu? – Io vivo a Firenze, ma sono nato qui.",
+      "gloss": "Domanda classica per fare conoscenza.",
+      "context": "Due persone si conoscono a una festa.",
+      "number": 10
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "A o in con abitare",
+      "wrong": "« Abito in Milano. »",
+      "right": "« Abito a Milano. »",
+      "why": "Davanti a una città si usa **a**, davanti a un paese o a una regione si usa **in**. Chi studia altre lingue tende a usare sempre la stessa preposizione.",
+      "rule": "**a** + città: abito a Roma. **in** + paese / regione: abito in Italia, in Toscana.",
+      "examples": [
+        "Abito a Padova.",
+        "Vivo in Francia.",
+        "Abitano a Parigi, in Francia."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
     },
     {
       "type": "heading",
@@ -1424,13 +1450,13 @@
       "type": "list-item",
       "ordered": true,
       "items": [
-        "**Minuto 1, riscaldamento:** di' ad alta voce le sei forme di fare e di dovere, senza guardare le tabelle.",
+        "**Minuto 1, riscaldamento:** recita il presente di fare, venire/partire e prendere/dare senza guardare le tabelle.",
         "**Minuto 2, tre verbi, tre frasi:** scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: « Abito… », « Devo… », « Aspetto… ».",
         "**Minuto 3, caccia all'errore:** rileggi una carta « Non proprio » e ripeti tre volte la frase giusta, cambiando il soggetto ogni volta.",
         "**Minuto 4, mini-dialogo:** recita le due parti con « Che cosa prendi? », « Posso chiederLe… ? », « Non ho capito », e registrati con il telefono.",
         "**Minuto 5, riascolto:** ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglietto vicino alla scrivania."
       ],
-      "say": "Minuto 1, riscaldamento: di' ad alta voce le sei forme di fare e di dovere, senza guardare le tabelle. Minuto 2, tre verbi, tre frasi: scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: « Abito… », « Devo… », « Aspetto… ». Minuto 3, caccia all'errore: rileggi una carta « Non proprio » e ripeti tre volte la frase giusta, cambiando il soggetto ogni volta. Minuto 4, mini-dialogo: recita le due parti con « Che cosa prendi? », « Posso chiederLe… ? », « Non ho capito », e registrati con il telefono. Minuto 5, riascolto: ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglietto vicino alla scrivania."
+      "say": "Minuto 1, riscaldamento: recita il presente di fare, venire e partire, e prendere e dare senza guardare le tabelle."
     },
     {
       "type": "heading",

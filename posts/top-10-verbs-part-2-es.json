@@ -13,7 +13,7 @@
   "date": "2026-12-01",
   "title": "Los 10 verbos esenciales en español, Parte 2 (A0–A1 / A2)",
   "kicker": "GUÍA DE ESPAÑOL — PARTE 2 DE 2",
-  "dek": "Descubre los siguientes 10 verbos clave (hacer, hablar/decir, mirar/ver, escuchar/oír, tener que/deber, tomar/dar, vivir, esperar, entender, preguntar/responder). Conjugaciones consultables en COSYtools.",
+  "dek": "Descubre los siguientes 10 verbos clave (hacer, hablar/decir, mirar/ver, escuchar/oír, tener que/deber/debería, venir/salir, tomar/dar, preguntar/responder, esperar, vivir). Conjugaciones consultables en COSYtools.",
   "tags": [
     "Verbs",
     "Spanish",
@@ -55,104 +55,17 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Hacer:** Actividades cotidianas.\n  • *Frases sencillas:* 'Hacer los deberes', 'Hacer el desayuno', 'Hacer ejercicio'.\n  • *Frases útiles:* 'hacer falta', 'hacer el favor', 'hacer fotos'.",
-        "**2. Hablar / Decir:** Comunicación.\n  • *Frases sencillas:* 'Hablar español', 'Decir la verdad', 'Dime'.\n  • *Frases útiles:* 'hablar de', 'decir que sí', 'por decir algo'.",
-        "**3. Mirar / Ver:** Percepción visual.\n  • *Frases sencillas:* 'Mirar una película', 'Veo un pájaro'.\n  • *Frases útiles:* 'mirar la televisión', 'a ver', 'nos vemos'.",
-        "**4. Escuchar / Oír:** Percepción auditiva.\n  • *Frases sencillas:* 'Escuchar música', 'Oigo un ruido'.\n  • *Frases útiles:* 'escuchar con atención', 'oír hablar de'.",
-        "**5. Tener que / Deber:** Obligación.\n  • *Frases sencillas:* 'Tengo que estudiar', 'Debemos salir ya'.\n  • *Frases útiles:* 'tener que hacer', 'debería ser', 'hay que'.",
-        "**6. Tomar / Dar:** Intercambios.\n  • *Frases sencillas:* 'Tomar el autobús', 'Dar un regalo'.\n  • *Frases útiles:* 'darse prisa', 'dar la mano', 'tomar un café'.",
-        "**7. Vivir:** Residencia.\n  • *Frases sencillas:* 'Vivo en Madrid', 'Vivir bien'.\n  • *Frases útiles:* 'vivir en el extranjero', 'vivir juntos'.",
-        "**8. Esperar:** Espera.\n  • *Frases sencillas:* 'Esperar el autobús', 'Espere un momento'.\n  • *Frases útiles:* 'esperar que', 'hacer cola', 'no ver la hora'.",
-        "**9. Entender:** Comprensión.\n  • *Frases sencillas:* 'Entiendo la lección', '¿Entiendes lo que digo?'.\n  • *Frases útiles:* 'hacerse entender', 'entiendo perfectamente'.",
-        "**10. Preguntar / Responder:** Preguntas y respuestas.\n  • *Frases sencillas:* 'Hacer una pregunta', 'Responder al teléfono'.\n  • *Frases útiles:* 'pedir ayuda', 'responder rápido'."
+        "**1. Hacer:** Actividades cotidianas y creación.\n  • *Frases sencillas:* 'Hacer los deberes', 'Hacer el desayuno', 'Hacer ejercicio'.\n  • *Frases útiles:* 'hacer falta', 'hacer el favor', 'hacer fotos'.",
+        "**2. Hablar / Decir:** Comunicación y palabra.\n  • *Frases sencillas:* 'Hablar español', 'Decir la verdad', 'Dime'.\n  • *Frases útiles:* 'hablar de', 'decir que sí', 'por decir algo'.",
+        "**3. Mirar / Ver:** Percepción visual y atención.\n  • *Frases sencillas:* 'Mirar una película', 'Veo un pájaro'.\n  • *Frases útiles:* 'mirar la televisión', 'a ver', 'nos vemos'.",
+        "**4. Escuchar / Oír:** Percepción auditiva activa y pasiva.\n  • *Frases sencillas:* 'Escuchar música', 'Oigo un ruido'.\n  • *Frases útiles:* 'escuchar con atención', 'oír hablar de'.",
+        "**5. Tener que / Deber:** Obligación, necesidad y consejo (debería).\n  • *Frases sencillas:* 'Tengo que estudiar', 'Debemos salir ya', 'Deberías descansar'.\n  • *Frases útiles:* 'tener que hacer', 'debería ser', 'hay que'.",
+        "**6. Venir / Salir (Irse):** Llegada y partida.\n  • *Frases sencillas:* '¿Vienes conmigo?', 'El tren sale a las ocho', 'Salir de casa'.\n  • *Frases útiles:* 'venir de', 'salir bien', 'irse de viaje'.",
+        "**7. Tomar / Dar:** Intercambios y transporte.\n  • *Frases sencillas:* 'Tomar el autobús', 'Dar un regalo'.\n  • *Frases útiles:* 'darse prisa', 'dar la mano', 'tomar un café'.",
+        "**8. Preguntar / Responder:** Preguntas y respuestas.\n  • *Frases sencillas:* 'Hacer una pregunta', 'Responder al teléfono'.\n  • *Frases útiles:* 'pedir ayuda', 'responder rápido', 'preguntar por'.",
+        "**9. Esperar:** Espera y paciencia.\n  • *Frases sencillas:* 'Esperar el autobús', 'Espere un momento'.\n  • *Frases útiles:* 'esperar que', 'hacer cola', 'no ver la hora'.",
+        "**10. Vivir:** Residencia y estilo de vida.\n  • *Frases sencillas:* 'Vivo en Madrid', 'Vivir bien'.\n  • *Frases útiles:* 'vivir en el extranjero', 'vivir juntos', 'vivir cerca'."
       ]
-    },
-    {
-      "type": "table",
-      "printable": true,
-      "listId": "top10",
-      "csvName": "top-10-verbs-part-2-es",
-      "listTitle": "La lista completa",
-      "headers": [
-        "#",
-        "Verbo",
-        "Para qué sirve",
-        "Ejemplo",
-        "Expresiones útiles"
-      ],
-      "rows": [
-        [
-          "1",
-          "Hacer",
-          "Actividades cotidianas.",
-          "'Hacer los deberes', 'Hacer el desayuno', 'Hacer ejercicio'.",
-          "'hacer falta', 'hacer el favor', 'hacer fotos'."
-        ],
-        [
-          "2",
-          "Hablar / Decir",
-          "Comunicación.",
-          "'Hablar español', 'Decir la verdad', 'Dime'.",
-          "'hablar de', 'decir que sí', 'por decir algo'."
-        ],
-        [
-          "3",
-          "Mirar / Ver",
-          "Percepción visual.",
-          "'Mirar una película', 'Veo un pájaro'.",
-          "'mirar la televisión', 'a ver', 'nos vemos'."
-        ],
-        [
-          "4",
-          "Escuchar / Oír",
-          "Percepción auditiva.",
-          "'Escuchar música', 'Oigo un ruido'.",
-          "'escuchar con atención', 'oír hablar de'."
-        ],
-        [
-          "5",
-          "Tener que / Deber",
-          "Obligación.",
-          "'Tengo que estudiar', 'Debemos salir ya'.",
-          "'tener que hacer', 'debería ser', 'hay que'."
-        ],
-        [
-          "6",
-          "Tomar / Dar",
-          "Intercambios.",
-          "'Tomar el autobús', 'Dar un regalo'.",
-          "'darse prisa', 'dar la mano', 'tomar un café'."
-        ],
-        [
-          "7",
-          "Vivir",
-          "Residencia.",
-          "'Vivo en Madrid', 'Vivir bien'.",
-          "'vivir en el extranjero', 'vivir juntos'."
-        ],
-        [
-          "8",
-          "Esperar",
-          "Espera.",
-          "'Esperar el autobús', 'Espere un momento'.",
-          "'esperar que', 'hacer cola', 'no ver la hora'."
-        ],
-        [
-          "9",
-          "Entender",
-          "Comprensión.",
-          "'Entiendo la lección', '¿Entiendes lo que digo?'.",
-          "'hacerse entender', 'entiendo perfectamente'."
-        ],
-        [
-          "10",
-          "Preguntar / Responder",
-          "Preguntas y respuestas.",
-          "'Hacer una pregunta', 'Responder al teléfono'.",
-          "'pedir ayuda', 'responder rápido'."
-        ]
-      ],
-      "webOnly": true
     },
     {
       "type": "heading",
@@ -233,36 +146,6 @@
     {
       "type": "paragraph",
       "text": "📌 Practica en [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lee la [Parte 1](top-10-verbs-es.html) y la [Parte 2](top-10-verbs-part-2-es.html), y consulta las conjugaciones de los verbos en [COSYtools](https://cosylanguages.github.io/COSYtools/)."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "📚 Lecturas recomendadas",
-      "webOnly": true,
-      "listId": "refs"
-    },
-    {
-      "type": "paragraph",
-      "text": "Las ideas de este artículo se apoyan en investigación publicada y en la práctica docente. Para empezar:",
-      "webOnly": true,
-      "listId": "refs"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
-        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
-        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
-        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
-        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
-        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
-        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
-        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
-      ],
-      "webOnly": true,
-      "listId": "refs",
-      "refs": true
     }
   ],
   "draft": false
