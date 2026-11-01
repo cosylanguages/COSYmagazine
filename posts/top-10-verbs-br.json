@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Ar 10 verb pennañ e brezhoneg evit ar re dhazerañ (A0–A1 / A2)",
   "kicker": "KAVLEVR BREZHONEG — RANN 1 EUS 2",
-  "dek": "Deskit ar 10 verb pennañ e brezhoneg (bezañ, kaout, meizañ/soñjal, gouzout, plijout, c'hoant kaout, mont, gallout, debriñ, evañ). Taolennoù conjugazhon war COSYtools.",
+  "dek": "Deskit ar 10 verb pennañ e brezhoneg (bezañ, kaout, soñjal, gouzout/anavezout, plijout, c'hoant kaout, labourat/studiñ/deskiñ, mont, gallout, debriñ/evañ). Taolennoù conjugazhon war COSYtools.",
   "tags": [
     "Verbs",
     "Breton",
@@ -68,70 +68,70 @@
       "rows": [
         [
           "1",
-          "Être (To Be)",
+          "Être",
           "Le verbe être sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation.",
           "Il est à la maison.",
           "'être à l'heure', 'être d'accord', 'être en train de'."
         ],
         [
           "2",
-          "Avoir (To Have)",
+          "Avoir",
           "Le verbe avoir exprime la possession, l'âge, la famille et les sensations physiques.",
           "Elle a deux frères.",
           "'avoir besoin de', 'avoir envie de', 'avoir peur'."
         ],
         [
           "3",
-          "Penser (To Think)",
+          "Penser",
           "Le verbe penser permet d'exprimer une opinion, une réflexion ou une idée.",
           "Il pense à son avenir.",
           "'penser à', 'penser de', 'bien penser'."
         ],
         [
           "4",
-          "Savoir / Connaître (To Know)",
+          "Savoir / Connaître",
           "Savoir s'utilise pour les faits et compétences (savoir + infinitif). Connaître s'utilise pour les lieux et personnes.",
           "connaît",
           "'savoir faire', 'faire savoir', 'en savoir plus'."
         ],
         [
           "5",
-          "Aimer (To Like / Love)",
+          "Aimer",
           "Le verbe aimer exprime les goûts, les préférences, les loisirs et les sentiments.",
           "Il aime voyager.",
           "'j'aimerais' (souhait poli), 'aimer beaucoup'."
         ],
         [
           "6",
-          "Vouloir / Voudrais (To Want / Would Like)",
+          "Vouloir / Voudrais",
           "Le verbe vouloir exprime la volonté. La forme voudrais exprime un souhait avec politesse.",
           "voudrait",
           "'vouloir dire' (signifier), 'si tu veux'."
         ],
         [
           "7",
-          "Aller / Futur proche (To Go)",
+          "Aller / Futur proche",
           "Le verbe aller sert pour les déplacements et permet de former le futur proche (aller + infinitif).",
           "Il va à Paris.",
           "'comment ça va ?', 'y aller', 'aller à pied'."
         ],
         [
           "8",
-          "Pouvoir (To Can / Be able to)",
+          "Pouvoir",
           "Le verbe modal pouvoir exprime la capacité, la possibilité ou la demande de permission.",
           "On peut commencer.",
           "'pouvoir faire', 'si possible', 'comme vous pouvez'."
         ],
         [
           "9",
-          "Manger (To Eat)",
+          "Manger",
           "Le verbe manger s'utilise pour les repas, la nourriture et les habitudes alimentaires.",
           "Il mange à midi.",
           "'bon appétit', 'donner à manger', 'manger équilibré'."
         ],
         [
           "10",
-          "Boire (To Drink)",
+          "Boire",
           "Le verbe boire s'emploie pour les boissons, l'hydratation et les moments conviviaux.",
           "Il boit un thé vert.",
           "'avoir à boire', 'boire un coup', 'boire un verre'."
@@ -142,49 +142,49 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Être (To Be)"
+      "text": "1. Bezañ"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **être** sert à indiquer l'identité, la nationalité, la profession, l'état physique ou psychologique et la localisation."
+      "text": "Ar verb **bezañ** a verk an identelezh, ar vicher, al lec'h hag ar stad."
     },
     {
       "type": "table",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "rows": [
         [
-          "Je",
-          "suis",
-          "Je suis étudiant."
+          "Me",
+          "on",
+          "Skoaziad on."
         ],
         [
-          "Tu",
-          "es",
-          "Tu es prêt ?"
+          "Te",
+          "out",
+          "Prest out?"
         ],
         [
-          "Il / Elle / On",
-          "est",
-          "Il est à la maison."
+          "Eñ / Hi",
+          "zo / emañ",
+          "Er gêr emañ."
         ],
         [
-          "Nous",
-          "sommes",
-          "Nous sommes heureux."
+          "Ni",
+          "omp",
+          "Laouen omp."
         ],
         [
-          "Vous",
-          "êtes",
-          "Vous êtes en avance."
+          "C'hwi",
+          "oc'h",
+          "Abred oc'h."
         ],
         [
-          "Ils / Elles",
-          "sont",
-          "Ils sont très sympathiques."
+          "Int",
+          "int",
+          "Tud vat int."
         ]
       ]
     },
@@ -192,57 +192,400 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Identité & Profession:** 'Je suis Marie', 'Elle est médecin'.",
-        "**Localisation & État:** 'Nous sommes à Paris', 'Tu es fatigué'.",
-        "**Expressions courantes:** 'être à l'heure', 'être d'accord', 'être en train de'."
+        "**Stad:** 'Skoaziad on', 'Er gêr emaon'."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Avoir (To Have)"
+      "text": "2. Kaout"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **avoir** exprime la possession, l'âge, la famille et les sensations physiques."
+      "text": "Ar verb **kaout** a verk ar perc'henniezh hag an oad."
     },
     {
       "type": "table",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "rows": [
         [
-          "J'",
-          "ai",
-          "J'ai une voiture."
+          "Me",
+          "am eus",
+          "Ul levr am eus."
         ],
         [
-          "Tu",
-          "as",
-          "Tu as le temps."
+          "Te",
+          "az peus",
+          "Amzer az peus?"
         ],
         [
-          "Il / Elle / On",
+          "Eñ / Hi",
+          "en deus / he deus",
+          "Ur c'hoar en deus."
+        ],
+        [
+          "Ni",
+          "hon eus",
+          "Ur goulenn hon eus."
+        ],
+        [
+          "C'hwi",
+          "hoc'h eus",
+          "Gwir hoc'h eus."
+        ],
+        [
+          "Int",
+          "o deus",
+          "Ur c'hi o deus."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Perc'henniezh:** 'Ul levr am eus'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Soñjal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **soñjal** a verk ar soñjoù hag an ali."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "soñjan",
+          "Soñjal a ran."
+        ],
+        [
+          "Te",
+          "soñjez",
+          "Petra a soñjez?"
+        ],
+        [
+          "Eñ / Hi",
+          "soñj",
+          "Soñjal a ra en dazont."
+        ],
+        [
+          "Ni",
+          "soñjomp",
+          "Soñjal a reomp kemend-all."
+        ],
+        [
+          "C'hwi",
+          "soñjit",
+          "Petra a soñjit?"
+        ],
+        [
+          "Int",
+          "soñjont",
+          "Soñjal a reont el labour."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ali:** 'Soñjal a ran eo mat'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Gouzout / Anavezout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Gouzout** evit ar fedoù hag an diskoulmoù, **anavezout** evit an dud hag al lec'hioù."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Gouzout",
+        "Anavezout"
+      ],
+      "rows": [
+        [
+          "Me",
+          "ouzon",
+          "anavezan"
+        ],
+        [
+          "Te",
+          "ouzout",
+          "anavezout"
+        ],
+        [
+          "Eñ / Hi",
+          "oar",
+          "anavez"
+        ],
+        [
+          "Ni",
+          "ouzomp",
+          "anavezomp"
+        ],
+        [
+          "C'hwi",
+          "ouzoc'h",
+          "anavezoc'h"
+        ],
+        [
+          "Int",
+          "ouzont",
+          "anavezont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gouiziegezh:** 'Gouzout a ran ar respont'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Plijout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **plijout** a verk ar santimantoù hag ar c'hoantoù."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Din",
+          "plij",
+          "Plijout a ra din ar c'hafe."
+        ],
+        [
+          "Dit",
+          "plij",
+          "Plijout a ra dit ar sonerezh?"
+        ],
+        [
+          "Dezhañ / Dezhi",
+          "plij",
+          "Plijout a ra dezhañ beajiñ."
+        ],
+        [
+          "Deomp",
+          "plij",
+          "Plijout a ra deomp ar sport."
+        ],
+        [
+          "Deoc'h",
+          "plij",
+          "Plijout a ra deoc'h al lennegezh?"
+        ],
+        [
+          "Dezho",
+          "plij",
+          "Plijout a ra dezho lenn."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Pliadur:** 'Plijout a ra din ar brezhoneg'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. C'hoant kaout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**C'hoant kaout** a verk ar c'hoant hag ar bolontez."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "c'hoant am eus",
+          "C'hoant am eus da evañ dour."
+        ],
+        [
+          "Te",
+          "c'hoant az peus",
+          "Petra az peus c'hoant?"
+        ],
+        [
+          "Eñ / Hi",
+          "c'hoant en/he deus",
+          "C'hoant en deus da zeskiñ."
+        ],
+        [
+          "Ni",
+          "c'hoant hon eus",
+          "C'hoant hon eus da ziskuizhañ."
+        ],
+        [
+          "C'hwi",
+          "c'hoant hoc'h eus",
+          "C'hoant hoc'h eus kafe?"
+        ],
+        [
+          "Int",
+          "c'hoant o deus",
+          "C'hoant o deus mont d'ar gêr."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**C'hoant:** 'C'hoant am eus da zeskiñ'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Labourat / Studiñ / Deskiñ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verboù **labourat**, **studiñ** ha **deskiñ** a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Labourat",
+        "Studiñ",
+        "Deskiñ"
+      ],
+      "rows": [
+        [
+          "Me",
+          "labouran",
+          "studian",
+          "deskan"
+        ],
+        [
+          "Te",
+          "labourez",
+          "studiez",
+          "deskez"
+        ],
+        [
+          "Eñ / Hi",
+          "labour",
+          "studi",
+          "desk"
+        ],
+        [
+          "Ni",
+          "labouromp",
+          "studiomp",
+          "deskomp"
+        ],
+        [
+          "C'hwi",
+          "labourit",
+          "studiit",
+          "deskit"
+        ],
+        [
+          "Int",
+          "labouront",
+          "studiont",
+          "deskont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Labourat:** 'Labourat a ran en un ti-embann'.",
+        "**Studiñ:** 'Studiñ a ran brezhoneg'.",
+        "**Deskiñ:** 'Deskiñ a ran buan'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Mont"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **mont** a verk an dilec'hiañ."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "an",
+          "Mont a ran d'al labour."
+        ],
+        [
+          "Te",
+          "ez",
+          "Pelec'h ez ez?"
+        ],
+        [
+          "Eñ / Hi",
           "a",
-          "Elle a deux frères."
+          "Mont a ra d'ar gêr."
         ],
         [
-          "Nous",
-          "avons",
-          "Nous avons une question."
+          "Ni",
+          "eomp",
+          "Mont a reomp d'ar sinema."
         ],
         [
-          "Vous",
-          "avez",
-          "Vous avez raison."
+          "C'hwi",
+          "it",
+          "Pelec'h ez it?"
         ],
         [
-          "Ils / Elles",
-          "ont",
-          "Ils ont un chien."
+          "Int",
+          "eont",
+          "Mont a reont d'ar skol."
         ]
       ]
     },
@@ -250,57 +593,55 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Possession & Âge:** 'J'ai un livre', 'J'ai 25 ans'.",
-        "**Sensations:** 'J'ai faim', 'J'ai soif', 'J'ai chaud', 'J'ai froid'.",
-        "**Expressions courantes:** 'avoir besoin de', 'avoir envie de', 'avoir peur'."
+        "**Dilec'hiañ:** 'Mont a ran d'ar gêr'."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Penser (To Think)"
+      "text": "9. Gallout"
     },
     {
       "type": "paragraph",
-      "text": "Le verbe **penser** permet d'exprimer une opinion, une réflexion ou une idée."
+      "text": "Ar verb **gallout** a verk an aotre hag ar varregezh."
     },
     {
       "type": "table",
       "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
       ],
       "rows": [
         [
-          "Je",
-          "pense",
-          "Je pense que oui."
+          "Me",
+          "hallan",
+          "Gallout a ran sikour."
         ],
         [
-          "Tu",
-          "penses",
-          "Qu'en penses-tu ?"
+          "Te",
+          "hallez",
+          "Gallout a rez dont?"
         ],
         [
-          "Il / Elle / On",
-          "pense",
-          "Il pense à son avenir."
+          "Eñ / Hi",
+          "c'hall",
+          "Gallout a ra komz."
         ],
         [
-          "Nous",
-          "pensons",
-          "Nous pensons arriver bientôt."
+          "Ni",
+          "hallomp",
+          "Gallout a reomp kregiñ."
         ],
         [
-          "Vous",
-          "pensez",
-          "Que pensez-vous de ce livre ?"
+          "C'hwi",
+          "hallit",
+          "Gallout a rit adlavarout?"
         ],
         [
-          "Ils / Elles",
-          "pensent",
-          "Elles pensent la même chose."
+          "Int",
+          "hallont",
+          "Gallout a reont dont."
         ]
       ]
     },
@@ -308,57 +649,55 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Opinion:** 'Je pense que c'est une excellente idée'.",
-        "**Réflexion:** 'Je pense à mes vacances'.",
-        "**Expressions courantes:** 'penser à', 'penser de', 'bien penser'."
+        "**Barregezh:** 'Gallout a ran komz brezhoneg'."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Savoir / Connaître (To Know)"
+      "text": "10. Debriñ / Evañ"
     },
     {
       "type": "paragraph",
-      "text": "**Savoir** s'utilise pour les faits et compétences (savoir + infinitif). **Connaître** s'utilise pour les lieux et personnes."
+      "text": "Ar verboù **debriñ** hag **evañ** evit ar predoù, an diedoù hag an dud asambles."
     },
     {
       "type": "table",
       "headers": [
-        "Pronom",
-        "Savoir",
-        "Connaître"
+        "Raganv",
+        "Debriñ",
+        "Evañ"
       ],
       "rows": [
         [
-          "Je",
-          "sais",
-          "connais"
+          "Me",
+          "debran",
+          "evan"
         ],
         [
-          "Tu",
-          "sais",
-          "connais"
+          "Te",
+          "debrez",
+          "evez"
         ],
         [
-          "Il / Elle / On",
-          "sait",
-          "connaît"
+          "Eñ / Hi",
+          "deb",
+          "ev"
         ],
         [
-          "Nous",
-          "savons",
-          "connaissons"
+          "Ni",
+          "debromp",
+          "evomp"
         ],
         [
-          "Vous",
-          "savez",
-          "connaissez"
+          "C'hwi",
+          "debrit",
+          "evit"
         ],
         [
-          "Ils / Elles",
-          "savent",
-          "connaissent"
+          "Int",
+          "debront",
+          "evont"
         ]
       ]
     },
@@ -366,357 +705,9 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Savoir (Compétences):** 'Je sais parler français', 'Je sais conduire'.",
-        "**Connaître (Lieux/Personnes):** 'Je connais cette ville', 'Tu connais Marc ?'.",
-        "**Expressions courantes:** 'savoir faire', 'faire savoir', 'en savoir plus'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "5. Aimer (To Like / Love)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **aimer** exprime les goûts, les préférences, les loisirs et les sentiments."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "J'",
-          "aime",
-          "J'aime le chocolat."
-        ],
-        [
-          "Tu",
-          "aimes",
-          "Tu aimes la musique ?"
-        ],
-        [
-          "Il / Elle / On",
-          "aime",
-          "Il aime voyager."
-        ],
-        [
-          "Nous",
-          "aimons",
-          "Nous aimons le sport."
-        ],
-        [
-          "Vous",
-          "aimez",
-          "Vous aimez le cinéma ?"
-        ],
-        [
-          "Ils / Elles",
-          "aiment",
-          "Elles aiment lire."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Goûts & Préférences:** 'J'aime le café', 'Il aime écouter de la musique'.",
-        "**Nuance:** 'aimer bien' (apprécier) vs 'aimer' (aimer d'amour).",
-        "**Expressions courantes:** 'j'aimerais' (souhait poli), 'aimer beaucoup'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "6. Vouloir / Voudrais (To Want / Would Like)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **vouloir** exprime la volonté. La forme **voudrais** exprime un souhait avec politesse."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Politesse (Conditionnel)"
-      ],
-      "rows": [
-        [
-          "Je",
-          "veux",
-          "voudrais"
-        ],
-        [
-          "Tu",
-          "veux",
-          "voudrais"
-        ],
-        [
-          "Il / Elle / On",
-          "veut",
-          "voudrait"
-        ],
-        [
-          "Nous",
-          "voulons",
-          "voudrions"
-        ],
-        [
-          "Vous",
-          "voulez",
-          "voudriez"
-        ],
-        [
-          "Ils / Elles",
-          "veulent",
-          "voudraient"
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Volonté:** 'Je veux de l'eau', 'Que veux-tu faire ?'.",
-        "**Demande polie:** 'Je voudrais une réservation, s'il vous plaît'.",
-        "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "7. Aller / Futur proche (To Go)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **aller** sert pour les déplacements et permet de former le futur proche (*aller + infinitif*)."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "Je",
-          "vais",
-          "Je vais au travail / Je vais manger."
-        ],
-        [
-          "Tu",
-          "vas",
-          "Tu vas à la gare ?"
-        ],
-        [
-          "Il / Elle / On",
-          "va",
-          "Il va à Paris."
-        ],
-        [
-          "Nous",
-          "allons",
-          "Nous allons au cinéma."
-        ],
-        [
-          "Vous",
-          "allez",
-          "Comment allez-vous ?"
-        ],
-        [
-          "Ils / Elles",
-          "vont",
-          "Elles vont réussir."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Déplacement:** 'Je vais à l'école', 'Nous allons en France'.",
-        "**Futur proche:** 'Je vais étudier', 'Elle va téléphoner'.",
-        "**Expressions courantes:** 'comment ça va ?', 'y aller', 'aller à pied'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Pouvoir (To Can / Be able to)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe modal **pouvoir** exprime la capacité, la possibilité ou la demande de permission."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "Je",
-          "peux",
-          "Je peux vous aider."
-        ],
-        [
-          "Tu",
-          "peux",
-          "Tu peux venir ce soir ?"
-        ],
-        [
-          "Il / Elle / On",
-          "peut",
-          "On peut commencer."
-        ],
-        [
-          "Nous",
-          "pouvons",
-          "Nous pouvons le faire."
-        ],
-        [
-          "Vous",
-          "pouvez",
-          "Vous pouvez répéter ?"
-        ],
-        [
-          "Ils / Elles",
-          "peuvent",
-          "Ils peuvent entrer."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Capacité & Possibilité:** 'Je peux parler trois langues', 'Il peut venir'.",
-        "**Permission & Politesse:** 'Puis-je vous poser une question ?', 'Tu peux t'asseoir'.",
-        "**Expressions courantes:** 'pouvoir faire', 'si possible', 'comme vous pouvez'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "9. Manger (To Eat)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **manger** s'utilise pour les repas, la nourriture et les habitudes alimentaires."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "Je",
-          "mange",
-          "Je mange une pomme."
-        ],
-        [
-          "Tu",
-          "manges",
-          "Qu'est-ce que tu manges ?"
-        ],
-        [
-          "Il / Elle / On",
-          "mange",
-          "Il mange à midi."
-        ],
-        [
-          "Nous",
-          "mangeons",
-          "Nous mangeons ensemble."
-        ],
-        [
-          "Vous",
-          "mangez",
-          "Vous mangez de la viande ?"
-        ],
-        [
-          "Ils / Elles",
-          "mangent",
-          "Elles mangent une salade."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Repas quotidiens:** 'Je mange du pain au petit-déjeuner'.",
-        "**Remarque orthographique:** Notez le 'e' intercalé (*nous mangeons*).",
-        "**Expressions courantes:** 'bon appétit', 'donner à manger', 'manger équilibré'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Boire (To Drink)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Le verbe **boire** s'emploie pour les boissons, l'hydratation et les moments conviviaux."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronom",
-        "Présent",
-        "Exemple"
-      ],
-      "rows": [
-        [
-          "Je",
-          "bois",
-          "Je bois de l'eau."
-        ],
-        [
-          "Tu",
-          "bois",
-          "Tu bois du café ?"
-        ],
-        [
-          "Il / Elle / On",
-          "boit",
-          "Il boit un thé vert."
-        ],
-        [
-          "Nous",
-          "buvons",
-          "Nous buvons du jus de pomme."
-        ],
-        [
-          "Vous",
-          "buvez",
-          "Que buvez-vous ?"
-        ],
-        [
-          "Ils / Elles",
-          "boivent",
-          "Elles boivent de l'eau fraîche."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Boissons quotidiennes:** 'Je bois un grand verre d'eau le matin'.",
-        "**Moment convivial:** 'Voulez-vous boire quelque chose ?'.",
-        "**Expressions courantes:** 'avoir à boire', 'boire un coup', 'boire un verre'."
+        "**Debriñ:** 'Debriñ a ran un aval'.",
+        "**Evañ:** 'Evañ a ran dour fresk'.",
+        "**Troioù-lavar:** 'Kalz a galon!', 'evañ ur banne'."
       ]
     },
     {

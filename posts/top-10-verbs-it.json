@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "I 10 verbi essenziali in italiano per principianti (A0–A1 / A2)",
   "kicker": "GUIDA ALL'ITALIANO — PARTE 1 DI 2",
-  "dek": "Impara i primi 10 verbi fondamentali della lingua italiana (essere, avere, pensare, sapere/conoscere, piacere, volere/vorrei, andare/stare per, potere, mangiare, bere). Coniugazioni consultabili su COSYtools.",
+  "dek": "Impara i primi 10 verbi fondamentali della lingua italiana (essere, avere, pensare, sapere/conoscere, piacere, volere/vorrei, lavorare/studiare/imparare, andare, potere, mangiare/bere). Coniugazioni consultabili su COSYtools.",
   "tags": [
     "Verbs",
     "Italian",
@@ -80,73 +80,73 @@
       "rows": [
         [
           "1",
-          "Essere (To Be)",
+          "Essere",
           "Il verbo essere esprime identità, nazionalità, professione, stato d'animo e posizione.",
           "Lui è a casa.",
           "'essere d'accordo', 'essere in orario'."
         ],
         [
           "2",
-          "Avere (To Have)",
+          "Avere",
           "Il verbo avere esprime possesso, età, relazioni familiari e sensazioni fisiche.",
           "Lei ha due fratelli.",
           "'avere bisogno di', 'avere voglia di', 'avere paura'."
         ],
         [
           "3",
-          "Pensare (To Think)",
+          "Pensare",
           "Il verbo pensare serve per esprimere opinioni, riflessioni ed idee.",
           "Pensa al suo futuro.",
           "'pensare a', 'pensare di'."
         ],
         [
           "4",
-          "Sapere / Conoscere (To Know)",
+          "Sapere / Conoscere",
           "Sapere si usa per fatti ed abilità (sapere + infinito). Conoscere per persone, luoghi e cose.",
           "conosce",
           "'fare sapere', 'sapere fare'."
         ],
         [
           "5",
-          "Piacere / Amare (To Like / Love)",
+          "Piacere / Amare",
           "Il verbo piacere si usa in forma indiretta (mi piace). Amare per sentimenti intensi e passioni.",
           "ama",
           "'mi piacerebbe' (desiderio cortese)."
         ],
         [
           "6",
-          "Volere / Vorrei (To Want / Would Like)",
+          "Volere / Vorrei",
           "Il verbo volere esprime volontà. La forma vorrei esprime una richiesta con cortesia.",
           "vorrebbe",
           "'voler dire' (significare), 'se vuoi'."
         ],
         [
           "7",
-          "Andare (To Go)",
-          "Il verbo andare indica movimento nello spazio verso una destinazione.",
-          "Lei va a Roma.",
-          "'andare a piedi', 'andare d'accordo'."
+          "Lavorare / Studiare / Imparare",
+          "Lavoro, studi accademici, apprendimento.",
+          "Lavora a Milano.",
+          "'lavorare sodo', 'studiare all'università', 'imparare a memoria'."
         ],
         [
           "8",
-          "Potere (To Can / Be able to)",
-          "Il verbo modale potere esprime possibilità, capacità o richiesta di permesso.",
-          "Può entrare.",
-          "'non poterne più'."
+          "Andare",
+          "Movimento nello spazio verso una destinazione.",
+          "Lei va a Roma.",
+          "'andare a piedi', 'andare d'accordo', 'come va?'."
         ],
         [
           "9",
-          "Mangiare (To Eat)",
-          "Il verbo mangiare riguarda i pasti quotidiani, il cibo e le abitudini alimentari.",
-          "Mangia a mezzogiorno.",
-          "'Buon appetito!', 'mangiare fuori'."
+          "Potere",
+          "Possibilità, capacità o richiesta di permesso.",
+          "Può entrare.",
+          "'non poterne più', 'se possibile'."
         ],
         [
           "10",
-          "Bere (To Drink)",
-          "Il verbo bere riguarda le bevande, l'idratazione e i momenti di convivialità.",
-          "Beve un tè verde.",
-          "'dare da bere', 'bere un bicchiere'."
+          "Mangiare / Bere",
+          "Pasti quotidiani, cibo, bevande e convivialità.",
+          "Mangiamo insieme.",
+          "'buon appetito!', 'bere un caffè', 'mangiare sano'."
         ]
       ],
       "webOnly": true
@@ -166,11 +166,11 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Chi sono, che cosa ho:** essere, avere. Identità, età, professione, sensazioni.",
-        "**Che cosa penso, che cosa so:** pensare, sapere, conoscere. Opinioni, capacità, persone e luoghi.",
-        "**Che cosa mi piace, che cosa voglio:** piacere, volere. Gusti, desideri, richieste cortesi.",
-        "**Muoversi e riuscire:** andare, potere. Spostamenti, programmi vicini, permesso.",
-        "**La vita di ogni giorno:** mangiare, bere. Pasti, bevande, inviti."
+        "**Chi sono, cosa ho :** essere, avere. Identità, età, professione, sensazioni.",
+        "**Cosa penso, cosa so :** pensare, sapere, conoscere. Opinioni, competenze, persone e luoghi.",
+        "**Cosa mi piace, cosa voglio :** piacere, volere. Gusti, desideri, richieste cortesi.",
+        "**Il lavoro e lo studio :** lavorare, studiare, imparare. Professione, studio ed acquisizione di abilità.",
+        "**Muoversi, potere e nutrirsi :** andare, potere, mangiare e bere. Spostamenti, permessi, pasti e bevande."
       ],
       "say": "Chi sono, che cosa ho: essere, avere. Identità, età, professione, sensazioni. Che cosa penso, che cosa so: pensare, sapere, conoscere. Opinioni, capacità, persone e luoghi. Che cosa mi piace, che cosa voglio: piacere, volere. Gusti, desideri, richieste cortesi. Muoversi e riuscire: andare, potere. Spostamenti, programmi vicini, permesso. La vita di ogni giorno: mangiare, bere. Pasti, bevande, inviti."
     },
@@ -183,8 +183,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Essere (To Be)",
-      "say": "1. Essere (To Be)"
+      "text": "1. Essere",
+      "say": "1. Essere"
     },
     {
       "type": "paragraph",
@@ -294,8 +294,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Avere (To Have)",
-      "say": "2. Avere (To Have)"
+      "text": "2. Avere",
+      "say": "2. Avere"
     },
     {
       "type": "paragraph",
@@ -405,8 +405,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Pensare (To Think)",
-      "say": "3. Pensare (To Think)"
+      "text": "3. Pensare",
+      "say": "3. Pensare"
     },
     {
       "type": "paragraph",
@@ -528,8 +528,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Sapere / Conoscere (To Know)",
-      "say": "4. Sapere / Conoscere (To Know)"
+      "text": "4. Sapere / Conoscere",
+      "say": "4. Sapere / Conoscere"
     },
     {
       "type": "paragraph",
@@ -639,8 +639,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Piacere / Amare (To Like / Love)",
-      "say": "5. Piacere / Amare (To Like / Love)"
+      "text": "5. Piacere / Amare",
+      "say": "5. Piacere / Amare"
     },
     {
       "type": "paragraph",
@@ -750,8 +750,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Volere / Vorrei (To Want / Would Like)",
-      "say": "6. Volere / Vorrei (To Want / Would Like)"
+      "text": "6. Volere / Vorrei",
+      "say": "6. Volere / Vorrei"
     },
     {
       "type": "paragraph",
@@ -879,8 +879,124 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Andare (To Go)",
-      "say": "7. Andare (To Go)"
+      "text": "7. Lavorare / Studiare / Imparare",
+      "say": "Settimo gruppo chiave : lavorare, studiare ed imparare. Tre verbi essenziali per parlare della vita professionale e dell'apprendimento."
+    },
+    {
+      "type": "paragraph",
+      "text": "I verbi **lavorare**, **studiare** e **imparare** esprimono le attività professionali, l'istruzione e l'acquisizione di nuove competenze. In italiano, *lavorare* riguarda l'attività lavorativa, *studiare* l'impegno su libri o corsi, e *imparare* il processo di apprendimento.",
+      "say": "Lavorare riguarda la professione, studiare l'attività accademica, e imparare l'acquisizione pratica di nuove abilità."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Lavorare",
+        "Studiare",
+        "Imparare"
+      ],
+      "rows": [
+        [
+          "Io",
+          "lavoro",
+          "studio",
+          "imparo"
+        ],
+        [
+          "Tu",
+          "lavori",
+          "studi",
+          "impari"
+        ],
+        [
+          "Lui / Lei",
+          "lavora",
+          "studia",
+          "impara"
+        ],
+        [
+          "Noi",
+          "lavoriamo",
+          "studiamo",
+          "impariamo"
+        ],
+        [
+          "Voi",
+          "lavorate",
+          "studiate",
+          "imparate"
+        ],
+        [
+          "Loro",
+          "lavorano",
+          "studiano",
+          "imparano"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Lavorare :** 'Lavoro in un ufficio', 'Lavora molto duramente'.",
+        "**Studiare :** 'Studio l'italiano tutti i giorni', 'Studiano all'università'.",
+        "**Imparare :** 'Imparo a cucinare la pasta', 'Impariamo velocemente'.",
+        "**Espressioni utili :** 'lavorare sodo', 'imparare a memoria', 'studiare all'estero'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "A voce alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Lavoro dal lunedì al venerdì.",
+      "gloss": "Per descrivere la routine lavorativa settimanale.",
+      "context": "Spieghi il tuo orario di lavoro a un amico.",
+      "say": "Lavoro dal lunedì al venerdì."
+    },
+    {
+      "type": "example",
+      "targetText": "Studio l'italiano con piacere.",
+      "gloss": "Per parlare dei tuoi studi linguistici.",
+      "context": "Condividi la tua esperienza di apprendimento.",
+      "say": "Studio l'italiano con piacere."
+    },
+    {
+      "type": "example",
+      "targetText": "Imparo a guidare l'auto.",
+      "gloss": "Usa imparare a + infinito per un'abilità pratica.",
+      "context": "Racconti una nuova competenza che stai sviluppando.",
+      "say": "Imparo a guidare l'auto."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Imparare a + infinito",
+      "wrong": "« Studio guidare. »",
+      "right": "« Imparo a guidare. »",
+      "why": "In italiano per apprendere un'abilità pratica (nuotare, guidare, parlare una lingua) si usa imparare a + infinito.",
+      "rule": "Si usa **imparare a** + infinito per le competenze pratiche : imparare a nuotare, imparare a parlare.",
+      "examples": [
+        "Imparo a suonare il pianoforte.",
+        "Lui impara a cucinare."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Di' così",
+        "why": "Perché succede",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      },
+      "say": "Imparare a più infinito. Diciamo piuttosto : Imparo a guidare."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Andare",
+      "say": "Ottavo verbo : andare. Fondamentale per descrivere gli spostamenti e le direzioni."
     },
     {
       "type": "paragraph",
@@ -966,7 +1082,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 7,
+      "number": 8,
       "title": "Andare e le preposizioni",
       "wrong": "«Vado in Roma.»",
       "right": "«Vado a Roma.»",
@@ -990,8 +1106,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Potere (To Can / Be able to)",
-      "say": "8. Potere (To Can / Be able to)"
+      "text": "9. Potere",
+      "say": "Nono verbo : potere. Il modale essenziale per esprimere capacità, possibilità e chiedere con cortesia."
     },
     {
       "type": "paragraph",
@@ -1077,7 +1193,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 8,
+      "number": 9,
       "title": "Potere + pronome",
       "wrong": "«Posso aiutare te?»",
       "right": "«Posso aiutarti?»",
@@ -1101,51 +1217,51 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Mangiare (To Eat)",
-      "say": "9. Mangiare (To Eat)"
+      "text": "10. Mangiare / Bere",
+      "say": "Decimo pilastro : mangiare e bere. Due verbi inseparabili della cultura e della vita di ogni giorno."
     },
     {
       "type": "paragraph",
-      "text": "Il verbo **mangiare** riguarda i pasti quotidiani, il cibo e le abitudini alimentari.",
-      "say": "Il verbo mangiare riguarda i pasti quotidiani, il cibo e le abitudini alimentari."
+      "text": "I verbi **mangiare** e **bere** accompagnano i momenti conviviali, i pasti e le pause della giornata. Attenzione alla coniugazione irregolare di *bere* (*io bevo, noi beviamo, loro bevono*).",
+      "say": "Mangiare e bere sono al centro della vita quotidiana e della tradizione italiana. Ricorda la forma irregolare : io bevo, noi beviamo."
     },
     {
       "type": "table",
       "headers": [
         "Pronome",
-        "Presente",
-        "Esempio"
+        "Mangiare (Presente)",
+        "Bere (Presente)"
       ],
       "rows": [
         [
           "Io",
           "mangio",
-          "Mangio una mela."
+          "bevo"
         ],
         [
           "Tu",
           "mangi",
-          "Cosa mangi?"
+          "bevi"
         ],
         [
           "Lui / Lei",
           "mangia",
-          "Mangia a mezzogiorno."
+          "beve"
         ],
         [
           "Noi",
           "mangiamo",
-          "Mangiamo insieme."
+          "beviamo"
         ],
         [
           "Voi",
           "mangiate",
-          "Mangiate la carne?"
+          "bevete"
         ],
         [
           "Loro",
           "mangiano",
-          "Mangiano al ristorante."
+          "bevono"
         ]
       ]
     },
@@ -1153,173 +1269,48 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Pasti:** 'Mangio la pizza', 'Andiamo a mangiare'.",
-        "**Espressioni:** 'Buon appetito!', 'mangiare fuori'."
-      ],
-      "say": "Pasti: 'Mangio la pizza', 'Andiamo a mangiare'. Espressioni: 'Buon appetito!', 'mangiare fuori'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Ad alta voce",
-      "say": "Ad alta voce"
-    },
-    {
-      "type": "example",
-      "targetText": "Che cosa mangi a pranzo?",
-      "gloss": "Una domanda semplice sul pasto.",
-      "context": "Parli in cortile con un amico.",
-      "say": "Che cosa mangi a pranzo?"
-    },
-    {
-      "type": "example",
-      "targetText": "Il martedì mangiamo in mensa.",
-      "gloss": "Con noi: mangiamo, con una sola i.",
-      "context": "Descrivi la tua settimana.",
-      "say": "Il martedì mangiamo in mensa."
-    },
-    {
-      "type": "example",
-      "targetText": "Buon appetito! – Grazie, altrettanto.",
-      "gloss": "Una formula prima di cominciare a mangiare.",
-      "context": "Sei a tavola con dei compagni.",
-      "say": "Buon appetito! – Grazie, altrettanto."
-    },
-    {
-      "type": "mistake-card",
-      "number": 9,
-      "title": "Mangiare: una i sola",
-      "wrong": "«Tu mangii troppo in fretta.»",
-      "right": "«Tu mangi troppo in fretta.»",
-      "why": "Nell'infinito c'è una i (mangiare). Molti la tengono anche davanti alla desinenza -i, ma la i della radice si perde.",
-      "rule": "Nei verbi in **-giare** (mangiare, viaggiare) la i della radice non si scrive prima di -i e -iamo: tu **mangi**, noi **mangiamo**.",
-      "examples": [
-        "Tu viaggi spesso.",
-        "Noi mangiamo alle una.",
-        "Voi mangiate qui?"
-      ],
-      "labels": {
-        "wrong": "Non proprio",
-        "right": "Di' così",
-        "why": "Perché succede",
-        "rule": "La regola COSY",
-        "examples": "Altri esempi",
-        "turn": "Tocca a te"
-      },
-      "say": "Mangiare: una i sola. Non proprio : «Tu mangii troppo in fretta.» Di' così : «Tu mangi troppo in fretta.» Nell'infinito c'è una i (mangiare). Molti la tengono anche davanti alla desinenza -i, ma la i della radice si perde. Nei verbi in -giare (mangiare, viaggiare) la i della radice non si scrive prima di -i e -iamo: tu mangi, noi mangiamo."
-    },
-    {
-      "type": "quiz",
-      "question": "Tu ___ la pizza il sabato?",
-      "options": [
-        "mangii",
-        "mangi",
-        "mangie"
-      ],
-      "correctIndex": 1,
-      "explanation": "Nei verbi in -giare la i non si raddoppia: tu mangi.",
-      "say": "Tu ___ la pizza il sabato?"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Bere (To Drink)",
-      "say": "10. Bere (To Drink)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Il verbo **bere** riguarda le bevande, l'idratazione e i momenti di convivialità.",
-      "say": "Il verbo bere riguarda le bevande, l'idratazione e i momenti di convivialità."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronome",
-        "Presente",
-        "Esempio"
-      ],
-      "rows": [
-        [
-          "Io",
-          "bevo",
-          "Bevo acqua."
-        ],
-        [
-          "Tu",
-          "bevi",
-          "Bevi il caffè?"
-        ],
-        [
-          "Lui / Lei",
-          "beve",
-          "Beve un tè verde."
-        ],
-        [
-          "Noi",
-          "beviamo",
-          "Beviamo un succo."
-        ],
-        [
-          "Voi",
-          "bevete",
-          "Cosa bevete?"
-        ],
-        [
-          "Loro",
-          "bevono",
-          "Bevono acqua fresca."
-        ]
+        "**Mangiare :** 'Mangio una pizza margherita', 'Cosa mangiamo stasera?'.",
+        "**Bere :** 'Bevo un bicchiere d'acqua', 'Prendiamo un caffè insieme?'.",
+        "**Espressioni utili :** 'buon appetito!', 'bere un bicchiere', 'mangiare sano'."
       ]
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Bevande:** 'Bevo un caffè la mattina'.",
-        "**Convivialità:** 'Vuoi bere qualcosa?'.",
-        "**Espressioni:** 'dare da bere', 'bere un bicchiere'."
-      ],
-      "say": "Bevande: 'Bevo un caffè la mattina'. Convivialità: 'Vuoi bere qualcosa?'. Espressioni: 'dare da bere', 'bere un bicchiere'."
-    },
-    {
       "type": "heading",
       "level": 4,
-      "text": "Ad alta voce",
-      "say": "Ad alta voce"
+      "text": "A voce alta"
     },
     {
       "type": "example",
-      "targetText": "Bevo un bicchiere d'acqua prima della lezione.",
-      "gloss": "Bere + un bicchiere d'acqua: una bevanda.",
-      "context": "Descrivi la tua mattina.",
-      "say": "Bevo un bicchiere d'acqua prima della lezione."
+      "targetText": "Mangiamo tutti insieme a mezzogiorno.",
+      "gloss": "Per organizzare il pranzo in compagnia.",
+      "context": "Inviti colleghi o amici a tavola.",
+      "say": "Mangiamo tutti insieme a mezzogiorno."
     },
     {
       "type": "example",
-      "targetText": "Vuoi bere qualcosa? – Un tè, grazie.",
-      "gloss": "Volere + bere: un'offerta amichevole.",
-      "context": "Un amico ti accoglie a casa.",
-      "say": "Vuoi bere qualcosa? – Un tè, grazie."
+      "targetText": "Bevo un caffè espresso dopo pranzo.",
+      "gloss": "Un classico rito quotidiano italiano.",
+      "context": "Descrivi la tua abitudine al bar.",
+      "say": "Bevo un caffè espresso dopo pranzo."
     },
     {
       "type": "example",
-      "targetText": "Beviamo un caffè dopo la scuola?",
-      "gloss": "Beviamo: noi, anche per fare un invito.",
-      "context": "Inviti un compagno.",
-      "say": "Beviamo un caffè dopo la scuola?"
+      "targetText": "Vuoi qualcosa da bere?",
+      "gloss": "Formula ospitale e cordiale.",
+      "context": "Offri da bere a un ospite.",
+      "say": "Vuoi qualcosa da bere?"
     },
     {
       "type": "mistake-card",
       "number": 10,
-      "title": "Il participio di bere",
-      "wrong": "«Ieri ho bevato troppo caffè.»",
-      "right": "«Ieri ho bevuto troppo caffè.»",
-      "why": "Bere è irregolare e molti studenti regolarizzano il participio come per i verbi in -are.",
-      "rule": "Il passato prossimo di **bere** è **ho bevuto**. Il verbo è irregolare anche al presente: bevo, bevi, beve, beviamo, bevete, bevono.",
+      "title": "La coniugazione di bere",
+      "wrong": "« Noi bevemo un succo. »",
+      "right": "« Noi beviamo un succo. »",
+      "why": "Il verbo bere al presente ha il tema bev- e la desinenza regolare di prima persona plurale -iamo.",
+      "rule": "Si dice **noi beviamo** (non *noi bevemo*) e **loro bevono**.",
       "examples": [
-        "Ho bevuto un tè.",
-        "Hai bevuto abbastanza acqua?",
-        "Abbiamo bevuto un caffè insieme."
+        "Noi beviamo acqua fresca.",
+        "Loro bevono un tè caldo."
       ],
       "labels": {
         "wrong": "Non proprio",
@@ -1329,7 +1320,18 @@
         "examples": "Altri esempi",
         "turn": "Tocca a te"
       },
-      "say": "Il participio di bere. Non proprio : «Ieri ho bevato troppo caffè.» Di' così : «Ieri ho bevuto troppo caffè.» Bere è irregolare e molti studenti regolarizzano il participio come per i verbi in -are. Il passato prossimo di bere è ho bevuto. Il verbo è irregolare anche al presente: bevo, bevi, beve, beviamo, bevete, bevono."
+      "say": "La coniugazione di bere. Diciamo piuttosto : Noi beviamo un succo."
+    },
+    {
+      "type": "quiz",
+      "question": "Qual è la forma corretta per la prima persona plurale del verbo bere?",
+      "options": [
+        "Noi bevemo",
+        "Noi beviamo",
+        "Noi bevano"
+      ],
+      "correctIndex": 1,
+      "explanation": "La prima persona plurale regolare è *noi beviamo*."
     },
     {
       "type": "heading",

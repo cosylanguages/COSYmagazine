@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Die 10 wichtigsten Verben im Deutschen für Anfänger (A0–A1 / A2)",
   "kicker": "DEUTSCHER VERBEN-LEITFADEN — TEIL 1 VON 2",
-  "dek": "Lernen Sie die ersten 10 Grundverben im Deutschen (sein, haben, denken, wissen/kennen, mögen/gefallen, wollen/möchte, gehen/werden, können, essen, trinken). Konjugationstabellen sind auf COSYtools abrufbar.",
+  "dek": "Lernen Sie die ersten 10 Grundverben im Deutschen (sein, haben, denken, wissen/kennen, mögen/gefallen, wollen/möchte, arbeiten/studieren/lernen, gehen, können, essen/trinken). Konjugationstabellen sind auf COSYtools abrufbar.",
   "tags": [
     "Verbs",
     "German",
@@ -68,70 +68,70 @@
       "rows": [
         [
           "1",
-          "Sein (To Be)",
+          "Sein",
           "Das Verb sein drückt Identität, Beruf, Herkunft, Zustand und Ort aus.",
           "Er ist zu Hause.",
           "'pünktlich sein', 'bereit sein', 'einverstanden sein'."
         ],
         [
           "2",
-          "Haben (To Have)",
+          "Haben",
           "Das Verb haben drückt Besitz, Alter, Familie und Empfindungen aus.",
           "Sie hat zwei Brüder.",
           "'Lust haben', 'Recht haben', 'Zeit haben'."
         ],
         [
           "3",
-          "Denken (To Think)",
+          "Denken",
           "Das Verb denken drückt Meinungen, Überlegungen und Gedanken aus.",
           "Er denkt an die Zukunft.",
           "'nachdenken über', 'denken an', 'anders denken'."
         ],
         [
           "4",
-          "Wissen / Kennen (To Know)",
+          "Wissen / Kennen",
           "Wissen nutzt man für Fakten und Wissen (ich weiß). Kennen nutzt man für Personen, Orte und Dinge.",
           "kennt",
           "'Bescheid wissen', 'kennenlernen'."
         ],
         [
           "5",
-          "Mögen / Gefallen (To Like)",
+          "Mögen / Gefallen",
           "Das Verb mögen und die Wendung gefallen drücken Vorlieben und Geschmack aus.",
           "Er mag Sport.",
           "'gern haben', 'Gefallen finden'."
         ],
         [
           "6",
-          "Wollen / Möchte (To Want / Would Like)",
+          "Wollen / Möchte",
           "Wollen drückt festen Absicht aus. Möchte ist die höfliche Form für Wünsche.",
           "möchte",
           "'willkommen sein', 'was willst du damit sagen?'."
         ],
         [
           "7",
-          "Gehen (To Go)",
+          "Gehen",
           "Das Verb gehen drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus.",
           "Er geht zur Arbeit.",
           "'spazieren gehen', 'einkaufen gehen'."
         ],
         [
           "8",
-          "Können (To Can / Be able to)",
+          "Können",
           "Das Modalverb können drückt Fähigkeit, Möglichkeit oder Erlaubnis aus.",
           "Er kann gut schwimmen.",
           "'Kann sein', 'so gut ich kann'."
         ],
         [
           "9",
-          "Essen (To Eat)",
+          "Essen",
           "Das Verb essen wird für Mahlzeiten, Speisen und Ernährung verwendet.",
           "Er isst zu Mittag.",
           "'Guten Appetit!', 'essen gehen'."
         ],
         [
           "10",
-          "Trinken (To Drink)",
+          "Trinken",
           "Das Verb trinken drückt das Trinken von Getränken und Hydratation aus.",
           "Er trinkt Tee.",
           "'Prost!', 'etwas zu trinken haben'."
@@ -142,7 +142,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Sein (To Be)"
+      "text": "1. Sein"
     },
     {
       "type": "paragraph",
@@ -200,7 +200,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Haben (To Have)"
+      "text": "2. Haben"
     },
     {
       "type": "paragraph",
@@ -258,7 +258,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Denken (To Think)"
+      "text": "3. Denken"
     },
     {
       "type": "paragraph",
@@ -316,7 +316,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Wissen / Kennen (To Know)"
+      "text": "4. Wissen / Kennen"
     },
     {
       "type": "paragraph",
@@ -374,7 +374,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Mögen / Gefallen (To Like)"
+      "text": "5. Mögen / Gefallen"
     },
     {
       "type": "paragraph",
@@ -432,7 +432,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Wollen / Möchte (To Want / Would Like)"
+      "text": "6. Wollen / Möchte"
     },
     {
       "type": "paragraph",
@@ -490,49 +490,56 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Gehen (To Go)"
+      "text": "7. Arbeiten / Studieren / Lernen"
     },
     {
       "type": "paragraph",
-      "text": "Das Verb **gehen** drückt Fortbewegung zu Fuß oder allgemeines Vorankommen aus."
+      "text": "Die Verben **arbeiten**, **studieren** und **lernen** decken Beruf, Hochschulbildung und den Erwerb neuer Kenntnisse ab."
     },
     {
       "type": "table",
       "headers": [
         "Pronomen",
-        "Präsens",
-        "Beispiel"
+        "Arbeiten",
+        "Studieren",
+        "Lernen"
       ],
       "rows": [
         [
           "ich",
-          "gehe",
-          "Ich gehe nach Hause."
+          "arbeite",
+          "studiere",
+          "lerne"
         ],
         [
           "du",
-          "gehst",
-          "Wohin gehst du?"
+          "arbeitest",
+          "studierst",
+          "lernst"
         ],
         [
           "er / sie / es",
-          "geht",
-          "Er geht zur Arbeit."
+          "arbeitet",
+          "studiert",
+          "lernt"
         ],
         [
           "wir",
-          "gehen",
-          "Wir gehen ins Kino."
+          "arbeiten",
+          "studieren",
+          "lernen"
         ],
         [
           "ihr",
-          "geht",
-          "Geht ihr spazieren?"
+          "arbeitet",
+          "studiert",
+          "lernt"
         ],
         [
           "sie / Sie",
-          "gehen",
-          "Sie gehen einkaufen."
+          "arbeiten",
+          "studieren",
+          "lernen"
         ]
       ]
     },
@@ -540,15 +547,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Bewegung:** 'Ich gehe in die Schule', 'Wir gehen spazieren'.",
-        "**Befinden:** 'Wie geht es Ihnen? / Wie geht's?'.",
-        "**Ausdrücke:** 'spazieren gehen', 'einkaufen gehen'."
+        "**Arbeiten (Beruf):** 'Ich arbeite im Büro', 'Er arbeitet viel'.",
+        "**Studieren (Universität):** 'Ich studiere Medizin', 'Wir studieren in Berlin'.",
+        "**Lernen (Kenntnisse):** 'Ich lerne Deutsch', 'Sie lernt schnell'.",
+        "**Ausdrücke:** 'hart arbeiten', 'auswendig lernen', 'Deutsch lernen'."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Können (To Can / Be able to)"
+      "text": "8. Gehen"
     },
     {
       "type": "paragraph",
@@ -606,7 +614,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Essen (To Eat)"
+      "text": "9. Können"
     },
     {
       "type": "paragraph",
@@ -664,49 +672,49 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Trinken (To Drink)"
+      "text": "10. Essen / Trinken"
     },
     {
       "type": "paragraph",
-      "text": "Das Verb **trinken** drückt das Trinken von Getränken und Hydratation aus."
+      "text": "Die Verben **essen** und **trinken** begleiten alle Mahlzeiten, Getränke und geselligen Runden."
     },
     {
       "type": "table",
       "headers": [
         "Pronomen",
-        "Präsens",
-        "Beispiel"
+        "Essen",
+        "Trinken"
       ],
       "rows": [
         [
           "ich",
-          "trinke",
-          "Ich trinke Wasser."
+          "esse",
+          "trinke"
         ],
         [
           "du",
-          "trinkst",
-          "Trinkst du Kaffee?"
+          "isst",
+          "trinkst"
         ],
         [
           "er / sie / es",
-          "trinkt",
-          "Er trinkt Tee."
+          "isst",
+          "trinkt"
         ],
         [
           "wir",
-          "trinken",
-          "Wir trinken Saft."
+          "essen",
+          "trinken"
         ],
         [
           "ihr",
-          "trinkt",
-          "Was trinkt ihr?"
+          "esst",
+          "trinkt"
         ],
         [
           "sie / Sie",
-          "trinken",
-          "Sie trinken ein Glas Wasser."
+          "essen",
+          "trinken"
         ]
       ]
     },
@@ -714,9 +722,9 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Getränke:** 'Ich trinke morgens Kaffee', 'Viel Wasser trinken'.",
-        "**Geselligkeit:** 'Möchten Sie etwas trinken?'.",
-        "**Ausdrücke:** 'Prost!', 'etwas zu trinken haben'."
+        "**Essen:** 'Ich esse Brot zum Frühstück', 'Was essen wir heute?'.",
+        "**Trinken:** 'Ich trinke viel Wasser', 'Trinken wir einen Kaffee?'.",
+        "**Ausdrücke:** 'Guten Appetit!', 'Prost!', 'etwas zu trinken haben'."
       ]
     },
     {
