@@ -211,8 +211,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Κάνω / Φτιάχνω (To Do / To Make)",
-      "say": "1. Κάνω / Φτιάχνω (To Do / To Make)"
+      "text": "1. Κάνω / Φτιάχνω",
+      "say": "1. Κάνω / Φτιάχνω"
     },
     {
       "type": "paragraph",
@@ -345,8 +345,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Μιλώ / Λέω (To Speak / To Say)",
-      "say": "2. Μιλώ / Λέω (To Speak / To Say)"
+      "text": "2. Μιλώ / Λέω",
+      "say": "2. Μιλώ / Λέω"
     },
     {
       "type": "paragraph",
@@ -474,8 +474,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Κοιτάζω / Βλέπω (To Look / To See)",
-      "say": "3. Κοιτάζω / Βλέπω (To Look / To See)"
+      "text": "3. Κοιτάζω / Βλέπω",
+      "say": "3. Κοιτάζω / Βλέπω"
     },
     {
       "type": "paragraph",
@@ -603,8 +603,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Ακούω (To Hear / To Listen)",
-      "say": "4. Ακούω (To Hear / To Listen)"
+      "text": "4. Ακούω",
+      "say": "4. Ακούω"
     },
     {
       "type": "paragraph",
@@ -732,7 +732,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Πρέπει / Θα έπρεπε (Must / Have to / Should)",
+      "text": "5. Πρέπει / Θα έπρεπε",
       "say": "5. Πρέπει / Θα έπρεπε"
     },
     {
@@ -861,7 +861,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Έρχομαι / Φεύγω (To Come / To Leave)",
+      "text": "6. Έρχομαι / Φεύγω",
       "say": "6. Έρχομαι / Φεύγω"
     },
     {
@@ -929,8 +929,8 @@
     {
       "type": "heading",
       "level": 4,
-      "text": "Say aloud",
-      "say": "Say aloud"
+      "text": "Πείτε δυνατά",
+      "say": "Πείτε δυνατά"
     },
     {
       "type": "example",
@@ -991,8 +991,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Παίρνω / Δίνω (To Take / To Give)",
-      "say": "7. Παίρνω / Δίνω"
+      "text": "7. Παίρνω / Λαμβάνω / Δίνω",
+      "say": "7. Παίρνω / Λαμβάνω / Δίνω"
     },
     {
       "type": "paragraph",
@@ -1121,7 +1121,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Ρωτώ / Απαντώ (To Ask / To Answer)",
+      "text": "8. Ρωτώ / Απαντώ",
       "say": "8. Ρωτώ / Απαντώ"
     },
     {
@@ -1256,7 +1256,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Περιμένω (To Wait / To Expect)",
+      "text": "9. Περιμένω",
       "say": "9. Περιμένω"
     },
     {
@@ -1391,7 +1391,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Μένω / Ζω (To Live / To Stay)",
+      "text": "10. Μένω / Ζω",
       "say": "10. Μένω / Ζω"
     },
     {

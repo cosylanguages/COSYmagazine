@@ -183,8 +183,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Fare (To Do / Make)",
-      "say": "1. Fare (To Do / Make)"
+      "text": "1. Fare",
+      "say": "1. Fare"
     },
     {
       "type": "paragraph",
@@ -290,8 +290,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Parlare / Dire (To Speak / To Say)",
-      "say": "2. Parlare / Dire (To Speak / To Say)"
+      "text": "2. Parlare / Dire",
+      "say": "2. Parlare / Dire"
     },
     {
       "type": "paragraph",
@@ -404,8 +404,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Guardare / Vedere (To Look / To See)",
-      "say": "3. Guardare / Vedere (To Look / To See)"
+      "text": "3. Guardare / Vedere",
+      "say": "3. Guardare / Vedere"
     },
     {
       "type": "paragraph",
@@ -518,8 +518,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Ascoltare / Sentire (To Listen / To Hear)",
-      "say": "4. Ascoltare / Sentire (To Listen / To Hear)"
+      "text": "4. Ascoltare / Sentire",
+      "say": "4. Ascoltare / Sentire"
     },
     {
       "type": "paragraph",
@@ -632,8 +632,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Dovere / Bisognare (Obbligo & Consiglio)",
-      "say": "5. Dovere / Bisognare (Obbligo e Consiglio)"
+      "text": "5. Dovere / Bisognare",
+      "say": "5. Dovere / Bisognare"
     },
     {
       "type": "paragraph",
@@ -746,8 +746,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Venire / Partire (Arrivo & Partenza)",
-      "say": "6. Venire / Partire (Arrivo e Partenza)"
+      "text": "6. Venire / Partire",
+      "say": "6. Venire / Partire"
     },
     {
       "type": "paragraph",
@@ -814,8 +814,8 @@
     {
       "type": "heading",
       "level": 4,
-      "text": "Say aloud",
-      "say": "Say aloud"
+      "text": "Ripeti ad alta voce",
+      "say": "Ripeti ad alta voce"
     },
     {
       "type": "example",
@@ -876,8 +876,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Prendere / Dare (Scambi & Trasferimenti)",
-      "say": "7. Prendere / Dare (Scambi e Trasferimenti)"
+      "text": "7. Prendere / Ricevere (Ottenere) / Dare",
+      "say": "7. Prendere / Ricevere (Ottenere) / Dare"
     },
     {
       "type": "paragraph",
@@ -1008,8 +1008,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Chiedere / Rispondere (Domande & Risposte)",
-      "say": "8. Chiedere / Rispondere (Domande e Risposte)"
+      "text": "8. Chiedere / Rispondere",
+      "say": "8. Chiedere / Rispondere"
     },
     {
       "type": "paragraph",
@@ -1134,8 +1134,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Aspettare (Pazienza & Tempo)",
-      "say": "9. Aspettare (Pazienza e Tempo)"
+      "text": "9. Aspettare",
+      "say": "9. Aspettare"
     },
     {
       "type": "paragraph",
@@ -1242,8 +1242,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Vivere / Abitare (Residenza & Casa)",
-      "say": "10. Vivere / Abitare (Residenza e Casa)"
+      "text": "10. Vivere / Abitare",
+      "say": "10. Vivere / Abitare"
     },
     {
       "type": "paragraph",

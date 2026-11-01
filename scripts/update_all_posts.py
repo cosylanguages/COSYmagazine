@@ -625,8 +625,6 @@ os.makedirs(posts_dir, exist_ok=True)
 for code, lang in languages_data.items():
     for is_part_2 in [False, True]:
         slug = f"top-10-verbs-part-2-{code}" if is_part_2 else (f"top-10-verbs-{code}" if code != "en" else "top-10-verbs-en")
-        if not is_part_2 or (code in ["en", "fr", "it", "ru", "el"] and is_part_2):
-            continue
         filepath = os.path.join(posts_dir, f"{slug}.json")
 
         post_obj = {

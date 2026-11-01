@@ -53,8 +53,8 @@
     },
     {
       "type": "paragraph",
-      "text": "Read this article <span class=\"doodle-circle\">out loud</span>. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, understand the rule second: it is faster and more natural.",
-      "say": "Read this article out loud. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, understand the rule second: it is faster and more natural."
+      "text": "Read this article <span class=\"doodle-circle\">out loud</span>. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, live the rule second: it is faster and more natural.",
+      "say": "Read this article out loud. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, live the rule second: it is faster and more natural."
     },
     {
       "type": "pullquote",
@@ -988,8 +988,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Take / Give",
-      "say": "7. Take / Give"
+      "text": "7. Take / Get / Give",
+      "say": "7. Take / Get / Give"
     },
     {
       "type": "paragraph",
@@ -999,33 +999,41 @@
     {
       "type": "table",
       "headers": [
-        "Verb",
-        "Present",
-        "Past",
-        "Past participle",
-        "Example"
+        "Pronoun",
+        "Take",
+        "Get",
+        "Give"
       ],
       "rows": [
         [
+          "I",
           "take",
-          "take / takes",
-          "took",
-          "taken",
-          "Take a coat, it's chilly."
+          "get",
+          "give"
         ],
         [
-          "give",
-          "give / gives",
-          "gave",
-          "given",
-          "Give me a hand, please."
+          "You",
+          "take",
+          "get",
+          "give"
         ],
         [
-          "Double object",
-          "give + person + thing",
-          "gave me a book",
-          "",
-          "She gave me a present."
+          "He / She / It",
+          "takes",
+          "gets",
+          "gives"
+        ],
+        [
+          "We",
+          "take",
+          "get",
+          "give"
+        ],
+        [
+          "They",
+          "take",
+          "get",
+          "give"
         ]
       ]
     },

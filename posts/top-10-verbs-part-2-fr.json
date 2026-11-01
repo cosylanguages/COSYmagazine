@@ -178,8 +178,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Faire (To Do / To Make)",
-      "say": "1. Faire (To Do / To Make)"
+      "text": "1. Faire",
+      "say": "1. Faire"
     },
     {
       "type": "paragraph",
@@ -325,8 +325,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Parler / Dire (To Speak / To Say)",
-      "say": "2. Parler / Dire (To Speak / To Say)"
+      "text": "2. Parler / Dire",
+      "say": "2. Parler / Dire"
     },
     {
       "type": "paragraph",
@@ -460,8 +460,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Regarder / Voir (To Look / To See)",
-      "say": "3. Regarder / Voir (To Look / To See)"
+      "text": "3. Regarder / Voir",
+      "say": "3. Regarder / Voir"
     },
     {
       "type": "paragraph",
@@ -607,8 +607,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Écouter / Entendre (To Listen / To Hear)",
-      "say": "4. Écouter / Entendre (To Listen / To Hear)"
+      "text": "4. Écouter / Entendre",
+      "say": "4. Écouter / Entendre"
     },
     {
       "type": "paragraph",
@@ -742,8 +742,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Devoir / Falloir (Obligation & Conseil)",
-      "say": "5. Devoir / Falloir (Obligation et Conseil)"
+      "text": "5. Devoir / Falloir",
+      "say": "5. Devoir / Falloir"
     },
     {
       "type": "paragraph",
@@ -1039,8 +1039,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Prendre / Donner (Échange & Transmission)",
-      "say": "7. Prendre / Donner (Échange et Transmission)"
+      "text": "7. Prendre / Obtenir (Recevoir) / Donner",
+      "say": "7. Prendre / Obtenir (Recevoir) / Donner"
     },
     {
       "type": "paragraph",
@@ -1694,20 +1694,6 @@
       "level": 3,
       "text": "Plan d'action sur 7 jours",
       "say": "Plan d'action sur 7 jours"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Jour 1 :** faire et prendre. Notez cinq choses que vous faites ou prenez aujourd'hui.",
-        "**Jour 2 :** parler, dire, demander, répondre. Posez une vraie question en français à quelqu'un (ou à votre miroir).",
-        "**Jour 3 :** regarder et voir. Regardez dix minutes d'une vidéo en français et notez trois phrases avec « voir ».",
-        "**Jour 4 :** écouter et entendre. Écoutez une chanson et repérez deux verbes de cet article.",
-        "**Jour 5 :** devoir et falloir. Écrivez cinq obligations de votre semaine (« Je dois… », « Il faut… »).",
-        "**Jour 6 :** vivre, habiter, attendre. Décrivez où vous habitez et ce que vous attendez avec impatience.",
-        "**Jour 7 :** comprendre. Racontez votre semaine en une minute, en vous enregistrant. Réécoutez : qu'est-ce qui vous plaît ?"
-      ],
-      "say": "Jour 1 : faire et prendre. Notez cinq choses que vous faites ou prenez aujourd'hui. Jour 2 : parler, dire, demander, répondre. Posez une vraie question en français à quelqu'un (ou à votre miroir). Jour 3 : regarder et voir. Regardez dix minutes d'une vidéo en français et notez trois phrases avec « voir ». Jour 4 : écouter et entendre. Écoutez une chanson et repérez deux verbes de cet article. Jour 5 : devoir et falloir. Écrivez cinq obligations de votre semaine (« Je dois… », « Il faut… »). Jour 6 : vivre, habiter, attendre. Décrivez où vous habitez et ce que vous attendez avec impatience. Jour 7 : comprendre. Racontez votre semaine en une minute, en vous enregistrant. Réécoutez : qu'est-ce qui vous plaît ?"
     },
     {
       "type": "list-item",
