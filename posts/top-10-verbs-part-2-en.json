@@ -20,7 +20,7 @@
     "A0-A1",
     "Part2"
   ],
-  "readingTime": 10,
+  "readingTime": 18,
   "podcast": {
     "episode": 3,
     "audioUrl": null
@@ -47,25 +47,20 @@
       "text": "Welcome to Part 2 of our 2-part core verb series for A0–A1 and A2 English learners! (Read [Part 1](top-10-verbs-en.html) if you missed it). Here we cover 10 core action, perception, and modal verbs. All conjugation tables and verb forms are consultable on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "Deep Dive: Top 10 English Verbs (Part 2)"
+      "type": "paragraph",
+      "text": "Ten verbs are enough to ask, answer, wait, listen, understand and get things done on day one. <mark class=\"hl-handwritten\">They are also the verbs where English learners make the most predictable mistakes</mark>: do or make, say or tell, look or watch. The good news is that the mistakes follow patterns, and patterns can be learned.",
+      "say": "Ten verbs are enough to ask, answer, wait, listen, understand and get things done on day one. They are also the verbs where English learners make the most predictable mistakes: do or make, say or tell, look or watch. The good news is that the mistakes follow patterns, and patterns can be learned."
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Do / Make:** Activities and creation.\n  • *Usage & Frames:* 'I do my homework' vs 'I make breakfast'.\n  • *Useful Phrases:* 'do business', 'do research' | 'make progress', 'make a mistake'.",
-        "**2. Speak / Talk / Say / Tell:** Communication.\n  • *Usage & Frames:* 'I speak English', 'Let's talk', 'Say hello', 'Tell me'.\n  • *Useful Phrases:* 'speak fluently', 'talk with', 'say yes', 'tell a story'.",
-        "**3. Look / Watch / See:** Vision and attention.\n  • *Usage & Frames:* 'Look at this', 'Watch a movie', 'I see a bird'.\n  • *Useful Phrases:* 'look for', 'look forward to', 'watch out', 'see you soon'.",
-        "**4. Listen / Hear:** Listening and perception.\n  • *Usage & Frames:* 'Listen to music', 'Did you hear that?'.\n  • *Useful Phrases:* 'listen carefully', 'hear from', 'glad to hear that'.",
-        "**5. Must / Have To:** Necessity and obligation.\n  • *Usage & Frames:* 'I must study', 'We have to leave now'.\n  • *Useful Phrases:* 'must be', 'have to go', 'don't have to'.",
-        "**6. Take / Give / Get:** Exchange and receiving.\n  • *Usage & Frames:* 'Take a coat', 'Give me a hand', 'Get home'.\n  • *Useful Phrases:* 'take care', 'give up', 'get tired', 'get ready'.",
-        "**7. Live:** Residence and lifestyle.\n  • *Usage & Frames:* 'I live in London', 'She lives with her family'.\n  • *Useful Phrases:* 'live abroad', 'live well', 'live together'.",
-        "**8. Wait:** Patience and time.\n  • *Usage & Frames:* 'Wait for the bus', 'Can you wait a minute?'.\n  • *Useful Phrases:* 'wait for', 'wait in line', 'can't wait'.",
-        "**9. Understand:** Comprehension.\n  • *Usage & Frames:* 'I understand', 'Do you understand me?'.\n  • *Useful Phrases:* 'make yourself understood', 'as I understand', 'fully understand'.",
-        "**10. Ask / Answer:** Questions and answers.\n  • *Usage & Frames:* 'Ask a question', 'Answer the phone'.\n  • *Useful Phrases:* 'ask for help', 'answer questions', 'ask a favour'."
-      ]
+      "type": "paragraph",
+      "text": "Read this article <span class=\"doodle-circle\">out loud</span>. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, understand the rule second: it is faster and more natural.",
+      "say": "Read this article out loud. For each verb, start with the table and say the forms without looking. Then read the three sentences in the 'Say aloud' section, hide them, and repeat them from memory, changing one word to talk about your own life. Finish with the mistake card: it shows the sentence many beginners say, and the one to say instead. Speak first, understand the rule second: it is faster and more natural."
+    },
+    {
+      "type": "pullquote",
+      "quote": "A verb learned in a sentence is worth ten verbs learned in a list.",
+      "attribution": "COSYmagazine",
+      "say": "A verb learned in a sentence is worth ten verbs learned in a list."
     },
     {
       "type": "table",
@@ -157,6 +152,1390 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Deep Dive: Top 10 English Verbs (Part 2)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Do / Make:** Activities and creation.\n  • *Usage & Frames:* 'I do my homework' vs 'I make breakfast'.\n  • *Useful Phrases:* 'do business', 'do research' | 'make progress', 'make a mistake'.",
+        "**2. Speak / Talk / Say / Tell:** Communication.\n  • *Usage & Frames:* 'I speak English', 'Let's talk', 'Say hello', 'Tell me'.\n  • *Useful Phrases:* 'speak fluently', 'talk with', 'say yes', 'tell a story'.",
+        "**3. Look / Watch / See:** Vision and attention.\n  • *Usage & Frames:* 'Look at this', 'Watch a movie', 'I see a bird'.\n  • *Useful Phrases:* 'look for', 'look forward to', 'watch out', 'see you soon'.",
+        "**4. Listen / Hear:** Listening and perception.\n  • *Usage & Frames:* 'Listen to music', 'Did you hear that?'.\n  • *Useful Phrases:* 'listen carefully', 'hear from', 'glad to hear that'.",
+        "**5. Must / Have To:** Necessity and obligation.\n  • *Usage & Frames:* 'I must study', 'We have to leave now'.\n  • *Useful Phrases:* 'must be', 'have to go', 'don't have to'.",
+        "**6. Take / Give / Get:** Exchange and receiving.\n  • *Usage & Frames:* 'Take a coat', 'Give me a hand', 'Get home'.\n  • *Useful Phrases:* 'take care', 'give up', 'get tired', 'get ready'.",
+        "**7. Live:** Residence and lifestyle.\n  • *Usage & Frames:* 'I live in London', 'She lives with her family'.\n  • *Useful Phrases:* 'live abroad', 'live well', 'live together'.",
+        "**8. Wait:** Patience and time.\n  • *Usage & Frames:* 'Wait for the bus', 'Can you wait a minute?'.\n  • *Useful Phrases:* 'wait for', 'wait in line', 'can't wait'.",
+        "**9. Understand:** Comprehension.\n  • *Usage & Frames:* 'I understand', 'Do you understand me?'.\n  • *Useful Phrases:* 'make yourself understood', 'as I understand', 'fully understand'.",
+        "**10. Ask / Answer:** Questions and answers.\n  • *Usage & Frames:* 'Ask a question', 'Answer the phone'.\n  • *Useful Phrases:* 'ask for help', 'answer questions', 'ask a favour'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The memory map: ten verbs, five functions",
+      "say": "The memory map: ten verbs, five functions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of learning ten verbs one after another, sort them by function. When you want to say something, first ask: <mark class=\"hl-handwritten\">am I acting, communicating, perceiving, obliged, or exchanging?</mark> The verb comes almost by itself.",
+      "say": "Instead of learning ten verbs one after another, sort them by function. When you want to say something, first ask: am I acting, communicating, perceiving, obliged, or exchanging? The verb comes almost by itself."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Acting & making:** do / make. Activities, tasks, creation.",
+        "**Communicating:** speak / talk / say / tell, ask / answer. Languages, conversations, questions.",
+        "**Perceiving & understanding:** look / watch / see, listen / hear, understand.",
+        "**Obligation & exchange:** must / have to, take / give / get.",
+        "**Life & time:** live, wait. Home, patience, plans."
+      ],
+      "say": "Acting & making: do / make. Activities, tasks, creation. Communicating: speak / talk / say / tell, ask / answer. Languages, conversations, questions. Perceiving & understanding: look / watch / see, listen / hear, understand. Obligation & exchange: must / have to, take / give / get. Life & time: live, wait. Home, patience, plans."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The 10 Core Verbs in Depth (Part 2)",
+      "say": "The 10 Core Verbs in Depth (Part 2)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Do / Make",
+      "say": "1. Do / Make"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Do** and **make** both translate as one verb in many languages, which is why they cause so many mistakes. A simple rule of thumb: **do** is for activities, tasks and work that already exist (homework, the dishes, a job). **Make** is for creating or producing something new (a meal, a plan, a mistake, a decision).",
+      "say": "Do and make both translate as one verb in many languages, which is why they cause so many mistakes. A simple rule of thumb: do is for activities, tasks and work that already exist (homework, the dishes, a job). Make is for creating or producing something new (a meal, a plan, a mistake, a decision)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "do (present)",
+        "make (present)",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "do",
+          "make",
+          "We make dinner and do the dishes."
+        ],
+        [
+          "He / she / it",
+          "does",
+          "makes",
+          "She does her homework."
+        ],
+        [
+          "Past (all)",
+          "did",
+          "made",
+          "He made a cake yesterday."
+        ],
+        [
+          "Past participle",
+          "done",
+          "made",
+          "I have done my work."
+        ],
+        [
+          "-ing form",
+          "doing",
+          "making",
+          "What are you doing?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Activities & chores:** 'do the shopping', 'do the laundry', 'do your best'.",
+        "**Creating & producing:** 'make a cake', 'make a call', 'make money'.",
+        "**Common phrases:** 'do business', 'do research' | 'make progress', 'make a mistake'."
+      ],
+      "say": "Activities & chores: 'do the shopping', 'do the laundry', 'do your best'. Creating & producing: 'make a cake', 'make a call', 'make money'. Common phrases: 'do business', 'do research' | 'make progress', 'make a mistake'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "What do you do on Sundays?",
+      "gloss": "In this question, 'do' appears twice: the helper and the main verb. The answer is an activity.",
+      "context": "A classmate asks about your weekend.",
+      "say": "What do you do on Sundays?"
+    },
+    {
+      "type": "example",
+      "targetText": "I make coffee every morning before work.",
+      "gloss": "Make = you create something (coffee) that did not exist before.",
+      "context": "You describe your morning routine.",
+      "say": "I make coffee every morning before work."
+    },
+    {
+      "type": "example",
+      "targetText": "Can you do me a favour? I need to make an appointment.",
+      "gloss": "'Do a favour' is fixed. 'Make an appointment' is also fixed.",
+      "context": "You ask a friend for help.",
+      "say": "Can you do me a favour? I need to make an appointment."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: What are you doing? B: I'm making lunch. Can you do the dishes later? A: Sure, no problem!",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: What are you doing? B: I'm making lunch. Can you do the dishes later? A: Sure, no problem!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Do or make",
+      "wrong": "'I did a mistake.'",
+      "right": "'I made a mistake.'",
+      "why": "Your language probably uses one verb for both. English splits them, and the split is partly by habit, so you must learn the pairs together.",
+      "rule": "A mistake, a decision, a plan, a noise, a choice and a phone call are all **made**. Homework, housework, an exam (to take) and a favour are **done**.",
+      "examples": [
+        "I made a decision.",
+        "She did her homework.",
+        "We made a plan."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Do or make. Not quite: 'I did a mistake.' Say this instead: 'I made a mistake.' Your language probably uses one verb for both. English splits them, and the split is partly by habit, so you must learn the pairs together. A mistake, a decision, a plan, a noise, a choice and a phone call are all made. Homework, housework, an exam (to take) and a favour are done. I made a decision. She did her homework. We made a plan."
+    },
+    {
+      "type": "quiz",
+      "question": "I need to ___ a phone call.",
+      "options": [
+        "do",
+        "make",
+        "take"
+      ],
+      "correctIndex": 1,
+      "explanation": "A phone call is 'made': 'I need to make a phone call.'",
+      "say": "I need to ___ a phone call."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Speak / Talk / Say / Tell",
+      "say": "2. Speak / Talk / Say / Tell"
+    },
+    {
+      "type": "paragraph",
+      "text": "Four verbs, one idea: communication. They are not interchangeable. **Speak** is about the language or a formal talk. **Talk** is a conversation. **Say** is about the exact words. **Tell** needs a person to receive the information.",
+      "say": "Four verbs, one idea: communication. They are not interchangeable. Speak is about the language or a formal talk. Talk is a conversation. Say is about the exact words. Tell needs a person to receive the information."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Meaning",
+        "Typical structure",
+        "Example"
+      ],
+      "rows": [
+        [
+          "speak",
+          "use a language / voice",
+          "speak + language",
+          "I speak English and Spanish."
+        ],
+        [
+          "talk",
+          "have a conversation",
+          "talk to / with + person",
+          "We talk every day."
+        ],
+        [
+          "say",
+          "pronounce words",
+          "say + words",
+          "She says 'hello'."
+        ],
+        [
+          "tell",
+          "give information",
+          "tell + person + thing",
+          "Tell me the truth."
+        ],
+        [
+          "Past forms",
+          "spoke, talked, said, told",
+          "",
+          "He told me a story."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Languages & formal speech:** 'speak Italian', 'speak slowly'.",
+        "**Conversation:** 'talk about the weather', 'talk to a friend'.",
+        "**Common phrases:** 'speak fluently', 'talk with', 'say yes', 'tell a story'."
+      ],
+      "say": "Languages & formal speech: 'speak Italian', 'speak slowly'. Conversation: 'talk about the weather', 'talk to a friend'. Common phrases: 'speak fluently', 'talk with', 'say yes', 'tell a story'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Do you speak French? – A little.",
+      "gloss": "Speak + a language.",
+      "context": "A stranger asks for help in the street.",
+      "say": "Do you speak French? – A little."
+    },
+    {
+      "type": "example",
+      "targetText": "Can we talk after class?",
+      "gloss": "Talk = a conversation between people.",
+      "context": "You ask your teacher for a minute.",
+      "say": "Can we talk after class?"
+    },
+    {
+      "type": "example",
+      "targetText": "He said he was tired, so I told him to rest.",
+      "gloss": "Say = the words. Tell = tell someone something.",
+      "context": "You report what happened.",
+      "say": "He said he was tired, so I told him to rest."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Can I talk to you for a minute? B: Of course. What do you want to say? A: Tell me honestly: do you speak Spanish?",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Can I talk to you for a minute? B: Of course. What do you want to say? A: Tell me honestly: do you speak Spanish?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Say or tell",
+      "wrong": "'She said me the answer.'",
+      "right": "'She told me the answer.'",
+      "why": "In many languages the same verb works with or without a listener. English 'say' cannot be followed directly by a person.",
+      "rule": "**Tell** + person + information. **Say** + words (and 'to' + person if needed): 'She said to me' is possible but rare.",
+      "examples": [
+        "He told me the news.",
+        "She said hello.",
+        "I told them to wait."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Say or tell. Not quite: 'She said me the answer.' Say this instead: 'She told me the answer.' In many languages the same verb works with or without a listener. English 'say' cannot be followed directly by a person. Tell + person + information. Say + words (and 'to' + person if needed): 'She said to me' is possible but rare. He told me the news. She said hello. I told them to wait."
+    },
+    {
+      "type": "quiz",
+      "question": "He ___ me a funny story.",
+      "options": [
+        "said",
+        "told",
+        "spoke"
+      ],
+      "correctIndex": 1,
+      "explanation": "After a person, we use tell: 'He told me a story.'",
+      "say": "He ___ me a funny story."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Look / Watch / See",
+      "say": "3. Look / Watch / See"
+    },
+    {
+      "type": "paragraph",
+      "text": "English separates three kinds of vision. **See** happens by itself. **Look** is deliberate and directed. **Watch** is following something that moves or changes over time.",
+      "say": "English separates three kinds of vision. See happens by itself. Look is deliberate and directed. Watch is following something that moves or changes over time."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Meaning",
+        "Typical structure",
+        "Example"
+      ],
+      "rows": [
+        [
+          "see",
+          "notice with the eyes",
+          "see + object",
+          "I see a bird."
+        ],
+        [
+          "look",
+          "direct your eyes",
+          "look at + object",
+          "Look at this picture!"
+        ],
+        [
+          "watch",
+          "follow with attention",
+          "watch + TV / a match",
+          "We watch a film."
+        ],
+        [
+          "Past forms",
+          "saw, looked, watched",
+          "",
+          "She watched the match."
+        ],
+        [
+          "Participles",
+          "seen, looked, watched",
+          "",
+          "Have you seen my keys?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Seeing:** 'I can't see without my glasses'.",
+        "**Looking:** 'Look at the board', 'Look! A rainbow!'.",
+        "**Common phrases:** 'look for', 'look forward to', 'watch out', 'see you soon'."
+      ],
+      "say": "Seeing: 'I can't see without my glasses'. Looking: 'Look at the board', 'Look! A rainbow!'. Common phrases: 'look for', 'look forward to', 'watch out', 'see you soon'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Look at the blackboard, please.",
+      "gloss": "Look needs 'at' before the object.",
+      "context": "Your teacher is explaining a new word.",
+      "say": "Look at the blackboard, please."
+    },
+    {
+      "type": "example",
+      "targetText": "We watch a film every Friday night.",
+      "gloss": "Watch = follow a moving image for a while.",
+      "context": "You describe your weekend.",
+      "say": "We watch a film every Friday night."
+    },
+    {
+      "type": "example",
+      "targetText": "I can see the sea from my window.",
+      "gloss": "See = it enters your sight without effort.",
+      "context": "You describe your flat.",
+      "say": "I can see the sea from my window."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Look! There's a cat on the roof. B: Where? I can't see it. A: Watch, it's going to jump! B: Oh, I see it now.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Look! There's a cat on the roof. B: Where? I can't see it. A: Watch, it's going to jump! B: Oh, I see it now."
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Look at, not look",
+      "wrong": "'Look the picture.'",
+      "right": "'Look at the picture.'",
+      "why": "Many languages use a single verb with a direct object. English 'look' always needs a preposition.",
+      "rule": "**Look at** = direct your eyes. **Look for** = search. **Look forward to** = wait with pleasure.",
+      "examples": [
+        "Look at me.",
+        "I'm looking for my keys.",
+        "We look forward to the holidays."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Look at, not look. Not quite: 'Look the picture.' Say this instead: 'Look at the picture.' Many languages use a single verb with a direct object. English 'look' always needs a preposition. Look at = direct your eyes. Look for = search. Look forward to = wait with pleasure. Look at me. I'm looking for my keys. We look forward to the holidays."
+    },
+    {
+      "type": "quiz",
+      "question": "Can you ___ a bird in the tree?",
+      "options": [
+        "watch",
+        "look",
+        "see"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Can you see...?' is the natural way to ask if something is visible.",
+      "say": "Can you ___ a bird in the tree?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Listen / Hear",
+      "say": "4. Listen / Hear"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Hear** is passive: the sound arrives, you did not choose it. **Listen** is active: you pay attention on purpose, and it needs **to** before the thing you listen to.",
+      "say": "Hear is passive: the sound arrives, you did not choose it. Listen is active: you pay attention on purpose, and it needs to before the thing you listen to."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "hear / listen",
+          "heard / listened",
+          "I hear a noise."
+        ],
+        [
+          "He / she / it",
+          "hears / listens",
+          "heard / listened",
+          "She listens to music."
+        ],
+        [
+          "-ing form",
+          "hearing / listening",
+          "",
+          "I'm listening!"
+        ],
+        [
+          "Past participle",
+          "heard / listened",
+          "",
+          "Have you heard the news?"
+        ],
+        [
+          "Question",
+          "Do you hear me?",
+          "",
+          "Are you listening to me?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Listening:** 'listen to the radio', 'listen to your teacher'.",
+        "**Hearing:** 'I hear the rain', 'I can't hear you'.",
+        "**Common phrases:** 'listen carefully', 'hear from', 'glad to hear that'."
+      ],
+      "say": "Listening: 'listen to the radio', 'listen to your teacher'. Hearing: 'I hear the rain', 'I can't hear you'. Common phrases: 'listen carefully', 'hear from', 'glad to hear that'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Listen to this song, it's amazing!",
+      "gloss": "Listen + to + object.",
+      "context": "You share your favourite music with a friend.",
+      "say": "Listen to this song, it's amazing!"
+    },
+    {
+      "type": "example",
+      "targetText": "I can't hear you. Can you speak louder?",
+      "gloss": "Hear = the sound reaches your ears.",
+      "context": "A bad phone line.",
+      "say": "I can't hear you. Can you speak louder?"
+    },
+    {
+      "type": "example",
+      "targetText": "It was nice to hear from you!",
+      "gloss": "Hear from = receive news from a person.",
+      "context": "You answer an old friend's email.",
+      "say": "It was nice to hear from you!"
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Did you hear that noise? B: No, I wasn't listening. A: Listen carefully... there! B: Oh yes, I hear it now.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Did you hear that noise? B: No, I wasn't listening. A: Listen carefully... there! B: Oh yes, I hear it now."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Listen to",
+      "wrong": "'I listen music every day.'",
+      "right": "'I listen to music every day.'",
+      "why": "Your language may use the verb directly with the object. English needs a small word, and it is easy to forget when you speak fast.",
+      "rule": "**Listen + to**. **Hear** needs no preposition. 'Listen' is deliberate, 'hear' is automatic.",
+      "examples": [
+        "Listen to me.",
+        "I hear a bird.",
+        "They listen to the radio."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Listen to. Not quite: 'I listen music every day.' Say this instead: 'I listen to music every day.' Your language may use the verb directly with the object. English needs a small word, and it is easy to forget when you speak fast. Listen + to. Hear needs no preposition. 'Listen' is deliberate, 'hear' is automatic. Listen to me. I hear a bird. They listen to the radio."
+    },
+    {
+      "type": "quiz",
+      "question": "I like to ___ to music.",
+      "options": [
+        "hear",
+        "listen",
+        "look"
+      ],
+      "correctIndex": 1,
+      "explanation": "Listen to + object. 'Hear' does not take 'to'.",
+      "say": "I like to ___ to music."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Listening in a noisy world",
+      "content": "English speakers often say 'I'm all ears' to show they are listening closely, and 'I hear you' to mean 'I understand how you feel', even if they do not agree. When you answer on the phone, a short 'Right', 'I see' or 'Mm-hm' shows you are listening. Silence can sound as if you disconnected, so keep making small sounds. Politely ask people to repeat: 'Sorry, could you say that again?' is always welcome, and native speakers will often slow down for you.",
+      "say": "Listening in a noisy world. English speakers often say 'I'm all ears' to show they are listening closely, and 'I hear you' to mean 'I understand how you feel', even if they do not agree. When you answer on the phone, a short 'Right', 'I see' or 'Mm-hm' shows you are listening. Silence can sound as if you disconnected, so keep making small sounds. Politely ask people to repeat: 'Sorry, could you say that again?' is always welcome, and native speakers will often slow down for you."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Must / Have To",
+      "say": "5. Must / Have To"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both express necessity, but they are not the same. **Must** is the speaker's own strong opinion or a rule written down ('You must wear a seat belt'). **Have to** is an outside obligation ('I have to work tomorrow'). In the negative they are very different.",
+      "say": "Both express necessity, but they are not the same. Must is the speaker's own strong opinion or a rule written down ('You must wear a seat belt'). Have to is an outside obligation ('I have to work tomorrow'). In the negative they are very different."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Form",
+        "must",
+        "have to",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Affirmative",
+          "I must go",
+          "I have to go",
+          "I must study. / We have to leave now."
+        ],
+        [
+          "He / she / it",
+          "He must go",
+          "He has to go",
+          "She has to work."
+        ],
+        [
+          "Negative",
+          "mustn't (forbidden)",
+          "don't have to (not necessary)",
+          "You don't have to pay."
+        ],
+        [
+          "Question",
+          "Must I...?",
+          "Do I have to...?",
+          "Do we have to wait?"
+        ],
+        [
+          "Past",
+          "(use had to)",
+          "had to",
+          "I had to wait."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Rules & strong advice:** 'You must stop at a red light'.",
+        "**Obligation from outside:** 'I have to be at school at eight'.",
+        "**Common phrases:** 'must be', 'have to go', 'don't have to'."
+      ],
+      "say": "Rules & strong advice: 'You must stop at a red light'. Obligation from outside: 'I have to be at school at eight'. Common phrases: 'must be', 'have to go', 'don't have to'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "I have to get up early tomorrow.",
+      "gloss": "Have to = an obligation from outside (work, school).",
+      "context": "You explain why you can't stay out late.",
+      "say": "I have to get up early tomorrow."
+    },
+    {
+      "type": "example",
+      "targetText": "You mustn't use your phone in the exam.",
+      "gloss": "Mustn't = it is forbidden.",
+      "context": "The teacher explains the rules.",
+      "say": "You mustn't use your phone in the exam."
+    },
+    {
+      "type": "example",
+      "targetText": "You don't have to bring anything, just come!",
+      "gloss": "Don't have to = it is not necessary.",
+      "context": "You invite a friend to dinner.",
+      "say": "You don't have to bring anything, just come!"
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Can you come to the party? B: Sorry, I have to work. A: You must be tired! B: Yes, but you don't have to worry about me.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Can you come to the party? B: Sorry, I have to work. A: You must be tired! B: Yes, but you don't have to worry about me."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Mustn't or don't have to",
+      "wrong": "'You mustn't pay, it's free.'",
+      "right": "'You don't have to pay, it's free.'",
+      "why": "In many languages, a single negative covers both 'forbidden' and 'not necessary'. English separates them sharply.",
+      "rule": "**Mustn't** = forbidden. **Don't have to** = not necessary. After both, the verb has no 'to': 'You must go', 'You have to go'.",
+      "examples": [
+        "You mustn't smoke here.",
+        "You don't have to come.",
+        "She doesn't have to cook."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Mustn't or don't have to. Not quite: 'You mustn't pay, it's free.' Say this instead: 'You don't have to pay, it's free.' In many languages, a single negative covers both 'forbidden' and 'not necessary'. English separates them sharply. Mustn't = forbidden. Don't have to = not necessary. After both, the verb has no 'to': 'You must go', 'You have to go'. You mustn't smoke here. You don't have to come. She doesn't have to cook."
+    },
+    {
+      "type": "quiz",
+      "question": "Entry is free: you ___ buy a ticket.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "must"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is not necessary, so 'don't have to'.",
+      "say": "Entry is free: you ___ buy a ticket."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Take / Give / Get",
+      "say": "6. Take / Give / Get"
+    },
+    {
+      "type": "paragraph",
+      "text": "These three are among the most common verbs in English because they combine with so many words. **Take** moves something towards you or along with you. **Give** sends it to another person. **Get** means receive, obtain or become.",
+      "say": "These three are among the most common verbs in English because they combine with so many words. Take moves something towards you or along with you. Give sends it to another person. Get means receive, obtain or become."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Present",
+        "Past",
+        "Past participle"
+      ],
+      "rows": [
+        [
+          "take",
+          "take / takes",
+          "took",
+          "taken"
+        ],
+        [
+          "give",
+          "give / gives",
+          "gave",
+          "given"
+        ],
+        [
+          "get",
+          "get / gets",
+          "got",
+          "got (UK) / gotten (US)"
+        ],
+        [
+          "Example 1",
+          "Take a coat, it's cold.",
+          "",
+          ""
+        ],
+        [
+          "Example 2",
+          "Give me a hand, please.",
+          "",
+          "Get home safely!"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Taking:** 'take a bus', 'take a photo', 'take a break'.",
+        "**Giving:** 'give someone a present', 'give advice'.",
+        "**Common phrases:** 'take care', 'give up', 'get tired', 'get ready'."
+      ],
+      "say": "Taking: 'take a bus', 'take a photo', 'take a break'. Giving: 'give someone a present', 'give advice'. Common phrases: 'take care', 'give up', 'get tired', 'get ready'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "I take the bus to school.",
+      "gloss": "Take + transport.",
+      "context": "You describe your journey.",
+      "say": "I take the bus to school."
+    },
+    {
+      "type": "example",
+      "targetText": "Can you give me a hand with this bag?",
+      "gloss": "Give me a hand = help me.",
+      "context": "You need help at the station.",
+      "say": "Can you give me a hand with this bag?"
+    },
+    {
+      "type": "example",
+      "targetText": "I get home at six and get ready for dinner.",
+      "gloss": "Get + place (arrive) and get + adjective (become).",
+      "context": "You describe your evening.",
+      "say": "I get home at six and get ready for dinner."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: I'm getting tired. B: Take a break! Here, I'll give you some water. A: Thanks, I'll get ready to go soon.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: I'm getting tired. B: Take a break! Here, I'll give you some water. A: Thanks, I'll get ready to go soon."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Get, not become",
+      "wrong": "'I become tired after lunch.'",
+      "right": "'I get tired after lunch.'",
+      "why": "Textbooks often teach 'become', but in daily speech native speakers almost always choose 'get' for changes in state.",
+      "rule": "**Get + adjective** = change of state: get tired, get hungry, get cold, get angry, get better.",
+      "examples": [
+        "I get hungry at noon.",
+        "It gets dark early.",
+        "She got angry."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Get, not become. Not quite: 'I become tired after lunch.' Say this instead: 'I get tired after lunch.' Textbooks often teach 'become', but in daily speech native speakers almost always choose 'get' for changes in state. Get + adjective = change of state: get tired, get hungry, get cold, get angry, get better. I get hungry at noon. It gets dark early. She got angry."
+    },
+    {
+      "type": "quiz",
+      "question": "Please ___ care of yourself.",
+      "options": [
+        "give",
+        "take",
+        "get"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Take care' is the fixed phrase.",
+      "say": "Please ___ care of yourself."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Please, thank you and polite requests",
+      "content": "English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' and 'Can I get a...?' are polite ways to ask for things in shops and cafés. In Britain, you may hear 'cheers' to mean thanks. Saying 'give me a coffee' alone sounds blunt; adding 'could' or 'please' softens it. These small words are what make you sound friendly.",
+      "say": "Please, thank you and polite requests. English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' and 'Can I get a...?' are polite ways to ask for things in shops and cafés. In Britain, you may hear 'cheers' to mean thanks. Saying 'give me a coffee' alone sounds blunt; adding 'could' or 'please' softens it. These small words are what make you sound friendly."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Live",
+      "say": "7. Live"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Live** talks about where you have your home and how you spend your life. Notice the pronunciation: the verb **live** rhymes with 'give', but the adjective **live** (a live show) rhymes with 'five'.",
+      "say": "Live talks about where you have your home and how you spend your life. Notice the pronunciation: the verb live rhymes with 'give', but the adjective live (a live show) rhymes with 'five'."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "live",
+          "lived",
+          "We live in London."
+        ],
+        [
+          "He / she / it",
+          "lives",
+          "lived",
+          "She lives with her family."
+        ],
+        [
+          "Continuous",
+          "am / is / are living",
+          "",
+          "I'm living in Madrid this year."
+        ],
+        [
+          "Past participle",
+          "lived",
+          "",
+          "I have lived here for two years."
+        ],
+        [
+          "Question",
+          "Where do you live?",
+          "",
+          "Do you live alone?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Place:** 'live in a city', 'live on Main Street', 'live at number 5'.",
+        "**Lifestyle:** 'live well', 'live a healthy life'.",
+        "**Common phrases:** 'live abroad', 'live well', 'live together'."
+      ],
+      "say": "Place: 'live in a city', 'live on Main Street', 'live at number 5'. Lifestyle: 'live well', 'live a healthy life'. Common phrases: 'live abroad', 'live well', 'live together'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Where do you live? – I live in Lyon.",
+      "gloss": "Live + in + city or country.",
+      "context": "A new student asks you a question.",
+      "say": "Where do you live? – I live in Lyon."
+    },
+    {
+      "type": "example",
+      "targetText": "She lives with her parents and two cats.",
+      "gloss": "Live with = share a home.",
+      "context": "You describe a friend.",
+      "say": "She lives with her parents and two cats."
+    },
+    {
+      "type": "example",
+      "targetText": "I'd love to live abroad for a year.",
+      "gloss": "Live abroad = in another country.",
+      "context": "You talk about your dreams.",
+      "say": "I'd love to live abroad for a year."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Present tense with live",
+      "wrong": "'I am living here since 2020.'",
+      "right": "'I have lived here since 2020.'",
+      "why": "Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'.",
+      "rule": "**Live** is a state: use the simple present for facts ('I live in Rome'). Use **have lived** with 'since' or 'for'.",
+      "examples": [
+        "I have lived here for five years.",
+        "She has lived in Paris since May.",
+        "They live in Berlin."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Present tense with live. Not quite: 'I am living here since 2020.' Say this instead: 'I have lived here since 2020.' Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'. Live is a state: use the simple present for facts ('I live in Rome'). Use have lived with 'since' or 'for'. I have lived here for five years. She has lived in Paris since May. They live in Berlin."
+    },
+    {
+      "type": "quiz",
+      "question": "We ___ in a small town.",
+      "options": [
+        "lives",
+        "live",
+        "living"
+      ],
+      "correctIndex": 1,
+      "explanation": "With 'we', no -s: 'We live in a small town.'",
+      "say": "We ___ in a small town."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Wait",
+      "say": "8. Wait"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Wait** is a short verb with a big grammar trap: it needs **for** before the thing or person you expect. It also joins many time phrases.",
+      "say": "Wait is a short verb with a big grammar trap: it needs for before the thing or person you expect. It also joins many time phrases."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "wait",
+          "waited",
+          "We wait for the train."
+        ],
+        [
+          "He / she / it",
+          "waits",
+          "waited",
+          "She waits for her friend."
+        ],
+        [
+          "-ing form",
+          "waiting",
+          "",
+          "I'm waiting for you."
+        ],
+        [
+          "Imperative",
+          "Wait!",
+          "",
+          "Wait a minute, please."
+        ],
+        [
+          "Question",
+          "Can you wait?",
+          "",
+          "How long do we have to wait?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**With people & things:** 'wait for the bus', 'wait for a friend'.",
+        "**Time:** 'wait a minute', 'wait for ten minutes'.",
+        "**Common phrases:** 'wait for', 'wait in line', 'can't wait'."
+      ],
+      "say": "With people & things: 'wait for the bus', 'wait for a friend'. Time: 'wait a minute', 'wait for ten minutes'. Common phrases: 'wait for', 'wait in line', 'can't wait'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "I'm waiting for the bus.",
+      "gloss": "Wait + for + the thing you expect.",
+      "context": "You are at a bus stop and you text a friend.",
+      "say": "I'm waiting for the bus."
+    },
+    {
+      "type": "example",
+      "targetText": "Can you wait a minute? I'll be right back.",
+      "gloss": "Wait + time (no 'for' needed).",
+      "context": "You answer the door while on the phone.",
+      "say": "Can you wait a minute? I'll be right back."
+    },
+    {
+      "type": "example",
+      "targetText": "I can't wait for the holidays!",
+      "gloss": "Can't wait = you are very excited.",
+      "context": "You talk about your plans.",
+      "say": "I can't wait for the holidays!"
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Wait for",
+      "wrong": "'I wait my friend.'",
+      "right": "'I wait for my friend.'",
+      "why": "In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished.",
+      "rule": "**Wait for** + person or thing. **Wait to** + verb. **Wait** alone or with time: 'Wait a minute.'",
+      "examples": [
+        "Wait for me!",
+        "I'm waiting for an answer.",
+        "We wait to start."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Wait for. Not quite: 'I wait my friend.' Say this instead: 'I wait for my friend.' In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished. Wait for + person or thing. Wait to + verb. Wait alone or with time: 'Wait a minute.' Wait for me! I'm waiting for an answer. We wait to start."
+    },
+    {
+      "type": "quiz",
+      "question": "Please wait ___ me at the door.",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wait for + person: 'Please wait for me.'",
+      "say": "Please wait ___ me at the door."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Queueing: a national art",
+      "content": "In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time.",
+      "say": "Queueing: a national art. In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Understand",
+      "say": "9. Understand"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Understand** tells people whether communication works. It is an irregular verb (understand, understood, understood) and it is a stative verb: we normally do not use it in the continuous form.",
+      "say": "Understand tells people whether communication works. It is an irregular verb (understand, understood, understood) and it is a stative verb: we normally do not use it in the continuous form."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "understand",
+          "understood",
+          "I understand."
+        ],
+        [
+          "He / she / it",
+          "understands",
+          "understood",
+          "She understands me."
+        ],
+        [
+          "Negative",
+          "don't understand",
+          "didn't understand",
+          "I don't understand this word."
+        ],
+        [
+          "Question",
+          "Do you understand?",
+          "Did you understand?",
+          "Do you understand me?"
+        ],
+        [
+          "Participle",
+          "understood",
+          "",
+          "I have understood the rule."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Language:** 'I understand English', 'I don't understand the question'.",
+        "**People:** 'I understand you', 'He understands how I feel'.",
+        "**Common phrases:** 'make yourself understood', 'as I understand', 'fully understand'."
+      ],
+      "say": "Language: 'I understand English', 'I don't understand the question'. People: 'I understand you', 'He understands how I feel'. Common phrases: 'make yourself understood', 'as I understand', 'fully understand'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Sorry, I don't understand. Can you repeat that?",
+      "gloss": "A polite and useful survival phrase.",
+      "context": "You are lost in the middle of a new city.",
+      "say": "Sorry, I don't understand. Can you repeat that?"
+    },
+    {
+      "type": "example",
+      "targetText": "Do you understand the homework?",
+      "gloss": "Understand + object.",
+      "context": "A classmate asks you for help.",
+      "say": "Do you understand the homework?"
+    },
+    {
+      "type": "example",
+      "targetText": "I understand you completely.",
+      "gloss": "Understand a person = share their feeling.",
+      "context": "You comfort a friend.",
+      "say": "I understand you completely."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Do you understand this word? B: No, I don't. Can you explain? A: It means 'to wait'. B: Ah, I understand now. Thank you!",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Do you understand this word? B: No, I don't. Can you explain? A: It means 'to wait'. B: Ah, I understand now. Thank you!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "No continuous form",
+      "wrong": "'I am understanding the lesson.'",
+      "right": "'I understand the lesson.'",
+      "why": "Verbs of thinking and feeling are usually stative. Learners apply the -ing form because they know it from action verbs.",
+      "rule": "**Understand**, **know**, **like**, **want** and **believe** usually take the simple present, not the -ing form.",
+      "examples": [
+        "I understand.",
+        "She doesn't understand.",
+        "Do you understand?"
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "No continuous form. Not quite: 'I am understanding the lesson.' Say this instead: 'I understand the lesson.' Verbs of thinking and feeling are usually stative. Learners apply the -ing form because they know it from action verbs. Understand, know, like, want and believe usually take the simple present, not the -ing form. I understand. She doesn't understand. Do you understand?"
+    },
+    {
+      "type": "quiz",
+      "question": "I ___ this word. Can you explain it?",
+      "options": [
+        "am not understanding",
+        "don't understand",
+        "not understand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Negative present: 'don't understand'. No continuous.",
+      "say": "I ___ this word. Can you explain it?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Ask / Answer",
+      "say": "10. Ask / Answer"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Ask** and **answer** work in pairs: someone asks, someone answers. Ask is flexible: you ask a question, ask for something, or ask a person. Answer can be a verb or a noun.",
+      "say": "Ask and answer work in pairs: someone asks, someone answers. Ask is flexible: you ask a question, ask for something, or ask a person. Answer can be a verb or a noun."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "ask",
+          "ask / asks",
+          "asked",
+          "I ask a question."
+        ],
+        [
+          "answer",
+          "answer / answers",
+          "answered",
+          "She answers the phone."
+        ],
+        [
+          "Structure",
+          "ask + person + question",
+          "",
+          "Ask me anything."
+        ],
+        [
+          "Structure",
+          "ask for + thing",
+          "",
+          "Ask for help."
+        ],
+        [
+          "Structure",
+          "answer + question / phone",
+          "",
+          "Answer the question, please."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Questions:** 'ask a question', 'ask the teacher'.",
+        "**Answers:** 'answer the phone', 'answer a letter'.",
+        "**Common phrases:** 'ask for help', 'answer questions', 'ask a favour'."
+      ],
+      "say": "Questions: 'ask a question', 'ask the teacher'. Answers: 'answer the phone', 'answer a letter'. Common phrases: 'ask for help', 'answer questions', 'ask a favour'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Can I ask you a question?",
+      "gloss": "Ask + person + question.",
+      "context": "You interrupt politely in class.",
+      "say": "Can I ask you a question?"
+    },
+    {
+      "type": "example",
+      "targetText": "Could you answer the phone, please?",
+      "gloss": "Answer the phone: it is a transitive verb here, no preposition.",
+      "context": "Your hands are full.",
+      "say": "Could you answer the phone, please?"
+    },
+    {
+      "type": "example",
+      "targetText": "I asked for the bill, and the waiter answered quickly.",
+      "gloss": "Ask for + thing.",
+      "context": "You tell a story about a restaurant.",
+      "say": "I asked for the bill, and the waiter answered quickly."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Excuse me, can I ask something? B: Sure, go ahead. A: Can you answer a question about the homework? B: Of course. Ask me!",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Excuse me, can I ask something? B: Sure, go ahead. A: Can you answer a question about the homework? B: Of course. Ask me!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Ask for, answer to",
+      "wrong": "'I answered to the teacher.'",
+      "right": "'I answered the teacher.'",
+      "why": "In many languages, 'answer' takes a preposition ('answer to'). In English, 'answer' is followed directly by the person or the question.",
+      "rule": "**Answer** + object, no 'to'. **Ask for** + thing. **Ask** + person + question.",
+      "examples": [
+        "Answer the question.",
+        "She asked for water.",
+        "He asked me a question."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Ask for, answer to. Not quite: 'I answered to the teacher.' Say this instead: 'I answered the teacher.' In many languages, 'answer' takes a preposition ('answer to'). In English, 'answer' is followed directly by the person or the question. Answer + object, no 'to'. Ask for + thing. Ask + person + question. Answer the question. She asked for water. He asked me a question."
+    },
+    {
+      "type": "quiz",
+      "question": "Please ___ the phone, I'm busy.",
+      "options": [
+        "answer",
+        "ask",
+        "answer to"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer the phone: no preposition.",
+      "say": "Please ___ the phone, I'm busy."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Asking politely",
+      "content": "Direct questions can sound sharp in English. Add 'Could you...?', 'Would you mind...?' or begin with 'Excuse me' before a stranger. A 'no' is often softened: 'I'm afraid I can't', 'I'd love to, but...'. When someone asks 'How are you?', they usually expect a short answer ('Fine, thanks, and you?'), not a detailed one. Learning these small phrases helps you ask and answer in a way that feels natural to native speakers.",
+      "say": "Asking politely. Direct questions can sound sharp in English. Add 'Could you...?', 'Would you mind...?' or begin with 'Excuse me' before a stranger. A 'no' is often softened: 'I'm afraid I can't', 'I'd love to, but...'. When someone asks 'How are you?', they usually expect a short answer ('Fine, thanks, and you?'), not a detailed one. Learning these small phrases helps you ask and answer in a way that feels natural to native speakers."
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Comparative Matrix across Language Families"
     },
     {
@@ -224,6 +1603,29 @@
     {
       "type": "paragraph",
       "text": "• **Simple Sentence Structures:** Focus on Subject + Verb + Object.\n• **Auxiliaries & Modals:** Use 'can', 'must', and 'be going to' for simple daily intentions.\n• **Conjugations:** Check full present, past, and future tense tables on [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Your 5-minute speaking routine",
+      "say": "Your 5-minute speaking routine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Five minutes a day, out loud, beat an hour of silent reading on Sunday. Here is a simple plan to repeat for one week: <mark class=\"hl-handwritten\">one minute per step, no more</mark>.",
+      "say": "Five minutes a day, out loud, beat an hour of silent reading on Sunday. Here is a simple plan to repeat for one week: one minute per step, no more."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minute 1, warm-up:** say the present, past and participle of do/make, take/give/get and understand without looking at the tables.",
+        "**Minute 2, three verbs, three sentences:** choose three verbs and say one true sentence about your life for each: 'I live...', 'I have to...', 'I wait for...'.",
+        "**Minute 3, mistake hunt:** reread one 'Not quite' card and say the correct sentence three times, changing the subject each time.",
+        "**Minute 4, mini-dialogue:** play both roles of a dialogue with 'Can I ask...?', 'Could you give me...?', 'Do you understand?', and record yourself on your phone.",
+        "**Minute 5, replay:** listen to the recording and pick one sentence to keep for tomorrow. Write it on a note near your desk."
+      ],
+      "say": "Minute 1, warm-up: say the present, past and participle of do/make, take/give/get and understand without looking at the tables. Minute 2, three verbs, three sentences: choose three verbs and say one true sentence about your life for each: 'I live...', 'I have to...', 'I wait for...'. Minute 3, mistake hunt: reread one 'Not quite' card and say the correct sentence three times, changing the subject each time. Minute 4, mini-dialogue: play both roles of a dialogue with 'Can I ask...?', 'Could you give me...?', 'Do you understand?', and record yourself on your phone. Minute 5, replay: listen to the recording and pick one sentence to keep for tomorrow. Write it on a note near your desk."
     },
     {
       "type": "heading",

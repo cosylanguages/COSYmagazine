@@ -20,7 +20,7 @@
     "A0-A1",
     "Part2"
   ],
-  "readingTime": 10,
+  "readingTime": 16,
   "podcast": {
     "episode": 3,
     "audioUrl": null
@@ -44,28 +44,24 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Benvenuti alla Parte 2 della nostra guida ai verbi italiani per principianti A0–A1 e A2! (Leggi la [Parte 1](top-10-verbs-it.html) se te la sei persa). Analizziamo 10 nuovi verbi quotidiani. Tutte le tabelle di coniugazione sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Dieci verbi in più, e la tua conversazione cambia davvero: potrai raccontare la tua giornata, proporre un piano, chiedere un'informazione, dire che non hai capito e rispondere al telefono. <mark class=\"hl-handwritten\">Sono verbi che usi cento volte al giorno</mark>, quindi si memorizzano in fretta, anche quando sono irregolari.",
+      "say": "Dieci verbi in più, e la tua conversazione cambia davvero: potrai raccontare la tua giornata, proporre un piano, chiedere un'informazione, dire che non hai capito e rispondere al telefono. Sono verbi che usi cento volte al giorno, quindi si memorizzano in fretta, anche quando sono irregolari."
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "I 10 verbi principali (Parte 2)"
+      "type": "paragraph",
+      "text": "Anche questo articolo si legge <span class=\"doodle-circle\">ad alta voce</span>. Per ogni verbo, comincia dalla tabella e di' le forme senza guardare. Poi leggi le tre frasi della rubrica « Ad alta voce », coprile e ripetile a memoria cambiando una parola per parlare della tua vita. Concludi con la carta dell'errore: ti mostra la frase che molti principianti dicono e quella da dire. Parlare prima, capire la regola dopo: è più veloce e più naturale.",
+      "say": "Anche questo articolo si legge ad alta voce. Per ogni verbo, comincia dalla tabella e di' le forme senza guardare. Poi leggi le tre frasi della rubrica « Ad alta voce », coprile e ripetile a memoria cambiando una parola per parlare della tua vita. Concludi con la carta dell'errore: ti mostra la frase che molti principianti dicono e quella da dire. Parlare prima, capire la regola dopo: è più veloce e più naturale."
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Fare:** Attività quotidiane.\n  • *Frasi semplici:* 'Fare la spesa', 'Fare colazione', 'Fare i compiti'.\n  • *Frasi utili:* 'fare attenzione', 'fare piacere', 'fare bella figura'.",
-        "**2. Parlare / Dire:** Comunicazione.\n  • *Frasi semplici:* 'Parlare italiano', 'Dire la verità', 'Dimmi'.\n  • *Frasi utili:* 'parlare di', 'dire di sì', 'per così dire'.",
-        "**3. Guardare / Vedere:** Percezione visiva.\n  • *Frasi semplici:* 'Guardare un film', 'Vedo un uccello'.\n  • *Frasi utili:* 'guardare la TV', 'stare a vedere', 'ci vediamo'.",
-        "**4. Ascoltare / Sentire:** Percezione uditiva.\n  • *Frasi semplici:* 'Ascoltare musica', 'Sento un rumore'.\n  • *Frasi utili:* 'ascolta con attenzione', 'sentire parlare di'.",
-        "**5. Dovere / Bisognare:** Obbligo e necessità.\n  • *Frasi semplici:* 'Devo studiare', 'Bisogna partire ora'.\n  • *Frasi utili:* 'dovere fare', 'come si deve', 'bisogna stare attenti'.",
-        "**6. Prendere / Dare:** Scambi.\n  • *Frasi semplici:* 'Prendere il treno', 'Dare un regalo'.\n  • *Frasi utili:* 'prendersi cura', 'dare un passaggio', 'prendere un caffè'.",
-        "**7. Vivere / Abitare:** Residensa.\n  • *Frasi semplici:* 'Abito a Milano', 'Vivere in pace'.\n  • *Frasi utili:* 'vivere all'estero', 'abitare vicino'.",
-        "**8. Aspettare:** Attesa.\n  • *Frasi semplici:* 'Aspettare l'autobus', 'Aspetta un momento'.\n  • *Frasi utili:* 'non vedere l'ora', 'aspettare in fila'.",
-        "**9. Capire:** Comprensione.\n  • *Frasi semplici:* 'Capisco la lezione', 'Capisci cosa intendo?'.\n  • *Frasi utili:* 'farsi capire', 'capisco benissimo'.",
-        "**10. Chiedere / Rispondere:** Domande e risposte.\n  • *Frasi semplici:* 'Chiedere un'informazione', 'Rispondere al telefono'.\n  • *Frasi utili:* 'chiedere aiuto', 'rispondere subito'."
-      ]
+      "type": "paragraph",
+      "text": "Benvenuti alla Parte 2 della nostra guida ai verbi italiani per principianti A0–A1 e A2! (Leggi la [Parte 1](top-10-verbs-it.html) se te la sei persa). Analizziamo 10 nuovi verbi quotidiani. Tutte le tabelle di coniugazione sono consultabili su [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Benvenuti alla Parte 2 della nostra guida ai verbi italiani per principianti A0–A1 e A2! (Leggi la Parte 1 se te la sei persa). Analizziamo 10 nuovi verbi quotidiani. Tutte le tabelle di coniugazione sono consultabili su COSYtools."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Un verbo imparato dentro una frase vale dieci verbi imparati in un elenco.",
+      "attribution": "COSYmagazine",
+      "say": "Un verbo imparato dentro una frase vale dieci verbi imparati in un elenco."
     },
     {
       "type": "table",
@@ -126,7 +122,7 @@
         [
           "7",
           "Vivere / Abitare",
-          "Residensa.",
+          "Residenza.",
           "'Abito a Milano', 'Vivere in pace'.",
           "'vivere all'estero', 'abitare vicino'."
         ],
@@ -156,12 +152,1192 @@
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "Tabella comparativa dei verbi"
+      "level": 2,
+      "text": "La mappa della memoria: dieci verbi, cinque funzioni",
+      "say": "La mappa della memoria: dieci verbi, cinque funzioni"
     },
     {
       "type": "paragraph",
-      "text": "Confronto dei verbi essenziali nelle famiglie linguistiche:"
+      "text": "Invece di imparare i dieci verbi uno dopo l'altro, mettili in ordine per funzione. Quando vuoi dire qualcosa, chiediti: <mark class=\"hl-handwritten\">sto parlando di azioni, di percezioni, di doveri, di scambi o di comunicazione?</mark> Il verbo arriva quasi da solo.",
+      "say": "Invece di imparare i dieci verbi uno dopo l'altro, mettili in ordine per funzione. Quando vuoi dire qualcosa, chiediti: sto parlando di azioni, di percezioni, di doveri, di scambi o di comunicazione? Il verbo arriva quasi da solo."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Fare e comunicare:** fare, parlare, dire. Azioni quotidiane e parole.",
+        "**Percepire:** guardare, vedere, ascoltare, sentire. Vista e udito.",
+        "**Dovere e scambiare:** dovere, bisognare, prendere, dare. Obblighi e scambi.",
+        "**Dove e quando:** vivere, abitare, aspettare. Residenza e attesa.",
+        "**Capire e domandare:** capire, chiedere, rispondere. Comprensione e dialogo."
+      ],
+      "say": "Fare e comunicare: fare, parlare, dire. Azioni quotidiane e parole. Percepire: guardare, vedere, ascoltare, sentire. Vista e udito. Dovere e scambiare: dovere, bisognare, prendere, dare. Obblighi e scambi. Dove e quando: vivere, abitare, aspettare. Residenza e attesa. Capire e domandare: capire, chiedere, rispondere. Comprensione e dialogo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "I 10 verbi fondamentali (Parte 2)",
+      "say": "I 10 verbi fondamentali (Parte 2)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Fare (To Do / Make)",
+      "say": "1. Fare (To Do / Make)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Il verbo **fare** è il tuttofare dell'italiano: indica azioni quotidiane (fare la spesa, fare colazione), il tempo atmosferico (fa freddo) e molte espressioni fisse. È irregolare, ma lo sentirai così spesso che si impara quasi da solo.",
+      "say": "Il verbo fare è il tuttofare dell'italiano: indica azioni quotidiane (fare la spesa, fare colazione), il tempo atmosferico (fa freddo) e molte espressioni fisse. È irregolare, ma lo sentirai così spesso che si impara quasi da solo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Fare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "faccio",
+          "Faccio colazione alle sette."
+        ],
+        [
+          "Tu",
+          "fai",
+          "Che cosa fai stasera?"
+        ],
+        [
+          "Lui / Lei",
+          "fa",
+          "Lei fa la spesa il sabato."
+        ],
+        [
+          "Noi",
+          "facciamo",
+          "Facciamo una passeggiata."
+        ],
+        [
+          "Voi",
+          "fate",
+          "Fate i compiti insieme?"
+        ],
+        [
+          "Loro",
+          "fanno",
+          "Fanno sempre rumore."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Vita quotidiana:** 'fare la spesa', 'fare colazione', 'fare i compiti', 'fare la doccia'.",
+        "**Tempo e sensazioni:** 'Fa freddo', 'Fa caldo', 'Mi fa male la testa'.",
+        "**Espressioni utili:** 'fare attenzione', 'fare piacere', 'fare bella figura', 'fare una domanda'."
+      ],
+      "say": "Vita quotidiana: 'fare la spesa', 'fare colazione', 'fare i compiti', 'fare la doccia'. Tempo e sensazioni: 'Fa freddo', 'Fa caldo', 'Mi fa male la testa'. Espressioni utili: 'fare attenzione', 'fare piacere', 'fare bella figura', 'fare una domanda'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Faccio la spesa prima di tornare a casa.",
+      "gloss": "Fare la spesa = comprare cibo e prodotti per la casa.",
+      "context": "Parli della tua giornata con un collega."
+    },
+    {
+      "type": "example",
+      "targetText": "Oggi fa freddo: mettiti la sciarpa!",
+      "gloss": "Per il tempo si usa « fare »: fa caldo, fa freddo, fa bel tempo.",
+      "context": "Esci di casa con un amico a dicembre."
+    },
+    {
+      "type": "example",
+      "targetText": "– Che cosa fai domani? – Faccio un giro in centro, vieni anche tu? – Volentieri!",
+      "gloss": "Dialogo breve: « Che cosa fai? » è la domanda più comune per proporre un piano.",
+      "context": "Due amici si mettono d'accordo per il fine settimana."
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Fare e il tempo atmosferico",
+      "wrong": "« Oggi è freddo. »",
+      "right": "« Oggi fa freddo. »",
+      "why": "In molte lingue si usa « essere » per il tempo (it is cold). In italiano il tempo si dice con **fare**; « essere » si usa solo con alcune forme come « è nuvoloso ».",
+      "rule": "Per il tempo: **fa** + caldo / freddo / bel tempo / brutto tempo. Con la pioggia e la neve si usa invece il verbo proprio: piove, nevica.",
+      "examples": [
+        "Ieri faceva molto caldo.",
+        "In montagna fa freddo anche d'estate.",
+        "Domani fa bel tempo?"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Parlare / Dire (To Speak / To Say)",
+      "say": "2. Parlare / Dire (To Speak / To Say)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Parlare** indica l'atto di comunicare con la voce (parlare italiano, parlare con qualcuno); **dire** serve per riportare ciò che si dice (dire la verità, dire di sì). Parlare è regolare, dire è irregolare.",
+      "say": "Parlare indica l'atto di comunicare con la voce (parlare italiano, parlare con qualcuno); dire serve per riportare ciò che si dice (dire la verità, dire di sì). Parlare è regolare, dire è irregolare."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Parlare",
+        "Dire",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "parlo",
+          "dico",
+          "Parlo un po' di italiano."
+        ],
+        [
+          "Tu",
+          "parli",
+          "dici",
+          "Dici la verità?"
+        ],
+        [
+          "Lui / Lei",
+          "parla",
+          "dice",
+          "Lei dice sempre di sì."
+        ],
+        [
+          "Noi",
+          "parliamo",
+          "diciamo",
+          "Parliamo lentamente."
+        ],
+        [
+          "Voi",
+          "parlate",
+          "dite",
+          "Che cosa dite?"
+        ],
+        [
+          "Loro",
+          "parlano",
+          "dicono",
+          "Parlano di lavoro."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Lingue e persone:** 'parlare italiano', 'parlare con Marco', 'parlare di musica'.",
+        "**Dire qualcosa:** 'dire la verità', 'dire di sì', 'Dimmi!', 'Come si dice… ?'.",
+        "**Espressioni utili:** 'per così dire', 'a dire il vero', 'voler dire' (significare)."
+      ],
+      "say": "Lingue e persone: 'parlare italiano', 'parlare con Marco', 'parlare di musica'. Dire qualcosa: 'dire la verità', 'dire di sì', 'Dimmi!', 'Come si dice… ?'. Espressioni utili: 'per così dire', 'a dire il vero', 'voler dire' (significare)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Scusi, parla inglese? – Un po', ma preferisco parlare italiano.",
+      "gloss": "Parlare + lingua, senza articolo.",
+      "context": "Chiedi aiuto a un passante."
+    },
+    {
+      "type": "example",
+      "targetText": "Come si dice « thank you » in italiano? – Si dice « grazie ».",
+      "gloss": "« Come si dice… ? » è la domanda perfetta in classe.",
+      "context": "Impari una parola nuova a lezione."
+    },
+    {
+      "type": "example",
+      "targetText": "– Dimmi, che c'è? – Devo dirti una cosa importante. – Ti ascolto.",
+      "gloss": "« Dimmi » = di' + mi: l'imperativo di dire con il pronome.",
+      "context": "Un amico ti chiama al telefono."
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Parlare o dire?",
+      "wrong": "« Parlo che è tardi. »",
+      "right": "« Dico che è tardi. »",
+      "why": "In molte lingue un solo verbo copre « speak » e « say ». In italiano **parlare** non può introdurre un discorso riportato: serve **dire**.",
+      "rule": "**Parlare** + lingua / di + argomento / con + persona. **Dire** + che… / + cosa detta.",
+      "examples": [
+        "Parlo con il mio professore.",
+        "Dico di no.",
+        "Parliamo di cinema, ma dico la verità: preferisco i libri."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Guardare / Vedere (To Look / To See)",
+      "say": "3. Guardare / Vedere (To Look / To See)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Guardare** è un'azione volontaria (guardare un film, guardare la TV); **vedere** è la percezione (vedo un uccello) ma anche incontrare qualcuno (ci vediamo domani). Guardare è regolare, vedere è un po' irregolare.",
+      "say": "Guardare è un'azione volontaria (guardare un film, guardare la TV); vedere è la percezione (vedo un uccello) ma anche incontrare qualcuno (ci vediamo domani). Guardare è regolare, vedere è un po' irregolare."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Guardare",
+        "Vedere",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "guardo",
+          "vedo",
+          "Guardo un film ogni venerdì."
+        ],
+        [
+          "Tu",
+          "guardi",
+          "vedi",
+          "Vedi quella casa?"
+        ],
+        [
+          "Lui / Lei",
+          "guarda",
+          "vede",
+          "Lui guarda la partita."
+        ],
+        [
+          "Noi",
+          "guardiamo",
+          "vediamo",
+          "Vediamo un amico."
+        ],
+        [
+          "Voi",
+          "guardate",
+          "vedete",
+          "Guardate la lavagna!"
+        ],
+        [
+          "Loro",
+          "guardano",
+          "vedono",
+          "Non vedono bene."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Guardare:** 'guardare la TV', 'guardare un film', 'guardare l'orologio'.",
+        "**Vedere:** 'Vedo un uccello', 'Non ci vedo', 'Vediamo!' (= proviamo e poi decidiamo).",
+        "**Espressioni utili:** 'ci vediamo', 'stare a vedere', 'a presto, ci vediamo domani'."
+      ],
+      "say": "Guardare: 'guardare la TV', 'guardare un film', 'guardare l'orologio'. Vedere: 'Vedo un uccello', 'Non ci vedo', 'Vediamo!' (= proviamo e poi decidiamo). Espressioni utili: 'ci vediamo', 'stare a vedere', 'a presto, ci vediamo domani'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Stasera guardo una serie con mia sorella.",
+      "gloss": "Guardare + cosa si segue con attenzione: film, serie, partita.",
+      "context": "Racconti la tua serata."
+    },
+    {
+      "type": "example",
+      "targetText": "Scusa, non vedo bene: puoi scrivere più grande?",
+      "gloss": "Vedere = avere la capacità di percepire con gli occhi.",
+      "context": "Sei in fondo all'aula."
+    },
+    {
+      "type": "example",
+      "targetText": "– Ci vediamo domani? – Sì, alle otto davanti al cinema. – Perfetto, a domani!",
+      "gloss": "« Ci vediamo » è il saluto informale per un incontro già fissato.",
+      "context": "Due amici chiudono una telefonata."
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Guardare e vedere",
+      "wrong": "« Vedo la TV ogni sera. »",
+      "right": "« Guardo la TV ogni sera. »",
+      "why": "In molte lingue si usa lo stesso verbo per guardare e vedere. In italiano la TV, i film e le partite si **guardano**; si **vede** ciò che capita sotto gli occhi.",
+      "rule": "Se c'è attenzione e volontà: **guardare**. Se è una percezione o un incontro: **vedere**.",
+      "examples": [
+        "Guardo un documentario.",
+        "Vedo un gatto sul tetto.",
+        "Vediamoci alle cinque."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Ascoltare / Sentire (To Listen / To Hear)",
+      "say": "4. Ascoltare / Sentire (To Listen / To Hear)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Ascoltare** significa prestare attenzione (ascoltare musica, ascoltare un amico); **sentire** è percepire un suono, ma in italiano anche provare qualcosa (sento freddo) o sentirsi al telefono (ci sentiamo).",
+      "say": "Ascoltare significa prestare attenzione (ascoltare musica, ascoltare un amico); sentire è percepire un suono, ma in italiano anche provare qualcosa (sento freddo) o sentirsi al telefono (ci sentiamo)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Ascoltare",
+        "Sentire",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "ascolto",
+          "sento",
+          "Ascolto la radio in macchina."
+        ],
+        [
+          "Tu",
+          "ascolti",
+          "senti",
+          "Senti questo rumore?"
+        ],
+        [
+          "Lui / Lei",
+          "ascolta",
+          "sente",
+          "Lei ascolta con attenzione."
+        ],
+        [
+          "Noi",
+          "ascoltiamo",
+          "sentiamo",
+          "Sentiamo il campanello."
+        ],
+        [
+          "Voi",
+          "ascoltate",
+          "sentite",
+          "Ascoltate il dialogo."
+        ],
+        [
+          "Loro",
+          "ascoltano",
+          "sentono",
+          "Sentono la musica."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ascoltare:** 'ascoltare musica', 'ascoltare un podcast', 'ascoltare con attenzione'.",
+        "**Sentire:** 'Sento un rumore', 'Non sento niente', 'sentire parlare di'.",
+        "**Espressioni utili:** 'Senti!' (per attirare l'attenzione), 'ci sentiamo', 'sentirsi bene'."
+      ],
+      "say": "Ascoltare: 'ascoltare musica', 'ascoltare un podcast', 'ascoltare con attenzione'. Sentire: 'Sento un rumore', 'Non sento niente', 'sentire parlare di'. Espressioni utili: 'Senti!' (per attirare l'attenzione), 'ci sentiamo', 'sentirsi bene'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Ascolto un podcast mentre vado al lavoro.",
+      "gloss": "Ascoltare + oggetto diretto: nessuna preposizione.",
+      "context": "Parli delle tue abitudini."
+    },
+    {
+      "type": "example",
+      "targetText": "Scusi, non sento: può ripetere, per favore?",
+      "gloss": "« Non sento » = non percepisco il suono.",
+      "context": "Sei in un locale rumoroso."
+    },
+    {
+      "type": "example",
+      "targetText": "– Ti chiamo stasera. – Perfetto, ci sentiamo dopo cena!",
+      "gloss": "« Ci sentiamo » = ci parliamo (al telefono o per messaggio).",
+      "context": "Due colleghi si salutano."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Ascoltare senza preposizione",
+      "wrong": "« Ascolto a la musica. »",
+      "right": "« Ascolto la musica. »",
+      "why": "Altre lingue usano una preposizione (listen **to**). In italiano **ascoltare** è transitivo: l'oggetto viene subito dopo.",
+      "rule": "**Ascoltare** + oggetto diretto, senza preposizione: ascolto te, ascolto la radio. Ma **sentire** può anche significare « provare »: sento fame.",
+      "examples": [
+        "Ascolto mia madre.",
+        "Ascoltate bene!",
+        "Sento freddo."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Dovere / Bisognare (Must / To Need)",
+      "say": "5. Dovere / Bisognare (Must / To Need)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Dovere** esprime obbligo ed è un verbo modale: si usa con l'infinito (devo studiare). **Bisogna** è impersonale e vale per tutti: non cambia con la persona (bisogna partire).",
+      "say": "Dovere esprime obbligo ed è un verbo modale: si usa con l'infinito (devo studiare). Bisogna è impersonale e vale per tutti: non cambia con la persona (bisogna partire)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Dovere",
+        "Bisognare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "devo",
+          "—",
+          "Devo studiare per l'esame."
+        ],
+        [
+          "Tu",
+          "devi",
+          "—",
+          "Devi riposarti."
+        ],
+        [
+          "Lui / Lei",
+          "deve",
+          "bisogna (impersonale)",
+          "Deve partire presto."
+        ],
+        [
+          "Noi",
+          "dobbiamo",
+          "—",
+          "Dobbiamo andare."
+        ],
+        [
+          "Voi",
+          "dovete",
+          "—",
+          "Dovete aspettare."
+        ],
+        [
+          "Loro",
+          "devono",
+          "—",
+          "Devono lavorare."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Obbligo personale:** 'Devo studiare', 'Devi chiamarmi', 'Dobbiamo andare'.",
+        "**Necessità generale:** 'Bisogna partire ora', 'Bisogna stare attenti', 'Bisogna prenotare'.",
+        "**Espressioni utili:** 'come si deve' (come è giusto), 'dovere fare qualcosa', 'a che ora devo venire?'."
+      ],
+      "say": "Obbligo personale: 'Devo studiare', 'Devi chiamarmi', 'Dobbiamo andare'. Necessità generale: 'Bisogna partire ora', 'Bisogna stare attenti', 'Bisogna prenotare'. Espressioni utili: 'come si deve' (come è giusto), 'dovere fare qualcosa', 'a che ora devo venire?'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Devo finire questo lavoro entro stasera.",
+      "gloss": "Dovere + infinito: un obbligo personale.",
+      "context": "Spieghi perché non puoi uscire."
+    },
+    {
+      "type": "example",
+      "targetText": "Bisogna prenotare il tavolo, altrimenti non c'è posto.",
+      "gloss": "« Bisogna » vale per chiunque: regola generale.",
+      "context": "Consigli un ristorante molto frequentato."
+    },
+    {
+      "type": "example",
+      "targetText": "– Scusa, devo scappare. – Ma come, già? – Sì, devo prendere il treno delle sei.",
+      "gloss": "« Devo scappare » = devo andare via in fretta.",
+      "context": "Saluti un amico dopo un caffè."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Dovere con l'infinito",
+      "wrong": "« Devo di studiare. »",
+      "right": "« Devo studiare. »",
+      "why": "Per influenza di altre lingue si aggiunge « di » o « a ». **Dovere** è un modale: l'infinito segue direttamente.",
+      "rule": "**Dovere / potere / volere** + infinito, senza preposizione. Per l'impersonale: **bisogna** + infinito, oppure **bisogna che** + congiuntivo.",
+      "examples": [
+        "Devo partire.",
+        "Dobbiamo parlare.",
+        "Bisogna fare attenzione."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Prendere / Dare (To Take / To Give)",
+      "say": "6. Prendere / Dare (To Take / To Give)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Prendere** copre moltissimi usi: mezzi di trasporto (prendere il treno), cibo e bevande (prendere un caffè), cose da afferrare. **Dare** indica il passaggio di qualcosa a qualcuno (dare un regalo). Dare è molto irregolare.",
+      "say": "Prendere copre moltissimi usi: mezzi di trasporto (prendere il treno), cibo e bevande (prendere un caffè), cose da afferrare. Dare indica il passaggio di qualcosa a qualcuno (dare un regalo). Dare è molto irregolare."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Prendere",
+        "Dare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "prendo",
+          "do",
+          "Prendo il treno delle otto."
+        ],
+        [
+          "Tu",
+          "prendi",
+          "dai",
+          "Mi dai una mano?"
+        ],
+        [
+          "Lui / Lei",
+          "prende",
+          "dà",
+          "Lui prende un caffè."
+        ],
+        [
+          "Noi",
+          "prendiamo",
+          "diamo",
+          "Diamo un regalo a Sara."
+        ],
+        [
+          "Voi",
+          "prendete",
+          "date",
+          "Prendete l'ombrello!"
+        ],
+        [
+          "Loro",
+          "prendono",
+          "danno",
+          "Danno un passaggio a tutti."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Prendere:** 'prendere il treno', 'prendere un caffè', 'prendere appunti'.",
+        "**Dare:** 'dare un regalo', 'dare una mano', 'dare un passaggio', 'dare del Lei / del tu'.",
+        "**Espressioni utili:** 'prendersi cura di', 'prendere in giro', 'dare retta', 'Che cosa prendi?'."
+      ],
+      "say": "Prendere: 'prendere il treno', 'prendere un caffè', 'prendere appunti'. Dare: 'dare un regalo', 'dare una mano', 'dare un passaggio', 'dare del Lei / del tu'. Espressioni utili: 'prendersi cura di', 'prendere in giro', 'dare retta', 'Che cosa prendi?'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Per andare in centro prendo l'autobus numero 5.",
+      "gloss": "Prendere + mezzo di trasporto, senza preposizione.",
+      "context": "Spieghi come arrivi in ufficio."
+    },
+    {
+      "type": "example",
+      "targetText": "Ti do un passaggio fino alla stazione.",
+      "gloss": "Dare un passaggio = accompagnare qualcuno in auto.",
+      "context": "Offri un aiuto a un amico."
+    },
+    {
+      "type": "example",
+      "targetText": "– Cosa prendi? – Un caffè, grazie. – E io prendo un cappuccino.",
+      "gloss": "Al bar si dice « Prendo… » per ordinare.",
+      "context": "Due amici ordinano al banco."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Dà o da?",
+      "wrong": "« Lui da un regalo. »",
+      "right": "« Lui dà un regalo. »",
+      "why": "« da » (preposizione) e « dà » (verbo) si pronunciano uguale ma si scrivono diversamente: l'accento serve a distinguerli.",
+      "rule": "**Dà** (con accento) = terza persona di dare. **Da** (senza accento) = preposizione: vengo da Roma.",
+      "examples": [
+        "Lei dà un consiglio.",
+        "Vengo da Napoli.",
+        "Mi dai la penna?"
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Domani ___ prendere il treno delle sei.",
+      "options": [
+        "devo",
+        "bisogna",
+        "dà"
+      ],
+      "correctIndex": 0,
+      "explanation": "Con il soggetto « io » si usa dovere: « Devo prendere il treno delle sei. » Bisogna è impersonale.",
+      "say": "Domani ___ prendere il treno delle sei."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Dare del tu o del Lei: un piccolo gesto che conta",
+      "content": "In italiano si dà del « tu » ad amici, familiari, bambini e spesso ai coetanei. Si dà del « Lei » a una persona che non si conosce, a un adulto in un contesto formale, a un cliente o a un professore. Al bar o in negozio, di solito si dice « Buongiorno » e si usa il Lei: « Mi dà un caffè, per favore? ». Il passaggio al tu si propone spesso con una frase come « Possiamo darci del tu? ». Se la persona è più anziana o ha un ruolo importante, lascia che sia lei a proporlo. Nel dubbio scegli il Lei: ti perdoneranno facilmente di essere troppo educato, difficilmente di esserlo troppo poco. Gli usi cambiano secondo le regioni e gli ambienti: tra i giovani e nei luoghi di lavoro creativi il tu è molto diffuso.",
+      "say": "Dare del tu o del Lei: un piccolo gesto che conta. In italiano si dà del « tu » ad amici, familiari, bambini e spesso ai coetanei. Si dà del « Lei » a una persona che non si conosce, a un adulto in un contesto formale, a un cliente o a un professore. Al bar o in negozio, di solito si dice « Buongiorno » e si usa il Lei: « Mi dà un caffè, per favore? ». Il passaggio al tu si propone spesso con una frase come « Possiamo darci del tu? ». Se la persona è più anziana o ha un ruolo importante, lascia che sia lei a proporlo. Nel dubbio scegli il Lei: ti perdoneranno facilmente di essere troppo educato, difficilmente di esserlo troppo poco. Gli usi cambiano secondo le regioni e gli ambienti: tra i giovani e nei luoghi di lavoro creativi il tu è molto diffuso."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Vivere / Abitare (To Live)",
+      "say": "7. Vivere / Abitare (To Live)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Abitare** indica dove hai casa (abito a Milano); **vivere** ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa **abitare** per l'indirizzo.",
+      "say": "Abitare indica dove hai casa (abito a Milano); vivere ha un senso più ampio: l'esistenza e lo stile di vita (vivere in pace, vivere all'estero). Nella vita quotidiana usa abitare per l'indirizzo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Vivere",
+        "Abitare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "vivo",
+          "abito",
+          "Vivo all'estero da due anni."
+        ],
+        [
+          "Tu",
+          "vivi",
+          "abiti",
+          "Dove abiti?"
+        ],
+        [
+          "Lui / Lei",
+          "vive",
+          "abita",
+          "Lei abita vicino al parco."
+        ],
+        [
+          "Noi",
+          "viviamo",
+          "abitiamo",
+          "Abitiamo in centro."
+        ],
+        [
+          "Voi",
+          "vivete",
+          "abitate",
+          "Vivete in campagna?"
+        ],
+        [
+          "Loro",
+          "vivono",
+          "abitano",
+          "Abitano a Torino."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Indirizzo:** 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'.",
+        "**Stile di vita:** 'vivere in pace', 'vivere all'estero', 'vivere da soli'.",
+        "**Espressioni utili:** 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
+      ],
+      "say": "Indirizzo: 'Abito a Milano', 'Abito in via Roma', 'Abito con i miei genitori'. Stile di vita: 'vivere in pace', 'vivere all'estero', 'vivere da soli'. Espressioni utili: 'abitare vicino', 'abitare al terzo piano', 'vivere alla giornata'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Abito in un piccolo appartamento vicino alla stazione.",
+      "gloss": "Abitare + in / a + luogo.",
+      "context": "Descrivi casa tua a un nuovo vicino."
+    },
+    {
+      "type": "example",
+      "targetText": "Mio fratello vive a Londra da cinque anni.",
+      "gloss": "Vivere in un paese: spesso con un senso di esperienza di vita.",
+      "context": "Parli della tua famiglia."
+    },
+    {
+      "type": "example",
+      "targetText": "– Dove abiti? – Abito a Bologna, e tu? – Io vivo a Firenze, ma sono nato qui.",
+      "gloss": "Domanda classica per fare conoscenza.",
+      "context": "Due persone si conoscono a una festa."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "A o in con abitare",
+      "wrong": "« Abito in Milano. »",
+      "right": "« Abito a Milano. »",
+      "why": "Davanti a una città si usa **a**, davanti a un paese o a una regione si usa **in**. Chi studia altre lingue tende a usare sempre la stessa preposizione.",
+      "rule": "**a** + città: abito a Roma. **in** + paese / regione: abito in Italia, in Toscana.",
+      "examples": [
+        "Abito a Padova.",
+        "Vivo in Francia.",
+        "Abitano a Parigi, in Francia."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Aspettare (To Wait)",
+      "say": "8. Aspettare (To Wait)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Aspettare** è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus ».",
+      "say": "Aspettare è un verbo regolare in -are e vuol dire attendere qualcuno o qualcosa. Si usa senza preposizione: aspetto l'autobus, non « aspetto per l'autobus »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Aspettare",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "aspetto",
+          "Aspetto l'autobus da dieci minuti."
+        ],
+        [
+          "Tu",
+          "aspetti",
+          "Chi aspetti?"
+        ],
+        [
+          "Lui / Lei",
+          "aspetta",
+          "Lei aspetta una telefonata."
+        ],
+        [
+          "Noi",
+          "aspettiamo",
+          "Aspettiamo in fila."
+        ],
+        [
+          "Voi",
+          "aspettate",
+          "Aspettate un momento!"
+        ],
+        [
+          "Loro",
+          "aspettano",
+          "Aspettano il treno."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Attesa quotidiana:** 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'.",
+        "**Imperativo:** 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia).",
+        "**Espressioni utili:** 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
+      ],
+      "say": "Attesa quotidiana: 'aspettare l'autobus', 'aspettare in fila', 'aspettare una risposta'. Imperativo: 'Aspetta un momento!', 'Aspettami!', 'Aspetti, per favore' (forma di cortesia). Espressioni utili: 'non vedere l'ora di', 'farsi aspettare', 'aspettarsi qualcosa'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Aspetto il mio amico davanti al cinema.",
+      "gloss": "Aspettare + persona o cosa, senza preposizione.",
+      "context": "Sei in anticipo a un appuntamento."
+    },
+    {
+      "type": "example",
+      "targetText": "Aspetta un momento, arrivo subito!",
+      "gloss": "L'imperativo di cortesia tra amici: aspetta.",
+      "context": "Sei al telefono."
+    },
+    {
+      "type": "example",
+      "targetText": "– Non vedo l'ora di partire! – Anch'io! Aspetto queste vacanze da mesi.",
+      "gloss": "« Non vedere l'ora » = essere molto impazienti.",
+      "context": "Due colleghi parlano delle ferie."
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Aspettare e sperare",
+      "wrong": "« Aspetto che tu stai bene. »",
+      "right": "« Spero che tu stia bene. »",
+      "why": "**Aspettare** è attendere un evento o una persona. Per un augurio si usa **sperare**.",
+      "rule": "**Aspettare** + oggetto diretto (aspetto un amico). **Sperare** + che (+ congiuntivo): spero che tu stia bene.",
+      "examples": [
+        "Aspetto il treno.",
+        "Aspetta qui!",
+        "Non vedo l'ora di vederti."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Capire (To Understand)",
+      "say": "9. Capire (To Understand)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Capire** è un verbo in -ire che segue il modello « -isc- »: nelle persone io, tu, lui e loro si aggiunge -isc- (capisco, capisci, capisce, capiscono). Serve per dire che si comprende o per chiedere una spiegazione.",
+      "say": "Capire è un verbo in -ire che segue il modello « -isc- »: nelle persone io, tu, lui e loro si aggiunge -isc- (capisco, capisci, capisce, capiscono). Serve per dire che si comprende o per chiedere una spiegazione."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Capire",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "capisco",
+          "Capisco la lezione."
+        ],
+        [
+          "Tu",
+          "capisci",
+          "Capisci cosa intendo?"
+        ],
+        [
+          "Lui / Lei",
+          "capisce",
+          "Lei capisce tutto."
+        ],
+        [
+          "Noi",
+          "capiamo",
+          "Capiamo un po'."
+        ],
+        [
+          "Voi",
+          "capite",
+          "Capite l'italiano?"
+        ],
+        [
+          "Loro",
+          "capiscono",
+          "Non capiscono la domanda."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comprensione:** 'Capisco', 'Non capisco', 'Capisci?', 'Ho capito'.",
+        "**Chiedere aiuto:** 'Può ripetere?', 'Non ho capito', 'Che cosa significa… ?'.",
+        "**Espressioni utili:** 'farsi capire', 'capire al volo', 'capisco benissimo'."
+      ],
+      "say": "Comprensione: 'Capisco', 'Non capisco', 'Capisci?', 'Ho capito'. Chiedere aiuto: 'Può ripetere?', 'Non ho capito', 'Che cosa significa… ?'. Espressioni utili: 'farsi capire', 'capire al volo', 'capisco benissimo'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Scusi, non capisco: può parlare più lentamente?",
+      "gloss": "Frase indispensabile per ogni principiante.",
+      "context": "Sei a un ufficio informazioni."
+    },
+    {
+      "type": "example",
+      "targetText": "Capisco quasi tutto, ma non so ancora rispondere bene.",
+      "gloss": "Capire e parlare crescono a velocità diverse.",
+      "context": "Descrivi il tuo livello."
+    },
+    {
+      "type": "example",
+      "targetText": "– Hai capito la regola? – Più o meno. – Ti faccio un esempio.",
+      "gloss": "« Più o meno » = in parte.",
+      "context": "L'insegnante controlla la classe."
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Capire e le persone in -isc-",
+      "wrong": "« Io capo, tu capi. »",
+      "right": "« Io capisco, tu capisci. »",
+      "why": "Molti verbi in -ire (capire, finire, preferire) aggiungono -isc- nelle persone singolari e nella terza plurale. Chi non lo sa tende a togliere la desinenza.",
+      "rule": "In -ire come **capire**: **-isco, -isci, -isce, -iamo, -ite, -iscono**. Anche: finire, preferire, pulire.",
+      "examples": [
+        "Finisco alle sei.",
+        "Preferisci il tè o il caffè?",
+        "Non capiscono."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Chiedere / Rispondere (To Ask / To Answer)",
+      "say": "10. Chiedere / Rispondere (To Ask / To Answer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Chiedere** serve per fare una domanda o per domandare qualcosa (chiedere un'informazione, chiedere aiuto); **rispondere** per dare la risposta (rispondere al telefono). Al presente entrambi si coniugano in modo regolare.",
+      "say": "Chiedere serve per fare una domanda o per domandare qualcosa (chiedere un'informazione, chiedere aiuto); rispondere per dare la risposta (rispondere al telefono). Al presente entrambi si coniugano in modo regolare."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Chiedere",
+        "Rispondere",
+        "Esempio"
+      ],
+      "rows": [
+        [
+          "Io",
+          "chiedo",
+          "rispondo",
+          "Chiedo un'informazione."
+        ],
+        [
+          "Tu",
+          "chiedi",
+          "rispondi",
+          "Che cosa chiedi?"
+        ],
+        [
+          "Lui / Lei",
+          "chiede",
+          "risponde",
+          "Lei chiede aiuto."
+        ],
+        [
+          "Noi",
+          "chiediamo",
+          "rispondiamo",
+          "Chiediamo il conto."
+        ],
+        [
+          "Voi",
+          "chiedete",
+          "rispondete",
+          "Chiedete scusa?"
+        ],
+        [
+          "Loro",
+          "chiedono",
+          "rispondono",
+          "Rispondono subito."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Chiedere:** 'chiedere un'informazione', 'chiedere il conto', 'chiedere aiuto', 'chiedere scusa'.",
+        "**Rispondere:** 'rispondere al telefono', 'rispondere a una domanda', 'rispondere subito'.",
+        "**Espressioni utili:** 'chiedere a qualcuno di fare', 'chiedersi' (domandarsi), 'rispondere per le rime'."
+      ],
+      "say": "Chiedere: 'chiedere un'informazione', 'chiedere il conto', 'chiedere aiuto', 'chiedere scusa'. Rispondere: 'rispondere al telefono', 'rispondere a una domanda', 'rispondere subito'. Espressioni utili: 'chiedere a qualcuno di fare', 'chiedersi' (domandarsi), 'rispondere per le rime'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ad alta voce",
+      "say": "Ad alta voce"
+    },
+    {
+      "type": "example",
+      "targetText": "Scusi, posso chiederLe un'informazione?",
+      "gloss": "Formula di cortesia: « posso chiederLe… ? ».",
+      "context": "Fermi una persona per strada."
+    },
+    {
+      "type": "example",
+      "targetText": "Ti ho scritto ieri: perché non rispondi ai miei messaggi?",
+      "gloss": "Rispondere a + persona o cosa.",
+      "context": "Un amico non ha risposto."
+    },
+    {
+      "type": "example",
+      "targetText": "– Pronto? – Buongiorno, chiedo di Anna. – Un momento, le passo la linea.",
+      "gloss": "« Chiedere di » + persona = domandare di parlare con lei al telefono.",
+      "context": "Telefoni a un ufficio."
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Chiedere a qualcuno",
+      "wrong": "« Chiedo lui un favore. »",
+      "right": "« Gli chiedo un favore. »",
+      "why": "In italiano la persona a cui si chiede è un complemento di termine (**a**), quindi si usa il pronome indiretto: gli, le, mi, ti.",
+      "rule": "**Chiedere qualcosa a qualcuno**: gli chiedo, le chiedo, ti chiedo. **Rispondere a qualcuno**: gli rispondo.",
+      "examples": [
+        "Le chiedo un'informazione.",
+        "Rispondo al telefono.",
+        "Ti chiedo scusa."
+      ],
+      "labels": {
+        "wrong": "Non proprio",
+        "right": "Meglio dire",
+        "why": "Perché si sbaglia",
+        "rule": "La regola COSY",
+        "examples": "Altri esempi",
+        "turn": "Tocca a te"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Abito ___ Torino, ___ Italia.",
+      "options": [
+        "a / in",
+        "in / a",
+        "a / a"
+      ],
+      "correctIndex": 0,
+      "explanation": "Davanti a una città si usa « a », davanti a un paese « in »: « Abito a Torino, in Italia. »",
+      "say": "Abito ___ Torino, ___ Italia."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tabella comparativa dei verbi",
+      "say": "Tabella comparativa dei verbi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Confronto dei verbi essenziali nelle famiglie linguistiche:",
+      "say": "Confronto dei verbi essenziali nelle famiglie linguistiche:"
     },
     {
       "type": "table",
@@ -219,20 +1395,53 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Strutture grammaticali per principianti (A0–A1 / A2)"
+      "text": "Strutture grammaticali per principianti (A0–A1 / A2)",
+      "say": "Strutture grammaticali per principianti (A0–A1 / A2)"
     },
     {
-      "type": "paragraph",
-      "text": "• **Frasi semplici:** Soggetto + Verbo + Oggetto.\n• **Modali e tempo futuro:** Uso di 'andare', 'stare per' e 'potere/dovere'.\n• **Coniugazioni verbali:** Consulta le tabelle dei tempi verbali su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Frasi semplici:** Soggetto + Verbo + Oggetto.",
+        "**Modali e futuro prossimo:** uso di « andare », « stare per » e « potere / dovere » + infinito.",
+        "**Verbi in -ire con -isc-:** capire, finire, preferire (io capisco, tu capisci, loro capiscono).",
+        "**Coniugazioni verbali:** consulta le tabelle dei tempi verbali su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ],
+      "say": "Frasi semplici: Soggetto + Verbo + Oggetto. Modali e futuro prossimo: uso di « andare », « stare per » e « potere / dovere » + infinito. Verbi in -ire con -isc-: capire, finire, preferire (io capisco, tu capisci, loro capiscono). Coniugazioni verbali: consulta le tabelle dei tempi verbali su COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratica e coniugazione"
+      "text": "La tua routine orale di 5 minuti",
+      "say": "La tua routine orale di 5 minuti"
     },
     {
       "type": "paragraph",
-      "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Cinque minuti al giorno, ad alta voce, valgono più di un'ora di lettura silenziosa la domenica. Ecco un piano semplice da ripetere per una settimana: <mark class=\"hl-handwritten\">un minuto per passaggio, non di più</mark>.",
+      "say": "Cinque minuti al giorno, ad alta voce, valgono più di un'ora di lettura silenziosa la domenica. Ecco un piano semplice da ripetere per una settimana: un minuto per passaggio, non di più."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minuto 1, riscaldamento:** di' ad alta voce le sei forme di fare e di dovere, senza guardare le tabelle.",
+        "**Minuto 2, tre verbi, tre frasi:** scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: « Abito… », « Devo… », « Aspetto… ».",
+        "**Minuto 3, caccia all'errore:** rileggi una carta « Non proprio » e ripeti tre volte la frase giusta, cambiando il soggetto ogni volta.",
+        "**Minuto 4, mini-dialogo:** recita le due parti con « Che cosa prendi? », « Posso chiederLe… ? », « Non ho capito », e registrati con il telefono.",
+        "**Minuto 5, riascolto:** ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglietto vicino alla scrivania."
+      ],
+      "say": "Minuto 1, riscaldamento: di' ad alta voce le sei forme di fare e di dovere, senza guardare le tabelle. Minuto 2, tre verbi, tre frasi: scegli tre verbi e di' una frase vera sulla tua vita per ciascuno: « Abito… », « Devo… », « Aspetto… ». Minuto 3, caccia all'errore: rileggi una carta « Non proprio » e ripeti tre volte la frase giusta, cambiando il soggetto ogni volta. Minuto 4, mini-dialogo: recita le due parti con « Che cosa prendi? », « Posso chiederLe… ? », « Non ho capito », e registrati con il telefono. Minuto 5, riascolto: ascolta la registrazione e scegli una frase da tenere per domani. Scrivila su un foglietto vicino alla scrivania."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pratica e coniugazione",
+      "say": "Pratica e coniugazione"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Esercitati su [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leggi la [Parte 1](top-10-verbs-it.html) e la [Parte 2](top-10-verbs-part-2-it.html), e consulta le coniugazioni dei verbi su [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "📌 Esercitati su COSYpractice, leggi la Parte 1 e la Parte 2, e consulta le coniugazioni dei verbi su COSYtools."
     },
     {
       "type": "heading",
