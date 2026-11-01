@@ -20,7 +20,7 @@
     "A0-A1",
     "Part3"
   ],
-  "readingTime": 10,
+  "readingTime": 18,
   "podcast": {
     "episode": 4,
     "audioUrl": null
@@ -44,28 +44,24 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Bienvenue dans la Partie 3 de notre série sur les verbes français pour débutants A0–A1 et A2 ! (Relisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html) si besoin). Nous étudions ici 10 nouveaux verbes clés du quotidien. Retrouvez tous les tableaux de conjugaison sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Bienvenue dans la Partie 3 de notre série sur les verbes français pour débutants A0–A1 et A2 ! (Relisez la [Partie 1](top-10-verbs-fr.html) et la [Partie 2](top-10-verbs-part-2-fr.html) si besoin). Nous étudions ici 10 nouveaux verbes clés du quotidien. Retrouvez tous les tableaux de conjugaison sur [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Bienvenue dans la Partie 3 de notre série sur les verbes français pour débutants A0–A1 et A2 ! (Relisez la Partie 1 et la Partie 2 si besoin). Nous étudions ici 10 nouveaux verbes clés du quotidien. Retrouvez tous les tableaux de conjugaison sur COSYtools."
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "Les 10 verbes fondamentaux (Partie 3)"
+      "type": "paragraph",
+      "text": "Après les fondations (Partie 1) et l'action et la communication (Partie 2), cette dernière partie vous donne <mark class=\"hl-handwritten\">les verbes de la vie sociale et des décisions</mark> : choisir et payer au marché, se souvenir d'un prénom, dire comment on se sent, retrouver des amis, décider, écrire un message, donner son avis, jouer, envoyer et recevoir des nouvelles. Ce sont les verbes qui font passer d'un français « de survie » à un français où l'on peut vraiment <em>raconter sa vie</em>.",
+      "say": "Après les fondations (Partie 1) et l'action et la communication (Partie 2), cette dernière partie vous donne les verbes de la vie sociale et des décisions : choisir et payer au marché, se souvenir d'un prénom, dire comment on se sent, retrouver des amis, décider, écrire un message, donner son avis, jouer, envoyer et recevoir des nouvelles. Ce sont les verbes qui font passer d'un français « de survie » à un français où l'on peut vraiment raconter sa vie."
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Choisir / Acheter / Payer:** Choix et commerce.\n  • *Phrases simples:* 'Choisir un livre', 'Acheter du pain', 'Payer par carte'.\n  • *Expressions:* 'bien choisir', 'acheter en ligne', 'payer le dîner'.",
-        "**2. Se souvenir / Oublier:** Mémoire et cognition.\n  • *Phrases simples:* 'Je me souviens de ton nom', 'N'oublie pas tes clés !'.\n  • *Expressions:* 'se souvenir de', 'j'ai oublié mon mot de passe'.",
-        "**3. Se sentir:** État physique et émotionnel.\n  • *Phrases simples:* 'Je me sens bien', 'Elle a froid', 'Comment te sens-tu ?'.\n  • *Expressions:* 'se sentir fatigué', 'se sentir chez soi'.",
-        "**4. Rencontrer / Se retrouver:** Interactions sociales.\n  • *Phrases simples:* 'Ravi de vous rencontrer', 'On se retrouve à 17h'.\n  • *Expressions:* 'rencontrer du monde', 'se retrouver en ville'.",
-        "**5. Décider:** Prise de décision.\n  • *Phrases simples:* 'Je décide de partir', 'Décider d'un projet'.\n  • *Remarque importante:* On dit 'résoudre un problème', et non 'décider un problème'.\n  • *Expressions:* 'décider vite', 'se décider'.",
-        "**6. Écrire / Lire / Taper:** Écriture et lecture.\n  • *Phrases simples:* 'Écrire un e-mail', 'Lire un livre', 'Taper un message'.\n  • *Expressions:* 'écrire à la main', 'lire à haute voix', 'taper au clavier'.",
-        "**7. Dépenser / Gaspiller:** Gestion des ressources.\n  • *Phrases simples:* 'Dépenser de l'argent', 'Ne gaspille pas ton temps !'.\n  • *Expressions:* 'dépenser pour', 'gaspiller de l'énergie', 'passer du temps'.",
-        "**8. Jouer (toutes variations):** Jeux, sports, instruments, rôles.\n  • *Phrases simples:* 'Jouer au football / aux cartes', 'Jouer de la guitare / du piano', 'Jouer un rôle'.\n  • *Expressions:* 'jouer d'un instrument', 'jouer un rôle important'.",
-        "**9. Être d'accord / Pas d'accord:** Consensus et avis.\n  • *Phrases simples:* 'Je suis d'accord avec toi', 'Je ne suis pas d'accord'.\n  • *Expressions:* 'être d'accord sur', 'tomber d'accord'.",
-        "**10. Envoyer / Recevoir:** Transmission et réception.\n  • *Phrases simples:* 'Envoyer un message', 'Recevoir une lettre', 'Arriver à la gare'.\n  • *Expressions:* 'envoyer un e-mail', 'recevoir des nouvelles'."
-      ]
+      "type": "paragraph",
+      "text": "Comme dans les parties précédentes, cet article se lit <span class=\"doodle-circle\">à voix haute</span>. Pour chaque verbe : dites le tableau sans regarder, lisez les phrases de la rubrique « À voix haute » en changeant un mot pour parler de votre propre vie, jouez le mini-dialogue à deux voix (vous tenez les deux rôles !), puis terminez par la carte d'erreur et le petit quiz. Dix minutes par jour valent mieux qu'une heure le dimanche.",
+      "say": "Comme dans les parties précédentes, cet article se lit à voix haute. Pour chaque verbe : dites le tableau sans regarder, lisez les phrases de la rubrique « À voix haute » en changeant un mot pour parler de votre propre vie, jouez le mini-dialogue à deux voix (vous tenez les deux rôles !), puis terminez par la carte d'erreur et le petit quiz. Dix minutes par jour valent mieux qu'une heure le dimanche."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Un verbe appris dans une phrase vraie, la vôtre, reste en mémoire dix fois plus longtemps qu'un verbe copié dans un cahier.",
+      "attribution": "COSYmagazine",
+      "say": "Un verbe appris dans une phrase vraie, la vôtre, reste en mémoire dix fois plus longtemps qu'un verbe copié dans un cahier."
     },
     {
       "type": "table",
@@ -156,12 +152,1360 @@
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "Tableau comparatif des verbes"
+      "level": 2,
+      "text": "La carte mémoire : dix verbes, cinq fonctions",
+      "say": "La carte mémoire : dix verbes, cinq fonctions"
     },
     {
       "type": "paragraph",
-      "text": "Comparaison des verbes de la Partie 3 selon les familles linguistiques :"
+      "text": "Rangez ces verbes par fonction plutôt que par ordre alphabétique. Quand vous cherchez un mot, demandez-vous : <mark class=\"hl-handwritten\">est-ce que j'échange, je me souviens, je ressens, je rencontre, ou je donne mon avis ?</mark>",
+      "say": "Rangez ces verbes par fonction plutôt que par ordre alphabétique. Quand vous cherchez un mot, demandez-vous : est-ce que j'échange, je me souviens, je ressens, je rencontre, ou je donne mon avis ?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Échanger et dépenser :** choisir, acheter, payer, dépenser, gaspiller. L'argent, les achats, le temps qui passe.",
+        "**Mémoire et décision :** se souvenir, oublier, décider. Ce qu'on garde en tête, ce qu'on tranche.",
+        "**Sentiments et relations :** se sentir, rencontrer, se retrouver, être d'accord. Soi-même, les autres, les opinions.",
+        "**Langage écrit et numérique :** écrire, lire, taper, envoyer, recevoir. Messages, livres, courriels, colis.",
+        "**Loisirs :** jouer. Jeux, sports, musique, théâtre : un seul verbe, quatre petits mondes."
+      ],
+      "say": "Échanger et dépenser : choisir, acheter, payer, dépenser, gaspiller. L'argent, les achats, le temps qui passe. Mémoire et décision : se souvenir, oublier, décider. Ce qu'on garde en tête, ce qu'on tranche. Sentiments et relations : se sentir, rencontrer, se retrouver, être d'accord. Soi-même, les autres, les opinions. Langage écrit et numérique : écrire, lire, taper, envoyer, recevoir. Messages, livres, courriels, colis. Loisirs : jouer. Jeux, sports, musique, théâtre : un seul verbe, quatre petits mondes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les 10 verbes fondamentaux (Partie 3)",
+      "say": "Les 10 verbes fondamentaux (Partie 3)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Choisir / Acheter / Payer:** Choix et commerce.\n  • *Phrases simples:* 'Choisir un livre', 'Acheter du pain', 'Payer par carte'.\n  • *Expressions:* 'bien choisir', 'acheter en ligne', 'payer le dîner'.",
+        "**2. Se souvenir / Oublier:** Mémoire et cognition.\n  • *Phrases simples:* 'Je me souviens de ton nom', 'N'oublie pas tes clés !'.\n  • *Expressions:* 'se souvenir de', 'j'ai oublié mon mot de passe'.",
+        "**3. Se sentir:** État physique et émotionnel.\n  • *Phrases simples:* 'Je me sens bien', 'Elle a froid', 'Comment te sens-tu ?'.\n  • *Expressions:* 'se sentir fatigué', 'se sentir chez soi'.",
+        "**4. Rencontrer / Se retrouver:** Interactions sociales.\n  • *Phrases simples:* 'Ravi de vous rencontrer', 'On se retrouve à 17h'.\n  • *Expressions:* 'rencontrer du monde', 'se retrouver en ville'.",
+        "**5. Décider:** Prise de décision.\n  • *Phrases simples:* 'Je décide de partir', 'Décider d'un projet'.\n  • *Remarque importante:* On dit 'résoudre un problème', et non 'décider un problème'.\n  • *Expressions:* 'décider vite', 'se décider'.",
+        "**6. Écrire / Lire / Taper:** Écriture et lecture.\n  • *Phrases simples:* 'Écrire un e-mail', 'Lire un livre', 'Taper un message'.\n  • *Expressions:* 'écrire à la main', 'lire à haute voix', 'taper au clavier'.",
+        "**7. Dépenser / Gaspiller:** Gestion des ressources.\n  • *Phrases simples:* 'Dépenser de l'argent', 'Ne gaspille pas ton temps !'.\n  • *Expressions:* 'dépenser pour', 'gaspiller de l'énergie', 'passer du temps'.",
+        "**8. Jouer (toutes variations):** Jeux, sports, instruments, rôles.\n  • *Phrases simples:* 'Jouer au football / aux cartes', 'Jouer de la guitare / du piano', 'Jouer un rôle'.\n  • *Expressions:* 'jouer d'un instrument', 'jouer un rôle important'.",
+        "**9. Être d'accord / Pas d'accord:** Consensus et avis.\n  • *Phrases simples:* 'Je suis d'accord avec toi', 'Je ne suis pas d'accord'.\n  • *Expressions:* 'être d'accord sur', 'tomber d'accord'.",
+        "**10. Envoyer / Recevoir:** Transmission et réception.\n  • *Phrases simples:* 'Envoyer un message', 'Recevoir une lettre', 'Arriver à la gare'.\n  • *Expressions:* 'envoyer un e-mail', 'recevoir des nouvelles'."
+      ],
+      "say": "1. Choisir / Acheter / Payer: Choix et commerce.\n  • Phrases simples: 'Choisir un livre', 'Acheter du pain', 'Payer par carte'.\n  • Expressions: 'bien choisir', 'acheter en ligne', 'payer le dîner'. 2. Se souvenir / Oublier: Mémoire et cognition.\n  • Phrases simples: 'Je me souviens de ton nom', 'N'oublie pas tes clés !'.\n  • Expressions: 'se souvenir de', 'j'ai oublié mon mot de passe'. 3. Se sentir: État physique et émotionnel.\n  • Phrases simples: 'Je me sens bien', 'Elle a froid', 'Comment te sens-tu ?'.\n  • Expressions: 'se sentir fatigué', 'se sentir chez soi'. 4. Rencontrer / Se retrouver: Interactions sociales.\n  • Phrases simples: 'Ravi de vous rencontrer', 'On se retrouve à 17h'.\n  • Expressions: 'rencontrer du monde', 'se retrouver en ville'. 5. Décider: Prise de décision.\n  • Phrases simples: 'Je décide de partir', 'Décider d'un projet'.\n  • Remarque importante: On dit 'résoudre un problème', et non 'décider un problème'.\n  • Expressions: 'décider vite', 'se décider'. 6. Écrire / Lire / Taper: Écriture et lecture.\n  • Phrases simples: 'Écrire un e-mail', 'Lire un livre', 'Taper un message'.\n  • Expressions: 'écrire à la main', 'lire à haute voix', 'taper au clavier'. 7. Dépenser / Gaspiller: Gestion des ressources.\n  • Phrases simples: 'Dépenser de l'argent', 'Ne gaspille pas ton temps !'.\n  • Expressions: 'dépenser pour', 'gaspiller de l'énergie', 'passer du temps'. 8. Jouer (toutes variations): Jeux, sports, instruments, rôles.\n  • Phrases simples: 'Jouer au football / aux cartes', 'Jouer de la guitare / du piano', 'Jouer un rôle'.\n  • Expressions: 'jouer d'un instrument', 'jouer un rôle important'. 9. Être d'accord / Pas d'accord: Consensus et avis.\n  • Phrases simples: 'Je suis d'accord avec toi', 'Je ne suis pas d'accord'.\n  • Expressions: 'être d'accord sur', 'tomber d'accord'. 10. Envoyer / Recevoir: Transmission et réception.\n  • Phrases simples: 'Envoyer un message', 'Recevoir une lettre', 'Arriver à la gare'.\n  • Expressions: 'envoyer un e-mail', 'recevoir des nouvelles'."
+    },
+    {
+      "type": "pullquote",
+      "quote": "En français, la politesse est une grammaire : « s'il vous plaît » et « merci » ouvrent plus de portes que n'importe quel temps verbal.",
+      "attribution": "COSYmagazine",
+      "say": "En français, la politesse est une grammaire : « s'il vous plaît » et « merci » ouvrent plus de portes que n'importe quel temps verbal."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Choisir / Acheter / Payer (To Choose / To Buy / To Pay)",
+      "say": "1. Choisir / Acheter / Payer (To Choose / To Buy / To Pay)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces trois verbes forment le trio du commerçant : on **choisit** un produit, on l'**achète**, puis on le **paie**. Attention : **choisir** est un verbe régulier en -ir (comme finir), **acheter** change d'accent (j'achète, nous achetons) et **payer** admet deux écritures à certaines personnes : « je paie » ou « je paye ». Les deux sont correctes ; « paie » est la plus fréquente aujourd'hui.",
+      "say": "Ces trois verbes forment le trio du commerçant : on choisit un produit, on l'achète, puis on le paie. Attention : choisir est un verbe régulier en -ir (comme finir), acheter change d'accent (j'achète, nous achetons) et payer admet deux écritures à certaines personnes : « je paie » ou « je paye ». Les deux sont correctes ; « paie » est la plus fréquente aujourd'hui."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Choisir",
+        "Acheter",
+        "Payer"
+      ],
+      "rows": [
+        [
+          "Je",
+          "choisis",
+          "achète",
+          "paie"
+        ],
+        [
+          "Tu",
+          "choisis",
+          "achètes",
+          "paies"
+        ],
+        [
+          "Il / Elle / On",
+          "choisit",
+          "achète",
+          "paie"
+        ],
+        [
+          "Nous",
+          "choisissons",
+          "achetons",
+          "payons"
+        ],
+        [
+          "Vous",
+          "choisissez",
+          "achetez",
+          "payez"
+        ],
+        [
+          "Ils / Elles",
+          "choisissent",
+          "achètent",
+          "paient"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Choisir :** 'choisir un livre', 'choisir entre deux options', 'Choisis ce que tu veux.'",
+        "**Acheter :** 'acheter du pain', 'acheter en ligne', 'acheter quelque chose à quelqu'un'.",
+        "**Payer :** 'payer par carte', 'payer en espèces', 'payer le dîner'. On paie **quelque chose** mais on paie **pour** quelqu'un : « Je paie pour toi. »",
+        "**Expressions courantes :** 'bien choisir', 'C'est combien ?', 'Je vous dois combien ?', 'Je règle', 'Vous payez par carte ?'.",
+        "**Attention à l'accent :** « nous achetons » et « vous achetez » gardent le « e » simple, mais « j'achète » prend un accent grave."
+      ],
+      "say": "Choisir : 'choisir un livre', 'choisir entre deux options', 'Choisis ce que tu veux.' Acheter : 'acheter du pain', 'acheter en ligne', 'acheter quelque chose à quelqu'un'. Payer : 'payer par carte', 'payer en espèces', 'payer le dîner'. On paie quelque chose mais on paie pour quelqu'un : « Je paie pour toi. » Expressions courantes : 'bien choisir', 'C'est combien ?', 'Je vous dois combien ?', 'Je règle', 'Vous payez par carte ?'. Attention à l'accent : « nous achetons » et « vous achetez » gardent le « e » simple, mais « j'achète » prend un accent grave."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je voudrais acheter deux baguettes et un croissant, s'il vous plaît.",
+      "gloss": "Je voudrais + infinitif : la formule polie pour demander quelque chose.",
+      "context": "Vous êtes à la boulangerie.",
+      "say": "Je voudrais acheter deux baguettes et un croissant, s'il vous plaît."
+    },
+    {
+      "type": "example",
+      "targetText": "Vous payez par carte ou en espèces ?",
+      "gloss": "Deux questions en une : le vendeur propose les deux moyens de paiement.",
+      "context": "À la caisse d'un petit magasin.",
+      "say": "Vous payez par carte ou en espèces ?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Clara :** Tu as choisi un cadeau pour Maman ? **Hugo :** Oui, j'ai acheté un foulard, mais je n'ai pas encore payé : c'est en ligne. **Clara :** Alors choisis aussi la livraison, c'est son anniversaire samedi !",
+      "gloss": "Un mini-dialogue à jouer à deux voix : trois verbes, trois étapes d'un achat.",
+      "context": "Deux amis préparent un anniversaire.",
+      "say": "Clara : Tu as choisi un cadeau pour Maman ? Hugo : Oui, j'ai acheté un foulard, mais je n'ai pas encore payé : c'est en ligne. Clara : Alors choisis aussi la livraison, c'est son anniversaire samedi !"
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Payer : à qui, pour quoi ?",
+      "wrong": "« Je paie le serveur le repas. »",
+      "right": "« Je paie le repas. » / « Je paie le serveur. »",
+      "why": "Dans certaines langues, le verbe « payer » accepte deux compléments directs (la personne ET la chose). En français, on dit « payer quelque chose » (le repas) ou « payer quelqu'un » (le serveur), mais on évite les deux ensemble sans préposition.",
+      "rule": "Pour la personne et la chose, dites **payer quelque chose à quelqu'un** : « Je paie le repas au serveur. » Pour offrir : « Je t'invite » ou « C'est pour moi ! »",
+      "examples": [
+        "Je paie la note.",
+        "Il paie le serveur.",
+        "Je te paie un café ?"
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ du pain tous les matins.",
+      "options": [
+        "achetons",
+        "achètons",
+        "achettons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aux formes en -ons et -ez, le « e » ne prend pas d'accent : nous achetons, vous achetez. L'accent grave n'apparaît que devant une syllabe muette : j'achète."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Payer : la carte, les espèces et l'addition",
+      "content": "En France, on paie très souvent par carte, même pour un café ; le sans contact est partout. Au restaurant, il ne faut pas attendre qu'on vous apporte la note : on la demande avec « L'addition, s'il vous plaît ». Quand on dîne à plusieurs, on peut dire « On partage ? » ou « On fait la note séparée ? ». Le pourboire n'est pas obligatoire car le service est déjà compris, mais on laisse volontiers quelques pièces si l'accueil a été chaleureux."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Se souvenir / Oublier (To Remember / To Forget)",
+      "say": "2. Se souvenir / Oublier (To Remember / To Forget)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Voici deux verbes de la mémoire, mais ils ne se construisent pas pareil. **Se souvenir** est pronominal et s'utilise avec la préposition **de** : « Je me souviens **de** ton nom. » **Oublier** est un verbe transitif direct : « J'ai oublié ton nom. » En conversation, on emploie aussi « se rappeler », sans préposition : « Je me rappelle ton nom. »",
+      "say": "Voici deux verbes de la mémoire, mais ils ne se construisent pas pareil. Se souvenir est pronominal et s'utilise avec la préposition de : « Je me souviens de ton nom. » Oublier est un verbe transitif direct : « J'ai oublié ton nom. » En conversation, on emploie aussi « se rappeler », sans préposition : « Je me rappelle ton nom. »"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Se souvenir",
+        "Oublier"
+      ],
+      "rows": [
+        [
+          "Je",
+          "me souviens",
+          "oublie"
+        ],
+        [
+          "Tu",
+          "te souviens",
+          "oublies"
+        ],
+        [
+          "Il / Elle / On",
+          "se souvient",
+          "oublie"
+        ],
+        [
+          "Nous",
+          "nous souvenons",
+          "oublions"
+        ],
+        [
+          "Vous",
+          "vous souvenez",
+          "oubliez"
+        ],
+        [
+          "Ils / Elles",
+          "se souviennent",
+          "oublient"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Se souvenir :** 'Je me souviens de toi', 'Tu te souviens de mon adresse ?', 'Elle se souvient de son enfance.'",
+        "**Oublier :** 'J'ai oublié mon mot de passe', 'N'oublie pas tes clés !', 'Il oublie toujours son parapluie.'",
+        "**Impératif :** 'Souviens-toi !', 'Ne l'oublie pas !', 'N'oubliez pas de répondre.'",
+        "**Expressions courantes :** 'Ça me revient', 'Ça m'est sorti de la tête', 'J'ai un trou de mémoire', 'Je n'oublierai jamais ça.'",
+        "**Rappeler / se rappeler :** « Rappelle-moi demain » (rappeler quelqu'un) ou « Je me rappelle » (se souvenir)."
+      ],
+      "say": "Se souvenir : 'Je me souviens de toi', 'Tu te souviens de mon adresse ?', 'Elle se souvient de son enfance.' Oublier : 'J'ai oublié mon mot de passe', 'N'oublie pas tes clés !', 'Il oublie toujours son parapluie.' Impératif : 'Souviens-toi !', 'Ne l'oublie pas !', 'N'oubliez pas de répondre.' Expressions courantes : 'Ça me revient', 'Ça m'est sorti de la tête', 'J'ai un trou de mémoire', 'Je n'oublierai jamais ça.' Rappeler / se rappeler : « Rappelle-moi demain » (rappeler quelqu'un) ou « Je me rappelle » (se souvenir)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je me souviens très bien de notre premier cours de français.",
+      "gloss": "Se souvenir de + nom : un souvenir précis et agréable.",
+      "context": "Vous évoquez un bon moment avec un camarade.",
+      "say": "Je me souviens très bien de notre premier cours de français."
+    },
+    {
+      "type": "example",
+      "targetText": "Zut, j'ai oublié mon mot de passe !",
+      "gloss": "Oublier + complément direct : l'expression du quotidien numérique.",
+      "context": "Devant votre ordinateur, un lundi matin.",
+      "say": "Zut, j'ai oublié mon mot de passe !"
+    },
+    {
+      "type": "example",
+      "targetText": "**Maman :** Tu n'as rien oublié ? Ton passeport, ton billet ? **Paul :** Je n'ai pas oublié le billet, mais je ne me souviens plus où est le passeport. **Maman :** Il est sur la table de l'entrée. Souviens-toi la prochaine fois : on prépare tout la veille !",
+      "gloss": "Un dialogue à jouer à deux voix : les deux verbes dans une situation de départ.",
+      "context": "Un fils prépare son voyage.",
+      "say": "Maman : Tu n'as rien oublié ? Ton passeport, ton billet ? Paul : Je n'ai pas oublié le billet, mais je ne me souviens plus où est le passeport. Maman : Il est sur la table de l'entrée. Souviens-toi la prochaine fois : on prépare tout la veille !"
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Se souvenir : le pronom et la préposition",
+      "wrong": "« Je souviens ton nom. »",
+      "right": "« Je me souviens de ton nom. »",
+      "why": "Dans d'autres langues, le verbe « se souvenir » est direct, comme « remember » en anglais. En français, il est pronominal et demande « de ».",
+      "rule": "**Se souvenir** s'utilise toujours avec le pronom (me, te, se…) et la préposition **de** : « Je me souviens **de** lui », « Tu te souviens **de** cette chanson ? » Pour un souvenir sans préposition, utilisez **se rappeler**.",
+      "examples": [
+        "Nous nous souvenons de ce voyage.",
+        "Elle ne se souvient pas de mon nom.",
+        "Je me rappelle ton numéro."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Je ___ de ton anniversaire !",
+      "options": [
+        "souviens",
+        "me souviens",
+        "me souvenir"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le verbe est pronominal : « Je me souviens de ton anniversaire. » Sans « me », la phrase est incorrecte."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Un devoir de mémoire",
+      "content": "La France cultive beaucoup le « devoir de mémoire » : le 11 novembre, on se souvient de l'armistice de 1918, et chaque 8 mai de la fin de la Seconde Guerre mondiale. Dans la vie de tous les jours, « Je me souviens » est aussi le titre d'un célèbre livre de Georges Perec, fait de centaines de petits souvenirs qui commencent tous par ces deux mots. Pourquoi ne pas essayer vous-même ? Écrivez cinq phrases qui commencent par « Je me souviens de… »."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Se sentir (To Feel)",
+      "say": "3. Se sentir (To Feel)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Se sentir** décrit comment vous allez, à l'intérieur : « Je me sens bien », « Elle se sent fatiguée ». Le verbe est pronominal et il est suivi d'un adjectif (bien, mal, fatigué, heureux). Ne le confondez pas avec **avoir** pour les sensations physiques : on dit « j'ai froid », « j'ai faim », « j'ai mal à la tête », mais « je me sens malade ». Pour une sensation précise, avec un complément, on utilise **sentir** sans pronom : « Je sens une odeur de pain ».",
+      "say": "Se sentir décrit comment vous allez, à l'intérieur : « Je me sens bien », « Elle se sent fatiguée ». Le verbe est pronominal et il est suivi d'un adjectif (bien, mal, fatigué, heureux). Ne le confondez pas avec avoir pour les sensations physiques : on dit « j'ai froid », « j'ai faim », « j'ai mal à la tête », mais « je me sens malade ». Pour une sensation précise, avec un complément, on utilise sentir sans pronom : « Je sens une odeur de pain »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Se sentir",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "me sens",
+          "Je me sens bien."
+        ],
+        [
+          "Tu",
+          "te sens",
+          "Tu te sens fatigué ?"
+        ],
+        [
+          "Il / Elle / On",
+          "se sent",
+          "Elle se sent chez elle."
+        ],
+        [
+          "Nous",
+          "nous sentons",
+          "Nous nous sentons prêts."
+        ],
+        [
+          "Vous",
+          "vous sentez",
+          "Vous vous sentez mieux ?"
+        ],
+        [
+          "Ils / Elles",
+          "se sentent",
+          "Ils se sentent un peu perdus."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Avec un adjectif :** 'se sentir bien', 'se sentir mal', 'se sentir fatigué', 'se sentir heureux'.",
+        "**Avec un adverbe :** 'Je me sens mieux', 'Je me sens beaucoup mieux', 'Je ne me sens pas très bien'.",
+        "**Avec avoir (sensation physique) :** 'avoir chaud', 'avoir froid', 'avoir faim', 'avoir soif', 'avoir mal'.",
+        "**Expressions courantes :** 'se sentir chez soi', 'se sentir à l'aise', 'Comment tu te sens ?', 'Je ne me sens pas dans mon assiette.'",
+        "**Sentir sans pronom :** 'sentir bon', 'sentir mauvais', 'Ça sent le café !'"
+      ],
+      "say": "Avec un adjectif : 'se sentir bien', 'se sentir mal', 'se sentir fatigué', 'se sentir heureux'. Avec un adverbe : 'Je me sens mieux', 'Je me sens beaucoup mieux', 'Je ne me sens pas très bien'. Avec avoir (sensation physique) : 'avoir chaud', 'avoir froid', 'avoir faim', 'avoir soif', 'avoir mal'. Expressions courantes : 'se sentir chez soi', 'se sentir à l'aise', 'Comment tu te sens ?', 'Je ne me sens pas dans mon assiette.' Sentir sans pronom : 'sentir bon', 'sentir mauvais', 'Ça sent le café !'"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Comment tu te sens aujourd'hui ?",
+      "gloss": "La question de tous les jours, adressée à un ami ou à un collègue proche.",
+      "context": "Vous retrouvez un ami qui était malade.",
+      "say": "Comment tu te sens aujourd'hui ?"
+    },
+    {
+      "type": "example",
+      "targetText": "Depuis que j'habite ici, je me sens vraiment chez moi.",
+      "gloss": "Se sentir chez soi : le sentiment d'appartenir à un lieu.",
+      "context": "Vous parlez de votre nouvelle ville.",
+      "say": "Depuis que j'habite ici, je me sens vraiment chez moi."
+    },
+    {
+      "type": "example",
+      "targetText": "**Anaïs :** Tu as une petite mine. Tu te sens bien ? **Karim :** Pas trop. J'ai mal à la tête et j'ai froid. **Anaïs :** Rentre te reposer. Tu te sentiras mieux demain !",
+      "gloss": "Un dialogue à jouer à deux voix : sentiment, sensation physique et conseil.",
+      "context": "Deux collègues à la machine à café.",
+      "say": "Anaïs : Tu as une petite mine. Tu te sens bien ? Karim : Pas trop. J'ai mal à la tête et j'ai froid. Anaïs : Rentre te reposer. Tu te sentiras mieux demain !"
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Je suis froid ou j'ai froid ?",
+      "wrong": "« Je suis froid. » / « Je suis chaud. »",
+      "right": "« J'ai froid. » / « J'ai chaud. »",
+      "why": "Beaucoup de langues utilisent « être » pour les sensations (I am cold). En français, on dit « avoir » pour le corps : j'ai froid, j'ai faim, j'ai peur. « Je suis froid » signifie que votre caractère est distant, ce qui change tout !",
+      "rule": "Pour une **sensation du corps**, utilisez **avoir** + nom : j'ai chaud, j'ai soif, j'ai sommeil. Pour un **état général**, utilisez **se sentir** + adjectif : je me sens fatigué.",
+      "examples": [
+        "J'ai faim, pas toi ?",
+        "Elle a peur du noir.",
+        "Je me sens mal à l'aise."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Il fait très chaud ici : je ___ !",
+      "options": [
+        "suis chaud",
+        "ai chaud",
+        "me sens chaud"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pour la température ressentie, on utilise avoir : « J'ai chaud. »"
+    },
+    {
+      "type": "culture-bite",
+      "title": "« Ça va ? » n'est pas toujours une vraie question",
+      "content": "En France, « Ça va ? » est souvent une simple salutation : la réponse attendue est « Ça va, et toi ? ». Mais si l'on vous demande « Comment tu te sens ? » ou « Tu vas bien ? » avec un ton sérieux, la personne attend une vraie réponse. Les Français ont aussi des mots pour tous les états d'âme : « Je suis crevé » (très fatigué), « Je suis au top » (en pleine forme), « Je n'ai pas le moral ». Écoutez bien le ton, il en dit souvent plus que les mots."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Rencontrer / Se retrouver (To Meet / To Meet Up)",
+      "say": "4. Rencontrer / Se retrouver (To Meet / To Meet Up)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le français distingue **rencontrer** (faire la connaissance de quelqu'un, ou le croiser) de **se retrouver** (se rejoindre à un moment convenu). On **rencontre** une personne pour la première fois : « Ravi de vous rencontrer. » On **se retrouve** entre amis : « On se retrouve à 17 h devant le cinéma. » À l'oral, on dit souvent « On se voit ? » ou « On se capte ! » (très familier). Pour un rendez-vous professionnel, on dit « J'ai rendez-vous avec… ».",
+      "say": "Le français distingue rencontrer (faire la connaissance de quelqu'un, ou le croiser) de se retrouver (se rejoindre à un moment convenu). On rencontre une personne pour la première fois : « Ravi de vous rencontrer. » On se retrouve entre amis : « On se retrouve à 17 h devant le cinéma. » À l'oral, on dit souvent « On se voit ? » ou « On se capte ! » (très familier). Pour un rendez-vous professionnel, on dit « J'ai rendez-vous avec… »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Rencontrer",
+        "Se retrouver"
+      ],
+      "rows": [
+        [
+          "Je",
+          "rencontre",
+          "me retrouve"
+        ],
+        [
+          "Tu",
+          "rencontres",
+          "te retrouves"
+        ],
+        [
+          "Il / Elle / On",
+          "rencontre",
+          "se retrouve"
+        ],
+        [
+          "Nous",
+          "rencontrons",
+          "nous retrouvons"
+        ],
+        [
+          "Vous",
+          "rencontrez",
+          "vous retrouvez"
+        ],
+        [
+          "Ils / Elles",
+          "rencontrent",
+          "se retrouvent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Rencontrer :** 'rencontrer un ami', 'rencontrer du monde', 'Enchanté de vous rencontrer.' On rencontre quelqu'un, on ne « rencontre à » personne.",
+        "**Se retrouver :** 'se retrouver en ville', 'On se retrouve où ?', 'Retrouvons-nous demain.'",
+        "**Faire connaissance :** 'Je voudrais faire votre connaissance', 'Nous avons fait connaissance en vacances.'",
+        "**Expressions courantes :** 'À tout à l'heure !', 'On se tient au courant', 'Ravi de vous avoir rencontré !', 'Ça fait longtemps !'",
+        "**Autre sens de se retrouver :** « Je me retrouve sans clés » = Je suis dans une situation où je n'ai plus mes clés."
+      ],
+      "say": "Rencontrer : 'rencontrer un ami', 'rencontrer du monde', 'Enchanté de vous rencontrer.' On rencontre quelqu'un, on ne « rencontre à » personne. Se retrouver : 'se retrouver en ville', 'On se retrouve où ?', 'Retrouvons-nous demain.' Faire connaissance : 'Je voudrais faire votre connaissance', 'Nous avons fait connaissance en vacances.' Expressions courantes : 'À tout à l'heure !', 'On se tient au courant', 'Ravi de vous avoir rencontré !', 'Ça fait longtemps !' Autre sens de se retrouver : « Je me retrouve sans clés » = Je suis dans une situation où je n'ai plus mes clés."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Enchanté de vous rencontrer, je m'appelle Sofia.",
+      "gloss": "Une formule classique pour une première rencontre, au ton poli.",
+      "context": "Vous êtes présenté à un nouveau collègue.",
+      "say": "Enchanté de vous rencontrer, je m'appelle Sofia."
+    },
+    {
+      "type": "example",
+      "targetText": "On se retrouve devant la gare à dix-sept heures ?",
+      "gloss": "« On » remplace souvent « nous » à l'oral : très naturel entre amis.",
+      "context": "Vous fixez un rendez-vous avec des amis.",
+      "say": "On se retrouve devant la gare à dix-sept heures ?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Jade :** Tu as rencontré Théo à la soirée ? **Inès :** Oui, on a fait connaissance. On se retrouve samedi pour un café. **Jade :** Super ! Dis-lui de venir à quinze heures, on se retrouve toutes les semaines au même endroit.",
+      "gloss": "Un dialogue à jouer à deux voix : première rencontre et rendez-vous.",
+      "context": "Deux amies parlent d'un nouvel ami.",
+      "say": "Jade : Tu as rencontré Théo à la soirée ? Inès : Oui, on a fait connaissance. On se retrouve samedi pour un café. Jade : Super ! Dis-lui de venir à quinze heures, on se retrouve toutes les semaines au même endroit."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Rencontrer ou retrouver ?",
+      "wrong": "« Je rencontre mon ami tous les samedis. »",
+      "right": "« Je retrouve mon ami tous les samedis. »",
+      "why": "« Rencontrer » suggère une première fois ou un hasard. Pour un rendez-vous avec quelqu'un qu'on connaît déjà, on dit « retrouver », ou « voir ».",
+      "rule": "Pour **faire connaissance** ou croiser par hasard : **rencontrer**. Pour **se donner rendez-vous avec des gens qu'on connaît** : **retrouver** ou **se retrouver**.",
+      "examples": [
+        "J'ai rencontré ma voisine dans l'ascenseur.",
+        "Nous nous retrouvons chaque vendredi.",
+        "Je retrouve mes cousins à Noël."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Demain, on ___ au café à 10 h ?",
+      "options": [
+        "rencontre",
+        "se retrouve",
+        "retrouve-se"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un rendez-vous entre personnes qui se connaissent : « On se retrouve au café ? »"
+    },
+    {
+      "type": "culture-bite",
+      "title": "La bise et le tutoiement",
+      "content": "Quand on se retrouve entre amis ou en famille, on se fait la bise. Entre collègues, cela dépend de l'entreprise. Au premier rendez-vous, on se serre la main et on vouvoie, puis quelqu'un dit : « On peut se tutoyer ? » Ce moment est important : il marque le passage d'une relation formelle à une relation plus proche. Si une personne plus âgée ou votre supérieur vous propose de vous tutoyer, acceptez avec un sourire : c'est un signe de confiance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Décider (To Decide)",
+      "say": "5. Décider (To Decide)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Décider** est un verbe régulier en -er, mais sa construction demande de la précision. On **décide de** + infinitif : « Je décide de partir. » On **décide de** + nom : « Nous décidons du menu. » Pour une situation qu'on règle, on utilise un autre verbe : on **résout** un problème (résoudre), on ne « décide » pas un problème. Le verbe pronominal **se décider** signifie « faire enfin son choix » : « Alors, tu te décides ? »",
+      "say": "Décider est un verbe régulier en -er, mais sa construction demande de la précision. On décide de + infinitif : « Je décide de partir. » On décide de + nom : « Nous décidons du menu. » Pour une situation qu'on règle, on utilise un autre verbe : on résout un problème (résoudre), on ne « décide » pas un problème. Le verbe pronominal se décider signifie « faire enfin son choix » : « Alors, tu te décides ? »"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Décider",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "décide",
+          "Je décide de partir."
+        ],
+        [
+          "Tu",
+          "décides",
+          "Tu décides du restaurant ?"
+        ],
+        [
+          "Il / Elle / On",
+          "décide",
+          "On décide ensemble."
+        ],
+        [
+          "Nous",
+          "décidons",
+          "Nous décidons de rester."
+        ],
+        [
+          "Vous",
+          "décidez",
+          "Vous décidez vite."
+        ],
+        [
+          "Ils / Elles",
+          "décident",
+          "Ils décident de déménager."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Décider de + infinitif :** 'Elle a décidé d'apprendre le français.'",
+        "**Décider de + nom :** 'décider du menu', 'décider de la date'.",
+        "**Se décider :** 'Je n'arrive pas à me décider', 'Il s'est enfin décidé.'",
+        "**Expressions courantes :** 'décider vite', 'C'est décidé !', 'à toi de décider', 'prendre une décision'.",
+        "**À ne pas confondre :** « résoudre un problème », mais « prendre une décision » (pas « faire une décision »)."
+      ],
+      "say": "Décider de + infinitif : 'Elle a décidé d'apprendre le français.' Décider de + nom : 'décider du menu', 'décider de la date'. Se décider : 'Je n'arrive pas à me décider', 'Il s'est enfin décidé.' Expressions courantes : 'décider vite', 'C'est décidé !', 'à toi de décider', 'prendre une décision'. À ne pas confondre : « résoudre un problème », mais « prendre une décision » (pas « faire une décision »)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "J'ai décidé d'apprendre le piano cette année.",
+      "gloss": "Décider de + infinitif : le verbe des bonnes résolutions.",
+      "context": "Vous annoncez un projet à un ami.",
+      "say": "J'ai décidé d'apprendre le piano cette année."
+    },
+    {
+      "type": "example",
+      "targetText": "C'est décidé : on part en train, pas en voiture.",
+      "gloss": "« C'est décidé » conclut une discussion, souvent avec bonne humeur.",
+      "context": "Une famille organise ses vacances.",
+      "say": "C'est décidé : on part en train, pas en voiture."
+    },
+    {
+      "type": "example",
+      "targetText": "**Marie :** Alors, tu te décides ? On prend la robe bleue ou la verte ? **Luc :** Je ne sais pas. Tu peux décider pour moi ? **Marie :** Non, c'est à toi de décider. Mais moi, je choisirais la bleue.",
+      "gloss": "Un dialogue à jouer à deux voix : l'indécision et le conseil.",
+      "context": "Deux amis dans un magasin.",
+      "say": "Marie : Alors, tu te décides ? On prend la robe bleue ou la verte ? Luc : Je ne sais pas. Tu peux décider pour moi ? Marie : Non, c'est à toi de décider. Mais moi, je choisirais la bleue."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Décider ou résoudre ?",
+      "wrong": "« Je décide ce problème. »",
+      "right": "« Je résous ce problème. » / « Je décide de régler ce problème. »",
+      "why": "Certaines langues utilisent un même verbe pour « décider » et « résoudre ». En français, on décide d'une action (on choisit), mais on résout un problème (on trouve la solution).",
+      "rule": "**Décider de** + action : « Je décide de partir. » **Résoudre** + problème : « Nous résolvons le problème. » Pour une décision officielle : **prendre une décision**.",
+      "examples": [
+        "Nous avons décidé de déménager.",
+        "Il a résolu l'exercice de maths.",
+        "Elle prend une décision difficile."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "On a ___ de rester à la maison ce soir.",
+      "options": [
+        "décidé",
+        "décidé de",
+        "décidé à"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le verbe est suivi de « de » devant un infinitif : « décider de rester »."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Décider à la française",
+      "content": "Les Français aiment débattre avant de décider. Une réunion ou un repas de famille peut se transformer en discussion animée, avec des avis qui s'entrechoquent, mais tout finit souvent par un « Bon, c'est décidé ». Le débat n'est pas une dispute : c'est une façon de réfléchir ensemble. Pour mettre fin à une hésitation, on dit « Allez, on se lance ! » ou « Tranchons. » À l'école, on apprend d'ailleurs à argumenter dès le collège."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Écrire / Lire / Taper (To Write / To Read / To Type)",
+      "say": "6. Écrire / Lire / Taper (To Write / To Read / To Type)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trois verbes pour trois façons de travailler avec les mots. **Écrire** et **lire** sont irréguliers, et leurs formes sont très courantes : j'écris, tu écris, il écrit ; je lis, tu lis, il lit. **Taper** est régulier et s'utilise pour le clavier, mais aussi pour « frapper » : « taper à la porte ». À l'écrit, on dit aussi « saisir » pour un texte ou un code, et « envoyer un SMS » plutôt que « taper un SMS ».",
+      "say": "Trois verbes pour trois façons de travailler avec les mots. Écrire et lire sont irréguliers, et leurs formes sont très courantes : j'écris, tu écris, il écrit ; je lis, tu lis, il lit. Taper est régulier et s'utilise pour le clavier, mais aussi pour « frapper » : « taper à la porte ». À l'écrit, on dit aussi « saisir » pour un texte ou un code, et « envoyer un SMS » plutôt que « taper un SMS »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Écrire",
+        "Lire",
+        "Taper"
+      ],
+      "rows": [
+        [
+          "Je",
+          "écris",
+          "lis",
+          "tape"
+        ],
+        [
+          "Tu",
+          "écris",
+          "lis",
+          "tapes"
+        ],
+        [
+          "Il / Elle / On",
+          "écrit",
+          "lit",
+          "tape"
+        ],
+        [
+          "Nous",
+          "écrivons",
+          "lisons",
+          "tapons"
+        ],
+        [
+          "Vous",
+          "écrivez",
+          "lisez",
+          "tapez"
+        ],
+        [
+          "Ils / Elles",
+          "écrivent",
+          "lisent",
+          "tapent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Écrire :** 'écrire un e-mail', 'écrire à la main', 'écrire à quelqu'un', 'Comment ça s'écrit ?'",
+        "**Lire :** 'lire un livre', 'lire à haute voix', 'lire entre les lignes', 'Je lis le journal.'",
+        "**Taper :** 'taper un message', 'taper au clavier', 'taper son code', 'taper à la porte'.",
+        "**Se lire / s'écrire :** 'Ça s'écrit avec deux « m »', 'Ça se lit facilement.'",
+        "**Expressions courantes :** 'Écris-moi !', 'Je te lis', 'Tape ton code, s'il vous plaît.'"
+      ],
+      "say": "Écrire : 'écrire un e-mail', 'écrire à la main', 'écrire à quelqu'un', 'Comment ça s'écrit ?' Lire : 'lire un livre', 'lire à haute voix', 'lire entre les lignes', 'Je lis le journal.' Taper : 'taper un message', 'taper au clavier', 'taper son code', 'taper à la porte'. Se lire / s'écrire : 'Ça s'écrit avec deux « m »', 'Ça se lit facilement.' Expressions courantes : 'Écris-moi !', 'Je te lis', 'Tape ton code, s'il vous plaît.'"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je lis un chapitre de mon roman avant de dormir.",
+      "gloss": "Lire + complément direct : une habitude du soir.",
+      "context": "Vous décrivez votre routine à un ami.",
+      "say": "Je lis un chapitre de mon roman avant de dormir."
+    },
+    {
+      "type": "example",
+      "targetText": "Comment ça s'écrit, votre nom de famille ?",
+      "gloss": "« Comment ça s'écrit ? » : la question utile quand on ne connaît pas l'orthographe.",
+      "context": "À l'accueil d'un hôtel.",
+      "say": "Comment ça s'écrit, votre nom de famille ?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Sam :** Tu peux m'écrire ton adresse ? Je la tape sur mon téléphone. **Nora :** Bien sûr. C'est facile à lire ? J'écris très mal. **Sam :** Pas de souci, tu me la dictes, et je la tape.",
+      "gloss": "Un dialogue à jouer à deux voix : les trois verbes réunis.",
+      "context": "Deux amis échangent leurs coordonnées.",
+      "say": "Sam : Tu peux m'écrire ton adresse ? Je la tape sur mon téléphone. Nora : Bien sûr. C'est facile à lire ? J'écris très mal. Sam : Pas de souci, tu me la dictes, et je la tape."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Écrire à quelqu'un",
+      "wrong": "« J'écris lui un message. »",
+      "right": "« Je lui écris un message. »",
+      "why": "Dans beaucoup de langues, le pronom suit le verbe. En français, le pronom complément se place devant le verbe : je lui écris, je te lis, nous leur écrivons.",
+      "rule": "**Écrire à** + personne devient **lui / leur** avant le verbe : « Je **lui** écris. » On écrit **quelque chose à quelqu'un** : « Elle écrit une lettre à sa sœur. »",
+      "examples": [
+        "Je t'écris ce soir.",
+        "Nous leur écrivons souvent.",
+        "Elle lui lit une histoire."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Tu ___ combien de livres par mois ?",
+      "options": [
+        "lis",
+        "lies",
+        "lit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lire au présent : je lis, tu lis, il lit. La forme « lis » est la même pour je et tu."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Lire en France, une affaire de passion",
+      "content": "La France compte de très nombreuses librairies indépendantes et un grand rendez-vous : la rentrée littéraire, chaque automne, avec des centaines de nouveaux romans. Des prix prestigieux comme le Goncourt font parler le pays tout entier. Beaucoup de Français ont aussi un carnet pour noter des citations. Pour progresser, lisez à voix haute chaque jour quelques lignes : votre prononciation et votre mémoire vous diront merci."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Dépenser / Gaspiller (To Spend / To Waste)",
+      "say": "7. Dépenser / Gaspiller (To Spend / To Waste)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Dépenser** parle de l'argent (et parfois de l'énergie) : « Je dépense trop au supermarché. » Pour le **temps**, on ne dépense pas : on **passe** du temps. **Gaspiller** exprime une perte inutile : de la nourriture, de l'eau, de l'énergie, du temps. C'est un verbe fort, avec un jugement. On entend « Ne gaspille pas ton temps ! » comme un conseil un peu sévère, mais amical. Les deux verbes sont réguliers, en -er.",
+      "say": "Dépenser parle de l'argent (et parfois de l'énergie) : « Je dépense trop au supermarché. » Pour le temps, on ne dépense pas : on passe du temps. Gaspiller exprime une perte inutile : de la nourriture, de l'eau, de l'énergie, du temps. C'est un verbe fort, avec un jugement. On entend « Ne gaspille pas ton temps ! » comme un conseil un peu sévère, mais amical. Les deux verbes sont réguliers, en -er."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Dépenser",
+        "Gaspiller"
+      ],
+      "rows": [
+        [
+          "Je",
+          "dépense",
+          "gaspille"
+        ],
+        [
+          "Tu",
+          "dépenses",
+          "gaspilles"
+        ],
+        [
+          "Il / Elle / On",
+          "dépense",
+          "gaspille"
+        ],
+        [
+          "Nous",
+          "dépensons",
+          "gaspillons"
+        ],
+        [
+          "Vous",
+          "dépensez",
+          "gaspillez"
+        ],
+        [
+          "Ils / Elles",
+          "dépensent",
+          "gaspillent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Dépenser :** 'dépenser de l'argent', 'dépenser pour', 'dépenser sans compter'.",
+        "**Gaspiller :** 'gaspiller de l'eau', 'gaspiller de l'énergie', 'gaspiller de la nourriture'.",
+        "**Passer du temps :** 'passer du temps avec ses amis', 'passer une heure à lire', 'passer ses vacances en Bretagne'.",
+        "**Perdre son temps :** 'Je perds mon temps ici', 'On ne perd pas de temps.'",
+        "**Expressions courantes :** 'dépenser une fortune', 'ça coûte cher', 'le gaspillage alimentaire', 'faire des économies'."
+      ],
+      "say": "Dépenser : 'dépenser de l'argent', 'dépenser pour', 'dépenser sans compter'. Gaspiller : 'gaspiller de l'eau', 'gaspiller de l'énergie', 'gaspiller de la nourriture'. Passer du temps : 'passer du temps avec ses amis', 'passer une heure à lire', 'passer ses vacances en Bretagne'. Perdre son temps : 'Je perds mon temps ici', 'On ne perd pas de temps.' Expressions courantes : 'dépenser une fortune', 'ça coûte cher', 'le gaspillage alimentaire', 'faire des économies'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Ce mois-ci, j'ai dépensé trop d'argent en sorties.",
+      "gloss": "Dépenser de l'argent en + nom : on précise où va l'argent.",
+      "context": "Vous faites le bilan de votre budget.",
+      "say": "Ce mois-ci, j'ai dépensé trop d'argent en sorties."
+    },
+    {
+      "type": "example",
+      "targetText": "Éteins la lumière, on gaspille de l'énergie !",
+      "gloss": "Gaspiller de l'énergie : un réflexe écologique.",
+      "context": "Un parent dans le couloir.",
+      "say": "Éteins la lumière, on gaspille de l'énergie !"
+    },
+    {
+      "type": "example",
+      "targetText": "**Léo :** J'ai dépensé quarante euros en un après-midi ! **Emma :** Ne gaspille pas ton argent, regarde les soldes. **Léo :** D'accord, la prochaine fois, je passe moins de temps dans les magasins.",
+      "gloss": "Un dialogue à jouer à deux voix : argent, soldes et temps.",
+      "context": "Deux amis après les courses.",
+      "say": "Léo : J'ai dépensé quarante euros en un après-midi ! Emma : Ne gaspille pas ton argent, regarde les soldes. Léo : D'accord, la prochaine fois, je passe moins de temps dans les magasins."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Dépenser du temps ?",
+      "wrong": "« Je dépense mon temps à lire. »",
+      "right": "« Je passe mon temps à lire. »",
+      "why": "Avec « temps », beaucoup de langues utilisent « dépenser » (spend time). En français, on dépense l'argent mais on passe le temps.",
+      "rule": "Pour l'**argent** : **dépenser**. Pour le **temps** : **passer** (« passer du temps »). Pour un temps perdu : **perdre** ou **gaspiller**.",
+      "examples": [
+        "Elle passe deux heures au téléphone.",
+        "Nous dépensons trop pour les loisirs.",
+        "Ne perds pas ton temps !"
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Je ___ trop d'argent en vêtements.",
+      "options": [
+        "passe",
+        "dépense",
+        "gaspille du"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'argent se dépense : « Je dépense trop d'argent en vêtements. » Le temps, lui, se passe."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Le gaspillage alimentaire, un sujet national",
+      "content": "La France est l'un des premiers pays à avoir interdit aux supermarchés de jeter la nourriture encore consommable : elle doit être donnée à des associations. Les restaurants proposent aussi le « doggy bag » pour emporter les restes. Dans les familles, on cuisine volontiers les restes : une soupe, une quiche, un gratin. Le marché du dimanche est parfait pour acheter peu, mais bien. Si quelqu'un vous dit « Il faut éviter le gaspillage », c'est un sujet qui rassemble tout le monde."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Jouer (To Play)",
+      "say": "8. Jouer (To Play)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un seul verbe, quatre petits mondes. On **joue à** un jeu ou un sport (à + article : au football, aux cartes, à la pétanque). On **joue de** un instrument (de + article : de la guitare, du piano, de la flûte). On **joue** un rôle ou une pièce (sans préposition). Et on **joue** avec un enfant ou un chat : « jouer avec ». Cette distinction à/de est l'une des plus utiles de cet article : retenez « **à** les jeux, **de** la musique ».",
+      "say": "Un seul verbe, quatre petits mondes. On joue à un jeu ou un sport (à + article : au football, aux cartes, à la pétanque). On joue de un instrument (de + article : de la guitare, du piano, de la flûte). On joue un rôle ou une pièce (sans préposition). Et on joue avec un enfant ou un chat : « jouer avec ». Cette distinction à/de est l'une des plus utiles de cet article : retenez « à les jeux, de la musique »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Jouer",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "joue",
+          "Je joue au tennis."
+        ],
+        [
+          "Tu",
+          "joues",
+          "Tu joues de la guitare ?"
+        ],
+        [
+          "Il / Elle / On",
+          "joue",
+          "On joue aux cartes."
+        ],
+        [
+          "Nous",
+          "jouons",
+          "Nous jouons au foot le dimanche."
+        ],
+        [
+          "Vous",
+          "jouez",
+          "Vous jouez du piano ?"
+        ],
+        [
+          "Ils / Elles",
+          "jouent",
+          "Elles jouent dans une pièce de théâtre."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Jouer à + jeu ou sport :** 'jouer au football', 'jouer aux échecs', 'jouer à cache-cache'. (à + le = au ; à + les = aux)",
+        "**Jouer de + instrument :** 'jouer de la guitare', 'jouer du violon', 'jouer de l'accordéon'. (de + le = du)",
+        "**Jouer un rôle :** 'jouer Hamlet', 'jouer un rôle important', 'jouer son rôle'.",
+        "**Jouer avec :** 'jouer avec le chien', 'jouer avec des amis'.",
+        "**Expressions courantes :** 'jouer le jeu', 'c'est un jeu d'enfant', 'À toi de jouer !', 'jouer gros'."
+      ],
+      "say": "Jouer à + jeu ou sport : 'jouer au football', 'jouer aux échecs', 'jouer à cache-cache'. (à + le = au ; à + les = aux) Jouer de + instrument : 'jouer de la guitare', 'jouer du violon', 'jouer de l'accordéon'. (de + le = du) Jouer un rôle : 'jouer Hamlet', 'jouer un rôle important', 'jouer son rôle'. Jouer avec : 'jouer avec le chien', 'jouer avec des amis'. Expressions courantes : 'jouer le jeu', 'c'est un jeu d'enfant', 'À toi de jouer !', 'jouer gros'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Mes enfants jouent au foot tous les mercredis.",
+      "gloss": "Jouer à + sport : on dit « jouer au foot », pas « jouer le foot ».",
+      "context": "Vous parlez de la vie de famille.",
+      "say": "Mes enfants jouent au foot tous les mercredis."
+    },
+    {
+      "type": "example",
+      "targetText": "Mon grand-père joue de l'accordéon depuis cinquante ans.",
+      "gloss": "Jouer de + instrument : on joue « de » la musique.",
+      "context": "Vous présentez votre famille à un ami.",
+      "say": "Mon grand-père joue de l'accordéon depuis cinquante ans."
+    },
+    {
+      "type": "example",
+      "targetText": "**Alice :** Tu joues à quelque chose ce week-end ? **Mehdi :** Oui, au tennis le matin. Et le soir, je joue de la guitare dans un petit bar. **Alice :** Quel programme ! Tu joues très bien ?",
+      "gloss": "Un dialogue à jouer à deux voix : sport et instrument.",
+      "context": "Deux amis parlent de leurs loisirs.",
+      "say": "Alice : Tu joues à quelque chose ce week-end ? Mehdi : Oui, au tennis le matin. Et le soir, je joue de la guitare dans un petit bar. Alice : Quel programme ! Tu joues très bien ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Jouer à ou jouer de ?",
+      "wrong": "« Je joue la guitare. » / « Je joue au piano. »",
+      "right": "« Je joue de la guitare. » / « Je joue du piano. »",
+      "why": "En anglais, on dit « play the guitar ». En français, la préposition change : à pour un jeu, de pour un instrument.",
+      "rule": "**Jouer à** un jeu ou un sport. **Jouer de** un instrument. **Jouer** (sans préposition) un rôle ou une pièce.",
+      "examples": [
+        "Elle joue aux échecs.",
+        "Il joue de la batterie.",
+        "Nous jouons Molière au théâtre."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Mon frère joue ___ violon.",
+      "options": [
+        "au",
+        "du",
+        "le"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un instrument : jouer de + le = du. « Il joue du violon. »"
+    },
+    {
+      "type": "culture-bite",
+      "title": "La pétanque et les jeux d'été",
+      "content": "Dans le Sud, les villages se retrouvent le soir sur la place pour jouer à la pétanque, en buvant un pastis ou un jus de fruits. Les règles sont simples : on lance des boules en métal pour se rapprocher d'une petite boule en bois, le « cochonnet ». La France est aussi le pays des cartes (belote, tarot), des échecs et des jeux de société, très appréciés en famille. À la fête de la musique, le 21 juin, chacun peut jouer de son instrument dans la rue, sans scène ni invitation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Être d'accord / Pas d'accord (To Agree / To Disagree)",
+      "say": "9. Être d'accord / Pas d'accord (To Agree / To Disagree)"
+    },
+    {
+      "type": "paragraph",
+      "text": "En français, on ne « agrée » pas : on **est d'accord**. Cette expression utilise le verbe **être**, donc elle se conjugue comme lui : je suis d'accord, tu es d'accord, nous sommes d'accord. Pour le contraire, on ajoute **ne… pas** : « Je ne suis pas d'accord. » On est d'accord **avec** une personne et **sur** un sujet : « Je suis d'accord avec toi sur ce point. » Et « d'accord » tout seul est une réponse très courante pour dire « OK ».",
+      "say": "En français, on ne « agrée » pas : on est d'accord. Cette expression utilise le verbe être, donc elle se conjugue comme lui : je suis d'accord, tu es d'accord, nous sommes d'accord. Pour le contraire, on ajoute ne… pas : « Je ne suis pas d'accord. » On est d'accord avec une personne et sur un sujet : « Je suis d'accord avec toi sur ce point. » Et « d'accord » tout seul est une réponse très courante pour dire « OK »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Être d'accord",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "suis d'accord",
+          "Je suis d'accord avec toi."
+        ],
+        [
+          "Tu",
+          "es d'accord",
+          "Tu es d'accord ?"
+        ],
+        [
+          "Il / Elle / On",
+          "est d'accord",
+          "Il est d'accord avec nous."
+        ],
+        [
+          "Nous",
+          "sommes d'accord",
+          "Nous sommes d'accord sur le prix."
+        ],
+        [
+          "Vous",
+          "êtes d'accord",
+          "Vous êtes d'accord avec cette idée ?"
+        ],
+        [
+          "Ils / Elles",
+          "sont d'accord",
+          "Elles ne sont pas d'accord."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Être d'accord avec** + personne : 'Je suis d'accord avec elle.'",
+        "**Être d'accord sur / pour** : 'Nous sommes d'accord sur le prix', 'Je suis d'accord pour venir.'",
+        "**Pas d'accord :** 'Je ne suis pas d'accord', 'Pas du tout !', 'Je ne pense pas', 'Je vois les choses autrement.'",
+        "**Expressions courantes :** 'tomber d'accord', 'D'accord !', 'Tout à fait !', 'Exactement !', 'Pas question !'",
+        "**Nuancer :** 'Oui, mais…', 'Je comprends, mais…', 'Peut-être, sauf que…'"
+      ],
+      "say": "Être d'accord avec + personne : 'Je suis d'accord avec elle.' Être d'accord sur / pour : 'Nous sommes d'accord sur le prix', 'Je suis d'accord pour venir.' Pas d'accord : 'Je ne suis pas d'accord', 'Pas du tout !', 'Je ne pense pas', 'Je vois les choses autrement.' Expressions courantes : 'tomber d'accord', 'D'accord !', 'Tout à fait !', 'Exactement !', 'Pas question !' Nuancer : 'Oui, mais…', 'Je comprends, mais…', 'Peut-être, sauf que…'"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je suis tout à fait d'accord avec toi sur ce point.",
+      "gloss": "Tout à fait : un renfort qui exprime un accord fort.",
+      "context": "Pendant une discussion entre amis.",
+      "say": "Je suis tout à fait d'accord avec toi sur ce point."
+    },
+    {
+      "type": "example",
+      "targetText": "Je ne suis pas d'accord, mais je comprends ton idée.",
+      "gloss": "Un désaccord poli : on reconnaît l'opinion de l'autre avant de donner la sienne.",
+      "context": "En réunion de travail.",
+      "say": "Je ne suis pas d'accord, mais je comprends ton idée."
+    },
+    {
+      "type": "example",
+      "targetText": "**Pierre :** Je trouve que ce film est trop long. **Sonia :** Ah non, je ne suis pas d'accord ! L'histoire est géniale. **Pierre :** D'accord, d'accord. Sur les acteurs, on est au moins d'accord ?",
+      "gloss": "Un dialogue à jouer à deux voix : un désaccord amical et un compromis.",
+      "context": "Deux amis à la sortie du cinéma.",
+      "say": "Pierre : Je trouve que ce film est trop long. Sonia : Ah non, je ne suis pas d'accord ! L'histoire est géniale. Pierre : D'accord, d'accord. Sur les acteurs, on est au moins d'accord ?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "D'accord : pas de verbe « agréer »",
+      "wrong": "« J'accorde avec toi. »",
+      "right": "« Je suis d'accord avec toi. »",
+      "why": "Dans d'autres langues, le verbe « to agree » existe en un mot. En français, on utilise être + d'accord. Le verbe « accorder » signifie « donner » (accorder une faveur).",
+      "rule": "**Être d'accord** : la tournure la plus naturelle. Avec **ne… pas** pour le désaccord. **Tomber d'accord** : arriver à un accord après discussion.",
+      "examples": [
+        "Nous sommes tombés d'accord sur la date.",
+        "Je ne suis pas d'accord.",
+        "Tu es d'accord pour demain ?"
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Tu viens ce soir ? — Oui, ___ !",
+      "options": [
+        "je suis d'accord",
+        "d'accord",
+        "accord"
+      ],
+      "correctIndex": 1,
+      "explanation": "« D'accord ! » est la réponse courte : elle équivaut à « OK »."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Le débat à la française",
+      "content": "Dans une famille ou entre amis, on discute souvent avec passion, parfois en se coupant la parole. Ce n'est pas grossier : c'est une façon de montrer qu'on s'intéresse au sujet. Pour garder un ton poli, on dit « Si je peux me permettre… » ou « Excuse-moi, mais… » avant de donner un avis différent. À l'école, les élèves apprennent à rédiger des « dissertations » où l'on présente une idée, puis son contraire, puis une synthèse. L'art de nuancer est un vrai sport national."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Envoyer / Recevoir (To Send / To Receive)",
+      "say": "10. Envoyer / Recevoir (To Send / To Receive)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Voici le couple de la communication à distance. **Envoyer** s'utilise pour un message, un colis, un e-mail, une photo : « J'envoie un SMS. » **Recevoir** est le contraire : « Je reçois des nouvelles. » Mais il signifie aussi **accueillir chez soi** : « Nous recevons des amis ce soir. » Attention à l'orthographe : **je reçois** prend une cédille (ç) devant o et a, mais pas devant e et i : « nous recevons ». Les deux verbes sont irréguliers.",
+      "say": "Voici le couple de la communication à distance. Envoyer s'utilise pour un message, un colis, un e-mail, une photo : « J'envoie un SMS. » Recevoir est le contraire : « Je reçois des nouvelles. » Mais il signifie aussi accueillir chez soi : « Nous recevons des amis ce soir. » Attention à l'orthographe : je reçois prend une cédille (ç) devant o et a, mais pas devant e et i : « nous recevons ». Les deux verbes sont irréguliers."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Envoyer",
+        "Recevoir"
+      ],
+      "rows": [
+        [
+          "Je",
+          "envoie",
+          "reçois"
+        ],
+        [
+          "Tu",
+          "envoies",
+          "reçois"
+        ],
+        [
+          "Il / Elle / On",
+          "envoie",
+          "reçoit"
+        ],
+        [
+          "Nous",
+          "envoyons",
+          "recevons"
+        ],
+        [
+          "Vous",
+          "envoyez",
+          "recevez"
+        ],
+        [
+          "Ils / Elles",
+          "envoient",
+          "reçoivent"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Envoyer :** 'envoyer un message', 'envoyer un e-mail', 'envoyer un colis', 'envoyer quelque chose à quelqu'un'.",
+        "**Recevoir :** 'recevoir une lettre', 'recevoir des nouvelles', 'recevoir un cadeau', 'recevoir un appel'.",
+        "**Recevoir (accueillir) :** 'recevoir des amis', 'Nous recevons ce week-end.'",
+        "**Expressions courantes :** 'envoyer promener', 'Tiens-moi au courant', 'Bien reçu !', 'accusé de réception', 'Envoie-moi ça !'",
+        "**Ne pas confondre :** on **reçoit** une chose (une lettre, un colis), mais on **arrive** quelque part : « J'arrive à la gare à 17 h »."
+      ],
+      "say": "Envoyer : 'envoyer un message', 'envoyer un e-mail', 'envoyer un colis', 'envoyer quelque chose à quelqu'un'. Recevoir : 'recevoir une lettre', 'recevoir des nouvelles', 'recevoir un cadeau', 'recevoir un appel'. Recevoir (accueillir) : 'recevoir des amis', 'Nous recevons ce week-end.' Expressions courantes : 'envoyer promener', 'Tiens-moi au courant', 'Bien reçu !', 'accusé de réception', 'Envoie-moi ça !' Ne pas confondre : on reçoit une chose (une lettre, un colis), mais on arrive quelque part : « J'arrive à la gare à 17 h »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À voix haute",
+      "say": "À voix haute"
+    },
+    {
+      "type": "example",
+      "targetText": "Je t'envoie l'adresse par message dans cinq minutes.",
+      "gloss": "Envoyer quelque chose à quelqu'un : « t' » est le pronom pour « à toi ».",
+      "context": "Vous organisez une sortie avec un ami.",
+      "say": "Je t'envoie l'adresse par message dans cinq minutes."
+    },
+    {
+      "type": "example",
+      "targetText": "Hier, j'ai reçu une bonne nouvelle de ma sœur.",
+      "gloss": "Recevoir une nouvelle : on la reçoit sans la demander.",
+      "context": "Vous racontez votre journée.",
+      "say": "Hier, j'ai reçu une bonne nouvelle de ma sœur."
+    },
+    {
+      "type": "example",
+      "targetText": "**Zoé :** Tu as reçu mon e-mail avec les photos ? **Ali :** Pas encore. Tu l'as envoyé à quelle adresse ? **Zoé :** À celle du travail. Je te l'envoie à nouveau sur ton téléphone.",
+      "gloss": "Un dialogue à jouer à deux voix : le message qui se perd, puis le renvoi.",
+      "context": "Deux collègues et une photo manquante.",
+      "say": "Zoé : Tu as reçu mon e-mail avec les photos ? Ali : Pas encore. Tu l'as envoyé à quelle adresse ? Zoé : À celle du travail. Je te l'envoie à nouveau sur ton téléphone."
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Je reçois ou je reçoit ?",
+      "wrong": "« Je reçoit une lettre. » / « Je recois une lettre. »",
+      "right": "« Je reçois une lettre. »",
+      "why": "Avec je et tu, la terminaison est -s : je reçois, tu reçois. Avec il / elle, c'est -t : il reçoit. La cédille (ç) est nécessaire devant a, o et u pour garder le son [s].",
+      "rule": "**Recevoir** : je reçois, tu reçois, il reçoit, nous recevons, vous recevez, ils reçoivent. La cédille est devant **o** et **oi**, jamais devant **e** ou **i**.",
+      "examples": [
+        "Elle reçoit un colis.",
+        "Nous recevons des invités.",
+        "Ils reçoivent un message."
+      ],
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Nous ___ des amis samedi soir.",
+      "options": [
+        "recevons",
+        "reçevons",
+        "recevont"
+      ],
+      "correctIndex": 0,
+      "explanation": "Devant « e » la cédille n'est pas nécessaire : nous recevons, vous recevez."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Écrire une lettre ou un message : la politesse",
+      "content": "En France, les e-mails professionnels commencent par « Bonjour Madame / Monsieur » et se terminent par « Cordialement ». Entre amis, on écrit simplement « Salut » et « Bises ». La lettre manuscrite garde un grand prestige : on envoie encore des cartes de vœux en janvier (on a jusqu'au 31 pour dire « Bonne année ») et des cartes postales en vacances. Pour envoyer un colis, La Poste est partout, et le facteur sonne parfois à la porte pour une signature : « Vous pouvez signer ici ? »"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tableau comparatif des verbes",
+      "say": "Tableau comparatif des verbes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Comparaison des verbes de la Partie 3 selon les familles linguistiques :",
+      "say": "Comparaison des verbes de la Partie 3 selon les familles linguistiques :"
     },
     {
       "type": "table",
@@ -259,16 +1603,62 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Structures grammaticales adaptées (A0–A1 / A2)"
+      "text": "Structures grammaticales adaptées (A0–A1 / A2)",
+      "say": "Structures grammaticales adaptées (A0–A1 / A2)"
     },
     {
       "type": "paragraph",
-      "text": "• **Structures simples :** Sujet + Verbe + Complément.\n• **Prépositions verbales :** Attention à 'jouer *à*' (sports/jeux) vs 'jouer *de*' (instruments).\n• **Conjugaisons :** Tous les temps et formes sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "• **Structures simples :** Sujet + Verbe + Complément.\n• **Prépositions verbales :** Attention à 'jouer *à*' (sports/jeux) vs 'jouer *de*' (instruments), 'se souvenir *de*', 'décider *de*', 'être d'accord *avec* / *sur*'.\n• **Pronoms compléments :** 'Je lui écris', 'Je t'envoie', 'Elle leur répond' : le pronom se place devant le verbe.\n• **Verbes pronominaux :** se souvenir, se sentir, se retrouver, se décider : le pronom (me, te, se, nous, vous, se) change avec le sujet.\n• **Conjugaisons :** Tous les temps et formes sont consultables sur [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "• Structures simples : Sujet + Verbe + Complément.\n• Prépositions verbales : Attention à 'jouer à' (sports/jeux) vs 'jouer de' (instruments), 'se souvenir de', 'décider de', 'être d'accord avec / sur'.\n• Pronoms compléments : 'Je lui écris', 'Je t'envoie', 'Elle leur répond' : le pronom se place devant le verbe.\n• Verbes pronominaux : se souvenir, se sentir, se retrouver, se décider : le pronom (me, te, se, nous, vous, se) change avec le sujet.\n• Conjugaisons : Tous les temps et formes sont consultables sur COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Pratique et conjugaison"
+      "text": "Votre routine orale de 5 minutes",
+      "say": "Votre routine orale de 5 minutes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un plan simple pour transformer cet article en habitude. Répétez-le pendant une semaine : le jour 7, vous serez surpris de ce qui sort tout seul.",
+      "say": "Un plan simple pour transformer cet article en habitude. Répétez-le pendant une semaine : le jour 7, vous serez surpris de ce qui sort tout seul."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Minute 1 : l'échauffement.** Dites à voix haute les six formes de écrire, lire, envoyer et recevoir. Ces quatre verbes irréguliers sont les plus utiles ici.",
+        "**Minute 2 : le duo.** Choisissez un couple (se souvenir / oublier, dépenser / gaspiller, envoyer / recevoir) et faites une phrase avec chaque verbe.",
+        "**Minute 3 : le mini-dialogue.** Relisez un des dialogues en jouant les deux rôles, puis cachez le texte et rejouez-le de mémoire.",
+        "**Minute 4 : la vie réelle.** Dites trois phrases sur votre journée : « Je me sens… », « J'ai décidé de… », « Je joue à… ou de… ».",
+        "**Minute 5 : la carte d'erreur.** Relisez une erreur courante et inventez une nouvelle phrase correcte."
+      ],
+      "say": "Minute 1 : l'échauffement. Dites à voix haute les six formes de écrire, lire, envoyer et recevoir. Ces quatre verbes irréguliers sont les plus utiles ici. Minute 2 : le duo. Choisissez un couple (se souvenir / oublier, dépenser / gaspiller, envoyer / recevoir) et faites une phrase avec chaque verbe. Minute 3 : le mini-dialogue. Relisez un des dialogues en jouant les deux rôles, puis cachez le texte et rejouez-le de mémoire. Minute 4 : la vie réelle. Dites trois phrases sur votre journée : « Je me sens… », « J'ai décidé de… », « Je joue à… ou de… ». Minute 5 : la carte d'erreur. Relisez une erreur courante et inventez une nouvelle phrase correcte."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Plan d'action sur 7 jours",
+      "say": "Plan d'action sur 7 jours"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Jour 1 :** choisir, acheter, payer. Faites une vraie liste de courses en français et dites à voix haute ce que vous achetez.",
+        "**Jour 2 :** se souvenir, oublier. Écrivez cinq phrases qui commencent par « Je me souviens de… ».",
+        "**Jour 3 :** se sentir. Dites chaque soir comment vous vous sentez et pourquoi, en une phrase.",
+        "**Jour 4 :** rencontrer, se retrouver. Proposez un rendez-vous à un ami en français : « On se retrouve… ? »",
+        "**Jour 5 :** décider, être d'accord. Donnez votre avis sur un sujet du jour avec « Je suis d'accord » ou « Je ne suis pas d'accord ».",
+        "**Jour 6 :** écrire, lire, taper. Lisez dix minutes en français à voix haute, puis écrivez un message à quelqu'un.",
+        "**Jour 7 :** dépenser, jouer, envoyer, recevoir. Racontez votre semaine en une minute, en vous enregistrant. Réécoutez : qu'est-ce qui vous plaît ?"
+      ],
+      "say": "Jour 1 : choisir, acheter, payer. Faites une vraie liste de courses en français et dites à voix haute ce que vous achetez. Jour 2 : se souvenir, oublier. Écrivez cinq phrases qui commencent par « Je me souviens de… ». Jour 3 : se sentir. Dites chaque soir comment vous vous sentez et pourquoi, en une phrase. Jour 4 : rencontrer, se retrouver. Proposez un rendez-vous à un ami en français : « On se retrouve… ? » Jour 5 : décider, être d'accord. Donnez votre avis sur un sujet du jour avec « Je suis d'accord » ou « Je ne suis pas d'accord ». Jour 6 : écrire, lire, taper. Lisez dix minutes en français à voix haute, puis écrivez un message à quelqu'un. Jour 7 : dépenser, jouer, envoyer, recevoir. Racontez votre semaine en une minute, en vous enregistrant. Réécoutez : qu'est-ce qui vous plaît ?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pratique et conjugaison",
+      "say": "Pratique et conjugaison"
     },
     {
       "type": "paragraph",
