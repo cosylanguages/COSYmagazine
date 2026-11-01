@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Los 10 verbos esenciales en español para principiantes (A0–A1 / A2)",
   "kicker": "GUÍA DE ESPAÑOL — PARTE 1 DE 2",
-  "dek": "Aprende los primeros 10 verbos fundamentales en español (ser/estar, tener, pensar, saber/conocer, gustar, querer/gustaría, ir/ir a, poder, comer, beber). Conjugaciones consultables en COSYtools.",
+  "dek": "Aprende los primeros 10 verbos fundamentales en español (ser/estar, tener, pensar, saber/conocer, gustar, querer/quisiera, trabajar/estudiar/aprender, ir/ir a, poder, comer/beber). Conjugaciones consultables en COSYtools.",
   "tags": [
     "Verbs",
     "Spanish",
@@ -68,73 +68,73 @@
       "rows": [
         [
           "1",
-          "Ser / Estar (To Be)",
+          "Ser / Estar",
           "En español, ser se usa para identidad, origen y profesión; estar para ubicación, estados temporales y emociones.",
           "está",
           "'ser de acuerdo', 'estar listo', 'estar de vacaciones'."
         ],
         [
           "2",
-          "Tener (To Have)",
+          "Tener",
           "El verbo tener expresa posesión, edad, relaciones familiares y sensaciones físicas.",
           "Tiene dos hermanos.",
           "'tener que' (obligación), 'tener ganas de', 'tener miedo'."
         ],
         [
           "3",
-          "Pensar (To Think)",
+          "Pensar",
           "El verbo pensar expresa opiniones, reflexiones y planes futuros (pensar + infinitivo).",
           "Piensa viajar pronto.",
           "'pensar en', 'pensar que', 'dar que pensar'."
         ],
         [
           "4",
-          "Saber / Conocer (To Know)",
+          "Saber / Conocer",
           "Saber se usa para datos y habilidades (saber + infinitivo). Conocer para personas, lugares y cosas.",
           "conoce",
           "'a saber', 'dar a conocer', 'hacer saber'."
         ],
         [
           "5",
-          "Gustar / Querer (To Like / Love)",
+          "Gustar / Querer",
           "El verbo gustar se usa con pronombres indirectos (me gusta). Querer para expresar cariño o deseos.",
           "quiere",
           "'me gustaría' (deseo cortés), 'si quieres'."
         ],
         [
           "6",
-          "Querer / Quisiera (To Want / Would Like)",
+          "Querer / Quisiera",
           "Para pedir cosas con amabilidad, se utiliza la forma quisiera o me gustaría.",
           "quisiera",
           "'querer decir' (significar), 'sin querer'."
         ],
         [
           "7",
-          "Ir / Futuro próximo (To Go)",
-          "El verbo ir indica movimiento hacia un lugar y forma el futuro próximo (ir + a + infinitivo).",
-          "Va a la universidad.",
-          "'¿Cómo va todo?', '¡Vamos!'."
+          "Trabajar / Estudiar / Aprender",
+          "Los verbos trabajar, estudiar y aprender cubren el empleo, la educación académica y la adquisición de habilidades prácticas.",
+          "aprende",
+          "'trabajar duro', 'aprender de memoria', 'aprender a conducir'."
         ],
         [
           "8",
-          "Poder (To Can / Be able to)",
+          "Ir / Futuro próximo",
           "El verbo modal poder expresa capacidad, posibilidad o permiso.",
           "Puede entrar.",
           "'no poder más', 'si se puede'."
         ],
         [
           "9",
-          "Comer (To Eat)",
+          "Poder",
           "El verbo comer se refiere a las comidas diarias, alimentos y hábitos de nutrición.",
           "Come con su familia.",
           "'¡Buen provecho!', 'dar de comer', 'comer fuera'."
         ],
         [
           "10",
-          "Beber / Tomar (To Drink)",
-          "Los verbos beber y tomar se usan para líquidos, bebidas y reuniones sociales.",
-          "toma",
-          "'dar a beber', 'tomar un refresco'."
+          "Comer / Beber",
+          "Los verbos comer y beber (o tomar) se refieren a las comidas diarias, la nutrición, las bebidas y la vida social.",
+          "bebe",
+          "'¡Buen provecho!', 'tomar un café', 'comer juntos'."
         ]
       ],
       "webOnly": true
@@ -142,7 +142,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Ser / Estar (To Be)"
+      "text": "1. Ser / Estar"
     },
     {
       "type": "paragraph",
@@ -200,7 +200,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Tener (To Have)"
+      "text": "2. Tener"
     },
     {
       "type": "paragraph",
@@ -258,7 +258,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Pensar (To Think)"
+      "text": "3. Pensar"
     },
     {
       "type": "paragraph",
@@ -316,7 +316,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Saber / Conocer (To Know)"
+      "text": "4. Saber / Conocer"
     },
     {
       "type": "paragraph",
@@ -374,7 +374,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Gustar / Querer (To Like / Love)"
+      "text": "5. Gustar / Querer"
     },
     {
       "type": "paragraph",
@@ -432,7 +432,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Querer / Quisiera (To Want / Would Like)"
+      "text": "6. Querer / Quisiera"
     },
     {
       "type": "paragraph",
@@ -490,49 +490,56 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Ir / Futuro próximo (To Go)"
+      "text": "7. Trabajar / Estudiar / Aprender"
     },
     {
       "type": "paragraph",
-      "text": "El verbo **ir** indica movimiento hacia un lugar y forma el futuro próximo (*ir + a + infinitivo*)."
+      "text": "Los verbos **trabajar**, **estudiar** y **aprender** cubren el empleo, la educación académica y la adquisición de habilidades prácticas."
     },
     {
       "type": "table",
       "headers": [
         "Pronombre",
-        "Presente",
-        "Ejemplo"
+        "Trabajar",
+        "Estudiar",
+        "Aprender"
       ],
       "rows": [
         [
           "Yo",
-          "voy",
-          "Voy a trabajar / Voy a comer."
+          "trabajo",
+          "estudio",
+          "aprendo"
         ],
         [
           "Tú",
-          "vas",
-          "¿Vas a la casa?"
+          "trabajas",
+          "estudias",
+          "aprendes"
         ],
         [
           "Él / Ella / Ud.",
-          "va",
-          "Va a la universidad."
+          "trabaja",
+          "estudia",
+          "aprende"
         ],
         [
           "Nosotros/-as",
-          "vamos",
-          "Vamos al cine."
+          "trabajamos",
+          "estudiamos",
+          "aprendemos"
         ],
         [
           "Vosotros/-as",
-          "vais",
-          "¿Adónde vais?"
+          "trabajáis",
+          "estudiáis",
+          "aprendéis"
         ],
         [
           "Ellos / Ellas / Uds.",
-          "van",
-          "Van a estudiar."
+          "trabajan",
+          "estudian",
+          "aprenden"
         ]
       ]
     },
@@ -540,15 +547,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Desplazamiento:** 'Voy al parque', 'Vamos a España'.",
-        "**Futuro próximo:** 'Voy a llamar a mi madre', 'Va a llover'.",
-        "**Expresiones:** '¿Cómo va todo?', '¡Vamos!'."
+        "**Trabajar (Empleo):** 'Trabajo en una oficina', 'Trabaja mucho'.",
+        "**Estudiar (Formación):** 'Estudio español todos los días', 'Estudian en la universidad'.",
+        "**Aprender (Habilidades):** 'Aprendo a cocinar', 'Aprendemos rápido'.",
+        "**Expresiones útiles:** 'trabajar duro', 'aprender de memoria', 'aprender a conducir'."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Poder (To Can / Be able to)"
+      "text": "8. Ir / Futuro próximo"
     },
     {
       "type": "paragraph",
@@ -606,7 +614,7 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Comer (To Eat)"
+      "text": "9. Poder"
     },
     {
       "type": "paragraph",
@@ -663,49 +671,49 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Beber / Tomar (To Drink)"
+      "text": "10. Comer / Beber"
     },
     {
       "type": "paragraph",
-      "text": "Los verbos **beber** y **tomar** se usan para líquidos, bebidas y reuniones sociales."
+      "text": "Los verbos **comer** y **beber** (o *tomar*) se refieren a las comidas diarias, la nutrición, las bebidas y la vida social."
     },
     {
       "type": "table",
       "headers": [
         "Pronombre",
-        "Beber",
-        "Tomar"
+        "Comer",
+        "Beber"
       ],
       "rows": [
         [
           "Yo",
-          "bebo",
-          "tomo"
+          "como",
+          "bebo"
         ],
         [
           "Tú",
-          "bebes",
-          "tomas"
+          "comes",
+          "bebes"
         ],
         [
           "Él / Ella / Ud.",
-          "bebe",
-          "toma"
+          "come",
+          "bebe"
         ],
         [
           "Nosotros/-as",
-          "bebemos",
-          "tomamos"
+          "comemos",
+          "bebemos"
         ],
         [
           "Vosotros/-as",
-          "bebéis",
-          "tomáis"
+          "coméis",
+          "bebéis"
         ],
         [
           "Ellos / Ellas / Uds.",
-          "beben",
-          "toman"
+          "comen",
+          "beben"
         ]
       ]
     },
@@ -713,9 +721,9 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Bebidas:** 'Bebo agua todos los días', 'Tomo un café por la mañana'.",
-        "**Social:** '¿Quieres tomar algo?'.",
-        "**Expresiones:** 'dar a beber', 'tomar un refresco'."
+        "**Comer:** 'Como una manzana al día', '¿Qué comemos hoy?'.",
+        "**Beber:** 'Bebo dos litros de agua', '¿Quieres beber algo?'.",
+        "**Expresiones útiles:** '¡Buen provecho!', 'tomar un café', 'comer juntos'."
       ]
     },
     {

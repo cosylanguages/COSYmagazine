@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Top 10 Essential English Verbs for Absolute Beginners (A0–A1 / A2 Master Guide)",
   "kicker": "ENGLISH CORE GUIDE — PART 1 OF 2",
-  "dek": "A complete magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step, starting with a deep dive into the verb 'To Be' with full conjugations, 10 core usage patterns, negative/question structures, and real-world sentence frames.",
+  "dek": "A complete magazine spread for absolute beginners discovering English. Master the top 10 core verbs step-by-step (be, have, think, know, like, want/would like, work/study/learn, go/be going to, can, eat/drink) with full conjugations, usage patterns, and real-world sentence frames.",
   "tags": [
     "Verbs",
     "English",
@@ -53,7 +53,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">🗺️ Interactive Verb Map: Part 1 Core Verbs</h3><p style=\"margin-bottom:1rem; color:var(--ink-secondary);\">Flip through this issue page by page or jump directly to any verb spread:</p><div class=\"verb-map-grid\"><a href=\"#page-2\" class=\"verb-node-card\"><strong>1. To Be</strong> — Existence, identity, age, states, location.</a><a href=\"#page-3\" class=\"verb-node-card\"><strong>2. To Have</strong> — Possession, bodily states, routines.</a><a href=\"#page-4\" class=\"verb-node-card\"><strong>3. To Think</strong> — Opinions, thoughts, beliefs.</a><a href=\"#page-5\" class=\"verb-node-card\"><strong>4. To Know</strong> — Facts, familiarity, skills.</a><a href=\"#page-6\" class=\"verb-node-card\"><strong>5. To Like</strong> — Preferences, tastes, polite requests.</a><a href=\"#page-7\" class=\"verb-node-card\"><strong>6. To Want / Would Like</strong> — Desires, ordering, plans.</a><a href=\"#page-8\" class=\"verb-node-card\"><strong>7. To Go / Be Going To</strong> — Movement, travel, future.</a><a href=\"#page-9\" class=\"verb-node-card\"><strong>8. To Can (Modal)</strong> — Ability, requests, permission.</a><a href=\"#page-10\" class=\"verb-node-card\"><strong>9. To Eat</strong> — Meals, dining out, daily food.</a><a href=\"#page-11\" class=\"verb-node-card\"><strong>10. To Drink</strong> — Beverages, hydration, social drinks.</a><a href=\"#page-12\" class=\"verb-node-card\"><strong>Outro & Practice</strong> — Language matrix & test tools.</a></div></div>"
+      "text": "<div class=\"verb-map-container\"><h3 class=\"verb-map-title\">🗺️ Interactive Verb Map: Part 1 Core Verbs</h3><p style=\"margin-bottom:1rem; color:var(--ink-secondary);\">Flip through this issue page by page or jump directly to any verb spread:</p><div class=\"verb-map-grid\"><a href=\"#page-2\" class=\"verb-node-card\"><strong>1. To Be</strong> — Existence, identity, age, states, location.</a><a href=\"#page-3\" class=\"verb-node-card\"><strong>2. To Have</strong> — Possession, bodily states, routines.</a><a href=\"#page-4\" class=\"verb-node-card\"><strong>3. To Think</strong> — Opinions, thoughts, beliefs.</a><a href=\"#page-5\" class=\"verb-node-card\"><strong>4. To Know</strong> — Facts, familiarity, skills.</a><a href=\"#page-6\" class=\"verb-node-card\"><strong>5. To Like</strong> — Preferences, tastes, polite requests.</a><a href=\"#page-7\" class=\"verb-node-card\"><strong>6. To Want / Would Like</strong> — Desires, ordering, plans.</a><a href=\"#page-8\" class=\"verb-node-card\"><strong>7. To Work / Study / Learn</strong> — Occupation, studies, acquiring skills.</a><a href=\"#page-9\" class=\"verb-node-card\"><strong>8. To Go / Be Going To</strong> — Movement, travel, future.</a><a href=\"#page-10\" class=\"verb-node-card\"><strong>9. To Can (Modal)</strong> — Ability, requests, permission.</a><a href=\"#page-11\" class=\"verb-node-card\"><strong>10. To Eat / Drink</strong> — Food, beverages, dining, hydration.</a><a href=\"#page-12\" class=\"verb-node-card\"><strong>Outro & Practice</strong> — Language matrix & test tools.</a></div></div>"
     },
     {
       "type": "paragraph",
@@ -873,7 +873,34 @@
     },
     {
       "type": "paragraph",
-      "text": "<section id=\"page-8\" class=\"gazette-page-spread\" aria-labelledby=\"page-8-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-8-heading\" class=\"editorial-heading\">Verb 7 — \"To Go / Be Going To\"</h2>"
+      "text": "<section id=\"page-8\" class=\"gazette-page-spread\" aria-labelledby=\"page-8-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-8-heading\" class=\"editorial-heading\">Verb 7 — \"To Work / Study / Learn\"</h2>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>To Work</strong>, <strong>To Study</strong>, and <strong>To Learn</strong> are your core verbs for everyday occupations, education, and acquiring new skills."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Forms & Sentence Frames"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**To Work (work / works):** <mark class=\"example-chip\">I work in an office in London.</mark> / <mark class=\"example-chip\">She works from home on Fridays.</mark> / <mark class=\"example-chip\">They work hard every day.</mark> (Collocations: *work out*, *work full-time*, *work as a teacher*).",
+        "**To Study (study / studies):** <mark class=\"example-chip\">I study English every evening.</mark> / <mark class=\"example-chip\">He studies medicine at university.</mark> / <mark class=\"example-chip\">We study for our exams together.</mark> (Note spelling: *study → studies*).",
+        "**To Learn (learn / learns):** <mark class=\"example-chip\">I want to learn French fluently.</mark> / <mark class=\"example-chip\">Children learn languages very quickly.</mark> / <mark class=\"example-chip\">We learn something new every day.</mark> (Collocations: *learn by heart*, *learn from mistakes*).",
+        "**Key Nuance:** *Work* relates to employment and effort; *Study* relates to academic focus and coursework; *Learn* relates to acquiring new knowledge or competencies."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "</section>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<section id=\"page-9\" class=\"gazette-page-spread\" aria-labelledby=\"page-9-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-9-heading\" class=\"editorial-heading\">Verb 8 — \"To Go / Be Going To\"</h2>"
     },
     {
       "type": "paragraph",
@@ -901,7 +928,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<section id=\"page-9\" class=\"gazette-page-spread\" aria-labelledby=\"page-9-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-9-heading\" class=\"editorial-heading\">Verb 8 — \"To Can\" (Modal Verb)</h2>"
+      "text": "<section id=\"page-10\" class=\"gazette-page-spread\" aria-labelledby=\"page-10-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-10-heading\" class=\"editorial-heading\">Verb 9 — \"To Can\" (Modal Verb)</h2>"
     },
     {
       "type": "paragraph",
@@ -932,11 +959,11 @@
     },
     {
       "type": "paragraph",
-      "text": "<section id=\"page-10\" class=\"gazette-page-spread\" aria-labelledby=\"page-10-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-10-heading\" class=\"editorial-heading\">Verb 9 — \"To Eat\"</h2>"
+      "text": "<section id=\"page-11\" class=\"gazette-page-spread\" aria-labelledby=\"page-11-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-11-heading\" class=\"editorial-heading\">Verb 10 — \"To Eat / Drink\"</h2>"
     },
     {
       "type": "paragraph",
-      "text": "<strong>To Eat</strong> is used for food, daily meals, dining habits, and food preferences."
+      "text": "<strong>To Eat</strong> and <strong>To Drink</strong> cover food, daily meals, dining habits, beverages, and hydration."
     },
     {
       "type": "heading",
@@ -947,37 +974,9 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Present Simple Forms:** I/You/We/They **eat** | He/She/It **eats**.",
-        "**Daily Food:** <mark class=\"example-chip\">I eat fresh fruit every morning for breakfast.</mark> / <mark class=\"example-chip\">He eats lunch at 1 o'clock at work.</mark>",
-        "**Questions & Desires:** <mark class=\"example-chip\">What do you want to eat for dinner?</mark> / <mark class=\"example-chip\">Do you eat vegetarian food?</mark>",
-        "**Phrasal Verbs & Collocations:** <mark class=\"example-chip\">eat out at an Italian restaurant</mark>, <mark class=\"example-chip\">eat healthy food</mark>, <mark class=\"example-chip\">let's find something to eat</mark>."
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "</section>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<section id=\"page-11\" class=\"gazette-page-spread\" aria-labelledby=\"page-11-heading\"><div class=\"print-running-header\">COSYMAGAZINE • Vol. 2026.08 — Special Edition</div><h2 id=\"page-11-heading\" class=\"editorial-heading\">Verb 10 — \"To Drink\"</h2>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>To Drink</strong> covers beverages, hydration, offering drinks, and social café situations."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Forms & Sentence Frames"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Present Simple Forms:** I/You/We/They **drink** | He/She/It **drinks**.",
-        "**Daily Beverages:** <mark class=\"example-chip\">I drink two litres of water every day.</mark> / <mark class=\"example-chip\">He drinks black coffee in the morning.</mark> / <mark class=\"example-chip\">We drink hot tea in winter.</mark>",
-        "**Offers & Polite Phrases:** <mark class=\"example-chip\">Would you like something to drink?</mark> / <mark class=\"example-chip\">What would you like to drink with your meal?</mark>",
-        "**Noun Usage:** <mark class=\"example-chip\">a hot drink on a cold day</mark>, <mark class=\"example-chip\">a cold drink in summer</mark>, <mark class=\"example-chip\">let's have a drink together</mark>."
+        "**To Eat (eat / eats):** <mark class=\"example-chip\">I eat fresh fruit every morning for breakfast.</mark> / <mark class=\"example-chip\">He eats lunch at 1 o'clock at work.</mark> / <mark class=\"example-chip\">Let's eat out tonight.</mark> (Phrases: *eat healthy*, *something to eat*).",
+        "**To Drink (drink / drinks):** <mark class=\"example-chip\">I drink two litres of water every day.</mark> / <mark class=\"example-chip\">He drinks black coffee in the morning.</mark> / <mark class=\"example-chip\">Would you like something to drink?</mark> (Phrases: *a hot drink*, *have a drink*).",
+        "**Social dining:** In English, we often say <mark class=\"example-chip\">have breakfast / lunch / dinner</mark> or <mark class=\"example-chip\">have a drink</mark> when socialising."
       ]
     },
     {
