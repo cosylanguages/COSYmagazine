@@ -20,7 +20,7 @@
     "B1-B2",
     "Français"
   ],
-  "readingTime": 4,
+  "readingTime": 11,
   "podcast": {
     "episode": 2,
     "audioUrl": "audio/replace-50-overused-phrases-fr.mp3"
@@ -49,24 +49,36 @@
     },
     {
       "type": "paragraph",
-      "text": "Lorsque vous atteignez le **plateau intermédiaire (B1–B2)**, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions \"de sécurité\" : *\"Je pense que...\"*, *\"Je suis d'accord\"*, *\"Ça dépend\"*, ou *\"Je ne sais pas\"*."
+      "text": "Lorsque vous atteignez le **plateau intermédiaire (B1–B2)**, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions « de sécurité » : *« Je pense que… »*, *« Je suis d'accord »*, *« Ça dépend »* ou *« Je ne sais pas »*."
     },
     {
       "type": "paragraph",
-      "text": "Enrichir ces phrases du quotidien ne nécessite pas d'apprendre des structures grammaticales complexes. En adoptant des expressions plus naturelles et en maîtrisant **les opposés directs**, votre français devient immédiatement plus riche, vivant et authentique."
+      "text": "Enrichir ces phrases du quotidien ne nécessite pas d'apprendre des structures grammaticales complexes. En adoptant des expressions plus naturelles et en maîtrisant **les opposés directs**, votre français devient immédiatement plus riche, plus vivant et plus authentique."
     },
     {
       "type": "paragraph",
-      "text": "\n<div class=\"print-table-wrapper\" style=\"margin: 2rem 0; padding: 1.25rem; background: var(--blog-paper-card, #ffffff); border: 2px solid var(--post-palette-accent, #0d9488); border-radius: 12px;\">\n    <div style=\"display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.15)); padding-bottom: 0.75rem;\">\n        <div>\n            <h3 style=\"margin: 0; color: var(--post-palette-accent, #0d9488); font-family: var(--font-serif);\">📊 Complete Vocabulary Reference Table</h3>\n            <p style=\"margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--ink-muted, #4a4a4a);\">Full list of B1 intermediate default expressions and B2 natural upgrades.</p>\n        </div>\n        <button type=\"button\" onclick=\"window.print()\" class=\"blog-print-btn\" style=\"display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--post-palette-accent, #0d9488); color: #ffffff; border: none; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 0.88rem;\">\n            🖨️ Print / Save Table (PDF)\n        </button>\n    </div>\n</div>\n"
+      "text": "Chaque langue a ses raccourcis. En français, ce sont de tout petits mots que l'on n'entend presque plus : un *« en fait »* toutes les dix secondes, un *« du coup »* pour enchaîner n'importe quoi, *« genre »* devant chaque exemple, *« une chose »* ou *« un truc »* quand le nom nous échappe, *« faire »* et *« dire »* pour tout et pour rien. Ce ne sont pas des fautes, et les francophones les utilisent sans cesse. Le problème, pour celui qui apprend, est ailleurs : quand ce sont les seuls mots dont vous disposez, votre français reste plat, même s'il est parfaitement correct."
     },
     {
       "type": "paragraph",
-      "text": "Voici 50 expressions fréquentes classées par catégories conversationnelles."
+      "text": "Cette liste n'est pas la traduction de la liste anglaise. Nous avons choisi 50 expressions réellement fréquentes dans le français parlé et écrit, avec les alternatives que choisissent les francophones, une note sur le **registre** (familier, courant ou soutenu) et une phrase d'exemple pour chacune. Le registre compte beaucoup : *« Pas de souci »* est parfait entre amis, mais avec un directeur on préférera *« Je vous en prie »* ou *« Avec plaisir »*. Et le *tu* ou le *vous* change souvent la forme exacte de la phrase."
+    },
+    {
+      "type": "paragraph",
+      "text": "Un conseil avant de commencer : n'essayez pas de supprimer les expressions simples. *« Je pense que »* ou *« Merci »* ne sont pas fausses. L'objectif est d'avoir **deux ou trois options** pour chacune et de choisir la bonne selon la situation. Une phrase d'exemple bien mémorisée vaut mieux qu'une longue liste de synonymes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Voici les 50 expressions, classées par situations de conversation."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Exprimer son accord ou son désaccord (Opposés directs)"
+      "text": "1. Accord, opinion et incertitude"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce sont les phrases que vous utilisez le plus quand vous discutez. Les varier change aussitôt le ton : vous ne faites plus que répondre, vous participez vraiment."
     },
     {
       "type": "heading",
@@ -77,8 +89,14 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Surutilisé (Accord) :** *Je suis d'accord.*\n- **Alternatives naturelles :** *Tout à fait.* • *Absolument.* • *Je partage entièrement votre avis.* • *C'est exact.* • *Vous marquez un point.*",
-        "**Surutilisé (Désaccord) :** *Je ne suis pas d'accord.*\n- **Alternatives naturelles :** *Je ne suis pas si sûr(e).* • *Je vois les choses différemment.* • *Je ne partage pas tout à fait cet avis.*"
+        "**Trop utilisé :** *Je suis d'accord.*",
+        "**Alternatives :** *Tout à fait.* • *Absolument.* • *Je partage entièrement votre avis.* • *C'est exactement ça.* • *Vous avez raison.*",
+        "**Registre :** courant ; *Je partage votre avis* est plus soutenu, *Carrément* ou *Ah oui, clairement* sont familiers.",
+        "**Exemple :** *Je partage entièrement votre avis : il faut commencer par les chiffres.*",
+        "**Trop utilisé :** *Je ne suis pas d'accord.*",
+        "**Alternatives :** *Je n'en suis pas si sûr(e).* • *Je vois les choses autrement.* • *Je ne partage pas tout à fait ce point de vue.* • *Pas vraiment, non.* • *Permettez-moi de nuancer.*",
+        "**Registre :** courant à soutenu ; adoucissez toujours le désaccord avec un petit mot comme *tout à fait* ou *vraiment*.",
+        "**Exemple :** *Je vois les choses autrement : le budget n'est pas le vrai problème.*"
       ]
     },
     {
@@ -90,26 +108,25 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Surutilisé :** *Ça dépend.*",
-        "**Alternatives naturelles :** *Ça varie.* • *Cela dépend vraiment des circonstances.* • *Ce n'est pas aussi simple.* • *Tout dépend de...*"
+        "**Trop utilisé :** *Ça dépend.*",
+        "**Alternatives :** *Cela varie selon les cas.* • *Tout dépend de…* • *C'est selon.* • *Ce n'est pas si simple.* • *Oui, mais à une condition.*",
+        "**Registre :** courant ; *C'est selon* est familier, *Tout dépend de…* convient partout.",
+        "**Exemple :** *Tout dépend de votre emploi du temps : avec une heure devant vous, prenez le train.*"
       ]
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "2. Exprimer une opinion ou une incertitude"
-    },
-    {
-      "type": "heading",
       "level": 4,
-      "text": "4. Je pense que..."
+      "text": "4. Je pense que…"
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Surutilisé :** *Je pense que...*",
-        "**Alternatives naturelles :** *À mon avis...* • *Il me semble que...* • *J'estime que...* • *Selon moi...* • *D'après moi...*"
+        "**Trop utilisé :** *Je pense que…*",
+        "**Alternatives :** *À mon avis…* • *Il me semble que…* • *Selon moi…* • *D'après moi…* • *J'ai l'impression que…* • *J'estime que…*",
+        "**Registre :** *J'estime que* est soutenu et plutôt écrit ; *J'ai l'impression que* est oral et prudent.",
+        "**Exemple :** *J'ai l'impression que la réunion durera plus longtemps que prévu.*"
       ]
     },
     {
@@ -121,8 +138,10 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Surutilisé :** *Je ne sais pas.*",
-        "**Alternatives naturelles :** *Je n'en suis pas sûr(e).* • *C'est difficile à dire.* • *C'est une bonne question.* • *Je n'y ai pas vraiment réfléchi.*"
+        "**Trop utilisé :** *Je ne sais pas.*",
+        "**Alternatives :** *Aucune idée.* • *Je n'en ai pas la moindre idée.* • *Je ne saurais pas vous dire.* • *Je ne suis pas au courant.* • *Bonne question !* • *Je n'en suis pas certain(e).*",
+        "**Registre :** *Aucune idée* est familier ; *Je ne saurais pas vous dire* est poli et professionnel.",
+        "**Exemple :** *Je ne saurais pas vous dire à quelle heure il arrive, mais je me renseigne.*"
       ]
     },
     {
@@ -134,132 +153,697 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Surutilisé :** *Peut-être.*",
-        "**Alternatives naturelles :** *C'est possible.* • *Il se peut que...* • *Probablement.* • *Sans doute.*"
+        "**Trop utilisé :** *Peut-être.*",
+        "**Alternatives :** *Il se peut que…* • *C'est possible.* • *Pourquoi pas ?* • *Probablement.* • *Ça se pourrait bien.* • *Il y a des chances.*",
+        "**Registre :** courant ; *Il se peut que* demande le subjonctif, *Pourquoi pas ?* est une réponse ouverte et amicale.",
+        "**Exemple :** *Il se peut que nous partions plus tôt, selon la météo.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "7. Bien sûr"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Bien sûr.*",
+        "**Alternatives :** *Évidemment.* • *Naturellement.* • *Cela va de soi.* • *Sans problème.* • *Tout à fait.* • *Mais oui !*",
+        "**Registre :** *Évidemment* peut sembler sec selon le ton ; *Cela va de soi* est soutenu.",
+        "**Exemple :** *Naturellement, vous pouvez nous appeler à n'importe quelle heure.*"
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Politesse, excuses et remerciements"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "7. Merci"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Surutilisé :** *Merci.*",
-        "**Alternatives naturelles :** *Merci mille fois.* • *Je vous remercie chaleureusement.* • *C'est très aimable à vous.* • *Je vous en suis reconnaissant(e).*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "8. De rien"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Surutilisé :** *De rien.*",
-        "**Alternatives naturelles :** *Je vous en prie.* • *Avec plaisir.* • *Il n'y a pas de quoi.* • *Pas de souci.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "9. Pardon / Désolé(e)"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Surutilisé :** *Je suis désolé(e).*",
-        "**Alternatives naturelles :** *Je vous prie de m'excuser.* • *Toutes mes excuses.* • *Je ne l'ai pas fait exprès.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4. Aimer, ne pas aimer & adorer (Opposés directs)"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "10. J'aime ↔ 11. Je n'aime pas"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Surutilisé (J'aime) :** *J'aime bien.*\n- **Alternatives naturelles :** *Je suis fan de...* • *Ça me plaît beaucoup.* • *J'apprécie énormément.*",
-        "**Surutilisé (Je n'aime pas) :** *Je n'aime pas.*\n- **Alternatives naturelles :** *Ce n'est pas trop mon truc.* • *Ça ne me dit rien.* • *Je ne suis pas très friand(e) de cela.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "12. J'adore"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Surutilisé :** *J'adore.*",
-        "**Alternatives naturelles :** *Je suis passionné(e) par...* • *C'est un coup de cœur.* • *Je ne m'en lasse pas.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "5. Appréciations & Jugements (Bon vs Mauvais / Facile vs Difficile)"
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "13. C'est bon / bien ↔ 14. C'est mauvais"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Bien :** *C'est très bien.* → *C'est remarquable.* • *C'est réussi.* • *C'est formidable.*",
-        "**Mauvais :** *C'est mauvais.* → *C'est décevant.* • *C'est médiocre.* • *C'est regrettable.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "15. C'est facile ↔ 16. C'est difficile"
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Facile :** *C'est facile.* → *C'est simple.* • *C'est un jeu d'enfant.* • *C'est à la portée de tous.*",
-        "**Difficile :** *C'est difficile.* → *C'est exigeant.* • *C'est complexe.* • *C'est un vrai défi.*"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Mise en pratique"
+      "text": "2. Oui, non et politesse"
     },
     {
       "type": "paragraph",
-      "text": "Observez la différence dans un échange réel :"
+      "text": "La politesse française repose sur de petites formules très codifiées. Les connaître vous évite à la fois la froideur du mot unique et l'excès de formalité."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "8. Oui ↔ 9. Non"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Oui.*",
+        "**Alternatives :** *Volontiers.* • *Avec plaisir.* • *Tout à fait.* • *Ça marche.* • *Entendu.* • *Mais oui.*",
+        "**Registre :** *Volontiers* et *Avec plaisir* acceptent poliment une offre ; *Ça marche* est familier ; *Entendu* est professionnel.",
+        "**Exemple :** *Un café ? — Volontiers, merci.*",
+        "**Trop utilisé :** *Non.*",
+        "**Alternatives :** *Pas vraiment.* • *Non merci, ça ira.* • *Malheureusement, ce n'est pas possible.* • *Je préfère passer mon tour.* • *Certainement pas.* • *Hors de question.*",
+        "**Registre :** *Certainement pas* et *Hors de question* sont très fermes ; dans le doute, restez avec *Malheureusement…*",
+        "**Exemple :** *Malheureusement, ce n'est pas possible avant lundi.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "10. Merci"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Merci.*",
+        "**Alternatives :** *Merci beaucoup.* • *Un grand merci.* • *Je vous remercie.* • *C'est très aimable à vous.* • *Je vous suis reconnaissant(e).* • *Merci d'avance.*",
+        "**Registre :** *Je vous remercie* est poli et courant à l'écrit ; *Je vous suis reconnaissant(e)* est soutenu.",
+        "**Exemple :** *Je vous remercie d'avoir répondu aussi vite.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "11. De rien"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *De rien.*",
+        "**Alternatives :** *Je vous en prie.* • *Pas de souci.* • *Avec plaisir.* • *Il n'y a pas de quoi.* • *C'est normal.* • *Ce n'est rien.*",
+        "**Registre :** *Je vous en prie* pour *vous* ; *Pas de souci* et *Y'a pas de quoi* pour des amis.",
+        "**Exemple :** *Merci pour le coup de main ! — Il n'y a pas de quoi, c'était un plaisir.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "12. Désolé(e)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Je suis désolé(e).*",
+        "**Alternatives :** *Pardon.* • *Excusez-moi.* • *Toutes mes excuses.* • *Je suis navré(e).* • *Je m'excuse pour…* • *Veuillez m'excuser.*",
+        "**Registre :** *Pardon* est le plus polyvalent ; *Je suis navré(e)* et *Veuillez m'excuser* sont soutenus. Attention : *Je m'excuse* est critiqué par certains puristes.",
+        "**Exemple :** *Je suis navrée pour le retard : le train est tombé en panne.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Goûts et préférences"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dire que vous aimez quelque chose est le début de presque toute conversation. Passez de *j'aime* à des verbes plus précis et vos opinions deviendront plus personnelles."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "13. J'aime ↔ 14. Je n'aime pas"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *J'aime bien.*",
+        "**Alternatives :** *Ça me plaît.* • *Je suis fan de…* • *Je trouve ça sympa.* • *Je ne me lasse pas de…* • *C'est tout à fait mon genre.* • *J'apprécie…*",
+        "**Registre :** *Je suis fan de* est familier ; *J'apprécie* est soutenu et sobre.",
+        "**Exemple :** *Je ne me lasse pas de cette chanson, je l'écoute tous les jours.*",
+        "**Trop utilisé :** *Je n'aime pas.*",
+        "**Alternatives :** *Ce n'est pas mon truc.* • *Ça ne me dit rien.* • *Je ne suis pas très branché(e) par…* • *Je supporte mal…* • *Je ne suis pas fan de…* • *Cela ne me convient pas.*",
+        "**Registre :** *Ce n'est pas mon truc* est familier ; *Cela ne me convient pas* est professionnel.",
+        "**Exemple :** *Les films d'horreur, ce n'est vraiment pas mon truc.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "15. J'adore"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *J'adore.*",
+        "**Alternatives :** *Je suis passionné(e) par…* • *Je suis fou/folle de…* • *Je raffole de…* • *Ça me ravit.* • *Je ne peux pas me passer de…* • *Je suis accro à…*",
+        "**Registre :** *Je raffole de* est élégant (nourriture, loisirs) ; *Je suis accro à* est familier.",
+        "**Exemple :** *Je raffole des fromages de montagne, surtout le reblochon.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Jugements : bien, mal et tout le reste"
+    },
+    {
+      "type": "paragraph",
+      "text": "*C'est bien*, *c'est nul*, *c'est intéressant* : trois jugements, mille situations. Plus votre adjectif est précis, plus votre interlocuteur comprend ce que vous voulez dire."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "16. C'est bien ↔ 17. C'est nul"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *C'est très bien.*",
+        "**Alternatives :** *C'est excellent.* • *C'est génial.* • *C'est remarquable.* • *C'est du beau travail.* • *C'est réussi.* • *Chapeau !*",
+        "**Registre :** *Génial* est courant et oral ; *remarquable* est soutenu ; *Chapeau !* félicite quelqu'un.",
+        "**Exemple :** *Chapeau ! Votre présentation était très claire.*",
+        "**Trop utilisé :** *C'est mauvais / c'est nul.*",
+        "**Alternatives :** *C'est décevant.* • *C'est raté.* • *Ce n'est pas terrible.* • *C'est médiocre.* • *C'est vraiment bof.* • *Cela laisse à désirer.*",
+        "**Registre :** *Nul* et *bof* sont familiers ; *Cela laisse à désirer* est poli et critique en douceur.",
+        "**Exemple :** *Le service laisse à désirer : nous avons attendu quarante minutes.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "18. C'est intéressant ↔ 19. C'est ennuyeux"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *C'est intéressant.*",
+        "**Alternatives :** *C'est passionnant.* • *C'est captivant.* • *Ça donne à réfléchir.* • *C'est fascinant.* • *Ça m'a beaucoup appris.* • *Je n'avais jamais vu les choses ainsi.*",
+        "**Registre :** *Passionnant* est courant ; *captivant* est plus littéraire.",
+        "**Exemple :** *Cet article est passionnant : il change complètement ma vision du sujet.*",
+        "**Trop utilisé :** *C'est ennuyeux.*",
+        "**Alternatives :** *C'est barbant.* • *C'est lassant.* • *Je m'ennuie à mourir.* • *C'est sans intérêt.* • *C'est d'un ennui !* • *Ça m'est complètement égal.*",
+        "**Registre :** *Barbant* est familier ; *Sans intérêt* est direct, à utiliser avec prudence.",
+        "**Exemple :** *Le début du film est un peu lassant, mais la suite vaut le coup.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "20. C'est important"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *C'est important.*",
+        "**Alternatives :** *C'est essentiel.* • *C'est primordial.* • *C'est capital.* • *C'est crucial.* • *Cela compte beaucoup.* • *Il ne faut surtout pas l'oublier.*",
+        "**Registre :** *Primordial*, *capital* et *crucial* sont courants à l'écrit comme à l'oral ; *essentiel* est le plus neutre.",
+        "**Exemple :** *Il est essentiel de relire votre texte à voix haute.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "21. C'est difficile ↔ 22. C'est facile"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *C'est difficile.*",
+        "**Alternatives :** *C'est compliqué.* • *C'est délicat.* • *C'est un vrai casse-tête.* • *Ce n'est pas évident.* • *C'est ardu.* • *C'est un défi.*",
+        "**Registre :** *Pas évident* est une litote très française ; *casse-tête* est imagé et familier.",
+        "**Exemple :** *Trouver un logement ici, ce n'est vraiment pas évident.*",
+        "**Trop utilisé :** *C'est facile.*",
+        "**Alternatives :** *C'est simple comme bonjour.* • *C'est un jeu d'enfant.* • *C'est du gâteau.* • *C'est à la portée de tous.* • *Ça ne pose aucune difficulté.* • *C'est fastoche.*",
+        "**Registre :** *C'est du gâteau* et *fastoche* sont familiers ; *à la portée de tous* est courant.",
+        "**Exemple :** *Ne vous inquiétez pas, la recette est simple comme bonjour.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Comprendre et se faire expliquer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Savoir dire que l'on a compris, ou pas, est une compétence sociale autant que linguistique. Un bon apprenant ne reste pas silencieux : il demande, reformule, vérifie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "23. Je comprends ↔ 24. Je ne comprends pas"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Je comprends.*",
+        "**Alternatives :** *Je vois.* • *C'est clair.* • *Je saisis.* • *J'ai bien compris.* • *Je vois ce que vous voulez dire.* • *Ça me parle.*",
+        "**Registre :** *Je vois* est le plus naturel à l'oral ; *Je saisis* est un peu soutenu.",
+        "**Exemple :** *Je vois ce que vous voulez dire, mais j'hésite encore.*",
+        "**Trop utilisé :** *Je ne comprends pas.*",
+        "**Alternatives :** *Je n'ai pas bien saisi.* • *Pourriez-vous reformuler ?* • *Qu'est-ce que vous entendez par là ?* • *Je suis perdu(e).* • *Je ne vous suis plus.* • *Pouvez-vous répéter plus lentement ?*",
+        "**Registre :** *Je suis perdu(e)* est familier ; *Pourriez-vous reformuler ?* est idéal au travail.",
+        "**Exemple :** *Pardon, je ne vous suis plus : pourriez-vous reformuler la dernière phrase ?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Intensifiants et mots de remplissage"
+    },
+    {
+      "type": "paragraph",
+      "text": "C'est la partie la plus typiquement française de la liste. Ces mots donnent du rythme à l'oral, mais ils se glissent partout. Remplacez-en la moitié par un mot plus précis et on vous trouvera aussitôt plus assuré."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "25. Très"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Très.*",
+        "**Alternatives :** *Vraiment.* • *Tellement.* • *Extrêmement.* • *Fort (soutenu).* • *Un adjectif plus fort.* • *Drôlement (familier).*",
+        "**Registre :** Mieux encore : abandonnez *très + adjectif*. *Très fatigué* devient *épuisé*, *très grand* devient *immense*, *très petit* devient *minuscule*.",
+        "**Exemple :** *Après le marathon, nous étions épuisés mais ravis.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "26. En fait"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *En fait.*",
+        "**Alternatives :** *À vrai dire.* • *Au fond.* • *Pour être honnête.* • *En réalité.* • *Si je comprends bien.* • *Pour tout dire.*",
+        "**Registre :** *En fait* est parfait à l'oral, mais répété dix fois il fatigue ; *En réalité* convient à l'écrit, *Pour tout dire* est plus soigné.",
+        "**Exemple :** *À vrai dire, je n'avais pas vraiment envie d'y aller.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "27. Du coup"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Du coup.*",
+        "**Alternatives :** *Donc.* • *C'est pourquoi.* • *Par conséquent.* • *Alors.* • *De ce fait.* • *Résultat…*",
+        "**Registre :** *Du coup* est devenu un tic du français familier ; à l'écrit, préférez *donc*, *par conséquent* ou *de ce fait*.",
+        "**Exemple :** *Le train était annulé ; par conséquent, nous avons pris la voiture.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "28. Genre"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Genre.*",
+        "**Alternatives :** *Par exemple.* • *Disons.* • *Une sorte de…* • *Quelque chose comme…* • *Environ.* • *Une espèce de…*",
+        "**Registre :** *Genre* est très familier et surtout jeune ; utilisez-le avec des amis, pas dans un e-mail professionnel.",
+        "**Exemple :** *Il y avait environ cinquante personnes, ou quelque chose comme ça.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "29. Bref"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Bref.*",
+        "**Alternatives :** *En résumé.* • *En un mot.* • *Pour faire court.* • *En somme.* • *Pour résumer.* • *Quoi qu'il en soit.*",
+        "**Registre :** *Pour faire court* est oral ; *En somme* et *Pour résumer* conviennent à l'écrit.",
+        "**Exemple :** *Pour résumer : l'idée est bonne, mais le calendrier est trop serré.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "30. Enfin"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Enfin.*",
+        "**Alternatives :** *Du moins.* • *Disons plutôt.* • *Ou plutôt.* • *Pour être précis.* • *Cela dit.* • *Mais bon.*",
+        "**Registre :** *Enfin* sert à corriger ce que l'on vient de dire ; *Ou plutôt* est plus clair.",
+        "**Exemple :** *Il habite à Lyon, ou plutôt dans la banlieue de Lyon.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "31. Voilà"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Voilà.*",
+        "**Alternatives :** *Et c'est tout.* • *C'est ça.* • *Exactement.* • *Nous y sommes.* • *Et voilà le travail.* • *C'est tout à fait cela.*",
+        "**Registre :** *Voilà* est indispensable à l'oral pour conclure, mais ne remplace pas une vraie phrase de fin.",
+        "**Exemple :** *Nous avons terminé la partie technique ; nous y sommes presque.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Les mots passe-partout : une chose, faire, dire…"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces mots ne sont pas faux, mais ils ne disent presque rien. Chaque fois que vous les remplacez par un mot précis, votre phrase gagne en netteté et vous apprenez du vocabulaire utile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "32. Une chose"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Une chose.*",
+        "**Alternatives :** *Un point.* • *Un aspect.* • *Un élément.* • *Une idée.* • *Une question.* • *Une habitude.*",
+        "**Registre :** Cherchez le nom exact : plus il est précis, plus la phrase est claire.",
+        "**Exemple :** *Un point m'inquiète encore : le délai de livraison.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "33. Faire"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Faire.*",
+        "**Alternatives :** *Réaliser.* • *Effectuer.* • *Préparer.* • *Créer.* • *Organiser.* • *Accomplir.*",
+        "**Registre :** *Faire* est correct mais vague ; en situation formelle, *réaliser* et *effectuer* sont très utiles.",
+        "**Exemple :** *Nous avons organisé une rencontre pour tous les nouveaux étudiants.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "34. Dire"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Dire.*",
+        "**Alternatives :** *Expliquer.* • *Annoncer.* • *Préciser.* • *Raconter.* • *Affirmer.* • *Murmurer.*",
+        "**Registre :** Dans un récit, utilisez le verbe qui montre l'attitude : *murmurer*, *répondre*, *s'écrier*.",
+        "**Exemple :** *Elle a précisé que la réunion commencerait à neuf heures.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "35. Mettre"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Mettre.*",
+        "**Alternatives :** *Placer.* • *Poser.* • *Ranger.* • *Insérer.* • *Ajouter.* • *Enfiler (un vêtement).*",
+        "**Registre :** *Mettre* couvre mille sens : choisissez le verbe qui indique le geste.",
+        "**Exemple :** *Pose les clés sur la table, je les rangerai tout à l'heure.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "36. Avoir"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *J'ai…*",
+        "**Alternatives :** *Je possède…* • *Je dispose de…* • *Je bénéficie de…* • *Je compte…* • *Il y a…* • *J'éprouve…*",
+        "**Registre :** *Je dispose de* est professionnel ; *J'éprouve* est réservé aux sentiments.",
+        "**Exemple :** *Je dispose de deux heures libres cet après-midi.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "37. Un truc / des trucs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Un truc.*",
+        "**Alternatives :** *Un objet.* • *Un outil.* • *Un détail.* • *Une astuce.* • *Un souci.* • *Un appareil.*",
+        "**Registre :** *Truc* et *machin* sont très familiers ; à l'écrit, cherchez le nom précis.",
+        "**Exemple :** *J'ai une astuce pour retenir les genres : apprenez toujours l'article avec le mot.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Connecteurs et structure du discours"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les connecteurs relient vos idées. Un texte avec *et*, *mais* et *donc* peut être compris ; un texte avec des connecteurs variés se lit avec plaisir. Voici six bases à remplacer."
+    },
+    {
+      "type": "paragraph",
+      "text": "\n<div class=\"print-table-wrapper\" style=\"margin: 2rem 0; padding: 1.25rem; background: var(--blog-paper-card, #ffffff); border: 2px solid var(--post-palette-accent, #0d9488); border-radius: 12px;\">\n    <div style=\"display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.15)); padding-bottom: 0.75rem;\">\n        <div>\n            <h3 style=\"margin: 0; color: var(--post-palette-accent, #0d9488); font-family: var(--font-serif);\">📊 Tableau de référence : les connecteurs</h3>\n            <p style=\"margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--ink-muted, #4a4a4a);\">Connecteurs de base B1 et alternatives naturelles B2.</p>\n        </div>\n        <button type=\"button\" onclick=\"window.print()\" class=\"blog-print-btn\" style=\"display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--post-palette-accent, #0d9488); color: #ffffff; border: none; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 0.88rem;\">\n            🖨️ Imprimer / Enregistrer le tableau (PDF)\n        </button>\n    </div>\n</div>\n"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Connecteur de base",
+        "Alternatives naturelles"
+      ],
+      "rows": [
+        [
+          "**38. Par exemple…**",
+          "*Ainsi…* • *Notamment…* • *Prenons le cas de…* • *Citons…*"
+        ],
+        [
+          "**39. Aussi…**",
+          "*De plus…* • *En outre…* • *Par ailleurs…* • *Et puis…*"
+        ],
+        [
+          "**40. Mais…**",
+          "*Cependant…* • *Pourtant…* • *En revanche…* • *Cela dit…*"
+        ],
+        [
+          "**41. Parce que…**",
+          "*Puisque…* • *Étant donné que…* • *Comme…* • *En effet…*"
+        ],
+        [
+          "**42. Alors…**",
+          "*Donc…* • *Par conséquent…* • *C'est pourquoi…* • *Du coup (familier)*"
+        ],
+        [
+          "**43. À la fin…**",
+          "*Finalement…* • *Au bout du compte…* • *En définitive…* • *Pour conclure…*"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Une note sur le registre : *Étant donné que*, *En outre* et *Par conséquent* sont typiques de l'écrit soutenu. À l'oral courant, *comme*, *et puis* et *du coup* sont plus naturels. Exemple complet : *« Je n'ai pas pu venir, **puisque** je travaillais le soir. **Cela dit**, je vous avais prévenu : **c'est pourquoi** il ne nous reste qu'à reporter la réunion. »*"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Vouloir, pouvoir, devoir et formules de clôture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour finir, les verbes de nécessité et les formules qui terminent une conversation. Ils font la différence entre un ordre sec et une demande bien formulée."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "44. Je veux…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Je veux…*",
+        "**Alternatives :** *Je voudrais…* • *J'aimerais…* • *J'ai envie de…* • *Je souhaite…* • *J'aspire à…* • *Je tiens à…*",
+        "**Registre :** *Je veux* peut sembler brusque ; *Je voudrais* ou *J'aimerais* sont plus polis. *Je tiens à* exprime une forte volonté.",
+        "**Exemple :** *Je voudrais réserver une table pour quatre personnes, ce soir.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "45. Je peux ↔ 46. Je ne peux pas"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Je peux…*",
+        "**Alternatives :** *Je suis en mesure de…* • *Il m'est possible de…* • *Je suis capable de…* • *J'ai la possibilité de…* • *Ça m'est possible.* • *Je saurais…*",
+        "**Registre :** *Je suis en mesure de* est professionnel ; *Je saurais* est élégant dans des phrases négatives ou conditionnelles.",
+        "**Exemple :** *Je suis en mesure de vous livrer le colis vendredi.*",
+        "**Trop utilisé :** *Je ne peux pas.*",
+        "**Alternatives :** *Cela m'est impossible.* • *Je n'y arrive pas.* • *Je ne suis pas en mesure de…* • *Je suis dans l'incapacité de…* • *Ça ne va pas être possible.* • *Je ne pourrai pas.*",
+        "**Registre :** *Ça ne va pas être possible* est une manière douce et très courante de refuser.",
+        "**Exemple :** *Ça ne va pas être possible jeudi : j'ai déjà un rendez-vous.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "47. Je dois… / Il faut…"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Je dois… / Il faut…*",
+        "**Alternatives :** *Je suis obligé(e) de…* • *Il est nécessaire de…* • *J'ai intérêt à…* • *Il convient de…* • *Je me dois de…* • *Il vaut mieux…*",
+        "**Registre :** *Il convient de* est soutenu ; *J'ai intérêt à* est familier et indique un conseil pour soi-même.",
+        "**Exemple :** *J'ai intérêt à partir maintenant si je veux attraper le dernier train.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "48. Ça va ?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Ça va ?*",
+        "**Alternatives :** *Comment allez-vous ?* • *Comment ça se passe ?* • *Quoi de neuf ?* • *Tout se passe bien ?* • *Vous tenez le coup ?* • *Comment s'est passée votre journée ?*",
+        "**Registre :** *Comment allez-vous ?* est poli ; *Quoi de neuf ?* est amical.",
+        "**Exemple :** *Comment s'est passée votre journée ? Vous avez l'air fatigué.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "49. Pas de problème"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *Pas de problème.*",
+        "**Alternatives :** *Aucun souci.* • *Ça marche.* • *Bien entendu.* • *C'est réglé.* • *Je m'en occupe.* • *Comptez sur moi.*",
+        "**Registre :** *Comptez sur moi* est rassurant, *Je m'en occupe* est idéal au travail.",
+        "**Exemple :** *Je m'en occupe dès demain matin, comptez sur moi.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "50. À bientôt"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Trop utilisé :** *À bientôt.*",
+        "**Alternatives :** *À la prochaine !* • *On se tient au courant.* • *Bonne soirée.* • *À très vite.* • *Bonne continuation.* • *Je vous souhaite une belle journée.*",
+        "**Registre :** *On se tient au courant* est courant au travail ; *Bonne continuation* est poli et assez formel.",
+        "**Exemple :** *On se tient au courant dès que la réponse arrive.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Comparaison avec d'autres langues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toutes les langues ont un petit groupe de mots utilisés à l'excès. Les comparer vous aide à voir quelles habitudes viennent de votre langue maternelle et lesquelles sont propres au français."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇬🇧 Anglais"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Like (remplissage) :** *It was, like, huge.* → en français, *genre* a une fonction proche : *C'était genre énorme.* Mieux : *C'était vraiment énorme.*",
+        "**Basically :** → *En gros*, *Au fond*, *Pour l'essentiel*.",
+        "**Actually :** → *En fait*, *À vrai dire*. Attention : *actuellement* signifie *at the moment*, pas *actually*."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇮🇹 Italien"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Cioè / Tipo :** → *c'est-à-dire*, *genre*.",
+        "**Quindi :** → *donc*, *du coup*.",
+        "**Allora :** → *alors*, *bon*. Attention : *Pronto* ne se dit pas en français au téléphone ; on dit *Allô*."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇪🇸 Espagnol"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Pues :** → *eh bien*, *alors*.",
+        "**O sea :** → *c'est-à-dire*, *autrement dit*.",
+        "**Pero :** → *mais*, *cependant*. Attention aux faux amis : *embarazada* ne se traduit pas par *embarrassée* mais par *enceinte*."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mettez-vous à l'épreuve"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observez comment le ton d'une conversation change quand on remplace seulement quelques expressions :"
     },
     {
       "type": "pullquote",
-      "quote": "**Avant (Niveau B1 répétitif) :**\n*\"Je pense que ce projet est bon. Je suis d'accord avec vous, mais ça dépend du budget. Dans le futur, je veux faire ça.\"*"
+      "quote": "**Avant (B1 répétitif) :**\n*\"Je pense que cette proposition est bien. Je suis d'accord avec toi, mais ça dépend du budget. En fait, je veux le faire, mais du coup j'ai genre quelques doutes.\"*"
     },
     {
       "type": "pullquote",
-      "quote": "**Après (Niveau B2 fluide) :**\n*\"À mon avis, ce projet est particulièrement réussi. Je partage entièrement votre avis, même si tout dépend du budget. À l'avenir, j'envisage de concrétiser cette idée.\"*"
+      "quote": "**Après (B2 naturel) :**\n*\"À mon avis, cette proposition est excellente. Je partage entièrement ton point de vue, même si tout dépend du budget. Je voudrais la défendre, à vrai dire, mais j'ai encore quelques réserves.\"*"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour vous entraîner, choisissez **trois expressions** chaque semaine : une dans la section des jugements, une dans les mots de remplissage, une dans les connecteurs. Écrivez deux phrases personnelles pour chacune (pas copiées de l'exemple) et utilisez-les à voix haute, dans votre groupe de conversation ou dans un message vocal. Au bout de dix semaines, vous aurez trente nouvelles habitudes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Un dernier rappel : écoutez comment parlent les francophones. *En fait*, *du coup* et *genre* sont normaux ; le secret est de ne pas rester bloqué sur eux. Si vous remplacez ne serait-ce que la moitié de vos mots de remplissage par un mot plus précis, votre français fera un vrai bond en avant."
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
     },
     {
       "type": "heading",
