@@ -13,7 +13,7 @@
   "date": "2026-12-01",
   "title": "Top 10 Essential Verbs in English, Part 2 (CEFR A0–A1 / A2)",
   "kicker": "ENGLISH CORE GUIDE — PART 2 OF 2",
-  "dek": "Master the second 10 high-frequency verbs in English (do/make, speak/talk/say/tell, look/watch/see, listen/hear, must/have to, take/give/get, live, wait, understand, ask/answer). Conjugation tables on COSYtools.",
+  "dek": "Master the second 10 high-frequency verbs in English: do/make, speak/talk/say/tell, look/watch/see, listen/hear, must/have to/should, come/leave, take/give, ask/answer, wait, and live. Conjugation tables on COSYtools.",
   "tags": [
     "Verbs",
     "English",
@@ -48,8 +48,8 @@
     },
     {
       "type": "paragraph",
-      "text": "Ten verbs are enough to ask, answer, wait, listen, understand and get things done on day one. <mark class=\"hl-handwritten\">They are also the verbs where English learners make the most predictable mistakes</mark>: do or make, say or tell, look or watch. The good news is that the mistakes follow patterns, and patterns can be learned.",
-      "say": "Ten verbs are enough to ask, answer, wait, listen, understand and get things done on day one. They are also the verbs where English learners make the most predictable mistakes: do or make, say or tell, look or watch. The good news is that the mistakes follow patterns, and patterns can be learned."
+      "text": "Ten verbs are enough to ask, answer, wait, listen, come and leave, and get things done on day one. <mark class=\"hl-handwritten\">They are also the verbs where English learners make the most predictable mistakes</mark>: do or make, say or tell, look or watch, come or leave. The good news is that the mistakes follow patterns, and patterns can be learned.",
+      "say": "Ten verbs are enough to ask, answer, wait, listen, come and leave, and get things done on day one. They are also the verbs where English learners make the most predictable mistakes: do or make, say or tell, look or watch, come or leave. The good news is that the mistakes follow patterns, and patterns can be learned."
     },
     {
       "type": "paragraph",
@@ -79,14 +79,14 @@
         [
           "1",
           "Do / Make",
-          "Activities and creation.",
-          "'I do my homework' vs 'I make breakfast'.",
+          "Activities, tasks and creation.",
+          "'I do homework' vs 'I make coffee'.",
           "'do business', 'do research' | 'make progress', 'make a mistake'."
         ],
         [
           "2",
           "Speak / Talk / Say / Tell",
-          "Communication.",
+          "Communication and speech.",
           "'I speak English', 'Let's talk', 'Say hello', 'Tell me'.",
           "'speak fluently', 'talk with', 'say yes', 'tell a story'."
         ],
@@ -106,45 +106,45 @@
         ],
         [
           "5",
-          "Must / Have To",
-          "Necessity and obligation.",
-          "'I must study', 'We have to leave now'.",
-          "'must be', 'have to go', 'don't have to'."
+          "Must / Have To / Should",
+          "Necessity, obligation and advice.",
+          "'I must go', 'We have to study', 'You should rest'.",
+          "'must be', 'have to leave', 'should know', 'don't have to'."
         ],
         [
           "6",
-          "Take / Give / Get",
-          "Exchange and receiving.",
-          "'Take a coat', 'Give me a hand', 'Get home'.",
-          "'take care', 'give up', 'get tired', 'get ready'."
+          "Come / Leave",
+          "Arrival and departure.",
+          "'Come here', 'He came home', 'The bus leaves at 8'.",
+          "'come back', 'come in', 'leave home', 'leave for work'."
         ],
         [
           "7",
-          "Live",
-          "Residence and lifestyle.",
-          "'I live in London', 'She lives with her family'.",
-          "'live abroad', 'live well', 'live together'."
+          "Take / Give",
+          "Exchange and transfer.",
+          "'Take an umbrella', 'Give me a hand'.",
+          "'take a seat', 'take care', 'give up', 'give advice'."
         ],
         [
           "8",
+          "Ask / Answer",
+          "Questions and replies.",
+          "'Ask a question', 'Answer the phone'.",
+          "'ask for help', 'answer questions', 'ask a favour'."
+        ],
+        [
+          "9",
           "Wait",
           "Patience and time.",
           "'Wait for the bus', 'Can you wait a minute?'.",
           "'wait for', 'wait in line', 'can't wait'."
         ],
         [
-          "9",
-          "Understand",
-          "Comprehension.",
-          "'I understand', 'Do you understand me?'.",
-          "'make yourself understood', 'as I understand', 'fully understand'."
-        ],
-        [
           "10",
-          "Ask / Answer",
-          "Questions and answers.",
-          "'Ask a question', 'Answer the phone'.",
-          "'ask for help', 'answer questions', 'ask a favour'."
+          "Live",
+          "Residence and lifestyle.",
+          "'I live in London', 'She lives with her family'.",
+          "'live abroad', 'live well', 'live together'."
         ]
       ],
       "webOnly": true
@@ -158,16 +158,16 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**1. Do / Make:** Activities and creation.\n  • *Usage & Frames:* 'I do my homework' vs 'I make breakfast'.\n  • *Useful Phrases:* 'do business', 'do research' | 'make progress', 'make a mistake'.",
-        "**2. Speak / Talk / Say / Tell:** Communication.\n  • *Usage & Frames:* 'I speak English', 'Let's talk', 'Say hello', 'Tell me'.\n  • *Useful Phrases:* 'speak fluently', 'talk with', 'say yes', 'tell a story'.",
+        "**1. Do / Make:** Activities, tasks and creation.\n  • *Usage & Frames:* 'I do my homework' vs 'I make breakfast'.\n  • *Useful Phrases:* 'do business', 'do research' | 'make progress', 'make a mistake'.",
+        "**2. Speak / Talk / Say / Tell:** Communication and speech.\n  • *Usage & Frames:* 'I speak English', 'Let's talk', 'Say hello', 'Tell me'.\n  • *Useful Phrases:* 'speak fluently', 'talk with', 'say yes', 'tell a story'.",
         "**3. Look / Watch / See:** Vision and attention.\n  • *Usage & Frames:* 'Look at this', 'Watch a movie', 'I see a bird'.\n  • *Useful Phrases:* 'look for', 'look forward to', 'watch out', 'see you soon'.",
         "**4. Listen / Hear:** Listening and perception.\n  • *Usage & Frames:* 'Listen to music', 'Did you hear that?'.\n  • *Useful Phrases:* 'listen carefully', 'hear from', 'glad to hear that'.",
-        "**5. Must / Have To:** Necessity and obligation.\n  • *Usage & Frames:* 'I must study', 'We have to leave now'.\n  • *Useful Phrases:* 'must be', 'have to go', 'don't have to'.",
-        "**6. Take / Give / Get:** Exchange and receiving.\n  • *Usage & Frames:* 'Take a coat', 'Give me a hand', 'Get home'.\n  • *Useful Phrases:* 'take care', 'give up', 'get tired', 'get ready'.",
-        "**7. Live:** Residence and lifestyle.\n  • *Usage & Frames:* 'I live in London', 'She lives with her family'.\n  • *Useful Phrases:* 'live abroad', 'live well', 'live together'.",
-        "**8. Wait:** Patience and time.\n  • *Usage & Frames:* 'Wait for the bus', 'Can you wait a minute?'.\n  • *Useful Phrases:* 'wait for', 'wait in line', 'can't wait'.",
-        "**9. Understand:** Comprehension.\n  • *Usage & Frames:* 'I understand', 'Do you understand me?'.\n  • *Useful Phrases:* 'make yourself understood', 'as I understand', 'fully understand'.",
-        "**10. Ask / Answer:** Questions and answers.\n  • *Usage & Frames:* 'Ask a question', 'Answer the phone'.\n  • *Useful Phrases:* 'ask for help', 'answer questions', 'ask a favour'."
+        "**5. Must / Have To / Should:** Necessity, obligation and advice.\n  • *Usage & Frames:* 'I must study', 'We have to leave now', 'You should rest'.\n  • *Useful Phrases:* 'must be', 'have to go', 'you should try'.",
+        "**6. Come / Leave:** Arrival and departure.\n  • *Usage & Frames:* 'Come here', 'He came home late', 'The train leaves at noon'.\n  • *Useful Phrases:* 'come in', 'come from', 'leave for', 'leave behind'.",
+        "**7. Take / Give:** Exchange and transfer.\n  • *Usage & Frames:* 'Take a coat', 'Give me a hand'.\n  • *Useful Phrases:* 'take care', 'take time', 'give up', 'give a hand'.",
+        "**8. Ask / Answer:** Questions and replies.\n  • *Usage & Frames:* 'Ask a question', 'Answer the phone'.\n  • *Useful Phrases:* 'ask for help', 'answer questions', 'ask a favour'.",
+        "**9. Wait:** Patience and time.\n  • *Usage & Frames:* 'Wait for the bus', 'Can you wait a minute?'.\n  • *Useful Phrases:* 'wait for', 'wait in line', 'can't wait'.",
+        "**10. Live:** Residence and lifestyle.\n  • *Usage & Frames:* 'I live in London', 'She lives with her family'.\n  • *Useful Phrases:* 'live abroad', 'live well', 'live together'."
       ]
     },
     {
@@ -187,11 +187,12 @@
       "items": [
         "**Acting & making:** do / make. Activities, tasks, creation.",
         "**Communicating:** speak / talk / say / tell, ask / answer. Languages, conversations, questions.",
-        "**Perceiving & understanding:** look / watch / see, listen / hear, understand.",
-        "**Obligation & exchange:** must / have to, take / give / get.",
-        "**Life & time:** live, wait. Home, patience, plans."
+        "**Perceiving:** look / watch / see, listen / hear. Vision and hearing.",
+        "**Obligation & advice:** must / have to / should. Rules, necessity, recommendation.",
+        "**Movement & exchange:** come / leave, take / give. Arriving, departing, transferring.",
+        "**Life & patience:** live, wait. Home, dwelling, waiting."
       ],
-      "say": "Acting & making: do / make. Activities, tasks, creation. Communicating: speak / talk / say / tell, ask / answer. Languages, conversations, questions. Perceiving & understanding: look / watch / see, listen / hear, understand. Obligation & exchange: must / have to, take / give / get. Life & time: live, wait. Home, patience, plans."
+      "say": "Acting & making: do / make. Activities, tasks, creation. Communicating: speak / talk / say / tell, ask / answer. Languages, conversations, questions. Perceiving: look / watch / see, listen / hear. Vision and hearing. Obligation & advice: must / have to / should. Rules, necessity, recommendation. Movement & exchange: come / leave, take / give. Arriving, departing, transferring. Life & patience: live, wait. Home, dwelling, waiting."
     },
     {
       "type": "heading",
@@ -732,52 +733,40 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Must / Have To",
-      "say": "5. Must / Have To"
+      "text": "5. Must / Have To / Should",
+      "say": "5. Must / Have To / Should"
     },
     {
       "type": "paragraph",
-      "text": "Both express necessity, but they are not the same. **Must** is the speaker's own strong opinion or a rule written down ('You must wear a seat belt'). **Have to** is an outside obligation ('I have to work tomorrow'). In the negative they are very different.",
-      "say": "Both express necessity, but they are not the same. Must is the speaker's own strong opinion or a rule written down ('You must wear a seat belt'). Have to is an outside obligation ('I have to work tomorrow'). In the negative they are very different."
+      "text": "All three verbs express obligation or advice, with clear differences in strength. **Must** is strong personal obligation or written rule ('You must stop'). **Have to** is an outside requirement ('I have to work'). **Should** is friendly advice or recommendation ('You should sleep'). In the negative, **mustn't** means forbidden, while **don't have to** means not necessary.",
+      "say": "All three verbs express obligation or advice, with clear differences in strength. Must is strong personal obligation or written rule. Have to is an outside requirement. Should is friendly advice or recommendation. In the negative, mustn't means forbidden, while don't have to means not necessary."
     },
     {
       "type": "table",
       "headers": [
-        "Form",
-        "must",
-        "have to",
-        "Example"
+        "Modal",
+        "Meaning",
+        "Example",
+        "Negative"
       ],
       "rows": [
         [
-          "Affirmative",
-          "I must go",
-          "I have to go",
-          "I must study. / We have to leave now."
+          "must",
+          "Strong obligation / rule",
+          "I must renew my passport.",
+          "mustn't (forbidden)"
         ],
         [
-          "He / she / it",
-          "He must go",
-          "He has to go",
-          "She has to work."
+          "have to",
+          "Outside necessity",
+          "I have to work tomorrow.",
+          "don't have to (optional)"
         ],
         [
-          "Negative",
-          "mustn't (forbidden)",
-          "don't have to (not necessary)",
-          "You don't have to pay."
-        ],
-        [
-          "Question",
-          "Must I...?",
-          "Do I have to...?",
-          "Do we have to wait?"
-        ],
-        [
-          "Past",
-          "(use had to)",
-          "had to",
-          "I had to wait."
+          "should",
+          "Advice / recommendation",
+          "You should see a doctor.",
+          "shouldn't (bad idea)"
         ]
       ]
     },
@@ -785,11 +774,11 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Rules & strong advice:** 'You must stop at a red light'.",
-        "**Obligation from outside:** 'I have to be at school at eight'.",
-        "**Common phrases:** 'must be', 'have to go', 'don't have to'."
+        "**Rules & duty:** 'You must wear a seatbelt', 'Citizens must follow the law'.",
+        "**Daily necessity:** 'I have to wake up at seven', 'Do you have to go now?'.",
+        "**Friendly advice:** 'You should drink more water', 'We should leave early'."
       ],
-      "say": "Rules & strong advice: 'You must stop at a red light'. Obligation from outside: 'I have to be at school at eight'. Common phrases: 'must be', 'have to go', 'don't have to'."
+      "say": "Rules and duty: 'You must wear a seatbelt'. Daily necessity: 'I have to wake up at seven'. Friendly advice: 'You should drink more water', 'We should leave early'."
     },
     {
       "type": "heading",
@@ -813,17 +802,17 @@
     },
     {
       "type": "example",
-      "targetText": "You don't have to bring anything, just come!",
-      "gloss": "Don't have to = it is not necessary.",
+      "targetText": "You look tired; you should go to bed early, but you don't have to finish the chores tonight.",
+      "gloss": "Should = good advice. Don't have to = not necessary.",
       "context": "You invite a friend to dinner.",
-      "say": "You don't have to bring anything, just come!"
+      "say": "You look tired; you should go to bed early, but you don't have to finish the chores tonight."
     },
     {
       "type": "example",
-      "targetText": "Mini-dialogue: A: Can you come to the party? B: Sorry, I have to work. A: You must be tired! B: Yes, but you don't have to worry about me.",
+      "targetText": "Mini-dialogue: A: I have a bad headache. B: You should rest and drink water. A: But I have to finish this report! B: You mustn't push yourself too hard.",
       "gloss": "Play both roles aloud, then swap.",
       "context": "A short exchange to rehearse with a partner or in front of the mirror.",
-      "say": "Mini-dialogue: A: Can you come to the party? B: Sorry, I have to work. A: You must be tired! B: Yes, but you don't have to worry about me."
+      "say": "Mini-dialogue: A: I have a bad headache. B: You should rest and drink water. A: But I have to finish this report! B: You mustn't push yourself too hard."
     },
     {
       "type": "mistake-card",
@@ -863,13 +852,13 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Take / Give / Get",
-      "say": "6. Take / Give / Get"
+      "text": "6. Come / Leave",
+      "say": "6. Come / Leave"
     },
     {
       "type": "paragraph",
-      "text": "These three are among the most common verbs in English because they combine with so many words. **Take** moves something towards you or along with you. **Give** sends it to another person. **Get** means receive, obtain or become.",
-      "say": "These three are among the most common verbs in English because they combine with so many words. Take moves something towards you or along with you. Give sends it to another person. Get means receive, obtain or become."
+      "text": "**Come** and **leave** are the twin verbs of movement. **Come** means motion towards the speaker or towards a destination ('Come to my house'). **Leave** means departing from a place ('I leave home at eight') or leaving something behind ('Don't leave your umbrella'). Both are irregular: come, came, come; leave, left, left.",
+      "say": "Come and leave are the twin verbs of movement. Come means motion towards the speaker or towards a destination. Leave means departing from a place or leaving something behind. Both are irregular: come, came, come; leave, left, left."
     },
     {
       "type": "table",
@@ -877,38 +866,166 @@
         "Verb",
         "Present",
         "Past",
-        "Past participle"
+        "Participle",
+        "Example"
+      ],
+      "rows": [
+        [
+          "come",
+          "come / comes",
+          "came",
+          "come",
+          "She came to visit us yesterday."
+        ],
+        [
+          "leave",
+          "leave / leaves",
+          "left",
+          "left",
+          "The train leaves at nine sharp."
+        ],
+        [
+          "-ing form",
+          "coming / leaving",
+          "",
+          "",
+          "Are you coming with us?"
+        ],
+        [
+          "Direction",
+          "come to + place",
+          "leave + place",
+          "leave for + destination",
+          "He left for London."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Arrivals & invitations:** 'come in', 'come home', 'come from Spain'.",
+        "**Departures:** 'leave the house', 'leave early', 'leave for work'.",
+        "**Common phrases:** 'come back', 'come on', 'leave me alone', 'leave a message'."
+      ],
+      "say": "Arrivals and invitations: 'come in', 'come home', 'come from Spain'. Departures: 'leave the house', 'leave early', 'leave for work'. Common phrases: 'come back', 'come on', 'leave me alone', 'leave a message'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Where do you come from? – I come from Italy.",
+      "gloss": "Come from = origin or nationality.",
+      "context": "Meeting someone new in class.",
+      "say": "Where do you come from? – I come from Italy."
+    },
+    {
+      "type": "example",
+      "targetText": "What time do you leave home in the morning?",
+      "gloss": "Leave + place directly, no preposition.",
+      "context": "Talking about daily routines.",
+      "say": "What time do you leave home in the morning?"
+    },
+    {
+      "type": "example",
+      "targetText": "She came back late and left early the next morning.",
+      "gloss": "Irregular past forms: came and left.",
+      "context": "Describing a busy travel schedule.",
+      "say": "She came back late and left early the next morning."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: When are you coming to visit? B: I can come on Saturday! A: What time do you leave your city? B: I leave at eight and arrive at ten.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner.",
+      "say": "Mini-dialogue: A: When are you coming to visit? B: I can come on Saturday! A: What time do you leave your city? B: I leave at eight and arrive at ten."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Leave from or leave",
+      "wrong": "'I leave from home at eight.'",
+      "right": "'I leave home at eight.'",
+      "why": "Many languages use a preposition of origin ('partir de'). English uses 'leave' directly with the place of departure.",
+      "rule": "**Leave** + place (no 'from'): 'I leave work at 5'. Use **leave for** + destination: 'I leave for Paris'.",
+      "examples": [
+        "She left the office.",
+        "We leave for the airport now.",
+        "He leaves home early."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Leave from or leave. Not quite: 'I leave from home at eight.' Say this instead: 'I leave home at eight.' Many languages use a preposition of origin. English uses 'leave' directly with the place of departure. Leave plus place, no 'from'. Use leave for plus destination. She left the office. We leave for the airport now. He leaves home early."
+    },
+    {
+      "type": "quiz",
+      "question": "What time do you ___ home for school?",
+      "options": [
+        "leave",
+        "leave from",
+        "leave to"
+      ],
+      "correctIndex": 0,
+      "explanation": "We say 'leave home', without 'from'.",
+      "say": "What time do you ___ home for school?"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Saying goodbye and leaving politely",
+      "content": "When leaving a gathering in English-speaking cultures, it is polite to give advance notice: 'I'm afraid I have to leave soon' or 'I should get going'. Slipping away without saying goodbye ('an Irish exit') can be considered informal, whereas thanking your host with 'Thank you for having me' leaves a warm impression.",
+      "say": "Saying goodbye and leaving politely. When leaving a gathering in English-speaking cultures, it is polite to give advance notice: 'I'm afraid I have to leave soon' or 'I should get going'. Thanking your host with 'Thank you for having me' leaves a warm impression."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Take / Give",
+      "say": "7. Take / Give"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Take** and **give** are fundamental opposites of exchange. **Take** brings an object towards yourself or along with you ('Take an umbrella'). **Give** transfers something to another person ('Give him the keys'). Both have irregular forms: take, took, taken; give, gave, given.",
+      "say": "Take and give are fundamental opposites of exchange. Take brings an object towards yourself or along with you. Give transfers something to another person. Both have irregular forms: take, took, taken; give, gave, given."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verb",
+        "Present",
+        "Past",
+        "Past participle",
+        "Example"
       ],
       "rows": [
         [
           "take",
           "take / takes",
           "took",
-          "taken"
+          "taken",
+          "Take a coat, it's chilly."
         ],
         [
           "give",
           "give / gives",
           "gave",
-          "given"
+          "given",
+          "Give me a hand, please."
         ],
         [
-          "get",
-          "get / gets",
-          "got",
-          "got (UK) / gotten (US)"
-        ],
-        [
-          "Example 1",
-          "Take a coat, it's cold.",
+          "Double object",
+          "give + person + thing",
+          "gave me a book",
           "",
-          ""
-        ],
-        [
-          "Example 2",
-          "Give me a hand, please.",
-          "",
-          "Get home safely!"
+          "She gave me a present."
         ]
       ]
     },
@@ -916,11 +1033,11 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Taking:** 'take a bus', 'take a photo', 'take a break'.",
-        "**Giving:** 'give someone a present', 'give advice'.",
-        "**Common phrases:** 'take care', 'give up', 'get tired', 'get ready'."
+        "**Taking:** 'take a bus', 'take a photo', 'take a break', 'take time'.",
+        "**Giving:** 'give a present', 'give advice', 'give someone a call'.",
+        "**Common phrases:** 'take care', 'give up', 'take it easy', 'give a hand'."
       ],
-      "say": "Taking: 'take a bus', 'take a photo', 'take a break'. Giving: 'give someone a present', 'give advice'. Common phrases: 'take care', 'give up', 'get tired', 'get ready'."
+      "say": "Taking: 'take a bus', 'take a photo', 'take a break', 'take time'. Giving: 'give a present', 'give advice', 'give someone a call'. Common phrases: 'take care', 'give up', 'take it easy', 'give a hand'."
     },
     {
       "type": "heading",
@@ -930,181 +1047,44 @@
     },
     {
       "type": "example",
-      "targetText": "I take the bus to school.",
-      "gloss": "Take + transport.",
-      "context": "You describe your journey.",
-      "say": "I take the bus to school."
+      "targetText": "I take the subway to work every morning.",
+      "gloss": "Take + public transport.",
+      "context": "Describing your daily commute.",
+      "say": "I take the subway to work every morning."
     },
     {
       "type": "example",
-      "targetText": "Can you give me a hand with this bag?",
-      "gloss": "Give me a hand = help me.",
-      "context": "You need help at the station.",
-      "say": "Can you give me a hand with this bag?"
+      "targetText": "Can you give me a hand with this heavy box?",
+      "gloss": "Give someone a hand = help someone.",
+      "context": "Asking for help moving furniture.",
+      "say": "Can you give me a hand with this heavy box?"
     },
     {
       "type": "example",
-      "targetText": "I get home at six and get ready for dinner.",
-      "gloss": "Get + place (arrive) and get + adjective (become).",
-      "context": "You describe your evening.",
-      "say": "I get home at six and get ready for dinner."
+      "targetText": "He took my advice and gave his friend a second chance.",
+      "gloss": "Irregular past forms: took and gave.",
+      "context": "Recounting a personal story.",
+      "say": "He took my advice and gave his friend a second chance."
     },
     {
       "type": "example",
-      "targetText": "Mini-dialogue: A: I'm getting tired. B: Take a break! Here, I'll give you some water. A: Thanks, I'll get ready to go soon.",
+      "targetText": "Mini-dialogue: A: Did you take the keys? B: No, I gave them to Sarah. A: Please ask her to give them back to me.",
       "gloss": "Play both roles aloud, then swap.",
-      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
-      "say": "Mini-dialogue: A: I'm getting tired. B: Take a break! Here, I'll give you some water. A: Thanks, I'll get ready to go soon."
-    },
-    {
-      "type": "mistake-card",
-      "number": 6,
-      "title": "Get, not become",
-      "wrong": "'I become tired after lunch.'",
-      "right": "'I get tired after lunch.'",
-      "why": "Textbooks often teach 'become', but in daily speech native speakers almost always choose 'get' for changes in state.",
-      "rule": "**Get + adjective** = change of state: get tired, get hungry, get cold, get angry, get better.",
-      "examples": [
-        "I get hungry at noon.",
-        "It gets dark early.",
-        "She got angry."
-      ],
-      "labels": {
-        "wrong": "Not quite",
-        "right": "Say this instead",
-        "why": "Why this mistake happens",
-        "rule": "The COSY rule",
-        "examples": "More examples",
-        "turn": "Your turn"
-      },
-      "say": "Get, not become. Not quite: 'I become tired after lunch.' Say this instead: 'I get tired after lunch.' Textbooks often teach 'become', but in daily speech native speakers almost always choose 'get' for changes in state. Get + adjective = change of state: get tired, get hungry, get cold, get angry, get better. I get hungry at noon. It gets dark early. She got angry."
-    },
-    {
-      "type": "quiz",
-      "question": "Please ___ care of yourself.",
-      "options": [
-        "give",
-        "take",
-        "get"
-      ],
-      "correctIndex": 1,
-      "explanation": "'Take care' is the fixed phrase.",
-      "say": "Please ___ care of yourself."
-    },
-    {
-      "type": "culture-bite",
-      "title": "Please, thank you and polite requests",
-      "content": "English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' and 'Can I get a...?' are polite ways to ask for things in shops and cafés. In Britain, you may hear 'cheers' to mean thanks. Saying 'give me a coffee' alone sounds blunt; adding 'could' or 'please' softens it. These small words are what make you sound friendly.",
-      "say": "Please, thank you and polite requests. English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' and 'Can I get a...?' are polite ways to ask for things in shops and cafés. In Britain, you may hear 'cheers' to mean thanks. Saying 'give me a coffee' alone sounds blunt; adding 'could' or 'please' softens it. These small words are what make you sound friendly."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "7. Live",
-      "say": "7. Live"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Live** talks about where you have your home and how you spend your life. Notice the pronunciation: the verb **live** rhymes with 'give', but the adjective **live** (a live show) rhymes with 'five'.",
-      "say": "Live talks about where you have your home and how you spend your life. Notice the pronunciation: the verb live rhymes with 'give', but the adjective live (a live show) rhymes with 'five'."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronoun",
-        "Present",
-        "Past",
-        "Example"
-      ],
-      "rows": [
-        [
-          "I / you / we / they",
-          "live",
-          "lived",
-          "We live in London."
-        ],
-        [
-          "He / she / it",
-          "lives",
-          "lived",
-          "She lives with her family."
-        ],
-        [
-          "Continuous",
-          "am / is / are living",
-          "",
-          "I'm living in Madrid this year."
-        ],
-        [
-          "Past participle",
-          "lived",
-          "",
-          "I have lived here for two years."
-        ],
-        [
-          "Question",
-          "Where do you live?",
-          "",
-          "Do you live alone?"
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Place:** 'live in a city', 'live on Main Street', 'live at number 5'.",
-        "**Lifestyle:** 'live well', 'live a healthy life'.",
-        "**Common phrases:** 'live abroad', 'live well', 'live together'."
-      ],
-      "say": "Place: 'live in a city', 'live on Main Street', 'live at number 5'. Lifestyle: 'live well', 'live a healthy life'. Common phrases: 'live abroad', 'live well', 'live together'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Say aloud",
-      "say": "Say aloud"
-    },
-    {
-      "type": "example",
-      "targetText": "Where do you live? – I live in Lyon.",
-      "gloss": "Live + in + city or country.",
-      "context": "A new student asks you a question.",
-      "say": "Where do you live? – I live in Lyon."
-    },
-    {
-      "type": "example",
-      "targetText": "She lives with her parents and two cats.",
-      "gloss": "Live with = share a home.",
-      "context": "You describe a friend.",
-      "say": "She lives with her parents and two cats."
-    },
-    {
-      "type": "example",
-      "targetText": "I'd love to live abroad for a year.",
-      "gloss": "Live abroad = in another country.",
-      "context": "You talk about your dreams.",
-      "say": "I'd love to live abroad for a year."
-    },
-    {
-      "type": "example",
-      "targetText": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother.",
-      "gloss": "Play both roles aloud, then swap.",
-      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
-      "say": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother."
+      "context": "A short exchange to rehearse with a partner.",
+      "say": "Mini-dialogue: A: Did you take the keys? B: No, I gave them to Sarah. A: Please ask her to give them back to me."
     },
     {
       "type": "mistake-card",
       "number": 7,
-      "title": "Present tense with live",
-      "wrong": "'I am living here since 2020.'",
-      "right": "'I have lived here since 2020.'",
-      "why": "Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'.",
-      "rule": "**Live** is a state: use the simple present for facts ('I live in Rome'). Use **have lived** with 'since' or 'for'.",
+      "title": "Give to me or give me",
+      "wrong": "'Give to me the salt, please.'",
+      "right": "'Give me the salt, please.'",
+      "why": "English prefers the double object order: give + person + thing. When using 'to', the object comes first: 'Give the salt to me'.",
+      "rule": "**Give + person + thing** ('Give me the book') OR **give + thing + to + person** ('Give the book to me').",
       "examples": [
-        "I have lived here for five years.",
-        "She has lived in Paris since May.",
-        "They live in Berlin."
+        "Give me your phone number.",
+        "She gave him a warm smile.",
+        "Give the ticket to the conductor."
       ],
       "labels": {
         "wrong": "Not quite",
@@ -1114,293 +1094,31 @@
         "examples": "More examples",
         "turn": "Your turn"
       },
-      "say": "Present tense with live. Not quite: 'I am living here since 2020.' Say this instead: 'I have lived here since 2020.' Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'. Live is a state: use the simple present for facts ('I live in Rome'). Use have lived with 'since' or 'for'. I have lived here for five years. She has lived in Paris since May. They live in Berlin."
+      "say": "Give to me or give me. Not quite: 'Give to me the salt, please.' Say this instead: 'Give me the salt, please.' English prefers give plus person plus thing. Give me your phone number. She gave him a warm smile."
     },
     {
       "type": "quiz",
-      "question": "We ___ in a small town.",
+      "question": "Can you ___ me a glass of water?",
       "options": [
-        "lives",
-        "live",
-        "living"
+        "give",
+        "take to",
+        "give to"
       ],
-      "correctIndex": 1,
-      "explanation": "With 'we', no -s: 'We live in a small town.'",
-      "say": "We ___ in a small town."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "8. Wait",
-      "say": "8. Wait"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Wait** is a short verb with a big grammar trap: it needs **for** before the thing or person you expect. It also joins many time phrases.",
-      "say": "Wait is a short verb with a big grammar trap: it needs for before the thing or person you expect. It also joins many time phrases."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronoun",
-        "Present",
-        "Past",
-        "Example"
-      ],
-      "rows": [
-        [
-          "I / you / we / they",
-          "wait",
-          "waited",
-          "We wait for the train."
-        ],
-        [
-          "He / she / it",
-          "waits",
-          "waited",
-          "She waits for her friend."
-        ],
-        [
-          "-ing form",
-          "waiting",
-          "",
-          "I'm waiting for you."
-        ],
-        [
-          "Imperative",
-          "Wait!",
-          "",
-          "Wait a minute, please."
-        ],
-        [
-          "Question",
-          "Can you wait?",
-          "",
-          "How long do we have to wait?"
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**With people & things:** 'wait for the bus', 'wait for a friend'.",
-        "**Time:** 'wait a minute', 'wait for ten minutes'.",
-        "**Common phrases:** 'wait for', 'wait in line', 'can't wait'."
-      ],
-      "say": "With people & things: 'wait for the bus', 'wait for a friend'. Time: 'wait a minute', 'wait for ten minutes'. Common phrases: 'wait for', 'wait in line', 'can't wait'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Say aloud",
-      "say": "Say aloud"
-    },
-    {
-      "type": "example",
-      "targetText": "I'm waiting for the bus.",
-      "gloss": "Wait + for + the thing you expect.",
-      "context": "You are at a bus stop and you text a friend.",
-      "say": "I'm waiting for the bus."
-    },
-    {
-      "type": "example",
-      "targetText": "Can you wait a minute? I'll be right back.",
-      "gloss": "Wait + time (no 'for' needed).",
-      "context": "You answer the door while on the phone.",
-      "say": "Can you wait a minute? I'll be right back."
-    },
-    {
-      "type": "example",
-      "targetText": "I can't wait for the holidays!",
-      "gloss": "Can't wait = you are very excited.",
-      "context": "You talk about your plans.",
-      "say": "I can't wait for the holidays!"
-    },
-    {
-      "type": "example",
-      "targetText": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!",
-      "gloss": "Play both roles aloud, then swap.",
-      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
-      "say": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!"
-    },
-    {
-      "type": "mistake-card",
-      "number": 8,
-      "title": "Wait for",
-      "wrong": "'I wait my friend.'",
-      "right": "'I wait for my friend.'",
-      "why": "In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished.",
-      "rule": "**Wait for** + person or thing. **Wait to** + verb. **Wait** alone or with time: 'Wait a minute.'",
-      "examples": [
-        "Wait for me!",
-        "I'm waiting for an answer.",
-        "We wait to start."
-      ],
-      "labels": {
-        "wrong": "Not quite",
-        "right": "Say this instead",
-        "why": "Why this mistake happens",
-        "rule": "The COSY rule",
-        "examples": "More examples",
-        "turn": "Your turn"
-      },
-      "say": "Wait for. Not quite: 'I wait my friend.' Say this instead: 'I wait for my friend.' In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished. Wait for + person or thing. Wait to + verb. Wait alone or with time: 'Wait a minute.' Wait for me! I'm waiting for an answer. We wait to start."
-    },
-    {
-      "type": "quiz",
-      "question": "Please wait ___ me at the door.",
-      "options": [
-        "to",
-        "for",
-        "at"
-      ],
-      "correctIndex": 1,
-      "explanation": "Wait for + person: 'Please wait for me.'",
-      "say": "Please wait ___ me at the door."
+      "correctIndex": 0,
+      "explanation": "Pattern: 'give + person + thing' -> 'give me a glass'.",
+      "say": "Can you ___ me a glass of water?"
     },
     {
       "type": "culture-bite",
-      "title": "Queueing: a national art",
-      "content": "In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time.",
-      "say": "Queueing: a national art. In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time."
+      "title": "Please, thank you and polite requests",
+      "content": "English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' and 'Could I take a...?' are polite ways to ask for things in shops and cafés.",
+      "say": "Please, thank you and polite requests. English speakers say 'please' and 'thank you' far more often than learners expect: when ordering coffee, getting on a bus, or when someone passes you the salt. 'Could you give me...?' is a polite way to ask for things in shops and cafés."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "9. Understand",
-      "say": "9. Understand"
-    },
-    {
-      "type": "paragraph",
-      "text": "**Understand** tells people whether communication works. It is an irregular verb (understand, understood, understood) and it is a stative verb: we normally do not use it in the continuous form.",
-      "say": "Understand tells people whether communication works. It is an irregular verb (understand, understood, understood) and it is a stative verb: we normally do not use it in the continuous form."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronoun",
-        "Present",
-        "Past",
-        "Example"
-      ],
-      "rows": [
-        [
-          "I / you / we / they",
-          "understand",
-          "understood",
-          "I understand."
-        ],
-        [
-          "He / she / it",
-          "understands",
-          "understood",
-          "She understands me."
-        ],
-        [
-          "Negative",
-          "don't understand",
-          "didn't understand",
-          "I don't understand this word."
-        ],
-        [
-          "Question",
-          "Do you understand?",
-          "Did you understand?",
-          "Do you understand me?"
-        ],
-        [
-          "Participle",
-          "understood",
-          "",
-          "I have understood the rule."
-        ]
-      ]
-    },
-    {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Language:** 'I understand English', 'I don't understand the question'.",
-        "**People:** 'I understand you', 'He understands how I feel'.",
-        "**Common phrases:** 'make yourself understood', 'as I understand', 'fully understand'."
-      ],
-      "say": "Language: 'I understand English', 'I don't understand the question'. People: 'I understand you', 'He understands how I feel'. Common phrases: 'make yourself understood', 'as I understand', 'fully understand'."
-    },
-    {
-      "type": "heading",
-      "level": 4,
-      "text": "Say aloud",
-      "say": "Say aloud"
-    },
-    {
-      "type": "example",
-      "targetText": "Sorry, I don't understand. Can you repeat that?",
-      "gloss": "A polite and useful survival phrase.",
-      "context": "You are lost in the middle of a new city.",
-      "say": "Sorry, I don't understand. Can you repeat that?"
-    },
-    {
-      "type": "example",
-      "targetText": "Do you understand the homework?",
-      "gloss": "Understand + object.",
-      "context": "A classmate asks you for help.",
-      "say": "Do you understand the homework?"
-    },
-    {
-      "type": "example",
-      "targetText": "I understand you completely.",
-      "gloss": "Understand a person = share their feeling.",
-      "context": "You comfort a friend.",
-      "say": "I understand you completely."
-    },
-    {
-      "type": "example",
-      "targetText": "Mini-dialogue: A: Do you understand this word? B: No, I don't. Can you explain? A: It means 'to wait'. B: Ah, I understand now. Thank you!",
-      "gloss": "Play both roles aloud, then swap.",
-      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
-      "say": "Mini-dialogue: A: Do you understand this word? B: No, I don't. Can you explain? A: It means 'to wait'. B: Ah, I understand now. Thank you!"
-    },
-    {
-      "type": "mistake-card",
-      "number": 9,
-      "title": "No continuous form",
-      "wrong": "'I am understanding the lesson.'",
-      "right": "'I understand the lesson.'",
-      "why": "Verbs of thinking and feeling are usually stative. Learners apply the -ing form because they know it from action verbs.",
-      "rule": "**Understand**, **know**, **like**, **want** and **believe** usually take the simple present, not the -ing form.",
-      "examples": [
-        "I understand.",
-        "She doesn't understand.",
-        "Do you understand?"
-      ],
-      "labels": {
-        "wrong": "Not quite",
-        "right": "Say this instead",
-        "why": "Why this mistake happens",
-        "rule": "The COSY rule",
-        "examples": "More examples",
-        "turn": "Your turn"
-      },
-      "say": "No continuous form. Not quite: 'I am understanding the lesson.' Say this instead: 'I understand the lesson.' Verbs of thinking and feeling are usually stative. Learners apply the -ing form because they know it from action verbs. Understand, know, like, want and believe usually take the simple present, not the -ing form. I understand. She doesn't understand. Do you understand?"
-    },
-    {
-      "type": "quiz",
-      "question": "I ___ this word. Can you explain it?",
-      "options": [
-        "am not understanding",
-        "don't understand",
-        "not understand"
-      ],
-      "correctIndex": 1,
-      "explanation": "Negative present: 'don't understand'. No continuous.",
-      "say": "I ___ this word. Can you explain it?"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "10. Ask / Answer",
-      "say": "10. Ask / Answer"
+      "text": "8. Ask / Answer",
+      "say": "8. Ask / Answer"
     },
     {
       "type": "paragraph",
@@ -1494,7 +1212,7 @@
     },
     {
       "type": "mistake-card",
-      "number": 10,
+      "number": 8,
       "title": "Ask for, answer to",
       "wrong": "'I answered to the teacher.'",
       "right": "'I answered the teacher.'",
@@ -1532,6 +1250,274 @@
       "title": "Asking politely",
       "content": "Direct questions can sound sharp in English. Add 'Could you...?', 'Would you mind...?' or begin with 'Excuse me' before a stranger. A 'no' is often softened: 'I'm afraid I can't', 'I'd love to, but...'. When someone asks 'How are you?', they usually expect a short answer ('Fine, thanks, and you?'), not a detailed one. Learning these small phrases helps you ask and answer in a way that feels natural to native speakers.",
       "say": "Asking politely. Direct questions can sound sharp in English. Add 'Could you...?', 'Would you mind...?' or begin with 'Excuse me' before a stranger. A 'no' is often softened: 'I'm afraid I can't', 'I'd love to, but...'. When someone asks 'How are you?', they usually expect a short answer ('Fine, thanks, and you?'), not a detailed one. Learning these small phrases helps you ask and answer in a way that feels natural to native speakers."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Wait",
+      "say": "9. Wait"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Wait** is a short verb with a big grammar trap: it needs **for** before the thing or person you expect. It also joins many time phrases.",
+      "say": "Wait is a short verb with a big grammar trap: it needs for before the thing or person you expect. It also joins many time phrases."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "wait",
+          "waited",
+          "We wait for the train."
+        ],
+        [
+          "He / she / it",
+          "waits",
+          "waited",
+          "She waits for her friend."
+        ],
+        [
+          "-ing form",
+          "waiting",
+          "",
+          "I'm waiting for you."
+        ],
+        [
+          "Imperative",
+          "Wait!",
+          "",
+          "Wait a minute, please."
+        ],
+        [
+          "Question",
+          "Can you wait?",
+          "",
+          "How long do we have to wait?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**With people & things:** 'wait for the bus', 'wait for a friend'.",
+        "**Time:** 'wait a minute', 'wait for ten minutes'.",
+        "**Common phrases:** 'wait for', 'wait in line', 'can't wait'."
+      ],
+      "say": "With people & things: 'wait for the bus', 'wait for a friend'. Time: 'wait a minute', 'wait for ten minutes'. Common phrases: 'wait for', 'wait in line', 'can't wait'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "I'm waiting for the bus.",
+      "gloss": "Wait + for + the thing you expect.",
+      "context": "You are at a bus stop and you text a friend.",
+      "say": "I'm waiting for the bus."
+    },
+    {
+      "type": "example",
+      "targetText": "Can you wait a minute? I'll be right back.",
+      "gloss": "Wait + time (no 'for' needed).",
+      "context": "You answer the door while on the phone.",
+      "say": "Can you wait a minute? I'll be right back."
+    },
+    {
+      "type": "example",
+      "targetText": "I can't wait for the holidays!",
+      "gloss": "Can't wait = you are very excited.",
+      "context": "You talk about your plans.",
+      "say": "I can't wait for the holidays!"
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Are you waiting for someone? B: Yes, I'm waiting for my sister. A: How long have you been here? B: Ten minutes. I can't wait to see her!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Wait for",
+      "wrong": "'I wait my friend.'",
+      "right": "'I wait for my friend.'",
+      "why": "In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished.",
+      "rule": "**Wait for** + person or thing. **Wait to** + verb. **Wait** alone or with time: 'Wait a minute.'",
+      "examples": [
+        "Wait for me!",
+        "I'm waiting for an answer.",
+        "We wait to start."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Wait for. Not quite: 'I wait my friend.' Say this instead: 'I wait for my friend.' In many languages, 'wait' takes a direct object. English needs 'for'. Without it, the sentence feels unfinished. Wait for + person or thing. Wait to + verb. Wait alone or with time: 'Wait a minute.' Wait for me! I'm waiting for an answer. We wait to start."
+    },
+    {
+      "type": "quiz",
+      "question": "Please wait ___ me at the door.",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wait for + person: 'Please wait for me.'",
+      "say": "Please wait ___ me at the door."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Queueing: a national art",
+      "content": "In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time.",
+      "say": "Queueing: a national art. In Britain, people queue patiently, in a straight line, and it is considered rude to jump the queue. Saying 'Sorry, I think I was next' politely works if someone cuts in front. In many English-speaking countries, 'wait your turn' is a basic rule of public life, in shops, buses and cafés. Learners can also use 'Excuse me, is this the end of the line?' to join a queue. 'Hold on' and 'Just a second' are friendly ways to ask for a little time."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Live",
+      "say": "10. Live"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Live** talks about where you have your home and how you spend your life. Notice the pronunciation: the verb **live** rhymes with 'give', but the adjective **live** (a live show) rhymes with 'five'.",
+      "say": "Live talks about where you have your home and how you spend your life. Notice the pronunciation: the verb live rhymes with 'give', but the adjective live (a live show) rhymes with 'five'."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "Present",
+        "Past",
+        "Example"
+      ],
+      "rows": [
+        [
+          "I / you / we / they",
+          "live",
+          "lived",
+          "We live in London."
+        ],
+        [
+          "He / she / it",
+          "lives",
+          "lived",
+          "She lives with her family."
+        ],
+        [
+          "Continuous",
+          "am / is / are living",
+          "",
+          "I'm living in Madrid this year."
+        ],
+        [
+          "Past participle",
+          "lived",
+          "",
+          "I have lived here for two years."
+        ],
+        [
+          "Question",
+          "Where do you live?",
+          "",
+          "Do you live alone?"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Place:** 'live in a city', 'live on Main Street', 'live at number 5'.",
+        "**Lifestyle:** 'live well', 'live a healthy life'.",
+        "**Common phrases:** 'live abroad', 'live well', 'live together'."
+      ],
+      "say": "Place: 'live in a city', 'live on Main Street', 'live at number 5'. Lifestyle: 'live well', 'live a healthy life'. Common phrases: 'live abroad', 'live well', 'live together'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Say aloud",
+      "say": "Say aloud"
+    },
+    {
+      "type": "example",
+      "targetText": "Where do you live? – I live in Lyon.",
+      "gloss": "Live + in + city or country.",
+      "context": "A new student asks you a question.",
+      "say": "Where do you live? – I live in Lyon."
+    },
+    {
+      "type": "example",
+      "targetText": "She lives with her parents and two cats.",
+      "gloss": "Live with = share a home.",
+      "context": "You describe a friend.",
+      "say": "She lives with her parents and two cats."
+    },
+    {
+      "type": "example",
+      "targetText": "I'd love to live abroad for a year.",
+      "gloss": "Live abroad = in another country.",
+      "context": "You talk about your dreams.",
+      "say": "I'd love to live abroad for a year."
+    },
+    {
+      "type": "example",
+      "targetText": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother.",
+      "gloss": "Play both roles aloud, then swap.",
+      "context": "A short exchange to rehearse with a partner or in front of the mirror.",
+      "say": "Mini-dialogue: A: Where do you live? B: I live in Manchester, in a small flat. A: Do you live alone? B: No, I live with my brother."
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Present tense with live",
+      "wrong": "'I am living here since 2020.'",
+      "right": "'I have lived here since 2020.'",
+      "why": "Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'.",
+      "rule": "**Live** is a state: use the simple present for facts ('I live in Rome'). Use **have lived** with 'since' or 'for'.",
+      "examples": [
+        "I have lived here for five years.",
+        "She has lived in Paris since May.",
+        "They live in Berlin."
+      ],
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this instead",
+        "why": "Why this mistake happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "Present tense with live. Not quite: 'I am living here since 2020.' Say this instead: 'I have lived here since 2020.' Many languages use the present tense for situations that started in the past. English needs the present perfect with 'since' and 'for'. Live is a state: use the simple present for facts ('I live in Rome'). Use have lived with 'since' or 'for'. I have lived here for five years. She has lived in Paris since May. They live in Berlin."
+    },
+    {
+      "type": "quiz",
+      "question": "We ___ in a small town.",
+      "options": [
+        "lives",
+        "live",
+        "living"
+      ],
+      "correctIndex": 1,
+      "explanation": "With 'we', no -s: 'We live in a small town.'",
+      "say": "We ___ in a small town."
     },
     {
       "type": "heading",
@@ -1619,13 +1605,13 @@
       "type": "list-item",
       "ordered": true,
       "items": [
-        "**Minute 1, warm-up:** say the present, past and participle of do/make, take/give/get and understand without looking at the tables.",
+        "**Minute 1, warm-up:** say the present, past and participle of do/make, come/leave, and take/give without looking at the tables.",
         "**Minute 2, three verbs, three sentences:** choose three verbs and say one true sentence about your life for each: 'I live...', 'I have to...', 'I wait for...'.",
         "**Minute 3, mistake hunt:** reread one 'Not quite' card and say the correct sentence three times, changing the subject each time.",
         "**Minute 4, mini-dialogue:** play both roles of a dialogue with 'Can I ask...?', 'Could you give me...?', 'Do you understand?', and record yourself on your phone.",
         "**Minute 5, replay:** listen to the recording and pick one sentence to keep for tomorrow. Write it on a note near your desk."
       ],
-      "say": "Minute 1, warm-up: say the present, past and participle of do/make, take/give/get and understand without looking at the tables. Minute 2, three verbs, three sentences: choose three verbs and say one true sentence about your life for each: 'I live...', 'I have to...', 'I wait for...'. Minute 3, mistake hunt: reread one 'Not quite' card and say the correct sentence three times, changing the subject each time. Minute 4, mini-dialogue: play both roles of a dialogue with 'Can I ask...?', 'Could you give me...?', 'Do you understand?', and record yourself on your phone. Minute 5, replay: listen to the recording and pick one sentence to keep for tomorrow. Write it on a note near your desk."
+      "say": "Minute 1, warm-up: say the present, past and participle of do/make, come/leave, and take/give without looking at the tables. Minute 2, three verbs, three sentences: choose three verbs and say one true sentence about your life for each: 'I live...', 'I have to...', 'I wait for...'. Minute 3, mistake hunt: reread one 'Not quite' card and say the correct sentence three times, changing the subject each time. Minute 4, mini-dialogue: play both roles of a dialogue with 'Can I ask...?', 'Could you give me...?', 'Do you understand?', and record yourself on your phone. Minute 5, replay: listen to the recording and pick one sentence to keep for tomorrow. Write it on a note near your desk."
     },
     {
       "type": "heading",
