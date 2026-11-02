@@ -18,64 +18,64 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#d69e2e" />
-    <line x1="0" y1="35" x2="1200" y2="35" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#faf7f2" stroke-width="1" opacity="0.22" />
-    <line x1="168" y1="0" x2="168" y2="630" stroke="#274B7D" stroke-width="2" opacity="0.35" />
-    <path d="M 375 359 Q 402 332 429 359 T 456 359" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 708 338 Q 727 319 746 338 T 765 338" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 312 251 Q 327 236 342 251 T 357 251" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 850 464 Q 879 435 908 464 T 937 464" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1065 279 Q 1093 251 1121 279 T 1149 279" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 586 120 Q 615 91 644 120 T 673 120" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+    <rect width="1200" height="630" fill="#f6ead4" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#ffbed7" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#ffbed7" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#e0678f" stroke-width="2" opacity="0.35" />
+    <path d="M 375 359 Q 402 332 429 359 T 456 359" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 708 338 Q 727 319 746 338 T 765 338" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 312 251 Q 327 236 342 251 T 357 251" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 850 464 Q 879 435 908 464 T 937 464" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1065 279 Q 1093 251 1121 279 T 1149 279" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 586 120 Q 615 91 644 120 T 673 120" fill="none" stroke="#b0245f" stroke-width="2" stroke-linecap="round" opacity="0.25" />
   
       
       <g transform="rotate(-3 478.5 252.5)">
-        <rect x="323" y="98" width="311" height="309" rx="6" fill="#d69e2e" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="323" y="98" width="311" height="309" rx="6" fill="#f6ead4" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(-7 811 249)">
-        <rect x="579" y="91" width="464" height="316" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="579" y="91" width="464" height="316" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1012,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1032,157.5 1012,0" fill="#FCF9F2" opacity="0.9" stroke="#274B7D" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1012,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1032,157.5 1012,0" fill="#FCF9F2" opacity="0.9" stroke="#e0678f" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
     <g transform="rotate(-2 156 38)" filter="url(#soft-shadow)">
-      <rect x="96" y="26" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <rect x="96" y="26" width="120" height="24" rx="2" fill="#ffbed7" opacity="0.45" />
       <line x1="96" y1="26" x2="96" y2="50" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="216" y1="26" x2="216" y2="50" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       
-    <g class="cover-tiny-doodles" stroke="#274B7D" stroke-width="1.5" fill="none" opacity="0.7">
+    <g class="cover-tiny-doodles" stroke="#e0678f" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
-      <path d="M 870 45 Q 870 57 882 57 Q 870 57 870 69 Q 870 57 858 57 Q 870 57 870 45 Z" fill="#faf7f2" opacity="0.3" />
-      <path d="M 915 87 Q 915 95 923 95 Q 915 95 915 103 Q 915 95 907 95 Q 915 95 915 87 Z" stroke="#faf7f2" stroke-width="1" />
+      <path d="M 870 45 Q 870 57 882 57 Q 870 57 870 69 Q 870 57 858 57 Q 870 57 870 45 Z" fill="#ffbed7" opacity="0.3" />
+      <path d="M 915 87 Q 915 95 923 95 Q 915 95 915 103 Q 915 95 907 95 Q 915 95 915 87 Z" stroke="#ffbed7" stroke-width="1" />
       <!-- Botanical sprig doodle -->
       <path d="M 80 135 C 90 120, 75 100, 95 85" />
-      <circle cx="84" cy="120" r="3" fill="#274B7D" opacity="0.5" />
-      <circle cx="90" cy="103" r="3" fill="#faf7f2" opacity="0.5" />
+      <circle cx="84" cy="120" r="3" fill="#e0678f" opacity="0.5" />
+      <circle cx="90" cy="103" r="3" fill="#ffbed7" opacity="0.5" />
     </g>
   
       
     <g class="cover-sketchy-underline">
-      <path d="M 44 598 Q 179 601 314 596" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
-      <path d="M 54 601 Q 179 604 304 600" stroke="#274B7D" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+      <path d="M 44 598 Q 179 601 314 596" stroke="#ffbed7" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 54 601 Q 179 604 304 600" stroke="#e0678f" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
   
       
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
-      <rect x="20" y="20" width="228" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
-      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • COSYTALKS</text>
+      <rect x="20" y="20" width="228" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffbed7" stroke-width="1.2" />
+      <text x="34" y="40" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • COSYTALKS</text>
     </g>
   
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
-        <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#274B7D" stroke-width="1.2" />
+        <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#e0678f" stroke-width="1.2" />
         <text x="54" y="462" fill="#274B7D" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">RÉFLEXIONS • Vol. 2026.10</text>
-        <text x="54" y="500" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Pourquoi se fige-t-on quand</text>
-<text x="54" y="536" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">la conversation sort du</text>
-<text x="54" y="572" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">script ?</text>
+        <text x="54" y="500" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Pourquoi se fige-t-on quand</text>
+<text x="54" y="536" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">la conversation sort du</text>
+<text x="54" y="572" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">script ?</text>
       </g>
     
-      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
     </svg>

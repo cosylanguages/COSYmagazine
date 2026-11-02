@@ -18,106 +18,106 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#f59e0b" />
+    <rect width="1200" height="630" fill="#f6ead4" />
     
       <g transform="rotate(1 639.5 65)">
-        <rect x="545" y="18" width="189" height="94" rx="6" fill="#faf7f2" opacity="0.25" stroke="#faf7f2" stroke-width="1" />
-        <circle cx="545" cy="65" r="10" fill="#f59e0b" />
-        <circle cx="734" cy="65" r="10" fill="#f59e0b" />
-        <line x1="585" y1="28" x2="585" y2="102" stroke="#faf7f2" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
-        <text x="597" y="53" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
-        <text x="597" y="73" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+        <rect x="545" y="18" width="189" height="94" rx="6" fill="#ffbed7" opacity="0.25" stroke="#ffbed7" stroke-width="1" />
+        <circle cx="545" cy="65" r="10" fill="#f6ead4" />
+        <circle cx="734" cy="65" r="10" fill="#f6ead4" />
+        <line x1="585" y1="28" x2="585" y2="102" stroke="#ffbed7" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="597" y="53" fill="#b0245f" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="597" y="73" fill="#b0245f" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
     
       <g transform="rotate(8 901 114)">
-        <rect x="788" y="66" width="226" height="96" rx="6" fill="#274B7D" opacity="0.25" stroke="#274B7D" stroke-width="1" />
-        <circle cx="788" cy="114" r="10" fill="#f59e0b" />
-        <circle cx="1014" cy="114" r="10" fill="#f59e0b" />
-        <line x1="828" y1="76" x2="828" y2="152" stroke="#274B7D" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
-        <text x="840" y="101" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
-        <text x="840" y="121" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+        <rect x="788" y="66" width="226" height="96" rx="6" fill="#e0678f" opacity="0.25" stroke="#e0678f" stroke-width="1" />
+        <circle cx="788" cy="114" r="10" fill="#f6ead4" />
+        <circle cx="1014" cy="114" r="10" fill="#f6ead4" />
+        <line x1="828" y1="76" x2="828" y2="152" stroke="#e0678f" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="840" y="101" fill="#b0245f" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="840" y="121" fill="#b0245f" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
     
       <g transform="rotate(-8 725.5 525)">
-        <rect x="611" y="474" width="229" height="102" rx="6" fill="#faf7f2" opacity="0.25" stroke="#faf7f2" stroke-width="1" />
-        <circle cx="611" cy="525" r="10" fill="#f59e0b" />
-        <circle cx="840" cy="525" r="10" fill="#f59e0b" />
-        <line x1="651" y1="484" x2="651" y2="566" stroke="#faf7f2" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
-        <text x="663" y="509" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
-        <text x="663" y="529" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+        <rect x="611" y="474" width="229" height="102" rx="6" fill="#ffbed7" opacity="0.25" stroke="#ffbed7" stroke-width="1" />
+        <circle cx="611" cy="525" r="10" fill="#f6ead4" />
+        <circle cx="840" cy="525" r="10" fill="#f6ead4" />
+        <line x1="651" y1="484" x2="651" y2="566" stroke="#ffbed7" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="663" y="509" fill="#b0245f" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="663" y="529" fill="#b0245f" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
     
       <g transform="rotate(4 728 102.5)">
-        <rect x="632" y="56" width="192" height="93" rx="6" fill="#274B7D" opacity="0.25" stroke="#274B7D" stroke-width="1" />
-        <circle cx="632" cy="102.5" r="10" fill="#f59e0b" />
-        <circle cx="824" cy="102.5" r="10" fill="#f59e0b" />
-        <line x1="672" y1="66" x2="672" y2="139" stroke="#274B7D" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
-        <text x="684" y="91" fill="#0d9488" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
-        <text x="684" y="111" fill="#0d9488" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
+        <rect x="632" y="56" width="192" height="93" rx="6" fill="#e0678f" opacity="0.25" stroke="#e0678f" stroke-width="1" />
+        <circle cx="632" cy="102.5" r="10" fill="#f6ead4" />
+        <circle cx="824" cy="102.5" r="10" fill="#f6ead4" />
+        <line x1="672" y1="66" x2="672" y2="139" stroke="#e0678f" stroke-dasharray="3 3" stroke-width="1.5" opacity="0.6" />
+        <text x="684" y="91" fill="#b0245f" font-family="Fraunces, serif" font-size="12" font-weight="bold">COSYMAGAZINE</text>
+        <text x="684" y="111" fill="#b0245f" font-family="DM Sans, sans-serif" font-size="10" opacity="0.75">ADMIT ONE • PASS</text>
       </g>
     
   
       
       <g transform="rotate(-5 732.5 331)">
-        <rect x="489" y="212" width="487" height="238" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="489" y="212" width="487" height="238" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(-5 491 403.5)">
-        <rect x="258" y="260" width="466" height="287" rx="6" fill="#274B7D" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="258" y="260" width="466" height="287" rx="6" fill="#e0678f" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(-2 666 267)">
-        <rect x="425" y="144" width="482" height="246" rx="6" fill="#faf7f2" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="425" y="144" width="482" height="246" rx="6" fill="#ffbed7" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(3 386 378)">
-        <rect x="216" y="224" width="340" height="308" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#274B7D" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="216" y="224" width="340" height="308" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1013,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1033,157.5 1013,0" fill="#FCF9F2" opacity="0.9" stroke="#274B7D" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1013,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1033,157.5 1013,0" fill="#FCF9F2" opacity="0.9" stroke="#e0678f" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
     <g transform="rotate(-5 459 32)" filter="url(#soft-shadow)">
-      <rect x="399" y="20" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <rect x="399" y="20" width="120" height="24" rx="2" fill="#ffbed7" opacity="0.45" />
       <line x1="399" y1="20" x2="399" y2="44" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="519" y1="20" x2="519" y2="44" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       
-    <g class="cover-tiny-doodles" stroke="#274B7D" stroke-width="1.5" fill="none" opacity="0.7">
+    <g class="cover-tiny-doodles" stroke="#e0678f" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
-      <path d="M 984 36 Q 984 48 996 48 Q 984 48 984 60 Q 984 48 972 48 Q 984 48 984 36 Z" fill="#faf7f2" opacity="0.3" />
-      <path d="M 1029 78 Q 1029 86 1037 86 Q 1029 86 1029 94 Q 1029 86 1021 86 Q 1029 86 1029 78 Z" stroke="#faf7f2" stroke-width="1" />
+      <path d="M 984 36 Q 984 48 996 48 Q 984 48 984 60 Q 984 48 972 48 Q 984 48 984 36 Z" fill="#ffbed7" opacity="0.3" />
+      <path d="M 1029 78 Q 1029 86 1037 86 Q 1029 86 1029 94 Q 1029 86 1021 86 Q 1029 86 1029 78 Z" stroke="#ffbed7" stroke-width="1" />
       <!-- Botanical sprig doodle -->
       <path d="M 79 96 C 89 81, 74 61, 94 46" />
-      <circle cx="83" cy="81" r="3" fill="#274B7D" opacity="0.5" />
-      <circle cx="89" cy="64" r="3" fill="#faf7f2" opacity="0.5" />
+      <circle cx="83" cy="81" r="3" fill="#e0678f" opacity="0.5" />
+      <circle cx="89" cy="64" r="3" fill="#ffbed7" opacity="0.5" />
     </g>
   
       
     <g class="cover-sketchy-underline">
-      <path d="M 95 584 Q 190 585 284 585" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
-      <path d="M 105 587 Q 190 588 274 586" stroke="#274B7D" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+      <path d="M 95 584 Q 190 585 284 585" stroke="#ffbed7" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 105 587 Q 190 588 274 586" stroke="#e0678f" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
   
       
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
-      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
-      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
+      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffbed7" stroke-width="1.2" />
+      <text x="34" y="40" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
   
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
-        <rect class="cover-overlay-box" x="24" y="451" width="1152" height="155" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#274B7D" stroke-width="1.2" />
+        <rect class="cover-overlay-box" x="24" y="451" width="1152" height="155" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#e0678f" stroke-width="1.2" />
         <text x="54" y="489" fill="#274B7D" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">EXPRIMEZ-VOUS • Vol. 2026.10</text>
-        <text x="54" y="523" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">Arrêtez de traduire ! 10 structures de</text>
-<text x="54" y="550" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">phrases réutilisables pour parler dès</text>
-<text x="54" y="577" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">le premier jour</text>
+        <text x="54" y="523" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">Arrêtez de traduire ! 10 structures de</text>
+<text x="54" y="550" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">phrases réutilisables pour parler dès</text>
+<text x="54" y="577" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="21" font-weight="bold">le premier jour</text>
       </g>
     
-      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
     </svg>

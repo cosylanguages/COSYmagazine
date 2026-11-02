@@ -18,68 +18,68 @@
         }
       </style>
       
-    <rect width="1200" height="630" fill="#d69e2e" />
-    <line x1="0" y1="35" x2="1200" y2="35" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#faf7f2" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#faf7f2" stroke-width="1" opacity="0.22" />
-    <line x1="168" y1="0" x2="168" y2="630" stroke="#225B58" stroke-width="2" opacity="0.35" />
-    <path d="M 269 286 Q 298 257 327 286 T 356 286" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 703 535 Q 731 507 759 535 T 787 535" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 320 414 Q 344 390 368 414 T 392 414" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 989 138 Q 1010 117 1031 138 T 1052 138" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1080 164 Q 1104 140 1128 164 T 1152 164" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+    <rect width="1200" height="630" fill="#fbfffd" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#a0ebd2" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#a0ebd2" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#2fbfa8" stroke-width="2" opacity="0.35" />
+    <path d="M 269 286 Q 298 257 327 286 T 356 286" fill="none" stroke="#0f6e66" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 703 535 Q 731 507 759 535 T 787 535" fill="none" stroke="#0f6e66" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 320 414 Q 344 390 368 414 T 392 414" fill="none" stroke="#0f6e66" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 989 138 Q 1010 117 1031 138 T 1052 138" fill="none" stroke="#0f6e66" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1080 164 Q 1104 140 1128 164 T 1152 164" fill="none" stroke="#0f6e66" stroke-width="2" stroke-linecap="round" opacity="0.25" />
   
       
       <g transform="rotate(6 522.5 221.5)">
-        <rect x="285" y="82" width="475" height="279" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="285" y="82" width="475" height="279" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#2fbfa8" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(7 876 277.5)">
-        <rect x="644" y="147" width="464" height="261" rx="6" fill="#d69e2e" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="644" y="147" width="464" height="261" rx="6" fill="#fbfffd" opacity="0.3" stroke="#2fbfa8" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       <g transform="rotate(-4 345 371)">
-        <rect x="192" y="245" width="306" height="252" rx="6" fill="#225B58" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+        <rect x="192" y="245" width="306" height="252" rx="6" fill="#2fbfa8" opacity="0.3" stroke="#2fbfa8" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     
       
     <g class="cover-torn-paper" filter="url(#soft-shadow)">
-      <polygon points="1000,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1020,157.5 1000,0" fill="#FCF9F2" opacity="0.9" stroke="#225B58" stroke-width="0.8" stroke-dasharray="3 2" />
+      <polygon points="1000,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1020,157.5 1000,0" fill="#FCF9F2" opacity="0.9" stroke="#2fbfa8" stroke-width="0.8" stroke-dasharray="3 2" />
     </g>
   
       
     <g transform="rotate(2 307 37)" filter="url(#soft-shadow)">
-      <rect x="247" y="25" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <rect x="247" y="25" width="120" height="24" rx="2" fill="#a0ebd2" opacity="0.45" />
       <line x1="247" y1="25" x2="247" y2="49" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
       <line x1="367" y1="25" x2="367" y2="49" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
     </g>
   
       
-    <g class="cover-tiny-doodles" stroke="#225B58" stroke-width="1.5" fill="none" opacity="0.7">
+    <g class="cover-tiny-doodles" stroke="#2fbfa8" stroke-width="1.5" fill="none" opacity="0.7">
       <!-- Four-pointed sparkle doodle -->
-      <path d="M 1038 50 Q 1038 62 1050 62 Q 1038 62 1038 74 Q 1038 62 1026 62 Q 1038 62 1038 50 Z" fill="#faf7f2" opacity="0.3" />
-      <path d="M 1083 92 Q 1083 100 1091 100 Q 1083 100 1083 108 Q 1083 100 1075 100 Q 1083 100 1083 92 Z" stroke="#faf7f2" stroke-width="1" />
+      <path d="M 1038 50 Q 1038 62 1050 62 Q 1038 62 1038 74 Q 1038 62 1026 62 Q 1038 62 1038 50 Z" fill="#a0ebd2" opacity="0.3" />
+      <path d="M 1083 92 Q 1083 100 1091 100 Q 1083 100 1083 108 Q 1083 100 1075 100 Q 1083 100 1083 92 Z" stroke="#a0ebd2" stroke-width="1" />
       <!-- Botanical sprig doodle -->
       <path d="M 65 118 C 75 103, 60 83, 80 68" />
-      <circle cx="69" cy="103" r="3" fill="#225B58" opacity="0.5" />
-      <circle cx="75" cy="86" r="3" fill="#faf7f2" opacity="0.5" />
+      <circle cx="69" cy="103" r="3" fill="#2fbfa8" opacity="0.5" />
+      <circle cx="75" cy="86" r="3" fill="#a0ebd2" opacity="0.5" />
     </g>
   
       
     <g class="cover-sketchy-underline">
-      <path d="M 85 593 Q 213 599 341 592" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
-      <path d="M 95 596 Q 213 602 331 595" stroke="#225B58" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+      <path d="M 85 593 Q 213 599 341 592" stroke="#a0ebd2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 95 596 Q 213 602 331 595" stroke="#2fbfa8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
   
       
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
-      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
-      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
+      <rect x="20" y="20" width="220" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#a0ebd2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0f6e66" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • WORDS</text>
     </g>
   
       
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
-        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#225B58" stroke-width="1.2" />
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#2fbfa8" stroke-width="1.2" />
         <text x="54" y="474" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
-        <text x="54" y="510" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Stop Saying 'Very'! 50 Stronger</text>
-<text x="54" y="542" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Words Every Intermediate English</text>
-<text x="54" y="574" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Learner Should Know</text>
+        <text x="54" y="510" fill="#0f6e66" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Stop Saying 'Very'! 50 Stronger</text>
+<text x="54" y="542" fill="#0f6e66" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Words Every Intermediate English</text>
+<text x="54" y="574" fill="#0f6e66" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Learner Should Know</text>
       </g>
     
-      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
     </svg>

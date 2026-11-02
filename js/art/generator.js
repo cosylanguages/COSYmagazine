@@ -53,6 +53,28 @@ export function getPostLanguage(post) {
   return match ? match[1] : 'en';
 }
 
+/** The notebook look of the issue a post belongs to (mirrors css/notebook.css): [ink, highlight, spare, paper] */
+const ISSUE_COVER_PALETTES = {
+  aug: ['#1e46a0', '#ffe250', '#2d9cdb', '#fffef8'],
+  sep: ['#0f6e66', '#a0ebd2', '#2fbfa8', '#fbfffd'],
+  oct: ['#b0245f', '#ffbed7', '#e0678f', '#f6ead4'],
+  sat: ['#c62828', '#ffe296', '#f0795f', '#fffdf8'],
+  nov: ['#6b4423', '#f5c878', '#c98a4b', '#fbf3e2'],
+  dec: ['#2a5d9f', '#bedcff', '#6fa6e0', '#f3f8ff'],
+  feb: ['#2c7a45', '#bee9aa', '#6bbd7f', '#f4faef']
+};
+export function issueKeyOf(post) {
+  const n = String((post && post.issue && post.issue.number) || '');
+  if (post && post.desk === 'Saturday Mistakes') return 'sat';
+  if (/2026\.08|August/.test(n)) return 'aug';
+  if (/2026\.09|September/.test(n)) return 'sep';
+  if (/2026\.10|October/.test(n)) return 'oct';
+  if (/2026\.11|November/.test(n)) return 'nov';
+  if (/2026\.12|December/.test(n)) return 'dec';
+  if (/February|2027\.02/.test(n)) return 'feb';
+  return null;
+}
+
 /** Resolves artDirection configuration with sensible defaults */
 export function resolveArtDirection(post) {
   const art = (post && post.artDirection) || {};
@@ -65,8 +87,14 @@ export function resolveArtDirection(post) {
   const defaultPalette = [...(DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'])];
   let palette = (art.palette && art.palette.length >= 2) ? [...art.palette] : defaultPalette;
 
-  // Apply language accent override
-  if (LANG_ACCENTS[lang]) {
+  // Light, cheerful covers: use the palette of the issue the article belongs to
+  const issueKey = issueKeyOf(post);
+  if (issueKey && !(art.palette && art.keepPalette)) {
+    palette = [...ISSUE_COVER_PALETTES[issueKey]];
+  }
+
+  // Apply language accent override (kept as a mid-tone so covers do not get muddy)
+  if (LANG_ACCENTS[lang] && !issueKey) {
     const accent = LANG_ACCENTS[lang];
     if (palette.length >= 3) {
       palette[2] = accent;
@@ -349,7 +377,7 @@ export function renderCover(post, options = {}) {
       ${underlineSvg}
       ${mastheadLabelSvg}
       ${textOverlay}
-      <rect width="${width}" height="${height}" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
+      <rect width="${width}" height="${height}" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
     </svg>
   `.trim();
 }
