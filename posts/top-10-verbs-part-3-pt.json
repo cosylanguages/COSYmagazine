@@ -20,7 +20,7 @@
     "A0-A1",
     "Part3"
   ],
-  "readingTime": 10,
+  "readingTime": 16,
   "podcast": {
     "episode": 4,
     "audioUrl": null
@@ -44,28 +44,24 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Bem-vindo à Parte 3 do nosso guia de verbos em português para principiantes A0–A1 e A2! (Leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html) se ainda não leu). Aqui abordamos 10 verbos fundamentais do dia a dia. Consulte todas as tabelas de conjugação no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Mais dez verbos e já podes fazer compras, lembrar-te de um encontro, dizer como te sentes, marcar um café, tomar uma decisão, escrever uma mensagem, tocar um instrumento e dizer «concordo». <mark class=\"hl-handwritten\">São os verbos da vida social e prática</mark>: aqueles de que precisas quando deixas de te apresentar e começas a fazer coisas com os outros.",
+      "say": "Mais dez verbos e já podes fazer compras, lembrar-te de um encontro, dizer como te sentes, marcar um café, tomar uma decisão, escrever uma mensagem, tocar um instrumento e dizer «concordo». São os verbos da vida social e prática: aqueles de que precisas quando deixas de te apresentar e começas a fazer coisas com os outros."
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "Os 10 verbos fundamentais (Parte 3)"
+      "type": "paragraph",
+      "text": "Como na Parte 2, este artigo lê-se <span class=\"doodle-circle\">em voz alta</span>. Para cada verbo, olha para a tabela e diz as formas sem espreitar. Depois lê as três frases da rubrica «Em voz alta», tapa-as e repete-as trocando uma palavra para falares da tua vida. No fim passa pelo cartão do erro: mostra a frase que muitos principiantes dizem e a que dizem os falantes de português. Primeiro fala-se, depois percebe-se a regra: é mais rápido e mais natural.",
+      "say": "Como na Parte 2, este artigo lê-se em voz alta. Para cada verbo, olha para a tabela e diz as formas sem espreitar. Depois lê as três frases da rubrica «Em voz alta», tapa-as e repete-as trocando uma palavra para falares da tua vida. No fim passa pelo cartão do erro: mostra a frase que muitos principiantes dizem e a que dizem os falantes de português. Primeiro fala-se, depois percebe-se a regra: é mais rápido e mais natural."
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**1. Escolher / Comprar / Pagar:** Escolha e comércio.\n  • *Frases simples:* 'Escolher um livro', 'Comprar pão', 'Pagar com cartão'.\n  • *Expressões:* 'escolher bem', 'comprar online', 'pagar o jantar'.",
-        "**2. Lembrar / Esquecer:** Memória e cognição.\n  • *Frases simples:* 'Lembro-me do teu nome', 'Não te esqueças das chaves!'.\n  • *Expressões:* 'lembrar-se de', 'esqueci-me da palavra-passe'.",
-        "**3. Sentir-se:** Estado físico e emocional.\n  • *Frases simples:* 'Sinto-me bem', 'Ela tem frio', 'Como te sentes?'.\n  • *Expressões:* 'sentir-se cansado', 'sentir-se em casa'.",
-        "**4. Encontrar / Conhecer:** Relações sociais.\n  • *Frases simples:* 'Prazer em conhecer-te', 'Encontramo-nos às 17h', 'Encontrar amigos'.\n  • *Expressões:* 'conhecer pessoas novas', 'encontrar-se no centro'.",
-        "**5. Decidir:** Tomada de decisão.\n  • *Frases simples:* 'Decido ficar', 'Decidir um plano'.\n  • *Nota importante:* Diz-se 'resolver um problema', NÃO 'decidir um problema'.\n  • *Expressões:* 'decidir rapidamente', 'tomar uma decisão'.",
-        "**6. Escrever / Ler / Digitar:** Escrita e leitura.\n  • *Frases simples:* 'Escrever um e-mail', 'Ler um livro', 'Digitar uma mensagem'.\n  • *Expressões:* 'escrever à mão', 'ler em voz alta', 'digitar rápido'.",
-        "**7. Gastar / Desperdiçar:** Gestão de recursos.\n  • *Frases simples:* 'Gastar dinheiro', 'Não desperdices o teu tempo!'.\n  • *Expressões:* 'gastar em', 'desperdiçar energia', 'passar tempo com a família'.",
-        "**8. Jogar / Tocar / Brincar (todas as variações):** Jogos, desportos, instrumentos, papéis.\n  • *Frases simples:* 'Jogar futebol / cartas', 'Tocar guitarra / piano', 'Fazer um papel no filme'.\n  • *Expressões:* 'tocar um instrumento', 'desempenhar um papel principal'.",
-        "**9. Concordar / Discordar:** Consenso e opinião.\n  • *Frases simples:* 'Concordo contigo', 'Não concordo'.\n  • *Expressões:* 'concordar com', 'chegar a um acordo'.",
-        "**10. Enviar / Receber:** Transmissão e receção.\n  • *Frases simples:* 'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.\n  • *Expressões:* 'enviar um e-mail', 'receber notícias'."
-      ]
+      "type": "paragraph",
+      "text": "Bem-vindo à Parte 3 do nosso guia de verbos em português para principiantes A0–A1 e A2! (Leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html) se ainda não leu). Aqui abordamos 10 verbos fundamentais do dia a dia. Consulte todas as tabelas de conjugação no [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Bem-vindo à Parte 3 do nosso guia de verbos em português para principiantes A0–A1 e A2! (Leia a Parte 1 e a Parte 2 se ainda não leu). Aqui abordamos 10 verbos fundamentais do dia a dia. Consulte todas as tabelas de conjugação no COSYtools."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Não se aprende uma língua para saber como se diz, mas para ter algo para dizer.",
+      "attribution": "COSYmagazine",
+      "say": "Não se aprende uma língua para saber como se diz, mas para ter algo para dizer."
     },
     {
       "type": "table",
@@ -153,6 +149,1337 @@
         ]
       ],
       "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "O mapa da memória: dez verbos, cinco funções",
+      "say": "O mapa da memória: dez verbos, cinco funções"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em vez de aprender os verbos um a um, ordena-os por função. Quando quiseres dizer algo, pergunta-te: <mark class=\"hl-handwritten\">estou a comprar, a lembrar, a sentir, a decidir ou a trocar?</mark> O verbo chega quase sozinho.",
+      "say": "Em vez de aprender os verbos um a um, ordena-os por função. Quando quiseres dizer algo, pergunta-te: estou a comprar, a lembrar, a sentir, a decidir ou a trocar? O verbo chega quase sozinho."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Comprar e gastar:** escolher, comprar, pagar, gastar, desperdiçar. Dinheiro e escolhas.",
+        "**Mente e corpo:** lembrar, esquecer, sentir-se. Memória e estados de espírito.",
+        "**Estar com os outros:** encontrar, conhecer, concordar, discordar. Relações e opiniões.",
+        "**Decidir e escrever:** decidir, resolver, escrever, ler, digitar. Planos e palavras escritas.",
+        "**Jogar e trocar:** jogar, tocar, brincar, enviar, receber. Tempo livre e comunicação à distância."
+      ],
+      "say": "Comprar e gastar: escolher, comprar, pagar, gastar, desperdiçar. Dinheiro e escolhas. Mente e corpo: lembrar, esquecer, sentir-se. Memória e estados de espírito. Estar com os outros: encontrar, conhecer, concordar, discordar. Relações e opiniões. Decidir e escrever: decidir, resolver, escrever, ler, digitar. Planos e palavras escritas. Jogar e trocar: jogar, tocar, brincar, enviar, receber. Tempo livre e comunicação à distância."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Os 10 verbos fundamentais (Parte 3)",
+      "say": "Os 10 verbos fundamentais (Parte 3)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Escolher / Comprar / Pagar:** Escolha e comércio.\n  • *Frases simples:* 'Escolher um livro', 'Comprar pão', 'Pagar com cartão'.\n  • *Expressões:* 'escolher bem', 'comprar online', 'pagar o jantar'.",
+        "**2. Lembrar / Esquecer:** Memória e cognição.\n  • *Frases simples:* 'Lembro-me do teu nome', 'Não te esqueças das chaves!'.\n  • *Expressões:* 'lembrar-se de', 'esqueci-me da palavra-passe'.",
+        "**3. Sentir-se:** Estado físico e emocional.\n  • *Frases simples:* 'Sinto-me bem', 'Ela tem frio', 'Como te sentes?'.\n  • *Expressões:* 'sentir-se cansado', 'sentir-se em casa'.",
+        "**4. Encontrar / Conhecer:** Relações sociais.\n  • *Frases simples:* 'Prazer em conhecer-te', 'Encontramo-nos às 17h', 'Encontrar amigos'.\n  • *Expressões:* 'conhecer pessoas novas', 'encontrar-se no centro'.",
+        "**5. Decidir:** Tomada de decisão.\n  • *Frases simples:* 'Decido ficar', 'Decidir um plano'.\n  • *Nota importante:* Diz-se 'resolver um problema', NÃO 'decidir um problema'.\n  • *Expressões:* 'decidir rapidamente', 'tomar uma decisão'.",
+        "**6. Escrever / Ler / Digitar:** Escrita e leitura.\n  • *Frases simples:* 'Escrever um e-mail', 'Ler um livro', 'Digitar uma mensagem'.\n  • *Expressões:* 'escrever à mão', 'ler em voz alta', 'digitar rápido'.",
+        "**7. Gastar / Desperdiçar:** Gestão de recursos.\n  • *Frases simples:* 'Gastar dinheiro', 'Não desperdices o teu tempo!'.\n  • *Expressões:* 'gastar em', 'desperdiçar energia', 'passar tempo com a família'.",
+        "**8. Jogar / Tocar / Brincar (todas as variações):** Jogos, desportos, instrumentos, papéis.\n  • *Frases simples:* 'Jogar futebol / cartas', 'Tocar guitarra / piano', 'Fazer um papel no filme'.\n  • *Expressões:* 'tocar um instrumento', 'desempenhar um papel principal'.",
+        "**9. Concordar / Discordar:** Consenso e opinião.\n  • *Frases simples:* 'Concordo contigo', 'Não concordo'.\n  • *Expressões:* 'concordar com', 'chegar a um acordo'.",
+        "**10. Enviar / Receber:** Transmissão e receção.\n  • *Frases simples:* 'Enviar uma mensagem', 'Receber uma carta', 'Chegar à estação'.\n  • *Expressões:* 'enviar um e-mail', 'receber notícias'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Escolher / Comprar / Pagar (To Choose / Buy / Pay)",
+      "say": "1. Escolher / Comprar / Pagar (To Choose / Buy / Pay)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Três verbos que se seguem como numa loja: primeiro **escolhes**, depois **compras**, por fim **pagas**. Os três são regulares no presente. Repara que **escolher** tem **-lh-** (escolho, escolhes) e que **pagar** é regular mas no pretérito escreve **gu** (paguei). **Comprar** é o que fazes ao objeto; **pagar** é o que fazes ao dinheiro.",
+      "say": "Três verbos que se seguem como numa loja: primeiro escolhes, depois compras, por fim pagas. Os três são regulares no presente. Repara que escolher tem -lh- (escolho, escolhes) e que pagar é regular mas no pretérito escreve gu (paguei). Comprar é o que fazes ao objeto; pagar é o que fazes ao dinheiro."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Escolher",
+        "Comprar",
+        "Pagar",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "escolho",
+          "compro",
+          "pago",
+          "Escolho o pão, compro o leite e pago na caixa."
+        ],
+        [
+          "Tu",
+          "escolhes",
+          "compras",
+          "pagas",
+          "O que escolhes? Pagas tu?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "escolhe",
+          "compra",
+          "paga",
+          "Ela escolhe sempre o vestido vermelho."
+        ],
+        [
+          "Nós",
+          "escolhemos",
+          "compramos",
+          "pagamos",
+          "Compramos os bilhetes na internet."
+        ],
+        [
+          "Vocês",
+          "escolhem",
+          "compram",
+          "pagam",
+          "Pagam em dinheiro ou com cartão?"
+        ],
+        [
+          "Eles / Elas",
+          "escolhem",
+          "compram",
+          "pagam",
+          "Escolhem uma prenda para a avó."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Escolher:** 'escolher um livro', 'escolher bem', 'escolher entre duas coisas'.",
+        "**Comprar:** 'comprar pão', 'comprar online', 'comprar um bilhete / uma passagem'.",
+        "**Pagar:** 'pagar com cartão', 'pagar em dinheiro', 'pagar o jantar', 'Deixa, é por minha conta!' (= pago eu por todos)."
+      ],
+      "say": "Escolher: 'escolher um livro', 'escolher bem', 'escolher entre duas coisas'. Comprar: 'comprar pão', 'comprar online', 'comprar um bilhete / uma passagem'. Pagar: 'pagar com cartão', 'pagar em dinheiro', 'pagar o jantar', 'Deixa, é por minha conta!' (= pago eu por todos)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Escolho a camisola azul e compro-a online.",
+      "gloss": "Dois verbos em sequência: o pronome «-a» substitui a camisola (no Brasil: «e a compro» ou «e compro ela», na fala).",
+      "context": "Contas uma compra a uma amiga."
+    },
+    {
+      "type": "example",
+      "targetText": "Posso pagar com cartão? – Claro, aqui tem o talão.",
+      "gloss": "«Com cartão» indica o meio de pagamento. O talão (ou recibo) é a prova da compra.",
+      "context": "Estás numa loja."
+    },
+    {
+      "type": "example",
+      "targetText": "**Rui:** O que escolhes? **Ana:** Uma pizza de queijo. **Rui:** Deixa, hoje pago eu! **Ana:** Obrigada, és um amor!",
+      "gloss": "«Hoje pago eu» é a forma simpática de oferecer a refeição.",
+      "context": "Dois amigos pedem o jantar."
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Pagar, não comprar",
+      "wrong": "«Quero pagar este livro.»",
+      "right": "«Quero comprar este livro.»",
+      "why": "Em muitas línguas um só verbo cobre a compra e o pagamento. Em português, **comprar** é obter o objeto e **pagar** é entregar o dinheiro. Na loja, o livro compra-se; o que se paga é o preço, a conta ou o serviço.",
+      "rule": "**Comprar** + coisa que levas. **Pagar** + a conta, o preço, o jantar, ou **pagar com** cartão / dinheiro.",
+      "examples": [
+        "Compro um livro e pago na caixa.",
+        "Pago com o telemóvel / celular.",
+        "Quanto pago? – São dez euros / reais."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Na caixa: «Posso ___ com cartão?»",
+      "options": [
+        "comprar",
+        "pagar",
+        "escolher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diz-se «pagar com cartão». **Comprar** indica o que levas, não a forma como pagas.",
+      "say": "Na caixa: «Posso ___ com cartão?»"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Lembrar / Esquecer (To Remember / To Forget)",
+      "say": "2. Lembrar / Esquecer (To Remember / To Forget)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Lembrar-se** e **esquecer-se** têm dois modos. Com **de**, fala-se de uma coisa ou de uma ação: «Lembro-me do teu nome», «Esqueci-me de fechar a porta». Sem pronome, o objeto vem logo a seguir: «Esqueci as chaves». Em Portugal o pronome vem depois do verbo (lembro-me); no Brasil, na fala, vem antes (eu me lembro). Os dois estão corretos.",
+      "say": "Lembrar-se e esquecer-se têm dois modos. Com de, fala-se de uma coisa ou de uma ação: «Lembro-me do teu nome», «Esqueci-me de fechar a porta». Sem pronome, o objeto vem logo a seguir: «Esqueci as chaves». Em Portugal o pronome vem depois do verbo (lembro-me); no Brasil, na fala, vem antes (eu me lembro). Os dois estão corretos."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Lembrar-se",
+        "Esquecer-se",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "lembro-me",
+          "esqueço-me",
+          "Lembro-me do teu nome, mas esqueço-me da cara."
+        ],
+        [
+          "Tu",
+          "lembras-te",
+          "esqueces-te",
+          "Lembras-te da palavra-passe?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "lembra-se",
+          "esquece-se",
+          "Ela esquece-se sempre do guarda-chuva."
+        ],
+        [
+          "Nós",
+          "lembramo-nos",
+          "esquecemo-nos",
+          "Lembramo-nos da primeira aula."
+        ],
+        [
+          "Vocês",
+          "lembram-se",
+          "esquecem-se",
+          "Vocês esquecem-se das chaves todos os dias."
+        ],
+        [
+          "Eles / Elas",
+          "lembram-se",
+          "esquecem-se",
+          "Eles lembram-se de tudo."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Lembrar(-se):** 'lembrar-se de um nome', 'lembrar uma data', 'lembrar-se de + infinitivo'.",
+        "**Esquecer(-se):** 'esquecer as chaves', 'esquecer a palavra-passe', 'Não te esqueças!'.",
+        "**Expressões úteis:** 'Deu-me um branco', 'Tenho isso debaixo da língua', 'Já não me lembro', 'Que cabeça a minha!'."
+      ],
+      "say": "Lembrar(-se): 'lembrar-se de um nome', 'lembrar uma data', 'lembrar-se de + infinitivo'. Esquecer(-se): 'esquecer as chaves', 'esquecer a palavra-passe', 'Não te esqueças!'. Expressões úteis: 'Deu-me um branco', 'Tenho isso debaixo da língua', 'Já não me lembro', 'Que cabeça a minha!'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Lembras-te de como se chama o namorado da Joana?",
+      "gloss": "Lembrar-se de + pergunta indireta: como, onde, quando.",
+      "context": "Tentas recordar um nome."
+    },
+    {
+      "type": "example",
+      "targetText": "Esqueci a palavra-passe: tenho de a mudar.",
+      "gloss": "Esquecer + objeto: chaves, palavra-passe (BR: senha), guarda-chuva.",
+      "context": "Não consegues entrar no site."
+    },
+    {
+      "type": "example",
+      "targetText": "**Marta:** Esqueci-me de reservar a mesa! **Tiago:** Não faz mal, ligamos agora. **Marta:** Que cabeça a minha! **Tiago:** Acontece a todos.",
+      "gloss": "«Esquecer-se de + infinitivo» significa não fazer algo por distração.",
+      "context": "Dois colegas organizam um jantar."
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Esquecer ou esquecer-se?",
+      "wrong": "«Esqueci-me as chaves.»",
+      "right": "«Esqueci as chaves.» / «Esqueci-me das chaves.»",
+      "why": "Com **esquecer-se** é obrigatória a preposição **de**: esquecer-se **de** algo. Sem pronome, o objeto vem direto: esquecer algo. Misturar as duas estruturas (esquecer-se + objeto direto) é um erro muito frequente.",
+      "rule": "**Esquecer** + objeto. **Esquecer-se de** + objeto ou infinitivo. O mesmo vale para **lembrar** / **lembrar-se de**.",
+      "examples": [
+        "Esqueci o telefone em casa.",
+        "Esqueci-me de telefonar à avó.",
+        "Lembro-me de ti todos os dias."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Amanhã não te ___ de levar o passaporte!",
+      "options": [
+        "esquecer",
+        "esqueças",
+        "esqueces"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na negação usa-se o subjuntivo: «não te esqueças». No Brasil: «não se esqueça» ou «não esqueça».",
+      "say": "Amanhã não te ___ de levar o passaporte!"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentir-se (To Feel)",
+      "say": "3. Sentir-se (To Feel)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Sentir-se** serve para dizer como estás, no corpo ou nas emoções. É reflexivo, por isso leva sempre o pronome (me, te, se, nos) e um adjetivo ou um advérbio: «sinto-me bem», «sentes-te cansado». Atenção: frio, calor, fome, sede, sono e medo dizem-se com **ter**, não com **ser** nem **estar**: «tenho frio», «tens fome».",
+      "say": "Sentir-se serve para dizer como estás, no corpo ou nas emoções. É reflexivo, por isso leva sempre o pronome (me, te, se, nos) e um adjetivo ou um advérbio: «sinto-me bem», «sentes-te cansado». Atenção: frio, calor, fome, sede, sono e medo dizem-se com ter, não com ser nem estar: «tenho frio», «tens fome»."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Sentir-se",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "sinto-me",
+          "Hoje sinto-me um pouco cansado."
+        ],
+        [
+          "Tu",
+          "sentes-te",
+          "Como te sentes?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "sente-se",
+          "Ela sente-se em casa aqui."
+        ],
+        [
+          "Nós",
+          "sentimo-nos",
+          "Sentimo-nos muito felizes."
+        ],
+        [
+          "Vocês",
+          "sentem-se",
+          "Vocês sentem-se bem depois do exercício?"
+        ],
+        [
+          "Eles / Elas",
+          "sentem-se",
+          "Eles sentem-se tristes com a notícia."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Estados de espírito:** 'sentir-se feliz', 'sentir-se triste', 'sentir-se em forma', 'sentir-se mal'.",
+        "**Com ter:** 'ter frio', 'ter calor', 'ter fome', 'ter sede', 'ter sono', 'ter medo'.",
+        "**Expressões úteis:** 'sentir-se em casa', 'sentir-se culpado', 'Como te sentes?', 'Não me sinto bem'."
+      ],
+      "say": "Estados de espírito: 'sentir-se feliz', 'sentir-se triste', 'sentir-se em forma', 'sentir-se mal'. Com ter: 'ter frio', 'ter calor', 'ter fome', 'ter sede', 'ter sono', 'ter medo'. Expressões úteis: 'sentir-se em casa', 'sentir-se culpado', 'Como te sentes?', 'Não me sinto bem'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Hoje sinto-me um pouco cansado: dormi pouco.",
+      "gloss": "Sentir-se + adjetivo. O adjetivo concorda com quem fala: cansado / cansada.",
+      "context": "Falas com um colega de manhã."
+    },
+    {
+      "type": "example",
+      "targetText": "Tenho frio: empresta-me o casaco?",
+      "gloss": "Frio, calor, fome, sede e sono dizem-se com o verbo ter.",
+      "context": "Estás na esplanada com um amigo."
+    },
+    {
+      "type": "example",
+      "targetText": "**Inês:** Como te sentes? **Pedro:** Não muito bem, tenho dor de cabeça. **Inês:** Queres um chá? **Pedro:** Sim, obrigado, já me sinto melhor.",
+      "gloss": "«Como te sentes?» é a pergunta mais delicada para quem está doente.",
+      "context": "Falas com alguém constipado."
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Ter frio, não ser frio",
+      "wrong": "«Sou frio.» / «Estou frio.»",
+      "right": "«Tenho frio.»",
+      "why": "Em inglês diz-se «I am cold», e a tradução literal engana. Em português o frio, o calor, a fome, a sede e o sono «têm-se». Dizer «sou frio» muda o sentido: significa que tens um temperamento pouco afetuoso.",
+      "rule": "**Tenho** + frio / calor / fome / sede / sono / medo. **Sinto-me** + adjetivo (bem, mal, cansado).",
+      "examples": [
+        "Tenho sede, quero água.",
+        "Sinto-me feliz hoje.",
+        "Ela tem sono desde as oito."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "No inverno, sem casaco: «___ frio!»",
+      "options": [
+        "Sou",
+        "Sinto-me",
+        "Tenho"
+      ],
+      "correctIndex": 2,
+      "explanation": "Para o frio usa-se **ter**: «tenho frio». «Sinto-me frio» não é natural.",
+      "say": "No inverno, sem casaco: «___ frio!»"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Encontrar / Conhecer (To Meet / To Know)",
+      "say": "4. Encontrar / Conhecer (To Meet / To Know)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Encontrar** significa achar alguma coisa ou cruzar-se com alguém («encontrei as chaves», «encontrei a Rita no supermercado»). **Encontrar-se** é combinar um encontro: «encontramo-nos às cinco». **Conhecer** serve para conhecer uma pessoa pela primeira vez e para dizer que alguém ou algum lugar te é familiar: «Prazer em conhecer-te», «Conheço bem Lisboa».",
+      "say": "Encontrar significa achar alguma coisa ou cruzar-se com alguém («encontrei as chaves», «encontrei a Rita no supermercado»). Encontrar-se é combinar um encontro: «encontramo-nos às cinco». Conhecer serve para conhecer uma pessoa pela primeira vez e para dizer que alguém ou algum lugar te é familiar: «Prazer em conhecer-te», «Conheço bem Lisboa»."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Encontrar",
+        "Conhecer",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "encontro",
+          "conheço",
+          "Encontro amigos no centro. Conheço bem esta cidade."
+        ],
+        [
+          "Tu",
+          "encontras",
+          "conheces",
+          "Onde encontras tempo? Conheces a Rita?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "encontra",
+          "conhece",
+          "Ela conhece toda a gente no bairro."
+        ],
+        [
+          "Nós",
+          "encontramos",
+          "conhecemos",
+          "Encontramo-nos às cinco na estação."
+        ],
+        [
+          "Vocês",
+          "encontram",
+          "conhecem",
+          "Vocês conhecem um bom restaurante?"
+        ],
+        [
+          "Eles / Elas",
+          "encontram",
+          "conhecem",
+          "Eles encontram sempre um lugar para estacionar."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Encontrar:** 'encontrar amigos', 'encontrar as chaves', 'encontrar-se com alguém', 'encontrar por acaso'.",
+        "**Conhecer:** 'conhecer pessoas novas', 'conhecer uma cidade', 'conhecer a família', 'conhecer de vista'.",
+        "**Expressões úteis:** 'Prazer em conhecer-te', 'O prazer é meu!', 'Até breve', 'Combinamos às cinco?'."
+      ],
+      "say": "Encontrar: 'encontrar amigos', 'encontrar as chaves', 'encontrar-se com alguém', 'encontrar por acaso'. Conhecer: 'conhecer pessoas novas', 'conhecer uma cidade', 'conhecer a família', 'conhecer de vista'. Expressões úteis: 'Prazer em conhecer-te', 'O prazer é meu!', 'Até breve', 'Combinamos às cinco?'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Encontrei a Carla no supermercado: que surpresa!",
+      "gloss": "Encontrar + pessoa, sem preposição, quando é um encontro por acaso.",
+      "context": "Contas um encontro casual."
+    },
+    {
+      "type": "example",
+      "targetText": "Muito prazer em conhecê-lo. – O prazer é meu!",
+      "gloss": "Na primeira apresentação formal usa-se «muito prazer» e o tratamento por «o senhor / a senhora» ou «você».",
+      "context": "Apresentam-te o diretor."
+    },
+    {
+      "type": "example",
+      "targetText": "**Leo:** Onde nos encontramos? **Sara:** À frente da estação, às seis. **Leo:** Perfeito, vemo-nos no cais dois. **Sara:** Até logo!",
+      "gloss": "«Encontramo-nos» e «vemo-nos» fixam um lugar e uma hora.",
+      "context": "Dois amigos combinam a noite."
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Conhecer, não encontrar",
+      "wrong": "«Encontro a Maria desde 2020.»",
+      "right": "«Conheço a Maria desde 2020.»",
+      "why": "Em muitas línguas um só verbo traduz *meet* e *know*. Em português, **conhecer** exprime familiaridade ou a primeira vez que vês alguém; **encontrar** exprime achar algo ou cruzar-te com alguém num momento preciso.",
+      "rule": "**Conhecer** + pessoa / lugar (familiaridade). **Encontrar** + coisa ou pessoa num momento. **Encontrar-se com** + pessoa para combinar.",
+      "examples": [
+        "Conheço o Pedro há dez anos.",
+        "Encontro o Pedro às cinco na estação.",
+        "Encontrei o telefone debaixo do sofá."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Amanhã vou ___ com os meus colegas para almoçar.",
+      "options": [
+        "encontrar",
+        "encontrar-me",
+        "encontro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Para um encontro combinado usa-se o reflexivo: «encontrar-me com os meus colegas». Em alternativa: «vou ver os meus colegas».",
+      "say": "Amanhã vou ___ com os meus colegas para almoçar."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Decidir (To Decide)",
+      "say": "5. Decidir (To Decide)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Decidir** é regular no presente. Usa-se com um infinitivo direto («decido partir», «decidi ficar») ou com um objeto («decidir o menu»). Quando o problema é uma dificuldade a desfazer, não se decide: **resolve-se**. Na lista de hoje aparece por isso também **resolver**.",
+      "say": "Decidir é regular no presente. Usa-se com de + infinitivo («decido partir» e «decidi de partir» são ambos usados; no uso formal prefere-se sem preposição) ou com um objeto («decidir o menu»). Quando o problema é uma dificuldade a desfazer, não se decide: resolve-se. Na lista de hoje aparece por isso também resolver."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Decidir",
+        "Resolver",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "decido",
+          "resolvo",
+          "Decido ficar em casa. Resolvo o exercício."
+        ],
+        [
+          "Tu",
+          "decides",
+          "resolves",
+          "Decides tu? Resolves o problema?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "decide",
+          "resolve",
+          "Ela decide tudo muito depressa."
+        ],
+        [
+          "Nós",
+          "decidimos",
+          "resolvemos",
+          "Decidimos o menu juntos."
+        ],
+        [
+          "Vocês",
+          "decidem",
+          "resolvem",
+          "Resolvem os problemas em equipa."
+        ],
+        [
+          "Eles / Elas",
+          "decidem",
+          "resolvem",
+          "Eles decidem hoje a data da viagem."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Decidir:** 'decidir ficar', 'decidir um plano', 'decidir depressa', 'decidir o menu'.",
+        "**Resolver:** 'resolver um problema', 'resolver uma dúvida', 'resolver um exercício'.",
+        "**Expressões úteis:** 'tomar uma decisão', 'Vou pensar', 'Fica a teu critério', 'Decide tu!'."
+      ],
+      "say": "Decidir: 'decidir ficar', 'decidir um plano', 'decidir depressa', 'decidir o menu'. Resolver: 'resolver um problema', 'resolver uma dúvida', 'resolver um exercício'. Expressões úteis: 'tomar uma decisão', 'Vou pensar', 'Fica a teu critério', 'Decide tu!'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Já decidi: a partir de segunda-feira aprendo dez palavras por dia.",
+      "gloss": "Decidir + frase inteira, depois de dois pontos, ou decidir + infinitivo.",
+      "context": "Fazes um bom propósito."
+    },
+    {
+      "type": "example",
+      "targetText": "O computador não funciona, mas consigo resolver o problema.",
+      "gloss": "Um problema resolve-se; não se decide.",
+      "context": "Falas com um técnico."
+    },
+    {
+      "type": "example",
+      "targetText": "**Bia:** Cinema ou jantar? **Dani:** Decide tu! **Bia:** Então jantar e um filme em casa. **Dani:** Perfeito, está decidido!",
+      "gloss": "«Decide tu» = deixo a escolha para ti.",
+      "context": "Dois amigos não conseguem escolher."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Resolver um problema",
+      "wrong": "«Decido um problema.»",
+      "right": "«Resolvo um problema.»",
+      "why": "Em muitas línguas usa-se o mesmo verbo para *decidir* e *resolver*. Em português, **decidir** significa escolher entre duas ou mais possibilidades. Um problema, uma dúvida ou um exercício não se escolhem: **resolvem-se**.",
+      "rule": "**Decidir** + infinitivo / uma escolha. **Resolver** + problema, dúvida, exercício.",
+      "examples": [
+        "Decido ficar em casa.",
+        "Resolvemos o problema juntos.",
+        "Já decidi, vou convosco."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Não sei o que fazer: ___ amanhã.",
+      "options": [
+        "resolvo",
+        "decido",
+        "decidimos um problema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se tens de escolher, «decido amanhã» está certo. Para um problema usarias «resolvo».",
+      "say": "Não sei o que fazer: ___ amanhã."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Escrever / Ler / Digitar (To Write / Read / Type)",
+      "say": "6. Escrever / Ler / Digitar (To Write / Read / Type)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Escrever** e **ler** são os dois verbos da palavra escrita: um produz, o outro recebe. **Digitar** é mais técnico e significa bater nas teclas: digita-se uma mensagem, um endereço, um código. Em Portugal diz-se muitas vezes «escrever no teclado». Cuidado com **ler**: lê (ele), mas **leem** (eles), sem acento desde o Acordo Ortográfico.",
+      "say": "Escrever e ler são os dois verbos da palavra escrita: um produz, o outro recebe. Digitar é mais técnico e significa bater nas teclas: digita-se uma mensagem, um endereço, um código. Em Portugal diz-se muitas vezes «escrever no teclado». Cuidado com ler: lê (ele), mas leem (eles), sem acento desde o Acordo Ortográfico."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Escrever",
+        "Ler",
+        "Digitar",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "escrevo",
+          "leio",
+          "digito",
+          "Escrevo um e-mail e leio a resposta."
+        ],
+        [
+          "Tu",
+          "escreves",
+          "lês",
+          "digitas",
+          "O que lês? Digitas o código?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "escreve",
+          "lê",
+          "digita",
+          "Ela lê o jornal todas as manhãs."
+        ],
+        [
+          "Nós",
+          "escrevemos",
+          "lemos",
+          "digitamos",
+          "Escrevemos uma lista de compras."
+        ],
+        [
+          "Vocês",
+          "escrevem",
+          "leem",
+          "digitam",
+          "Vocês leem o texto da página dez."
+        ],
+        [
+          "Eles / Elas",
+          "escrevem",
+          "leem",
+          "digitam",
+          "Eles digitam o número no telefone."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Escrever:** 'escrever um e-mail', 'escrever à mão', 'escrever uma carta', 'escrever a alguém'.",
+        "**Ler:** 'ler um livro', 'ler em voz alta', 'ler o menu', 'ler nas entrelinhas'.",
+        "**Digitar:** 'digitar uma mensagem', 'digitar no computador', 'digitar a senha', 'escrever no teclado'."
+      ],
+      "say": "Escrever: 'escrever um e-mail', 'escrever à mão', 'escrever uma carta', 'escrever a alguém'. Ler: 'ler um livro', 'ler em voz alta', 'ler o menu', 'ler nas entrelinhas'. Digitar: 'digitar uma mensagem', 'digitar no computador', 'digitar a senha', 'escrever no teclado'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Escrevo-te logo à noite, agora estou a trabalhar.",
+      "gloss": "Escrever + pessoa: «escrevo-te» (BR: «te escrevo» ou «escrevo para você»).",
+      "context": "Respondes a um amigo."
+    },
+    {
+      "type": "example",
+      "targetText": "Leio todos os dias dez páginas em voz alta.",
+      "gloss": "Ler em voz alta ajuda a pronúncia e o ritmo.",
+      "context": "Falas do teu hábito de estudo."
+    },
+    {
+      "type": "example",
+      "targetText": "**Lia:** Estás a escrever a quem? **Nuno:** Ao meu chefe, mas não consigo digitar com estas mãos frias. **Lia:** Lê em voz alta antes de enviar. **Nuno:** Boa ideia, já me corrigi duas vezes!",
+      "gloss": "«Ler em voz alta» ajuda a encontrar erros antes de enviar.",
+      "context": "Dois colegas no escritório."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Eles leem, sem acento",
+      "wrong": "«Eles lêem muito.»",
+      "right": "«Eles leem muito.»",
+      "why": "Antes do Acordo Ortográfico escrevia-se **lêem** com acento circunflexo. Hoje o circunflexo desaparece em **leem** (eles / vocês) e em **veem**, mas mantém-se em **lê** (ele). Muitos livros antigos ainda mostram a forma anterior.",
+      "rule": "**Ele lê** (um acento) / **eles leem** (sem acento). **Escrever** → escrevo; **ler** → leio.",
+      "examples": [
+        "Ela lê o jornal.",
+        "Eles leem o jornal.",
+        "Vocês leem e eu escrevo."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ela ___ o jornal todas as manhãs.",
+      "options": [
+        "lê",
+        "le",
+        "leem"
+      ],
+      "correctIndex": 0,
+      "explanation": "A forma de **ele / ela** leva acento: «lê». «Leem» é para eles e vocês.",
+      "say": "Ela ___ o jornal todas as manhãs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Gastar / Desperdiçar (To Spend / To Waste)",
+      "say": "7. Gastar / Desperdiçar (To Spend / To Waste)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Gastar** refere-se ao dinheiro (gastar uma quantia em algo), mas também a energia e a eletricidade. **Desperdiçar** significa usar mal um recurso: dinheiro, tempo, comida, energia. O tempo, porém, não se gasta nos bons momentos: **passa-se** (passar o tempo, passar as férias). Cuidado com a ortografia: desperdi**ç**o (com cedilha) mas desperdi**ç**as, desperdi**ç**a.",
+      "say": "Gastar refere-se ao dinheiro (gastar uma quantia em algo), mas também a energia e a eletricidade. Desperdiçar significa usar mal um recurso: dinheiro, tempo, comida, energia. O tempo, porém, não se gasta nos bons momentos: passa-se (passar o tempo, passar as férias). Cuidado com a ortografia: desperdiço (com cedilha) mas desperdiças, desperdiça."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Gastar",
+        "Desperdiçar",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "gasto",
+          "desperdiço",
+          "Gasto muito, mas não desperdiço comida."
+        ],
+        [
+          "Tu",
+          "gastas",
+          "desperdiças",
+          "Quanto gastas por mês?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "gasta",
+          "desperdiça",
+          "Ele gasta muito em livros."
+        ],
+        [
+          "Nós",
+          "gastamos",
+          "desperdiçamos",
+          "Não desperdiçamos a água!"
+        ],
+        [
+          "Vocês",
+          "gastam",
+          "desperdiçam",
+          "Vocês desperdiçam muito tempo ao telefone."
+        ],
+        [
+          "Eles / Elas",
+          "gastam",
+          "desperdiçam",
+          "Eles gastam mais do que ganham."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gastar:** 'gastar dinheiro', 'gastar em', 'gastar pouco', 'gastar demais'.",
+        "**Desperdiçar:** 'desperdiçar tempo', 'desperdiçar energia', 'desperdiçar comida', 'Não desperdices!'.",
+        "**Tempo:** 'passar o tempo', 'passar o fim de semana', 'perder tempo', 'perdi uma hora na fila'."
+      ],
+      "say": "Gastar: 'gastar dinheiro', 'gastar em', 'gastar pouco', 'gastar demais'. Desperdiçar: 'desperdiçar tempo', 'desperdiçar energia', 'desperdiçar comida', 'Não desperdices!'. Tempo: 'passar o tempo', 'passar o fim de semana', 'perder tempo', 'perdi uma hora na fila'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Gasto demasiado em café: vou fazer um orçamento.",
+      "gloss": "Gastar + dinheiro + em + coisa. Demasiado (PT) / demais (BR).",
+      "context": "Falas das tuas despesas."
+    },
+    {
+      "type": "example",
+      "targetText": "Não desperdices comida: o que sobra guarda-se no frigorífico.",
+      "gloss": "Desperdiçar = usar mal um recurso. O imperativo negativo usa o subjuntivo.",
+      "context": "Dizes a um colega que não deite fora a comida."
+    },
+    {
+      "type": "example",
+      "targetText": "**Joana:** Quanto gastaste na feira? **Sérgio:** Vinte euros, mas não desperdicei nada. **Joana:** Passámos duas horas lá! **Sérgio:** Foi uma manhã bem passada.",
+      "gloss": "«Passar o tempo» fala de como se vive o tempo; «desperdiçar» fala de o usar mal.",
+      "context": "Dois amigos voltam da feira."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Passar o tempo, não gastar",
+      "wrong": "«Gasto o fim de semana em casa.»",
+      "right": "«Passo o fim de semana em casa.»",
+      "why": "Em inglês *spend time* usa-se o mesmo verbo que *spend money*. Em português separam-se: **gastar** é para dinheiro e recursos, e **passar** é para o tempo que vives. Dizer «gasto o fim de semana» sugere que o desperdiçaste.",
+      "rule": "**Gastar** + dinheiro / energia. **Passar** + tempo (o fim de semana, as férias). **Desperdiçar** + recurso mal usado.",
+      "examples": [
+        "Passo as férias com a família.",
+        "Gasto cinquenta euros por semana.",
+        "Não desperdiço energia."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Onde ___ as férias deste ano?",
+      "options": [
+        "gastas",
+        "passas",
+        "desperdiças"
+      ],
+      "correctIndex": 1,
+      "explanation": "As férias **passam-se**: «Onde passas as férias?». «Gastar» e «desperdiçar» mudam o sentido.",
+      "say": "Onde ___ as férias deste ano?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Jogar / Tocar / Brincar (To Play)",
+      "say": "8. Jogar / Tocar / Brincar (To Play)"
+    },
+    {
+      "type": "paragraph",
+      "text": "O inglês tem só *play*, mas o português separa três verbos. **Jogar** serve para desportos e jogos (futebol, cartas, xadrez). **Tocar** serve para instrumentos musicais (guitarra, piano) e também para o toque do telefone ou da campainha. **Brincar** é o que fazem as crianças, ou o que fazes quando não falas a sério. Para um papel num filme usa-se **fazer** ou **interpretar**.",
+      "say": "O inglês tem só play, mas o português separa três verbos. Jogar serve para desportos e jogos (futebol, cartas, xadrez). Tocar serve para instrumentos musicais (guitarra, piano) e também para o toque do telefone ou da campainha. Brincar é o que fazem as crianças, ou o que fazes quando não falas a sério. Para um papel num filme usa-se fazer ou interpretar."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Jogar",
+        "Tocar",
+        "Brincar",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "jogo",
+          "toco",
+          "brinco",
+          "Jogo futebol, toco guitarra e brinco com o meu sobrinho."
+        ],
+        [
+          "Tu",
+          "jogas",
+          "tocas",
+          "brincas",
+          "Jogas ténis (BR: tênis)? Tocas piano?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "joga",
+          "toca",
+          "brinca",
+          "Ela toca violino muito bem."
+        ],
+        [
+          "Nós",
+          "jogamos",
+          "tocamos",
+          "brincamos",
+          "Jogamos cartas ao domingo."
+        ],
+        [
+          "Vocês",
+          "jogam",
+          "tocam",
+          "brincam",
+          "Os miúdos brincam no jardim."
+        ],
+        [
+          "Eles / Elas",
+          "jogam",
+          "tocam",
+          "brincam",
+          "Eles jogam xadrez e brincam com o cão."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Jogar:** 'jogar futebol', 'jogar às cartas' (BR: 'jogar cartas'), 'jogar xadrez', 'jogar um jogo'.",
+        "**Tocar:** 'tocar guitarra', 'tocar piano', 'tocar numa banda', 'o telefone toca'.",
+        "**Brincar / outros:** 'brincar com', 'estar a brincar' (= não falar a sério), 'fazer um papel', 'interpretar uma personagem'."
+      ],
+      "say": "Jogar: 'jogar futebol', 'jogar às cartas' (BR: 'jogar cartas'), 'jogar xadrez', 'jogar um jogo'. Tocar: 'tocar guitarra', 'tocar piano', 'tocar numa banda', 'o telefone toca'. Brincar / outros: 'brincar com', 'estar a brincar' (= não falar a sério), 'fazer um papel', 'interpretar uma personagem'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Ao domingo jogo futebol com os meus amigos.",
+      "gloss": "Jogar + desporto ou jogo, sem preposição (em Portugal também «jogar ao futebol»).",
+      "context": "Falas do teu tempo livre."
+    },
+    {
+      "type": "example",
+      "targetText": "Ela toca piano desde os seis anos.",
+      "gloss": "Tocar + instrumento. Também se diz «tocar guitarra», «tocar violino».",
+      "context": "Falas de uma amiga músico."
+    },
+    {
+      "type": "example",
+      "targetText": "**Gui:** Jogas à bola amanhã? **Mel:** Posso, mas depois toco na banda. **Gui:** Estás a brincar? Tens tempo para tudo! **Mel:** Estou a brincar, só jogo meia hora.",
+      "gloss": "«Estar a brincar» (BR: «estar brincando») significa não falar a sério.",
+      "context": "Dois amigos combinam o fim de semana."
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Jogar ou tocar?",
+      "wrong": "«Toco futebol.»",
+      "right": "«Jogo futebol.»",
+      "why": "Quem vem do inglês diz *play* para tudo. Em português, o desporto e o jogo pedem **jogar**, e o instrumento pede **tocar**. Trocá-los soa estranho: «tocar futebol» não existe, e «jogar piano» também não.",
+      "rule": "**Jogar** + desporto / jogo. **Tocar** + instrumento. **Brincar** + crianças ou ironia.",
+      "examples": [
+        "Jogo cartas com a minha mãe.",
+        "Toco guitarra aos domingos.",
+        "Não estou a falar a sério, estou a brincar."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ele ___ piano muito bem.",
+      "options": [
+        "joga",
+        "toca",
+        "brinca"
+      ],
+      "correctIndex": 1,
+      "explanation": "O instrumento pede **tocar**: «toca piano». **Jogar** é para desportos e jogos.",
+      "say": "Ele ___ piano muito bem."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Concordar / Discordar (To Agree / Disagree)",
+      "say": "9. Concordar / Discordar (To Agree / Disagree)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para dar uma opinião o português tem o verbo **concordar** e a expressão **estar de acordo**. Diz-se «concordo contigo» (com pessoa), «concordo com a ideia» (com coisa) ou «estou de acordo». Ao contrário, **discordar** (**de**) ou «não estou de acordo». Numa resposta curta chega «Concordo!», «Claro!» ou «Exatamente!».",
+      "say": "Para dar uma opinião o português tem o verbo concordar e a expressão estar de acordo. Diz-se «concordo contigo» (com pessoa), «concordo com a ideia» (com coisa) ou «estou de acordo». Ao contrário, discordar (de) ou «não estou de acordo». Numa resposta curta chega «Concordo!», «Claro!» ou «Exatamente!»."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Concordar",
+        "Discordar",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "concordo",
+          "discordo",
+          "Concordo contigo. Discordo do preço."
+        ],
+        [
+          "Tu",
+          "concordas",
+          "discordas",
+          "Concordas com a proposta?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "concorda",
+          "discorda",
+          "Ele não concorda connosco (BR: conosco)."
+        ],
+        [
+          "Nós",
+          "concordamos",
+          "discordamos",
+          "Concordamos no preço."
+        ],
+        [
+          "Vocês",
+          "concordam",
+          "discordam",
+          "Vocês concordam sobre onde ir?"
+        ],
+        [
+          "Eles / Elas",
+          "concordam",
+          "discordam",
+          "Eles discordam de tudo."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Com uma pessoa:** 'concordar com o João', 'concordar contigo', 'concordar com o professor'.",
+        "**Com um tema:** 'concordar com a ideia', 'concordar sobre o preço', 'estar de acordo'.",
+        "**Expressões úteis:** 'chegar a um acordo', 'Tens razão', 'Não creio', 'Combinado!' (= está bem)."
+      ],
+      "say": "Com uma pessoa: 'concordar com o João', 'concordar contigo', 'concordar com o professor'. Com um tema: 'concordar com a ideia', 'concordar sobre o preço', 'estar de acordo'. Expressões úteis: 'chegar a um acordo', 'Tens razão', 'Não creio', 'Combinado!' (= está bem)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Concordo contigo: é uma ótima ideia!",
+      "gloss": "Concordar com + pessoa.",
+      "context": "Respondes à proposta de um colega."
+    },
+    {
+      "type": "example",
+      "targetText": "Não concordo com o preço: parece-me demasiado alto.",
+      "gloss": "Concordar / discordar + com / de + tema.",
+      "context": "Falas numa loja."
+    },
+    {
+      "type": "example",
+      "targetText": "**Rita:** Vamos à praia no domingo? **Hugo:** Concordo, mas vejamos a previsão. **Rita:** Tens razão, decidimos no sábado. **Hugo:** Combinado!",
+      "gloss": "«Combinado!» como resposta curta significa «está bem».",
+      "context": "Dois amigos marcam uma saída."
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Concordar ou estar de acordo",
+      "wrong": "«Eu estou concordo contigo.»",
+      "right": "«Concordo contigo.» / «Estou de acordo contigo.»",
+      "why": "Muitos aprendizes misturam as duas formas e dizem «estou concordo» ou «sou de acordo». Em português usa-se **concordar** (um verbo) ou **estar de acordo** (uma expressão), nunca as duas ao mesmo tempo.",
+      "rule": "**Concordo** com + pessoa / ideia. **Estou de acordo** com + pessoa / ideia. **Discordo de** + coisa.",
+      "examples": [
+        "Não concordamos na cor.",
+        "Concordas comigo?",
+        "Vocês estão de acordo com o horário?"
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Eu ___ contigo: é uma boa ideia!",
+      "options": [
+        "sou de acordo",
+        "estou concordo",
+        "concordo"
+      ],
+      "correctIndex": 2,
+      "explanation": "A forma correta é «concordo contigo» (ou «estou de acordo contigo»).",
+      "say": "Eu ___ contigo: é uma boa ideia!"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Enviar / Receber (To Send / To Receive)",
+      "say": "10. Enviar / Receber (To Send / To Receive)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Enviar** é o verbo mais formal para transmitir (enviar um e-mail, um documento). Na conversa diária ouve-se muito **mandar** («manda-me uma mensagem»). **Receber** é o contrário: chega-te algo (uma carta, uma notícia). Para pessoas e transportes usa-se **chegar**. **Receber** também significa acolher visitas: «receber amigos em casa».",
+      "say": "Enviar é o verbo mais formal para transmitir (enviar um e-mail, um documento). Na conversa diária ouve-se muito mandar («manda-me uma mensagem»). Receber é o contrário: chega-te algo (uma carta, uma notícia). Para pessoas e transportes usa-se chegar. Receber também significa acolher visitas: «receber amigos em casa»."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Enviar",
+        "Receber",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "envio",
+          "recebo",
+          "Envio o documento e recebo a confirmação."
+        ],
+        [
+          "Tu",
+          "envias",
+          "recebes",
+          "Envias-me o contrato? Recebes o meu e-mail?"
+        ],
+        [
+          "Ele / Ela / Você",
+          "envia",
+          "recebe",
+          "Ela recebe muitas cartas."
+        ],
+        [
+          "Nós",
+          "enviamos",
+          "recebemos",
+          "Enviamos uma mensagem a todos."
+        ],
+        [
+          "Vocês",
+          "enviam",
+          "recebem",
+          "Vocês recebem as notícias todos os dias?"
+        ],
+        [
+          "Eles / Elas",
+          "enviam",
+          "recebem",
+          "Eles enviam a encomenda amanhã."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Enviar / mandar:** 'enviar um e-mail', 'mandar uma mensagem', 'mandar uma encomenda'.",
+        "**Receber:** 'receber notícias', 'receber uma carta', 'receber um presente', 'receber convidados'.",
+        "**Chegar:** 'chegar à estação', 'chegar a horas', 'A encomenda chegou'."
+      ],
+      "say": "Enviar / mandar: 'enviar um e-mail', 'mandar uma mensagem', 'mandar uma encomenda'. Receber: 'receber notícias', 'receber uma carta', 'receber um presente', 'receber convidados'. Chegar: 'chegar à estação', 'chegar a horas', 'A encomenda chegou'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Mando-te já a foto: recebes daqui a um minuto.",
+      "gloss": "Mandar é a forma quotidiana de enviar.",
+      "context": "Falas com um amigo ao telefone."
+    },
+    {
+      "type": "example",
+      "targetText": "Recebi o teu e-mail, obrigado: respondo amanhã.",
+      "gloss": "Receber + objeto. O pretérito perfeito usa só o verbo no pretérito: «recebi».",
+      "context": "Respondes a um cliente."
+    },
+    {
+      "type": "example",
+      "targetText": "**Vera:** Já recebeste a encomenda? **Ivo:** Ainda não, mas o estafeta diz que chega hoje. **Vera:** Se chegar, manda-me uma foto? **Ivo:** Claro!",
+      "gloss": "A encomenda «chega»; tu «recebes» a encomenda.",
+      "context": "Dois amigos esperam uma entrega."
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Receber, não apanhar",
+      "wrong": "«Apanhei uma mensagem da Ana.»",
+      "right": "«Recebi uma mensagem da Ana.»",
+      "why": "Em português, o que te chega (uma mensagem, uma carta, um presente) **recebe-se**. **Apanhar** (BR: **pegar**) quer dizer agarrar, tomar um transporte ou ser surpreendido: «apanhar o comboio», «apanhar chuva».",
+      "rule": "**Receber** + mensagem, carta, presente, notícias. **Apanhar / pegar** + comboio / ônibus, objeto. **Enviar / mandar** + coisa.",
+      "examples": [
+        "Recebo muitos e-mails.",
+        "Apanho o comboio das seis.",
+        "Mando-te a foto agora."
+      ],
+      "labels": {
+        "wrong": "Não é bem assim",
+        "right": "Melhor dizer",
+        "why": "Porque se erra",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A tua vez"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ontem ___ uma carta do banco.",
+      "options": [
+        "apanhei",
+        "recebi",
+        "enviei"
+      ],
+      "correctIndex": 1,
+      "explanation": "O que te chega **recebe-se**: «recebi uma carta».",
+      "say": "Ontem ___ uma carta do banco."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Pagar a conta: «A conta, por favor!»",
+      "content": "Em Portugal e no Brasil, num restaurante, ninguém traz a conta sem a pedires: faz-se um gesto discreto ao empregado e diz-se «A conta, por favor». Em Portugal, o couvert (pão, azeitonas, queijo) chega à mesa sem o pedires, mas só se paga se o comeres; se não o quiseres, devolve-o simplesmente. No Brasil, é comum a conta incluir uma taxa de serviço de cerca de dez por cento, por isso convém olhar para o talão antes de deixar gorjeta. Dividir a conta entre amigos é normal, e quando alguém quer oferecer diz «Deixa, é por minha conta!» ou «Hoje pago eu». Aceita com um sorriso e paga tu da próxima vez. Aprender estes pequenos rituais ajuda-te a sentir-te em casa muito mais do que as regras de gramática.",
+      "say": "Pagar a conta: A conta, por favor! Num restaurante, ninguém traz a conta sem a pedires: faz-se um gesto ao empregado e diz-se: A conta, por favor. Em Portugal, o couvert chega à mesa sem o pedires, mas só se paga se o comeres. No Brasil, é comum a conta incluir uma taxa de serviço de cerca de dez por cento. Dividir a conta entre amigos é normal, e quando alguém quer oferecer diz: Deixa, é por minha conta! Aceita com um sorriso e paga tu da próxima vez."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Conhecer pessoas: beijinhos, apertos de mão e «prazer!»",
+      "content": "Quando conheces alguém, a forma de cumprimentar muda com o país e a situação. Em Portugal, entre pessoas que se apresentam num ambiente informal, é habitual dar dois beijinhos (um em cada face). Em contextos formais, como uma reunião de trabalho, o aperto de mão é a regra. No Brasil, o número de beijinhos varia de região para região, e entre homens costuma haver um aperto de mão ou um abraço. A resposta mais comum a «Muito prazer em conhecê-lo» é «O prazer é meu!» ou, entre pessoas da mesma idade, simplesmente «Prazer!». Se não souberes o que fazer, espera um segundo e acompanha o gesto do outro: ninguém leva a mal. Na hora de marcar um encontro, ouve-se muito «Combinamos às cinco?» e a resposta «Combinado!».",
+      "say": "Conhecer pessoas: beijinhos, apertos de mão e prazer! Quando conheces alguém, a forma de cumprimentar muda com o país e a situação. Em Portugal, num ambiente informal, é habitual dar dois beijinhos. Em contextos formais, o aperto de mão é a regra. No Brasil, o número de beijinhos varia de região para região. A resposta mais comum a: Muito prazer em conhecê-lo, é: O prazer é meu! Se não souberes o que fazer, espera um segundo e acompanha o gesto do outro: ninguém leva a mal."
     },
     {
       "type": "heading",
@@ -259,20 +1586,80 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Estruturas gramaticais (A0–A1 / A2)"
+      "text": "Estruturas gramaticais (A0–A1 / A2)",
+      "say": "Estruturas gramaticais (A0–A1 / A2)"
     },
     {
-      "type": "paragraph",
-      "text": "• **Estruturas simples:** Sujeito + Verbo + Complemento.\n• **Diferença importante:** 'Jogar' (desportos/jogos) vs 'Tocar' (instrumentos musicais).\n• **Conjugações:** Todos os tempos estão disponíveis no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Frases simples:** Sujeito + Verbo + Complemento: «Compro o pão.»",
+        "**Distinção fundamental:** 'Jogar' (desportos e jogos) vs 'Tocar' (instrumentos musicais) vs 'Brincar' (crianças, ou sem seriedade).",
+        "**Verbos reflexivos:** sentir-se, encontrar-se, lembrar-se, esquecer-se (sinto-me, encontramo-nos, lembro-me, esqueci-me). No Brasil o pronome costuma ficar antes do verbo.",
+        "**Preposições depois dos verbos:** concordar **com**, discordar **de**, lembrar-se **de**, esquecer-se **de**, pagar **com**, jogar (**a**/**ao** em Portugal).",
+        "**Pretérito perfeito:** comprei, escolhi, decidi, escrevi, li, gastei, recebi.",
+        "**Conjugações:** Todos os tempos estão disponíveis no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ],
+      "say": "Frases simples: Sujeito + Verbo + Complemento: «Compro o pão.» Distinção fundamental: 'Jogar' (desportos e jogos) vs 'Tocar' (instrumentos musicais) vs 'Brincar' (crianças, ou sem seriedade). Verbos reflexivos: sentir-se, encontrar-se, lembrar-se, esquecer-se (sinto-me, encontramo-nos, lembro-me, esqueci-me). No Brasil o pronome costuma ficar antes do verbo. Preposições depois dos verbos: concordar com, discordar de, lembrar-se de, esquecer-se de, pagar com, jogar (a/ao em Portugal). Pretérito perfeito: comprei, escolhi, decidi, escrevi, li, gastei, recebi. Conjugações: Todos os tempos estão disponíveis no COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Prática e recursos"
+      "text": "A tua rotina oral de 5 minutos",
+      "say": "A tua rotina oral de 5 minutos"
     },
     {
       "type": "paragraph",
-      "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html), a [Parte 2](top-10-verbs-part-2-pt.html) e a [Parte 3](top-10-verbs-part-3-pt.html), e consulte as conjugações no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Cinco minutos por dia, em voz alta, valem mais do que uma hora de leitura silenciosa ao domingo. Repete este plano durante uma semana: <mark class=\"hl-handwritten\">um minuto por passo, não mais</mark>.",
+      "say": "Cinco minutos por dia, em voz alta, valem mais do que uma hora de leitura silenciosa ao domingo. Repete este plano durante uma semana: um minuto por passo, não mais."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minuto 1, aquecimento:** diz em voz alta as seis formas de escolher, jogar e sentir-se, sem olhar para as tabelas.",
+        "**Minuto 2, três verbos, três frases:** escolhe três verbos e diz uma frase verdadeira sobre a tua vida para cada um: «Hoje sinto-me…», «Decido…», «Jogo…».",
+        "**Minuto 3, caça ao erro:** relê um cartão «Não é bem assim» e repete três vezes a frase certa, mudando o sujeito de cada vez.",
+        "**Minuto 4, mini-diálogo:** representa as duas vozes de um diálogo, por exemplo «Hoje pago eu!» ou «Concordo, mas…», e grava-te com o telefone.",
+        "**Minuto 5, reaudição:** ouve a gravação e escolhe uma frase para guardar até amanhã. Escreve-a num papelinho junto à secretária."
+      ],
+      "say": "Minuto 1, aquecimento: diz em voz alta as seis formas de escolher, jogar e sentir-se, sem olhar para as tabelas. Minuto 2, três verbos, três frases: escolhe três verbos e diz uma frase verdadeira sobre a tua vida para cada um: «Hoje sinto-me…», «Decido…», «Jogo…». Minuto 3, caça ao erro: relê um cartão «Não é bem assim» e repete três vezes a frase certa, mudando o sujeito de cada vez. Minuto 4, mini-diálogo: representa as duas vozes de um diálogo, por exemplo «Hoje pago eu!» ou «Concordo, mas…», e grava-te com o telefone. Minuto 5, reaudição: ouve a gravação e escolhe uma frase para guardar até amanhã. Escreve-a num papelinho junto à secretária."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "O teu plano de ação: sete dias, dez verbos",
+      "say": "O teu plano de ação: sete dias, dez verbos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma semana chega para fazer entrar estes dez verbos no teu dia. Não é preciso estudar mais: é preciso usá-los <mark class=\"hl-handwritten\">em situações reais</mark>, mesmo pequenas.",
+      "say": "Uma semana chega para fazer entrar estes dez verbos no teu dia. Não é preciso estudar mais: é preciso usá-los em situações reais, mesmo pequenas."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Segunda, comprar e pagar:** no café ou no supermercado, diz em voz alta o que escolhes e como pagas. Se estás no estrangeiro, pensa-o pelo menos em português.",
+        "**Terça, lembrar e esquecer:** escreve três coisas que não deves esquecer e diz uma frase com «lembro-me de…» ou «não te esqueças de…».",
+        "**Quarta, sentir-se:** pergunta «Como te sentes?» a alguém e responde com «Sinto-me…» e «Tenho…».",
+        "**Quinta, encontrar e decidir:** propõe um encontro com «Onde nos encontramos?» e decide com «Decide tu!».",
+        "**Sexta, escrever e ler:** escreve uma mensagem curta em português e lê-a em voz alta antes de enviar.",
+        "**Sábado, gastar e jogar:** conta como passas o fim de semana e diz a que jogas ou que instrumento tocas.",
+        "**Domingo, concordar e receber:** diz «Concordo» ou «Discordo» a três frases e depois faz o balanço: o que recebeste, o que aprendeste?"
+      ],
+      "say": "Segunda, comprar e pagar: no café ou no supermercado, diz em voz alta o que escolhes e como pagas. Se estás no estrangeiro, pensa-o pelo menos em português. Terça, lembrar e esquecer: escreve três coisas que não deves esquecer e diz uma frase com «lembro-me de…» ou «não te esqueças de…». Quarta, sentir-se: pergunta «Como te sentes?» a alguém e responde com «Sinto-me…» e «Tenho…». Quinta, encontrar e decidir: propõe um encontro com «Onde nos encontramos?» e decide com «Decide tu!». Sexta, escrever e ler: escreve uma mensagem curta em português e lê-a em voz alta antes de enviar. Sábado, gastar e jogar: conta como passas o fim de semana e diz a que jogas ou que instrumento tocas. Domingo, concordar e receber: diz «Concordo» ou «Discordo» a três frases e depois faz o balanço: o que recebeste, o que aprendeste?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Prática e recursos",
+      "say": "Prática e recursos"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html), a [Parte 2](top-10-verbs-part-2-pt.html) e a [Parte 3](top-10-verbs-part-3-pt.html), e consulte as conjugações no [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "📌 Pratique no COSYpractice, leia a Parte 1, a Parte 2 e a Parte 3, e consulte as conjugações no COSYtools."
     },
     {
       "type": "heading",
