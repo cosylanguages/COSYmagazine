@@ -1,4 +1,5 @@
 import json
+import sys
 import os
 
 languages_data = {
@@ -731,8 +732,17 @@ for code, lang in languages_data.items():
             "draft": False
         }
 
-        if False:
-            pass
+        # Do not overwrite hand-expanded articles (they carry a refs block and many more blocks than this template)
+        if os.path.exists(filepath) and "--force" not in sys.argv:
+            try:
+                with open(filepath, "r", encoding="utf-8") as ef:
+                    existing = json.load(ef)
+                ex_blocks = existing.get("blocks", [])
+                if len(ex_blocks) >= 60 or any(b.get("listId") == "refs" for b in ex_blocks):
+                    print("Skipping expanded article (use --force to overwrite):", slug)
+                    continue
+            except Exception:
+                pass
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(post_obj, f, ensure_ascii=False, indent=2)
 
