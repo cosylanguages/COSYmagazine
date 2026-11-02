@@ -90,3 +90,35 @@ html, body { overflow-x: clip; }
 
 /* Shown when an article has no version in the selected navigation language yet */
 .ns-fallback { font-size: .68rem; font-weight: 700; padding: .1rem .45rem; border-radius: 999px; background: var(--cosy-color-surface-2, #f1ece3); color: var(--cosy-color-muted, #78716c); }
+
+
+/* ---- Issue vibes: each card is a page torn from that month's notebook -------------------------------------- */
+.ns-card { --c-paper: var(--warm-white, #fffdf8); --c-ink: #3f6a4c; --c-line: rgba(63, 106, 76, .12); --c-tape: rgba(255, 214, 110, .85); }
+.ns-card[data-issue="aug"] { --c-paper: #fffef8; --c-ink: #1e46a0; --c-line: rgba(30, 70, 160, .12); --c-tape: rgba(255, 214, 110, .85); }
+.ns-card[data-issue="sep"] { --c-paper: #fbfffd; --c-ink: #0f6e66; --c-line: rgba(15, 110, 102, .12); --c-tape: rgba(160, 235, 210, .9); }
+.ns-card[data-issue="oct"] { --c-paper: #f3e6cf; --c-ink: #b0245f; --c-line: rgba(176, 36, 95, .12); --c-tape: rgba(255, 170, 205, .85); }
+.ns-card[data-issue="sat"] { --c-paper: #fffdf8; --c-ink: #c62828; --c-line: rgba(198, 40, 40, .1); --c-tape: rgba(255, 190, 190, .85); }
+.ns-card[data-issue="nov"] { --c-paper: #fbf3e2; --c-ink: #6b4423; --c-line: rgba(107, 68, 35, .13); --c-tape: rgba(245, 200, 120, .85); }
+.ns-card[data-issue="dec"] { --c-paper: #f3f8ff; --c-ink: #2a5d9f; --c-line: rgba(42, 93, 159, .12); --c-tape: rgba(190, 220, 255, .9); }
+.ns-card[data-issue="feb"] { --c-paper: #f4faef; --c-ink: #2c7a45; --c-line: rgba(44, 122, 69, .12); --c-tape: rgba(190, 235, 170, .9); }
+.ns-card[data-issue] {
+  background: var(--c-paper); border-radius: 6px 6px 14px 14px; border-color: var(--c-line);
+  box-shadow: 0 1px 0 var(--c-line), 0 8px 18px -14px rgba(35, 40, 50, .45);
+}
+.ns-card[data-issue] .ns-card-body {
+  background-image: repeating-linear-gradient(transparent 0 26px, var(--c-line) 26px 27px);
+  background-position: 0 .6rem;
+}
+.ns-card[data-issue]::before {          /* a strip of washi tape holding the cover on */
+  content: ""; position: absolute; top: -7px; left: 50%; width: 84px; height: 22px; z-index: 3;
+  transform: translateX(-50%) rotate(-3deg); background: var(--c-tape);
+  clip-path: polygon(0 8%, 4% 0, 8% 10%, 12% 0, 92% 0, 96% 10%, 100% 0, 100% 92%, 96% 100%, 92% 90%, 88% 100%, 8% 100%, 4% 90%, 0 100%);
+  opacity: .9; pointer-events: none;
+}
+.ns-card[data-issue]:nth-child(even)::before { transform: translateX(-50%) rotate(2.5deg); left: 38%; }
+.ns-card[data-issue]:nth-child(3n)::before { left: 62%; }
+.ns-card[data-issue] h3 { text-decoration: underline wavy var(--c-line); text-decoration-thickness: 1.5px; text-underline-offset: 6px; text-decoration-skip-ink: none; }
+.ns-card[data-issue] .ns-card-art { border-bottom: 2px solid var(--c-ink); }
+@media (prefers-reduced-motion: no-preference) { .ns-card[data-issue]:nth-child(odd) { transform: rotate(-.25deg); } .ns-card[data-issue]:nth-child(even) { transform: rotate(.2deg); } .ns-card[data-issue]:hover { transform: translateY(-3px) rotate(0); } }
+html[data-theme="dark"] .ns-card[data-issue] { background: #1b251e; --c-line: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .12); }
+html[data-theme="dark"] .ns-card[data-issue] .ns-card-art { border-bottom-color: var(--c-tape); }

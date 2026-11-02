@@ -153,6 +153,19 @@
 
     // Issue titles come from the i18n dictionaries (blog.issue_<month>_title); fall back to the English title.
     const MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+    // Which notebook look an article gets (mirrors scripts/build-blog.js and css/notebook.css)
+    function issueKey(post) {
+      const n = String(post.issue?.number || '');
+      if (post.desk === 'Saturday Mistakes') return 'sat';
+      if (/2026\.08|August/.test(n)) return 'aug';
+      if (/2026\.09|September/.test(n)) return 'sep';
+      if (/2026\.10|October/.test(n)) return 'oct';
+      if (/2026\.11|November/.test(n)) return 'nov';
+      if (/2026\.12|December/.test(n)) return 'dec';
+      if (/February|2027\.02/.test(n)) return 'feb';
+      return 'other';
+    }
+
     function issueTitle(issue) {
       const m = /(\d{4})\.(\d{2})/.exec(issue?.number || '');
       const key = m ? `blog.issue_${MONTHS[parseInt(m[2], 10) - 1]}_title` : '';
@@ -212,7 +225,7 @@
         }).join('');
 
         return `
-        <article class="ns-card">
+        <article class="ns-card" data-issue="${issueKey(p)}">
           <span class="ns-card-art" aria-hidden="true">${renderCover(p, { width: 480, height: 270, showText: false })}</span>
           <div class="ns-card-body">
             <div class="ns-meta">${esc(deskLabel(g.base.desk))} <i>· ${esc(p.level || '')}</i></div>
