@@ -278,6 +278,10 @@ body[data-issue="sat"] .mc-right .mc-sentence { font-family: var(--hand); font-s
   border: 1.5px solid var(--ink-accent); background: #fff; color: var(--ink-accent); cursor: pointer;
 }
 .fulllist-btn:hover, .fulllist-btn:focus-visible { background: var(--ink-accent); color: #fff; }
+html[data-theme="dark"] .fulllist-bar { background: rgba(255, 255, 255, 0.06); }
+html[data-theme="dark"] .fulllist-btn { background: transparent; color: var(--ink-accent); }
+html[data-theme="dark"] .fulllist-btn:hover, html[data-theme="dark"] .fulllist-btn:focus-visible { background: var(--ink-accent); color: #14181d; }
+html[data-theme="dark"] .fulllist-table td { border-bottom-color: rgba(255, 255, 255, 0.16); }
 .fulllist-table { margin: 0 0 1rem; }
 .fulllist-table table { width: 100%; border-collapse: collapse; font-size: 0.76rem; line-height: 1.35; }
 .fulllist-table th { text-align: left; font-family: var(--font-display, Fraunces, serif); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; border-bottom: 2px solid var(--ink-accent); padding: 0.25rem 0.35rem; background: transparent; color: inherit; }
