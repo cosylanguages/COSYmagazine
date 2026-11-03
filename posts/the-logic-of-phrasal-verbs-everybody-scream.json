@@ -22,7 +22,7 @@
     "Vocabulary",
     "Opposites"
   ],
-  "readingTime": 15,
+  "readingTime": 14,
   "podcast": {
     "episode": 14,
     "audioUrl": "audio/the-logic-of-phrasal-verbs-everybody-scream.mp3"
@@ -109,8 +109,87 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "3. The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites",
-      "say": "Section three: The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites.",
+      "text": "3. The Visual Mind Palace: Sensory & Associative Memory Tricks for Every Particle",
+      "say": "Section three: The Visual Mind Palace: Sensory & Associative Memory Tricks for Every Particle.",
+      "beat": {
+        "duration": 1400,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Forget memorizing arbitrary bilingual vocabulary lists. Phrasal verbs endure in the living pulse of English because they trigger instant, instinctive sensory pictures in the human nervous system. Your brain does not process bodily experience in Latinate abstractions—it navigates reality through physical weight, vertical light, trajectory, pressure, skin contact, and friction. When you connect each particle to an unmistakable sensory archetype, the entire metaphorical landscape falls into place effortlessly:"
+    },
+    {
+      "type": "table",
+      "caption": "The Sensory Phrasal Atlas: Bodily Visualizations and Lyric Anchors",
+      "headers": [
+        "Particle",
+        "Sensory Visualization Trick",
+        "The Cognitive Leap",
+        "Visceral Lyric Anchor"
+      ],
+      "rows": [
+        [
+          "<strong>UP</strong>",
+          "<strong>The Sunrise, Balloon & Raised Chin:</strong> Picture a helium balloon escaping wet grass into open sky, lifting your eyes from your boots to the clouds, or water rising to the brim of a cup.",
+          "<strong>1. Physical Elevation:</strong> moving from low coordinates to high ones.<br><strong>2. Emergence into Daylight:</strong> rising out of darkness or hidden obscurity into full visibility.<br><strong>3. Absolute Completion:</strong> filling or consuming something completely to the ceiling.",
+          "<em>'I crawled up from under the earth'</em> / <em>'Why did you dig me up for this?'</em> / <em>'Water rises up around me'</em>"
+        ],
+        [
+          "<strong>DOWN</strong>",
+          "<strong>The Ship Anchor & Heavy Ink:</strong> Feel gravity dragging a cast-iron anchor deep into sea silt, curling onto a rug in exhaustion, or pressing ink firmly onto flat parchment.",
+          "<strong>1. Physical Descent:</strong> drop toward the floor or earth.<br><strong>2. Ingestion & Grounding:</strong> moving food or poison down the throat into the stomach.<br><strong>3. Suppression & Fixation:</strong> lowering volume, soothing a scream, or freezing words permanently onto paper.",
+          "<em>'I wrote down all my fumbling visions'</em> / <em>'Bury it deep, swallow it down'</em> / <em>'I quiet it down by watching TV'</em>"
+        ],
+        [
+          "<strong>OUT</strong>",
+          "<strong>The Projector Beam & Exploding Seed:</strong> Stepping out of a pitch-black cellar into blinding stadium lights, or coughing lake water forcefully out of your chest onto the grass.",
+          "<strong>1. Ejection:</strong> throwing matter from the interior body into public space.<br><strong>2. Disclosure & Exposure:</strong> private secrets or melodies bursting into communal view.<br><strong>3. Exhaustion & Depletion:</strong> a bonfire burning until every ember goes cold.",
+          "<em>'Spitting out my songs so you could sing along'</em> / <em>'In every book in the house, notes from you fall out'</em> / <em>'When your hand reached out'</em>"
+        ],
+        [
+          "<strong>IN / INTO</strong>",
+          "<strong>The Warm Hearth & Blanket Cocoon:</strong> Opening an oak door to let a freezing traveler cross from a blizzard into the firelit hall, or slipping deep inside a heavy winter duvet.",
+          "<strong>1. Crossing the Perimeter:</strong> crossing from outside vulnerability into inner sanctuary.<br><strong>2. Absorption:</strong> drawing feelings, light, or poison past the threshold.<br><strong>3. Intimate Shelter:</strong> burrowing into a safe hollow away from predators.",
+          "<em>'I welcomed him in'</em> / <em>'I will let the light in, I will let some love in'</em> / <em>'Animal crawling deep into a cave'</em>"
+        ],
+        [
+          "<strong>OFF</strong>",
+          "<strong>The Snapped Cord & Peeling Tape:</strong> Ripping two adhesive velcro strips apart with an electric snap, or suddenly severing contact between feet and the solid floor.",
+          "<strong>1. Contact Severance:</strong> peeling layers, clothing, or skin away from contact.<br><strong>2. Disengagement:</strong> stepping away from an obligation, platform, or habit.<br><strong>3. Sudden Launch:</strong> releasing attachment to propel into flight.",
+          "<em>'I tear off my nightgown'</em> / <em>'So glamorous and ravenous as I drag you off your feet'</em> / <em>'Hanging off the buckle on your belt'</em>"
+        ],
+        [
+          "<strong>AWAY</strong>",
+          "<strong>The Receding Tail-Lights & Solid Shield:</strong> Watching red brake lights shrink along a misty highway until they dissolve, or pushing an iron shield between your heart and an aggressor.",
+          "<strong>1. Receding Distance:</strong> opening measurable physical or emotional gap.<br><strong>2. Active Deflection:</strong> rejecting an incoming offer or threat so it cannot touch you.<br><strong>3. Dissolution:</strong> letting old ghosts drift past the horizon.",
+          "<em>'And all their violent offers, I just turn them away'</em> / <em>'All the love that came my way, I found a way to push away'</em>"
+        ],
+        [
+          "<strong>THROUGH</strong>",
+          "<strong>The Mountain Tunnel & Parted Fingers:</strong> Walking through an echoey railway tunnel from dark entrance to sunlit exit, or watching clear river water slip between spread fingers.",
+          "<strong>1. Traversal:</strong> entering one side of a barrier and emerging intact on the other.<br><strong>2. Uncontainable Escape:</strong> matter that cannot be trapped or held by human hands.<br><strong>3. Endurance:</strong> moving through grief or baptism until the storm clears.",
+          "<em>'And feel the world slip through my hands'</em> / <em>'Run naked through the town'</em> / <em>'Rushing down my throat'</em>"
+        ],
+        [
+          "<strong>ABOUT / AROUND</strong>",
+          "<strong>The Pacing Wolf & Swirling Whirlpool:</strong> A restless wolf pacing irregular circles in the den, or autumn leaves swept up in an unpredictable eddy.",
+          "<strong>1. Non-linear Agitation:</strong> moving without a single straight destination.<br><strong>2. Spatial Disturbance:</strong> shifting furniture or objects into new configurations.<br><strong>3. Encircling:</strong> enclosing a body in rising waters or rings.",
+          "<em>'I stay in the house, move the furniture about'</em> / <em>'As the water rises up around me'</em>"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Whenever you encounter an unfamiliar phrasal verb, do not rush to memorize an abstract one-word synonym. Instead, invoke the <strong>Cinematic Camera Trick</strong>: ask yourself three sensory questions: <em>(1) Where is the camera pointing? (2) Is the subject climbing, falling, bursting outward, or retreating behind a door? (3) Is contact being made, severed, or sustained?</em> Once your body pictures the physical trajectory, the emotional and figurative nuances follow automatically."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites",
+      "say": "Section four: The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites.",
       "beat": {
         "duration": 1400,
         "camera": "pan-zoom",
@@ -178,8 +257,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "4. The Particle Swap: One Root, Multiple Worlds",
-      "say": "Section four: The Particle Swap: One Root, Multiple Worlds.",
+      "text": "5. The Particle Swap: One Root, Multiple Worlds",
+      "say": "Section five: The Particle Swap: One Root, Multiple Worlds.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
@@ -249,8 +328,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "5. The Three Degrees of Meaning: From Physical to Poetic",
-      "say": "Section five: The Three Degrees of Meaning: From Physical to Poetic.",
+      "text": "6. The Three Degrees of Meaning: From Physical to Poetic",
+      "say": "Section six: The Three Degrees of Meaning: From Physical to Poetic.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
@@ -291,8 +370,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "6. How to Create Your Own Phrasal Verbs: The Productive Blueprint",
-      "say": "Section six: How to Create Your Own Phrasal Verbs: The Productive Blueprint.",
+      "text": "7. How to Create Your Own Phrasal Verbs: The Productive Blueprint",
+      "say": "Section seven: How to Create Your Own Phrasal Verbs: The Productive Blueprint.",
       "beat": {
         "duration": 1300,
         "camera": "pan-zoom",
@@ -330,8 +409,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "7. Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic",
-      "say": "Section seven: Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic.",
+      "text": "8. Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic",
+      "say": "Section eight: Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
@@ -394,8 +473,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "8. The Songwriter's Laboratory: Deep Dive into the Tracklist",
-      "say": "Section eight: The Songwriter's Laboratory: Deep Dive into the Tracklist.",
+      "text": "9. The Songwriter's Laboratory: Deep Dive into the Tracklist",
+      "say": "Section nine: The Songwriter's Laboratory: Deep Dive into the Tracklist.",
       "beat": {
         "duration": 1400,
         "camera": "pan-zoom",
@@ -452,8 +531,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "9. Your Turn: Test Your Phrasal Compass & Antonym Logic",
-      "say": "Section nine: Concept Checking Questions and Interactive Practice.",
+      "text": "10. Your Turn: Test Your Phrasal Compass & Antonym Logic",
+      "say": "Section ten: Your Turn: Test Your Phrasal Compass & Antonym Logic.",
       "beat": {
         "duration": 1000,
         "camera": "pan-zoom",
@@ -515,8 +594,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "10. The Winter Takeaway: Speak with Direction, Polarity, and Force",
-      "say": "Section ten: The Winter Takeaway: Speak with Direction, Polarity, and Force.",
+      "text": "11. The Winter Takeaway: Speak with Direction, Polarity, and Force",
+      "say": "Section eleven: The Winter Takeaway: Speak with Direction, Polarity, and Force.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
