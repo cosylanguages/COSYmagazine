@@ -21,7 +21,7 @@ assert.ok(
 console.log('✅ Passed: top-5-favourite-grammar-rules.html has no broken audio elements.');
 
 // 2. Test Heading Hierarchy in Generated Pages
-const blogFiles = fs.readdirSync('.').filter(f => f.endsWith('.html') && !['index.html', '404.html', 'podcast.html'].includes(f));
+const blogFiles = fs.readdirSync('.').filter(f => f.endsWith('.html') && !['index.html', 'editor.html', '404.html', 'podcast.html'].includes(f));
 assert.ok(blogFiles.length > 0, 'Should find blog post HTML files');
 
 blogFiles.forEach(file => {

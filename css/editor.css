@@ -1,0 +1,450 @@
+/* ==========================================================================
+   COSYmagazine Studio Editor Styles (css/editor.css)
+   Side-by-Side Builder Workbench & Live Vogue Gazette Spread Preview
+   ========================================================================== */
+
+:root {
+  --studio-bg: #0f172a;
+  --studio-panel-bg: #1e293b;
+  --studio-card-bg: #0f172a;
+  --studio-border: #334155;
+  --studio-text: #f8fafc;
+  --studio-text-muted: #94a3b8;
+  --studio-accent: #0284c7;
+  --studio-accent-hover: #0369a1;
+  --studio-gold: #f59e0b;
+  --studio-green: #10b981;
+  --studio-red: #ef4444;
+  --studio-header-height: 60px;
+}
+
+body.studio-body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--studio-bg);
+  color: var(--studio-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 1. Studio Header Toolbar */
+
+.studio-header {
+  height: var(--studio-header-height);
+  background-color: #0b1120;
+  border-bottom: 1px solid var(--studio-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  z-index: 100;
+  gap: 1rem;
+}
+
+.studio-brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.studio-logo {
+  height: 28px;
+  width: 28px;
+  object-fit: contain;
+}
+
+.studio-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.studio-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-founder {
+  background-color: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.badge-member {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.badge-visitor {
+  background-color: #334155;
+  color: #94a3b8;
+}
+
+.studio-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.studio-btn {
+  background-color: var(--studio-panel-bg);
+  color: var(--studio-text);
+  border: 1px solid var(--studio-border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.studio-btn:hover {
+  background-color: #334155;
+  border-color: #475569;
+}
+
+.studio-btn-primary {
+  background-color: var(--studio-accent);
+  border-color: #0284c7;
+  color: #ffffff;
+}
+
+.studio-btn-primary:hover {
+  background-color: var(--studio-accent-hover);
+}
+
+.studio-btn-success {
+  background-color: #059669;
+  border-color: #059669;
+  color: #ffffff;
+}
+
+.studio-btn-success:hover {
+  background-color: #047857;
+}
+
+.studio-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.studio-status {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.status-info { color: #38bdf8; }
+.status-success { color: #34d399; font-weight: 600; }
+.status-error { color: #f87171; font-weight: 600; }
+
+/* 2. Main Studio Split Workspace */
+
+.studio-workspace {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  height: calc(100vh - var(--studio-header-height));
+}
+
+/* 3. Left Panel: Workbench & Block Builder */
+
+.studio-workbench {
+  width: 50%;
+  min-width: 460px;
+  max-width: 720px;
+  background-color: var(--studio-panel-bg);
+  border-right: 1px solid var(--studio-border);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 1.25rem 1.5rem 4rem;
+}
+
+.workbench-section {
+  background-color: var(--studio-card-bg);
+  border: 1px solid var(--studio-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.workbench-section-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.preset-pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.preset-pill {
+  background-color: #1e293b;
+  border: 1px solid var(--studio-border);
+  border-radius: 9999px;
+  color: #cbd5e1;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.preset-pill:hover {
+  background-color: var(--studio-accent);
+  color: #ffffff;
+  border-color: var(--studio-accent);
+}
+
+/* Form Controls in Workbench */
+
+.form-group {
+  margin-bottom: 0.85rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--studio-text-muted);
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.form-control {
+  width: 100%;
+  background-color: #0b1120;
+  border: 1px solid var(--studio-border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #f8fafc;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: border-color 0.15s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--studio-accent);
+}
+
+.form-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* Building Blocks Palette Drawer */
+
+.studio-palette-drawer {
+  background: #0b1120;
+  border: 1px dashed var(--studio-border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  display: none;
+}
+
+.studio-palette-drawer.is-open {
+  display: block;
+}
+
+.studio-palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.6rem;
+}
+
+.studio-palette-card {
+  background-color: #1e293b;
+  border: 1px solid var(--studio-border);
+  border-radius: 8px;
+  padding: 10px 8px;
+  text-align: center;
+  cursor: pointer;
+  color: #e2e8f0;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.studio-palette-card:hover {
+  background-color: var(--studio-accent);
+  color: #ffffff;
+  border-color: var(--studio-accent);
+  transform: translateY(-1px);
+}
+
+.palette-card-icon {
+  font-size: 1.4rem;
+}
+
+.palette-card-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.palette-card-desc {
+  font-size: 0.68rem;
+  color: var(--studio-text-muted);
+  line-height: 1.2;
+}
+
+.studio-palette-card:hover .palette-card-desc {
+  color: #f0f9ff;
+}
+
+/* Block Card Items in Workbench */
+
+.studio-block-card {
+  background-color: #0b1120;
+  border: 1px solid var(--studio-border);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.studio-block-header {
+  background-color: #162033;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--studio-border);
+}
+
+.studio-block-drag-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.block-index {
+  font-size: 0.75rem;
+  color: var(--studio-text-muted);
+}
+
+.studio-block-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.action-btn {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  border-radius: 4px;
+  width: 26px;
+  height: 26px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.action-btn:hover {
+  background: #334155;
+  color: #f8fafc;
+}
+
+.action-danger:hover {
+  background: var(--studio-red);
+  color: #ffffff;
+  border-color: var(--studio-red);
+}
+
+.studio-block-fields {
+  padding: 12px;
+}
+
+.studio-stage-fields {
+  margin-top: 10px;
+  border-top: 1px dashed #1e293b;
+  padding-top: 8px;
+}
+
+.studio-stage-fields summary {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+/* 4. Right Panel: Live Vogue Gazette Preview Frame */
+
+.studio-preview-pane {
+  flex: 1;
+  background-color: #f4efe6;
+  overflow-y: auto;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.studio-preview-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #faf7f2;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  min-height: 100%;
+}
+
+/* Modal for Sign-In */
+
+.studio-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.studio-modal-card {
+  background-color: #1e293b;
+  border: 1px solid var(--studio-border);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}

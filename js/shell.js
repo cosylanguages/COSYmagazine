@@ -85,6 +85,21 @@
       ? '<label class="visually-hidden" for="bn-lang">Interface language</label><select id="bn-lang" class="bn-select">' +
         Object.keys(LANGS).map(function (c) { return '<option value="' + c + '"' + (c === cur ? ' selected' : '') + '>' + LANGS[c] + '</option>'; }).join('') + '</select>'
       : '';
+
+    // Check if founder role is logged in
+    var isFounder = false;
+    try {
+      var rawUser = store('cosy_user');
+      var role = store('cosy_user_role');
+      if (role === 'founder' || role === 'admin' || (rawUser && (rawUser.includes('"founder"') || rawUser.includes('"admin"')))) {
+        isFounder = true;
+      }
+    } catch (e) {}
+
+    var studioLink = isFounder
+      ? '<a href="editor.html" class="bn-studio-link" title="Founder Magazine Studio" style="font-size: 0.8rem; font-weight: 700; color: #f59e0b; margin-left: 0.5rem; text-decoration: none;">👑 Studio</a>'
+      : '';
+
     host.className = 'bn';
     host.innerHTML =
       '<div class="bn-inner">' +
@@ -97,7 +112,7 @@
           '<a href="' + ECO.games + '" data-i18n="nav.games">Games</a>' +
           '<a href="' + ECO.events + '" data-i18n="nav.events">Events</a>' +
         '</nav>' +
-        '<div class="bn-actions">' + langSelect +
+        '<div class="bn-actions">' + langSelect + studioLink +
           '<button type="button" id="bn-theme" class="bn-icon" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>' +
         '</div>' +
       '</div>';

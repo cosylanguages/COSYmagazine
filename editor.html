@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSYmagazine Studio — Founder Article Builder</title>
+    <meta name="description" content="Dedicated founder visual studio and template building blocks workbench for COSYmagazine articles.">
+    <link rel="icon" href="images/logo.png">
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Fonts -->
+    <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Core & Editorial Gazette Styling -->
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/article-visuals.css">
+    <link rel="stylesheet" href="css/notebook.css">
+    <link rel="stylesheet" href="css/editor.css">
+
+    <!-- Supabase JS Client SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1" integrity="sha384-YieCqqg9gQufX7+5HcFvCEg/n3KUEdl8/Jb+A6J0npf1mB740VayvwKjTrtCeUoy" crossorigin="anonymous"></script>
+</head>
+<body class="studio-body">
+
+    <!-- Studio Top Header -->
+    <header class="studio-header">
+        <div class="studio-brand-group">
+            <a href="index.html" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+                <img src="images/logo.png" alt="COSY logo" class="studio-logo" width="28" height="28">
+                <span class="studio-title">COSYmagazine Studio</span>
+            </a>
+            <span id="studio-founder-badge" class="studio-badge badge-visitor">Checking session...</span>
+        </div>
+
+        <div class="studio-header-actions">
+            <span id="studio-status-bar" class="studio-status"></span>
+            <button type="button" id="studio-save-live-btn" class="studio-btn studio-btn-success" disabled>💾 Save & Publish Live</button>
+            <button type="button" id="studio-download-json-btn" class="studio-btn studio-btn-primary">⬇ Download JSON</button>
+            <button type="button" id="studio-copy-json-btn" class="studio-btn">📋 Copy JSON</button>
+            <label class="studio-btn" style="margin: 0; cursor: pointer;">
+                📂 Import JSON <input type="file" id="studio-file-import" accept=".json" style="display: none;">
+            </label>
+            <button type="button" id="studio-login-btn" class="studio-btn">🔑 Founder Login</button>
+            <button type="button" id="studio-logout-btn" class="studio-btn" style="display: none;">Log Out</button>
+        </div>
+    </header>
+
+    <!-- Main Side-by-Side Split Workspace -->
+    <div class="studio-workspace">
+
+        <!-- Left Panel: Builder Workbench -->
+        <aside class="studio-workbench">
+
+            <!-- Presets Section -->
+            <div class="workbench-section">
+                <div class="workbench-section-title">
+                    <span>⚡ Quick-Start Article Presets</span>
+                </div>
+                <div class="preset-pills-row">
+                    <button type="button" class="preset-pill" data-preset="preset-saturday-mistakes">🗓️ Saturday Mistakes</button>
+                    <button type="button" class="preset-pill" data-preset="preset-top10-verbs">🔤 Top 10 Verbs</button>
+                    <button type="button" class="preset-pill" data-preset="preset-grammar-made-cosy">📐 Grammar Made Cosy</button>
+                    <button type="button" class="preset-pill" data-preset="preset-fluency-culture">🗣️ Fluency & Culture</button>
+                </div>
+                <div class="form-group" style="margin-bottom: 0;">
+                    <label>Or Open Existing Published Article:</label>
+                    <select id="studio-load-selector" class="form-control">
+                        <option value="">-- Loading articles catalog... --</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Article Metadata Section -->
+            <div class="workbench-section">
+                <div class="workbench-section-title">
+                    <span>📝 Article Issue & Metadata</span>
+                </div>
+
+                <div class="form-group">
+                    <label>Headline Title</label>
+                    <input type="text" id="meta-title" class="form-control" placeholder="Article Headline Title">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Slug (URL & File Name)</label>
+                        <input type="text" id="meta-slug" class="form-control" placeholder="my-article-slug">
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Language</label>
+                        <select id="meta-language" class="form-control">
+                            <option value="en">🇬🇧 English (en)</option>
+                            <option value="fr">🇫🇷 Français (fr)</option>
+                            <option value="it">🇮🇹 Italiano (it)</option>
+                            <option value="ru">🇷🇺 Русский (ru)</option>
+                            <option value="el">🇬🇷 Ελληνικά (el)</option>
+                            <option value="es">🇪🇸 Español (es)</option>
+                            <option value="de">🇩🇪 Deutsch (de)</option>
+                            <option value="pt">🇵🇹 Português (pt)</option>
+                            <option value="hy">🇦🇲 Հայերեն (hy)</option>
+                            <option value="ka">🇬🇪 ქართული (ka)</option>
+                            <option value="tt">🌐 Татарча (tt)</option>
+                            <option value="ba">🌐 Башҡортса (ba)</option>
+                            <option value="br">🌐 Brezhoneg (br)</option>
+                            <option value="cv">🌐 Чӑвашла (cv)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Subheadline / Article Deck (Dek)</label>
+                    <textarea id="meta-dek" class="form-control" rows="2" placeholder="Summary deck describing this article..."></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Editorial Desk</label>
+                        <select id="meta-desk" class="form-control">
+                            <option value="Saturday Mistakes">Saturday Mistakes</option>
+                            <option value="Words">Words</option>
+                            <option value="Grammar Made Cosy">Grammar Made Cosy</option>
+                            <option value="Grammar">Grammar</option>
+                            <option value="Say It">Say It</option>
+                            <option value="Front Page">Front Page</option>
+                            <option value="Culture &amp; Quotes">Culture & Quotes</option>
+                            <option value="Long Reads">Long Reads</option>
+                            <option value="COSYtalks">COSYtalks</option>
+                            <option value="The Podcast">The Podcast</option>
+                            <option value="Cosy Events">Cosy Events</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>CEFR Level</label>
+                        <select id="meta-level" class="form-control">
+                            <option value="A0–A1">A0–A1</option>
+                            <option value="A1">A1</option>
+                            <option value="A0–A1 / A2">A0–A1 / A2</option>
+                            <option value="A1–A2">A1–A2</option>
+                            <option value="A2">A2</option>
+                            <option value="A2–B1">A2–B1</option>
+                            <option value="B1">B1</option>
+                            <option value="B1–B2">B1–B2</option>
+                            <option value="B2">B2</option>
+                            <option value="C1">C1</option>
+                            <option value="A0–B2">A0–B2</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Format</label>
+                        <select id="meta-format" class="form-control">
+                            <option value="list">list</option>
+                            <option value="essay">essay</option>
+                            <option value="ranking">ranking</option>
+                            <option value="photo-essay">photo-essay</option>
+                            <option value="qa">qa</option>
+                            <option value="quiz">quiz</option>
+                            <option value="quote-wall">quote-wall</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Issue Number</label>
+                        <input type="text" id="meta-issue-number" class="form-control" placeholder="Vol. 2026.12">
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Issue Title</label>
+                        <input type="text" id="meta-issue-title" class="form-control" placeholder="December Issue">
+                    </div>
+                    <div class="form-group" style="width: 140px;">
+                        <label>Date</label>
+                        <input type="date" id="meta-date" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Tags (comma separated)</label>
+                        <input type="text" id="meta-tags" class="form-control" placeholder="SpeakingFirst, Vocabulary, Grammar">
+                    </div>
+                    <div class="form-group" style="width: 130px;">
+                        <label>Reading Time</label>
+                        <input type="number" id="meta-reading-time" class="form-control" min="1" max="60" value="5">
+                    </div>
+                    <div class="form-group" style="width: 130px;">
+                        <label>Podcast Ep #</label>
+                        <input type="number" id="meta-podcast-ep" class="form-control" min="1" value="1">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Building Blocks Workbench -->
+            <div class="workbench-section">
+                <div class="workbench-section-title">
+                    <span>🧱 Article Building Blocks</span>
+                    <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+                        <button type="button" id="studio-quick-add-image-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                            🖼️ + Image
+                        </button>
+                        <button type="button" id="studio-quick-add-link-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                            🌐 + Link
+                        </button>
+                        <button type="button" id="studio-add-block-btn" class="studio-btn studio-btn-primary" style="padding: 4px 10px; font-size: 0.78rem;">
+                            + Add Block...
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Palette Drawer -->
+                <div id="studio-block-palette" class="studio-palette-drawer">
+                    <p style="margin: 0 0 8px 0; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">SELECT A TEMPLATE BLOCK TO INSERT:</p>
+                    <div id="studio-palette-grid" class="studio-palette-grid"></div>
+                </div>
+
+                <!-- Reorderable Block Cards Container -->
+                <div id="studio-blocks-container"></div>
+            </div>
+
+        </aside>
+
+        <!-- Right Panel: Live Vogue Gazette Preview Frame -->
+        <main class="studio-preview-pane">
+            <div class="studio-preview-wrapper" id="studio-preview-root"></div>
+        </main>
+
+    </div>
+
+    <!-- Founder Authentication Modal -->
+    <div id="studio-auth-modal" class="studio-modal-overlay" style="display: none;">
+        <div class="studio-modal-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3 style="margin: 0; font-size: 1.15rem; color: #ffffff;">Founder Authentication</h3>
+                <button type="button" id="studio-modal-close" style="background: none; border: none; color: #94a3b8; font-size: 1.25rem; cursor: pointer;">✕</button>
+            </div>
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 0; margin-bottom: 1.25rem;">
+                Sign in with your COSY Founder / Admin credentials to publish live updates directly into Supabase.
+            </p>
+            <form id="studio-login-form">
+                <div class="form-group">
+                    <label>Founder Email</label>
+                    <input type="email" id="studio-auth-email" class="form-control" required placeholder="founder@cosylanguages.com">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="studio-auth-password" class="form-control" required placeholder="••••••••">
+                </div>
+                <div id="studio-auth-error" style="color: #ef4444; font-size: 0.8rem; margin-bottom: 0.75rem;"></div>
+                <button type="submit" class="studio-btn studio-btn-primary" style="width: 100%; justify-content: center; padding: 10px;">
+                    Sign In as Founder
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/cms-auth.js"></script>
+    <script src="js/editor-blocks.js"></script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
