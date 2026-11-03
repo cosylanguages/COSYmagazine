@@ -197,12 +197,21 @@
             <!-- Building Blocks Workbench -->
             <div class="workbench-section">
                 <div class="workbench-section-title">
-                    <span>🧱 Article Building Blocks</span>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span>🧱 Article Building Blocks</span>
+                        <span id="studio-stats-pill" class="studio-stats-pill" title="Calculated live from post blocks">0 words • 0m</span>
+                    </div>
                     <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
-                        <button type="button" id="studio-quick-add-image-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                        <button type="button" id="studio-collapse-all-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.72rem;" title="Collapse all blocks for easy reordering">
+                            ⊟ Collapse All
+                        </button>
+                        <button type="button" id="studio-expand-all-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.72rem;" title="Expand all blocks">
+                            ⊞ Expand All
+                        </button>
+                        <button type="button" id="studio-quick-add-image-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;" title="Quick-insert Image block">
                             🖼️ + Image
                         </button>
-                        <button type="button" id="studio-quick-add-link-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                        <button type="button" id="studio-quick-add-link-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;" title="Quick-insert Ecosystem Links block">
                             🌐 + Link
                         </button>
                         <button type="button" id="studio-add-block-btn" class="studio-btn studio-btn-primary" style="padding: 4px 10px; font-size: 0.78rem;">
@@ -211,9 +220,18 @@
                     </div>
                 </div>
 
+                <!-- Undo Banner for Deleted Blocks -->
+                <div id="studio-undo-banner" class="studio-undo-banner" style="display: none;">
+                    <span id="studio-undo-text">Block deleted.</span>
+                    <button type="button" id="studio-undo-btn" class="studio-undo-btn">Undo (Ctrl+Z)</button>
+                </div>
+
                 <!-- Palette Drawer -->
                 <div id="studio-block-palette" class="studio-palette-drawer">
-                    <p style="margin: 0 0 8px 0; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">SELECT A TEMPLATE BLOCK TO INSERT:</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 600; text-transform: uppercase;">SELECT A TEMPLATE BLOCK TO INSERT:</span>
+                        <button type="button" id="studio-palette-close-btn" style="background: none; border: none; color: #94a3b8; cursor: pointer; font-size: 0.85rem;">✕ Close</button>
+                    </div>
                     <div id="studio-palette-grid" class="studio-palette-grid"></div>
                 </div>
 

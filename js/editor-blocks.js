@@ -610,9 +610,46 @@
     return def.create();
   }
 
+  /**
+   * Available visual image assets and diagrams
+   */
+  const AVAILABLE_IMAGE_ASSETS = [
+    { url: 'images/saturday-mistakes-routine-en.svg', label: 'Saturday Mistakes Routine (English)' },
+    { url: 'images/saturday-mistakes-routine-fr.svg', label: 'Saturday Mistakes Routine (French)' },
+    { url: 'images/saturday-mistakes-routine-it.svg', label: 'Saturday Mistakes Routine (Italian)' },
+    { url: 'images/saturday-mistakes-routine-ru.svg', label: 'Saturday Mistakes Routine (Russian)' },
+    { url: 'images/saturday-mistakes-routine-el.svg', label: 'Saturday Mistakes Routine (Greek)' },
+    { url: 'images/stop-translating-flow-en.svg', label: 'Stop Translating Workflow (English)' },
+    { url: 'images/stop-translating-flow-fr.svg', label: 'Stop Translating Workflow (French)' },
+    { url: 'images/stop-translating-flow-it.svg', label: 'Stop Translating Workflow (Italian)' },
+    { url: 'images/stop-translating-flow-es.svg', label: 'Stop Translating Workflow (Spanish)' },
+    { url: 'images/stop-translating-flow-de.svg', label: 'Stop Translating Workflow (German)' },
+    { url: 'images/stop-translating-flow-pt.svg', label: 'Stop Translating Workflow (Portuguese)' },
+    { url: 'images/stop-translating-flow-ru.svg', label: 'Stop Translating Workflow (Russian)' },
+    { url: 'images/stop-translating-flow-el.svg', label: 'Stop Translating Workflow (Greek)' },
+    { url: 'images/off-script-flow-en.svg', label: 'Going Off Script Timeline (English)' },
+    { url: 'images/off-script-flow-fr.svg', label: 'Going Off Script Timeline (French)' },
+    { url: 'images/off-script-flow-it.svg', label: 'Going Off Script Timeline (Italian)' },
+    { url: 'images/off-script-flow-ru.svg', label: 'Going Off Script Timeline (Russian)' },
+    { url: 'images/off-script-flow-el.svg', label: 'Going Off Script Timeline (Greek)' },
+    { url: 'images/logo.png', label: 'COSY Ecosystem Seal Logo' }
+  ];
+
+  /**
+   * Ecosystem link presets with canonical targets and default labels
+   */
+  const LINK_PRESETS = [
+    { destination: 'cosytools', url: 'https://cosylanguages.github.io/COSYtools/', label: 'Explore Verb Conjugation in COSYtools' },
+    { destination: 'practice', url: 'https://cosylanguages.github.io/COSYpractice/', label: 'Practice Speaking on COSYpractice' },
+    { destination: 'ecosystem', url: 'https://cosylanguages.com', label: 'Visit COSYlanguages Gateway' },
+    { destination: 'external', url: 'https://en.wiktionary.org', label: 'Reference Etymology Guide' }
+  ];
+
   return {
     BLOCK_DEFINITIONS,
     ARTICLE_PRESETS,
+    AVAILABLE_IMAGE_ASSETS,
+    LINK_PRESETS,
     createBlock,
     clone
   };

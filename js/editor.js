@@ -70,6 +70,8 @@
   let currentPost = null;
   let currentUser = null;
   let catalogPosts = [];
+  let deletedBlockBackup = null; // for undo functionality
+  let collapsedBlockIndices = new Set();
 
   /**
    * Initialize Studio App
@@ -77,6 +79,7 @@
   async function init() {
     setupAuthListeners();
     setupEventListeners();
+    setupKeyboardShortcuts();
     await loadCatalogPosts();
 
     // Check user auth
@@ -273,12 +276,45 @@
       });
     }
 
+    // Collapse All Blocks Button
+    const collapseAllBtn = document.getElementById('studio-collapse-all-btn');
+    if (collapseAllBtn) {
+      collapseAllBtn.addEventListener('click', () => {
+        if (!currentPost || !currentPost.blocks) return;
+        currentPost.blocks.forEach((_, idx) => collapsedBlockIndices.add(idx));
+        renderBlockList();
+      });
+    }
+
+    // Expand All Blocks Button
+    const expandAllBtn = document.getElementById('studio-expand-all-btn');
+    if (expandAllBtn) {
+      expandAllBtn.addEventListener('click', () => {
+        collapsedBlockIndices.clear();
+        renderBlockList();
+      });
+    }
+
+    // Undo Banner Action
+    const undoBtn = document.getElementById('studio-undo-btn');
+    if (undoBtn) {
+      undoBtn.addEventListener('click', undoDeleteBlock);
+    }
+
     // Add Block Palette Drawer Toggle
     const addBlockBtn = document.getElementById('studio-add-block-btn');
     const blockPalette = document.getElementById('studio-block-palette');
+    const paletteCloseBtn = document.getElementById('studio-palette-close-btn');
+
     if (addBlockBtn && blockPalette) {
       addBlockBtn.addEventListener('click', () => {
         blockPalette.classList.toggle('is-open');
+      });
+    }
+
+    if (paletteCloseBtn && blockPalette) {
+      paletteCloseBtn.addEventListener('click', () => {
+        blockPalette.classList.remove('is-open');
       });
     }
 
@@ -383,6 +419,30 @@
     }
   }
 
+  function setupKeyboardShortcuts() {
+    window.addEventListener('keydown', (e) => {
+      // Ctrl+S / Cmd+S: Save/Download JSON
+      if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        if (currentUser && currentUser.isFounder) {
+          saveToSupabase();
+        } else {
+          downloadCanonicalJson();
+        }
+      }
+
+      // Ctrl+Z / Cmd+Z: Undo block deletion if applicable
+      if ((e.ctrlKey || e.metaKey) && e.key === 'z' && deletedBlockBackup) {
+        // Only trigger if not typing inside an active input/textarea
+        const tag = document.activeElement && document.activeElement.tagName;
+        if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+          e.preventDefault();
+          undoDeleteBlock();
+        }
+      }
+    });
+  }
+
   function populateMetadataForm(post) {
     const set = (id, val) => {
       const el = document.getElementById(id);
@@ -420,9 +480,36 @@
 
   function removeBlock(index) {
     if (!currentPost || !currentPost.blocks) return;
-    currentPost.blocks.splice(index, 1);
+    const removed = currentPost.blocks.splice(index, 1)[0];
+    deletedBlockBackup = { block: removed, index };
+    showUndoBanner(removed);
     renderBlockList();
     renderLivePreview();
+  }
+
+  function undoDeleteBlock() {
+    if (!deletedBlockBackup || !currentPost) return;
+    currentPost.blocks = currentPost.blocks || [];
+    const idx = Math.min(deletedBlockBackup.index, currentPost.blocks.length);
+    currentPost.blocks.splice(idx, 0, deletedBlockBackup.block);
+    deletedBlockBackup = null;
+    hideUndoBanner();
+    renderBlockList();
+    renderLivePreview();
+    setStatus('Restored deleted block.', 'info');
+  }
+
+  function showUndoBanner(block) {
+    const banner = document.getElementById('studio-undo-banner');
+    const textEl = document.getElementById('studio-undo-text');
+    if (!banner) return;
+    if (textEl) textEl.textContent = `Deleted "${block.type}" block.`;
+    banner.style.display = 'flex';
+  }
+
+  function hideUndoBanner() {
+    const banner = document.getElementById('studio-undo-banner');
+    if (banner) banner.style.display = 'none';
   }
 
   function moveBlock(index, delta) {
@@ -446,13 +533,58 @@
   /**
    * Render Block Cards in Workbench
    */
+  function calculateArticleStats(post) {
+    if (!post || !post.blocks) return { words: 0, minutes: 1 };
+    let text = `${post.title || ''} ${post.dek || ''} `;
+    post.blocks.forEach(b => {
+      if (b.text) text += `${b.text} `;
+      if (b.wrong) text += `${b.wrong} `;
+      if (b.right) text += `${b.right} `;
+      if (b.why) text += `${b.why} `;
+      if (b.rule) text += `${b.rule} `;
+      if (b.targetText) text += `${b.targetText} `;
+      if (b.gloss) text += `${b.gloss} `;
+      if (b.content) text += `${b.content} `;
+      if (b.quote) text += `${b.quote} `;
+      if (b.items) text += `${b.items.join(' ')} `;
+      if (b.caption) text += `${b.caption} `;
+    });
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    const minutes = Math.max(1, Math.round(words / 150));
+    return { words, minutes };
+  }
+
+  function updateArticleStatsUI() {
+    const pill = document.getElementById('studio-stats-pill');
+    if (!pill || !currentPost) return;
+    const stats = calculateArticleStats(currentPost);
+    pill.textContent = `${stats.words} words • ${stats.minutes}m read`;
+  }
+
+  function getBlockSnippet(block) {
+    if (block.text) return block.text;
+    if (block.title) return block.title;
+    if (block.targetText) return block.targetText;
+    if (block.word) return block.word;
+    if (block.quote) return block.quote;
+    if (block.caption) return block.caption;
+    if (block.label) return block.label;
+    if (block.items && block.items[0]) return block.items[0];
+    return '';
+  }
+
+  /**
+   * Render Block Cards in Workbench
+   */
   function renderBlockList() {
     const container = document.getElementById('studio-blocks-container');
     if (!container) return;
 
+    updateArticleStatsUI();
+
     if (!currentPost || !currentPost.blocks || currentPost.blocks.length === 0) {
       container.innerHTML = `
-        <div class="studio-empty-blocks">
+        <div class="studio-empty-blocks" style="text-align: center; padding: 2rem; color: #94a3b8; border: 1px dashed #334155; border-radius: 8px;">
           <p>No content blocks yet. Pick a building block from the toolbox above!</p>
         </div>
       `;
@@ -464,16 +596,21 @@
         icon: '📦',
         label: block.type
       };
+      const isCollapsed = collapsedBlockIndices.has(index);
+      const snippet = getBlockSnippet(block);
 
       return `
-        <div class="studio-block-card" data-index="${index}">
+        <div class="studio-block-card ${isCollapsed ? 'is-collapsed' : ''}" data-index="${index}">
           <div class="studio-block-header">
-            <div class="studio-block-drag-title">
+            <div class="studio-block-drag-title" data-act="toggle-collapse" title="Click to expand/collapse card">
+              <span class="block-toggle-icon">▼</span>
               <span class="block-icon">${def.icon}</span>
-              <strong class="block-type-name">${def.label}</strong>
+              <span class="block-type-badge">${escapeHtml(block.type)}</span>
               <span class="block-index">#${index + 1}</span>
+              ${snippet ? `<span class="block-summary-snippet">${escapeHtml(snippet)}</span>` : ''}
             </div>
             <div class="studio-block-actions">
+              <button type="button" class="action-btn" data-act="scroll-to" title="Highlight in Live Preview">👁️</button>
               <button type="button" class="action-btn" data-act="up" ${index === 0 ? 'disabled' : ''} title="Move Up">▲</button>
               <button type="button" class="action-btn" data-act="down" ${index === currentPost.blocks.length - 1 ? 'disabled' : ''} title="Move Down">▼</button>
               <button type="button" class="action-btn" data-act="clone" title="Clone Block">📋</button>
@@ -500,6 +637,20 @@
     container.querySelectorAll('.studio-block-card').forEach(card => {
       const index = parseInt(card.getAttribute('data-index'), 10);
 
+      // Card header collapse toggle
+      const headerTitle = card.querySelector('.studio-block-drag-title');
+      if (headerTitle) {
+        headerTitle.addEventListener('click', () => {
+          if (collapsedBlockIndices.has(index)) {
+            collapsedBlockIndices.delete(index);
+          } else {
+            collapsedBlockIndices.add(index);
+          }
+          renderBlockList();
+        });
+      }
+
+      // Actions
       card.querySelectorAll('[data-act]').forEach(btn => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -508,8 +659,66 @@
           if (act === 'down') moveBlock(index, 1);
           if (act === 'clone') cloneBlock(index);
           if (act === 'delete') removeBlock(index);
+          if (act === 'scroll-to') scrollToPreviewBlock(index);
         });
       });
+
+      // Formatting toolbar buttons
+      card.querySelectorAll('[data-format]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const fmt = btn.getAttribute('data-format');
+          const fieldName = btn.getAttribute('data-target-field');
+          const textarea = card.querySelector(`textarea[data-field="${fieldName}"]`);
+          if (textarea) {
+            applyFormatting(textarea, fmt);
+            const block = currentPost.blocks[index];
+            updateBlockField(block, fieldName, textarea.value);
+            renderLivePreview();
+            updateArticleStatsUI();
+          }
+        });
+      });
+
+      // Quick Image Asset Selector dropdown
+      const imgSelect = card.querySelector('.studio-image-picker');
+      if (imgSelect) {
+        imgSelect.addEventListener('change', () => {
+          if (imgSelect.value) {
+            const urlInput = card.querySelector('input[data-field="url"]');
+            if (urlInput) {
+              urlInput.value = imgSelect.value;
+              const block = currentPost.blocks[index];
+              updateBlockField(block, 'url', imgSelect.value);
+              renderLivePreview();
+            }
+          }
+        });
+      }
+
+      // Quick Link Destination Presets dropdown
+      const linkSelect = card.querySelector('.studio-link-picker');
+      if (linkSelect) {
+        linkSelect.addEventListener('change', () => {
+          const selectedVal = linkSelect.value;
+          const found = (Blocks.LINK_PRESETS || []).find(p => p.url === selectedVal);
+          if (found) {
+            const urlInput = card.querySelector('input[data-field="url"]');
+            const labelInput = card.querySelector('input[data-field="label"]');
+            const destSelect = card.querySelector('select[data-field="destination"]');
+            const block = currentPost.blocks[index];
+
+            if (urlInput) urlInput.value = found.url;
+            if (labelInput) labelInput.value = found.label;
+            if (destSelect) destSelect.value = found.destination;
+
+            updateBlockField(block, 'url', found.url);
+            updateBlockField(block, 'label', found.label);
+            updateBlockField(block, 'destination', found.destination);
+            renderLivePreview();
+          }
+        });
+      }
 
       // Field inputs
       card.querySelectorAll('[data-field]').forEach(input => {
@@ -518,9 +727,40 @@
           const block = currentPost.blocks[index];
           updateBlockField(block, field, input.value);
           renderLivePreview();
+          updateArticleStatsUI();
         });
       });
     });
+  }
+
+  function applyFormatting(textarea, format) {
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const text = textarea.value;
+    const selected = text.substring(start, end) || 'text';
+
+    let replacement = '';
+    if (format === 'bold') replacement = `**${selected}**`;
+    if (format === 'italic') replacement = `*${selected}*`;
+    if (format === 'code') replacement = `\`${selected}\``;
+    if (format === 'link') replacement = `[${selected}](https://...)`;
+    if (format === 'arrow') replacement = ` → ${selected}`;
+
+    textarea.value = text.substring(0, start) + replacement + text.substring(end);
+    textarea.focus();
+    textarea.selectionStart = start;
+    textarea.selectionEnd = start + replacement.length;
+  }
+
+  function scrollToPreviewBlock(index) {
+    const previewRoot = document.getElementById('studio-preview-root');
+    if (!previewRoot) return;
+    const targetEl = previewRoot.querySelector(`[data-preview-index="${index}"]`);
+    if (targetEl) {
+      targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      targetEl.classList.add('is-preview-highlight');
+      setTimeout(() => targetEl.classList.remove('is-preview-highlight'), 1800);
+    }
   }
 
   function updateBlockField(block, field, value) {
@@ -568,7 +808,15 @@
       case 'paragraph':
         return `
           <div class="form-group">
-            <label>Paragraph Text (supports **bold**, *italic*, \`code\`):</label>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <label>Paragraph Text:</label>
+              <div class="studio-format-toolbar">
+                <button type="button" class="format-btn" data-format="bold" data-target-field="text" title="Bold (**)">B</button>
+                <button type="button" class="format-btn" data-format="italic" data-target-field="text" title="Italic (*)">I</button>
+                <button type="button" class="format-btn" data-format="code" data-target-field="text" title="Code (\`)">&lt;/&gt;</button>
+                <button type="button" class="format-btn" data-format="link" data-target-field="text" title="Link">🔗</button>
+              </div>
+            </div>
             <textarea class="form-control" data-field="text" rows="4">${escapeHtml(block.text || '')}</textarea>
           </div>
         `;
@@ -693,8 +941,16 @@
           </div>
         `;
 
-      case 'image':
+      case 'image': {
+        const assets = Blocks.AVAILABLE_IMAGE_ASSETS || [];
+        const optionsHtml = '<option value="">-- Or Pick Known Diagram / Illustration --</option>' +
+          assets.map(a => `<option value="${a.url}" ${block.url === a.url ? 'selected' : ''}>${a.label}</option>`).join('');
+
         return `
+          <div class="form-group">
+            <label>Quick Visual Asset Selector</label>
+            <select class="form-control studio-image-picker">${optionsHtml}</select>
+          </div>
           <div class="form-row">
             <div class="form-group" style="flex: 1;">
               <label>Image URL</label>
@@ -710,9 +966,18 @@
             <input type="text" class="form-control" data-field="caption" value="${escapeHtml(block.caption || '')}">
           </div>
         `;
+      }
 
-      case 'links':
+      case 'links': {
+        const presets = Blocks.LINK_PRESETS || [];
+        const presetOpts = '<option value="">-- Quick Fill Ecosystem Gateway --</option>' +
+          presets.map(p => `<option value="${p.url}" ${block.url === p.url ? 'selected' : ''}>${p.label}</option>`).join('');
+
         return `
+          <div class="form-group">
+            <label>Quick Ecosystem Preset</label>
+            <select class="form-control studio-link-picker">${presetOpts}</select>
+          </div>
           <div class="form-row">
             <div class="form-group" style="width: 140px;">
               <label>Destination</label>
@@ -733,6 +998,7 @@
             <input type="text" class="form-control" data-field="url" value="${escapeHtml(block.url || '')}">
           </div>
         `;
+      }
 
       default:
         return `<p style="font-size: 0.85rem; color: #64748b;">Block payload configured via JSON export.</p>`;
@@ -748,8 +1014,8 @@
 
     let isFirstPara = true;
 
-    const renderedBlocks = (currentPost.blocks || []).map(b => {
-      return renderPreviewBlock(b, {
+    const renderedBlocks = (currentPost.blocks || []).map((b, index) => {
+      return renderPreviewBlock(b, index, {
         isFirst: () => {
           if (isFirstPara) {
             isFirstPara = false;
@@ -809,25 +1075,26 @@
     `;
   }
 
-  function renderPreviewBlock(block, state) {
+  function renderPreviewBlock(block, index, state) {
     if (!block) return '';
+    const idxAttr = `data-preview-index="${index}"`;
     switch (block.type) {
       case 'heading': {
         const lvl = Math.min(6, Math.max(1, block.level || 2));
-        return `<h${lvl} class="editorial-heading">${formatMarkdown(block.text || '')}</h${lvl}>`;
+        return `<h${lvl} ${idxAttr} class="editorial-heading">${formatMarkdown(block.text || '')}</h${lvl}>`;
       }
       case 'paragraph': {
         const parsed = formatMarkdown(block.text || '');
         if (state.isFirst()) {
-          return `<p class="gazette-drop-cap">${parsed}</p>`;
+          return `<p ${idxAttr} class="gazette-drop-cap">${parsed}</p>`;
         }
-        return `<p>${parsed}</p>`;
+        return `<p ${idxAttr}>${parsed}</p>`;
       }
       case 'mistake-card': {
         const num = block.number ? String(block.number).padStart(2, '0') : '';
         const L = block.labels || { wrong: 'Not quite', right: 'Say this', why: 'Why it happens', rule: 'The COSY rule' };
         return `
-          <article class="mc">
+          <article ${idxAttr} class="mc">
             <header class="mc-head">${num ? `<span class="mc-num">${escapeHtml(num)}</span>` : ''}<h3 class="mc-title">${formatMarkdown(block.title || '')}</h3></header>
             <div class="mc-compare">
               <div class="mc-side mc-wrong"><span class="mc-label">✗ ${escapeHtml(L.wrong)}</span><p class="mc-sentence">${formatMarkdown(block.wrong || '')}</p></div>
@@ -840,7 +1107,7 @@
       }
       case 'example': {
         return `
-          <div class="gazette-example-box">
+          <div ${idxAttr} class="gazette-example-box">
             <span class="example-target">${formatMarkdown(block.targetText || '')}</span>
             <p class="example-gloss">${formatMarkdown(block.gloss || '')}</p>
             ${block.context ? `<p class="example-context">Context: ${formatMarkdown(block.context)}</p>` : ''}
@@ -849,7 +1116,7 @@
       }
       case 'pronunciation': {
         return `
-          <div class="gazette-pronunciation-card">
+          <div ${idxAttr} class="gazette-pronunciation-card">
             <span class="pronunciation-word">${formatMarkdown(block.word || '')}</span>
             <span class="pronunciation-ipa">[${escapeHtml(block.ipa || '')}]</span>
           </div>
@@ -857,7 +1124,7 @@
       }
       case 'pullquote': {
         return `
-          <blockquote class="gazette-pullquote">
+          <blockquote ${idxAttr} class="gazette-pullquote">
             <p>“${formatMarkdown(block.quote || '')}”</p>
             ${block.attribution ? `<cite>— ${escapeHtml(block.attribution)}</cite>` : ''}
           </blockquote>
@@ -869,7 +1136,7 @@
           <button type="button" class="quiz-option-btn"><span class="quiz-mark">⚪</span> <span>${formatMarkdown(opt)}</span></button>
         `).join('');
         return `
-          <div class="gazette-quiz-card">
+          <div ${idxAttr} class="gazette-quiz-card">
             <h4 class="quiz-question">❓ ${formatMarkdown(q.question || '')}</h4>
             <div class="quiz-options-list">${opts}</div>
           </div>
@@ -877,7 +1144,7 @@
       }
       case 'culture-bite': {
         return `
-          <aside class="gazette-marginalia">
+          <aside ${idxAttr} class="gazette-marginalia">
             <div class="gazette-marginalia-title">📌 ${formatMarkdown(block.title || '')}</div>
             <p class="marginalia-body">${formatMarkdown(block.content || '')}</p>
           </aside>
@@ -890,19 +1157,19 @@
             <div class="quote-tile-author">— ${escapeHtml(q.author || '')}</div>
           </div>
         `).join('');
-        return `<div class="format-quote-wall">${quotes}</div>`;
+        return `<div ${idxAttr} class="format-quote-wall">${quotes}</div>`;
       }
       case 'list-item': {
         const items = block.items || [];
         const isUpgrade = items.some(i => i.includes('→'));
         if (isUpgrade) {
-          return `<div class="phrase-upgrade-grid">${items.map(i => `<div class="phrase-upgrade-card">${formatMarkdown(i)}</div>`).join('')}</div>`;
+          return `<div ${idxAttr} class="phrase-upgrade-grid">${items.map(i => `<div class="phrase-upgrade-card">${formatMarkdown(i)}</div>`).join('')}</div>`;
         }
-        return `<ul class="editorial-list">${items.map(i => `<li>${formatMarkdown(i)}</li>`).join('')}</ul>`;
+        return `<ul ${idxAttr} class="editorial-list">${items.map(i => `<li>${formatMarkdown(i)}</li>`).join('')}</ul>`;
       }
       case 'image': {
         return `
-          <figure class="gazette-figure">
+          <figure ${idxAttr} class="gazette-figure">
             <img src="${escapeHtml(block.url || '')}" alt="${escapeHtml(block.alt || '')}" class="gazette-figure-img">
             ${block.caption ? `<figcaption class="gazette-figure-caption">${formatMarkdown(block.caption)}</figcaption>` : ''}
           </figure>
@@ -910,7 +1177,7 @@
       }
       case 'links': {
         return `
-          <div class="gazette-link-block">
+          <div ${idxAttr} class="gazette-link-block">
             <a href="${escapeHtml(block.url || '#')}" target="_blank" rel="noopener" class="read-more-link">${formatMarkdown(block.label || 'Link')} ↗</a>
           </div>
         `;
@@ -919,7 +1186,7 @@
         const th = (block.headers || []).map(h => `<th>${formatMarkdown(h)}</th>`).join('');
         const tr = (block.rows || []).map(r => `<tr>${r.map(c => `<td>${formatMarkdown(c)}</td>`).join('')}</tr>`).join('');
         return `
-          <div class="table-responsive-container">
+          <div ${idxAttr} class="table-responsive-container">
             <table class="gazette-editorial-table">
               <thead><tr>${th}</tr></thead>
               <tbody>${tr}</tbody>
@@ -1068,6 +1335,9 @@
     downloadCanonicalJson,
     copyCanonicalJson,
     saveToSupabase,
+    calculateArticleStats,
+    undoDeleteBlock,
+    applyFormatting,
     LANGUAGES,
     DESKS,
     LEVELS,
