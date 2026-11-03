@@ -45,12 +45,24 @@
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Bem-vindo à Parte 1 do nosso guia de 2 partes sobre os verbos essenciais em português para os níveis A0–A1 e A2! (Veja também a [Parte 2](top-10-verbs-part-2-pt.html)). As tabelas de conjugação completas de todos os verbos podem ser consultadas em [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Dez verbos chegam para dizer quase tudo o que precisa no primeiro dia de aula: quem é, o que tem, o que pensa, o que quer, para onde vai. <mark class=\"hl-handwritten\">São também alguns dos verbos mais irregulares do português.</mark> Essa é a má notícia. A boa é que vai ouvi-los cem vezes por dia, por isso fixam-se na memória mais depressa do que qualquer outra palavra.",
+      "say": "Dez verbos chegam para dizer quase tudo o que precisa no primeiro dia de aula: quem é, o que tem, o que pensa, o que quer, para onde vai. São também alguns dos verbos mais irregulares do português. Essa é a má notícia. A boa é que vai ouvi-los cem vezes por dia, por isso fixam-se na memória mais depressa do que qualquer outra palavra."
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "Os 10 verbos fundamentais (Parte 1)"
+      "type": "paragraph",
+      "text": "Este artigo lê-se <span class=\"doodle-circle\">em voz alta</span>. Para cada verbo, comece pela tabela e diga as seis formas sem olhar. Depois leia as três frases da rubrica «Em voz alta», tape-as e repita-as de memória, trocando uma palavra para falar da sua própria vida. Experimente também o mini-diálogo, fazendo as duas personagens. Termine com o cartão de erro: mostra a frase que quase todos os principiantes dizem e a que deve dizer. Falar primeiro, perceber a regra depois: é mais rápido e mais natural.",
+      "say": "Este artigo lê-se em voz alta. Para cada verbo, comece pela tabela e diga as seis formas sem olhar. Depois leia as três frases da rubrica «Em voz alta», tape-as e repita-as de memória, trocando uma palavra para falar da sua própria vida. Experimente também o mini-diálogo, fazendo as duas personagens. Termine com o cartão de erro: mostra a frase que quase todos os principiantes dizem e a que deve dizer. Falar primeiro, perceber a regra depois: é mais rápido e mais natural."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bem-vindo à Parte 1 do nosso guia de 2 partes sobre os verbos essenciais em português para os níveis A0–A1 e A2! (Veja também a [Parte 2](top-10-verbs-part-2-pt.html)). As tabelas de conjugação completas de todos os verbos podem ser consultadas em [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "Bem-vindo à Parte 1 do nosso guia de 2 partes sobre os verbos essenciais em português para os níveis A0–A1 e A2! (Veja também a Parte 2). As tabelas de conjugação completas de todos os verbos podem ser consultadas em COSYtools."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Um verbo aprendido numa frase vale dez verbos aprendidos numa lista.",
+      "attribution": "COSYmagazine",
+      "say": "Um verbo aprendido numa frase vale dez verbos aprendidos numa lista."
     },
     {
       "type": "table",
@@ -69,70 +81,70 @@
         [
           "1",
           "Ser / Estar",
-          "Em português, ser expressa identidade e características permanentes; estar expressa localização e estados temporários.",
+          "Em português, ser expressa identidade e características permanentes; estar expressa localização e estados temporários. É a primeira grande diferença do português face a muitas outras línguas, e a que mais compensa treinar logo.",
           "está",
-          "'Estou em casa', 'Como estás?'."
+          "'ser de', 'estar bem', 'estar a + infinitivo' (Portugal) ou 'estar + gerúndio' (Brasil)."
         ],
         [
           "2",
           "Ter",
-          "O verbo ter expressa posse, idade e relações familiares.",
+          "O verbo ter expressa posse, idade e relações familiares. Também serve para falar de sensações físicas e, com de, de obrigação.",
           "Ela tem dois irmãos.",
-          "'Tenho um livro', 'Tenho 25 anos'."
+          "'ter de + infinitivo', 'ter razão', 'ter medo de'."
         ],
         [
           "3",
           "Pensar",
-          "O verbo pensar expressa opiniões e reflexões.",
+          "O verbo pensar expressa opiniões e reflexões. Atenção às preposições: pensar que para dar a opinião e pensar em para o que nos ocupa a cabeça.",
           "Ele pensa no futuro.",
-          "'Penso que é uma boa ideia'."
+          "'pensar em', 'pensar que', 'O que pensas disto?'."
         ],
         [
           "4",
           "Saber / Conhecer",
-          "Saber usa-se para factos e capacidades. Conhecer para pessoas e lugares.",
+          "Saber usa-se para factos e capacidades (saber + infinitivo). Conhecer usa-se para pessoas e lugares, no sentido de já os ter encontrado ou visitado.",
           "conhece",
-          "'Conheço Lisboa'."
+          "'saber de cor', 'conhecer bem', 'prazer em conhecê-lo'."
         ],
         [
           "5",
           "Gostar / Amar",
-          "O verbo gostar usa-se com a preposição de (gosto de). Amar para sentimentos fortes.",
+          "O verbo gostar usa-se com a preposição de (gosto de). Amar é reservado a sentimentos fortes; no dia a dia, os portugueses preferem adorar para coisas e gostar muito de para pessoas.",
           "Gosta de viajar.",
-          "'Gosto de aprender línguas'."
+          "'gostar de + infinitivo', 'não gosto nada de', 'gostar de ti'."
         ],
         [
           "6",
           "Querer / Gostaria",
-          "O verbo querer expressa vontade. A forma gostaria é usada para pedidos corteses.",
+          "O verbo querer expressa vontade. Para pedir com delicadeza, use gostaria de ou o imperfeito queria, muito frequente no dia a dia: «Queria um café, por favor».",
           "gostaria",
-          "'Gostaria de um café, por favor'."
+          "'querer dizer', 'sem querer', 'se quiser'."
         ],
         [
           "7",
           "Trabalhar / Estudar / Aprender",
-          "Os verbos trabalhar, estudar e aprender cobrem a vida profissional, os estudos e a aquisição de novas competências.",
+          "Os verbos trabalhar, estudar e aprender cobrem a vida profissional, os estudos e a aquisição de novas competências. Não os troque: quem estuda vai à escola, quem aprende ganha uma competência.",
           "aprende",
-          "'trabalhar no duro', 'aprender de cor', 'aprender a conduzir'."
+          "'trabalhar no duro', 'aprender de cor', 'aprender a + infinitivo'."
         ],
         [
           "8",
           "Ir / Futuro próximo",
-          "O verbo modal poder expressa capacidade e permissão.",
-          "Ele pode entrar.",
-          "'Posso entrar?'."
+          "O verbo ir exprime deslocação e, seguido de um infinitivo, o futuro próximo: «Vou comer» é o que se diz quando falamos de algo que vai acontecer em breve. É um dos verbos mais irregulares, por isso diga as formas em voz alta.",
+          "Ela vai de comboio.",
+          "'ir embora', 'ir a pé', 'Vamos!'."
         ],
         [
           "9",
           "Poder",
-          "O verbo comer refere-se às refeições e alimentação.",
-          "Ele come ao almoço.",
-          "'Bom apetite!'."
+          "O verbo modal poder expressa capacidade, possibilidade e permissão. Seguido de infinitivo, serve também para pedidos corteses: «Pode ajudar-me?».",
+          "Ele pode entrar.",
+          "'se puder', 'não pode ser', 'pode ser'."
         ],
         [
           "10",
           "Comer / Beber",
-          "Os verbos comer e beber acompanham as refeições, a alimentação diária e o convívio social.",
+          "Os verbos comer e beber acompanham as refeições, a alimentação diária e o convívio social. São verbos regulares, por isso uma vez aprendido o padrão, aplica-se a centenas de outros verbos em -er.",
           "bebe",
           "'Bom apetite!', 'tomar um café', 'comer fora'."
         ]
@@ -141,12 +153,43 @@
     },
     {
       "type": "heading",
-      "level": 3,
-      "text": "1. Ser / Estar"
+      "level": 2,
+      "text": "O mapa de memória: dez verbos, cinco funções",
+      "say": "O mapa de memória: dez verbos, cinco funções"
     },
     {
       "type": "paragraph",
-      "text": "Em português, **ser** expressa identidade e características permanentes; **estar** expressa localização e estados temporários."
+      "text": "Em vez de aprender dez verbos um a seguir ao outro, arrume-os por função. Quando quiser dizer alguma coisa, pergunte primeiro: <mark class=\"hl-handwritten\">estou a falar de mim, da minha opinião, dos meus desejos, de uma deslocação ou do dia a dia?</mark> O verbo vem quase sozinho.",
+      "say": "Em vez de aprender dez verbos um a seguir ao outro, arrume-os por função. Quando quiser dizer alguma coisa, pergunte primeiro: estou a falar de mim, da minha opinião, dos meus desejos, de uma deslocação ou do dia a dia? O verbo vem quase sozinho."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Quem sou, o que tenho:** ser, estar, ter. Identidade, estado, idade, posse.",
+        "**O que penso, o que sei:** pensar, saber, conhecer. Opiniões, competências, pessoas e lugares.",
+        "**O que gosto, o que quero:** gostar, amar, querer, gostaria. Gostos, desejos, pedidos corteses.",
+        "**O trabalho e os estudos:** trabalhar, estudar, aprender. Profissão, escola, progresso diário.",
+        "**Mover-se, poder e alimentar-se:** ir, poder, comer e beber. Deslocações, capacidades, refeições e convívio."
+      ],
+      "say": "Quem sou, o que tenho: ser, estar, ter. Identidade, estado, idade, posse. O que penso, o que sei: pensar, saber, conhecer. Opiniões, competências, pessoas e lugares. O que gosto, o que quero: gostar, amar, querer, gostaria. Gostos, desejos, pedidos corteses. O trabalho e os estudos: trabalhar, estudar, aprender. Profissão, escola, progresso diário. Mover-se, poder e alimentar-se: ir, poder, comer e beber. Deslocações, capacidades, refeições e convívio."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Os 10 verbos fundamentais (Parte 1)",
+      "say": "Os 10 verbos fundamentais (Parte 1)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Ser / Estar",
+      "say": "1. Ser / Estar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em português, **ser** expressa identidade e características permanentes; **estar** expressa localização e estados temporários. É a primeira grande diferença do português face a muitas outras línguas, e a que mais compensa treinar logo.",
+      "say": "Em português, ser expressa identidade e características permanentes; estar expressa localização e estados temporários. É a primeira grande diferença do português face a muitas outras línguas, e a que mais compensa treinar logo."
     },
     {
       "type": "table",
@@ -192,18 +235,91 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Ser:** 'Sou estudante', 'Ele é médico'.",
-        "**Estar:** 'Estou em casa', 'Como estás?'."
-      ]
+        "**Ser (identidade e origem):** 'Sou estudante', 'Ele é médico', 'Somos de Portugal'.",
+        "**Estar (localização e estado):** 'Estou em casa', 'Como estás?', 'Estamos cansados'.",
+        "**Expressões comuns:** 'ser de', 'estar bem', 'estar a + infinitivo' (Portugal) ou 'estar + gerúndio' (Brasil)."
+      ],
+      "say": "Ser (identidade e origem): 'Sou estudante', 'Ele é médico', 'Somos de Portugal'. Estar (localização e estado): 'Estou em casa', 'Como estás?', 'Estamos cansados'. Expressões comuns: 'ser de', 'estar bem', 'estar a + infinitivo' (Portugal) ou 'estar + gerúndio' (Brasil)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Sou a Marta e estou na aula de português.",
+      "gloss": "Com ser diz quem é; com estar diz onde está.",
+      "context": "Apresenta-se a um novo colega.",
+      "say": "Sou a Marta e estou na aula de português."
+    },
+    {
+      "type": "example",
+      "targetText": "A minha professora é brasileira, mas hoje está em Lisboa.",
+      "gloss": "Origem permanente com ser, lugar de momento com estar.",
+      "context": "Fala da sua professora a um amigo.",
+      "say": "A minha professora é brasileira, mas hoje está em Lisboa."
+    },
+    {
+      "type": "example",
+      "targetText": "Estamos prontos? Então vamos começar!",
+      "gloss": "Estar para um estado passageiro, aqui a prontidão.",
+      "context": "O professor pergunta à turma.",
+      "say": "Estamos prontos? Então vamos começar!"
+    },
+    {
+      "type": "example",
+      "targetText": "**Ana:** Olá! Tu és o Rui, certo?\n**Rui:** Sou, sim. E tu és a Ana. Como estás?\n**Ana:** Estou bem, obrigada. Estou um pouco nervosa: é o primeiro dia!",
+      "gloss": "Ser serve para identificar; estar serve para o estado de momento.",
+      "context": "Primeiro dia numa escola de línguas.",
+      "say": "Ana: Olá! Tu és o Rui, certo? Rui: Sou, sim. E tu és a Ana. Como estás? Ana: Estou bem, obrigada. Estou um pouco nervosa: é o primeiro dia!"
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Ser ou estar com um estado",
+      "wrong": "«Sou cansado.»",
+      "right": "«Estou cansado.»",
+      "why": "Muitas línguas têm um único verbo para «ser» e «estar». Em português, o cansaço passa, por isso escolhe-se estar.",
+      "rule": "Para estados passageiros (cansado, contente, ocupado) e para a localização, use **estar**. Para quem é e como é por natureza, use **ser**.",
+      "examples": [
+        "Ela é alta. / Hoje ela está triste.",
+        "O café está quente.",
+        "Estamos em Lisboa, mas somos do Porto."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Ser ou estar com um estado. Não bem assim: «Sou cansado.» Diga antes: «Estou cansado.» Muitas línguas têm um único verbo para «ser» e «estar». Em português, o cansaço passa, por isso escolhe-se estar. Para estados passageiros (cansado, contente, ocupado) e para a localização, use estar. Para quem é e como é por natureza, use ser."
+    },
+    {
+      "type": "quiz",
+      "question": "A Maria ___ na biblioteca neste momento.",
+      "options": [
+        "é",
+        "está",
+        "tem"
+      ],
+      "correctIndex": 1,
+      "explanation": "A localização no momento escreve-se com estar: «A Maria está na biblioteca».",
+      "say": "A Maria ___ na biblioteca neste momento."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Ter"
+      "text": "2. Ter",
+      "say": "2. Ter"
     },
     {
       "type": "paragraph",
-      "text": "O verbo **ter** expressa posse, idade e relações familiares."
+      "text": "O verbo **ter** expressa posse, idade e relações familiares. Também serve para falar de sensações físicas e, com *de*, de obrigação.",
+      "say": "O verbo ter expressa posse, idade e relações familiares. Também serve para falar de sensações físicas e, com de, de obrigação."
     },
     {
       "type": "table",
@@ -249,17 +365,91 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Posse & Idade:** 'Tenho um livro', 'Tenho 25 anos'."
-      ]
+        "**Posse e idade:** 'Tenho um livro', 'Tenho 25 anos'.",
+        "**Sensações:** 'Tenho fome', 'Tenho sede', 'Tenho frio', 'Tenho calor'.",
+        "**Expressões comuns:** 'ter de + infinitivo', 'ter razão', 'ter medo de'."
+      ],
+      "say": "Posse e idade: 'Tenho um livro', 'Tenho 25 anos'. Sensações: 'Tenho fome', 'Tenho sede', 'Tenho frio', 'Tenho calor'. Expressões comuns: 'ter de + infinitivo', 'ter razão', 'ter medo de'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Tenho quinze anos e duas irmãs mais novas.",
+      "gloss": "A idade diz-se com ter, nunca com ser.",
+      "context": "Apresenta-se a um colega novo.",
+      "say": "Tenho quinze anos e duas irmãs mais novas."
+    },
+    {
+      "type": "example",
+      "targetText": "Tenho fome! A que horas almoçamos?",
+      "gloss": "Ter fome: uma sensação que «se tem».",
+      "context": "Meio-dia, à porta da cantina.",
+      "say": "Tenho fome! A que horas almoçamos?"
+    },
+    {
+      "type": "example",
+      "targetText": "Tens uma caneta para me emprestar?",
+      "gloss": "Pede um objeto a alguém.",
+      "context": "Esqueceu-se do estojo na aula.",
+      "say": "Tens uma caneta para me emprestar?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Professor:** Quantos irmãos tens?\n**Sofia:** Tenho dois irmãos e uma irmã.\n**Professor:** E quantos anos tem a tua irmã?\n**Sofia:** Ela tem doze anos.",
+      "gloss": "Perguntas com ter para família e idade.",
+      "context": "Conversa de apresentação na turma.",
+      "say": "Professor: Quantos irmãos tens? Sofia: Tenho dois irmãos e uma irmã. Professor: E quantos anos tem a tua irmã? Sofia: Ela tem doze anos."
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "A idade com ter",
+      "wrong": "«Eu sou 25 anos.»",
+      "right": "«Eu tenho 25 anos.»",
+      "why": "Na sua língua pode dizer-se «sou 25 anos». O português escolhe o verbo da posse: a idade é algo que se «tem».",
+      "rule": "A idade e as sensações dizem-se com **ter**: tenho 25 anos, tenho fome, tenho sede, tenho frio, tenho medo.",
+      "examples": [
+        "Tenho sede.",
+        "Ela tem dezasseis anos.",
+        "Temos frio."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "A idade com ter. Não bem assim: «Eu sou 25 anos.» Diga antes: «Eu tenho 25 anos.» Na sua língua pode dizer-se «sou 25 anos». O português escolhe o verbo da posse: a idade é algo que se «tem». A idade e as sensações dizem-se com ter: tenho 25 anos, tenho fome, tenho sede, tenho frio, tenho medo."
+    },
+    {
+      "type": "quiz",
+      "question": "Quantos anos ___?",
+      "options": [
+        "és",
+        "tens",
+        "estás"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pergunta-se a idade com ter: «Quantos anos tens?»",
+      "say": "Quantos anos ___?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Pensar"
+      "text": "3. Pensar",
+      "say": "3. Pensar"
     },
     {
       "type": "paragraph",
-      "text": "O verbo **pensar** expressa opiniões e reflexões."
+      "text": "O verbo **pensar** expressa opiniões e reflexões. Atenção às preposições: *pensar que* para dar a opinião e *pensar em* para o que nos ocupa a cabeça.",
+      "say": "O verbo pensar expressa opiniões e reflexões. Atenção às preposições: pensar que para dar a opinião e pensar em para o que nos ocupa a cabeça."
     },
     {
       "type": "table",
@@ -305,17 +495,91 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Opinião:** 'Penso que é uma boa ideia'."
-      ]
+        "**Opinião:** 'Penso que é uma boa ideia'.",
+        "**Reflexão:** 'Penso nas férias'.",
+        "**Expressões comuns:** 'pensar em', 'pensar que', 'O que pensas disto?'."
+      ],
+      "say": "Opinião: 'Penso que é uma boa ideia'. Reflexão: 'Penso nas férias'. Expressões comuns: 'pensar em', 'pensar que', 'O que pensas disto?'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Penso que o curso é muito útil.",
+      "gloss": "Pensar que + frase: dá a sua opinião.",
+      "context": "O professor pede a sua opinião.",
+      "say": "Penso que o curso é muito útil."
+    },
+    {
+      "type": "example",
+      "targetText": "Em que estás a pensar?",
+      "gloss": "Pensar em: aquilo que ocupa o seu pensamento.",
+      "context": "O seu amigo olha pela janela, distraído.",
+      "say": "Em que estás a pensar?"
+    },
+    {
+      "type": "example",
+      "targetText": "O que pensa desta ideia?",
+      "gloss": "Pergunta pela opinião de alguém.",
+      "context": "Faz a pergunta à professora.",
+      "say": "O que pensa desta ideia?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Inês:** Penso que o exame é difícil.\n**Tiago:** Eu penso que não. Em que parte pensas?\n**Inês:** Penso na gramática, sobretudo nos verbos.",
+      "gloss": "Pensar que para opinião; pensar em para o assunto.",
+      "context": "Conversa antes de um teste.",
+      "say": "Inês: Penso que o exame é difícil. Tiago: Eu penso que não. Em que parte pensas? Inês: Penso na gramática, sobretudo nos verbos."
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Pensar em, não pensar de",
+      "wrong": "«Penso das minhas férias.»",
+      "right": "«Penso nas minhas férias.»",
+      "why": "Em muitas línguas uma única preposição serve para tudo. Em português, o que ocupa o pensamento pede em.",
+      "rule": "**Pensar em** = ter alguém ou algo na cabeça (em + as = nas). Para dar uma opinião, use **pensar que**; para a pedir, «O que pensas disto?».",
+      "examples": [
+        "Penso em ti.",
+        "Ela pensa no futuro.",
+        "O que pensam do filme?"
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Pensar em, não pensar de. Não bem assim: «Penso das minhas férias.» Diga antes: «Penso nas minhas férias.» Em muitas línguas uma única preposição serve para tudo. Em português, o que ocupa o pensamento pede em. Pensar em = ter alguém ou algo na cabeça (em + as = nas). Para dar uma opinião, use pensar que; para a pedir, «O que pensas disto?»."
+    },
+    {
+      "type": "quiz",
+      "question": "Penso ___ ti todos os dias.",
+      "options": [
+        "de",
+        "em",
+        "a"
+      ],
+      "correctIndex": 1,
+      "explanation": "O que nos ocupa a cabeça pede em: «Penso em ti».",
+      "say": "Penso ___ ti todos os dias."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. Saber / Conhecer"
+      "text": "4. Saber / Conhecer",
+      "say": "4. Saber / Conhecer"
     },
     {
       "type": "paragraph",
-      "text": "**Saber** usa-se para factos e capacidades. **Conhecer** para pessoas e lugares."
+      "text": "**Saber** usa-se para factos e capacidades (saber + infinitivo). **Conhecer** usa-se para pessoas e lugares, no sentido de já os ter encontrado ou visitado.",
+      "say": "Saber usa-se para factos e capacidades (saber + infinitivo). Conhecer usa-se para pessoas e lugares, no sentido de já os ter encontrado ou visitado."
     },
     {
       "type": "table",
@@ -361,18 +625,91 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Saber:** 'Sei falar português'.",
-        "**Conhecer:** 'Conheço Lisboa'."
-      ]
+        "**Saber:** 'Sei falar português', 'Sabes onde fica a estação?'.",
+        "**Conhecer:** 'Conheço Lisboa', 'Conheces a minha irmã?'.",
+        "**Expressões comuns:** 'saber de cor', 'conhecer bem', 'prazer em conhecê-lo'."
+      ],
+      "say": "Saber: 'Sei falar português', 'Sabes onde fica a estação?'. Conhecer: 'Conheço Lisboa', 'Conheces a minha irmã?'. Expressões comuns: 'saber de cor', 'conhecer bem', 'prazer em conhecê-lo'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Sei falar três línguas, mas ainda não sei cozinhar.",
+      "gloss": "Saber + infinitivo: uma capacidade aprendida.",
+      "context": "Conta o que sabe fazer.",
+      "say": "Sei falar três línguas, mas ainda não sei cozinhar."
+    },
+    {
+      "type": "example",
+      "targetText": "Conheço bem o Porto: vivi lá dois anos.",
+      "gloss": "Conhecer um lugar por experiência.",
+      "context": "Conversa sobre viagens.",
+      "say": "Conheço bem o Porto: vivi lá dois anos."
+    },
+    {
+      "type": "example",
+      "targetText": "Conheces o meu amigo Pedro?",
+      "gloss": "Conhecer uma pessoa, apresentá-la.",
+      "context": "Numa festa, apresenta alguém.",
+      "say": "Conheces o meu amigo Pedro?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Carla:** Sabes onde fica o café da universidade?\n**Daniel:** Sei, sim. Conheces o professor Costa? Ele está lá.\n**Carla:** Não conheço. Podes apresentar-me?",
+      "gloss": "Saber para informação; conhecer para pessoas.",
+      "context": "No campus, à hora do intervalo.",
+      "say": "Carla: Sabes onde fica o café da universidade? Daniel: Sei, sim. Conheces o professor Costa? Ele está lá. Carla: Não conheço. Podes apresentar-me?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Saber ou conhecer",
+      "wrong": "«Eu sei Lisboa.»",
+      "right": "«Eu conheço Lisboa.»",
+      "why": "Em algumas línguas um só verbo cobre «saber» e «conhecer». Em português, as pessoas e os lugares pedem conhecer.",
+      "rule": "**Conhecer** + pessoa ou lugar; **saber** + facto ou saber + infinitivo (capacidade).",
+      "examples": [
+        "Conheço a tua mãe.",
+        "Sei que ela é médica.",
+        "Sabem nadar?"
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Saber ou conhecer. Não bem assim: «Eu sei Lisboa.» Diga antes: «Eu conheço Lisboa.» Em algumas línguas um só verbo cobre «saber» e «conhecer». Em português, as pessoas e os lugares pedem conhecer. Conhecer + pessoa ou lugar; saber + facto ou saber + infinitivo (capacidade)."
+    },
+    {
+      "type": "quiz",
+      "question": "___ a minha professora?",
+      "options": [
+        "Sabes",
+        "Conheces",
+        "Podes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Para pessoas usa-se conhecer: «Conheces a minha professora?»",
+      "say": "___ a minha professora?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "5. Gostar / Amar"
+      "text": "5. Gostar / Amar",
+      "say": "5. Gostar / Amar"
     },
     {
       "type": "paragraph",
-      "text": "O verbo **gostar** usa-se com a preposição *de* (*gosto de*). **Amar** para sentimentos fortes."
+      "text": "O verbo **gostar** usa-se com a preposição *de* (*gosto de*). **Amar** é reservado a sentimentos fortes; no dia a dia, os portugueses preferem *adorar* para coisas e *gostar muito de* para pessoas.",
+      "say": "O verbo gostar usa-se com a preposição de (gosto de). Amar é reservado a sentimentos fortes; no dia a dia, os portugueses preferem adorar para coisas e gostar muito de para pessoas."
     },
     {
       "type": "table",
@@ -418,17 +755,91 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Gostos:** 'Gosto de aprender línguas'."
-      ]
+        "**Gostos:** 'Gosto de aprender línguas', 'Gosto de café'.",
+        "**Intensidade:** 'Gosto muito de', 'Adoro música', 'Amo a minha família'.",
+        "**Expressões comuns:** 'gostar de + infinitivo', 'não gosto nada de', 'gostar de ti'."
+      ],
+      "say": "Gostos: 'Gosto de aprender línguas', 'Gosto de café'. Intensidade: 'Gosto muito de', 'Adoro música', 'Amo a minha família'. Expressões comuns: 'gostar de + infinitivo', 'não gosto nada de', 'gostar de ti'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Gosto de chocolate, mas não gosto de café.",
+      "gloss": "Gostar de + nome: um gosto simples.",
+      "context": "Fala dos seus gostos.",
+      "say": "Gosto de chocolate, mas não gosto de café."
+    },
+    {
+      "type": "example",
+      "targetText": "Gostas de música? Que tipo?",
+      "gloss": "Pergunta aberta para começar uma conversa.",
+      "context": "Conhece um novo colega.",
+      "say": "Gostas de música? Que tipo?"
+    },
+    {
+      "type": "example",
+      "targetText": "Ela gosta de viajar e adora a comida italiana.",
+      "gloss": "Gostar de + infinitivo; adorar para algo muito forte.",
+      "context": "Descreve uma amiga.",
+      "say": "Ela gosta de viajar e adora a comida italiana."
+    },
+    {
+      "type": "example",
+      "targetText": "**Marco:** Gostas de ler?\n**Beatriz:** Gosto muito! E tu, de que gostas?\n**Marco:** Gosto de desporto, mas adoro cozinhar.",
+      "gloss": "Gostar sempre com de; adorar para algo muito forte.",
+      "context": "Conversa descontraída no intervalo.",
+      "say": "Marco: Gostas de ler? Beatriz: Gosto muito! E tu, de que gostas? Marco: Gosto de desporto, mas adoro cozinhar."
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Gostar com de",
+      "wrong": "«Gosto música.»",
+      "right": "«Gosto de música.»",
+      "why": "Em muitas línguas o verbo «gostar» liga-se diretamente ao objeto. Em português, a preposição de é obrigatória.",
+      "rule": "**Gostar** pede sempre **de**: gosto de café, gostamos de viajar, gosta dele. Com o artigo: de + o = do, de + a = da.",
+      "examples": [
+        "Gosto do meu trabalho.",
+        "Gostamos de ler.",
+        "Ele gosta da cidade."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Gostar com de. Não bem assim: «Gosto música.» Diga antes: «Gosto de música.» Em muitas línguas o verbo «gostar» liga-se diretamente ao objeto. Em português, a preposição de é obrigatória. Gostar pede sempre de: gosto de café, gostamos de viajar, gosta dele. Com o artigo: de + o = do, de + a = da."
+    },
+    {
+      "type": "quiz",
+      "question": "Ela gosta ___ viajar.",
+      "options": [
+        "de",
+        "a",
+        "em"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gostar pede sempre de: «Ela gosta de viajar».",
+      "say": "Ela gosta ___ viajar."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "6. Querer / Gostaria"
+      "text": "6. Querer / Gostaria",
+      "say": "6. Querer / Gostaria"
     },
     {
       "type": "paragraph",
-      "text": "O verbo **querer** expressa vontade. A forma **gostaria** é usada para pedidos corteses."
+      "text": "O verbo **querer** expressa vontade. Para pedir com delicadeza, use **gostaria de** ou o imperfeito **queria**, muito frequente no dia a dia: «Queria um café, por favor».",
+      "say": "O verbo querer expressa vontade. Para pedir com delicadeza, use gostaria de ou o imperfeito queria, muito frequente no dia a dia: «Queria um café, por favor»."
     },
     {
       "type": "table",
@@ -474,17 +885,97 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Pedido cortês:** 'Gostaria de um café, por favor'."
-      ]
+        "**Vontade:** 'Quero aprender português', 'Queremos viajar'.",
+        "**Pedido cortês:** 'Gostaria de um café, por favor', 'Queria uma mesa para dois'.",
+        "**Expressões comuns:** 'querer dizer', 'sem querer', 'se quiser'."
+      ],
+      "say": "Vontade: 'Quero aprender português', 'Queremos viajar'. Pedido cortês: 'Gostaria de um café, por favor', 'Queria uma mesa para dois'. Expressões comuns: 'querer dizer', 'sem querer', 'se quiser'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Quero aprender português para viver em Lisboa.",
+      "gloss": "Querer + infinitivo: um desejo claro.",
+      "context": "Explica porque estuda português.",
+      "say": "Quero aprender português para viver em Lisboa."
+    },
+    {
+      "type": "example",
+      "targetText": "Gostaria de uma mesa para dois, por favor.",
+      "gloss": "Fórmula cortês para pedir.",
+      "context": "Chega a um restaurante.",
+      "say": "Gostaria de uma mesa para dois, por favor."
+    },
+    {
+      "type": "example",
+      "targetText": "Queria um café e um pastel de nata, se faz favor.",
+      "gloss": "O imperfeito «queria» torna o pedido mais suave.",
+      "context": "Pede no balcão de uma pastelaria.",
+      "say": "Queria um café e um pastel de nata, se faz favor."
+    },
+    {
+      "type": "example",
+      "targetText": "**Empregado:** Boa tarde! O que deseja?\n**Cliente:** Boa tarde! Queria um café e uma água, por favor.\n**Empregado:** Quer mais alguma coisa?\n**Cliente:** Gostaria de um pastel de nata, obrigado.",
+      "gloss": "Pedidos corteses com queria e gostaria de.",
+      "context": "Numa pastelaria.",
+      "say": "Empregado: Boa tarde! O que deseja? Cliente: Boa tarde! Queria um café e uma água, por favor. Empregado: Quer mais alguma coisa? Cliente: Gostaria de um pastel de nata, obrigado."
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Pedir com delicadeza",
+      "wrong": "«Quero um café.»",
+      "right": "«Queria um café, por favor.» / «Gostaria de um café.»",
+      "why": "«Quero» soa direto, quase uma ordem. Em português, o pedido cortês suaviza o verbo.",
+      "rule": "Para pedir em lojas e restaurantes, use **queria** ou **gostaria de** e acrescente «por favor».",
+      "examples": [
+        "Queria uma água, por favor.",
+        "Gostaria de ver o menu.",
+        "Queríamos reservar uma mesa."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Pedir com delicadeza. Não bem assim: «Quero um café.» Diga antes: «Queria um café, por favor.» / «Gostaria de um café.» «Quero» soa direto, quase uma ordem. Em português, o pedido cortês suaviza o verbo. Para pedir em lojas e restaurantes, use queria ou gostaria de e acrescente «por favor»."
+    },
+    {
+      "type": "quiz",
+      "question": "No café, para pedir com delicadeza, diz:",
+      "options": [
+        "Quero um café.",
+        "Queria um café, por favor.",
+        "Dá-me um café."
+      ],
+      "correctIndex": 1,
+      "explanation": "«Queria… por favor» é a fórmula cortês e natural para pedir.",
+      "say": "No café, para pedir com delicadeza, diz:"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Tu, você ou o senhor? Uma pequena escolha que conta",
+      "content": "Em Portugal, usa-se «tu» com amigos, família, crianças e jovens da mesma idade. Com pessoas que não conhece, com mais velhos ou em contextos formais, usa-se o nome ou «o senhor» e «a senhora»: «O senhor quer um café?». O pronome «você» existe, mas em Portugal pode soar seco ou distante, por isso muita gente evita-o. No Brasil é diferente: «você» é o tratamento comum e neutro, e «tu» aparece em algumas regiões, muitas vezes com o verbo na terceira pessoa. Para o pedido de passar ao «tu», diz-se «Podemos tratar-nos por tu?». Se alguém mais velho propuser, pode aceitar. Na dúvida, escolha «o senhor» ou «a senhora»: perdoam-lhe facilmente o excesso de cortesia, raramente a falta dela. Os costumes variam consoante a região e o meio.",
+      "say": "Tu, você ou o senhor? Uma pequena escolha que conta. Em Portugal, usa-se tu com amigos, família, crianças e jovens da mesma idade. Com pessoas que não conhece, com mais velhos ou em contextos formais, usa-se o nome ou o senhor e a senhora. O pronome você existe, mas em Portugal pode soar seco ou distante. No Brasil é diferente: você é o tratamento comum e neutro. Na dúvida, escolha o senhor ou a senhora: perdoam-lhe facilmente o excesso de cortesia, raramente a falta dela."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "7. Trabalhar / Estudar / Aprender"
+      "text": "7. Trabalhar / Estudar / Aprender",
+      "say": "7. Trabalhar / Estudar / Aprender"
     },
     {
       "type": "paragraph",
-      "text": "Os verbos **trabalhar**, **estudar** e **aprender** cobrem a vida profissional, os estudos e a aquisição de novas competências."
+      "text": "Os verbos **trabalhar**, **estudar** e **aprender** cobrem a vida profissional, os estudos e a aquisição de novas competências. Não os troque: quem estuda vai à escola, quem aprende ganha uma competência.",
+      "say": "Os verbos trabalhar, estudar e aprender cobrem a vida profissional, os estudos e a aquisição de novas competências. Não os troque: quem estuda vai à escola, quem aprende ganha uma competência."
     },
     {
       "type": "table",
@@ -537,20 +1028,222 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Trabalhar (Emprego):** 'Trabalho num escritório', 'Ela trabalha muito'.",
-        "**Estudar (Educação):** 'Estudo português todos os dias', 'Estudam na universidade'.",
-        "**Aprender (Competências):** 'Aprendo a cozinhar', 'Aprendemos rápido'.",
-        "**Expressões úteis:** 'trabalhar no duro', 'aprender de cor', 'aprender a conduzir'."
-      ]
+        "**Trabalhar (emprego):** 'Trabalho num escritório', 'Ela trabalha muito'.",
+        "**Estudar (educação):** 'Estudo português todos os dias', 'Estudam na universidade'.",
+        "**Aprender (competências):** 'Aprendo a conduzir', 'Aprendemos depressa'.",
+        "**Expressões comuns:** 'trabalhar no duro', 'aprender de cor', 'aprender a + infinitivo'."
+      ],
+      "say": "Trabalhar (emprego): 'Trabalho num escritório', 'Ela trabalha muito'. Estudar (educação): 'Estudo português todos os dias', 'Estudam na universidade'. Aprender (competências): 'Aprendo a conduzir', 'Aprendemos depressa'. Expressões comuns: 'trabalhar no duro', 'aprender de cor', 'aprender a + infinitivo'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Trabalho num hospital e estudo português à noite.",
+      "gloss": "Dois verbos para duas partes do dia.",
+      "context": "Descreve a sua rotina.",
+      "say": "Trabalho num hospital e estudo português à noite."
+    },
+    {
+      "type": "example",
+      "targetText": "Estudamos juntos todas as quartas-feiras.",
+      "gloss": "Estudar: uma atividade de escola ou de revisão.",
+      "context": "Combina um estudo em grupo.",
+      "say": "Estudamos juntos todas as quartas-feiras."
+    },
+    {
+      "type": "example",
+      "targetText": "Estou a aprender a tocar guitarra.",
+      "gloss": "Aprender a + infinitivo: ganhar uma competência.",
+      "context": "Fala de um novo passatempo.",
+      "say": "Estou a aprender a tocar guitarra."
+    },
+    {
+      "type": "example",
+      "targetText": "**Helena:** Onde trabalhas?\n**Miguel:** Trabalho numa livraria e estudo design à noite.\n**Helena:** Que bom! Eu estou a aprender a programar.",
+      "gloss": "Trabalhar, estudar e aprender na mesma conversa.",
+      "context": "Dois colegas à saída da aula.",
+      "say": "Helena: Onde trabalhas? Miguel: Trabalho numa livraria e estudo design à noite. Helena: Que bom! Eu estou a aprender a programar."
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Estudar ou aprender",
+      "wrong": "«Aprendo na universidade.»",
+      "right": "«Estudo na universidade.»",
+      "why": "«Aprender» liga-se a uma competência concreta, enquanto «estudar» descreve a atividade de frequentar um curso ou rever matéria.",
+      "rule": "**Estudar** + disciplina ou escola; **aprender** + a + infinitivo, ou aprender + algo (aprender inglês).",
+      "examples": [
+        "Estudo medicina.",
+        "Aprendo a nadar.",
+        "Ela estuda e trabalha."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Estudar ou aprender. Não bem assim: «Aprendo na universidade.» Diga antes: «Estudo na universidade.» «Aprender» liga-se a uma competência concreta, enquanto «estudar» descreve a atividade de frequentar um curso ou rever matéria. Estudar + disciplina ou escola; aprender + a + infinitivo, ou aprender + algo (aprender inglês)."
+    },
+    {
+      "type": "quiz",
+      "question": "Ele ___ num banco.",
+      "options": [
+        "estuda",
+        "trabalha",
+        "aprende"
+      ],
+      "correctIndex": 1,
+      "explanation": "Para o emprego usa-se trabalhar: «Ele trabalha num banco».",
+      "say": "Ele ___ num banco."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "8. Ir / Futuro próximo"
+      "text": "8. Ir / Futuro próximo",
+      "say": "8. Ir / Futuro próximo"
     },
     {
       "type": "paragraph",
-      "text": "O verbo modal **poder** expressa capacidade e permissão."
+      "text": "O verbo **ir** exprime deslocação e, seguido de um infinitivo, o **futuro próximo**: «Vou comer» é o que se diz quando falamos de algo que vai acontecer em breve. É um dos verbos mais irregulares, por isso diga as formas em voz alta.",
+      "say": "O verbo ir exprime deslocação e, seguido de um infinitivo, o futuro próximo: «Vou comer» é o que se diz quando falamos de algo que vai acontecer em breve. É um dos verbos mais irregulares, por isso diga as formas em voz alta."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronome",
+        "Presente",
+        "Exemplo"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "vou",
+          "Vou ao trabalho / Vou comer."
+        ],
+        [
+          "Tu / Você",
+          "vais / vai",
+          "Vais ao cinema hoje?"
+        ],
+        [
+          "Ele / Ela",
+          "vai",
+          "Ela vai de comboio."
+        ],
+        [
+          "Nós",
+          "vamos",
+          "Vamos estudar juntos."
+        ],
+        [
+          "Vocês",
+          "vão",
+          "Vocês vão viajar?"
+        ],
+        [
+          "Eles / Elas",
+          "vão",
+          "Eles vão chegar tarde."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Deslocação:** 'Vou a Lisboa', 'Vou para casa', 'Vamos a pé'.",
+        "**Futuro próximo:** 'Vou estudar', 'Vamos jantar fora', 'Vai chover'.",
+        "**Expressões comuns:** 'ir embora', 'ir a pé', 'Vamos!'."
+      ],
+      "say": "Deslocação: 'Vou a Lisboa', 'Vou para casa', 'Vamos a pé'. Futuro próximo: 'Vou estudar', 'Vamos jantar fora', 'Vai chover'. Expressões comuns: 'ir embora', 'ir a pé', 'Vamos!'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Amanhã vou a Lisboa de comboio.",
+      "gloss": "Ir a + cidade; o meio de transporte com de.",
+      "context": "Fala dos seus planos.",
+      "say": "Amanhã vou a Lisboa de comboio."
+    },
+    {
+      "type": "example",
+      "targetText": "Vamos jantar fora esta noite?",
+      "gloss": "Vamos + infinitivo: uma proposta em grupo.",
+      "context": "Convida um amigo.",
+      "say": "Vamos jantar fora esta noite?"
+    },
+    {
+      "type": "example",
+      "targetText": "Vai chover, levo o guarda-chuva.",
+      "gloss": "O futuro próximo serve para previsões.",
+      "context": "Olha para o céu antes de sair.",
+      "say": "Vai chover, levo o guarda-chuva."
+    },
+    {
+      "type": "example",
+      "targetText": "**Joana:** O que vais fazer no fim de semana?\n**Pedro:** Vou visitar a minha avó. E tu?\n**Joana:** Vou ao cinema com uns amigos. Vamos juntos?",
+      "gloss": "Ir + infinitivo para falar de planos próximos.",
+      "context": "Conversa na sexta-feira.",
+      "say": "Joana: O que vais fazer no fim de semana? Pedro: Vou visitar a minha avó. E tu? Joana: Vou ao cinema com uns amigos. Vamos juntos?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "Ir + infinitivo",
+      "wrong": "«Vou ir comer.»",
+      "right": "«Vou comer.»",
+      "why": "O futuro próximo já contém a ideia de «ir»; juntar um segundo «ir» é um eco da língua materna de alguns alunos.",
+      "rule": "Para o futuro próximo, use **ir** (conjugado) + **verbo no infinitivo**, sem repetir ir: vou estudar, vais trabalhar, vamos sair.",
+      "examples": [
+        "Vou estudar.",
+        "Eles vão chegar tarde.",
+        "Vamos ver um filme."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Ir + infinitivo. Não bem assim: «Vou ir comer.» Diga antes: «Vou comer.» O futuro próximo já contém a ideia de «ir»; juntar um segundo «ir» é um eco da língua materna de alguns alunos. Para o futuro próximo, use ir (conjugado) + verbo no infinitivo, sem repetir ir: vou estudar, vais trabalhar, vamos sair."
+    },
+    {
+      "type": "quiz",
+      "question": "Amanhã ___ estudar na biblioteca.",
+      "options": [
+        "vou",
+        "vai ir",
+        "estou ir"
+      ],
+      "correctIndex": 0,
+      "explanation": "Futuro próximo: ir conjugado + infinitivo: «Amanhã vou estudar».",
+      "say": "Amanhã ___ estudar na biblioteca."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Poder",
+      "say": "9. Poder"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo modal **poder** expressa capacidade, possibilidade e permissão. Seguido de infinitivo, serve também para pedidos corteses: «Pode ajudar-me?».",
+      "say": "O verbo modal poder expressa capacidade, possibilidade e permissão. Seguido de infinitivo, serve também para pedidos corteses: «Pode ajudar-me?»."
     },
     {
       "type": "table",
@@ -596,73 +1289,92 @@
       "type": "list-item",
       "ordered": false,
       "items": [
-        "**Permissão:** 'Posso entrar?'."
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "9. Poder"
-    },
-    {
-      "type": "paragraph",
-      "text": "O verbo **comer** refere-se às refeições e alimentação."
-    },
-    {
-      "type": "table",
-      "headers": [
-        "Pronome",
-        "Presente",
-        "Exemplo"
+        "**Permissão:** 'Posso entrar?', 'Podemos sentar-nos?'.",
+        "**Possibilidade:** 'Hoje posso ir contigo', 'Pode chover'.",
+        "**Pedidos:** 'Podes repetir, por favor?', 'Pode ajudar-me?'.",
+        "**Expressões comuns:** 'se puder', 'não pode ser', 'pode ser'."
       ],
-      "rows": [
-        [
-          "Eu",
-          "como",
-          "Como uma maçã."
-        ],
-        [
-          "Tu / Você",
-          "comes / come",
-          "A que horas comes?"
-        ],
-        [
-          "Ele / Ela",
-          "come",
-          "Ele come ao almoço."
-        ],
-        [
-          "Nós",
-          "comemos",
-          "Comemos juntos."
-        ],
-        [
-          "Vocês",
-          "comem",
-          "Comem carne?"
-        ],
-        [
-          "Eles / Elas",
-          "comem",
-          "Comem no restaurante."
-        ]
-      ]
+      "say": "Permissão: 'Posso entrar?', 'Podemos sentar-nos?'. Possibilidade: 'Hoje posso ir contigo', 'Pode chover'. Pedidos: 'Podes repetir, por favor?', 'Pode ajudar-me?'. Expressões comuns: 'se puder', 'não pode ser', 'pode ser'."
     },
     {
-      "type": "list-item",
-      "ordered": false,
-      "items": [
-        "**Refeições:** 'Bom apetite!'."
-      ]
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Posso entrar?",
+      "gloss": "Pede-se licença com poder.",
+      "context": "Chega atrasado à porta da sala.",
+      "say": "Posso entrar?"
+    },
+    {
+      "type": "example",
+      "targetText": "Pode repetir, por favor? Não percebi.",
+      "gloss": "Pedido cortês com pode + infinitivo.",
+      "context": "Não compreendeu a instrução.",
+      "say": "Pode repetir, por favor? Não percebi."
+    },
+    {
+      "type": "example",
+      "targetText": "Esta noite não posso ir: tenho um exame amanhã.",
+      "gloss": "Não posso: algo impede-o.",
+      "context": "Recusa um convite.",
+      "say": "Esta noite não posso ir: tenho um exame amanhã."
+    },
+    {
+      "type": "example",
+      "targetText": "**Aluno:** Boa tarde, professora. Posso fazer uma pergunta?\n**Professora:** Claro que pode.\n**Aluno:** Pode repetir a última frase, por favor?",
+      "gloss": "Poder para pedir licença e pedir ajuda.",
+      "context": "No final da aula.",
+      "say": "Aluno: Boa tarde, professora. Posso fazer uma pergunta? Professora: Claro que pode. Aluno: Pode repetir a última frase, por favor?"
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Poder ou saber",
+      "wrong": "«Posso falar inglês.»",
+      "right": "«Sei falar inglês.»",
+      "why": "Em português, «poder» fala de permissão ou possibilidade do momento, não de uma competência aprendida.",
+      "rule": "Para uma competência, use **saber** + infinitivo; para licença ou possibilidade, use **poder**.",
+      "examples": [
+        "Sei nadar.",
+        "Posso nadar hoje? (tenho licença)",
+        "Podes ajudar-me?"
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Poder ou saber. Não bem assim: «Posso falar inglês.» Diga antes: «Sei falar inglês.» Em português, «poder» fala de permissão ou possibilidade do momento, não de uma competência aprendida. Para uma competência, use saber + infinitivo; para licença ou possibilidade, use poder."
+    },
+    {
+      "type": "quiz",
+      "question": "___ entrar?",
+      "options": [
+        "Posso",
+        "Sei",
+        "Tenho"
+      ],
+      "correctIndex": 0,
+      "explanation": "Para pedir licença usa-se poder: «Posso entrar?»",
+      "say": "___ entrar?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "10. Comer / Beber"
+      "text": "10. Comer / Beber",
+      "say": "10. Comer / Beber"
     },
     {
       "type": "paragraph",
-      "text": "Os verbos **comer** e **beber** acompanham as refeições, a alimentação diária e o convívio social."
+      "text": "Os verbos **comer** e **beber** acompanham as refeições, a alimentação diária e o convívio social. São verbos regulares, por isso uma vez aprendido o padrão, aplica-se a centenas de outros verbos em *-er*.",
+      "say": "Os verbos comer e beber acompanham as refeições, a alimentação diária e o convívio social. São verbos regulares, por isso uma vez aprendido o padrão, aplica-se a centenas de outros verbos em -er."
     },
     {
       "type": "table",
@@ -710,8 +1422,78 @@
       "items": [
         "**Comer:** 'Como uma maçã de manhã', 'O que comemos hoje?'.",
         "**Beber:** 'Bebo água fresca', 'Queres beber um café?'.",
-        "**Expressões úteis:** 'Bom apetite!', 'tomar um café', 'comer fora'."
-      ]
+        "**Convívio:** 'Bom apetite!', 'tomar um café', 'comer fora'."
+      ],
+      "say": "Comer: 'Como uma maçã de manhã', 'O que comemos hoje?'. Beber: 'Bebo água fresca', 'Queres beber um café?'. Convívio: 'Bom apetite!', 'tomar um café', 'comer fora'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Em voz alta",
+      "say": "Em voz alta"
+    },
+    {
+      "type": "example",
+      "targetText": "Almoçamos juntos ao meio-dia.",
+      "gloss": "Almoçar é comer ao almoço, um verbo muito útil.",
+      "context": "Marca um encontro.",
+      "say": "Almoçamos juntos ao meio-dia."
+    },
+    {
+      "type": "example",
+      "targetText": "Bebo um copo grande de água de manhã.",
+      "gloss": "Descreve um hábito diário.",
+      "context": "Fala do seu pequeno-almoço.",
+      "say": "Bebo um copo grande de água de manhã."
+    },
+    {
+      "type": "example",
+      "targetText": "Queres beber um café?",
+      "gloss": "Proposta simpática e muito comum.",
+      "context": "Recebe um convidado.",
+      "say": "Queres beber um café?"
+    },
+    {
+      "type": "example",
+      "targetText": "**Rita:** Bom apetite! O que comes?\n**Lucas:** Como arroz com frango. Queres provar?\n**Rita:** Obrigada! Eu bebo só água hoje.",
+      "gloss": "Comer e beber em conversa de mesa.",
+      "context": "Na cantina da escola.",
+      "say": "Rita: Bom apetite! O que comes? Lucas: Como arroz com frango. Queres provar? Rita: Obrigada! Eu bebo só água hoje."
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Comer ou beber um café",
+      "wrong": "«Eu como um café.»",
+      "right": "«Eu bebo um café.» / «Eu tomo um café.»",
+      "why": "Quem pensa em «tomar café» ou em «comer» como verbo geral usa o verbo errado: o que se bebe, bebe-se.",
+      "rule": "**Comer** para sólidos; **beber** (ou **tomar**) para líquidos: como pão, bebo água, tomo um café.",
+      "examples": [
+        "Como uma sopa.",
+        "Bebo chá.",
+        "Tomamos um café."
+      ],
+      "labels": {
+        "wrong": "Não bem assim",
+        "right": "Diga antes",
+        "why": "Porque é que isto acontece",
+        "rule": "A regra COSY",
+        "examples": "Mais exemplos",
+        "turn": "A sua vez"
+      },
+      "say": "Comer ou beber um café. Não bem assim: «Eu como um café.» Diga antes: «Eu bebo um café.» / «Eu tomo um café.» Quem pensa em «tomar café» ou em «comer» como verbo geral usa o verbo errado: o que se bebe, bebe-se. Comer para sólidos; beber (ou tomar) para líquidos: como pão, bebo água, tomo um café."
+    },
+    {
+      "type": "quiz",
+      "question": "Eu ___ um café de manhã.",
+      "options": [
+        "como",
+        "bebo",
+        "vou"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os líquidos bebem-se: «Bebo um café de manhã».",
+      "say": "Eu ___ um café de manhã."
     },
     {
       "type": "heading",
@@ -778,20 +1560,73 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Gramática e estruturas para o nível A0–A1 / A2"
+      "text": "Estruturas gramaticais para o nível A0–A1 / A2",
+      "say": "Estruturas gramaticais para o nível A0–A1 / A2"
     },
     {
-      "type": "paragraph",
-      "text": "• **Frases simples:** Sujeito + Verbo + Complemento.\n• **Verbos auxiliares:** Uso de 'ir + infinitivo' e 'poder/ter de'.\n• **Tabelas de conjugação:** Consulte todas as formas verbais em [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Frases simples:** Sujeito + Verbo + Complemento: «Eu tenho um livro».",
+        "**Futuro próximo e modais:** «ir + infinitivo» e «poder / ter de + infinitivo».",
+        "**Preposições com verbos:** gostar de, pensar em, ir a, aprender a.",
+        "**Tabelas de conjugação:** Consulte todas as formas verbais em [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ],
+      "say": "Frases simples: Sujeito + Verbo + Complemento: «Eu tenho um livro». Futuro próximo e modais: «ir + infinitivo» e «poder / ter de + infinitivo». Preposições com verbos: gostar de, pensar em, ir a, aprender a. Tabelas de conjugação: Consulte todas as formas verbais em COSYtools."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Prática e conjugação"
+      "text": "A sua rotina oral de 5 minutos",
+      "say": "A sua rotina oral de 5 minutos"
     },
     {
       "type": "paragraph",
-      "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html), e consulte as conjuções no [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      "text": "Cinco minutos por dia, em voz alta, valem mais do que uma hora de leitura silenciosa ao domingo. Eis um plano simples para repetir durante uma semana: <mark class=\"hl-handwritten\">um minuto por etapa, não mais</mark>.",
+      "say": "Cinco minutos por dia, em voz alta, valem mais do que uma hora de leitura silenciosa ao domingo. Eis um plano simples para repetir durante uma semana: um minuto por etapa, não mais."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Minuto 1, aquecimento:** diga em voz alta as seis formas de ser e depois de ter, sem olhar para as tabelas.",
+        "**Minuto 2, três verbos, três frases:** escolha três verbos e diga uma frase verdadeira sobre a sua vida para cada um: «Tenho…», «Quero…», «Vou…».",
+        "**Minuto 3, caça ao erro:** releia um cartão «Não bem assim» e diga três vezes a frase certa, mudando de sujeito de cada vez.",
+        "**Minuto 4, mini-diálogo no café:** represente as duas personagens com «Queria…», «Tem…?», «Posso…?» e grave-se no telemóvel.",
+        "**Minuto 5, reescuta:** oiça a gravação e escolha uma frase para guardar para amanhã. Escreva-a num papel colado perto da secretária."
+      ],
+      "say": "Minuto 1, aquecimento: diga em voz alta as seis formas de ser e depois de ter, sem olhar para as tabelas. Minuto 2, três verbos, três frases: escolha três verbos e diga uma frase verdadeira sobre a sua vida para cada um: «Tenho…», «Quero…», «Vou…». Minuto 3, caça ao erro: releia um cartão «Não bem assim» e diga três vezes a frase certa, mudando de sujeito de cada vez. Minuto 4, mini-diálogo no café: represente as duas personagens com «Queria…», «Tem…?», «Posso…?» e grave-se no telemóvel. Minuto 5, reescuta: oiça a gravação e escolha uma frase para guardar para amanhã. Escreva-a num papel colado perto da secretária."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Plano de 7 dias",
+      "say": "Plano de 7 dias"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Dia 1, ser e estar:** aprenda as seis formas de cada um e faça cinco frases sobre si.",
+        "**Dia 2, ter e pensar:** diga a sua idade, a sua família e uma opinião sua.",
+        "**Dia 3, saber, conhecer e gostar:** fale de três coisas que sabe fazer, de dois lugares que conhece e de três coisas de que gosta.",
+        "**Dia 4, querer e gostaria:** treine três pedidos corteses num café ou restaurante imaginário.",
+        "**Dia 5, trabalhar, estudar e aprender:** descreva o seu dia de trabalho ou de estudo em quatro frases.",
+        "**Dia 6, ir e poder:** planeie o fim de semana com «vou + infinitivo» e peça duas licenças com «posso…?».",
+        "**Dia 7, comer, beber e revisão:** represente um jantar com amigos e repita os dez verbos de memória."
+      ],
+      "say": "Dia 1, ser e estar: aprenda as seis formas de cada um e faça cinco frases sobre si. Dia 2, ter e pensar: diga a sua idade, a sua família e uma opinião sua. Dia 3, saber, conhecer e gostar: fale de três coisas que sabe fazer, de dois lugares que conhece e de três coisas de que gosta. Dia 4, querer e gostaria: treine três pedidos corteses num café ou restaurante imaginário. Dia 5, trabalhar, estudar e aprender: descreva o seu dia de trabalho ou de estudo em quatro frases. Dia 6, ir e poder: planeie o fim de semana com «vou + infinitivo» e peça duas licenças com «posso…?». Dia 7, comer, beber e revisão: represente um jantar com amigos e repita os dez verbos de memória."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Prática e conjugação",
+      "say": "Prática e conjugação"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pratique no [COSYpractice](https://cosylanguages.github.io/COSYpractice/), leia a [Parte 1](top-10-verbs-pt.html) e a [Parte 2](top-10-verbs-part-2-pt.html), e consulte as conjugações no [COSYtools](https://cosylanguages.github.io/COSYtools/).",
+      "say": "📌 Pratique no COSYpractice, leia a Parte 1 e a Parte 2, e consulte as conjugações no COSYtools."
     },
     {
       "type": "heading",
