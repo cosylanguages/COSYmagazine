@@ -1,0 +1,415 @@
+{
+  "id": "post-the-logic-of-phrasal-verbs-everybody-scream",
+  "slug": "the-logic-of-phrasal-verbs-everybody-scream",
+  "language": "en",
+  "desk": "Grammar Made Cosy",
+  "format": "essay",
+  "level": "B1–C1",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-15",
+  "title": "The Secret Logic of Phrasal Verbs: How to Decode, Understand, and Create Them",
+  "kicker": "GRAMMAR MADE COSY",
+  "dek": "Stop treating phrasal verbs as arbitrary lists of random idioms. Explore the intuitive spatial compass behind English particles and learn to forge your own expressive combinations, inspired by the visceral poetry of Florence + The Machine.",
+  "tags": [
+    "Grammar",
+    "PhrasalVerbs",
+    "CreativeWriting",
+    "Fluency",
+    "FlorenceAndTheMachine",
+    "Vocabulary"
+  ],
+  "readingTime": 12,
+  "podcast": {
+    "episode": 14,
+    "audioUrl": "audio/the-logic-of-phrasal-verbs-everybody-scream.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#4a0e17",
+      "#faf7f2",
+      "#1e293b",
+      "#d97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "botanical-dark",
+    "seed": "everybody-scream-phrasal-verbs",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. The Great Phrasal Verb Trap: Why Rote Lists Fail Us",
+      "say": "Section one: The Great Phrasal Verb Trap: Why Rote Lists Fail Us.",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Almost every language learner recalls the dreaded two-column vocabulary table from intermediate textbooks: on the left sits an innocent Germanic verb like <em>give</em>, <em>take</em>, <em>turn</em>, or <em>break</em>; on the right sit twenty disconnected definitions with prepositions that appear entirely whimsical. Why does <em>break down</em> mean to collapse into tears or mechanical failure, while <em>break out</em> means an escape or sudden rash, and <em>break up</em> marks the death of a romance?",
+      "say": "Almost every language learner recalls the dreaded two-column vocabulary table from intermediate textbooks. Why does break down mean to collapse into tears or mechanical failure, while break out means an escape or sudden rash, and break up marks the death of a romance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "When we treat phrasal verbs as random, isolated strings to be memorised alphabetically, cognitive burnout is guaranteed. But English is a <strong>satellite-framed Germanic language</strong>. The root verb generally describes the physical action, body posture, or vocal manner (such as <em>crawl, tear, spit, dig, burrow, slide</em>), while the small particle that follows—the satellite—encodes the <strong>directional trajectory, boundary crossing, aspectual completion, or psychological posture</strong>.",
+      "say": "English is a satellite-framed Germanic language. The root verb describes the physical action or manner, while the particle encodes the directional trajectory, boundary crossing, or psychological posture."
+    },
+    {
+      "type": "pullquote",
+      "quote": "I break down, get up, and do it all again.",
+      "attribution": "Florence + The Machine, Everybody Scream",
+      "say": "Florence Welch captures the cycle of collapse and resilience: I break down, get up, and do it all again."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a single breath from the title track of <em>Everybody Scream</em>, Florence Welch captures the kinetic machinery of English particles. She does not reach for Latinate abstractions like <em>deteriorate</em> and <em>resurrect</em>; she pairs visceral physical motion with spatial vectors: <em>down</em> (surrender to gravity, dissolution of structure) followed immediately by <em>up</em> (defiance of gravity, renewal, vertical rising). Once you grasp the underlying spatial logic, phrasal verbs cease to be a foreign puzzle: they become a painter's palette you can wield and even invent at will.",
+      "say": "Instead of Latinate abstractions, Florence Welch pairs visceral physical motion with spatial vectors: down for collapse, and up for revival. Once you grasp this spatial compass, phrasal verbs become a painter's palette you can wield and invent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. The Particle Compass: Decoding the Core Spatial Metaphors",
+      "say": "Section two: The Particle Compass: Decoding the Core Spatial Metaphors.",
+      "beat": {
+        "duration": 1400,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Cognitive linguists George Lakoff and Mark Johnson demonstrated that human conceptual systems are structured around bodily experience in space. English particles carry predictable spatial metaphors that apply consistently whether you are describing an ancient myth, everyday chores, or modern indie rock lyrics:",
+      "say": "English particles carry predictable spatial metaphors rooted in bodily experience that apply consistently across speech and songwriting."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "<strong>UP (Elevation, Climax, Completion, Emergence into Visibility):</strong> <em>get up</em> (rise vertically), <em>crawl up</em> (emerge from darkness into light), <em>dig up</em> (bring buried matter to the surface), <em>hold up</em> (support or place under critical examination), <em>start up</em> (spark into full operation), <em>catch up</em> (close the distance from behind), <em>creep up</em> (approach stealthily until perceived).",
+        "<strong>DOWN (Grounding, Ingestion, Diminishing, Suppression, Inscription):</strong> <em>write down</em> (fix ideas onto paper), <em>burn down</em> (reduce to ashes on the ground), <em>lie down</em> (horizontal rest or surrender), <em>swallow down / drink down</em> (send down the oesophagus into the body), <em>burrow down</em> (sink deep into safety), <em>quiet down</em> (reduce acoustic intensity), <em>slide down</em> (sink into concealment).",
+        "<strong>OUT (Ejection, Projection, Exposure, Exhaustion):</strong> <em>spit out</em> (expel forcefully from the mouth), <em>reach out</em> (extend hands into external space), <em>fall out</em> (tumble out of a container or page).",
+        "<strong>IN (Admittance, Interiority, Immersion, Acceptance):</strong> <em>let in</em> (permit crossing across a threshold), <em>welcome in</em> (embrace entering energy), <em>pull inside</em> (draw toward the emotional interior).",
+        "<strong>AWAY & OFF (Detachment, Severance, Avoidance):</strong> <em>turn away</em> (refuse by rotating one's gaze), <em>push away</em> (create distance with force), <em>tear off</em> (rip away violently from the body), <em>hang off</em> (dangle without separation), <em>drag off</em> (pull someone by force from their stance).",
+        "<strong>THROUGH & OVER (Boundary Crossing and Overcoming):</strong> <em>slip through</em> (elude containment between the fingers), <em>walk over</em> (trample or treat with total disregard)."
+      ],
+      "say": "Up elevates and completes; down grounds, ingests, or quietens; out expels; in welcomes into interiority; away and off detach; through and over cross boundaries."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Particle",
+        "Core Spatial Logic",
+        "Florence Welch Lyric Example",
+        "Song Source"
+      ],
+      "rows": [
+        [
+          "UP",
+          "Elevation / Emergence from secrecy to light",
+          "\"I crawled up from under the earth\"",
+          "Everybody Scream"
+        ],
+        [
+          "UP",
+          "Evaluation / Exposure to judgment",
+          "\"That I could never be great being held up against such male tastes\"",
+          "One of the Greats"
+        ],
+        [
+          "DOWN",
+          "Grounding / Consuming / Suppressing",
+          "\"Bury it deep, swallow it down... burrowing down\"",
+          "Perfume & Milk"
+        ],
+        [
+          "DOWN",
+          "Acoustic / Emotional reduction",
+          "\"I quiet it down by watching TV... rushing down my throat\"",
+          "Kraken"
+        ],
+        [
+          "OUT",
+          "Expulsion from the body into speech",
+          "\"Spitting out my songs so you could sing along\"",
+          "Everybody Scream"
+        ],
+        [
+          "IN",
+          "Allowing entry through boundaries",
+          "\"I will let the light in, I will let some love in\"",
+          "One of the Greats"
+        ],
+        [
+          "AWAY",
+          "Creating emotional distance or refusal",
+          "\"And all their violent offers, I just turn them away\"",
+          "Witch Dance"
+        ],
+        [
+          "OFF",
+          "Violent physical detachment",
+          "\"I tear off my nightgown and run naked through the town\"",
+          "Witch Dance"
+        ],
+        [
+          "OVER",
+          "Domination and boundary disregard",
+          "\"I let you walk all over me, honey\"",
+          "Buckle"
+        ],
+        [
+          "THROUGH",
+          "Failing to retain grip across open fingers",
+          "\"And feel the world slip through my hands\"",
+          "U Can Have It All"
+        ]
+      ],
+      "caption": "Table 1: The Six Core Directional Particles Decoded Through Florence + The Machine Lyrics"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. The Three Degrees of Meaning: From Physical to Poetic",
+      "say": "Section three: The Three Degrees of Meaning: From Physical to Poetic.",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Every phrasal verb exists along a spectrum of three developmental stages. Understanding these three tiers prevents the common mistake of assuming a metaphorical verb is an entirely new word.",
+      "say": "Phrasal verbs evolve through three developmental tiers: literal physical motion, metaphorical extension, and idiomatic synthesis."
+    },
+    {
+      "type": "example",
+      "targetText": "Level 1: Literal Physical Trajectory — \"I crawled up from under the earth\"",
+      "gloss": "The physical body moves on hands and knees from a low elevation to an elevated surface.",
+      "context": "Physical movement in space with transparent verb and particle meaning.",
+      "say": "Level one is literal physical motion: crawling upward out of the ground."
+    },
+    {
+      "type": "example",
+      "targetText": "Level 2: Metaphorical Extension — \"Bury it deep, swallow it down\"",
+      "gloss": "Unspoken trauma and emotion are treated like physical bitter medicine swallowed into the stomach.",
+      "context": "The physical act of swallowing is mapped onto emotional suppression and endurance.",
+      "say": "Level two is metaphorical extension: swallowing an emotion down just like bitter medicine."
+    },
+    {
+      "type": "example",
+      "targetText": "Level 3: Idiomatic Synthesis — \"Being held up against such male tastes\"",
+      "gloss": "Held up against means placed side-by-side for comparison and critical judgment.",
+      "context": "The physical act of lifting an object to compare its height or weight becomes artistic scrutiny.",
+      "say": "Level three is idiomatic synthesis: holding art up against patriarchal standards for evaluation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice that even at Level 3, the spatial logic does not evaporate! When Florence sings about being <em>\"held up against such male tastes\"</em>, imagine lifting two paintings side-by-side into the gallery spotlight. The physical gesture of holding something up creates the comparison. When notes <em>\"fall out\"</em> of every book in <em>Music by Men</em>, the emotional memories tumble out into view exactly like dried flowers slipping from open paper.",
+      "say": "Even at the most abstract level, the physical gesture remains: lifting two artworks side-by-side to hold them up for appraisal, or notes tumbling out of an old book."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. How to Create Your Own Phrasal Verbs in Natural English",
+      "say": "Section four: How to Create Your Own Phrasal Verbs in Natural English.",
+      "beat": {
+        "duration": 1300,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "The greatest superpower of an advanced English speaker is not merely recognising existing phrasal verbs, but <strong>coining new ones in the moment</strong>. Native English speakers do this constantly because English syntax permits a simple productive formula:",
+      "say": "The greatest superpower of an advanced speaker is coining new phrasal verbs in the moment using a simple productive equation."
+    },
+    {
+      "type": "pullquote",
+      "quote": "[Specific Manner / Sound / Body State Verb or Noun] + [Directional / Resultative Particle] = Expressive Phrasal Verb",
+      "attribution": "The COSY Architectural Formula",
+      "say": "The formula: take any vivid manner verb or noun, attach a directional particle, and produce an expressive phrasal verb."
+    },
+    {
+      "type": "paragraph",
+      "text": "Look at how Florence applies this formula with unforgettable literary resonance across her tracks:",
+      "say": "Look at how Florence Welch applies this productive formula across the album."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "<strong>\"Burrow down\" (<em>Perfume & Milk</em>):</strong> The noun <em>burrow</em> (a rabbit's underground tunnel) becomes a verb. By attaching <em>down</em>, she evokes curling up deep beneath the soil where predators cannot reach her.",
+        "<strong>\"Quiet it down\" (<em>Kraken</em>):</strong> The adjective <em>quiet</em> is verbalised with the particle <em>down</em> (diminishing amplitude). She silences rising panic by turning on the television screen.",
+        "<strong>\"Slide down in my seat\" (<em>Music by Men</em>):</strong> The smooth physical glide of <em>slide</em> combines with <em>down</em> to convey shrinking herself to make her partner feel unthreatened.",
+        "<strong>\"Crept up on me\" (<em>And Love</em>):</strong> The quiet footfall of <em>creep</em> pairs with <em>up</em> (movement from behind into sudden awareness) to describe love arriving without romantic fanfare.",
+        "<strong>\"Pushed you further down\" (<em>Kraken</em>):</strong> A brutal resultative particle where physical shoving ensures complete submersion into the dark swamp."
+      ],
+      "say": "From burrowing down into safety, to quieting down panic with TV, to sliding down in a seat to seem smaller: each verb is forged by combining vivid motion with a directional compass."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can use this exact mechanism in your own conversation and creative writing. Instead of saying <em>\"I drank the cold coffee quickly because I was in a rush,\"</em> you can forge: <em>\"I gulped it down and hurried out.\"</em> Instead of saying <em>\"She lowered her voice during the argument,\"</em> you can say: <em>\"She softened down her tone.\"</em> The particle tells your listener where the energy travels.",
+      "say": "You can use this mechanism directly: gulp it down, hurry out, soften down your tone. The particle tells your listener where the energy travels."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. The Songwriter's Laboratory: Deep Dive into the Tracklist",
+      "say": "Section five: The Songwriter's Laboratory: Deep Dive into the Tracklist.",
+      "beat": {
+        "duration": 1400,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Let us examine six crucial lyrical moments from Florence + The Machine to analyse how phrasal verbs turn abstract emotional pain into kinetic, theatrical imagery:",
+      "say": "Let us examine six lyrical moments where phrasal verbs turn abstract emotional turmoil into kinetic, theatrical imagery."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Burned down at thirty-six / Why did you dig me up for this?\" — Everybody Scream",
+      "gloss": "burn down = consume completely to ashes; dig up = unearth or excavate something that was buried and resting.",
+      "context": "The tension between complete destruction (down) and unwelcome resurrection (up).",
+      "say": "Notice the spatial clash: burned down to ashes at thirty-six, then dug up from the grave against one's will."
+    },
+    {
+      "type": "example",
+      "targetText": "\"I tear off my nightgown and run naked through the town... And all their violent offers, I just turn them away, And I welcomed him in\" — Witch Dance",
+      "gloss": "tear off = detach violently; turn away = reject; welcome in = invite across the threshold of one's sanctum.",
+      "context": "Active boundary control: discarding shame (off), refusing patriarchal coercion (away), and choosing intimate kinship (in).",
+      "say": "In Witch Dance, particles establish boundary control: tearing off the gown, turning away violent offers, and welcoming in kinship."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Chewing on a feeling and spitting it out / Crouched in a ball gown\" — Sympathy Magic",
+      "gloss": "spit out = eject from the mouth; chew on = ruminate or process slowly before discarding.",
+      "context": "Metaphorical digestion: emotion treated as something too toxic to swallow, spat out into vocal art.",
+      "say": "In Sympathy Magic, feelings are digested like venomous food: chewed on and spat out into song."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Drinking it down, haunting your city / Falling for anyone awful who tells me I'm pretty / Old for this, I should be over it\" — Buckle",
+      "gloss": "drink down = ingest without stopping; fall for = succumb to romantic illusion; be over = cross to the other side of an emotional state.",
+      "context": "The physical weight of self-sabotage and the elusive desire to transcend (be over) an unhealthy cycle.",
+      "say": "In Buckle, drinking it down leads to falling for charm, while wishing one could finally be over the obsession."
+    },
+    {
+      "type": "example",
+      "targetText": "\"Some things, it seems, are catching up with me... So when your hand reached out I just pushed you further down\" — Kraken",
+      "gloss": "catch up with = pursue until reaching; reach out = extend an arm for salvation; push down = drive beneath the water surface.",
+      "context": "A mythic predatory struggle in deep water where past sins catch up and desperate survivors push others down to breathe.",
+      "say": "In Kraken, past mistakes catch up from behind, while reaching hands are shoved further down into the abyss."
+    },
+    {
+      "type": "example",
+      "targetText": "\"I stay in the house, move the furniture about, And feel the world slip through my hands\" — U Can Have It All",
+      "gloss": "move about = shift things aimlessly in space; slip through = escape without being caught between open fingers.",
+      "context": "Grief transformed into restless domestic agitation and the heartbreaking sensation of losing control over reality.",
+      "say": "In U Can Have It All, moving furniture about in an empty house accompanies the feeling of the entire world slipping through one's hands."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Your Turn: Test Your Phrasal Compass",
+      "say": "Section six: Concept Checking Questions and Interactive Practice.",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In 'Burned down at thirty-six / Why did you dig me up for this?', what is the core spatial function of the particle 'UP' in 'dig up'?",
+      "options": [
+        "It indicates that something is increasing in monetary value.",
+        "It indicates emergence from underground darkness into visibility and conscious light.",
+        "It marks an accidental action done without intention.",
+        "It means the digging has stopped halfway through."
+      ],
+      "correctIndex": 1,
+      "explanation": "The particle 'UP' signals vertical motion toward the surface and emergence into conscious awareness or public view—the opposite of being buried down in peace.",
+      "say": "Question one: What does the particle UP signify in dig me up?"
+    },
+    {
+      "type": "quiz",
+      "question": "In the song Kraken, why does Florence Welch say 'I quiet it down by watching TV' instead of just 'I make it quiet'?",
+      "options": [
+        "Because 'down' signals diminishing emotional amplitude and lowering internal volume.",
+        "Because the television set is positioned on the floor.",
+        "Because 'quiet down' is strictly used for mechanical appliances.",
+        "Because watching television is a negative moral act."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Down' acts as a diminishing particle, evoking a calming reduction of noise and rising panic to a manageable baseline level.",
+      "say": "Question two: Why say quiet it down rather than just make it quiet?"
+    },
+    {
+      "type": "quiz",
+      "question": "If you want to invent a natural phrasal verb describing someone who suppresses their tears by forcing them to retreat inward, which combination follows native English spatial logic?",
+      "options": [
+        "Cry out",
+        "Tear off",
+        "Blink down",
+        "Weep over"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Blink down' combines the body action of blinking with the downward particle 'down' (suppressing and holding back), creating a vivid and natural English image.",
+      "say": "Question three: Which newly minted combination naturally conveys holding back tears?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7. The Winter Takeaway: Speak with Direction and Force",
+      "say": "Section seven: The Winter Takeaway: Speak with Direction and Force.",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "The next time you encounter an unfamiliar phrasal verb, do not rush to search for a flat single-word synonym in your dictionary. Pause for a second and consult your <strong>Particle Compass</strong>:",
+      "say": "Next time you encounter a phrasal verb, consult your Particle Compass before looking up a dictionary synonym."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "<strong>Identify the root motion:</strong> What is the body or object physically doing? (<em>crawling, spitting, digging, burning, sliding</em>).",
+        "<strong>Track the particle vector:</strong> Is energy heading <em>up</em> into visibility, <em>down</em> into suppression, <em>out</em> into the air, or <em>in</em> toward the soul?",
+        "<strong>Connect the metaphorical bridge:</strong> How does this physical trajectory match the emotional or psychological reality of the moment?",
+        "<strong>Claim the freedom to forge:</strong> When an existing textbook verb feels too sterile, combine a vivid action verb with a directional particle to let your true voice speak."
+      ],
+      "say": "Identify the root motion, track the particle vector, connect the metaphorical bridge, and claim the freedom to create your own expressive combinations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Language is not a museum of rules; it is an open clearing where you break down, get up, and do it all again. Let the light in, welcome the logic in, and let your English breathe with poetic vitality.",
+      "say": "Language is not a museum of rules; it is an open clearing where you break down, get up, and do it all again."
+    },
+    {
+      "type": "links",
+      "destination": "cosytools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore High-Frequency Verb Forms & Conjugations on COSYtools",
+      "say": "Explore verb forms and interactive linguistic tools on COSYtools."
+    }
+  ],
+  "draft": false
+}

@@ -646,6 +646,51 @@
     }
   },
   {
+    "slug": "the-logic-of-phrasal-verbs-everybody-scream",
+    "title": "The Secret Logic of Phrasal Verbs: How to Decode, Understand, and Create Them",
+    "date": "2026-12-15",
+    "updated": null,
+    "category": "Grammar Made Cosy",
+    "summary": "Stop treating phrasal verbs as arbitrary lists of random idioms. Explore the intuitive spatial compass behind English particles and learn to forge your own expressive combinations, inspired by the visceral poetry of Florence + The Machine.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Grammar",
+      "PhrasalVerbs",
+      "CreativeWriting",
+      "Fluency",
+      "FlorenceAndTheMachine",
+      "Vocabulary"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "the-logic-of-phrasal-verbs-everybody-scream.html",
+    "issue_volume": "Vol. 2026 — December Issue",
+    "issue_title": "Winter Grammar & High Frequency Verbs",
+    "cefr_level": "B1–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Winter Grammar & High Frequency Verbs edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#1a365d",
+        "#3182ce",
+        "#dd6b20",
+        "#ebf8ff"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "window-light",
+      "seed": "the-logic-of-phrasal-verbs-everybody-scream",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "top-10-verbs-part-2-ba",
     "title": "Башҡорт теле буйынса иң мөһим 10 ҡылым, 2-се өлөш (A0–A1 / A2)",
     "date": "2026-12-01",
