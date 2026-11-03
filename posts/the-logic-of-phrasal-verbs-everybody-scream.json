@@ -12,16 +12,17 @@
   "date": "2026-12-15",
   "title": "The Secret Logic of Phrasal Verbs: How to Decode, Understand, and Create Them",
   "kicker": "GRAMMAR MADE COSY",
-  "dek": "Stop treating phrasal verbs as arbitrary lists of random idioms. Explore the intuitive spatial compass behind English particles and learn to forge your own expressive combinations, inspired by the visceral poetry of Florence + The Machine.",
+  "dek": "Stop memorising arbitrary lists of idioms. Explore the intuitive spatial compass behind English particles, master their natural opposites, and learn to forge your own expressive combinations—inspired by the visceral lyrics of Florence + The Machine.",
   "tags": [
     "Grammar",
     "PhrasalVerbs",
     "CreativeWriting",
     "Fluency",
     "FlorenceAndTheMachine",
-    "Vocabulary"
+    "Vocabulary",
+    "Opposites"
   ],
-  "readingTime": 12,
+  "readingTime": 15,
   "podcast": {
     "episode": 14,
     "audioUrl": "audio/the-logic-of-phrasal-verbs-everybody-scream.mp3"
@@ -106,82 +107,79 @@
       "say": "Up elevates and completes; down grounds, ingests, or quietens; out expels; in welcomes into interiority; away and off detach; through and over cross boundaries."
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "3. The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites",
+      "say": "Section three: The Polarity Compass: Understanding Phrasal Verbs Through Their Opposites.",
+      "beat": {
+        "duration": 1400,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Human memory thrives on contrast. When you learn an isolated phrasal verb, your brain has only one cognitive anchor. But when you learn <strong>particle polarities</strong>—how reversing the particle inverts the meaning—your understanding becomes instantaneous and magnetic. Look at how Florence Welch's lyrical world mirrors direct directional opposites:",
+      "say": "Human memory thrives on contrast. By pairing phrasal verbs with their natural directional opposites, your retention doubles and the systemic logic clicks into place."
+    },
+    {
       "type": "table",
       "headers": [
-        "Particle",
-        "Core Spatial Logic",
-        "Florence Welch Lyric Example",
-        "Song Source"
+        "Directional Vector",
+        "Movement A (Lyric & Meaning)",
+        "Movement B (Opposite Vector & Meaning)",
+        "Cognitive Polarity"
       ],
       "rows": [
         [
-          "UP",
-          "Elevation / Emergence from secrecy to light",
-          "\"I crawled up from under the earth\"",
-          "Everybody Scream"
+          "UP vs DOWN",
+          "<strong>Get up / Crawl up:</strong> <em>\"I crawled up from under the earth\"</em> (Rising, emergence into light)",
+          "<strong>Break down / Burrow down:</strong> <em>\"Bury it deep, swallow it down... burrowing down\"</em> (Collapse, subterranean hiding)",
+          "Vertical elevation vs Subterranean grounding & suppression"
         ],
         [
-          "UP",
-          "Evaluation / Exposure to judgment",
-          "\"That I could never be great being held up against such male tastes\"",
-          "One of the Greats"
+          "IN vs OUT",
+          "<strong>Let in / Welcome in:</strong> <em>\"I will let the light in... I welcomed him in\"</em> (Opening boundaries to intimate contact)",
+          "<strong>Spit out / Fall out:</strong> <em>\"Spitting out my songs... notes from you fall out\"</em> (Expelling from body or escaping container)",
+          "Interior welcoming vs Exterior rejection or expulsion"
         ],
         [
-          "DOWN",
-          "Grounding / Consuming / Suppressing",
-          "\"Bury it deep, swallow it down... burrowing down\"",
-          "Perfume & Milk"
+          "CLOSE vs AWAY",
+          "<strong>Pull close:</strong> <em>\"I pull him close / Wrap my legs around\"</em> (Intimate gravitational attraction)",
+          "<strong>Push away / Turn away:</strong> <em>\"All their violent offers, I just turn them away\"</em> (Active repulsion and boundary defence)",
+          "Attraction vs Repulsion"
         ],
         [
-          "DOWN",
-          "Acoustic / Emotional reduction",
-          "\"I quiet it down by watching TV... rushing down my throat\"",
-          "Kraken"
+          "TOGETHER vs APART / OFF",
+          "<strong>Hold together:</strong> <em>\"The one pink ribbon that holds me together\"</em> (Cohesion and structural unity)",
+          "<strong>Tear off / Drag off:</strong> <em>\"I tear off my nightgown... drag you off your feet\"</em> (Violent severance and loss of footing)",
+          "Integrity vs Fragmentation"
         ],
         [
-          "OUT",
-          "Expulsion from the body into speech",
-          "\"Spitting out my songs so you could sing along\"",
-          "Everybody Scream"
+          "START UP vs QUIET DOWN",
+          "<strong>Start up:</strong> <em>\"Some animal instinct starting up again\"</em> (Sudden awakening of energy and motion)",
+          "<strong>Quiet down:</strong> <em>\"I quiet it down by watching TV\"</em> (Dampening emotional and acoustic resonance)",
+          "Ignition vs Dampening"
         ],
         [
-          "IN",
-          "Allowing entry through boundaries",
-          "\"I will let the light in, I will let some love in\"",
-          "One of the Greats"
-        ],
-        [
-          "AWAY",
-          "Creating emotional distance or refusal",
-          "\"And all their violent offers, I just turn them away\"",
-          "Witch Dance"
-        ],
-        [
-          "OFF",
-          "Violent physical detachment",
-          "\"I tear off my nightgown and run naked through the town\"",
-          "Witch Dance"
-        ],
-        [
-          "OVER",
-          "Domination and boundary disregard",
-          "\"I let you walk all over me, honey\"",
-          "Buckle"
-        ],
-        [
-          "THROUGH",
-          "Failing to retain grip across open fingers",
-          "\"And feel the world slip through my hands\"",
-          "U Can Have It All"
+          "CRAWL INTO vs SWEEP AWAY",
+          "<strong>Crawl deep into:</strong> <em>\"Crawling deep into a cave\"</em> (Conscious, self-directed retreat into safety)",
+          "<strong>Be swept away:</strong> <em>\"Than a romance novel heroine being swept away\"</em> (Helpless loss of agency carried by external forces)",
+          "Self-directed interior grounding vs Overwhelming external force"
         ]
       ],
-      "caption": "Table 1: The Six Core Directional Particles Decoded Through Florence + The Machine Lyrics"
+      "caption": "Table 1: The Master Polarity Matrix: Spatial Opposites in English Phrasal Verbs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice the elegant symmetry: if you know that <em>spit out</em> ejects something toxic from your mouth, its natural physiological opposite in <em>Perfume & Milk</em> is <em>swallow down</em> (forcing the feeling down your throat). If <em>starting up</em> ignites an ancient instinct in <em>The Old Religion</em>, <em>quieting down</em> suppresses panic in <em>Kraken</em>. The English particle system is not a chaotic maze; it is a coordinate plane of opposing vectors.",
+      "say": "Notice the symmetry: spitting out ejects toxic feelings, while swallowing down suppresses them. The particle system is a balanced coordinate plane of opposing vectors."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "3. The Three Degrees of Meaning: From Physical to Poetic",
-      "say": "Section three: The Three Degrees of Meaning: From Physical to Poetic.",
+      "text": "4. The Particle Swap: One Root, Multiple Worlds",
+      "say": "Section four: The Particle Swap: One Root, Multiple Worlds.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
@@ -190,7 +188,78 @@
     },
     {
       "type": "paragraph",
-      "text": "Every phrasal verb exists along a spectrum of three developmental stages. Understanding these three tiers prevents the common mistake of assuming a metaphorical verb is an entirely new word.",
+      "text": "What happens when we keep the base verb fixed and simply swap the particle? The entire world shifts. Observe how changing the preposition transforms the emotional posture:",
+      "say": "What happens when you keep the root verb fixed and swap the particle? The entire emotional universe changes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Root Verb",
+        "Phrasal Combination",
+        "Meaning & Lyric Context",
+        "Opposite or Contrastive Swap",
+        "Meaning Shift"
+      ],
+      "rows": [
+        [
+          "HOLD",
+          "<strong>Hold up:</strong> <em>\"held up against such male tastes\"</em>",
+          "Elevated for scrutiny, comparison, or celebration",
+          "<strong>Hold down:</strong> (Opposite)",
+          "To repress, physically restrain, or keep from rising"
+        ],
+        [
+          "HOLD",
+          "<strong>Hold together:</strong> <em>\"holds me together\"</em>",
+          "Maintaining psychic stability and emotional cohesion",
+          "<strong>Hold back:</strong> (Contrast)",
+          "Restraining an impulse or withholding vulnerability"
+        ],
+        [
+          "LET",
+          "<strong>Let in:</strong> <em>\"I will let some love in\"</em>",
+          "Allowing affection across your threshold",
+          "<strong>Let out:</strong> (Opposite)",
+          "To release pent-up emotion or scream into the dark"
+        ],
+        [
+          "PUSH",
+          "<strong>Push away:</strong> <em>\"found a way to push away\"</em>",
+          "Creating horizontal distance from love",
+          "<strong>Push down:</strong> <em>\"pushed you further down\"</em>",
+          "Driving downward into vertical drowning or suppression"
+        ],
+        [
+          "PULL",
+          "<strong>Pull close:</strong> <em>\"I pull him close\"</em>",
+          "Drawing someone into immediate physical intimacy",
+          "<strong>Pull inside:</strong> <em>\"pulls inside, tugging at me\"</em>",
+          "Inward contraction of pain into the psyche"
+        ],
+        [
+          "FALL",
+          "<strong>Fall out:</strong> <em>\"notes from you fall out\"</em>",
+          "Tumbling free from an enclosed space into view",
+          "<strong>Fall for:</strong> <em>\"falling for anyone awful\"</em>",
+          "Collapsing headlong into romantic illusion"
+        ]
+      ],
+      "caption": "Table 2: The Particle Swap: How Prepositional Shifts Alter Root Verb Dynamics"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. The Three Degrees of Meaning: From Physical to Poetic",
+      "say": "Section five: The Three Degrees of Meaning: From Physical to Poetic.",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Every phrasal verb exists along a spectrum of three developmental stages. Understanding these three tiers prevents the common mistake of assuming an idiomatic verb is an entirely arbitrary creation:",
       "say": "Phrasal verbs evolve through three developmental tiers: literal physical motion, metaphorical extension, and idiomatic synthesis."
     },
     {
@@ -222,8 +291,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "4. How to Create Your Own Phrasal Verbs in Natural English",
-      "say": "Section four: How to Create Your Own Phrasal Verbs in Natural English.",
+      "text": "6. How to Create Your Own Phrasal Verbs: The Productive Blueprint",
+      "say": "Section six: How to Create Your Own Phrasal Verbs: The Productive Blueprint.",
       "beat": {
         "duration": 1300,
         "camera": "pan-zoom",
@@ -259,15 +328,74 @@
       "say": "From burrowing down into safety, to quieting down panic with TV, to sliding down in a seat to seem smaller: each verb is forged by combining vivid motion with a directional compass."
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "7. Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic",
+      "say": "Section seven: Everyday Conversational Upgrades: From Flat Latinate to Expressive Germanic.",
+      "beat": {
+        "duration": 1200,
+        "camera": "pan-zoom",
+        "reveal": "fade-in"
+      }
+    },
+    {
       "type": "paragraph",
-      "text": "You can use this exact mechanism in your own conversation and creative writing. Instead of saying <em>\"I drank the cold coffee quickly because I was in a rush,\"</em> you can forge: <em>\"I gulped it down and hurried out.\"</em> Instead of saying <em>\"She lowered her voice during the argument,\"</em> you can say: <em>\"She softened down her tone.\"</em> The particle tells your listener where the energy travels.",
-      "say": "You can use this mechanism directly: gulp it down, hurry out, soften down your tone. The particle tells your listener where the energy travels."
+      "text": "Intermediate learners often lean too heavily on formal, Latin-derived single verbs because they feel 'safer' or resemble their mother tongue. However, native conversational English breathes through Germanic phrasal verbs. Here is your everyday transformation cheat sheet:",
+      "say": "Here is how you can upgrade flat, formal textbook verbs into natural, vivid phrasal expressions in everyday English."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Flat / Formal Expression",
+        "Natural Phrasal Upgrade",
+        "Opposite Transformation",
+        "Florence Welch Reference Context"
+      ],
+      "rows": [
+        [
+          "\"I suppressed my painful emotions.\"",
+          "<strong>\"I swallowed it down.\"</strong>",
+          "<em>\"I spat it out.\"</em> (Vocalised / expressed)",
+          "<em>Perfume & Milk</em> vs <em>Sympathy Magic</em>"
+        ],
+        [
+          "\"She recovered and renewed her efforts.\"",
+          "<strong>\"She got back up.\"</strong>",
+          "<em>\"She broke down.\"</em> (Collapsed)",
+          "<em>Everybody Scream</em>"
+        ],
+        [
+          "\"I rejected their unreasonable requests.\"",
+          "<strong>\"I turned them away.\"</strong>",
+          "<em>\"I welcomed them in.\"</em> (Accepted)",
+          "<em>Witch Dance</em>"
+        ],
+        [
+          "\"He dominates and disrespects my boundaries.\"",
+          "<strong>\"He walks all over me.\"</strong>",
+          "<em>\"I stood up to him.\"</em> (Confronted)",
+          "<em>Buckle</em>"
+        ],
+        [
+          "\"I felt like I was losing control of everything.\"",
+          "<strong>\"The world slipped through my hands.\"</strong>",
+          "<em>\"I held it all together.\"</em> (Maintained control)",
+          "<em>U Can Have It All</em>"
+        ],
+        [
+          "\"My anxiety was gradually returning.\"",
+          "<strong>\"It was creeping up on me again.\"</strong>",
+          "<em>\"It was fading away.\"</em> (Receding)",
+          "<em>And Love</em> / <em>The Old Religion</em>"
+        ]
+      ],
+      "caption": "Table 3: Practical Upgrades: Transforming Latinate Sentences into Dynamic Spoken Phrasal Verbs"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "5. The Songwriter's Laboratory: Deep Dive into the Tracklist",
-      "say": "Section five: The Songwriter's Laboratory: Deep Dive into the Tracklist.",
+      "text": "8. The Songwriter's Laboratory: Deep Dive into the Tracklist",
+      "say": "Section eight: The Songwriter's Laboratory: Deep Dive into the Tracklist.",
       "beat": {
         "duration": 1400,
         "camera": "pan-zoom",
@@ -276,8 +404,8 @@
     },
     {
       "type": "paragraph",
-      "text": "Let us examine six crucial lyrical moments from Florence + The Machine to analyse how phrasal verbs turn abstract emotional pain into kinetic, theatrical imagery:",
-      "say": "Let us examine six lyrical moments where phrasal verbs turn abstract emotional turmoil into kinetic, theatrical imagery."
+      "text": "Let us examine crucial lyrical moments from Florence + The Machine to analyse how phrasal verbs turn abstract emotional pain into kinetic, theatrical imagery:",
+      "say": "Let us examine key lyrical moments where phrasal verbs turn abstract emotional turmoil into kinetic, theatrical imagery."
     },
     {
       "type": "example",
@@ -324,8 +452,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "6. Your Turn: Test Your Phrasal Compass",
-      "say": "Section six: Concept Checking Questions and Interactive Practice.",
+      "text": "9. Your Turn: Test Your Phrasal Compass & Antonym Logic",
+      "say": "Section nine: Concept Checking Questions and Interactive Practice.",
       "beat": {
         "duration": 1000,
         "camera": "pan-zoom",
@@ -347,6 +475,19 @@
     },
     {
       "type": "quiz",
+      "question": "What is the natural directional opposite of 'welcome someone in' when defending personal boundaries?",
+      "options": [
+        "Look someone up",
+        "Turn someone away",
+        "Take someone on",
+        "Bring someone down"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Welcome in' opens the threshold (IN), while 'turn away' redirects incoming motion back into outside space (AWAY).",
+      "say": "Question two: What is the natural directional opposite of welcoming someone in?"
+    },
+    {
+      "type": "quiz",
       "question": "In the song Kraken, why does Florence Welch say 'I quiet it down by watching TV' instead of just 'I make it quiet'?",
       "options": [
         "Because 'down' signals diminishing emotional amplitude and lowering internal volume.",
@@ -356,26 +497,26 @@
       ],
       "correctIndex": 0,
       "explanation": "'Down' acts as a diminishing particle, evoking a calming reduction of noise and rising panic to a manageable baseline level.",
-      "say": "Question two: Why say quiet it down rather than just make it quiet?"
+      "say": "Question three: Why say quiet it down rather than just make it quiet?"
     },
     {
       "type": "quiz",
-      "question": "If you want to invent a natural phrasal verb describing someone who suppresses their tears by forcing them to retreat inward, which combination follows native English spatial logic?",
+      "question": "If 'swallow down' represents suppressing and ingesting bitter emotion inside, which phrasal verb represents the opposite act of purging it through creative speech?",
       "options": [
-        "Cry out",
-        "Tear off",
-        "Blink down",
-        "Weep over"
+        "Burrow down",
+        "Slip through",
+        "Spit out",
+        "Slide down"
       ],
       "correctIndex": 2,
-      "explanation": "'Blink down' combines the body action of blinking with the downward particle 'down' (suppressing and holding back), creating a vivid and natural English image.",
-      "say": "Question three: Which newly minted combination naturally conveys holding back tears?"
+      "explanation": "'Spit out' (as in 'Spitting out my songs so you could sing along') expels what is inside out into the world through the vocal tract.",
+      "say": "Question four: Which verb represents purging emotion rather than swallowing it down?"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "7. The Winter Takeaway: Speak with Direction and Force",
-      "say": "Section seven: The Winter Takeaway: Speak with Direction and Force.",
+      "text": "10. The Winter Takeaway: Speak with Direction, Polarity, and Force",
+      "say": "Section ten: The Winter Takeaway: Speak with Direction, Polarity, and Force.",
       "beat": {
         "duration": 1200,
         "camera": "pan-zoom",
@@ -393,10 +534,11 @@
       "items": [
         "<strong>Identify the root motion:</strong> What is the body or object physically doing? (<em>crawling, spitting, digging, burning, sliding</em>).",
         "<strong>Track the particle vector:</strong> Is energy heading <em>up</em> into visibility, <em>down</em> into suppression, <em>out</em> into the air, or <em>in</em> toward the soul?",
+        "<strong>Check the opposite polarity:</strong> What would happen if you flipped the particle to its directional twin (<em>up vs down, in vs out, close vs away</em>)?",
         "<strong>Connect the metaphorical bridge:</strong> How does this physical trajectory match the emotional or psychological reality of the moment?",
         "<strong>Claim the freedom to forge:</strong> When an existing textbook verb feels too sterile, combine a vivid action verb with a directional particle to let your true voice speak."
       ],
-      "say": "Identify the root motion, track the particle vector, connect the metaphorical bridge, and claim the freedom to create your own expressive combinations."
+      "say": "Identify the root motion, track the particle vector, check the opposite polarity, connect the metaphorical bridge, and claim the freedom to create your own expressive combinations."
     },
     {
       "type": "paragraph",

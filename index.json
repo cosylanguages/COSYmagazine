@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-03T10:37:42.657Z",
+  "generatedAt": "2026-11-03T10:48:41.529Z",
   "stats": {
     "totalPosts": 98,
     "totalDesks": 13,
@@ -757,16 +757,17 @@
       "date": "2026-12-15",
       "title": "The Secret Logic of Phrasal Verbs: How to Decode, Understand, and Create Them",
       "kicker": "GRAMMAR MADE COSY",
-      "dek": "Stop treating phrasal verbs as arbitrary lists of random idioms. Explore the intuitive spatial compass behind English particles and learn to forge your own expressive combinations, inspired by the visceral poetry of Florence + The Machine.",
+      "dek": "Stop memorising arbitrary lists of idioms. Explore the intuitive spatial compass behind English particles, master their natural opposites, and learn to forge your own expressive combinations—inspired by the visceral lyrics of Florence + The Machine.",
       "tags": [
         "Grammar",
         "PhrasalVerbs",
         "CreativeWriting",
         "Fluency",
         "FlorenceAndTheMachine",
-        "Vocabulary"
+        "Vocabulary",
+        "Opposites"
       ],
-      "readingTime": 12,
+      "readingTime": 15,
       "artDirection": {
         "palette": [
           "#1a365d",
