@@ -198,9 +198,17 @@
             <div class="workbench-section">
                 <div class="workbench-section-title">
                     <span>🧱 Article Building Blocks</span>
-                    <button type="button" id="studio-add-block-btn" class="studio-btn studio-btn-primary" style="padding: 4px 10px; font-size: 0.78rem;">
-                        + Add Building Block
-                    </button>
+                    <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+                        <button type="button" id="studio-quick-add-image-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                            🖼️ + Image
+                        </button>
+                        <button type="button" id="studio-quick-add-link-btn" class="studio-btn" style="padding: 4px 8px; font-size: 0.75rem;">
+                            🌐 + Link
+                        </button>
+                        <button type="button" id="studio-add-block-btn" class="studio-btn studio-btn-primary" style="padding: 4px 10px; font-size: 0.78rem;">
+                            + Add Block...
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Palette Drawer -->

@@ -33,13 +33,19 @@ test('CosyEditorBlocks - All 13 canonical block definitions exist and instantiat
   });
 });
 
-test('CosyEditorBlocks - All article presets pass scripts/validate-blog-schema.js', () => {
+test('CosyEditorBlocks - All article presets pass scripts/validate-blog-schema.js and include image & link blocks', () => {
   assert.ok(Blocks.ARTICLE_PRESETS.length >= 4);
 
   Blocks.ARTICLE_PRESETS.forEach(preset => {
     const postData = preset.create({ language: 'en' });
     const errors = validatePostSchema(postData, `${preset.id}.json`);
     assert.equal(errors.length, 0, `Preset ${preset.id} failed schema validation: ${errors.join(', ')}`);
+
+    // Verify presence of visual image blocks and ecosystem link blocks
+    const hasImage = postData.blocks.some(b => b.type === 'image' && typeof b.url === 'string' && typeof b.alt === 'string');
+    const hasLink = postData.blocks.some(b => b.type === 'links' && typeof b.url === 'string' && typeof b.label === 'string');
+    assert.ok(hasImage, `Preset ${preset.name} must feature an image building block`);
+    assert.ok(hasLink, `Preset ${preset.name} must feature an ecosystem links building block`);
   });
 });
 

@@ -257,6 +257,22 @@
       });
     }
 
+    // Quick-Add Image Block Button
+    const quickAddImageBtn = document.getElementById('studio-quick-add-image-btn');
+    if (quickAddImageBtn) {
+      quickAddImageBtn.addEventListener('click', () => {
+        addBlock('image');
+      });
+    }
+
+    // Quick-Add Link Block Button
+    const quickAddLinkBtn = document.getElementById('studio-quick-add-link-btn');
+    if (quickAddLinkBtn) {
+      quickAddLinkBtn.addEventListener('click', () => {
+        addBlock('links');
+      });
+    }
+
     // Add Block Palette Drawer Toggle
     const addBlockBtn = document.getElementById('studio-add-block-btn');
     const blockPalette = document.getElementById('studio-block-palette');
@@ -698,14 +714,23 @@
       case 'links':
         return `
           <div class="form-row">
+            <div class="form-group" style="width: 140px;">
+              <label>Destination</label>
+              <select class="form-control" data-field="destination">
+                <option value="cosytools" ${block.destination === 'cosytools' ? 'selected' : ''}>COSYtools</option>
+                <option value="practice" ${block.destination === 'practice' ? 'selected' : ''}>COSYpractice</option>
+                <option value="ecosystem" ${block.destination === 'ecosystem' ? 'selected' : ''}>COSY Ecosystem</option>
+                <option value="external" ${block.destination === 'external' ? 'selected' : ''}>External Website</option>
+              </select>
+            </div>
             <div class="form-group" style="flex: 1;">
-              <label>Link Label</label>
+              <label>Link Label (e.g. Practice on COSYtools)</label>
               <input type="text" class="form-control" data-field="label" value="${escapeHtml(block.label || '')}">
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>Target URL</label>
-              <input type="text" class="form-control" data-field="url" value="${escapeHtml(block.url || '')}">
-            </div>
+          </div>
+          <div class="form-group">
+            <label>Target URL (must open in new tab with target="_blank")</label>
+            <input type="text" class="form-control" data-field="url" value="${escapeHtml(block.url || '')}">
           </div>
         `;
 

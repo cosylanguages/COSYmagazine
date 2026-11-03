@@ -202,13 +202,13 @@
       type: 'image',
       label: 'Editorial Figure & Photo',
       icon: '🖼️',
-      description: 'Image with alt text and caption',
+      description: 'Visual diagram, editorial illustration, or photograph with caption',
       create: () => ({
         type: 'image',
-        url: 'images/visuals/editorial-study.jpg',
-        alt: 'Editorial language study scene',
-        caption: 'Language immersion in an authentic, cosy setting.',
-        say: 'Take a look at how context shapes every spoken interaction.'
+        url: 'images/stop-translating-flow-en.svg',
+        alt: 'Cognitive direct speech workflow diagram',
+        caption: 'Connecting thoughts directly to target language structures without intermediate translation.',
+        say: 'Take a look at how direct cognitive pathways bypass the translation bottleneck.'
       })
     },
     {
@@ -272,6 +272,13 @@
               type: 'paragraph',
               text: 'Every Saturday, we look at the conversational slips that happen when thinking in one language and speaking in another.',
               say: 'Welcome to Saturday Mistakes. Today we look at five conversational slips and how to fix them effortlessly.'
+            },
+            {
+              type: 'image',
+              url: 'images/saturday-mistakes-routine-en.svg',
+              alt: 'Saturday Mistakes Cognitive Feedback Loop',
+              caption: 'Identify the pattern, apply the rule, and speak aloud with conversational confidence.',
+              say: 'Here is our visual breakdown of how native thought habits cause conversational friction.'
             },
             {
               type: 'mistake-card',
@@ -354,6 +361,13 @@
               type: 'paragraph',
               text: 'When starting in a new language, ten well-chosen verbs give you an immediate voice in real-world conversations.',
               say: 'When learning a language, ten high frequency verbs allow you to build hundreds of daily sentences.'
+            },
+            {
+              type: 'image',
+              url: 'images/stop-translating-flow-en.svg',
+              alt: 'Visual Flow of High-Frequency Conversational Verbs',
+              caption: 'High-frequency verbs serve as the functional core for spontaneous conversations.',
+              say: 'Notice how these core verbs connect the foundational ideas of daily communication.'
             },
             {
               type: 'heading',
@@ -441,6 +455,13 @@
               say: 'Remember: tense tells you when, and aspect tells you how the action unfolds.'
             },
             {
+              type: 'image',
+              url: 'images/off-script-flow-en.svg',
+              alt: 'Temporal Timeline and Aspect Architecture',
+              caption: 'Mapping moments in time: completed events, continuing durations, and habit loops.',
+              say: 'Visualize this architecture whenever you hesitate on verb tenses.'
+            },
+            {
               type: 'heading',
               level: 2,
               text: 'The Present: Ongoing vs Habitual',
@@ -464,6 +485,13 @@
               correctIndex: 1,
               explanation: 'Simple present indicates regular routines and general facts.',
               say: 'Check your intuition with this quick question.'
+            },
+            {
+              type: 'links',
+              destination: 'cosytools',
+              url: 'https://cosylanguages.github.io/COSYtools/',
+              label: 'Interactive Grammar & Conjugation Engine on COSYtools',
+              say: 'Explore our interactive grammar visualizer in COSYtools.'
             }
           ]
         };
@@ -535,6 +563,13 @@
               say: 'Upgrade basic responses to maintain warm rapport with your interlocutor.'
             },
             {
+              type: 'image',
+              url: 'images/off-script-flow-en.svg',
+              alt: 'Navigating conversational ambiguity diagram',
+              caption: 'Embracing improvisation: listening, bridging, and continuing with calm grace.',
+              say: 'Notice how conversation dynamics shift when you treat pauses as thinking space.'
+            },
+            {
               type: 'quote-wall',
               quotes: [
                 {
@@ -543,6 +578,13 @@
                 }
               ],
               say: 'Rita Mae Brown noted that language is the roadmap of a culture.'
+            },
+            {
+              type: 'links',
+              destination: 'practice',
+              url: 'https://cosylanguages.github.io/COSYpractice/',
+              label: 'Join our Spoken Audio Rooms on COSYpractice',
+              say: 'Take what you learned and practice speaking live on COSYpractice.'
             }
           ]
         };
