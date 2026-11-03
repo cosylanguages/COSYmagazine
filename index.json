@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-03T08:25:37.728Z",
+  "generatedAt": "2026-11-03T10:48:41.529Z",
   "stats": {
-    "totalPosts": 97,
+    "totalPosts": 98,
     "totalDesks": 13,
     "totalIssues": 6
   },
@@ -739,6 +739,50 @@
         "layout": "standard-feed",
         "motif": "riso-print",
         "seed": "top-10-verbs-part-3",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-the-logic-of-phrasal-verbs-everybody-scream",
+      "slug": "the-logic-of-phrasal-verbs-everybody-scream",
+      "language": "en",
+      "desk": "Grammar Made Cosy",
+      "format": "essay",
+      "level": "B1–C1",
+      "issue": {
+        "number": "Vol. 2026 — December Issue",
+        "title": "Winter Grammar & High Frequency Verbs"
+      },
+      "date": "2026-12-15",
+      "title": "The Secret Logic of Phrasal Verbs: How to Decode, Understand, and Create Them",
+      "kicker": "GRAMMAR MADE COSY",
+      "dek": "Stop memorising arbitrary lists of idioms. Explore the intuitive spatial compass behind English particles, master their natural opposites, and learn to forge your own expressive combinations—inspired by the visceral lyrics of Florence + The Machine.",
+      "tags": [
+        "Grammar",
+        "PhrasalVerbs",
+        "CreativeWriting",
+        "Fluency",
+        "FlorenceAndTheMachine",
+        "Vocabulary",
+        "Opposites"
+      ],
+      "readingTime": 15,
+      "artDirection": {
+        "palette": [
+          "#1a365d",
+          "#3182ce",
+          "#dd6b20",
+          "#ebf8ff"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "window-light",
+        "seed": "the-logic-of-phrasal-verbs-everybody-scream",
         "coverOverride": null
       },
       "draft": false
