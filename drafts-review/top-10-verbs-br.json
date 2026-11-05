@@ -1,0 +1,1474 @@
+{
+  "id": "post-top-10-verbs-br",
+  "slug": "top-10-verbs-br",
+  "language": "br",
+  "translationOf": "top-10-verbs",
+  "desk": "Words",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-03-01",
+  "title": "Ar 10 verb pennañ e brezhoneg evit ar re dhazerañ (A0–A1 / A2)",
+  "kicker": "KAVLEVR BREZHONEG — RANN 1 EUS 2",
+  "dek": "Deskit ar 10 verb pennañ e brezhoneg (bezañ, kaout, soñjal, gouzout/anavezout, plijout, c'hoant kaout, labourat/studiañ/deskiñ, mont, gallout, debriñ/evañ). Taolennoù conjugazhon war COSYtools. ⚠",
+  "tags": [
+    "Verbs",
+    "Breton",
+    "A0-A1",
+    "14Languages"
+  ],
+  "readingTime": 20,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e3a8a",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "top-10-verbs-br",
+    "coverOverride": null
+  },
+  "draft": true,
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Dek verb a zo trawalc'h evit lavaret an darn vrasañ eus ar pezh a zo ezhomm d'an deiz kentañ er skol: piv oc'h, petra hoc'h eus, petra a soñjit, da belec'h it. <mark class=\"hl-handwritten\">Klevet e vezont kantvedoù a wechoù bemdez</mark>, setu ma chomont diwar-benn ho memor buan. ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar pennad-mañ a zo da lenn <span class=\"doodle-circle\">a-vouezh uhel</span>. Evit pep verb, lennit an daolenn da gentañ ha lavarit ar c'hwec'h stumm hep sellet outi. Goude-se lennit an teir frazenn, kuzhit anezho, ha adlavarit anezho diwar ho memor en ur cheñch ur ger. Echuit gant ar gartenn fazioù: diskouez a ra ar frazenn a lavar an dud nevez ha hini a zo da lavaret. ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "Degemer mat e Rann 1 eus ar c'havlevr verboù evit al live A0–A1 hag A2 e brezhoneg! (Lennit ivez ar [Rann 2](top-10-verbs-part-2-br.html)). An taolennoù conjugazhon klok a c'haller kavout war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "pullquote",
+      "quote": "Ur verb desket en ur frazenn a dalv muioc'h eget dek verb desket en ul listenn. ⚠",
+      "attribution": "COSYmagazine"
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Bezañ",
+          "Ar verb bezañ a verk an identelezh, ar vicher, al lec'h hag ar stad.",
+          "Er gêr emañ.",
+          "'Skoaziad on', 'Er gêr emaon'."
+        ],
+        [
+          "2",
+          "Kaout",
+          "Ar verb kaout a verk ar perc'henniezh hag an oad.",
+          "Ur c'hoar en deus.",
+          "'Ul levr am eus'."
+        ],
+        [
+          "3",
+          "Soñjal",
+          "Ar verb soñjal a verk ar soñjoù hag an ali.",
+          "Soñjal a ra en dazont.",
+          "'Soñjal a ran eo mat'."
+        ],
+        [
+          "4",
+          "Gouzout / Anavezout",
+          "Gouzout evit ar fedoù hag an diskoulmoù, anavezout evit an dud hag al lec'hioù.",
+          "anavez ⚠",
+          "'Gouzout a ran ar respont'."
+        ],
+        [
+          "5",
+          "Plijout",
+          "Ar verb plijout a verk ar santimantoù hag ar c'hoantoù.",
+          "Plijout a ra dezhañ beajiñ.",
+          "'Plijout a ra din ar brezhoneg'."
+        ],
+        [
+          "6",
+          "C'hoant kaout",
+          "C'hoant kaout a verk ar c'hoant hag ar bolontez.",
+          "C'hoant en deus da zeskiñ.",
+          "'C'hoant am eus da zeskiñ'."
+        ],
+        [
+          "7",
+          "Labourat / Studiañ / Deskiñ ⚠",
+          "Ar verboù labourat, studiñ ha deskiñ a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez.",
+          "desk ⚠",
+          "'Deskiñ a ran buan'."
+        ],
+        [
+          "8",
+          "Mont",
+          "Ar verb mont a verk an dilec'hiañ.",
+          "Mont a ra d'ar gêr.",
+          "'Mont a ran d'ar gêr'."
+        ],
+        [
+          "9",
+          "Gallout",
+          "Ar verb gallout a verk an aotre hag ar varregezh.",
+          "Gallout a ra komz.",
+          "'Gallout a ran komz brezhoneg'."
+        ],
+        [
+          "10",
+          "Debriñ / Evañ",
+          "Ar verboù debriñ hag evañ evit ar predoù, an diedoù hag an dud asambles.",
+          "ev ⚠",
+          "'Kalz a galon!', 'evañ ur banne'. ⚠"
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ar gartenn-vemor: dek verb, pemp kefridi ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kentoc'h eget deskiñ dek verb an eil goude egile, bodit anezho dre ar pezh a servijont. Pa fell deoc'h lavaret un dra bennak, goulennit ouzhoc'h da gentañ: <mark class=\"hl-handwritten\">komz a ran diwar-benn ahanon, ma soñj, ma c'hoantoù, un dilec'hiadenn pe ar vuhez pemdeziek?</mark> Ar verb a zeu en-dro dre e-unan. ⚠"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Piv on, petra am eus:** bezañ, kaout. Identelezh, oad, micher, santadurioù. ⚠",
+        "**Petra a soñjan, petra a ouzon:** soñjal, gouzout, anavezout. Soñjoù, barregezhioù, tud ha lec'hioù. ⚠",
+        "**Petra a blij din, petra a fell din:** plijout, c'hoant kaout. Blaz, c'hoantoù, goulennoù. ⚠",
+        "**Al labour hag ar studioù:** labourat, studiañ, deskiñ. Micher, skol, araokadennoù. ⚠",
+        "**Mont, gallout ha debriñ-evañ:** mont, gallout, debriñ, evañ. Dilec'hiañ, barregezh, predoù. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ar 10 verb pennañ (Rann 1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Evit tabut pep verb e vez implijet ur stumm hir: ar verb enlavar + **a** + ur stumm eus **ober** (*ran, rez, ra, reomp, rit, reont*). Setu perak e lenn ar skouerioù *soñjal a ran*, *mont a ran*. Ur frammad a-bouez eo evit ar brezhoneg a-vremañ. Evel-se e vezo tu deoc'h krouiñ frazennoù gant verboù nevez da heul. ⚠"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Bezañ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **bezañ** a verk an identelezh, ar vicher, al lec'h hag ar stad. Evit al lec'h e vez implijet ur steuñvad all: *emaon, emaout, emañ...* ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "on / emaon",
+          "Studier on. ⚠"
+        ],
+        [
+          "Te",
+          "out / emaout",
+          "Ha prest out? ⚠"
+        ],
+        [
+          "Eñ / Hi",
+          "eo / emañ",
+          "Er gêr emañ."
+        ],
+        [
+          "Ni",
+          "omp / emaomp",
+          "Laouen omp."
+        ],
+        [
+          "C'hwi",
+          "oc'h / emaoc'h",
+          "Abred oc'h. ⚠"
+        ],
+        [
+          "Int",
+          "int / emaint",
+          "Tud vat int. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Stad:** 'Skoaziad on', 'Er gêr emaon'. ⚠",
+        "**Lec'h:** 'E Roazhon emaomp'. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Studier on, ha Mari a zo skolaerez. ⚠",
+      "gloss": "Bezañ evit lavaret piv eo unan. ⚠",
+      "context": "En em ginnig d'ur c'hamarad. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "E Roazhon emaomp bremañ. ⚠",
+      "gloss": "Emaomp = ni emaomp e-lec'h-bennak. ⚠",
+      "context": "Lavaret pelec'h emaoc'h. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Ha prest out? ⚠",
+      "gloss": "Goulenn gant « ha ». ⚠",
+      "context": "Kent ma krog ar c'hlas. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Mari:** Demat! Penaos out?\n**Yann:** Mat on, trugarez. Ha te? ⚠\n**Mari:** Mat-tre. Studierez on. Ha te? ⚠\n**Yann:** Studier on ivez. E Roazhon emaomp. ⚠",
+      "gloss": "Bezañ evit en em ginnig hag evit al lec'h. ⚠",
+      "context": "Deiz kentañ er skol. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Identelezh pe lec'h ⚠",
+      "wrong": "«Er gêr on.»",
+      "right": "«Er gêr emaon.»",
+      "why": "Evit lavaret pelec'h emaoc'h e vez implijet ur stumm all eus bezañ. ⚠",
+      "rule": "Evit ar vicher hag ar stad: on, out, eo, omp, oc'h, int. Evit al lec'h: emaon, emaout, emañ, emaomp, emaoc'h, emaint. ⚠",
+      "examples": [
+        "Er gêr emaon.",
+        "E Roazhon emaomp.",
+        "Studier on."
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Er gêr ___ . (Me)",
+      "options": [
+        "on",
+        "emaon",
+        "eo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Evit al lec'h: «Er gêr emaon»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Kaout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **kaout** a verk ar perc'henniezh, ar familh hag ar santadurioù. Ar frazenn a grog dre an dra a zo bet kaset (*Ul levr am eus*). ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "am eus",
+          "Ul levr am eus."
+        ],
+        [
+          "Te",
+          "az peus",
+          "Amzer az peus? ⚠"
+        ],
+        [
+          "Eñ / Hi",
+          "en deus / he deus",
+          "Ur c'hoar en deus."
+        ],
+        [
+          "Ni",
+          "hon eus",
+          "Ur goulenn hon eus. ⚠"
+        ],
+        [
+          "C'hwi",
+          "hoc'h eus",
+          "Gwir hoc'h eus. ⚠"
+        ],
+        [
+          "Int",
+          "o deus",
+          "Ur c'hi o deus."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Perc'henniezh:** 'Ul levr am eus'.",
+        "**Santadurioù:** 'Naon am eus', 'Sec'hed am eus'. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Daou vreur ha ur c'hoar am eus. ⚠",
+      "gloss": "Kaout evit ar familh. ⚠",
+      "context": "En em ginnig d'ur c'hamarad nevez. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Naon am eus! Pegoulz e tebromp? ⚠",
+      "gloss": "Naon am eus = naon eo ganin. ⚠",
+      "context": "Kreisteiz, dirak ar c'hantin. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Ur c'hi o deus. ⚠",
+      "gloss": "Ar re all a zo perc'henn. ⚠",
+      "context": "Komz diwar-benn tud. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Kelenner:** Pet breur az peus? ⚠\n**Mael:** Daou vreur ha ur c'hoar am eus. ⚠\n**Kelenner:** Pet bloaz out? ⚠\n**Mael:** Pemzek vloaz on. ⚠",
+      "gloss": "Kaout evit ar familh, bezañ evit an oad. ⚠",
+      "context": "Prezegenn en ur c'hlas. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "An oad ⚠",
+      "wrong": "«Pemzek vloaz am eus.»",
+      "right": "«Pemzek vloaz on.»",
+      "why": "E brezhoneg e lavarer an oad gant bezañ, ha n'eo ket gant kaout. ⚠",
+      "rule": "An oad: niver + bloaz + bezañ (Pemzek vloaz on). Ar santadurioù: kaout (Naon am eus). ⚠",
+      "examples": [
+        "Pet bloaz out?",
+        "Daouzek vloaz eo. ⚠",
+        "Naon am eus."
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ul levr ___ eus. (Me)",
+      "options": [
+        "am",
+        "en",
+        "hon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gant «me»: «Ul levr am eus»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Soñjal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **soñjal** a verk ar soñjoù hag an ali. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "soñjal a ran",
+          "Soñjal a ran ennout. ⚠"
+        ],
+        [
+          "Te",
+          "soñjal a rez",
+          "Petra a soñjez? ⚠"
+        ],
+        [
+          "Eñ / Hi",
+          "soñjal a ra",
+          "Soñjal a ra en e labour. ⚠"
+        ],
+        [
+          "Ni",
+          "soñjal a reomp",
+          "Soñjal a reomp holl en e-keñver. ⚠"
+        ],
+        [
+          "C'hwi",
+          "soñjal a rit",
+          "Petra a soñjit? ⚠"
+        ],
+        [
+          "Int",
+          "soñjal a reont",
+          "Soñjal a reont er gêr. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ali:** 'Soñjal a ran eo mat'. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Soñjal a ran eo mat-tre. ⚠",
+      "gloss": "Soñjal a + ober : un ali. ⚠",
+      "context": "Respont d'ur c'helenner. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Soñjal a ran ennout. ⚠",
+      "gloss": "Soñjal = soñjoù en-dro d'unan bennak. ⚠",
+      "context": "Ur c'hamarad a zo e-kreiz soñjal. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Petra a soñjez? ⚠",
+      "gloss": "Goulenn un ali. ⚠",
+      "context": "Ur c'hamarad a sell dre ar prenestr. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Aziliz:** Petra a soñjez eus al levr-mañ? ⚠\n**Per:** Soñjal a ran eo mat-tre. Ha te? ⚠\n**Aziliz:** Ya, mat eo ivez.",
+      "gloss": "Soñjal evit an ali. ⚠",
+      "context": "Er vedikañ. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Ar « a » en o fazioù ⚠",
+      "wrong": "«Soñjal ran.»",
+      "right": "«Soñjal a ran.»",
+      "why": "Ar verb enlavar ha stumm ober a vez liammet gant « a ». ⚠",
+      "rule": "Soñjal a ran, soñjal a rez, soñjal a ra... ⚠",
+      "examples": [
+        "Soñjal a ran.",
+        "Soñjal a rit.",
+        "Soñjal a reont."
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Soñjal ___ ran.",
+      "options": [
+        "a",
+        "e",
+        "da"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Soñjal a ran»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Gouzout / Anavezout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Gouzout** evit ar fedoù hag ar barregezhioù, **anavezout** evit an dud hag al lec'hioù. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Gouzout",
+        "Anavezout"
+      ],
+      "rows": [
+        [
+          "Me",
+          "ouzon ⚠",
+          "anavezout a ran"
+        ],
+        [
+          "Te",
+          "ouzout ⚠",
+          "anavezout a rez"
+        ],
+        [
+          "Eñ / Hi",
+          "oar ⚠",
+          "anavezout a ra"
+        ],
+        [
+          "Ni",
+          "ouzomp ⚠",
+          "anavezout a reomp"
+        ],
+        [
+          "C'hwi",
+          "ouzoc'h ⚠",
+          "anavezout a rit"
+        ],
+        [
+          "Int",
+          "ouzont ⚠",
+          "anavezout a reont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gouzout:** 'Gouzout a ran komz brezhoneg'. ⚠",
+        "**Anavezout:** 'Anavezout a ran Mari'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Gouzout a ran komz brezhoneg. ⚠",
+      "gloss": "Gouzout + berb enlavar : ur varregezh. ⚠",
+      "context": "Lavaret ar pezh a c'hellit ober. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Anavezout a ran Mari. ⚠",
+      "gloss": "Anavezout evit unan bennak. ⚠",
+      "context": "Lakaat anv unan bennak. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Ne ouzon ket pelec'h emañ ar skol. ⚠",
+      "gloss": "Ne ... ket evit nac'h. ⚠",
+      "context": "Kentañ deiz. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Lena:** Gouzout a rez pelec'h emañ ar skol? ⚠\n**Paol:** Ne ouzon ket, met anavezout a ran Mari. Hi a oar. ⚠",
+      "gloss": "Gouzout evit un titouradur, anavezout evit unan bennak. ⚠",
+      "context": "Er straed. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Gouzout pe anavezout ⚠",
+      "wrong": "«Anavezout a ran komz brezhoneg.»",
+      "right": "«Gouzout a ran komz brezhoneg.»",
+      "why": "E yezhoù zo ur verb hepken a servij evit an daou. ⚠",
+      "rule": "Gouzout + verb enlavar pe titouradur. Anavezout + den pe lec'h. ⚠",
+      "examples": [
+        "Anavezout a ran Mari.",
+        "Gouzout a ran pelec'h emañ. ⚠",
+        "Anavezout a reomp ar vro-mañ. ⚠"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "___ a ran Mari. (Un den)",
+      "options": [
+        "Gouzout",
+        "Anavezout",
+        "Mont"
+      ],
+      "correctIndex": 1,
+      "explanation": "Evit un den: anavezout."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Plijout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **plijout** a verk ar santimantoù hag ar c'hoantoù. Ar pezh a blij a zo ar sujed: *Plijout a ra din ar brezhoneg*. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Da biv",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "din",
+          "Plijout a ra din ar brezhoneg."
+        ],
+        [
+          "Te",
+          "dit",
+          "Plijout a ra dit ar mor? ⚠"
+        ],
+        [
+          "Eñ",
+          "dezhañ",
+          "Plijout a ra dezhañ beajiñ."
+        ],
+        [
+          "Hi",
+          "dezhi",
+          "Plijout a ra dezhi ar skol. ⚠"
+        ],
+        [
+          "Ni",
+          "dimp",
+          "Plijout a ra dimp. ⚠"
+        ],
+        [
+          "C'hwi",
+          "deoc'h",
+          "Plijout a ra deoc'h? ⚠"
+        ],
+        [
+          "Int",
+          "dezho",
+          "Plijout a ra dezho. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Blaz:** 'Plijout a ra din ar brezhoneg'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Plijout a ra din ar brezhoneg. ⚠",
+      "gloss": "Plijout a ra + din : ar pezh a blij din. ⚠",
+      "context": "Komz diwar-benn ho kurzhioù. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Plijout a ra dezhañ beajiñ. ⚠",
+      "gloss": "Plijout a ra dezhañ + verb. ⚠",
+      "context": "Komz diwar-benn ur c'hamarad. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Plijout a ra dit ar mor? ⚠",
+      "gloss": "Goulenn d'unan bennak. ⚠",
+      "context": "Plajoù hañv. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Gwenn:** Plijout a ra dit ar brezhoneg? ⚠\n**Erwan:** Ya, plijout a ra din kalz. Ha dit-te? ⚠\n**Gwenn:** Plijout a ra din ivez! ⚠",
+      "gloss": "Plijout evit lavaret an dra a blij. ⚠",
+      "context": "E-kerz ar pause. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Piv a blij da biv ⚠",
+      "wrong": "«Plijout a ran ar brezhoneg.»",
+      "right": "«Plijout a ra din ar brezhoneg.»",
+      "why": "Ar brezhoneg a blij din. Ne c'hall ket bezañ ar re a blij en o c'hrediñ eo me. ⚠",
+      "rule": "Plijout a ra + dativ (din, dit, dezhañ, dezhi, dimp, deoc'h, dezho) + an dra a blij. ⚠",
+      "examples": [
+        "Plijout a ra dezhi ar skol. ⚠",
+        "Plijout a ra din ar mor. ⚠",
+        "Plijout a ra dimp. ⚠"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Plijout a ra ___ ar brezhoneg. (Me)",
+      "options": [
+        "din",
+        "dit",
+        "dezhañ"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Plijout a ra din ar brezhoneg»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. C'hoant kaout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**C'hoant kaout** a verk ar c'hoant hag ar bolontez: *c'hoant am eus da* + verb. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "c'hoant am eus",
+          "C'hoant am eus da zeskiñ."
+        ],
+        [
+          "Te",
+          "c'hoant az peus",
+          "C'hoant az peus da zebriñ? ⚠"
+        ],
+        [
+          "Eñ / Hi",
+          "c'hoant en deus / he deus",
+          "C'hoant en deus da vont d'ar mor. ⚠"
+        ],
+        [
+          "Ni",
+          "c'hoant hon eus",
+          "C'hoant hon eus da evañ ur banne. ⚠"
+        ],
+        [
+          "C'hwi",
+          "c'hoant hoc'h eus",
+          "C'hoant hoc'h eus da zeskiñ? ⚠"
+        ],
+        [
+          "Int",
+          "c'hoant o deus",
+          "C'hoant o deus da gomz. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bolontez:** 'C'hoant am eus da zeskiñ'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "C'hoant am eus da zeskiñ brezhoneg. ⚠",
+      "gloss": "C'hoant am eus da + verb. ⚠",
+      "context": "Lavaret ar pezh a fell deoc'h. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "C'hoant hon eus da evañ ur banne dour. ⚠",
+      "gloss": "Ur c'hoant a gevredigezh. ⚠",
+      "context": "Er c'hafedi. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "C'hoant az peus da zebriñ un dra bennak? ⚠",
+      "gloss": "Goulenn gant c'hoant. ⚠",
+      "context": "Pa vez gwarantet ur pred. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Soaz:** C'hoant az peus da zebriñ un dra bennak? ⚠\n**Alan:** Ya, ha c'hoant am eus da evañ ur banne dour ivez. ⚠",
+      "gloss": "C'hoant kaout evit ur c'hoant. ⚠",
+      "context": "Er c'hafedi. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 6,
+      "title": "Ar « da » ⚠",
+      "wrong": "«C'hoant am eus deskiñ.»",
+      "right": "«C'hoant am eus da zeskiñ.»",
+      "why": "Ar « da » a vank alies, ha lizherenn gentañ ar verb a cheñch. ⚠",
+      "rule": "C'hoant am eus + da + verb (deskiñ → da zeskiñ, debriñ → da zebriñ). ⚠",
+      "examples": [
+        "C'hoant am eus da zeskiñ.",
+        "C'hoant en deus da zebriñ. ⚠",
+        "C'hoant hon eus da evañ. ⚠"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "C'hoant am eus ___ zeskiñ.",
+      "options": [
+        "da",
+        "e",
+        "a"
+      ],
+      "correctIndex": 0,
+      "explanation": "«C'hoant am eus da zeskiñ»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Labourat / Studiañ ⚠ / Deskiñ"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Labourat**, **studiañ** ⚠ ha **deskiñ** a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Labourat",
+        "Studiañ ⚠",
+        "Deskiñ"
+      ],
+      "rows": [
+        [
+          "Me",
+          "labourat a ran",
+          "studiañ a ran",
+          "deskiñ a ran"
+        ],
+        [
+          "Te",
+          "labourat a rez",
+          "studiañ a rez",
+          "deskiñ a rez"
+        ],
+        [
+          "Eñ / Hi",
+          "labourat a ra",
+          "studiañ a ra",
+          "deskiñ a ra"
+        ],
+        [
+          "Ni",
+          "labourat a reomp",
+          "studiañ a reomp",
+          "deskiñ a reomp"
+        ],
+        [
+          "C'hwi",
+          "labourat a rit",
+          "studiañ a rit",
+          "deskiñ a rit"
+        ],
+        [
+          "Int",
+          "labourat a reont",
+          "studiañ a reont",
+          "deskiñ a reont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Labourat:** 'Labourat a ran e Roazhon'. ⚠",
+        "**Studiañ:** 'Studiañ a ran ar brezhoneg'. ⚠",
+        "**Deskiñ:** 'Deskiñ a ran buan'. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Labourat a ran e Roazhon. ⚠",
+      "gloss": "Labourat + e + lec'h. ⚠",
+      "context": "Komz diwar-benn ho micher. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Studiañ a ran ar brezhoneg. ⚠",
+      "gloss": "Studiañ = ur studi. ⚠",
+      "context": "Er skol. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Deskiñ a ran brezhoneg bemdez. ⚠",
+      "gloss": "Deskiñ = en em zeskiñ. ⚠",
+      "context": "Komz diwar-benn ho kreskiñ. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Katell:** Labourat a rez?\n**Ewan:** Nann, studiañ a ran e Roazhon. Ha te? ⚠\n**Katell:** Labourat a ran, ha deskiñ a ran brezhoneg bemdez. ⚠",
+      "gloss": "Tri verb evit micher ha studi. ⚠",
+      "context": "E-kerz ar pause. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 7,
+      "title": "Deskiñ ha kelenn ⚠",
+      "wrong": "«Kelenn a ran brezhoneg.»",
+      "right": "«Deskiñ a ran brezhoneg.»",
+      "why": "Gant « deskiñ » e vez lavaret ez eo unan o tizhout, ha « kelenn » a verk e kelenner. ⚠",
+      "rule": "Deskiñ = dizoloiñ un dra nevez. Kelenn = kelenn d'unan bennak. ⚠",
+      "examples": [
+        "Deskiñ a ran brezhoneg.",
+        "Kelenn a ra ar c'helenner. ⚠",
+        "Studiañ a ran. ⚠"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Evit « enseigner » e vez implijet ___ .",
+      "options": [
+        "deskiñ",
+        "kelenn",
+        "studiañ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kelenn a zo evit kelenn; deskiñ evit deskiñ. ⚠"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Mont"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **mont** a verk an dilec'hiañ. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "mont a ran",
+          "Mont a ran d'ar skol."
+        ],
+        [
+          "Te",
+          "mont a rez",
+          "Mont a rez d'ar gêr?"
+        ],
+        [
+          "Eñ / Hi",
+          "mont a ra",
+          "Mont a ra d'ar gêr."
+        ],
+        [
+          "Ni",
+          "mont a reomp",
+          "Mont a reomp da Roazhon. ⚠"
+        ],
+        [
+          "C'hwi",
+          "mont a rit",
+          "Mont a rit d'ar skol? ⚠"
+        ],
+        [
+          "Int",
+          "mont a reont",
+          "Mont a reont d'ar mor. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Dilec'hiañ:** 'Mont a ran d'ar gêr'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Mont a ran d'ar skol. ⚠",
+      "gloss": "Mont a ran d'ar + lec'h. ⚠",
+      "context": "Lavaret da belec'h it. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Mont a reomp da Roazhon. ⚠",
+      "gloss": "Mont da + anv kêr. ⚠",
+      "context": "Ur c'hoñj a-benn ar fin. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Mont a rez d'ar gêr? ⚠",
+      "gloss": "Goulenn. ⚠",
+      "context": "Echu ar c'hlas. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Ana:** Mont a rez d'ar skol? ⚠\n**Tom:** Nann, mont a ran d'ar gêr. Ha te? ⚠\n**Ana:** Mont a ran da Roazhon. ⚠",
+      "gloss": "Mont evit lavaret da belec'h. ⚠",
+      "context": "A-raok mont d'ar gêr. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 8,
+      "title": "E pe da ⚠",
+      "wrong": "«Mont a ran e Roazhon.»",
+      "right": "«Mont a ran da Roazhon.»",
+      "why": "Gant « mont » e vez lavaret an hent, ha n'eo ket al lec'h hon eus. ⚠",
+      "rule": "Mont a ran + da + lec'h. ⚠",
+      "examples": [
+        "Mont a ran da Roazhon. ⚠",
+        "Mont a ran d'ar skol. ⚠",
+        "Mont a ran d'ar gêr."
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Mont a ran ___ Roazhon.",
+      "options": [
+        "da",
+        "e",
+        "en"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Mont a ran da Roazhon»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Gallout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **gallout** a verk an aotre hag ar varregezh. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "gallout a ran",
+          "Gallout a ran komz."
+        ],
+        [
+          "Te",
+          "gallout a rez",
+          "Gallout a rez skoazellañ? ⚠"
+        ],
+        [
+          "Eñ / Hi",
+          "gallout a ra",
+          "Gallout a ra komz."
+        ],
+        [
+          "Ni",
+          "gallout a reomp",
+          "Gallout a reomp mont. ⚠"
+        ],
+        [
+          "C'hwi",
+          "gallout a rit",
+          "Gallout a rit skoazellañ ac'hanon? ⚠"
+        ],
+        [
+          "Int",
+          "gallout a reont",
+          "Gallout a reont deskiñ. ⚠"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Barregezh:** 'Gallout a ran komz brezhoneg'. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Gallout a ran komz brezhoneg. ⚠",
+      "gloss": "Gallout + verb enlavar. ⚠",
+      "context": "Lavaret ar pezh a c'hellit ober. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Gallout a rit skoazellañ ac'hanon, mar plij? ⚠",
+      "gloss": "Goulenn ur skoazell. ⚠",
+      "context": "En ur vagajiñ. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Ne c'hallan ket komz buan. ⚠",
+      "gloss": "Ne ... ket evit nac'h. ⚠",
+      "context": "Ur c'hamarad a c'houlenn. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Paotr:** Gallout a rit skoazellañ ac'hanon, mar plij? ⚠\n**Plac'h:** Ya, evel-just! ⚠\n**Paotr:** Trugarez bras!",
+      "gloss": "Gallout evit goulenn ur skoazell. ⚠",
+      "context": "Er straed. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 9,
+      "title": "Nac'h gant gallout ⚠",
+      "wrong": "«Gallout a ran ket.»",
+      "right": "«Ne c'hallan ket.»",
+      "why": "Evit nac'h e vez implijet ne ... ket, ha cheñch a ra lizherenn gentañ ar verb. ⚠",
+      "rule": "Ne + stumm ar verb + ket: ne c'hallan ket. ⚠",
+      "examples": [
+        "Ne c'hallan ket komz buan. ⚠",
+        "Ne c'hall ket deskiñ. ⚠",
+        "Ne c'hallomp ket mont. ⚠"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Evit nac'h: Ne c'hallan ___ .",
+      "options": [
+        "ket",
+        "ne",
+        "a"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Ne c'hallan ket»."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Debriñ / Evañ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verboù **debriñ** hag **evañ** evit ar predoù, an diedoù hag an dud asambles. ⚠"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Debriñ",
+        "Evañ"
+      ],
+      "rows": [
+        [
+          "Me",
+          "debriñ a ran",
+          "evañ a ran"
+        ],
+        [
+          "Te",
+          "debriñ a rez",
+          "evañ a rez"
+        ],
+        [
+          "Eñ / Hi",
+          "debriñ a ra",
+          "evañ a ra"
+        ],
+        [
+          "Ni",
+          "debriñ a reomp",
+          "evañ a reomp"
+        ],
+        [
+          "C'hwi",
+          "debriñ a rit",
+          "evañ a rit"
+        ],
+        [
+          "Int",
+          "debriñ a reont",
+          "evañ a reont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Debriñ:** 'Debriñ a ran un aval'.",
+        "**Evañ:** 'Evañ a ran dour fresk'. ⚠",
+        "**Troioù-lavar:** 'Yec'hed mat!', 'evañ ur banne'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lennit a-vouezh uhel ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Debriñ a ran un aval da greisteiz. ⚠",
+      "gloss": "Debriñ evit ar boued. ⚠",
+      "context": "Lavaret ar pezh a zebrit. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "Evañ a ran dour bemdez. ⚠",
+      "gloss": "Evañ evit an evaj. ⚠",
+      "context": "Ur banne e-pad ar pred. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "C'hoant az peus da evañ ur banne? ⚠",
+      "gloss": "Goulenn gant « c'hoant ». ⚠",
+      "context": "Degemer unan bennak. ⚠"
+    },
+    {
+      "type": "example",
+      "targetText": "**Nolwenn:** C'hoant az peus da evañ ur banne? ⚠\n**Tom:** Ya, ur banne dour, mar plij. Ha debriñ a rez un tamm bara? ⚠\n**Nolwenn:** Ya, trugarez! Yec'hed mat!",
+      "gloss": "Debriñ hag evañ evit ar predoù. ⚠",
+      "context": "E ti ur mignon. ⚠"
+    },
+    {
+      "type": "mistake-card",
+      "number": 10,
+      "title": "Debriñ pe evañ ⚠",
+      "wrong": "«Evañ a ran un aval.»",
+      "right": "«Debriñ a ran un aval.»",
+      "why": "Evañ a servij evit ar re a c'hell bezañ evet, debriñ evit ar boued. ⚠",
+      "rule": "Debriñ = boued; evañ = evajoù. ⚠",
+      "examples": [
+        "Evañ a ran dour.",
+        "Debriñ a ra bara. ⚠",
+        "Yec'hed mat!"
+      ],
+      "labels": {
+        "wrong": "Ket mat ⚠",
+        "right": "Lavarit kentoc'h ⚠",
+        "why": "Perak",
+        "rule": "Reolenn COSY",
+        "examples": "Skouerioù ouzhpenn ⚠",
+        "turn": "Ho tro ⚠"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "___ a ran un aval.",
+      "options": [
+        "Debriñ",
+        "Evañ",
+        "Mont"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un aval a zebrer."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Te pe c'hwi? Ur choaz bihan a gont ⚠",
+      "content": "E brezhoneg e lavarer « te » d'ar vignoned, d'ar familh ha d'ar vugale, ha « c'hwi » d'an dud ne anavezer ket, evit doujañs, pe pa vez kaoz eus meur a hini. ⚠ « Demat » a zo ar salud boutin evit lavaret mat-tre pa erruer, ha « kenavo » evit ober kenavo. ⚠ E Breizh ez eus meur a rannyezh (Kerneveg, Leoneg, Tregerieg, Gwenedeg) ha cheñch a c'hall ar geriadur eus unan d'egile. ⚠ Er skolioù Diwan e vez desket pep tra e brezhoneg. ⚠ Ar pezh a zo mat, setu: lavarit « demat » ha lavarit kement tra e brezhoneg. ⚠"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Frammoù yezhadurel evit al live A0–A1 / A2"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Frazenn simpl:** verb enlavar + a + ober (*Soñjal a ran*). ⚠",
+        "**Perc'henniezh:** an dra + am eus (*Ul levr am eus*). ⚠",
+        "**C'hoant:** c'hoant am eus + da + verb (*C'hoant am eus da zeskiñ*). ⚠",
+        "**Dilec'hiañ:** mont a ran da / d'ar + lec'h. ⚠",
+        "**Nac'h:** ne ... ket (*Ne c'hallan ket*). ⚠",
+        "**Goulenn:** ha + frazenn (*Ha prest out?*). ⚠",
+        "**Taolennoù:** an holl stummoù a c'haller kavout war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ho tañva a-vouezh uhel e 5 munutenn ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pemp munutenn bemdez, a-vouezh uhel, a zo gwelloc'h eget un eurvezh a lennadenn sioul d'ar Sul. Setu ur steuñvad da adober e-pad ur sizhun: <mark class=\"hl-handwritten\">ur vunutenn evit pep pazenn, ket muioc'h</mark>. ⚠"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Munutenn 1, tommadur:** lavarit a-vouezh uhel ar c'hwec'h stumm eus bezañ, goude eus kaout, hep sellet ouzh an daolennoù. ⚠",
+        "**Munutenn 2, tri verb, teir frazenn:** dibabit tri verb ha lavarit ur frazenn wir diwar-benn ho puhez evit pep hini. ⚠",
+        "**Munutenn 3, chase ar fazioù:** lennit ur gartenn fazioù ha lavarit teir gwech ar frazenn reizh, en ur cheñch ar sujed bep tro. ⚠",
+        "**Munutenn 4, kaozeadenn vihan:** c'hoariit an daou rol eus un daou-gaozeadenn hag enrollit ho unan war ho pellgomzer. ⚠",
+        "**Munutenn 5, selaou en-dro:** selaouit an enrolladenn ha dibabit ur frazenn da virout evit warc'hoazh. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Steuñvad 7 devezh ⚠"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Deiz 1, bezañ ha kaout:** deskit ar c'hwec'h stumm ha savit pemp frazenn diwar-benn ho unan. ⚠",
+        "**Deiz 2, soñjal ha gouzout:** lavarit unan eus ho soñjoù ha teir tra a ouzit. ⚠",
+        "**Deiz 3, plijout ha c'hoant kaout:** komzit diwar-benn teir tra a blij deoc'h ha teir c'hoant. ⚠",
+        "**Deiz 4, labourat, studiañ, deskiñ:** deskrivit ho devezh gant pevar frazenn. ⚠",
+        "**Deiz 5, mont:** savit ho steuñvad evit warc'hoazh gant « mont a ran ». ⚠",
+        "**Deiz 6, gallout ha debriñ-evañ:** goulennit ur skoazell ha komzit eus ho pred. ⚠",
+        "**Deiz 7, adlenn:** adlennit ar c'hartennoù fazioù hag enrollit un daou-gaozeadenn hir. ⚠"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pleustriñ ha conjugazhon"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pleustrit war [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit ar [Rann 1](top-10-verbs-br.html) hag ar [Rann 2](top-10-verbs-part-2-br.html), ha kavout an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ]
+}
