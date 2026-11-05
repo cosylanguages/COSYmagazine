@@ -52,4 +52,33 @@ assert.ok(cssText.includes('podcast-presentation-mode'), 'css/blog.css should de
 assert.ok(cssText.includes('@media print'), 'css/blog.css should define @media print styles');
 console.log('✅ Passed: css/blog.css defines magazine, podcast presentation mode, and print paper styles.');
 
+// Test 5: Check August Issue 01 full digital version, Editor's Letter, and Paywall integration
+const augustHtmlPath = path.resolve('august-2026-issue.html');
+assert.ok(fs.existsSync(augustHtmlPath), 'august-2026-issue.html should exist');
+const augustHtml = fs.readFileSync(augustHtmlPath, 'utf8');
+
+assert.ok(augustHtml.includes('Dear readers, students, teacher, language nerds'), 'august-2026-issue.html should include the verbatim Letter from the Editor');
+assert.ok(augustHtml.includes('In Conversation: Thematic Founder Interview with James (JY DM)'), 'august-2026-issue.html should include the founder interview');
+assert.ok(augustHtml.includes('FASHION &amp; TRENDS') || augustHtml.includes('FASHION & TRENDS'), 'august-2026-issue.html should include Fashion & Trends section');
+assert.ok(augustHtml.includes('STORIES &amp; VOICES') || augustHtml.includes('STORIES & VOICES'), 'august-2026-issue.html should include Stories & Voices section');
+assert.ok(augustHtml.includes('LIVING &amp; SALON') || augustHtml.includes('LIVING & SALON'), 'august-2026-issue.html should include Living & Salon section');
+assert.ok(augustHtml.includes('A0–A2') || augustHtml.includes('A0-A2'), 'august-2026-issue.html should include A0-A2 tier');
+assert.ok(augustHtml.includes('B1–B2') || augustHtml.includes('B1-B2'), 'august-2026-issue.html should include B1-B2 tier');
+assert.ok(augustHtml.includes('C1–C2') || augustHtml.includes('C1-C2'), 'august-2026-issue.html should include C1-C2 tier');
+assert.ok(augustHtml.includes('Research Field'), 'august-2026-issue.html should include Research Field annotations');
+assert.ok(augustHtml.includes('Research Spark'), 'august-2026-issue.html should include Research Spark annotations');
+
+// Test 6: Free standalone articles remain accessible
+const whySpeakingHtmlPath = path.resolve('why-speaking-first.html');
+assert.ok(fs.existsSync(whySpeakingHtmlPath), 'why-speaking-first.html should exist for free access');
+const top10HtmlPath = path.resolve('top-10-verbs.html');
+assert.ok(fs.existsSync(top10HtmlPath), 'top-10-verbs.html should exist for free access');
+
+const paywallScriptPath = path.resolve('js/magazine-paywall.js');
+assert.ok(fs.existsSync(paywallScriptPath), 'js/magazine-paywall.js should exist');
+const paywallScript = fs.readFileSync(paywallScriptPath, 'utf8');
+assert.ok(paywallScript.includes('CosyMagazinePaywall'), 'js/magazine-paywall.js should define CosyMagazinePaywall');
+
+console.log('✅ Passed: August Issue 01 full digital version, CEFR tiers, Research Fields/Sparks, free articles, and Supabase paywall guard are verified.');
+
 console.log('🎉 All Blog Magazine & Podcast Presentation tests passed successfully!');

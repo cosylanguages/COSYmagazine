@@ -26,18 +26,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-ba",
       "coverOverride": null
     }
@@ -69,18 +68,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-br",
       "coverOverride": null
     }
@@ -112,18 +110,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-cv",
       "coverOverride": null
     }
@@ -155,18 +152,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-de",
       "coverOverride": null
     }
@@ -198,18 +194,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-el",
       "coverOverride": null
     }
@@ -241,18 +236,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-en",
       "coverOverride": null
     }
@@ -284,18 +278,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-es",
       "coverOverride": null
     }
@@ -327,18 +320,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-fr",
       "coverOverride": null
     }
@@ -370,18 +362,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-hy",
       "coverOverride": null
     }
@@ -413,18 +404,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-it",
       "coverOverride": null
     }
@@ -456,18 +446,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-ka",
       "coverOverride": null
     }
@@ -499,18 +488,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-pt",
       "coverOverride": null
     }
@@ -542,18 +530,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-ru",
       "coverOverride": null
     }
@@ -585,18 +572,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3-tt",
       "coverOverride": null
     }
@@ -629,18 +615,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#059669",
+        "#ecfdf5",
+        "#064e3b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-3",
       "coverOverride": null
     }
@@ -675,19 +660,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#4a0e17",
+        "#faf7f2",
+        "#1e293b",
+        "#d97706"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "the-logic-of-phrasal-verbs-everybody-scream",
+      "layout": "magazine-spread",
+      "motif": "botanical-dark",
+      "seed": "everybody-scream-phrasal-verbs",
       "coverOverride": null
     }
   },
@@ -718,18 +703,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-ba",
       "coverOverride": null
     }
@@ -761,18 +745,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-br",
       "coverOverride": null
     }
@@ -804,18 +787,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-cv",
       "coverOverride": null
     }
@@ -847,18 +829,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-de",
       "coverOverride": null
     }
@@ -890,18 +871,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-el",
       "coverOverride": null
     }
@@ -933,18 +913,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-en",
       "coverOverride": null
     }
@@ -976,18 +955,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-es",
       "coverOverride": null
     }
@@ -1019,18 +997,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-fr",
       "coverOverride": null
     }
@@ -1062,18 +1039,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-hy",
       "coverOverride": null
     }
@@ -1105,18 +1081,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-it",
       "coverOverride": null
     }
@@ -1148,18 +1123,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-ka",
       "coverOverride": null
     }
@@ -1191,18 +1165,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-pt",
       "coverOverride": null
     }
@@ -1234,18 +1207,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-ru",
       "coverOverride": null
     }
@@ -1277,18 +1249,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2-tt",
       "coverOverride": null
     }
@@ -1321,18 +1292,17 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0284c7",
+        "#f0f9ff",
+        "#0f172a"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
       "seed": "top-10-verbs-part-2",
       "coverOverride": null
     }
@@ -1365,19 +1335,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#e11d48"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "creative-writing-in-language-learning",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "creative-writing-academia",
       "coverOverride": null
     }
   },
@@ -1410,19 +1380,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "demystifying-english-tenses-timeline-guide",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "demystifying-english-tenses",
       "coverOverride": null
     }
   },
@@ -1454,19 +1424,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "demystifying-french-tenses-timeline-guide-fr",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "demystifying-french-tenses-fr",
       "coverOverride": null
     }
   },
@@ -1498,19 +1468,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "demystifying-greek-tenses-timeline-guide-el",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "demystifying-greek-tenses-el",
       "coverOverride": null
     }
   },
@@ -1542,19 +1512,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "demystifying-italian-tenses-timeline-guide-it",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "demystifying-italian-tenses-it",
       "coverOverride": null
     }
   },
@@ -1586,19 +1556,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "demystifying-russian-tenses-timeline-guide-ru",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "demystifying-russian-tenses-ru",
       "coverOverride": null
     }
   },
@@ -1630,19 +1600,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "neuroplasticity-and-the-playful-brain",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "playful-brain-neuroplasticity",
       "coverOverride": null
     }
   },
@@ -1674,18 +1644,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "beyond-code-switching-and-translation",
       "coverOverride": null
     }
@@ -1717,19 +1687,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#2563eb",
+        "#faf7f2",
+        "#1e293b",
+        "#d97706"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "text": "Commissioner",
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "saturday-mistakes-5-english-mistakes",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "saturday-mistakes-en",
       "coverOverride": null
     }
   },
@@ -1760,19 +1730,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#16a34a",
+        "#faf7f2",
+        "#1e293b",
+        "#ca8a04"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "text": "Commissioner",
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "saturday-mistakes-5-french-mistakes",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "saturday-mistakes-fr",
       "coverOverride": null
     }
   },
@@ -1802,19 +1772,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0284c7",
+        "#faf7f2",
+        "#1e293b",
+        "#e11d48"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "text": "Commissioner",
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "saturday-mistakes-5-greek-mistakes",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "saturday-mistakes-el",
       "coverOverride": null
     }
   },
@@ -1844,19 +1814,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#dc2626",
+        "#faf7f2",
+        "#1e293b",
+        "#0d9488"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "text": "Commissioner",
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "saturday-mistakes-5-italian-mistakes",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "saturday-mistakes-it",
       "coverOverride": null
     }
   },
@@ -1886,19 +1856,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#7c3aed",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "text": "Commissioner",
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "saturday-mistakes-5-russian-mistakes",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "saturday-mistakes-ru",
       "coverOverride": null
     }
   },
@@ -1930,19 +1900,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "why-do-we-freeze-when-conversations-go-off-script-el",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "off-script-mindset",
       "coverOverride": null
     }
   },
@@ -1974,19 +1944,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "why-do-we-freeze-when-conversations-go-off-script-fr",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "off-script-mindset",
       "coverOverride": null
     }
   },
@@ -2018,19 +1988,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "why-do-we-freeze-when-conversations-go-off-script-it",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "off-script-mindset",
       "coverOverride": null
     }
   },
@@ -2062,19 +2032,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "why-do-we-freeze-when-conversations-go-off-script-ru",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "off-script-mindset-ru",
       "coverOverride": null
     }
   },
@@ -2106,19 +2076,19 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "why-do-we-freeze-when-conversations-go-off-script",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "off-script-mindset",
       "coverOverride": null
     }
   },
@@ -2150,18 +2120,18 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "window-light",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-5-favourite-grammar-rules",
       "coverOverride": null
     }
@@ -2194,18 +2164,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-ba",
       "coverOverride": null
     }
@@ -2238,18 +2208,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-br",
       "coverOverride": null
     }
@@ -2282,18 +2252,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-cv",
       "coverOverride": null
     }
@@ -2326,18 +2296,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-de",
       "coverOverride": null
     }
@@ -2370,18 +2340,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-el",
       "coverOverride": null
     }
@@ -2414,18 +2384,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-es",
       "coverOverride": null
     }
@@ -2458,18 +2428,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-fr",
       "coverOverride": null
     }
@@ -2502,18 +2472,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-hy",
       "coverOverride": null
     }
@@ -2546,18 +2516,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-it",
       "coverOverride": null
     }
@@ -2590,18 +2560,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-ka",
       "coverOverride": null
     }
@@ -2634,18 +2604,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-pt",
       "coverOverride": null
     }
@@ -2678,18 +2648,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-ru",
       "coverOverride": null
     }
@@ -2722,18 +2692,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames-tt",
       "coverOverride": null
     }
@@ -2766,18 +2736,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
         "accent": "Fraunces Italic"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
       "seed": "stop-translating-10-sentence-frames",
       "coverOverride": null
     }
@@ -2810,18 +2780,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-50-overused-phrases-el",
       "coverOverride": null
     }
@@ -2854,18 +2824,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-50-overused-phrases-fr",
       "coverOverride": null
     }
@@ -2898,18 +2868,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-50-overused-phrases-it",
       "coverOverride": null
     }
@@ -2942,18 +2912,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-50-overused-phrases-ru",
       "coverOverride": null
     }
@@ -2985,18 +2955,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-50-overused-phrases",
       "coverOverride": null
     }
@@ -3029,18 +2999,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-very-50-stronger-adjectives-el",
       "coverOverride": null
     }
@@ -3073,18 +3043,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-very-50-stronger-adjectives-fr",
       "coverOverride": null
     }
@@ -3117,18 +3087,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-very-50-stronger-adjectives-it",
       "coverOverride": null
     }
@@ -3161,18 +3131,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-very-50-stronger-adjectives-ru",
       "coverOverride": null
     }
@@ -3204,18 +3174,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "replace-very-50-stronger-adjectives",
       "coverOverride": null
     }
@@ -3248,19 +3218,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-el",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
       "coverOverride": null
     }
   },
@@ -3292,19 +3262,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
       "coverOverride": null
     }
   },
@@ -3336,19 +3306,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
       "coverOverride": null
     }
   },
@@ -3380,19 +3350,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
       "coverOverride": null
     }
   },
@@ -3424,61 +3394,19 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau",
-      "coverOverride": null
-    }
-  },
-  {
-    "slug": "welcome-to-cosy-blog",
-    "title": "Welcome to the COSY Editorial & Learning Corner",
-    "date": "2026-09-10",
-    "updated": null,
-    "category": "Front Page",
-    "summary": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
-    "author": "JY DM",
-    "reading_time": 3,
-    "cover_image": "",
-    "tags": [
-      "Welcome",
-      "EcosystemUpdate",
-      "LanguageLearning"
-    ],
-    "featured": false,
-    "type": "post",
-    "url": "welcome-to-cosy-blog.html",
-    "issue_volume": "Vol. 2026.08",
-    "issue_title": "Get ready for school",
-    "cefr_level": "A0–A1",
-    "vibe": "Editorial Vibe",
-    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": false,
-    "artDirection": {
-      "palette": [
-        "#1e293b",
         "#0d9488",
-        "#f59e0b",
-        "#faf7f2"
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "paper-cut",
-      "seed": "welcome-to-cosy-blog",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
       "coverOverride": null
     }
   },
@@ -3509,62 +3437,63 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "overcoming-intermediate-plateau",
       "coverOverride": null
     }
   },
   {
-    "slug": "building-cosy-master-curriculum",
-    "title": "How We Built the COSY Master Curriculum Across 14 Languages",
-    "date": "2026-03-01",
+    "slug": "august-2026-issue",
+    "title": "Get Ready for School: Foundations, Beginnings & Early Acquisition (Full Digital Issue)",
+    "date": "2026-08-01",
     "updated": null,
     "category": "Front Page",
-    "summary": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
+    "summary": "The inaugural full digital edition of COSYmagazine. Foundations, fresh starts, unlearning classroom trauma, comparative linguistic structures, authentic recipes, and conversational sparks.",
     "author": "JY DM",
-    "reading_time": 6,
+    "reading_time": 28,
     "cover_image": "",
     "tags": [
-      "Curriculum",
-      "CELTA",
-      "14Languages",
-      "CEFR"
+      "MagazineIssue",
+      "BackToSchool",
+      "Methodology",
+      "Foundations",
+      "AllLevels"
     ],
     "featured": false,
     "type": "post",
-    "url": "building-cosy-master-curriculum.html",
+    "url": "august-2026-issue.html",
     "issue_volume": "Vol. 2026.08",
     "issue_title": "Get ready for school",
-    "cefr_level": "A0–B2",
+    "cefr_level": "A0–C2",
     "vibe": "Editorial Vibe",
     "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": false,
+    "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "building-cosy-master-curriculum",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "august-2026-issue",
       "coverOverride": null
     }
   },
@@ -3595,18 +3524,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-ba",
       "coverOverride": null
     }
@@ -3638,18 +3567,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-br",
       "coverOverride": null
     }
@@ -3681,18 +3610,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-cv",
       "coverOverride": null
     }
@@ -3724,18 +3653,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-de",
       "coverOverride": null
     }
@@ -3767,18 +3696,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-el",
       "coverOverride": null
     }
@@ -3810,18 +3739,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-en",
       "coverOverride": null
     }
@@ -3853,18 +3782,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-es",
       "coverOverride": null
     }
@@ -3896,18 +3825,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-fr",
       "coverOverride": null
     }
@@ -3939,18 +3868,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-hy",
       "coverOverride": null
     }
@@ -3982,18 +3911,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-it",
       "coverOverride": null
     }
@@ -4025,18 +3954,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-ka",
       "coverOverride": null
     }
@@ -4068,18 +3997,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-pt",
       "coverOverride": null
     }
@@ -4111,18 +4040,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-ru",
       "coverOverride": null
     }
@@ -4154,18 +4083,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs-tt",
       "coverOverride": null
     }
@@ -4197,18 +4126,18 @@
     "audio_podcast": true,
     "artDirection": {
       "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "riso-print",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "top-10-verbs",
       "coverOverride": null
     }
@@ -4239,18 +4168,18 @@
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
       ],
       "fonts": {
         "display": "Fraunces",
         "text": "DM Sans",
-        "accent": "Fraunces Italic"
+        "accent": "Caveat"
       },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
       "seed": "why-speaking-first",
       "coverOverride": null
     }
