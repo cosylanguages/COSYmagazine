@@ -17,30 +17,40 @@ Rather than a disjointed collection of random language exercises, a COSYmagazine
 
 ---
 
-## 2. The 14-Part Anatomy of Every Issue
+## 2. The Standardized Editorial Anatomy of Every Issue
 
-Every issue comprises 14 standardized editorial sections designed to flow naturally across the magazine spreads:
+Every issue comprises a standardized editorial sequence designed to flow naturally across the magazine spreads:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        COSYMAGAZINE ISSUE ANATOMY                      │
 ├────────────────────────────────────────────────────────────────────────┤
-│ 01. FRONT COVER & DISPATCH                                             │
+│ 01. FRONT COVER                                                        │
 │     • Architectural / Vogue-inspired cover design & issue motto        │
-│     • Founder's Editorial Dispatch (James / JY DM)                     │
 │                                                                        │
-│ 02. IN CONVERSATION: FOUNDER'S THEMATIC INTERVIEW                      │
+│ 02. LETTER FROM THE EDITOR                                             │
+│     • Welcome & founding vision from JY DM                             │
+│     • Setting the human-made, teacher-and-learner guided vibe          │
+│                                                                        │
+│ 03. FOUNDER'S EDITORIAL DISPATCH                                       │
+│     • In-depth communicative manifesto by James / JY DM                │
+│     • Emotional tone, philosophy, and foundational inquiry             │
+│                                                                        │
+│ 04. IN CONVERSATION: FOUNDER'S THEMATIC INTERVIEW                      │
 │     • In-depth interview with the founder on the issue's theme         │
 │     • Philosophical perspectives, pedagogy, and personal stories       │
 │                                                                        │
-│ 03. IN CONVERSATION: LEARNER SPOTLIGHT & COMMUNITY VOICE               │
-│     • Interview with a language learner from COSYlanguages or friend   │
-│     • Real-world vulnerabilities, breakthrough moments, speaking tips  │
+│ 05. IN CONVERSATION: STUDENT & TEACHER SPOTLIGHT                       │
+│     • Alternates between a student interview and a teacher interview   │
+│       (merged initially; will separate as community roster expands)    │
+│     • Real-world vulnerabilities, teaching breakthroughs, speaking tips│
 │                                                                        │
-│ 04. WORDS DESK: HIGH-FREQUENCY LEXICON & SYNONYM UPGRADES              │
+│ 06. WORDS & CREATIVITY DESK (ROTATING TYPE PER ISSUE)                  │
+│     • 3 distinct standalone types: Stop Translating, Go Creative,      │
+│       or Go Diverse (never all three combined into one issue)          │
+│     • August inaugural issue features strictly Stop Translating        │
 │     • Monolingual core list across 14 languages                        │
-│     • Top verbs, sentence frames ("Stop Translating"), precise nuances │
-│     • Deep links to COSYtools conjugation engines                      │
+│     • Top verbs, sentence frames, and deep links to COSYtools          │
 │                                                                        │
 │ 05. GRAMMAR MADE COSY: DEMYSTIFICATION & CELTA LOGIC                   │
 │     • Inductive discovery: "Notice 👀 → Concept Check 🧠"               │
@@ -94,21 +104,32 @@ Every issue comprises 14 standardized editorial sections designed to flow natura
 
 ## 3. Section-by-Section Rubric & Guidelines
 
-### Section 01: Front Cover & Dispatch
-- **Visuals:** Vogue-inspired title typeface (Fraunces serif), issue volume numbering (`Vol. YYYY.MM` or `Vol. YYYY — Month Issue`), thematic subtitle, and color palette matching the season.
-- **Founder Dispatch:** 300–400 words written with warmth, setting the tone for the monthly theme.
+### Section 01: Front Cover
+- **Visuals:** Architectural / Vogue-inspired cover design, Fraunces serif masthead, issue volume numbering (`Vol. YYYY.MM` or `Vol. YYYY — Month Issue`), seasonal palette, and issue motto.
 
-### Section 02: In Conversation — Founder's Thematic Interview
+### Section 02: Letter from the Editor (L'Édito)
+- **Format:** Editorial welcome letter from JY DM welcoming readers, students, teachers, and language nerds to the issue.
+- **Inaugural Letter:** Sets the origin story of COSYmagazine—evolving from a simple blog idea into an expansive, human-made monthly magazine guided by language teachers and learners.
+
+### Section 03: Founder's Editorial Dispatch
+- **Format:** 300–500 word manifesto by James (JY DM) setting the monthly philosophical tone, communicative rationale, and core human inquiry (e.g., *Why Speaking-First is the Only Way to True Fluency*).
+
+### Section 04: In Conversation — Founder's Thematic Interview
 - **Format:** Q&A editorial format between an interviewer and James (Founder).
 - **Core Focus:** Why this theme matters to human connection and language acquisition. Unpacking the emotional philosophy of speaking without fear.
 
-### Section 03: In Conversation — Learner Spotlight & Community Voice
-- **Format:** In-depth feature interview with a real COSY student or language exchange partner.
-- **Content:** The learner's initial hesitation, their specific target language journey, how they overcome the fear of making mistakes, and their favorite conversational phrases.
+### Section 05: In Conversation — Student & Teacher Spotlight (Community Voice)
+- **Format:** In-depth interview alternating between a language learner and an educator.
+- **Current Structure:** During early volumes, the spotlight alternates between student and teacher perspectives to capture both sides of communicative growth before splitting into two dedicated features once the student community grows.
+- **Content:** Vulnerabilities, breakthrough moments, overcoming fear of errors, classroom vs real-world speaking reflexes.
 
-### Section 04: Words Desk (14 Languages)
+### Section 06: Words & Creativity Desk (The 3 Methodological Types)
+- **Three Separate Formats:** The "creativity" curriculum comprises three distinct, self-contained article types:
+  1. **Stop Translating** (sentence frames, cognitive scaffolding, direct L2 conceptualization without translating from native tongue).
+  2. **Go Creative** (story sparks, creative writing, metaphors, poetry, and improvisation).
+  3. **Go Diverse** (synonym expansions, register switching, vivid sensory adjectives replacing overused words).
+- **Single-Type Rule:** All three types cannot be crammed into a single issue. Each issue features **one** specific type tailored to its theme. For example, the August 2026 inaugural issue (*Get ready for school*) includes **only Stop Translating** (bedrock verbs and sentence frames across 14 languages).
 - **Monolingual Architecture:** Pure monolingual content in target language (no English explanations for localized editions).
-- **Structure:** 10 core items (verbs, sentence frames, precise synonyms).
 - **Integration:** Outbound links to COSYtools (`https://cosylanguages.github.io/COSYtools/`) for verb conjugation tables and lexical lookups.
 
 ### Section 05: Grammar Made Cosy
