@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en" data-ui-lang="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSYmagazine Issues | Complete Content Blueprint & Archive</title>
+  <meta name="description" content="Explore what each and every issue of COSYmagazine includes: thematic interviews, 14-language words desk, grammar logic, debates, science, quotes, psychological deep-dives, and cultural vibes.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/issues.html">
+  <meta property="og:title" content="COSYmagazine Issues | Thematic Content Blueprint">
+  <meta property="og:description" content="The complete editorial anatomy and archive of COSYmagazine issues.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/issues.html">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYmagazine/images/logo.png">
+  <meta name="theme-color" content="#FAF7F2">
+  <script src="js/theme-init.js"></script>
+  <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/core.css">
+  <link rel="stylesheet" href="css/shell.css">
+  <link rel="stylesheet" href="css/newsstand.css">
+  <link rel="stylesheet" href="css/dark-fixes.css">
+  <style>
+    /* Editorial Layout Styling for Issues Page */
+    .issues-hero {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .issues-kicker {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #993C1D;
+      margin-bottom: 0.75rem;
+    }
+    .issues-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.15;
+      color: var(--ink);
+      margin: 0 0 1rem;
+      font-weight: 600;
+    }
+    .issues-lede {
+      font-family: var(--font-sans);
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0 auto 2rem;
+    }
+    .issues-nav-pills {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+    .issues-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.5rem 1.1rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .issues-pill:hover, .issues-pill.active {
+      border-color: #993C1D;
+      color: #993C1D;
+      background: rgba(153, 60, 29, 0.05);
+    }
+
+    /* 14-Section Blueprint Grid */
+    .blueprint-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      max-width: 1040px;
+      margin: 0 auto 4rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.03);
+    }
+    .blueprint-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    .blueprint-header h2 {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+    }
+    .blueprint-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 1.25rem;
+    }
+    .blueprint-card {
+      background: var(--cream, #FAF7F2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .blueprint-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    }
+    .bp-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(153, 60, 29, 0.1);
+      color: #993C1D;
+      margin-bottom: 0.5rem;
+      align-self: flex-start;
+    }
+    .bp-title {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      color: var(--ink);
+      margin: 0 0 0.5rem;
+      font-weight: 600;
+    }
+    .bp-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.45;
+      margin: 0 0 1rem;
+    }
+    .bp-meta {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #0F6E56;
+      border-top: 1px dashed var(--border);
+      padding-top: 0.6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Magazine Issue Showcases */
+    .issues-archive-section {
+      max-width: 1040px;
+      margin: 0 auto 5rem;
+      padding: 0 1.5rem;
+    }
+    .archive-heading {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: var(--ink);
+    }
+    .issue-spread-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      margin-bottom: 3.5rem;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+      border-top: 6px solid #993C1D;
+    }
+    .issue-spread-header {
+      padding: 2rem 2rem 1.5rem;
+      background: linear-gradient(180deg, var(--cream, #FAF7F2) 0%, var(--surface) 100%);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .issue-header-info {
+      flex: 1;
+      min-width: 280px;
+    }
+    .issue-vol-tag {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #993C1D;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+    .issue-main-title {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      color: var(--ink);
+      margin: 0 0 0.5rem;
+    }
+    .issue-theme-desc {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0;
+    }
+    .issue-header-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .btn-read-issue {
+      background: #993C1D;
+      color: #FFF;
+      padding: 0.6rem 1.3rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 700;
+      transition: background 0.2s ease;
+    }
+    .btn-read-issue:hover {
+      background: #7a3017;
+    }
+    .btn-listen-issue {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--ink);
+      padding: 0.6rem 1.1rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .btn-listen-issue:hover {
+      border-color: #993C1D;
+    }
+
+    /* Content Roster within each Issue */
+    .issue-contents-roster {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .roster-group {
+      background: var(--cream, #FAF7F2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.25rem;
+    }
+    .roster-group-title {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #0F6E56;
+      margin: 0 0 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .roster-item {
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .roster-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .roster-item-title {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin: 0 0 0.25rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+    .roster-item-title a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .roster-item-title a:hover {
+      color: #993C1D;
+      text-decoration: underline;
+    }
+    .roster-item-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 4px;
+      background: #E1F5EE;
+      color: #1A7A4A;
+      white-space: nowrap;
+    }
+    .roster-item-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.4;
+    }
+    .roster-item-link {
+      display: inline-block;
+      margin-top: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #993C1D;
+      text-decoration: none;
+    }
+    .roster-item-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="ns-page">
+  <nav id="cosy-nav"></nav>
+
+  <main class="ns" id="main">
+    <header class="issues-hero">
+      <p class="issues-kicker">EDITORIAL BLUEPRINT &amp; MAGAZINE DIRECTORY</p>
+      <h1 class="issues-title">What Each Issue of COSYmagazine Includes</h1>
+      <p class="issues-lede">Every month, COSYmagazine explores one central human and communicative theme. From the founder's interview and 14-language words desk to philosophy, psychological investigations, speaking club debates, and cultural vibes.</p>
+      <div class="issues-nav-pills">
+        <a class="issues-pill" href="index.html">← Back to Newsstand</a>
+        <a class="issues-pill active" href="#blueprint">The 14-Part Anatomy</a>
+        <a class="issues-pill" href="#august">Vol. 2026.08 (August)</a>
+        <a class="issues-pill" href="#september">Vol. 2026.09 (September)</a>
+        <a class="issues-pill" href="#october">Vol. 2026.10 (October)</a>
+        <a class="issues-pill" href="#november">Vol. 2026.11 (November)</a>
+        <a class="issues-pill" href="#december">Vol. 2026.12 (December)</a>
+        <a class="issues-pill" href="#february">Vol. 2027.02 (February)</a>
+      </div>
+    </header>
+
+    <!-- SECTION 1: MASTER 14-PART BLUEPRINT -->
+    <section class="blueprint-box" id="blueprint" aria-label="14-Section Blueprint">
+      <div class="blueprint-header">
+        <p class="issues-kicker">STANDARDIZED PUBLICATION RUBRIC</p>
+        <h2>The 14 Elements Running Through Every Issue</h2>
+        <p style="color: var(--muted); max-width: 650px; margin: 0 auto; font-size: 0.95rem;">
+          No issue is a random collection of articles. Every element weaves the month's central theme into linguistic agility, emotional reflection, and real-world conversation.
+        </p>
+      </div>
+
+      <div class="blueprint-grid">
+        <!-- 1. Front Cover & Dispatch -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">01 • Editorial</span>
+            <h3 class="bp-title">Front Cover &amp; Dispatch</h3>
+            <p class="bp-desc">Vogue-inspired layout and title typography. The Founder's Editorial Dispatch introduces the emotional and human rationale behind the month's theme.</p>
+          </div>
+          <div class="bp-meta"><span>By James (JY DM)</span><span>Cover Spread</span></div>
+        </div>
+
+        <!-- 2. Founder's Thematic Interview -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">02 • Dialogue</span>
+            <h3 class="bp-title">Founder's Thematic Interview</h3>
+            <p class="bp-desc">An intimate Q&amp;A interview with James deconstructing the monthly theme, personal learning breakthroughs, and the communicative philosophy.</p>
+          </div>
+          <div class="bp-meta"><span>Interview / Long Read</span><span>Editorial Room</span></div>
+        </div>
+
+        <!-- 3. Learner & Friend Spotlight -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">03 • Community</span>
+            <h3 class="bp-title">Learner &amp; Friend Spotlight</h3>
+            <p class="bp-desc">Conversations with genuine COSY students or international friends: candid discussions about speaking anxiety, accent confidence, and daily speaking habits.</p>
+          </div>
+          <div class="bp-meta"><span>Student Voices</span><span>Real Experience</span></div>
+        </div>
+
+        <!-- 4. Words Desk -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">04 • Words Desk</span>
+            <h3 class="bp-title">14-Language Lexicon</h3>
+            <p class="bp-desc">Monolingual core list across 14 languages (EN, FR, IT, RU, EL, ES, DE, PT, HY, KA, TT, BA, BR, CV). 10 top verbs, sentence frames, and synonyms with COSYtools links.</p>
+          </div>
+          <div class="bp-meta"><span>14 Official Codes</span><span>Linked to COSYtools 🔎</span></div>
+        </div>
+
+        <!-- 5. Grammar Made Cosy -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">05 • Grammar</span>
+            <h3 class="bp-title">Grammar Made Cosy</h3>
+            <p class="bp-desc">CELTA inductive discovery: <em>Notice 👀 → Concept Check 🧠</em>. Demystified visual timelines, logical mental models, and interactive mistake flip-cards.</p>
+          </div>
+          <div class="bp-meta"><span>Inductive Discovery</span><span>CCQ Checked</span></div>
+        </div>
+
+        <!-- 6. Saturday Mistakes -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">06 • Mistakes</span>
+            <h3 class="bp-title">Saturday Mistakes Episode</h3>
+            <p class="bp-desc">5 common learner blunders dissected with humor, empathy, and warm explanations that normalize errors and install native reflexes.</p>
+          </div>
+          <div class="bp-meta"><span>Weekly Episode</span><span>Interactive Quizzes</span></div>
+        </div>
+
+        <!-- 7. Debatable & Relatable -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">07 • Speaking Club</span>
+            <h3 class="bp-title">Debatable &amp; Relatable 🔥</h3>
+            <p class="bp-desc">A hot take dilemma tied to the issue theme. 3 compelling arguments for, 3 against, and speaking prompts to prepare for live debate sessions.</p>
+          </div>
+          <div class="bp-meta"><span>COSYevents Pairing</span><span>A2–C1 Placards</span></div>
+        </div>
+
+        <!-- 8. Keeping Up with Science -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">08 • Cosyscience</span>
+            <h3 class="bp-title">Keeping Up with Science 🔬</h3>
+            <p class="bp-desc">A peer-reviewed scientific discovery or cognitive neuroscience study expanding the theme, complete with accessible terminology.</p>
+          </div>
+          <div class="bp-meta"><span>Cosyscience Podcast</span><span>Research Expander</span></div>
+        </div>
+
+        <!-- 9. The Greatest Quotes -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">09 • Philosophy</span>
+            <h3 class="bp-title">The Greatest Quotes 💬</h3>
+            <p class="bp-desc">One profound quote unpacked in a café dialogue format. How Oscar Wilde, Alan Watts, and Marcus Aurelius would debate its nuances.</p>
+          </div>
+          <div class="bp-meta"><span>Espresso Dialogue</span><span>Never 1 Answer</span></div>
+        </div>
+
+        <!-- 10. I Couldn't Help But Wonder -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">10 • Speculation</span>
+            <h3 class="bp-title">I Couldn't Help But Wonder 🌌</h3>
+            <p class="bp-desc">Carrie Bradshaw-style introspective column exploring modern social rituals, relationship quirks, and poetic everyday metaphors.</p>
+          </div>
+          <div class="bp-meta"><span>Carrie's Column</span><span>Introspective</span></div>
+        </div>
+
+        <!-- 11. Mind Matters -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">11 • Psychology</span>
+            <h3 class="bp-title">Mind Matters 🧠</h3>
+            <p class="bp-desc">Psychological deep-dive into cognitive biases, emotional shields, affective filters, and the quiet architecture of human behaviour.</p>
+          </div>
+          <div class="bp-meta"><span>Case Study Batches</span><span>Cognitive Logic</span></div>
+        </div>
+
+        <!-- 12. My Life With & Without -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">12 • Narrative</span>
+            <h3 class="bp-title">My Life With &amp; Without ⚖️</h3>
+            <p class="bp-desc">Two-column comparative ledger exploring life before and after: contrasting extreme presence against total absence of a concept.</p>
+          </div>
+          <div class="bp-meta"><span>Narrative Tenses</span><span>Ledger Spread</span></div>
+        </div>
+
+        <!-- 13. If You Were -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">13 • Empathy</span>
+            <h3 class="bp-title">If You Were 🔮</h3>
+            <p class="bp-desc">Hypothetical reality thought-experiments. Stepping into another skin or perception to practice advanced conditionals and radical empathy.</p>
+          </div>
+          <div class="bp-meta"><span>Specular Improv</span><span>Conditionals Drill</span></div>
+        </div>
+
+        <!-- 14. The Cultural Salon & Vibes -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">14 • Culture &amp; Vibes</span>
+            <h3 class="bp-title">Cultural Salon &amp; Monthly Vibes</h3>
+            <p class="bp-desc">Curated month vibes: Let's Celebrate (world &amp; regional festivals), Cinema Club picks, Karaoke Club tracks, Long Reads books, and COSYgames pairing.</p>
+          </div>
+          <div class="bp-meta"><span>Films, Songs &amp; Books</span><span>COSYpractice &amp; Games</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: MONTHLY ISSUES SHOWCASE -->
+    <section class="issues-archive-section">
+      <h2 class="archive-heading">The Monthly Issue Archive &amp; Full Content Breakdowns</h2>
+
+      <!-- AUGUST ISSUE -->
+      <article class="issue-spread-card" id="august">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2026.08 • Back to School Issue</span>
+            <h3 class="issue-main-title">Get Ready for School</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> Foundations, Beginnings, Pedagogy &amp; The Science of Early Learning. Overcoming initial intimidation and stepping into language with curiosity.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="why-speaking-first.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="why-speaking-first.html">Why Speaking-First is the Only Way to True Fluency</a> <span class="roster-item-badge">Front Page</span></div>
+              <p class="roster-item-desc">The core communicative manifesto: opening your mouth from lesson one.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: On The Fear of Lesson One</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains why textbooks paralyze adult beginners and how to embrace child-like play.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: From Silence to Conversation</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">Elena's story of speaking French after 8 years of school grammar drills.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verbs.html">Top 10 Essential Verbs for Beginners (Part 1)</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">High-frequency verbs (be, have, think, know, like, want, work, go, can, eat) across 14 languages.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Explore conjugations in COSYtools ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="building-cosy-master-curriculum.html">Building the Master Curriculum Across 14 Languages</a> <span class="roster-item-badge">Front Page</span></div>
+              <p class="roster-item-desc">How comparative linguistics shapes our synchronized CEFR syllabuses.</p>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Debate: Typing vs Handwriting in Modern Schools</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Should digital keyboards completely replace pen and ink notebooks?</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/debatable-relatable.html" target="_blank" rel="noopener">View session in COSYevents ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: Multilingual People Have Younger Brains</span> <span class="roster-item-badge">Science 🔬</span></div>
+              <p class="roster-item-desc">Neuroimaging studies show speaking multiple languages keeps brains 13 years younger.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/keeping-up-with-science.html" target="_blank" rel="noopener">Listen on Cosyscience Podcast ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: "I am only passionately curious"</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Einstein's reflection on why curiosity outshines raw talent.</p>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Let's Celebrate: National Book Lovers Day (Aug 9)</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
+              <p class="roster-item-desc">Celebrations of libraries, reading habits, and cheap flight getaways.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: Dead Poets Society &amp; Ratatouille</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Passion, inspiring teachers, and breaking free from rigid institutional expectations.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Soundtrack: Cass Elliot – "Make Your Own Kind of Music"</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
+              <p class="roster-item-desc">Self-confidence, individuality, and singing out loud without shame.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- SEPTEMBER ISSUE -->
+      <article class="issue-spread-card" id="september">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2026.09 • Autumn Breakthrough Issue</span>
+            <h3 class="issue-main-title">Me vs Intermediate Plateau</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> The B1-B2 Plateau, Persistence, Nuance &amp; Finding One's True Voice. Breaking free from predictable patterns and stepping into sophisticated adult nuance.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="overcoming-intermediate-plateau.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="overcoming-intermediate-plateau.html">Overcoming the Intermediate Plateau (B1 to B2)</a> <span class="roster-item-badge">Long Reads</span></div>
+              <p class="roster-item-desc">The psychological roadmap to navigating the invisible wall of intermediate learning.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: "Why Good Enough Becomes the Enemy of Fluent"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains how comfortable communication can secretly trap learners in repetitive loops.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Rebuilding Vocabulary at B2</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">Marco's journey of upgrading his Italian conversational register for university.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="replace-50-overused-phrases.html">Stop Saying These 50 Phrases! Natural Upgrades</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">Conversational upgrades for intermediate speakers across EN, FR, IT, RU, EL.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verb-synonyms-intermediate-plateau.html">Top 10 Overused Verbs and Their Precise Synonyms</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">Elevate your verbs: replacing "make", "get", "do" with high-impact precision.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="replace-very-50-stronger-adjectives.html">Stop Saying 'Very'! 50 Stronger Words</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">Say "furious" instead of "very angry", "exhausted" instead of "very tired".</p>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The Psychology of Action Bias</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">Why doing more exercises often produces less progress than calm reflective consolidation.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/mind-matters.html" target="_blank" rel="noopener">Explore Case Study in COSYevents ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Column: Why Do We Feel Empty After a Series Ends?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">Carrie Bradshaw-style reflection on leaving beloved fictional characters and returning to reality.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Read Column Draft ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Debate: The 4-Day Work Week</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Does shorter work duration boost focus and creativity or harm economic output?</p>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Long Reads Book Club: Atomic Habits by James Clear</span> <span class="roster-item-badge">Long Reads 📚</span></div>
+              <p class="roster-item-desc">Micro-chapter discussions on compound 1% improvements in language acquisition.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: The Devil Wears Prada &amp; Julie &amp; Julia</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Handling ruthless perfectionism, daily writing streaks, and workplace ambition.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Playroom Drill: Fluency Flow &amp; Action Hero</span> <span class="roster-item-badge">COSYgames 🎮</span></div>
+              <p class="roster-item-desc">Interactive fluency challenges to overcome hesitation in the COSY playroom.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- OCTOBER ISSUE -->
+      <article class="issue-spread-card" id="october">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2026.10 • Founder's Edition</span>
+            <h3 class="issue-main-title">JY DM's Birthday &amp; His Favs</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> Playfulness, Conversational Agility, Overcoming Freezing &amp; The Beauty of Making Mistakes. Celebrating genuine speech without self-censorship.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="why-do-we-freeze-when-conversations-go-off-script.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="saturday-mistakes-5-english-mistakes.html">🎙️ Saturday Mistakes</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="why-do-we-freeze-when-conversations-go-off-script.html">Why Do We Freeze When Conversations Go Off Script?</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">The neuroscience of speech panic and how to embrace conversational tangents with humor.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-5-favourite-grammar-rules.html">My Top 5 Favourite English Grammar Rules</a> <span class="roster-item-badge">Grammar</span></div>
+              <p class="roster-item-desc">James's curated favorites: subtle nuances that make grammar genuinely fun.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: "The Freedom of Getting It Wrong"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">JY DM reflects on birthday milestones, founding COSYlanguages, and laughing at speech blunders.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="stop-translating-10-sentence-frames.html">Stop Translating! 10 Reusable Sentence Frames</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">10 instant frames that allow students to express complex ideas from day one across 14 languages.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="saturday-mistakes-5-english-mistakes.html">Saturday Mistakes: 5 Common Blunders &amp; Fixes</a> <span class="roster-item-badge">Mistakes</span></div>
+              <p class="roster-item-desc">Localized editions in English, French, Italian, Russian, and Greek.</p>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Column: Why Do I Feel Like Everyone Is Copying Me?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">In a world obsessed with unique identity, are our tastes ever truly our own?</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column in COSYevents ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Life Ledger: Life With &amp; Without Celebrities</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting parasocial idolization with authentic, quiet real-world friendships.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/my-life-with-without.html" target="_blank" rel="noopener">Open ledger in COSYevents ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>If You Were: If You Were a Child Again</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Reclaiming unstructured play, curiosity, and fearless spoken expression.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/if-you-were.html" target="_blank" rel="noopener">Explore perspective ➔</a>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>The Greatest Quotes: Steve Jobs – "Stay hungry, stay foolish"</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Deconstructing why foolishness is the fertile ground for true mastery.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Karaoke Club: ABBA &amp; Crazy Ex-Girlfriend Challenges</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
+              <p class="roster-item-desc">Self-deprecating musical humor, catchy hooks, and rapid-fire spoken lyrics.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: Fleabag &amp; Death Becomes Her</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Breaking the fourth wall, witty comedic timing, and laughing at our vanities.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- NOVEMBER ISSUE -->
+      <article class="issue-spread-card" id="november">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2026.11 • Cognitive Immersion Issue</span>
+            <h3 class="issue-main-title">November Academia</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> Cognitive Linguistics, Neuroplasticity, Creative Storytelling &amp; L2 Identity. How our playful brain rewires when we adopt a second mother tongue.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="neuroplasticity-and-the-playful-brain.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="neuroplasticity-and-the-playful-brain.html">Unlocking Neuroplasticity: How to Reclaim Your Playful Brain</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">Scientific evidence of how adult neurogenesis flourishes through novel language acquisition.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="creative-writing-in-language-learning.html">Creative Writing: From Micro-Sparks to Stories and Poetry</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">Why writing micro-fiction unlocks fluid vocabulary faster than rote memorization.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="beyond-code-switching-and-translation.html">Beyond Code-Switching &amp; Translation</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">Embracing full L2 immersion with warmth and practical cognitive grounding.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="demystifying-english-tenses-timeline-guide.html">Demystifying Tenses: The Ultimate Timeline Guide</a> <span class="roster-item-badge">Grammar</span></div>
+              <p class="roster-item-desc">Comprehensive timeline master guide across EN, FR, IT, RU, EL, unpacking aspect and chronology.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: "Thinking in Time Lines"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains how seeing time spatially unlocks intuitive grammar mastery.</p>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: AI &amp; The Brain – Who's Learning from Whom?</span> <span class="roster-item-badge">Science 🔬</span></div>
+              <p class="roster-item-desc">Comparing backpropagation algorithms with synaptic plasticity in human brains.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/keeping-up-with-science.html" target="_blank" rel="noopener">Explore session ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The Maze of Biases</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">How cognitive shortcuts, confirmation bias, and framing distort human discussions.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Richard Feynman – "Knowledge isn't free. You have to pay attention."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Socratic coffeehouse dialogue on why passive watching is not genuine learning.</p>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Long Reads Book Club: Catherine Price – Break Up with Your Phone</span> <span class="roster-item-badge">Long Reads 📚</span></div>
+              <p class="roster-item-desc">Reclaiming cognitive bandwidth, dopamine resets, and building deep analog focus.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: The Queen's Gambit &amp; Arrival</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Linguistic relativity (Sapir-Whorf hypothesis) and intellectual obsession.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Let's Celebrate: Diwali (Festival of Lights)</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
+              <p class="roster-item-desc">The triumph of knowledge over ignorance, light over darkness, and community sweets.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- DECEMBER ISSUE -->
+      <article class="issue-spread-card" id="december">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2026 — December Issue • Winter Solstice</span>
+            <h3 class="issue-main-title">Winter Grammar &amp; High Frequency Verbs</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> Warmth, Seasonal Rhythms, Phrasal Logic &amp; Introspective Living. Embracing winter solitude to master the core verbs that power everyday human dialogue.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="the-logic-of-phrasal-verbs-everybody-scream.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="the-logic-of-phrasal-verbs-everybody-scream.html">The Secret Logic of Phrasal Verbs</a> <span class="roster-item-badge">Grammar</span></div>
+              <p class="roster-item-desc">Decode particles (up, off, out, down) and stop treating phrasal verbs like arbitrary lists.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: "The Comfort of Repetition"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James on why quiet winter evenings are the ideal season for language consolidation.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Surviving My First Winter in Moscow</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">Sophie's story of tea rituals, Cyrillic warmth, and learning Russian winter vocabulary.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verbs-part-2.html">Top 10 Essential Verbs Across 14 Languages (Part 2)</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">The second canonical cluster: do/make, speak/tell, look/see, listen/hear, must/should, come/leave, take/give, ask/answer, wait, live.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Conjugation tables in COSYtools ➔</a>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Column: Are Traditions a Hidden Monogamy?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">Why do we pledge unwavering loyalty to old holiday rituals? A comforting embrace or emotional cage?</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column draft ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Life Ledger: My Life With &amp; Without Hearing Abilities</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Acoustic architecture, silence, sign language, and auditory presence.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/my-life-with-without.html" target="_blank" rel="noopener">View ledger in COSYevents ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: "People disappear with art, music, books and quiet living"</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Why getting older makes solitude with creative works far more attractive than social noise.</p>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Let's Celebrate: Winter Solstice &amp; International Peace &amp; Love Day</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
+              <p class="roster-item-desc">Rituals of light, reflection, and worldwide seasonal traditions.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: About Time &amp; Serebryanye Konki (Silver Skates)</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Frozen canals of 19th-century Saint Petersburg and appreciating every ordinary winter day.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Soundtrack: Joe Dassin – "Salut" &amp; Petula Clark</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
+              <p class="roster-item-desc">Nostalgic French chansons and warm fireplace melodies.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- FEBRUARY ISSUE -->
+      <article class="issue-spread-card" id="february">
+        <div class="issue-spread-header">
+          <div class="issue-header-info">
+            <span class="issue-vol-tag">Vol. 2027 — February Issue • Romance &amp; Nuance</span>
+            <h3 class="issue-main-title">February Grammar &amp; High Frequency Verbs</h3>
+            <p class="issue-theme-desc"><strong>Theme:</strong> Human Connection, Romance, Financial Nuance &amp; Vulnerability. Exploring how emotional intimacy and negotiation shape authentic speech.</p>
+          </div>
+          <div class="issue-header-actions">
+            <a class="btn-read-issue" href="top-10-verbs-part-3.html">Read Issue Spreads →</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+          </div>
+        </div>
+
+        <div class="issue-contents-roster">
+          <!-- Editorial & Dialogue -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Founder Interview: "Why Translating 'I Love You' Is Never Literal"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James unpacks the distinct emotional weight of affection in Greek, Russian, French, and Italian.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Dating in a Second Language</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">How Lucas learned Italian while dating in Rome and navigating family dinners.</p>
+            </div>
+          </div>
+
+          <!-- Linguistic Core -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verbs-part-3.html">Top 10 Essential Verbs Across 14 Languages (Part 3)</a> <span class="roster-item-badge">Words</span></div>
+              <p class="roster-item-desc">The third canonical series: pay/buy, remember/forget, feel, meet, decide/solve, spend/waste, send/get, help, call/text, agree/disagree.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Look up conjugations in COSYtools ➔</a>
+            </div>
+          </div>
+
+          <!-- Speaking Clubs & Philosophical Expanders -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Column: Is It Possible to Find Love Without Sex?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">Exploring romantic versus platonic intimacy, intellectual companionship, and modern partnership.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column draft ➔</a>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Dostoevsky – "Loving Means Giving Power to Destroy You"</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Deep dive into emotional vulnerability, trust, and psychological surrender.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The Bye-Now Effect &amp; Financial Priming</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">How subconscious homophones trigger spending impulses and emotional compensation.</p>
+            </div>
+          </div>
+
+          <!-- Cultural Salon & Vibes -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Let's Celebrate: Lunar New Year &amp; Kiss and Make Up Day</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
+              <p class="roster-item-desc">Spring reunion dinners, forgiveness rituals, and red envelope traditions.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cinema Club: Call Me by Your Name &amp; Breakfast at Tiffany's</span> <span class="roster-item-badge">Cinema 🎬</span></div>
+              <p class="roster-item-desc">Mid-Atlantic elegance, romantic vulnerability, and bittersweet summer nostalgia.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Karaoke Club: Marc Lavoine &amp; Clara Luciani – "Toi mon amour"</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
+              <p class="roster-item-desc">Poetic French romantic phrasing, soulmate metaphors, and duet pronunciation drills.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer id="cosy-footer"></footer>
+
+  <script src="js/shell.js"></script>
+</body>
+</html>

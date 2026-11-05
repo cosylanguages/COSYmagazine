@@ -33,6 +33,7 @@ Each post JSON file MUST contain the following top-level fields:
 | `draft` | `boolean` | No | When `true`, post is excluded from production builds. | `false` |
 | `desk` | `string` | Yes | Editorial desk classification. | `"Front Page"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"`, `"Reflections"` |
 | `format` | `string` | Yes | Vogue/Gazette layout format. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
+| `section` | `string` | No | 14-section anatomy classification (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
 | `level` | `string` | Yes | CEFR target level. | `"A0–A1"`, `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–B2"` |
 | `issue` | `object` | Yes | Magazine volume and issue title object. | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
 | `date` | `string` | Yes | Publication date (`YYYY-MM-DD`). | `"2026-08-15"` |
