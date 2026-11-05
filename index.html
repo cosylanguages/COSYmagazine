@@ -39,7 +39,22 @@
 
     <section class="ns-lead" id="ns-lead" aria-label="Latest issue" hidden></section>
 
-    <section aria-label="Articles">
+    <!-- View Mode Switcher: Browse by Issue vs All Articles Catalog -->
+    <div class="ns-view-mode-bar" role="toolbar" aria-label="View mode">
+      <div class="ns-view-toggles" role="group" aria-label="View selection">
+        <button type="button" class="ns-view-toggle is-active" id="view-mode-issues" aria-pressed="true" data-i18n="index.browse_by_issue">📖 Browse by Issue</button>
+        <button type="button" class="ns-view-toggle" id="view-mode-grid" aria-pressed="false" data-i18n="index.browse_all_articles">📚 All Articles Catalog</button>
+      </div>
+      <div class="ns-head-links" style="margin-top:0;">
+        <a class="ns-pill" href="issues.html" style="font-size:0.8rem; padding:0.4rem 0.95rem;">📖 Issue Blueprint &amp; Recipes ➔</a>
+      </div>
+    </div>
+
+    <!-- Issue-First Magazine Shelf -->
+    <section class="ns-issues-shelf" id="ns-issues-shelf" aria-label="Magazine Issues Shelf"></section>
+
+    <!-- Filterable Grid Catalog -->
+    <section aria-label="Articles" id="ns-catalog-section" hidden>
       <div class="ns-filters" role="search">
         <div class="ns-row">
           <label class="visually-hidden" for="ns-q">Search articles</label>
@@ -83,23 +98,63 @@
     const tr = (key, fallback) => (window.t && window.t(key)) || fallback;
     const url = (p) => `${p.slug}.html`;
 
+    // Monthly Issue Editorial metadata & vibes
+    const ISSUE_VIBES = {
+      'Vol. 2026.08': {
+        tag: 'Back to School Issue',
+        anchor: 'august',
+        vibe: 'Foundations, beginnings, pedagogy & early acquisition. Overcoming intimidation, unlearning school trauma, and speaking from lesson one.'
+      },
+      'Vol. 2026.09': {
+        tag: 'Autumn Breakthrough Issue',
+        anchor: 'september',
+        vibe: 'The B1-B2 intermediate plateau, persistence, phrase upgrades, stronger adjectives and precise conversational nuance.'
+      },
+      'Vol. 2026.10': {
+        tag: "Founder's Edition",
+        anchor: 'october',
+        vibe: 'Playfulness, conversational agility, overcoming freezing, and celebrating messy spoken drafts without self-censorship.'
+      },
+      'Vol. 2026.11': {
+        tag: 'Cognitive Immersion Issue',
+        anchor: 'november',
+        vibe: 'Cognitive linguistics, neuroplasticity, creative storytelling, tense timelines and exploring how languages rewire the brain.'
+      },
+      'Vol. 2026 — December Issue': {
+        tag: 'Winter Solstice Issue',
+        anchor: 'december',
+        vibe: 'Winter solstice warmth, seasonal rhythms, phrasal verb logic, tea rituals and peaceful introspective living.'
+      },
+      'Vol. 2027 — February Issue': {
+        tag: 'Romance & Nuance Issue',
+        anchor: 'february',
+        vibe: 'Human connection, romance, emotional vulnerability, financial negotiation and the subtle spectrum of affection.'
+      }
+    };
+
     let DATA = { posts: [], desks: [], issues: [] };
     // state.lang: 'ui' = follow the navigation language (default) · a language code or 'all' = the reader pinned it.
-    const state = { q: '', desk: 'all', lang: 'ui', issue: 'all' };
+    const state = { q: '', desk: 'all', lang: 'ui', issue: 'all', view: 'issues' };
     const uiLang = () => { const l = (window.cosyUiLang ? window.cosyUiLang() : 'en'); return SUPPORTED.includes(l) ? l : 'en'; };
     const effLang = () => (state.lang === 'ui' ? uiLang() : state.lang);
 
     /* ── State <-> URL ─────────────────────────────────────────── */
     function readUrl() {
       const sp = new URLSearchParams(location.search);
-      state.q = sp.get('q') || ''; state.desk = sp.get('desk') || 'all';
-      const lp = sp.get('lang'); state.lang = (lp && (lp === 'all' || SUPPORTED.includes(lp))) ? lp : 'ui'; state.issue = sp.get('issue') || 'all';
+      state.q = sp.get('q') || '';
+      state.desk = sp.get('desk') || 'all';
+      const lp = sp.get('lang');
+      state.lang = (lp && (lp === 'all' || SUPPORTED.includes(lp))) ? lp : 'ui';
+      state.issue = sp.get('issue') || 'all';
+      const v = sp.get('view');
+      state.view = (v === 'grid' || state.q || state.desk !== 'all' || state.issue !== 'all') ? 'grid' : (v === 'issues' ? 'issues' : 'issues');
     }
     function writeUrl() {
       const sp = new URLSearchParams();
       if (state.q) sp.set('q', state.q);
       ['desk', 'issue'].forEach((k) => { if (state[k] !== 'all') sp.set(k, state[k]); });
       if (state.lang !== 'ui') sp.set('lang', state.lang);
+      if (state.view !== 'issues') sp.set('view', state.view);
       history.replaceState(null, '', location.pathname + (sp.toString() ? '?' + sp : ''));
     }
 
@@ -185,18 +240,53 @@
         `<option value="all">${esc(tr('index.all_languages', 'All languages'))}</option>`;
       $('ns-lang').value = effLang();
 
-      const issues = [...DATA.issues].sort((a, b) => b.number.localeCompare(a.number));
+      const issues = [...DATA.issues]
+        .filter((i) => i.number !== 'Podcast Special')
+        .sort((a, b) => b.number.localeCompare(a.number));
       $('ns-issue').innerHTML = `<option value="all">${esc(tr('index.all_issues', 'All issues'))}</option>` +
         issues.map((i) => `<option value="${esc(i.number)}">${esc(i.number.replace('Vol. ', ''))} · ${esc(issueTitle(i))}</option>`).join('');
       $('ns-issue').value = state.issue;
       $('ns-q').value = state.q;
     }
 
+    function renderCard(g) {
+      const p = g.shown;
+      const totalLangs = g.variants.length;
+      const langPills = g.variants.map((v) => {
+        const isActive = v === p;
+        const langName = LANG_NAMES[v.language] || v.language.toUpperCase();
+        return `<a href="${url(v)}" class="ns-lang-pill ${isActive ? 'is-active' : ''}" lang="${v.language}" title="${esc(langName)}" data-cover>${esc(v.language)}</a>`;
+      }).join('');
+
+      return `
+      <article class="ns-card" data-issue="${issueKey(p)}">
+        <span class="ns-card-art" aria-hidden="true">${renderCover(p, { width: 480, height: 270, showText: false })}</span>
+        <div class="ns-card-body">
+          <div class="ns-meta">${esc(deskLabel(g.base.desk))} <i>· ${esc(p.level || '')}</i></div>
+          <h3><a href="${url(p)}" data-cover lang="${p.language}">${esc(p.title)}</a></h3>
+          <p class="ns-dek" lang="${p.language}">${esc(p.dek)}</p>
+
+          <div class="ns-card-langs">
+            <span class="ns-langs-badge">🌐 ${esc(tr('index.languages_label', 'Languages'))}: ${totalLangs}</span>${g.fallback && p.language === 'en' ? `<span class="ns-fallback">${esc(tr('index.only_in_english', 'Only in English'))}</span>` : ''}
+            <div class="ns-langs-pills" aria-label="Available languages">
+              ${langPills}
+            </div>
+          </div>
+
+          <div class="ns-foot">
+            <span>${fmtDate(g.base.date)}</span><span>·</span><span>${p.readingTime || 5} ${esc(tr('blog.min_read', 'min read'))}</span>
+          </div>
+        </div>
+      </article>`;
+    }
+
     function renderLead(groups) {
       const el = $('ns-lead');
       const filtering = state.q || state.desk !== 'all' || state.issue !== 'all' || (state.lang !== 'ui' && state.lang !== uiLang());
       if (filtering || !groups.length) { el.hidden = true; return; }
-      const latestIssue = [...DATA.issues].sort((a, b) => b.number.localeCompare(a.number))[0];
+      const latestIssue = [...DATA.issues]
+        .filter((i) => i.number !== 'Podcast Special')
+        .sort((a, b) => b.number.localeCompare(a.number))[0];
       const inIssue = groups.filter((g) => g.base.issue?.number === latestIssue?.number);
       const leadGroup = inIssue[0] || groups[0];
       const lead = leadGroup.shown;
@@ -213,51 +303,84 @@
         </div>`;
     }
 
-    function render() {
-      const groups = visibleGroups();
-      renderLead(groups);
-      $('ns-grid').innerHTML = groups.map((g) => {
-        const p = g.shown;
-        const totalLangs = g.variants.length;
-        const langPills = g.variants.map((v) => {
-          const isActive = v === p;
-          const langName = LANG_NAMES[v.language] || v.language.toUpperCase();
-          return `<a href="${url(v)}" class="ns-lang-pill ${isActive ? 'is-active' : ''}" lang="${v.language}" title="${esc(langName)}" data-cover>${esc(v.language)}</a>`;
-        }).join('');
+    function renderIssuesShelf(groups) {
+      const shelf = $('ns-issues-shelf');
+      if (state.view !== 'issues') {
+        shelf.hidden = true;
+        return;
+      }
+      shelf.hidden = false;
+
+      // Group available article groups by issue
+      const canonicalIssues = [...DATA.issues]
+        .filter((i) => i.number !== 'Podcast Special')
+        .sort((a, b) => b.number.localeCompare(a.number));
+
+      shelf.innerHTML = canonicalIssues.map((iss) => {
+        const issMeta = ISSUE_VIBES[iss.number] || { tag: 'Special Issue', anchor: 'blueprint', vibe: '' };
+        const issueGroups = groups.filter((g) => g.base.issue?.number === iss.number);
+        if (!issueGroups.length) return '';
 
         return `
-        <article class="ns-card" data-issue="${issueKey(p)}">
-          <span class="ns-card-art" aria-hidden="true">${renderCover(p, { width: 480, height: 270, showText: false })}</span>
-          <div class="ns-card-body">
-            <div class="ns-meta">${esc(deskLabel(g.base.desk))} <i>· ${esc(p.level || '')}</i></div>
-            <h3><a href="${url(p)}" data-cover lang="${p.language}">${esc(p.title)}</a></h3>
-            <p class="ns-dek" lang="${p.language}">${esc(p.dek)}</p>
-
-            <div class="ns-card-langs">
-              <span class="ns-langs-badge">🌐 ${esc(tr('index.languages_label', 'Languages'))}: ${totalLangs}</span>${g.fallback && p.language === 'en' ? `<span class="ns-fallback">${esc(tr('index.only_in_english', 'Only in English'))}</span>` : ''}
-              <div class="ns-langs-pills" aria-label="Available languages">
-                ${langPills}
-              </div>
+        <article class="ns-issue-volume">
+          <header class="ns-issue-volume-header">
+            <div class="ns-issue-meta">
+              <span class="ns-issue-badge-tag">${esc(iss.number)} • ${esc(issMeta.tag)}</span>
+              <h2 class="ns-issue-volume-title">${esc(issueTitle(iss))}</h2>
+              <p class="ns-issue-volume-vibe">${esc(issMeta.vibe)}</p>
             </div>
-
-            <div class="ns-foot">
-              <span>${fmtDate(g.base.date)}</span><span>·</span><span>${p.readingTime || 5} ${esc(tr('blog.min_read', 'min read'))}</span>
+            <div class="ns-issue-volume-actions">
+              <a class="ns-issue-btn" href="issues.html#${esc(issMeta.anchor)}">📖 ${esc(tr('index.explore_issue_blueprint', 'Issue Blueprint &amp; Recipes ➔'))}</a>
             </div>
+          </header>
+          <div class="ns-issue-articles-grid">
+            ${issueGroups.map(renderCard).join('')}
           </div>
         </article>`;
       }).join('');
+    }
+
+    function renderGridCatalog(groups) {
+      const catalog = $('ns-catalog-section');
+      if (state.view !== 'grid') {
+        catalog.hidden = true;
+        return;
+      }
+      catalog.hidden = false;
+      $('ns-grid').innerHTML = groups.map(renderCard).join('');
       $('ns-empty').hidden = groups.length > 0;
       $('ns-count').textContent = `${tr('index.articles_label', 'Articles')}: ${groups.length}`;
       $('ns-reset').hidden = !(state.q || state.desk !== 'all' || state.lang !== 'ui' || state.issue !== 'all');
       document.querySelectorAll('#ns-desks .ns-chip').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.desk === state.desk)));
+    }
+
+    function updateViewToggles() {
+      const btnIssues = $('view-mode-issues');
+      const btnGrid = $('view-mode-grid');
+      if (btnIssues && btnGrid) {
+        btnIssues.classList.toggle('is-active', state.view === 'issues');
+        btnIssues.setAttribute('aria-pressed', String(state.view === 'issues'));
+        btnGrid.classList.toggle('is-active', state.view === 'grid');
+        btnGrid.setAttribute('aria-pressed', String(state.view === 'grid'));
+      }
+    }
+
+    function render() {
+      const groups = visibleGroups();
+      renderLead(groups);
+      updateViewToggles();
+      renderIssuesShelf(groups);
+      renderGridCatalog(groups);
       writeUrl();
     }
 
     /* ── Events ────────────────────────────────────────────────── */
-    $('ns-q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
+    $('view-mode-issues').addEventListener('click', () => { state.view = 'issues'; render(); });
+    $('view-mode-grid').addEventListener('click', () => { state.view = 'grid'; render(); });
+    $('ns-q').addEventListener('input', (e) => { state.q = e.target.value; if (state.q) state.view = 'grid'; render(); });
     $('ns-lang').addEventListener('change', (e) => { state.lang = e.target.value === uiLang() ? 'ui' : e.target.value; render(); });
-    $('ns-issue').addEventListener('change', (e) => { state.issue = e.target.value; render(); });
-    $('ns-desks').addEventListener('click', (e) => { const b = e.target.closest('.ns-chip'); if (b) { state.desk = b.dataset.desk; render(); } });
+    $('ns-issue').addEventListener('change', (e) => { state.issue = e.target.value; if (state.issue !== 'all') state.view = 'grid'; render(); });
+    $('ns-desks').addEventListener('click', (e) => { const b = e.target.closest('.ns-chip'); if (b) { state.desk = b.dataset.desk; if (state.desk !== 'all') state.view = 'grid'; render(); } });
     $('ns-reset').addEventListener('click', () => { Object.assign(state, { q: '', desk: 'all', lang: 'ui', issue: 'all' }); $('ns-q').value = ''; $('ns-lang').value = effLang(); $('ns-issue').value = 'all'; render(); });
     document.addEventListener('click', (e) => {
       const a = e.target.closest('a[data-cover]');

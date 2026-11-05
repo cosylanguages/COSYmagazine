@@ -1,11 +1,10 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-05T10:52:47.732Z",
-  "generatedAt": "2026-11-05T10:47:20.693Z",
+  "generatedAt": "2026-11-05T12:59:46.500Z",
   "stats": {
     "totalPosts": 98,
     "totalDesks": 13,
-    "totalIssues": 6
+    "totalIssues": 7
   },
   "desks": [
     {
@@ -99,6 +98,10 @@
     {
       "number": "Vol. 2026.09",
       "title": "Me vs Intermediate Plateau"
+    },
+    {
+      "number": "Podcast Special",
+      "title": "Saturday Mistakes Series"
     },
     {
       "number": "Vol. 2026.10",
@@ -1767,8 +1770,8 @@
       "format": "list",
       "level": "A2–B1",
       "issue": {
-        "number": "Vol. 2026.10",
-        "title": "Saturday Mistakes Edition"
+        "number": "Podcast Special",
+        "title": "Saturday Mistakes Series"
       },
       "date": "2026-10-24",
       "title": "Saturday Mistakes Episode 1: 5 Common English Mistakes & How to Fix Them",
@@ -1816,8 +1819,8 @@
       "format": "list",
       "level": "A2–B1",
       "issue": {
-        "number": "Vol. 2026.10",
-        "title": "Édition Erreurs du Samedi"
+        "number": "Podcast Special",
+        "title": "Saturday Mistakes Series"
       },
       "date": "2026-10-24",
       "title": "Erreurs du Samedi Épisode 1 : 5 erreurs courantes en français et comment les corriger",
@@ -1864,8 +1867,8 @@
       "format": "list",
       "level": "A2–B1",
       "issue": {
-        "number": "Vol. 2026.10",
-        "title": "Έκδοση «Τα λάθη του Σαββάτου»"
+        "number": "Podcast Special",
+        "title": "Saturday Mistakes Series"
       },
       "date": "2026-10-24",
       "title": "Τα λάθη του Σαββάτου: 5 συνηθισμένα λάθη στα ελληνικά και πώς να τα διορθώσετε",
@@ -1895,7 +1898,14 @@
         "coverOverride": null
       },
       "draft": false,
-      "translationOf": "saturday-mistakes-5-english-mistakes"
+      "translationOf": "saturday-mistakes-5-english-mistakes",
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "audio/saturday-mistakes-5-greek-mistakes.mp3",
+        "externalUrl": "https://open.spotify.com/show/043evwWwhO7LjIqPTUyfiU",
+        "appleUrl": "https://podcasts.apple.com/us/podcast/cosylanguages/id1759372918?uo=4",
+        "timestamp": "00:00 – fin"
+      }
     },
     {
       "id": "post-saturday-mistakes-5-italian-mistakes",
@@ -1905,8 +1915,8 @@
       "format": "list",
       "level": "A2–B1",
       "issue": {
-        "number": "Vol. 2026.10",
-        "title": "Edizione Errori del Sabato"
+        "number": "Podcast Special",
+        "title": "Saturday Mistakes Series"
       },
       "date": "2026-10-24",
       "title": "Errori del sabato: 5 errori comuni in italiano e come correggerli",
@@ -1936,7 +1946,14 @@
         "coverOverride": null
       },
       "draft": false,
-      "translationOf": "saturday-mistakes-5-english-mistakes"
+      "translationOf": "saturday-mistakes-5-english-mistakes",
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "audio/saturday-mistakes-5-italian-mistakes.mp3",
+        "externalUrl": "https://open.spotify.com/show/043evwWwhO7LjIqPTUyfiU",
+        "appleUrl": "https://podcasts.apple.com/us/podcast/cosylanguages/id1759372918?uo=4",
+        "timestamp": "00:00 – fin"
+      }
     },
     {
       "id": "post-saturday-mistakes-5-russian-mistakes",
@@ -1946,8 +1963,8 @@
       "format": "list",
       "level": "A2–B1",
       "issue": {
-        "number": "Vol. 2026.10",
-        "title": "Выпуск «Субботние ошибки»"
+        "number": "Podcast Special",
+        "title": "Saturday Mistakes Series"
       },
       "date": "2026-10-24",
       "title": "Субботние ошибки: 5 частых ошибок в русском языке и как их исправить",
@@ -1977,7 +1994,14 @@
         "coverOverride": null
       },
       "draft": false,
-      "translationOf": "saturday-mistakes-5-english-mistakes"
+      "translationOf": "saturday-mistakes-5-english-mistakes",
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "audio/saturday-mistakes-5-russian-mistakes.mp3",
+        "externalUrl": "https://open.spotify.com/show/043evwWwhO7LjIqPTUyfiU",
+        "appleUrl": "https://podcasts.apple.com/us/podcast/cosylanguages/id1759372918?uo=4",
+        "timestamp": "00:00 – fin"
+      }
     },
     {
       "id": "post-why-do-we-freeze-when-conversations-go-off-script-el",

@@ -165,7 +165,11 @@
     "languages_label": "Languages",
     "articles_label": "Articles",
     "only_in_english": "Only in English",
-    "all_languages": "All languages"
+    "all_languages": "All languages",
+    "browse_by_issue": "📖 Browse by Issue",
+    "browse_all_articles": "📚 All Articles Catalog",
+    "explore_issue_blueprint": "Issue Blueprint &amp; Recipes ➔",
+    "view_mode_aria": "Switch view mode"
   },
   "blog": {
     "back_to_hub": "← Back to Blog & Editorial Hub",

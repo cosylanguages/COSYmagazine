@@ -325,7 +325,34 @@
     .roster-item-link:hover {
       text-decoration: underline;
     }
-  </style>
+
+    .roster-puzzle-box {
+      margin-top: 0.5rem;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      font-size: 0.76rem;
+      color: var(--ink);
+    }
+    .roster-puzzle-clues {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      margin-top: 0.4rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .roster-contest-card {
+      margin-top: 0.5rem;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      background: rgba(15, 110, 86, 0.06);
+      border-left: 3px solid #0F6E56;
+      font-size: 0.76rem;
+      line-height: 1.45;
+    }
+</style>
 </head>
 <body class="ns-page">
   <nav id="cosy-nav"></nav>
@@ -347,125 +374,125 @@
       </div>
     </header>
 
-    <!-- SECTION 1: MASTER 14-PART BLUEPRINT -->
-    <section class="blueprint-box" id="blueprint" aria-label="14-Section Blueprint">
+        <!-- SECTION 1: MASTER 17-PART BLUEPRINT -->
+    <section class="blueprint-box" id="blueprint" aria-label="17-Section Blueprint">
       <div class="blueprint-header">
         <p class="issues-kicker">STANDARDIZED PUBLICATION RUBRIC</p>
-        <h2>The 14 Elements Running Through Every Issue</h2>
-        <p style="color: var(--muted); max-width: 650px; margin: 0 auto; font-size: 0.95rem;">
-          No issue is a random collection of articles. Every element weaves the month's central theme into linguistic agility, emotional reflection, and real-world conversation.
+        <h2>The 17 Elements Running Through Every Issue</h2>
+        <p style="color: var(--muted); max-width: 720px; margin: 0 auto; font-size: 0.95rem;">
+          No issue is a random collection of articles. Every section weaves the month's central vibe into linguistic agility, communicative methodologies (<em>Stop Translating, Go Creative, Go Diverse</em>), speaking clubs, community contests, and authentic culinary recipes.
         </p>
       </div>
 
       <div class="blueprint-grid">
-        <!-- 1. Front Cover & Dispatch -->
+        <!-- 01. Front Cover & Dispatch -->
         <div class="blueprint-card">
           <div>
             <span class="bp-badge">01 • Editorial</span>
-            <h3 class="bp-title">Front Cover &amp; Dispatch</h3>
-            <p class="bp-desc">Vogue-inspired layout and title typography. The Founder's Editorial Dispatch introduces the emotional and human rationale behind the month's theme.</p>
+            <h3 class="bp-title">Front Cover &amp; Editorial Dispatch</h3>
+            <p class="bp-desc">Vogue-inspired visual aesthetic, title typography, and seasonal palette. James's opening dispatch sets the emotional tone, philosophical rationale, and core human inquiry behind this month's theme.</p>
           </div>
           <div class="bp-meta"><span>By James (JY DM)</span><span>Cover Spread</span></div>
         </div>
 
-        <!-- 2. Founder's Thematic Interview -->
+        <!-- 02. I Couldn't Help But Wonder -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">02 • Dialogue</span>
-            <h3 class="bp-title">Founder's Thematic Interview</h3>
-            <p class="bp-desc">An intimate Q&amp;A interview with James deconstructing the monthly theme, personal learning breakthroughs, and the communicative philosophy.</p>
+            <span class="bp-badge">02 • Reflection &amp; Club</span>
+            <h3 class="bp-title">I Couldn't Help But Wonder 🌌</h3>
+            <p class="bp-desc">The founder's introspective spark that inspired this theme. Concludes with <strong>twice-monthly speaking club sessions</strong> (adapted for <strong>B1–B2</strong> and <strong>C1–C2</strong> learners) plus a founder's <em>"💡 This could be a good research question"</em> prompt.</p>
           </div>
-          <div class="bp-meta"><span>Interview / Long Read</span><span>Editorial Room</span></div>
+          <div class="bp-meta"><span>Speaking Club (B1-B2 &amp; C1-C2)</span><span>Research Spark 💡</span></div>
         </div>
 
-        <!-- 3. Learner & Friend Spotlight -->
+        <!-- 03. In Conversation: Founder's Thematic Interview -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">03 • Community</span>
-            <h3 class="bp-title">Learner &amp; Friend Spotlight</h3>
-            <p class="bp-desc">Conversations with genuine COSY students or international friends: candid discussions about speaking anxiety, accent confidence, and daily speaking habits.</p>
+            <span class="bp-badge">03 • Thematic Interview</span>
+            <h3 class="bp-title">In Conversation: Founder's Interview</h3>
+            <p class="bp-desc">An intimate Q&amp;A interview with founder James deconstructing the monthly theme, personal language learning breakthroughs, and the communicative speaking-first philosophy.</p>
+          </div>
+          <div class="bp-meta"><span>Thematic Q&amp;A</span><span>Editorial Room</span></div>
+        </div>
+
+        <!-- 04. Debatable & Relatable -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">04 • Speaking Debate</span>
+            <h3 class="bp-title">Debatable &amp; Relatable 🔥</h3>
+            <p class="bp-desc">A provocative dilemma introducing the theme's core tensions: 3 compelling arguments for, 3 against, plus debate placards, nuance phrases, and provocative research questions.</p>
+          </div>
+          <div class="bp-meta"><span>Speaking Club Debate</span><span>A2–C2 Placards</span></div>
+        </div>
+
+        <!-- 05. In Conversation: Learner Spotlight & Community Voice -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">05 • Community</span>
+            <h3 class="bp-title">In Conversation: Learner Spotlight</h3>
+            <p class="bp-desc">Heart-to-heart dialogues with COSY students and global friends sharing raw stories about overcoming speech anxiety, accent pride, and daily speaking habits.</p>
           </div>
           <div class="bp-meta"><span>Student Voices</span><span>Real Experience</span></div>
         </div>
 
-        <!-- 4. Words Desk -->
+        <!-- 06. Mind Matters -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">04 • Words Desk</span>
-            <h3 class="bp-title">14-Language Lexicon</h3>
-            <p class="bp-desc">Monolingual core list across 14 languages (EN, FR, IT, RU, EL, ES, DE, PT, HY, KA, TT, BA, BR, CV). 10 top verbs, sentence frames, and synonyms with COSYtools links.</p>
+            <span class="bp-badge">06 • Psychology</span>
+            <h3 class="bp-title">Mind Matters 🧠</h3>
+            <p class="bp-desc">Psychological deep-dive into cognitive biases, emotional shields, affective filters, and the quiet mental architecture governing human communication.</p>
+          </div>
+          <div class="bp-meta"><span>Case Study Batches</span><span>Cognitive Logic</span></div>
+        </div>
+
+        <!-- 07. Words Desk: Our 3 Methodological Pillars -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">07 • Methodology Desk</span>
+            <h3 class="bp-title">Words Desk: The 3 Methodologies 📚</h3>
+            <p class="bp-desc">Transformed from static lists into our core philosophies across 14 languages: <strong>1. Stop Translating</strong> (A0–B2 sentence frames &amp; scaffolding); <strong>2. Go Creative</strong> (story sparks &amp; improvisation); <strong>3. Go Diverse</strong> (synonyms &amp; lexical upgrades). Linked to COSYtools 🔎.</p>
           </div>
           <div class="bp-meta"><span>14 Official Codes</span><span>Linked to COSYtools 🔎</span></div>
         </div>
 
-        <!-- 5. Grammar Made Cosy -->
+        <!-- 08. If You Were -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">05 • Grammar</span>
-            <h3 class="bp-title">Grammar Made Cosy</h3>
-            <p class="bp-desc">CELTA inductive discovery: <em>Notice 👀 → Concept Check 🧠</em>. Demystified visual timelines, logical mental models, and interactive mistake flip-cards.</p>
+            <span class="bp-badge">08 • Empathy &amp; Conditionals</span>
+            <h3 class="bp-title">If You Were 🔮</h3>
+            <p class="bp-desc">Hypothetical reality thought-experiments stepping into another's perception. Naturally introduces and accentuates the expressive power of conditional grammar.</p>
           </div>
-          <div class="bp-meta"><span>Inductive Discovery</span><span>CCQ Checked</span></div>
+          <div class="bp-meta"><span>Specular Improv</span><span>Conditionals Springboard</span></div>
         </div>
 
-        <!-- 6. Saturday Mistakes -->
+        <!-- 09. Grammar Made Cosy -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">06 • Mistakes</span>
-            <h3 class="bp-title">Saturday Mistakes Episode</h3>
-            <p class="bp-desc">5 common learner blunders dissected with humor, empathy, and warm explanations that normalize errors and install native reflexes.</p>
+            <span class="bp-badge">09 • Grammar</span>
+            <h3 class="bp-title">Grammar Made Cosy (Comparative) 💡</h3>
+            <p class="bp-desc">Flows seamlessly from the conditionals of <em>If You Were</em> into comparative grammar across our 5 primary languages: <strong>English, French, Italian, Russian, and Greek</strong> with CELTA inductive discovery (<em>Notice 👀 → Concept Check 🧠</em>).</p>
           </div>
-          <div class="bp-meta"><span>Weekly Episode</span><span>Interactive Quizzes</span></div>
+          <div class="bp-meta"><span>EN • FR • IT • RU • EL</span><span>CCQ Checked</span></div>
         </div>
 
-        <!-- 7. Debatable & Relatable -->
+        <!-- 10. Keeping Up with Science -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">07 • Speaking Club</span>
-            <h3 class="bp-title">Debatable &amp; Relatable 🔥</h3>
-            <p class="bp-desc">A hot take dilemma tied to the issue theme. 3 compelling arguments for, 3 against, and speaking prompts to prepare for live debate sessions.</p>
-          </div>
-          <div class="bp-meta"><span>COSYevents Pairing</span><span>A2–C1 Placards</span></div>
-        </div>
-
-        <!-- 8. Keeping Up with Science -->
-        <div class="blueprint-card">
-          <div>
-            <span class="bp-badge">08 • Cosyscience</span>
+            <span class="bp-badge">10 • Cosyscience</span>
             <h3 class="bp-title">Keeping Up with Science 🔬</h3>
-            <p class="bp-desc">A peer-reviewed scientific discovery or cognitive neuroscience study expanding the theme, complete with accessible terminology.</p>
+            <p class="bp-desc">A peer-reviewed cognitive science or linguistics study expanding the theme, paired with the Cosyscience podcast and actionable research questions for language learners.</p>
           </div>
           <div class="bp-meta"><span>Cosyscience Podcast</span><span>Research Expander</span></div>
         </div>
 
-        <!-- 9. The Greatest Quotes -->
+        <!-- 11. Something to Win: Wonder Writing Contest -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">09 • Philosophy</span>
-            <h3 class="bp-title">The Greatest Quotes 💬</h3>
-            <p class="bp-desc">One profound quote unpacked in a café dialogue format. How Oscar Wilde, Alan Watts, and Marcus Aurelius would debate its nuances.</p>
+            <span class="bp-badge">11 • Reader Showcase</span>
+            <h3 class="bp-title">Wonder Writing Contest Showcase ✍️</h3>
+            <p class="bp-desc">Published winning 100-word micro-essays in target languages answering the previous month's Wonder prompt. Real student voices in print.</p>
           </div>
-          <div class="bp-meta"><span>Espresso Dialogue</span><span>Never 1 Answer</span></div>
-        </div>
-
-        <!-- 10. I Couldn't Help But Wonder -->
-        <div class="blueprint-card">
-          <div>
-            <span class="bp-badge">10 • Speculation</span>
-            <h3 class="bp-title">I Couldn't Help But Wonder 🌌</h3>
-            <p class="bp-desc">Carrie Bradshaw-style introspective column exploring modern social rituals, relationship quirks, and poetic everyday metaphors.</p>
-          </div>
-          <div class="bp-meta"><span>Carrie's Column</span><span>Introspective</span></div>
-        </div>
-
-        <!-- 11. Mind Matters -->
-        <div class="blueprint-card">
-          <div>
-            <span class="bp-badge">11 • Psychology</span>
-            <h3 class="bp-title">Mind Matters 🧠</h3>
-            <p class="bp-desc">Psychological deep-dive into cognitive biases, emotional shields, affective filters, and the quiet architecture of human behaviour.</p>
-          </div>
-          <div class="bp-meta"><span>Case Study Batches</span><span>Cognitive Logic</span></div>
+          <div class="bp-meta"><span>Winning Entries</span><span>A2–C1 Submissions</span></div>
         </div>
 
         <!-- 12. My Life With & Without -->
@@ -473,29 +500,59 @@
           <div>
             <span class="bp-badge">12 • Narrative</span>
             <h3 class="bp-title">My Life With &amp; Without ⚖️</h3>
-            <p class="bp-desc">Two-column comparative ledger exploring life before and after: contrasting extreme presence against total absence of a concept.</p>
+            <p class="bp-desc">Two-column comparative ledger exploring life before and after: contrasting extreme presence against total absence of a concept to practice narrative tenses.</p>
           </div>
           <div class="bp-meta"><span>Narrative Tenses</span><span>Ledger Spread</span></div>
         </div>
 
-        <!-- 13. If You Were -->
+        <!-- 13. Community Challenge: Idiom Detective & COSY Sightings -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">13 • Empathy</span>
-            <h3 class="bp-title">If You Were 🔮</h3>
-            <p class="bp-desc">Hypothetical reality thought-experiments. Stepping into another skin or perception to practice advanced conditionals and radical empathy.</p>
+            <span class="bp-badge">13 • Reader Submissions</span>
+            <h3 class="bp-title">Idiom Detective &amp; COSY Sightings 🕵️📸</h3>
+            <p class="bp-desc">Readers cracking idiom riddles and submitting photos of their target language "in the wild" (street signs, quirky menus, overheard banter).</p>
           </div>
-          <div class="bp-meta"><span>Specular Improv</span><span>Conditionals Drill</span></div>
+          <div class="bp-meta"><span>Language in the Wild</span><span>Community Spotlight</span></div>
         </div>
 
-        <!-- 14. The Cultural Salon & Vibes -->
+        <!-- 14. The Greatest Quotes -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">14 • Culture &amp; Vibes</span>
-            <h3 class="bp-title">Cultural Salon &amp; Monthly Vibes</h3>
-            <p class="bp-desc">Curated month vibes: Let's Celebrate (world &amp; regional festivals), Cinema Club picks, Karaoke Club tracks, Long Reads books, and COSYgames pairing.</p>
+            <span class="bp-badge">14 • Philosophy</span>
+            <h3 class="bp-title">The Greatest Quotes 💬</h3>
+            <p class="bp-desc">One profound quote unpacked in a café dialogue format. How philosophers, writers, and thinkers would debate its nuances over espresso.</p>
+          </div>
+          <div class="bp-meta"><span>Espresso Dialogue</span><span>Never 1 Answer</span></div>
+        </div>
+
+        <!-- 15. Culinary Salon: Authentic Recipes -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">15 • Culinary Salon</span>
+            <h3 class="bp-title">Culinary Salon: 5 Authentic Recipes 🍳</h3>
+            <p class="bp-desc">Traditional culinary recipes representing all 5 main languages (<strong>English, French, Italian, Russian, Greek</strong>) celebrating the issue vibe, paired with food vocabulary and dinner table speaking prompts.</p>
+          </div>
+          <div class="bp-meta"><span>EN • FR • IT • RU • EL</span><span>Dinner Table Speaking</span></div>
+        </div>
+
+        <!-- 16. Cultural Salon & Monthly Vibes -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">16 • Culture &amp; Vibes</span>
+            <h3 class="bp-title">Cultural Salon &amp; Monthly Vibes 🎨</h3>
+            <p class="bp-desc">Curated month vibes: Let's Celebrate (world festivals), Cinema Club picks, Karaoke Club tracks, Long Reads book chapters, and COSYgames pairing.</p>
           </div>
           <div class="bp-meta"><span>Films, Songs &amp; Books</span><span>COSYpractice &amp; Games</span></div>
+        </div>
+
+        <!-- 17. Thematic Crossword & Word Puzzle -->
+        <div class="blueprint-card">
+          <div>
+            <span class="bp-badge">17 • Interactive Puzzle</span>
+            <h3 class="bp-title">Thematic Crossword &amp; Word Puzzle 🧩</h3>
+            <p class="bp-desc">End-of-issue playful consolidation: a thematic crossword puzzle weaving together vocabulary, idioms, grammar concepts, and cultural trivia introduced throughout the issue.</p>
+          </div>
+          <div class="bp-meta"><span>Interactive Grid</span><span>Lexical Consolidation</span></div>
         </div>
       </div>
     </section>
@@ -505,12 +562,13 @@
       <h2 class="archive-heading">The Monthly Issue Archive &amp; Full Content Breakdowns</h2>
 
       <!-- AUGUST ISSUE -->
+            <!-- AUGUST ISSUE -->
       <article class="issue-spread-card" id="august">
         <div class="issue-spread-header">
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2026.08 • Back to School Issue</span>
             <h3 class="issue-main-title">Get Ready for School</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> Foundations, Beginnings, Pedagogy &amp; The Science of Early Learning. Overcoming initial intimidation and stepping into language with curiosity.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> Foundations, Fresh Beginnings, Pedagogy &amp; The Science of Early Acquisition. Overcoming adult intimidation, unlearning school trauma, and speaking from lesson one.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="why-speaking-first.html">Read Issue Spreads →</a>
@@ -519,70 +577,130 @@
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="why-speaking-first.html">Why Speaking-First is the Only Way to True Fluency</a> <span class="roster-item-badge">Front Page</span></div>
-              <p class="roster-item-desc">The core communicative manifesto: opening your mouth from lesson one.</p>
+              <div class="roster-item-title"><a href="why-speaking-first.html">Editorial Dispatch: Why Speaking-First is the Only Way to True Fluency</a> <span class="roster-item-badge">Front Page</span></div>
+              <p class="roster-item-desc">The core communicative manifesto: opening your mouth from lesson one instead of waiting for grammatical perfection.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: On The Fear of Lesson One</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">James explains why textbooks paralyze adult beginners and how to embrace child-like play.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Learner Spotlight: From Silence to Conversation</span> <span class="roster-item-badge">Community Voice</span></div>
-              <p class="roster-item-desc">Elena's story of speaking French after 8 years of school grammar drills.</p>
+              <div class="roster-item-title"><span>Wonder Column: Why Do Adults Freeze at the Classroom Door?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">The psychological baggage of childhood red ink and the liberating power of speaking like a curious 5-year-old.</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> My First Language Lesson &amp; Conquering Classroom Anxiety (Frame: <em>"Whenever I have to speak, my instinct is to..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> Pedagogy vs Autodidacticism: Does Formal Schooling Inhibit Natural Fluency?</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> How does adult foreign language speaking anxiety (FLSA) correlate with early childhood assessment practices across different schooling cultures?
+              </div>
             </div>
           </div>
 
-          <!-- Linguistic Core -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="top-10-verbs.html">Top 10 Essential Verbs for Beginners (Part 1)</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">High-frequency verbs (be, have, think, know, like, want, work, go, can, eat) across 14 languages.</p>
+              <div class="roster-item-title"><span>Founder Interview: On The Fear of Lesson One</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains why textbooks paralyze adult beginners and how child-like play unlocks natural phonology.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Debate: Typing vs Handwriting in Modern Schools</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Should digital keyboards completely replace paper notebooks in primary education? (3 arguments for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does tactile motor memory from handwriting characters activate deeper lexical recall pathways than touchscreen typing?
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Elena's Journey from 8 Years of Silence</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">From memorizing conjugation tables in school to laughing and ordering pastries in Paris after 3 weeks of speaking-first practice.</p>
+            </div>
+          </div>
+
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The Imposter Syndrome of the First Day</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">Why adults feel exposed when trying new sounds and how psychological safety unlocks vocal projection.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verbs.html">Words Desk: The 3 Methodologies (Part 1 Verbs)</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> The 10 bedrock verbs across 14 languages; <strong>Pillar 2 (Go Creative):</strong> Miming and circumlocution drills; <strong>Pillar 3 (Go Diverse):</strong> Replacing "good" and "nice" with sensory descriptors. Linked to COSYtools 🔎.</p>
               <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Explore conjugations in COSYtools ➔</a>
+            </div>
+          </div>
+
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>If You Were: If You Were a Kindergarten Teacher in Tokyo</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Empathy experiment practicing second conditionals: teaching without shared vocabulary through gesture and joy.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Grammar Made Cosy: Present Continuous &amp; Habitual Action</span> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Contrasting ongoing vs habitual present in English (<em>I study / I am studying</em>), French (<em>en train de</em>), Italian (<em>stare + gerundio</em>), Russian (imperfective aspect <em>учусь / занимаюсь</em>), and Greek (<em>διαβάζω / είμαι και...</em>). Inductive discovery with CCQs.</p>
             </div>
             <div class="roster-item">
               <div class="roster-item-title"><a href="building-cosy-master-curriculum.html">Building the Master Curriculum Across 14 Languages</a> <span class="roster-item-badge">Front Page</span></div>
-              <p class="roster-item-desc">How comparative linguistics shapes our synchronized CEFR syllabuses.</p>
+              <p class="roster-item-desc">How comparative structural linguistics shapes synchronized beginner progression.</p>
             </div>
           </div>
 
-          <!-- Speaking Clubs & Philosophical Expanders -->
+          <!-- 5. Science & Reader Showcases -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Debate: Typing vs Handwriting in Modern Schools</span> <span class="roster-item-badge">Debatable 🔥</span></div>
-              <p class="roster-item-desc">Should digital keyboards completely replace pen and ink notebooks?</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/debatable-relatable.html" target="_blank" rel="noopener">View session in COSYevents ➔</a>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Science: Multilingual People Have Younger Brains</span> <span class="roster-item-badge">Science 🔬</span></div>
-              <p class="roster-item-desc">Neuroimaging studies show speaking multiple languages keeps brains 13 years younger.</p>
+              <div class="roster-item-title"><span>Science: Multilingual People Have Younger Brains</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">Neuroimaging shows bilingual executive control delays cognitive decline by up to 5 years.</p>
               <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/keeping-up-with-science.html" target="_blank" rel="noopener">Listen on Cosyscience Podcast ➔</a>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Quote Café: "I am only passionately curious"</span> <span class="roster-item-badge">Quotes 💬</span></div>
-              <p class="roster-item-desc">Einstein's reflection on why curiosity outshines raw talent.</p>
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"I sat on the wooden chair holding my pen. The French sounds felt like stones in my mouth. But when Madame Claire smiled and asked about my cat, the stones melted into words."</em> — <strong>Mia L. (French A2 Winner)</strong>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Fear of Evaluation</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting the silent tension of test-taking against the joy of open-ended conversational exploration.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"I smell of old paper and chalk, I ring at 8am, but I am not an alarm clock."</em> Solved by: Kenji T. | <strong>Sighting:</strong> Greek school chalk board in Chania.</p>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Let's Celebrate: National Book Lovers Day (Aug 9)</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
-              <p class="roster-item-desc">Celebrations of libraries, reading habits, and cheap flight getaways.</p>
+              <div class="roster-item-title"><span>Quote Café: Einstein – "I am only passionately curious."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">A Parisian terrace debate on why beginner curiosity beats rigid perfection every time.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Back-to-School Comfort Food</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Apple Crumble &amp; Custard</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Bramley apples with oat crust.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Quiche Lorraine Maison</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Smoked lardons &amp; crème fraîche.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Pasta al Pomodoro e Basilico</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">San Marzano &amp; fresh basil.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Золотистые Сырники</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Curd pancakes with berries.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Σπανακόπιτα (Spanakopita)</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Phyllo with wild spinach &amp; feta.</p></div>
+              </div>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: Dead Poets Society &amp; Ratatouille</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Passion, inspiring teachers, and breaking free from rigid institutional expectations.</p>
+              <div class="roster-item-title"><span>Cultural Salon: Cinema, Karaoke &amp; Celebrations</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc"><em>Dead Poets Society</em>, Ratatouille, Book Lovers Day, and Cass Elliot singing out loud.</p>
             </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Soundtrack: Cass Elliot – "Make Your Own Kind of Music"</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
-              <p class="roster-item-desc">Self-confidence, individuality, and singing out loud without shame.</p>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 08 Thematic Crossword: "Beginnings &amp; Play"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Rote memorization enemy (6) · 4. Fresh notebook feeling (8)</div>
+                <div><strong>Down:</strong> 2. Opening your mouth from lesson one (8) · 3. Brain rewiring ability (14)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -594,7 +712,7 @@
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2026.09 • Autumn Breakthrough Issue</span>
             <h3 class="issue-main-title">Me vs Intermediate Plateau</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> The B1-B2 Plateau, Persistence, Nuance &amp; Finding One's True Voice. Breaking free from predictable patterns and stepping into sophisticated adult nuance.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> The B1-B2 Plateau, Persistence, Nuance &amp; Finding One's True Voice. Escaping conversational auto-pilot, shedding clumsy crutches, and developing stylistic elegance.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="overcoming-intermediate-plateau.html">Read Issue Spreads →</a>
@@ -603,73 +721,124 @@
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="overcoming-intermediate-plateau.html">Overcoming the Intermediate Plateau (B1 to B2)</a> <span class="roster-item-badge">Long Reads</span></div>
-              <p class="roster-item-desc">The psychological roadmap to navigating the invisible wall of intermediate learning.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: "Why Good Enough Becomes the Enemy of Fluent"</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">James explains how comfortable communication can secretly trap learners in repetitive loops.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Learner Spotlight: Rebuilding Vocabulary at B2</span> <span class="roster-item-badge">Community Voice</span></div>
-              <p class="roster-item-desc">Marco's journey of upgrading his Italian conversational register for university.</p>
-            </div>
-          </div>
-
-          <!-- Linguistic Core -->
-          <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
-            <div class="roster-item">
-              <div class="roster-item-title"><a href="replace-50-overused-phrases.html">Stop Saying These 50 Phrases! Natural Upgrades</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">Conversational upgrades for intermediate speakers across EN, FR, IT, RU, EL.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><a href="top-10-verb-synonyms-intermediate-plateau.html">Top 10 Overused Verbs and Their Precise Synonyms</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">Elevate your verbs: replacing "make", "get", "do" with high-impact precision.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><a href="replace-very-50-stronger-adjectives.html">Stop Saying 'Very'! 50 Stronger Words</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">Say "furious" instead of "very angry", "exhausted" instead of "very tired".</p>
-            </div>
-          </div>
-
-          <!-- Speaking Clubs & Philosophical Expanders -->
-          <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Mind Matters: The Psychology of Action Bias</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
-              <p class="roster-item-desc">Why doing more exercises often produces less progress than calm reflective consolidation.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/mind-matters.html" target="_blank" rel="noopener">Explore Case Study in COSYevents ➔</a>
+              <div class="roster-item-title"><a href="overcoming-intermediate-plateau.html">Editorial Dispatch: Overcoming the Intermediate Plateau (B1 to B2)</a> <span class="roster-item-badge">Long Reads</span></div>
+              <p class="roster-item-desc">The psychological roadmap to navigating the invisible intermediate fog when effortless beginner gains turn into deliberate craftsmanship.</p>
             </div>
             <div class="roster-item">
               <div class="roster-item-title"><span>Wonder Column: Why Do We Feel Empty After a Series Ends?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
-              <p class="roster-item-desc">Carrie Bradshaw-style reflection on leaving beloved fictional characters and returning to reality.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Read Column Draft ➔</a>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Debate: The 4-Day Work Week</span> <span class="roster-item-badge">Debatable 🔥</span></div>
-              <p class="roster-item-desc">Does shorter work duration boost focus and creativity or harm economic output?</p>
+              <p class="roster-item-desc">Carrie Bradshaw-style introspection on parting with fictional companions and why intermediate fluency requires mourning our beginner innocence.</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> Hitting the Wall: Phrases We Overuse When Stuck (Frame: <em>"I always catch myself saying... when I really mean..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> The Psychology of 'Good Enough': When Communicative Survival Stifles Eloquence.</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> At what exact lexical diversity threshold do native interlocutors stop treating adult L2 speakers as 'students' and start treating them as peers?
+              </div>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Long Reads Book Club: Atomic Habits by James Clear</span> <span class="roster-item-badge">Long Reads 📚</span></div>
-              <p class="roster-item-desc">Micro-chapter discussions on compound 1% improvements in language acquisition.</p>
+              <div class="roster-item-title"><span>Founder Interview: "Why Good Enough Becomes the Enemy of Fluent"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains how comfortable communication secretly traps learners in repetitive phrase loops and how to spark growth.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: The Devil Wears Prada &amp; Julie &amp; Julia</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Handling ruthless perfectionism, daily writing streaks, and workplace ambition.</p>
+              <div class="roster-item-title"><span>Debate: The 4-Day Work Week</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Does shorter working time boost cognitive depth, or does it compress stress into fewer hours? (3 arguments for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does cognitive fatigue from 40-hour work weeks disproportionately impair non-native language retrieval compared to L1 speech?
+              </div>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Playroom Drill: Fluency Flow &amp; Action Hero</span> <span class="roster-item-badge">COSYgames 🎮</span></div>
-              <p class="roster-item-desc">Interactive fluency challenges to overcome hesitation in the COSY playroom.</p>
+              <div class="roster-item-title"><span>Learner Spotlight: Marco's Journey Rebuilding B2 Italian</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">How Marco upgraded from basic cafe chatter to debating fine art and history at a Florentine university.</p>
+            </div>
+          </div>
+
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The Psychology of Action Bias</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">Why doing more grammar exercises often produces less progress than calm, reflective conversational consolidation.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="replace-50-overused-phrases.html">Words Desk: Stop Translating &amp; Go Diverse</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> 50 natural conversational phrase upgrades; <strong>Pillar 2 (Go Creative):</strong> Metaphor-building; <strong>Pillar 3 (Go Diverse):</strong> Precise verb synonyms for "make", "get", and "do", plus 50 stronger adjectives replacing "very".</p>
+            </div>
+          </div>
+
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>If You Were: If You Were an Interpreter at the United Nations</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Practicing high-stakes third conditionals: translating diplomatic subtext under split-second pressure.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Grammar Made Cosy: Discourse Markers &amp; Conversational Nuance</span> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Mastering nuance connectives in English (<em>mind you / as a matter of fact</em>), French (<em>d'ailleurs / par contre</em>), Italian (<em>anzi / mica</em>), Russian (<em>впрочем / как бы то ни было</em>), and Greek (<em>άλλωστε / εν τω μεταξύ</em>). Inductive discovery with CCQs.</p>
+            </div>
+          </div>
+
+          <!-- 5. Science & Reader Showcases -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: The Synaptic Pruning of Habitual Fluency</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">How neural pathways stabilize around fossilized errors and the neurochemical triggers required to rewire speech patterns.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"I knew all the rules of the Italian subjunctive, yet at dinner I clung to 'penso di sì'. Breaking the plateau meant letting myself sound poetic and strange."</em> — <strong>David K. (Italian B2 Winner)</strong>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Synonyms</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting the monotonous grey world of 20 repetitive words against the vibrant texture of varied vocabulary.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"In English you kill two birds with one stone, but in Russian you catch two hares. What do you do in Italian?"</em> Solved by: Sarah M. | <strong>Sighting:</strong> Handwritten bistro menu in Lyon.</p>
+            </div>
+          </div>
+
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Beckett – "Ever tried. Ever failed. No matter. Try again. Fail better."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Deconstructing the beauty of deliberate linguistic struggle in a Parisian bistro setting.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Slow Patience &amp; Layered Reduction</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Beef &amp; Ale Stew</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Slow-braised with dumplings.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Bœuf Bourguignon</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Burgundy pinot &amp; mushrooms.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Risotto allo Zafferano</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Carnaroli &amp; golden saffron.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Наваристый Борщ</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Beetroot broth with pampushki.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Μουσακάς (Moussaka)</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Aubergines, spiced beef &amp; béchamel.</p></div>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cultural Salon: Cinema, Karaoke &amp; Atomic Habits</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc"><em>The Devil Wears Prada</em>, Julie &amp; Julia, Nina Simone's "Feeling Good", and James Clear on habits.</p>
+            </div>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 09 Thematic Crossword: "The Nuance Breakthrough"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Beyond 'very tired' (9) · 3. Discourse marker of contrast (8)</div>
+                <div><strong>Down:</strong> 2. Sticking at B1 without giving up (11) · 4. French cooking reduction (6)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -681,79 +850,137 @@
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2026.10 • Founder's Edition</span>
             <h3 class="issue-main-title">JY DM's Birthday &amp; His Favs</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> Playfulness, Conversational Agility, Overcoming Freezing &amp; The Beauty of Making Mistakes. Celebrating genuine speech without self-censorship.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> Playfulness, Conversational Agility, Overcoming Freezing &amp; Quirky Tangents. Celebrating genuine laughter, personal grammatical quirks, and speaking without self-censorship.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="why-do-we-freeze-when-conversations-go-off-script.html">Read Issue Spreads →</a>
-            <a class="btn-listen-issue" href="saturday-mistakes-5-english-mistakes.html">🎙️ Saturday Mistakes</a>
+            <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
           </div>
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="why-do-we-freeze-when-conversations-go-off-script.html">Why Do We Freeze When Conversations Go Off Script?</a> <span class="roster-item-badge">COSYtalks</span></div>
-              <p class="roster-item-desc">The neuroscience of speech panic and how to embrace conversational tangents with humor.</p>
+              <div class="roster-item-title"><a href="why-do-we-freeze-when-conversations-go-off-script.html">Editorial Dispatch: Why Do We Freeze When Conversations Go Off Script?</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">The neuroscience of speech panic and how embracing conversational tangents turns awkward pauses into magnetic charm.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="top-5-favourite-grammar-rules.html">My Top 5 Favourite English Grammar Rules</a> <span class="roster-item-badge">Grammar</span></div>
-              <p class="roster-item-desc">James's curated favorites: subtle nuances that make grammar genuinely fun.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: "The Freedom of Getting It Wrong"</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">JY DM reflects on birthday milestones, founding COSYlanguages, and laughing at speech blunders.</p>
+              <div class="roster-item-title"><span>Wonder Column: Are Birthdays Just Milestones of Linguistic Growth?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">A Carrie Bradshaw-inspired reflection on why growing older is really about gaining permission to stop apologizing for speaking imperfectly.</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> My Most Hilarious Language Blunder &amp; How I Recovered (Frame: <em>"I accidentally said... but thankfully..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> The Philosophy of Flânerie: Can Truly Conversational Speech Exist Without Tangents?</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does a learner's capacity for self-deprecating humor during speech breakdowns correlate with lower amygdala reactivity under conversational stress?
+              </div>
             </div>
           </div>
 
-          <!-- Linguistic Core -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="stop-translating-10-sentence-frames.html">Stop Translating! 10 Reusable Sentence Frames</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">10 instant frames that allow students to express complex ideas from day one across 14 languages.</p>
+              <div class="roster-item-title"><span>Founder Interview: "My Favourite Rules &amp; Beautiful Quirks"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James reflects on his birthday, sharing his personal obsession with word origins, phonetics, and conversational serendipity.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="saturday-mistakes-5-english-mistakes.html">Saturday Mistakes: 5 Common Blunders &amp; Fixes</a> <span class="roster-item-badge">Mistakes</span></div>
-              <p class="roster-item-desc">Localized editions in English, French, Italian, Russian, and Greek.</p>
+              <div class="roster-item-title"><span>Debate: Should Slang &amp; Emojis Be Taught in Language Schools?</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Does modern informal texting enrich genuine communicative competence, or does it degrade lexical depth? (3 arguments for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> How do multimodal digital markers (memes, gifs, stickers) function as pragmatic tone softeners in cross-cultural L2 messaging?
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Chloe's Story of Overcoming Social Stutter</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">How embracing messy spoken drafts in COSY speaking clubs unlocked Chloe's laughter and social ease.</p>
             </div>
           </div>
 
-          <!-- Speaking Clubs & Philosophical Expanders -->
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Wonder Column: Why Do I Feel Like Everyone Is Copying Me?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
-              <p class="roster-item-desc">In a world obsessed with unique identity, are our tastes ever truly our own?</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column in COSYevents ➔</a>
+              <div class="roster-item-title"><span>Mind Matters: The Fear of Being Judged for Making Mistakes</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">Deconstructing the spotlight effect and understanding why native speakers care about human warmth, not syntax errors.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Life Ledger: Life With &amp; Without Celebrities</span> <span class="roster-item-badge">Life ⚖️</span></div>
-              <p class="roster-item-desc">Contrasting parasocial idolization with authentic, quiet real-world friendships.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/my-life-with-without.html" target="_blank" rel="noopener">Open ledger in COSYevents ➔</a>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>If You Were: If You Were a Child Again</span> <span class="roster-item-badge">If You Were 🔮</span></div>
-              <p class="roster-item-desc">Reclaiming unstructured play, curiosity, and fearless spoken expression.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/if-you-were.html" target="_blank" rel="noopener">Explore perspective ➔</a>
+              <div class="roster-item-title"><a href="stop-translating-10-sentence-frames.html">Words Desk: Stop Translating Across 14 Languages</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> 10 reusable sentence frames that hold the floor; <strong>Pillar 2 (Go Creative):</strong> Wordplay games; <strong>Pillar 3 (Go Diverse):</strong> Register switching between formal and street humor.</p>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>The Greatest Quotes: Steve Jobs – "Stay hungry, stay foolish"</span> <span class="roster-item-badge">Quotes 💬</span></div>
-              <p class="roster-item-desc">Deconstructing why foolishness is the fertile ground for true mastery.</p>
+              <div class="roster-item-title"><span>If You Were: If You Were a Stand-Up Comic in a Foreign City</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Practicing comic timing, self-deprecating conditionals, and reading room energy in a second tongue.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Karaoke Club: ABBA &amp; Crazy Ex-Girlfriend Challenges</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
-              <p class="roster-item-desc">Self-deprecating musical humor, catchy hooks, and rapid-fire spoken lyrics.</p>
+              <div class="roster-item-title"><a href="top-5-favourite-grammar-rules.html">Grammar Made Cosy: James's Top 5 Favourite English Rules</a> <span class="roster-item-badge">Grammar Special</span></div>
+              <p class="roster-item-desc">Inversion for drama, mixed conditionals, and beautiful cleft sentences that give spoken English literary sparkle.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: Fleabag &amp; Death Becomes Her</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Breaking the fourth wall, witty comedic timing, and laughing at our vanities.</p>
+              <div class="roster-item-title"><span>Grammar Made Cosy: Conversational Modifiers &amp; Fillers</span> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Natural hesitation markers and conversational rhythm tools in English (<em>you know / frankly / I mean</em>), French (<em>en fait / enfin / quoi</em>), Italian (<em>cioè / praticamente / figurati</em>), Russian (<em>ну / короче / собственно говоря</em>), and Greek (<em>δηλαδή / λοιπόν / βασικά</em>). Inductive discovery with CCQs.</p>
+            </div>
+          </div>
+
+          <!-- 5. Science & Reader Showcases -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: The Dopamine Spike of Humorous Play</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">How laughter during conversational practice floods hippocampus receptors, doubling long-term phrase retention.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"I used to believe getting older meant accumulating certainty. In Greek, I discovered it means learning to laugh when you ask for soap and receive soup."</em> — <strong>Anatoly S. (Greek B1 Winner)</strong>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Self-Censorship</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting the exhausting internal editor that holds words hostage against the free, spontaneous communicative self.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"In English you pull someone's leg, but in French what body part do you pull?"</em> Solved by: Maria D. | <strong>Sighting:</strong> Chalk bakery sign in Venice.</p>
+            </div>
+          </div>
+
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Steve Jobs – "Stay hungry, stay foolish."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Why embracing the identity of an eager fool is the indispensable prerequisite for conversational mastery.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Birthday Celebration Treats</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Victoria Sponge Cake</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Vanilla, cream &amp; raspberry.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Crêpes Suzette Flambées</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Grand Marnier &amp; orange zest.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Tiramisù al Mascarpone</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Savoiardi, espresso &amp; cocoa.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Торт Медовик</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Caramelized honey &amp; smetana.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Μπακλαβάς (Baklava)</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Walnuts, cinnamon &amp; honey syrup.</p></div>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cultural Salon: Fleabag, ABBA &amp; Mental Health Day</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc">Witty fourth-wall breaks, infectious pop choruses, and taking espresso breaks for mental peace.</p>
+            </div>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 10 Thematic Crossword: "Quirks &amp; Tangents"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Unscripted funny conversational detour (7) · 3. James's favourite cake (9)</div>
+                <div><strong>Down:</strong> 2. Vocal filler in Italian (4) · 4. Staying hungry and staying ... (7)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -765,7 +992,7 @@
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2026.11 • Cognitive Immersion Issue</span>
             <h3 class="issue-main-title">November Academia</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> Cognitive Linguistics, Neuroplasticity, Creative Storytelling &amp; L2 Identity. How our playful brain rewires when we adopt a second mother tongue.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> Cognitive Linguistics, Neuroplasticity, Creative Storytelling &amp; L2 Identity. Rain on university library windows, wool sweaters, and exploring how a new language literally rewires the human mind.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="neuroplasticity-and-the-playful-brain.html">Read Issue Spreads →</a>
@@ -774,68 +1001,125 @@
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="neuroplasticity-and-the-playful-brain.html">Unlocking Neuroplasticity: How to Reclaim Your Playful Brain</a> <span class="roster-item-badge">COSYtalks</span></div>
-              <p class="roster-item-desc">Scientific evidence of how adult neurogenesis flourishes through novel language acquisition.</p>
+              <div class="roster-item-title"><a href="neuroplasticity-and-the-playful-brain.html">Editorial Dispatch: Unlocking Neuroplasticity: How to Reclaim Your Playful Brain</a> <span class="roster-item-badge">COSYtalks</span></div>
+              <p class="roster-item-desc">Scientific evidence of how adult neurogenesis flourishes when we play with grammar rather than memorizing rules.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="creative-writing-in-language-learning.html">Creative Writing: From Micro-Sparks to Stories and Poetry</a> <span class="roster-item-badge">COSYtalks</span></div>
-              <p class="roster-item-desc">Why writing micro-fiction unlocks fluid vocabulary faster than rote memorization.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><a href="beyond-code-switching-and-translation.html">Beyond Code-Switching &amp; Translation</a> <span class="roster-item-badge">COSYtalks</span></div>
-              <p class="roster-item-desc">Embracing full L2 immersion with warmth and practical cognitive grounding.</p>
+              <div class="roster-item-title"><span>Wonder Column: Do We Become Different People in Different Tongues?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">Exploring linguistic relativity: why my Italian persona is bolder, my Russian self more melancholic, and my English voice more analytical.</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> My Language Alter Ego: Does My Voice Change? (Frame: <em>"When I speak this language, I feel noticeably more..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> Linguistic Relativity &amp; the Sapir-Whorf Hypothesis: Does Grammar Constrain Human Thought?</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does grammatical gender assignment (e.g. the moon as feminine in French but masculine in German) unconsciously alter aesthetic perception and metaphoric reasoning in adult learners?
+              </div>
             </div>
           </div>
 
-          <!-- Linguistic Core -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="demystifying-english-tenses-timeline-guide.html">Demystifying Tenses: The Ultimate Timeline Guide</a> <span class="roster-item-badge">Grammar</span></div>
-              <p class="roster-item-desc">Comprehensive timeline master guide across EN, FR, IT, RU, EL, unpacking aspect and chronology.</p>
+              <div class="roster-item-title"><span>Founder Interview: "Thinking in Time Lines &amp; Mental Cinema"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James explains how visualizing time spatially unlocks intuitive grammar mastery without translation.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: "Thinking in Time Lines"</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">James explains how seeing time spatially unlocks intuitive grammar mastery.</p>
+              <div class="roster-item-title"><span>Debate: AI in Education – Who's Learning from Whom?</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Does generative AI accelerate human fluency or atrophy critical communicative reflexes? (3 arguments for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does conversational interaction with synthetic voice agents create the same emotional affective filter reduction as human speaking clubs?
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Julien's Journey into Creative Writing</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">How writing 100-word daily micro-fiction broke through Julien's analytical perfectionism in English.</p>
             </div>
           </div>
 
-          <!-- Speaking Clubs & Philosophical Expanders -->
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Science: AI &amp; The Brain – Who's Learning from Whom?</span> <span class="roster-item-badge">Science 🔬</span></div>
-              <p class="roster-item-desc">Comparing backpropagation algorithms with synaptic plasticity in human brains.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/keeping-up-with-science.html" target="_blank" rel="noopener">Explore session ➔</a>
+              <div class="roster-item-title"><span>Mind Matters: The Confirmation Bias of Language Learning</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">How our brain clings to direct native translations even when natural idioms tell an entirely different story.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Mind Matters: The Maze of Biases</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
-              <p class="roster-item-desc">How cognitive shortcuts, confirmation bias, and framing distort human discussions.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Quote Café: Richard Feynman – "Knowledge isn't free. You have to pay attention."</span> <span class="roster-item-badge">Quotes 💬</span></div>
-              <p class="roster-item-desc">Socratic coffeehouse dialogue on why passive watching is not genuine learning.</p>
+              <div class="roster-item-title"><a href="creative-writing-in-language-learning.html">Words Desk: Go Creative &amp; Stop Translating</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> Eliminating code-switching with cognitive grounding; <strong>Pillar 2 (Go Creative):</strong> Creative writing from micro-sparks to poetry; <strong>Pillar 3 (Go Diverse):</strong> Nuanced temporal connectives.</p>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Long Reads Book Club: Catherine Price – Break Up with Your Phone</span> <span class="roster-item-badge">Long Reads 📚</span></div>
-              <p class="roster-item-desc">Reclaiming cognitive bandwidth, dopamine resets, and building deep analog focus.</p>
+              <div class="roster-item-title"><span>If You Were: If You Were an Oxford Don in the 1920s</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Practicing formal past deductions and literary conditionals over sherry in an ancient library.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: The Queen's Gambit &amp; Arrival</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Linguistic relativity (Sapir-Whorf hypothesis) and intellectual obsession.</p>
+              <div class="roster-item-title"><a href="demystifying-english-tenses-timeline-guide.html">Grammar Made Cosy: Demystifying Tenses Master Timeline</a> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Mastering aspectual nuance in English (<em>Past Simple vs Past Continuous / Present Perfect</em>), French (<em>Passé Composé vs Imparfait</em>), Italian (<em>Passato Prossimo vs Imperfetto</em>), Russian (<em>вид глагола: совершенный vs несовершенный</em>), and Greek (<em>Παρατατικός vs Αόριστος</em>). Inductive discovery with CCQs.</p>
+            </div>
+          </div>
+
+          <!-- 5. Science & Reader Showcases -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: AI Backpropagation vs Human Synaptic Plasticity</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">Why human brains need sleep, emotion, and spaced retrieval rather than brute-force computational weight updates.</p>
+              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/keeping-up-with-science.html" target="_blank" rel="noopener">Explore session in COSYevents ➔</a>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Let's Celebrate: Diwali (Festival of Lights)</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
-              <p class="roster-item-desc">The triumph of knowledge over ignorance, light over darkness, and community sweets.</p>
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"When I switch to Russian, I feel the weight of centuries in the prefix 'пере-'. It is not just doing something again; it is transcending it."</em> — <strong>Liam P. (Russian C1 Winner)</strong>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Deep Reading Focus</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting the fractured attention of infinite scrolling against two uninterrupted hours with a physical book.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"In English you are in seventh heaven, but in French what cloud are you on?"</em> Solved by: Alexia V. | <strong>Sighting:</strong> Library bookplate at Oxford.</p>
+            </div>
+          </div>
+
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Feynman – "Knowledge isn't free. You have to pay attention."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Why passive video watching creates an illusion of competence and how active speech cures it.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Nourishing Library Comfort Soups</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Roast Butternut Squash Soup</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Sage &amp; sourdough croutons.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Soupe à l'Oignon Gratinée</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Caramelized onion &amp; Gruyère.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Minestrone Toscano</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Cannellini beans &amp; rosemary.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Мясная Солянка</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Smoked meats, pickles &amp; lemon.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Φασολάδα (Fasolada)</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">White bean stew with olive oil.</p></div>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cultural Salon: Arrival, The Queen's Gambit &amp; Diwali</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc">Linguistic relativity, dopamine resets with Catherine Price, and festival sweets.</p>
+            </div>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 11 Thematic Crossword: "The Brain &amp; The Library"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Brain's rewiring superpower (14) · 3. The hypothesis of linguistic relativity (11)</div>
+                <div><strong>Down:</strong> 2. Stephen Krashen's emotional ... (6) · 4. Greek white bean national soup (8)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -847,7 +1131,7 @@
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2026 — December Issue • Winter Solstice</span>
             <h3 class="issue-main-title">Winter Grammar &amp; High Frequency Verbs</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> Warmth, Seasonal Rhythms, Phrasal Logic &amp; Introspective Living. Embracing winter solitude to master the core verbs that power everyday human dialogue.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> Warmth, Seasonal Rhythms, Phrasal Logic &amp; Introspective Living. Solitary tea rituals by frozen windows, candlelit evenings, and mastering the core verbs powering everyday human existence.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="the-logic-of-phrasal-verbs-everybody-scream.html">Read Issue Spreads →</a>
@@ -856,66 +1140,125 @@
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="the-logic-of-phrasal-verbs-everybody-scream.html">The Secret Logic of Phrasal Verbs</a> <span class="roster-item-badge">Grammar</span></div>
-              <p class="roster-item-desc">Decode particles (up, off, out, down) and stop treating phrasal verbs like arbitrary lists.</p>
+              <div class="roster-item-title"><a href="the-logic-of-phrasal-verbs-everybody-scream.html">Editorial Dispatch: The Secret Logic of Phrasal Verbs: Decode, Understand &amp; Create</a> <span class="roster-item-badge">Grammar</span></div>
+              <p class="roster-item-desc">Stop memorizing random lists: how spatial particles (up, off, out, down) form an intuitive semantic compass.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: "The Comfort of Repetition"</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">James on why quiet winter evenings are the ideal season for language consolidation.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Learner Spotlight: Surviving My First Winter in Moscow</span> <span class="roster-item-badge">Community Voice</span></div>
-              <p class="roster-item-desc">Sophie's story of tea rituals, Cyrillic warmth, and learning Russian winter vocabulary.</p>
+              <div class="roster-item-title"><span>Wonder Column: Are Traditions a Comforting Blanket or a Hidden Cage?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">A winter contemplation on holiday rituals: why do we reenact ancestral habits year after year, and what happens when we write our own?</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> Winter Traditions I Love and Traditions I Secretly Dread (Frame: <em>"In my family, it's customary to... but personally..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> Rituals, Nostalgia &amp; Identity: Why Do Modern Humans Crave Ancient Seasonal Customs?</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does seasonal affective variance influence lexical valence and metaphor choice in multilingual daily diary entries?
+              </div>
             </div>
           </div>
 
-          <!-- Linguistic Core -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="top-10-verbs-part-2.html">Top 10 Essential Verbs Across 14 Languages (Part 2)</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">The second canonical cluster: do/make, speak/tell, look/see, listen/hear, must/should, come/leave, take/give, ask/answer, wait, live.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Conjugation tables in COSYtools ➔</a>
+              <div class="roster-item-title"><span>Founder Interview: "The Comfort of Repetition in Winter"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James on why quiet winter evenings are the ideal season for consolidating core conversational reflexes.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Debate: Gift Giving vs Shared Experiences</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Has commercial gift-giving hollowed out seasonal warmth, or do tangible physical tokens carry irreplaceable sentimental value? (3 for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> How does the semantic framing of gratitude (e.g. <em>merci bien vs mille mercis vs grazie di cuore</em>) reflect differing cultural bonds around gift reciprocity?
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Sophie's First Winter in Moscow</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">Learning Russian over hot tea, samovars, steaming blini, and navigating snowy streets with warmth.</p>
             </div>
           </div>
 
-          <!-- Speaking Clubs & Philosophical Expanders -->
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Wonder Column: Are Traditions a Hidden Monogamy?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
-              <p class="roster-item-desc">Why do we pledge unwavering loyalty to old holiday rituals? A comforting embrace or emotional cage?</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column draft ➔</a>
+              <div class="roster-item-title"><span>Mind Matters: The Winter Cocoon &amp; Lowered Social Shields</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">Why small, intimate winter fireside conversations foster deeper emotional vulnerability than crowded summer gatherings.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Life Ledger: My Life With &amp; Without Hearing Abilities</span> <span class="roster-item-badge">Life ⚖️</span></div>
-              <p class="roster-item-desc">Acoustic architecture, silence, sign language, and auditory presence.</p>
+              <div class="roster-item-title"><a href="top-10-verbs-part-2.html">Words Desk: Top 10 Essential Verbs (Part 2) Across 14 Languages</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> Second canonical cluster (do/make, speak/tell, look/see, listen/hear, must/should, come/leave, take/give, ask/answer, wait, live); <strong>Pillar 2 (Go Creative):</strong> Spatial phrasal particle creation; <strong>Pillar 3 (Go Diverse):</strong> Nuanced winter sensory vocabulary.</p>
+            </div>
+          </div>
+
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>If You Were: If You Were a Lighthouse Keeper in Scandinavia</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Practicing reflective continuous past tenses and peaceful descriptive vocabulary amidst frozen seas.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Grammar Made Cosy: Stative vs Dynamic Verbs &amp; Winter States</span> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Verbs of perception and inner states in English (<em>seem / sound / feel / look</em>), French (<em>sembler / paraître / avoir l'air</em>), Italian (<em>sembrare / sentirsi</em>), Russian (<em>казаться / чувствоваться / звучать</em>), and Greek (<em>φαίνομαι / ακούγομαι / νιώθω</em>). Inductive discovery with CCQs.</p>
+            </div>
+          </div>
+
+          <!-- 5. Science & Reader Showcases -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Science: Circadian Rhythms &amp; Cognitive Consolidation</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">How reduced daylight hours shift human neurochemistry toward memory synthesis and consolidation during deep sleep.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"We burned cedar branches in the yard. My grandmother whispered an old Gaelic proverb about shadows lengthening so that stars can be noticed. That night I understood why winter exists."</em> — <strong>Sean B. (English C2 Winner)</strong>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Hearing Abilities</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Acoustic architecture, silence, sign language, and the presence of sound in winter landscapes.</p>
               <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/my-life-with-without.html" target="_blank" rel="noopener">View ledger in COSYevents ➔</a>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Quote Café: "People disappear with art, music, books and quiet living"</span> <span class="roster-item-badge">Quotes 💬</span></div>
-              <p class="roster-item-desc">Why getting older makes solitude with creative works far more attractive than social noise.</p>
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"In English it is raining cats and dogs, but in Greek it is throwing chair-legs. What is it in Russian?"</em> Solved by: Thomas G. | <strong>Sighting:</strong> Snowy cafe window in Saint Petersburg.</p>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Let's Celebrate: Winter Solstice &amp; International Peace &amp; Love Day</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
-              <p class="roster-item-desc">Rituals of light, reflection, and worldwide seasonal traditions.</p>
+              <div class="roster-item-title"><span>Quote Café: "People disappear with art, music, books and quiet living."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">Deconstructing why seasonal solitude in cozy spaces nurtures creative and linguistic breakthroughs.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Hearthside Winter Bakes</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Shepherd's Pie</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Minced lamb &amp; potato ridges.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Gratin Dauphinois</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Cream, garlic &amp; sliced potatoes.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Polenta Concia</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Fontina cheese &amp; butter.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Сибирские Пельмени</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Handmade spiced meat dumplings.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Γιουβέτσι στο Πήλινο</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Slow-roasted beef &amp; kritharaki orzo.</p></div>
+              </div>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: About Time &amp; Serebryanye Konki (Silver Skates)</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Frozen canals of 19th-century Saint Petersburg and appreciating every ordinary winter day.</p>
+              <div class="roster-item-title"><span>Cultural Salon: Silver Skates, Joe Dassin &amp; Solstice</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc"><em>About Time</em>, Saint Petersburg frozen canals, Joe Dassin's "Salut", and lighting solstice candles.</p>
             </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Soundtrack: Joe Dassin – "Salut" &amp; Petula Clark</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
-              <p class="roster-item-desc">Nostalgic French chansons and warm fireplace melodies.</p>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 12 Thematic Crossword: "Solstice &amp; Particles"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Upward particle meaning completion (2) · 3. Shortest daylight day (8)</div>
+                <div><strong>Down:</strong> 2. Stative perception verb (4) · 4. Northern Italian cornmeal comfort dish (7)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -927,7 +1270,7 @@
           <div class="issue-header-info">
             <span class="issue-vol-tag">Vol. 2027 — February Issue • Romance &amp; Nuance</span>
             <h3 class="issue-main-title">February Grammar &amp; High Frequency Verbs</h3>
-            <p class="issue-theme-desc"><strong>Theme:</strong> Human Connection, Romance, Financial Nuance &amp; Vulnerability. Exploring how emotional intimacy and negotiation shape authentic speech.</p>
+            <p class="issue-theme-desc"><strong>Theme &amp; Vibe:</strong> Human Connection, Romance, Financial Nuance &amp; Emotional Vulnerability. Exploring how love, negotiation, dating, and mutual trust shape authentic everyday dialogue.</p>
           </div>
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="top-10-verbs-part-3.html">Read Issue Spreads →</a>
@@ -936,66 +1279,129 @@
         </div>
 
         <div class="issue-contents-roster">
-          <!-- Editorial & Dialogue -->
+          <!-- 1. Editorial & Introspective Column -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>✍️</span> Editorial &amp; Interviews</h4>
+            <h4 class="roster-group-title"><span>✍️</span> 01 &amp; 02 • Dispatch &amp; Wonder Column</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Founder Interview: "Why Translating 'I Love You' Is Never Literal"</span> <span class="roster-item-badge">In Conversation</span></div>
-              <p class="roster-item-desc">James unpacks the distinct emotional weight of affection in Greek, Russian, French, and Italian.</p>
+              <div class="roster-item-title"><span>Editorial Dispatch: The Anatomy of Affection Across Languages</span> <span class="roster-item-badge">Front Page</span></div>
+              <p class="roster-item-desc">Why translating emotional devotion is never literal: the linguistic spectrum from everyday companionship to profound passion.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Learner Spotlight: Dating in a Second Language</span> <span class="roster-item-badge">Community Voice</span></div>
-              <p class="roster-item-desc">How Lucas learned Italian while dating in Rome and navigating family dinners.</p>
+              <div class="roster-item-title"><span>Wonder Column: Is It Truly Possible to Find Love Without Vulnerability?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
+              <p class="roster-item-desc">Carrie Bradshaw-style inquiry exploring modern romance, emotional currency, and the terror of laying down your defenses.</p>
+              <div class="roster-speaking-sessions">
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 1 (B1–B2):</strong> Dating &amp; Making Friends in a Foreign Language (Frame: <em>"The hardest thing to express naturally is..."</em>).</span>
+                <span class="roster-session-pill"><strong>🗣️ Speaking Club 2 (C1–C2):</strong> The Semantics of Modern Romance: Ghosting, Chemistry, and the Loss of Courtship.</span>
+              </div>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> How do bilingual couples negotiate the emotional intensity of disagreements when switching between their respective native tongues?
+              </div>
             </div>
           </div>
 
-          <!-- Linguistic Core -->
+          <!-- 2. Dialogues & Debates -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>📚</span> Linguistic Desks (14 Languages)</h4>
+            <h4 class="roster-group-title"><span>🎙️</span> 03, 04 &amp; 05 • Dialogues, Debates &amp; Community</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><a href="top-10-verbs-part-3.html">Top 10 Essential Verbs Across 14 Languages (Part 3)</a> <span class="roster-item-badge">Words</span></div>
-              <p class="roster-item-desc">The third canonical series: pay/buy, remember/forget, feel, meet, decide/solve, spend/waste, send/get, help, call/text, agree/disagree.</p>
+              <div class="roster-item-title"><span>Founder Interview: "Why 'I Love You' Means Five Different Things"</span> <span class="roster-item-badge">In Conversation</span></div>
+              <p class="roster-item-desc">James unpacks the distinct emotional registers of affection in Greek, Russian, French, and Italian.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Debate: Splitting the Bill on a First Date</span> <span class="roster-item-badge">Debatable 🔥</span></div>
+              <p class="roster-item-desc">Modern etiquette, financial independence, or outdated chivalry? (3 arguments for / 3 against).</p>
+              <div class="roster-research-callout">
+                💡 <strong>This could be a good research question:</strong> Does cultural etiquette around money and paying in restaurants predict linguistic politeness strategies in business negotiations?
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Learner Spotlight: Lucas's Story of Dating in Rome</span> <span class="roster-item-badge">Community Voice</span></div>
+              <p class="roster-item-desc">From clumsy hand gestures to surviving Sunday family lunches with his Italian partner's nonna.</p>
+            </div>
+          </div>
+
+          <!-- 3. Mind Matters & The 3 Methodological Pillars -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🧠</span> 06 &amp; 07 • Psychology &amp; Methodology Desk</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Mind Matters: The 'Bye-Now' Homophone Effect &amp; Financial Priming</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
+              <p class="roster-item-desc">How subconscious auditory cues prime emotional spending, compensation, and romantic gestures.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><a href="top-10-verbs-part-3.html">Words Desk: Top 10 Verbs (Part 3) Across 14 Languages</a> <span class="roster-item-badge">Methodology 📚</span></div>
+              <p class="roster-item-desc"><strong>Pillar 1 (Stop Translating):</strong> The third canonical series (pay/buy, remember/forget, feel, meet, decide/solve, spend/waste, send/get, help, call/text, agree/disagree); <strong>Pillar 2 (Go Creative):</strong> Love letter writing; <strong>Pillar 3 (Go Diverse):</strong> Financial negotiation vocabulary.</p>
               <a class="roster-item-link" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener">Look up conjugations in COSYtools ➔</a>
             </div>
           </div>
 
-          <!-- Speaking Clubs & Philosophical Expanders -->
+          <!-- 4. Conditionals Springboard & Comparative Grammar -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎭</span> Speaking Clubs &amp; Inquiries</h4>
+            <h4 class="roster-group-title"><span>🔮</span> 08 &amp; 09 • If You Were &amp; Grammar Made Cosy</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Wonder Column: Is It Possible to Find Love Without Sex?</span> <span class="roster-item-badge">Wonder 🌌</span></div>
-              <p class="roster-item-desc">Exploring romantic versus platonic intimacy, intellectual companionship, and modern partnership.</p>
-              <a class="roster-item-link" href="https://cosylanguages.github.io/COSYevents/i-couldnt-help-but-wonder.html" target="_blank" rel="noopener">Open column draft ➔</a>
+              <div class="roster-item-title"><span>If You Were: If You Were Writing a Love Letter in 19th Century Florence</span> <span class="roster-item-badge">If You Were 🔮</span></div>
+              <p class="roster-item-desc">Practicing poetic vocabulary, ornate sentence framing, and historical romantic registers.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Quote Café: Dostoevsky – "Loving Means Giving Power to Destroy You"</span> <span class="roster-item-badge">Quotes 💬</span></div>
-              <p class="roster-item-desc">Deep dive into emotional vulnerability, trust, and psychological surrender.</p>
-            </div>
-            <div class="roster-item">
-              <div class="roster-item-title"><span>Mind Matters: The Bye-Now Effect &amp; Financial Priming</span> <span class="roster-item-badge">Mind Matters 🧠</span></div>
-              <p class="roster-item-desc">How subconscious homophones trigger spending impulses and emotional compensation.</p>
+              <div class="roster-item-title"><span>Grammar Made Cosy: Subjunctive &amp; Conditionals of Emotion</span> <span class="roster-item-badge">Comparative Unit 💡</span></div>
+              <p class="roster-item-desc"><strong>5-Language Comparative Focus:</strong> Expressing wish, desire, and emotional stance in English (<em>wish + past / if only</em>), French (<em>subjonctif: il faut que tu viennes</em>), Italian (<em>congiuntivo: voglio che tu sia</em>), Russian (<em>частица бы / subjunctive particle</em>), and Greek (<em>υποτακτική: να + ρήμα</em>). Inductive discovery with CCQs.</p>
             </div>
           </div>
 
-          <!-- Cultural Salon & Vibes -->
+          <!-- 5. Science & Reader Showcases -->
           <div class="roster-group">
-            <h4 class="roster-group-title"><span>🎨</span> Cultural Salon &amp; Vibes</h4>
+            <h4 class="roster-group-title"><span>🔬</span> 10, 11, 12 &amp; 13 • Science &amp; Community Contests</h4>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Let's Celebrate: Lunar New Year &amp; Kiss and Make Up Day</span> <span class="roster-item-badge">Celebrate 🎉</span></div>
-              <p class="roster-item-desc">Spring reunion dinners, forgiveness rituals, and red envelope traditions.</p>
+              <div class="roster-item-title"><span>Science: The Oxytocin of Vocal Resonance</span> <span class="roster-item-badge">Cosyscience 🔬</span></div>
+              <p class="roster-item-desc">How prosody, pitch matching, and gentle vocal timbre release bonding neuropeptides in human conversations.</p>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Cinema Club: Call Me by Your Name &amp; Breakfast at Tiffany's</span> <span class="roster-item-badge">Cinema 🎬</span></div>
-              <p class="roster-item-desc">Mid-Atlantic elegance, romantic vulnerability, and bittersweet summer nostalgia.</p>
+              <div class="roster-item-title"><span>Wonder Writing Contest: Winning 100-Word Entry</span> <span class="roster-item-badge">Showcase ✍️</span></div>
+              <div class="roster-contest-card">
+                <em>"I learned that 'te quiero' is not 'ti amo'. In Madrid, I said it while sharing churros under an awning in the rain. Some words do not belong in textbooks."</em> — <strong>Carla N. (Spanish B1 Winner)</strong>
+              </div>
             </div>
             <div class="roster-item">
-              <div class="roster-item-title"><span>Karaoke Club: Marc Lavoine &amp; Clara Luciani – "Toi mon amour"</span> <span class="roster-item-badge">Karaoke 🎤</span></div>
-              <p class="roster-item-desc">Poetic French romantic phrasing, soulmate metaphors, and duet pronunciation drills.</p>
+              <div class="roster-item-title"><span>Ledger: My Life With &amp; Without Radical Candor</span> <span class="roster-item-badge">Life ⚖️</span></div>
+              <p class="roster-item-desc">Contrasting polite evasive silence against the exhilarating liberation of speaking honest emotional truth.</p>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Community Spotlight: Idiom Detective &amp; COSY Sightings</span> <span class="roster-item-badge">Community 🕵️📸</span></div>
+              <p class="roster-item-desc"><strong>Riddle:</strong> <em>"In Italian you say 'in bocca al lupo', but what do you reply to protect your friend?"</em> Solved by: Julian B. | <strong>Sighting:</strong> Love lock bridge in Verona.</p>
+            </div>
+          </div>
+
+          <!-- 6. Philosophy, Culinary & Cultural Salon -->
+          <div class="roster-group">
+            <h4 class="roster-group-title"><span>🍳</span> 14, 15, 16 &amp; 17 • Philosophy, Recipes &amp; Crossword</h4>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Quote Café: Dostoevsky – "Loving someone means seeing them as God intended them."</span> <span class="roster-item-badge">Quotes 💬</span></div>
+              <p class="roster-item-desc">A deep dive into empathy, vulnerability, and radical unconditional acceptance in human relationships.</p>
+            </div>
+            <!-- 5 Authentic Recipes -->
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Culinary Salon: Romantic Suppers for Two</span> <span class="roster-item-badge">5 Recipes 🍳</span></div>
+              <div class="roster-recipe-grid">
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇧 English</span><strong>Steak Diane Flambé</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Brandy, shallots &amp; cream.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇫🇷 French</span><strong>Coq au Vin Réserve</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Slow-simmered red wine.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇮🇹 Italian</span><strong>Risotto ai Porcini &amp; Tartufo</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Wild porcini &amp; truffle.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇷🇺 Russian</span><strong>Пирожки с Яблоками</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Tender spiced apple buns.</p></div>
+                <div class="roster-recipe-card"><span class="roster-recipe-lang">🇬🇷 Greek</span><strong>Παστίτσιο (Pastitsio)</strong><p style="margin:2px 0 0; color:var(--muted); font-size:0.72rem;">Spiced beef &amp; velvet béchamel.</p></div>
+              </div>
+            </div>
+            <div class="roster-item">
+              <div class="roster-item-title"><span>Cultural Salon: Breakfast at Tiffany's, Duets &amp; Lunar New Year</span> <span class="roster-item-badge">Vibes 🎨</span></div>
+              <p class="roster-item-desc">Mid-Atlantic elegance, Clara Luciani duets, and red envelopes of spring reunion.</p>
+            </div>
+            <!-- Thematic Crossword -->
+            <div class="roster-puzzle-box">
+              <strong>🧩 Issue 02 Thematic Crossword: "Romance &amp; Vulnerability"</strong>
+              <div class="roster-puzzle-clues">
+                <div><strong>Across:</strong> 1. Spanish phrase for affection (7) · 3. Mood of desire and wish (11)</div>
+                <div><strong>Down:</strong> 2. Bonding neurochemical (8) · 4. French wine stew with chicken (8)</div>
+              </div>
             </div>
           </div>
         </div>
       </article>
-
     </section>
   </main>
 

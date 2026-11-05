@@ -165,7 +165,11 @@
     "languages_label": "Lingue",
     "articles_label": "Articoli",
     "only_in_english": "Disponibile solo in inglese",
-    "all_languages": "Tutte le lingue"
+    "all_languages": "Tutte le lingue",
+    "browse_by_issue": "📖 Sfoglia per numero",
+    "browse_all_articles": "📚 Catalogo articoli",
+    "explore_issue_blueprint": "Sommario e ricette ➔",
+    "view_mode_aria": "Cambia modalità di visualizzazione"
   },
   "blog": {
     "back_to_hub": "← Torna all'Hub Editoriale",

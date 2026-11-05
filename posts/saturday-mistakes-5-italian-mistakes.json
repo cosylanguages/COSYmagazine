@@ -6,8 +6,8 @@
   "format": "list",
   "level": "A2–B1",
   "issue": {
-    "number": "Vol. 2026.10",
-    "title": "Edizione Errori del Sabato"
+    "number": "Podcast Special",
+    "title": "Saturday Mistakes Series"
   },
   "date": "2026-10-24",
   "title": "Errori del sabato: 5 errori comuni in italiano e come correggerli",
@@ -375,5 +375,12 @@
     }
   ],
   "draft": false,
-  "translationOf": "saturday-mistakes-5-english-mistakes"
+  "translationOf": "saturday-mistakes-5-english-mistakes",
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "audio/saturday-mistakes-5-italian-mistakes.mp3",
+    "externalUrl": "https://open.spotify.com/show/043evwWwhO7LjIqPTUyfiU",
+    "appleUrl": "https://podcasts.apple.com/us/podcast/cosylanguages/id1759372918?uo=4",
+    "timestamp": "00:00 – fin"
+  }
 }
