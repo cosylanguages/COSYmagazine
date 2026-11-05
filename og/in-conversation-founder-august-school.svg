@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="founder-august-school" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#fffef8" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#ffe250" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#2d9cdb" stroke-width="2" opacity="0.35" />
+    <path d="M 551 84 Q 576 59 601 84 T 626 84" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 405 213 Q 435 183 465 213 T 495 213" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 584 146 Q 619 111 654 146 T 689 146" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1094 445 Q 1122 417 1150 445 T 1178 445" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 1102 242 Q 1132 212 1162 242 T 1192 242" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+
+
+      <g transform="rotate(-6 559.5 300.5)">
+        <rect x="324" y="159" width="471" height="283" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(7 840 407.5)">
+        <rect x="634" y="241" width="412" height="333" rx="6" fill="#2d9cdb" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(7 350 231.5)">
+        <rect x="192" y="103" width="316" height="257" rx="6" fill="#fffef8" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="1011,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1031,157.5 1011,0" fill="#FCF9F2" opacity="0.9" stroke="#2d9cdb" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+
+
+    <g transform="rotate(5 904 27)" filter="url(#soft-shadow)">
+      <rect x="844" y="15" width="120" height="24" rx="2" fill="#ffe250" opacity="0.45" />
+      <line x1="844" y1="15" x2="844" y2="39" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="964" y1="15" x2="964" y2="39" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+
+
+    <g class="cover-tiny-doodles" stroke="#2d9cdb" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 913 61 Q 913 73 925 73 Q 913 73 913 85 Q 913 73 901 73 Q 913 73 913 61 Z" fill="#ffe250" opacity="0.3" />
+      <path d="M 958 103 Q 958 111 966 111 Q 958 111 958 119 Q 958 111 950 111 Q 958 111 958 103 Z" stroke="#ffe250" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 61 109 C 71 94, 56 74, 76 59" />
+      <circle cx="65" cy="94" r="3" fill="#2d9cdb" opacity="0.5" />
+      <circle cx="71" cy="77" r="3" fill="#ffe250" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-sketchy-underline">
+      <path d="M 89 578 Q 218 578 347 580" stroke="#ffe250" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 99 581 Q 218 581 337 580" stroke="#2d9cdb" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="228" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffe250" stroke-width="1.2" />
+      <text x="34" y="40" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • COSYTALKS</text>
+    </g>
+
+
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#2d9cdb" stroke-width="1.2" />
+        <text x="54" y="474" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">THEMATIC INTERVIEW DESK • Vol. 2026.08</text>
+        <text x="54" y="510" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">In Conversation: Founder James</text>
+<text x="54" y="542" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">on the Fear of Lesson One and</text>
+<text x="54" y="574" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Unlearning School Trauma</text>
+      </g>
+
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
+    </svg>

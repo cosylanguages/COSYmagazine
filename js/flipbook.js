@@ -939,11 +939,81 @@
             });
         },
 
+        checkPaywallGate: function (targetPageIndex) {
+            // Teaser threshold: first 3 pages are open to all readers.
+            // Page 4+ requires an active subscription or purchased issue.
+            const PREVIEW_LIMIT = 3;
+            if (targetPageIndex <= PREVIEW_LIMIT) return false;
+
+            // Check if user has entitlement via CosyCMSAuth or sessionStorage override
+            if (window.CosyCMSAuth && typeof window.CosyCMSAuth.hasPaidAccess === 'function') {
+                const isPaid = (function () {
+                    try {
+                        const cached = sessionStorage.getItem('cosy_has_paid_access');
+                        if (cached === 'true') return true;
+                        const role = localStorage.getItem('cosy_user_role');
+                        if (role && (role === 'founder' || role === 'admin' || role === 'subscriber')) return true;
+                    } catch (e) {}
+                    return false;
+                })();
+                if (isPaid) return false;
+            } else {
+                try {
+                    const role = localStorage.getItem('cosy_user_role');
+                    if (role && (role === 'founder' || role === 'admin' || role === 'subscriber')) return false;
+                } catch (e) {}
+            }
+
+            this.showPaywallModal(targetPageIndex);
+            return true;
+        },
+
+        showPaywallModal: function (targetPage) {
+            let modal = document.getElementById('flipbook-paywall-gate');
+            if (!modal) {
+                modal = document.createElement('div');
+                modal.id = 'flipbook-paywall-gate';
+                modal.className = 'editorial-paywall-overlay';
+                modal.innerHTML = `
+                    <div class="editorial-paywall-card">
+                        <span class="paywall-kicker">COSYMAGAZINE • DIGITAL EDITION</span>
+                        <h3 class="paywall-heading">Unlock the Full August Issue & PDF Archive</h3>
+                        <p class="paywall-lede">
+                            You've reached the end of the free editorial preview. The complete digital issue, full interview transcripts, speaking club guides, and printable high-resolution PDF are available exclusively to COSY subscribers.
+                        </p>
+                        <div class="paywall-perks">
+                            <div class="paywall-perk-item">✨ Full access to all 20 pages & interactive spreads</div>
+                            <div class="paywall-perk-item">📥 High-resolution downloadable PDF version (Supabase Cloud)</div>
+                            <div class="paywall-perk-item">🎙️ All Founder audio dispatches & speaking club materials</div>
+                        </div>
+                        <div class="paywall-actions">
+                            <a href="https://cosylanguages.github.io/COSYlanguages/login.html" class="paywall-btn paywall-btn-primary">Sign In / Subscribe →</a>
+                            <button type="button" class="paywall-btn paywall-btn-outline" id="paywall-close-btn">Return to Preview</button>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(modal);
+
+                const closeBtn = modal.querySelector('#paywall-close-btn');
+                if (closeBtn) {
+                    closeBtn.addEventListener('click', () => {
+                        modal.style.display = 'none';
+                        this.showPage(1, true, false);
+                    });
+                }
+            }
+            modal.style.display = 'flex';
+        },
+
         showPage: function (pageIndex, updateHistory, animate) {
             if (updateHistory === undefined) updateHistory = true;
             if (animate === undefined) animate = true;
             if (pageIndex < 1) pageIndex = 1;
             if (pageIndex > this.totalPages) pageIndex = this.totalPages;
+
+            if (this.checkPaywallGate(pageIndex)) {
+                return;
+            }
 
             const spread = this.kind === 'spread';
             if (this.mode === 'flipbook' && spread) pageIndex = this.leftOfSpread(pageIndex);

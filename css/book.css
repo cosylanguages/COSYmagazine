@@ -376,3 +376,107 @@ body.has-book .gazette-folio span:last-child { display: none; }
   z-index: 60;
   background: var(--blog-paper-light, #faf7f2);
 }
+
+/* Editorial Paywall Gate Styling */
+.editorial-paywall-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(18, 17, 15, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.editorial-paywall-card {
+  background: var(--surface, #FAF7F2);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
+  border-radius: 20px;
+  max-width: 520px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 20px 48px rgba(0,0,0,0.3);
+  text-align: center;
+  border-top: 5px solid #993C1D;
+}
+
+.paywall-kicker {
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #993C1D;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.paywall-heading {
+  font-family: var(--font-serif, "Fraunces", Georgia, serif);
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: var(--ink, #1A1A1A);
+  margin: 0 0 1rem;
+}
+
+.paywall-lede {
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--muted, #555);
+  margin-bottom: 1.5rem;
+}
+
+.paywall-perks {
+  background: rgba(15, 110, 86, 0.05);
+  border: 1px solid rgba(15, 110, 86, 0.2);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-size: 0.88rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--ink, #1A1A1A);
+}
+
+.paywall-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.paywall-btn {
+  padding: 0.75rem 1.4rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.paywall-btn-primary {
+  background: #993C1D;
+  color: #FFFFFF;
+}
+
+.paywall-btn-primary:hover {
+  background: #7a3017;
+}
+
+.paywall-btn-outline {
+  background: transparent;
+  border: 1px solid var(--border, rgba(0,0,0,0.2));
+  color: var(--ink, #1A1A1A);
+}
+
+.paywall-btn-outline:hover {
+  background: rgba(0,0,0,0.05);
+}
