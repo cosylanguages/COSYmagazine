@@ -20,7 +20,7 @@
     "Poetry",
     "NovemberAcademia"
   ],
-  "readingTime": 9,
+  "readingTime": 10,
   "podcast": {
     "episode": 7,
     "audioUrl": "audio/creative-writing-in-language-learning.mp3"
@@ -235,12 +235,58 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "5. Creative Writing Matrix: Progression from Beginner to Advanced",
-      "say": "Part 5: Creative Writing Matrix: Progression from Beginner to Advanced",
+      "text": "5. The Release & Observation Method: Josh Czuba’s Three-Tier Framework",
+      "say": "Part 5: The Release and Observation Method: Josh Czuba’s Three-Tier Framework.",
+      "beat": {
+        "duration": 5000,
+        "camera": "focus",
+        "target": "#block-17"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "When learning a new language, emotional overwhelm or creative paralysis often strikes. Writer and creator Josh Czuba articulates a remarkably effective three-tier practice designed to unblock the mind, ground attention in the physical present, and build authentic narrative flow without self-judgment (<a href=\"https://www.youtube.com/watch?v=TIh-Ly7hxAg\" target=\"_blank\" rel=\"noopener\">watch Josh Czuba’s original talk here</a>). <span class=\"handwritten-note\">🔍 Observational Release!</span>",
+      "say": "When learning a new language, emotional overwhelm or creative paralysis often strikes. Writer and creator Josh Czuba articulates a remarkably effective three-tier practice designed to unblock the mind, ground attention in the physical present, and build authentic narrative flow without self-judgment.",
+      "beat": {
+        "duration": 9000,
+        "camera": "pan-zoom",
+        "target": "#block-18"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Observational Practice (Grounding & Neutral Detachment):** When you are sitting on the train, waiting at a bus stop, or resting on a park bench, write down exactly what you observe around you—with no emotions or feelings, simply recording what is occurring right now in your target language: *\"The wall is white. The sky is gray. There is a lady in a bright pink dress walking her dog.\"* This practice is especially recommended when you feel overwhelmed, anchoring your target vocabulary directly into sensory reality.",
+        "**2. Reaction & Continuation (Unfiltered Emotional Release):** Begin with a single sentence—for instance, *\"I am late for work\"*—and immediately continue writing, connecting one thought to the next. React to it without overthinking or trying to make it beautiful; this exercise is purely for you. It provides a powerful, healthy release when you are overwhelmed and have deep emotions inside that you need to get out.",
+        "**3. Narrative Building (Creating Aesthetic Distance):** After observation and reactive practice, begin building narratives. Josh Czuba highlights that you can create distance from personal emotional experiences by writing in the third person: *\"Mary woke up feeling like shit today. She hesitantly rolled out of bed and slithered her way to the kitchen to brew her morning coffee.\"* Just do it: you get better over time from doing. This practice becomes a vital release whose value you will quickly recognize. Train your observational skills and you will see that you are always surrounded by narratives."
+      ],
+      "say": "First, Observational Practice: When feeling overwhelmed on a train or park bench, write what you observe without emotions—the wall is white, the sky is gray, a lady in a bright pink dress walks her dog. Second, Reaction and Continuation: Write one sentence like I am late for work and connect thoughts without overthinking to release emotions. Third, Narrative Building: Shift to the third person to create distance and turn observations into compelling narratives.",
+      "beat": {
+        "duration": 14000,
+        "camera": "focus",
+        "target": "#block-19"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-callout\"><strong>Founder’s Pedagogical Lens: Turning the Narrative into Targeted Grammar Drills</strong><br>To make this framework even more potent for language learning, the founder of COSY recommends applying deliberate grammatical constraints to your observational and narrative writing:<ul><li><strong>Strict Tense Constraints:</strong> Challenge yourself to write the entire story exclusively in a particular grammar tense—all in the future, only in the past, or strictly in the present.</li><li><strong>Aspectual Contrast (Simple vs. Continuous):</strong> Intentionally sprinkle and contrast various verb aspects—simple versus continuous (progressive)—to develop an instinctive feeling for how time, duration, and completed states differ in your target language.</li><li><strong>Third-Person Mechanics:</strong> Writing stories exclusively in the third person (he/she/it) provides high-density practice with third-person verb morphology, such as the English third-person singular <em>-s</em> ending (<em>he walks</em>, <em>she feels</em>, <em>it occurs</em>) or target-language verb conjugation tables.</li></ul></div>",
+      "say": "Founder’s Pedagogical Lens: To make this framework even more potent for language learners, the founder recommends applying deliberate grammar constraints: writing the entire story in a single tense, contrasting simple and continuous aspects, and writing strictly in the third person to master verb conjugation endings.",
+      "beat": {
+        "duration": 11000,
+        "camera": "pan-zoom",
+        "target": "#block-20"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Creative Writing Matrix: Progression from Beginner to Advanced",
+      "say": "Part 6: Creative Writing Matrix: Progression from Beginner to Advanced",
       "beat": {
         "duration": 4000,
         "camera": "focus",
-        "target": "#block-17"
+        "target": "#block-21"
       }
     },
     {
@@ -276,7 +322,7 @@
       "beat": {
         "duration": 8000,
         "camera": "focus",
-        "target": "#block-18"
+        "target": "#block-22"
       }
     },
     {
@@ -287,7 +333,7 @@
       "beat": {
         "duration": 4000,
         "camera": "focus",
-        "target": "#block-19"
+        "target": "#block-23"
       }
     },
     {
@@ -297,7 +343,7 @@
       "beat": {
         "duration": 8000,
         "camera": "pan-zoom",
-        "target": "#block-20"
+        "target": "#block-24"
       }
     },
     {
@@ -308,13 +354,14 @@
       "beat": {
         "duration": 4000,
         "camera": "focus",
-        "target": "#block-21"
+        "target": "#block-25"
       }
     },
     {
       "type": "list-item",
       "ordered": false,
       "items": [
+        "**Czuba, J. (2024).** *How to Start Creative Writing: Observational Practice, Emotional Release, and Narrative Distance*. YouTube: [https://www.youtube.com/watch?v=TIh-Ly7hxAg](https://www.youtube.com/watch?v=TIh-Ly7hxAg).",
         "**Hanauer, D. I. (2012).** *Poetry Writing in a Second Language Acquisition: Learner Realizations of Meaning and Identity*. Bloomsbury Academic.",
         "**Krashen, S. (1985).** *The Input Hypothesis: Issues and Implications*. Laredo Publishing Company.",
         "**Maley, A. (2009–2012).** *Creative Writing for Language Learners (C-Group Research & Resources)*. Humanising Language Teaching.",
@@ -322,11 +369,11 @@
         "**Vygotsky, L. S. (1978).** *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.",
         "**Wright, A., Betteridge, D., & Buckby, M. (2006).** *Games for Language Learning*. Cambridge University Press."
       ],
-      "say": "References include Hanauer 2012, Krashen 1985, Maley 2009, Spiro 2004, Vygotsky 1978, and Wright et al. 2006.",
+      "say": "References include Czuba 2024, Hanauer 2012, Krashen 1985, Maley 2009, Spiro 2004, Vygotsky 1978, and Wright et al. 2006.",
       "beat": {
         "duration": 8000,
         "camera": "pan-zoom",
-        "target": "#block-22"
+        "target": "#block-26"
       }
     }
   ],
