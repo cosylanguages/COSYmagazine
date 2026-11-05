@@ -165,7 +165,11 @@
     "languages_label": "Langues",
     "articles_label": "Articles",
     "only_in_english": "Disponible en anglais seulement",
-    "all_languages": "Toutes les langues"
+    "all_languages": "Toutes les langues",
+    "browse_by_issue": "📖 Parcourir par numéro",
+    "browse_all_articles": "📚 Catalogue d'articles",
+    "explore_issue_blueprint": "Sommaire &amp; Recettes ➔",
+    "view_mode_aria": "Changer de mode d'affichage"
   },
   "blog": {
     "back_to_hub": "← Retour au Hub Éditiorial",

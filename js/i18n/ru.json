@@ -165,7 +165,11 @@
     "languages_label": "Языки",
     "articles_label": "Статьи",
     "only_in_english": "Только на английском",
-    "all_languages": "Все языки"
+    "all_languages": "Все языки",
+    "browse_by_issue": "📖 Читать по выпускам",
+    "browse_all_articles": "📚 Каталог всех статей",
+    "explore_issue_blueprint": "Содержание и рецепты ➔",
+    "view_mode_aria": "Переключить режим просмотра"
   },
   "blog": {
     "back_to_hub": "← Назад в редакционный блог-хаб",

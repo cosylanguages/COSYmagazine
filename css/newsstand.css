@@ -122,3 +122,146 @@ html, body { overflow-x: clip; }
 @media (prefers-reduced-motion: no-preference) { .ns-card[data-issue]:nth-child(odd) { transform: rotate(-.25deg); } .ns-card[data-issue]:nth-child(even) { transform: rotate(.2deg); } .ns-card[data-issue]:hover { transform: translateY(-3px) rotate(0); } }
 html[data-theme="dark"] .ns-card[data-issue] { background: #1b251e; --c-line: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .12); }
 html[data-theme="dark"] .ns-card[data-issue] .ns-card-art { border-bottom-color: var(--c-tape); }
+
+/* Issue Browser & Shelf Styles */
+.ns-view-mode-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border, #e7e2d9);
+  flex-wrap: wrap;
+}
+.ns-view-toggles {
+  display: inline-flex;
+  background: var(--surface-2, rgba(0, 0, 0, 0.04));
+  padding: 4px;
+  border-radius: 9999px;
+  border: 1px solid var(--border, #e7e2d9);
+}
+.ns-view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: none;
+  background: transparent;
+  padding: 0.45rem 1rem;
+  border-radius: 9999px;
+  font-family: var(--font-sans, system-ui);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--muted, #666);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.ns-view-toggle.is-active {
+  background: var(--surface, #fff);
+  color: var(--ink, #1c1917);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.ns-issues-shelf {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 3.5rem;
+}
+.ns-issue-volume {
+  background: var(--surface, #fff);
+  border: 1px solid var(--border, #e7e2d9);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s ease;
+}
+.ns-issue-volume:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+.ns-issue-volume-header {
+  padding: 1.75rem 2rem;
+  background: linear-gradient(180deg, var(--cream, #FAF7F2) 0%, var(--surface, #fff) 100%);
+  border-bottom: 1px solid var(--border, #e7e2d9);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.ns-issue-meta {
+  flex: 1;
+  min-width: 260px;
+}
+.ns-issue-badge-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #993C1D;
+  margin-bottom: 0.4rem;
+}
+.ns-issue-volume-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  color: var(--ink, #1c1917);
+  margin: 0 0 0.4rem;
+  font-weight: 600;
+}
+.ns-issue-volume-vibe {
+  font-size: 0.95rem;
+  color: var(--muted, #666);
+  margin: 0;
+  line-height: 1.5;
+  max-width: 750px;
+}
+.ns-issue-volume-actions {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+.ns-issue-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: rgba(153, 60, 29, 0.08);
+  color: #993C1D;
+  border: 1px solid rgba(153, 60, 29, 0.2);
+  transition: all 0.2s ease;
+}
+.ns-issue-btn:hover {
+  background: #993C1D;
+  color: #fff;
+}
+.ns-issue-articles-grid {
+  padding: 1.5rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+html[data-theme="dark"] .ns-view-toggles {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .ns-view-toggle.is-active {
+  background: #243027;
+  color: #FAF7F2;
+}
+html[data-theme="dark"] .ns-issue-volume {
+  background: #1b251e;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+html[data-theme="dark"] .ns-issue-volume-header {
+  background: linear-gradient(180deg, #243027 0%, #1b251e 100%);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .ns-issue-volume-vibe {
+  color: #a3b899;
+}
