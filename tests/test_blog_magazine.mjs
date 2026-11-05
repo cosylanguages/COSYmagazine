@@ -32,7 +32,7 @@ assert.ok(indexHtml.includes('podcast.html'), 'index.html should link to the pod
 console.log('✅ Passed: index.html contains Founder Presentation Deck & Podcast Mode controls.');
 
 // Test 3: Check all blog post HTML files for Founder Deck & Flipbook script
-const EXCLUDED_DEMO_PAGES = new Set(['index.html', 'editor.html', 'design-system.html', 'art-contact-sheet.html', 'stage-demo.html', 'podcast.html', '404.html']);
+const EXCLUDED_DEMO_PAGES = new Set(['index.html', 'editor.html', 'design-system.html', 'art-contact-sheet.html', 'stage-demo.html', 'podcast.html', 'issues.html', '404.html']);
 const blogFiles = fs.readdirSync('.').filter(f => f.endsWith('.html') && !EXCLUDED_DEMO_PAGES.has(f));
 assert.ok(blogFiles.length > 0, 'Should find blog post HTML files');
 

@@ -15,6 +15,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `draft` | `boolean` | No | Whether the post is a draft (skipped in builds if `true`). | `true`, `false` |
 | `desk` | `string` | Yes | Primary editorial desk key (localisable via UI i18n without fallbacks). | `"Front Page"`, `"Saturday Mistakes"`, `"COSYtalks"`, `"Grammar"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"` |
 | `format` | `string` | Yes | Article presentation format type. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
+| `section` | `string` | No | Specific magazine section taxonomy (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
 | `level` | `string` | Yes | CEFR proficiency level targeted by the content. | `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–A1"`, `"A1–A2"`, `"B1–B2"`, `"C1–C2"`, `"A0–B2"` |
 | `issue` | `object` | Yes | Magazine issue volume & title metadata object. | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
 | `date` | `string` | Yes | Publication date in `YYYY-MM-DD` ISO format. | `"2026-09-10"` |
