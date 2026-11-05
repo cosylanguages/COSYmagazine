@@ -49,5 +49,19 @@
       <itunes:duration>315</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
+
+    <item>
+      <title>Get Ready for School: Foundations, Beginnings &amp; Early Acquisition (Full Digital Issue) (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYmagazine/august-2026-issue.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYmagazine/august-2026-issue.html</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The inaugural full digital edition of COSYmagazine. Foundations, fresh starts, unlearning classroom trauma, comparative linguistic structures, authentic recipes, and conversational sparks.</description>
+      <content:encoded><![CDATA[<p>The inaugural full digital edition of COSYmagazine. Foundations, fresh starts, unlearning classroom trauma, comparative linguistic structures, authentic recipes, and conversational sparks.</p><p>📜 <a href="https://cosylanguages.github.io/COSYmagazine/august-2026-issue.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYmagazine/august-2026-issue.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/89733576/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908674-44100-2-eafbc55432c37.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>2205</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

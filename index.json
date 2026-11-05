@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-05T12:59:46.500Z",
+  "generatedAt": "2026-11-05T17:22:44.975Z",
   "stats": {
-    "totalPosts": 98,
+    "totalPosts": 97,
     "totalDesks": 13,
     "totalIssues": 7
   },
@@ -88,12 +88,12 @@
   ],
   "issues": [
     {
-      "number": "Vol. 2026.11",
-      "title": "November Academia"
-    },
-    {
       "number": "Vol. 2026.08",
       "title": "Get ready for school"
+    },
+    {
+      "number": "Vol. 2026.11",
+      "title": "November Academia"
     },
     {
       "number": "Vol. 2026.09",
@@ -142,18 +142,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-ba",
         "coverOverride": null
       },
@@ -184,18 +183,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-br",
         "coverOverride": null
       },
@@ -226,18 +224,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-cv",
         "coverOverride": null
       },
@@ -268,18 +265,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-de",
         "coverOverride": null
       },
@@ -310,18 +306,17 @@
       "readingTime": 22,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-el",
         "coverOverride": null
       },
@@ -352,18 +347,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-en",
         "coverOverride": null
       },
@@ -394,18 +388,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-es",
         "coverOverride": null
       },
@@ -436,18 +429,17 @@
       "readingTime": 18,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-fr",
         "coverOverride": null
       },
@@ -478,18 +470,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-hy",
         "coverOverride": null
       },
@@ -520,18 +511,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-it",
         "coverOverride": null
       },
@@ -562,18 +552,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-ka",
         "coverOverride": null
       },
@@ -604,18 +593,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-pt",
         "coverOverride": null
       },
@@ -646,18 +634,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-ru",
         "coverOverride": null
       },
@@ -688,18 +675,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3-tt",
         "coverOverride": null
       },
@@ -730,18 +716,17 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#059669",
+          "#ecfdf5",
+          "#064e3b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-3",
         "coverOverride": null
       },
@@ -774,19 +759,19 @@
       "readingTime": 14,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#4a0e17",
+          "#faf7f2",
+          "#1e293b",
+          "#d97706"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "the-logic-of-phrasal-verbs-everybody-scream",
+        "layout": "magazine-spread",
+        "motif": "botanical-dark",
+        "seed": "everybody-scream-phrasal-verbs",
         "coverOverride": null
       },
       "draft": false
@@ -816,18 +801,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-ba",
         "coverOverride": null
       },
@@ -858,18 +842,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-br",
         "coverOverride": null
       },
@@ -900,18 +883,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-cv",
         "coverOverride": null
       },
@@ -942,18 +924,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-de",
         "coverOverride": null
       },
@@ -984,18 +965,17 @@
       "readingTime": 22,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-el",
         "coverOverride": null
       },
@@ -1026,18 +1006,17 @@
       "readingTime": 18,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-en",
         "coverOverride": null
       },
@@ -1068,18 +1047,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-es",
         "coverOverride": null
       },
@@ -1110,18 +1088,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-fr",
         "coverOverride": null
       },
@@ -1152,18 +1129,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-hy",
         "coverOverride": null
       },
@@ -1194,18 +1170,17 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-it",
         "coverOverride": null
       },
@@ -1236,18 +1211,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-ka",
         "coverOverride": null
       },
@@ -1278,18 +1252,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-pt",
         "coverOverride": null
       },
@@ -1320,18 +1293,17 @@
       "readingTime": 22,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-ru",
         "coverOverride": null
       },
@@ -1362,18 +1334,17 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2-tt",
         "coverOverride": null
       },
@@ -1404,18 +1375,17 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0284c7",
+          "#f0f9ff",
+          "#0f172a"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
         "seed": "top-10-verbs-part-2",
         "coverOverride": null
       },
@@ -1446,19 +1416,19 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#e11d48"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "creative-writing-in-language-learning",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "creative-writing-academia",
         "coverOverride": null
       },
       "draft": false
@@ -1489,19 +1459,19 @@
       "readingTime": 14,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "demystifying-english-tenses-timeline-guide",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "demystifying-english-tenses",
         "coverOverride": null
       },
       "draft": false
@@ -1532,19 +1502,19 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "demystifying-french-tenses-timeline-guide-fr",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "demystifying-french-tenses-fr",
         "coverOverride": null
       },
       "draft": false
@@ -1575,19 +1545,19 @@
       "readingTime": 14,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "demystifying-greek-tenses-timeline-guide-el",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "demystifying-greek-tenses-el",
         "coverOverride": null
       },
       "draft": false
@@ -1618,19 +1588,19 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "demystifying-italian-tenses-timeline-guide-it",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "demystifying-italian-tenses-it",
         "coverOverride": null
       },
       "draft": false
@@ -1661,19 +1631,19 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "demystifying-russian-tenses-timeline-guide-ru",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "demystifying-russian-tenses-ru",
         "coverOverride": null
       },
       "draft": false
@@ -1703,19 +1673,19 @@
       "readingTime": 7,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "neuroplasticity-and-the-playful-brain",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "playful-brain-neuroplasticity",
         "coverOverride": null
       },
       "draft": false
@@ -1745,18 +1715,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "beyond-code-switching-and-translation",
         "coverOverride": null
       },
@@ -1793,19 +1763,19 @@
       },
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#2563eb",
+          "#faf7f2",
+          "#1e293b",
+          "#d97706"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "text": "Commissioner",
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "saturday-mistakes-5-english-mistakes",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "saturday-mistakes-en",
         "coverOverride": null
       },
       "draft": false
@@ -1842,19 +1812,19 @@
       },
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#16a34a",
+          "#faf7f2",
+          "#1e293b",
+          "#ca8a04"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "text": "Commissioner",
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "saturday-mistakes-5-french-mistakes",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "saturday-mistakes-fr",
         "coverOverride": null
       },
       "draft": false
@@ -1882,19 +1852,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0284c7",
+          "#faf7f2",
+          "#1e293b",
+          "#e11d48"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "text": "Commissioner",
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "saturday-mistakes-5-greek-mistakes",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "saturday-mistakes-el",
         "coverOverride": null
       },
       "draft": false,
@@ -1930,19 +1900,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#dc2626",
+          "#faf7f2",
+          "#1e293b",
+          "#0d9488"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "text": "Commissioner",
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "saturday-mistakes-5-italian-mistakes",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "saturday-mistakes-it",
         "coverOverride": null
       },
       "draft": false,
@@ -1978,19 +1948,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#7c3aed",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "text": "Commissioner",
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
-        "seed": "saturday-mistakes-5-russian-mistakes",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "saturday-mistakes-ru",
         "coverOverride": null
       },
       "draft": false,
@@ -2028,19 +1998,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "why-do-we-freeze-when-conversations-go-off-script-el",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "off-script-mindset",
         "coverOverride": null
       },
       "draft": false,
@@ -2071,19 +2041,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "why-do-we-freeze-when-conversations-go-off-script-fr",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "off-script-mindset",
         "coverOverride": null
       },
       "draft": false,
@@ -2114,19 +2084,19 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "why-do-we-freeze-when-conversations-go-off-script-it",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "off-script-mindset",
         "coverOverride": null
       },
       "draft": false,
@@ -2162,19 +2132,19 @@
       },
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "why-do-we-freeze-when-conversations-go-off-script-ru",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "off-script-mindset-ru",
         "coverOverride": null
       },
       "translationOf": "why-do-we-freeze-when-conversations-go-off-script",
@@ -2210,19 +2180,19 @@
       },
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
-        "seed": "why-do-we-freeze-when-conversations-go-off-script",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "off-script-mindset",
         "coverOverride": null
       },
       "draft": false
@@ -2257,18 +2227,18 @@
       },
       "artDirection": {
         "palette": [
-          "#1a365d",
-          "#3182ce",
-          "#dd6b20",
-          "#ebf8ff"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "window-light",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-5-favourite-grammar-rules",
         "coverOverride": null
       },
@@ -2300,18 +2270,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-ba",
         "coverOverride": null
       },
@@ -2343,18 +2313,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-br",
         "coverOverride": null
       },
@@ -2386,18 +2356,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-cv",
         "coverOverride": null
       },
@@ -2429,18 +2399,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-de",
         "coverOverride": null
       },
@@ -2472,18 +2442,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-el",
         "coverOverride": null
       },
@@ -2515,18 +2485,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-es",
         "coverOverride": null
       },
@@ -2558,18 +2528,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-fr",
         "coverOverride": null
       },
@@ -2601,18 +2571,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-hy",
         "coverOverride": null
       },
@@ -2644,18 +2614,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-it",
         "coverOverride": null
       },
@@ -2687,18 +2657,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-ka",
         "coverOverride": null
       },
@@ -2730,18 +2700,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-pt",
         "coverOverride": null
       },
@@ -2773,18 +2743,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-ru",
         "coverOverride": null
       },
@@ -2816,18 +2786,18 @@
       "readingTime": 8,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames-tt",
         "coverOverride": null
       },
@@ -2858,18 +2828,18 @@
       "readingTime": 9,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "ticket-stub",
         "seed": "stop-translating-10-sentence-frames",
         "coverOverride": null
       },
@@ -2900,18 +2870,18 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-50-overused-phrases-el",
         "coverOverride": null
       },
@@ -2943,18 +2913,18 @@
       "readingTime": 11,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-50-overused-phrases-fr",
         "coverOverride": null
       },
@@ -2986,18 +2956,18 @@
       "readingTime": 11,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-50-overused-phrases-it",
         "coverOverride": null
       },
@@ -3029,18 +2999,18 @@
       "readingTime": 11,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-50-overused-phrases-ru",
         "coverOverride": null
       },
@@ -3071,18 +3041,18 @@
       "readingTime": 11,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-50-overused-phrases",
         "coverOverride": null
       },
@@ -3113,18 +3083,18 @@
       "readingTime": 5,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-very-50-stronger-adjectives-el",
         "coverOverride": null
       },
@@ -3156,18 +3126,18 @@
       "readingTime": 5,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-very-50-stronger-adjectives-fr",
         "coverOverride": null
       },
@@ -3199,18 +3169,18 @@
       "readingTime": 5,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-very-50-stronger-adjectives-it",
         "coverOverride": null
       },
@@ -3242,18 +3212,18 @@
       "readingTime": 5,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-very-50-stronger-adjectives-ru",
         "coverOverride": null
       },
@@ -3284,18 +3254,18 @@
       "readingTime": 6,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "replace-very-50-stronger-adjectives",
         "coverOverride": null
       },
@@ -3329,19 +3299,19 @@
       "readingTime": 15,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "top-10-verb-synonyms-intermediate-plateau-el",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       }
     },
@@ -3373,19 +3343,19 @@
       "readingTime": 18,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       }
     },
@@ -3417,19 +3387,19 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       }
     },
@@ -3461,19 +3431,19 @@
       "readingTime": 15,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       }
     },
@@ -3504,61 +3474,21 @@
       "readingTime": 18,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       }
-    },
-    {
-      "id": "post-welcome-to-cosy-blog",
-      "slug": "welcome-to-cosy-blog",
-      "language": "en",
-      "desk": "Front Page",
-      "format": "essay",
-      "level": "A0–A1",
-      "issue": {
-        "number": "Vol. 2026.08",
-        "title": "Get ready for school"
-      },
-      "date": "2026-09-10",
-      "title": "Welcome to the COSY Editorial & Learning Corner",
-      "kicker": "EDITORIAL ROOM",
-      "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
-      "tags": [
-        "Welcome",
-        "EcosystemUpdate",
-        "LanguageLearning"
-      ],
-      "readingTime": 3,
-      "artDirection": {
-        "palette": [
-          "#1e293b",
-          "#0d9488",
-          "#f59e0b",
-          "#faf7f2"
-        ],
-        "fonts": {
-          "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
-        },
-        "layout": "standard-feed",
-        "motif": "paper-cut",
-        "seed": "welcome-to-cosy-blog",
-        "coverOverride": null
-      },
-      "draft": false
     },
     {
       "id": "post-overcoming-intermediate-plateau",
@@ -3584,63 +3514,68 @@
       "readingTime": 5,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "overcoming-intermediate-plateau",
         "coverOverride": null
       },
       "draft": false
     },
     {
-      "id": "post-building-cosy-master-curriculum",
-      "slug": "building-cosy-master-curriculum",
+      "id": "post-august-2026-issue",
+      "slug": "august-2026-issue",
       "language": "en",
       "desk": "Front Page",
       "format": "essay",
-      "level": "A0–B2",
+      "level": "A0–C2",
       "issue": {
         "number": "Vol. 2026.08",
         "title": "Get ready for school"
       },
-      "date": "2026-03-01",
-      "title": "How We Built the COSY Master Curriculum Across 14 Languages",
-      "kicker": "CURRICULUM",
-      "dek": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
+      "date": "2026-08-01",
+      "title": "Get Ready for School: Foundations, Beginnings & Early Acquisition (Full Digital Issue)",
+      "kicker": "COSYMAGAZINE • VOL. 2026.08 • AUGUST ISSUE 01",
+      "dek": "The inaugural full digital edition of COSYmagazine. Foundations, fresh starts, unlearning classroom trauma, comparative linguistic structures, authentic recipes, and conversational sparks.",
       "tags": [
-        "Curriculum",
-        "CELTA",
-        "14Languages",
-        "CEFR"
+        "MagazineIssue",
+        "BackToSchool",
+        "Methodology",
+        "Foundations",
+        "AllLevels"
       ],
-      "readingTime": 6,
+      "readingTime": 28,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "https://anchor.fm/s/f931c12c/podcast/play/89733576/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908674-44100-2-eafbc55432c37.mp3",
+        "externalUrl": "https://podcasters.spotify.com/pod/show/james-york6/episodes/1-Why-speaking-first-is-the-only-way-to-true-fluency-e2mgtua"
+      },
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "building-cosy-master-curriculum",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "august-2026-issue",
         "coverOverride": null
-      },
-      "draft": false
+      }
     },
     {
       "id": "post-top-10-verbs-ba",
@@ -3667,18 +3602,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-ba",
         "coverOverride": null
       },
@@ -3709,18 +3644,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-br",
         "coverOverride": null
       },
@@ -3751,18 +3686,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-cv",
         "coverOverride": null
       },
@@ -3793,18 +3728,18 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-de",
         "coverOverride": null
       },
@@ -3835,18 +3770,18 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-el",
         "coverOverride": null
       },
@@ -3877,18 +3812,18 @@
       "readingTime": 15,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-en",
         "coverOverride": null
       }
@@ -3918,18 +3853,18 @@
       "readingTime": 18,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-es",
         "coverOverride": null
       },
@@ -3960,18 +3895,18 @@
       "readingTime": 16,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-fr",
         "coverOverride": null
       },
@@ -4002,18 +3937,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-hy",
         "coverOverride": null
       },
@@ -4044,18 +3979,18 @@
       "readingTime": 13,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-it",
         "coverOverride": null
       },
@@ -4086,18 +4021,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-ka",
         "coverOverride": null
       },
@@ -4128,18 +4063,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-pt",
         "coverOverride": null
       },
@@ -4170,18 +4105,18 @@
       "readingTime": 12,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-ru",
         "coverOverride": null
       },
@@ -4212,18 +4147,18 @@
       "readingTime": 10,
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs-tt",
         "coverOverride": null
       },
@@ -4258,18 +4193,18 @@
       },
       "artDirection": {
         "palette": [
-          "#2d3748",
-          "#319795",
-          "#d69e2e",
-          "#f7fafc"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "top-10-verbs",
         "coverOverride": null
       },
@@ -4298,18 +4233,18 @@
       "readingTime": 6,
       "artDirection": {
         "palette": [
-          "#742a2a",
-          "#e53e3e",
-          "#d69e2e",
-          "#fff5f5"
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
-          "accent": "Fraunces Italic"
+          "accent": "Caveat"
         },
-        "layout": "standard-feed",
-        "motif": "gingham-knit",
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
         "seed": "why-speaking-first",
         "coverOverride": null
       },
