@@ -20,8 +20,8 @@ test('blog/index.json structure and integrity', () => {
   assert.ok(indexData.posts.length > 0, 'posts array should not be empty');
 
   // Verify migrated reference post is present in index
-  const referencePost = indexData.posts.find(p => p.slug === 'welcome-to-cosy-blog');
-  assert.ok(referencePost, 'welcome-to-cosy-blog post should be present in index');
+  const referencePost = indexData.posts.find(p => p.slug === 'why-speaking-first');
+  assert.ok(referencePost, 'why-speaking-first post should be present in index');
   assert.equal(referencePost.desk, 'Front Page');
   assert.equal(referencePost.format, 'essay');
 

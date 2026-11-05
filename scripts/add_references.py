@@ -104,7 +104,6 @@ LANG_EXTRA = {  # frequency dictionaries exist for these languages
 
 BASE_TOPICS = {
     'why-speaking-first': ['speaking', 'anxiety'],
-    'building-cosy-master-curriculum': ['curriculum'],
     'top-10-verbs': ['verbs', 'vocab_chunks'],
     'top-10-verbs-part-2': ['verbs', 'vocab_chunks'],
     'top-10-verbs-part-3': ['verbs', 'vocab_chunks'],
@@ -119,7 +118,7 @@ BASE_TOPICS = {
     'demystifying-english-tenses-timeline-guide': ['tenses', 'tenses_LANG'],
 }
 KEEP_OWN = {'beyond-code-switching-and-translation', 'creative-writing-in-language-learning',
-            'why-do-we-freeze-when-conversations-go-off-script', 'welcome-to-cosy-blog', 'stage-demo-podcast'}
+            'why-do-we-freeze-when-conversations-go-off-script', 'stage-demo-podcast'}
 
 HEAD = {
     'en': 'Further reading', 'fr': 'Pour aller plus loin', 'it': 'Per approfondire', 'ru': 'Что почитать дальше',
