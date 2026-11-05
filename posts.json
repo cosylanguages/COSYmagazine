@@ -3526,6 +3526,50 @@
     }
   },
   {
+    "slug": "in-conversation-founder-august-school",
+    "title": "In Conversation: Founder James on the Fear of Lesson One and Unlearning School Trauma",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "Why do articulate, accomplished adults freeze at the classroom door? Founder James (JY DM) deconstructs childhood red ink, the myth of grammatical readiness, and how speaking from minute one heals the learning brain.",
+    "author": "JY DM",
+    "reading_time": 7,
+    "cover_image": "",
+    "tags": [
+      "Interview",
+      "Founder",
+      "Pedagogy",
+      "Speaking-First",
+      "Psychology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "in-conversation-founder-august-school.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "cefr_level": "A2–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#742a2a",
+        "#e53e3e",
+        "#d69e2e",
+        "#fff5f5"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "standard-feed",
+      "motif": "gingham-knit",
+      "seed": "in-conversation-founder-august-school",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "building-cosy-master-curriculum",
     "title": "How We Built the COSY Master Curriculum Across 14 Languages",
     "date": "2026-03-01",

@@ -245,6 +245,53 @@
     return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}`;
   }
 
+  async function getUserSubscriptionStatus() {
+    const user = await checkAuth();
+    if (!user) return { isSubscribed: false, tier: 'free', issues: [] };
+    if (user.isFounder) return { isSubscribed: true, tier: 'founder', issues: ['all'] };
+
+    const sb = getClient();
+    if (!sb) return { isSubscribed: false, tier: 'free', issues: [] };
+
+    try {
+      const { data: sub } = await sb
+        .from('subscriptions')
+        .select('tier, status, valid_until')
+        .eq('user_id', user.id)
+        .eq('status', 'active')
+        .maybeSingle();
+
+      const { data: purchases } = await sb
+        .from('issue_purchases')
+        .select('issue_id')
+        .eq('user_id', user.id);
+
+      const purchasedIssues = (purchases || []).map(p => p.issue_id);
+
+      const isActive = !!(sub && (!sub.valid_until || new Date(sub.valid_until) > new Date()));
+
+      return {
+        isSubscribed: isActive,
+        tier: isActive ? sub.tier : 'free',
+        issues: purchasedIssues
+      };
+    } catch (err) {
+      console.warn('[CosyCMSAuth] Error checking subscription status:', err);
+      return { isSubscribed: false, tier: 'free', issues: [] };
+    }
+  }
+
+  async function hasPaidAccess(issueId) {
+    const user = await checkAuth();
+    if (!user) return false;
+    if (user.isFounder) return true;
+
+    const sub = await getUserSubscriptionStatus();
+    if (sub.isSubscribed) return true;
+    if (issueId && sub.issues.includes(issueId)) return true;
+    return false;
+  }
+
   return {
     getClient,
     isFounderRole,
@@ -253,6 +300,8 @@
     signIn,
     signOut,
     onAuthStateChanged,
-    getRedirectLoginUrl
+    getRedirectLoginUrl,
+    getUserSubscriptionStatus,
+    hasPaidAccess
   };
 });
