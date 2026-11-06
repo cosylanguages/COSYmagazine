@@ -34,6 +34,9 @@ function getSupabaseConfig() {
   if (!url || !serviceRoleKey) {
     throw new Error('Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the trusted environment to upload.');
   }
+  if (serviceRoleKey.split('.').length !== 3) {
+    throw new Error('SUPABASE_SERVICE_ROLE_KEY must be the JWT-formatted service_role key, not an sb_secret API key.');
+  }
 
   const parsedUrl = new URL(url);
   if (parsedUrl.protocol !== 'https:' && !['localhost', '127.0.0.1'].includes(parsedUrl.hostname)) {

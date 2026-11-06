@@ -8,18 +8,18 @@ Every issue has one central human question and one clear editorial promise. The 
 
 Use the broad rhythm of an editorial magazine without copying another publication's branded departments or text:
 
-1. Cover and short editor's letter.
-2. Founder's dispatch: the issue's pedagogical point of view.
-3. *I Couldn't Help But Wonder*: the personal question that opens the theme.
-4. *In Conversation: Founder*: JY DM hosts an interview about the theme.
-5. *Debatable & Relatable*: a clear, balanced issue-level dilemma.
-6. *In Conversation: Community Voice*: a consenting teacher or learner; alternate guest types until the community grows.
-7. *Mind Matters* and a sourced Research Desk.
-8. Words Desk: choose one format per issue from *Stop Translating*, *Go Creative*, or *Go Diverse*.
-9. *Grammar Made Cosy*: one comparative unit that serves the issue's theme.
-10. A rotating feature such as *If You Were*, *My Life With & Without*, or *The Greatest Quotes*.
-11. Cultural Salon and Culinary Salon, tied to the issue's theme.
-12. Two speaking-club adaptations, B1–B2 and C1–C2, followed by the last word and next-issue preview.
+1. Front Cover.
+2. Letter from the Editor (L'Édito), welcoming readers in JY DM's voice.
+3. Founder's Editorial Dispatch, setting out the issue's pedagogical point of view.
+4. *In Conversation: Founder*, a thematic Q&A hosted by JY DM.
+5. *I Couldn't Help But Wonder*, the personal question that opens the theme, with a related Research Spark and B1–B2/C1–C2 speaking-club adaptations where appropriate.
+6. *Student & Teacher Spotlight*, featuring one real, consenting learner or teacher per issue; vary the perspective until separate desks are warranted.
+7. Fashion & Trends debate: a clear, balanced issue-level dilemma with speaking placards.
+8. Words & Creativity Desk: choose exactly one standalone format per issue: *Stop Translating*, *Go Creative*, or *Go Diverse*.
+9. Science & Cognition, framed as a research question or evidence-based feature, never as an unsupported promise.
+10. Stories & Voices: founder reflections, *Mind Matters*, consented reader work, and *My Life With & Without* when each serves the issue's theme.
+11. Living & Salon: *If You Were*, *Grammar Made Cosy*, Philosophy Café, one film/series pick, a short soundtrack with one song per target language, one book recommendation, and Culinary Salon.
+12. A thematic crossword or puzzle, last word, and next-issue preview.
 
 The founder is the host in all interviews. Each community spotlight has one real guest, either a learner or a teacher. Do not invent testimonials or publish identifying stories without consent.
 
@@ -28,9 +28,14 @@ The founder is the host in all interviews. Each community spotlight has one real
 - Plan meaningful entry points for A0–A2, B1–B2, and C1–C2 across the issue. Levelled prompts and scaffolding are preferable to duplicating every article three times.
 - Write for teens, adults, and seniors without infantilizing beginners or assuming that age determines proficiency.
 - Every speaking-club reference includes a Research Spark: a question worth investigating, relevant research fields, and a clear separation between a hypothesis and an established finding.
-- Use evidence carefully. Do not turn associations about multilingualism into promises of preventing cognitive decline. Attribute findings and state limitations.
+- Use evidence carefully. Do not present "multilingual people have younger brains" as an established universal fact or turn associations about multilingualism into promises of preventing cognitive decline. Attribute findings and state limitations.
 - Keep Saturday Mistakes as podcast content, not a magazine department or magazine-issue article.
 - Recipes should represent English-, French-, Italian-, Russian-, and Greek-language communities with regional context, usable language, and complete instructions.
+- Do not invent founder memories, learner/teacher testimonials, or contest winners. Obtain consent and verify every reader submission before publication.
+- Verify quotations, cultural-calendar dates, film details, and research claims before print; do not reproduce song lyrics or other protected text without permission.
+- The three Words & Creativity formats are mutually exclusive within an issue. August 2026 features *Stop Translating* only; confirm that proposed sub-pillars do not turn into separate *Go Creative* or *Go Diverse* articles.
+- Sprinkle brief, optional practice through the issue: a Word of the Issue, one or two idioms, and prompts to finish a thought, start from a given ending, or fill sentence gaps. Allow fictional responses for personal topics.
+- Keep culture recommendations concise and useful: one film/series, one song in each target language, and one book. Verify metadata, context, age suitability, availability, and rights; do not print song lyrics.
 
 ## Working Issue Arc
 

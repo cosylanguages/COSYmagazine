@@ -2,43 +2,55 @@
 
 ## Production Brief
 
-This is the editorial plan for the first issue, not final page copy. The issue's promise is: **a new language can be a new beginning, and speaking does not have to wait for perfection.** It is for teens, adults, and seniors; examples should be age-inclusive without assuming the same goals or experiences.
+This is the revised editorial plan for the first issue, not final page copy. The issue's promise is: **a new language can be a new beginning, and speaking does not have to wait for perfection.** It is for teens, adults, and seniors; examples should be age-inclusive without assuming the same goals or experiences.
 
-The recurring departments borrow the broad rhythm of a culture magazine—opening note, people, debate, mind and research, language craft, culture, food, and a final reader activity. They do not imitate another publication's branded sections or copy.
+The requested full edition is now planned at 31 pages. The existing 24-page PDF is an earlier draft and does not yet match this roster. Do not present it as the completed edition until the missing interviews, contest entries, research review, cultural material, and puzzle are ready.
 
 ## Editorial Rules
 
+- Opening sequence is fixed: Front Cover → Letter from the Editor (JY DM) → Founder's Editorial Dispatch.
 - Keep one central question visible throughout: **What helps someone begin speaking again after fear, shame, or a discouraging classroom experience?**
-- Include language-learning benefits, new beginnings, and barriers to speaking across the series, but let each issue develop its own theme rather than repeating August's school theme.
 - Mark activities for A0–A2, B1–B2, and C1–C2. Use simpler language and more scaffolding at beginner levels; use more analysis and counterargument at advanced levels.
-- Every speaking-club session gets a research spark: a question, relevant research field, and a clear distinction between hypothesis and established evidence.
+- Alfinur M. interviews JY DM in both conversations. The first is about starting COSY Languages and sustaining motivation; the second is JY DM's personal retrospective on school and teachers. Keep the two interviews distinct, and do not invent James's memories or attribute unapproved quotations to him.
+- JY DM's school interview is a personal account, not an external student/teacher profile. Any separate *Student & Teacher Spotlight* requires a real, consenting contributor; do not fabricate a composite profile or testimonial.
+- The separate founder reflection on early acquisition and childhood curiosity remains deferred until JY DM supplies those memories and approves the wording.
+- Sprinkle practical micro-activities across departments: *Word of the Issue*, two idioms, and prompts to finish a thought, start from a given ending, or fill sentence gaps. Keep them brief and optional; fictional answers are welcome where a prompt touches personal experience.
+- The Wonder column includes a research question and B1–B2/C1–C2 speaking-club adaptations. Distinguish hypotheses from established findings.
+- The Trends Debate on typing versus handwriting presents three arguments for and three against; do not imply that one method is universally superior without evidence and context.
+- August features **Stop Translating** only. Its three pillars are high-frequency verbs, miming/circumlocution, and sensory upgrades across the target languages. *Go Creative* and *Go Diverse* remain mutually exclusive standalone formats for other issues.
+- Treat *Multilingual People Have Younger Brains* as a claim to investigate, not a settled headline fact. Review the evidence on multilingualism, cognitive reserve, and brain aging with limitations and source attribution.
+- Publish 100-word contest winners only after verifying the original entries, target languages, word counts, selection, and written permission.
+- Verify Einstein quote wording/attribution, Book Lovers Day date, film details, and all research claims. Do not reproduce protected lyrics or lengthy copyrighted text.
 - Use "discouraging learning experience", "fear", or "classroom shame" unless a participant self-identifies with trauma. Do not diagnose participants or promise that language learning prevents cognitive decline.
-- Founder JY DM hosts all interviews. The community profile features one consenting teacher or learner, alternating between them while the community roster grows. Names and personal stories in earlier drafts are placeholders until verified and approved.
-- August uses **Stop Translating** only. **Go Creative** and **Go Diverse** are separate formats for other issues.
-- Saturday Mistakes belongs to the podcast, not the magazine issue or its article roster.
+- Recipes must be complete, checked, and culturally contextualized for English-, French-, Italian-, Russian-, and Greek-language communities.
 
 ## Page Roster
 
-The proposed full edition is 24 pages. The public preview is the cover, editor's letter, and a short dispatch excerpt. Free standalone articles remain available outside the issue; the complete issue experience and its added materials are paid.
+The revised full-edition plan is 31 pages. Keep the public preview to the cover, editor's letter, and a short dispatch excerpt. The full issue and PDF remain in private storage behind the server-side entitlement check.
 
-| Page(s) | Department | August content and level treatment |
+| Page(s) | Department | August content and production notes |
 |---|---|---|
-| 1 | Cover | Get Ready for School; subtitle: *A new language, a new beginning. Speak before you feel ready.* |
-| 2 | Editor's Letter | Keep JY DM's supplied first-issue letter as the personal welcome. |
-| 3–4 | Founder's Dispatch | *Why Speaking-First is the Only Way to True Fluency*. Keep the standalone article free and include it in the paid edition. |
-| 5 | I Couldn't Help But Wonder | *Why Do We Freeze at the Classroom Door?* The founder's reflection that opens the issue's central question. |
-| 6 | Research Spark | Ask what evidence could connect discouraging classroom experiences with later speaking avoidance; label it as a question, not a finding. |
-| 7–8 | In Conversation: Founder | A Q&A about fear, first lessons, speaking-first teaching, level adaptation, and what research can and cannot tell us. |
-| 9–10 | Debatable & Relatable | *Should learners speak before they feel ready?* Give both sides, levelled debate language, and a low-stakes response option. |
-| 11–12 | People & Talking Point | Founder-hosted conversation with one real teacher or learner. Include context and consent; do not invent a transformation story. |
-| 13 | Mind Matters | Explore fear of mistakes, evaluation, and self-consciousness without clinical claims. |
-| 14 | Research Desk | A sourced, balanced look at social, cultural, practical, and cognitive dimensions of multilingual learning across the lifespan. Verify every numerical claim. |
-| 15–16 | Words Desk: Stop Translating | Keep *Top 10 Essential English Verbs for Absolute Beginners (A0–A1 / A2 Master Guide)* free and include it in the paid edition. Add optional B1–B2 and C1–C2 challenge boxes. |
-| 17–18 | Fashion & Form: Grammar Made Cosy | One unit on talking about routines and what is happening now while learning. Compare English, French, Italian, Russian, and Greek without implying one-to-one grammatical equivalence. |
-| 19 | If You Were / Culture | Imagine designing a welcoming first language lesson; connect the scenario to a film, book, or song about beginnings. |
-| 20–22 | Culinary Salon | One real recipe from each of the five target-language communities, with region, ingredients, steps, useful kitchen phrases, and a short conversation prompt. |
-| 23 | Speaking Club: B1–B2 | Discuss returning to learning after a setback. Research spark: do low-stakes rehearsal and sentence starters affect willingness to take a first turn? Fields: applied linguistics, foreign-language anxiety, classroom interaction. |
-| 24 | Speaking Club: C1–C2 / Last Word | Discuss how teachers can invite risk-taking while preserving useful correction. Research spark: which feedback conditions support self-repair without discouraging participation? Fields: corrective feedback, second-language acquisition, educational psychology. Close with a short reflection and September preview. |
+| 1 | Front Cover | *Get Ready for School*; subtitle: *A new language, a new beginning. Speak before you feel ready.* Use the COSY Languages logo and end-of-summer/new-beginnings doodles; avoid generic stock photography. |
+| 2 | Letter from the Editor (L'Édito) | Welcoming note from JY DM. |
+| 3–4 | Founder's Editorial Dispatch | *Why Speaking-First is the Only Way to True Fluency*. Keep the standalone article free and include it in the paid edition. |
+| 5–6 | In Conversation: Founder | Alfinur M. interviews JY DM about the 2020 origins of COSY Languages, early language-learning steps, what to avoid, handwriting, music, and motivation. Response to the continue/change/pause question is pending; founder review required. Set the scene as an online phone-camera conversation at James's home, with the vinyl player, books, and *Born to Die* visible. |
+| 7 | Wonder Column | *Why Do Adults Freeze at the Classroom Door?* Reflective opening, without diagnosing readers. |
+| 8 | Speaking Clubs + Research Spark | B1–B2 and C1–C2 adaptations for the Wonder question; include fields to explore and label the research question as a hypothesis. |
+| 9–10 | In Conversation: School Memories | Alfinur M. interviews JY DM about his own school experience, pressure, support, and starting again. Keep teachers unnamed in this draft; verify and obtain permission before using identifying details. This is not a substitute for an external student/teacher spotlight. |
+| Deferred | Founder Reflection | Early acquisition and childhood curiosity; use founder-provided material, distinct from both Q&As. Do not invent memories. |
+| 11–12 | Fashion & Trends: The Trends Debate | *Typing vs Handwriting in Modern Schools*: three arguments for, three against, speaking placards, and sentence-finish/start/gap-fill prompts. |
+| 13–14 | Words & Creativity Desk: Stop Translating | Pillar 1: high-frequency verbs and *Word of the Issue*; Pillar 2: miming and circumlocution; Pillar 3: sensory upgrades across EN/FR/IT/RU/EL, with two idioms and optional sentence-completion practice. |
+| 15–16 | Science & Cognition | Investigate the claim *Multilingual People Have Younger Brains* through cognitive reserve and brain-aging research; state what is and is not established. |
+| 17 | Mind Matters | *The Imposter Syndrome of the First Day*: psychological safety and affective filter, without clinical diagnosis. |
+| 18 | Reader & Contest Showcase | Winning 100-word micro-essays in target languages, with optional sentence starts/gap fills. Hold this page until authentic winners and permissions are confirmed. |
+| 19 | Narrative Ledger | *My Life With & Without Fear of Evaluation*, clearly framed as an illustrative literary piece, not a real testimonial. |
+| 20 | If You Were | *If You Were a Kindergarten Teacher in Tokyo*: hypothetical scenario, culturally researched and not presented as a claim about all Japanese classrooms. |
+| 21–22 | Grammar Made Cosy | Present Continuous vs habitual meaning, compared across EN, FR, IT, RU, and EL; avoid one-to-one equivalence claims. |
+| 23 | Philosophy Café | Einstein's *“I am only passionately curious”*; verify wording and attribution before print, then unpack the idea through discussion. |
+| 24 | Cinema Pick | One film/series recommendation related to the issue; current draft pick: *Dead Poets Society*, with a content note and discussion question. |
+| 25 | Monthly Vibes | Five song picks, one each in EN/FR/IT/EL/RU, one book recommendation, and a Book Lovers Day prompt. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
+| 26–29 | Culinary Salon | Opening menu plus five complete, checked recipes for EN, FR, IT, RU, and EL communities, with region/context, useful language, and conversation prompts. |
+| 30–31 | End-of-Issue Crossword & Puzzle | Thematic crossword and puzzle with answer key/colophon; validate clues, translations, and solutions before release. |
 
 ## Interview Question Bank
 
@@ -64,7 +76,7 @@ For a teacher: What signs of apprehension do you notice? Which low-stakes tasks 
 - Remove *Welcome to the COSY Editorial & Learning Corner* and *How We Built the COSY Master Curriculum Across 14 Languages* from the August issue and public issue roster.
 - Keep *Why Speaking-First is the Only Way to True Fluency* and the English Top 10 verbs guide available as free standalone reads and as features in the paid issue.
 - Review the separate all-14-languages Top 10 verbs article. Keep it as a distinct reference-library resource or make its difference from the English master guide explicit; do not present two near-identical beginner features back-to-back.
-- Move the typing-versus-handwriting debate to a future issue where it fits the theme, or replace it with the August speaking-readiness dilemma.
+- Replace the former speaking-readiness debate with the revised typing-versus-handwriting debate in the new August roster.
 
 ## Paid Edition Boundary
 
