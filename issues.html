@@ -246,6 +246,32 @@
     .btn-listen-issue:hover {
       border-color: #993C1D;
     }
+    .btn-download-pdf {
+      background: rgba(15, 110, 86, 0.1);
+      border: 1px solid rgba(15, 110, 86, 0.3);
+      color: #0f6e56;
+      padding: 0.6rem 1.1rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: inherit;
+      transition: all 0.2s ease;
+    }
+    .btn-download-pdf:hover:not(:disabled) {
+      background: #0f6e56;
+      color: #ffffff;
+      border-color: #0f6e56;
+    }
+    .btn-download-pdf:disabled,
+    .btn-download-pdf[aria-busy="true"] {
+      opacity: 0.65;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
 
     /* Content Roster within each Issue */
     .issue-contents-roster {
@@ -593,6 +619,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="why-speaking-first.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2026.08" data-issue-number="Vol. 2026.08" data-issue-title="Get Ready for School">📥 Download PDF</button>
           </div>
         </div>
 
@@ -741,6 +768,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="overcoming-intermediate-plateau.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2026.09" data-issue-number="Vol. 2026.09" data-issue-title="Me vs Intermediate Plateau">📥 Download PDF</button>
           </div>
         </div>
 
@@ -879,6 +907,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="why-do-we-freeze-when-conversations-go-off-script.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2026.10" data-issue-number="Vol. 2026.10" data-issue-title="JY DM's Birthday &amp; His Favs">📥 Download PDF</button>
           </div>
         </div>
 
@@ -1021,6 +1050,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="neuroplasticity-and-the-playful-brain.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2026.11" data-issue-number="Vol. 2026.11" data-issue-title="November Academia">📥 Download PDF</button>
           </div>
         </div>
 
@@ -1160,6 +1190,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="the-logic-of-phrasal-verbs-everybody-scream.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2026 — December Issue" data-issue-number="Vol. 2026 — December Issue" data-issue-title="Winter Grammar &amp; High Frequency Verbs">📥 Download PDF</button>
           </div>
         </div>
 
@@ -1299,6 +1330,7 @@
           <div class="issue-header-actions">
             <a class="btn-read-issue" href="top-10-verbs-part-3.html">Read Issue Spreads →</a>
             <a class="btn-listen-issue" href="podcast.html">🎙️ Listen to Dispatch</a>
+            <button type="button" class="btn-download-pdf" data-action="download-issue-pdf" data-issue-id="Vol. 2027 — February Issue" data-issue-number="Vol. 2027 — February Issue" data-issue-title="February Grammar &amp; High Frequency Verbs">📥 Download PDF</button>
           </div>
         </div>
 
@@ -1431,6 +1463,9 @@
 
   <footer id="cosy-footer"></footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1" integrity="sha384-YieCqqg9gQufX7+5HcFvCEg/n3KUEdl8/Jb+A6J0npf1mB740VayvwKjTrtCeUoy" crossorigin="anonymous"></script>
+  <script src="js/cms-auth.js"></script>
+  <script src="js/issue-download.js"></script>
   <script src="js/shell.js"></script>
 </body>
 </html>

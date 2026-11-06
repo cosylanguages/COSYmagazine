@@ -234,11 +234,19 @@ html[data-theme="dark"] .ns-card[data-issue] .ns-card-art { border-bottom-color:
   background: rgba(153, 60, 29, 0.08);
   color: #993C1D;
   border: 1px solid rgba(153, 60, 29, 0.2);
+  cursor: pointer;
   transition: all 0.2s ease;
+  font-family: inherit;
 }
-.ns-issue-btn:hover {
+.ns-issue-btn:hover:not(:disabled) {
   background: #993C1D;
   color: #fff;
+}
+.ns-issue-btn:disabled,
+.ns-issue-btn[aria-busy="true"] {
+  opacity: 0.65;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 .ns-issue-articles-grid {
   padding: 1.5rem 2rem 2rem;

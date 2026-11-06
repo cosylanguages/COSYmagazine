@@ -169,7 +169,8 @@
     "browse_by_issue": "📖 Читать по выпускам",
     "browse_all_articles": "📚 Каталог всех статей",
     "explore_issue_blueprint": "Содержание и рецепты ➔",
-    "view_mode_aria": "Переключить режим просмотра"
+    "view_mode_aria": "Переключить режим просмотра",
+    "download_pdf": "PDF"
   },
   "blog": {
     "back_to_hub": "← Назад в редакционный блог-хаб",
