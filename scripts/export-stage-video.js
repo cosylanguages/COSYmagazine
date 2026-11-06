@@ -14,7 +14,13 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const { spawnSync, execSync } = require('child_process');
-const { chromium } = require('playwright');
+
+let chromium;
+try {
+  ({ chromium } = require('playwright'));
+} catch (_) {
+  // Playwright is optional or only needed during actual video exports
+}
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 
