@@ -1,6 +1,6 @@
 # 🎥 Stage Mode Podcast Video Exporter
 
-The Stage Mode Podcast Video Exporter (`scripts/export-stage-video.js`) automatically converts interactive COSY Stage Mode presentation decks into 1080p 30fps `.mp4` video files without requiring manual screen recording.
+The Stage Mode Video Exporter (`scripts/export-stage-video.js`) captures a 1920x1080 Stage Mode presentation and encodes it as an `.mp4`. The default output is 10 fps; the frame rate can be changed with `--fps`.
 
 ---
 
@@ -34,18 +34,12 @@ Standard Stage Mode uses real-time wall-clock timers (`setTimeout`, `requestAnim
 node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>] [--fps <num>]
 ```
 
-Or via `npm`:
-
-```bash
-npm run export:stage-video -- <slug> [--audio <file>] [--out <dir>] [--fps <num>]
-```
-
 ### Arguments & Parameters
 
 | Parameter | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `<slug>` | String | **Yes** | Post slug to render (e.g., `replace-very-50-stronger-adjectives`, `stage-demo-podcast`). |
-| `--audio <file>` | Path | Optional | Path to audio narration file (e.g., `.mp3`). If omitted, checks candidate paths in `blog/audio/` or renders silent MP4. |
+| `--audio <file>` | Path | Optional | Path to audio narration file (e.g., `.mp3`). If omitted, checks `audio/`, `audio/blog/`, and `sounds/` for a matching file, then renders a silent MP4 if none exists. |
 | `--out <dir>` | Path | Optional | Output directory for the `.mp4` video. Defaults to `dist/videos/`. |
 | `--fps <num>` | Number | Optional | Target frame rate for video rendering. Defaults to `10` fps. |
 
@@ -61,22 +55,11 @@ node scripts/export-stage-video.js stage-demo-podcast --out dist/videos
 
 Output: `dist/videos/stage-demo-podcast.mp4`
 
-### 2. Render Post with Audio Track
+### 2. Render a Generated Article with Audio
 
 ```bash
-node scripts/export-stage-video.js stage-demo-podcast --audio audio/blog/stage-demo-podcast.mp3 --out dist/videos
+node scripts/export-stage-video.js why-speaking-first --audio audio/voiceover.mp3 --out dist/videos
 ```
+Output: `dist/videos/why-speaking-first.mp4` with synced AAC audio. Replace `audio/voiceover.mp3` with an existing audio file.
 
-Output: `dist/videos/stage-demo-podcast.mp4` with synced AAC audio.
-
----
-
-## 🤖 GitHub Action Automated Workflow
-
-A manual GitHub Action workflow is configured at `.github/workflows/export-stage-video.yml`.
-
-### How to Trigger in GitHub
-1. Go to **Actions** → **Export Stage Mode Video**.
-2. Click **Run workflow**.
-3. Enter the post `slug` (e.g. `stage-demo-podcast`) and optional `audio` path.
-4. Once completed, download the rendered `.mp4` video directly from the workflow run **Artifacts** (`stage-video-<slug>`).
+The exporter writes videos locally and does not upload them.

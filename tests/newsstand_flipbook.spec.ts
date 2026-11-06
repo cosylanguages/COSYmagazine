@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import { createServer } from 'http';
 
-const PORT = 8086;
+let port: number;
 let server: any;
 
 const MIME_TYPES: Record<string, string> = {
@@ -30,7 +30,10 @@ test.beforeAll(async () => {
       res.end('404 Not Found');
     }
   });
-  await new Promise<void>((resolve) => server.listen(PORT, resolve));
+  await new Promise<void>((resolve) => server.listen(0, () => {
+    port = server.address().port;
+    resolve();
+  }));
 });
 
 test.afterAll(async () => {
@@ -58,7 +61,7 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
     const page = await context.newPage();
 
     // 1. Open Newsstand
-    await page.goto(`http://localhost:${PORT}/blog/index.html`);
+    await page.goto(`http://localhost:${port}/index.html`);
     await page.waitForLoadState('domcontentloaded');
 
     // Check Newsstand title and hero section
@@ -78,7 +81,7 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
     await page.waitForURL(/\.html/);
 
     // Return to Newsstand and click article 'replace-very-50-stronger-adjectives.html'
-    await page.goto(`http://localhost:${PORT}/blog/index.html`);
+    await page.goto(`http://localhost:${port}/index.html`);
     await page.waitForLoadState('domcontentloaded');
 
     const articleLink = page.locator('a[href*="replace-very-50-stronger-adjectives.html"]').first();
@@ -130,14 +133,14 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
     expect(isFlipbookMode).toBe(true);
 
     // 6. Test Deep Link (#page-3) directly in new navigation
-    await page.goto(`http://localhost:${PORT}/blog/replace-very-50-stronger-adjectives.html#page-3`);
+    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives.html#page-3`);
     await page.waitForLoadState('domcontentloaded');
     await page.waitForTimeout(300);
     const deepLinkIndicator = await page.textContent('.flipbook-indicator');
     expect(deepLinkIndicator).toMatch(/PAGE 3/i);
 
     // Test Browser Back button hash sync back to Page 1
-    await page.goto(`http://localhost:${PORT}/blog/replace-very-50-stronger-adjectives.html#page-2`);
+    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives.html#page-2`);
     await page.waitForTimeout(200);
     await page.goBack();
     await page.waitForTimeout(300);
@@ -177,7 +180,7 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
     const page = await context.newPage();
 
     // 1. Open French localized post page
-    await page.goto(`http://localhost:${PORT}/blog/replace-very-50-stronger-adjectives-fr.html`);
+    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-fr.html`);
     await page.waitForLoadState('domcontentloaded');
 
     // Check localized toolbar furniture string
@@ -205,13 +208,13 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
     await page.waitForTimeout(300);
 
     // Check localized Russian post page
-    await page.goto(`http://localhost:${PORT}/blog/replace-very-50-stronger-adjectives-ru.html`);
+    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-ru.html`);
     await page.waitForLoadState('domcontentloaded');
     const ruIndicator = await page.textContent('.flipbook-indicator');
     expect(ruIndicator).toMatch(/СТРАНИЦА 1 ИЗ/i);
 
     // Check localized Greek post page
-    await page.goto(`http://localhost:${PORT}/blog/replace-very-50-stronger-adjectives-el.html`);
+    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-el.html`);
     await page.waitForLoadState('domcontentloaded');
     const elIndicator = await page.textContent('.flipbook-indicator');
     expect(elIndicator).toMatch(/ΣΕΛΙΔΑ 1 ΑΠΟ/i);
@@ -229,7 +232,7 @@ test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', 
 
   test('Back Issues Archive: shelf lists all issues and filters feed', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 720 });
-    await page.goto(`http://localhost:${PORT}/blog/index.html`);
+    await page.goto(`http://localhost:${port}/index.html`);
     await page.waitForLoadState('domcontentloaded');
 
     // Verify Back Issues section exists

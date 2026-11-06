@@ -1,8 +1,54 @@
-# COSYmagazine Issue Content Architecture & Editorial Blueprint
+# COSYmagazine Editorial Architecture
 
-This document defines the **Master Content Blueprint** for every issue of **COSYmagazine**.
+This is the current reusable editorial model. The planning notes below the legacy heading are retained as an archive and are not production requirements where they conflict with this model.
 
----
+## Current Editorial Model
+
+Every issue has one central human question and one clear editorial promise. The issue title, article selection, language feature, research, cultural content, and speaking-club sessions should all support that promise. If an article does not fit, move it to the evergreen catalogue or the podcast rather than forcing it into the issue.
+
+Use the broad rhythm of an editorial magazine without copying another publication's branded departments or text:
+
+1. Cover and short editor's letter.
+2. Founder's dispatch: the issue's pedagogical point of view.
+3. *I Couldn't Help But Wonder*: the personal question that opens the theme.
+4. *In Conversation: Founder*: JY DM hosts an interview about the theme.
+5. *Debatable & Relatable*: a clear, balanced issue-level dilemma.
+6. *In Conversation: Community Voice*: a consenting teacher or learner; alternate guest types until the community grows.
+7. *Mind Matters* and a sourced Research Desk.
+8. Words Desk: choose one format per issue from *Stop Translating*, *Go Creative*, or *Go Diverse*.
+9. *Grammar Made Cosy*: one comparative unit that serves the issue's theme.
+10. A rotating feature such as *If You Were*, *My Life With & Without*, or *The Greatest Quotes*.
+11. Cultural Salon and Culinary Salon, tied to the issue's theme.
+12. Two speaking-club adaptations, B1–B2 and C1–C2, followed by the last word and next-issue preview.
+
+The founder is the host in all interviews. Each community spotlight has one real guest, either a learner or a teacher. Do not invent testimonials or publish identifying stories without consent.
+
+## Level and Research Standards
+
+- Plan meaningful entry points for A0–A2, B1–B2, and C1–C2 across the issue. Levelled prompts and scaffolding are preferable to duplicating every article three times.
+- Write for teens, adults, and seniors without infantilizing beginners or assuming that age determines proficiency.
+- Every speaking-club reference includes a Research Spark: a question worth investigating, relevant research fields, and a clear separation between a hypothesis and an established finding.
+- Use evidence carefully. Do not turn associations about multilingualism into promises of preventing cognitive decline. Attribute findings and state limitations.
+- Keep Saturday Mistakes as podcast content, not a magazine department or magazine-issue article.
+- Recipes should represent English-, French-, Italian-, Russian-, and Greek-language communities with regional context, usable language, and complete instructions.
+
+## Working Issue Arc
+
+These are editorial directions, not a claim that every planned issue is already published. Retitles are candidates pending the founder's approval.
+
+| Volume | Working theme | Editorial question |
+|---|---|---|
+| Vol. 2026.08, *Get Ready for School* | New languages, new beginnings, discouraging learning experiences, and the benefits of multilingual life | What helps someone begin speaking again before they feel ready? |
+| Vol. 2026.09, *Me vs Intermediate Plateau* | Persistence, visible progress, and finding a more precise voice | How do we keep going when progress becomes hard to notice? |
+| Vol. 2026.10, currently *JY DM's Birthday & His Favs* | Play, conversational agility, and speaking without a script; birthday can remain a personal frame | How do we recover when a conversation stops following the plan? |
+| Vol. 2026.11, *November Academia* | Curiosity, study habits, creative expression, and evidence about learning | What makes practice engaging without confusing engagement with learning? |
+| Vol. 2026.12, *Winter Grammar & High Frequency Verbs* | Seasonal routines, time, habits, and everyday language | How does language help us describe what we do and what is changing? |
+| Vol. 2027.01, planned *Fresh Slates & Rebirth* | Identity, habit formation, and returning to a goal | What makes a fresh start sustainable? |
+| Vol. 2027.02, currently *February Grammar & High Frequency Verbs* | Connection, romance, loneliness, and empathy; a title such as *The Language of Connection* is a candidate | How do we express closeness, care, and boundaries? |
+
+## Legacy Brainstorm (Reference Only)
+
+The material below records an earlier 14-part brainstorm. In particular, its fixed Saturday Mistakes section, rigid section count, and any unverified participant stories or research claims are superseded by the current model above.
 
 ## 1. Editorial Vision: The Thematic Thread
 

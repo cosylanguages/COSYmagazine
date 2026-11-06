@@ -66,7 +66,7 @@ const MIME_TYPES = {
 function createStaticServer(rootDir) {
   return http.createServer((req, res) => {
     let reqUrl = req.url.split('?')[0];
-    if (reqUrl === '/') reqUrl = '/blog/stage-demo.html';
+    if (reqUrl === '/') reqUrl = '/index.html';
 
     const filePath = path.join(rootDir, reqUrl);
     if (!filePath.startsWith(rootDir)) {
@@ -88,6 +88,16 @@ function createStaticServer(rootDir) {
       fs.createReadStream(filePath).pipe(res);
     });
   });
+}
+
+function getStageTargetPath(slug) {
+  if (fs.existsSync(path.join(REPO_ROOT, `${slug}.html`))) {
+    return `/${slug}.html`;
+  }
+  if (slug === 'stage-demo-podcast') {
+    return '/dev/stage-demo.html';
+  }
+  throw new Error(`No generated HTML page found for "${slug}". Run npm run build first.`);
 }
 
 function getAudioDurationMs(audioPath) {
@@ -179,13 +189,7 @@ async function exportStageVideo() {
       deviceScaleFactor: 1
     });
 
-    const htmlFileOnDisk = path.join(REPO_ROOT, `${slug}.html`);
-    let targetUrl;
-    if (fs.existsSync(htmlFileOnDisk)) {
-      targetUrl = `http://127.0.0.1:${port}/blog/${slug}.html?stage=1&render=1`;
-    } else {
-      targetUrl = `http://127.0.0.1:${port}/blog/stage-demo.html?stage=1&render=1&slug=${slug}`;
-    }
+    const targetUrl = `http://127.0.0.1:${port}${getStageTargetPath(slug)}?stage=1&render=1`;
     console.log(`🔗 Loading Stage Mode: ${targetUrl}`);
 
     await page.goto(targetUrl, { waitUntil: 'networkidle' });
@@ -257,3 +261,5 @@ async function exportStageVideo() {
 if (require.main === module) {
   exportStageVideo();
 }
+
+module.exports = { getStageTargetPath };

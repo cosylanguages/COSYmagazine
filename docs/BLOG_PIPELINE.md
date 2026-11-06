@@ -1,36 +1,23 @@
-# COSYlanguages Blog Build Pipeline Architecture (`docs/BLOG_PIPELINE.md`)
+# Build Pipeline
 
-## Source of Truth Decision & Justification
+## Sources and generated files
 
-### Canonical Source: JSON Schema (`blog/posts/*.json`)
-`blog/posts/*.json` is the **single canonical source of truth** for all blog posts across the COSYlanguages ecosystem.
+Article content is authored in `posts/*.json`. The JSON post files are the source of truth; published HTML and metadata files are checked in because GitHub Pages serves the repository directly.
 
-### Justification
-1. **Rich Editorial & Teleprompter Metadata**: The JSON schema (`blog/SCHEMA.md`) supports structured editorial features that plain Markdown cannot express, including:
-   - `artDirection` (color palette, display/text/accent fonts, layout style, visual motif)
-   - `desk` classification (`Front Page`, `Words`, `Grammar Made Cosy`, `Say It`, etc.)
-   - `format` typing (`list`, `essay`, `qa`, `ranking`, `photo-essay`, `quiz`, `quote-wall`)
-   - `podcast` episode tracking & RSS feeds
-   - Block-level `say` speech scripts for teleprompter / podcast read-aloud
-   - Block-level `beat` camera directions and visual animations
-2. **Elimination of Dual-Source Drift**: Maintaining two parallel files (`.md` and `.json`) per post led to severe content drift and unused metadata. In the legacy pipeline, `scripts/build-blog.js` built HTML from Markdown files while ignoring JSON posts, causing art direction, `say` scripts, and podcast metadata to be ignored.
-3. **Strict No-Translation Fallback Core Directive**: Each language variant (e.g., `-fr`, `-it`, `-ru`, `-el`) is authored fully in its own language as an independent post object with its own slug and `language` field. Articles are linked across language variants via the `translationOf` property to enable non-translated UI language switching.
-4. **Unified Build Pipeline**: `scripts/build-blog.js` parses JSON post files directly, renders semantic HTML magazine spreads, compiles `blog/posts.json` and `blog/index.json`, and generates podcast RSS feeds in a single atomic pass.
+`npm run build` runs three steps:
 
-## Workflow Trigger Paths & Dependencies
+1. `scripts/build-blog.js` validates posts and creates root-level `<slug>.html` pages, `posts.json`, `index.json`, and `podcast.xml`.
+2. `scripts/generate-blog-art.js` creates Open Graph cover artwork in `og/`.
+3. `scripts/generate-sitemap.js` creates `sitemap.xml` from the generated post index.
 
-To prevent stale generated artifacts (`blog/*.html`, `blog/posts.json`, `blog/index.json`, `blog/podcast.xml`, `blog/og/*.svg`), `.github/workflows/blog-build.yml` triggers automatically whenever any file or module read or required by `scripts/build-blog.js` or `scripts/generate-blog-art.js` changes:
+Draft posts (`"draft": true`) are excluded from published output.
 
-- `blog/posts/**`: Post JSON sources of truth.
-- `blog/guides.json`: Legacy/additional guide metadata.
-- `blog/js/art/**`: Procedural SVG cover artwork generator & motif rendering (`generator.js`, `motifs.js`, `rng.js`).
-- `blog/js/stage/**`: Stage mode presentation deck controllers and timeline renderers.
-- `blog/js/podcast-box.js`: Dynamic podcast player UI component.
-- `blog/css/**`: Gazette styling templates and tokens (`magazine-templates.css`, `tokens.css`, `stage.css`).
-- `templates/blog-*.html`: Blog layout HTML templates.
-- `js/i18n/**`: Target language translation dictionaries (`en.json`, `fr.json`, `it.json`, `ru.json`, `el.json`, `es.json`).
-- `js/core/i18n.js` & `js/core/i18n/**`: Core i18n lookup logic.
-- `scripts/build-blog.js`: Primary build script.
-- `scripts/validate-blog-schema.js`: Schema and i18n completeness validator.
-- `scripts/generate-podcast-rss.js`: RSS 2.0 podcast XML feed generator.
-- `scripts/generate-blog-art.js`: Open Graph SVG cover art generator.
+## Checks
+
+- `npm run validate` validates post JSON and required interface translations in `js/i18n/`.
+- `npm test` runs the Node.js tests in `tests/*.mjs`.
+- `npm run build` writes generated files. Review its diff before committing, especially if generated files already have local changes.
+
+## Runtime assets
+
+The article shell and shared styles live in `css/`; browser behavior lives in `js/`, including `js/stage/` for presentation and script modes. Interface translations live in `js/i18n/`. The video export utility is `scripts/export-stage-video.js` and requires FFmpeg plus Playwright Chromium.

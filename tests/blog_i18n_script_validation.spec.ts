@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import { createServer } from 'http';
 
-const POSTS_DIR = path.join(process.cwd(), 'blog/posts');
+const POSTS_DIR = path.join(process.cwd(), 'posts');
 const POST_FILES = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
 
 // Core target languages with non-Latin scripts that must strictly be localized
@@ -24,7 +24,7 @@ const ENGLISH_UI_WORDS = [
 ];
 
 let server;
-const PORT = 8086;
+let port: number;
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -50,7 +50,10 @@ test.beforeAll(async () => {
       res.end('404 Not Found');
     }
   });
-  await new Promise((resolve) => server.listen(PORT, resolve));
+  await new Promise<void>((resolve) => server.listen(0, () => {
+    port = server.address().port;
+    resolve();
+  }));
 });
 
 test.afterAll(async () => {
@@ -68,7 +71,7 @@ test.describe('Blog Script & Target Language i18n Validation', () => {
     const slug = postData.slug;
 
     test(`Verify visible text localization for [${lang.toUpperCase()}] ${slug}`, async ({ page }) => {
-      const url = `http://localhost:${PORT}/blog/${slug}.html`;
+      const url = `http://localhost:${port}/${slug}.html`;
       await page.goto(url);
       await page.waitForLoadState('domcontentloaded');
 

@@ -401,7 +401,13 @@
       setTimeout(res, 2000);
     });
     Promise.all([fetch('index.json').then((r) => r.json()), i18nReady]).then(([d]) => {
-      DATA = { posts: (d.posts || []).filter((p) => SUPPORTED.includes(p.language)), desks: d.desks || [], issues: d.issues || [] };
+      DATA = {
+        posts: (d.posts || []).filter((p) =>
+          SUPPORTED.includes(p.language) && p.desk !== 'Saturday Mistakes' && p.issue?.number !== 'Podcast Special'
+        ),
+        desks: d.desks || [],
+        issues: d.issues || []
+      };
       renderFilters(); render();
     }).catch(() => { $('ns-empty').hidden = false; $('ns-empty').textContent = 'The magazine could not be loaded. Please refresh.'; });
   </script>

@@ -1,4 +1,4 @@
-# COSYlanguages Blog Post Schema (`blog/SCHEMA.md`)
+# COSYmagazine Post Schema
 
 This document specifies the canonical JSON/Object schema for blog posts within the COSYlanguages static publishing platform.
 
@@ -9,11 +9,11 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | Field | Type | Required | Description | Example / Allowed Values |
 | :--- | :--- | :--- | :--- | :--- |
 | `id` | `string` | Yes | Unique UUID or canonical string identifier for the post. | `"post-welcome-2026-001"` |
-| `slug` | `string` | Yes | URL-friendly post slug (lowercase, hyphenated). | `"welcome-to-cosy-blog"` |
-| `language` | `string` | Yes | ISO 639-1 language code of the post content. | `"en"`, `"fr"`, `"it"`, `"ru"`, `"el"`, `"es"`, `"de"`, `"pt"`, `"hy"`, `"ka"`, `"tt"`, `"ba"`, `"br"` |
+| `slug` | `string` | Yes | URL-friendly post slug (lowercase, hyphenated). | `"sample-authoring-guide"` |
+| `language` | `string` | Yes | Language code of the post content. | `"en"`, `"fr"`, `"it"`, `"ru"`, `"el"`, `"es"`, `"de"`, `"pt"`, `"hy"`, `"ka"`, `"tt"`, `"ba"`, `"br"`, `"cv"` |
 | `translationOf` | `string` | No | Slug of the base post of which this post is a translation variant. | `"replace-50-overused-phrases"` |
 | `draft` | `boolean` | No | Whether the post is a draft (skipped in builds if `true`). | `true`, `false` |
-| `desk` | `string` | Yes | Primary editorial desk key (localisable via UI i18n without fallbacks). | `"Front Page"`, `"Saturday Mistakes"`, `"COSYtalks"`, `"Grammar"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"` |
+| `desk` | `string` | Yes | Primary editorial desk key (localisable via UI i18n). | `"Front Page"`, `"Saturday Mistakes"`, `"COSYtalks"`, `"Grammar"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"`, `"Reflections"` |
 | `format` | `string` | Yes | Article presentation format type. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
 | `section` | `string` | No | Specific magazine section taxonomy (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
 | `level` | `string` | Yes | CEFR proficiency level targeted by the content. | `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–A1"`, `"A1–A2"`, `"B1–B2"`, `"C1–C2"`, `"A0–B2"` |
@@ -24,7 +24,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `dek` | `string` | Yes | Subheadline / article deck / summary description. | `"Welcome to our editorial room! Explore personal journal notes..."` |
 | `tags` | `string[]` | Yes | Array of topic tags for filtering. | `["Welcome", "EcosystemUpdate", "LanguageLearning"]` |
 | `readingTime` | `number` | Yes | Calculated reading duration in minutes. | `1` |
-| `podcast` | `object` | Yes | Audio podcast episode reference object. | `{ "episode": 1, "audioUrl": "../audio/blog/welcome-podcast.mp3" }` |
+| `podcast` | `object` | No | Optional episode metadata. The validator requires a numeric `episode` when this object is present. | `{ "episode": 1, "audioUrl": "audio/welcome-podcast.mp3" }` |
 | `artDirection`| `object` | Yes | Visual styling & stage direction metadata. | `{ "palette": ["#0d9488", "#faf7f2", "#1e293b"], "fonts": { "display": "Fraunces", "text": "DM Sans", "accent": "Fraunces Italic" }, "layout": "magazine-spread", "motif": "editorial-stars", "seed": "cosy-001", "coverOverride": null }` |
 | `blocks` | `block[]` | Yes | Array of structured content blocks forming the body. | See Block Types below |
 
@@ -32,7 +32,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 
 ## 2. Block Types (`blocks[]`)
 
-Every block object MUST contain a `type` field matching one of the 12 valid block types listed below, plus type-specific payload properties.
+Every block object MUST contain a `type` field matching one of the 13 valid block types listed below, plus type-specific payload properties.
 
 In addition, **every block MAY include optional stage direction fields**:
 - `say` (`string`): Spoken script text for audio narration/podcast read-aloud.
@@ -104,9 +104,9 @@ In addition, **every block MAY include optional stage direction fields**:
 
 ## 3. Validation Enforcement
 
-The schema is strictly enforced by `scripts/validate-blog-schema.js`. Run the script via Node.js:
+The validator checks required fields, allowed languages/desks/formats/block types, and block-specific structure. Run it with:
 
 ```bash
 node scripts/validate-blog-schema.js
 ```
-The script inspects JSON post files in `blog/posts/` and exits with code `0` if all posts pass, or `1` if validation fails.
+The script inspects JSON post files in `posts/` and required interface keys in `js/i18n/`. It exits with code `0` if validation passes, or `1` if validation fails. Some descriptive conventions in this document (for example, tag element types and optional block properties) are not currently enforced by the validator.

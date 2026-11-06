@@ -11,7 +11,7 @@ const POST_SLUGS = [
 ];
 
 let server;
-const PORT = 8085;
+let port: number;
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -37,7 +37,10 @@ test.beforeAll(async () => {
       res.end('404 Not Found');
     }
   });
-  await new Promise((resolve) => server.listen(PORT, resolve));
+  await new Promise<void>((resolve) => server.listen(0, () => {
+    port = server.address().port;
+    resolve();
+  }));
 });
 
 test.afterAll(async () => {
@@ -49,7 +52,7 @@ test.afterAll(async () => {
 test.describe('Stage Mode Camera & Viewport Bounding Box Verification', () => {
   for (const slug of POST_SLUGS) {
     test(`Verify all beats target elements remain inside viewport for post: ${slug}`, async ({ page }) => {
-      const url = `http://localhost:${PORT}/blog/${slug}.html?stage=1&render=1`;
+      const url = `http://localhost:${port}/${slug}.html?stage=1&render=1`;
 
       await page.setViewportSize({ width: 1280, height: 720 });
       await page.goto(url);

@@ -1,4 +1,4 @@
-# COSYlanguages Blog Post Authoring Guide (`docs/BLOG_AUTHORING.md`)
+# COSYmagazine Post Authoring Guide
 
 This document is the definitive authoring specification and schema reference for creating, editing, and publishing blog posts on the COSYlanguages platform.
 
@@ -8,15 +8,15 @@ This document is the definitive authoring specification and schema reference for
 
 Blog publishing in COSYlanguages follows a **zero-code, single-source-of-truth JSON pipeline**:
 
-- **Source Location**: `blog/posts/*.json`
-- **Canonical Format**: Every article is written as a structured JSON object adhering to `blog/SCHEMA.md`.
-- **Zero-Code Publishing**: Adding a new blog post requires **zero code changes** to index files, CSS, or JS templates. Simply add a JSON file under `blog/posts/` and run the build script.
+- **Source Location**: `posts/*.json`
+- **Canonical Format**: Every article is written as a structured JSON object adhering to `SCHEMA.md`.
+- **Zero-Code Publishing**: Adding a new post requires **zero code changes** to index files, CSS, or JS templates. Add a JSON file under `posts/` and run the build script.
 - **Build Pipeline**: Executing `node scripts/build-blog.js` automatically:
   1. Validates post schema and field constraints.
-  2. Renders standalone, static HTML post pages in `blog/{slug}.html`.
-  3. Compiles the newsstand index at `blog/posts.json` and `blog/index.json`.
-  4. Generates Open Graph procedural cover art in `blog/og/{slug}.svg`.
-  5. Updates the podcast RSS feed at `blog/podcast.xml`.
+  2. Renders standalone static HTML post pages at the repository root (`{slug}.html`).
+  3. Compiles the newsstand data at `posts.json` and `index.json`.
+  4. Generates Open Graph cover art in `og/{slug}.svg`.
+  5. Updates the podcast RSS feed at `podcast.xml`.
 
 ---
 
@@ -42,7 +42,7 @@ Each post JSON file MUST contain the following top-level fields:
 | `dek` | `string` | Yes | Article subheadline / summary deck. | `"Master the core 100 words every learner needs for everyday conversation."` |
 | `tags` | `string[]` | Yes | Topic tags for filtering. | `["Vocabulary", "Top 10 / Top 100", "A0–A1"]` |
 | `readingTime` | `number` | Yes | Reading time in minutes. | `5` |
-| `podcast` | `object` | Yes | Podcast metadata or audio player reference. | `{ "episode": 1, "audioUrl": "audio/top100-en.mp3" }` |
+| `podcast` | `object` | No | Optional podcast metadata. If present, `episode` must be a number. | `{ "episode": 1, "audioUrl": "audio/top100-en.mp3" }` |
 | `artDirection` | `object` | Yes | Design system palette, typography, and motif. | See Art Direction Object below |
 | `blocks` | `block[]` | Yes | Sequential array of content blocks. | See Content Block Types below |
 
@@ -114,7 +114,7 @@ Every block MAY include optional stage direction properties for automated audio 
 ## 4. Step-by-Step Publishing & Validation Workflow
 
 1. **Create the JSON file**:
-   Save a new JSON file in `blog/posts/{slug}.json`.
+  Save a new JSON file in `posts/{slug}.json`.
 
 2. **Validate Schema**:
    Run the schema validator to verify syntax, required fields, and block structures:
@@ -123,11 +123,11 @@ Every block MAY include optional stage direction properties for automated audio 
    ```
 
 3. **Build Blog HTML & Assets**:
-   Execute the static blog compiler:
+  Run the complete static-site build:
    ```bash
-   node scripts/build-blog.js
+  npm run build
    ```
-   This generates the HTML page in `blog/{slug}.html`, updates `blog/posts.json` and `blog/index.json`, and generates procedural cover art in `blog/og/{slug}.svg`.
+  This generates the HTML page in `{slug}.html`, updates `posts.json` and `index.json`, creates cover art in `og/{slug}.svg`, and updates `podcast.xml` and `sitemap.xml`.
 
 4. **Verify Tests**:
    Run the automated blog test suite:
@@ -139,7 +139,7 @@ Every block MAY include optional stage direction properties for automated audio 
 
 ## 5. Worked Example Post
 
-Below is a complete, minimal, valid example of a blog post JSON file (`blog/posts/sample-authoring-guide.json`):
+Below is a complete, minimal, valid example of a post JSON file (`posts/sample-authoring-guide.json`):
 
 ```json
 {
@@ -190,7 +190,7 @@ Below is a complete, minimal, valid example of a blog post JSON file (`blog/post
     },
     {
       "type": "paragraph",
-      "text": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post in <code>blog/posts/</code> and run the build script.",
+      "text": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post in <code>posts/</code> and run the build script.",
       "say": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post and run the build script."
     },
     {
@@ -203,9 +203,9 @@ Below is a complete, minimal, valid example of a blog post JSON file (`blog/post
     {
       "type": "quiz",
       "question": "Which folder holds the canonical source JSON files for blog posts?",
-      "options": ["/blog/posts/", "/blog/html/", "/blog/src/"],
+      "options": ["/posts/", "/html/", "/src/"],
       "correctIndex": 0,
-      "explanation": "All canonical post JSON files are located in blog/posts/.",
+      "explanation": "All canonical post JSON files are located in posts/.",
       "say": "Quick check: Which folder holds canonical post files?"
     }
   ]
@@ -227,10 +227,9 @@ To force a page turn in the flipbook, add a block `{ "type": "paragraph", "webOn
 
 Quiz blocks are interactive: the answer is revealed only after the reader taps an option.
 
-## Podcast episodes are always embedded
+## Podcast audio and RSS
 
-Paste **one link** per episode in `podcast`: `externalUrl` (Spotify, Spotify for Podcasters, Apple Podcasts, YouTube) or `iframeUrl` (an existing embed address such as Mave).
-`js/podcast-embed.js` turns it into the right player for both the static page and the browser. If no valid link is set, the page shows the "recording in production" notice and the build prints a warning.
+Podcast metadata is optional. The RSS generator includes a post only when its `podcast.audioUrl` points to an existing local audio file or an absolute HTTP(S) URL. Local audio assets are expected under `audio/`; posts without available audio remain regular articles and are omitted from the feed.
 
 ## Newsstand languages
 
