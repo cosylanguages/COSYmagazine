@@ -32,7 +32,7 @@ test('IssueDownload: handles not-entitled / forbidden access (403)', async () =>
     functions: {
       invoke: async (name, opts) => {
         assert.equal(name, 'get-issue-download-url');
-        assert.equal(opts.body.issue_id, 'Vol. 2026.08');
+        assert.equal(opts.body.volume_number, 'Vol. 2026.08');
         return {
           data: null,
           error: {
@@ -110,5 +110,5 @@ test('IssueDownload: succeeds and returns signed_url for authorized download', a
   const res = await IssueDownload.downloadIssue({ id: 'Vol. 2026.08', title: 'Get Ready for School' }, null, { client: fakeClient });
   assert.equal(res.success, true);
   assert.match(res.signed_url, /https:\/\/iajkejcmoykubthlwfra\.supabase\.co/);
-  assert.equal(invokedBody.issue_id, 'Vol. 2026.08');
+  assert.equal(invokedBody.volume_number, 'Vol. 2026.08');
 });

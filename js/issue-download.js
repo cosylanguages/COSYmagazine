@@ -236,7 +236,7 @@
 
     try {
       const response = await supabase.functions.invoke('get-issue-download-url', {
-        body: { issue_id: issueId }
+        body: { volume_number: issueId }
       });
 
       const { data, error } = response || {};

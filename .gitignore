@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 *.log
+/private-issues/
 
 # Python / test tooling caches
 __pycache__/
