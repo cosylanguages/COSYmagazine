@@ -813,6 +813,37 @@ html[data-theme="dark"] .preset-card .icon { color: var(--st-primary-ink); }
 .palette-card-label { font-size: 13px; font-weight: 650; }
 .palette-card-desc { font-size: 11.5px; line-height: 1.35; color: var(--st-ink-3); }
 
+.element-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.element-bar-label {
+  margin-right: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--st-ink-3);
+}
+.chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 10px;
+  background: var(--st-surface);
+  color: var(--st-ink-2);
+  border: 1px solid var(--st-line-strong);
+  border-radius: 999px;
+  font: 600 12px/1 var(--st-font-ui);
+  cursor: pointer;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+.chip-btn:hover { border-color: var(--st-primary); background: var(--st-primary-soft); color: var(--st-primary-ink); }
+
 .studio-block-card {
   margin-bottom: 12px;
   background: var(--st-surface);

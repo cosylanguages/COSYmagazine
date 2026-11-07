@@ -1332,6 +1332,97 @@
   ];
 
   /**
+   * Modular Element Presets (Publishing House Building Blocks)
+   * Designed to be directly inserted into both Magazine Issue spreads and standalone Website articles.
+   */
+  const MODULAR_ELEMENT_PRESETS = [
+    {
+      id: 'quote_pull',
+      label: 'Pullquote Highlight',
+      icon: '❝',
+      description: 'Stylized editorial quote with speaker attribution',
+      create: () => ({
+        type: 'pullquote',
+        quote: 'Fluency is not the absence of mistakes; it is the presence of communicative courage.',
+        attribution: 'COSY Publishing House',
+        say: 'Fluency is not the absence of mistakes, but the presence of communicative courage.'
+      })
+    },
+    {
+      id: 'callout_spark',
+      label: 'Research Spark Note',
+      icon: '💡',
+      description: 'Academic inquiry or cultural context note with research field tags',
+      create: () => ({
+        type: 'culture-bite',
+        title: '💡 Research Spark: Communicative Fluency vs Accuracy',
+        content: 'How does prioritizing communicative flow over real-time error correction affect adult second language retention?',
+        say: 'Consider this research question: how does communicative flow impact adult retention?'
+      })
+    },
+    {
+      id: 'table_comparison',
+      label: 'Comparative Matrix Table',
+      icon: '📊',
+      description: 'Side-by-side analytical table for language rules, arguments, or structures',
+      create: () => ({
+        type: 'table',
+        caption: 'Comparative Analysis Matrix',
+        printable: true,
+        headers: ['Concept / Feature', 'Approach A', 'Approach B'],
+        rows: [
+          ['Focus', 'Spontaneous communication', 'Mechanical grammar drills'],
+          ['Outcome', 'Rapid conversational confidence', 'High hesitation and speaking anxiety'],
+          ['Ideal For', 'Speaking clubs and real life', 'Written academic examination']
+        ],
+        say: 'Review the comparative analysis matrix to see the core differences.'
+      })
+    },
+    {
+      id: 'cards_vocabulary',
+      label: 'Vocabulary Upgrade Cards',
+      icon: '📋',
+      description: 'Upgrades from basic phrases to natural spoken expressions',
+      create: () => ({
+        type: 'list-item',
+        ordered: false,
+        items: [
+          'I don\'t know → Let me think about that for a second',
+          'Very interesting → Fascinating / Eye-opening',
+          'I think that → In my experience / As I see it'
+        ],
+        say: 'Use these phrase upgrades to make your speech sound more authentic and natural.'
+      })
+    },
+    {
+      id: 'audio_script_dialogue',
+      label: 'Dialogue & Audio Script',
+      icon: '🎙️',
+      description: 'Narrative dialogue paragraph with timing beat and spoken audio script',
+      create: () => ({
+        type: 'paragraph',
+        text: '**JY DM:** "When you step into a conversation, do not wait for the perfect sentence to form. The moment you share an approximate thought, human connection begins."',
+        beat: {
+          duration: 3500,
+          camera: 'focus'
+        },
+        say: 'When you step into a conversation, do not wait for the perfect sentence to form.'
+      })
+    }
+  ];
+
+  /**
+   * Factory function to create a modular element block by preset id
+   */
+  function createModularElementBlock(presetId) {
+    const preset = MODULAR_ELEMENT_PRESETS.find(p => p.id === presetId);
+    if (!preset) {
+      throw new Error(`Unknown modular preset "${presetId}". Allowed: ${MODULAR_ELEMENT_PRESETS.map(p => p.id).join(', ')}`);
+    }
+    return preset.create();
+  }
+
+  /**
    * Helper to deep clone an object
    */
   function clone(obj) {
@@ -1387,6 +1478,8 @@
   return {
     BLOCK_DEFINITIONS,
     ARTICLE_PRESETS,
+    MODULAR_ELEMENT_PRESETS,
+    createModularElementBlock,
     CANONICAL_ISSUES,
     CANONICAL_SECTIONS,
     createSectionTemplate,

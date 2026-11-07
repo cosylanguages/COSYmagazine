@@ -206,3 +206,20 @@ test('CosyEditor - readiness checks mirror the schema validator and flag editori
   // No article at all
   assert.equal(Editor.getReadiness(null)[0].level, 'error');
 });
+
+test('CosyEditor - Modular Elements Presets instantiate valid blog schema blocks', () => {
+  assert.ok(Array.isArray(Blocks.MODULAR_ELEMENT_PRESETS));
+  assert.strictEqual(Blocks.MODULAR_ELEMENT_PRESETS.length, 5);
+
+  Blocks.MODULAR_ELEMENT_PRESETS.forEach(preset => {
+    const block = Blocks.createModularElementBlock(preset.id);
+    assert.ok(block, `Preset ${preset.id} should return a block`);
+    assert.strictEqual(typeof block.type, 'string');
+
+    // Test that embedding into a valid article preset passes validatePostSchema
+    const samplePost = Blocks.ARTICLE_PRESETS[0].create({ language: 'en' });
+    samplePost.blocks.push(block);
+    const errors = validatePostSchema(samplePost, `test-${preset.id}.json`);
+    assert.deepStrictEqual(errors, [], `Modular block ${preset.id} failed validation: ${errors.join(', ')}`);
+  });
+});

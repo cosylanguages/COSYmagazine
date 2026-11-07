@@ -800,7 +800,7 @@
    */
   function setupEventListeners() {
     // Preset buttons
-    document.querySelectorAll('[data-preset]').forEach(btn => {
+    document.querySelectorAll('.preset-card[data-preset]').forEach(btn => {
       btn.addEventListener('click', async () => {
         const done = await withDiscardGuard(() => loadPreset(btn.getAttribute('data-preset')), 'Starting from a template');
         if (done) showTab('content');
@@ -838,6 +838,14 @@
         addBlock('links');
       });
     }
+
+    // Modular Elements Inserter Buttons
+    document.querySelectorAll('.studio-modular-insert-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const presetId = btn.getAttribute('data-preset');
+        insertModularElement(presetId);
+      });
+    });
 
     // Collapse All Blocks Button
     const collapseAllBtn = document.getElementById('studio-collapse-all-btn');
@@ -1394,6 +1402,34 @@
         const firstField = last.querySelector('[data-field]');
         if (firstField) firstField.focus({ preventScroll: true });
       }
+    }
+  }
+
+  function insertModularElement(presetId) {
+    if (!currentPost) {
+      setStatus('Open or create an article first.', 'error');
+      return;
+    }
+    if (!Blocks.createModularElementBlock) return;
+    try {
+      const newBlock = Blocks.createModularElementBlock(presetId);
+      currentPost.blocks = currentPost.blocks || [];
+      currentPost.blocks.push(newBlock);
+      collapsedBlockIndices.clear();
+      markDirty();
+      renderBlockList();
+      renderLivePreview();
+      const preset = (Blocks.MODULAR_ELEMENT_PRESETS || []).find(p => p.id === presetId);
+      setStatus(`Inserted "${preset ? preset.label : presetId}".`, 'info');
+      const cards = document.querySelectorAll('#studio-blocks-container .studio-block-card');
+      const last = cards[cards.length - 1];
+      if (last) {
+        last.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        const firstField = last.querySelector('[data-field]');
+        if (firstField) firstField.focus({ preventScroll: true });
+      }
+    } catch (err) {
+      setStatus(`Could not insert that element: ${err.message}`, 'error');
     }
   }
 
