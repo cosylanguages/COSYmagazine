@@ -1,22 +1,34 @@
-name: Upload Magazine PDF to Supabase
+name: Generate and Upload Magazine PDF to Supabase
 
 on:
   workflow_dispatch:
     inputs:
-      pdf_path:
-        description: 'Path to the PDF file in the repo or URL (e.g. magazines/vol-2026-08.pdf)'
+      action_mode:
+        description: 'Operation Mode'
+        type: choice
         required: true
-        default: 'magazines/august-2026.pdf'
+        default: 'generate_and_upload'
+        options:
+          - 'generate_and_upload'
+          - 'upload_existing_file'
       volume_number:
-        description: 'Volume number (e.g. "Vol. 2026.08") - leave empty to auto-detect from filename'
+        description: 'Volume number (e.g. "Vol. 2026.08")'
         required: false
-        default: ''
+        default: 'Vol. 2026.08'
+      source_html:
+        description: 'Source HTML file for generation (if generate_and_upload)'
+        required: false
+        default: 'private-issues/august-2026.html'
+      pdf_path:
+        description: 'Path to existing PDF file or URL (if upload_existing_file)'
+        required: false
+        default: 'magazines/august-2026.pdf'
       issue_title:
         description: 'Title of the Magazine Issue (optional)'
         required: false
         default: ''
       publish:
-        description: 'Publish immediately (true/false)'
+        description: 'Mark issue as published (true/false)'
         type: boolean
         required: true
         default: true
@@ -27,7 +39,7 @@ on:
       - 'private-issues/**.pdf'
 
 jobs:
-  upload-pdf:
+  build-and-upload-pdf:
     runs-on: ubuntu-latest
 
     steps:
@@ -45,8 +57,48 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
-      - name: Upload PDF triggered by Workflow Dispatch
-        if: github.event_name == 'workflow_dispatch'
+      - name: Install Playwright Chromium (for PDF generation on GitHub)
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate PDF on GitHub and upload to Supabase
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+          VOLUME_INPUT: ${{ inputs.volume_number }}
+          SOURCE_INPUT: ${{ inputs.source_html }}
+          TITLE_INPUT: ${{ inputs.issue_title }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          mkdir -p private-issues
+          OUTPUT_PDF="private-issues/generated-${VOLUME_INPUT//[^a-zA-Z0-9.-]/_}.pdf"
+
+          echo "Generating PDF directly on GitHub from: $SOURCE_INPUT..."
+          CMD_ARGS=(--output "$OUTPUT_PDF")
+          if [ -n "$SOURCE_INPUT" ]; then
+            CMD_ARGS+=(--source "$SOURCE_INPUT")
+          fi
+          if [ -n "$VOLUME_INPUT" ]; then
+            CMD_ARGS+=(--volume "$VOLUME_INPUT")
+          fi
+
+          # If the source HTML file does not exist locally, build draft if available
+          if [ ! -f "$SOURCE_INPUT" ] && [ -f "scripts/build-issue-08-full-draft.js" ]; then
+            echo "Running draft compilation script..."
+            node scripts/build-issue-08-full-draft.js || true
+          fi
+
+          node scripts/publish-issue-pdf.js "${CMD_ARGS[@]}"
+
+      - name: Upload existing PDF triggered by Workflow Dispatch
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'upload_existing_file'
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -63,7 +115,6 @@ jobs:
 
           FILE_PATH="$PDF_INPUT"
 
-          # If the input is a web URL, download it first
           if [[ "$FILE_PATH" =~ ^https?:// ]]; then
             echo "Downloading PDF from URL: $FILE_PATH"
             mkdir -p /tmp/magazine-uploads
@@ -102,7 +153,6 @@ jobs:
             exit 0
           fi
 
-          # Detect modified or added PDF files in the commit
           CHANGED_PDFS=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep -E '^(magazines|private-issues)/.*\.pdf$' || true)
 
           if [ -z "$CHANGED_PDFS" ]; then

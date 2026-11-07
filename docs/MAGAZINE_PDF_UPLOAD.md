@@ -18,16 +18,17 @@ In your GitHub repository:
 
 ### 2. Triggering via GitHub Actions Web UI
 1. Go to the **Actions** tab in GitHub.
-2. Select **Upload Magazine PDF to Supabase** on the left sidebar.
+2. Select **Generate and Upload Magazine PDF to Supabase** on the left sidebar.
 3. Click the **Run workflow** dropdown on the right.
-4. Fill in the options:
-   - **Path to the PDF file or URL**:
-     - A repo path (e.g. `magazines/vol-2026-08.pdf`), or
-     - A web URL to your PDF file (e.g. Google Drive direct download link or cloud link).
-   - **Volume number**: e.g. `Vol. 2026.08` (leave blank to auto-detect from filename).
+4. Choose your **Operation Mode**:
+   - **`generate_and_upload`** *(Default)*: Compiles/creates the PDF directly on the GitHub runner using headless Playwright from your magazine HTML sources and pushes the result directly to Supabase storage.
+   - **`upload_existing_file`**: Takes an existing pre-built PDF from a file path or URL and pushes it.
+5. Configure parameters:
+   - **Volume number**: e.g. `Vol. 2026.08`
+   - **Source HTML**: e.g. `private-issues/august-2026.html`
    - **Issue Title**: e.g. `Get Ready for School` (optional).
    - **Publish immediately**: Checked (`true`) by default.
-5. Click **Run workflow**.
+6. Click **Run workflow**.
 
 The workflow will:
 - Validate that the file is a genuine PDF.
