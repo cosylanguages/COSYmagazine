@@ -69,3 +69,75 @@ test('CosyCMSAuth - Founder role recognition', () => {
   assert.equal(Auth.isFounderRole(''), false);
   assert.equal(Auth.isFounderRole(null), false);
 });
+
+test('CosyEditor - Canonical Issues and 19-part Section Templates generate valid SCHEMA.md payloads', () => {
+  const issues = Blocks.CANONICAL_ISSUES;
+  assert.ok(Array.isArray(issues) && issues.length >= 7, 'Must define canonical magazine issues');
+
+  const sections = Blocks.CANONICAL_SECTIONS;
+  assert.equal(sections.length, 19, 'Must define 19 standardized canonical magazine sections');
+
+  sections.forEach(sec => {
+    const postPayload = Blocks.createSectionTemplate(sec.id, {
+      language: 'en',
+      issueNumber: 'Vol. 2026.08',
+      issueTitle: 'Get Ready for School'
+    });
+
+    assert.equal(postPayload.section, sec.id);
+    assert.ok(postPayload.blocks.length > 0, `Section ${sec.id} must have content blocks`);
+
+    const errors = validatePostSchema(postPayload, `${sec.id}.json`);
+    assert.equal(errors.length, 0, `Section template ${sec.id} failed schema validation: ${errors.join('; ')}`);
+  });
+});
+
+test('CosyEditor - Constructor Mode Switching & Website Mode "Part of a Magazine" toggle', () => {
+  const Editor = require('../js/editor.js');
+
+  // Test Mode Switching
+  Editor.setConstructorMode('website');
+  assert.equal(Editor.getConstructorMode(), 'website');
+
+  Editor.setConstructorMode('magazine');
+  assert.equal(Editor.getConstructorMode(), 'magazine');
+
+  // Load sample post
+  const sample = Blocks.ARTICLE_PRESETS[0].create({ language: 'en' });
+  Editor.setCurrentPost(sample);
+
+  // Switch to Website mode
+  Editor.setConstructorMode('website');
+
+  // Untick "Part of a Magazine"
+  Editor.setMagazinePart(false);
+  assert.equal(Editor.getIsMagazinePart(), false);
+  const detachedPost = Editor.getCurrentPost();
+  assert.equal(detachedPost.issue.number, 'Website / Standalone');
+
+  // Retick "Part of a Magazine"
+  Editor.setMagazinePart(true);
+  assert.equal(Editor.getIsMagazinePart(), true);
+  const reattachedPost = Editor.getCurrentPost();
+  assert.ok(reattachedPost.issue.number.startsWith('Vol.'));
+});
+
+test('CosyEditor - Direct Issue Management (create and edit new issues)', () => {
+  const Editor = require('../js/editor.js');
+
+  const initialIssues = Editor.getManagedIssues();
+  assert.ok(initialIssues.length >= 7);
+
+  // Test setting active issue
+  const customIssue = {
+    id: 'vol-2027-04',
+    number: 'Vol. 2027.04',
+    title: 'Spring Renaissance',
+    theme: 'Exploration and communicative flowering',
+    date: '2027-04-15',
+    palette: ['#059669', '#faf7f2', '#1c1917', '#10b981']
+  };
+
+  Editor.setActiveIssue(customIssue);
+  assert.equal(Editor.getActiveIssue().number, 'Vol. 2027.04');
+});

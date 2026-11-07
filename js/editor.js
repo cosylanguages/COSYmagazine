@@ -7,8 +7,12 @@
 (function () {
   'use strict';
 
-  const Blocks = window.CosyEditorBlocks;
-  const Auth = window.CosyCMSAuth;
+  const Blocks = typeof window !== 'undefined' && window.CosyEditorBlocks
+    ? window.CosyEditorBlocks
+    : (typeof require !== 'undefined' ? require('./editor-blocks.js') : {});
+  const Auth = typeof window !== 'undefined' && window.CosyCMSAuth
+    ? window.CosyCMSAuth
+    : (typeof require !== 'undefined' ? require('./cms-auth.js') : {});
 
   // Supported ISO languages across COSYmagazine
   const LANGUAGES = [
@@ -69,6 +73,14 @@
   // Active Post State
   let currentPost = null;
   let currentUser = null;
+  let constructorMode = 'magazine'; // 'magazine' | 'website'
+  let isMagazinePart = true;
+  let activeIssue = (Blocks && Blocks.CANONICAL_ISSUES && Blocks.CANONICAL_ISSUES[0])
+    ? Blocks.clone(Blocks.CANONICAL_ISSUES[0])
+    : null;
+  let managedIssues = (Blocks && Blocks.CANONICAL_ISSUES)
+    ? Blocks.CANONICAL_ISSUES.map(iss => Blocks.clone(iss))
+    : [];
   let catalogPosts = [];
   let deletedBlockBackup = null; // for undo functionality
   let collapsedBlockIndices = new Set();
@@ -77,8 +89,12 @@
    * Initialize Studio App
    */
   async function init() {
+    initIssuesList();
+    initCanonicalSectionsUI();
     setupAuthListeners();
     setupEventListeners();
+    setupConstructorModeListeners();
+    setupIssueManagerListeners();
     setupKeyboardShortcuts();
     await loadCatalogPosts();
 
@@ -88,8 +104,16 @@
       updateAuthUI(currentUser);
     }
 
-    // Load initial post from URL parameter, or preset
+    // Check mode from URL parameter if provided
     const params = new URLSearchParams(window.location.search);
+    const modeParam = params.get('mode');
+    if (modeParam === 'website') {
+      setConstructorMode('website');
+    } else {
+      setConstructorMode('magazine');
+    }
+
+    // Load initial post from URL parameter, or preset
     const postSlug = params.get('slug');
     if (postSlug) {
       await loadPostBySlug(postSlug);
@@ -97,6 +121,62 @@
       // Default to Saturday Mistakes Preset
       loadPreset('preset-saturday-mistakes');
     }
+  }
+
+  function initIssuesList() {
+    const canonical = (Blocks && Blocks.CANONICAL_ISSUES) ? Blocks.CANONICAL_ISSUES : [];
+    // Clone so user edits in session don't corrupt module definition
+    managedIssues = canonical.map(item => Blocks.clone(item));
+    activeIssue = managedIssues[0] || {
+      id: 'vol-2026-08',
+      number: 'Vol. 2026.08',
+      title: 'Get Ready for School',
+      theme: 'Foundations, Beginnings, Pedagogy & The Science of Early Acquisition',
+      date: '2026-08-15',
+      palette: ['#993c1d', '#faf7f2', '#1c1917', '#0f6e56']
+    };
+    populateIssueSelector();
+    updateActiveIssueDisplay();
+  }
+
+  function populateIssueSelector() {
+    const sel = document.getElementById('studio-issue-selector');
+    if (!sel) return;
+    sel.innerHTML = managedIssues.map(iss => `
+      <option value="${escapeHtml(iss.id)}" ${activeIssue && activeIssue.id === iss.id ? 'selected' : ''}>
+        ${escapeHtml(iss.number)} — ${escapeHtml(iss.title)}
+      </option>
+    `).join('');
+  }
+
+  function updateActiveIssueDisplay() {
+    const volBadge = document.getElementById('active-issue-vol-badge');
+    const titleHeading = document.getElementById('active-issue-title-heading');
+    const themeText = document.getElementById('active-issue-theme-text');
+    if (volBadge && activeIssue) volBadge.textContent = activeIssue.number;
+    if (titleHeading && activeIssue) titleHeading.textContent = activeIssue.title;
+    if (themeText && activeIssue) themeText.textContent = activeIssue.theme || '';
+  }
+
+  function initCanonicalSectionsUI() {
+    const sel = document.getElementById('studio-section-selector');
+    const hint = document.getElementById('studio-section-desc-hint');
+    if (!sel) return;
+
+    const sections = (Blocks && Blocks.CANONICAL_SECTIONS) ? Blocks.CANONICAL_SECTIONS : [];
+    sel.innerHTML = sections.map(s => `
+      <option value="${escapeHtml(s.id)}">${escapeHtml(s.name)} [${escapeHtml(s.desk)}]</option>
+    `).join('');
+
+    const updateHint = () => {
+      const selected = sections.find(s => s.id === sel.value);
+      if (hint && selected) {
+        hint.textContent = `${selected.description} (Kicker: ${selected.kicker} • Format: ${selected.format})`;
+      }
+    };
+
+    sel.addEventListener('change', updateHint);
+    updateHint();
   }
 
   /**
@@ -454,6 +534,7 @@
   }
 
   function populateMetadataForm(post) {
+    if (typeof document === 'undefined') return;
     const set = (id, val) => {
       const el = document.getElementById(id);
       if (el) el.value = val !== undefined && val !== null ? val : '';
@@ -473,6 +554,310 @@
     set('meta-issue-number', (post.issue && post.issue.number) || 'Vol. 2026.12');
     set('meta-issue-title', (post.issue && post.issue.title) || 'December Issue');
     set('meta-podcast-ep', (post.podcast && post.podcast.episode) || 1);
+
+    // Synchronize magazine part checkbox in Website Mode
+    const magCheck = document.getElementById('studio-is-magazine-part-check');
+    if (magCheck) {
+      const isStandalone = post.issue && (
+        post.issue.number === 'Website / Standalone' ||
+        post.issue.number === 'Podcast Special' ||
+        post.issue.number === 'Standalone'
+      );
+      isMagazinePart = !isStandalone;
+      magCheck.checked = isMagazinePart;
+      updateMagazinePartUI(isMagazinePart);
+    }
+  }
+
+  function setupConstructorModeListeners() {
+    const magBtn = document.getElementById('studio-mode-magazine-btn');
+    const webBtn = document.getElementById('studio-mode-website-btn');
+
+    if (magBtn) {
+      magBtn.addEventListener('click', () => setConstructorMode('magazine'));
+    }
+    if (webBtn) {
+      webBtn.addEventListener('click', () => setConstructorMode('website'));
+    }
+
+    // Website Mode Checkbox: Part of a Magazine
+    const magCheck = document.getElementById('studio-is-magazine-part-check');
+    if (magCheck) {
+      magCheck.addEventListener('change', () => {
+        setMagazinePart(magCheck.checked);
+      });
+    }
+
+    // Section Selector Apply button
+    const applySecBtn = document.getElementById('studio-apply-section-btn');
+    if (applySecBtn) {
+      applySecBtn.addEventListener('click', () => {
+        const sel = document.getElementById('studio-section-selector');
+        if (sel && sel.value) {
+          applyCanonicalSection(sel.value);
+        }
+      });
+    }
+  }
+
+  function setConstructorMode(mode) {
+    constructorMode = mode === 'website' ? 'website' : 'magazine';
+
+    if (typeof document !== 'undefined') {
+      const magBtn = document.getElementById('studio-mode-magazine-btn');
+      const webBtn = document.getElementById('studio-mode-website-btn');
+      const magPanel = document.getElementById('workbench-issue-mode-panel');
+      const webPanel = document.getElementById('workbench-website-mode-panel');
+
+      if (magBtn) {
+        magBtn.classList.toggle('is-active', constructorMode === 'magazine');
+        magBtn.setAttribute('aria-selected', constructorMode === 'magazine');
+      }
+      if (webBtn) {
+        webBtn.classList.toggle('is-active', constructorMode === 'website');
+        webBtn.setAttribute('aria-selected', constructorMode === 'website');
+      }
+
+      if (magPanel) magPanel.style.display = constructorMode === 'magazine' ? 'block' : 'none';
+      if (webPanel) webPanel.style.display = constructorMode === 'website' ? 'block' : 'none';
+
+      if (constructorMode === 'website') {
+        const magCheck = document.getElementById('studio-is-magazine-part-check');
+        if (magCheck) {
+          updateMagazinePartUI(magCheck.checked);
+        }
+      }
+    }
+
+    if (constructorMode === 'magazine') {
+      // In Magazine mode, ensure post has active issue
+      if (activeIssue && currentPost) {
+        currentPost.issue = currentPost.issue || {};
+        currentPost.issue.number = activeIssue.number;
+        currentPost.issue.title = activeIssue.title;
+        populateMetadataForm(currentPost);
+      }
+    }
+
+    renderLivePreview();
+    setStatus(`Switched to ${constructorMode === 'magazine' ? 'Magazine Issue Constructor' : 'Website Article Constructor'}`, 'info');
+  }
+
+  function setMagazinePart(checked) {
+    isMagazinePart = checked;
+    updateMagazinePartUI(checked);
+
+    if (!currentPost) return;
+
+    if (!checked) {
+      // Decouple from magazine issue
+      currentPost.issue = {
+        number: 'Website / Standalone',
+        title: 'COSY Standalone Article'
+      };
+      setStatus('Article set as standalone website piece (unticked magazine issue).', 'info');
+    } else {
+      // Recouple to active issue
+      if (activeIssue) {
+        currentPost.issue = {
+          number: activeIssue.number,
+          title: activeIssue.title
+        };
+      } else {
+        currentPost.issue = {
+          number: 'Vol. 2026.08',
+          title: 'Get Ready for School'
+        };
+      }
+      setStatus(`Article linked to magazine edition: ${currentPost.issue.number}`, 'success');
+    }
+
+    populateMetadataForm(currentPost);
+    renderLivePreview();
+  }
+
+  function updateMagazinePartUI(isLinked) {
+    if (typeof document === 'undefined') return;
+    const statusText = document.getElementById('studio-website-mode-status');
+    const issueNumInput = document.getElementById('meta-issue-number');
+    const issueTitleInput = document.getElementById('meta-issue-title');
+
+    if (statusText) {
+      statusText.textContent = isLinked
+        ? 'Linked with magazine: this article will be included in the magazine volume issue.'
+        : 'Currently standalone: article will not be grouped under a magazine volume.';
+      statusText.style.color = isLinked ? '#34d399' : '#94a3b8';
+    }
+
+    if (issueNumInput) issueNumInput.disabled = !isLinked;
+    if (issueTitleInput) issueTitleInput.disabled = !isLinked;
+  }
+
+  function applyCanonicalSection(sectionId) {
+    if (!Blocks.createSectionTemplate) return;
+
+    const opts = {
+      language: (currentPost && currentPost.language) || 'en',
+      issueNumber: (activeIssue && activeIssue.number) || (currentPost && currentPost.issue && currentPost.issue.number) || 'Vol. 2026.08',
+      issueTitle: (activeIssue && activeIssue.title) || (currentPost && currentPost.issue && currentPost.issue.title) || 'Get Ready for School',
+      date: (currentPost && currentPost.date) || new Date().toISOString().slice(0, 10),
+      palette: (activeIssue && activeIssue.palette) || ['#993c1d', '#faf7f2', '#1c1917', '#0f6e56']
+    };
+
+    const sectionPost = Blocks.createSectionTemplate(sectionId, opts);
+    setCurrentPost(sectionPost);
+    setStatus(`Constructed canonical section: ${sectionPost.title}`, 'success');
+  }
+
+  function setupIssueManagerListeners() {
+    // Issue selector change
+    const issueSel = document.getElementById('studio-issue-selector');
+    if (issueSel) {
+      issueSel.addEventListener('change', () => {
+        const found = managedIssues.find(i => i.id === issueSel.value);
+        if (found) {
+          activeIssue = found;
+          updateActiveIssueDisplay();
+          if (currentPost) {
+            currentPost.issue = {
+              number: activeIssue.number,
+              title: activeIssue.title
+            };
+            if (activeIssue.palette) {
+              currentPost.artDirection = currentPost.artDirection || {};
+              currentPost.artDirection.palette = Blocks.clone(activeIssue.palette);
+            }
+            populateMetadataForm(currentPost);
+            renderLivePreview();
+          }
+          setStatus(`Active edition set to ${activeIssue.number} — ${activeIssue.title}`, 'info');
+        }
+      });
+    }
+
+    // Create New Issue button
+    const createBtn = document.getElementById('studio-create-issue-btn');
+    if (createBtn) {
+      createBtn.addEventListener('click', () => {
+        openIssueModal('create');
+      });
+    }
+
+    // Edit Current Issue button
+    const editBtn = document.getElementById('studio-edit-issue-btn');
+    if (editBtn) {
+      editBtn.addEventListener('click', () => {
+        if (activeIssue) {
+          openIssueModal('edit', activeIssue);
+        }
+      });
+    }
+
+    // Issue Modal Close
+    const modalClose = document.getElementById('studio-issue-modal-close');
+    const modal = document.getElementById('studio-issue-modal');
+    if (modalClose && modal) {
+      modalClose.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    }
+
+    // Issue Modal Form Submit
+    const form = document.getElementById('studio-issue-form');
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        saveIssueFromModal();
+      });
+    }
+  }
+
+  function openIssueModal(mode, issueData = null) {
+    const modal = document.getElementById('studio-issue-modal');
+    const heading = document.getElementById('studio-issue-modal-heading');
+    const modeInput = document.getElementById('issue-modal-mode');
+    const idInput = document.getElementById('issue-modal-id');
+    const volInput = document.getElementById('issue-modal-volume');
+    const titleInput = document.getElementById('issue-modal-title');
+    const themeInput = document.getElementById('issue-modal-theme');
+    const dateInput = document.getElementById('issue-modal-date');
+    const colorInput = document.getElementById('issue-modal-color');
+
+    if (!modal) return;
+
+    modeInput.value = mode;
+
+    if (mode === 'edit' && issueData) {
+      heading.textContent = `Edit Issue: ${issueData.number}`;
+      idInput.value = issueData.id;
+      volInput.value = issueData.number || '';
+      titleInput.value = issueData.title || '';
+      themeInput.value = issueData.theme || '';
+      dateInput.value = issueData.date || '';
+      colorInput.value = (issueData.palette && issueData.palette[0]) || '#993c1d';
+    } else {
+      heading.textContent = 'Create New Magazine Issue';
+      idInput.value = `vol-${Date.now()}`;
+      volInput.value = '';
+      titleInput.value = '';
+      themeInput.value = '';
+      dateInput.value = new Date().toISOString().slice(0, 10);
+      colorInput.value = '#0284c7';
+    }
+
+    modal.style.display = 'flex';
+  }
+
+  function saveIssueFromModal() {
+    const modal = document.getElementById('studio-issue-modal');
+    const mode = document.getElementById('issue-modal-mode').value;
+    const id = document.getElementById('issue-modal-id').value;
+    const volume = document.getElementById('issue-modal-volume').value.trim();
+    const title = document.getElementById('issue-modal-title').value.trim();
+    const theme = document.getElementById('issue-modal-theme').value.trim();
+    const date = document.getElementById('issue-modal-date').value;
+    const color = document.getElementById('issue-modal-color').value;
+
+    if (!volume || !title) return;
+
+    let targetIssue;
+    if (mode === 'edit') {
+      targetIssue = managedIssues.find(i => i.id === id);
+      if (targetIssue) {
+        targetIssue.number = volume;
+        targetIssue.title = title;
+        targetIssue.theme = theme;
+        targetIssue.date = date;
+        targetIssue.palette = [color, '#faf7f2', '#1c1917', '#0f6e56'];
+      }
+    } else {
+      targetIssue = {
+        id: id || `issue-${Date.now()}`,
+        number: volume,
+        title: title,
+        theme: theme,
+        date: date,
+        palette: [color, '#faf7f2', '#1c1917', '#0f6e56']
+      };
+      managedIssues.push(targetIssue);
+    }
+
+    activeIssue = targetIssue;
+    populateIssueSelector();
+    updateActiveIssueDisplay();
+
+    // Sync with current post
+    if (currentPost) {
+      currentPost.issue = {
+        number: activeIssue.number,
+        title: activeIssue.title
+      };
+      populateMetadataForm(currentPost);
+      renderLivePreview();
+    }
+
+    if (modal) modal.style.display = 'none';
+    setStatus(`Saved magazine issue: ${volume} — ${title}`, 'success');
   }
 
   /**
@@ -587,6 +972,7 @@
    * Render Block Cards in Workbench
    */
   function renderBlockList() {
+    if (typeof document === 'undefined') return;
     const container = document.getElementById('studio-blocks-container');
     if (!container) return;
 
@@ -1019,6 +1405,7 @@
    * Live Gazette Spread Rendering Engine
    */
   function renderLivePreview() {
+    if (typeof document === 'undefined') return;
     const previewRoot = document.getElementById('studio-preview-root');
     if (!previewRoot || !currentPost) return;
 
@@ -1036,22 +1423,30 @@
       });
     }).join('\n');
 
-    const issueText = `${currentPost.issue?.number || 'Vol. 2026.12'} • ${currentPost.issue?.title || 'Editorial Issue'}`;
+    const isWebsiteStandalone = constructorMode === 'website' && !isMagazinePart;
+    const issueText = isWebsiteStandalone
+      ? '🌐 COSY Website / Standalone'
+      : `${currentPost.issue?.number || 'Vol. 2026.12'} • ${currentPost.issue?.title || 'Editorial Issue'}`;
+
+    const sectionBadge = currentPost.section
+      ? `<span class="stamp-sticker" style="background:#0f6e56; color:#ffffff;">${escapeHtml(currentPost.section.replace(/_/g, ' '))}</span>`
+      : '';
 
     previewRoot.innerHTML = `
-      <div class="gazette-wrapper gazette-container format-${escapeHtml(currentPost.format || 'essay')}">
+      <div class="gazette-wrapper gazette-container format-${escapeHtml(currentPost.format || 'essay')} ${isWebsiteStandalone ? 'is-website-standalone' : 'is-magazine-edition'}">
         <header class="gazette-masthead">
           <div class="gazette-masthead-top">
             <div class="gazette-masthead-left">
-              <span>COSYMAGAZINE</span>
+              <span>${isWebsiteStandalone ? 'COSYLANGUAGES WEB' : 'COSYMAGAZINE DIGITAL EDITION'}</span>
             </div>
             <div class="gazette-masthead-links">
-              <span>Preview Mode</span>
+              <span>${constructorMode === 'magazine' ? '📖 Magazine Spread Preview' : '🌐 Website Preview'}</span>
             </div>
           </div>
           <div class="gazette-masthead-meta">
             <span>${escapeHtml(issueText)}</span>
             <span class="stamp-sticker">${escapeHtml(currentPost.desk || 'Words')}</span>
+            ${sectionBadge}
             <span>${escapeHtml(currentPost.date || '')}</span>
           </div>
         </header>
@@ -1429,6 +1824,7 @@
   }
 
   function setStatus(msg, type = 'info') {
+    if (typeof document === 'undefined') return;
     const bar = document.getElementById('studio-status-bar');
     if (!bar) return;
     bar.textContent = msg;
@@ -1476,6 +1872,16 @@
     calculateArticleStats,
     undoDeleteBlock,
     applyFormatting,
+    setConstructorMode,
+    getConstructorMode: () => constructorMode,
+    setMagazinePart,
+    getIsMagazinePart: () => isMagazinePart,
+    applyCanonicalSection,
+    getManagedIssues: () => managedIssues,
+    getActiveIssue: () => activeIssue,
+    setActiveIssue: (issue) => { activeIssue = issue; },
+    openIssueModal,
+    saveIssueFromModal,
     LANGUAGES,
     DESKS,
     LEVELS,

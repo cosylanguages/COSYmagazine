@@ -37,6 +37,16 @@
         </div>
 
         <div class="studio-header-actions">
+            <!-- Constructor Mode Selector -->
+            <div class="studio-mode-toggle" role="tablist" aria-label="Constructor Workspace Mode">
+                <button type="button" id="studio-mode-magazine-btn" class="studio-mode-btn is-active" data-mode="magazine" role="tab" aria-selected="true">
+                    📖 Magazine Issue Mode
+                </button>
+                <button type="button" id="studio-mode-website-btn" class="studio-mode-btn" data-mode="website" role="tab" aria-selected="false">
+                    🌐 Website Mode
+                </button>
+            </div>
+
             <span id="studio-status-bar" class="studio-status"></span>
             <button type="button" id="studio-save-live-btn" class="studio-btn studio-btn-success" disabled>💾 Save & Publish Live</button>
             <button type="button" id="studio-upload-pdf-btn" class="studio-btn studio-btn-primary" disabled title="Upload magazine PDF directly to Supabase storage">📤 Upload Magazine PDF</button>
@@ -55,6 +65,65 @@
 
         <!-- Left Panel: Builder Workbench -->
         <aside class="studio-workbench">
+
+            <!-- Magazine Issue Mode Constructor Section -->
+            <div id="workbench-issue-mode-panel" class="workbench-section constructor-mode-panel">
+                <div class="workbench-section-title">
+                    <span>📚 Magazine Issue Constructor</span>
+                    <div style="display: flex; gap: 6px;">
+                        <button type="button" id="studio-create-issue-btn" class="studio-btn studio-btn-primary" style="padding: 3px 8px; font-size: 0.74rem;">
+                            ➕ New Issue
+                        </button>
+                        <button type="button" id="studio-edit-issue-btn" class="studio-btn" style="padding: 3px 8px; font-size: 0.74rem;">
+                            ✏️ Edit Issue
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Active Magazine Edition:</label>
+                    <select id="studio-issue-selector" class="form-control"></select>
+                </div>
+
+                <div id="studio-active-issue-card" class="studio-active-issue-card">
+                    <div class="active-issue-row">
+                        <span id="active-issue-vol-badge" class="active-issue-badge">Vol. 2026.08</span>
+                        <strong id="active-issue-title-heading">Get Ready for School</strong>
+                    </div>
+                    <p id="active-issue-theme-text" class="active-issue-theme">Foundations, Beginnings, Pedagogy & The Science of Early Acquisition</p>
+                </div>
+
+                <div class="form-group" style="margin-top: 1rem; margin-bottom: 0;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+                        <label style="margin: 0;">Canonical Section Selector (19-Part Anatomy):</label>
+                        <button type="button" id="studio-apply-section-btn" class="studio-btn studio-btn-primary" style="padding: 2px 8px; font-size: 0.72rem;">
+                            ⚡ Construct Section
+                        </button>
+                    </div>
+                    <select id="studio-section-selector" class="form-control"></select>
+                    <div id="studio-section-desc-hint" class="studio-hint-text"></div>
+                </div>
+            </div>
+
+            <!-- Website Mode Constructor Section -->
+            <div id="workbench-website-mode-panel" class="workbench-section constructor-mode-panel" style="display: none;">
+                <div class="workbench-section-title">
+                    <span>🌐 Website Article Constructor</span>
+                    <span class="studio-badge badge-member">Independent Mode</span>
+                </div>
+                <p style="font-size: 0.8rem; color: #94a3b8; margin: 0 0 0.85rem;">
+                    Working with standalone website articles, podcast scripts, and digital guides.
+                </p>
+                <div class="form-group" style="background: #0b1120; border: 1px solid #334155; border-radius: 6px; padding: 10px;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; text-transform: none; color: #f8fafc; font-size: 0.85rem; margin-bottom: 0;">
+                        <input type="checkbox" id="studio-is-magazine-part-check" style="width: 16px; height: 16px; cursor: pointer;">
+                        <span><strong>Part of a Magazine Issue</strong> (Tick to link with a volume, untick for standalone website piece)</span>
+                    </label>
+                    <p id="studio-website-mode-status" style="margin: 6px 0 0 24px; font-size: 0.75rem; color: #94a3b8;">
+                        Currently standalone: article will not be grouped under a magazine volume.
+                    </p>
+                </div>
+            </div>
 
             <!-- Presets Section -->
             <div class="workbench-section">
@@ -247,6 +316,48 @@
             <div class="studio-preview-wrapper" id="studio-preview-root"></div>
         </main>
 
+    </div>
+
+    <!-- Issue Create & Edit Modal -->
+    <div id="studio-issue-modal" class="studio-modal-overlay" style="display: none;">
+        <div class="studio-modal-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3 id="studio-issue-modal-heading" style="margin: 0; font-size: 1.15rem; color: #ffffff;">Create New Magazine Issue</h3>
+                <button type="button" id="studio-issue-modal-close" style="background: none; border: none; color: #94a3b8; font-size: 1.25rem; cursor: pointer;">✕</button>
+            </div>
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 0; margin-bottom: 1.25rem;">
+                Define or update edition metadata across the studio constructor and live preview.
+            </p>
+            <form id="studio-issue-form">
+                <input type="hidden" id="issue-modal-mode" value="create">
+                <input type="hidden" id="issue-modal-id" value="">
+                <div class="form-group">
+                    <label>Volume Number (e.g. Vol. 2027.03)</label>
+                    <input type="text" id="issue-modal-volume" class="form-control" placeholder="Vol. 2027.03" required>
+                </div>
+                <div class="form-group">
+                    <label>Issue Title (e.g. Spring Renewal)</label>
+                    <input type="text" id="issue-modal-title" class="form-control" placeholder="Spring Renewal" required>
+                </div>
+                <div class="form-group">
+                    <label>Core Theme / Editorial Motto</label>
+                    <textarea id="issue-modal-theme" class="form-control" rows="2" placeholder="Conversational agility, creative expression, and stepping outside comfort zones..."></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Publication Date</label>
+                        <input type="date" id="issue-modal-date" class="form-control">
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Primary Palette Accent</label>
+                        <input type="color" id="issue-modal-color" class="form-control" value="#993c1d" style="height: 38px; padding: 2px;">
+                    </div>
+                </div>
+                <button type="submit" id="studio-issue-submit-btn" class="studio-btn studio-btn-primary" style="width: 100%; justify-content: center; padding: 10px; margin-top: 0.5rem;">
+                    💾 Save Magazine Issue
+                </button>
+            </form>
+        </div>
     </div>
 
     <!-- Magazine PDF Upload Modal -->
