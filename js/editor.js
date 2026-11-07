@@ -212,6 +212,7 @@
     const loginBtn = document.getElementById('studio-login-btn');
     const logoutBtn = document.getElementById('studio-logout-btn');
     const saveLiveBtn = document.getElementById('studio-save-live-btn');
+    const uploadPdfBtn = document.getElementById('studio-upload-pdf-btn');
 
     const isFounder = user && user.isFounder;
 
@@ -238,6 +239,12 @@
       saveLiveBtn.title = isFounder
         ? 'Upsert live changes to Supabase'
         : 'Sign in as Founder to publish live to Supabase';
+    }
+    if (uploadPdfBtn) {
+      uploadPdfBtn.disabled = !isFounder;
+      uploadPdfBtn.title = isFounder
+        ? 'Upload magazine PDF directly to Supabase storage'
+        : 'Sign in as Founder to upload magazine PDFs to Supabase';
     }
   }
 
@@ -355,6 +362,9 @@
     if (saveLiveBtn) {
       saveLiveBtn.addEventListener('click', saveToSupabase);
     }
+
+    // Upload Magazine PDF Modal & Form
+    setupPdfUploadModal();
 
     // Import JSON File
     const importInput = document.getElementById('studio-file-import');
@@ -1225,6 +1235,134 @@
       setStatus('Article JSON copied to clipboard!', 'success');
     } catch (e) {
       setStatus('Could not copy JSON to clipboard.', 'error');
+    }
+  }
+
+  function setupPdfUploadModal() {
+    const uploadBtn = document.getElementById('studio-upload-pdf-btn');
+    const modal = document.getElementById('studio-pdf-modal');
+    const closeBtn = document.getElementById('studio-pdf-modal-close');
+    const form = document.getElementById('studio-pdf-upload-form');
+    const fileInput = document.getElementById('studio-pdf-file-input');
+    const volumeInput = document.getElementById('studio-pdf-volume-input');
+    const titleInput = document.getElementById('studio-pdf-title-input');
+    const publishCheck = document.getElementById('studio-pdf-publish-check');
+    const statusMsg = document.getElementById('studio-pdf-status-msg');
+    const submitBtn = document.getElementById('studio-pdf-submit-btn');
+
+    if (uploadBtn && modal) {
+      uploadBtn.addEventListener('click', () => {
+        modal.style.display = 'flex';
+        if (statusMsg) statusMsg.innerHTML = '';
+        if (currentPost && currentPost.issue) {
+          if (volumeInput && currentPost.issue.number) volumeInput.value = currentPost.issue.number;
+          if (titleInput && currentPost.issue.title) titleInput.value = currentPost.issue.title;
+        }
+      });
+    }
+
+    if (closeBtn && modal) {
+      closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    }
+
+    if (fileInput && volumeInput) {
+      fileInput.addEventListener('change', () => {
+        const file = fileInput.files && fileInput.files[0];
+        if (file && !volumeInput.value) {
+          const match = file.name.match(/(?:vol[-._]?)?(\d{4})[-._](\d{2})/i);
+          if (match) {
+            volumeInput.value = `Vol. ${match[1]}.${match[2]}`;
+          }
+        }
+      });
+    }
+
+    if (form) {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const file = fileInput && fileInput.files && fileInput.files[0];
+        const volume = volumeInput ? volumeInput.value.trim() : '';
+        const title = titleInput ? titleInput.value.trim() : '';
+        const isPublished = publishCheck ? publishCheck.checked : true;
+
+        if (!file) {
+          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Please select a PDF file.</span>';
+          return;
+        }
+        if (!volume) {
+          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Volume number is required (e.g. Vol. 2026.08).</span>';
+          return;
+        }
+
+        const client = Auth ? Auth.getClient() : null;
+        if (!client) {
+          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Supabase client not available. Please sign in as Founder.</span>';
+          return;
+        }
+
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = '⏳ Uploading to Supabase Storage...';
+        }
+        if (statusMsg) {
+          statusMsg.innerHTML = '<span style="color:#38bdf8;">Uploading PDF to private storage ("magazine-editions")...</span>';
+        }
+
+        try {
+          const cleanVolume = volume.replace(/[^a-zA-Z0-9.-]/g, '_');
+          const storagePath = `issues/cosymagazine-${cleanVolume.toLowerCase()}.pdf`;
+
+          // 1. Upload to Supabase Storage
+          const { error: uploadErr } = await client.storage
+            .from('magazine-editions')
+            .upload(storagePath, file, {
+              cacheControl: '3600',
+              upsert: true,
+              contentType: 'application/pdf'
+            });
+
+          if (uploadErr) {
+            throw new Error(`Storage upload failed: ${uploadErr.message}`);
+          }
+
+          if (statusMsg) {
+            statusMsg.innerHTML = '<span style="color:#38bdf8;">PDF uploaded. Synchronizing magazine_issues table...</span>';
+          }
+
+          // 2. Sync magazine_issues record
+          const canonicalId = volume.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+          const { error: dbErr } = await client
+            .from('magazine_issues')
+            .upsert({
+              id: canonicalId,
+              volume_number: volume,
+              title: title || volume,
+              pdf_storage_path: storagePath,
+              is_published: isPublished
+            }, { onConflict: 'id' });
+
+          if (dbErr) {
+            console.warn('[Studio] Database sync warning:', dbErr);
+          }
+
+          if (statusMsg) {
+            statusMsg.innerHTML = `<span style="color:#4ade80;">✅ Successfully uploaded "${file.name}" to <code>${storagePath}</code>!</span>`;
+          }
+          setStatus(`Uploaded ${volume} PDF to Supabase storage.`, 'success');
+        } catch (err) {
+          console.error('[Studio] PDF upload error:', err);
+          if (statusMsg) {
+            statusMsg.innerHTML = `<span style="color:#ef4444;">❌ Upload failed: ${escapeHtml(err.message)}</span>`;
+          }
+        } finally {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = '🚀 Upload PDF Directly to Supabase';
+          }
+        }
+      });
     }
   }
 

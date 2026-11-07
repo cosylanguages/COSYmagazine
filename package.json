@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build-blog.js && node scripts/generate-blog-art.js && node scripts/generate-sitemap.js",
     "publish:issue:pdf": "node scripts/publish-issue-pdf.js",
+    "upload:issue:pdf": "node scripts/upload-pdf-to-supabase.js",
     "validate": "node scripts/validate-blog-schema.js",
     "test": "node --test tests/*.mjs"
   },
