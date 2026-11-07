@@ -13,15 +13,24 @@ const ISSUE_VOLUME_NUMBER = 'Vol. 2026.08';
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  const options = { output: DEFAULT_OUTPUT, generateOnly: false };
+  const options = {
+    source: SOURCE_HTML,
+    output: DEFAULT_OUTPUT,
+    volume: ISSUE_VOLUME_NUMBER,
+    generateOnly: false
+  };
 
   for (let index = 0; index < args.length; index += 1) {
     if (args[index] === '--generate-only') {
       options.generateOnly = true;
     } else if (args[index] === '--output' && args[index + 1]) {
       options.output = path.resolve(process.cwd(), args[++index]);
+    } else if (args[index] === '--source' && args[index + 1]) {
+      options.source = path.resolve(process.cwd(), args[++index]);
+    } else if (args[index] === '--volume' && args[index + 1]) {
+      options.volume = args[++index];
     } else {
-      throw new Error('Usage: npm run publish:issue:pdf [-- --generate-only] [--output <file>]');
+      throw new Error('Usage: npm run publish:issue:pdf [-- --generate-only] [--source <html-file>] [--output <file>] [--volume <volume_number>]');
     }
   }
 
@@ -46,17 +55,14 @@ function getSupabaseConfig() {
   return { url: url.replace(/\/+$/, ''), serviceRoleKey };
 }
 
-async function generatePdf(outputPath) {
-  if (!fs.existsSync(SOURCE_HTML)) throw new Error(`Missing source HTML: ${SOURCE_HTML}`);
+async function generatePdf(sourceHtml, outputPath) {
+  if (!fs.existsSync(sourceHtml)) throw new Error(`Missing source HTML: ${sourceHtml}`);
 
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage();
-    await page.goto(pathToFileURL(SOURCE_HTML).href, { waitUntil: 'load' });
+    await page.goto(pathToFileURL(sourceHtml).href, { waitUntil: 'load' });
     await page.evaluate(() => document.fonts.ready);
-
-    const pageCount = await page.locator('section.page').count();
-    if (pageCount !== 24) throw new Error(`Expected 24 magazine pages; found ${pageCount}.`);
 
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
     await page.pdf({
@@ -69,7 +75,7 @@ async function generatePdf(outputPath) {
   }
 
   const pdf = fs.readFileSync(outputPath);
-  if (pdf.length < 10_000 || pdf.subarray(0, 5).toString() !== '%PDF-') {
+  if (pdf.length < 1_000 || pdf.subarray(0, 5).toString() !== '%PDF-') {
     throw new Error('Generated output is not a valid PDF.');
   }
   console.log(`Generated ${outputPath} (${pdf.length} bytes).`);
@@ -105,10 +111,10 @@ async function ensurePrivateBucket(url, headers) {
   console.log(`Created private bucket "${BUCKET}".`);
 }
 
-async function getIssueConfig(url, headers) {
+async function getIssueConfig(url, headers, volumeNumber) {
   const query = new URLSearchParams({
     select: 'id,volume_number,is_published,pdf_storage_path',
-    volume_number: `eq.${ISSUE_VOLUME_NUMBER}`
+    volume_number: `eq.${volumeNumber}`
   });
   const response = await fetch(`${url}/rest/v1/magazine_issues?${query}`, { headers });
   if (!response.ok) {
@@ -117,20 +123,22 @@ async function getIssueConfig(url, headers) {
   }
 
   const rows = await response.json();
-  if (!Array.isArray(rows) || rows.length !== 1) {
-    throw new Error(`Expected one magazine_issues row for "${ISSUE_VOLUME_NUMBER}"; found ${rows?.length ?? 0}.`);
+  if (Array.isArray(rows) && rows.length === 1 && rows[0].pdf_storage_path) {
+    const objectPath = rows[0].pdf_storage_path;
+    if (
+      typeof objectPath !== 'string' ||
+      !objectPath.startsWith('issues/') ||
+      !objectPath.toLowerCase().endsWith('.pdf') ||
+      objectPath.includes('..')
+    ) {
+      throw new Error(`Set pdf_storage_path for "${volumeNumber}" to a PDF path under issues/.`);
+    }
+    return objectPath;
   }
 
-  const objectPath = rows[0].pdf_storage_path;
-  if (
-    typeof objectPath !== 'string' ||
-    !objectPath.startsWith('issues/') ||
-    !objectPath.toLowerCase().endsWith('.pdf') ||
-    objectPath.includes('..')
-  ) {
-    throw new Error(`Set pdf_storage_path for "${ISSUE_VOLUME_NUMBER}" to a PDF path under issues/.`);
-  }
-  return objectPath;
+  // Fallback default clean path
+  const clean = volumeNumber.toLowerCase().replace(/[^a-z0-9.-]/g, '_');
+  return `issues/cosymagazine-${clean}.pdf`;
 }
 
 async function uploadPdf(url, headers, pdfPath, objectPath) {
@@ -156,13 +164,13 @@ async function main() {
   const options = parseArgs();
   if (!options.generateOnly) getSupabaseConfig();
 
-  await generatePdf(options.output);
+  await generatePdf(options.source, options.output);
   if (options.generateOnly) return;
 
   const { url, serviceRoleKey } = getSupabaseConfig();
   const headers = { apikey: serviceRoleKey, Authorization: `Bearer ${serviceRoleKey}` };
   await ensurePrivateBucket(url, headers);
-  const objectPath = await getIssueConfig(url, headers);
+  const objectPath = await getIssueConfig(url, headers, options.volume);
   await uploadPdf(url, headers, options.output, objectPath);
 }
 

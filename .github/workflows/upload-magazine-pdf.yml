@@ -1,0 +1,171 @@
+name: Generate and Upload Magazine PDF to Supabase
+
+on:
+  workflow_dispatch:
+    inputs:
+      action_mode:
+        description: 'Operation Mode'
+        type: choice
+        required: true
+        default: 'generate_and_upload'
+        options:
+          - 'generate_and_upload'
+          - 'upload_existing_file'
+      volume_number:
+        description: 'Volume number (e.g. "Vol. 2026.08")'
+        required: false
+        default: 'Vol. 2026.08'
+      source_html:
+        description: 'Source HTML file for generation (if generate_and_upload)'
+        required: false
+        default: 'private-issues/august-2026.html'
+      pdf_path:
+        description: 'Path to existing PDF file or URL (if upload_existing_file)'
+        required: false
+        default: 'magazines/august-2026.pdf'
+      issue_title:
+        description: 'Title of the Magazine Issue (optional)'
+        required: false
+        default: ''
+      publish:
+        description: 'Mark issue as published (true/false)'
+        type: boolean
+        required: true
+        default: true
+
+  push:
+    paths:
+      - 'magazines/**.pdf'
+      - 'private-issues/**.pdf'
+
+jobs:
+  build-and-upload-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Install Playwright Chromium (for PDF generation on GitHub)
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate PDF on GitHub and upload to Supabase
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+          VOLUME_INPUT: ${{ inputs.volume_number }}
+          SOURCE_INPUT: ${{ inputs.source_html }}
+          TITLE_INPUT: ${{ inputs.issue_title }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          mkdir -p private-issues
+          OUTPUT_PDF="private-issues/generated-${VOLUME_INPUT//[^a-zA-Z0-9.-]/_}.pdf"
+
+          echo "Generating PDF directly on GitHub from: $SOURCE_INPUT..."
+          CMD_ARGS=(--output "$OUTPUT_PDF")
+          if [ -n "$SOURCE_INPUT" ]; then
+            CMD_ARGS+=(--source "$SOURCE_INPUT")
+          fi
+          if [ -n "$VOLUME_INPUT" ]; then
+            CMD_ARGS+=(--volume "$VOLUME_INPUT")
+          fi
+
+          # If the source HTML file does not exist locally, build draft if available
+          if [ ! -f "$SOURCE_INPUT" ] && [ -f "scripts/build-issue-08-full-draft.js" ]; then
+            echo "Running draft compilation script..."
+            node scripts/build-issue-08-full-draft.js || true
+          fi
+
+          node scripts/publish-issue-pdf.js "${CMD_ARGS[@]}"
+
+      - name: Upload existing PDF triggered by Workflow Dispatch
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'upload_existing_file'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+          PDF_INPUT: ${{ inputs.pdf_path }}
+          VOLUME_INPUT: ${{ inputs.volume_number }}
+          TITLE_INPUT: ${{ inputs.issue_title }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          FILE_PATH="$PDF_INPUT"
+
+          if [[ "$FILE_PATH" =~ ^https?:// ]]; then
+            echo "Downloading PDF from URL: $FILE_PATH"
+            mkdir -p /tmp/magazine-uploads
+            TEMP_FILE="/tmp/magazine-uploads/$(basename "$FILE_PATH")"
+            curl -fsSL "$FILE_PATH" -o "$TEMP_FILE"
+            FILE_PATH="$TEMP_FILE"
+          fi
+
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "::error::Target PDF file not found at: $FILE_PATH"
+            exit 1
+          fi
+
+          CMD_ARGS=(--file "$FILE_PATH")
+          if [ -n "$VOLUME_INPUT" ]; then
+            CMD_ARGS+=(--volume "$VOLUME_INPUT")
+          fi
+          if [ -n "$TITLE_INPUT" ]; then
+            CMD_ARGS+=(--title "$TITLE_INPUT")
+          fi
+          if [ "$PUBLISH_INPUT" = "false" ]; then
+            CMD_ARGS+=(--draft)
+          fi
+
+          node scripts/upload-pdf-to-supabase.js "${CMD_ARGS[@]}"
+
+      - name: Upload PDFs added/changed on git push
+        if: github.event_name == 'push'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::warning::SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not configured; skipping automatic push upload."
+            exit 0
+          fi
+
+          CHANGED_PDFS=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep -E '^(magazines|private-issues)/.*\.pdf$' || true)
+
+          if [ -z "$CHANGED_PDFS" ]; then
+            echo "No PDF files were added or modified in this push."
+            exit 0
+          fi
+
+          echo "Found modified/added PDF files:"
+          echo "$CHANGED_PDFS"
+
+          while IFS= read -r pdf; do
+            if [ -f "$pdf" ]; then
+              echo "Uploading $pdf to Supabase..."
+              node scripts/upload-pdf-to-supabase.js --file "$pdf"
+            fi
+          done <<< "$CHANGED_PDFS"
