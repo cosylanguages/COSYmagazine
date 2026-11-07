@@ -141,3 +141,68 @@ test('CosyEditor - Direct Issue Management (create and edit new issues)', () => 
   Editor.setActiveIssue(customIssue);
   assert.equal(Editor.getActiveIssue().number, 'Vol. 2027.04');
 });
+
+test('CosyEditor - capabilities: everyone drafts and exports, only founders publish and upload PDFs', () => {
+  const Editor = require('../js/editor.js');
+
+  const guest = Editor.getCapabilities(null);
+  assert.equal(guest.signedIn, false);
+  assert.equal(guest.draft && guest.exportJson && guest.importJson, true);
+  assert.equal(guest.publishLive, false);
+  assert.equal(guest.uploadPdf, false);
+
+  const member = Editor.getCapabilities({ email: 'editor@example.com', role: 'editor', isFounder: false });
+  assert.equal(member.signedIn, true);
+  assert.equal(member.publishLive, false);
+  assert.equal(member.uploadPdf, false);
+
+  const founder = Editor.getCapabilities({ email: 'founder@example.com', role: 'founder', isFounder: true });
+  assert.equal(founder.publishLive, true);
+  assert.equal(founder.uploadPdf, true);
+});
+
+test('CosyEditor - readiness checks mirror the schema validator and flag editorial gaps', () => {
+  const Editor = require('../js/editor.js');
+  const byId = (checks, id) => checks.find(c => c.id === id);
+
+  // A complete, valid article has no errors
+  const good = Blocks.ARTICLE_PRESETS[0].create({ language: 'en', date: '2026-11-07' });
+  const goodChecks = Editor.getReadiness(good);
+  assert.equal(goodChecks.filter(c => c.level === 'error').length, 0, JSON.stringify(goodChecks.filter(c => c.level === 'error')));
+
+  // Missing required fields are errors
+  const broken = Blocks.clone(good);
+  broken.title = '  ';
+  broken.slug = 'Not A Slug';
+  broken.kicker = '';
+  broken.dek = '';
+  broken.date = '07/11/2026';
+  broken.issue = { number: '', title: '' };
+  broken.blocks = [];
+  const brokenChecks = Editor.getReadiness(broken);
+  for (const id of ['title', 'slug', 'kicker', 'dek', 'date', 'issue', 'blocks']) {
+    assert.equal(byId(brokenChecks, id).level, 'error', `${id} should be an error`);
+  }
+
+  // Slug rules: lowercase, digits, single hyphens
+  for (const slug of ['ok-slug-2', 'a']) {
+    const p = Blocks.clone(good); p.slug = slug;
+    assert.equal(byId(Editor.getReadiness(p), 'slug').level, 'ok', slug);
+  }
+  for (const slug of ['Bad', 'two  words', 'double--hyphen', '-lead', 'trail-', 'под']) {
+    const p = Blocks.clone(good); p.slug = slug;
+    assert.equal(byId(Editor.getReadiness(p), 'slug').level, 'error', slug);
+  }
+
+  // Warnings: images without alt text and missing tags do not block publishing
+  const warned = Blocks.clone(good);
+  warned.tags = [];
+  warned.blocks.push({ type: 'image', url: 'images/x.svg', alt: '', caption: '' });
+  const warnedChecks = Editor.getReadiness(warned);
+  assert.equal(byId(warnedChecks, 'alt').level, 'warn');
+  assert.equal(byId(warnedChecks, 'tags').level, 'warn');
+  assert.equal(warnedChecks.filter(c => c.level === 'error').length, 0);
+
+  // No article at all
+  assert.equal(Editor.getReadiness(null)[0].level, 'error');
+});

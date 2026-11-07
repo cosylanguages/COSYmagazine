@@ -43,7 +43,9 @@
     'Long Reads',
     'COSYtalks',
     'The Podcast',
-    'Cosy Events'
+    'Cosy Events',
+    'Reflections',
+    'Back Issues'
   ];
 
   const LEVELS = [
@@ -70,9 +72,108 @@
     'quote-wall'
   ];
 
+  // Icon id (from the sprite in editor.html) for each block type
+  const BLOCK_ICONS = {
+    'heading': 'heading',
+    'paragraph': 'pilcrow',
+    'mistake-card': 'x-circle',
+    'example': 'message',
+    'pronunciation': 'mic',
+    'table': 'table',
+    'quiz': 'help',
+    'culture-bite': 'bookmark',
+    'pullquote': 'quote',
+    'quote-wall': 'grid',
+    'list-item': 'list',
+    'image': 'image',
+    'links': 'link'
+  };
+
+  const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+  function icon(name, extraClass) {
+    return `<svg class="icon${extraClass ? ' ' + extraClass : ''}" aria-hidden="true"><use href="#i-${name}"/></svg>`;
+  }
+
+  /**
+   * What the signed-in user can do. This only drives the interface: the real
+   * gate for publishing is the database (row-level security), not this object.
+   * Everyone can draft, import and export; founders (founder/admin/owner)
+   * can also publish live and upload issue PDFs.
+   */
+  function getCapabilities(user) {
+    const isFounder = !!(user && user.isFounder);
+    return {
+      signedIn: !!user,
+      isFounder,
+      draft: true,
+      exportJson: true,
+      importJson: true,
+      publishLive: isFounder,
+      uploadPdf: isFounder
+    };
+  }
+
+  /**
+   * Pre-publish review. Mirrors the required fields in
+   * scripts/validate-blog-schema.js, plus editorial warnings that the
+   * validator does not enforce. Returns [{ id, level: 'ok'|'warn'|'error', label, detail }].
+   */
+  function getReadiness(post) {
+    const checks = [];
+    const add = (id, level, label, detail) => checks.push({ id, level, label, detail: detail || '' });
+    const filled = (v) => typeof v === 'string' && v.trim() !== '';
+
+    if (!post) {
+      add('post', 'error', 'No article is open');
+      return checks;
+    }
+
+    add('title', filled(post.title) ? 'ok' : 'error', 'Title', filled(post.title) ? '' : 'Add a headline in Details.');
+    add('slug',
+      filled(post.slug) && SLUG_PATTERN.test(post.slug) ? 'ok' : 'error',
+      'Slug',
+      filled(post.slug) && SLUG_PATTERN.test(post.slug) ? '' : 'Use lowercase letters, numbers and single hyphens only.');
+    add('kicker', filled(post.kicker) ? 'ok' : 'error', 'Kicker', filled(post.kicker) ? '' : 'Required. It appears above the headline.');
+    add('dek', filled(post.dek) ? 'ok' : 'error', 'Dek (subheadline)', filled(post.dek) ? '' : 'Required. One or two sentences summarising the article.');
+
+    const dateOk = filled(post.date) && /^\d{4}-\d{2}-\d{2}$/.test(post.date) && !isNaN(Date.parse(post.date));
+    add('date', dateOk ? 'ok' : 'error', 'Publication date', dateOk ? '' : 'Pick a valid date.');
+
+    const issueOk = !!(post.issue && filled(post.issue.number) && filled(post.issue.title));
+    add('issue', issueOk ? 'ok' : 'error', 'Issue number and title', issueOk ? '' : 'Both are required, even for standalone pieces.');
+
+    const blocks = Array.isArray(post.blocks) ? post.blocks : [];
+    add('blocks', blocks.length > 0 ? 'ok' : 'error', 'Content', blocks.length > 0 ? `${blocks.length} block${blocks.length === 1 ? '' : 's'}` : 'Add at least one block.');
+
+    const noAlt = blocks.filter(b => b && b.type === 'image' && !filled(b.alt)).length;
+    if (noAlt > 0) {
+      add('alt', 'warn', 'Image alt text', `${noAlt} image${noAlt === 1 ? ' is' : 's are'} missing alt text (accessibility).`);
+    }
+
+    const badLinks = blocks.filter(b => b && b.type === 'links' && (!filled(b.url) || !filled(b.label))).length;
+    if (badLinks > 0) {
+      add('links', 'warn', 'Link blocks', `${badLinks} link block${badLinks === 1 ? ' needs' : 's need'} a label and a URL.`);
+    }
+
+    if (!Array.isArray(post.tags) || post.tags.length === 0) {
+      add('tags', 'warn', 'Tags', 'No tags yet. Tags power the filters on the newsstand.');
+    }
+
+    if (blocks.length > 0 && typeof post.readingTime === 'number') {
+      const calc = calculateArticleStats(post).minutes;
+      if (Math.abs(calc - post.readingTime) >= 3) {
+        add('reading', 'warn', 'Reading time', `Set to ${post.readingTime} min, but the text suggests about ${calc} min.`);
+      }
+    }
+
+    return checks;
+  }
+
   // Active Post State
   let currentPost = null;
   let currentUser = null;
+  let isDirty = false;
   let constructorMode = 'magazine'; // 'magazine' | 'website'
   let isMagazinePart = true;
   let activeIssue = (Blocks && Blocks.CANONICAL_ISSUES && Blocks.CANONICAL_ISSUES[0])
@@ -89,13 +190,27 @@
    * Initialize Studio App
    */
   async function init() {
+    populateStaticSelects();
     initIssuesList();
     initCanonicalSectionsUI();
+    setupModals();
+    setupMenus();
+    setupTabs();
+    setupThemeToggle();
+    setupViewSwitch();
     setupAuthListeners();
     setupEventListeners();
     setupConstructorModeListeners();
     setupIssueManagerListeners();
+    setupPublishFlow();
     setupKeyboardShortcuts();
+    setupUnloadWarning();
+    updateAuthUI(null);
+
+    const params = new URLSearchParams(window.location.search);
+    const postSlug = params.get('slug');
+    showTab(postSlug ? 'content' : (readSavedTab() || 'start'));
+
     await loadCatalogPosts();
 
     // Check user auth
@@ -105,7 +220,6 @@
     }
 
     // Check mode from URL parameter if provided
-    const params = new URLSearchParams(window.location.search);
     const modeParam = params.get('mode');
     if (modeParam === 'website') {
       setConstructorMode('website');
@@ -114,13 +228,349 @@
     }
 
     // Load initial post from URL parameter, or preset
-    const postSlug = params.get('slug');
     if (postSlug) {
       await loadPostBySlug(postSlug);
     } else {
       // Default to Saturday Mistakes Preset
       loadPreset('preset-saturday-mistakes');
     }
+  }
+
+  /**
+   * Shared UI plumbing
+   */
+  function $(id) {
+    return typeof document !== 'undefined' ? document.getElementById(id) : null;
+  }
+
+  function fillSelect(id, items) {
+    const sel = $(id);
+    if (!sel) return;
+    sel.innerHTML = items.map(item => {
+      const value = typeof item === 'string' ? item : item.value;
+      const label = typeof item === 'string' ? item : item.label;
+      return `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`;
+    }).join('');
+  }
+
+  // Set a <select> value; if the article uses a value the list does not know,
+  // keep it visible as a "custom" option instead of silently blanking the field.
+  function setSelectValue(sel, value) {
+    if (!sel) return;
+    const val = value === undefined || value === null ? '' : String(value);
+    const known = Array.from(sel.options).some(o => o.value === val);
+    if (!known && val) {
+      const opt = document.createElement('option');
+      opt.value = val;
+      opt.textContent = `${val} (custom)`;
+      opt.setAttribute('data-custom', 'true');
+      sel.appendChild(opt);
+    }
+    sel.value = val;
+  }
+
+  function populateStaticSelects() {
+    fillSelect('meta-language', LANGUAGES.map(l => ({ value: l.code, label: `${l.flag} ${l.name}` })));
+    fillSelect('meta-desk', DESKS);
+    fillSelect('meta-level', LEVELS);
+    fillSelect('meta-format', FORMATS);
+  }
+
+  /**
+   * Modals: one open/close path with Escape, backdrop click and focus return.
+   */
+  let modalReturnFocus = null;
+
+  function openModal(id) {
+    const modal = $(id);
+    if (!modal) return;
+    modalReturnFocus = document.activeElement;
+    modal.hidden = false;
+    const target = modal.querySelector('input:not([type="hidden"]):not([type="checkbox"]), textarea, select')
+      || modal.querySelector('.btn-primary')
+      || modal.querySelector('button');
+    if (target) setTimeout(() => target.focus(), 0);
+  }
+
+  function closeModal(id) {
+    const modal = typeof id === 'string' ? $(id) : id;
+    if (!modal || modal.hidden) return;
+    modal.hidden = true;
+    if (modal.id === 'studio-confirm-modal' && confirmResolver) {
+      const resolve = confirmResolver;
+      confirmResolver = null;
+      resolve(false);
+    }
+    if (modalReturnFocus && typeof modalReturnFocus.focus === 'function' && document.contains(modalReturnFocus)) {
+      modalReturnFocus.focus();
+    }
+    modalReturnFocus = null;
+  }
+
+  function setupModals() {
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.querySelectorAll('[data-close]').forEach(el => {
+        el.addEventListener('click', () => closeModal(modal));
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      const open = Array.from(document.querySelectorAll('.modal')).filter(m => !m.hidden).pop();
+      if (open) {
+        e.preventDefault();
+        closeModal(open);
+        return;
+      }
+      closeAllMenus();
+    });
+
+    // Keep Tab inside the open dialog
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const open = Array.from(document.querySelectorAll('.modal')).filter(m => !m.hidden).pop();
+      if (!open) return;
+      const focusable = Array.from(open.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'))
+        .filter(el => !el.disabled && !el.hidden && el.type !== 'hidden' && el.offsetParent !== null);
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+
+    const okBtn = $('studio-confirm-ok-btn');
+    if (okBtn) {
+      okBtn.addEventListener('click', () => {
+        const resolve = confirmResolver;
+        confirmResolver = null;
+        const modal = $('studio-confirm-modal');
+        if (modal) modal.hidden = true;
+        if (resolve) resolve(true);
+      });
+    }
+  }
+
+  let confirmResolver = null;
+
+  function askConfirm({ title, body, confirmLabel, danger = true }) {
+    return new Promise(resolve => {
+      const titleEl = $('studio-confirm-title');
+      const bodyEl = $('studio-confirm-body');
+      const okBtn = $('studio-confirm-ok-btn');
+      if (!titleEl || !bodyEl || !okBtn) {
+        resolve(true);
+        return;
+      }
+      titleEl.textContent = title;
+      bodyEl.textContent = body;
+      okBtn.textContent = confirmLabel || 'Continue';
+      okBtn.classList.toggle('btn-danger', danger);
+      okBtn.classList.toggle('btn-primary', !danger);
+      confirmResolver = resolve;
+      openModal('studio-confirm-modal');
+      const cancel = $('studio-confirm-cancel-btn');
+      if (cancel) setTimeout(() => cancel.focus(), 0);
+    });
+  }
+
+  // Run an action that replaces the open article, asking first if there is unsaved work.
+  async function withDiscardGuard(action, what) {
+    if (isDirty) {
+      const ok = await askConfirm({
+        title: 'Discard unsaved changes?',
+        body: `You have changes that haven't been exported or published. ${what || 'Continuing'} will replace the article you're editing.`,
+        confirmLabel: 'Discard and continue'
+      });
+      if (!ok) return false;
+    }
+    await action();
+    return true;
+  }
+
+  /**
+   * Dropdown menus (Export, Account)
+   */
+  function closeAllMenus() {
+    document.querySelectorAll('.menu-panel').forEach(panel => {
+      if (!panel.hidden) {
+        panel.hidden = true;
+        const btn = document.querySelector(`[aria-controls="${panel.id}"]`);
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  function setupMenus() {
+    [['studio-export-menu-btn', 'studio-export-menu'], ['studio-account-btn', 'studio-account-menu']].forEach(([btnId, panelId]) => {
+      const btn = $(btnId);
+      const panel = $(panelId);
+      if (!btn || !panel) return;
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const willOpen = panel.hidden;
+        closeAllMenus();
+        panel.hidden = !willOpen;
+        btn.setAttribute('aria-expanded', String(willOpen));
+        if (willOpen) {
+          const first = panel.querySelector('.menu-item');
+          if (first) first.focus();
+        }
+      });
+
+      panel.addEventListener('keydown', (e) => {
+        const items = Array.from(panel.querySelectorAll('.menu-item'));
+        const i = items.indexOf(document.activeElement);
+        if (e.key === 'ArrowDown') { e.preventDefault(); items[(i + 1) % items.length].focus(); }
+        if (e.key === 'ArrowUp') { e.preventDefault(); items[(i - 1 + items.length) % items.length].focus(); }
+        if (e.key === 'Escape') { e.stopPropagation(); closeAllMenus(); btn.focus(); }
+      });
+
+      panel.addEventListener('click', () => {
+        closeAllMenus();
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.menu')) closeAllMenus();
+    });
+  }
+
+  /**
+   * Workbench tabs (Start / Details / Content)
+   */
+  const TAB_KEY = 'cosy.studio.tab';
+
+  function readSavedTab() {
+    try {
+      const t = window.localStorage.getItem(TAB_KEY);
+      return t === 'start' || t === 'details' || t === 'content' ? t : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function showTab(name) {
+    document.querySelectorAll('.wb-tab').forEach(tab => {
+      tab.setAttribute('aria-selected', String(tab.getAttribute('data-tab') === name));
+      tab.tabIndex = tab.getAttribute('data-tab') === name ? 0 : -1;
+    });
+    document.querySelectorAll('.wb-panel').forEach(panel => {
+      panel.hidden = panel.getAttribute('data-panel') !== name;
+    });
+    try { window.localStorage.setItem(TAB_KEY, name); } catch (e) { /* storage unavailable */ }
+  }
+
+  function setupTabs() {
+    const tabs = Array.from(document.querySelectorAll('.wb-tab'));
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => showTab(tab.getAttribute('data-tab')));
+      tab.addEventListener('keydown', (e) => {
+        let next = null;
+        if (e.key === 'ArrowRight') next = tabs[(i + 1) % tabs.length];
+        if (e.key === 'ArrowLeft') next = tabs[(i - 1 + tabs.length) % tabs.length];
+        if (next) {
+          e.preventDefault();
+          showTab(next.getAttribute('data-tab'));
+          next.focus();
+        }
+      });
+    });
+  }
+
+  /**
+   * Theme (shares the site's `cosy.theme` key)
+   */
+  function applyThemeButton() {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const btn = $('studio-theme-btn');
+    const use = $('studio-theme-icon');
+    if (use) use.setAttribute('href', dark ? '#i-sun' : '#i-moon');
+    if (btn) {
+      const label = dark ? 'Switch to light theme' : 'Switch to dark theme';
+      btn.setAttribute('aria-label', label);
+      btn.title = label;
+    }
+  }
+
+  function setupThemeToggle() {
+    const btn = $('studio-theme-btn');
+    applyThemeButton();
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { window.localStorage.setItem('cosy.theme', next); } catch (e) { /* storage unavailable */ }
+      applyThemeButton();
+    });
+  }
+
+  /**
+   * Edit / Preview switch on narrow screens
+   */
+  function setView(view) {
+    document.body.setAttribute('data-view', view);
+    document.querySelectorAll('[data-view-btn]').forEach(btn => {
+      const active = btn.getAttribute('data-view-btn') === view;
+      btn.classList.toggle('is-active', active);
+      btn.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function setupViewSwitch() {
+    document.querySelectorAll('[data-view-btn]').forEach(btn => {
+      btn.addEventListener('click', () => setView(btn.getAttribute('data-view-btn')));
+    });
+  }
+
+  /**
+   * Unsaved-changes tracking
+   */
+  function markDirty() {
+    if (typeof document === 'undefined') return;
+    isDirty = true;
+    updateDirtyUI();
+  }
+
+  function markClean() {
+    isDirty = false;
+    updateDirtyUI();
+  }
+
+  function updateDirtyUI() {
+    const badge = $('studio-dirty-badge');
+    if (badge) badge.hidden = !isDirty;
+  }
+
+  function setupUnloadWarning() {
+    window.addEventListener('beforeunload', (e) => {
+      if (!isDirty) return;
+      e.preventDefault();
+      e.returnValue = '';
+    });
+  }
+
+  function updateHeaderContext() {
+    if (typeof document === 'undefined' || !currentPost) return;
+    const issueEl = $('studio-crumb-issue');
+    const titleEl = $('studio-crumb-title');
+    const pathEl = $('studio-preview-path');
+    const modeEl = $('studio-preview-mode');
+    const standalone = constructorMode === 'website' && !isMagazinePart;
+    if (issueEl) {
+      issueEl.textContent = standalone ? 'Website' : ((currentPost.issue && currentPost.issue.number) || 'No issue');
+    }
+    if (titleEl) titleEl.textContent = currentPost.title || 'Untitled article';
+    if (pathEl) pathEl.textContent = currentPost.slug ? `/${currentPost.slug}.html` : '';
+    if (modeEl) modeEl.textContent = constructorMode === 'magazine' ? 'Magazine spread' : 'Website article';
+    const countEl = $('studio-block-count');
+    if (countEl) countEl.textContent = String((currentPost.blocks || []).length);
   }
 
   function initIssuesList() {
@@ -198,14 +648,27 @@
     const sel = document.getElementById('studio-load-selector');
     if (!sel) return;
 
-    sel.innerHTML = '<option value="">-- Load an existing article --</option>' +
-      posts.map(p => `<option value="${escapeHtml(p.slug)}">${escapeHtml(p.title)} (${p.slug})</option>`).join('');
+    const filterEl = $('studio-load-filter');
+    const query = filterEl ? filterEl.value.trim().toLowerCase() : '';
+    const shown = query
+      ? posts.filter(p => `${p.title || ''} ${p.slug || ''}`.toLowerCase().includes(query))
+      : posts;
+
+    sel.innerHTML = `<option value="">${shown.length ? 'Choose an article…' : 'No articles match'}</option>` +
+      shown.map(p => `<option value="${escapeHtml(p.slug)}">${escapeHtml(p.title)} (${escapeHtml(p.slug)})</option>`).join('');
+
+    const countEl = $('studio-load-count');
+    if (countEl) {
+      countEl.textContent = query
+        ? `${shown.length} of ${posts.length} articles`
+        : `${posts.length} published articles`;
+    }
   }
 
   async function loadPostBySlug(slug) {
     setStatus(`Loading article "${slug}"...`, 'info');
     try {
-      const res = await fetch(`posts/${slug}.json`);
+      const res = await fetch(`posts/${encodeURIComponent(slug)}.json`);
       if (!res.ok) throw new Error(`Could not find posts/${slug}.json`);
       const postData = await res.json();
       setCurrentPost(postData);
@@ -228,9 +691,11 @@
 
   function setCurrentPost(postData) {
     currentPost = Blocks.clone(postData);
+    collapsedBlockIndices.clear();
     populateMetadataForm(currentPost);
     renderBlockList();
     renderLivePreview();
+    markClean();
   }
 
   /**
@@ -246,8 +711,7 @@
     const loginBtn = document.getElementById('studio-login-btn');
     if (loginBtn) {
       loginBtn.addEventListener('click', () => {
-        const modal = document.getElementById('studio-auth-modal');
-        if (modal) modal.style.display = 'flex';
+        openModal('studio-auth-modal');
       });
     }
 
@@ -255,15 +719,7 @@
     if (logoutBtn) {
       logoutBtn.addEventListener('click', async () => {
         await Auth.signOut();
-        setStatus('Signed out of Studio.', 'info');
-      });
-    }
-
-    const modalClose = document.getElementById('studio-modal-close');
-    if (modalClose) {
-      modalClose.addEventListener('click', () => {
-        const modal = document.getElementById('studio-auth-modal');
-        if (modal) modal.style.display = 'none';
+        setStatus('Signed out of the Studio.', 'info');
       });
     }
 
@@ -274,14 +730,24 @@
         const email = document.getElementById('studio-auth-email').value;
         const pass = document.getElementById('studio-auth-password').value;
         const errEl = document.getElementById('studio-auth-error');
+        const submit = document.getElementById('studio-login-submit-btn');
         errEl.textContent = '';
+        if (submit) submit.disabled = true;
 
         try {
-          await Auth.signIn(email, pass);
-          document.getElementById('studio-auth-modal').style.display = 'none';
-          setStatus('Founder identity authenticated!', 'success');
+          const user = await Auth.signIn(email, pass);
+          modalForm.reset();
+          closeModal('studio-auth-modal');
+          setStatus(
+            user && user.isFounder
+              ? 'Signed in as founder. Publishing is unlocked.'
+              : 'Signed in. You can draft, import and export; publishing needs a founder account.',
+            'success'
+          );
         } catch (err) {
-          errEl.textContent = err.message || 'Authentication failed.';
+          errEl.textContent = err.message || 'Sign-in failed. Check your email and password.';
+        } finally {
+          if (submit) submit.disabled = false;
         }
       });
     }
@@ -290,42 +756,43 @@
   function updateAuthUI(user) {
     const badge = document.getElementById('studio-founder-badge');
     const loginBtn = document.getElementById('studio-login-btn');
-    const logoutBtn = document.getElementById('studio-logout-btn');
+    const account = document.getElementById('studio-account');
     const saveLiveBtn = document.getElementById('studio-save-live-btn');
     const uploadPdfBtn = document.getElementById('studio-upload-pdf-btn');
+    const caps = getCapabilities(user);
 
-    const isFounder = user && user.isFounder;
+    if (loginBtn) loginBtn.hidden = caps.signedIn;
+    if (account) account.hidden = !caps.signedIn;
 
-    if (badge) {
-      if (isFounder) {
-        badge.textContent = `👑 Founder (${user.email || 'Admin'})`;
-        badge.className = 'studio-badge badge-founder';
-        badge.style.display = 'inline-flex';
-      } else if (user) {
-        badge.textContent = `👤 Logged in (${user.role || 'Member'})`;
-        badge.className = 'studio-badge badge-member';
-        badge.style.display = 'inline-flex';
-      } else {
-        badge.textContent = `Visitor (Sign in to publish)`;
-        badge.className = 'studio-badge badge-visitor';
-        badge.style.display = 'inline-flex';
+    if (caps.signedIn) {
+      const email = user.email || '';
+      const initial = $('studio-account-initial');
+      const emailEl = $('studio-account-email');
+      const capsEl = $('studio-account-caps');
+      if (initial) initial.textContent = (email || user.role || '?').trim().charAt(0) || '?';
+      if (emailEl) emailEl.textContent = email || 'Signed in';
+      if (badge) {
+        badge.textContent = caps.isFounder ? 'Founder' : (user.role || 'Member');
+        badge.className = `role-chip ${caps.isFounder ? 'role-founder' : 'role-member'}`;
+      }
+      if (capsEl) {
+        capsEl.textContent = caps.isFounder
+          ? 'You can edit, export, publish live and upload issue PDFs.'
+          : 'You can edit, import and export articles. Publishing and PDF upload need a founder account.';
       }
     }
 
-    if (loginBtn) loginBtn.style.display = isFounder ? 'none' : 'inline-flex';
-    if (logoutBtn) logoutBtn.style.display = user ? 'inline-flex' : 'none';
-    if (saveLiveBtn) {
-      saveLiveBtn.disabled = !isFounder;
-      saveLiveBtn.title = isFounder
-        ? 'Upsert live changes to Supabase'
-        : 'Sign in as Founder to publish live to Supabase';
-    }
-    if (uploadPdfBtn) {
-      uploadPdfBtn.disabled = !isFounder;
-      uploadPdfBtn.title = isFounder
-        ? 'Upload magazine PDF directly to Supabase storage'
-        : 'Sign in as Founder to upload magazine PDFs to Supabase';
-    }
+    const lock = (btn, allowed, allowedTitle, lockedTitle) => {
+      if (!btn) return;
+      btn.setAttribute('aria-disabled', String(!allowed));
+      btn.title = allowed ? allowedTitle : lockedTitle;
+    };
+    lock(saveLiveBtn, caps.publishLive,
+      'Review and publish this article',
+      caps.signedIn ? 'Publishing needs a founder account' : 'Sign in with a founder account to publish');
+    lock(uploadPdfBtn, caps.uploadPdf,
+      'Upload the issue PDF to private storage',
+      caps.signedIn ? 'Uploading PDFs needs a founder account' : 'Sign in with a founder account to upload PDFs');
   }
 
   /**
@@ -334,17 +801,26 @@
   function setupEventListeners() {
     // Preset buttons
     document.querySelectorAll('[data-preset]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        loadPreset(btn.getAttribute('data-preset'));
+      btn.addEventListener('click', async () => {
+        const done = await withDiscardGuard(() => loadPreset(btn.getAttribute('data-preset')), 'Starting from a template');
+        if (done) showTab('content');
       });
     });
 
-    // Existing post selector
+    // Existing post selector (+ filter)
     const postSel = document.getElementById('studio-load-selector');
     if (postSel) {
-      postSel.addEventListener('change', () => {
-        if (postSel.value) loadPostBySlug(postSel.value);
+      postSel.addEventListener('change', async () => {
+        const slug = postSel.value;
+        if (!slug) return;
+        const done = await withDiscardGuard(() => loadPostBySlug(slug), 'Opening another article');
+        postSel.value = '';
+        if (done) showTab('content');
       });
+    }
+    const loadFilter = $('studio-load-filter');
+    if (loadFilter) {
+      loadFilter.addEventListener('input', () => populatePostSelector(catalogPosts));
     }
 
     // Quick-Add Image Block Button
@@ -393,34 +869,37 @@
     const blockPalette = document.getElementById('studio-block-palette');
     const paletteCloseBtn = document.getElementById('studio-palette-close-btn');
 
+    const setPaletteOpen = (open) => {
+      if (!blockPalette) return;
+      blockPalette.classList.toggle('is-open', open);
+      if (addBlockBtn) addBlockBtn.setAttribute('aria-expanded', String(open));
+    };
+
     if (addBlockBtn && blockPalette) {
       addBlockBtn.addEventListener('click', () => {
-        blockPalette.classList.toggle('is-open');
+        setPaletteOpen(!blockPalette.classList.contains('is-open'));
       });
     }
 
     if (paletteCloseBtn && blockPalette) {
-      paletteCloseBtn.addEventListener('click', () => {
-        blockPalette.classList.remove('is-open');
-      });
+      paletteCloseBtn.addEventListener('click', () => setPaletteOpen(false));
     }
 
     // Populate Block Palette Buttons
     const paletteGrid = document.getElementById('studio-palette-grid');
     if (paletteGrid) {
       paletteGrid.innerHTML = Blocks.BLOCK_DEFINITIONS.map(def => `
-        <button type="button" class="studio-palette-card" data-block-type="${def.type}">
-          <span class="palette-card-icon">${def.icon}</span>
-          <span class="palette-card-label">${def.label}</span>
-          <span class="palette-card-desc">${def.description}</span>
+        <button type="button" class="palette-card" data-block-type="${escapeHtml(def.type)}">
+          <span class="palette-card-icon">${icon(BLOCK_ICONS[def.type] || 'layers')}</span>
+          <span class="palette-card-label">${escapeHtml(def.label)}</span>
+          <span class="palette-card-desc">${escapeHtml(def.description)}</span>
         </button>
       `).join('');
 
       paletteGrid.querySelectorAll('[data-block-type]').forEach(btn => {
         btn.addEventListener('click', () => {
-          const type = btn.getAttribute('data-block-type');
-          addBlock(type);
-          if (blockPalette) blockPalette.classList.remove('is-open');
+          addBlock(btn.getAttribute('data-block-type'));
+          setPaletteOpen(false);
         });
       });
     }
@@ -437,10 +916,10 @@
       copyBtn.addEventListener('click', copyCanonicalJson);
     }
 
-    // Save Live to Supabase Button
+    // Publish: open the review dialog (founders only)
     const saveLiveBtn = document.getElementById('studio-save-live-btn');
     if (saveLiveBtn) {
-      saveLiveBtn.addEventListener('click', saveToSupabase);
+      saveLiveBtn.addEventListener('click', requestPublish);
     }
 
     // Upload Magazine PDF Modal & Form
@@ -448,8 +927,18 @@
 
     // Import JSON File
     const importInput = document.getElementById('studio-file-import');
+    const importBtn = $('studio-import-btn');
+    if (importBtn && importInput) {
+      importBtn.addEventListener('click', () => importInput.click());
+    }
     if (importInput) {
-      importInput.addEventListener('change', handleFileImport);
+      importInput.addEventListener('change', async (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        const done = await withDiscardGuard(() => handleFileImport(file), 'Importing a file');
+        importInput.value = '';
+        if (done) showTab('content');
+      });
     }
 
     // Metadata form bindings
@@ -460,9 +949,13 @@
     const bind = (id, key, transform) => {
       const el = document.getElementById(id);
       if (!el) return;
-      el.addEventListener('input', () => {
+      // Selects fire "change"; text fields fire "input"
+      const evt = el.tagName === 'SELECT' ? 'change' : 'input';
+      el.addEventListener(evt, () => {
         if (!currentPost) return;
         currentPost[key] = transform ? transform(el.value) : el.value;
+        markDirty();
+        if (key === 'slug') updateSlugHint();
         renderLivePreview();
       });
     };
@@ -483,8 +976,10 @@
     const issueNumEl = document.getElementById('meta-issue-number');
     if (issueNumEl) {
       issueNumEl.addEventListener('input', () => {
+        if (!currentPost) return;
         currentPost.issue = currentPost.issue || {};
         currentPost.issue.number = issueNumEl.value;
+        markDirty();
         renderLivePreview();
       });
     }
@@ -492,8 +987,10 @@
     const issueTitleEl = document.getElementById('meta-issue-title');
     if (issueTitleEl) {
       issueTitleEl.addEventListener('input', () => {
+        if (!currentPost) return;
         currentPost.issue = currentPost.issue || {};
         currentPost.issue.title = issueTitleEl.value;
+        markDirty();
         renderLivePreview();
       });
     }
@@ -502,20 +999,36 @@
     const epNumEl = document.getElementById('meta-podcast-ep');
     if (epNumEl) {
       epNumEl.addEventListener('input', () => {
+        if (!currentPost) return;
         currentPost.podcast = currentPost.podcast || {};
         currentPost.podcast.episode = parseInt(epNumEl.value, 10) || 1;
+        markDirty();
         renderLivePreview();
       });
     }
   }
 
+  function updateSlugHint() {
+    const input = $('meta-slug');
+    const hint = $('meta-slug-hint');
+    if (!input || !hint) return;
+    const value = input.value;
+    const valid = value === '' || SLUG_PATTERN.test(value);
+    input.classList.toggle('is-invalid', !valid);
+    input.setAttribute('aria-invalid', String(!valid));
+    hint.classList.toggle('is-error', !valid);
+    hint.textContent = valid
+      ? 'Lowercase letters, numbers and hyphens. Also the JSON file name.'
+      : 'Use lowercase letters, numbers and single hyphens only (no spaces or capitals).';
+  }
+
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
-      // Ctrl+S / Cmd+S: Save/Download JSON
+      // Ctrl+S / Cmd+S: founders review & publish, everyone else downloads the JSON
       if ((e.ctrlKey || e.metaKey) && e.key === 's') {
         e.preventDefault();
-        if (currentUser && currentUser.isFounder) {
-          saveToSupabase();
+        if (getCapabilities(currentUser).publishLive) {
+          requestPublish();
         } else {
           downloadCanonicalJson();
         }
@@ -540,15 +1053,17 @@
       if (el) el.value = val !== undefined && val !== null ? val : '';
     };
 
+    const setSelect = (id, val) => setSelectValue(document.getElementById(id), val);
+
     set('meta-title', post.title || '');
     set('meta-slug', post.slug || '');
     set('meta-kicker', post.kicker || '');
     set('meta-dek', post.dek || '');
-    set('meta-desk', post.desk || 'Words');
-    set('meta-format', post.format || 'essay');
-    set('meta-level', post.level || 'A1–A2');
+    setSelect('meta-desk', post.desk || 'Words');
+    setSelect('meta-format', post.format || 'essay');
+    setSelect('meta-level', post.level || 'A1–A2');
     set('meta-date', post.date || new Date().toISOString().slice(0, 10));
-    set('meta-language', post.language || 'en');
+    setSelect('meta-language', post.language || 'en');
     set('meta-reading-time', post.readingTime || 5);
     set('meta-tags', (post.tags || []).join(', '));
     set('meta-issue-number', (post.issue && post.issue.number) || 'Vol. 2026.12');
@@ -567,6 +1082,8 @@
       magCheck.checked = isMagazinePart;
       updateMagazinePartUI(isMagazinePart);
     }
+
+    updateSlugHint();
   }
 
   function setupConstructorModeListeners() {
@@ -591,11 +1108,11 @@
     // Section Selector Apply button
     const applySecBtn = document.getElementById('studio-apply-section-btn');
     if (applySecBtn) {
-      applySecBtn.addEventListener('click', () => {
+      applySecBtn.addEventListener('click', async () => {
         const sel = document.getElementById('studio-section-selector');
-        if (sel && sel.value) {
-          applyCanonicalSection(sel.value);
-        }
+        if (!sel || !sel.value) return;
+        const done = await withDiscardGuard(() => applyCanonicalSection(sel.value), 'Building a section');
+        if (done) showTab('content');
       });
     }
   }
@@ -611,15 +1128,15 @@
 
       if (magBtn) {
         magBtn.classList.toggle('is-active', constructorMode === 'magazine');
-        magBtn.setAttribute('aria-selected', constructorMode === 'magazine');
+        magBtn.setAttribute('aria-pressed', String(constructorMode === 'magazine'));
       }
       if (webBtn) {
         webBtn.classList.toggle('is-active', constructorMode === 'website');
-        webBtn.setAttribute('aria-selected', constructorMode === 'website');
+        webBtn.setAttribute('aria-pressed', String(constructorMode === 'website'));
       }
 
-      if (magPanel) magPanel.style.display = constructorMode === 'magazine' ? 'block' : 'none';
-      if (webPanel) webPanel.style.display = constructorMode === 'website' ? 'block' : 'none';
+      if (magPanel) magPanel.hidden = constructorMode !== 'magazine';
+      if (webPanel) webPanel.hidden = constructorMode !== 'website';
 
       if (constructorMode === 'website') {
         const magCheck = document.getElementById('studio-is-magazine-part-check');
@@ -633,14 +1150,16 @@
       // In Magazine mode, ensure post has active issue
       if (activeIssue && currentPost) {
         currentPost.issue = currentPost.issue || {};
+        const changed = currentPost.issue.number !== activeIssue.number || currentPost.issue.title !== activeIssue.title;
         currentPost.issue.number = activeIssue.number;
         currentPost.issue.title = activeIssue.title;
         populateMetadataForm(currentPost);
+        if (changed) markDirty();
       }
     }
 
     renderLivePreview();
-    setStatus(`Switched to ${constructorMode === 'magazine' ? 'Magazine Issue Constructor' : 'Website Article Constructor'}`, 'info');
+    setStatus(`Switched to ${constructorMode === 'magazine' ? 'magazine issue' : 'website article'} mode`, 'info');
   }
 
   function setMagazinePart(checked) {
@@ -673,6 +1192,7 @@
     }
 
     populateMetadataForm(currentPost);
+    markDirty();
     renderLivePreview();
   }
 
@@ -684,9 +1204,9 @@
 
     if (statusText) {
       statusText.textContent = isLinked
-        ? 'Linked with magazine: this article will be included in the magazine volume issue.'
-        : 'Currently standalone: article will not be grouped under a magazine volume.';
-      statusText.style.color = isLinked ? '#34d399' : '#94a3b8';
+        ? 'Linked to a magazine issue: this article will be grouped under that volume.'
+        : 'Standalone: this article will not be grouped under a magazine volume.';
+      statusText.classList.toggle('is-ok', isLinked);
     }
 
     if (issueNumInput) issueNumInput.disabled = !isLinked;
@@ -728,6 +1248,7 @@
               currentPost.artDirection.palette = Blocks.clone(activeIssue.palette);
             }
             populateMetadataForm(currentPost);
+            markDirty();
             renderLivePreview();
           }
           setStatus(`Active edition set to ${activeIssue.number} — ${activeIssue.title}`, 'info');
@@ -750,15 +1271,6 @@
         if (activeIssue) {
           openIssueModal('edit', activeIssue);
         }
-      });
-    }
-
-    // Issue Modal Close
-    const modalClose = document.getElementById('studio-issue-modal-close');
-    const modal = document.getElementById('studio-issue-modal');
-    if (modalClose && modal) {
-      modalClose.addEventListener('click', () => {
-        modal.style.display = 'none';
       });
     }
 
@@ -788,7 +1300,7 @@
     modeInput.value = mode;
 
     if (mode === 'edit' && issueData) {
-      heading.textContent = `Edit Issue: ${issueData.number}`;
+      heading.textContent = `Edit issue ${issueData.number}`;
       idInput.value = issueData.id;
       volInput.value = issueData.number || '';
       titleInput.value = issueData.title || '';
@@ -796,20 +1308,19 @@
       dateInput.value = issueData.date || '';
       colorInput.value = (issueData.palette && issueData.palette[0]) || '#993c1d';
     } else {
-      heading.textContent = 'Create New Magazine Issue';
+      heading.textContent = 'Create new issue';
       idInput.value = `vol-${Date.now()}`;
       volInput.value = '';
       titleInput.value = '';
       themeInput.value = '';
       dateInput.value = new Date().toISOString().slice(0, 10);
-      colorInput.value = '#0284c7';
+      colorInput.value = '#416b49';
     }
 
-    modal.style.display = 'flex';
+    openModal('studio-issue-modal');
   }
 
   function saveIssueFromModal() {
-    const modal = document.getElementById('studio-issue-modal');
     const mode = document.getElementById('issue-modal-mode').value;
     const id = document.getElementById('issue-modal-id').value;
     const volume = document.getElementById('issue-modal-volume').value.trim();
@@ -853,10 +1364,11 @@
         title: activeIssue.title
       };
       populateMetadataForm(currentPost);
+      markDirty();
       renderLivePreview();
     }
 
-    if (modal) modal.style.display = 'none';
+    closeModal('studio-issue-modal');
     setStatus(`Saved magazine issue: ${volume} — ${title}`, 'success');
   }
 
@@ -868,15 +1380,29 @@
     const newBlock = Blocks.createBlock(type);
     currentPost.blocks = currentPost.blocks || [];
     currentPost.blocks.push(newBlock);
+    collapsedBlockIndices.clear();
+    markDirty();
     renderBlockList();
     renderLivePreview();
-    setStatus(`Added new ${type} block.`, 'info');
+    setStatus(`Added a ${type} block.`, 'info');
+    // Bring the new block into view and focus its first field
+    if (typeof document !== 'undefined') {
+      const cards = document.querySelectorAll('#studio-blocks-container .studio-block-card');
+      const last = cards[cards.length - 1];
+      if (last) {
+        last.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        const firstField = last.querySelector('[data-field]');
+        if (firstField) firstField.focus({ preventScroll: true });
+      }
+    }
   }
 
   function removeBlock(index) {
     if (!currentPost || !currentPost.blocks) return;
     const removed = currentPost.blocks.splice(index, 1)[0];
     deletedBlockBackup = { block: removed, index };
+    collapsedBlockIndices.clear();
+    markDirty();
     showUndoBanner(removed);
     renderBlockList();
     renderLivePreview();
@@ -888,6 +1414,8 @@
     const idx = Math.min(deletedBlockBackup.index, currentPost.blocks.length);
     currentPost.blocks.splice(idx, 0, deletedBlockBackup.block);
     deletedBlockBackup = null;
+    collapsedBlockIndices.clear();
+    markDirty();
     hideUndoBanner();
     renderBlockList();
     renderLivePreview();
@@ -898,13 +1426,13 @@
     const banner = document.getElementById('studio-undo-banner');
     const textEl = document.getElementById('studio-undo-text');
     if (!banner) return;
-    if (textEl) textEl.textContent = `Deleted "${block.type}" block.`;
-    banner.style.display = 'flex';
+    if (textEl) textEl.textContent = `Deleted the ${block.type} block.`;
+    banner.hidden = false;
   }
 
   function hideUndoBanner() {
     const banner = document.getElementById('studio-undo-banner');
-    if (banner) banner.style.display = 'none';
+    if (banner) banner.hidden = true;
   }
 
   function moveBlock(index, delta) {
@@ -913,6 +1441,8 @@
     if (target < 0 || target >= currentPost.blocks.length) return;
     const item = currentPost.blocks.splice(index, 1)[0];
     currentPost.blocks.splice(target, 0, item);
+    collapsedBlockIndices.clear();
+    markDirty();
     renderBlockList();
     renderLivePreview();
   }
@@ -921,6 +1451,8 @@
     if (!currentPost || !currentPost.blocks) return;
     const item = Blocks.clone(currentPost.blocks[index]);
     currentPost.blocks.splice(index + 1, 0, item);
+    collapsedBlockIndices.clear();
+    markDirty();
     renderBlockList();
     renderLivePreview();
   }
@@ -980,46 +1512,45 @@
 
     if (!currentPost || !currentPost.blocks || currentPost.blocks.length === 0) {
       container.innerHTML = `
-        <div class="studio-empty-blocks" style="text-align: center; padding: 2rem; color: #94a3b8; border: 1px dashed #334155; border-radius: 8px;">
-          <p>No content blocks yet. Pick a building block from the toolbox above!</p>
+        <div class="empty-state">
+          ${icon('layers')}
+          <strong>No content yet</strong>
+          <p>Use <em>Add block</em> above, or start from a template in the Start tab.</p>
         </div>
       `;
       return;
     }
 
     container.innerHTML = currentPost.blocks.map((block, index) => {
-      const def = Blocks.BLOCK_DEFINITIONS.find(b => b.type === block.type) || {
-        icon: '📦',
-        label: block.type
-      };
+      const def = Blocks.BLOCK_DEFINITIONS.find(b => b.type === block.type) || { label: block.type };
       const isCollapsed = collapsedBlockIndices.has(index);
       const snippet = getBlockSnippet(block);
 
       return `
         <div class="studio-block-card ${isCollapsed ? 'is-collapsed' : ''}" data-index="${index}">
           <div class="studio-block-header">
-            <div class="studio-block-drag-title" data-act="toggle-collapse" title="Click to expand/collapse card">
-              <span class="block-toggle-icon">▼</span>
-              <span class="block-icon">${def.icon}</span>
-              <span class="block-type-badge">${escapeHtml(block.type)}</span>
+            <button type="button" class="studio-block-drag-title" data-act="toggle-collapse" aria-expanded="${!isCollapsed}" title="Expand or collapse">
+              ${icon('chevron-down', 'block-toggle-icon')}
+              <span class="block-icon">${icon(BLOCK_ICONS[block.type] || 'layers')}</span>
+              <span class="block-type-badge">${escapeHtml(def.label)}</span>
               <span class="block-index">#${index + 1}</span>
               ${snippet ? `<span class="block-summary-snippet">${escapeHtml(snippet)}</span>` : ''}
-            </div>
+            </button>
             <div class="studio-block-actions">
-              <button type="button" class="action-btn" data-act="scroll-to" title="Highlight in Live Preview">👁️</button>
-              <button type="button" class="action-btn" data-act="up" ${index === 0 ? 'disabled' : ''} title="Move Up">▲</button>
-              <button type="button" class="action-btn" data-act="down" ${index === currentPost.blocks.length - 1 ? 'disabled' : ''} title="Move Down">▼</button>
-              <button type="button" class="action-btn" data-act="clone" title="Clone Block">📋</button>
-              <button type="button" class="action-btn action-danger" data-act="delete" title="Delete Block">✕</button>
+              <button type="button" class="action-btn" data-act="scroll-to" title="Show in preview" aria-label="Show block ${index + 1} in preview">${icon('eye')}</button>
+              <button type="button" class="action-btn" data-act="up" ${index === 0 ? 'disabled' : ''} title="Move up" aria-label="Move block ${index + 1} up">${icon('arrow-up')}</button>
+              <button type="button" class="action-btn" data-act="down" ${index === currentPost.blocks.length - 1 ? 'disabled' : ''} title="Move down" aria-label="Move block ${index + 1} down">${icon('arrow-down')}</button>
+              <button type="button" class="action-btn" data-act="clone" title="Duplicate" aria-label="Duplicate block ${index + 1}">${icon('copy')}</button>
+              <button type="button" class="action-btn action-danger" data-act="delete" title="Delete" aria-label="Delete block ${index + 1}">${icon('trash')}</button>
             </div>
           </div>
           <div class="studio-block-fields">
             ${renderBlockFields(block, index)}
             <div class="studio-stage-fields">
               <details>
-                <summary>🎙️ Teleprompter / Audio Say Script & Beats</summary>
-                <div class="form-group" style="margin-top: 8px;">
-                  <label>Spoken Narration Script (say):</label>
+                <summary>${icon('mic-script')}Podcast and read-aloud script</summary>
+                <div class="form-group">
+                  <label>Spoken narration (say)</label>
                   <textarea class="form-control" data-field="say" rows="2" placeholder="Spoken read-aloud text for podcast audio or presentation...">${escapeHtml(block.say || '')}</textarea>
                 </div>
               </details>
@@ -1056,6 +1587,7 @@
           if (act === 'clone') cloneBlock(index);
           if (act === 'delete') removeBlock(index);
           if (act === 'scroll-to') scrollToPreviewBlock(index);
+          if (act === 'toggle-collapse') return;
         });
       });
 
@@ -1070,6 +1602,7 @@
             applyFormatting(textarea, fmt);
             const block = currentPost.blocks[index];
             updateBlockField(block, fieldName, textarea.value);
+            markDirty();
             renderLivePreview();
             updateArticleStatsUI();
           }
@@ -1086,6 +1619,7 @@
               urlInput.value = imgSelect.value;
               const block = currentPost.blocks[index];
               updateBlockField(block, 'url', imgSelect.value);
+              markDirty();
               renderLivePreview();
             }
           }
@@ -1111,6 +1645,7 @@
             updateBlockField(block, 'url', found.url);
             updateBlockField(block, 'label', found.label);
             updateBlockField(block, 'destination', found.destination);
+            markDirty();
             renderLivePreview();
           }
         });
@@ -1122,11 +1657,31 @@
           const field = input.getAttribute('data-field');
           const block = currentPost.blocks[index];
           updateBlockField(block, field, input.value);
+          markDirty();
           renderLivePreview();
           updateArticleStatsUI();
         });
+        if (input.tagName === 'SELECT') {
+          input.addEventListener('change', () => {
+            updateBlockField(currentPost.blocks[index], input.getAttribute('data-field'), input.value);
+            markDirty();
+            renderLivePreview();
+          });
+        }
+      });
+
+      // Associate every label with its control (screen readers, click-to-focus)
+      card.querySelectorAll('.form-group').forEach((group, g) => {
+        const label = group.querySelector('label');
+        const control = group.querySelector('input, textarea, select');
+        if (label && control && !label.hasAttribute('for')) {
+          if (!control.id) control.id = `blk-${index}-${g}`;
+          label.setAttribute('for', control.id);
+        }
       });
     });
+
+    updateHeaderContext();
   }
 
   function applyFormatting(textarea, format) {
@@ -1188,14 +1743,14 @@
       case 'heading':
         return `
           <div class="form-row">
-            <div class="form-group" style="width: 100px;">
+            <div class="form-group fg-xs">
               <label>Level</label>
               <select class="form-control" data-field="level">
                 ${[1, 2, 3, 4, 5, 6].map(lvl => `<option value="${lvl}" ${block.level === lvl ? 'selected' : ''}>H${lvl}</option>`).join('')}
               </select>
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>Heading Text</label>
+            <div class="form-group">
+              <label>Heading text</label>
               <input type="text" class="form-control" data-field="text" value="${escapeHtml(block.text || '')}">
             </div>
           </div>
@@ -1204,13 +1759,13 @@
       case 'paragraph':
         return `
           <div class="form-group">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <label>Paragraph Text:</label>
+            <div class="form-group-head">
+              <label>Paragraph text</label>
               <div class="studio-format-toolbar">
-                <button type="button" class="format-btn" data-format="bold" data-target-field="text" title="Bold (**)">B</button>
-                <button type="button" class="format-btn" data-format="italic" data-target-field="text" title="Italic (*)">I</button>
-                <button type="button" class="format-btn" data-format="code" data-target-field="text" title="Code (\`)">&lt;/&gt;</button>
-                <button type="button" class="format-btn" data-format="link" data-target-field="text" title="Link">🔗</button>
+                <button type="button" class="format-btn" data-format="bold" data-target-field="text" title="Bold" aria-label="Bold">B</button>
+                <button type="button" class="format-btn" data-format="italic" data-target-field="text" title="Italic" aria-label="Italic"><em>I</em></button>
+                <button type="button" class="format-btn" data-format="code" data-target-field="text" title="Code" aria-label="Code">&lt;/&gt;</button>
+                <button type="button" class="format-btn" data-format="link" data-target-field="text" title="Link" aria-label="Link">${icon('link')}</button>
               </div>
             </div>
             <textarea class="form-control" data-field="text" rows="4">${escapeHtml(block.text || '')}</textarea>
@@ -1220,22 +1775,22 @@
       case 'mistake-card':
         return `
           <div class="form-row">
-            <div class="form-group" style="width: 100px;">
+            <div class="form-group fg-xs">
               <label>Number</label>
               <input type="text" class="form-control" data-field="number" value="${escapeHtml(block.number || '1')}">
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>Mistake Title</label>
+            <div class="form-group">
+              <label>Mistake title</label>
               <input type="text" class="form-control" data-field="title" value="${escapeHtml(block.title || '')}">
             </div>
           </div>
           <div class="form-row">
-            <div class="form-group" style="flex: 1;">
-              <label>✗ Wrong Sentence</label>
+            <div class="form-group">
+              <label>Wrong sentence</label>
               <input type="text" class="form-control" data-field="wrong" value="${escapeHtml(block.wrong || '')}">
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>✓ Right Sentence</label>
+            <div class="form-group">
+              <label>Right sentence</label>
               <input type="text" class="form-control" data-field="right" value="${escapeHtml(block.right || '')}">
             </div>
           </div>
@@ -1248,7 +1803,7 @@
             <input type="text" class="form-control" data-field="rule" value="${escapeHtml(block.rule || '')}">
           </div>
           <div class="form-group">
-            <label>More Examples (one per line):</label>
+            <label>More examples (one per line)</label>
             <textarea class="form-control" data-field="examples" rows="2">${escapeHtml((block.examples || []).join('\n'))}</textarea>
           </div>
         `;
@@ -1256,15 +1811,15 @@
       case 'example':
         return `
           <div class="form-group">
-            <label>Target Language Sentence</label>
+            <label>Target-language sentence</label>
             <input type="text" class="form-control" data-field="targetText" value="${escapeHtml(block.targetText || '')}">
           </div>
           <div class="form-group">
-            <label>Gloss (Monolingual meaning or structural guide)</label>
+            <label>Gloss (monolingual meaning or structure guide)</label>
             <input type="text" class="form-control" data-field="gloss" value="${escapeHtml(block.gloss || '')}">
           </div>
           <div class="form-group">
-            <label>Usage Context (optional)</label>
+            <label>Usage context (optional)</label>
             <input type="text" class="form-control" data-field="context" value="${escapeHtml(block.context || '')}">
           </div>
         `;
@@ -1272,12 +1827,12 @@
       case 'pronunciation':
         return `
           <div class="form-row">
-            <div class="form-group" style="flex: 1;">
-              <label>Word / Phrase</label>
+            <div class="form-group">
+              <label>Word or phrase</label>
               <input type="text" class="form-control" data-field="word" value="${escapeHtml(block.word || '')}">
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>IPA Transcription</label>
+            <div class="form-group">
+              <label>IPA transcription</label>
               <input type="text" class="form-control" data-field="ipa" value="${escapeHtml(block.ipa || '')}">
             </div>
           </div>
@@ -1286,7 +1841,7 @@
       case 'pullquote':
         return `
           <div class="form-group">
-            <label>Quote Text</label>
+            <label>Quote text</label>
             <textarea class="form-control" data-field="quote" rows="2">${escapeHtml(block.quote || '')}</textarea>
           </div>
           <div class="form-group">
@@ -1298,20 +1853,20 @@
       case 'quiz':
         return `
           <div class="form-group">
-            <label>Quiz Question</label>
+            <label>Quiz question</label>
             <input type="text" class="form-control" data-field="quiz-question" value="${escapeHtml((block.quiz ? block.quiz.question : block.question) || '')}">
           </div>
           <div class="form-group">
-            <label>Options (one per line):</label>
+            <label>Options (one per line)</label>
             <textarea class="form-control" data-field="quiz-options" rows="3">${escapeHtml(((block.quiz ? block.quiz.options : block.options) || []).join('\n'))}</textarea>
           </div>
           <div class="form-row">
-            <div class="form-group" style="width: 150px;">
-              <label>Correct Index (0-based)</label>
+            <div class="form-group fg-sm">
+              <label>Correct option (0 = first)</label>
               <input type="number" class="form-control" data-field="quiz-correct" min="0" max="5" value="${(block.quiz ? block.quiz.correctIndex : block.correctIndex) || 0}">
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>Pedagogical Explanation</label>
+            <div class="form-group">
+              <label>Explanation</label>
               <input type="text" class="form-control" data-field="quiz-explanation" value="${escapeHtml((block.quiz ? block.quiz.explanation : block.explanation) || '')}">
             </div>
           </div>
@@ -1324,7 +1879,7 @@
             <input type="text" class="form-control" data-field="title" value="${escapeHtml(block.title || '')}">
           </div>
           <div class="form-group">
-            <label>Cultural Context Note</label>
+            <label>Cultural context note</label>
             <textarea class="form-control" data-field="content" rows="3">${escapeHtml(block.content || '')}</textarea>
           </div>
         `;
@@ -1332,27 +1887,27 @@
       case 'list-item':
         return `
           <div class="form-group">
-            <label>List Items or Phrase Upgrades (e.g. "Overused → Upgrade", one per line):</label>
+            <label>List items (one per line, e.g. “Overused → Upgrade”)</label>
             <textarea class="form-control" data-field="items" rows="4">${escapeHtml((block.items || []).join('\n'))}</textarea>
           </div>
         `;
 
       case 'image': {
         const assets = Blocks.AVAILABLE_IMAGE_ASSETS || [];
-        const optionsHtml = '<option value="">-- Or Pick Known Diagram / Illustration --</option>' +
-          assets.map(a => `<option value="${a.url}" ${block.url === a.url ? 'selected' : ''}>${a.label}</option>`).join('');
+        const optionsHtml = '<option value="">Choose an illustration…</option>' +
+          assets.map(a => `<option value="${escapeHtml(a.url)}" ${block.url === a.url ? 'selected' : ''}>${escapeHtml(a.label)}</option>`).join('');
 
         return `
           <div class="form-group">
-            <label>Quick Visual Asset Selector</label>
+            <label>Pick a known illustration</label>
             <select class="form-control studio-image-picker">${optionsHtml}</select>
           </div>
           <div class="form-row">
-            <div class="form-group" style="flex: 1;">
+            <div class="form-group">
               <label>Image URL</label>
               <input type="text" class="form-control" data-field="url" value="${escapeHtml(block.url || '')}">
             </div>
-            <div class="form-group" style="flex: 1;">
+            <div class="form-group">
               <label>Alt Text</label>
               <input type="text" class="form-control" data-field="alt" value="${escapeHtml(block.alt || '')}">
             </div>
@@ -1366,16 +1921,16 @@
 
       case 'links': {
         const presets = Blocks.LINK_PRESETS || [];
-        const presetOpts = '<option value="">-- Quick Fill Ecosystem Gateway --</option>' +
-          presets.map(p => `<option value="${p.url}" ${block.url === p.url ? 'selected' : ''}>${p.label}</option>`).join('');
+        const presetOpts = '<option value="">Choose a destination…</option>' +
+          presets.map(p => `<option value="${escapeHtml(p.url)}" ${block.url === p.url ? 'selected' : ''}>${escapeHtml(p.label)}</option>`).join('');
 
         return `
           <div class="form-group">
-            <label>Quick Ecosystem Preset</label>
+            <label>Quick-fill from the COSY ecosystem</label>
             <select class="form-control studio-link-picker">${presetOpts}</select>
           </div>
           <div class="form-row">
-            <div class="form-group" style="width: 140px;">
+            <div class="form-group fg-sm">
               <label>Destination</label>
               <select class="form-control" data-field="destination">
                 <option value="cosytools" ${block.destination === 'cosytools' ? 'selected' : ''}>COSYtools</option>
@@ -1384,20 +1939,20 @@
                 <option value="external" ${block.destination === 'external' ? 'selected' : ''}>External Website</option>
               </select>
             </div>
-            <div class="form-group" style="flex: 1;">
-              <label>Link Label (e.g. Practice on COSYtools)</label>
+            <div class="form-group">
+              <label>Link label (e.g. Practice on COSYtools)</label>
               <input type="text" class="form-control" data-field="label" value="${escapeHtml(block.label || '')}">
             </div>
           </div>
           <div class="form-group">
-            <label>Target URL (must open in new tab with target="_blank")</label>
+            <label>Target URL (opens in a new tab)</label>
             <input type="text" class="form-control" data-field="url" value="${escapeHtml(block.url || '')}">
           </div>
         `;
       }
 
       default:
-        return `<p style="font-size: 0.85rem; color: #64748b;">Block payload configured via JSON export.</p>`;
+        return `<p class="block-note">This block type has no form yet. Edit it in the exported JSON.</p>`;
     }
   }
 
@@ -1409,6 +1964,7 @@
     const previewRoot = document.getElementById('studio-preview-root');
     if (!previewRoot || !currentPost) return;
 
+    updateHeaderContext();
     let isFirstPara = true;
 
     const renderedBlocks = (currentPost.blocks || []).map((b, index) => {
@@ -1633,10 +2189,14 @@
     }
   }
 
+  function setFormMsg(el, text, kind) {
+    if (!el) return;
+    el.textContent = text || '';
+    el.className = `form-msg${kind ? ' msg-' + kind : ''}`;
+  }
+
   function setupPdfUploadModal() {
     const uploadBtn = document.getElementById('studio-upload-pdf-btn');
-    const modal = document.getElementById('studio-pdf-modal');
-    const closeBtn = document.getElementById('studio-pdf-modal-close');
     const form = document.getElementById('studio-pdf-upload-form');
     const fileInput = document.getElementById('studio-pdf-file-input');
     const volumeInput = document.getElementById('studio-pdf-volume-input');
@@ -1645,20 +2205,21 @@
     const statusMsg = document.getElementById('studio-pdf-status-msg');
     const submitBtn = document.getElementById('studio-pdf-submit-btn');
 
-    if (uploadBtn && modal) {
+    if (uploadBtn) {
       uploadBtn.addEventListener('click', () => {
-        modal.style.display = 'flex';
-        if (statusMsg) statusMsg.innerHTML = '';
+        if (!getCapabilities(currentUser).uploadPdf) {
+          setStatus(currentUser
+            ? 'Uploading issue PDFs needs a founder account.'
+            : 'Sign in with a founder account to upload issue PDFs.', 'error');
+          if (!currentUser) openModal('studio-auth-modal');
+          return;
+        }
+        setFormMsg(statusMsg, '');
         if (currentPost && currentPost.issue) {
           if (volumeInput && currentPost.issue.number) volumeInput.value = currentPost.issue.number;
           if (titleInput && currentPost.issue.title) titleInput.value = currentPost.issue.title;
         }
-      });
-    }
-
-    if (closeBtn && modal) {
-      closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
+        openModal('studio-pdf-modal');
       });
     }
 
@@ -1682,34 +2243,40 @@
         const title = titleInput ? titleInput.value.trim() : '';
         const isPublished = publishCheck ? publishCheck.checked : true;
 
+        if (!getCapabilities(currentUser).uploadPdf) {
+          setFormMsg(statusMsg, 'Uploading issue PDFs needs a founder account.', 'error');
+          return;
+        }
         if (!file) {
-          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Please select a PDF file.</span>';
+          setFormMsg(statusMsg, 'Please choose a PDF file.', 'error');
+          return;
+        }
+        if (file.type && file.type !== 'application/pdf') {
+          setFormMsg(statusMsg, 'That file is not a PDF.', 'error');
           return;
         }
         if (!volume) {
-          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Volume number is required (e.g. Vol. 2026.08).</span>';
+          setFormMsg(statusMsg, 'Volume number is required (for example Vol. 2026.08).', 'error');
           return;
         }
 
         const client = Auth ? Auth.getClient() : null;
         if (!client) {
-          if (statusMsg) statusMsg.innerHTML = '<span style="color:#ef4444;">Supabase client not available. Please sign in as Founder.</span>';
+          setFormMsg(statusMsg, 'The content database is not reachable. Reload the page and sign in again.', 'error');
           return;
         }
 
+        const idleLabel = submitBtn ? submitBtn.innerHTML : '';
         if (submitBtn) {
           submitBtn.disabled = true;
-          submitBtn.textContent = '⏳ Uploading to Supabase Storage...';
+          submitBtn.textContent = 'Uploading…';
         }
-        if (statusMsg) {
-          statusMsg.innerHTML = '<span style="color:#38bdf8;">Uploading PDF to private storage ("magazine-editions")...</span>';
-        }
+        setFormMsg(statusMsg, 'Uploading the PDF to private storage…', 'info');
 
         try {
           const cleanVolume = volume.replace(/[^a-zA-Z0-9.-]/g, '_');
           const storagePath = `issues/cosymagazine-${cleanVolume.toLowerCase()}.pdf`;
 
-          // 1. Upload to Supabase Storage
           const { error: uploadErr } = await client.storage
             .from('magazine-editions')
             .upload(storagePath, file, {
@@ -1717,16 +2284,10 @@
               upsert: true,
               contentType: 'application/pdf'
             });
+          if (uploadErr) throw new Error(`Storage upload failed: ${uploadErr.message}`);
 
-          if (uploadErr) {
-            throw new Error(`Storage upload failed: ${uploadErr.message}`);
-          }
+          setFormMsg(statusMsg, 'PDF uploaded. Registering the issue…', 'info');
 
-          if (statusMsg) {
-            statusMsg.innerHTML = '<span style="color:#38bdf8;">PDF uploaded. Synchronizing magazine_issues table...</span>';
-          }
-
-          // 2. Sync magazine_issues record
           const canonicalId = volume.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
           const { error: dbErr } = await client
             .from('magazine_issues')
@@ -1739,38 +2300,127 @@
             }, { onConflict: 'id' });
 
           if (dbErr) {
+            // The file is stored but the issue is not registered, so readers will not see it yet.
             console.warn('[Studio] Database sync warning:', dbErr);
+            setFormMsg(statusMsg,
+              `The PDF was stored at ${storagePath}, but the issue could not be registered (${dbErr.message}). It will not appear on the site until this is fixed.`,
+              'warn');
+            setStatus('PDF stored, but the issue was not registered.', 'error');
+          } else {
+            setFormMsg(statusMsg,
+              `Uploaded "${file.name}" and ${isPublished ? 'published' : 'saved as a draft'} ${volume}.`,
+              'success');
+            setStatus(`Uploaded the ${volume} PDF.`, 'success');
           }
-
-          if (statusMsg) {
-            statusMsg.innerHTML = `<span style="color:#4ade80;">✅ Successfully uploaded "${file.name}" to <code>${storagePath}</code>!</span>`;
-          }
-          setStatus(`Uploaded ${volume} PDF to Supabase storage.`, 'success');
         } catch (err) {
           console.error('[Studio] PDF upload error:', err);
-          if (statusMsg) {
-            statusMsg.innerHTML = `<span style="color:#ef4444;">❌ Upload failed: ${escapeHtml(err.message)}</span>`;
-          }
+          setFormMsg(statusMsg, `Upload failed: ${err.message}`, 'error');
         } finally {
           if (submitBtn) {
             submitBtn.disabled = false;
-            submitBtn.textContent = '🚀 Upload PDF Directly to Supabase';
+            submitBtn.innerHTML = idleLabel;
           }
         }
       });
     }
   }
 
-  async function saveToSupabase() {
+  /**
+   * Review & publish
+   */
+  function requestPublish() {
+    const caps = getCapabilities(currentUser);
+    if (!caps.publishLive) {
+      if (!currentUser) {
+        setStatus('Sign in with a founder account to publish.', 'info');
+        openModal('studio-auth-modal');
+      } else {
+        setStatus('Publishing needs a founder account. You can still export the JSON.', 'error');
+      }
+      return;
+    }
     if (!currentPost) return;
+    renderPublishReview();
+    setFormMsg($('studio-publish-msg'), '');
+    openModal('studio-publish-modal');
+  }
+
+  function renderPublishReview() {
+    const checks = getReadiness(currentPost);
+    const errors = checks.filter(c => c.level === 'error').length;
+    const warns = checks.filter(c => c.level === 'warn').length;
+    const standalone = constructorMode === 'website' && !isMagazinePart;
+    const stats = calculateArticleStats(currentPost);
+
+    const rows = [
+      ['Title', currentPost.title || '—'],
+      ['Page', currentPost.slug ? `/${currentPost.slug}.html` : '—'],
+      ['Placement', standalone ? 'Website article' : `${(currentPost.issue && currentPost.issue.number) || '—'} · ${(currentPost.issue && currentPost.issue.title) || '—'}`],
+      ['Language', currentPost.language || '—'],
+      ['Length', `${stats.words} words · ${stats.minutes} min read`]
+    ];
+    const summary = $('studio-publish-summary');
+    if (summary) {
+      summary.innerHTML = rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('');
+    }
+
+    const list = $('studio-readiness-list');
+    if (list) {
+      const iconFor = { ok: 'check-circle', warn: 'alert', error: 'x-circle' };
+      list.innerHTML = checks.map(c => `
+        <li class="is-${c.level}">
+          ${icon(iconFor[c.level])}
+          <span><strong>${escapeHtml(c.label)}</strong>${c.detail ? `<small>${escapeHtml(c.detail)}</small>` : ''}</span>
+        </li>`).join('');
+    }
+
+    const confirmBtn = $('studio-publish-confirm-btn');
+    if (confirmBtn) {
+      confirmBtn.disabled = errors > 0;
+      confirmBtn.title = errors > 0 ? 'Fix the items marked as errors first' : '';
+    }
+    const msg = $('studio-publish-msg');
+    if (msg && errors > 0) {
+      setFormMsg(msg, `${errors} item${errors === 1 ? '' : 's'} must be fixed before publishing.`, 'error');
+    } else if (msg && warns > 0) {
+      setFormMsg(msg, `${warns} suggestion${warns === 1 ? '' : 's'}. You can still publish.`, 'warn');
+    }
+  }
+
+  function setupPublishFlow() {
+    const confirmBtn = $('studio-publish-confirm-btn');
+    if (!confirmBtn) return;
+    confirmBtn.addEventListener('click', async () => {
+      confirmBtn.disabled = true;
+      const idle = confirmBtn.innerHTML;
+      confirmBtn.textContent = 'Publishing…';
+      const msg = $('studio-publish-msg');
+      setFormMsg(msg, 'Saving to the content database…', 'info');
+      const ok = await saveToSupabase();
+      confirmBtn.innerHTML = idle;
+      confirmBtn.disabled = false;
+      if (ok) {
+        closeModal('studio-publish-modal');
+      } else {
+        setFormMsg(msg, 'Publishing failed. Your work is still here; check your connection and try again, or download the JSON as a backup.', 'error');
+      }
+    });
+  }
+
+  async function saveToSupabase() {
+    if (!currentPost) return false;
+    if (!getCapabilities(currentUser).publishLive) {
+      setStatus('Publishing needs a founder account.', 'error');
+      return false;
+    }
     const client = Auth ? Auth.getClient() : null;
 
     if (!client) {
-      setStatus('Supabase client is not available. Please sign in.', 'error');
-      return;
+      setStatus('The content database is not reachable. Reload and sign in again.', 'error');
+      return false;
     }
 
-    setStatus('Saving article to Supabase...', 'info');
+    setStatus('Publishing…', 'info');
 
     try {
       // 1. Try upserting to magazine_article_overrides
@@ -1799,28 +2449,41 @@
         }
       }
 
-      setStatus(`✅ Successfully saved and published "${currentPost.slug}" to Supabase!`, 'success');
+      markClean();
+      setStatus(`Published "${currentPost.slug}".`, 'success');
+      return true;
     } catch (err) {
       console.error('[Studio] Supabase save error:', err);
-      setStatus(`❌ Error saving to Supabase: ${err.message}`, 'error');
+      setStatus(`Could not publish: ${err.message}`, 'error');
+      return false;
     }
   }
 
-  function handleFileImport(e) {
-    const file = e.target.files && e.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = (event) => {
-      try {
-        const postData = JSON.parse(event.target.result);
-        setCurrentPost(postData);
-        setStatus(`Successfully imported "${file.name}"`, 'success');
-      } catch (err) {
-        setStatus(`Invalid JSON file: ${err.message}`, 'error');
-      }
-    };
-    reader.readAsText(file);
+  // Reads a File chosen in the import dialog. Resolves once the article is loaded (or rejected).
+  function handleFileImport(file) {
+    return new Promise((resolve) => {
+      if (!file) { resolve(false); return; }
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const postData = JSON.parse(event.target.result);
+          if (!postData || typeof postData !== 'object' || Array.isArray(postData) || !Array.isArray(postData.blocks)) {
+            throw new Error('this does not look like a COSY article (no "blocks" list)');
+          }
+          setCurrentPost(postData);
+          setStatus(`Imported "${file.name}"`, 'success');
+          resolve(true);
+        } catch (err) {
+          setStatus(`Could not import: ${err.message}`, 'error');
+          resolve(false);
+        }
+      };
+      reader.onerror = () => {
+        setStatus('Could not read that file.', 'error');
+        resolve(false);
+      };
+      reader.readAsText(file);
+    });
   }
 
   function setStatus(msg, type = 'info') {
@@ -1831,8 +2494,12 @@
     bar.className = `studio-status status-${type}`;
     if (type === 'success' || type === 'info') {
       setTimeout(() => {
-        if (bar.textContent === msg) bar.textContent = '';
-      }, 4000);
+        if (bar.textContent === msg) { bar.textContent = ''; bar.className = 'studio-status'; }
+      }, 4500);
+    } else if (type === 'error') {
+      setTimeout(() => {
+        if (bar.textContent === msg) { bar.textContent = ''; bar.className = 'studio-status'; }
+      }, 9000);
     }
   }
 
@@ -1869,6 +2536,8 @@
     downloadCanonicalJson,
     copyCanonicalJson,
     saveToSupabase,
+    getCapabilities,
+    getReadiness,
     calculateArticleStats,
     undoDeleteBlock,
     applyFormatting,
