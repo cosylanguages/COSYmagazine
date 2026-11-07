@@ -363,6 +363,14 @@
       });
     }
 
+    // Modular Elements Inserter Buttons
+    document.querySelectorAll('.studio-modular-insert-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const presetId = btn.getAttribute('data-preset');
+        insertModularElement(presetId);
+      });
+    });
+
     // Collapse All Blocks Button
     const collapseAllBtn = document.getElementById('studio-collapse-all-btn');
     if (collapseAllBtn) {
@@ -871,6 +879,24 @@
     renderBlockList();
     renderLivePreview();
     setStatus(`Added new ${type} block.`, 'info');
+  }
+
+  function insertModularElement(presetId) {
+    if (!currentPost) {
+      setStatus('Please select or create an article first.', 'warning');
+      return;
+    }
+    if (!Blocks.createModularElementBlock) return;
+    try {
+      const newBlock = Blocks.createModularElementBlock(presetId);
+      currentPost.blocks = currentPost.blocks || [];
+      currentPost.blocks.push(newBlock);
+      renderBlockList();
+      renderLivePreview();
+      setStatus(`Inserted modular element "${presetId}".`, 'info');
+    } catch (err) {
+      setStatus(`Failed to insert modular element: ${err.message}`, 'error');
+    }
   }
 
   function removeBlock(index) {
