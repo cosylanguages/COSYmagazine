@@ -156,6 +156,96 @@ body.studio-body {
 .status-success { color: #34d399; font-weight: 600; }
 .status-error { color: #f87171; font-weight: 600; }
 
+/* Constructor Mode Switcher Tabs */
+.studio-mode-toggle {
+  display: inline-flex;
+  background-color: #0b1120;
+  border: 1px solid var(--studio-border);
+  border-radius: 8px;
+  padding: 2px;
+  gap: 2px;
+}
+
+.studio-mode-btn {
+  background: transparent;
+  border: none;
+  color: var(--studio-text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.studio-mode-btn:hover {
+  color: var(--studio-text);
+  background-color: #1e293b;
+}
+
+.studio-mode-btn.is-active {
+  background-color: var(--studio-accent);
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Active Issue Display Card */
+.studio-active-issue-card {
+  background: linear-gradient(135deg, #131c2e 0%, #0b1120 100%);
+  border: 1px solid #334155;
+  border-left: 4px solid var(--studio-accent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 0.75rem;
+}
+
+.active-issue-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.active-issue-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: rgba(2, 132, 199, 0.2);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.active-issue-theme {
+  font-size: 0.76rem;
+  color: #94a3b8;
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* Canonical Section Selector Hint */
+.studio-hint-text {
+  font-size: 0.74rem;
+  color: #94a3b8;
+  margin-top: 5px;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+/* Live Preview Spread Modifiers */
+.gazette-wrapper.is-website-standalone .gazette-masthead {
+  border-bottom: 2px solid #0284c7;
+}
+
+.gazette-wrapper.is-website-standalone .gazette-masthead-top {
+  background-color: #f1f5f9;
+}
+
 /* 2. Main Studio Split Workspace */
 
 .studio-workspace {
