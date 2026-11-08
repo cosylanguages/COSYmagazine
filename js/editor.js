@@ -7,6 +7,9 @@
 (function () {
   'use strict';
 
+  const PrintSpec = typeof window !== 'undefined' && window.CosyPrintSpec
+    ? window.CosyPrintSpec
+    : (typeof require === 'function' ? (function () { try { return require('./print-spec.js'); } catch (e) { return null; } })() : null);
   const Blocks = typeof window !== 'undefined' && window.CosyEditorBlocks
     ? window.CosyEditorBlocks
     : (typeof require !== 'undefined' ? require('./editor-blocks.js') : {});
@@ -101,6 +104,34 @@
    * Everyone can draft, import and export; founders (founder/admin/owner)
    * can also publish live and upload issue PDFs.
    */
+  const STATUSES = ['idea', 'assigned', 'drafting', 'in-review', 'fact-checked', 'approved', 'published'];
+  const STATUS_LABELS = {
+    idea: 'Idea', assigned: 'Assigned', drafting: 'Drafting', 'in-review': 'In review',
+    'fact-checked': 'Fact-checked', approved: 'Approved', published: 'Published'
+  };
+  const LEDGER_ITEMS = [
+    ['quotesVerified', 'Quotes verified against the source'],
+    ['claimsAttributed', 'Claims and figures attributed'],
+    ['consentOnFile', 'Consent on file (real people named or quoted)'],
+    ['imageLicencesRecorded', 'Image licences recorded'],
+    ['noProtectedLyrics', 'No protected lyrics or book passages'],
+    ['proofread', 'Proofread']
+  ];
+  const CONTENT_TYPES = [
+    ['issue-article', 'Issue article', 'Part of a numbered magazine issue (digital and paper).'],
+    ['evergreen', 'Standalone article', 'Not tied to an issue. Lives on the website.'],
+    ['podcast-companion', 'Podcast companion', 'Notes and script for a podcast episode.']
+  ];
+
+  /** Highest status a user may set. Founders publish; the database still enforces it. */
+  function maxStatusFor(user) {
+    if (!user) return 'drafting';
+    if (user.isFounder) return 'published';
+    if (user.role === 'editor') return 'approved';
+    if (user.role === 'contributor') return 'in-review';
+    return 'drafting';
+  }
+
   function getCapabilities(user) {
     const isFounder = !!(user && user.isFounder);
     return {
@@ -110,8 +141,16 @@
       exportJson: true,
       importJson: true,
       publishLive: isFounder,
-      uploadPdf: isFounder
+      uploadPdf: isFounder,
+      maxStatus: maxStatusFor(user),
+      editLedger: !!user
     };
+  }
+
+  /** Content type of a post, inferred for older posts that do not set one. */
+  function contentTypeOf(post) {
+    if (post && post.contentType) return post.contentType;
+    return post && post.issue ? 'issue-article' : 'evergreen';
   }
 
   /**
@@ -140,8 +179,10 @@
     const dateOk = filled(post.date) && /^\d{4}-\d{2}-\d{2}$/.test(post.date) && !isNaN(Date.parse(post.date));
     add('date', dateOk ? 'ok' : 'error', 'Publication date', dateOk ? '' : 'Pick a valid date.');
 
-    const issueOk = !!(post.issue && filled(post.issue.number) && filled(post.issue.title));
-    add('issue', issueOk ? 'ok' : 'error', 'Issue number and title', issueOk ? '' : 'Both are required, even for standalone pieces.');
+    if (contentTypeOf(post) === 'issue-article') {
+      const issueOk = !!(post.issue && filled(post.issue.number) && filled(post.issue.title));
+      add('issue', issueOk ? 'ok' : 'error', 'Issue number and title', issueOk ? '' : 'Both are required for an issue article. Untick "Part of a magazine" for a standalone piece.');
+    }
 
     const blocks = Array.isArray(post.blocks) ? post.blocks : [];
     add('blocks', blocks.length > 0 ? 'ok' : 'error', 'Content', blocks.length > 0 ? `${blocks.length} block${blocks.length === 1 ? '' : 's'}` : 'Add at least one block.');
@@ -167,7 +208,151 @@
       }
     }
 
+    // Editorial desk: fact-check ledger and consent
+    const ledger = (post.workflow && post.workflow.ledger) || {};
+    if (post.workflow && post.workflow.featuresRealPerson && ledger.consentOnFile !== 'done') {
+      add('consent', 'error', 'Consent on file', 'This article names or quotes a real person. Record their consent in Editorial before publishing.');
+    }
+    const open = LEDGER_ITEMS.filter(([k]) => k !== 'consentOnFile' && (ledger[k] || 'todo') === 'todo');
+    if (open.length > 0) {
+      add('ledger', 'warn', 'Fact-check ledger', `${open.length} of ${LEDGER_ITEMS.length - 1} checks still open: ${open.map(o => o[1].split(' ')[0].toLowerCase()).join(', ')}.`);
+    }
+
+    // Paper edition
+    if (PrintSpec) {
+      const est = PrintSpec.estimateArticlePages(post);
+      const raster = est.rasterImages.length;
+      if (raster > 0) {
+        add('print-images', 'warn', 'Print images', `${raster} raster image${raster === 1 ? '' : 's'} must be at least ${est.rasterImages[0].minPixelsFrameWidth}px wide (300 dpi) to print sharply.`);
+      }
+    }
+
     return checks;
+  }
+
+  // ---- Editorial desk (status, ledger, content type) ----
+  function ensureWorkflow(post) {
+    post.workflow = post.workflow || {};
+    post.workflow.ledger = post.workflow.ledger || {};
+    return post.workflow;
+  }
+
+  /** Set the workflow status; `draft` follows it (only "published" is live). */
+  function setPostStatus(value, user) {
+    if (!currentPost || STATUSES.indexOf(value) === -1) return false;
+    const cap = getCapabilities(user === undefined ? currentUser : user).maxStatus;
+    if (STATUSES.indexOf(value) > STATUSES.indexOf(cap)) return false;
+    currentPost.status = value;
+    currentPost.draft = value !== 'published';
+    markDirty();
+    return true;
+  }
+
+  function setLedgerItem(key, value) {
+    if (!currentPost || !LEDGER_ITEMS.some(i => i[0] === key) || ['todo', 'done', 'na'].indexOf(value) === -1) return false;
+    ensureWorkflow(currentPost).ledger[key] = value;
+    markDirty();
+    return true;
+  }
+
+  function setContentType(value) {
+    if (!currentPost || !CONTENT_TYPES.some(t => t[0] === value)) return false;
+    currentPost.contentType = value;
+    if (value === 'issue-article') {
+      if (!currentPost.issue) {
+        const src = activeIssue || { number: 'Vol. 2026.08', title: 'Get Ready for School' };
+        currentPost.issue = { number: src.number, title: src.title };
+      }
+    } else if (value === 'evergreen') {
+      delete currentPost.issue;
+    }
+    isMagazinePart = !!currentPost.issue;
+    markDirty();
+    return true;
+  }
+
+  function renderEditorialPanel() {
+    if (typeof document === 'undefined' || !currentPost) return;
+    const caps = getCapabilities(currentUser);
+    const wf = currentPost.workflow || {};
+    const ledger = wf.ledger || {};
+    const ctSel = $('ed-content-type');
+    if (ctSel) {
+      ctSel.innerHTML = CONTENT_TYPES.map(([v, l]) => `<option value="${v}">${escapeHtml(l)}</option>`).join('');
+      ctSel.value = contentTypeOf(currentPost);
+      const hint = $('ed-content-type-hint');
+      const found = CONTENT_TYPES.find(t => t[0] === ctSel.value);
+      if (hint && found) hint.textContent = found[2];
+    }
+    const stSel = $('ed-status');
+    if (stSel) {
+      const maxIdx = STATUSES.indexOf(caps.maxStatus);
+      stSel.innerHTML = STATUSES.map((v, i) => `<option value="${v}" ${i > maxIdx ? 'disabled' : ''}>${escapeHtml(STATUS_LABELS[v])}</option>`).join('');
+      stSel.value = currentPost.status || (currentPost.draft === false ? 'published' : 'drafting');
+      const hint = $('ed-status-hint');
+      if (hint) hint.textContent = caps.maxStatus === 'published'
+        ? 'Only "Published" makes the article go live. Everything earlier stays a draft.'
+        : `With your role you can set a status up to "${STATUS_LABELS[caps.maxStatus]}". A founder publishes.`;
+    }
+    const owner = $('ed-owner'); if (owner) owner.value = wf.owner || '';
+    const notes = $('ed-notes'); if (notes) notes.value = wf.notes || '';
+    const real = $('ed-real-person'); if (real) real.checked = !!wf.featuresRealPerson;
+    const list = $('ed-ledger');
+    if (list) {
+      list.innerHTML = LEDGER_ITEMS.map(([k, label]) => `
+        <div class="ledger-row">
+          <label for="ed-ledger-${k}">${escapeHtml(label)}</label>
+          <select class="form-control" id="ed-ledger-${k}" data-ledger="${k}">
+            <option value="todo">To do</option><option value="done">Done</option><option value="na">Not applicable</option>
+          </select>
+        </div>`).join('');
+      LEDGER_ITEMS.forEach(([k]) => { const el = $('ed-ledger-' + k); if (el) el.value = ledger[k] || 'todo'; });
+      list.querySelectorAll('select[data-ledger]').forEach(el => {
+        el.addEventListener('change', () => { setLedgerItem(el.getAttribute('data-ledger'), el.value); });
+      });
+    }
+    const pages = $('ed-print-pages');
+    if (pages) pages.value = (currentPost.print && currentPost.print.pages) || '';
+    renderPrintSummary();
+  }
+
+  function renderPrintSummary() {
+    const box = $('ed-print-summary');
+    if (!box || !PrintSpec || !currentPost) return;
+    const e = PrintSpec.estimateArticlePages(currentPost);
+    const rows = [
+      ['Words on paper', String(e.words)],
+      ['Estimated length', `${e.estimatedPages} page${e.estimatedPages === 1 ? '' : 's'} (${e.exact} exact)`],
+      ['Used for planning', `${e.pages} page${e.pages === 1 ? '' : 's'} (${e.source === 'override' ? 'set by hand' : 'estimate'})`],
+      ['Paper-only blocks', String(e.printOnlyBlocks)],
+      ['Digital-only blocks', String(e.digitalOnlyBlocks)]
+    ];
+    box.innerHTML = rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('');
+  }
+
+  function setupEditorialListeners() {
+    if (typeof document === 'undefined') return;
+    const on = (id, evt, fn) => { const el = $(id); if (el) el.addEventListener(evt, () => { if (currentPost) fn(el); }); };
+    on('ed-content-type', 'change', el => {
+      setContentType(el.value);
+      populateMetadataForm(currentPost);
+      renderEditorialPanel();
+      renderLivePreview();
+    });
+    on('ed-status', 'change', el => {
+      if (!setPostStatus(el.value)) { renderEditorialPanel(); return; }
+      renderEditorialPanel();
+    });
+    on('ed-owner', 'input', el => { ensureWorkflow(currentPost).owner = el.value; markDirty(); });
+    on('ed-notes', 'input', el => { ensureWorkflow(currentPost).notes = el.value; markDirty(); });
+    on('ed-real-person', 'change', el => { ensureWorkflow(currentPost).featuresRealPerson = el.checked; markDirty(); });
+    on('ed-print-pages', 'input', el => {
+      const n = parseInt(el.value, 10);
+      if (n > 0) currentPost.print = Object.assign({}, currentPost.print, { pages: n });
+      else if (currentPost.print) { delete currentPost.print.pages; if (!Object.keys(currentPost.print).length) delete currentPost.print; }
+      markDirty();
+      renderPrintSummary();
+    });
   }
 
   // Active Post State
@@ -196,6 +381,8 @@
     setupModals();
     setupMenus();
     setupTabs();
+    setupEditorialListeners();
+    setupPreviewMedium();
     setupThemeToggle();
     setupViewSwitch();
     setupAuthListeners();
@@ -464,6 +651,8 @@
     document.querySelectorAll('.wb-panel').forEach(panel => {
       panel.hidden = panel.getAttribute('data-panel') !== name;
     });
+    const scroller = document.querySelector('.wb-scroll');
+    if (scroller) scroller.scrollTop = 0;
     try { window.localStorage.setItem(TAB_KEY, name); } catch (e) { /* storage unavailable */ }
   }
 
@@ -562,7 +751,7 @@
     const titleEl = $('studio-crumb-title');
     const pathEl = $('studio-preview-path');
     const modeEl = $('studio-preview-mode');
-    const standalone = constructorMode === 'website' && !isMagazinePart;
+    const standalone = !currentPost.issue;
     if (issueEl) {
       issueEl.textContent = standalone ? 'Website' : ((currentPost.issue && currentPost.issue.number) || 'No issue');
     }
@@ -1074,24 +1263,23 @@
     setSelect('meta-language', post.language || 'en');
     set('meta-reading-time', post.readingTime || 5);
     set('meta-tags', (post.tags || []).join(', '));
-    set('meta-issue-number', (post.issue && post.issue.number) || 'Vol. 2026.12');
-    set('meta-issue-title', (post.issue && post.issue.title) || 'December Issue');
+    set('meta-issue-number', (post.issue && post.issue.number) || '');
+    set('meta-issue-title', (post.issue && post.issue.title) || '');
     set('meta-podcast-ep', (post.podcast && post.podcast.episode) || 1);
 
     // Synchronize magazine part checkbox in Website Mode
     const magCheck = document.getElementById('studio-is-magazine-part-check');
     if (magCheck) {
-      const isStandalone = post.issue && (
-        post.issue.number === 'Website / Standalone' ||
-        post.issue.number === 'Podcast Special' ||
-        post.issue.number === 'Standalone'
-      );
+      const isStandalone = !post.issue || post.contentType === 'evergreen' || [
+        'Website / Standalone', 'Podcast Special', 'Standalone'
+      ].includes(post.issue.number);
       isMagazinePart = !isStandalone;
       magCheck.checked = isMagazinePart;
       updateMagazinePartUI(isMagazinePart);
     }
 
     updateSlugHint();
+    renderEditorialPanel();
   }
 
   function setupConstructorModeListeners() {
@@ -1177,25 +1365,14 @@
     if (!currentPost) return;
 
     if (!checked) {
-      // Decouple from magazine issue
-      currentPost.issue = {
-        number: 'Website / Standalone',
-        title: 'COSY Standalone Article'
-      };
-      setStatus('Article set as standalone website piece (unticked magazine issue).', 'info');
+      // A standalone article has no issue at all (no placeholder issue is written).
+      delete currentPost.issue;
+      currentPost.contentType = 'evergreen';
+      setStatus('Article is now standalone: it is not part of any issue.', 'info');
     } else {
-      // Recouple to active issue
-      if (activeIssue) {
-        currentPost.issue = {
-          number: activeIssue.number,
-          title: activeIssue.title
-        };
-      } else {
-        currentPost.issue = {
-          number: 'Vol. 2026.08',
-          title: 'Get Ready for School'
-        };
-      }
+      const src = activeIssue || { number: 'Vol. 2026.08', title: 'Get Ready for School' };
+      currentPost.issue = { number: src.number, title: src.title };
+      currentPost.contentType = 'issue-article';
       setStatus(`Article linked to magazine edition: ${currentPost.issue.number}`, 'success');
     }
 
@@ -1582,6 +1759,14 @@
           </div>
           <div class="studio-block-fields">
             ${renderBlockFields(block, index)}
+            <div class="form-group fg-medium">
+              <label>Appears in</label>
+              <select class="form-control" data-field="medium">
+                <option value="both" ${!block.medium || block.medium === 'both' ? 'selected' : ''}>Digital and paper</option>
+                <option value="digital" ${block.medium === 'digital' ? 'selected' : ''}>Digital only</option>
+                <option value="print" ${block.medium === 'print' ? 'selected' : ''}>Paper only</option>
+              </select>
+            </div>
             <div class="studio-stage-fields">
               <details>
                 <summary>${icon('mic-script')}Podcast and read-aloud script</summary>
@@ -1767,6 +1952,9 @@
     } else if (field === 'quiz-explanation') {
       block.quiz = block.quiz || {};
       block.quiz.explanation = value;
+    } else if (field === 'medium') {
+      if (value === 'digital' || value === 'print') block.medium = value;
+      else delete block.medium;
     } else if (field === 'level') {
       block.level = parseInt(value, 10) || 2;
     } else {
@@ -1995,15 +2183,79 @@
   /**
    * Live Gazette Spread Rendering Engine
    */
+  let previewMedium = 'screen'; // 'screen' | 'print'
+
+  function setPreviewMedium(m) {
+    previewMedium = m === 'print' ? 'print' : 'screen';
+    if (typeof document !== 'undefined') {
+      document.querySelectorAll('[data-medium-btn]').forEach(btn => {
+        const on = btn.getAttribute('data-medium-btn') === previewMedium;
+        btn.classList.toggle('is-active', on);
+        btn.setAttribute('aria-pressed', String(on));
+      });
+    }
+    renderLivePreview();
+  }
+
+  function setupPreviewMedium() {
+    if (typeof document === 'undefined') return;
+    document.querySelectorAll('[data-medium-btn]').forEach(btn => {
+      btn.addEventListener('click', () => setPreviewMedium(btn.getAttribute('data-medium-btn')));
+    });
+  }
+
+  /** Paper preview: an A4 text frame with bleed, trim and safe-area guides and estimated page breaks. */
+  function renderPrintPreview(previewRoot) {
+    const spec = PrintSpec ? PrintSpec.PRESS_SPEC : { trimMm: { width: 210, height: 297 }, bleedMm: 3, safeMarginMm: 10, gutterExtraMm: 5 };
+    const est = PrintSpec ? PrintSpec.estimateArticlePages(currentPost) : { pages: 1, exact: 1, estimatedPages: 1, rasterImages: [], words: 0 };
+    const pxPerMm = 2;
+    const pageH = spec.trimMm.height * pxPerMm;
+    const pageW = spec.trimMm.width * pxPerMm;
+    let isFirstPara = true;
+    const body = (currentPost.blocks || []).map((b, index) => {
+      if (!b || b.medium === 'digital') return '';
+      return renderPreviewBlock(b, index, { isFirst: () => { if (isFirstPara) { isFirstPara = false; return true; } return false; } });
+    }).join('\n');
+    const pages = Math.max(1, est.pages);
+    const rasterNote = est.rasterImages.length
+      ? `<p class="print-note">${est.rasterImages.length} raster image${est.rasterImages.length === 1 ? '' : 's'}: each needs at least ${est.rasterImages[0].minPixelsFrameWidth}px width (full bleed ${est.rasterImages[0].minPixelsFullBleed}px) at 300 dpi.</p>`
+      : '';
+    const kicker = currentPost.kicker || currentPost.desk || '';
+    const meta = currentPost.issue ? `${currentPost.issue.number} · ${currentPost.issue.title}` : 'Standalone article';
+    previewRoot.innerHTML = `
+      <div class="print-preview">
+        <div class="print-summary">
+          <strong>${est.pages} page${est.pages === 1 ? '' : 's'}</strong>
+          <span>${est.source === 'override' ? 'set by hand' : 'estimated, check against a proof'} · ${est.words} words · A4, 3 mm bleed</span>
+        </div>
+        ${rasterNote}
+        <div class="print-legend"><span class="lg lg-trim">Trim</span><span class="lg lg-safe">Safe area</span><span class="lg lg-break">Page break (estimate)</span></div>
+        <div class="print-sheet" style="width:${pageW}px; min-height:${pageH * pages}px; --page-h:${pageH}px; --safe:${spec.safeMarginMm * pxPerMm}px; --gutter:${spec.gutterExtraMm * pxPerMm}px;">
+          <div class="print-frame">
+            <p class="print-kicker">${escapeHtml(kicker)} · ${escapeHtml(meta)}</p>
+            <h1 class="print-title">${escapeHtml(currentPost.title || 'Untitled article')}</h1>
+            <p class="print-dek">${escapeHtml(currentPost.dek || '')}</p>
+            <div class="print-columns post-full-content">${body}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
   function renderLivePreview() {
     if (typeof document === 'undefined') return;
     const previewRoot = document.getElementById('studio-preview-root');
     if (!previewRoot || !currentPost) return;
 
     updateHeaderContext();
+    renderPrintSummary();
+    if (previewMedium === 'print') {
+      renderPrintPreview(previewRoot);
+      return;
+    }
     let isFirstPara = true;
 
     const renderedBlocks = (currentPost.blocks || []).map((b, index) => {
+      if (b && b.medium === 'print') return '';
       return renderPreviewBlock(b, index, {
         isFirst: () => {
           if (isFirstPara) {
@@ -2015,10 +2267,10 @@
       });
     }).join('\n');
 
-    const isWebsiteStandalone = constructorMode === 'website' && !isMagazinePart;
+    const isWebsiteStandalone = !currentPost.issue;
     const issueText = isWebsiteStandalone
       ? '🌐 COSY Website / Standalone'
-      : `${currentPost.issue?.number || 'Vol. 2026.12'} • ${currentPost.issue?.title || 'Editorial Issue'}`;
+      : `${currentPost.issue.number} • ${currentPost.issue.title}`;
 
     const sectionBadge = currentPost.section
       ? `<span class="stamp-sticker" style="background:#0f6e56; color:#ffffff;">${escapeHtml(currentPost.section.replace(/_/g, ' '))}</span>`
@@ -2385,7 +2637,7 @@
     const checks = getReadiness(currentPost);
     const errors = checks.filter(c => c.level === 'error').length;
     const warns = checks.filter(c => c.level === 'warn').length;
-    const standalone = constructorMode === 'website' && !isMagazinePart;
+    const standalone = !currentPost.issue;
     const stats = calculateArticleStats(currentPost);
 
     const rows = [
@@ -2458,6 +2710,15 @@
 
     setStatus('Publishing…', 'info');
 
+    // Publishing makes the article live: stamp status/draft, undo if it fails.
+    const before = { status: currentPost.status, draft: currentPost.draft };
+    currentPost.status = 'published';
+    currentPost.draft = false;
+    const revert = () => {
+      if (before.status === undefined) delete currentPost.status; else currentPost.status = before.status;
+      if (before.draft === undefined) delete currentPost.draft; else currentPost.draft = before.draft;
+    };
+
     try {
       // 1. Try upserting to magazine_article_overrides
       const payload = {
@@ -2486,9 +2747,11 @@
       }
 
       markClean();
+      renderEditorialPanel();
       setStatus(`Published "${currentPost.slug}".`, 'success');
       return true;
     } catch (err) {
+      revert();
       console.error('[Studio] Supabase save error:', err);
       setStatus(`Could not publish: ${err.message}`, 'error');
       return false;
@@ -2574,6 +2837,14 @@
     saveToSupabase,
     getCapabilities,
     getReadiness,
+    maxStatusFor,
+    setPostStatus,
+    setLedgerItem,
+    setContentType,
+    setPreviewMedium,
+    contentTypeOf,
+    STATUSES,
+    LEDGER_ITEMS,
     calculateArticleStats,
     undoDeleteBlock,
     applyFormatting,

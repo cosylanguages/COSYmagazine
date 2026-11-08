@@ -182,6 +182,9 @@
                 <button type="button" class="wb-tab" role="tab" id="tab-details" data-tab="details" aria-controls="panel-details" aria-selected="false">
                     <svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg>Details
                 </button>
+                <button type="button" class="wb-tab" role="tab" id="tab-editorial" data-tab="editorial" aria-controls="panel-editorial" aria-selected="false">
+                    <svg class="icon" aria-hidden="true"><use href="#i-check-circle"/></svg>Editorial
+                </button>
                 <button type="button" class="wb-tab" role="tab" id="tab-content" data-tab="content" aria-controls="panel-content" aria-selected="true">
                     <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>Content
                     <span id="studio-block-count" class="tab-count">0</span>
@@ -396,6 +399,48 @@
                     </div>
                 </section>
 
+                <!-- EDITORIAL -->
+                <section class="wb-panel" id="panel-editorial" role="tabpanel" aria-labelledby="tab-editorial" data-panel="editorial" hidden>
+                    <div class="card">
+                        <h2 class="card-title">Type and status</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ed-content-type">Content type</label>
+                                <select class="form-control" id="ed-content-type"></select>
+                                <p class="hint" id="ed-content-type-hint"></p>
+                            </div>
+                            <div class="form-group">
+                                <label for="ed-status">Status</label>
+                                <select class="form-control" id="ed-status"></select>
+                                <p class="hint" id="ed-status-hint"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ed-owner">Owner</label>
+                            <input type="text" class="form-control" id="ed-owner" placeholder="Who is responsible for this piece">
+                        </div>
+                        <div class="form-group">
+                            <label for="ed-notes">Editor notes</label>
+                            <textarea class="form-control" id="ed-notes" rows="3" placeholder="Internal notes. Not shown to readers."></textarea>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">Fact-check ledger</h2>
+                        <label class="check-row"><input type="checkbox" id="ed-real-person"> This article names or quotes a real person</label>
+                        <p class="hint">Publishing is blocked until consent is recorded as done for articles about real people.</p>
+                        <div id="ed-ledger" class="ledger"></div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">Paper edition</h2>
+                        <dl class="summary-list" id="ed-print-summary"></dl>
+                        <div class="form-group fg-xs">
+                            <label for="ed-print-pages">Pages after layout proof</label>
+                            <input type="number" min="1" class="form-control" id="ed-print-pages" placeholder="Auto">
+                            <p class="hint">Leave empty to use the estimate. Once the article is laid out, enter the real page count.</p>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- CONTENT -->
                 <section class="wb-panel" id="panel-content" role="tabpanel" aria-labelledby="tab-content" data-panel="content">
 
@@ -467,6 +512,10 @@
             <div class="preview-bar">
                 <span class="preview-live"><span class="live-dot" aria-hidden="true"></span>Live preview</span>
                 <span id="studio-preview-mode" class="preview-mode">Magazine spread</span>
+                <span class="medium-switch" role="group" aria-label="Preview as">
+                    <button type="button" class="medium-btn is-active" data-medium-btn="screen" aria-pressed="true">Screen</button>
+                    <button type="button" class="medium-btn" data-medium-btn="print" aria-pressed="false">Print</button>
+                </span>
                 <code id="studio-preview-path" class="preview-path"></code>
             </div>
             <div class="preview-scroll">
@@ -651,6 +700,7 @@
 
     <!-- Scripts -->
     <script src="js/cms-auth.js"></script>
+    <script src="js/print-spec.js"></script>
     <script src="js/editor-blocks.js"></script>
     <script src="js/editor.js"></script>
 </body>

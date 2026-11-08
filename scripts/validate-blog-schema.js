@@ -9,6 +9,14 @@
 const fs = require('fs');
 const path = require('path');
 
+// Editorial workflow (see SCHEMA.md "Editorial workflow")
+const ALLOWED_CONTENT_TYPES = new Set(['issue-article', 'evergreen', 'podcast-companion']);
+const STATUS_ORDER = ['idea', 'assigned', 'drafting', 'in-review', 'fact-checked', 'approved', 'published'];
+const ALLOWED_STATUSES = new Set(STATUS_ORDER);
+const LEDGER_KEYS = ['quotesVerified', 'claimsAttributed', 'consentOnFile', 'imageLicencesRecorded', 'noProtectedLyrics', 'proofread'];
+const LEDGER_VALUES = new Set(['todo', 'done', 'na']);
+const ALLOWED_MEDIA = new Set(['both', 'digital', 'print']);
+
 const ALLOWED_DESKS = new Set([
   'Front Page',
   'Words',
@@ -112,9 +120,74 @@ function validatePostSchema(postObj, sourceName = 'object') {
     errors.push(`[${sourceName}] Field "readingTime" must be a positive number.`);
   }
 
-  // issue
-  if (!postObj.issue || typeof postObj.issue !== 'object' || typeof postObj.issue.number !== 'string' || typeof postObj.issue.title !== 'string') {
+  // contentType (optional). Posts without it are issue articles, as before.
+  if (postObj.contentType !== undefined && !ALLOWED_CONTENT_TYPES.has(postObj.contentType)) {
+    errors.push(`[${sourceName}] Invalid contentType "${postObj.contentType}". Must be one of: ${Array.from(ALLOWED_CONTENT_TYPES).join(', ')}.`);
+  }
+
+  // issue: required for issue articles, optional for evergreen / podcast-companion pieces
+  const issueRequired = postObj.contentType === undefined || postObj.contentType === 'issue-article';
+  if (postObj.issue === undefined) {
+    if (issueRequired) {
+      errors.push(`[${sourceName}] Field "issue" must be an object with "number" and "title" string properties (only evergreen and podcast-companion posts may omit it).`);
+    }
+  } else if (!postObj.issue || typeof postObj.issue !== 'object' || typeof postObj.issue.number !== 'string' || typeof postObj.issue.title !== 'string') {
     errors.push(`[${sourceName}] Field "issue" must be an object with "number" and "title" string properties.`);
+  }
+
+  // status: an article stays a draft until it is published
+  if (postObj.status !== undefined) {
+    if (!ALLOWED_STATUSES.has(postObj.status)) {
+      errors.push(`[${sourceName}] Invalid status "${postObj.status}". Must be one of: ${STATUS_ORDER.join(', ')}.`);
+    } else if (postObj.status !== 'published' && postObj.draft !== true) {
+      errors.push(`[${sourceName}] Status "${postObj.status}" requires "draft": true. Only "published" articles may go live.`);
+    } else if (postObj.status === 'published' && postObj.draft === true) {
+      errors.push(`[${sourceName}] Status "published" cannot also be "draft": true.`);
+    }
+  }
+
+  // workflow (optional)
+  if (postObj.workflow !== undefined) {
+    const wf = postObj.workflow;
+    if (!wf || typeof wf !== 'object' || Array.isArray(wf)) {
+      errors.push(`[${sourceName}] Optional field "workflow" must be an object.`);
+    } else {
+      if (wf.owner !== undefined && typeof wf.owner !== 'string') {
+        errors.push(`[${sourceName}] "workflow.owner" must be a string.`);
+      }
+      if (wf.notes !== undefined && typeof wf.notes !== 'string') {
+        errors.push(`[${sourceName}] "workflow.notes" must be a string.`);
+      }
+      if (wf.featuresRealPerson !== undefined && typeof wf.featuresRealPerson !== 'boolean') {
+        errors.push(`[${sourceName}] "workflow.featuresRealPerson" must be a boolean.`);
+      }
+      if (wf.ledger !== undefined) {
+        if (!wf.ledger || typeof wf.ledger !== 'object' || Array.isArray(wf.ledger)) {
+          errors.push(`[${sourceName}] "workflow.ledger" must be an object.`);
+        } else {
+          Object.keys(wf.ledger).forEach(key => {
+            if (!LEDGER_KEYS.includes(key)) {
+              errors.push(`[${sourceName}] Unknown "workflow.ledger.${key}". Allowed: ${LEDGER_KEYS.join(', ')}.`);
+            } else if (!LEDGER_VALUES.has(wf.ledger[key])) {
+              errors.push(`[${sourceName}] "workflow.ledger.${key}" must be "todo", "done" or "na".`);
+            }
+          });
+        }
+      }
+      // Real people must have consented before the article goes live
+      if (postObj.status === 'published' && wf.featuresRealPerson === true && (!wf.ledger || wf.ledger.consentOnFile !== 'done')) {
+        errors.push(`[${sourceName}] This article features a real person, so "workflow.ledger.consentOnFile" must be "done" before it is published.`);
+      }
+    }
+  }
+
+  // print (optional press metadata)
+  if (postObj.print !== undefined) {
+    if (!postObj.print || typeof postObj.print !== 'object' || Array.isArray(postObj.print)) {
+      errors.push(`[${sourceName}] Optional field "print" must be an object.`);
+    } else if (postObj.print.pages !== undefined && (typeof postObj.print.pages !== 'number' || !(postObj.print.pages > 0))) {
+      errors.push(`[${sourceName}] "print.pages" must be a positive number.`);
+    }
   }
 
   // podcast
@@ -155,6 +228,11 @@ function validatePostSchema(postObj, sourceName = 'object') {
         if (typeof block.beat !== 'object' || block.beat === null) {
           errors.push(`[${blockRef}] Optional field "beat" must be an object.`);
         }
+      }
+
+      // Optional medium check: which edition(s) carry this block
+      if (block.medium !== undefined && !ALLOWED_MEDIA.has(block.medium)) {
+        errors.push(`[${blockRef}] Optional field "medium" must be one of: ${Array.from(ALLOWED_MEDIA).join(', ')}.`);
       }
 
       // Optional say check
@@ -411,4 +489,4 @@ if (require.main === module) {
   runCLI();
 }
 
-module.exports = { validatePostSchema };
+module.exports = { validatePostSchema, STATUS_ORDER, LEDGER_KEYS };

@@ -113,13 +113,15 @@ test('CosyEditor - Constructor Mode Switching & Website Mode "Part of a Magazine
   Editor.setMagazinePart(false);
   assert.equal(Editor.getIsMagazinePart(), false);
   const detachedPost = Editor.getCurrentPost();
-  assert.equal(detachedPost.issue.number, 'Website / Standalone');
+  assert.equal(detachedPost.issue, undefined);
+  assert.equal(detachedPost.contentType, 'evergreen');
 
   // Retick "Part of a Magazine"
   Editor.setMagazinePart(true);
   assert.equal(Editor.getIsMagazinePart(), true);
   const reattachedPost = Editor.getCurrentPost();
   assert.ok(reattachedPost.issue.number.startsWith('Vol.'));
+  assert.equal(reattachedPost.contentType, 'issue-article');
 });
 
 test('CosyEditor - Direct Issue Management (create and edit new issues)', () => {
