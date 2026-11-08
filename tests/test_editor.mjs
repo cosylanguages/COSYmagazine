@@ -225,3 +225,38 @@ test('CosyEditor - Modular Elements Presets instantiate valid blog schema blocks
     assert.deepStrictEqual(errors, [], `Modular block ${preset.id} failed validation: ${errors.join(', ')}`);
   });
 });
+
+test('CosyEditor - getArticlesForIssue correctly identifies and maps published issue articles', () => {
+  const fs = require('fs');
+  const Editor = require('../js/editor.js');
+  const postsCatalog = JSON.parse(fs.readFileSync('posts.json', 'utf8'));
+
+  // Test August Issue mapping (Vol. 2026.08)
+  const augustIssue = Blocks.CANONICAL_ISSUES.find(i => i.id === 'vol-2026-08');
+  assert.ok(augustIssue, 'August canonical issue should exist');
+
+  const augustArticles = Editor.getArticlesForIssue(augustIssue, postsCatalog);
+  assert.equal(augustArticles.length, 17, `Expected 17 articles for August 2026 issue, got ${augustArticles.length}`);
+
+  // Flagship article check
+  const augustFlagship = Editor.ISSUE_FLAGSHIPS['vol-2026-08'];
+  assert.equal(augustFlagship, 'in-conversation-founder-august-school');
+  assert.ok(augustArticles.some(a => a.slug === augustFlagship), 'Flagship must be present in August articles list');
+
+  // Test other published issues
+  const septIssue = Blocks.CANONICAL_ISSUES.find(i => i.id === 'vol-2026-09');
+  const septArticles = Editor.getArticlesForIssue(septIssue, postsCatalog);
+  assert.equal(septArticles.length, 16, `Expected 16 articles for September 2026 issue, got ${septArticles.length}`);
+
+  const octIssue = Blocks.CANONICAL_ISSUES.find(i => i.id === 'vol-2026-10');
+  const octArticles = Editor.getArticlesForIssue(octIssue, postsCatalog);
+  assert.equal(octArticles.length, 20, `Expected 20 articles for October 2026 issue, got ${octArticles.length}`);
+
+  const decIssue = Blocks.CANONICAL_ISSUES.find(i => i.id === 'vol-2026-12');
+  const decArticles = Editor.getArticlesForIssue(decIssue, postsCatalog);
+  assert.equal(decArticles.length, 16, `Expected 16 articles for December 2026 issue, got ${decArticles.length}`);
+
+  const febIssue = Blocks.CANONICAL_ISSUES.find(i => i.id === 'vol-2027-02');
+  const febArticles = Editor.getArticlesForIssue(febIssue, postsCatalog);
+  assert.equal(febArticles.length, 15, `Expected 15 articles for February 2027 issue, got ${febArticles.length}`);
+});
