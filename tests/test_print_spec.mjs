@@ -96,3 +96,16 @@ test('readiness: standalone needs no issue; real-person article needs consent', 
   const ok = Editor.getReadiness({ ...base, contentType: 'evergreen', workflow: { featuresRealPerson: true, ledger: { consentOnFile: 'done' } } });
   assert.equal(ok.find(c => c.id === 'consent'), undefined);
 });
+
+test('summarizeIssue: rows per article and a plan in multiples of 4', () => {
+  const posts = [
+    { slug: 'a', title: 'A', blocks: [para(2000)] },
+    { slug: 'b', title: 'B', blocks: [para(200)], print: { pages: 4 } }
+  ];
+  const { rows, plan } = P.summarizeIssue(posts, { mode: 'fresh' });
+  assert.equal(rows.length, 2);
+  assert.equal(rows[1].pages, 4);
+  assert.equal(rows[1].source, 'override');
+  assert.equal(plan.insidePages % 4, 0);
+  assert.equal(plan.contentPages, rows[0].pages + 4);
+});

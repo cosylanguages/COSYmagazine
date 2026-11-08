@@ -77,3 +77,11 @@ The fact-check ledger (quotes verified, claims attributed, consent on file, imag
 licences recorded, no protected lyrics, proofread) is saved with the article. An
 article about a real person cannot be published until consent is marked done. The
 build validator enforces this too. See `SCHEMA.md`.
+
+## Issue planner in the Studio
+
+Start, "Plan an issue (pages)": pick an issue to see each article's words and
+estimated pages, the inside page total (multiple of 4), how many pages are left
+to fill, the total with cover, and the most economical size (multiples of 16).
+"New page each" starts every article on a fresh page; "Shared pages" lets
+articles run on. The article open in the Studio is counted with its unsaved edits.

@@ -390,6 +390,7 @@
     setupConstructorModeListeners();
     setupIssueManagerListeners();
     setupPublishFlow();
+    setupIssuePlanner();
     setupKeyboardShortcuts();
     setupUnloadWarning();
     updateAuthUI(null);
@@ -2481,6 +2482,85 @@
     if (!el) return;
     el.textContent = text || '';
     el.className = `form-msg${kind ? ' msg-' + kind : ''}`;
+  }
+
+  // ---- Issue planner ----
+  const plannerCache = {};
+
+  async function fetchFullPost(slug) {
+    if (currentPost && currentPost.slug === slug) return currentPost; // unsaved edits count
+    if (plannerCache[slug]) return plannerCache[slug];
+    const res = await fetch(`posts/${encodeURIComponent(slug)}.json`);
+    if (!res.ok) throw new Error(slug);
+    plannerCache[slug] = await res.json();
+    return plannerCache[slug];
+  }
+
+  function plannerIssueOptions() {
+    const seen = new Map();
+    catalogPosts.forEach(p => { if (p.issue_volume) seen.set(p.issue_volume, p.issue_title || ''); });
+    managedIssues.forEach(i => { if (i.number && !seen.has(i.number)) seen.set(i.number, i.title || ''); });
+    return Array.from(seen.entries()).sort((a, b) => b[0].localeCompare(a[0]));
+  }
+
+  async function renderIssuePlan() {
+    const body = $('planner-body');
+    const sel = $('planner-issue');
+    if (!body || !sel || !PrintSpec) return;
+    const volume = sel.value;
+    const mode = ($('planner-mode') || {}).value || 'fresh';
+    body.innerHTML = '<p class="hint">Calculating…</p>';
+    const slugs = catalogPosts.filter(p => p.issue_volume === volume).map(p => p.slug);
+    if (currentPost && currentPost.issue && currentPost.issue.number === volume && currentPost.slug && slugs.indexOf(currentPost.slug) === -1) {
+      slugs.push(currentPost.slug); // an unpublished article of this issue that is open now
+    }
+    const results = await Promise.all(slugs.map(sl => fetchFullPost(sl).catch(() => null)));
+    const posts = results.filter(Boolean);
+    const failed = results.length - posts.length;
+    if (sel.value !== volume) return; // user switched meanwhile
+    if (posts.length === 0) {
+      body.innerHTML = '<p class="hint">No articles found for this issue yet.</p>';
+      return;
+    }
+    const { rows, plan } = PrintSpec.summarizeIssue(posts, { mode });
+    const fmt = n => (Math.round(n * 10) / 10).toString();
+    const tr = rows.map(r => `<tr><td>${escapeHtml(r.title || r.slug)}</td><td class="num">${r.words}</td><td class="num">${mode === 'flow' && r.source !== 'override' ? fmt(r.exact) : r.pages}${r.source === 'override' ? ' <small>set</small>' : ''}</td></tr>`).join('');
+    const fillMsg = plan.fillPages === 0
+      ? 'The page count is exact. No filler needed.'
+      : `${plan.fillPages} page${plan.fillPages === 1 ? '' : 's'} to fill (next-issue preview, puzzle or advert).`;
+    const effMsg = plan.efficientInsidePages === plan.insidePages
+      ? 'This is already the most economical size.'
+      : `The most economical size is ${plan.efficientInsidePages} inside pages (${plan.fillToEfficient} to fill).`;
+    body.innerHTML = `
+      <div class="planner-totals">
+        <div><strong>${plan.insidePages}</strong><span>inside pages</span></div>
+        <div><strong>${plan.totalWithCover}</strong><span>with 4 cover pages</span></div>
+        <div><strong>${plan.contentPages}</strong><span>pages of content</span></div>
+      </div>
+      <p class="planner-note">${escapeHtml(fillMsg)} ${escapeHtml(effMsg)}</p>
+      <div class="planner-table-wrap"><table class="planner-table">
+        <thead><tr><th>Article</th><th class="num">Words</th><th class="num">Pages</th></tr></thead>
+        <tbody>${tr}</tbody>
+      </table></div>
+      ${failed ? `<p class="print-note">${failed} article${failed === 1 ? '' : 's'} could not be loaded and ${failed === 1 ? 'is' : 'are'} not counted.</p>` : ''}`;
+  }
+
+  function setupIssuePlanner() {
+    if (typeof document === 'undefined') return;
+    const btn = $('studio-issue-planner-btn');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const sel = $('planner-issue');
+      const options = plannerIssueOptions();
+      sel.innerHTML = options.map(([n, t]) => `<option value="${escapeHtml(n)}">${escapeHtml(n)}${t ? ' · ' + escapeHtml(t) : ''}</option>`).join('');
+      const current = currentPost && currentPost.issue && currentPost.issue.number;
+      if (current && options.some(o => o[0] === current)) sel.value = current;
+      openModal('studio-planner-modal');
+      renderIssuePlan();
+    });
+    ['planner-issue', 'planner-mode'].forEach(id => {
+      const el = $(id); if (el) el.addEventListener('change', renderIssuePlan);
+    });
   }
 
   function setupPdfUploadModal() {

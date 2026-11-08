@@ -237,6 +237,32 @@
     };
   }
 
+  /**
+   * Estimate every article of an issue and plan the pages.
+   * `posts`: full post objects (with blocks). Returns { rows, plan } where each row
+   * has { slug, title, words, pages, exact, source }.
+   */
+  function summarizeIssue(posts, options, spec) {
+    const rows = (posts || []).map(post => {
+      const e = estimateArticlePages(post, spec);
+      return {
+        slug: post.slug,
+        title: post.title,
+        words: e.words,
+        pages: e.pages,
+        exact: e.exact,
+        source: e.source
+      };
+    });
+    const opts = options || {};
+    const plan = planIssue(
+      rows.map(r => ({ slug: r.slug, title: r.title, pages: opts.mode === 'flow' ? (r.source === 'override' ? r.pages : r.exact) : r.pages })),
+      opts,
+      spec
+    );
+    return { rows, plan };
+  }
+
   /** Rows for the Studio and docs: what we send the printer. */
   function describePressSpec(spec) {
     const s = spec || PRESS_SPEC;
@@ -268,6 +294,7 @@
     rasterImageChecks,
     estimateArticlePages,
     planIssue,
+    summarizeIssue,
     describePressSpec
   };
 });
