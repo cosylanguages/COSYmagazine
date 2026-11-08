@@ -371,6 +371,43 @@
   let deletedBlockBackup = null; // for undo functionality
   let collapsedBlockIndices = new Set();
 
+  // Flagship / lead articles for each canonical issue edition
+  const ISSUE_FLAGSHIPS = {
+    'vol-2026-08': 'in-conversation-founder-august-school',
+    'vol-2026-09': 'replace-50-overused-phrases',
+    'vol-2026-10': 'why-do-we-freeze-when-conversations-go-off-script',
+    'vol-2026-11': 'creative-writing-in-language-learning',
+    'vol-2026-12': 'the-logic-of-phrasal-verbs-everybody-scream',
+    'vol-2027-02': 'top-10-verbs-part-3'
+  };
+
+  /**
+   * Filter catalog posts for an issue
+   */
+  function getArticlesForIssue(issue, posts = catalogPosts) {
+    if (!issue || !posts || !posts.length) return [];
+    const num = (issue.number || '').trim().toLowerCase();
+    const title = (issue.title || '').trim().toLowerCase();
+    const id = (issue.id || '').trim().toLowerCase();
+
+    return posts.filter(post => {
+      const pVol = (post.issue_volume || (post.issue && post.issue.number) || '').trim().toLowerCase();
+      const pTitle = (post.issue_title || (post.issue && post.issue.title) || '').trim().toLowerCase();
+      if (!pVol && !pTitle) return false;
+
+      if (num && pVol === num) return true;
+      if (title && pTitle === title) return true;
+
+      const ymMatch = num.match(/\d{4}\.\d{2}/);
+      if (ymMatch && pVol.includes(ymMatch[0])) return true;
+
+      if (id.includes('2026-12') && (pVol.includes('december') || pTitle.includes('winter grammar'))) return true;
+      if (id.includes('2027-02') && (pVol.includes('february') || pTitle.includes('february grammar'))) return true;
+
+      return false;
+    });
+  }
+
   /**
    * Initialize Studio App
    */
@@ -415,9 +452,19 @@
       setConstructorMode('magazine');
     }
 
-    // Load initial post from URL parameter, or preset
+    // Load initial post from URL parameter, or active magazine issue article / preset
     if (postSlug) {
       await loadPostBySlug(postSlug);
+    } else if (constructorMode === 'magazine' && activeIssue) {
+      const issueArticles = getArticlesForIssue(activeIssue, catalogPosts);
+      const flagshipSlug = ISSUE_FLAGSHIPS[activeIssue.id] || (issueArticles[0] && issueArticles[0].slug);
+      let loaded = false;
+      if (flagshipSlug) {
+        loaded = await loadPostBySlug(flagshipSlug);
+      }
+      if (!loaded) {
+        loadPreset('preset-saturday-mistakes');
+      }
     } else {
       // Default to Saturday Mistakes Preset
       loadPreset('preset-saturday-mistakes');
@@ -796,6 +843,45 @@
     if (volBadge && activeIssue) volBadge.textContent = activeIssue.number;
     if (titleHeading && activeIssue) titleHeading.textContent = activeIssue.title;
     if (themeText && activeIssue) themeText.textContent = activeIssue.theme || '';
+    renderIssueArticlesRoster();
+  }
+
+  function renderIssueArticlesRoster() {
+    if (typeof document === 'undefined') return;
+    const container = document.getElementById('studio-issue-articles-box');
+    const sel = document.getElementById('studio-issue-article-selector');
+    const countBadge = document.getElementById('studio-issue-articles-count');
+    if (!sel && !container) return;
+
+    if (!activeIssue) {
+      if (container) container.hidden = true;
+      return;
+    }
+
+    const articles = getArticlesForIssue(activeIssue, catalogPosts);
+    if (countBadge) {
+      countBadge.textContent = `${articles.length} article${articles.length === 1 ? '' : 's'}`;
+    }
+
+    if (sel) {
+      if (articles.length === 0) {
+        sel.innerHTML = '<option value="">No published articles in this issue yet</option>';
+        sel.disabled = true;
+      } else {
+        sel.disabled = false;
+        const currentSlug = currentPost ? currentPost.slug : '';
+        sel.innerHTML = `<option value="">Select an article from this issue (${articles.length})…</option>` +
+          articles.map(a => `
+            <option value="${escapeHtml(a.slug)}" ${currentSlug === a.slug ? 'selected' : ''}>
+              ${escapeHtml(a.title)} (${escapeHtml(a.slug)})
+            </option>
+          `).join('');
+      }
+    }
+
+    if (container) {
+      container.hidden = false;
+    }
   }
 
   function initCanonicalSectionsUI() {
@@ -828,6 +914,7 @@
       if (res.ok) {
         catalogPosts = await res.json();
         populatePostSelector(catalogPosts);
+        renderIssueArticlesRoster();
       }
     } catch (e) {
       console.warn('[Studio] Could not load posts.json catalog:', e);
@@ -863,9 +950,11 @@
       const postData = await res.json();
       setCurrentPost(postData);
       setStatus(`Loaded "${postData.title}"`, 'success');
+      return true;
     } catch (err) {
       console.error('[Studio] Error loading post:', err);
       setStatus(`Failed to load article: ${err.message}`, 'error');
+      return false;
     }
   }
 
@@ -885,6 +974,7 @@
     populateMetadataForm(currentPost);
     renderBlockList();
     renderLivePreview();
+    renderIssueArticlesRoster();
     markClean();
   }
 
@@ -1419,12 +1509,19 @@
     // Issue selector change
     const issueSel = document.getElementById('studio-issue-selector');
     if (issueSel) {
-      issueSel.addEventListener('change', () => {
+      issueSel.addEventListener('change', async () => {
         const found = managedIssues.find(i => i.id === issueSel.value);
         if (found) {
           activeIssue = found;
           updateActiveIssueDisplay();
-          if (currentPost) {
+
+          // If in magazine mode, automatically load this issue's flagship / lead article
+          const issueArticles = getArticlesForIssue(activeIssue, catalogPosts);
+          const flagshipSlug = ISSUE_FLAGSHIPS[activeIssue.id] || (issueArticles[0] && issueArticles[0].slug);
+
+          if (flagshipSlug) {
+            await withDiscardGuard(() => loadPostBySlug(flagshipSlug), `Switching to ${activeIssue.number}`);
+          } else if (currentPost) {
             currentPost.issue = {
               number: activeIssue.number,
               title: activeIssue.title
@@ -1438,6 +1535,19 @@
             renderLivePreview();
           }
           setStatus(`Active edition set to ${activeIssue.number} — ${activeIssue.title}`, 'info');
+        }
+      });
+    }
+
+    // Issue article roster selector change
+    const issueArticleSel = document.getElementById('studio-issue-article-selector');
+    if (issueArticleSel) {
+      issueArticleSel.addEventListener('change', async () => {
+        const slug = issueArticleSel.value;
+        if (!slug) return;
+        const done = await withDiscardGuard(() => loadPostBySlug(slug), 'Opening issue article');
+        if (done) {
+          showTab('content');
         }
       });
     }
@@ -3053,6 +3163,8 @@
     setActiveIssue: (issue) => { activeIssue = issue; },
     openIssueModal,
     saveIssueFromModal,
+    getArticlesForIssue,
+    ISSUE_FLAGSHIPS,
     LANGUAGES,
     DESKS,
     LEVELS,
