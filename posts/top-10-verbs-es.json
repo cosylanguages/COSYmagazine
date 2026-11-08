@@ -1432,6 +1432,368 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Después de los diez verbos: tres mecanismos para decirlo todo",
+      "say": "Después de los diez verbos: tres mecanismos para decirlo todo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ya conoces diez verbos. Faltan tres mecanismos para convertirlos en frases de verdad: decir que no, hacer preguntas y combinar dos verbos.",
+      "say": "Ya conoces diez verbos. Faltan tres mecanismos para convertirlos en frases de verdad: decir que no, hacer preguntas y combinar dos verbos."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. La negación: «no» antes del verbo",
+      "say": "1. La negación: «no» antes del verbo"
+    },
+    {
+      "type": "paragraph",
+      "text": "En español la negación es sencilla: **no + verbo**. No hace falta una segunda palabra.",
+      "say": "En español la negación es sencilla: no + verbo. No hace falta una segunda palabra."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sujeto",
+        "no",
+        "Verbo",
+        "Resto"
+      ],
+      "rows": [
+        [
+          "Yo",
+          "no",
+          "soy",
+          "médico."
+        ],
+        [
+          "Tú",
+          "no",
+          "tienes",
+          "hambre."
+        ],
+        [
+          "Ella",
+          "no",
+          "está",
+          "aquí."
+        ],
+        [
+          "Nosotros",
+          "no",
+          "queremos",
+          "salir."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Con las palabras negativas nada, nadie y nunca, el español usa **no** delante del verbo: «No tengo nada.» «No veo a nadie.» «No voy nunca.» Con un pronombre, «no» va antes: «No lo sé.»",
+      "say": "Con las palabras negativas nada, nadie y nunca, el español usa no delante del verbo: «No tengo nada.» «No veo a nadie.» «No voy nunca.» Con un pronombre, «no» va antes: «No lo sé.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Hacer preguntas",
+      "say": "2. Hacer preguntas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para preguntar basta con subir la entonación y escribir los signos ¿ ?: «¿Tienes hambre?» También puedes poner el sujeto después del verbo: «¿Tiene Marta hambre?» Con una palabra interrogativa, empieza por ella:",
+      "say": "Para preguntar basta con subir la entonación y escribir los signos ¿ ?: «¿Tienes hambre?» También puedes poner el sujeto después del verbo: «¿Tiene Marta hambre?» Con una palabra interrogativa, empieza por ella:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Palabra",
+        "Pregunta",
+        "Respuesta"
+      ],
+      "rows": [
+        [
+          "¿Dónde?",
+          "¿Dónde estás?",
+          "Estoy en casa."
+        ],
+        [
+          "¿Qué?",
+          "¿Qué quieres?",
+          "Quiero un café."
+        ],
+        [
+          "¿Cuándo?",
+          "¿Cuándo vas?",
+          "Voy mañana."
+        ],
+        [
+          "¿Por qué?",
+          "¿Por qué estudias español?",
+          "Porque quiero viajar."
+        ],
+        [
+          "¿Cómo?",
+          "¿Cómo estás?",
+          "Estoy bien."
+        ],
+        [
+          "¿Quién?",
+          "¿Quién es?",
+          "Es mi amigo."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las palabras interrogativas llevan tilde (qué, cómo, dónde); «porque» (respuesta) se escribe junto y sin tilde. Para responder a una pregunta negativa, «sí» confirma lo positivo: «¿No tienes hambre? — Sí, tengo hambre. / No, no tengo hambre.»",
+      "say": "Las palabras interrogativas llevan tilde (qué, cómo, dónde); «porque» (respuesta) se escribe junto y sin tilde. Para responder a una pregunta negativa, «sí» confirma lo positivo: «¿No tienes hambre? — Sí, tengo hambre. / No, no tengo hambre.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Combinar dos verbos",
+      "say": "3. Combinar dos verbos"
+    },
+    {
+      "type": "paragraph",
+      "text": "La regla es simple: el primer verbo va conjugado y el segundo se queda en infinitivo. Con **querer**, **poder**, **gustar**, **pensar** e **ir a** puedes decir casi todo.",
+      "say": "La regla es simple: el primer verbo va conjugado y el segundo se queda en infinitivo. Con querer, poder, gustar, pensar e ir a puedes decir casi todo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1.er verbo",
+        "+ estar",
+        "+ tener",
+        "+ comer / beber",
+        "+ ir"
+      ],
+      "rows": [
+        [
+          "**querer**",
+          "Quiero estar en casa.",
+          "Quiero tener un perro.",
+          "Quiero comer algo.",
+          "Quiero ir a Madrid."
+        ],
+        [
+          "**poder**",
+          "Puedo estar allí a las doce.",
+          "Puedo tener el libro hasta el lunes.",
+          "¿Puedo beber agua?",
+          "¿Puedo ir al baño?"
+        ],
+        [
+          "**gustar**",
+          "Me gusta estar en casa.",
+          "Me gusta tener tiempo libre.",
+          "Me gusta comer fuera.",
+          "Me gusta ir al cine."
+        ],
+        [
+          "**ir a**",
+          "Voy a estar en casa.",
+          "Voy a tener una reunión.",
+          "Voy a comer a las dos.",
+          "Voy a ir al cine."
+        ],
+        [
+          "**pensar**",
+          "Pienso estar en casa a las ocho.",
+          "Pienso tener un perro.",
+          "Pienso comer pronto.",
+          "Pienso ir a Madrid."
+        ],
+        [
+          "**para** (trabajar, estudiar)",
+          "Estudio para ser médico.",
+          "Trabajo para tener una casa.",
+          "Trabajo para comer.",
+          "Trabajo para ir de vacaciones."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "«No» va delante del **primer** verbo: «No quiero comer.» «No puedo ir.» «No voy a estudiar.» Después de «pensar que» y «saber que» empieza una frase nueva: «Pienso que es útil.» «Sabemos que tienes razón.» En español «que» no se omite nunca.",
+      "say": "«No» va delante del primer verbo: «No quiero comer.» «No puedo ir.» «No voy a estudiar.» Después de «pensar que» y «saber que» empieza una frase nueva: «Pienso que es útil.» «Sabemos que tienes razón.» En español «que» no se omite nunca."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Estar + gerundio: ahora mismo",
+      "say": "Estar + gerundio: ahora mismo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para decir «lo estoy haciendo ahora», usa **estar + gerundio**. Los verbos en -ar hacen -ando y los verbos en -er o -ir hacen -iendo: comer → comiendo, trabajar → trabajando.",
+      "say": "Para decir «lo estoy haciendo ahora», usa estar + gerundio. Los verbos en -ar hacen -ando y los verbos en -er o -ir hacen -iendo: comer → comiendo, trabajar → trabajando."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Digo…",
+        "Significa",
+        "Palabras útiles"
+      ],
+      "rows": [
+        [
+          "**Como** a las dos.",
+          "normalmente",
+          "a menudo, cada día"
+        ],
+        [
+          "**Estoy comiendo.**",
+          "ahora, la acción está en curso",
+          "ahora mismo"
+        ],
+        [
+          "**Voy a comer.**",
+          "pronto",
+          "esta noche, mañana"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Trampas frecuentes",
+      "say": "Trampas frecuentes"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Casi bien",
+        "Mejor así"
+      ],
+      "rows": [
+        [
+          "Soy hambre.",
+          "Tengo hambre."
+        ],
+        [
+          "Soy 25 años.",
+          "Tengo 25 años."
+        ],
+        [
+          "Estoy médico.",
+          "Soy médico."
+        ],
+        [
+          "Quiero a comer.",
+          "Quiero comer."
+        ],
+        [
+          "Puedo a ir.",
+          "Puedo ir."
+        ],
+        [
+          "Sé a Marta.",
+          "Conozco a Marta."
+        ],
+        [
+          "Me gusto el café.",
+          "Me gusta el café."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ahora tú: dos series de ejercicios"
+    },
+    {
+      "type": "paragraph",
+      "text": "Completa cada frase con la forma correcta y dila en voz alta. Las respuestas están justo debajo."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Yo ___ listo. (estar)",
+        "Tú ___ un bolígrafo. (tener)",
+        "Nosotros ___ al cine. (ir)",
+        "A ella le ___ el café. (gustar)",
+        "¿Tú ___ ayudarme? (poder)",
+        "Ellos ___ a las dos. (comer)",
+        "Yo ___ a Marta. (conocer)",
+        "Yo ___ un café, por favor. (querer, forma cortés)"
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Yo ___ beber un café. (querer)",
+        "Nosotros ___ ir al cine. (querer)",
+        "Ella no ___ comer. (querer)",
+        "¿Tú ___ ser paciente? (saber)",
+        "Ellos ___ a comer a las dos. (ir)",
+        "¿___ ir a la playa? (poder, nosotros)",
+        "Yo ___ español. (aprender)",
+        "Ella ___ medicina. (estudiar)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Soluciones"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Yo estoy listo.",
+        "Tú tienes un bolígrafo.",
+        "Nosotros vamos al cine.",
+        "A ella le gusta el café.",
+        "¿Tú puedes ayudarme?",
+        "Ellos comen a las dos.",
+        "Yo conozco a Marta.",
+        "Yo quisiera un café, por favor."
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Yo quiero beber un café.",
+        "Nosotros queremos ir al cine.",
+        "Ella no quiere comer.",
+        "¿Tú sabes ser paciente?",
+        "Ellos van a comer a las dos.",
+        "¿Podemos ir a la playa?",
+        "Yo aprendo español.",
+        "Ella estudia medicina."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Tu presentación en diez frases"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para terminar, preséntate: una frase por verbo, con tu propia vida."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ser / estar:** Soy ___ . Estoy en ___ .",
+        "**Tener:** Tengo ___ años. Tengo un / una ___ .",
+        "**Pensar:** Pienso que ___ . Pienso en ___ .",
+        "**Saber / conocer:** Sé ___ . Conozco ___ .",
+        "**Gustar:** Me gusta ___ . No me gusta ___ .",
+        "**Querer:** Quiero ___ . Quisiera ___ .",
+        "**Trabajar / estudiar:** Trabajo en ___ . Estudio ___ .",
+        "**Ir:** Voy a ___ . (al trabajo, a la escuela)",
+        "**Poder:** Puedo ___ . No puedo ___ .",
+        "**Comer / beber:** Como ___ a mediodía. Bebo ___ por la mañana."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Tabla comparativa de verbos"
     },
     {

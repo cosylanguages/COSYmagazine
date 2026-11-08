@@ -1498,6 +1498,364 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Depois dos dez verbos: três mecanismos para dizer tudo",
+      "say": "Depois dos dez verbos: três mecanismos para dizer tudo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Já conhece dez verbos. Faltam três mecanismos para fazer frases a sério: dizer que não, fazer perguntas e combinar dois verbos.",
+      "say": "Já conhece dez verbos. Faltam três mecanismos para fazer frases a sério: dizer que não, fazer perguntas e combinar dois verbos."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. A negação: «não» antes do verbo",
+      "say": "1. A negação: «não» antes do verbo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em português a negação é simples: **não + verbo**.",
+      "say": "Em português a negação é simples: não + verbo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sujeito",
+        "não",
+        "Verbo",
+        "Resto"
+      ],
+      "rows": [
+        [
+          "Eu",
+          "não",
+          "sou",
+          "médico."
+        ],
+        [
+          "Tu",
+          "não",
+          "tens",
+          "fome."
+        ],
+        [
+          "Ela",
+          "não",
+          "está",
+          "aqui."
+        ],
+        [
+          "Nós",
+          "não",
+          "queremos",
+          "sair."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Com nada, ninguém e nunca, o português mantém **não** antes do verbo: «Não tenho nada.» «Não vejo ninguém.» «Não vou nunca.» Com um pronome, «não» vem antes: «Não sei.»",
+      "say": "Com nada, ninguém e nunca, o português mantém não antes do verbo: «Não tenho nada.» «Não vejo ninguém.» «Não vou nunca.» Com um pronome, «não» vem antes: «Não sei.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Fazer perguntas",
+      "say": "2. Fazer perguntas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para perguntar basta subir a entoação: «Tens fome?» Com uma palavra interrogativa, comece por ela:",
+      "say": "Para perguntar basta subir a entoação: «Tens fome?» Com uma palavra interrogativa, comece por ela:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Palavra",
+        "Pergunta",
+        "Resposta"
+      ],
+      "rows": [
+        [
+          "Onde?",
+          "Onde estás?",
+          "Estou em casa."
+        ],
+        [
+          "O que?",
+          "O que queres?",
+          "Quero um café."
+        ],
+        [
+          "Quando?",
+          "Quando vais?",
+          "Vou amanhã."
+        ],
+        [
+          "Porque?",
+          "Porque estudas português?",
+          "Porque quero viajar."
+        ],
+        [
+          "Como?",
+          "Como estás?",
+          "Estou bem."
+        ],
+        [
+          "Quem?",
+          "Quem é?",
+          "É um amigo meu."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "No fim de uma frase ou sozinha, a pergunta escreve-se «porquê?». Para responder a uma pergunta negativa: «Não tens fome? — Tenho, sim. / Não, não tenho fome.»",
+      "say": "No fim de uma frase ou sozinha, a pergunta escreve-se «porquê?». Para responder a uma pergunta negativa: «Não tens fome? — Tenho, sim. / Não, não tenho fome.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Combinar dois verbos",
+      "say": "3. Combinar dois verbos"
+    },
+    {
+      "type": "paragraph",
+      "text": "O primeiro verbo é conjugado e o segundo fica no infinitivo. Depois de **querer** e **poder** não há preposição; depois de **gostar** usa-se «de»; depois de **trabalhar** e **estudar**, «para» indica o objetivo.",
+      "say": "O primeiro verbo é conjugado e o segundo fica no infinitivo. Depois de querer e poder não há preposição; depois de gostar usa-se «de»; depois de trabalhar e estudar, «para» indica o objetivo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1.º verbo",
+        "+ estar",
+        "+ ter",
+        "+ comer / beber",
+        "+ ir"
+      ],
+      "rows": [
+        [
+          "**querer**",
+          "Quero estar em casa.",
+          "Quero ter um cão.",
+          "Quero comer algo.",
+          "Quero ir a Lisboa."
+        ],
+        [
+          "**poder**",
+          "Posso estar lá ao meio-dia.",
+          "Posso ter o livro até segunda.",
+          "Posso beber água?",
+          "Posso ir à casa de banho?"
+        ],
+        [
+          "**gostar de**",
+          "Gosto de estar em casa.",
+          "Gosto de ter tempo livre.",
+          "Gosto de comer fora.",
+          "Gosto de ir ao cinema."
+        ],
+        [
+          "**ir**",
+          "Vou estar em casa.",
+          "Vou ter uma reunião.",
+          "Vou comer às duas.",
+          "Vou ao cinema (e não «vou ir ao cinema»)."
+        ],
+        [
+          "**pensar**",
+          "Penso estar em casa às oito.",
+          "Penso ter um cão.",
+          "Penso comer cedo.",
+          "Penso ir a Lisboa."
+        ],
+        [
+          "**para** (trabalhar, estudar)",
+          "Estudo para ser médico.",
+          "Trabalho para ter uma casa.",
+          "Trabalho para comer.",
+          "Trabalho para ir de férias."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "«Não» vai antes do **primeiro** verbo: «Não quero comer.» «Não posso ir.» «Não vou estudar.» Depois de «pensar que» e «saber que» começa uma frase nova: «Penso que é útil.» «Sabemos que tem razão.»",
+      "say": "«Não» vai antes do primeiro verbo: «Não quero comer.» «Não posso ir.» «Não vou estudar.» Depois de «pensar que» e «saber que» começa uma frase nova: «Penso que é útil.» «Sabemos que tem razão.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Estar a + infinitivo: agora mesmo",
+      "say": "Estar a + infinitivo: agora mesmo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para dizer «estou a fazê-lo agora», use **estar a + infinitivo**: «Estou a comer.» «Estou a trabalhar.» (No Brasil diz-se «estou comendo».)",
+      "say": "Para dizer «estou a fazê-lo agora», use estar a + infinitivo: «Estou a comer.» «Estou a trabalhar.» (No Brasil diz-se «estou comendo».)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Digo…",
+        "Significa",
+        "Palavras úteis"
+      ],
+      "rows": [
+        [
+          "**Como** às duas.",
+          "normalmente",
+          "muitas vezes, todos os dias"
+        ],
+        [
+          "**Estou a comer.**",
+          "agora, a ação está a decorrer",
+          "neste momento"
+        ],
+        [
+          "**Vou comer.**",
+          "daqui a pouco",
+          "esta noite, amanhã"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Armadilhas frequentes",
+      "say": "Armadilhas frequentes"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Quase certo",
+        "Melhor assim"
+      ],
+      "rows": [
+        [
+          "Eu sou fome.",
+          "Tenho fome."
+        ],
+        [
+          "Sou 25 anos.",
+          "Tenho 25 anos."
+        ],
+        [
+          "Eu estou médico.",
+          "Sou médico."
+        ],
+        [
+          "Quero a comer.",
+          "Quero comer."
+        ],
+        [
+          "Posso a ir.",
+          "Posso ir."
+        ],
+        [
+          "Eu gosto o café.",
+          "Gosto de café."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "A sua vez: duas séries de exercícios"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete cada frase com a forma certa e diga-a em voz alta. As soluções estão logo a seguir."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Eu ___ pronto. (estar)",
+        "Tu ___ uma caneta. (ter)",
+        "Nós ___ ao cinema. (ir)",
+        "Ela ___ de café. (gostar)",
+        "___ abrir a janela? (poder, tu)",
+        "Eles ___ às duas. (comer)",
+        "Eu ___ o Marco. (conhecer)",
+        "Eu ___ um café, por favor. (querer, forma de cortesia)"
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Eu ___ beber um café. (querer)",
+        "Nós ___ ir ao cinema. (querer)",
+        "Ela não ___ comer. (querer)",
+        "___ ser paciente? (tu, saber)",
+        "Eles ___ comer às duas. (ir)",
+        "___ ir à praia? (poder, nós)",
+        "Eu ___ português. (aprender)",
+        "Ela ___ medicina. (estudar)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Soluções"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Eu estou pronto.",
+        "Tu tens uma caneta.",
+        "Nós vamos ao cinema.",
+        "Ela gosta de café.",
+        "Podes abrir a janela?",
+        "Eles comem às duas.",
+        "Eu conheço o Marco.",
+        "Eu queria um café, por favor."
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Eu quero beber um café.",
+        "Nós queremos ir ao cinema.",
+        "Ela não quer comer.",
+        "Sabes ser paciente?",
+        "Eles vão comer às duas.",
+        "Podemos ir à praia?",
+        "Eu aprendo português.",
+        "Ela estuda medicina."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "A sua apresentação em dez frases"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para terminar, apresente-se: uma frase por verbo, com a sua própria vida."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ser / estar:** Sou ___ . Estou em ___ .",
+        "**Ter:** Tenho ___ anos. Tenho um / uma ___ .",
+        "**Pensar:** Penso que ___ . Penso em ___ .",
+        "**Saber / conhecer:** Sei ___ . Conheço ___ .",
+        "**Gostar:** Gosto de ___ . Não gosto de ___ .",
+        "**Querer:** Quero ___ . Queria ___ .",
+        "**Trabalhar / estudar:** Trabalho em ___ . Estudo ___ .",
+        "**Ir:** Vou a ___ . (ao trabalho, à escola)",
+        "**Poder:** Posso ___ . Não posso ___ .",
+        "**Comer / beber:** Como ___ ao meio-dia. Bebo ___ de manhã."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Tabela comparativa de verbos"
     },
     {

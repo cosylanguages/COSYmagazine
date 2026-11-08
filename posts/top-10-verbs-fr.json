@@ -2310,6 +2310,126 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Quel verbe peut suivre quel verbe ?",
+      "say": "Quel verbe peut suivre quel verbe ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lisez la ligne : le premier verbe est conjugué, la colonne donne le deuxième verbe, à l'infinitif. **✓** on le dit, **✗** on ne le dit pas, **·** rare ou inutile à ce niveau. Exemples : « Je veux être médecin » ✓, « Je sais avoir une voiture » ✗, « Je travaille pour avoir une maison » ✓.",
+      "say": "Quel verbe peut suivre quel verbe ? Le premier verbe est conjugué, le deuxième est à l'infinitif. Par exemple : je veux être médecin, c'est possible ; je sais avoir une voiture, on ne le dit pas ; je travaille pour avoir une maison, c'est possible."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "2e verbe →",
+        "être",
+        "avoir",
+        "penser",
+        "savoir",
+        "aimer",
+        "vouloir",
+        "travailler",
+        "aller",
+        "pouvoir",
+        "manger / boire"
+      ],
+      "rows": [
+        [
+          "**aimer**",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "·",
+          "·",
+          "✓",
+          "✓",
+          "·",
+          "✓"
+        ],
+        [
+          "**vouloir**",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✗",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "**pouvoir**",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "·",
+          "✓",
+          "✓",
+          "✗",
+          "✓"
+        ],
+        [
+          "**aller**",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "·",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "**savoir**",
+          "✓",
+          "✗",
+          "✓",
+          "✗",
+          "·",
+          "·",
+          "✓",
+          "✓",
+          "·",
+          "✓"
+        ],
+        [
+          "**penser**",
+          "✓",
+          "✓",
+          "·",
+          "✓",
+          "·",
+          "·",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "**pour** (travailler, étudier)",
+          "✓",
+          "✓",
+          "·",
+          "✓",
+          "·",
+          "·",
+          "·",
+          "✓",
+          "✓",
+          "✓"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "Le sandwich avec deux verbes",
       "say": "Le sandwich avec deux verbes"
     },

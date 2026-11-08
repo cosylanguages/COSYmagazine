@@ -540,7 +540,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>From who you are to what you have — little by little, your world gets bigger.</p><p><a href=\"#page-2\">← Back to BE 🪞</a> &nbsp; <a href=\"#page-5\">Next: KNOW 🤝 — The people and things I know →</a></p></div></section>"
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>From who you are to what you have — little by little, your world gets bigger.</p><p><a href=\"#page-2\">← Back to BE 🪞</a> &nbsp; <a href=\"#page-4\">Next: THINK 💭 — What I think →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -553,7 +553,40 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table (Present Simple)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb THINK</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I think it is a good idea.</mark> / <mark class=\"example-chip\">You think too much.</mark> / <mark class=\"example-chip\">We think English is fun.</mark> / <mark class=\"example-chip\">They think it is easy.</mark></td><td><mark class=\"example-chip\">I don't think it is expensive.</mark> / <mark class=\"example-chip\">You don't think about me.</mark> / <mark class=\"example-chip\">We don't think it is a problem.</mark> / <mark class=\"example-chip\">They don't think it is easy.</mark></td><td><mark class=\"example-chip\">Do you think it is good?</mark> / <mark class=\"example-chip\">Do we think the same?</mark> / <mark class=\"example-chip\">Do they think it is far?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">She thinks it is great.</mark> / <mark class=\"example-chip\">He thinks about his family.</mark> / <mark class=\"example-chip\">My brother thinks too fast.</mark></td><td><mark class=\"example-chip\">She doesn't think it is true.</mark> / <mark class=\"example-chip\">He doesn't think about work.</mark></td><td><mark class=\"example-chip\">Does she think it is good?</mark> / <mark class=\"example-chip\">Does he think about it?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -s Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> with <em>he</em>, <em>she</em> and <em>it</em> in positive sentences. After <em>doesn't</em> or <em>does</em>, the verb goes back to <strong>think</strong>:</p><div class=\"instead-try-spread\" aria-label=\"THINK third person\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She think it is good.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She thinks it is good.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She doesn't thinks so.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She doesn't think so.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does he thinks about it?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does he think about it?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Think about, think of, think that"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**think about** = keep something in your mind: <mark class=\"example-chip\">I'm thinking about my holiday.</mark> / <mark class=\"example-chip\">Think about it!</mark>",
+        "**think of** = have an idea or opinion: <mark class=\"example-chip\">What do you think of this film?</mark> / <mark class=\"example-chip\">I can't think of his name.</mark>",
+        "**think that** = give an opinion (<em>that</em> is optional): <mark class=\"example-chip\">I think that it is a good plan.</mark> / <mark class=\"example-chip\">I think it is a good plan.</mark>",
+        "**think so / don't think so** = short answers: <mark class=\"example-chip\">Is it open? — I think so.</mark> / <mark class=\"example-chip\">Is it cheap? — I don't think so.</mark>",
+        "**Natural English moves the negative:** we say <mark class=\"example-chip\">I don't think she likes it.</mark> rather than <mark class=\"example-chip\">I think she doesn't like it.</mark>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Prepositions and \"that\"</div><div class=\"instead-try-spread\" aria-label=\"THINK prepositions\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I think to my family.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I think about my family.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I think about that she is nice.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I think that she is nice.</mark></div></div></div></div><p class=\"marginalia-body\"><em>Think</em> for an opinion is a stative verb: say <mark class=\"example-chip\">I think it is great.</mark>, not <mark class=\"example-chip\">I'm thinking it is great.</mark> But the activity \"thinking\" is fine: <mark class=\"example-chip\">I'm thinking about my holiday.</mark></p></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentence Frames & Everyday Phrases"
     },
     {
       "type": "list-item",
@@ -567,8 +600,35 @@
       ]
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She think so.",
+        "She thinks so.",
+        "She thinks to so."
+      ],
+      "correctIndex": 1,
+      "explanation": "With 'she', add -s to the verb: 'She thinks so.'"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the natural way to say you disagree?",
+      "options": [
+        "I think not so.",
+        "I don't think so.",
+        "I no think so."
+      ],
+      "correctIndex": 1,
+      "explanation": "To disagree politely, say 'I don't think so.'"
+    },
+    {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say who you are, what you have, and what you think. Ready to talk about what you know?</p><p><a href=\"#page-3\">← Back to HAVE 🎒</a> &nbsp; <a href=\"#page-5\">Next: KNOW 🤝 — The people and things I know →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -727,7 +787,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Now you can talk about what you know. Ready to share what you enjoy and love?</p><p><a href=\"#page-3\">← Back to HAVE 🎒</a> &nbsp; <a href=\"#page-6\">Next: LIKE 💗 — The things I love →</a></p></div></section>"
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Now you can talk about what you know. Ready to share what you enjoy and love?</p><p><a href=\"#page-4\">← Back to THINK 💭</a> &nbsp; <a href=\"#page-6\">Next: LIKE 💗 — The things I love →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -855,7 +915,38 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table (Present Simple)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb WANT</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I want a coffee.</mark> / <mark class=\"example-chip\">You want more time.</mark> / <mark class=\"example-chip\">We want to travel.</mark> / <mark class=\"example-chip\">They want a new car.</mark></td><td><mark class=\"example-chip\">I don't want any sugar.</mark> / <mark class=\"example-chip\">You don't want to wait.</mark> / <mark class=\"example-chip\">We don't want to be late.</mark> / <mark class=\"example-chip\">They don't want help.</mark></td><td><mark class=\"example-chip\">Do you want some tea?</mark> / <mark class=\"example-chip\">Do we want to leave now?</mark> / <mark class=\"example-chip\">Do they want to come?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He wants a new phone.</mark> / <mark class=\"example-chip\">She wants to learn English.</mark> / <mark class=\"example-chip\">My dog wants food.</mark></td><td><mark class=\"example-chip\">He doesn't want to go.</mark> / <mark class=\"example-chip\">She doesn't want any coffee.</mark></td><td><mark class=\"example-chip\">Does he want some help?</mark> / <mark class=\"example-chip\">Does she want to come?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -s Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> with <em>he</em>, <em>she</em> and <em>it</em>. After <em>doesn't</em> or <em>does</em>, use <strong>want</strong> again:</p><div class=\"instead-try-spread\" aria-label=\"WANT third person\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She want a coffee.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She wants a coffee.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">He doesn't wants to go.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">He doesn't want to go.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she wants to come?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she want to come?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. What can come after \"want\"?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Pattern 1: want + noun:** <mark class=\"example-chip\">I want a glass of water.</mark> / <mark class=\"example-chip\">She wants a new bag.</mark>",
+        "**Pattern 2: want + to + verb:** <mark class=\"example-chip\">I want to go home.</mark> / <mark class=\"example-chip\">They want to learn English.</mark>",
+        "**Pattern 3: want + someone + to + verb:** <mark class=\"example-chip\">I want you to come.</mark> / <mark class=\"example-chip\">She wants him to help her.</mark>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — \"to\" after want</div><div class=\"instead-try-spread\" aria-label=\"WANT patterns\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I want go home.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I want to go home.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I want that you come.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I want you to come.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Want vs Would Like"
     },
     {
       "type": "list-item",
@@ -869,7 +960,42 @@
     },
     {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Want or would like by situation</caption><thead><tr><th>Situation</th><th>Say</th><th>Why</th></tr></thead><tbody><tr><td>With friends and family</td><td><mark class=\"example-chip\">Do you want some tea?</mark> / <mark class=\"example-chip\">I want a pizza.</mark></td><td>Direct and friendly.</td></tr><tr><td>In a café or restaurant</td><td><mark class=\"example-chip\">I would like a coffee, please.</mark> / <mark class=\"example-chip\">I'd like the soup.</mark></td><td>Polite and standard.</td></tr><tr><td>Offering something</td><td><mark class=\"example-chip\">Would you like some water?</mark> / <mark class=\"example-chip\">Would you like to sit down?</mark></td><td>Polite with guests and strangers.</td></tr><tr><td>Accepting or refusing</td><td><mark class=\"example-chip\">Yes, please.</mark> / <mark class=\"example-chip\">No, thank you.</mark></td><td>Short and polite.</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Politeness</div><p class=\"marginalia-body\"><em>I want a coffee</em> is correct, but with a waiter or a stranger it can sound blunt. Use <em>I would like</em> or <em>I'd like</em>. Notice the difference between <mark class=\"example-chip\">Would you like a coffee?</mark> (an offer) and <mark class=\"example-chip\">Do you like coffee?</mark> (a general question).</p></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence is correct?",
+      "options": [
+        "He want to go.",
+        "He wants to go.",
+        "He wants go."
+      ],
+      "correctIndex": 1,
+      "explanation": "Add -s for 'he' and use 'to' before the next verb: 'He wants to go.'"
+    },
+    {
+      "type": "quiz",
+      "question": "Which is the most polite way to order a coffee?",
+      "options": [
+        "Give me a coffee.",
+        "I want a coffee.",
+        "I'd like a coffee, please."
+      ],
+      "correctIndex": 2,
+      "explanation": "'I'd like ... please' is the standard polite form for ordering."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can now say what you want, directly and politely. Next: your days at work and in class.</p><p><a href=\"#page-6\">← Back to LIKE 💗</a> &nbsp; <a href=\"#page-8\">Next: WORK 💼 — My days, my studies →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -880,9 +1006,44 @@
       "text": "<strong>To Work</strong>, <strong>To Study</strong>, and <strong>To Learn</strong> are your core verbs for everyday occupations, education, and acquiring new skills."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>Work</strong>, <strong>study</strong> and <strong>learn</strong> are regular verbs. With <em>he</em>, <em>she</em> and <em>it</em>: <strong>works</strong>, <strong>studies</strong> (study → studies), <strong>learns</strong>."
+    },
+    {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table (Present Simple)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verbs WORK, STUDY and LEARN</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I work in an office.</mark> / <mark class=\"example-chip\">You study every evening.</mark> / <mark class=\"example-chip\">We learn something new every day.</mark> / <mark class=\"example-chip\">They work hard.</mark></td><td><mark class=\"example-chip\">I don't work on Sundays.</mark> / <mark class=\"example-chip\">You don't study enough.</mark> / <mark class=\"example-chip\">We don't learn fast.</mark> / <mark class=\"example-chip\">They don't work here.</mark></td><td><mark class=\"example-chip\">Do you work here?</mark> / <mark class=\"example-chip\">Do you study English?</mark> / <mark class=\"example-chip\">Do they learn quickly?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">She works from home.</mark> / <mark class=\"example-chip\">He studies medicine.</mark> / <mark class=\"example-chip\">She learns quickly.</mark></td><td><mark class=\"example-chip\">She doesn't work on Fridays.</mark> / <mark class=\"example-chip\">He doesn't study at night.</mark> / <mark class=\"example-chip\">He doesn't learn from his mistakes.</mark></td><td><mark class=\"example-chip\">Does he work here?</mark> / <mark class=\"example-chip\">Does she study law?</mark> / <mark class=\"example-chip\">Does he learn fast?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -s Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> (or <strong>-ies</strong> for <em>study</em>) with <em>he</em>, <em>she</em> and <em>it</em>. After <em>doesn't</em> or <em>does</em>, use the base verb:</p><div class=\"instead-try-spread\" aria-label=\"WORK third person\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She study English.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She studies English.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">He doesn't works on Sunday.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">He doesn't work on Sunday.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she learns fast?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she learn fast?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Prepositions & patterns"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**work in / at / for / as:** <mark class=\"example-chip\">I work in an office.</mark> / <mark class=\"example-chip\">She works at a bank.</mark> / <mark class=\"example-chip\">He works for a big company.</mark> / <mark class=\"example-chip\">They work as nurses.</mark>",
+        "**study + subject** (no preposition): <mark class=\"example-chip\">I study history.</mark> / <mark class=\"example-chip\">He studies medicine.</mark> and **study for** an exam: <mark class=\"example-chip\">We study for the test together.</mark>",
+        "**learn + noun or to + verb:** <mark class=\"example-chip\">I learn English.</mark> / <mark class=\"example-chip\">Children learn to swim quickly.</mark>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Prepositions</div><div class=\"instead-try-spread\" aria-label=\"WORK prepositions\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She works like a teacher.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She works as a teacher.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I study for be a doctor.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I study to be a doctor.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I work at the hospital as a nurse in.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I work at the hospital as a nurse.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentence Frames, Learn vs Teach and Everyday Phrases"
     },
     {
       "type": "list-item",
@@ -896,7 +1057,38 @@
     },
     {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Learn vs Teach</div><div class=\"instead-try-spread\" aria-label=\"LEARN and TEACH\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She learns me English.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She teaches me English.</mark></div></div></div></div><p class=\"marginalia-body\"><em>Learn</em> is what the student does; <em>teach</em> is what the teacher does. Unlike <em>like</em> or <em>know</em>, these verbs are not stative: <mark class=\"example-chip\">I'm studying for an exam this week.</mark> / <mark class=\"example-chip\">I'm learning to cook.</mark> are natural.</p></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct sentence: \"She ___ at a hospital.\"",
+      "options": [
+        "work",
+        "works",
+        "working"
+      ],
+      "correctIndex": 1,
+      "explanation": "With 'she', add -s: 'She works at a hospital.'"
+    },
+    {
+      "type": "quiz",
+      "question": "My teacher ___ us English.",
+      "options": [
+        "learns",
+        "teaches",
+        "studies"
+      ],
+      "correctIndex": 1,
+      "explanation": "The teacher teaches; the students learn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can talk about your work, your studies and what you learn. Now let's move: places, plans and journeys.</p><p><a href=\"#page-7\">← Back to WANT 🌟</a> &nbsp; <a href=\"#page-9\">Next: GO 🚶 — Places, plans and journeys →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -907,9 +1099,45 @@
       "text": "<strong>To Go</strong> expresses movement, travel, routines, and future intentions (<em>be going to</em>)."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>Go</strong> is irregular in the third person: <strong>goes</strong> (pronounced like <em>goze</em>)."
+    },
+    {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table (Present Simple)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb GO</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I go to work by train.</mark> / <mark class=\"example-chip\">You go to school early.</mark> / <mark class=\"example-chip\">We go to the park on Sundays.</mark> / <mark class=\"example-chip\">They go abroad every summer.</mark></td><td><mark class=\"example-chip\">I don't go to the gym.</mark> / <mark class=\"example-chip\">You don't go out much.</mark> / <mark class=\"example-chip\">We don't go by car.</mark> / <mark class=\"example-chip\">They don't go home early.</mark></td><td><mark class=\"example-chip\">Do you go to school here?</mark> / <mark class=\"example-chip\">Do we go this way?</mark> / <mark class=\"example-chip\">Do they go to the market?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He goes to the gym every day.</mark> / <mark class=\"example-chip\">She goes to school by bus.</mark> / <mark class=\"example-chip\">It goes very fast.</mark></td><td><mark class=\"example-chip\">He doesn't go to work on Sunday.</mark> / <mark class=\"example-chip\">She doesn't go by car.</mark></td><td><mark class=\"example-chip\">Does he go to school?</mark> / <mark class=\"example-chip\">Does she go to the park?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -es Rule</div><p class=\"marginalia-body\">Use <strong>goes</strong> with <em>he</em>, <em>she</em> and <em>it</em>. After <em>doesn't</em> or <em>does</em>, go back to <strong>go</strong>:</p><div class=\"instead-try-spread\" aria-label=\"GO third person\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She go to school.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She goes to school.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">He doesn't goes to work.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">He doesn't go to work.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she goes to the park?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she go to the park?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Go + place: \"to\" or no \"to\"?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**go to + place:** <mark class=\"example-chip\">I go to school.</mark> / <mark class=\"example-chip\">We go to the cinema.</mark>",
+        "**no \"to\"** with <em>home</em>, <em>abroad</em>, <em>here</em>, <em>there</em>, <em>downtown</em>, <em>upstairs</em>: <mark class=\"example-chip\">I go home at six.</mark> / <mark class=\"example-chip\">They go abroad every summer.</mark>",
+        "**go by + transport:** <mark class=\"example-chip\">go by bus</mark> / <mark class=\"example-chip\">go by train</mark> / <mark class=\"example-chip\">go by car</mark> and <mark class=\"example-chip\">go on foot</mark> (not \"by foot\").",
+        "**go + -ing** for activities: <mark class=\"example-chip\">go swimming</mark> / <mark class=\"example-chip\">go shopping</mark> / <mark class=\"example-chip\">go running</mark> / <mark class=\"example-chip\">go dancing</mark>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Prepositions</div><div class=\"instead-try-spread\" aria-label=\"GO prepositions\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I go to home.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I go home.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I go by the bus.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I go by bus.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">We go to shopping.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">We go shopping.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentence Frames & Future Plans (be going to)"
     },
     {
       "type": "list-item",
@@ -923,8 +1151,49 @@
       ]
     },
     {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Affirmative:** <mark class=\"example-chip\">I am going to call her.</mark> / <mark class=\"example-chip\">She is going to travel next month.</mark>",
+        "**Negative:** <mark class=\"example-chip\">I'm not going to be late.</mark> / <mark class=\"example-chip\">They aren't going to come.</mark>",
+        "**Question:** <mark class=\"example-chip\">Are you going to study tonight?</mark> / <mark class=\"example-chip\">Is he going to cook?</mark>",
+        "**Short answers:** <mark class=\"example-chip\">Yes, I am.</mark> / <mark class=\"example-chip\">No, I'm not.</mark> / <mark class=\"example-chip\">Yes, he is.</mark>"
+      ]
+    },
+    {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — be going to</div><div class=\"instead-try-spread\" aria-label=\"BE GOING TO\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I going to eat dinner.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I am going to eat dinner.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She is going to eats.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She is going to eat.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She go to school by bus.",
+        "She goes to school by bus.",
+        "She goes to school by the bus."
+      ],
+      "correctIndex": 1,
+      "explanation": "Use 'goes' with 'she' and 'by bus' without an article."
+    },
+    {
+      "type": "quiz",
+      "question": "Tonight I ___ going to cook pasta.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "correctIndex": 0,
+      "explanation": "'I' goes with 'am': 'I am going to cook pasta.'"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say where you go and what you are going to do. Next: what you can do.</p><p><a href=\"#page-8\">← Back to WORK 💼</a> &nbsp; <a href=\"#page-10\">Next: CAN 💪 — What I can do →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -935,13 +1204,46 @@
       "text": "<strong>Can</strong> is a modal verb expressing ability, permission, and polite requests."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>Can</strong> has one form for every subject. No <em>-s</em>, no <em>do/does</em>, and no <em>to</em> before the next verb."
+    },
+    {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table"
     },
     {
       "type": "paragraph",
-      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Modal Rule</div><p class=\"marginalia-body\"><em>Can</em> never changes form (no '-s' for he/she/it). It is followed directly by a base verb without 'to'.</p></aside>"
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verb CAN</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I can speak three languages.</mark> / <mark class=\"example-chip\">You can sit here.</mark> / <mark class=\"example-chip\">We can help you.</mark> / <mark class=\"example-chip\">They can swim.</mark></td><td><mark class=\"example-chip\">I can't drive.</mark> / <mark class=\"example-chip\">You can't park here.</mark> / <mark class=\"example-chip\">We can't come tonight.</mark> / <mark class=\"example-chip\">They can't hear you.</mark></td><td><mark class=\"example-chip\">Can I come in?</mark> / <mark class=\"example-chip\">Can you help me?</mark> / <mark class=\"example-chip\">Can we sit here?</mark> / <mark class=\"example-chip\">Can they swim?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He can play the guitar.</mark> / <mark class=\"example-chip\">She can run fast.</mark> / <mark class=\"example-chip\">It can fly.</mark></td><td><mark class=\"example-chip\">He can't swim.</mark> / <mark class=\"example-chip\">She can't come today.</mark></td><td><mark class=\"example-chip\">Can he swim?</mark> / <mark class=\"example-chip\">Can she help us?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Can Never Changes</div><p class=\"marginalia-body\"><em>Can</em> never takes <em>-s</em>, never takes <em>to</em>, and makes its own questions:</p><div class=\"instead-try-spread\" aria-label=\"CAN rules\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She cans swim.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She can swim.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She can to swim.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She can swim.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she can swim?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Can she swim?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Three jobs for can"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ability:** <mark class=\"example-chip\">I can swim.</mark> / <mark class=\"example-chip\">She can speak French.</mark>",
+        "**Permission, requests and offers:** <mark class=\"example-chip\">Can I sit here?</mark> / <mark class=\"example-chip\">Can you help me?</mark> / <mark class=\"example-chip\">Can I help you?</mark>",
+        "**Possibility and senses:** <mark class=\"example-chip\">I can see the sea.</mark> / <mark class=\"example-chip\">I can hear music.</mark>",
+        "**More polite:** <mark class=\"example-chip\">Could you help me, please?</mark> / <mark class=\"example-chip\">Could I have the bill?</mark> (<em>could</em> is softer than <em>can</em>).",
+        "**Short answers:** <mark class=\"example-chip\">Yes, I can.</mark> / <mark class=\"example-chip\">No, I can't.</mark> <em>Cannot</em> is written as one word and sounds formal."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Short Answers and \"to\"</div><div class=\"instead-try-spread\" aria-label=\"CAN short answers\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Yes, I can to.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Yes, I can.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I can't to come.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I can't come.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentence Frames & Useful Phrases"
     },
     {
       "type": "list-item",
@@ -954,8 +1256,35 @@
       ]
     },
     {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct question:",
+      "options": [
+        "Does she can swim?",
+        "Can she swim?",
+        "Can she to swim?"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Can' starts the question by itself: 'Can she swim?'"
+    },
+    {
+      "type": "quiz",
+      "question": "Which request is the most polite?",
+      "options": [
+        "Help me.",
+        "Can you help me?",
+        "Could you help me, please?"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Could you ... please?' is the most polite."
+    },
+    {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>You can say what you can do and ask for things politely. One verb left: eating and drinking.</p><p><a href=\"#page-9\">← Back to GO 🚶</a> &nbsp; <a href=\"#page-11\">Next: EAT & DRINK 🍽️ — Meals and daily life →</a></p></div></section>"
     },
     {
       "type": "paragraph",
@@ -966,9 +1295,45 @@
       "text": "<strong>To Eat</strong> and <strong>To Drink</strong> cover food, daily meals, dining habits, beverages, and hydration."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>Eat</strong> and <strong>drink</strong> are regular verbs. With <em>he</em>, <em>she</em> and <em>it</em>: <strong>eats</strong>, <strong>drinks</strong>."
+    },
+    {
       "type": "heading",
       "level": 3,
-      "text": "Forms & Sentence Frames"
+      "text": "1. Forms & Conjugation Table (Present Simple)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<div class=\"table-responsive-container\"><table class=\"gazette-editorial-table\"><caption class=\"sr-only\">Present simple conjugation and usage table for verbs EAT and DRINK</caption><thead><tr><th>Subject</th><th>Affirmative (+)</th><th>Negative (-)</th><th>Question (?)</th></tr></thead><tbody><tr><td>I / You / We / They</td><td><mark class=\"example-chip\">I eat fruit every morning.</mark> / <mark class=\"example-chip\">You drink a lot of water.</mark> / <mark class=\"example-chip\">We eat dinner at eight.</mark> / <mark class=\"example-chip\">They drink tea.</mark></td><td><mark class=\"example-chip\">I don't eat meat.</mark> / <mark class=\"example-chip\">You don't drink coffee.</mark> / <mark class=\"example-chip\">We don't eat late.</mark> / <mark class=\"example-chip\">They don't drink milk.</mark></td><td><mark class=\"example-chip\">Do you eat breakfast?</mark> / <mark class=\"example-chip\">Do you drink tea?</mark> / <mark class=\"example-chip\">Do they eat fish?</mark></td></tr><tr><td>He / She / It</td><td><mark class=\"example-chip\">He eats lunch at one.</mark> / <mark class=\"example-chip\">She drinks black coffee.</mark> / <mark class=\"example-chip\">My cat eats fish.</mark></td><td><mark class=\"example-chip\">He doesn't eat sweets.</mark> / <mark class=\"example-chip\">She doesn't drink juice.</mark></td><td><mark class=\"example-chip\">Does he eat meat?</mark> / <mark class=\"example-chip\">Does she drink coffee?</mark></td></tr></tbody></table></div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Third-Person -s Rule</div><p class=\"marginalia-body\">Add <strong>-s</strong> with <em>he</em>, <em>she</em> and <em>it</em>. After <em>doesn't</em> or <em>does</em>, use the base verb:</p><div class=\"instead-try-spread\" aria-label=\"EAT third person\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">He eat fruit.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">He eats fruit.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">She doesn't drinks tea.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">She doesn't drink tea.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">Does she drinks tea?</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">Does she drink tea?</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Some, any, a / an and a lot of"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Positive:** <em>some</em> or <em>a lot of</em>: <mark class=\"example-chip\">I eat some fruit.</mark> / <mark class=\"example-chip\">I drink a lot of water.</mark>",
+        "**Negative and questions:** <em>any</em>: <mark class=\"example-chip\">I don't eat any meat.</mark> / <mark class=\"example-chip\">Do you drink any coffee?</mark>",
+        "**Offers and requests:** <em>some</em>: <mark class=\"example-chip\">Would you like some tea?</mark> / <mark class=\"example-chip\">Can I have some water?</mark>",
+        "**Countable** (use <em>a / an</em>): <mark class=\"example-chip\">an apple</mark> / <mark class=\"example-chip\">a sandwich</mark> **Uncountable** (no article): <mark class=\"example-chip\">water</mark> / <mark class=\"example-chip\">rice</mark> / <mark class=\"example-chip\">bread</mark>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<aside class=\"gazette-marginalia warning-callout\"><div class=\"gazette-marginalia-title\">⚠️ Common Trap — Some, any and articles</div><div class=\"instead-try-spread\" aria-label=\"EAT some and any\"><div class=\"instead-try-headers\"><div class=\"instead-try-header col-instead\"><span class=\"instead-badge\">INSTEAD OF ❌</span></div><div class=\"instead-try-header col-try\"><span class=\"try-badge\">TRY THIS ✅</span></div></div><div class=\"instead-try-body\"><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I don't eat some meat.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I don't eat any meat.</mark></div></div><div class=\"instead-try-row\"><div class=\"instead-try-cell instead-cell\"><mark class=\"example-chip\">I eat a rice.</mark></div><div class=\"instead-try-cell try-cell\"><mark class=\"example-chip\">I eat rice.</mark></div></div></div></div></aside>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Sentence Frames, Meals and Invitations"
     },
     {
       "type": "list-item",
@@ -980,8 +1345,44 @@
       ]
     },
     {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Daily meals:** <mark class=\"example-chip\">I have breakfast at seven.</mark> / <mark class=\"example-chip\">We have lunch at one.</mark> / <mark class=\"example-chip\">They have dinner late.</mark>",
+        "**Inviting:** <mark class=\"example-chip\">Let's have a drink.</mark> / <mark class=\"example-chip\">Let's eat out tonight.</mark> / <mark class=\"example-chip\">Would you like something to eat?</mark>",
+        "**At the table:** <mark class=\"example-chip\">Help yourself!</mark> / <mark class=\"example-chip\">Enjoy your meal!</mark> / <mark class=\"example-chip\">Cheers!</mark>"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Check Your Understanding"
+    },
+    {
+      "type": "quiz",
+      "question": "I don't eat ___ meat.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "correctIndex": 1,
+      "explanation": "In negative sentences use 'any': 'I don't eat any meat.'"
+    },
+    {
+      "type": "quiz",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She drink water every day.",
+        "She drinks water every day.",
+        "She drinking water every day."
+      ],
+      "correctIndex": 1,
+      "explanation": "With 'she', add -s: 'She drinks water every day.'"
+    },
+    {
       "type": "paragraph",
-      "text": "</section>"
+      "text": "<div class=\"cosy-journey-link\"><p>💌 <strong>Your COSY journey</strong></p><p>Ten verbs, ten pages: you can now talk about yourself, your life and your day in English. Compare them with other languages next.</p><p><a href=\"#page-10\">← Back to CAN 💪</a> &nbsp; <a href=\"#page-12\">Next: compare across languages 🌍 →</a></p></div></section>"
     },
     {
       "type": "paragraph",
