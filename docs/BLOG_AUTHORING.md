@@ -234,3 +234,18 @@ Podcast metadata is optional. The RSS generator includes a post only when its `p
 ## Newsstand languages
 
 The home page shows cards in **English, French, Italian, Russian and Greek**, following the language selected in the site navigation. Articles with no version in that language show the original, tagged "Only in English".
+
+## Studio workflow: standalone articles, status and the paper edition
+
+- **Standalone articles** (blog posts that are not part of an issue) have no `issue`
+  and `contentType: "evergreen"`. In the Studio, untick "Part of a magazine".
+- **Status** (Editorial tab): idea, assigned, drafting, in-review, fact-checked,
+  approved, published. Only `published` is live; every earlier status keeps
+  `draft: true`.
+- **Fact-check ledger** is saved in `workflow.ledger`. An article that names a real
+  person (`workflow.featuresRealPerson`) cannot be published until
+  `consentOnFile` is `done`.
+- **Digital and paper**: each block can be digital only or paper only (`medium`).
+  Paper-only blocks are left out of the website.
+- **Paper planning**: use Start, "Plan an issue (pages)". Details and what is not
+  automated are in `docs/PRINT_SPEC.md`. Fields are in `SCHEMA.md`.

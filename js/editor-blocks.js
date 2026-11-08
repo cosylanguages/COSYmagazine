@@ -986,7 +986,7 @@
           level: 'A0–A1 / A2',
           issue: {
             number: 'Vol. 2026.12',
-            title: 'December Editorial Issue'
+            title: 'Winter Grammar & High Frequency Verbs'
           },
           date: date,
           title: '5 Common Saturday Mistakes Learners Make (and How to Fix Them)',
