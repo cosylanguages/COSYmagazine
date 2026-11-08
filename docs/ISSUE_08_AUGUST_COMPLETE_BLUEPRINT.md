@@ -50,7 +50,7 @@ The revised full-edition plan is 31 pages. Keep the public preview to the cover,
 | 24 | Cinema Pick | One film/series recommendation related to the issue; current draft pick: *Dead Poets Society*, with a content note and discussion question. |
 | 25 | Monthly Vibes | Five song picks, one each in EN/FR/IT/EL/RU, one book recommendation, and a Book Lovers Day prompt. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
 | 26–29 | Culinary Salon | Opening menu plus five complete, checked recipes for EN, FR, IT, RU, and EL communities, with region/context, useful language, and conversation prompts. |
-| 30–31 | End-of-Issue Crossword & Puzzle | Thematic crossword and puzzle with answer key/colophon; validate clues, translations, and solutions before release. |
+| 30–31 | End-of-Issue Crossword & Puzzle | Full-page thematic crossword spread occupying an entire A4 page with enlarged cells, connecting words extracted directly from Issue 08 (`BELONG`, `SPEAKING`, `TRAUMA`, `CURIOSITY`, `SYRNIKI`, `NEUROPLASTICITY`), followed by answer key/colophon on page 31. |
 
 ## Interview Question Bank
 
