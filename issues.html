@@ -353,21 +353,45 @@
     }
 
     .roster-puzzle-box {
-      margin-top: 0.5rem;
-      padding: 0.6rem 0.8rem;
-      border-radius: 8px;
+      margin-top: 0.85rem;
+      padding: 1rem 1.15rem;
+      border-radius: 12px;
       background: var(--surface);
-      border: 1px dashed var(--border);
-      font-size: 0.76rem;
+      border: 1.5px dashed var(--border);
+      font-size: 0.82rem;
       color: var(--ink);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+    }
+    .roster-puzzle-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(15, 110, 86, 0.12);
+      color: #0F6E56;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+    .roster-puzzle-note {
+      font-size: 0.74rem;
+      color: var(--muted);
+      margin: 0.35rem 0 0.5rem;
+      line-height: 1.4;
     }
     .roster-puzzle-clues {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0.5rem;
-      margin-top: 0.4rem;
-      font-size: 0.72rem;
-      color: var(--muted);
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    .roster-puzzle-clues strong {
+      color: #993C1D;
     }
     .roster-contest-card {
       margin-top: 0.5rem;
@@ -594,11 +618,11 @@
         <!-- 19. Thematic Crossword & Word Puzzle -->
         <div class="blueprint-card">
           <div>
-            <span class="bp-badge">19 • Interactive Puzzle</span>
-            <h3 class="bp-title">Thematic Crossword &amp; Word Puzzle 🧩</h3>
-            <p class="bp-desc">End-of-issue playful consolidation: a thematic crossword puzzle weaving together vocabulary, idioms, grammar concepts, and cultural trivia introduced throughout the issue.</p>
+            <span class="bp-badge">19 • Full-Page Puzzle Spread</span>
+            <h3 class="bp-title">Full-Page Thematic Crossword 🧩</h3>
+            <p class="bp-desc">End-of-issue playful consolidation: occupying an entire full page in print/PDF editions so it is bigger and legible, with interconnected vocabulary and idioms extracted directly from the issue's articles.</p>
           </div>
-          <div class="bp-meta"><span>Interactive Grid</span><span>Lexical Consolidation</span></div>
+          <div class="bp-meta"><span>Full-Page Spread</span><span>Direct Issue Extraction</span></div>
         </div>
       </div>
     </section>
@@ -747,10 +771,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 08 Thematic Crossword: "Beginnings &amp; Play"</strong>
+              <strong>🧩 Issue 08 Full-Page Crossword: "Beginnings &amp; Play"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Occupies a dedicated full page in the digital flipbook &amp; Supabase PDF edition with enlarged grid cells and vocabulary extracted directly from Issue 08 articles:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Rote memorization enemy (6) · 4. Fresh notebook feeling (8)</div>
-                <div><strong>Down:</strong> 2. Opening your mouth from lesson one (8) · 3. Brain rewiring ability (14)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>BELONG</em> — Word of the Issue: feeling accepted in a new classroom group (6)<br>
+                  4. <em>TRAUMA</em> — School memory interview: unlearning past classroom anxiety (6)<br>
+                  6. <em>SYRNIKI</em> — Golden curd pancakes from our Culinary Salon (7)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>SPEAKING</em> — Founder's Dispatch: opening your mouth from lesson one (8)<br>
+                  3. <em>NEUROPLASTICITY</em> — Cosyscience expander: adult brain rewiring (15)<br>
+                  5. <em>CURIOSITY</em> — Einstein's quote: being passionately inquisitive (9)
+                </div>
               </div>
             </div>
           </div>
@@ -886,10 +922,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 09 Thematic Crossword: "The Nuance Breakthrough"</strong>
+              <strong>🧩 Issue 09 Full-Page Crossword: "The Nuance Breakthrough"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Full-page printable puzzle in the PDF archive consolidating B1–B2 vocabulary and phrases extracted directly from Issue 09 features:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Beyond 'very tired' (9) · 3. Discourse marker of contrast (8)</div>
-                <div><strong>Down:</strong> 2. Sticking at B1 without giving up (11) · 4. French cooking reduction (6)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>PLATEAU</em> — The intermediate fog where beginner momentum slows (7)<br>
+                  3. <em>EXHAUSTED</em> — Words Desk upgrade replacing repetitive 'very tired' (9)<br>
+                  5. <em>DISCOURSE</em> — Comparative grammar: markers that shape conversational nuance (9)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>PERSISTENCE</em> — Quote Café: Beckett's mantra to fail better (11)<br>
+                  4. <em>BOURGUIGNON</em> — French Culinary Salon: classic slow-braised pinot beef (11)<br>
+                  6. <em>SYNONYM</em> — Narrative Ledger: escaping the grey world of 20 words (7)
+                </div>
               </div>
             </div>
           </div>
@@ -1029,10 +1077,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 10 Thematic Crossword: "Quirks &amp; Tangents"</strong>
+              <strong>🧩 Issue 10 Full-Page Crossword: "Quirks &amp; Tangents"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Large full-page grid spread exploring spoken improvisation and founder quirks extracted from Issue 10 articles:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Unscripted funny conversational detour (7) · 3. James's favourite cake (9)</div>
-                <div><strong>Down:</strong> 2. Vocal filler in Italian (4) · 4. Staying hungry and staying ... (7)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>TANGENT</em> — Unscripted detour where authentic conversation begins (7)<br>
+                  4. <em>MEDOVIK</em> — Russian honey cake from the birthday celebration bakes (7)<br>
+                  6. <em>INVERSION</em> — Top 5 Grammar Rules: dramatic sentence structure for flair (9)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>OFFSCRIPT</em> — Editorial Dispatch: the neuroscience of speech panic &amp; recovery (9)<br>
+                  3. <em>DOPAMINE</em> — Science feature: neurochemical released by playful laughter (8)<br>
+                  5. <em>FOOLISH</em> — Steve Jobs quote: staying hungry and staying ... (7)
+                </div>
               </div>
             </div>
           </div>
@@ -1169,10 +1229,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 11 Thematic Crossword: "The Brain &amp; The Library"</strong>
+              <strong>🧩 Issue 11 Full-Page Crossword: "The Brain &amp; The Library"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Enlarged full-page academic and cognitive puzzle extracted directly from Issue 11 texts &amp; research investigations:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Brain's rewiring superpower (14) · 3. The hypothesis of linguistic relativity (11)</div>
-                <div><strong>Down:</strong> 2. Stephen Krashen's emotional ... (6) · 4. Greek white bean national soup (8)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>PLASTICITY</em> — Neurogenesis and neural pathway adaptation under practice (10)<br>
+                  4. <em>RELATIVITY</em> — Wonder Column: Sapir-Whorf linguistic shaping of thought (10)<br>
+                  6. <em>TIMELINE</em> — Grammar Made Cosy: visual spatialization of verb aspect (8)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>ATTENTION</em> — Feynman quote Café: the currency required for knowledge (9)<br>
+                  3. <em>FASOLADA</em> — Nourishing Greek comfort soup from the Culinary Salon (8)<br>
+                  5. <em>FILTER</em> — Mind Matters: Krashen's affective barrier in language learning (6)
+                </div>
               </div>
             </div>
           </div>
@@ -1309,10 +1381,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 12 Thematic Crossword: "Solstice &amp; Particles"</strong>
+              <strong>🧩 Issue 12 Full-Page Crossword: "Solstice &amp; Particles"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Full-page seasonal spread exploring phrasal particle logic and hearthside living extracted from Issue 12 articles:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Upward particle meaning completion (2) · 3. Shortest daylight day (8)</div>
-                <div><strong>Down:</strong> 2. Stative perception verb (4) · 4. Northern Italian cornmeal comfort dish (7)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>PARTICLE</em> — Editorial Dispatch: spatial direction markers (up, down, out, off) (8)<br>
+                  4. <em>SOLSTICE</em> — Cultural Salon: the astronomical turning point of winter light (8)<br>
+                  6. <em>POLENTA</em> — Italian hearthside bake: creamy cornmeal with fontina (7)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>REPETITION</em> — Founder Interview: the quiet winter rhythm of habit consolidation (10)<br>
+                  3. <em>STATIVE</em> — Grammar Made Cosy: verbs describing inner sensory states (7)<br>
+                  5. <em>SILENCE</em> — Narrative Ledger: acoustics and presence in winter stillness (7)
+                </div>
               </div>
             </div>
           </div>
@@ -1449,10 +1533,22 @@
             </div>
             <!-- Thematic Crossword -->
             <div class="roster-puzzle-box">
-              <strong>🧩 Issue 02 Thematic Crossword: "Romance &amp; Vulnerability"</strong>
+              <strong>🧩 Issue 02 Full-Page Crossword: "Romance &amp; Vulnerability"</strong>
+              <span class="roster-puzzle-badge">Full A4 Page Spread</span>
+              <p class="roster-puzzle-note">Spacious full-page finale in the Valentine edition with relationship and negotiation terms extracted from Issue 02:</p>
               <div class="roster-puzzle-clues">
-                <div><strong>Across:</strong> 1. Spanish phrase for affection (7) · 3. Mood of desire and wish (11)</div>
-                <div><strong>Down:</strong> 2. Bonding neurochemical (8) · 4. French wine stew with chicken (8)</div>
+                <div>
+                  <strong>Across:</strong><br>
+                  1. <em>AFFECTION</em> — Editorial Dispatch: the nuanced spectrum of human tenderness (9)<br>
+                  4. <em>SUBJUNCTIVE</em> — Grammar Made Cosy: expressing wishes, hopes, and emotions (11)<br>
+                  6. <em>PASTITSIO</em> — Greek romantic supper: baked spiced beef &amp; velvet béchamel (9)
+                </div>
+                <div>
+                  <strong>Down:</strong><br>
+                  2. <em>OXYTOCIN</em> — Science Expander: vocal prosody and bonding neuropeptides (8)<br>
+                  3. <em>CANDOR</em> — Narrative Ledger: shedding polite evasion for honest truth (6)<br>
+                  5. <em>ACCEPTANCE</em> — Dostoevsky Quote: seeing someone as God intended them (10)
+                </div>
               </div>
             </div>
           </div>

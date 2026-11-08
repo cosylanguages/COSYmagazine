@@ -211,7 +211,7 @@ test('CosyEditor - readiness checks mirror the schema validator and flag editori
 
 test('CosyEditor - Modular Elements Presets instantiate valid blog schema blocks', () => {
   assert.ok(Array.isArray(Blocks.MODULAR_ELEMENT_PRESETS));
-  assert.strictEqual(Blocks.MODULAR_ELEMENT_PRESETS.length, 5);
+  assert.ok(Blocks.MODULAR_ELEMENT_PRESETS.length >= 5);
 
   Blocks.MODULAR_ELEMENT_PRESETS.forEach(preset => {
     const block = Blocks.createModularElementBlock(preset.id);

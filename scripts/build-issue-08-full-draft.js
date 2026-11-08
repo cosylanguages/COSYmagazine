@@ -189,8 +189,19 @@ blockquote{border-left:3px solid var(--gold);background:rgba(253,248,236,.8);pad
 .verb-guide-page .gazette-drop-cap::first-letter{float:left;font:900 2.5em/.8 Fraunces,Georgia,serif;color:var(--teal);padding-right:1mm}
 .verb-guide-page mark.example-chip{background:#fff0c4;padding:0 1mm}
 .verb-guide-page .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.crossword-grid{border-collapse:collapse;margin:5mm auto}
-.crossword-grid td{width:13mm;height:13mm;border:1px solid var(--teal);text-align:center;font-weight:700}
+.crossword-full-page{display:flex;flex-direction:column;height:calc(100% - 24mm);box-sizing:border-box}
+.crossword-intro{font-size:8.6pt;line-height:1.42;margin:0 0 3.5mm;color:var(--muted)}
+.crossword-board-wrap{background:#fff;border:1.5px solid var(--teal);border-radius:3mm;padding:3.5mm;margin:0 auto 4mm;box-shadow:0 1mm 4mm rgba(0,0,0,.04);width:fit-content}
+.crossword-grid{border-collapse:collapse;margin:0 auto}
+.crossword-grid td{width:9.2mm;height:9.2mm;border:1px solid rgba(31,93,88,.3);text-align:center;font-weight:700;font-size:8.8pt;position:relative;vertical-align:middle;box-sizing:border-box}
+.crossword-grid td.cell-blank{background:#172a2a;border-color:#172a2a}
+.crossword-grid td.cell-letter{background:#fff;border:1.2px solid var(--teal)}
+.crossword-grid td .cell-num{position:absolute;top:0.4mm;left:0.6mm;font-size:4.8pt;line-height:1;font-weight:700;color:var(--rust);font-family:Arial,sans-serif}
+.crossword-clues-spread{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-top:auto;padding-top:2.5mm;border-top:1.5px dashed var(--line)}
+.crossword-clues-col h3{font-size:10.5pt;margin:0 0 2mm;color:var(--rust);text-transform:uppercase;letter-spacing:.08em}
+.crossword-clue-item{font-size:7.4pt;line-height:1.32;margin-bottom:2mm}
+.crossword-clue-item strong{color:var(--teal)}
+.crossword-clue-item em{color:var(--muted)}
 .answer-list li{margin-bottom:3mm}
 .draft-cover-note{font-size:7.5pt;font-weight:700;color:var(--rust);letter-spacing:.1em}
 </style>`;
@@ -441,18 +452,283 @@ async function main() {
   pages.push(reframePage(sections[20], 28, 'Culinary Salon · France & Italy', 'Quiche and pasta · French / Italian', null));
   pages.push(reframePage(sections[21], 29, 'Culinary Salon · Russia & Greece', 'Syrniki and spanakopita · Russian / Greek', null));
 
-  pages.push(newPage(30, 'End-of-Issue Crossword & Puzzle · 1 of 2', 'A four-word word square', 'Find the shared language of a new beginning', `
-  <p>Fill each row with a four-letter answer. The same four words should also read down the columns, so check every crossing.</p>
-  <table class="crossword-grid" aria-label="Blank four by four word-square grid"><tbody>
-    <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-    <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-  </tbody></table>
-  <h3>Across and down</h3>
-  <ol class="answer-list"><li>Thinking and understanding.</li><li>A thought or plan.</li><li>Tidy and in good order.</li><li>Facts collected for study.</li></ol>
-  <h3>Sentence puzzle</h3><p>Put these words in order to make a useful first-day sentence: <strong>again / can / I / begin</strong>.</p>
-  <p class="small">Answer key on the next page. All clues use common English words; adapt the activity with a teacher for another language.</p>`, 'Puzzle · Try the crossings'));
+  pages.push(newPage(30, 'End-of-Issue Crossword & Puzzle · 1 of 2', 'Thematic Crossword Spread', 'The Vocabulary of New Beginnings', `
+  <div class="crossword-full-page">
+    <p class="crossword-intro">Fill the full-page grid using vocabulary and concepts extracted directly from this issue. Every crossing connects an editorial insight, a grammatical distinction, or a culinary tradition.</p>
+    <div class="crossword-board-wrap">
+      <table class="crossword-grid" aria-label="Full-page August 2026 thematic crossword grid"><tbody>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"><span class="cell-num">2</span></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"><span class="cell-num">3</span></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-letter"><span class="cell-num">1</span></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"><span class="cell-num">4</span></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"><span class="cell-num">5</span></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-letter"><span class="cell-num">6</span></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+        <tr>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-letter"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+          <td class="cell-blank"></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <div class="crossword-clues-spread">
+      <div class="crossword-clues-col">
+        <h3>Across</h3>
+        <div class="crossword-clue-item"><strong>1.</strong> Word of the Issue (p. 13): To feel accepted or part of a learning community. <em>(6 letters)</em></div>
+        <div class="crossword-clue-item"><strong>4.</strong> In Conversation (p. 9): The childhood classroom experience adult learners must gently unlearn. <em>(6 letters)</em></div>
+        <div class="crossword-clue-item"><strong>6.</strong> Culinary Salon (p. 26 &amp; 29): Traditional golden Russian cottage cheese pancakes. <em>(7 letters)</em></div>
+      </div>
+      <div class="crossword-clues-col">
+        <h3>Down</h3>
+        <div class="crossword-clue-item"><strong>2.</strong> Founder's Dispatch (p. 3): The communicative imperative to produce speech from lesson one. <em>(8 letters)</em></div>
+        <div class="crossword-clue-item"><strong>3.</strong> Science &amp; Cognition (p. 15): The brain's lifelong adaptive capacity to forge new neural pathways. <em>(15 letters)</em></div>
+        <div class="crossword-clue-item"><strong>5.</strong> Philosophy Café (p. 23): Einstein's spark: “I am only passionately ...”. <em>(9 letters)</em></div>
+      </div>
+    </div>
+  </div>`, 'Crossword Spread · Thematic Vocabulary'));
 
   pages.push(reframePage(sections[23], 31, 'End-of-Issue Crossword & Puzzle · 2 of 2', 'Last word · September preview', 'Answer key, last word, and next issue'));
   const lastIndex = pages.length - 1;
@@ -460,17 +736,12 @@ async function main() {
   const lastPageBody = `
   <p class="kicker">Answer key, last word, and next issue</p>
   <h2>Curiosity takes practice, too</h2>
-  <p><strong>Word square:</strong> Across and down: MIND, IDEA, NEAT, DATA.</p>
-  <table class="crossword-grid" aria-label="Solved four by four word square"><tbody>
-    <tr><td>M</td><td>I</td><td>N</td><td>D</td></tr>
-    <tr><td>I</td><td>D</td><td>E</td><td>A</td></tr>
-    <tr><td>N</td><td>E</td><td>A</td><td>T</td></tr>
-    <tr><td>D</td><td>A</td><td>T</td><td>A</td></tr>
-  </tbody></table>
-  <p><strong>Sentence puzzle:</strong> “I can begin again.”</p>
+  <p><strong>Thematic Crossword Solutions (Issue 08):</strong></p>
+  <p><strong>Across:</strong> 1. BELONG · 4. TRAUMA · 6. SYRNIKI<br>
+  <strong>Down:</strong> 2. SPEAKING · 3. NEUROPLASTICITY · 5. CURIOSITY</p>
   <blockquote>A beginning can be small, chosen, and entirely your own.</blockquote>
   <p>The next issue turns to persistence, visible progress, and the intermediate plateau. Bring one question you are still curious about.</p>
-  <p class="small">COSYmagazine · Vol. 2026.08 · English edition · Editorial draft. Puzzle checked in both directions.</p>`;
+  <p class="small">COSYmagazine · Vol. 2026.08 · English edition · Full-Page Editorial Crossword. Solutions verified across the issue.</p>`;
   pages[lastIndex] = pages[lastIndex].replace(/<div class="mast">[\s\S]*?<div class="folio">[\s\S]*?<\/div>/, `<div class="mast"><span>End-of-Issue Crossword &amp; Puzzle · 2 of 2</span><span>31</span></div>${lastPageBody}${lastFolio}`);
 
   const fullGuidePages = [];

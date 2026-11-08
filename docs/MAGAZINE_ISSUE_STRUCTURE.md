@@ -19,7 +19,7 @@ Use the broad rhythm of an editorial magazine without copying another publicatio
 9. Science & Cognition, framed as a research question or evidence-based feature, never as an unsupported promise.
 10. Stories & Voices: founder reflections, *Mind Matters*, consented reader work, and *My Life With & Without* when each serves the issue's theme.
 11. Living & Salon: *If You Were*, *Grammar Made Cosy*, Philosophy Café, one film/series pick, a short soundtrack with one song per target language, one book recommendation, and Culinary Salon.
-12. A thematic crossword or puzzle, last word, and next-issue preview.
+12. A thematic crossword or puzzle occupying an entire full-page spread in PDF and print editions (enlarged for legibility and comfortable solving), with clues and answers connected to the core issue theme and vocabulary extracted directly from the actual issue's articles, followed by the last word and next-issue preview.
 
 The founder is the host in all interviews. Each community spotlight has one real guest, either a learner or a teacher. Do not invent testimonials or publish identifying stories without consent.
 
@@ -34,6 +34,7 @@ The founder is the host in all interviews. Each community spotlight has one real
 - Do not invent founder memories, learner/teacher testimonials, or contest winners. Obtain consent and verify every reader submission before publication.
 - Verify quotations, cultural-calendar dates, film details, and research claims before print; do not reproduce song lyrics or other protected text without permission.
 - The three Words & Creativity formats are mutually exclusive within an issue. August 2026 features *Stop Translating* only; confirm that proposed sub-pillars do not turn into separate *Go Creative* or *Go Diverse* articles.
+- The end-of-issue crossword occupies an entire full-page spread in all PDF editions planned for Supabase storage. Cells must be large and legible, and clues must test authentic words extracted directly from the issue's articles (manifestos, idioms, recipes, grammar aspect, quotes, science findings).
 - Sprinkle brief, optional practice through the issue: a Word of the Issue, one or two idioms, and prompts to finish a thought, start from a given ending, or fill sentence gaps. Allow fictional responses for personal topics.
 - Keep culture recommendations concise and useful: one film/series, one song in each target language, and one book. Verify metadata, context, age suitability, availability, and rights; do not print song lyrics.
 

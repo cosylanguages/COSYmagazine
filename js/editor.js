@@ -1958,6 +1958,12 @@
       else delete block.medium;
     } else if (field === 'level') {
       block.level = parseInt(value, 10) || 2;
+    } else if (field === 'table-headers') {
+      block.headers = value.split(',').map(s => s.trim()).filter(Boolean);
+    } else if (field === 'table-rows-tsv') {
+      block.rows = value.split('\n')
+        .map(line => line.split('\t').map(cell => cell.trim()))
+        .filter(r => r.some(c => c.length > 0));
     } else {
       block[field] = value;
     }
@@ -2176,6 +2182,35 @@
         `;
       }
 
+      case 'table': {
+        const isCrossword = (block.caption || '').toLowerCase().includes('crossword') || (block.caption || '').toLowerCase().includes('puzzle');
+        const rowsTsv = (block.rows || []).map(r => r.join('\t')).join('\n');
+        return `
+          <div class="form-row">
+            <div class="form-group">
+              <label>Caption / Title</label>
+              <input type="text" class="form-control" data-field="caption" value="${escapeHtml(block.caption || '')}">
+            </div>
+            <div class="form-group fg-sm">
+              <label>Paper printable</label>
+              <select class="form-control" data-field="printable">
+                <option value="true" ${block.printable ? 'selected' : ''}>Yes</option>
+                <option value="false" ${!block.printable ? 'selected' : ''}>No</option>
+              </select>
+            </div>
+          </div>
+          ${isCrossword ? `<div class="draft-note" style="margin:2px 0 8px;padding:6px 10px;font-size:0.75rem;background:rgba(15,110,86,0.06);border-left:3px solid #0f6e56;"><strong>🧩 Crossword Mode Active:</strong> Live adaptive crossword grid renders automatically in preview below. Clues format: <code>Direction &lt;tab&gt; Number &lt;tab&gt; Clue &lt;tab&gt; Length / Word</code></div>` : ''}
+          <div class="form-group">
+            <label>Column headers (comma separated)</label>
+            <input type="text" class="form-control" data-field="table-headers" value="${escapeHtml((block.headers || []).join(', '))}">
+          </div>
+          <div class="form-group">
+            <label>Table rows (one row per line, columns separated by Tab)</label>
+            <textarea class="form-control" data-field="table-rows-tsv" rows="6" style="font-family:monospace;font-size:0.82rem;white-space:pre;">${escapeHtml(rowsTsv)}</textarea>
+          </div>
+        `;
+      }
+
       default:
         return `<p class="block-note">This block type has no form yet. Edit it in the exported JSON.</p>`;
     }
@@ -2325,6 +2360,78 @@
     `;
   }
 
+  /**
+   * Adaptive Crossword Live Grid Renderer
+   * Automatically adapts cell size, numbering, and dimensions based on clue entries.
+   */
+  function renderAdaptiveCrosswordGrid(block) {
+    const clues = (block.rows || []).map(r => {
+      const dir = (r[0] || '').trim().toLowerCase();
+      const num = parseInt(r[1], 10) || 1;
+      const text = r[2] || '';
+      const lenStr = r[3] || '';
+      let word = '';
+      const mWord = text.match(/^([A-Z]{2,})\b/);
+      if (mWord) {
+        word = mWord[1];
+      } else {
+        const mLen = lenStr.match(/(\d+)\s*letters/i);
+        const count = mLen ? parseInt(mLen[1], 10) : 6;
+        word = ' '.repeat(count);
+      }
+      return { dir, num, text, length: word.length, word };
+    });
+
+    const acrossClues = clues.filter(c => c.dir === 'across');
+    const downClues = clues.filter(c => c.dir === 'down');
+    const maxLen = Math.max(...clues.map(c => c.length), 6);
+    const cols = Math.min(15, Math.max(8, maxLen + 1));
+    const rows = Math.min(15, Math.max(7, Math.max(acrossClues.length * 2, downClues.length * 2)));
+
+    // Generate responsive HTML grid table with numbered coordinates
+    let gridRowsHtml = '';
+    for (let r = 0; r < rows; r++) {
+      let cells = '';
+      for (let c = 0; c < cols; c++) {
+        // Place numbered entries adaptively
+        let isLetter = false;
+        let cellNum = '';
+
+        acrossClues.forEach((ac, idx) => {
+          const rowPos = idx * 2 + 1;
+          if (r === rowPos && c >= 1 && c < 1 + ac.length) {
+            isLetter = true;
+            if (c === 1) cellNum = ac.num;
+          }
+        });
+
+        downClues.forEach((dc, idx) => {
+          const colPos = idx * 2 + 2;
+          if (c === colPos && r >= 0 && r < dc.length) {
+            isLetter = true;
+            if (r === 0) cellNum = dc.num;
+          }
+        });
+
+        if (isLetter) {
+          cells += `<td class="cell-letter" style="background:#fff;border:1.5px solid var(--teal, #1f5d58);width:26px;height:26px;text-align:center;position:relative;font-weight:700;font-size:10px;">${cellNum ? `<span style="position:absolute;top:1px;left:2px;font-size:7px;line-height:1;color:#993c1d;font-family:sans-serif;">${cellNum}</span>` : ''}&nbsp;</td>`;
+        } else {
+          cells += `<td class="cell-blank" style="background:#172a2a;border:1px solid #172a2a;width:26px;height:26px;"></td>`;
+        }
+      }
+      gridRowsHtml += `<tr>${cells}</tr>`;
+    }
+
+    return `
+      <div class="studio-crossword-interactive-wrap" style="background:#fff;border:1.5px solid var(--teal,#1f5d58);border-radius:10px;padding:12px;margin:0 auto 16px;max-width:fit-content;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+        <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0f6e56;margin-bottom:8px;text-align:center;">🧩 Live Adaptive Crossword Grid (${cols}×${rows})</div>
+        <table class="crossword-grid" style="border-collapse:collapse;margin:0 auto;">
+          <tbody>${gridRowsHtml}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
   function renderPreviewBlock(block, index, state) {
     if (!block) return '';
     const idxAttr = `data-preview-index="${index}"`;
@@ -2433,10 +2540,18 @@
         `;
       }
       case 'table': {
+        const isCrossword = (block.caption || '').toLowerCase().includes('crossword') || (block.caption || '').toLowerCase().includes('puzzle');
         const th = (block.headers || []).map(h => `<th>${formatMarkdown(h)}</th>`).join('');
         const tr = (block.rows || []).map(r => `<tr>${r.map(c => `<td>${formatMarkdown(c)}</td>`).join('')}</tr>`).join('');
+
+        let crosswordGridHtml = '';
+        if (isCrossword && Array.isArray(block.rows) && block.rows.length > 0) {
+          crosswordGridHtml = renderAdaptiveCrosswordGrid(block);
+        }
+
         return `
           <div ${idxAttr} class="table-responsive-container">
+            ${crosswordGridHtml}
             <table class="gazette-editorial-table">
               <thead><tr>${th}</tr></thead>
               <tbody>${tr}</tbody>

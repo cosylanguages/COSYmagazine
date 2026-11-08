@@ -874,46 +874,100 @@
       name: '19 • Thematic Crossword & Puzzle',
       desk: 'Cosy Events',
       format: 'quiz',
-      kicker: 'THEMATIC CROSSWORD',
-      description: 'End-of-issue playful consolidation of vocabulary, idioms, and trivia.',
-      createBlocks: () => [
-        {
-          type: 'paragraph',
-          text: 'Consolidate the vocabulary, idioms, and grammatical discoveries from this issue with our thematic word puzzle.',
-          say: 'Test your retention with our end-of-issue thematic word puzzle.'
-        },
-        {
-          type: 'heading',
-          level: 2,
-          text: 'Issue Puzzle Challenge',
-          say: 'Here are the crossword clues for this edition.'
-        },
-        {
-          type: 'table',
-          caption: 'Thematic Crossword Clues',
-          printable: true,
-          headers: ['Direction', 'Number', 'Clue', 'Length'],
-          rows: [
-            ['Across', '1', 'Enemy of authentic conversational speech', '6 letters (ROTE)'],
-            ['Across', '4', 'The feeling of starting a fresh journal', '8 letters (BEGINNING)'],
-            ['Down', '2', 'Opening one’s mouth from day one', '8 letters (SPEAKING)'],
-            ['Down', '3', 'Brain ability to build new neural pathways', '14 letters (NEUROPLASTICITY)']
+      kicker: 'FULL-PAGE THEMATIC CROSSWORD',
+      description: 'End-of-issue playful consolidation occupying a full page in PDF/print with words extracted directly from the issue.',
+      createBlocks: (ctx) => {
+        const issueNum = ctx && ctx.issueNumber ? ctx.issueNumber : 'Vol. 2026.08';
+        const issueTitle = ctx && ctx.issueTitle ? ctx.issueTitle : 'Get Ready for School';
+
+        // Issue-specific extracted vocabulary sets
+        const ISSUE_CROSSWORD_VOCAB = {
+          'Vol. 2026.08': [
+            ['Across', '1', 'BELONG — Word of the Issue: to feel accepted in a new classroom community', '6 letters'],
+            ['Across', '4', 'TRAUMA — School memory interview: unlearning past classroom anxiety', '6 letters'],
+            ['Across', '6', 'SYRNIKI — Golden curd pancakes from our Slavic Culinary Salon', '7 letters'],
+            ['Down', '2', 'SPEAKING — Founder Dispatch: producing speech from minute one', '8 letters'],
+            ['Down', '3', 'NEUROPLASTICITY — Cosyscience expander: adult brain rewiring capability', '15 letters'],
+            ['Down', '5', 'CURIOSITY — Einstein quote: being passionately inquisitive beats perfection', '9 letters']
           ],
-          say: 'Check the across and down clues.'
-        },
-        {
-          type: 'quiz',
-          question: 'What is the master philosophy behind COSYmagazine?',
-          options: [
-            'Speaking-First from lesson one',
-            'Waiting until grammar is 100% perfect',
-            'Rote memorization of bilingual flashcards'
+          'Vol. 2026.09': [
+            ['Across', '1', 'PLATEAU — The intermediate fog where effortless beginner gains turn into craftsmanship', '7 letters'],
+            ['Across', '3', 'EXHAUSTED — Words Desk phrase upgrade replacing repetitive "very tired"', '9 letters'],
+            ['Across', '5', 'DISCOURSE — Comparative grammar: markers that shape conversational nuance', '9 letters'],
+            ['Down', '2', 'PERSISTENCE — Quote Café: Beckett\'s mantra to fail better', '11 letters'],
+            ['Down', '4', 'BOURGUIGNON — French Culinary Salon: slow-braised pinot reduction stew', '11 letters'],
+            ['Down', '6', 'SYNONYM — Narrative Ledger: contrasting a grey world of 20 words against vivid vocabulary', '7 letters']
           ],
-          correctIndex: 0,
-          explanation: 'Speaking-first anchors genuine human connection before perfection.',
-          say: 'Confirm your understanding with this final quiz.'
-        }
-      ]
+          'Vol. 2026.10': [
+            ['Across', '1', 'TANGENT — Unscripted detour where authentic laughter and connection spark', '7 letters'],
+            ['Across', '4', 'MEDOVIK — Russian layered honey cake from the birthday celebration bakes', '7 letters'],
+            ['Across', '6', 'INVERSION — Top 5 Grammar Rules: dramatic sentence structure for expressive flair', '9 letters'],
+            ['Down', '2', 'OFFSCRIPT — Editorial Dispatch: navigating speech panic when conversations wander', '9 letters'],
+            ['Down', '3', 'DOPAMINE — Science feature: neuropeptide released by humorous conversational play', '8 letters'],
+            ['Down', '5', 'FOOLISH — Steve Jobs quote: staying hungry and staying ...', '7 letters']
+          ],
+          'Vol. 2026.11': [
+            ['Across', '1', 'PLASTICITY — Adult synaptic adaptability and structural connectivity', '10 letters'],
+            ['Across', '4', 'RELATIVITY — Wonder Column: Sapir-Whorf linguistic shaping of thought', '10 letters'],
+            ['Across', '6', 'TIMELINE — Grammar Made Cosy: spatial visualization of verb aspect', '8 letters'],
+            ['Down', '2', 'ATTENTION — Feynman Quote Café: the currency required for deep knowledge', '9 letters'],
+            ['Down', '3', 'FASOLADA — Nourishing Greek comfort soup from the Culinary Salon', '8 letters'],
+            ['Down', '5', 'FILTER — Mind Matters: Krashen\'s emotional barrier in language acquisition', '6 letters']
+          ],
+          'Vol. 2026.12': [
+            ['Across', '1', 'PARTICLE — Editorial Dispatch: directional compass markers (up, down, out, off)', '8 letters'],
+            ['Across', '4', 'SOLSTICE — Cultural Salon: the astronomical turning point of winter light', '8 letters'],
+            ['Across', '6', 'POLENTA — Italian hearthside comfort bake with fontina cheese', '7 letters'],
+            ['Down', '2', 'REPETITION — Founder Interview: the quiet winter rhythm of habit consolidation', '10 letters'],
+            ['Down', '3', 'STATIVE — Grammar Made Cosy: verbs describing inner sensory states', '7 letters'],
+            ['Down', '5', 'SILENCE — Narrative Ledger: acoustics and presence in winter stillness', '7 letters']
+          ],
+          'Vol. 2027.02': [
+            ['Across', '1', 'AFFECTION — Editorial Dispatch: the nuanced spectrum of human tenderness', '9 letters'],
+            ['Across', '4', 'SUBJUNCTIVE — Grammar Made Cosy: expressing wishes, desires, and emotional stance', '11 letters'],
+            ['Across', '6', 'PASTITSIO — Greek romantic supper: baked spiced beef & velvet béchamel', '9 letters'],
+            ['Down', '2', 'OXYTOCIN — Science Expander: vocal prosody and bonding neuropeptides', '8 letters'],
+            ['Down', '3', 'CANDOR — Narrative Ledger: shedding polite evasion for honest emotional truth', '6 letters'],
+            ['Down', '5', 'ACCEPTANCE — Dostoevsky Quote: seeing someone as God intended them', '10 letters']
+          ]
+        };
+
+        const rows = ISSUE_CROSSWORD_VOCAB[issueNum] || ISSUE_CROSSWORD_VOCAB['Vol. 2026.08'];
+
+        return [
+          {
+            type: 'paragraph',
+            text: `Consolidate the vocabulary, idioms, and grammatical discoveries from "${issueTitle}" (${issueNum}). In print and PDF editions, this crossword occupies a full, dedicated A4 page with enlarged cells for comfortable solving.`,
+            say: `Consolidate the vocabulary and grammatical discoveries from this edition with our full-page thematic crossword puzzle.`
+          },
+          {
+            type: 'heading',
+            level: 2,
+            text: `Full-Page Thematic Crossword: "${issueTitle}"`,
+            say: 'Here are the across and down clues extracted directly from the issue.'
+          },
+          {
+            type: 'table',
+            caption: `Thematic Crossword Clues — ${issueNum}`,
+            printable: true,
+            headers: ['Direction', 'Number', 'Clue & Issue Context', 'Length'],
+            rows: rows,
+            say: 'Review the crossword clues extracted from this edition.'
+          },
+          {
+            type: 'quiz',
+            question: `Which core philosophy connects every article in ${issueNum}?`,
+            options: [
+              'Speaking-First from lesson one',
+              'Waiting until grammar is 100% perfect',
+              'Rote memorization of bilingual flashcards'
+            ],
+            correctIndex: 0,
+            explanation: 'Speaking-first anchors genuine human connection before grammatical perfection.',
+            say: 'Confirm your understanding with this final quiz.'
+          }
+        ];
+      }
     }
   ];
 
@@ -1407,6 +1461,27 @@
           camera: 'focus'
         },
         say: 'When you step into a conversation, do not wait for the perfect sentence to form.'
+      })
+    },
+    {
+      id: 'thematic_crossword_preset',
+      label: 'Thematic Crossword',
+      icon: '🧩',
+      description: 'End-of-issue printable full-page crossword with adaptive clue grid',
+      create: () => ({
+        type: 'table',
+        caption: 'Thematic Crossword Clues',
+        printable: true,
+        headers: ['Direction', 'Number', 'Clue & Issue Context', 'Length'],
+        rows: [
+          ['Across', '1', 'BELONG — Word of the Issue: feeling accepted in a new community', '6 letters'],
+          ['Across', '4', 'TRAUMA — School memories: unlearning past classroom anxiety', '6 letters'],
+          ['Across', '6', 'SYRNIKI — Slavic Culinary Salon: golden curd breakfast pancakes', '7 letters'],
+          ['Down', '2', 'SPEAKING — Founder Dispatch: producing speech from lesson one', '8 letters'],
+          ['Down', '3', 'NEUROPLASTICITY — Cosyscience: adult brain rewiring capability', '15 letters'],
+          ['Down', '5', 'CURIOSITY — Einstein quote: passionately inquisitive beginner spirit', '9 letters']
+        ],
+        say: 'Review the crossword clues extracted from this edition.'
       })
     }
   ];
