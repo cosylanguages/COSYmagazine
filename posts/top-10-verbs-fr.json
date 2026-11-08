@@ -13,7 +13,7 @@
   "date": "2026-03-01",
   "title": "Les 10 verbes essentiels en français pour débutants (A0–A1 / A2)",
   "kicker": "GUIDE DU FRANÇAIS — PARTIE 1 SUR 2",
-  "dek": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, travailler/étudier/apprendre, aller/futur proche, pouvoir, manger/boire). Conjugaisons consultables sur COSYtools.",
+  "dek": "Apprenez les 10 premiers verbes fondamentaux en français (être, avoir, penser, savoir/connaître, aimer, vouloir/aimerait, travailler/étudier/apprendre, aller/futur proche, pouvoir, manger/boire). Conjugaisons consultables sur COSYtools. Avec mini-dialogues, exercices corrigés, la négation, les questions et la combinaison de deux verbes.",
   "tags": [
     "Verbs",
     "French",
@@ -50,8 +50,8 @@
     },
     {
       "type": "paragraph",
-      "text": "Cet article se lit <span class=\"doodle-circle\">à voix haute</span>. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Terminez par la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel.",
-      "say": "Cet article se lit à voix haute. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Terminez par la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel."
+      "text": "Cet article se lit <span class=\"doodle-circle\">à voix haute</span>. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Lisez ensuite la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Terminez par le mini-dialogue, à jouer à deux, et par la rubrique « À vous ! » : complétez les phrases avec votre propre vie. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel.",
+      "say": "Cet article se lit à voix haute. Pour chaque verbe, commencez par le tableau et dites les six formes sans regarder. Puis lisez les trois phrases de la rubrique « À voix haute », cachez-les, et répétez-les de mémoire en changeant un mot pour parler de votre propre vie. Lisez ensuite la carte d'erreur : elle vous montre la phrase que presque tous les débutants disent, et celle qu'il faut dire. Terminez par le mini-dialogue, à jouer à deux, et par la rubrique « À vous ! » : complétez les phrases avec votre propre vie. Parler d'abord, comprendre la règle ensuite : c'est plus rapide et plus naturel."
     },
     {
       "type": "paragraph",
@@ -177,6 +177,145 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Avant de commencer : quatre petits outils",
+      "say": "Avant de commencer : quatre petits outils"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces quatre outils reviennent dans chaque verbe. Quelques minutes ici vous feront gagner du temps ensuite.",
+      "say": "Ces quatre outils reviennent dans chaque verbe. Quelques minutes ici vous feront gagner du temps ensuite."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. Les pronoms sujets",
+      "say": "1. Les pronoms sujets"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pronom",
+        "Qui ?",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "Je",
+          "moi",
+          "Je suis James."
+        ],
+        [
+          "Tu",
+          "toi, un ami, un enfant",
+          "Tu es prêt ?"
+        ],
+        [
+          "Il",
+          "un homme, ou une chose (masculin)",
+          "Il est grand."
+        ],
+        [
+          "Elle",
+          "une femme, ou une chose (féminin)",
+          "Elle a un chat."
+        ],
+        [
+          "On",
+          "tout le monde ; à l'oral, souvent « nous »",
+          "On mange ensemble."
+        ],
+        [
+          "Nous",
+          "moi et d'autres personnes",
+          "Nous sommes amis."
+        ],
+        [
+          "Vous",
+          "plusieurs personnes, ou une seule par politesse",
+          "Vous êtes français ?"
+        ],
+        [
+          "Ils",
+          "un groupe (dès qu'il y a un garçon ou un homme)",
+          "Ils ont un chien."
+        ],
+        [
+          "Elles",
+          "un groupe de femmes seulement",
+          "Elles sont contentes."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Le modèle de base",
+      "say": "2. Le modèle de base"
+    },
+    {
+      "type": "paragraph",
+      "text": "En français, le sujet vient avant le verbe : **sujet + verbe + complément**. Je **suis** James. Elle **a** un chat. Gardez ce rythme : il sert pour presque toutes les phrases de cet article.",
+      "say": "En français, le sujet vient avant le verbe : sujet + verbe + complément. Je suis James. Elle a un chat. Gardez ce rythme : il sert pour presque toutes les phrases de cet article."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Deux signes : = et ≠",
+      "say": "3. Deux signes : = et ≠"
+    },
+    {
+      "type": "paragraph",
+      "text": "À l'oral, beaucoup de formes se prononcent de la même façon. Retenez deux signes : **=** (même son) et **≠** (le son change). Par exemple, tu es = il est = elle est. Avec les verbes en -er, je pense = tu penses = il pense = ils pensent : quatre écritures, un seul son. Seuls « nous pensons » et « vous pensez » changent à l'oreille. Moins de sons à retenir : c'est une bonne nouvelle pour votre prononciation.",
+      "say": "À l'oral, beaucoup de formes se prononcent de la même façon. Retenez deux signes : = (même son) et ≠ (le son change). Par exemple, tu es = il est = elle est. Avec les verbes en -er, je pense = tu penses = il pense = ils pensent : quatre écritures, un seul son. Seuls « nous pensons » et « vous pensez » changent à l'oreille. Moins de sons à retenir : c'est une bonne nouvelle pour votre prononciation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "4. Les trois groupes de verbes",
+      "say": "4. Les trois groupes de verbes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le groupe dépend de la fin de l'infinitif. Il vous dit si les terminaisons sont régulières ou à apprendre par cœur.",
+      "say": "Le groupe dépend de la fin de l'infinitif. Il vous dit si les terminaisons sont régulières ou à apprendre par cœur."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Groupe",
+        "Infinitif",
+        "Terminaisons au présent",
+        "Dans cet article"
+      ],
+      "rows": [
+        [
+          "1er groupe",
+          "-er (réguliers)",
+          "-e, -es, -e, -ons, -ez, -ent",
+          "penser, aimer, travailler, étudier, manger"
+        ],
+        [
+          "2e groupe",
+          "-ir, avec « nous -issons » (réguliers)",
+          "-is, -is, -it, -issons, -issez, -issent",
+          "aucun verbe (exemple : finir, nous finissons)"
+        ],
+        [
+          "3e groupe",
+          "tous les autres (irréguliers)",
+          "à apprendre par cœur",
+          "être, avoir, savoir, connaître, vouloir, pouvoir, apprendre, boire, aller"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Piège : **aller** se termine par -er, mais c'est un verbe du 3e groupe : je vais, tu vas, il va. Les verbes du 3e groupe sont les plus fréquents et les plus irréguliers. C'est pourquoi on les apprend d'abord, phrase par phrase.",
+      "say": "Piège : aller se termine par -er, mais c'est un verbe du 3e groupe : je vais, tu vas, il va. Les verbes du 3e groupe sont les plus fréquents et les plus irréguliers. C'est pourquoi on les apprend d'abord, phrase par phrase."
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Les 10 verbes fondamentaux (Partie 1)",
       "say": "Les 10 verbes fondamentaux (Partie 1)"
     },
@@ -244,6 +383,79 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Nationalité, ville, heure et date",
+      "say": "Nationalité, ville, heure et date"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Nationalité :** « Il est français. Elle est française. » (l'adjectif change au féminin).",
+        "**Pays et ville :** « Il est de France. » « Il est de Paris. »",
+        "**Heure :** « Il est huit heures du matin. » « Il est huit heures du soir. »",
+        "**Jour et date :** « Nous sommes lundi. » « Nous sommes le 5 mai. »"
+      ],
+      "say": "Nationalité : « Il est français. Elle est française. » (l'adjectif change au féminin). Pays et ville : « Il est de France. » « Il est de Paris. » Heure : « Il est huit heures du matin. » « Il est huit heures du soir. » Jour et date : « Nous sommes lundi. » « Nous sommes le 5 mai. »"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "C'est ou il / elle est ?",
+      "say": "C'est ou il / elle est ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regardez le mot qui suit le verbe : c'est lui qui décide.",
+      "say": "Regardez le mot qui suit le verbe : c'est lui qui décide."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Expression",
+        "Après le verbe",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "**C'est**",
+          "un / une / le / la + nom",
+          "C'est un médecin."
+        ],
+        [
+          "**C'est**",
+          "un nom propre",
+          "C'est Marie."
+        ],
+        [
+          "**C'est**",
+          "un adjectif, pour une chose ou une idée",
+          "C'est facile."
+        ],
+        [
+          "**Il / Elle est**",
+          "un métier, sans article",
+          "Il est médecin."
+        ],
+        [
+          "**Il / Elle est**",
+          "une nationalité",
+          "Elle est française."
+        ],
+        [
+          "**Il / Elle est**",
+          "un adjectif, pour une personne",
+          "Il est grand."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Attention : on ne dit pas « Il est un médecin ». On dit « C'est un médecin » ou « Il est médecin ».",
+      "say": "Attention : on ne dit pas « Il est un médecin ». On dit « C'est un médecin » ou « Il est médecin »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -290,6 +502,44 @@
         "turn": "À vous de jouer"
       },
       "say": "L'accord avec être. Pas tout à fait : « Marie est content. » Dites plutôt : « Marie est contente. » Dans beaucoup de langues, l'adjectif ne change pas. En français, après être, il s'accorde avec la personne dont on parle. Après être, l'adjectif prend le genre et le nombre du sujet : content → contente → contents → contentes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Marie :** Bonjour ! Je suis Marie. Et vous ?",
+        "**Paul :** Bonjour Marie. Je suis Paul. Je suis étudiant.",
+        "**Marie :** Vous êtes français ?",
+        "**Paul :** Oui, je suis français. Et vous ?",
+        "**Marie :** Moi, je suis canadienne."
+      ],
+      "say": "Marie : Bonjour ! Je suis Marie. Et vous ? Paul : Bonjour Marie. Je suis Paul. Je suis étudiant. Marie : Vous êtes français ? Paul : Oui, je suis français. Et vous ? Marie : Moi, je suis canadienne."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je suis ___ . (métier, nationalité) Je suis de ___ .",
+        "**Tu** (un(e) ami(e)) : Tu es ___ ? (français ? étudiant ? fatigué ?)",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami est ___ . Ma sœur est ___ .",
+        "**Nous** (vous et vos amis) : Nous sommes ___ . (amis, de Paris, contents)",
+        "**Ils / Elles** (la famille, les amis) : Mes parents sont ___ . Mes amis sont ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -355,6 +605,42 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Être ou avoir ?",
+      "say": "Être ou avoir ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deux verbes, deux usages différents. Ne les mélangez pas : c'est l'erreur la plus fréquente des débutants.",
+      "say": "Deux verbes, deux usages différents. Ne les mélangez pas : c'est l'erreur la plus fréquente des débutants."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Verbe",
+        "Il sert à dire",
+        "Exemples"
+      ],
+      "rows": [
+        [
+          "**Être**",
+          "l'identité, le lieu, l'état",
+          "Je suis fatigué. Elle est médecin. Nous sommes à Paris."
+        ],
+        [
+          "**Avoir**",
+          "la possession, l'âge, les sensations",
+          "J'ai vingt-cinq ans. J'ai faim. J'ai chaud. J'ai rendez-vous à midi."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Pas tout à fait : « Je suis 25 ans », « Je suis faim », « Je suis chaud ». Dites plutôt : « J'ai 25 ans », « J'ai faim », « J'ai chaud ».",
+      "say": "Pas tout à fait : « Je suis 25 ans », « Je suis faim », « Je suis chaud ». Dites plutôt : « J'ai 25 ans », « J'ai faim », « J'ai chaud »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -401,6 +687,43 @@
         "turn": "À vous de jouer"
       },
       "say": "L'âge et les sensations. Pas tout à fait : « Je suis 25 ans. » Dites plutôt : « J'ai 25 ans. » Dans votre langue, on dit peut-être « je suis 25 ans » ou « je suis faim ». Le français choisit avoir. L'âge et les sensations se disent avec avoir : j'ai 25 ans, j'ai faim, j'ai soif, j'ai chaud, j'ai froid, j'ai peur."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Tu as des frères et sœurs ?",
+        "**Tom :** Oui, j'ai un frère et une sœur.",
+        "**Léa :** Ils sont grands ?",
+        "**Tom :** Mon frère a dix ans et ma sœur a douze ans."
+      ],
+      "say": "Léa : Tu as des frères et sœurs ? Tom : Oui, j'ai un frère et une sœur. Léa : Ils sont grands ? Tom : Mon frère a dix ans et ma sœur a douze ans."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : J'ai ___ ans. J'ai un / une ___ .",
+        "**Tu** (un(e) ami(e)) : Tu as des frères et sœurs ? Tu as un animal ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Ma mère a ___ ans. Mon frère a un / une ___ .",
+        "**Nous** (vous et vos amis) : Nous avons ___ . (un chien, une maison, du temps)",
+        "**Ils / Elles** (la famille, les amis) : Mes parents ont ___ . Mes amis ont ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -466,6 +789,17 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Penser + infinitif",
+      "say": "Penser + infinitif"
+    },
+    {
+      "type": "paragraph",
+      "text": "Avec un infinitif, **penser** exprime une opinion sur soi-même : « Je pense être prêt. » « Je pense avoir raison. » « Nous pensons être en avance. » C'est un peu formel : à l'oral, on dit souvent « Je pense que je suis prêt ».",
+      "say": "Avec un infinitif, penser exprime une opinion sur soi-même : « Je pense être prêt. » « Je pense avoir raison. » « Nous pensons être en avance. » C'est un peu formel : à l'oral, on dit souvent « Je pense que je suis prêt »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -524,6 +858,43 @@
       "correctIndex": 1,
       "explanation": "Pour demander une opinion, on utilise penser de : « Que pensez-vous de ce livre ? »",
       "say": "Que pensez-vous ___ ce livre ?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** À quoi tu penses ?",
+        "**Tom :** Je pense à mes vacances.",
+        "**Léa :** Que penses-tu de la plage ?",
+        "**Tom :** Je pense que c'est une très bonne idée !"
+      ],
+      "say": "Léa : À quoi tu penses ? Tom : Je pense à mes vacances. Léa : Que penses-tu de la plage ? Tom : Je pense que c'est une très bonne idée !"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je pense que ___ . Je pense à ___ .",
+        "**Tu** (un(e) ami(e)) : Tu penses à quoi ? Tu penses que c'est bien ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami pense que ___ . Ma sœur pense à ___ .",
+        "**Nous** (vous et vos amis) : Nous pensons que ___ .",
+        "**Ils / Elles** (la famille, les amis) : Mes parents pensent à ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -589,6 +960,17 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Savoir + être, penser",
+      "say": "Savoir + être, penser"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Savoir** + infinitif exprime une compétence ou une qualité : « Je sais être patient. » « Elle sait être calme. » « Il sait penser vite. » Mais on ne dit pas « Je sais avoir… » : pour la possession, utilisez avoir ou vouloir.",
+      "say": "Savoir + infinitif exprime une compétence ou une qualité : « Je sais être patient. » « Elle sait être calme. » « Il sait penser vite. » Mais on ne dit pas « Je sais avoir… » : pour la possession, utilisez avoir ou vouloir."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -635,6 +1017,43 @@
         "turn": "À vous de jouer"
       },
       "say": "Savoir ou connaître. Pas tout à fait : « Je connais parler français. » Dites plutôt : « Je sais parler français. » Dans beaucoup de langues, un seul verbe veut dire « savoir » et « connaître ». En français, il en faut deux. Savoir + infinitif ou information (je sais nager, je sais où il habite). Connaître + personne, lieu ou chose (je connais Marc, je connais Lyon)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Tu connais Marc ?",
+        "**Tom :** Oui, je connais Marc. C'est mon ami.",
+        "**Léa :** Tu sais où il est ?",
+        "**Tom :** Non, je ne sais pas."
+      ],
+      "say": "Léa : Tu connais Marc ? Tom : Oui, je connais Marc. C'est mon ami. Léa : Tu sais où il est ? Tom : Non, je ne sais pas."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je sais ___ . (être patient…) Je connais ___ . (une ville, une personne)",
+        "**Tu** (un(e) ami(e)) : Tu sais où il est ? Tu connais Paris ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami sait ___ . Ma sœur connaît ___ .",
+        "**Nous** (vous et vos amis) : Nous savons ___ . Nous connaissons ___ .",
+        "**Ils / Elles** (la famille, les amis) : Mes parents savent ___ . Mes amis connaissent ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -700,6 +1119,28 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Le contraire : détester",
+      "say": "Le contraire : détester"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Détester** suit exactement le même modèle qu'**aimer** : je déteste, tu détestes, il déteste, nous détestons, vous détestez, ils détestent. À l'oral, je déteste = tu détestes = il déteste = ils détestent (même son). Exemples : « J'aime le café. » ≠ « Je déteste le café. »",
+      "say": "Détester suit exactement le même modèle qu'aimer : je déteste, tu détestes, il déteste, nous détestons, vous détestez, ils détestent. À l'oral, je déteste = tu détestes = il déteste = ils détestent (même son). Exemples : « J'aime le café. » ≠ « Je déteste le café. »"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Aimer + infinitif",
+      "say": "Aimer + infinitif"
+    },
+    {
+      "type": "paragraph",
+      "text": "Avec un infinitif, **aimer** parle de ce qu'on aime faire ou être : « J'aime être seul. » « Il aime être en avance. » « J'aime avoir du temps libre. » « J'aime penser à mes vacances. » « J'aime savoir la réponse. »",
+      "say": "Avec un infinitif, aimer parle de ce qu'on aime faire ou être : « J'aime être seul. » « Il aime être en avance. » « J'aime avoir du temps libre. » « J'aime penser à mes vacances. » « J'aime savoir la réponse. »"
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -746,6 +1187,43 @@
         "turn": "À vous de jouer"
       },
       "say": "Aimer et l'article. Pas tout à fait : « J'aime café. » Dites plutôt : « J'aime le café. » Dans beaucoup de langues, on dit « j'aime café » sans article. En français, le nom est presque toujours précédé d'un article. Après aimer, on emploie l'article défini pour parler d'un goût général : j'aime le café, j'aime les chats. Devant une voyelle, je + aime devient j'aime."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Tu aimes le café ?",
+        "**Tom :** Non, je n'aime pas le café. J'aime le thé.",
+        "**Léa :** Tu aimes le sport ?",
+        "**Tom :** Oui, j'aime beaucoup le sport !"
+      ],
+      "say": "Léa : Tu aimes le café ? Tom : Non, je n'aime pas le café. J'aime le thé. Léa : Tu aimes le sport ? Tom : Oui, j'aime beaucoup le sport !"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : J'aime ___ . Je déteste ___ .",
+        "**Tu** (un(e) ami(e)) : Tu aimes ___ ? (le café, le sport, la musique)",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami aime ___ . Ma sœur déteste ___ .",
+        "**Nous** (vous et vos amis) : Nous aimons ___ . (le cinéma, la plage)",
+        "**Ils / Elles** (la famille, les amis) : Mes parents aiment ___ . Mes amis détestent ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -807,6 +1285,17 @@
         "**Expressions courantes:** 'vouloir dire' (signifier), 'si tu veux'."
       ],
       "say": "Volonté: 'Je veux de l'eau', 'Que veux-tu faire ?'. Demande polie: 'Je voudrais une réservation, s'il vous plaît'. Expressions courantes: 'vouloir dire' (signifier), 'si tu veux'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Vouloir : les rêves et les désirs",
+      "say": "Vouloir : les rêves et les désirs"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Vouloir** + infinitif est une façon simple de parler de l'avenir : un rêve, un désir, « un jour ». « Je veux être médecin. » « Nous voulons avoir une maison. » « Elle veut être heureuse. » Plus poli : « Je voudrais être médecin. » Mots utiles : un jour, plus tard, dans cinq ans.",
+      "say": "Vouloir + infinitif est une façon simple de parler de l'avenir : un rêve, un désir, « un jour ». « Je veux être médecin. » « Nous voulons avoir une maison. » « Elle veut être heureuse. » Plus poli : « Je voudrais être médecin. » Mots utiles : un jour, plus tard, dans cinq ans."
     },
     {
       "type": "heading",
@@ -875,6 +1364,43 @@
       "title": "Tu ou vous ? Un petit choix qui compte",
       "content": "En français, on dit « tu » aux amis, aux membres de la famille, aux enfants et, le plus souvent, aux jeunes de son âge. On dit « vous » à une personne que l'on ne connaît pas, à un adulte dans un cadre formel, et à plusieurs personnes. Dans un magasin, à l'accueil ou avec un professeur, on emploie normalement « vous », et on commence par « Bonjour ». Le passage au « tu » se propose souvent : « On peut se tutoyer ? » Si une personne plus âgée ou en position d'autorité vous le propose, vous pouvez accepter. Dans le doute, choisissez « vous » : on vous excusera facilement d'être trop poli, rarement de ne pas l'être assez. Les usages varient selon les régions et les milieux : au Québec, par exemple, le tutoiement est plus répandu.",
       "say": "Tu ou vous ? Un petit choix qui compte. En français, on dit « tu » aux amis, aux membres de la famille, aux enfants et, le plus souvent, aux jeunes de son âge. On dit « vous » à une personne que l'on ne connaît pas, à un adulte dans un cadre formel, et à plusieurs personnes. Dans un magasin, à l'accueil ou avec un professeur, on emploie normalement « vous », et on commence par « Bonjour ». Le passage au « tu » se propose souvent : « On peut se tutoyer ? » Si une personne plus âgée ou en position d'autorité vous le propose, vous pouvez accepter. Dans le doute, choisissez « vous » : on vous excusera facilement d'être trop poli, rarement de ne pas l'être assez. Les usages varient selon les régions et les milieux : au Québec, par exemple, le tutoiement est plus répandu."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Le serveur :** Bonjour ! Qu'est-ce que vous voulez ?",
+        "**La cliente :** Je voudrais un café, s'il vous plaît.",
+        "**Le serveur :** Voilà. Vous voulez autre chose ?",
+        "**La cliente :** Non, merci. C'est tout."
+      ],
+      "say": "Le serveur : Bonjour ! Qu'est-ce que vous voulez ? La cliente : Je voudrais un café, s'il vous plaît. Le serveur : Voilà. Vous voulez autre chose ? La cliente : Non, merci. C'est tout."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je veux ___ . Je voudrais ___ . (un rêve, un désir)",
+        "**Tu** (un(e) ami(e)) : Tu veux ___ ? Qu'est-ce que tu veux ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami veut ___ . Ma sœur voudrait ___ .",
+        "**Nous** (vous et vos amis) : Nous voulons ___ . (un chien, une maison)",
+        "**Ils / Elles** (la famille, les amis) : Mes parents veulent ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -947,6 +1473,17 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Travailler ou étudier pour + infinitif",
+      "say": "Travailler ou étudier pour + infinitif"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Pour** + infinitif donne le but, « dans le but de » : « Je travaille pour avoir une maison. » « J'étudie pour être médecin. » « Tu étudies pour avoir un bon travail ? » Sans **pour**, la phrase est incorrecte : « Je travaille avoir une maison » devient « Je travaille pour avoir une maison ».",
+      "say": "Pour + infinitif donne le but, « dans le but de » : « Je travaille pour avoir une maison. » « J'étudie pour être médecin. » « Tu étudies pour avoir un bon travail ? » Sans pour, la phrase est incorrecte : « Je travaille avoir une maison » devient « Je travaille pour avoir une maison »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute"
     },
     {
@@ -992,6 +1529,43 @@
         "turn": "À vous de jouer"
       },
       "say": "Apprendre vs Étudier une compétence. Dites plutôt : J'apprends à conduire."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Tu travailles ou tu étudies ?",
+        "**Tom :** J'étudie à l'université. Et toi ?",
+        "**Léa :** Moi, je travaille dans un hôpital.",
+        "**Tom :** Super ! Tu travailles beaucoup ?"
+      ],
+      "say": "Léa : Tu travailles ou tu étudies ? Tom : J'étudie à l'université. Et toi ? Léa : Moi, je travaille dans un hôpital. Tom : Super ! Tu travailles beaucoup ?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je travaille ___ . J'étudie ___ .",
+        "**Tu** (un(e) ami(e)) : Tu travailles ou tu étudies ? Tu étudies quoi ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon père travaille ___ . Ma sœur étudie ___ .",
+        "**Nous** (vous et vos amis) : Nous travaillons ___ . Nous étudions ___ .",
+        "**Ils / Elles** (la famille, les amis) : Mes parents travaillent ___ . Mes amis étudient ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -1057,6 +1631,48 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Présent ou futur proche ?",
+      "say": "Présent ou futur proche ?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Je dis…",
+        "Cela veut dire",
+        "Mots utiles"
+      ],
+      "rows": [
+        [
+          "**Présent :** « Je travaille le lundi. »",
+          "d'habitude, chaque lundi",
+          "souvent, chaque jour"
+        ],
+        [
+          "**Futur proche :** « Je vais travailler demain. »",
+          "un plan proche",
+          "bientôt, ce soir, demain, la semaine prochaine"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Le futur proche, c'est **aller** (conjugué) + un verbe à l'infinitif : « Nous allons étudier ce soir. » « Il va avoir trente ans. » Pour dire non, « ne » et « pas » entourent **aller** : « Je ne vais pas travailler. »",
+      "say": "Le futur proche, c'est aller (conjugué) + un verbe à l'infinitif : « Nous allons étudier ce soir. » « Il va avoir trente ans. » Pour dire non, « ne » et « pas » entourent aller : « Je ne vais pas travailler. »"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Vouloir ou aller ? Un rêve ou un plan ?",
+      "say": "Vouloir ou aller ? Un rêve ou un plan ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "« Je veux être médecin » est un rêve pour un jour. « Je vais étudier ce soir » est un plan pour bientôt. **Vouloir** + infinitif, c'est ce que je désire ; **aller** + infinitif, c'est ce que je vais faire.",
+      "say": "« Je veux être médecin » est un rêve pour un jour. « Je vais étudier ce soir » est un plan pour bientôt. Vouloir + infinitif, c'est ce que je désire ; aller + infinitif, c'est ce que je vais faire."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -1103,6 +1719,43 @@
         "turn": "À vous de jouer"
       },
       "say": "Aller et les pays. Pas tout à fait : « Je vais à France. » Dites plutôt : « Je vais en France. » On apprend « aller à » en premier et on l'emploie partout. Mais la préposition change selon le lieu. À + ville (à Paris), en + pays féminin (en France, en Italie), au + pays masculin (au Canada), aux + pluriel (aux États-Unis)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Tu vas où ce week-end ?",
+        "**Tom :** Je vais à la plage. Et toi ?",
+        "**Léa :** Je vais au cinéma avec mes amis.",
+        "**Tom :** Super ! Bon week-end !"
+      ],
+      "say": "Léa : Tu vas où ce week-end ? Tom : Je vais à la plage. Et toi ? Léa : Je vais au cinéma avec mes amis. Tom : Super ! Bon week-end !"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je vais ___ . (au travail, à l'école) Je vais ___ demain.",
+        "**Tu** (un(e) ami(e)) : Tu vas où ce week-end ? Tu vas ___ demain ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami va ___ . Ma sœur va ___ samedi.",
+        "**Nous** (vous et vos amis) : Nous allons ___ ce soir.",
+        "**Ils / Elles** (la famille, les amis) : Mes parents vont ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -1168,6 +1821,17 @@
     {
       "type": "heading",
       "level": 4,
+      "text": "Pouvoir + les autres verbes",
+      "say": "Pouvoir + les autres verbes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Après **pouvoir**, le deuxième verbe est toujours à l'infinitif : « Je peux être là à midi. » « Je peux avoir un verre d'eau ? » « Je peux savoir pourquoi ? » « Je peux aller aux toilettes ? » « Je peux travailler ici ? » Avec le futur proche : « Je vais pouvoir être là demain » (ce sera possible demain).",
+      "say": "Après pouvoir, le deuxième verbe est toujours à l'infinitif : « Je peux être là à midi. » « Je peux avoir un verre d'eau ? » « Je peux savoir pourquoi ? » « Je peux aller aux toilettes ? » « Je peux travailler ici ? » Avec le futur proche : « Je vais pouvoir être là demain » (ce sera possible demain)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
       "text": "À voix haute",
       "say": "À voix haute"
     },
@@ -1214,6 +1878,43 @@
         "turn": "À vous de jouer"
       },
       "say": "Pouvoir + pronom. Pas tout à fait : « Je peux aider vous ? » Dites plutôt : « Je peux vous aider ? » En anglais, le complément vient après le verbe (« help you »). En français, le pronom se place juste avant l'infinitif. Après pouvoir, on met l'infinitif tout de suite, sans « à » ni « de ». Le pronom se place devant l'infinitif : je peux vous aider, il peut me répondre."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Bonjour ! Je peux travailler ici ?",
+        "**Tom :** Oui, bien sûr. Vous pouvez prendre cette table.",
+        "**Léa :** Je peux avoir un verre d'eau ?",
+        "**Tom :** Oui, un instant."
+      ],
+      "say": "Léa : Bonjour ! Je peux travailler ici ? Tom : Oui, bien sûr. Vous pouvez prendre cette table. Léa : Je peux avoir un verre d'eau ? Tom : Oui, un instant."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je peux ___ . Je ne peux pas ___ .",
+        "**Tu** (un(e) ami(e)) : Tu peux ___ ? (avoir un café, être là…)",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami peut ___ . Ma sœur peut ___ .",
+        "**Nous** (vous et vos amis) : Nous pouvons ___ . (travailler, aller)",
+        "**Ils / Elles** (la famille, les amis) : Mes amis peuvent ___ ."
+      ]
     },
     {
       "type": "heading",
@@ -1334,6 +2035,474 @@
       ],
       "correctIndex": 1,
       "explanation": "On écrit *nous mangeons* avec un 'e' et *nous buvons* avec un 'v'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Mini-dialogue",
+      "say": "Mini-dialogue"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Léa :** Qu'est-ce que tu manges ?",
+        "**Tom :** Je mange une salade. Et toi ?",
+        "**Léa :** Moi, je mange des pâtes. Tu bois quoi ?",
+        "**Tom :** Je bois de l'eau. Et toi ?",
+        "**Léa :** Moi, je bois du thé."
+      ],
+      "say": "Léa : Qu'est-ce que tu manges ? Tom : Je mange une salade. Et toi ? Léa : Moi, je mange des pâtes. Tu bois quoi ? Tom : Je bois de l'eau. Et toi ? Léa : Moi, je bois du thé."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous !"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez avec votre vie, puis dites les phrases à voix haute."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Je** (vous) : Je mange ___ à midi. Je bois ___ le matin.",
+        "**Tu** (un(e) ami(e)) : Tu manges quoi ? Tu bois du café ?",
+        "**Il / Elle** (un(e) ami(e), la famille) : Mon ami mange ___ . Ma sœur boit ___ .",
+        "**Nous** (vous et vos amis) : Nous mangeons ___ . Nous buvons ___ .",
+        "**Ils / Elles** (la famille, les amis) : Mes parents mangent ___ . Mes amis boivent ___ ."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Après les dix verbes : trois mécanismes pour tout dire",
+      "say": "Après les dix verbes : trois mécanismes pour tout dire"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vous connaissez dix verbes. Il reste trois mécanismes pour en faire de vraies phrases : dire non, poser une question, et combiner deux verbes.",
+      "say": "Vous connaissez dix verbes. Il reste trois mécanismes pour en faire de vraies phrases : dire non, poser une question, et combiner deux verbes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. La négation : le sandwich",
+      "say": "1. La négation : le sandwich"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le verbe est la garniture, et « ne » et « pas » sont le pain : **ne + verbe + pas**. Devant une voyelle ou un h muet, « ne » devient « n' ».",
+      "say": "Le verbe est la garniture, et « ne » et « pas » sont le pain : ne + verbe + pas. Devant une voyelle ou un h muet, « ne » devient « n' »."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Sujet",
+        "ne",
+        "Verbe",
+        "pas",
+        "Suite"
+      ],
+      "rows": [
+        [
+          "Je",
+          "ne",
+          "suis",
+          "pas",
+          "prêt."
+        ],
+        [
+          "Tu",
+          "n'",
+          "as",
+          "pas",
+          "faim."
+        ],
+        [
+          "Il",
+          "n'",
+          "est",
+          "pas",
+          "ici."
+        ],
+        [
+          "Nous",
+          "ne",
+          "voulons",
+          "pas",
+          "partir."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "À l'oral, « ne » disparaît souvent : « Je sais pas. » À l'écrit, « ne » est obligatoire. Pour apprendre, dites toujours la phrase complète.",
+      "say": "À l'oral, « ne » disparaît souvent : « Je sais pas. » À l'écrit, « ne » est obligatoire. Pour apprendre, dites toujours la phrase complète."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Poser une question : trois façons",
+      "say": "2. Poser une question : trois façons"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Façon",
+        "Exemple",
+        "Quand ?"
+      ],
+      "rows": [
+        [
+          "**Intonation**",
+          "Tu as faim ?",
+          "La plus facile : on monte la voix. Surtout à l'oral."
+        ],
+        [
+          "**Est-ce que…**",
+          "Est-ce que tu as faim ?",
+          "Correct à l'oral et à l'écrit."
+        ],
+        [
+          "**Inversion**",
+          "As-tu faim ?",
+          "Formel, surtout à l'écrit."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque mot interrogatif se combine avec les trois façons :",
+      "say": "Chaque mot interrogatif se combine avec les trois façons :"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mot",
+        "À l'oral",
+        "Avec est-ce que",
+        "Avec inversion"
+      ],
+      "rows": [
+        [
+          "Où ?",
+          "Tu es où ?",
+          "Où est-ce que tu es ?",
+          "Où es-tu ?"
+        ],
+        [
+          "Que ?",
+          "Tu as quoi ?",
+          "Qu'est-ce que tu as ?",
+          "Qu'as-tu ?"
+        ],
+        [
+          "Quand ?",
+          "Tu es là quand ?",
+          "Quand est-ce que tu es là ?",
+          "Quand es-tu là ?"
+        ],
+        [
+          "Pourquoi ?",
+          "Pourquoi tu es là ?",
+          "Pourquoi est-ce que tu es là ?",
+          "Pourquoi es-tu là ?"
+        ],
+        [
+          "Comment ?",
+          "Il est comment ?",
+          "Comment est-ce qu'il est ?",
+          "Comment est-il ?"
+        ],
+        [
+          "Qui ?",
+          "C'est qui ?",
+          "Qui est-ce ?",
+          "Qui est-il ?"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Questions négatives et « si »",
+      "say": "Questions négatives et « si »"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le sandwich entoure toujours le verbe : « Tu n'as pas faim ? » « Est-ce que tu n'as pas faim ? » « N'as-tu pas faim ? » Pour répondre à une question négative, on dit **si** pour « oui » et **non** pour « non » : « Si, j'ai faim. » « Non, je n'ai pas faim. »",
+      "say": "Le sandwich entoure toujours le verbe : « Tu n'as pas faim ? » « Est-ce que tu n'as pas faim ? » « N'as-tu pas faim ? » Pour répondre à une question négative, on dit si pour « oui » et non pour « non » : « Si, j'ai faim. » « Non, je n'ai pas faim. »"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Combiner deux verbes",
+      "say": "3. Combiner deux verbes"
+    },
+    {
+      "type": "paragraph",
+      "text": "La règle est simple : le premier verbe est conjugué, le deuxième reste à l'infinitif. Avec **aimer**, **vouloir**, **pouvoir** et **aller**, vous pouvez dire presque tout :",
+      "say": "La règle est simple : le premier verbe est conjugué, le deuxième reste à l'infinitif. Avec aimer, vouloir, pouvoir et aller, vous pouvez dire presque tout :"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1er verbe",
+        "+ être",
+        "+ avoir",
+        "+ manger / boire",
+        "+ aller"
+      ],
+      "rows": [
+        [
+          "**aimer**",
+          "J'aime être à la maison.",
+          "J'aime avoir du temps libre.",
+          "J'aime manger. J'aime boire du thé.",
+          "J'aime aller au cinéma."
+        ],
+        [
+          "**vouloir**",
+          "Je veux être médecin.",
+          "Je veux avoir un chien.",
+          "Je veux manger.",
+          "Je veux aller à Paris."
+        ],
+        [
+          "**pouvoir**",
+          "Je peux être là à midi.",
+          "Je peux avoir un verre d'eau ?",
+          "Je peux boire de l'eau ?",
+          "Je peux aller aux toilettes ?"
+        ],
+        [
+          "**aller**",
+          "Je vais être en retard.",
+          "Il va avoir trente ans.",
+          "Je vais manger à midi.",
+          "Je vais aller au cinéma."
+        ],
+        [
+          "**savoir**",
+          "Je sais être patient.",
+          "On ne dit pas « Je sais avoir… »",
+          "Je sais manger avec des baguettes.",
+          "Je sais aller à la gare."
+        ],
+        [
+          "**penser**",
+          "Je pense être prêt.",
+          "Je pense avoir raison.",
+          "Je pense manger à midi.",
+          "Je pense aller au cinéma."
+        ],
+        [
+          "**pour** (travailler, étudier)",
+          "J'étudie pour être médecin.",
+          "Je travaille pour avoir une maison.",
+          "Je travaille pour manger.",
+          "Je travaille pour aller en vacances."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Le sandwich avec deux verbes",
+      "say": "Le sandwich avec deux verbes"
+    },
+    {
+      "type": "paragraph",
+      "text": "« ne » et « pas » entourent seulement le **premier** verbe : « Je ne veux pas manger. » « Il ne sait pas être patient. » « Nous n'aimons pas boire de café. » « Tu ne peux pas aller là. » On ne dit pas « Je ne veux manger pas ».",
+      "say": "« ne » et « pas » entourent seulement le premier verbe : « Je ne veux pas manger. » « Il ne sait pas être patient. » « Nous n'aimons pas boire de café. » « Tu ne peux pas aller là. » On ne dit pas « Je ne veux manger pas »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Penser que, savoir que + une phrase",
+      "say": "Penser que, savoir que + une phrase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Après « que », on construit une nouvelle phrase : sujet + verbe. « Je pense que c'est utile. » « Nous savons que vous avez raison. » « Elle pense qu'il est prêt. » Devant une voyelle, « que » devient « qu' ».",
+      "say": "Après « que », on construit une nouvelle phrase : sujet + verbe. « Je pense que c'est utile. » « Nous savons que vous avez raison. » « Elle pense qu'il est prêt. » Devant une voyelle, « que » devient « qu' »."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Être en train de + infinitif",
+      "say": "Être en train de + infinitif"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour dire « je le fais maintenant », utilisez **être en train de** + infinitif : « Je suis en train de manger. » Devant une voyelle : « Je suis en train d'étudier. » Le sandwich entoure **être** : « Je ne suis pas en train de manger. »",
+      "say": "Pour dire « je le fais maintenant », utilisez être en train de + infinitif : « Je suis en train de manger. » Devant une voyelle : « Je suis en train d'étudier. » Le sandwich entoure être : « Je ne suis pas en train de manger. »"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Je dis…",
+        "Cela veut dire",
+        "Mots utiles"
+      ],
+      "rows": [
+        [
+          "**Je mange** à midi.",
+          "d'habitude",
+          "souvent, chaque jour"
+        ],
+        [
+          "**Je suis en train de manger.**",
+          "maintenant, l'action est en cours",
+          "en ce moment"
+        ],
+        [
+          "**Je vais manger.**",
+          "bientôt",
+          "ce soir, demain"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "« Je mange » peut aussi vouloir dire « maintenant », mais « en train de » insiste sur l'action en cours.",
+      "say": "« Je mange » peut aussi vouloir dire « maintenant », mais « en train de » insiste sur l'action en cours."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Pièges avec deux verbes",
+      "say": "Pièges avec deux verbes"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pas tout à fait",
+        "Dites plutôt"
+      ],
+      "rows": [
+        [
+          "Je veux je mange.",
+          "Je veux manger."
+        ],
+        [
+          "Je peux manges.",
+          "Je peux manger."
+        ],
+        [
+          "Je veux de manger.",
+          "Je veux manger."
+        ],
+        [
+          "Je ne veux manger pas.",
+          "Je ne veux pas manger."
+        ],
+        [
+          "Je sais avoir une voiture.",
+          "Je veux avoir une voiture."
+        ],
+        [
+          "Je travaille avoir une maison.",
+          "Je travaille pour avoir une maison."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "À vous ! Deux séries d'exercices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complétez chaque phrase avec le bon verbe, puis dites-la à voix haute. Les réponses sont juste après."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Je ___ prêt(e). (être)",
+        "Tu ___ un stylo. (avoir)",
+        "Nous ___ au cinéma. (aller)",
+        "Elle ___ le café. (aimer)",
+        "Vous ___ avoir un café ? (pouvoir)",
+        "Ils ___ à midi. (manger)",
+        "Je ___ Marc. (connaître)",
+        "Je ___ un café, s'il vous plaît. (vouloir, forme polie)"
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Je ___ boire un café. (vouloir)",
+        "Nous ___ aller au cinéma. (vouloir)",
+        "Elle ne ___ pas manger. (vouloir)",
+        "Tu ___ être patient ? (savoir)",
+        "Ils ___ manger à midi. (aller)",
+        "On ___ aller à la plage ? (pouvoir)",
+        "J'___ le français. (apprendre)",
+        "Elle ___ la médecine. (étudier)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Corrigé"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Je suis prêt(e).",
+        "Tu as un stylo.",
+        "Nous allons au cinéma.",
+        "Elle aime le café.",
+        "Vous pouvez avoir un café ?",
+        "Ils mangent à midi.",
+        "Je connais Marc.",
+        "Je voudrais un café, s'il vous plaît."
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Je veux boire un café.",
+        "Nous voulons aller au cinéma.",
+        "Elle ne veut pas manger.",
+        "Tu sais être patient ?",
+        "Ils vont manger à midi.",
+        "On peut aller à la plage ?",
+        "J'apprends le français.",
+        "Elle étudie la médecine."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Votre présentation en dix phrases"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour finir, présentez-vous : une phrase pour chaque verbe, avec votre propre vie."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Être :** Je suis ___ . (métier, nationalité)",
+        "**Avoir :** J'ai ___ ans. J'ai un / une ___ .",
+        "**Penser :** Je pense que ___ . Je pense à ___ .",
+        "**Savoir :** Je sais ___ . (être patient…)",
+        "**Aimer :** J'aime ___ . Je déteste ___ .",
+        "**Vouloir :** Je veux ___ . Je voudrais ___ .",
+        "**Travailler :** Je travaille ___ . J'étudie ___ .",
+        "**Aller :** Je vais ___ . (au travail, à l'école)",
+        "**Pouvoir :** Je peux ___ . Je ne peux pas ___ .",
+        "**Manger / boire :** Je mange ___ à midi. Je bois ___ le matin."
+      ]
     },
     {
       "type": "heading",
