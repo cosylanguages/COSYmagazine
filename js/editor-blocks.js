@@ -1024,9 +1024,286 @@
    */
   const ARTICLE_PRESETS = [
     {
+      id: 'preset-cosytalks',
+      name: 'COSYtalks',
+      description: 'Reflective essays & Long Reads on language learning psychology, cognitive agility, and creative expression',
+      create: (opts = {}) => {
+        const lang = opts.language || 'en';
+        const date = opts.date || new Date().toISOString().slice(0, 10);
+        return {
+          id: `post-cosytalks-${Date.now()}`,
+          slug: `reflections-off-script-${lang}`,
+          language: lang,
+          draft: true,
+          contentType: 'evergreen',
+          desk: 'COSYtalks',
+          format: 'essay',
+          level: 'B1–B2',
+          date: date,
+          title: 'Why Do We Freeze When Conversations Go Off Script?',
+          kicker: 'COSYTALKS • ESSAYS & LONG READS',
+          dek: 'Script theory explains why unexpected answers cause conversational pauses. Explore psychological reflections, neuroplasticity, and practical tools to stay in communicative flow.',
+          tags: ['Reflections', 'COSYtalks', 'LongReads', 'PsychologyOfLearning', 'SpeakingClub'],
+          readingTime: 8,
+          podcast: {
+            episode: 1,
+            audioUrl: null
+          },
+          artDirection: {
+            palette: ['#0d9488', '#faf7f2', '#1c1917', '#14b8a6'],
+            fonts: { display: 'Fraunces', text: 'Commissioner', accent: 'Caveat' },
+            layout: 'magazine-spread',
+            motif: 'notebook-handwritten',
+            seed: 'cosytalks-seed',
+            coverOverride: null
+          },
+          blocks: [
+            {
+              type: 'paragraph',
+              text: 'We spend months memorizing textbook dialogues. Yet the moment a barista answers with an unexpected quip or a colleague pivots the topic, our mind goes completely blank.',
+              say: 'Welcome to COSYtalks. Today we reflect on why our minds freeze when conversations go off script, and how to embrace spontaneous communicative agility.'
+            },
+            {
+              type: 'pullquote',
+              quote: 'The moment the script ends is the exact moment human connection begins.',
+              attribution: 'COSY Reflections Salon',
+              say: 'Remember: the moment the script ends is the moment genuine conversation begins.'
+            },
+            {
+              type: 'image',
+              url: 'images/off-script-flow-en.svg',
+              alt: 'Navigating conversational ambiguity diagram',
+              caption: 'Bridging ambiguity: transitioning from rehearsed mental scripts to dynamic conversational presence.',
+              say: 'Here is our visual model for navigating cognitive ambiguity when talking off script.'
+            },
+            {
+              type: 'culture-bite',
+              title: '💡 Research Spark: Synaptic Plasticity & Error Tolerance',
+              content: 'Applied linguistics and neurobiology reveal that the adult brain forms stronger grammatical pathways when speakers take communicative risks without immediate self-censorship.',
+              say: 'Consider this research insight: error tolerance accelerates synaptic adaptation far more than mechanical memorization.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              text: 'Long Read Reflection: Reframing the Conversational Pause',
+              say: 'Let us deconstruct how reframing pauses changes conversation dynamics.'
+            },
+            {
+              type: 'paragraph',
+              text: 'Native speakers pause constantly. They fill gaps not with anxious silence, but with reflective phrases, thoughtful eye contact, and melodic bridges. Embracing this shift transforms language from a school exam into a living social art.',
+              say: 'Native speakers pause all the time. When we treat pauses as thinking space rather than failure, anxiety evaporates.'
+            },
+            {
+              type: 'quote-wall',
+              quotes: [
+                {
+                  quote: 'Language is not an ornament of the mind; it is the living instrument of human communion.',
+                  author: 'COSY Publishing House'
+                }
+              ],
+              say: 'Language is the living instrument of human communion.'
+            },
+            {
+              type: 'links',
+              destination: 'practice',
+              url: 'https://cosylanguages.github.io/COSYpractice/',
+              label: 'Join our Live Spoken Audio Discussions on COSYpractice',
+              say: 'Join our Spoken Audio Rooms on COSYpractice to put these reflections into real dialogue.'
+            }
+          ]
+        };
+      }
+    },
+    {
+      id: 'preset-grammar-by-cosy',
+      name: 'Grammar by COSY',
+      description: 'Pedagogical grammar explanations featuring constructing elements: visual timelines and decision trees',
+      create: (opts = {}) => {
+        const lang = opts.language || 'en';
+        const date = opts.date || new Date().toISOString().slice(0, 10);
+        return {
+          id: `post-grammar-by-cosy-${Date.now()}`,
+          slug: `demystifying-tenses-timeline-${lang}`,
+          language: lang,
+          draft: true,
+          contentType: 'evergreen',
+          desk: 'Grammar by COSY',
+          format: 'essay',
+          level: 'A1–A2',
+          date: date,
+          title: 'Demystifying Verb Tenses: A Visual Timeline Guide',
+          kicker: 'GRAMMAR BY COSY',
+          dek: 'Understanding time, aspect, and completion without memorizing confusing grammatical jargon.',
+          tags: ['Grammar', 'Timelines', 'DecisionTree', 'CosyGuides'],
+          readingTime: 6,
+          podcast: {
+            episode: 2,
+            audioUrl: null
+          },
+          artDirection: {
+            palette: ['#0284c7', '#faf7f2', '#0f172a', '#38bdf8'],
+            fonts: { display: 'Fraunces', text: 'Commissioner', accent: 'Caveat' },
+            layout: 'magazine-spread',
+            motif: 'editorial-stars',
+            seed: 'grammar-by-cosy-seed',
+            coverOverride: null
+          },
+          blocks: [
+            {
+              type: 'paragraph',
+              text: 'Grammar becomes completely intuitive when visualized along a spatial timeline rather than memorized as abstract rules.',
+              say: 'Welcome to Grammar by COSY. Today we make verb tenses intuitive using visual timelines and decision trees.'
+            },
+            {
+              type: 'pullquote',
+              quote: 'Tense tells you when; aspect tells you how an action unfolds in time.',
+              attribution: 'COSY Grammar Atelier',
+              say: 'Keep this core principle in mind: tense tells you when, aspect tells you how the action unfolds.'
+            },
+            {
+              type: 'paragraph',
+              text: '<div class="cosy-timeline"><div class="timeline-labels"><span>Past</span><span class="timeline-now-label">NOW</span><span>Future</span></div><div class="timeline-line"><div class="timeline-event" style="left:18%; width:20%;"><div class="timeline-bar"></div><div class="timeline-card"><strong>Past Simple</strong><p>Completed event at a specific past point</p></div></div><div class="timeline-event" style="left:48%; width:4%;"><div class="timeline-bar"></div><div class="timeline-card"><strong>Present Simple</strong><p>Routine, timeless truth, recurring habit</p></div></div><div class="timeline-now"></div></div></div>',
+              say: 'Examine the visual timeline: see how completed past points contrast with ongoing present routines.'
+            },
+            {
+              type: 'image',
+              url: 'images/off-script-flow-en.svg',
+              alt: 'Temporal Timeline and Aspect Architecture',
+              caption: 'Temporal timeline architecture: mapping moments, durations, and aspectual loops.',
+              say: 'Here is our detailed architectural diagram for visualizing grammatical aspect.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              text: 'The Decision Tree: Which Tense Should I Use?',
+              say: 'Here is your quick decision tree to select the right verb tense.'
+            },
+            {
+              type: 'paragraph',
+              text: '<figure class="cosy-fig"><p class="cosy-fig-kicker">Grammar Decision Tree</p><p class="cosy-fig-title">Choosing the natural form effortlessly</p><div class="dtree-q">Is the action connected to right now?</div><ul class="dtree"><li><span class="dtree-if">Happening <strong>at this exact moment</strong></span><span class="dtree-then"><span class="arr" aria-hidden="true">→</span><span class="vtag is-everyday"><span class="vtag-ic" aria-hidden="true">💬</span>Present Continuous</span></span><span class="dtree-ex">I am writing this guide right now.</span></li><li><span class="dtree-if">Regular <strong>daily routine or habit</strong></span><span class="dtree-then"><span class="arr" aria-hidden="true">→</span><span class="vtag is-everyday"><span class="vtag-ic" aria-hidden="true">💬</span>Present Simple</span></span><span class="dtree-ex">I read a chapter every morning.</span></li><li><span class="dtree-if">Finished completely <strong>in the past</strong></span><span class="dtree-then"><span class="arr" aria-hidden="true">→</span><span class="vtag is-work"><span class="vtag-ic" aria-hidden="true">💼</span>Past Simple</span></span><span class="dtree-ex">We discussed the chapter yesterday.</span></li></ul></figure>',
+              say: 'Walk through this decision tree whenever you choose between simple and continuous forms.'
+            },
+            {
+              type: 'quiz',
+              question: 'Which sentence describes a permanent routine or habit?',
+              options: [
+                'She is working at the library today.',
+                'She works at the library.',
+                'She worked at the library.'
+              ],
+              correctIndex: 1,
+              explanation: 'The present simple form indicates regular routines and general facts.',
+              say: 'Test your understanding with this quick quiz.'
+            },
+            {
+              type: 'links',
+              destination: 'cosytools',
+              url: 'https://cosylanguages.github.io/COSYtools/',
+              label: 'Interactive Grammar & Conjugation Engine on COSYtools',
+              say: 'Explore our interactive conjugation visualizer on COSYtools.'
+            }
+          ]
+        };
+      }
+    },
+    {
+      id: 'preset-words-by-cosy',
+      name: 'Words by COSY',
+      description: 'Vocabulary master guides featuring "Stop!" sentence frames and "Top Words" frequency tables',
+      create: (opts = {}) => {
+        const lang = opts.language || 'en';
+        const date = opts.date || new Date().toISOString().slice(0, 10);
+        return {
+          id: `post-words-by-cosy-${Date.now()}`,
+          slug: `stop-translating-top-words-${lang}`,
+          language: lang,
+          draft: true,
+          contentType: 'evergreen',
+          desk: 'Words by COSY',
+          format: 'list',
+          level: 'A0–A1 / A2',
+          date: date,
+          title: 'Words by COSY: Stop Translating & Essential Top Words',
+          kicker: 'WORDS BY COSY • VOCABULARY DESK',
+          dek: 'Replace word-for-word translation with high-yield sentence frames and high-frequency verb matrices that unlock natural spoken fluency.',
+          tags: ['Vocabulary', 'WordsByCOSY', 'StopTranslating', 'TopWords', 'SentenceFrames'],
+          readingTime: 6,
+          podcast: {
+            episode: 3,
+            audioUrl: null
+          },
+          artDirection: {
+            palette: ['#047857', '#faf8f5', '#1e293b', '#10b981'],
+            fonts: { display: 'Fraunces', text: 'Commissioner', accent: 'Caveat' },
+            layout: 'magazine-spread',
+            motif: 'editorial-stars',
+            seed: 'words-by-cosy-seed',
+            coverOverride: null
+          },
+          blocks: [
+            {
+              type: 'paragraph',
+              text: 'Fluency does not come from memorizing thousands of isolated words. It comes from mastering high-frequency verbs and adaptable sentence frames that let you express thoughts spontaneously.',
+              say: 'Welcome to Words by COSY. Today we break down Stop Translating sentence frames and core high frequency vocabulary.'
+            },
+            {
+              type: 'image',
+              url: 'images/stop-translating-flow-en.svg',
+              alt: 'Stop Translating Sentence Frame Workflow',
+              caption: 'Circumlocution flow: using functional sentence frames to describe ideas effortlessly.',
+              say: 'Here is our visual guide to building immediate sentences using functional frames.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              text: 'Template 1: Stop! 10 Reusable Sentence Frames',
+              say: 'Let us examine our first template: Stop Translating sentence frames.'
+            },
+            {
+              type: 'table',
+              caption: 'Stop Translating! Spoken Sentence Frames',
+              printable: true,
+              headers: ['Pattern', 'Spoken Frame', 'Natural Example'],
+              rows: [
+                ['Describing objects', 'It’s a kind of… / You use it to…', 'It’s a kind of tool you use to slice bread.'],
+                ['Expressing opinion', 'As far as I can tell…', 'As far as I can tell, this option works best.'],
+                ['Seeking clarification', 'If I understand correctly…', 'If I understand correctly, we meet at five.']
+              ],
+              say: 'Review these sentence frames to describe unfamiliar words with zero hesitation.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              text: 'Template 2: Top Words High-Frequency Matrix',
+              say: 'Now let us explore the Top Words high frequency matrix.'
+            },
+            {
+              type: 'table',
+              caption: 'Top Verbs Quick Conjugation & Usage Summary',
+              printable: true,
+              headers: ['Verb', 'Present Spoken Form', 'Everyday Example'],
+              rows: [
+                ['want / would like', 'I want / I’d like', 'I would like a flat white, please.'],
+                ['have / get', 'I have / I get', 'I have a quick question before we start.'],
+                ['think / believe', 'I think / I reckon', 'I think that makes complete sense.']
+              ],
+              say: 'Notice how these core high frequency verbs power daily conversational exchanges.'
+            },
+            {
+              type: 'links',
+              destination: 'cosytools',
+              url: 'https://cosylanguages.github.io/COSYtools/',
+              label: 'Explore Complete Conjugations & Audio Pronunciations in COSYtools',
+              say: 'Head over to COSYtools for complete conjugation tables and audio recordings.'
+            }
+          ]
+        };
+      }
+    },
+    {
       id: 'preset-saturday-mistakes',
       name: 'Saturday Mistakes',
-      description: 'Signature 5-mistake issue with comparative wrong/right cards, explanations, and quizzes',
+      description: 'Weekly website-only conversational slips guide with wrong vs. right cards, rules, and quizzes',
       create: (opts = {}) => {
         const lang = opts.language || 'en';
         const date = opts.date || new Date().toISOString().slice(0, 10);
@@ -1035,18 +1312,15 @@
           slug: `saturday-mistakes-new-edition-${lang}`,
           language: lang,
           draft: true,
+          contentType: 'evergreen',
           desk: 'Saturday Mistakes',
           format: 'list',
           level: 'A0–A1 / A2',
-          issue: {
-            number: 'Vol. 2026.12',
-            title: 'Winter Grammar & High Frequency Verbs'
-          },
           date: date,
           title: '5 Common Saturday Mistakes Learners Make (and How to Fix Them)',
-          kicker: 'SATURDAY MISTAKES',
+          kicker: 'SATURDAY MISTAKES • WEBSITE EDITION',
           dek: 'Clear, memorable fixes for 5 persistent conversational slips that learners encounter every week.',
-          tags: ['SaturdayMistakes', 'SpeakingFirst', 'Fluency'],
+          tags: ['SaturdayMistakes', 'SpeakingFirst', 'Fluency', 'WebsiteOnly'],
           readingTime: 4,
           podcast: {
             episode: 1,
@@ -1054,23 +1328,23 @@
           },
           artDirection: {
             palette: ['#b45309', '#fdfbf7', '#1c1917', '#d97706'],
-            fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
+            fonts: { display: 'Fraunces', text: 'Commissioner', accent: 'Caveat' },
             layout: 'magazine-spread',
-            motif: 'editorial-stars',
+            motif: 'notebook-handwritten',
             seed: 'sat-mistakes-seed',
             coverOverride: null
           },
           blocks: [
             {
               type: 'paragraph',
-              text: 'Every Saturday, we look at the conversational slips that happen when thinking in one language and speaking in another.',
+              text: 'Every Saturday, we look at conversational slips that happen when thinking in one language and speaking in another. Remember: mistakes are proof that you are actively learning.',
               say: 'Welcome to Saturday Mistakes. Today we look at five conversational slips and how to fix them effortlessly.'
             },
             {
               type: 'image',
               url: 'images/saturday-mistakes-routine-en.svg',
               alt: 'Saturday Mistakes Cognitive Feedback Loop',
-              caption: 'Identify the pattern, apply the rule, and speak aloud with conversational confidence.',
+              caption: 'Notice the slip, understand why, learn the COSY rule, and speak with confidence.',
               say: 'Here is our visual breakdown of how native thought habits cause conversational friction.'
             },
             {
@@ -1079,7 +1353,7 @@
               title: 'Expressing Age',
               wrong: '"I have 30 years."',
               right: '"I am 30 years old."',
-              why: 'Learners translate directly from native languages where age is viewed as something you have.',
+              why: 'Learners translate directly from native languages where age is viewed as a possession.',
               rule: 'Always use "to be" for age in English.',
               examples: [
                 'She is 25.',
@@ -1113,271 +1387,81 @@
       }
     },
     {
-      id: 'preset-top10-verbs',
-      name: 'Top 10 Verbs & Lexical Set',
-      description: 'Lexical guide with pronunciation, conjugation tables, and real spoken examples',
+      id: 'preset-thursday-stories',
+      name: 'Thursday Stories',
+      description: 'Weekly website-only narrative storytelling and personal immersion chronicles',
       create: (opts = {}) => {
         const lang = opts.language || 'en';
         const date = opts.date || new Date().toISOString().slice(0, 10);
         return {
-          id: `post-top-10-verbs-${Date.now()}`,
-          slug: `top-10-verbs-edition-${lang}`,
+          id: `post-thursday-stories-${Date.now()}`,
+          slug: `thursday-stories-new-chapter-${lang}`,
           language: lang,
           draft: true,
-          desk: 'Words',
-          format: 'ranking',
-          level: 'A0–A1',
-          issue: {
-            number: 'Vol. 2026.11',
-            title: 'November Editorial Issue'
-          },
+          contentType: 'evergreen',
+          desk: 'Thursday Stories',
+          format: 'essay',
+          level: 'A2–B1',
           date: date,
-          title: 'The Top 10 High-Frequency Verbs for Confident Speech',
-          kicker: 'CORE VOCABULARY',
-          dek: 'Master the ten verbs that unlock 80% of everyday speaking situations with zero hesitation.',
-          tags: ['Vocabulary', 'Top10', 'Verbs'],
+          title: 'Thursday Stories: The Day the Dictionary Stayed in My Pocket',
+          kicker: 'THURSDAY STORIES • WEBSITE EDITION',
+          dek: 'A reflective narrative on surviving an unexpected afternoon market conversation relying solely on communicative gesture and curiosity.',
+          tags: ['ThursdayStories', 'Storytelling', 'Immersion', 'WebsiteOnly'],
           readingTime: 5,
           podcast: {
-            episode: 2,
+            episode: 1,
             audioUrl: null
           },
           artDirection: {
-            palette: ['#047857', '#faf8f5', '#1e293b', '#10b981'],
-            fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
+            palette: ['#9333ea', '#faf7f2', '#18181b', '#c084fc'],
+            fonts: { display: 'Fraunces', text: 'Commissioner', accent: 'Caveat' },
             layout: 'magazine-spread',
-            motif: 'editorial-stars',
-            seed: 'top10-seed',
+            motif: 'notebook-handwritten',
+            seed: 'thursday-stories-seed',
             coverOverride: null
           },
           blocks: [
             {
               type: 'paragraph',
-              text: 'When starting in a new language, ten well-chosen verbs give you an immediate voice in real-world conversations.',
-              say: 'When learning a language, ten high frequency verbs allow you to build hundreds of daily sentences.'
-            },
-            {
-              type: 'image',
-              url: 'images/stop-translating-flow-en.svg',
-              alt: 'Visual Flow of High-Frequency Conversational Verbs',
-              caption: 'High-frequency verbs serve as the functional core for spontaneous conversations.',
-              say: 'Notice how these core verbs connect the foundational ideas of daily communication.'
-            },
-            {
-              type: 'heading',
-              level: 2,
-              text: '1. To Want / Would Like',
-              say: 'First verb: to want and would like.'
-            },
-            {
-              type: 'example',
-              targetText: 'I would like a coffee, please.',
-              gloss: 'Polite spoken request for cafes and restaurants.',
-              context: 'Daily ordering',
-              say: 'I would like a coffee, please.'
-            },
-            {
-              type: 'table',
-              caption: 'Quick Conjugation Summary',
-              printable: true,
-              headers: ['Person', 'Present Form', 'Past Form'],
-              rows: [
-                ['I', 'want', 'wanted'],
-                ['You', 'want', 'wanted'],
-                ['He / She', 'wants', 'wanted']
-              ],
-              say: 'Notice how the third person takes an s in the present.'
-            },
-            {
-              type: 'links',
-              destination: 'cosytools',
-              url: 'https://cosylanguages.github.io/COSYtools/',
-              label: 'Explore all verb conjugations in COSYtools',
-              say: 'Visit COSYtools for complete conjugation tables.'
-            }
-          ]
-        };
-      }
-    },
-    {
-      id: 'preset-grammar-made-cosy',
-      name: 'Grammar Made Cosy',
-      description: 'Pedagogical timeline breakdown demystifying complex grammar rules into simple frameworks',
-      create: (opts = {}) => {
-        const lang = opts.language || 'en';
-        const date = opts.date || new Date().toISOString().slice(0, 10);
-        return {
-          id: `post-grammar-cosy-${Date.now()}`,
-          slug: `demystifying-grammar-guide-${lang}`,
-          language: lang,
-          draft: true,
-          desk: 'Grammar Made Cosy',
-          format: 'essay',
-          level: 'A1–A2',
-          issue: {
-            number: 'Vol. 2026.10',
-            title: 'October Editorial Issue'
-          },
-          date: date,
-          title: 'Demystifying Verb Tenses: A Visual Timeline Guide',
-          kicker: 'GRAMMAR MADE COSY',
-          dek: 'Understanding time, aspect, and completion without memorizing confusing grammatical jargon.',
-          tags: ['Grammar', 'Timelines', 'CosyGuides'],
-          readingTime: 6,
-          podcast: {
-            episode: 3,
-            audioUrl: null
-          },
-          artDirection: {
-            palette: ['#0284c7', '#faf7f2', '#0f172a', '#38bdf8'],
-            fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
-            layout: 'magazine-spread',
-            motif: 'editorial-stars',
-            seed: 'grammar-cosy-seed',
-            coverOverride: null
-          },
-          blocks: [
-            {
-              type: 'paragraph',
-              text: 'Grammar becomes intuitive when viewed as a spatial timeline rather than an arbitrary list of rules.',
-              say: 'Grammar becomes intuitive when you visualize where an action sits on a timeline.'
+              text: 'Every Thursday, we share personal narratives and real immersion moments from language learners around the world. These are stories about bravery, awkward smiles, and the joy of being understood.',
+              say: 'Welcome to Thursday Stories. Today we explore what happens when we leave the safety of our dictionaries and step into the living world.'
             },
             {
               type: 'pullquote',
-              quote: 'Tense tells you when; aspect tells you how an action unfolds.',
-              attribution: 'COSY Grammar Atelier',
-              say: 'Remember: tense tells you when, and aspect tells you how the action unfolds.'
+              quote: 'You do not learn a language to live; you live, and language gathers around you like light.',
+              attribution: 'COSY Storyteller Ledger',
+              say: 'You do not learn a language to live; you live, and language gathers around you.'
             },
             {
               type: 'image',
               url: 'images/off-script-flow-en.svg',
-              alt: 'Temporal Timeline and Aspect Architecture',
-              caption: 'Mapping moments in time: completed events, continuing durations, and habit loops.',
-              say: 'Visualize this architecture whenever you hesitate on verb tenses.'
+              alt: 'Immersion Journey Narrative Path',
+              caption: 'The immersion path: listening to cadence, sensing context, and daring to speak.',
+              say: 'Here is our narrative map of the daily immersion journey.'
             },
             {
               type: 'heading',
               level: 2,
-              text: 'The Present: Ongoing vs Habitual',
-              say: 'Let us examine ongoing actions versus habitual routines.'
+              text: 'A Conversation in the Rain',
+              say: 'Part one: a conversation in the rain.'
             },
-            {
-              type: 'example',
-              targetText: 'I am reading a book right now vs I read every evening.',
-              gloss: 'Point in time (ongoing) vs recurring habit.',
-              context: 'Spoken distinction',
-              say: 'Compare: I am reading right now versus I read every evening.'
-            },
-            {
-              type: 'quiz',
-              question: 'Which sentence describes a permanent routine?',
-              options: [
-                'She is working at the library today.',
-                'She works at the library.',
-                'She worked at the library.'
-              ],
-              correctIndex: 1,
-              explanation: 'Simple present indicates regular routines and general facts.',
-              say: 'Check your intuition with this quick question.'
-            },
-            {
-              type: 'links',
-              destination: 'cosytools',
-              url: 'https://cosylanguages.github.io/COSYtools/',
-              label: 'Interactive Grammar & Conjugation Engine on COSYtools',
-              say: 'Explore our interactive grammar visualizer in COSYtools.'
-            }
-          ]
-        };
-      }
-    },
-    {
-      id: 'preset-fluency-culture',
-      name: 'Fluency & Cultural Insights',
-      description: 'Nuanced article featuring cultural marginalia, quote wall, and phrase upgrades',
-      create: (opts = {}) => {
-        const lang = opts.language || 'en';
-        const date = opts.date || new Date().toISOString().slice(0, 10);
-        return {
-          id: `post-fluency-culture-${Date.now()}`,
-          slug: `the-art-of-spoken-confidence-${lang}`,
-          language: lang,
-          draft: true,
-          desk: 'Say It',
-          format: 'photo-essay',
-          level: 'A2–B1',
-          issue: {
-            number: 'Vol. 2026.09',
-            title: 'September Editorial Issue'
-          },
-          date: date,
-          title: 'The Art of Spoken Confidence: Going Beyond the Script',
-          kicker: 'SPEAKING FIRST',
-          dek: 'How to manage pauses, keep conversations moving, and embrace the rhythm of everyday speech.',
-          tags: ['SpeakingFirst', 'Culture', 'Fluency'],
-          readingTime: 4,
-          podcast: {
-            episode: 4,
-            audioUrl: null
-          },
-          artDirection: {
-            palette: ['#7c3aed', '#faf8f5', '#18181b', '#c084fc'],
-            fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
-            layout: 'magazine-spread',
-            motif: 'editorial-stars',
-            seed: 'fluency-culture-seed',
-            coverOverride: null
-          },
-          blocks: [
             {
               type: 'paragraph',
-              text: 'Conversations rarely follow textbook scripts. True fluency starts when you feel comfortable responding off the cuff.',
-              say: 'Real conversations rarely follow textbook scripts. Confidence comes from learning how to pivot naturally.'
+              text: 'The rain had begun without warning. Huddled beneath the canvas awning of an old fruit vendor, I wanted to apologize for taking up space. My pocket held a smartphone loaded with translator apps. But instead of looking down at the screen, I caught the vendor’s eye, smiled, and pointed to the ripe figs.',
+              say: 'The rain had begun without warning. Instead of pulling out a dictionary, I looked up, smiled, and pointed to the ripe figs.'
             },
             {
               type: 'culture-bite',
-              title: 'Conversational Silence Across Cultures',
-              content: 'In French or Italian conversations, a short silence is immediately filled with a friendly gesture or conversational bridge. In Nordic speech, a thoughtful pause indicates deep respect for what was said.',
-              say: 'Notice how different cultures interpret a thoughtful pause during a chat.'
-            },
-            {
-              type: 'heading',
-              level: 2,
-              text: 'Natural Phrase Upgrades',
-              say: 'Here are natural phrase upgrades to keep conversational momentum.'
-            },
-            {
-              type: 'list-item',
-              ordered: false,
-              items: [
-                'I don’t know → Let me think about that for a second',
-                'What? → Could you say that again? I missed the last word',
-                'Yes, I understand → That makes complete sense'
-              ],
-              say: 'Upgrade basic responses to maintain warm rapport with your interlocutor.'
-            },
-            {
-              type: 'image',
-              url: 'images/off-script-flow-en.svg',
-              alt: 'Navigating conversational ambiguity diagram',
-              caption: 'Embracing improvisation: listening, bridging, and continuing with calm grace.',
-              say: 'Notice how conversation dynamics shift when you treat pauses as thinking space.'
-            },
-            {
-              type: 'quote-wall',
-              quotes: [
-                {
-                  quote: 'Language is the road map of a culture. It tells you where its people come from and where they are going.',
-                  author: 'Rita Mae Brown'
-                }
-              ],
-              say: 'Rita Mae Brown noted that language is the roadmap of a culture.'
+              title: '💡 Story Spark: Communicative Empathy',
+              content: 'When we drop our defenses and use authentic non-verbal warmth, interlocutors instinctively slow down and meet us halfway.',
+              say: 'When we show communicative vulnerability, people instinctively slow down and meet us halfway.'
             },
             {
               type: 'links',
               destination: 'practice',
               url: 'https://cosylanguages.github.io/COSYpractice/',
-              label: 'Join our Spoken Audio Rooms on COSYpractice',
-              say: 'Take what you learned and practice speaking live on COSYpractice.'
+              label: 'Share your own immersion story on COSYpractice',
+              say: 'Share your own speaking stories with fellow learners on COSYpractice.'
             }
           ]
         };
@@ -1482,6 +1566,46 @@
           ['Down', '5', 'CURIOSITY — Einstein quote: passionately inquisitive beginner spirit', '9 letters']
         ],
         say: 'Review the crossword clues extracted from this edition.'
+      })
+    },
+    {
+      id: 'timeline_visual',
+      label: 'Visual Timeline',
+      icon: '⏳',
+      description: 'Constructing element for grammar: spatial timeline mapping past, present, and future aspect',
+      create: () => ({
+        type: 'paragraph',
+        text: '<div class="cosy-timeline"><div class="timeline-labels"><span>Past</span><span class="timeline-now-label">NOW</span><span>Future</span></div><div class="timeline-line"><div class="timeline-event" style="left:18%; width:20%;"><div class="timeline-bar"></div><div class="timeline-card"><strong>Past Simple</strong><p>Event completed before now</p></div></div><div class="timeline-event" style="left:48%; width:4%;"><div class="timeline-bar"></div><div class="timeline-card"><strong>Present Simple</strong><p>Regular habit or universal truth</p></div></div><div class="timeline-now"></div></div></div>',
+        say: 'Follow the spatial timeline to see how action points relate to right now.'
+      })
+    },
+    {
+      id: 'decision_tree_grammar',
+      label: 'Decision Tree',
+      icon: '🌲',
+      description: 'Constructing element for grammar: branch-by-branch condition tree for choosing correct forms',
+      create: () => ({
+        type: 'paragraph',
+        text: '<figure class="cosy-fig"><p class="cosy-fig-kicker">Grammar Decision Tree</p><p class="cosy-fig-title">Which structure should I choose?</p><div class="dtree-q">What kind of action are you describing?</div><ul class="dtree"><li><span class="dtree-if">An action <strong>in progress right now</strong></span><span class="dtree-then"><span class="arr" aria-hidden="true">→</span><span class="vtag is-everyday"><span class="vtag-ic" aria-hidden="true">💬</span>Continuous Form</span></span><span class="dtree-ex">I am practicing speaking right now.</span></li><li><span class="dtree-if">A general <strong>routine or permanent state</strong></span><span class="dtree-then"><span class="arr" aria-hidden="true">→</span><span class="vtag is-everyday"><span class="vtag-ic" aria-hidden="true">💬</span>Simple Form</span></span><span class="dtree-ex">I practice speaking every morning.</span></li></ul></figure>',
+        say: 'Use this decision tree to decide step by step which grammatical form to choose.'
+      })
+    },
+    {
+      id: 'stop_translating_frames',
+      label: 'Stop! Frames Table',
+      icon: '🛑',
+      description: 'Constructing element for vocabulary: Stop Translating sentence frames and substitution formulas',
+      create: () => ({
+        type: 'table',
+        caption: 'Stop Translating! High-Yield Conversational Frames',
+        printable: true,
+        headers: ['Target Meaning', 'Circumlocution Frame', 'Real Spoken Example'],
+        rows: [
+          ['Describe an object', 'It’s a kind of… / You use it for…', 'It’s a kind of gadget you use to open bottles.'],
+          ['State an impression', 'It gives the feeling of…', 'The city gives the feeling of calm elegance.'],
+          ['Ask for precision', 'Could you rephrase that in other words?', 'Could you rephrase that with a different example?']
+        ],
+        say: 'Review the Stop Translating frames to bypass literal mental translation.'
       })
     }
   ];

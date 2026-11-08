@@ -33,8 +33,17 @@ test('CosyEditorBlocks - All 13 canonical block definitions exist and instantiat
   });
 });
 
-test('CosyEditorBlocks - All article presets pass scripts/validate-blog-schema.js and include image & link blocks', () => {
-  assert.ok(Blocks.ARTICLE_PRESETS.length >= 4);
+test('CosyEditorBlocks - All 5 canonical website article presets pass schema validation and feature expected content patterns', () => {
+  assert.equal(Blocks.ARTICLE_PRESETS.length, 5);
+
+  const presetIds = Blocks.ARTICLE_PRESETS.map(p => p.id);
+  assert.deepStrictEqual(presetIds, [
+    'preset-cosytalks',
+    'preset-grammar-by-cosy',
+    'preset-words-by-cosy',
+    'preset-saturday-mistakes',
+    'preset-thursday-stories'
+  ]);
 
   Blocks.ARTICLE_PRESETS.forEach(preset => {
     const postData = preset.create({ language: 'en' });
@@ -47,6 +56,29 @@ test('CosyEditorBlocks - All article presets pass scripts/validate-blog-schema.j
     assert.ok(hasImage, `Preset ${preset.name} must feature an image building block`);
     assert.ok(hasLink, `Preset ${preset.name} must feature an ecosystem links building block`);
   });
+
+  // Check specific constructing elements and templates
+  const cosytalks = Blocks.ARTICLE_PRESETS.find(p => p.id === 'preset-cosytalks').create();
+  assert.equal(cosytalks.desk, 'COSYtalks');
+  assert.ok(cosytalks.blocks.some(b => b.type === 'pullquote'));
+
+  const grammarByCosy = Blocks.ARTICLE_PRESETS.find(p => p.id === 'preset-grammar-by-cosy').create();
+  assert.equal(grammarByCosy.desk, 'Grammar by COSY');
+  assert.ok(grammarByCosy.blocks.some(b => b.text && b.text.includes('cosy-timeline')), 'Grammar by COSY must include timeline element');
+  assert.ok(grammarByCosy.blocks.some(b => b.text && b.text.includes('dtree')), 'Grammar by COSY must include decision tree element');
+
+  const wordsByCosy = Blocks.ARTICLE_PRESETS.find(p => p.id === 'preset-words-by-cosy').create();
+  assert.equal(wordsByCosy.desk, 'Words by COSY');
+  const tables = wordsByCosy.blocks.filter(b => b.type === 'table');
+  assert.ok(tables.length >= 2, 'Words by COSY must feature Stop! and Top Words tables');
+
+  const satMistakes = Blocks.ARTICLE_PRESETS.find(p => p.id === 'preset-saturday-mistakes').create();
+  assert.equal(satMistakes.desk, 'Saturday Mistakes');
+  assert.equal(satMistakes.issue, undefined, 'Saturday Mistakes must be website-only (no issue volume)');
+
+  const thuStories = Blocks.ARTICLE_PRESETS.find(p => p.id === 'preset-thursday-stories').create();
+  assert.equal(thuStories.desk, 'Thursday Stories');
+  assert.equal(thuStories.issue, undefined, 'Thursday Stories must be website-only (no issue volume)');
 });
 
 test('CosyEditorBlocks - Article presets support multi-language codes', () => {

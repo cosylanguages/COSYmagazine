@@ -36,7 +36,11 @@
   ];
 
   const DESKS = [
+    'COSYtalks',
+    'Grammar by COSY',
+    'Words by COSY',
     'Saturday Mistakes',
+    'Thursday Stories',
     'Words',
     'Grammar Made Cosy',
     'Grammar',
@@ -44,7 +48,6 @@
     'Front Page',
     'Culture & Quotes',
     'Long Reads',
-    'COSYtalks',
     'The Podcast',
     'Cosy Events',
     'Reflections',
@@ -179,7 +182,7 @@
     const dateOk = filled(post.date) && /^\d{4}-\d{2}-\d{2}$/.test(post.date) && !isNaN(Date.parse(post.date));
     add('date', dateOk ? 'ok' : 'error', 'Publication date', dateOk ? '' : 'Pick a valid date.');
 
-    if (contentTypeOf(post) === 'issue-article') {
+    if (contentTypeOf(post) === 'issue-article' || (post && post.issue)) {
       const issueOk = !!(post.issue && filled(post.issue.number) && filled(post.issue.title));
       add('issue', issueOk ? 'ok' : 'error', 'Issue number and title', issueOk ? '' : 'Both are required for an issue article. Untick "Part of a magazine" for a standalone piece.');
     }
@@ -964,6 +967,15 @@
       language: (currentPost && currentPost.language) || 'en',
       date: new Date().toISOString().slice(0, 10)
     });
+
+    // If template is website-only (e.g. Saturday Mistakes or Thursday Stories), switch to Website mode and decouple issue
+    if (preset.id === 'preset-saturday-mistakes' || preset.id === 'preset-thursday-stories') {
+      delete postData.issue;
+      postData.contentType = 'evergreen';
+      setConstructorMode('website');
+      setMagazinePart(false);
+    }
+
     setCurrentPost(postData);
     setStatus(`Initialized template: ${preset.name}`, 'info');
   }
