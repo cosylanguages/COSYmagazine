@@ -1336,6 +1336,357 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Dopo i dieci verbi: tre meccanismi per dire tutto",
+      "say": "Dopo i dieci verbi: tre meccanismi per dire tutto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conosci dieci verbi. Mancano tre meccanismi per farne frasi vere: dire di no, fare domande e combinare due verbi.",
+      "say": "Conosci dieci verbi. Mancano tre meccanismi per farne frasi vere: dire di no, fare domande e combinare due verbi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. La negazione: «non» prima del verbo",
+      "say": "1. La negazione: «non» prima del verbo"
+    },
+    {
+      "type": "paragraph",
+      "text": "In italiano la negazione è semplice: **non + verbo**.",
+      "say": "In italiano la negazione è semplice: non + verbo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Soggetto",
+        "non",
+        "Verbo",
+        "Resto"
+      ],
+      "rows": [
+        [
+          "Io",
+          "non",
+          "sono",
+          "medico."
+        ],
+        [
+          "Tu",
+          "non",
+          "hai",
+          "fame."
+        ],
+        [
+          "Lei",
+          "non",
+          "è",
+          "qui."
+        ],
+        [
+          "Noi",
+          "non",
+          "vogliamo",
+          "uscire."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Con niente, nessuno e mai, l'italiano mette **non** davanti al verbo: «Non ho niente.» «Non vedo nessuno.» «Non vado mai.» Con un pronome, «non» va prima: «Non lo so.»",
+      "say": "Con niente, nessuno e mai, l'italiano mette non davanti al verbo: «Non ho niente.» «Non vedo nessuno.» «Non vado mai.» Con un pronome, «non» va prima: «Non lo so.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Fare domande",
+      "say": "2. Fare domande"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per chiedere basta alzare l'intonazione: «Hai fame?» Con una parola interrogativa, comincia da quella:",
+      "say": "Per chiedere basta alzare l'intonazione: «Hai fame?» Con una parola interrogativa, comincia da quella:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Parola",
+        "Domanda",
+        "Risposta"
+      ],
+      "rows": [
+        [
+          "Dove?",
+          "Dove sei?",
+          "Sono a casa."
+        ],
+        [
+          "Che cosa?",
+          "Che cosa vuoi?",
+          "Voglio un caffè."
+        ],
+        [
+          "Quando?",
+          "Quando vai?",
+          "Vado domani."
+        ],
+        [
+          "Perché?",
+          "Perché studi l'italiano?",
+          "Perché voglio viaggiare."
+        ],
+        [
+          "Come?",
+          "Come stai?",
+          "Sto bene."
+        ],
+        [
+          "Chi?",
+          "Chi è?",
+          "È un mio amico."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Per rispondere a una domanda negativa, «sì» conferma il positivo: «Non hai fame? — Sì, ho fame. / No, non ho fame.»",
+      "say": "Per rispondere a una domanda negativa, «sì» conferma il positivo: «Non hai fame? — Sì, ho fame. / No, non ho fame.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Combinare due verbi",
+      "say": "3. Combinare due verbi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Il primo verbo è coniugato e il secondo resta all'infinito. Dopo **volere** e **potere** non serve nessuna preposizione; dopo **pensare** si usa «di»; dopo **studiare** e **lavorare** si usa «per» per indicare lo scopo.",
+      "say": "Il primo verbo è coniugato e il secondo resta all'infinito. Dopo volere e potere non serve nessuna preposizione; dopo pensare si usa «di»; dopo studiare e lavorare si usa «per» per indicare lo scopo."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1° verbo",
+        "+ essere",
+        "+ avere",
+        "+ mangiare / bere",
+        "+ andare"
+      ],
+      "rows": [
+        [
+          "**volere**",
+          "Voglio essere medico.",
+          "Voglio avere un cane.",
+          "Voglio mangiare qualcosa.",
+          "Voglio andare a Roma."
+        ],
+        [
+          "**potere**",
+          "Posso essere lì a mezzogiorno.",
+          "Posso avere il libro fino a lunedì.",
+          "Posso bere dell'acqua?",
+          "Posso andare in bagno?"
+        ],
+        [
+          "**piacere**",
+          "Mi piace stare a casa.",
+          "Mi piace avere tempo libero.",
+          "Mi piace mangiare fuori.",
+          "Mi piace andare al cinema."
+        ],
+        [
+          "**pensare di**",
+          "Penso di essere pronto.",
+          "Penso di avere ragione.",
+          "Penso di mangiare presto.",
+          "Penso di andare a Roma."
+        ],
+        [
+          "**per** (studiare, lavorare)",
+          "Studio per essere medico.",
+          "Lavoro per avere una casa.",
+          "Lavoro per mangiare.",
+          "Lavoro per andare in vacanza."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "«Non» va davanti al **primo** verbo: «Non voglio mangiare.» «Non posso andare.» Dopo «pensare che» e «sapere che» comincia una nuova frase: «Penso che sia utile.» «Sappiamo che hai ragione.»",
+      "say": "«Non» va davanti al primo verbo: «Non voglio mangiare.» «Non posso andare.» Dopo «pensare che» e «sapere che» comincia una nuova frase: «Penso che sia utile.» «Sappiamo che hai ragione.»"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Stare + gerundio: adesso",
+      "say": "Stare + gerundio: adesso"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per dire «lo sto facendo adesso» usa **stare + gerundio**. I verbi in -are fanno -ando, quelli in -ere e -ire fanno -endo: mangiare → mangiando, lavorare → lavorando.",
+      "say": "Per dire «lo sto facendo adesso» usa stare + gerundio. I verbi in -are fanno -ando, quelli in -ere e -ire fanno -endo: mangiare → mangiando, lavorare → lavorando."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dico…",
+        "Significa",
+        "Parole utili"
+      ],
+      "rows": [
+        [
+          "**Mangio** alle due.",
+          "di solito",
+          "spesso, ogni giorno"
+        ],
+        [
+          "**Sto mangiando.**",
+          "adesso, l'azione è in corso",
+          "in questo momento"
+        ],
+        [
+          "**Sto per mangiare.**",
+          "tra pochissimo",
+          "subito, tra un attimo"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Trappole frequenti",
+      "say": "Trappole frequenti"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Quasi giusto",
+        "Meglio così"
+      ],
+      "rows": [
+        [
+          "Sono fame.",
+          "Ho fame."
+        ],
+        [
+          "Sono 25 anni.",
+          "Ho 25 anni."
+        ],
+        [
+          "Voglio di mangiare.",
+          "Voglio mangiare."
+        ],
+        [
+          "Posso a andare.",
+          "Posso andare."
+        ],
+        [
+          "Mi piaccio il caffè.",
+          "Mi piace il caffè."
+        ],
+        [
+          "So Marco.",
+          "Conosco Marco."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Tocca a te: due serie di esercizi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Completa ogni frase con la forma giusta e dilla ad alta voce. Le soluzioni sono qui sotto."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Io ___ pronto. (essere)",
+        "Tu ___ una penna. (avere)",
+        "Noi ___ al cinema. (andare)",
+        "A lei ___ il caffè. (piacere)",
+        "___ aprire la finestra? (potere, tu)",
+        "Loro ___ alle due. (mangiare)",
+        "Io ___ Marco. (conoscere)",
+        "Io ___ un caffè, per favore. (volere, forma di cortesia)"
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Io ___ bere un caffè. (volere)",
+        "Noi ___ andare al cinema. (volere)",
+        "Lei non ___ mangiare. (volere)",
+        "___ essere paziente? (tu, sapere)",
+        "Loro ___ mangiare alle due. (potere)",
+        "___ andare al mare? (potere, noi)",
+        "Io ___ l'italiano. (imparare)",
+        "Lei ___ medicina. (studiare)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Soluzioni"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Io sono pronto.",
+        "Tu hai una penna.",
+        "Noi andiamo al cinema.",
+        "A lei piace il caffè.",
+        "Puoi aprire la finestra?",
+        "Loro mangiano alle due.",
+        "Io conosco Marco.",
+        "Io vorrei un caffè, per favore."
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Io voglio bere un caffè.",
+        "Noi vogliamo andare al cinema.",
+        "Lei non vuole mangiare.",
+        "Sai essere paziente?",
+        "Loro possono mangiare alle due.",
+        "Possiamo andare al mare?",
+        "Io imparo l'italiano.",
+        "Lei studia medicina."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "La tua presentazione in dieci frasi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per finire, presentati: una frase per ogni verbo, con la tua vita."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Essere:** Sono ___ . (lavoro, nazionalità)",
+        "**Avere:** Ho ___ anni. Ho un / una ___ .",
+        "**Pensare:** Penso che ___ . Penso a ___ .",
+        "**Sapere / conoscere:** So ___ . Conosco ___ .",
+        "**Piacere / amare:** Mi piace ___ . Non mi piace ___ .",
+        "**Volere:** Voglio ___ . Vorrei ___ .",
+        "**Lavorare / studiare:** Lavoro ___ . Studio ___ .",
+        "**Andare:** Vado a ___ . (al lavoro, a scuola)",
+        "**Potere:** Posso ___ . Non posso ___ .",
+        "**Mangiare / bere:** Mangio ___ a pranzo. Bevo ___ la mattina."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Strutture grammaticali per principianti (A0–A1 / A2)",
       "say": "Strutture grammaticali per principianti (A0–A1 / A2)"
     },
