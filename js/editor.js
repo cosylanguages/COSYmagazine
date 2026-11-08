@@ -218,6 +218,16 @@
       add('ledger', 'warn', 'Fact-check ledger', `${open.length} of ${LEDGER_ITEMS.length - 1} checks still open: ${open.map(o => o[1].split(' ')[0].toLowerCase()).join(', ')}.`);
     }
 
+    // Scheduled release
+    if (post.publishAt) {
+      const today = new Date().toISOString().slice(0, 10);
+      if (post.draft !== false) {
+        add('schedule', 'warn', 'Publish date', `The publish date ${post.publishAt} only applies once the status is Published.`);
+      } else if (post.publishAt > today) {
+        add('schedule', 'ok', 'Scheduled release', `Held back until ${post.publishAt}; goes live with the daily release (about 05:15 UTC).`);
+      }
+    }
+
     // Paper edition
     if (PrintSpec) {
       const est = PrintSpec.estimateArticlePages(post);
@@ -311,6 +321,7 @@
         el.addEventListener('change', () => { setLedgerItem(el.getAttribute('data-ledger'), el.value); });
       });
     }
+    const pub = $('ed-publish-at'); if (pub) pub.value = currentPost.publishAt || '';
     const pages = $('ed-print-pages');
     if (pages) pages.value = (currentPost.print && currentPost.print.pages) || '';
     renderPrintSummary();
@@ -346,6 +357,10 @@
     on('ed-owner', 'input', el => { ensureWorkflow(currentPost).owner = el.value; markDirty(); });
     on('ed-notes', 'input', el => { ensureWorkflow(currentPost).notes = el.value; markDirty(); });
     on('ed-real-person', 'change', el => { ensureWorkflow(currentPost).featuresRealPerson = el.checked; markDirty(); });
+    on('ed-publish-at', 'change', el => {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(el.value)) currentPost.publishAt = el.value; else delete currentPost.publishAt;
+      markDirty();
+    });
     on('ed-print-pages', 'input', el => {
       const n = parseInt(el.value, 10);
       if (n > 0) currentPost.print = Object.assign({}, currentPost.print, { pages: n });

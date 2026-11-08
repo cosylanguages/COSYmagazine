@@ -106,6 +106,11 @@ function validatePostSchema(postObj, sourceName = 'object') {
   }
 
   // Date format YYYY-MM-DD
+  if (postObj.publishAt !== undefined) {
+    if (typeof postObj.publishAt !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(postObj.publishAt) || isNaN(Date.parse(postObj.publishAt))) {
+      errors.push(`[${sourceName}] Invalid publishAt "${postObj.publishAt}". Must be YYYY-MM-DD.`);
+    }
+  }
   if (postObj.date && (!/^\d{4}-\d{2}-\d{2}$/.test(postObj.date) || isNaN(Date.parse(postObj.date)))) {
     errors.push(`[${sourceName}] Invalid date format "${postObj.date}". Must be YYYY-MM-DD.`);
   }
