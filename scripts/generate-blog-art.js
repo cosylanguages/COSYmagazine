@@ -88,7 +88,7 @@ async function generateBlogArt() {
           desk,
           slug: post.slug,
           artDirection: post.artDirection,
-          issue: { number: post.issue_volume || 'Vol. 2026.08', title: post.issue_title || '' }
+          issue: { number: post.issue_volume || '', title: post.issue_title || '' }
         },
         { width: 1200, height: 630 }
       );

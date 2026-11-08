@@ -17,7 +17,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `format` | `string` | Yes | Article presentation format type. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
 | `section` | `string` | No | Specific magazine section taxonomy (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
 | `level` | `string` | Yes | CEFR proficiency level targeted by the content. | `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–A1"`, `"A1–A2"`, `"B1–B2"`, `"C1–C2"`, `"A0–B2"` |
-| `issue` | `object` | Yes | Magazine issue volume & title metadata object. | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
+| `issue` | `object` | Yes for issue articles, optional for `evergreen` and `podcast-companion` | Magazine issue volume & title metadata object. Omit it entirely for standalone blog articles (do not invent a fake issue). | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
 | `date` | `string` | Yes | Publication date in `YYYY-MM-DD` ISO format. | `"2026-09-10"` |
 | `title` | `string` | Yes | Full article headline title. | `"Welcome to the COSY Editorial & Learning Corner"` |
 | `kicker` | `string` | Yes | Uppercase editorial kicker tag line above title. | `"EDITORIAL ROOM"` |
@@ -27,6 +27,10 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `podcast` | `object` | No | Optional episode metadata. The validator requires a numeric `episode` when this object is present. | `{ "episode": 1, "audioUrl": "audio/welcome-podcast.mp3" }` |
 | `artDirection`| `object` | Yes | Visual styling & stage direction metadata. | `{ "palette": ["#0d9488", "#faf7f2", "#1e293b"], "fonts": { "display": "Fraunces", "text": "DM Sans", "accent": "Fraunces Italic" }, "layout": "magazine-spread", "motif": "editorial-stars", "seed": "cosy-001", "coverOverride": null }` |
 | `blocks` | `block[]` | Yes | Array of structured content blocks forming the body. | See Block Types below |
+| `contentType` | `string` | No | What kind of piece this is. Posts without it are treated as issue articles. | `"issue-article"`, `"evergreen"`, `"podcast-companion"` |
+| `status` | `string` | No | Editorial workflow stage. Anything other than `"published"` must also have `"draft": true`. | `"idea"`, `"assigned"`, `"drafting"`, `"in-review"`, `"fact-checked"`, `"approved"`, `"published"` |
+| `workflow` | `object` | No | Owner, notes and the rights / fact-check ledger. See "Editorial workflow". | `{ "owner": "JY DM", "featuresRealPerson": false, "ledger": { "quotesVerified": "done" } }` |
+| `print` | `object` | No | Press metadata for the paper edition. | `{ "pages": 2 }` |
 
 ---
 
@@ -102,9 +106,35 @@ In addition, **every block MAY include optional stage direction fields**:
 
 ---
 
-## 3. Validation Enforcement
+## 3. Standalone articles, editorial workflow and print
 
-The validator checks required fields, allowed languages/desks/formats/block types, and block-specific structure. Run it with:
+### Standalone articles
+
+Set `"contentType": "evergreen"` (or `"podcast-companion"`) and leave `issue` out. The build never files such a post under a volume, and the website shows only the article's own title in the masthead. Issue articles keep `"contentType": "issue-article"` (or no `contentType`) and must have an `issue`.
+
+### Editorial workflow
+
+`status` moves an article from idea to publication: `idea → assigned → drafting → in-review → fact-checked → approved → published`. The build still uses `draft` as its only gate, so the validator enforces that every status other than `published` has `"draft": true`, and that `published` is not a draft. An article therefore cannot go live by accident while it is still in review.
+
+`workflow` holds the rest of the editorial record:
+
+- `owner` (`string`): who is responsible for the article.
+- `notes` (`string`): free-form editorial notes.
+- `featuresRealPerson` (`boolean`): set to `true` for interviews, spotlights and any story about a real learner or teacher. When `status` is `published`, the validator requires `ledger.consentOnFile` to be `"done"`.
+- `ledger` (`object`): each key is `"todo"`, `"done"` or `"na"`: `quotesVerified`, `claimsAttributed`, `consentOnFile`, `imageLicencesRecorded`, `noProtectedLyrics`, `proofread`. These mirror the verification rules in `docs/MAGAZINE_ISSUE_STRUCTURE.md`. Only `consentOnFile` blocks publication in the validator; the Studio warns about the rest.
+
+### Paper edition
+
+- `print.pages` (`number`, optional): overrides the Studio's page estimate once a layout proof exists.
+- Block `medium` (`"both"` | `"digital"` | `"print"`, optional, default `both`): `print` blocks (for example a printable crossword) are left out of the website and the read-aloud script; `digital` blocks (audio, interactive quizzes) are left out of the print preview.
+
+The full press specification is in `docs/PRINT_SPEC.md`.
+
+---
+
+## 4. Validation Enforcement
+
+The validator checks required fields, allowed languages/desks/formats/block types, content type, status/draft consistency, the consent rule for real people, and block-specific structure. Run it with:
 
 ```bash
 node scripts/validate-blog-schema.js

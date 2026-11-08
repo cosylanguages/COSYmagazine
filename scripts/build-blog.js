@@ -596,7 +596,8 @@ async function buildBlog() {
 
     // Render blocks statefully to apply drop cap on the first paragraph
     const blockState = { isFirstParagraph: true };
-    const renderedBlocksHtml = (post.blocks || []).map(b => renderBlockToHtml(b, blockState)).join('\n');
+    // Print-only blocks (medium: "print") never appear on the website
+    const renderedBlocksHtml = (post.blocks || []).filter(b => b.medium !== 'print').map(b => renderBlockToHtml(b, blockState)).join('\n');
     const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict, lang);
 
     // Inlined SVG cover art generated at build time
@@ -609,7 +610,8 @@ async function buildBlog() {
     const format = post.format || 'essay';
     const desk = post.desk || 'Words';
     const kicker = post.kicker || desk;
-    const issueNum = post.issue?.number || 'Vol. 2026.09';
+    // Standalone articles (no issue) are never filed under a volume
+    const issueNum = post.issue?.number || '';
 
     // Localize Issue Title per post language (No English fallback)
     let issueTitleKey = null;
@@ -657,7 +659,7 @@ async function buildBlog() {
 
     const postForScript = {
       ...post,
-      blocks: (post.blocks || []).filter(b => !b.webOnly),
+      blocks: (post.blocks || []).filter(b => !b.webOnly && b.medium !== 'print'),
       podcast: playerReady ? post.podcast : undefined,
       podcast: { ...(post.podcast || {}), audioUrl: resolveAudioUrl(post) },
       audio_podcast: false,
@@ -726,7 +728,7 @@ async function buildBlog() {
                 </div>
             </div>
             <div class="gazette-masthead-meta">
-                <span>${escapeHtml(issueNum)} • ${escapeHtml(issueTitle)}</span>
+                <span>${issueNum ? `${escapeHtml(issueNum)} • ${escapeHtml(issueTitle)}` : escapeHtml(issueTitle)}</span>
                 <span class="stamp-sticker" ${deskKey ? `data-i18n="desk.${deskKey}"` : ''}>${escapeHtml(translatedDesk)}</span>
                 <span>${escapeHtml(post.date)}</span>
             </div>
@@ -775,7 +777,7 @@ async function buildBlog() {
             </div>` : ''}
 
             <div class="gazette-folio">
-                <span>🗞️ COSYmagazine • ${escapeHtml(issueNum)}</span>
+                <span>🗞️ COSYmagazine${issueNum ? ` • ${escapeHtml(issueNum)}` : ''}</span>
                 <a href="index.html" class="read-more-link" data-i18n="blog.return_to_index">${escapeHtml(returnToIndexText)}</a>
                 <span>${escapeHtml(pageXofYText)}</span>
             </div>
@@ -850,8 +852,9 @@ async function buildBlog() {
       featured: Boolean(p.featured),
       type: 'post',
       url: `${p.slug}.html`,
-      issue_volume: p.issue?.number || 'Vol. 2026.08',
+      issue_volume: p.issue?.number || '',
       issue_title: p.issue?.title || 'COSY Editorial',
+      content_type: p.contentType || (p.issue ? 'issue-article' : 'evergreen'),
       cefr_level: p.level || 'A0–B2',
       vibe: 'Editorial Vibe',
       founder_notes: `Target-language guidance by JY DM for COSYmagazine ${p.issue?.title || 'COSY Editorial'} edition.`,
