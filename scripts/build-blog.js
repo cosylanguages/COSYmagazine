@@ -578,12 +578,16 @@ async function buildBlog() {
     process.exit(1);
   }
 
-  // 3. Filter published posts
-  const publishedPosts = allPosts.filter(p => !p.draft);
-  console.log(`📝 Processing ${publishedPosts.length} published post(s) (${allPosts.length - publishedPosts.length} draft(s) skipped)...`);
+  // 3. Filter published posts (drafts and posts scheduled for a later date are held back)
+  const { isLive, isScheduledForFuture, todayUTC } = require('./post-visibility');
+  const today = todayUTC();
+  const publishedPosts = allPosts.filter(p => isLive(p, today));
+  const scheduledPosts = allPosts.filter(p => isScheduledForFuture(p, today));
+  console.log(`📝 Processing ${publishedPosts.length} published post(s) (${allPosts.length - publishedPosts.length} held back: ${allPosts.filter(p => p.draft).length} draft(s), ${scheduledPosts.length} scheduled)...`);
+  scheduledPosts.forEach(p => console.log(`   ⏰ ${p.slug} goes live on ${p.publishAt}`));
 
-  // Drafts must not stay online from an earlier build
-  allPosts.filter(p => p.draft).forEach(p => fs.rmSync(path.join(BLOG_DIR, `${p.slug}.html`), { force: true }));
+  // Held-back posts must not stay online from an earlier build
+  allPosts.filter(p => !isLive(p, today)).forEach(p => fs.rmSync(path.join(BLOG_DIR, `${p.slug}.html`), { force: true }));
 
   // 4. Generate HTML pages for published posts
   publishedPosts.forEach(post => {

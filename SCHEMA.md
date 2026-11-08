@@ -140,3 +140,13 @@ The validator checks required fields, allowed languages/desks/formats/block type
 node scripts/validate-blog-schema.js
 ```
 The script inspects JSON post files in `posts/` and required interface keys in `js/i18n/`. It exits with code `0` if validation passes, or `1` if validation fails. Some descriptive conventions in this document (for example, tag element types and optional block properties) are not currently enforced by the validator.
+
+### Scheduled publishing
+
+| Field | Type | Notes |
+| --- | --- | --- |
+| `publishAt` | `YYYY-MM-DD` | Optional. With `draft: false`, the post is held back by the build until this date (UTC) and then goes live. Ignored on drafts. |
+
+`.github/workflows/scheduled-release.yml` rebuilds the site daily (about 05:15 UTC) and
+commits only when something real changed. `date` is the display date and is not a
+publishing gate. The build prints scheduled posts as `goes live on <date>`.

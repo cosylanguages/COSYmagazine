@@ -249,3 +249,7 @@ The home page shows cards in **English, French, Italian, Russian and Greek**, fo
   Paper-only blocks are left out of the website.
 - **Paper planning**: use Start, "Plan an issue (pages)". Details and what is not
   automated are in `docs/PRINT_SPEC.md`. Fields are in `SCHEMA.md`.
+- **Scheduling**: set a publish date in the Editorial tab and publish. The site holds
+  the article back and releases it on that day with the daily run. To cancel, clear
+  the date or set the status back to a draft state. The release runs once a day, so
+  a post can go live up to a day after midnight UTC.
