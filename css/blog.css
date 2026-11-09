@@ -2165,3 +2165,15 @@ html[data-theme="dark"] .september-banner-content p {
     color: #d6d3d1;
 }
 
+
+/* Ten verbs x fourteen languages (last page of the Top 10 Verbs guides) */
+.gazette-compare-matrix { font-size: 0.78rem; line-height: 1.35; }
+.gazette-compare-matrix th,
+.gazette-compare-matrix td { padding: 0.35rem 0.45rem; vertical-align: top; }
+.gazette-compare-matrix tbody th { white-space: nowrap; }
+.gazette-compare-matrix td small { display: inline-block; min-width: 1.7em; font-size: 0.68em; font-weight: 700; letter-spacing: 0.04em; opacity: 0.65; }
+.gazette-compare-matrix td span { overflow-wrap: anywhere; }
+.gazette-compare-matrix td br { display: none; }
+.gazette-compare-matrix td span::after { content: "  \00B7  "; opacity: 0.4; }
+.gazette-compare-matrix td span:last-of-type::after { content: ""; }
+.gazette-compare-matrix td small { min-width: 0; margin-right: 0.15em; }

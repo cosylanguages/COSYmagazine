@@ -242,7 +242,34 @@
    * `posts`: full post objects (with blocks). Returns { rows, plan } where each row
    * has { slug, title, words, pages, exact, source }.
    */
-  function summarizeIssue(posts, options, spec) {
+  const LANGUAGE_NAMES = {
+    en: 'English', fr: 'French', it: 'Italian', es: 'Spanish', pt: 'Portuguese', de: 'German',
+    ru: 'Russian', el: 'Greek', br: 'Breton', hy: 'Armenian', ka: 'Georgian',
+    tt: 'Tatar', ba: 'Bashkir', cv: 'Chuvash'
+  };
+
+  /** A post's language; posts without one are English. */
+  function postLanguage(post) {
+    return (post && post.language) || 'en';
+  }
+
+  /** Languages present in a list of posts, English first, then alphabetical. */
+  function languagesOf(posts) {
+    const set = new Set((posts || []).map(postLanguage));
+    return Array.from(set).sort((a, b) => (a === 'en' ? -1 : b === 'en' ? 1 : a.localeCompare(b)));
+  }
+
+  /**
+   * One paper edition is printed in one language. With `options.language`, posts in
+   * other languages are left out of the page count and returned in `excluded`
+   * (they stay on the website or go into that language's own edition).
+   */
+  function summarizeIssue(allPosts, options, spec) {
+    const wanted = options && options.language;
+    const posts = (allPosts || []).filter(p => !wanted || postLanguage(p) === wanted);
+    const excluded = wanted
+      ? (allPosts || []).filter(p => postLanguage(p) !== wanted).map(p => ({ slug: p.slug, title: p.title, language: postLanguage(p) }))
+      : [];
     const rows = (posts || []).map(post => {
       const e = estimateArticlePages(post, spec);
       return {
@@ -260,7 +287,7 @@
       opts,
       spec
     );
-    return { rows, plan };
+    return { rows, plan, excluded };
   }
 
   /** Rows for the Studio and docs: what we send the printer. */
@@ -295,6 +322,9 @@
     estimateArticlePages,
     planIssue,
     summarizeIssue,
+    postLanguage,
+    languagesOf,
+    LANGUAGE_NAMES,
     describePressSpec
   };
 });

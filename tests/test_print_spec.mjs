@@ -109,3 +109,15 @@ test('summarizeIssue: rows per article and a plan in multiples of 4', () => {
   assert.equal(plan.insidePages % 4, 0);
   assert.equal(plan.contentPages, rows[0].pages + 4);
 });
+
+test('summarizeIssue: one print language per edition', () => {
+  const mk = (slug, language, words) => ({ slug, title: slug, language, blocks: [{ type: 'paragraph', text: 'word '.repeat(words) }] });
+  const posts = [mk('a-en', 'en', 800), mk('b-fr', 'fr', 800), mk('c-none', undefined, 800)];
+  const en = P.summarizeIssue(posts, { language: 'en' });
+  assert.deepEqual(en.rows.map(r => r.slug), ['a-en', 'c-none']);
+  assert.deepEqual(en.excluded.map(x => x.slug), ['b-fr']);
+  const all = P.summarizeIssue(posts, {});
+  assert.equal(all.rows.length, 3);
+  assert.equal(all.excluded.length, 0);
+  assert.deepEqual(P.languagesOf(posts), ['en', 'fr']);
+});
