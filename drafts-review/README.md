@@ -20,5 +20,7 @@ French/Italian/Spanish articles but were written by an AI in languages where it 
 | Georgian (ka) | ready for review | |
 | Tatar (tt) | ready for review | |
 
-Parts 2 and 3 and the "Stop translating" sentence frames have not been drafted for these languages.
+Parts 2 and 3 are also drafted for **Armenian, Georgian and Tatar** (`top-10-verbs-part-2-*.json`, `top-10-verbs-part-3-*.json`;
+⚠ counts: hy 46 / 56, ka 61 / 140, tt 138 / 132). Not drafted: Parts 2 and 3 for Bashkir, Breton and Chuvash, and the
+"Stop translating" sentence frames for all six languages.
 The live Armenian, Georgian and Tatar Top 10 tables had their "go/can" rows shifted; row 8 ("go") was rewritten and marked ⚠.
