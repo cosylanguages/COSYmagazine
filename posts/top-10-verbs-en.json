@@ -334,7 +334,8 @@
         "She is 25 and she has doctor."
       ],
       "correctIndex": 1,
-      "explanation": "Use **be** for age and put **a/an** before a singular countable job: *She is 25. She is a doctor.*"
+      "explanation": "Use **be** for age and put **a/an** before a singular countable job: *She is 25. She is a doctor.*",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -345,7 +346,8 @@
         "Yes, she does."
       ],
       "correctIndex": 1,
-      "explanation": "Positive short answers use the full form: *Yes, she is.*"
+      "explanation": "Positive short answers use the full form: *Yes, she is.*",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -356,7 +358,8 @@
         "Am"
       ],
       "correctIndex": 1,
-      "explanation": "Use **are** with the plural noun *cafés*: *Are there any cafés near here?*"
+      "explanation": "Use **are** with the plural noun *cafés*: *Are there any cafés near here?*",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -367,7 +370,8 @@
         "He is working."
       ],
       "correctIndex": 2,
-      "explanation": "In *He is working*, **is + working** forms the present continuous. In the other sentences, *is* describes a state or identity."
+      "explanation": "In *He is working*, **is + working** forms the present continuous. In the other sentences, *is* describes a state or identity.",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -525,7 +529,8 @@
         "don't have"
       ],
       "correctIndex": 1,
-      "explanation": "After 'doesn't', the main verb always returns to its base form 'have'. 'She doesn't have a brother' is correct."
+      "explanation": "After 'doesn't', the main verb always returns to its base form 'have'. 'She doesn't have a brother' is correct.",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -536,7 +541,8 @@
         "Do she got a car?"
       ],
       "correctIndex": 1,
-      "explanation": "Never mix 'do/does' with 'got'. Use 'Has she got a car?' or 'Does she have a car?'"
+      "explanation": "Never mix 'do/does' with 'got'. Use 'Has she got a car?' or 'Does she have a car?'",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -613,7 +619,8 @@
         "She thinks to so."
       ],
       "correctIndex": 1,
-      "explanation": "With 'she', add -s to the verb: 'She thinks so.'"
+      "explanation": "With 'she', add -s to the verb: 'She thinks so.'",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -624,7 +631,8 @@
         "I no think so."
       ],
       "correctIndex": 1,
-      "explanation": "To disagree politely, say 'I don't think so.'"
+      "explanation": "To disagree politely, say 'I don't think so.'",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -772,7 +780,8 @@
         "Do you know where is station?"
       ],
       "correctIndex": 1,
-      "explanation": "In embedded questions after 'Do you know...?', use normal statement word order: 'where the station is'."
+      "explanation": "In embedded questions after 'Do you know...?', use normal statement word order: 'where the station is'.",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -783,7 +792,8 @@
         "to drive"
       ],
       "correctIndex": 1,
-      "explanation": "For skills, use 'know how to + base verb': 'She knows how to drive a car.'"
+      "explanation": "For skills, use 'know how to + base verb': 'She knows how to drive a car.'",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -887,7 +897,8 @@
         "She doesn't like coffee."
       ],
       "correctIndex": 2,
-      "explanation": "With 'she', use 'doesn't' followed by the base verb 'like' without an -s."
+      "explanation": "With 'she', use 'doesn't' followed by the base verb 'like' without an -s.",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -898,7 +909,8 @@
         "I dislike water."
       ],
       "correctIndex": 1,
-      "explanation": "'I'd like' means 'I would like', which expresses a polite desire right now, not a general hobby."
+      "explanation": "'I'd like' means 'I would like', which expresses a polite desire right now, not a general hobby.",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -980,7 +992,8 @@
         "He wants go."
       ],
       "correctIndex": 1,
-      "explanation": "Add -s for 'he' and use 'to' before the next verb: 'He wants to go.'"
+      "explanation": "Add -s for 'he' and use 'to' before the next verb: 'He wants to go.'",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -991,7 +1004,8 @@
         "I'd like a coffee, please."
       ],
       "correctIndex": 2,
-      "explanation": "'I'd like ... please' is the standard polite form for ordering."
+      "explanation": "'I'd like ... please' is the standard polite form for ordering.",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -1073,7 +1087,8 @@
         "working"
       ],
       "correctIndex": 1,
-      "explanation": "With 'she', add -s: 'She works at a hospital.'"
+      "explanation": "With 'she', add -s: 'She works at a hospital.'",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -1084,7 +1099,8 @@
         "studies"
       ],
       "correctIndex": 1,
-      "explanation": "The teacher teaches; the students learn."
+      "explanation": "The teacher teaches; the students learn.",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -1178,7 +1194,8 @@
         "She goes to school by the bus."
       ],
       "correctIndex": 1,
-      "explanation": "Use 'goes' with 'she' and 'by bus' without an article."
+      "explanation": "Use 'goes' with 'she' and 'by bus' without an article.",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -1189,7 +1206,8 @@
         "are"
       ],
       "correctIndex": 0,
-      "explanation": "'I' goes with 'am': 'I am going to cook pasta.'"
+      "explanation": "'I' goes with 'am': 'I am going to cook pasta.'",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -1269,7 +1287,8 @@
         "Can she to swim?"
       ],
       "correctIndex": 1,
-      "explanation": "'Can' starts the question by itself: 'Can she swim?'"
+      "explanation": "'Can' starts the question by itself: 'Can she swim?'",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -1280,7 +1299,8 @@
         "Could you help me, please?"
       ],
       "correctIndex": 2,
-      "explanation": "'Could you ... please?' is the most polite."
+      "explanation": "'Could you ... please?' is the most polite.",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -1367,7 +1387,8 @@
         "a"
       ],
       "correctIndex": 1,
-      "explanation": "In negative sentences use 'any': 'I don't eat any meat.'"
+      "explanation": "In negative sentences use 'any': 'I don't eat any meat.'",
+      "medium": "digital"
     },
     {
       "type": "quiz",
@@ -1378,7 +1399,8 @@
         "She drinking water every day."
       ],
       "correctIndex": 1,
-      "explanation": "With 'she', add -s: 'She drinks water every day.'"
+      "explanation": "With 'she', add -s: 'She drinks water every day.'",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
@@ -1423,13 +1445,15 @@
       "level": 2,
       "text": "📚 Further reading",
       "webOnly": true,
-      "listId": "refs"
+      "listId": "refs",
+      "medium": "digital"
     },
     {
       "type": "paragraph",
       "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
       "webOnly": true,
-      "listId": "refs"
+      "listId": "refs",
+      "medium": "digital"
     },
     {
       "type": "list-item",
@@ -1446,7 +1470,8 @@
       ],
       "webOnly": true,
       "listId": "refs",
-      "refs": true
+      "refs": true,
+      "medium": "digital"
     }
   ]
 }
