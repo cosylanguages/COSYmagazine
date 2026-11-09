@@ -2761,6 +2761,7 @@
     if (!body || !sel || !PrintSpec) return;
     const volume = sel.value;
     const mode = ($('planner-mode') || {}).value || 'fresh';
+    const langSel = $('planner-language');
     body.innerHTML = '<p class="hint">Calculating…</p>';
     const slugs = catalogPosts.filter(p => p.issue_volume === volume).map(p => p.slug);
     if (currentPost && currentPost.issue && currentPost.issue.number === volume && currentPost.slug && slugs.indexOf(currentPost.slug) === -1) {
@@ -2774,7 +2775,15 @@
       body.innerHTML = '<p class="hint">No articles found for this issue yet.</p>';
       return;
     }
-    const { rows, plan } = PrintSpec.summarizeIssue(posts, { mode });
+    // Offer the languages that exist in this issue; English is the default edition.
+    const langs = PrintSpec.languagesOf(posts);
+    if (langSel) {
+      const keep = langSel.value && langs.indexOf(langSel.value) !== -1 ? langSel.value : (langs.indexOf('en') !== -1 ? 'en' : langs[0]);
+      langSel.innerHTML = langs.map(l => `<option value="${escapeHtml(l)}">${escapeHtml(PrintSpec.LANGUAGE_NAMES[l] || l)}</option>`).join('');
+      langSel.value = keep;
+    }
+    const language = langSel ? langSel.value : undefined;
+    const { rows, plan, excluded } = PrintSpec.summarizeIssue(posts, { mode, language });
     const fmt = n => (Math.round(n * 10) / 10).toString();
     const tr = rows.map(r => `<tr><td>${escapeHtml(r.title || r.slug)}</td><td class="num">${r.words}</td><td class="num">${mode === 'flow' && r.source !== 'override' ? fmt(r.exact) : r.pages}${r.source === 'override' ? ' <small>set</small>' : ''}</td></tr>`).join('');
     const fillMsg = plan.fillPages === 0
@@ -2794,6 +2803,7 @@
         <thead><tr><th>Article</th><th class="num">Words</th><th class="num">Pages</th></tr></thead>
         <tbody>${tr}</tbody>
       </table></div>
+      ${excluded && excluded.length ? `<p class="print-note">${excluded.length} article${excluded.length === 1 ? '' : 's'} in other languages ${excluded.length === 1 ? 'is' : 'are'} not in this ${escapeHtml(PrintSpec.LANGUAGE_NAMES[language] || language)} edition (they stay on the website or go into their own edition): ${excluded.map(x => escapeHtml(PrintSpec.LANGUAGE_NAMES[x.language] || x.language)).filter((v, i, a) => a.indexOf(v) === i).join(', ')}.</p>` : ''}
       ${failed ? `<p class="print-note">${failed} article${failed === 1 ? '' : 's'} could not be loaded and ${failed === 1 ? 'is' : 'are'} not counted.</p>` : ''}`;
   }
 
@@ -2810,7 +2820,7 @@
       openModal('studio-planner-modal');
       renderIssuePlan();
     });
-    ['planner-issue', 'planner-mode'].forEach(id => {
+    ['planner-issue', 'planner-mode', 'planner-language'].forEach(id => {
       const el = $(id); if (el) el.addEventListener('change', renderIssuePlan);
     });
   }

@@ -78,6 +78,15 @@ licences recorded, no protected lyrics, proofread) is saved with the article. An
 article about a real person cannot be published until consent is marked done. The
 build validator enforces this too. See `SCHEMA.md`.
 
+## One paper edition, one language
+
+Each print run is in a single language. The planner has a "Print language"
+selector (English by default). Only articles in that language are counted;
+the others are listed as not in this edition and stay on the website or go
+into their own edition (French, Italian, Russian, Greek, ...). The language
+comparison table on the last page of each guide stays in every edition: it shows
+all ten verbs in all fourteen languages.
+
 ## Issue planner in the Studio
 
 Start, "Plan an issue (pages)": pick an issue to see each article's words and
