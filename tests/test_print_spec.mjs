@@ -121,3 +121,16 @@ test('summarizeIssue: one print language per edition', () => {
   assert.equal(all.excluded.length, 0);
   assert.deepEqual(P.languagesOf(posts), ['en', 'fr']);
 });
+
+test('estimateArticlePages: numbered spreads each start a new page', () => {
+  const sec = id => ({ type: 'paragraph', text: `<section id="page-${id}" class="gazette-page-spread"><h2>Spread ${id}</h2>` });
+  const body = n => ({ type: 'paragraph', text: 'word '.repeat(n) });
+  const post = { blocks: [sec(1), body(100), sec(2), body(100), sec(3), body(100), { type: 'paragraph', text: '</section>' }] };
+  const e = P.estimateArticlePages(post);
+  assert.equal(e.source, 'spreads');
+  assert.equal(e.spreads.length, 3);
+  assert.equal(e.pages, 3 + Math.ceil(P.LAYOUT.openerPages - 0.0001));
+  const flat = P.estimateArticlePages({ blocks: [body(100), body(100), body(100)] });
+  assert.equal(flat.source, 'estimate');
+  assert.equal(flat.spreads, null);
+});

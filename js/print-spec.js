@@ -183,18 +183,50 @@
    * How many pages an article takes in print.
    * `print.pages` on the article overrides the estimate.
    */
+  const SPREAD_OPEN = /<section\s+id="page-(\d+)"/;
+
+  /**
+   * Guides built as numbered spreads (`<section id="page-N">`) start every spread on a
+   * new page, in print as on screen. Returns the pages each spread takes, or null for
+   * an article without spreads.
+   */
+  function spreadPages(blocks, spec, layout) {
+    const groups = [];
+    let current = null;
+    blocks.forEach(b => {
+      const m = b.type === 'paragraph' && typeof b.text === 'string' ? b.text.match(SPREAD_OPEN) : null;
+      if (m) {
+        current = { id: Number(m[1]), exact: 0 };
+        groups.push(current);
+      }
+      if (current) current.exact += blockPages(b, spec, layout);
+      else if (groups.length === 0) { groups.lead = (groups.lead || 0) + blockPages(b, spec, layout); }
+    });
+    if (groups.length < 2) return null;
+    const lead = groups.lead || 0;
+    // text before the first spread counts on its own pages, never shared with a spread
+    const spreads = groups.map(g => ({ id: g.id, exact: round(g.exact, 2), pages: Math.max(1, Math.ceil(round(g.exact, 2) - 0.0001)) }));
+    return { spreads, lead: round(lead, 2), total: spreads.reduce((sum, g) => sum + g.pages, 0) };
+  }
+
   function estimateArticlePages(post, spec, layout) {
     const blocks = ((post && post.blocks) || []).filter(appearsInPrint);
     const breakdown = blocks.map(b => ({ type: b.type, pages: round(blockPages(b, spec, layout), 3) }));
-    const exact = LAYOUT.openerPages + breakdown.reduce((sum, b) => sum + b.pages, 0);
+    let exact = LAYOUT.openerPages + breakdown.reduce((sum, b) => sum + b.pages, 0);
     const override = post && post.print && typeof post.print.pages === 'number' && post.print.pages > 0
       ? post.print.pages : null;
-    const wholePages = Math.max(1, Math.ceil(round(exact, 2) - 0.0001));
+    const sp = spreadPages(blocks, spec, layout);
+    let wholePages = Math.max(1, Math.ceil(round(exact, 2) - 0.0001));
+    if (sp) {
+      wholePages = Math.max(1, Math.ceil(round(LAYOUT.openerPages + sp.lead, 2) - 0.0001)) + sp.total;
+      exact = wholePages; // each spread breaks to a new page: whole pages only
+    }
     return {
       exact: round(exact, 2),
       pages: override != null ? override : wholePages,
       estimatedPages: wholePages,
-      source: override != null ? 'override' : 'estimate',
+      source: override != null ? 'override' : (sp ? 'spreads' : 'estimate'),
+      spreads: sp ? sp.spreads : null,
       emptyOnLastPage: round(wholePages - exact, 2),
       words: blocks.reduce((sum, b) => sum + blockWords(b), 0),
       images: blocks.filter(b => b.type === 'image').length,
@@ -278,7 +310,8 @@
         words: e.words,
         pages: e.pages,
         exact: e.exact,
-        source: e.source
+        source: e.source,
+        spreads: e.spreads ? e.spreads.length : 0
       };
     });
     const opts = options || {};
@@ -320,6 +353,8 @@
     requiredPixels,
     rasterImageChecks,
     estimateArticlePages,
+    spreadPages,
+    spreadPages,
     planIssue,
     summarizeIssue,
     postLanguage,
