@@ -1412,6 +1412,427 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "Nach den zehn Verben: drei Bausteine für alles",
+      "say": "Nach den zehn Verben: drei Bausteine für alles"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sie kennen jetzt zehn Verben. Damit daraus echte Sätze werden, fehlen drei Bausteine: die Wortstellung, die Verneinung und die Frage. Dazu kommt die Kombination von zwei Verben.",
+      "say": "Sie kennen jetzt zehn Verben. Damit daraus echte Sätze werden, fehlen drei Bausteine: die Wortstellung, die Verneinung und die Frage. Dazu kommt die Kombination von zwei Verben."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. Die Wortstellung: das Verb an Position 2",
+      "say": "1. Die Wortstellung: das Verb an Position 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Im deutschen Aussagesatz steht das konjugierte Verb **immer an zweiter Stelle**. Was auf Position 1 steht, ist frei: das Subjekt oder eine Zeitangabe. Ein zweites Verb (Infinitiv) geht ans **Ende**.",
+      "say": "Im deutschen Aussagesatz steht das konjugierte Verb immer an zweiter Stelle. Was auf Position 1 steht, ist frei: das Subjekt oder eine Zeitangabe. Ein zweites Verb (Infinitiv) geht ans Ende."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Position 1",
+        "Position 2 (Verb)",
+        "Mitte",
+        "Ende"
+      ],
+      "rows": [
+        [
+          "Ich",
+          "gehe",
+          "heute",
+          "nach Hause."
+        ],
+        [
+          "Heute",
+          "gehe",
+          "ich",
+          "nach Hause."
+        ],
+        [
+          "Ich",
+          "möchte",
+          "heute früh",
+          "gehen."
+        ],
+        [
+          "Wir",
+          "können",
+          "morgen",
+          "kommen."
+        ],
+        [
+          "Morgen",
+          "können",
+          "wir",
+          "kommen."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2. Die Verneinung: nicht oder kein",
+      "say": "2. Die Verneinung: nicht oder kein"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deutsch hat zwei Verneinungswörter. **Kein** verneint ein Substantiv ohne Artikel oder mit „ein“. **Nicht** verneint alles andere.",
+      "say": "Deutsch hat zwei Verneinungswörter. Kein verneint ein Substantiv ohne Artikel oder mit „ein“. Nicht verneint alles andere."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Was verneine ich?",
+        "Wort",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Substantiv mit „ein“ oder ohne Artikel",
+          "**kein**",
+          "Ich habe keine Zeit. Ich habe keinen Hund."
+        ],
+        [
+          "das Verb",
+          "**nicht** am Ende",
+          "Ich arbeite heute nicht."
+        ],
+        [
+          "Substantiv mit „der / die / das“ oder „mein“",
+          "**nicht** nach dem Objekt",
+          "Ich mag den Film nicht."
+        ],
+        [
+          "ein Adjektiv",
+          "**nicht** davor",
+          "Das ist nicht teuer."
+        ],
+        [
+          "mit Modalverb",
+          "**nicht** vor dem Infinitiv",
+          "Ich kann nicht kommen."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Auf eine verneinte Frage antworten Sie mit **doch**, wenn die Antwort positiv ist: „Hast du keinen Hunger? – Doch, ich habe Hunger.“ Oder mit „Nein“, wenn sie negativ ist: „Nein, ich habe keinen Hunger.“",
+      "say": "Auf eine verneinte Frage antworten Sie mit doch, wenn die Antwort positiv ist: „Hast du keinen Hunger? – Doch, ich habe Hunger.“ Oder mit „Nein“, wenn sie negativ ist: „Nein, ich habe keinen Hunger.“"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Fragen stellen",
+      "say": "3. Fragen stellen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bei einer Ja/Nein-Frage steht das Verb an **erster** Stelle: „Hast du Hunger?“ Bei einer W-Frage steht das Fragewort an erster und das Verb an zweiter Stelle:",
+      "say": "Bei einer Ja/Nein-Frage steht das Verb an erster Stelle: „Hast du Hunger?“ Bei einer W-Frage steht das Fragewort an erster und das Verb an zweiter Stelle:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fragewort",
+        "Frage",
+        "Antwort"
+      ],
+      "rows": [
+        [
+          "Wo?",
+          "Wo bist du?",
+          "Ich bin zu Hause."
+        ],
+        [
+          "Was?",
+          "Was möchtest du?",
+          "Ich möchte einen Kaffee."
+        ],
+        [
+          "Wann?",
+          "Wann gehst du?",
+          "Ich gehe morgen."
+        ],
+        [
+          "Warum?",
+          "Warum lernst du Deutsch?",
+          "Weil ich in Berlin arbeite."
+        ],
+        [
+          "Wie?",
+          "Wie geht es dir?",
+          "Gut, danke."
+        ],
+        [
+          "Wer?",
+          "Wer ist das?",
+          "Das ist mein Freund."
+        ],
+        [
+          "Wohin?",
+          "Wohin gehst du?",
+          "Ich gehe ins Kino."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Achtung: Nach **weil** und **dass** wandert das Verb ans Satzende: „Ich denke, dass es nützlich ist.“ „Ich lerne Deutsch, weil ich in Berlin arbeite.“",
+      "say": "Achtung: Nach weil und dass wandert das Verb ans Satzende: „Ich denke, dass es nützlich ist.“ „Ich lerne Deutsch, weil ich in Berlin arbeite.“"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zwei Verben kombinieren",
+      "say": "Zwei Verben kombinieren"
+    },
+    {
+      "type": "paragraph",
+      "text": "Die Regel ist einfach: Das erste Verb steht konjugiert an Position 2, das zweite bleibt im **Infinitiv am Satzende**. Bei „zu“-Sätzen steht „zu“ vor dem Infinitiv, bei Modalverben **nicht**.",
+      "say": "Die Regel ist einfach: Das erste Verb steht konjugiert an Position 2, das zweite bleibt im Infinitiv am Satzende. Bei „zu“-Sätzen steht „zu“ vor dem Infinitiv, bei Modalverben nicht."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1. Verb",
+        "+ sein",
+        "+ haben",
+        "+ essen / trinken",
+        "+ gehen"
+      ],
+      "rows": [
+        [
+          "**wollen**",
+          "Ich will zu Hause sein.",
+          "Ich will einen Hund haben.",
+          "Ich will etwas essen.",
+          "Ich will nach Hause gehen."
+        ],
+        [
+          "**können**",
+          "Ich kann um zwölf dort sein.",
+          "Ich kann das Buch bis Montag haben.",
+          "Kann ich ein Glas Wasser trinken?",
+          "Kann ich jetzt gehen?"
+        ],
+        [
+          "**möchten**",
+          "Ich möchte pünktlich sein.",
+          "Ich möchte mehr Zeit haben.",
+          "Ich möchte einen Kaffee trinken.",
+          "Ich möchte ins Kino gehen."
+        ],
+        [
+          "**gern**",
+          "Ich bin gern zu Hause.",
+          "Ich habe gern Gäste.",
+          "Ich esse gern Fisch.",
+          "Ich gehe gern spazieren."
+        ],
+        [
+          "**um … zu**",
+          "Ich arbeite, um unabhängig zu sein.",
+          "Ich arbeite, um ein Haus zu haben.",
+          "Ich arbeite, um zu essen.",
+          "Ich spare, um ins Ausland zu gehen."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Die Verneinung steht vor dem Infinitiv: „Ich will nicht gehen.“ „Ich kann nicht kommen.“",
+      "say": "Die Verneinung steht vor dem Infinitiv: „Ich will nicht gehen.“ „Ich kann nicht kommen.“"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Drei Wege, über die Zeit zu sprechen",
+      "say": "Drei Wege, über die Zeit zu sprechen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Das deutsche Präsens kann viel. Es gibt keine eigene Verlaufsform wie im Englischen: Dasselbe Verb passt zu Gewohnheit, Gegenwart und naher Zukunft. Die Zeitangabe zeigt, was gemeint ist.",
+      "say": "Das deutsche Präsens kann viel. Es gibt keine eigene Verlaufsform wie im Englischen: Dasselbe Verb passt zu Gewohnheit, Gegenwart und naher Zukunft. Die Zeitangabe zeigt, was gemeint ist."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ich sage …",
+        "Bedeutung",
+        "Signalwörter"
+      ],
+      "rows": [
+        [
+          "**Ich esse** um zwei.",
+          "Gewohnheit",
+          "immer, jeden Tag, oft"
+        ],
+        [
+          "**Ich esse** gerade.",
+          "jetzt, in diesem Moment",
+          "gerade, im Moment, jetzt"
+        ],
+        [
+          "**Ich esse** morgen mit Anna.",
+          "nahe Zukunft",
+          "morgen, heute Abend, nächste Woche"
+        ],
+        [
+          "**Ich werde essen.**",
+          "Zukunft, förmlicher",
+          "bald, später"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Typische Stolpersteine",
+      "say": "Typische Stolpersteine"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nicht ganz",
+        "Besser so"
+      ],
+      "rows": [
+        [
+          "Ich möchte zu gehen.",
+          "Ich möchte gehen."
+        ],
+        [
+          "Ich kann zu kommen.",
+          "Ich kann kommen."
+        ],
+        [
+          "Ich habe nicht Zeit.",
+          "Ich habe keine Zeit."
+        ],
+        [
+          "Ich weiß Anna.",
+          "Ich kenne Anna."
+        ],
+        [
+          "Ich gehe nach Hause nicht.",
+          "Ich gehe nicht nach Hause."
+        ],
+        [
+          "Ich will gehen nach Hause.",
+          "Ich will nach Hause gehen."
+        ],
+        [
+          "Ich gehe zu Hause.",
+          "Ich gehe nach Hause. / Ich bin zu Hause."
+        ],
+        [
+          "Ich bin kalt.",
+          "Mir ist kalt."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Jetzt Sie: zwei Übungsreihen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ergänzen oder verändern Sie jeden Satz und sprechen Sie ihn laut. Die Lösungen stehen direkt darunter."
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Ich ___ müde. (sein)",
+        "Du ___ einen Stift. (haben)",
+        "Wir ___ ins Kino. (gehen)",
+        "Er ___ jeden Tag einen Apfel. (essen)",
+        "___ du mir helfen? (können)",
+        "Sie ___ Anna gut. (kennen)",
+        "Ich ___ einen Kaffee, bitte. (möchten)",
+        "Der Film ___ mir. (gefallen)"
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Verneinen Sie: Ich habe Zeit.",
+        "Verneinen Sie: Ich arbeite heute.",
+        "Verneinen Sie: Ich mag den Film.",
+        "Verneinen Sie: Ich habe einen Hund.",
+        "Verneinen Sie: Ich kann kommen.",
+        "Ordnen Sie: nach Hause / ich / gehen / will",
+        "Ordnen Sie: gehe / heute / ich / ins Kino",
+        "Ordnen Sie: möchtest / du / was / essen"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Lösungen"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Ich bin müde.",
+        "Du hast einen Stift.",
+        "Wir gehen ins Kino.",
+        "Er isst jeden Tag einen Apfel.",
+        "Kannst du mir helfen?",
+        "Sie kennt Anna gut.",
+        "Ich möchte einen Kaffee, bitte.",
+        "Der Film gefällt mir."
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Ich habe keine Zeit.",
+        "Ich arbeite heute nicht.",
+        "Ich mag den Film nicht.",
+        "Ich habe keinen Hund.",
+        "Ich kann nicht kommen.",
+        "Ich will nach Hause gehen.",
+        "Heute gehe ich ins Kino.",
+        "Was möchtest du essen?"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Ihre Vorstellung in zehn Sätzen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zum Schluss: Stellen Sie sich vor, ein Satz pro Verb, mit Ihrem eigenen Leben."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Sein:** Ich bin ___ . Ich bin in ___ .",
+        "**Haben:** Ich bin ___ Jahre alt. Ich habe ein / eine ___ .",
+        "**Denken:** Ich denke, dass ___ . Ich denke an ___ .",
+        "**Wissen / kennen:** Ich weiß ___ . Ich kenne ___ .",
+        "**Mögen / gefallen:** Ich mag ___ . ___ gefällt mir.",
+        "**Wollen / möchten:** Ich will ___ . Ich möchte ___ .",
+        "**Arbeiten / studieren / lernen:** Ich arbeite bei ___ . Ich studiere ___ .",
+        "**Gehen:** Ich gehe nach ___ . (zur Arbeit, zur Schule)",
+        "**Können:** Ich kann ___ . Ich kann nicht ___ .",
+        "**Essen / trinken:** Ich esse mittags ___ . Ich trinke morgens ___ ."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "Sprachenvergleichstabelle"
     },
     {
