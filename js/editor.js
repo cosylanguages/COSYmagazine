@@ -2785,7 +2785,7 @@
     const language = langSel ? langSel.value : undefined;
     const { rows, plan, excluded } = PrintSpec.summarizeIssue(posts, { mode, language });
     const fmt = n => (Math.round(n * 10) / 10).toString();
-    const tr = rows.map(r => `<tr><td>${escapeHtml(r.title || r.slug)}</td><td class="num">${r.words}</td><td class="num">${mode === 'flow' && r.source !== 'override' ? fmt(r.exact) : r.pages}${r.source === 'override' ? ' <small>set</small>' : ''}</td></tr>`).join('');
+    const tr = rows.map(r => `<tr><td>${escapeHtml(r.title || r.slug)}</td><td class="num">${r.words}</td><td class="num">${mode === 'flow' && r.source !== 'override' ? fmt(r.exact) : r.pages}${r.source === 'override' ? ' <small>set</small>' : ''}${r.source === 'spreads' ? ` <small title="each spread starts a new page">${r.spreads} spreads</small>` : ''}</td></tr>`).join('');
     const fillMsg = plan.fillPages === 0
       ? 'The page count is exact. No filler needed.'
       : `${plan.fillPages} page${plan.fillPages === 1 ? '' : 's'} to fill (next-issue preview, puzzle or advert).`;

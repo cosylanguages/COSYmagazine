@@ -87,6 +87,13 @@ into their own edition (French, Italian, Russian, Greek, ...). The language
 comparison table on the last page of each guide stays in every edition: it shows
 all ten verbs in all fourteen languages.
 
+## Guides built as spreads
+
+A guide made of numbered spreads (`<section id="page-N">`) starts every spread on a
+new page, on screen and in print. The estimator counts each spread in whole pages
+and shows the number of spreads in the planner. A spread that runs just over one
+page costs two, so trimming a spread to fit one page saves a page.
+
 ## Issue planner in the Studio
 
 Start, "Plan an issue (pages)": pick an issue to see each article's words and
