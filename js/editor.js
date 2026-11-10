@@ -16,6 +16,9 @@
   const Auth = typeof window !== 'undefined' && window.CosyCMSAuth
     ? window.CosyCMSAuth
     : (typeof require !== 'undefined' ? require('./cms-auth.js') : {});
+  const IssueStudio = typeof window !== 'undefined' && window.CosyIssueStudio
+    ? window.CosyIssueStudio
+    : (typeof require === 'function' ? require('./issue-studio.js') : null);
 
   // Supported ISO languages across COSYmagazine
   const LANGUAGES = [
@@ -1652,7 +1655,13 @@
     const date = document.getElementById('issue-modal-date').value;
     const color = document.getElementById('issue-modal-color').value;
 
-    if (!volume || !title) return;
+    const issueErrors = IssueStudio
+      ? IssueStudio.validateIssue({ number: volume, title: title, date: date })
+      : (!volume || !title ? ['Volume and title are required.'] : []);
+    if (issueErrors.length) {
+      setStatus(issueErrors.join(' '), 'error');
+      return;
+    }
 
     let targetIssue;
     if (mode === 'edit') {
@@ -1693,6 +1702,35 @@
 
     closeModal('studio-issue-modal');
     setStatus(`Saved magazine issue: ${volume} — ${title}`, 'success');
+    persistIssue(targetIssue);
+  }
+
+  /**
+   * Save the issue record to the content database so it survives a reload.
+   * Founders only (the database enforces this too). Only columns that already
+   * exist on magazine_issues are written; the PDF path and publish flag are
+   * left untouched so this never unpublishes an issue.
+   */
+  async function persistIssue(issue) {
+    if (!issue || !getCapabilities(currentUser).publishLive) return false;
+    const client = Auth ? Auth.getClient() : null;
+    if (!client) return false;
+    const id = (IssueStudio && IssueStudio.issueIdFromVolume(issue.number)) || issue.id;
+    try {
+      const { data: existing, error: readErr } = await client
+        .from('magazine_issues').select('id').eq('id', id).maybeSingle();
+      if (readErr) throw readErr;
+      const res = existing
+        ? await client.from('magazine_issues').update({ volume_number: issue.number, title: issue.title }).eq('id', id)
+        : await client.from('magazine_issues').insert({ id: id, volume_number: issue.number, title: issue.title, is_published: false });
+      if (res.error) throw res.error;
+      setStatus(`Issue ${issue.number} saved to the database.`, 'success');
+      return true;
+    } catch (err) {
+      console.warn('[Studio] Could not save issue:', err);
+      setStatus(`Issue kept in this session only (${err.message}).`, 'warn');
+      return false;
+    }
   }
 
   /**

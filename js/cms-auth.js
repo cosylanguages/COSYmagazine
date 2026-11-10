@@ -136,19 +136,8 @@
       }
     }
 
-    // 2. Check localStorage fallback
-    const local = getLocalUser();
-    if (local && local.role) {
-      const userObj = {
-        id: local.id || 'local-user',
-        email: local.email || '',
-        role: local.role,
-        isFounder: isFounderRole(local.role)
-      };
-      notifyListeners(userObj);
-      return userObj;
-    }
-
+    // No browser-stored fallback: a role kept in localStorage can be written by anyone,
+    // so only a verified Supabase session may identify a user.
     notifyListeners(null);
     return null;
   }
