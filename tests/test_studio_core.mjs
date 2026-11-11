@@ -90,3 +90,12 @@ test('issue readiness: a complete clean issue can be published', () => {
   const checks = Issues.getIssueReadiness({ number: 'Vol. 2026.08', title: 'T' }, arts);
   assert.equal(Core.summarizeChecks(checks).canPublish, true);
 });
+
+test('issue readiness: untagged live articles do not report every section missing', () => {
+  const arts = [{ slug: 'a', desk: 'Words', format: 'list', draft: false }, { slug: 'b', desk: 'Grammar', draft: true }];
+  const checks = Issues.getIssueReadiness({ number: 'Vol. 2026.11', title: 'T' }, arts);
+  const sec = checks.find(c => c.id === 'sections');
+  assert.equal(sec.level, 'warn');
+  assert.match(sec.detail, /cannot be checked/);
+  assert.equal(checks.find(c => c.id === 'unpublished').level, 'warn');
+});
