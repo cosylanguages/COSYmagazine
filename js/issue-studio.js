@@ -126,8 +126,13 @@
       list.length ? list.length + ' in this issue' : 'No articles are assigned to this issue yet.');
 
     const cover = sectionCoverage(list);
-    add('sections', cover.missing.length ? 'warn' : 'ok', 'Required sections',
-      cover.missing.length ? 'Missing: ' + cover.missing.join(', ') + '.' : 'All required sections present.');
+    if (list.length && Object.keys(cover.present).length === 0) {
+      // Live articles are tagged by desk/format, not by section: say so rather than report everything missing.
+      add('sections', 'warn', 'Required sections', 'No article is tagged with a section yet, so coverage cannot be checked.');
+    } else {
+      add('sections', cover.missing.length ? 'warn' : 'ok', 'Required sections',
+        cover.missing.length ? 'Missing: ' + cover.missing.join(', ') + '.' : 'All required sections present.');
+    }
 
     const formats = wordsFormatsUsed(list);
     if (formats.length > 1) {
@@ -137,7 +142,9 @@
       add('words-exclusive', 'ok', 'Words & Creativity', formats.length ? formats[0] : 'No Words format yet.');
     }
 
-    const unpublished = list.filter(function (a) { return a.status && a.status !== 'published' && a.draft !== false; });
+    const unpublished = list.filter(function (a) {
+      return a.draft === true || (a.status && a.status !== 'published' && a.draft !== false);
+    });
     add('unpublished', unpublished.length ? 'warn' : 'ok', 'Article status',
       unpublished.length ? unpublished.length + ' article(s) not yet published.' : 'All articles published.');
 
@@ -145,10 +152,11 @@
       const w = a && a.workflow;
       return w && w.featuresRealPerson && !(w.ledger && w.ledger.consentOnFile === 'done');
     });
+    const tracked = list.some(function (a) { return a && a.workflow; });
     add('consent', consentOpen.length ? 'error' : 'ok', 'Consent on file',
       consentOpen.length
         ? 'Real people named without consent recorded in: ' + consentOpen.map(function (a) { return a.slug; }).join(', ') + '.'
-        : 'No open consent items.');
+        : (tracked ? 'No open consent items.' : 'No consent flags recorded on these articles.'));
 
     return checks;
   }

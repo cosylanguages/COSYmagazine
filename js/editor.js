@@ -19,6 +19,9 @@
   const IssueStudio = typeof window !== 'undefined' && window.CosyIssueStudio
     ? window.CosyIssueStudio
     : (typeof require === 'function' ? require('./issue-studio.js') : null);
+  const StudioCore = typeof window !== 'undefined' && window.CosyStudioCore
+    ? window.CosyStudioCore
+    : (typeof require === 'function' ? require('./studio-core.js') : null);
 
   // Supported ISO languages across COSYmagazine
   const LANGUAGES = [
@@ -2842,7 +2845,23 @@
         <tbody>${tr}</tbody>
       </table></div>
       ${excluded && excluded.length ? `<p class="print-note">${excluded.length} article${excluded.length === 1 ? '' : 's'} in other languages ${excluded.length === 1 ? 'is' : 'are'} not in this ${escapeHtml(PrintSpec.LANGUAGE_NAMES[language] || language)} edition (they stay on the website or go into their own edition): ${excluded.map(x => escapeHtml(PrintSpec.LANGUAGE_NAMES[x.language] || x.language)).filter((v, i, a) => a.indexOf(v) === i).join(', ')}.</p>` : ''}
-      ${failed ? `<p class="print-note">${failed} article${failed === 1 ? '' : 's'} could not be loaded and ${failed === 1 ? 'is' : 'are'} not counted.</p>` : ''}`;
+      ${failed ? `<p class="print-note">${failed} article${failed === 1 ? '' : 's'} could not be loaded and ${failed === 1 ? 'is' : 'are'} not counted.</p>` : ''}
+      ${issueReadinessHtml(volume, posts)}`;
+  }
+
+  /** "Ready for press?" checks for an issue, from the shared issue rules. */
+  function issueReadinessHtml(volume, posts) {
+    if (!IssueStudio || !StudioCore) return '';
+    const known = managedIssues.find(i => i.number === volume);
+    const issue = {
+      number: volume,
+      title: (known && known.title) || (posts[0] && (posts[0].issue_title || (posts[0].issue && posts[0].issue.title))) || ''
+    };
+    const checks = IssueStudio.getIssueReadiness(issue, posts);
+    const sum = StudioCore.summarizeChecks(checks);
+    const icon = { ok: '✅', warn: '⚠️', error: '❌' };
+    const items = checks.map(c => `<li class="readiness-${escapeHtml(c.level)}">${icon[c.level] || ''} <strong>${escapeHtml(c.label)}</strong>${c.detail ? ` <small>${escapeHtml(c.detail)}</small>` : ''}</li>`).join('');
+    return `<h3 class="planner-subhead">Ready for press? ${sum.canPublish ? (sum.warnings ? `Yes, with ${sum.warnings} warning${sum.warnings === 1 ? '' : 's'}` : 'Yes') : `No: ${sum.errors} problem${sum.errors === 1 ? '' : 's'} to fix`}</h3><ul class="planner-readiness">${items}</ul>`;
   }
 
   function setupIssuePlanner() {

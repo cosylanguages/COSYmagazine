@@ -1330,3 +1330,7 @@ html[data-theme="dark"] .preset-card .icon { color: var(--st-primary-ink); }
 .studio-body .planner-table th, .studio-body .planner-table td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--st-line); }
 .studio-body .planner-table th { position: sticky; top: 0; background: var(--st-chrome); font-size: 12px; color: var(--st-ink-3); }
 .studio-body .planner-table .num { text-align: right; white-space: nowrap; }
+.studio-body .planner-subhead { font-size: 14px; margin: 14px 0 6px; }
+.studio-body .planner-readiness { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+.studio-body .planner-readiness li { padding: 3px 0; }
+.studio-body .planner-readiness small { display: block; color: var(--st-muted, #666); margin-left: 1.6em; }
