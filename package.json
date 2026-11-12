@@ -8,7 +8,8 @@
     "publish:issue:pdf": "node scripts/publish-issue-pdf.js",
     "upload:issue:pdf": "node scripts/upload-pdf-to-supabase.js",
     "validate": "node scripts/validate-blog-schema.js",
-    "test": "node --test tests/*.mjs"
+    "test": "node --test tests/*.mjs",
+    "test-e2e": "playwright test"
   },
   "dependencies": {
     "marked": "^18.0.14"
