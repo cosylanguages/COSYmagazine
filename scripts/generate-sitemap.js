@@ -11,7 +11,11 @@ const lastmod = (value) => {
   const d = String(value || today).slice(0, 10);
   return d > today ? today : d;
 };
-const urls = [{ loc: BASE, lastmod: today }, { loc: BASE + 'podcast.html', lastmod: today }]
+const urls = [
+  { loc: BASE, lastmod: today },
+  { loc: BASE + 'podcast.html', lastmod: today },
+  { loc: BASE + 'issues.html', lastmod: today },
+]
   .concat(posts.map((p) => ({ loc: BASE + p.slug + '.html', lastmod: lastmod(p.updated || p.date) })));
 const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n') + '\n</urlset>\n';
