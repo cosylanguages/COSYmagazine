@@ -1,5 +1,5 @@
 /**
- * blog/js/art/motifs.js
+ * js/art/motifs.js
  * SVG motif generators for COSY magazine cover art, dividers, pullquotes, and word cards.
  * Provides 13 distinct procedural art motifs with cozy, tactile warm paper feel:
  * 1. paper-cut

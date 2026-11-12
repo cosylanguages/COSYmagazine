@@ -7,9 +7,9 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-test('blog/index.json structure and integrity', () => {
+test('index.json structure and integrity', () => {
   const indexPath = path.join(__dirname, '..', 'index.json');
-  assert.ok(fs.existsSync(indexPath), 'blog/index.json should exist');
+  assert.ok(fs.existsSync(indexPath), 'index.json should exist');
 
   const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
   assert.equal(indexData.version, '2.0.0');

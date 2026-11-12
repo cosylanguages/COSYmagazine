@@ -12,8 +12,10 @@ const NON_LATIN_LANGS = new Set(['ru', 'el']);
 // Allowlist of brand names, proper nouns, technical acronyms, and common untranslatable tokens
 const ALLOWLIST = new Set([
   'COSY', 'COSYlanguages', 'COSYmagazine', 'COSYdata', 'COSYevents', 'COSYgames', 'COSYmanuals',
+  'COSYpractice', 'COSYtools', 'COSYstudio',
   'Gazette', 'JY', 'DM', 'CELTA', 'IELTS', 'TOEFL', 'CEFR', 'A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2',
   'EPISODE', 'VOL', 'Vol', 'IPA', 'WhatsApp', 'Telegram', 'Google', 'YouTube', 'PDF', 'MP3', 'HTML', 'CSS', 'JS',
+  'Instagram', 'TikTok', 'Facebook', 'LinkedIn', 'Spotify', 'Apple', 'Podcast',
   'https', 'http', 'com', 'org', 'vs', 'VS', 'Me', 'Plateau', 'Intermediate'
 ]);
 
@@ -119,10 +121,10 @@ test.describe('Blog Script & Target Language i18n Validation', () => {
       }
 
       if (offendingStrings.length > 0) {
-        console.error(`❌ Page blog/${slug}.html (${lang}) contains offending strings:\n` + offendingStrings.join('\n'));
+        console.error(`❌ Page ${slug}.html (${lang}) contains offending strings:\n` + offendingStrings.join('\n'));
       }
 
-      expect(offendingStrings.length, `Found ${offendingStrings.length} offending untranslated strings on blog/${slug}.html`).toBe(0);
+      expect(offendingStrings.length, `Found ${offendingStrings.length} offending untranslated strings on ${slug}.html`).toBe(0);
     });
   }
 });

@@ -1,5 +1,5 @@
 /**
- * blog/js/stage/timeline.js
+ * js/stage/timeline.js
  * Beat timeline playback engine for COSY Stage Mode.
  *
  * Sequenced playback of beats defined in post blocks or auto-generated defaults.

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * scripts/validate-blog-schema.js
- * Validates post JSON objects against the COSYlanguages Blog Post Schema (blog/SCHEMA.md).
+ * Validates post JSON objects against the COSYlanguages Blog Post Schema (SCHEMA.md).
  *
  * Usage: node scripts/validate-blog-schema.js [filepath]
  */

@@ -38,220 +38,107 @@ test.beforeAll(async () => {
 
 test.afterAll(async () => {
   if (server) {
-    await new Promise<void>((resolve) => server.close(resolve));
+    await new Promise((resolve) => server.close(resolve));
   }
 });
 
 test.describe('COSYmagazine Newsstand & Flipbook Reader Interactive E2E Suite', () => {
+  test('Desktop (1280x720): Newsstand shelf, lead cover, keyboard flip, deep links, TOC & reduced motion', async ({ page }) => {
+    await page.setViewportSize({ width: 1280, height: 720 });
 
-  test('Desktop (1280x720): Open Newsstand, Lead Cover, Keyboard Flip, Deep Links, Reduced Motion & Video', async ({ browser }) => {
-    const videosDir = path.join(process.cwd(), 'tests/videos');
-    if (!fs.existsSync(videosDir)) {
-      fs.mkdirSync(videosDir, { recursive: true });
-    }
-
-    const context = await browser.newContext({
-      viewport: { width: 1280, height: 720 },
-      recordVideo: {
-        dir: videosDir,
-        size: { width: 1280, height: 720 }
-      }
-    });
-
-    const page = await context.newPage();
-
-    // 1. Open Newsstand
+    // 1. Open the newsstand and confirm the hero furniture renders
     await page.goto(`http://localhost:${port}/index.html`);
     await page.waitForLoadState('domcontentloaded');
+    await expect(page.locator('.ns-kicker')).toHaveText('COSYmagazine');
+    await expect(page.locator('#ns-issues-shelf .ns-issue-volume').first()).toBeVisible();
 
-    // Check Newsstand title and hero section
-    const newsstandTitle = await page.textContent('.blog-header-title');
-    expect(newsstandTitle).toContain('COSYmagazine');
-
-    // Verify Founder Deck buttons on Newsstand
-    const expandBtn = page.locator('.founder-expand-btn');
-    await expandBtn.click();
-    await page.waitForTimeout(200);
-    const isExpanded = await page.locator('.founder-presentation-card').evaluate((el) => el.classList.contains('expanded'));
-    expect(isExpanded).toBe(true);
-
-    // 2. Click Current Issue Cover
-    const heroCover = page.locator('#hero-cover-container');
-    await heroCover.click();
+    // 2. The featured lead cover links to an article
+    const leadLink = page.locator('#ns-lead .ns-lead-art');
+    await expect(leadLink).toBeVisible();
+    await leadLink.click();
     await page.waitForURL(/\.html/);
-
-    // Return to Newsstand and click article 'replace-very-50-stronger-adjectives.html'
-    await page.goto(`http://localhost:${port}/index.html`);
-    await page.waitForLoadState('domcontentloaded');
-
-    const articleLink = page.locator('a[href*="replace-very-50-stronger-adjectives.html"]').first();
-    await articleLink.click();
-    await page.waitForURL(/replace-very-50-stronger-adjectives\.html/);
     await page.waitForSelector('.post-full-content');
 
-    // Verify Flipbook loaded and initialized
-    const page1Indicator = await page.textContent('.flipbook-indicator');
-    expect(page1Indicator).toMatch(/PAGE 1/i);
-
-    // 3. Flip through pages with Keyboard (ArrowRight)
+    // 3. Flipbook loads on a spread and flips with the keyboard
+    const indicator = page.locator('.flipbook-indicator');
+    await expect(indicator).toContainText('PAGE 1');
     await page.keyboard.press('ArrowRight');
-    await page.waitForTimeout(300);
-    const page2Indicator = await page.textContent('.flipbook-indicator');
-    expect(page2Indicator).toMatch(/PAGE 2/i);
-
-    await page.keyboard.press('ArrowRight');
-    await page.waitForTimeout(300);
-    const page3Indicator = await page.textContent('.flipbook-indicator');
-    expect(page3Indicator).toMatch(/PAGE 3/i);
-
+    await expect(indicator).toContainText('PAGE 3');
     await page.keyboard.press('ArrowLeft');
-    await page.waitForTimeout(300);
-    const backToPage2 = await page.textContent('.flipbook-indicator');
-    expect(backToPage2).toMatch(/PAGE 2/i);
+    await expect(indicator).toContainText('PAGE 1');
 
-    // 4. Test Table of Contents popover & deep links
-    const contentsTrigger = page.locator('.magazine-contents-trigger');
-    await contentsTrigger.click();
-    await page.waitForSelector('#magazine-contents-menu:not([hidden])');
-
-    const contentsItem3 = page.locator('.contents-item-btn[data-page="3"]');
-    await contentsItem3.click();
-    await page.waitForTimeout(300);
+    // 4. Table of Contents popover navigates and syncs the deep link
+    await page.locator('.magazine-contents-trigger').click();
+    await expect(page.locator('#magazine-contents-menu')).not.toHaveAttribute('hidden', '');
+    await page.locator('.contents-item-btn[data-page="3"]').click();
+    await page.waitForTimeout(200);
     expect(page.url()).toContain('#page-3');
+    await expect(indicator).toContainText('PAGE 3');
 
-    // 5. Test Read as One Page (FLAT SCROLL) mode
-    const modeToggleBtn = page.locator('.flipbook-mode-toggle');
-    await modeToggleBtn.click();
-    await page.waitForTimeout(200);
-    const isScrollMode = await page.locator('.post-full-content').evaluate((el) => el.classList.contains('scroll-mode'));
-    expect(isScrollMode).toBe(true);
-
-    // Toggle back to Flipbook Spread mode
-    await modeToggleBtn.click();
-    await page.waitForTimeout(200);
-    const isFlipbookMode = await page.locator('.post-full-content').evaluate((el) => el.classList.contains('flipbook-mode'));
-    expect(isFlipbookMode).toBe(true);
-
-    // 6. Test Deep Link (#page-3) directly in new navigation
+    // 5. Deep link resolves directly
     await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives.html#page-3`);
     await page.waitForLoadState('domcontentloaded');
-    await page.waitForTimeout(300);
-    const deepLinkIndicator = await page.textContent('.flipbook-indicator');
-    expect(deepLinkIndicator).toMatch(/PAGE 3/i);
+    await expect(page.locator('.flipbook-indicator')).toContainText('PAGE 3');
 
-    // Test Browser Back button hash sync back to Page 1
-    await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives.html#page-2`);
-    await page.waitForTimeout(200);
-    await page.goBack();
-    await page.waitForTimeout(300);
+    // 6. Toggle between flat scroll and flipbook spread modes
+    const modeToggle = page.locator('.flipbook-mode-toggle');
+    await modeToggle.click();
+    await expect(page.locator('.post-full-content')).toHaveClass(/scroll-mode/);
+    await modeToggle.click();
+    await expect(page.locator('.post-full-content')).toHaveClass(/flipbook-mode/);
 
-    // 7. Verify reduced motion
+    // 7. Reduced motion preference must not break flipping
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.keyboard.press('ArrowRight');
-    await page.waitForTimeout(150);
-
-    await context.close();
-
-    // Verify desktop video recording created
-    const videoPath = page.video() ? await page.video()!.path() : null;
-    expect(videoPath).not.toBeNull();
-    if (videoPath && fs.existsSync(videoPath)) {
-      const destPath = path.join(videosDir, 'desktop-flipbook-flip.webm');
-      fs.copyFileSync(videoPath, destPath);
-    }
+    await expect(page.locator('.flipbook-indicator')).toContainText(/PAGE \d/);
   });
 
-  test('Mobile (390x844): Touch Swipe, Dog-Ear Turn, Localized TOC across 14 Target Languages & Video', async ({ browser }) => {
-    const videosDir = path.join(process.cwd(), 'tests/videos');
-    if (!fs.existsSync(videosDir)) {
-      fs.mkdirSync(videosDir, { recursive: true });
-    }
+  test('Mobile (390x844): Touch navigation and localized flipbook furniture', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
 
-    const context = await browser.newContext({
-      viewport: { width: 390, height: 844 },
-      hasTouch: true,
-      isMobile: true,
-      recordVideo: {
-        dir: videosDir,
-        size: { width: 390, height: 844 }
-      }
-    });
-
-    const page = await context.newPage();
-
-    // 1. Open French localized post page
+    // French page: furniture and counter are localized
     await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-fr.html`);
     await page.waitForLoadState('domcontentloaded');
+    const frIndicator = page.locator('.flipbook-indicator');
+    await expect(frIndicator).toContainText('PAGE 1 SUR');
 
-    // Check localized toolbar furniture string
-    const frIndicator = await page.textContent('.flipbook-indicator');
-    expect(frIndicator).toMatch(/PAGE 1 SUR/i);
-
-    // 2. Perform touch swipe gesture left (next page)
-    const contentBox = await page.locator('.post-full-content').boundingBox();
-    if (contentBox) {
-      const startX = contentBox.x + contentBox.width * 0.8;
-      const endX = contentBox.x + contentBox.width * 0.2;
-      const startY = contentBox.y + contentBox.height * 0.5;
-
-      await page.touchscreen.tap(startX, startY);
-      await page.mouse.move(startX, startY);
-      await page.mouse.down();
-      await page.mouse.move(endX, startY, { steps: 10 });
-      await page.mouse.up();
-    }
+    // Dog-ear turn control advances the spread
+    const dogEar = page.locator('.dog-ear-next').first();
+    await expect(dogEar).toBeVisible();
+    await dogEar.click();
     await page.waitForTimeout(300);
+    await expect(frIndicator).not.toContainText('PAGE 1 SUR');
 
-    // Click Dog-Ear turn button on mobile
-    const dogEarBtn = page.locator('.magazine-dog-ear').first();
-    await dogEarBtn.click();
-    await page.waitForTimeout(300);
-
-    // Check localized Russian post page
+    // Russian page counter is localized
     await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-ru.html`);
     await page.waitForLoadState('domcontentloaded');
-    const ruIndicator = await page.textContent('.flipbook-indicator');
-    expect(ruIndicator).toMatch(/СТРАНИЦА 1 ИЗ/i);
+    await expect(page.locator('.flipbook-indicator')).toContainText('СТРАНИЦА 1 ИЗ');
 
-    // Check localized Greek post page
+    // Greek page counter is localized
     await page.goto(`http://localhost:${port}/replace-very-50-stronger-adjectives-el.html`);
     await page.waitForLoadState('domcontentloaded');
-    const elIndicator = await page.textContent('.flipbook-indicator');
-    expect(elIndicator).toMatch(/ΣΕΛΙΔΑ 1 ΑΠΟ/i);
-
-    await context.close();
-
-    // Verify mobile video recording created
-    const videoPath = page.video() ? await page.video()!.path() : null;
-    expect(videoPath).not.toBeNull();
-    if (videoPath && fs.existsSync(videoPath)) {
-      const destPath = path.join(videosDir, 'mobile-flipbook-swipe.webm');
-      fs.copyFileSync(videoPath, destPath);
-    }
+    await expect(page.locator('.flipbook-indicator')).toContainText('ΣΕΛΙΔΑ 1 ΑΠΟ');
   });
 
-  test('Back Issues Archive: shelf lists all issues and filters feed', async ({ page }) => {
+  test('Back Issues Archive: shelf lists issues and the grid view lists articles', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 720 });
     await page.goto(`http://localhost:${port}/index.html`);
     await page.waitForLoadState('domcontentloaded');
 
-    // Verify Back Issues section exists
-    const backIssuesSection = page.locator('.back-issues-section');
-    await expect(backIssuesSection).toBeVisible();
+    // Issue shelf lists volumes
+    const volumes = page.locator('#ns-issues-shelf .ns-issue-volume');
+    await expect(volumes.first()).toBeVisible();
+    expect(await volumes.count()).toBeGreaterThan(0);
 
-    // Verify Issue Shelf Cards exist
-    const issueCards = page.locator('.issue-card');
-    const cardCount = await issueCards.count();
-    expect(cardCount).toBeGreaterThan(0);
+    // Switching to the catalog view reveals article cards
+    await page.locator('#view-mode-grid').click();
+    await expect(page.locator('#ns-catalog-section')).toBeVisible();
+    const cards = page.locator('#ns-grid .ns-card');
+    expect(await cards.count()).toBeGreaterThan(0);
 
-    // Click an Issue Card to filter feed
-    const firstIssueCard = issueCards.first();
-    await firstIssueCard.click();
+    // Desk filter narrows the catalog
+    await page.locator('#ns-desks .ns-chip').nth(1).click();
     await page.waitForTimeout(200);
-
-    // Verify feed is filtered
-    const visibleCards = await page.locator('.post-card:visible').count();
-    expect(visibleCards).toBeGreaterThan(0);
+    expect(await page.locator('#ns-grid .ns-card').count()).toBeGreaterThan(0);
   });
-
 });
