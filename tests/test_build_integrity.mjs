@@ -79,6 +79,16 @@ test('sitemap.xml never declares a future lastmod', () => {
   assert.deepEqual(future, [], `sitemap lastmod must not be in the future (found ${future.join(', ')})`);
 });
 
+test('sitemap.xml lists every static landing page', () => {
+  const xml = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf-8');
+  for (const page of ['podcast.html', 'issues.html']) {
+    assert.ok(
+      xml.includes(`https://cosylanguages.github.io/COSYmagazine/${page}`),
+      `sitemap must include ${page}`
+    );
+  }
+});
+
 test('non-English pages do not leak raw English issue labels', () => {
   const banned = [/—\s*(January|February|March|April|May|June|July|August|September|October|November|December)\s+Issue/, /Podcast Special/];
   for (const post of sourcePosts.values()) {
