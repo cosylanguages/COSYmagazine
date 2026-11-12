@@ -1,5 +1,5 @@
 /**
- * blog/js/stage/camera.js
+ * js/stage/camera.js
  * Smooth camera zoom & pan system for COSY Stage Mode.
  *
  * Uses requestAnimationFrame for smooth 60fps camera movement.

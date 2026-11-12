@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * scripts/generate-podcast-rss.js
- * Generates canonical RSS 2.0 + iTunes Podcast feed (`blog/podcast.xml`)
+ * Generates canonical RSS 2.0 + iTunes Podcast feed (`podcast.xml`)
  * from blog post JSON schema files with podcast metadata.
  *
  * Usage: node scripts/generate-podcast-rss.js
@@ -25,7 +25,7 @@ function escapeXml(unsafe) {
 }
 
 function generatePodcastRss() {
-  console.log('📡 Generating RSS Feed (blog/podcast.xml)...');
+  console.log('📡 Generating RSS Feed (podcast.xml)...');
 
   const items = [];
 
@@ -56,8 +56,21 @@ function generatePodcastRss() {
         const epNum = podcast.episode || 1;
         const durationSec = Math.max(120, (post.blocks || []).length * 45);
 
-        // Language code mapping
-        const langCode = post.language || 'en';
+        // Enclosure metadata: the MIME type follows the file extension, and the byte
+        // length is only declared when the audio is a real file in this repo.
+        const audioExt = path.extname(audioUrl).toLowerCase();
+        const audioMime = audioExt === '.mp3' ? 'audio/mpeg'
+          : audioExt === '.m4a' ? 'audio/mp4'
+          : audioExt === '.ogg' ? 'audio/ogg'
+          : 'audio/mpeg';
+        let audioLength = null;
+        if (!/^https?:/.test(rawAudio)) {
+          try {
+            audioLength = fs.statSync(path.join(BLOG_DIR, rel)).size;
+          } catch {
+            audioLength = null;
+          }
+        }
 
         items.push({
           title: post.title,
@@ -65,11 +78,11 @@ function generatePodcastRss() {
           description: post.dek || post.summary || post.title,
           url: postUrl,
           audioUrl: absoluteAudioUrl,
+          audioMime,
+          audioLength,
           pubDate,
           epNum,
           durationSec,
-          level: post.level || 'A0–B2',
-          langCode,
           author: post.author || 'JY DM',
           scriptUrl,
           stageUrl
@@ -92,10 +105,11 @@ function generatePodcastRss() {
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:atom="http://www.w3.org/2000/svg">
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${escapeXml(channelTitle)}</title>
     <link>${escapeXml(channelLink)}</link>
+    <atom:link href="${escapeXml(channelLink.replace('podcast.html', 'podcast.xml'))}" rel="self" type="application/rss+xml" />
     <description>${escapeXml(channelDesc)}</description>
     <language>en</language>
     <copyright>© 2020–2026 COSYlanguages</copyright>
@@ -119,7 +133,7 @@ function generatePodcastRss() {
       <pubDate>${item.pubDate}</pubDate>
       <description>${escapeXml(item.description)}</description>
       <content:encoded><![CDATA[<p>${escapeXml(item.description)}</p><p>📜 <a href="${item.scriptUrl}">Teleprompter Script</a> | 📺 <a href="${item.stageUrl}">16:9 Stage Deck</a></p>]]></content:encoded>
-      <enclosure url="${escapeXml(item.audioUrl)}" length="3145728" type="audio/mpeg" />
+      <enclosure url="${escapeXml(item.audioUrl)}" type="${item.audioMime}"${item.audioLength != null ? ` length="${item.audioLength}"` : ''} />
       <itunes:episode>${item.epNum}</itunes:episode>
       <itunes:author>${escapeXml(item.author)}</itunes:author>
       <itunes:duration>${item.durationSec}</itunes:duration>
@@ -130,7 +144,7 @@ function generatePodcastRss() {
 `;
 
   fs.writeFileSync(RSS_FILE, rssXml, 'utf-8');
-  console.log(`✅ Successfully generated blog/podcast.xml with ${items.length} episode items.`);
+  console.log(`✅ Successfully generated podcast.xml with ${items.length} episode items.`);
 }
 
 if (require.main === module) {

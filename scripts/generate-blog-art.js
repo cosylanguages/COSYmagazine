@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * scripts/generate-blog-art.js
- * 1. Assigns sensible default artDirection metadata across blog/posts.json and blog/posts/*.json.
- * 2. Generates static SVG cover files in blog/og/{slug}.svg for Open Graph and social media usage.
+ * 1. Assigns sensible default artDirection metadata across posts.json and posts/*.json.
+ * 2. Generates static SVG cover files in og/{slug}.svg for Open Graph and social media usage.
  *
  * Usage: node scripts/generate-blog-art.js
  */
@@ -61,63 +61,10 @@ async function generateBlogArt() {
   const generatorModule = await import('../js/art/generator.js');
   const { renderCover } = generatorModule;
 
-  // 1. Update blog/posts.json
-  if (fs.existsSync(POSTS_JSON)) {
-    const posts = JSON.parse(fs.readFileSync(POSTS_JSON, 'utf-8'));
-    let updatedCount = 0;
-
-    posts.forEach(post => {
-      const desk = determineDesk(post.category, post.tags, post.type);
-      const motif = DESK_MOTIF_MAP[desk] || 'paper-cut';
-      const palette = DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'];
-
-      post.artDirection = {
-        palette,
-        fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
-        layout: 'standard-feed',
-        motif,
-        seed: post.slug,
-        coverOverride: post.cover_image || null
-      };
-
-      // Generate OG SVG
-      const svgContent = renderCover(
-        {
-          title: post.title,
-          kicker: post.category ? post.category.toUpperCase() : 'EDITORIAL',
-          desk,
-          slug: post.slug,
-          artDirection: post.artDirection,
-          issue: { number: post.issue_volume || '', title: post.issue_title || '' }
-        },
-        { width: 1200, height: 630 }
-      );
-
-      const ogPath = path.join(OG_DIR, `${post.slug}.svg`);
-      fs.writeFileSync(ogPath, svgContent, 'utf-8');
-      updatedCount++;
-    });
-
-    fs.writeFileSync(POSTS_JSON, JSON.stringify(posts, null, 2), 'utf-8');
-
-    const INDEX_JSON = path.join(BLOG_DIR, 'index.json');
-    if (fs.existsSync(INDEX_JSON)) {
-      const indexObj = JSON.parse(fs.readFileSync(INDEX_JSON, 'utf-8'));
-      if (indexObj && Array.isArray(indexObj.posts)) {
-        const postsMap = new Map(posts.map(p => [p.slug, p.artDirection]));
-        indexObj.posts.forEach(p => {
-          if (postsMap.has(p.slug)) {
-            p.artDirection = postsMap.get(p.slug);
-          }
-        });
-        fs.writeFileSync(INDEX_JSON, JSON.stringify(indexObj, null, 2), 'utf-8');
-      }
-    }
-
-    console.log(`✅ Updated artDirection for ${updatedCount} posts in blog/posts.json and blog/index.json and generated Open Graph SVG covers in blog/og/`);
-  }
-
-  // 2. Update JSON posts in blog/posts/*.json
+  // Canonical artDirection lives in posts/*.json. Normalise it there first, then let
+  // posts.json / index.json read the same values, so the feed metadata, the source and
+  // the rendered OG artwork can never disagree.
+  const sourceArt = new Map();
   if (fs.existsSync(POSTS_DIR)) {
     const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
     jsonFiles.forEach(file => {
@@ -138,6 +85,7 @@ async function generateBlogArt() {
         };
 
         fs.writeFileSync(filePath, JSON.stringify(postData, null, 2), 'utf-8');
+        sourceArt.set(postData.slug, postData.artDirection);
 
         // Generate OG SVG
         const svgContent = renderCover(postData, { width: 1200, height: 630 });
@@ -146,6 +94,66 @@ async function generateBlogArt() {
         console.error(`❌ Failed processing ${file}:`, e.message);
       }
     });
+  }
+
+  // Guides have no post source file; derive a stable artDirection from their metadata.
+  function artFor(post) {
+    if (sourceArt.get(post.slug)) return sourceArt.get(post.slug);
+    const desk = post.type === 'guide' ? 'Long Reads' : determineDesk(post.category, post.tags, post.type);
+    return {
+      palette: DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'],
+      fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
+      layout: 'standard-feed',
+      motif: DESK_MOTIF_MAP[desk] || 'paper-cut',
+      seed: post.slug,
+      coverOverride: post.cover_image || null
+    };
+  }
+
+  // 1. Update posts.json
+  if (fs.existsSync(POSTS_JSON)) {
+    const posts = JSON.parse(fs.readFileSync(POSTS_JSON, 'utf-8'));
+    let updatedCount = 0;
+
+    posts.forEach(post => {
+      post.artDirection = artFor(post);
+
+      // Source posts already got their OG cover rendered from the canonical post
+      // object above; only guides (no source file) are rendered here.
+      if (!sourceArt.has(post.slug)) {
+        const svgContent = renderCover(
+          {
+            title: post.title,
+            kicker: post.category ? post.category.toUpperCase() : 'EDITORIAL',
+            desk: post.type === 'guide' ? 'Long Reads' : (post.category || 'Words'),
+            slug: post.slug,
+            artDirection: post.artDirection,
+            issue: { number: post.issue_volume || '', title: post.issue_title || '' }
+          },
+          { width: 1200, height: 630 }
+        );
+        fs.writeFileSync(path.join(OG_DIR, `${post.slug}.svg`), svgContent, 'utf-8');
+      }
+      updatedCount++;
+    });
+
+    fs.writeFileSync(POSTS_JSON, JSON.stringify(posts, null, 2), 'utf-8');
+
+    const INDEX_JSON = path.join(BLOG_DIR, 'index.json');
+    if (fs.existsSync(INDEX_JSON)) {
+      const indexObj = JSON.parse(fs.readFileSync(INDEX_JSON, 'utf-8'));
+      if (indexObj && Array.isArray(indexObj.posts)) {
+        const postsMap = new Map(posts.map(p => [p.slug, p.artDirection]));
+        indexObj.posts.forEach(p => {
+          if (postsMap.has(p.slug)) {
+            p.artDirection = postsMap.get(p.slug);
+          }
+        });
+        fs.writeFileSync(INDEX_JSON, JSON.stringify(indexObj, null, 2), 'utf-8');
+      }
+    }
+
+    console.log(`✅ Updated artDirection for ${updatedCount} posts in posts.json and index.json and generated Open Graph SVG covers in og/`);
   }
 }
 

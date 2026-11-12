@@ -1,5 +1,5 @@
 /**
- * blog/js/stage/stage.js
+ * js/stage/stage.js
  * Main controller for Stage Mode, Teleprompter Script Mode, and Reading Mode word card magnification.
  */
 

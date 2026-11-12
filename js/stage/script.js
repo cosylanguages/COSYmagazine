@@ -1,5 +1,5 @@
 /**
- * blog/js/stage/script.js
+ * js/stage/script.js
  * Controller for Teleprompter Script Mode (?script=1).
  * Renders post `say` fields (falling back to block text), font size adjustments,
  * auto-scroll speed controls, mirror mode, per-beat timing markers, estimated duration,

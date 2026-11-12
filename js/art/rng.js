@@ -1,5 +1,5 @@
 /**
- * blog/js/art/rng.js
+ * js/art/rng.js
  * Lightweight, deterministic Mulberry32 Pseudo-Random Number Generator.
  */
 

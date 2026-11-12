@@ -8,6 +8,8 @@ __pycache__/
 *.pyc
 test-results/
 playwright-report/
+tests/screenshots/
+tests/videos/
 
 # NOTE: generated output (<slug>.html, og/, index.json, posts.json, sitemap.xml, podcast.xml)
 # is intentionally NOT ignored. GitHub Pages serves it straight from main, so it must be committed.

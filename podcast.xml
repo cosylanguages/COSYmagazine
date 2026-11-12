@@ -2,10 +2,11 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:atom="http://www.w3.org/2000/svg">
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cosylanguages / такиеязыки</title>
     <link>https://cosylanguages.github.io/COSYmagazine/podcast.html</link>
+    <atom:link href="https://cosylanguages.github.io/COSYmagazine/podcast.xml" rel="self" type="application/rss+xml" />
     <description>Official podcast for natural, speaking-first language acquisition. Every post includes teleprompter scripts, read-along sync, and 16:9 stage mode decks.</description>
     <language>en</language>
     <copyright>© 2020–2026 COSYlanguages</copyright>
@@ -29,7 +30,7 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and &apos;it&apos;s giving...&apos;.</description>
       <content:encoded><![CDATA[<p>Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and &apos;it&apos;s giving...&apos;.</p><p>📜 <a href="https://cosylanguages.github.io/COSYmagazine/top-5-favourite-grammar-rules.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYmagazine/top-5-favourite-grammar-rules.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
-      <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/127116641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433699518-44100-2-8081bb8b574d1.m4a" length="3145728" type="audio/mpeg" />
+      <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/127116641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433699518-44100-2-8081bb8b574d1.m4a" type="audio/mp4" />
       <itunes:episode>10</itunes:episode>
       <itunes:author>JY DM</itunes:author>
       <itunes:duration>2835</itunes:duration>
@@ -43,7 +44,7 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
       <description>The 10 essential verbs every beginner needs first: be, have, think, know, like, want/would like, work/study (learn), go/be going to, can, eat/drink, linked directly across all 14 target languages with rich usages and sentence frames.</description>
       <content:encoded><![CDATA[<p>The 10 essential verbs every beginner needs first: be, have, think, know, like, want/would like, work/study (learn), go/be going to, can, eat/drink, linked directly across all 14 target languages with rich usages and sentence frames.</p><p>📜 <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
-      <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/89733577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908675-44100-2-eafbc55432c38.mp3" length="3145728" type="audio/mpeg" />
+      <enclosure url="https://anchor.fm/s/f931c12c/podcast/play/89733577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908675-44100-2-eafbc55432c38.mp3" type="audio/mpeg" />
       <itunes:episode>2</itunes:episode>
       <itunes:author>JY DM</itunes:author>
       <itunes:duration>315</itunes:duration>

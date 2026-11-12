@@ -1,5 +1,5 @@
 /**
- * blog/js/podcast-box.js
+ * js/podcast-box.js
  * Podcast Box Component for COSYlanguages Blog Posts.
  * Renders episode info, audio player, teleprompter script / stage presentation links,
  * and optional timestamp-synced "Listen while reading" read-along highlighting.

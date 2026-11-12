@@ -1,5 +1,5 @@
 /**
- * blog/js/art/generator.js
+ * js/art/generator.js
  * Primary entry point for rendering cover art, section dividers, pull-quote cards,
  * and word cards for COSY magazine posts.
  */

@@ -2,7 +2,7 @@
 /**
  * scripts/build-blog.js
  * Builds static blog post HTML pages as Vogue Gazette editorial spreads
- * and generates blog/posts.json & blog/index.json directly from JSON source files.
+ * and generates posts.json & index.json directly from JSON source files.
  *
  * Usage: node scripts/build-blog.js
  */
@@ -37,7 +37,7 @@ const DESKS_CATALOG = [
   { key: 'Words', i18n_key: 'desk_words', icon: '🔤', order: 5 },
   { key: 'Grammar Made Cosy', i18n_key: 'desk_grammar_made_cosy', icon: '📐', order: 6 },
   { key: 'Say It', i18n_key: 'desk_say_it', icon: '🗣️', order: 7 },
-  { key: 'Culture &amp; Quotes', i18n_key: 'desk_culture_quotes', icon: '🎭', order: 8 },
+  { key: 'Culture & Quotes', i18n_key: 'desk_culture_quotes', icon: '🎭', order: 8 },
   { key: 'Long Reads', i18n_key: 'desk_long_reads', icon: '📖', order: 9 },
   { key: 'Cosy Events', i18n_key: 'desk_cosy_events', icon: '🎉', order: 10 },
   { key: 'The Podcast', i18n_key: 'desk_the_podcast', icon: '🎙️', order: 11 },
@@ -53,7 +53,7 @@ const DESK_KEY_MAP = {
   'Words': 'words',
   'Grammar Made Cosy': 'grammar_made_cosy',
   'Say It': 'say_it',
-  'Culture &amp; Quotes': 'culture_quotes',
+  'Culture & Quotes': 'culture_quotes',
   'Long Reads': 'long_reads',
   'Cosy Events': 'cosy_events',
   'The Podcast': 'the_podcast',
@@ -137,6 +137,36 @@ function escapeHtml(value) {
     '"': '&quot;',
     "'": '&#39;'
   })[char]);
+}
+
+// Normalises issue numbers written as free text ("Vol. 2026 — December Issue")
+// to the canonical "Vol. 2026.12" form used across the site.
+const MONTH_INDEX = {
+  january: '01', february: '02', march: '03', april: '04', may: '05', june: '06',
+  july: '07', august: '08', september: '09', october: '10', november: '11', december: '12'
+};
+
+function normalizeIssueNumber(number) {
+  const n = String(number || '');
+  const explicit = n.match(/(\d{4})\.(\d{2})/);
+  if (explicit) return `Vol. ${explicit[1]}.${explicit[2]}`;
+  const yearMonth = n.match(/(\d{4})\s*[—–-]\s*([A-Za-z]+)/);
+  if (yearMonth && MONTH_INDEX[yearMonth[2].toLowerCase()]) {
+    return `Vol. ${yearMonth[1]}.${MONTH_INDEX[yearMonth[2].toLowerCase()]}`;
+  }
+  return n;
+}
+
+// Human, localized label for the volume shown in the masthead/folio.
+// Monthly volumes collapse to "Vol. 2026.12" (no language-specific words); special
+// editions use their translated name so no English leaks into non-English pages.
+function issueVolumeLabel(post, langDict, lang) {
+  const raw = String(post.issue?.number || '');
+  if (!raw) return '';
+  const m = raw.match(/(\d{4})\.(\d{2})/);
+  if (m) return `Vol. ${m[1]}.${m[2]}`;
+  if (/podcast special/i.test(raw)) return tStrict(langDict, 'desk.the_podcast', lang);
+  return raw;
 }
 
 // Which notebook look an article gets (see css/notebook.css)
@@ -522,14 +552,14 @@ async function buildBlog() {
     try {
       guides = JSON.parse(fs.readFileSync(GUIDES_FILE, 'utf-8'));
     } catch (e) {
-      console.error('❌ Failed to parse blog/guides.json:', e.message);
+      console.error('❌ Failed to parse guides.json:', e.message);
       process.exit(1);
     }
   }
 
   const guideSlugs = new Set(guides.map(g => g.slug));
 
-  // 2. Load JSON post files from blog/posts/*.json
+  // 2. Load JSON post files from posts/*.json
   const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
   const allPosts = [];
   const postSlugs = new Set();
@@ -562,7 +592,7 @@ async function buildBlog() {
     postSlugs.add(slug);
 
     if (postData.issue && postData.issue.number) {
-      if (postData.issue.number.includes('August')) postData.issue.number = 'Vol. 2026.08';
+      postData.issue.number = normalizeIssueNumber(postData.issue.number);
       issuesSet.set(postData.issue.number, {
         number: postData.issue.number,
         title: postData.issue.title
@@ -614,18 +644,20 @@ async function buildBlog() {
     const format = post.format || 'essay';
     const desk = post.desk || 'Words';
     const kicker = post.kicker || desk;
-    // Standalone articles (no issue) are never filed under a volume
-    const issueNum = post.issue?.number || '';
+    // Standalone articles (no issue) are never filed under a volume.
+    // The volume is normalised and rendered without language-specific words
+    // (or with a translated name for special editions) so no English leaks
+    // onto non-English pages.
+    const issueNum = issueVolumeLabel(post, langDict, lang);
 
     // Localize Issue Title per post language (No English fallback)
-    let issueTitleKey = null;
-    if (post.issue?.number === 'Vol. 2026.08' || post.issue?.number === 'Vol. 2026 — August Issue') issueTitleKey = 'blog.issue_august_title';
-    else if (post.issue?.number === 'Vol. 2026.09' || post.issue?.number === 'Vol. 2026 — September Issue') issueTitleKey = 'blog.issue_september_title';
-    else if (post.issue?.number === 'Vol. 2026.10' || post.issue?.number === 'Vol. 2026 — October Issue') issueTitleKey = 'blog.issue_october_title';
-    else if (post.issue?.number === 'Vol. 2026.11' || post.issue?.number === 'Vol. 2026 — November Issue') issueTitleKey = 'blog.issue_november_title';
-    else if (post.issue?.number === 'Vol. 2026.12' || post.issue?.number === 'Vol. 2026 — December Issue') issueTitleKey = 'blog.issue_december_title';
+    const issueMonth = (String(post.issue?.number || '').match(/(\d{4})\.(\d{2})/) || [])[2];
+    const issueMonthName = issueMonth
+      ? Object.keys(MONTH_INDEX).find(k => MONTH_INDEX[k] === issueMonth)
+      : null;
+    const issueTitleKey = issueMonthName ? `blog.issue_${issueMonthName}_title` : null;
 
-    const issueTitle = issueTitleKey
+    const issueTitle = (issueTitleKey && langDict.blog && langDict.blog[`issue_${issueMonthName}_title`] !== undefined)
       ? tStrict(langDict, issueTitleKey, lang)
       : (post.issue?.title || 'COSY Editorial');
 
@@ -840,7 +872,7 @@ async function buildBlog() {
     console.log(`  ✓ Generated ${post.slug}.html`);
   });
 
-  // 5. Generate blog/posts.json
+  // 5. Generate posts.json
   const postsJsonList = [
     ...publishedPosts.map(p => ({
       slug: p.slug,
@@ -895,9 +927,9 @@ async function buildBlog() {
   });
 
   fs.writeFileSync(POSTS_JSON, JSON.stringify(postsJsonList), 'utf-8');
-  console.log(`✅ Successfully generated blog/posts.json (${postsJsonList.length} total entries).`);
+  console.log(`✅ Successfully generated posts.json (${postsJsonList.length} total entries).`);
 
-  // 6. Generate blog/index.json (including posts and guides)
+  // 6. Generate index.json (including posts and guides)
   const guidesForIndex = guides.map(g => ({
     id: `guide-${g.slug}`,
     slug: g.slug,
@@ -956,7 +988,7 @@ async function buildBlog() {
   };
 
   fs.writeFileSync(INDEX_JSON, JSON.stringify(indexOutput), 'utf-8');
-  console.log(`✅ Successfully generated blog/index.json (${indexPostsList.length} total posts/guides, ${DESKS_CATALOG.length} desks).`);
+  console.log(`✅ Successfully generated index.json (${indexPostsList.length} total posts/guides, ${DESKS_CATALOG.length} desks).`);
 
   // 7. Generate podcast RSS feed
   generatePodcastRss();

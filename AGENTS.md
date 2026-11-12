@@ -1,0 +1,61 @@
+# AGENTS.md — COSYmagazine
+
+Static, speaking-first language-learning magazine. GitHub Pages serves the repo
+directly, so generated output is committed (see the note at the bottom of
+`.gitignore`). Do not hand-edit generated files.
+
+## Build & test
+
+```bash
+npm install
+npm run build      # posts/*.json -> <slug>.html, index.json, posts.json, og/, podcast.xml, sitemap.xml
+npm run validate   # schema + i18n dictionaries
+npm test           # node --test tests/*.mjs  (CommonJS scripts; .mjs tests are ESM)
+npx playwright test  # E2E specs in tests/*.spec.ts
+```
+
+`npm run build` must be idempotent: re-running it on the same day should change
+nothing except `generatedAt` in `index.json`. Verify with a diff before committing
+generated output.
+
+## Source of truth
+
+- `posts/<slug>.json` is the only source. Translations set `translationOf` to the
+  base slug and their own `language`. `draft: true` keeps a post out of the build.
+- `posts.json` (catalog) and `index.json` (newsstand feed) are generated mirrors.
+  A regression test asserts their metadata mirrors the `posts/*.json` sources.
+- `drafts-review/` holds staged, unpublished variants; the build never reads it.
+
+## Architecture
+
+- `scripts/build-blog.js` orchestrates rendering. `js/art/generator.js` (ESM) draws
+  covers/motifs and is imported by the build, `index.html`, `dev/art-contact-sheet.html`,
+  and tests. `js/art/` has its own `package.json` with `"type": "module"` so Node does
+  not warn about the ESM/CJS mix there.
+- `js/` intentionally mixes ES modules (art, stage, flipbook, podcast-box, podcast-embed)
+  with CommonJS files loaded by node tests (editor, studio-core, print-spec, …). The repo
+  root must stay CommonJS because `scripts/*.js` use `require`, and `js/` cannot be flipped
+  to `"type": "module"` wholesale without breaking those files. Node therefore prints a
+  benign `MODULE_TYPELESS_PACKAGE_JSON` warning for the ESM files under `js/`; it does not
+  affect the built site or the tests. Do not "fix" it by editing the root `package.json`.
+- `js/flipbook.js` powers post-page reading: desktop uses spreads ("PAGE 1–2 OF N"),
+  mobile uses single pages. The turn affordance is `.dog-ear-next` / `.dog-ear-prev`
+  (not every `.magazine-dog-ear` is visible — `prev` is disabled on page 1).
+- `index.html` is the newsstand (`ns-*` classes) and does NOT load `flipbook.js`.
+
+## i18n
+
+- Interface strings live in `js/i18n/*.json`. Post free-text fields (e.g. a raw
+  `issue.number` like `"Vol. 2026 — December Issue"`) must be normalized/localized
+  before display, or English leaks onto non-English pages. `build-blog.js` normalizes
+  issue numbers to `Vol. YYYY.MM` and derives issue titles from the month.
+- `tests/blog_i18n_script_validation.spec.ts` renders every non-English page and
+  asserts no untranslated English UI strings. Its brand allowlist is for legitimate
+  external brand names only — never widen it to silence a real leak.
+
+## Known non-issues (do not "fix")
+
+- `posts/*.json` may reference local audio under `audio/` that is not committed; the
+  build omits a player when the file is absent, so nothing renders broken.
+- Some issues are future-dated on purpose (editorial calendar). Sitemap `lastmod`
+  is clamped to the build date, so this is fine.
