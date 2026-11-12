@@ -357,7 +357,7 @@ export class StageController {
         <span class="magnifier-kicker">VOCABULARY CARD</span>
         <h2 class="magnifier-word">${this.escapeHtml(word)}</h2>
         <p class="magnifier-def">Explore canonical definitions, audio pronunciation, and example sentences in COSYdata.</p>
-        <a href="https://cosylanguages.github.io/COSYdata/vocabulary/index.html?word=${encodeURIComponent(word)}" target="_blank" rel="noopener" class="magnifier-link">
+        <a href="https://cosylanguages.github.io/COSYdata/vocabulary/en/index.html?word=${encodeURIComponent(word)}" target="_blank" rel="noopener" class="magnifier-link">
           Open in COSYdata ↗
         </a>
       </div>
