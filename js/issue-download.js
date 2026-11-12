@@ -2,7 +2,7 @@
   'use strict';
 
   const LOGIN_URL = 'https://cosylanguages.github.io/COSYlanguages/login.html';
-  const SUBSCRIPTION_URL = 'https://cosylanguages.github.io/COSYlanguages/pricing.html';
+  const SUBSCRIPTION_URL = 'https://cosylanguages.github.io/COSYlanguages/courses/index.html';
 
   function escapeHtml(str) {
     if (!str) return '';
