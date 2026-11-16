@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-12T14:38:25.345Z",
+  "generatedAt": "2026-11-16T06:19:26.676Z",
   "stats": {
     "totalPosts": 97,
     "totalDesks": 13,
@@ -123,6 +123,7 @@
       "language": "ba",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -164,6 +165,7 @@
       "language": "br",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -205,6 +207,7 @@
       "language": "cv",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -246,6 +249,7 @@
       "language": "de",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -287,6 +291,7 @@
       "language": "el",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -328,6 +333,7 @@
       "language": "en",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -369,6 +375,7 @@
       "language": "es",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -410,6 +417,7 @@
       "language": "fr",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -451,6 +459,7 @@
       "language": "hy",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -492,6 +501,7 @@
       "language": "it",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -533,6 +543,7 @@
       "language": "ka",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -574,6 +585,7 @@
       "language": "pt",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -615,6 +627,7 @@
       "language": "ru",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -656,6 +669,7 @@
       "language": "tt",
       "translationOf": "top-10-verbs-part-3",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -696,6 +710,7 @@
       "slug": "top-10-verbs-part-3",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -737,6 +752,7 @@
       "slug": "the-logic-of-phrasal-verbs-everybody-scream",
       "language": "en",
       "desk": "Grammar Made Cosy",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "B1–C1",
       "issue": {
@@ -782,6 +798,7 @@
       "language": "ba",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -823,6 +840,7 @@
       "language": "br",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -864,6 +882,7 @@
       "language": "cv",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -905,6 +924,7 @@
       "language": "de",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -946,6 +966,7 @@
       "language": "el",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -987,6 +1008,7 @@
       "language": "en",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1028,6 +1050,7 @@
       "language": "es",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1069,6 +1092,7 @@
       "language": "fr",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1110,6 +1134,7 @@
       "language": "hy",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1151,6 +1176,7 @@
       "language": "it",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1192,6 +1218,7 @@
       "language": "ka",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1233,6 +1260,7 @@
       "language": "pt",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1274,6 +1302,7 @@
       "language": "ru",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1315,6 +1344,7 @@
       "language": "tt",
       "translationOf": "top-10-verbs-part-2",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1355,6 +1385,7 @@
       "slug": "top-10-verbs-part-2",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -1438,6 +1469,7 @@
       "slug": "demystifying-english-tenses-timeline-guide",
       "language": "en",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "A2–C1",
       "issue": {
@@ -1482,6 +1514,7 @@
       "translationOf": "demystifying-english-tenses-timeline-guide",
       "language": "fr",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "A2–C1",
       "issue": {
@@ -1525,6 +1558,7 @@
       "translationOf": "demystifying-english-tenses-timeline-guide",
       "language": "el",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "A2–C1",
       "issue": {
@@ -1568,6 +1602,7 @@
       "translationOf": "demystifying-english-tenses-timeline-guide",
       "language": "it",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "A2–C1",
       "issue": {
@@ -1611,6 +1646,7 @@
       "translationOf": "demystifying-english-tenses-timeline-guide",
       "language": "ru",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "essay",
       "level": "A2–C1",
       "issue": {
@@ -2202,6 +2238,7 @@
       "slug": "top-5-favourite-grammar-rules",
       "language": "en",
       "desk": "Grammar",
+      "section": "grammar_made_cosy",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -2250,6 +2287,7 @@
       "language": "ba",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2293,6 +2331,7 @@
       "language": "br",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2336,6 +2375,7 @@
       "language": "cv",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2379,6 +2419,7 @@
       "language": "de",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2422,6 +2463,7 @@
       "language": "el",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2465,6 +2507,7 @@
       "language": "es",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2508,6 +2551,7 @@
       "language": "fr",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2551,6 +2595,7 @@
       "language": "hy",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2594,6 +2639,7 @@
       "language": "it",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2637,6 +2683,7 @@
       "language": "ka",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2680,6 +2727,7 @@
       "language": "pt",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2723,6 +2771,7 @@
       "language": "ru",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2766,6 +2815,7 @@
       "language": "tt",
       "translationOf": "stop-translating-10-sentence-frames",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2808,6 +2858,7 @@
       "slug": "stop-translating-10-sentence-frames",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -2850,6 +2901,7 @@
       "slug": "replace-50-overused-phrases-el",
       "language": "el",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -2893,6 +2945,7 @@
       "slug": "replace-50-overused-phrases-fr",
       "language": "fr",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -2936,6 +2989,7 @@
       "slug": "replace-50-overused-phrases-it",
       "language": "it",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -2979,6 +3033,7 @@
       "slug": "replace-50-overused-phrases-ru",
       "language": "ru",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3022,6 +3077,7 @@
       "slug": "replace-50-overused-phrases",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3063,6 +3119,7 @@
       "slug": "replace-very-50-stronger-adjectives-el",
       "language": "el",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3106,6 +3163,7 @@
       "slug": "replace-very-50-stronger-adjectives-fr",
       "language": "fr",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3149,6 +3207,7 @@
       "slug": "replace-very-50-stronger-adjectives-it",
       "language": "it",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3192,6 +3251,7 @@
       "slug": "replace-very-50-stronger-adjectives-ru",
       "language": "ru",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3235,6 +3295,7 @@
       "slug": "replace-very-50-stronger-adjectives",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3278,6 +3339,7 @@
       "translationOf": "top-10-verb-synonyms-intermediate-plateau",
       "draft": false,
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3322,6 +3384,7 @@
       "translationOf": "top-10-verb-synonyms-intermediate-plateau",
       "draft": false,
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3366,6 +3429,7 @@
       "translationOf": "top-10-verb-synonyms-intermediate-plateau",
       "draft": false,
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3410,6 +3474,7 @@
       "translationOf": "top-10-verb-synonyms-intermediate-plateau",
       "draft": false,
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3453,6 +3518,7 @@
       "language": "en",
       "draft": false,
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "B1–B2",
       "issue": {
@@ -3536,6 +3602,7 @@
       "slug": "in-conversation-founder-august-school",
       "language": "en",
       "desk": "COSYtalks",
+      "section": "founder_interview",
       "format": "qa",
       "level": "A2–C1",
       "issue": {
@@ -3579,6 +3646,7 @@
       "language": "ba",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3621,6 +3689,7 @@
       "language": "br",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3663,6 +3732,7 @@
       "language": "cv",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3705,6 +3775,7 @@
       "language": "de",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3747,6 +3818,7 @@
       "language": "el",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3789,6 +3861,7 @@
       "language": "en",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3830,6 +3903,7 @@
       "language": "es",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3872,6 +3946,7 @@
       "language": "fr",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3914,6 +3989,7 @@
       "language": "hy",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3956,6 +4032,7 @@
       "language": "it",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3998,6 +4075,7 @@
       "language": "ka",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4040,6 +4118,7 @@
       "language": "pt",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4082,6 +4161,7 @@
       "language": "ru",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4124,6 +4204,7 @@
       "language": "tt",
       "translationOf": "top-10-verbs",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4165,6 +4246,7 @@
       "slug": "top-10-verbs",
       "language": "en",
       "desk": "Words",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4211,6 +4293,7 @@
       "slug": "why-speaking-first",
       "language": "en",
       "desk": "Front Page",
+      "section": "founder_dispatch",
       "format": "essay",
       "level": "A0–B2",
       "issue": {

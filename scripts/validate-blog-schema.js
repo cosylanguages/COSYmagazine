@@ -17,6 +17,14 @@ const LEDGER_KEYS = ['quotesVerified', 'claimsAttributed', 'consentOnFile', 'ima
 const LEDGER_VALUES = new Set(['todo', 'done', 'na']);
 const ALLOWED_MEDIA = new Set(['both', 'digital', 'print']);
 
+// Section ids used by the editor and the issue planner (js/editor-blocks.js CANONICAL_SECTIONS).
+const ALLOWED_SECTIONS = new Set([
+  'front_cover', 'editor_letter', 'founder_dispatch', 'wonder_column', 'founder_interview',
+  'debatable_relatable', 'student_teacher_spotlight', 'mind_matters', 'words_desk', 'if_you_were',
+  'grammar_made_cosy', 'science_expander', 'wonder_contest_showcase', 'life_with_without',
+  'community_challenge', 'greatest_quotes', 'culinary_salon', 'cultural_salon', 'thematic_crossword'
+]);
+
 const ALLOWED_DESKS = new Set([
   'Front Page',
   'Words',
@@ -101,6 +109,11 @@ function validatePostSchema(postObj, sourceName = 'object') {
   // Desk check
   if (postObj.desk && !ALLOWED_DESKS.has(postObj.desk)) {
     errors.push(`[${sourceName}] Invalid desk "${postObj.desk}". Must be one of: ${Array.from(ALLOWED_DESKS).join(', ')}.`);
+  }
+
+  // Section check (optional field)
+  if (postObj.section !== undefined && !ALLOWED_SECTIONS.has(postObj.section)) {
+    errors.push(`[${sourceName}] Invalid section "${postObj.section}". Must be one of: ${Array.from(ALLOWED_SECTIONS).join(', ')}.`);
   }
 
   // Format check
