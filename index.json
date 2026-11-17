@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-17T19:39:39.936Z",
+  "generatedAt": "2026-11-17T21:29:57.610Z",
   "stats": {
     "totalPosts": 112,
     "totalDesks": 13,
@@ -1689,6 +1689,7 @@
       "slug": "neuroplasticity-and-the-playful-brain",
       "language": "en",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -2014,6 +2015,7 @@
       "slug": "why-do-we-freeze-when-conversations-go-off-script-el",
       "language": "el",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -2057,6 +2059,7 @@
       "slug": "why-do-we-freeze-when-conversations-go-off-script-fr",
       "language": "fr",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -2100,6 +2103,7 @@
       "slug": "why-do-we-freeze-when-conversations-go-off-script-it",
       "language": "it",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -2143,6 +2147,7 @@
       "slug": "why-do-we-freeze-when-conversations-go-off-script-ru",
       "language": "ru",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -2191,6 +2196,7 @@
       "slug": "why-do-we-freeze-when-conversations-go-off-script",
       "language": "en",
       "desk": "COSYtalks",
+      "section": "mind_matters",
       "format": "essay",
       "level": "B1–B2",
       "issue": {
@@ -3641,6 +3647,7 @@
       "slug": "top-100-a0-a1-armenian",
       "language": "hy",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3680,6 +3687,7 @@
       "slug": "top-100-a0-a1-bashkir",
       "language": "ba",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3719,6 +3727,7 @@
       "slug": "top-100-a0-a1-breton",
       "language": "br",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3758,6 +3767,7 @@
       "slug": "top-100-a0-a1-english",
       "language": "en",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3797,6 +3807,7 @@
       "slug": "top-100-a0-a1-french",
       "language": "fr",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3836,6 +3847,7 @@
       "slug": "top-100-a0-a1-georgian",
       "language": "ka",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3875,6 +3887,7 @@
       "slug": "top-100-a0-a1-german",
       "language": "de",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3914,6 +3927,7 @@
       "slug": "top-100-a0-a1-greek",
       "language": "el",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3953,6 +3967,7 @@
       "slug": "top-100-a0-a1-italian",
       "language": "it",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -3992,6 +4007,7 @@
       "slug": "top-100-a0-a1-portuguese",
       "language": "pt",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4031,6 +4047,7 @@
       "slug": "top-100-a0-a1-russian",
       "language": "ru",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4070,6 +4087,7 @@
       "slug": "top-100-a0-a1-spanish",
       "language": "es",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4109,6 +4127,7 @@
       "slug": "top-100-a0-a1-tatar",
       "language": "tt",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
@@ -4148,6 +4167,7 @@
       "slug": "top-100-a0-a1",
       "language": "en",
       "desk": "Long Reads",
+      "section": "words_desk",
       "format": "list",
       "level": "A0–A1 / A2",
       "issue": {
