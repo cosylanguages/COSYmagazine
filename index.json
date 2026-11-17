@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-16T06:19:26.676Z",
+  "generatedAt": "2026-11-17T19:39:39.936Z",
   "stats": {
-    "totalPosts": 97,
+    "totalPosts": 112,
     "totalDesks": 13,
     "totalIssues": 7
   },
@@ -3557,6 +3557,45 @@
       }
     },
     {
+      "id": "post-welcome-to-cosy-blog",
+      "slug": "welcome-to-cosy-blog",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–A1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-10",
+      "title": "Welcome to the COSY Editorial & Learning Corner",
+      "kicker": "EDITORIAL ROOM",
+      "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+      "tags": [
+        "Welcome",
+        "EcosystemUpdate",
+        "LanguageLearning"
+      ],
+      "readingTime": 1,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "welcome-cosy-001",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
       "id": "post-overcoming-intermediate-plateau",
       "slug": "overcoming-intermediate-plateau",
       "language": "en",
@@ -3593,6 +3632,553 @@
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
         "seed": "overcoming-intermediate-plateau",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-armenian",
+      "slug": "top-100-a0-a1-armenian",
+      "language": "hy",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Armenian A0–A1 Master Guide",
+      "kicker": "ՌԵՍՈՒՐՍՆԵՐԻ ՑԱՆԿ",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Armenian script with transliterations.",
+      "tags": [
+        "Armenian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-armenian",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-bashkir",
+      "slug": "top-100-a0-a1-bashkir",
+      "language": "ba",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Bashkir A0–A1 Master Guide",
+      "kicker": "РЕСУРСТАР ИСЕМЛЕГЕ",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Bashkir script with transliterations.",
+      "tags": [
+        "Bashkir",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-bashkir",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-breton",
+      "slug": "top-100-a0-a1-breton",
+      "language": "br",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Breton A0–A1 Master Guide",
+      "kicker": "BRETON A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Breton definitions.",
+      "tags": [
+        "Breton",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-breton",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-english",
+      "slug": "top-100-a0-a1-english",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 English A0–A1 Master Guide",
+      "kicker": "ENGLISH A0–A1 MASTER LIST",
+      "dek": "The ultimate Top 100 A0-A1 English vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.",
+      "tags": [
+        "English",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-english",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-french",
+      "slug": "top-100-a0-a1-french",
+      "language": "fr",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 French A0–A1 Master Guide",
+      "kicker": "FRENCH A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual French definitions.",
+      "tags": [
+        "French",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-french",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-georgian",
+      "slug": "top-100-a0-a1-georgian",
+      "language": "ka",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Georgian A0–A1 Master Guide",
+      "kicker": "რესურსების სია",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Mkhedruli script with transliterations.",
+      "tags": [
+        "Georgian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-georgian",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-german",
+      "slug": "top-100-a0-a1-german",
+      "language": "de",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 German A0–A1 Master Guide",
+      "kicker": "GERMAN A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "German",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-german",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-greek",
+      "slug": "top-100-a0-a1-greek",
+      "language": "el",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Greek A0–A1 Master Guide",
+      "kicker": "ΕΛΛΗΝΙΚΑ A0–A1 ΛΙΣΤΑ",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Greek script with transliterations.",
+      "tags": [
+        "Greek",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-greek",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-italian",
+      "slug": "top-100-a0-a1-italian",
+      "language": "it",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Italian A0–A1 Master Guide",
+      "kicker": "ITALIAN A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Italian definitions.",
+      "tags": [
+        "Italian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-italian",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-portuguese",
+      "slug": "top-100-a0-a1-portuguese",
+      "language": "pt",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Portuguese A0–A1 Master Guide",
+      "kicker": "PORTUGUESE A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "Portuguese",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-portuguese",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-russian",
+      "slug": "top-100-a0-a1-russian",
+      "language": "ru",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Russian A0–A1 Master Guide",
+      "kicker": "РУССКИЙ A0–A1 СПИСОК",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Cyrillic with Latin transliterations.",
+      "tags": [
+        "Russian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-russian",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-spanish",
+      "slug": "top-100-a0-a1-spanish",
+      "language": "es",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Spanish A0–A1 Master Guide",
+      "kicker": "SPANISH A0–A1 MASTER LIST",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "Spanish",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-spanish",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1-tatar",
+      "slug": "top-100-a0-a1-tatar",
+      "language": "tt",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Tatar A0–A1 Master Guide",
+      "kicker": "РЕСУРСЛАР ИСЕМЛЕГЕ",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Tatar script with transliterations.",
+      "tags": [
+        "Tatar",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-tatar",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "guide-top-100-a0-a1",
+      "slug": "top-100-a0-a1",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 A0–A1 Semantic Master List (14 Languages)",
+      "kicker": "SEMANTIC MASTER TREE",
+      "dek": "100 progressive semantic chains across 10 ordered domains with milestone goals, monolingual definitions, and direct live links to COSYdata vocabulary repositories.",
+      "tags": [
+        "Top100",
+        "Vocabulary",
+        "Beginners",
+        "Curriculum"
+      ],
+      "readingTime": 12,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1",
         "coverOverride": null
       },
       "draft": false

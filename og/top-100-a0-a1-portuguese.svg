@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="editorial-stars" data-seed="top-100-a0-a1-portuguese" data-lang="pt">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="630" fill="#fffef8" />
+    
+      <polygon points="1176,639 995,737 996,476" fill="#ffe250" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+      <polygon points="1117,505 1077,597 1011,584 944,549 886,412 981,366 1083,401" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+      <polygon points="397,282 433,470 166,504 30,353 14,164 166,71 412,101" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+      <polygon points="1145,299 929,502 657,694 532,461 497,174 698,-57 1088,1" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+      <polygon points="1225,98 931,259 938,-29" fill="#2d9cdb" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+      <polygon points="1459,202 1362,424 1001,545 779,418 772,31 1039,-178 1263,8" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+    
+  
+      
+      <g transform="rotate(5 358 343)">
+        <rect x="118" y="180" width="480" height="326" rx="6" fill="#ffe250" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(7 352 245.5)">
+        <rect x="133" y="104" width="438" height="283" rx="6" fill="#2d9cdb" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="992,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1012,157.5 992,0" fill="#FCF9F2" opacity="0.9" stroke="#2d9cdb" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(-3 380 45)" filter="url(#soft-shadow)">
+      <rect x="320" y="33" width="120" height="24" rx="2" fill="#ffe250" opacity="0.45" />
+      <line x1="320" y1="33" x2="320" y2="57" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="440" y1="33" x2="440" y2="57" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#2d9cdb" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 879 81 Q 879 93 891 93 Q 879 93 879 105 Q 879 93 867 93 Q 879 93 879 81 Z" fill="#ffe250" opacity="0.3" />
+      <path d="M 924 123 Q 924 131 932 131 Q 924 131 924 139 Q 924 131 916 131 Q 924 131 924 123 Z" stroke="#ffe250" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 53 137 C 63 122, 48 102, 68 87" />
+      <circle cx="57" cy="122" r="3" fill="#2d9cdb" opacity="0.5" />
+      <circle cx="63" cy="105" r="3" fill="#ffe250" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 87 590 Q 208 588 329 593" stroke="#ffe250" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 97 593 Q 208 591 319 592" stroke="#2d9cdb" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="236" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffe250" stroke-width="1.2" />
+      <text x="34" y="40" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • LONG READS</text>
+    </g>
+  
+      
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="448" width="1152" height="158" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#2d9cdb" stroke-width="1.2" />
+        <text x="54" y="486" fill="#246342" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">PORTUGUESE A0–A1 MASTER LIST • Vol. 2026.08</text>
+        <text x="54" y="529" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Top 100 Portuguese A0–A1</text>
+<text x="54" y="571" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Master Guide</text>
+      </g>
+    
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
+    </svg>

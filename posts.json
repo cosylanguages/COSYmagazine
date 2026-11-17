@@ -3490,6 +3490,48 @@
     }
   },
   {
+    "slug": "welcome-to-cosy-blog",
+    "title": "Welcome to the COSY Editorial & Learning Corner",
+    "date": "2026-09-10",
+    "updated": null,
+    "category": "Front Page",
+    "summary": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+    "author": "JY DM",
+    "reading_time": 1,
+    "cover_image": "",
+    "tags": [
+      "Welcome",
+      "EcosystemUpdate",
+      "LanguageLearning"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "welcome-to-cosy-blog.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "welcome-cosy-001",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "overcoming-intermediate-plateau",
     "title": "Overcoming the Intermediate Plateau (B1 to B2)",
     "date": "2026-09-01",
@@ -3530,6 +3572,595 @@
       "layout": "magazine-spread",
       "motif": "notebook-handwritten",
       "seed": "overcoming-intermediate-plateau",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-armenian",
+    "title": "Top 100 Armenian A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Armenian script with transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Armenian",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-armenian.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-armenian",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-bashkir",
+    "title": "Top 100 Bashkir A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Bashkir script with transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Bashkir",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-bashkir.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-bashkir",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-breton",
+    "title": "Top 100 Breton A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Breton definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Breton",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-breton.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-breton",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-english",
+    "title": "Top 100 English A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "The ultimate Top 100 A0-A1 English vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "English",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-english.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-english",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-french",
+    "title": "Top 100 French A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual French definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "French",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-french.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-french",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-georgian",
+    "title": "Top 100 Georgian A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Mkhedruli script with transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Georgian",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-georgian.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-georgian",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-german",
+    "title": "Top 100 German A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "German",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-german.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-german",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-greek",
+    "title": "Top 100 Greek A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Greek script with transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Greek",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-greek.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-greek",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-italian",
+    "title": "Top 100 Italian A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Italian definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Italian",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-italian.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-italian",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-portuguese",
+    "title": "Top 100 Portuguese A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Portuguese",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-portuguese.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-portuguese",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-russian",
+    "title": "Top 100 Russian A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Cyrillic with Latin transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Russian",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-russian.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-russian",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-spanish",
+    "title": "Top 100 Spanish A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Spanish",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-spanish.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-spanish",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1-tatar",
+    "title": "Top 100 Tatar A0–A1 Master Guide",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Tatar script with transliterations.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Tatar",
+      "Vocabulary",
+      "A0-A1"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1-tatar.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1-tatar",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "top-100-a0-a1",
+    "title": "Top 100 A0–A1 Semantic Master List (14 Languages)",
+    "date": "2026-09-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "100 progressive semantic chains across 10 ordered domains with milestone goals, monolingual definitions, and direct live links to COSYdata vocabulary repositories.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Top100",
+      "Vocabulary",
+      "Beginners",
+      "Curriculum"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "top-100-a0-a1.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–A1 / A2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "top-100-a0-a1",
       "coverOverride": null
     }
   },
