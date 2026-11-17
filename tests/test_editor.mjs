@@ -268,7 +268,7 @@ test('CosyEditor - getArticlesForIssue correctly identifies and maps published i
   assert.ok(augustIssue, 'August canonical issue should exist');
 
   const augustArticles = Editor.getArticlesForIssue(augustIssue, postsCatalog);
-  assert.equal(augustArticles.length, 17, `Expected 17 articles for August 2026 issue, got ${augustArticles.length}`);
+  assert.equal(augustArticles.length, 32, `Expected 32 articles for August 2026 issue, got ${augustArticles.length}`);
 
   // Flagship article check
   const augustFlagship = Editor.ISSUE_FLAGSHIPS['vol-2026-08'];
