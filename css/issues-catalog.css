@@ -31,6 +31,24 @@
   border-radius: 20px;
   scroll-margin-top: 4.5rem;
 }
+
+/* Portrait cover beside the issue header. The cover keeps a 3:4 ratio so it reads as a
+   magazine front rather than a banner. */
+.cat-issue-cover {
+  float: none;
+  width: min(100%, 15rem);
+  margin: 0 0 1.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(38, 26, 22, .22);
+  aspect-ratio: 3 / 4;
+  background: #241C18;
+}
+.cat-issue-cover svg { display: block; width: 100%; height: 100%; }
+@media (min-width: 720px) {
+  .cat-issue-cover { float: left; margin: 0 1.5rem 1rem 0; }
+  .cat-issue-head { overflow: hidden; }
+}
 .cat-issue-head {
   display: flex;
   justify-content: space-between;

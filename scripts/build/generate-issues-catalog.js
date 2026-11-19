@@ -130,7 +130,7 @@ function issueTitleFor(issue, dict) {
   return localized || issue.title || '';
 }
 
-function build() {
+async function build() {
   if (!fs.existsSync(INDEX_JSON)) {
     console.error('❌ index.json is missing. Run `node scripts/build/build-blog.js` first.');
     process.exit(1);
@@ -138,6 +138,25 @@ function build() {
 
   const index = JSON.parse(fs.readFileSync(INDEX_JSON, 'utf-8'));
   const enDict = loadDict('en');
+  // The cover renderer is an ES module while this script is CommonJS.
+  const { renderIssueCover } = await import('../../js/art/vogue-cover.js');
+
+  // Cover text is localized at runtime by shell.js, so the renderer has to size each
+  // line for the longest translation, not just the English one it is built with.
+  const dicts = UI_LANGS.map((l) => loadDict(l));
+  // Every translation of each key, not just the longest: translations wrap at different
+  // points, so a shorter string can still produce a wider first line.
+  function allCoverTexts(coverKey) {
+    const all = {};
+    for (const dict of dicts) {
+      const cover = (((dict.catalog || {}).covers) || {})[coverKey] || {};
+      for (const [k, v] of Object.entries(cover)) {
+        if (typeof v !== 'string' || !v) continue;
+        (all[k] = all[k] || []).push(v);
+      }
+    }
+    return all;
+  }
   const c = (key, fallback) => t(enDict, `catalog.${key}`, fallback);
 
   // Saturday Mistakes is podcast content, not a monthly volume, but it is still published
@@ -222,6 +241,15 @@ function build() {
       : '';
     return `
       <section class="cat-issue" id="${esc(anchor)}" data-issue="${esc(issue.number)}">
+        <div class="cat-issue-cover">${renderIssueCover({
+          number: issue.number,
+          title: heading,
+          tag: issue.tag || '',
+          month: monthMatch ? MONTHS[parseInt(monthMatch[2], 10) - 1] : '',
+          i18nKey: `catalog.covers.${isPodcast(issue.number) ? 'podcast' : metaKey}`,
+          hero: c(`covers.${isPodcast(issue.number) ? 'podcast' : metaKey}.hero`, heading),
+          fitTexts: allCoverTexts(isPodcast(issue.number) ? 'podcast' : metaKey)
+        })}</div>
         <header class="cat-issue-head">
           <div>
             <span class="cat-issue-tag">${isPodcast(issue.number)
@@ -322,7 +350,10 @@ function build() {
 }
 
 if (require.main === module) {
-  build();
+  build().catch((err) => {
+    console.error('❌ Failed to build issues catalog:', err);
+    process.exit(1);
+  });
 }
 
 module.exports = { groupArticles, build };

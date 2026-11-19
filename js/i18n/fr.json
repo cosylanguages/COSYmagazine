@@ -293,6 +293,99 @@
     "special_issue": "Numéro spécial",
     "all_languages": "Toutes les langues",
     "hub": "Hub",
-    "hub_hint": "— Lire dans toutes les langues"
+    "hub_hint": "— Lire dans toutes les langues",
+    "covers": {
+      "2026_08": {
+        "kicker1": "LEÇON UN",
+        "kicker2": "DIS-LE FORT",
+        "kicker3": "DÈS LA MINUTE",
+        "kicker4": "LA MÉTHODE",
+        "sub1": "Désapprendre le stylo rouge",
+        "sub2": "Une classe reconstruite",
+        "sub3": "Pas de premier trimestre muet",
+        "sub4": "La chaleur avant les exercices",
+        "month": "août",
+        "tag": "Numéro de la rentrée",
+        "hero": "LE PREMIER TRIMESTRE"
+      },
+      "2026_09": {
+        "kicker1": "LE PALIER",
+        "kicker2": "50 PHRASES",
+        "kicker3": "LE MUR B1",
+        "kicker4": "REPENSÉ",
+        "sub1": "Pourquoi ça bloque",
+        "sub2": "L’habitude de la montée",
+        "sub3": "Ce qui le brise vraiment",
+        "sub4": "Une erreur de mesure",
+        "month": "septembre",
+        "tag": "Numéro du déblocage d’automne",
+        "hero": "LE NUMÉRO DU PALIER"
+      },
+      "2026_10": {
+        "kicker1": "LE FONDATEUR",
+        "kicker2": "DIX CADRES",
+        "kicker3": "LE JEU GAGNE",
+        "kicker4": "UN AN APRÈS",
+        "sub1": "Ses choses préférées",
+        "sub2": "Quatorze langues",
+        "sub3": "Le premier brouillon",
+        "sub4": "Ce qui a changé",
+        "month": "octobre",
+        "tag": "Numéro du fondateur",
+        "hero": "LE NUMÉRO DU FONDATEUR"
+      },
+      "2026_11": {
+        "kicker1": "ACADÉMIE",
+        "kicker2": "SWITCHING",
+        "kicker3": "CERVEAU",
+        "kicker4": "MÉMOIRE",
+        "sub1": "Comment la langue recâble",
+        "sub2": "Vivre en cinq langues",
+        "sub3": "Ce que disent les preuves",
+        "sub4": "Une chronologie de la fluidité",
+        "month": "novembre",
+        "tag": "Numéro d’immersion cognitive",
+        "hero": "IMMERSION COGNITIVE"
+      },
+      "2026_12": {
+        "kicker1": "SOLSTICE",
+        "kicker2": "VERBES",
+        "kicker3": "RITUEL",
+        "kicker4": "FIN D’ANNÉE",
+        "sub1": "La saison calme",
+        "sub2": "Enfin décodés",
+        "sub3": "Thé, rythme, répétition",
+        "sub4": "Sans note",
+        "month": "décembre",
+        "tag": "Numéro du solstice d’hiver",
+        "hero": "LE SOLSTICE D’HIVER"
+      },
+      "2027_02": {
+        "kicker1": "TENDRESSE",
+        "kicker2": "NOMS DOUX",
+        "kicker3": "DIS-LE DOUX",
+        "kicker4": "NÉGOCIER",
+        "sub1": "Le spectre de l’affection",
+        "sub2": "La tendresse, traduite",
+        "sub3": "La vulnérabilité à voix haute",
+        "sub4": "L’argent et le sentiment",
+        "month": "février",
+        "tag": "Numéro romance et nuance",
+        "hero": "ROMANCE ET NUANCE"
+      },
+      "podcast": {
+        "kicker1": "ERREURS",
+        "kicker2": "CHAQUE SEMAINE",
+        "kicker3": "L’ERREUR",
+        "kicker4": "LA ROUTINE",
+        "sub1": "La série podcast",
+        "sub2": "À voix haute",
+        "sub3": "L’erreur comme matière",
+        "sub4": "Une habitude à la fois",
+        "month": "",
+        "tag": "Numéro spécial",
+        "hero": "LES ERREURS DU SAMEDI"
+      }
+    }
   }
 }

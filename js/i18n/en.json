@@ -293,6 +293,99 @@
     "special_issue": "Special Issue",
     "all_languages": "All languages",
     "hub": "Hub",
-    "hub_hint": "— Read in all languages"
+    "hub_hint": "— Read in all languages",
+    "covers": {
+      "2026_08": {
+        "kicker1": "LESSON ONE",
+        "kicker2": "SAY IT LOUD",
+        "kicker3": "FIRST MINUTE",
+        "kicker4": "THE METHOD",
+        "sub1": "Unlearning the red pen",
+        "sub2": "A classroom rebuilt",
+        "sub3": "No silent first term",
+        "sub4": "Warmth over drills",
+        "month": "August",
+        "tag": "Back to School Issue",
+        "hero": "THE FIRST TERM"
+      },
+      "2026_09": {
+        "kicker1": "THE PLATEAU",
+        "kicker2": "50 PHRASES",
+        "kicker3": "THE B1 WALL",
+        "kicker4": "REFRAMED",
+        "sub1": "Why progress stalls",
+        "sub2": "The upgrade habit",
+        "sub3": "What actually breaks it",
+        "sub4": "A measurement error",
+        "month": "September",
+        "tag": "Autumn Breakthrough Issue",
+        "hero": "THE PLATEAU ISSUE"
+      },
+      "2026_10": {
+        "kicker1": "THE FOUNDER",
+        "kicker2": "TEN FRAMES",
+        "kicker3": "PLAY WINS",
+        "kicker4": "ONE YEAR ON",
+        "sub1": "His favourite things",
+        "sub2": "Fourteen languages",
+        "sub3": "The messy first draft",
+        "sub4": "What changed",
+        "month": "October",
+        "tag": "Founder's Edition",
+        "hero": "THE FOUNDER'S EDITION"
+      },
+      "2026_11": {
+        "kicker1": "ACADEMIA",
+        "kicker2": "SWITCHING",
+        "kicker3": "PLASTIC BRAIN",
+        "kicker4": "MEMORY",
+        "sub1": "How language rewires",
+        "sub2": "Living in five tongues",
+        "sub3": "What the evidence says",
+        "sub4": "A timeline for fluency",
+        "month": "November",
+        "tag": "Cognitive Immersion Issue",
+        "hero": "COGNITIVE IMMERSION"
+      },
+      "2026_12": {
+        "kicker1": "SOLSTICE",
+        "kicker2": "PHRASAL VERBS",
+        "kicker3": "RITUAL",
+        "kicker4": "YEAR END",
+        "sub1": "The quiet season",
+        "sub2": "Decoded at last",
+        "sub3": "Tea, rhythm, repeat",
+        "sub4": "Without a grade",
+        "month": "December",
+        "tag": "Winter Solstice Issue",
+        "hero": "THE WINTER SOLSTICE"
+      },
+      "2027_02": {
+        "kicker1": "TENDERNESS",
+        "kicker2": "SOFT NOUNS",
+        "kicker3": "SAY IT SOFT",
+        "kicker4": "NEGOTIATE",
+        "sub1": "The spectrum of affection",
+        "sub2": "Tenderness, translated",
+        "sub3": "Vulnerability aloud",
+        "sub4": "Money and feeling",
+        "month": "February",
+        "tag": "Romance & Nuance Issue",
+        "hero": "ROMANCE & NUANCE"
+      },
+      "podcast": {
+        "kicker1": "MISTAKES",
+        "kicker2": "EVERY WEEK",
+        "kicker3": "THE SLIP",
+        "kicker4": "THE ROUTINE",
+        "sub1": "The podcast series",
+        "sub2": "Out loud",
+        "sub3": "Errors as material",
+        "sub4": "One habit at a time",
+        "month": "",
+        "tag": "Special Issue",
+        "hero": "SATURDAY MISTAKES"
+      }
+    }
   }
 }
