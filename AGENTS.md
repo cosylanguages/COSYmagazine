@@ -32,10 +32,27 @@ generated output.
   `ops/` (PDF, Supabase upload, stage video export), `content/` (Python scripts that rewrite
   `posts/*.json` in bulk), `archive/` (one-off scripts that produced the current posts and are
   kept only for reference). Nothing in `archive/` is wired into a package script.
-- `scripts/build/build-blog.js` orchestrates rendering. `js/art/generator.js` (ESM) draws
-  covers/motifs and is imported by the build, `index.html`, `dev/art-contact-sheet.html`,
-  and tests. `js/art/` has its own `package.json` with `"type": "module"` so Node does
-  not warn about the ESM/CJS mix there.
+- `scripts/build/build-blog.js` is the entry point: it loads `posts/*.json`, decides what is
+  live, and writes the pages and mirrors. The rendering work lives in `scripts/build/lib/`:
+
+  | Module | Responsibility |
+  |---|---|
+  | `text.js` | `escapeHtml`, inline Markdown, `<title>` truncation |
+  | `i18n.js` | dictionary loading and `tStrict` (no English fallback) |
+  | `issues.js` | `ISSUE_META`, volume normalisation, notebook look |
+  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation) |
+  | `post-page.js` | the full `<slug>.html` document template |
+  | `catalog.js` | `posts.json` and `index.json` |
+  | `audio.js` | podcast embed resolution, `hasPlayer`, player box |
+
+  `blocks.js` and `post-page.js` are pure: callers pass `{ isFirstParagraph, slug, lang }`
+  or a full `ctx` object rather than relying on module-level state. Keep it that way —
+  the previous version used mutable globals (`CURRENT_SLUG`, `CURRENT_LANG`) that made
+  rendering order matter.
+
+- `js/art/generator.js` (ESM) draws covers/motifs and is imported by the build,
+  `index.html`, `dev/art-contact-sheet.html`, and tests. `js/art/` has its own
+  `package.json` with `"type": "module"` so Node does not warn about the ESM/CJS mix there.
 - `js/` intentionally mixes ES modules (art, stage, flipbook, podcast-box, podcast-embed)
   with CommonJS files loaded by node tests (editor, studio-core, print-spec, …). The repo
   root must stay CommonJS because the `scripts/` files use `require`, and `js/` cannot be flipped
