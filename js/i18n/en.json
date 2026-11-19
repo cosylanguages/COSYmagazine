@@ -15,7 +15,8 @@
     "placement_quiz": "Placement Quiz",
     "tools": "Tools",
     "magazine": "Magazine",
-    "podcast": "Podcast"
+    "podcast": "Podcast",
+    "issue_catalog": "Issue catalog"
   },
   "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
   "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages.",
@@ -171,9 +172,17 @@
     "all_languages": "All languages",
     "browse_by_issue": "📖 Browse by Issue",
     "browse_all_articles": "📚 All Articles Catalog",
-    "explore_issue_blueprint": "Issue Blueprint &amp; Recipes ➔",
+    "explore_issue_blueprint": "Issue Blueprint & Recipes ➔",
     "view_mode_aria": "Switch view mode",
-    "download_pdf": "PDF"
+    "download_pdf": "PDF",
+    "special_issue": "Special Issue",
+    "catalog_pill": "Issue Catalog",
+    "catalog_pill_title": "Every issue, every article, every language",
+    "blueprint_pill": "Issue Contents & Blueprint",
+    "blueprint_pill_title": "Explore what each and every magazine issue includes",
+    "search_label": "Search articles",
+    "read_in_label": "Read in",
+    "issue_label": "Issue"
   },
   "blog": {
     "back_to_hub": "← Back to Blog & Editorial Hub",
@@ -218,7 +227,68 @@
     "issue_october_title": "JY DM's birthday & His favs",
     "issue_november_title": "November Academia",
     "issue_december_title": "Winter Grammar & High Frequency Verbs",
+    "issue_february_title": "February Grammar & High Frequency Verbs",
     "page_x_of_y": "Page {current} of {total}",
     "script_teleprompter": "📜 Script Teleprompter"
+  },
+  "catalog": {
+    "kicker": "Issue Catalog",
+    "title": "Every 2026 issue, in one place.",
+    "lede": "The full catalog of COSYmagazine issues: every article, in every language it is published in. Open an issue to read the blueprint, or jump straight to a story.",
+    "back": "← Back to Newsstand",
+    "blueprint": "Issue blueprint →",
+    "all_issues": "All issues",
+    "articles": "articles",
+    "languages": "Languages",
+    "read_in": "Read in",
+    "download_pdf": "PDF",
+    "empty": "No published issues yet.",
+    "issue": "Issue",
+    "open_article": "Open article",
+    "issues": "issues",
+    "count_article": {
+      "one": "article",
+      "other": "articles"
+    },
+    "count_language": {
+      "one": "language",
+      "other": "languages"
+    },
+    "count_issue": {
+      "one": "issue",
+      "other": "issues"
+    },
+    "issue_meta": {
+      "2026_08": {
+        "tag": "Back to School Issue",
+        "vibe": "Foundations, beginnings, pedagogy & early acquisition. Overcoming intimidation, unlearning school trauma, and speaking from lesson one."
+      },
+      "2026_09": {
+        "tag": "Autumn Breakthrough Issue",
+        "vibe": "The B1-B2 intermediate plateau, persistence, phrase upgrades, stronger adjectives and precise conversational nuance."
+      },
+      "2026_10": {
+        "tag": "Founder's Edition",
+        "vibe": "Playfulness, conversational agility, overcoming freezing, and celebrating messy spoken drafts without self-censorship."
+      },
+      "2026_11": {
+        "tag": "Cognitive Immersion Issue",
+        "vibe": "Cognitive linguistics, neuroplasticity, creative storytelling, tense timelines and exploring how languages rewire the brain."
+      },
+      "2026_12": {
+        "tag": "Winter Solstice Issue",
+        "vibe": "Winter solstice warmth, seasonal rhythms, phrasal verb logic, tea rituals and peaceful introspective living."
+      },
+      "2027_02": {
+        "tag": "Romance & Nuance Issue",
+        "vibe": "Human connection, romance, emotional vulnerability, financial negotiation and the subtle spectrum of affection."
+      }
+    },
+    "podcast": "Podcast",
+    "podcast_series": "Saturday Mistakes Series",
+    "special_issue": "Special Issue",
+    "all_languages": "All languages",
+    "hub": "Hub",
+    "hub_hint": "Read in all languages"
   }
 }

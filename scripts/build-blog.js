@@ -157,6 +157,63 @@ function normalizeIssueNumber(number) {
   return n;
 }
 
+// Editorial identity of each monthly volume. Keyed by the canonical "YYYY.MM" part of
+// the issue number so the newsstand, the catalog and issues.html all read one source.
+const ISSUE_META = {
+  '2026.08': {
+    tag: 'Back to School Issue',
+    month: 'August',
+    anchor: 'august',
+    vibe: 'Foundations, beginnings, pedagogy & early acquisition. Overcoming intimidation, unlearning school trauma, and speaking from lesson one.'
+  },
+  '2026.09': {
+    tag: 'Autumn Breakthrough Issue',
+    month: 'September',
+    anchor: 'september',
+    vibe: 'The B1-B2 intermediate plateau, persistence, phrase upgrades, stronger adjectives and precise conversational nuance.'
+  },
+  '2026.10': {
+    tag: "Founder's Edition",
+    month: 'October',
+    anchor: 'october',
+    vibe: 'Playfulness, conversational agility, overcoming freezing, and celebrating messy spoken drafts without self-censorship.'
+  },
+  '2026.11': {
+    tag: 'Cognitive Immersion Issue',
+    month: 'November',
+    anchor: 'november',
+    vibe: 'Cognitive linguistics, neuroplasticity, creative storytelling, tense timelines and exploring how languages rewire the brain.'
+  },
+  '2026.12': {
+    tag: 'Winter Solstice Issue',
+    month: 'December',
+    anchor: 'december',
+    vibe: 'Winter solstice warmth, seasonal rhythms, phrasal verb logic, tea rituals and peaceful introspective living.'
+  },
+  '2027.02': {
+    tag: 'Romance & Nuance Issue',
+    month: 'February',
+    anchor: 'february',
+    vibe: 'Human connection, romance, emotional vulnerability, financial negotiation and the subtle spectrum of affection.'
+  }
+};
+
+function issueMetaFor(canonicalNumber) {
+  const m = String(canonicalNumber || '').match(/(\d{4})\.(\d{2})/);
+  if (m && ISSUE_META[`${m[1]}.${m[2]}`]) {
+    return ISSUE_META[`${m[1]}.${m[2]}`];
+  }
+  const monthName = m
+    ? Object.keys(MONTH_INDEX).find((k) => MONTH_INDEX[k] === m[2])
+    : null;
+  return {
+    tag: 'Special Issue',
+    month: monthName ? monthName.charAt(0).toUpperCase() + monthName.slice(1) : '',
+    anchor: 'blueprint',
+    vibe: ''
+  };
+}
+
 // Human, localized label for the volume shown in the masthead/folio.
 // Monthly volumes collapse to "Vol. 2026.12" (no language-specific words); special
 // editions use their translated name so no English leaks into non-English pages.
@@ -593,9 +650,14 @@ async function buildBlog() {
 
     if (postData.issue && postData.issue.number) {
       postData.issue.number = normalizeIssueNumber(postData.issue.number);
+      const meta = issueMetaFor(postData.issue.number);
       issuesSet.set(postData.issue.number, {
         number: postData.issue.number,
-        title: postData.issue.title
+        title: postData.issue.title,
+        tag: meta.tag,
+        month: meta.month,
+        anchor: meta.anchor,
+        vibe: meta.vibe
       });
     }
 
@@ -727,6 +789,7 @@ async function buildBlog() {
     <link rel="stylesheet" href="css/shell.css">
     <link rel="stylesheet" href="css/book.css">
     <link rel="stylesheet" href="css/notebook.css">
+    <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
 
     <style>
       :root {
@@ -742,6 +805,7 @@ async function buildBlog() {
 </head>
 <body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}">
 
+    <div data-ecosystem-strip data-self="magazine"></div>
     <nav id="cosy-nav"></nav>
 
     <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
@@ -864,6 +928,7 @@ async function buildBlog() {
         });
       });
     </script>
+    <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
 </body>
 </html>
 `;

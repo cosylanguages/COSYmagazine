@@ -15,7 +15,8 @@
     "placement_quiz": "Test di livello",
     "tools": "Strumenti",
     "magazine": "Magazine",
-    "podcast": "Podcast"
+    "podcast": "Podcast",
+    "issue_catalog": "Catalogo dei numeri"
   },
   "footer": {
     "courses": "Corsi",
@@ -171,9 +172,17 @@
     "all_languages": "Tutte le lingue",
     "browse_by_issue": "📖 Sfoglia per numero",
     "browse_all_articles": "📚 Catalogo articoli",
-    "explore_issue_blueprint": "Sommario e ricette ➔",
+    "explore_issue_blueprint": "Sommario e ricette del numero ➔",
     "view_mode_aria": "Cambia modalità di visualizzazione",
-    "download_pdf": "PDF"
+    "download_pdf": "PDF",
+    "special_issue": "Numero speciale",
+    "catalog_pill": "Catalogo dei numeri",
+    "catalog_pill_title": "Ogni numero, ogni articolo, ogni lingua",
+    "blueprint_pill": "Sommario e struttura dei numeri",
+    "blueprint_pill_title": "Scopri cosa contiene ogni numero della rivista",
+    "search_label": "Cerca articoli",
+    "read_in_label": "Leggi in",
+    "issue_label": "Numero"
   },
   "blog": {
     "back_to_hub": "← Torna all'Hub Editoriale",
@@ -218,7 +227,68 @@
     "issue_october_title": "Il compleanno di JY DM e i suoi preferiti",
     "issue_november_title": "Accademia di novembre",
     "issue_december_title": "Grammatica invernale e verbi ad alta frequenza",
+    "issue_february_title": "Grammatica di febbraio e verbi ad alta frequenza",
     "page_x_of_y": "Pagina {current} di {total}",
     "script_teleprompter": "📜 Gobbo / Teleprompter"
+  },
+  "catalog": {
+    "kicker": "Catalogo dei numeri",
+    "title": "Tutti i numeri del 2026, in un solo posto.",
+    "lede": "Il catalogo completo dei numeri di COSYmagazine: ogni articolo, in tutte le lingue in cui è pubblicato. Apri un numero per leggere il sommario, oppure vai dritto a una storia.",
+    "back": "← Torna all’edicola",
+    "blueprint": "Sommario del numero →",
+    "all_issues": "Tutti i numeri",
+    "articles": "articoli",
+    "languages": "Lingue",
+    "read_in": "Leggi in",
+    "download_pdf": "PDF",
+    "empty": "Nessun numero pubblicato per ora.",
+    "issue": "Numero",
+    "open_article": "Apri l’articolo",
+    "issues": "numeri",
+    "count_article": {
+      "one": "articolo",
+      "other": "articoli"
+    },
+    "count_language": {
+      "one": "lingua",
+      "other": "lingue"
+    },
+    "count_issue": {
+      "one": "numero",
+      "other": "numeri"
+    },
+    "issue_meta": {
+      "2026_08": {
+        "tag": "Numero del ritorno a scuola",
+        "vibe": "Le basi, gli inizi, la pedagogia e l’acquisizione precoce. Superare l’intimidazione, disimparare il trauma scolastico e parlare dalla prima lezione."
+      },
+      "2026_09": {
+        "tag": "Numero della svolta d’autunno",
+        "vibe": "Il plateau intermedio B1-B2, la costanza, le formule più ricche, gli aggettivi più forti e la sfumatura conversazionale precisa."
+      },
+      "2026_10": {
+        "tag": "Numero del fondatore",
+        "vibe": "Il gioco, l’agilità conversazionale, il superamento del blocco e la celebrazione delle bozze parlate imperfette, senza autocensura."
+      },
+      "2026_11": {
+        "tag": "Numero di immersione cognitiva",
+        "vibe": "La linguistica cognitiva, la neuroplasticità, la narrazione creativa, le linee del tempo dei tempi verbali e come le lingue riconfigurano il cervello."
+      },
+      "2026_12": {
+        "tag": "Numero del solstizio d’inverno",
+        "vibe": "Il calore del solstizio d’inverno, i ritmi stagionali, la logica dei phrasal verbs, i rituali del tè e una vita interiore serena."
+      },
+      "2027_02": {
+        "tag": "Numero romance e sfumature",
+        "vibe": "Il legame umano, il romanticismo, la vulnerabilità emotiva, la negoziazione finanziaria e lo spettro sottile dell’affetto."
+      }
+    },
+    "podcast": "Podcast",
+    "podcast_series": "Serie Saturday Mistakes",
+    "special_issue": "Numero speciale",
+    "all_languages": "Tutte le lingue",
+    "hub": "Hub",
+    "hub_hint": "Leggi in tutte le lingue"
   }
 }

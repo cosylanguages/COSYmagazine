@@ -44,12 +44,37 @@
   }
   window.t = function (key) { return dict[key] || ''; };
 
+  // Plural-aware lookup: dictionaries may provide key.one / key.few / key.many / key.other.
+  function plural(key, n) {
+    var cat = 'other';
+    try {
+      cat = new Intl.PluralRules(uiLang()).select(n);
+    } catch (e) {
+      cat = n === 1 ? 'one' : 'other';
+    }
+    return dict[key + '.' + cat] || dict[key + '.other'] || dict[key + '.one'] || dict[key] || '';
+  }
+
   function applyTranslations() {
     if (!isListing) return;
     document.querySelectorAll('[data-i18n]').forEach(function (el) {
       var v = dict[el.getAttribute('data-i18n')];
       if (!v) return;
       if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') el.setAttribute('placeholder', v); else el.textContent = v;
+    });
+    document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
+      var v = dict[el.getAttribute('data-i18n-title')];
+      if (v) el.setAttribute('title', v);
+    });
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(function (el) {
+      var v = dict[el.getAttribute('data-i18n-aria-label')];
+      if (v) el.setAttribute('aria-label', v);
+    });
+    document.querySelectorAll('[data-i18n-count]').forEach(function (el) {
+      var n = Number(el.getAttribute('data-count'));
+      if (!isFinite(n)) return;
+      var word = plural(el.getAttribute('data-i18n-count'), n);
+      if (word) el.textContent = n + ' ' + word;
     });
     root.lang = uiLang();
   }
@@ -108,6 +133,7 @@
           '<a href="' + ECO.courses + '" data-i18n="nav.courses">Courses</a>' +
           '<a href="' + ECO.practice + '" data-i18n="nav.practice">Practice</a>' +
           '<a href="index.html" aria-current="page" data-i18n="nav.magazine">Magazine</a>' +
+          '<a href="issues-catalog.html" data-i18n="nav.issue_catalog">Issue catalog</a>' +
           '<a href="' + ECO.tools + '" data-i18n="nav.tools">Tools</a>' +
           '<a href="' + ECO.games + '" data-i18n="nav.games">Games</a>' +
           '<a href="' + ECO.events + '" data-i18n="nav.events">Events</a>' +
@@ -132,7 +158,7 @@
         '<div class="bf-brand"><a class="bn-brand" href="' + ECO.hub + '"><img src="images/logo.png" alt="" width="30" height="30"><span>COSY<b>languages</b></span></a>' +
           '<p data-i18n="footer.tagline">Short, speaking-first reads for people learning a language: words, grammar made cosy, and a podcast.</p></div>' +
         '<nav class="bf-col" aria-label="Explore"><h3 data-i18n="footer.explore">Explore</h3>' +
-          '<a href="index.html" data-i18n="nav.magazine">Magazine</a><a href="podcast.html" data-i18n="nav.podcast">Podcast</a>' +
+          '<a href="index.html" data-i18n="nav.magazine">Magazine</a><a href="issues-catalog.html" data-i18n="nav.issue_catalog">Issue catalog</a><a href="podcast.html" data-i18n="nav.podcast">Podcast</a>' +
           '<a href="' + ECO.practice + '" data-i18n="button.tryFreePractice">Free practice</a><a href="' + ECO.tools + '" data-i18n="footer.reference_tools">Reference tools</a></nav>' +
         '<nav class="bf-col" aria-label="COSYlanguages"><h3 data-i18n="footer.cosylanguages">COSYlanguages</h3>' +
           '<a href="' + ECO.courses + '" data-i18n="nav.courses">Courses</a><a href="' + ECO.quiz + '" data-i18n="nav.placement_quiz">Placement quiz</a>' +
