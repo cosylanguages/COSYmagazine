@@ -90,7 +90,7 @@ function groupArticles(posts) {
 function renderLanguagePills(article, readInLabel, allLanguagesLabel) {
   const hub = article.variants.includes(article.base)
     ? ''
-    : `<a class="cat-lang-pill is-hub" href="${esc(article.base.slug)}.html" data-i18n-title="catalog.all_languages" title="${esc(allLanguagesLabel)}">🌐 <span data-i18n="catalog.hub">Hub</span><span class="visually-hidden" data-i18n="catalog.hub_hint"> — ${esc(allLanguagesLabel ? readInLabel + ' ' + allLanguagesLabel.toLowerCase() : readInLabel)}</span></a>`;
+    : `<a class="cat-lang-pill is-hub" href="${esc(article.base.slug)}.html" data-i18n-title="catalog.all_languages" title="${esc(allLanguagesLabel)}">🌐 <span data-i18n="catalog.hub">Hub</span> <span class="visually-hidden" data-i18n="catalog.hub_hint"> — ${esc(allLanguagesLabel ? readInLabel + ' ' + allLanguagesLabel.toLowerCase() : readInLabel)}</span></a>`;
   return hub + article.variants.map((v) => {
     const name = LANG_NAMES[v.language] || v.language.toUpperCase();
     const flag = LANG_FLAGS[v.language] || '🌐';
