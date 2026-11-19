@@ -15,7 +15,10 @@ posts.forEach((post, idx) => {
     assert.ok(post.title, `Post at index ${idx} missing title`);
     assert.ok(post.url, `Post at index ${idx} missing url`);
     assert.ok(post.author === 'JY DM', `Post ${post.slug} author should be JY DM`);
-    assert.ok(post.issue_volume, `Post ${post.slug} missing issue_volume`);
+    // Evergreen posts are not part of any monthly issue, so they carry no volume.
+    if (post.content_type !== 'evergreen') {
+      assert.ok(post.issue_volume, `Post ${post.slug} missing issue_volume`);
+    }
     assert.ok(post.vibe, `Post ${post.slug} missing vibe`);
     assert.ok(post.founder_notes, `Post ${post.slug} missing founder_notes`);
 });

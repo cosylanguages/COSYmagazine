@@ -89,18 +89,99 @@ test('sitemap.xml lists every static landing page', () => {
   }
 });
 
-test('issues-catalog.html lists every published post and every issue', () => {
+test('issues-catalog.html lists every published issue article and every issue', () => {
   const html = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
   const index = readJson(path.join(ROOT, 'index.json'));
-  const published = index.posts.filter((p) => !p.draft);
+  // The catalog is an issue catalog: evergreen posts belong to no volume, so they are
+  // intentionally absent (they stay reachable from the newsstand and the sitemap).
+  const published = index.posts.filter((p) => !p.draft && p.issue && p.issue.number);
 
   const linked = new Set([...html.matchAll(/href="([a-z0-9-]+)\.html"/g)].map((m) => m[1]));
   const missing = published.filter((p) => !linked.has(p.slug)).map((p) => p.slug);
-  assert.deepEqual(missing, [], `catalog must link every published post (missing: ${missing.join(', ')})`);
+  assert.deepEqual(missing, [], `catalog must link every published issue article (missing: ${missing.join(', ')})`);
 
   const sections = new Set([...html.matchAll(/data-issue="([^"]+)"/g)].map((m) => m[1]));
   for (const issue of index.issues) {
     assert.ok(sections.has(issue.number), `catalog must have a section for ${issue.number}`);
+  }
+});
+
+test('issues-catalog.html renders one edition per edition language, with only that language inside', () => {
+  const html = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
+  // Editions ship in these languages only; other languages publish articles that live
+  // inside the edition written in their own language.
+  const EDITION_LANGS = ['en', 'fr', 'ru'];
+
+  const issueBlocks = html.match(/<section class="cat-issue"[\s\S]*?(?=<section class="cat-issue"|<\/main>)/g) || [];
+  assert.ok(issueBlocks.length > 0, 'catalog should render issue sections');
+
+  for (const block of issueBlocks) {
+    const issueId = /data-issue="([^"]+)"/.exec(block)?.[1];
+    const editions = [...block.matchAll(/data-edition-lang="([a-z]{2})"/g)].map((m) => m[1]);
+    // The podcast is a series, not a monthly volume, so it has no editions.
+    if (issueId === 'Podcast Special') {
+      assert.equal(editions.length, 0, 'the podcast series should not be split into editions');
+      continue;
+    }
+    assert.ok(editions.length > 0, `${issueId} should render at least one edition`);
+    for (const lang of editions) {
+      assert.ok(EDITION_LANGS.includes(lang), `${issueId} rendered an unexpected edition language: ${lang}`);
+    }
+    assert.equal(new Set(editions).size, editions.length, `${issueId} renders the same edition twice`);
+
+    // Every article title inside an edition must be written in that edition's language.
+    const editionBlocks = block.split(/<section class="cat-edition"/).slice(1);
+    for (const edition of editionBlocks) {
+      const lang = /data-edition-lang="([a-z]{2})"/.exec(edition)?.[1];
+      const titleLangs = [...edition.matchAll(/class="cat-article-title"[^>]*lang="([a-z]{2})"/g)].map((m) => m[1]);
+      for (const titleLang of titleLangs) {
+        assert.equal(titleLang, lang,
+          `${issueId}: the ${lang} edition lists an article written in ${titleLang}`);
+      }
+    }
+  }
+});
+
+test('issues-catalog.html keeps every language reachable from each article card', () => {
+  const html = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
+  const index = readJson(path.join(ROOT, 'index.json'));
+
+  // An edition shows only its own language, but the language pills on the card must
+  // still link every published variant, so nothing becomes unreachable.
+  const bySlug = new Map(index.posts.filter((p) => !p.draft).map((p) => [p.slug, p]));
+  const cards = html.match(/<li class="cat-article">[\s\S]*?<\/li>/g) || [];
+  assert.ok(cards.length > 0, 'catalog should render article cards');
+
+  for (const card of cards) {
+    const slug = /class="cat-article-title" href="([a-z0-9-]+)\.html"/.exec(card)?.[1];
+    if (!slug) continue;
+    const post = bySlug.get(slug);
+    if (!post) continue;
+    const root = post.translationOf || post.slug;
+    const expected = index.posts
+      .filter((p) => !p.draft && (p.translationOf || p.slug) === root)
+      .map((p) => p.slug);
+    const linked = new Set([...card.matchAll(/class="cat-lang-pill[^"]*" href="([a-z0-9-]+)\.html"/g)].map((m) => m[1]));
+    const missing = expected.filter((s) => !linked.has(s));
+    assert.deepEqual(missing, [], `card ${slug} does not link these language variants: ${missing.join(', ')}`);
+  }
+});
+
+test('issues.html never repeats a page range across blueprint groups', () => {
+  const html = fs.readFileSync(path.join(ROOT, 'issues.html'), 'utf-8');
+  const headers = [...html.matchAll(/<h4 class="roster-group-title">[\s\S]*?<\/h4>/g)].map((m) => m[0]);
+  assert.ok(headers.length > 0, 'issues.html should render blueprint groups');
+
+  const seen = new Map();
+  for (const header of headers) {
+    const range = /^[\s\S]*?<\/span>\s*([0-9,\u2013\s&]+?)\s*•/.exec(header)?.[1];
+    if (!range) continue;
+    const pages = range.match(/\d+/g) || [];
+    for (const page of pages) {
+      const where = seen.get(page);
+      assert.ok(!where, `page ${page} is claimed by two blueprint groups: "${where}" and "${header.replace(/<[^>]+>/g, '').trim()}"`);
+      seen.set(page, header.replace(/<[^>]+>/g, '').trim());
+    }
   }
 });
 

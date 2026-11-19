@@ -55,6 +55,24 @@ generated output.
   list; a test in `tests/test_build_integrity.mjs` guards the landing pages.
 - `robots.txt` allows all and points at the sitemap; it is hand-maintained.
 
+## Issues and editions
+
+- An issue is published as one **edition per edition language**. Only `en`, `fr`, `ru`
+  have editions (`EDITION_LANGS` in `scripts/generate-issues-catalog.js`). Other languages
+  (`es`, `de`, `pt`, `hy`, `ka`, `tt`, `ba`, `br`, `cv`) publish articles that live inside
+  the edition written in their own language — they are not separate issues.
+- An article belongs to the edition matching its own `language`, so the English edition
+  lists English articles only. The language pills on each catalog card still link every
+  published variant, so nothing becomes unreachable.
+- Articles in 14 languages that are one article are linked with `translationOf` to a hub
+  slug (`top-10-verbs`, `top-100-a0-a1`). Without it each variant counts as a separate
+  article and inflates the catalog. `tests/test_build_integrity.mjs` guards both rules.
+- `docs/ISSUE_08_AUGUST_COMPLETE_BLUEPRINT.md` is the authoritative page roster for
+  August (31 pages) and matches `scripts/build-issue-08-full-draft.js`. `issues.html` is
+  hand-maintained but its page ranges must agree with that roster.
+- Evergreen posts (`contentType: 'evergreen'`) belong to no volume, so they are absent
+  from the issue catalog and carry no `issue_volume` in `posts.json`.
+
 ## i18n
 
 - Interface strings live in `js/i18n/*.json`. Post free-text fields (e.g. a raw

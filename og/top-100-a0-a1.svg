@@ -89,7 +89,7 @@
       <g class="cover-text-overlay" filter="url(#soft-shadow)">
         <!-- Warm paper card overlay -->
         <rect class="cover-overlay-box" x="24" y="460" width="1152" height="146" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#2d9cdb" stroke-width="1.2" />
-        <text x="54" y="498" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">SEMANTIC MASTER TREE • Vol. 2026 — August Issue</text>
+        <text x="54" y="498" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">SEMANTIC MASTER TREE • Vol. 2026.08</text>
         <text x="54" y="536" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Top 100 A0–A1 Semantic</text>
 <text x="54" y="572" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Master List (14 Languages)</text>
       </g>

@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 /**
  * scripts/generate-issues-catalog.js
- * Builds issues-catalog.html: one section per published volume, each listing every
- * published article in every language it exists in.
+ * Builds issues-catalog.html: one section per published volume, and within it one
+ * subsection per language edition (English, French, Russian). Each edition lists only
+ * the articles written in its own language; the language pills on every card still link
+ * all the variants that exist.
  *
  * Source is index.json (itself generated from posts/*.json), so the catalog can never
  * drift from the article sources. Run after scripts/build-blog.js.
@@ -20,6 +22,11 @@ const OUTPUT = path.join(ROOT, 'issues-catalog.html');
 const BASE = 'https://cosylanguages.github.io/COSYmagazine/';
 
 const UI_LANGS = ['en', 'fr', 'it', 'ru', 'el'];
+
+// Languages that get a full monthly edition of their own. Other languages (es, de, pt,
+// hy, ka, tt, ba, br, cv) publish individual articles that live inside the edition whose
+// language they are written in — they are not separate issues.
+const EDITION_LANGS = ['en', 'fr', 'ru'];
 
 const LANG_NAMES = {
   en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά',
@@ -98,8 +105,8 @@ function renderLanguagePills(article, readInLabel, allLanguagesLabel) {
   }).join('');
 }
 
-function renderArticle(article, readInLabel, allLanguagesLabel) {
-  const p = article.base;
+function renderArticle(article, display, readInLabel, allLanguagesLabel) {
+  const p = display;
   const langCount = article.variants.length;
   return `
         <li class="cat-article">
@@ -158,7 +165,6 @@ function build() {
     const articles = groupArticles(issuePosts)
       .sort((a, b) => new Date(b.base.date) - new Date(a.base.date));
     if (!articles.length) return '';
-    const languages = [...new Set(articles.flatMap((a) => a.variants.map((v) => v.language)))];
     const anchor = isPodcast(issue.number) ? 'podcast-special' : (issue.anchor || 'blueprint');
     const heading = isPodcast(issue.number)
       ? c('podcast_series', issue.title || 'Saturday Mistakes')
@@ -170,6 +176,50 @@ function build() {
     const headingKey = isPodcast(issue.number)
       ? ' data-i18n="catalog.podcast_series"'
       : (monthMatch ? ` data-i18n="blog.issue_${MONTHS[parseInt(monthMatch[2], 10) - 1]}_title"` : '');
+
+    // An issue ships as one edition per edition language. An article belongs to the
+    // edition written in its own language, so the English edition holds English articles
+    // only, and a reader never sees another language's text mixed in.
+    // The podcast is a series rather than a monthly volume, so it stays a flat list.
+    const editions = isPodcast(issue.number)
+      ? []
+      : EDITION_LANGS
+        .map((lang) => {
+          const editionArticles = articles
+            .map((a) => ({ article: a, display: a.variants.find((v) => v.language === lang) }))
+            .filter((entry) => entry.display);
+          return { lang, articles: editionArticles };
+        })
+        .filter((edition) => edition.articles.length);
+
+    const editionBlocks = editions.map(({ lang, articles: editionArticles }) => {
+      // Only multi-edition issues need per-edition anchors; a single edition would
+      // otherwise duplicate the parent section's id.
+      const editionId = editions.length > 1 ? ` id="${esc(anchor)}-${esc(lang)}"` : '';
+      const langName = LANG_NAMES[lang] || lang.toUpperCase();
+      return `
+        <section class="cat-edition"${editionId} data-edition-lang="${esc(lang)}">
+          <h3 class="cat-edition-head">
+            <span class="cat-edition-flag" aria-hidden="true">${LANG_FLAGS[lang] || '🌐'}</span>
+            <span class="cat-edition-lang">${esc(langName)}</span>
+            <span class="cat-edition-count"><span data-i18n-count="catalog.count_article" data-count="${editionArticles.length}">${editionArticles.length} articles</span></span>
+          </h3>
+          <ul class="cat-article-list">
+            ${editionArticles.map(({ article, display }) => renderArticle(article, display, c('read_in', 'Read in'), c('all_languages', 'All languages'))).join('')}
+          </ul>
+        </section>`;
+    }).join('');
+
+    const articleList = editions.length
+      ? editionBlocks
+      : `<ul class="cat-article-list">
+          ${articles.map((a) => renderArticle(a, a.base, c('read_in', 'Read in'), c('all_languages', 'All languages'))).join('')}
+        </ul>`;
+
+    const languages = [...new Set(articles.flatMap((a) => a.variants.map((v) => v.language)))];
+    const editionCount = editions.length
+      ? `<span data-i18n-count="catalog.count_edition" data-count="${editions.length}">${editions.length} editions</span> · `
+      : '';
     return `
       <section class="cat-issue" id="${esc(anchor)}" data-issue="${esc(issue.number)}">
         <header class="cat-issue-head">
@@ -181,14 +231,12 @@ function build() {
             ${issue.vibe ? `<p class="cat-issue-vibe" data-i18n="catalog.issue_meta.${esc(metaKey)}.vibe">${esc(issue.vibe)}</p>` : ''}
           </div>
           <div class="cat-issue-actions">
-            <span class="cat-issue-count"><span data-i18n-count="catalog.count_article" data-count="${articles.length}">${articles.length} articles</span> · <span data-i18n-count="catalog.count_language" data-count="${languages.length}">${languages.length} languages</span></span>
+            <span class="cat-issue-count">${editionCount}<span data-i18n-count="catalog.count_article" data-count="${articles.length}">${articles.length} articles</span> · <span data-i18n-count="catalog.count_language" data-count="${languages.length}">${languages.length} languages</span></span>
             <a class="cat-btn" href="${esc(blueprintHref(issue))}">${isPodcast(issue.number) ? '🎙️' : '📖'} <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>
             ${isPodcast(issue.number) ? '' : `<button type="button" class="cat-btn" data-action="download-issue-pdf" data-issue-id="${esc(issue.number)}" data-issue-number="${esc(issue.number)}" data-issue-title="${esc(heading)}">📥 ${esc(c('download_pdf', 'PDF'))}</button>`}
           </div>
         </header>
-        <ul class="cat-article-list">
-          ${articles.map((a) => renderArticle(a, c('read_in', 'Read in'), c('all_languages', 'All languages'))).join('')}
-        </ul>
+        ${articleList}
       </section>`;
   }).join('');
 

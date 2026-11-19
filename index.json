@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-19T12:30:43.656Z",
+  "generatedAt": "2026-11-19T13:04:05.435Z",
   "stats": {
     "totalPosts": 112,
     "totalDesks": 13,
@@ -3597,10 +3597,6 @@
       "desk": "Front Page",
       "format": "essay",
       "level": "A0–A1",
-      "issue": {
-        "number": "Vol. 2026.08",
-        "title": "Get ready for school"
-      },
       "date": "2026-09-10",
       "title": "Welcome to the COSY Editorial & Learning Corner",
       "kicker": "EDITORIAL ROOM",
@@ -3627,7 +3623,8 @@
         "seed": "welcome-cosy-001",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "contentType": "evergreen"
     },
     {
       "id": "post-overcoming-intermediate-plateau",
@@ -3674,6 +3671,7 @@
       "id": "guide-top-100-a0-a1-armenian",
       "slug": "top-100-a0-a1-armenian",
       "language": "hy",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3714,6 +3712,7 @@
       "id": "guide-top-100-a0-a1-bashkir",
       "slug": "top-100-a0-a1-bashkir",
       "language": "ba",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3754,6 +3753,7 @@
       "id": "guide-top-100-a0-a1-breton",
       "slug": "top-100-a0-a1-breton",
       "language": "br",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3794,6 +3794,7 @@
       "id": "guide-top-100-a0-a1-english",
       "slug": "top-100-a0-a1-english",
       "language": "en",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3834,6 +3835,7 @@
       "id": "guide-top-100-a0-a1-french",
       "slug": "top-100-a0-a1-french",
       "language": "fr",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3874,6 +3876,7 @@
       "id": "guide-top-100-a0-a1-georgian",
       "slug": "top-100-a0-a1-georgian",
       "language": "ka",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3914,6 +3917,7 @@
       "id": "guide-top-100-a0-a1-german",
       "slug": "top-100-a0-a1-german",
       "language": "de",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3954,6 +3958,7 @@
       "id": "guide-top-100-a0-a1-greek",
       "slug": "top-100-a0-a1-greek",
       "language": "el",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -3994,6 +3999,7 @@
       "id": "guide-top-100-a0-a1-italian",
       "slug": "top-100-a0-a1-italian",
       "language": "it",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -4034,6 +4040,7 @@
       "id": "guide-top-100-a0-a1-portuguese",
       "slug": "top-100-a0-a1-portuguese",
       "language": "pt",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -4074,6 +4081,7 @@
       "id": "guide-top-100-a0-a1-russian",
       "slug": "top-100-a0-a1-russian",
       "language": "ru",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -4114,6 +4122,7 @@
       "id": "guide-top-100-a0-a1-spanish",
       "slug": "top-100-a0-a1-spanish",
       "language": "es",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -4154,6 +4163,7 @@
       "id": "guide-top-100-a0-a1-tatar",
       "slug": "top-100-a0-a1-tatar",
       "language": "tt",
+      "translationOf": "top-100-a0-a1",
       "desk": "Long Reads",
       "section": "words_desk",
       "format": "list",
@@ -4227,6 +4237,47 @@
         "layout": "magazine-spread",
         "motif": "editorial-stars",
         "seed": "top-100-a0-a1",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-why-speaking-first",
+      "slug": "why-speaking-first",
+      "language": "en",
+      "desk": "Front Page",
+      "section": "founder_dispatch",
+      "format": "essay",
+      "level": "A0–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-03",
+      "title": "Why Speaking-First is the Only Way to True Fluency",
+      "kicker": "EDITORIAL ROOM",
+      "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+      "tags": [
+        "Philosophy",
+        "Speaking",
+        "Methodology"
+      ],
+      "readingTime": 6,
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e3a8a",
+          "#f59e0b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "why-speaking-first",
         "coverOverride": null
       },
       "draft": false
@@ -4918,47 +4969,6 @@
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
         "seed": "top-10-verbs",
-        "coverOverride": null
-      },
-      "draft": false
-    },
-    {
-      "id": "post-why-speaking-first",
-      "slug": "why-speaking-first",
-      "language": "en",
-      "desk": "Front Page",
-      "section": "founder_dispatch",
-      "format": "essay",
-      "level": "A0–B2",
-      "issue": {
-        "number": "Vol. 2026.08",
-        "title": "Get ready for school"
-      },
-      "date": "2026-01-15",
-      "title": "Why Speaking-First is the Only Way to True Fluency",
-      "kicker": "EDITORIAL ROOM",
-      "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
-      "tags": [
-        "Philosophy",
-        "Speaking",
-        "Methodology"
-      ],
-      "readingTime": 6,
-      "artDirection": {
-        "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e3a8a",
-          "#f59e0b"
-        ],
-        "fonts": {
-          "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Caveat"
-        },
-        "layout": "magazine-spread",
-        "motif": "notebook-handwritten",
-        "seed": "why-speaking-first",
         "coverOverride": null
       },
       "draft": false
