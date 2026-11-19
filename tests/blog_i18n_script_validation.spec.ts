@@ -89,9 +89,19 @@ test.describe('Blog Script & Target Language i18n Validation', () => {
     const slug = postData.slug;
 
     test(`Verify visible text localization for [${lang.toUpperCase()}] ${slug}`, async ({ page }) => {
+      // The pages pull assets from cosylanguages.github.io, Spotify and jsDelivr. This test
+      // only reads local DOM text, so let those requests fail instead of letting a slow
+      // third-party response time the test out (it did, once, in CI).
+      await page.route('**/*', (route) => {
+        const url = route.request().url();
+        return url.startsWith(`http://localhost:${port}`) ? route.continue() : route.abort();
+      });
+
       const url = `http://localhost:${port}/${slug}.html`;
-      await page.goto(url);
-      await page.waitForLoadState('domcontentloaded');
+      await page.goto(url, { waitUntil: 'domcontentloaded' });
+      // shell.js fills data-i18n nodes only after the dictionary fetch resolves, so
+      // asserting before this flag flips would compare against the built language.
+      await page.waitForFunction(() => window.__cosyI18nReady === true);
 
       // Extract all visible UI texts
       const extractedTexts = await page.evaluate(() => {
