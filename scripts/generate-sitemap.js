@@ -15,6 +15,7 @@ const urls = [
   { loc: BASE, lastmod: today },
   { loc: BASE + 'podcast.html', lastmod: today },
   { loc: BASE + 'issues.html', lastmod: today },
+  { loc: BASE + 'issues-catalog.html', lastmod: today },
 ]
   .concat(posts.map((p) => ({ loc: BASE + p.slug + '.html', lastmod: lastmod(p.updated || p.date) })));
 const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +

@@ -15,7 +15,8 @@
     "placement_quiz": "Test de niveau",
     "tools": "Outils",
     "magazine": "Magazine",
-    "podcast": "Podcast"
+    "podcast": "Podcast",
+    "issue_catalog": "Catalogue des numéros"
   },
   "footer": {
     "courses": "Cours",
@@ -171,9 +172,17 @@
     "all_languages": "Toutes les langues",
     "browse_by_issue": "📖 Parcourir par numéro",
     "browse_all_articles": "📚 Catalogue d'articles",
-    "explore_issue_blueprint": "Sommaire &amp; Recettes ➔",
+    "explore_issue_blueprint": "Sommaire et recettes du numéro ➔",
     "view_mode_aria": "Changer de mode d'affichage",
-    "download_pdf": "PDF"
+    "download_pdf": "PDF",
+    "special_issue": "Numéro spécial",
+    "catalog_pill": "Catalogue des numéros",
+    "catalog_pill_title": "Chaque numéro, chaque article, chaque langue",
+    "blueprint_pill": "Sommaire et plan des numéros",
+    "blueprint_pill_title": "Découvrez le contenu de chaque numéro du magazine",
+    "search_label": "Rechercher des articles",
+    "read_in_label": "Lire en",
+    "issue_label": "Numéro"
   },
   "blog": {
     "back_to_hub": "← Retour au Hub Éditiorial",
@@ -218,7 +227,68 @@
     "issue_october_title": "L'anniversaire de JY DM et ses coup de cœur",
     "issue_november_title": "Académie de novembre",
     "issue_december_title": "Grammaire d'hiver et verbes à haute fréquence",
+    "issue_february_title": "Grammaire de février et verbes à haute fréquence",
     "page_x_of_y": "Page {current} sur {total}",
     "script_teleprompter": "📜 Téléprompteur"
+  },
+  "catalog": {
+    "kicker": "Catalogue des numéros",
+    "title": "Tous les numéros de 2026, au même endroit.",
+    "lede": "Le catalogue complet des numéros de COSYmagazine : chaque article, dans toutes les langues où il paraît. Ouvrez un numéro pour lire le sommaire, ou allez directement à un article.",
+    "back": "← Retour au kiosque",
+    "blueprint": "Sommaire du numéro →",
+    "all_issues": "Tous les numéros",
+    "articles": "articles",
+    "languages": "Langues",
+    "read_in": "Lire en",
+    "download_pdf": "PDF",
+    "empty": "Aucun numéro publié pour le moment.",
+    "issue": "Numéro",
+    "open_article": "Ouvrir l’article",
+    "issues": "numéros",
+    "count_article": {
+      "one": "article",
+      "other": "articles"
+    },
+    "count_language": {
+      "one": "langue",
+      "other": "langues"
+    },
+    "count_issue": {
+      "one": "numéro",
+      "other": "numéros"
+    },
+    "issue_meta": {
+      "2026_08": {
+        "tag": "Numéro de la rentrée",
+        "vibe": "Les fondations, les débuts, la pédagogie et l’acquisition précoce. Vaincre l’intimidation, désapprendre le traumatisme scolaire et parler dès la première leçon."
+      },
+      "2026_09": {
+        "tag": "Numéro du déblocage d’automne",
+        "vibe": "Le plateau intermédiaire B1-B2, la persévérance, les formules plus riches, les adjectifs plus forts et la nuance conversationnelle précise."
+      },
+      "2026_10": {
+        "tag": "Numéro du fondateur",
+        "vibe": "Le jeu, l’agilité conversationnelle, la sortie du blocage et la célébration des brouillons parlés imparfaits, sans autocensure."
+      },
+      "2026_11": {
+        "tag": "Numéro d’immersion cognitive",
+        "vibe": "La linguistique cognitive, la neuroplasticité, la narration créative, les chronologies des temps verbaux et la façon dont les langues reconfigurent le cerveau."
+      },
+      "2026_12": {
+        "tag": "Numéro du solstice d’hiver",
+        "vibe": "La chaleur du solstice d’hiver, les rythmes saisonniers, la logique des verbes à particule, les rituels du thé et une vie intérieure paisible."
+      },
+      "2027_02": {
+        "tag": "Numéro romance et nuance",
+        "vibe": "Le lien humain, la romance, la vulnérabilité émotionnelle, la négociation financière et le spectre subtil de l’affection."
+      }
+    },
+    "podcast": "Podcast",
+    "podcast_series": "Série Saturday Mistakes",
+    "special_issue": "Numéro spécial",
+    "all_languages": "Toutes les langues",
+    "hub": "Hub",
+    "hub_hint": "— Lire dans toutes les langues"
   }
 }

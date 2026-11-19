@@ -1,0 +1,280 @@
+#!/usr/bin/env node
+/**
+ * scripts/generate-issues-catalog.js
+ * Builds issues-catalog.html: one section per published volume, each listing every
+ * published article in every language it exists in.
+ *
+ * Source is index.json (itself generated from posts/*.json), so the catalog can never
+ * drift from the article sources. Run after scripts/build-blog.js.
+ *
+ * Usage: node scripts/generate-issues-catalog.js
+ */
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const INDEX_JSON = path.join(ROOT, 'index.json');
+const OUTPUT = path.join(ROOT, 'issues-catalog.html');
+const BASE = 'https://cosylanguages.github.io/COSYmagazine/';
+
+const UI_LANGS = ['en', 'fr', 'it', 'ru', 'el'];
+
+const LANG_NAMES = {
+  en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά',
+  es: 'Español', de: 'Deutsch', pt: 'Português', hy: 'Հայերեն', ka: 'ქართული',
+  tt: 'Татарча', ba: 'Башҡортса', br: 'Brezhoneg', cv: 'Чӑвашла'
+};
+
+const LANG_FLAGS = {
+  en: '🇬🇧', fr: '🇫🇷', it: '🇮🇹', ru: '🇷🇺', el: '🇬🇷',
+  es: '🇪🇸', de: '🇩🇪', pt: '🇵🇹', hy: '🇦🇲', ka: '🇬🇪',
+  tt: '🌐', ba: '🌐', br: '🌐', cv: '🌐'
+};
+
+// Desk labels are localized in js/i18n/*.json under the `desk` object.
+const DESK_KEYS = {
+  'Front Page': 'front_page', 'Saturday Mistakes': 'saturday_mistakes',
+  'COSYtalks': 'cosytalks', 'Grammar': 'grammar', 'Words': 'words',
+  'Grammar Made Cosy': 'grammar_made_cosy', 'Say It': 'say_it',
+  'Culture & Quotes': 'culture_quotes', 'Long Reads': 'long_reads',
+  'Cosy Events': 'cosy_events', 'The Podcast': 'the_podcast',
+  'Back Issues': 'back_issues', 'Reflections': 'reflections'
+};
+
+const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june',
+  'july', 'august', 'september', 'october', 'november', 'december'];
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+}[c]));
+
+function loadDict(lang) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(ROOT, 'js', 'i18n', `${lang}.json`), 'utf-8'));
+  } catch (e) {
+    return {};
+  }
+}
+
+function t(dict, key, fallback) {
+  const value = key.split('.').reduce((cur, part) => (cur && cur[part] !== undefined ? cur[part] : undefined), dict);
+  return typeof value === 'string' ? value : fallback;
+}
+
+/** Groups posts into one entry per article, with all its language variants. */
+function groupArticles(posts) {
+  const map = new Map();
+  for (const post of posts) {
+    const key = post.translationOf || post.slug;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(post);
+  }
+  return [...map.entries()].map(([key, variants]) => {
+    const base = variants.find((v) => v.slug === key)
+      || variants.find((v) => !v.translationOf)
+      || variants[0];
+    // One entry per language. A dedicated language edition wins over a hub page that
+    // also declares that language (e.g. top-10-verbs vs top-10-verbs-en).
+    const byLanguage = new Map();
+    for (const v of variants) {
+      const current = byLanguage.get(v.language);
+      if (!current || (v.translationOf && !current.translationOf)) byLanguage.set(v.language, v);
+    }
+    const editions = [...byLanguage.values()].sort((a, b) => a.language.localeCompare(b.language));
+    return { base, variants: editions };
+  });
+}
+
+function renderLanguagePills(article, readInLabel, allLanguagesLabel) {
+  const hub = article.variants.includes(article.base)
+    ? ''
+    : `<a class="cat-lang-pill is-hub" href="${esc(article.base.slug)}.html" data-i18n-title="catalog.all_languages" title="${esc(allLanguagesLabel)}">🌐 <span data-i18n="catalog.hub">Hub</span> <span class="visually-hidden" data-i18n="catalog.hub_hint"> — ${esc(allLanguagesLabel ? readInLabel + ' ' + allLanguagesLabel.toLowerCase() : readInLabel)}</span></a>`;
+  return hub + article.variants.map((v) => {
+    const name = LANG_NAMES[v.language] || v.language.toUpperCase();
+    const flag = LANG_FLAGS[v.language] || '🌐';
+    return `<a class="cat-lang-pill${v === article.base ? ' is-base' : ''}" href="${esc(v.slug)}.html" lang="${esc(v.language)}" hreflang="${esc(v.language)}" title="${esc(name)}">${flag} ${esc(v.language.toUpperCase())}<span class="visually-hidden"> — <span data-i18n="catalog.read_in">${esc(readInLabel)}</span> ${esc(name)}</span></a>`;
+  }).join('');
+}
+
+function renderArticle(article, readInLabel, allLanguagesLabel) {
+  const p = article.base;
+  const langCount = article.variants.length;
+  return `
+        <li class="cat-article">
+          <a class="cat-article-title" href="${esc(p.slug)}.html" lang="${esc(p.language)}">${esc(p.title)}</a>
+          <p class="cat-article-dek" lang="${esc(p.language)}">${esc(p.dek)}</p>
+          <div class="cat-article-meta">
+            <span class="cat-article-desk"${DESK_KEYS[p.desk] ? ` data-i18n="desk.${DESK_KEYS[p.desk]}"` : ''}>${esc(p.desk || '')}</span>
+            <span aria-hidden="true">·</span>
+            <span>${esc(p.level || '')}</span>
+            <span aria-hidden="true">·</span>
+            <span data-i18n-count="catalog.count_language" data-count="${langCount}">${langCount} languages</span>
+          </div>
+          <div class="cat-lang-pills" data-i18n-aria-label="catalog.read_in" aria-label="${esc(readInLabel)}">${renderLanguagePills(article, readInLabel, allLanguagesLabel)}</div>
+        </li>`;
+}
+
+function issueTitleFor(issue, dict) {
+  const m = /(\d{4})\.(\d{2})/.exec(issue.number || '');
+  const monthKey = m ? `issue_${MONTHS[parseInt(m[2], 10) - 1]}_title` : '';
+  const localized = monthKey ? t(dict, `blog.${monthKey}`, '') : '';
+  return localized || issue.title || '';
+}
+
+function build() {
+  if (!fs.existsSync(INDEX_JSON)) {
+    console.error('❌ index.json is missing. Run `node scripts/build-blog.js` first.');
+    process.exit(1);
+  }
+
+  const index = JSON.parse(fs.readFileSync(INDEX_JSON, 'utf-8'));
+  const enDict = loadDict('en');
+  const c = (key, fallback) => t(enDict, `catalog.${key}`, fallback);
+
+  // Saturday Mistakes is podcast content, not a monthly volume, but it is still published
+  // material, so it gets its own section instead of being dropped from the catalog.
+  const isPodcast = (number) => number === 'Podcast Special';
+  const issues = (index.issues || [])
+    .slice()
+    .sort((a, b) => {
+      if (isPodcast(a.number)) return 1;
+      if (isPodcast(b.number)) return -1;
+      return b.number.localeCompare(a.number);
+    });
+
+  const publishedPosts = (index.posts || []).filter((p) => !p.draft);
+  const totalArticles = groupArticles(publishedPosts).length;
+
+  const blueprintHref = (issue) => (
+    isPodcast(issue.number)
+      ? 'podcast.html'
+      : `issues.html#${issue.anchor || 'blueprint'}`
+  );
+
+  const sections = issues.map((issue) => {
+    const issuePosts = publishedPosts.filter((p) => p.issue && p.issue.number === issue.number);
+    const articles = groupArticles(issuePosts)
+      .sort((a, b) => new Date(b.base.date) - new Date(a.base.date));
+    if (!articles.length) return '';
+    const languages = [...new Set(articles.flatMap((a) => a.variants.map((v) => v.language)))];
+    const anchor = isPodcast(issue.number) ? 'podcast-special' : (issue.anchor || 'blueprint');
+    const heading = isPodcast(issue.number)
+      ? c('podcast_series', issue.title || 'Saturday Mistakes')
+      : issueTitleFor(issue, enDict);
+    // Lets shell.js re-localize the heading when the reader switches interface language.
+    const monthMatch = /(\d{4})\.(\d{2})/.exec(issue.number || '');
+    // i18n keys cannot contain dots, so the volume becomes 2026_08.
+    const metaKey = monthMatch ? `${monthMatch[1]}_${monthMatch[2]}` : '';
+    const headingKey = isPodcast(issue.number)
+      ? ' data-i18n="catalog.podcast_series"'
+      : (monthMatch ? ` data-i18n="blog.issue_${MONTHS[parseInt(monthMatch[2], 10) - 1]}_title"` : '');
+    return `
+      <section class="cat-issue" id="${esc(anchor)}" data-issue="${esc(issue.number)}">
+        <header class="cat-issue-head">
+          <div>
+            <span class="cat-issue-tag">${isPodcast(issue.number)
+              ? `<span data-i18n="catalog.podcast">${esc(c('podcast', 'Podcast'))}</span> • <span data-i18n="catalog.special_issue">${esc(c('special_issue', 'Special Issue'))}</span>`
+              : `${esc(issue.number)}${issue.tag ? ` • <span data-i18n="catalog.issue_meta.${esc(metaKey)}.tag">${esc(issue.tag)}</span>` : ''}`}</span>
+            <h2 class="cat-issue-title"${headingKey}>${esc(heading)}</h2>
+            ${issue.vibe ? `<p class="cat-issue-vibe" data-i18n="catalog.issue_meta.${esc(metaKey)}.vibe">${esc(issue.vibe)}</p>` : ''}
+          </div>
+          <div class="cat-issue-actions">
+            <span class="cat-issue-count"><span data-i18n-count="catalog.count_article" data-count="${articles.length}">${articles.length} articles</span> · <span data-i18n-count="catalog.count_language" data-count="${languages.length}">${languages.length} languages</span></span>
+            <a class="cat-btn" href="${esc(blueprintHref(issue))}">${isPodcast(issue.number) ? '🎙️' : '📖'} <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>
+            ${isPodcast(issue.number) ? '' : `<button type="button" class="cat-btn" data-action="download-issue-pdf" data-issue-id="${esc(issue.number)}" data-issue-number="${esc(issue.number)}" data-issue-title="${esc(heading)}">📥 ${esc(c('download_pdf', 'PDF'))}</button>`}
+          </div>
+        </header>
+        <ul class="cat-article-list">
+          ${articles.map((a) => renderArticle(a, c('read_in', 'Read in'), c('all_languages', 'All languages'))).join('')}
+        </ul>
+      </section>`;
+  }).join('');
+
+  const navPills = issues.map((issue) => {
+    const anchor = isPodcast(issue.number) ? 'podcast-special' : (issue.anchor || 'blueprint');
+    const label = isPodcast(issue.number)
+      ? c('podcast_series', issue.title || 'Saturday Mistakes')
+      : issueTitleFor(issue, enDict);
+    const short = isPodcast(issue.number) ? c('podcast', 'Podcast') : issue.number.replace('Vol. ', '');
+    const m = /(\d{4})\.(\d{2})/.exec(issue.number || '');
+    const labelKey = isPodcast(issue.number) || !m
+      ? ''
+      : ` data-i18n="blog.issue_${MONTHS[parseInt(m[2], 10) - 1]}_title"`;
+    return `<a class="cat-nav-pill" href="#${esc(anchor)}">${esc(short)} · <span${labelKey}>${esc(label)}</span></a>`;
+  }).join('');
+
+  const body = sections.trim()
+    ? sections
+    : `<p class="cat-empty">${esc(c('empty', 'No published issues yet.'))}</p>`;
+
+  const html = `<!DOCTYPE html>
+<html lang="en" data-ui-lang="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSYmagazine Issue Catalog | Every 2026 issue and every article</title>
+  <meta name="description" content="The complete catalog of COSYmagazine issues: every article of every 2026 issue, in every language it is published in.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="canonical" href="${BASE}issues-catalog.html">
+  <meta property="og:title" content="COSYmagazine Issue Catalog">
+  <meta property="og:description" content="Every article of every COSYmagazine issue, in every language it is published in.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE}issues-catalog.html">
+  <meta property="og:image" content="${BASE}images/logo.png">
+  <meta name="theme-color" content="#FAF7F2">
+  <script src="js/theme-init.js"></script>
+  <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/core.css">
+  <link rel="stylesheet" href="css/shell.css">
+  <link rel="stylesheet" href="css/newsstand.css">
+  <link rel="stylesheet" href="css/dark-fixes.css">
+  <link rel="stylesheet" href="css/issues-catalog.css">
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
+</head>
+<body class="ns-page cat-page">
+  <div data-ecosystem-strip data-self="magazine"></div>
+  <nav id="cosy-nav"></nav>
+
+  <main class="ns" id="main">
+    <header class="ns-head cat-hero">
+      <p class="ns-kicker" data-i18n="catalog.kicker">${esc(c('kicker', 'Issue Catalog'))}</p>
+      <h1 data-i18n="catalog.title">${esc(c('title', 'Every 2026 issue, in one place.'))}</h1>
+      <p class="ns-lede" data-i18n="catalog.lede">${esc(c('lede', ''))}</p>
+      <div class="ns-head-links">
+        <a class="ns-pill" href="index.html" data-i18n="catalog.back">${esc(c('back', '← Back to Newsstand'))}</a>
+        <a class="ns-pill" href="issues.html">📖 <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>
+      </div>
+    </header>
+
+    <nav class="cat-nav" aria-label="${esc(c('all_issues', 'All issues'))}">
+      ${navPills}
+    </nav>
+
+    <p class="cat-summary"><span data-i18n-count="catalog.count_article" data-count="${totalArticles}">${totalArticles} articles</span> · <span data-i18n-count="catalog.count_issue" data-count="${issues.length}">${issues.length} issues</span></p>
+
+    ${body}
+  </main>
+
+  <footer id="cosy-footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1" integrity="sha384-YieCqqg9gQufX7+5HcFvCEg/n3KUEdl8/Jb+A6J0npf1mB740VayvwKjTrtCeUoy" crossorigin="anonymous"></script>
+  <script src="js/cms-auth.js"></script>
+  <script src="js/issue-download.js"></script>
+  <script src="js/shell.js"></script>
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
+</body>
+</html>
+`;
+
+  fs.writeFileSync(OUTPUT, html, 'utf-8');
+  console.log(`✅ issues-catalog.html (${issues.length} issues, ${totalArticles} articles)`);
+}
+
+if (require.main === module) {
+  build();
+}
+
+module.exports = { groupArticles, build };

@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-17T21:29:57.610Z",
+  "generatedAt": "2026-11-19T12:30:43.656Z",
   "stats": {
     "totalPosts": 112,
     "totalDesks": 13,
@@ -89,31 +89,59 @@
   "issues": [
     {
       "number": "Vol. 2026.11",
-      "title": "November Academia"
+      "title": "November Academia",
+      "tag": "Cognitive Immersion Issue",
+      "month": "November",
+      "anchor": "november",
+      "vibe": "Cognitive linguistics, neuroplasticity, creative storytelling, tense timelines and exploring how languages rewire the brain."
     },
     {
       "number": "Vol. 2026.08",
-      "title": "Get ready for school"
+      "title": "Get ready for school",
+      "tag": "Back to School Issue",
+      "month": "August",
+      "anchor": "august",
+      "vibe": "Foundations, beginnings, pedagogy & early acquisition. Overcoming intimidation, unlearning school trauma, and speaking from lesson one."
     },
     {
       "number": "Vol. 2026.09",
-      "title": "Me vs Intermediate Plateau"
+      "title": "Me vs Intermediate Plateau",
+      "tag": "Autumn Breakthrough Issue",
+      "month": "September",
+      "anchor": "september",
+      "vibe": "The B1-B2 intermediate plateau, persistence, phrase upgrades, stronger adjectives and precise conversational nuance."
     },
     {
       "number": "Podcast Special",
-      "title": "Saturday Mistakes Series"
+      "title": "Saturday Mistakes Series",
+      "tag": "Special Issue",
+      "month": "",
+      "anchor": "blueprint",
+      "vibe": ""
     },
     {
       "number": "Vol. 2026.10",
-      "title": "JY DM's birthday & His favs"
+      "title": "JY DM's birthday & His favs",
+      "tag": "Founder's Edition",
+      "month": "October",
+      "anchor": "october",
+      "vibe": "Playfulness, conversational agility, overcoming freezing, and celebrating messy spoken drafts without self-censorship."
     },
     {
       "number": "Vol. 2026.12",
-      "title": "Winter Grammar & High Frequency Verbs"
+      "title": "Winter Grammar & High Frequency Verbs",
+      "tag": "Winter Solstice Issue",
+      "month": "December",
+      "anchor": "december",
+      "vibe": "Winter solstice warmth, seasonal rhythms, phrasal verb logic, tea rituals and peaceful introspective living."
     },
     {
       "number": "Vol. 2027.02",
-      "title": "February Grammar & High Frequency Verbs"
+      "title": "February Grammar & High Frequency Verbs",
+      "tag": "Romance & Nuance Issue",
+      "month": "February",
+      "anchor": "february",
+      "vibe": "Human connection, romance, emotional vulnerability, financial negotiation and the subtle spectrum of affection."
     }
   ],
   "posts": [
