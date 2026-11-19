@@ -5,10 +5,6 @@
   "desk": "Front Page",
   "format": "essay",
   "level": "A0–A1",
-  "issue": {
-    "number": "Vol. 2026.08",
-    "title": "Get ready for school"
-  },
   "date": "2026-09-10",
   "title": "Welcome to the COSY Editorial & Learning Corner",
   "kicker": "EDITORIAL ROOM",
@@ -67,5 +63,6 @@
       "text": "Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!"
     }
   ],
-  "draft": false
+  "draft": false,
+  "contentType": "evergreen"
 }

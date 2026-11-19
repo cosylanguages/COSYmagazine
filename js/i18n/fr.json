@@ -234,7 +234,7 @@
   "catalog": {
     "kicker": "Catalogue des numéros",
     "title": "Tous les numéros de 2026, au même endroit.",
-    "lede": "Le catalogue complet des numéros de COSYmagazine : chaque article, dans toutes les langues où il paraît. Ouvrez un numéro pour lire le sommaire, ou allez directement à un article.",
+    "lede": "Le catalogue complet des numéros de COSYmagazine. Chaque numéro paraît en éditions anglaise, française et russe, et chaque article renvoie à toutes les langues dans lesquelles il existe.",
     "back": "← Retour au kiosque",
     "blueprint": "Sommaire du numéro →",
     "all_issues": "Tous les numéros",
@@ -249,6 +249,10 @@
     "count_article": {
       "one": "article",
       "other": "articles"
+    },
+    "count_edition": {
+      "one": "édition",
+      "other": "éditions"
     },
     "count_language": {
       "one": "langue",

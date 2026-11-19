@@ -3507,12 +3507,12 @@
     "featured": false,
     "type": "post",
     "url": "welcome-to-cosy-blog.html",
-    "issue_volume": "Vol. 2026.08",
-    "issue_title": "Get ready for school",
-    "content_type": "issue-article",
+    "issue_volume": "",
+    "issue_title": "COSY Editorial",
+    "content_type": "evergreen",
     "cefr_level": "A0–A1",
     "vibe": "Editorial Vibe",
-    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine COSY Editorial edition.",
     "audio_podcast": false,
     "artDirection": {
       "palette": [
@@ -4161,6 +4161,49 @@
       "layout": "magazine-spread",
       "motif": "editorial-stars",
       "seed": "top-100-a0-a1",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "why-speaking-first",
+    "title": "Why Speaking-First is the Only Way to True Fluency",
+    "date": "2026-08-03",
+    "updated": null,
+    "category": "Front Page",
+    "summary": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Philosophy",
+      "Speaking",
+      "Methodology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "why-speaking-first.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A0–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e3a8a",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "why-speaking-first",
       "coverOverride": null
     }
   },
@@ -4866,49 +4909,6 @@
       "layout": "magazine-spread",
       "motif": "notebook-handwritten",
       "seed": "top-10-verbs",
-      "coverOverride": null
-    }
-  },
-  {
-    "slug": "why-speaking-first",
-    "title": "Why Speaking-First is the Only Way to True Fluency",
-    "date": "2026-01-15",
-    "updated": null,
-    "category": "Front Page",
-    "summary": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
-    "author": "JY DM",
-    "reading_time": 6,
-    "cover_image": "",
-    "tags": [
-      "Philosophy",
-      "Speaking",
-      "Methodology"
-    ],
-    "featured": false,
-    "type": "post",
-    "url": "why-speaking-first.html",
-    "issue_volume": "Vol. 2026.08",
-    "issue_title": "Get ready for school",
-    "content_type": "issue-article",
-    "cefr_level": "A0–B2",
-    "vibe": "Editorial Vibe",
-    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": false,
-    "artDirection": {
-      "palette": [
-        "#0d9488",
-        "#faf7f2",
-        "#1e3a8a",
-        "#f59e0b"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Caveat"
-      },
-      "layout": "magazine-spread",
-      "motif": "notebook-handwritten",
-      "seed": "why-speaking-first",
       "coverOverride": null
     }
   }

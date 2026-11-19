@@ -234,7 +234,7 @@
   "catalog": {
     "kicker": "Issue Catalog",
     "title": "Every 2026 issue, in one place.",
-    "lede": "The full catalog of COSYmagazine issues: every article, in every language it is published in. Open an issue to read the blueprint, or jump straight to a story.",
+    "lede": "The full catalog of COSYmagazine issues. Each issue is published as separate English, French and Russian editions, and every article links to all the languages it exists in.",
     "back": "← Back to Newsstand",
     "blueprint": "Issue blueprint →",
     "all_issues": "All issues",
@@ -249,6 +249,10 @@
     "count_article": {
       "one": "article",
       "other": "articles"
+    },
+    "count_edition": {
+      "one": "edition",
+      "other": "editions"
     },
     "count_language": {
       "one": "language",
