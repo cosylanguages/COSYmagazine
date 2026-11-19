@@ -6,9 +6,9 @@ Article content is authored in `posts/*.json`. The JSON post files are the sourc
 
 `npm run build` runs three steps:
 
-1. `scripts/build-blog.js` validates posts and creates root-level `<slug>.html` pages, `posts.json`, `index.json`, and `podcast.xml`.
-2. `scripts/generate-blog-art.js` creates Open Graph cover artwork in `og/`.
-3. `scripts/generate-sitemap.js` creates `sitemap.xml` from the generated post index.
+1. `scripts/build/build-blog.js` validates posts and creates root-level `<slug>.html` pages, `posts.json`, `index.json`, and `podcast.xml`.
+2. `scripts/build/generate-blog-art.js` creates Open Graph cover artwork in `og/`.
+3. `scripts/build/generate-sitemap.js` creates `sitemap.xml` from the generated post index.
 
 Draft posts (`"draft": true`) are excluded from published output.
 
@@ -20,4 +20,4 @@ Draft posts (`"draft": true`) are excluded from published output.
 
 ## Runtime assets
 
-The article shell and shared styles live in `css/`; browser behavior lives in `js/`, including `js/stage/` for presentation and script modes. Interface translations live in `js/i18n/`. The video export utility is `scripts/export-stage-video.js` and requires FFmpeg plus Playwright Chromium.
+The article shell and shared styles live in `css/`; browser behavior lives in `js/`, including `js/stage/` for presentation and script modes. Interface translations live in `js/i18n/`. The video export utility is `scripts/ops/export-stage-video.js` and requires FFmpeg plus Playwright Chromium.

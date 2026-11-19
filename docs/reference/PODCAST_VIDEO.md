@@ -1,6 +1,6 @@
 # 🎥 Stage Mode Podcast Video Exporter
 
-The Stage Mode Video Exporter (`scripts/export-stage-video.js`) captures a 1920x1080 Stage Mode presentation and encodes it as an `.mp4`. The default output is 10 fps; the frame rate can be changed with `--fps`.
+The Stage Mode Video Exporter (`scripts/ops/export-stage-video.js`) captures a 1920x1080 Stage Mode presentation and encodes it as an `.mp4`. The default output is 10 fps; the frame rate can be changed with `--fps`.
 
 ---
 
@@ -31,7 +31,7 @@ Standard Stage Mode uses real-time wall-clock timers (`setTimeout`, `requestAnim
 ### Command Syntax
 
 ```bash
-node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>] [--fps <num>]
+node scripts/ops/export-stage-video.js <slug> [--audio <file>] [--out <dir>] [--fps <num>]
 ```
 
 ### Arguments & Parameters
@@ -50,7 +50,7 @@ node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>] [--fps 
 ### 1. Render Sample Post (Silent Video)
 
 ```bash
-node scripts/export-stage-video.js stage-demo-podcast --out dist/videos
+node scripts/ops/export-stage-video.js stage-demo-podcast --out dist/videos
 ```
 
 Output: `dist/videos/stage-demo-podcast.mp4`
@@ -58,7 +58,7 @@ Output: `dist/videos/stage-demo-podcast.mp4`
 ### 2. Render a Generated Article with Audio
 
 ```bash
-node scripts/export-stage-video.js why-speaking-first --audio audio/voiceover.mp3 --out dist/videos
+node scripts/ops/export-stage-video.js why-speaking-first --audio audio/voiceover.mp3 --out dist/videos
 ```
 Output: `dist/videos/why-speaking-first.mp4` with synced AAC audio. Replace `audio/voiceover.mp3` with an existing audio file.
 

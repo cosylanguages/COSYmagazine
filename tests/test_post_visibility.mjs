@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { isLive, isScheduledForFuture } = require('../scripts/post-visibility.js');
-const { validatePostSchema } = require('../scripts/validate-blog-schema.js');
+const { isLive, isScheduledForFuture } = require('../scripts/build/post-visibility.js');
+const { validatePostSchema } = require('../scripts/build/validate-blog-schema.js');
 
 test('live unless draft or scheduled for a later day', () => {
   const today = '2026-11-08';

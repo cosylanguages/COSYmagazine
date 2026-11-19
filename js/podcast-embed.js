@@ -1,7 +1,7 @@
 /**
  * Podcast embed resolver (ES module).
  * One place that turns "a link to an episode" into "an embeddable player", used by both
- * the static build (scripts/build-blog.js) and the browser (js/podcast-box.js).
+ * the static build (scripts/build/build-blog.js) and the browser (js/podcast-box.js).
  *
  * Authors only need to paste ONE link into the post JSON:
  *   "podcast": { "episode": 4, "externalUrl": "https://open.spotify.com/episode/..." }

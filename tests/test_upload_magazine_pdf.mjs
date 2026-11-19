@@ -8,7 +8,7 @@ import {
   deriveVolumeFromFilename,
   validatePdfFile,
   getSupabaseConfig
-} from '../scripts/upload-pdf-to-supabase.js';
+} from '../scripts/ops/upload-pdf-to-supabase.js';
 
 test('parseArgs: extracts file, volume, title, storage-path, and draft correctly', () => {
   const args = [

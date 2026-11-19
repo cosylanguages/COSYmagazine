@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { getStageTargetPath } = require('../scripts/export-stage-video.js');
+const { getStageTargetPath } = require('../scripts/ops/export-stage-video.js');
 
 test('stage exporter resolves generated pages from the repository root', () => {
   assert.equal(getStageTargetPath('why-speaking-first'), '/why-speaking-first.html');

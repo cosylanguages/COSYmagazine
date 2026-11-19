@@ -4,8 +4,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { validatePodcastReadiness } from '../scripts/validate-podcast-readiness.js';
-import { generatePodcastRss } from '../scripts/generate-podcast-rss.js';
+import { validatePodcastReadiness } from '../scripts/ops/validate-podcast-readiness.js';
+import { generatePodcastRss } from '../scripts/build/generate-podcast-rss.js';
 import { ScriptController } from '../js/stage/script.js';
 
 const __filename = fileURLToPath(import.meta.url);

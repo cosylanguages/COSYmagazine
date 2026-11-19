@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * scripts/generate-issues-catalog.js
+ * scripts/build/generate-issues-catalog.js
  * Builds issues-catalog.html: one section per published volume, and within it one
  * subsection per language edition (English, French, Russian). Each edition lists only
  * the articles written in its own language; the language pills on every card still link
@@ -9,14 +9,14 @@
  * Source is index.json (itself generated from posts/*.json), so the catalog can never
  * drift from the article sources. Run after scripts/build-blog.js.
  *
- * Usage: node scripts/generate-issues-catalog.js
+ * Usage: node scripts/build/generate-issues-catalog.js
  */
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(__dirname, '..');
+const ROOT = path.join(__dirname, '..', '..');
 const INDEX_JSON = path.join(ROOT, 'index.json');
 const OUTPUT = path.join(ROOT, 'issues-catalog.html');
 const BASE = 'https://cosylanguages.github.io/COSYmagazine/';
@@ -132,7 +132,7 @@ function issueTitleFor(issue, dict) {
 
 function build() {
   if (!fs.existsSync(INDEX_JSON)) {
-    console.error('❌ index.json is missing. Run `node scripts/build-blog.js` first.');
+    console.error('❌ index.json is missing. Run `node scripts/build/build-blog.js` first.');
     process.exit(1);
   }
 

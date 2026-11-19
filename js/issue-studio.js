@@ -4,7 +4,7 @@
  * order, and whether it is ready to go to press. Pure logic, no DOM, so the
  * same rules run in the browser and in tests.
  *
- * Rules come from docs/MAGAZINE_ISSUE_STRUCTURE.md ("Current Editorial Model").
+ * Rules come from docs/issues/MAGAZINE_ISSUE_STRUCTURE.md ("Current Editorial Model").
  */
 (function (root, factory) {
   if (typeof module === 'object' && typeof module.exports === 'object') {

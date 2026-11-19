@@ -5,7 +5,7 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const Blocks = require('../js/editor-blocks.js');
 const Auth = require('../js/cms-auth.js');
-const { validatePostSchema } = require('../scripts/validate-blog-schema.js');
+const { validatePostSchema } = require('../scripts/build/validate-blog-schema.js');
 
 test('CosyEditorBlocks - All 13 canonical block definitions exist and instantiate valid payloads', () => {
   const expectedTypes = [

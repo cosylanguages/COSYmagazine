@@ -5,7 +5,7 @@ const path = require('path');
 const { pathToFileURL } = require('url');
 const { chromium } = require('playwright');
 
-const REPO_ROOT = path.resolve(__dirname, '..');
+const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const SOURCE_HTML = path.join(REPO_ROOT, 'private-issues', 'august-2026.html');
 const DEFAULT_OUTPUT = path.join(REPO_ROOT, 'private-issues', 'august-2026.pdf');
 const BUCKET = process.env.SUPABASE_BUCKET || 'magazine-editions';

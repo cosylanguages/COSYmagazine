@@ -1,7 +1,7 @@
 /**
  * js/editor-blocks.js
  * Template Building Blocks & Presets for COSYmagazine Studio.
- * Conforms 100% to SCHEMA.md and scripts/validate-blog-schema.js.
+ * Conforms 100% to docs/reference/SCHEMA.md and scripts/build/validate-blog-schema.js.
  */
 
 (function (root, factory) {
@@ -289,7 +289,7 @@
   ];
 
   /**
-   * Canonical Magazine Sections (19-part Blueprint from docs/MAGAZINE_ISSUE_STRUCTURE.md)
+   * Canonical Magazine Sections (19-part Blueprint from docs/issues/MAGAZINE_ISSUE_STRUCTURE.md)
    */
   const CANONICAL_SECTIONS = [
     {
