@@ -303,8 +303,7 @@
         "sub3": "Nessun trimestre muto",
         "sub4": "Calore prima degli esercizi",
         "month": "agosto",
-        "tag": "Numero del ritorno a scuola",
-        "hero": "IL PRIMO TRIMESTRE"
+        "tag": "Numero del ritorno a scuola"
       },
       "2026_09": {
         "kicker1": "IL PLATEAU",
@@ -316,8 +315,7 @@
         "sub3": "Cosa lo rompe davvero",
         "sub4": "Un errore di misura",
         "month": "settembre",
-        "tag": "Numero della svolta d’autunno",
-        "hero": "IL NUMERO DEL PLATEAU"
+        "tag": "Numero della svolta d’autunno"
       },
       "2026_10": {
         "kicker1": "IL FONDATORE",
@@ -329,8 +327,7 @@
         "sub3": "La prima bozza",
         "sub4": "Cosa è cambiato",
         "month": "ottobre",
-        "tag": "Numero del fondatore",
-        "hero": "IL NUMERO DEL FONDATORE"
+        "tag": "Numero del fondatore"
       },
       "2026_11": {
         "kicker1": "ACCADEMIA",
@@ -342,8 +339,7 @@
         "sub3": "Cosa dicono le prove",
         "sub4": "Una linea del tempo",
         "month": "novembre",
-        "tag": "Numero di immersione cognitiva",
-        "hero": "IMMERSIONE COGNITIVA"
+        "tag": "Numero di immersione cognitiva"
       },
       "2026_12": {
         "kicker1": "SOLSTIZIO",
@@ -355,8 +351,7 @@
         "sub3": "Tè, ritmo, ripetizione",
         "sub4": "Senza un voto",
         "month": "dicembre",
-        "tag": "Numero del solstizio d’inverno",
-        "hero": "IL SOLSTIZIO D’INVERNO"
+        "tag": "Numero del solstizio d’inverno"
       },
       "2027_02": {
         "kicker1": "TENEREZZA",
@@ -368,8 +363,7 @@
         "sub3": "La vulnerabilità ad alta voce",
         "sub4": "Soldi e sentimento",
         "month": "febbraio",
-        "tag": "Numero romance e sfumature",
-        "hero": "ROMANZO E SFUMATURA"
+        "tag": "Numero romance e sfumature"
       },
       "podcast": {
         "kicker1": "ERRORI",
@@ -381,8 +375,7 @@
         "sub3": "L’errore come materiale",
         "sub4": "Un’abitudine alla volta",
         "month": "",
-        "tag": "Numero speciale",
-        "hero": "GLI ERRORI DEL SABATO"
+        "tag": "Numero speciale"
       }
     },
     "zones": {

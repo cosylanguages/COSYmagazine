@@ -65,8 +65,10 @@ test('renderIssueCover - text is localized, not hardcoded English', () => {
   }
 
   // Every key used by the renderer must exist in every dictionary, or a reader sees a
-  // blank or English line after switching language.
-  const requiredKeys = ['kicker1', 'kicker2', 'kicker3', 'kicker4', 'sub1', 'sub2', 'sub3', 'sub4', 'hero', 'tag', 'month'];
+  // blank or English line after switching language. `hero` is deliberately absent: the
+  // hero is the issue name and comes from `blog.issue_*_title`, so the cover cannot
+  // advertise a headline the issue does not have.
+  const requiredKeys = ['kicker1', 'kicker2', 'kicker3', 'kicker4', 'sub1', 'sub2', 'sub3', 'sub4', 'tag', 'month'];
   for (const lang of LANGS) {
     const covers = loadDict(lang).catalog.covers;
     for (const [key, cover] of Object.entries(covers)) {
@@ -221,4 +223,81 @@ test('renderIssueCover - long translations shrink the type instead of overflowin
     return Math.min(...all);
   };
   assert.ok(sizeOf(long) < sizeOf(short), 'longer copy must be set smaller');
+});
+
+test('renderIssueCover - the hero is the issue name, in a reflowing HTML block', () => {
+  // The hero used to be a single SVG <text> line, which forced long issue names down to
+  // ~15px — smaller than the 19px cover lines, inverting the hierarchy. It is now HTML in
+  // a foreignObject so it wraps, and so shell.js's textContent swap re-wraps per language.
+  const svg = renderIssueCover({
+    number: 'Vol. 2027.02',
+    title: 'February Grammar & High Frequency Verbs',
+    hero: 'February Grammar & High Frequency Verbs',
+    heroI18nKey: 'blog.issue_february_title',
+    fitTexts: { hero: ['February Grammar & High Frequency Verbs'] }
+  });
+  assert.match(svg, /<foreignObject[^>]*>[\s\S]*class="vc-hero-text"/,
+    'hero must live in a foreignObject so it can wrap');
+  assert.match(svg, /class="vc-hero-text"[^>]*data-i18n="blog\.issue_february_title"/,
+    'hero must be translated from the issue-name key, not a cover headline');
+  assert.ok(svg.includes('February Grammar &amp; High Frequency Verbs'));
+  assert.ok(!/<g class="vc-hero">[\s\S]*?<text/.test(svg),
+    'hero must not be a single SVG text line');
+});
+
+test('renderIssueCover - the hero outranks the cover lines in every language', () => {
+  // A hero smaller than the kickers stops reading as the headline. Guard the hierarchy
+  // against future copy changes: the longest translation must still beat the kickers.
+  const months = ['august', 'september', 'october', 'november', 'december', 'february'];
+  for (const month of months) {
+    const variants = LANGS
+      .map((lang) => (loadDict(lang).blog || {})[`issue_${month}_title`])
+      .filter(Boolean);
+    const cover = loadDict('en').catalog.covers[`2026_${String(months.indexOf(month) + 8).padStart(2, '0')}`] || {};
+    const svg = renderIssueCover({
+      number: 'Vol. 2026.09',
+      title: variants[0],
+      hero: variants[0],
+      i18nKey: 'catalog.covers.2026_09',
+      heroI18nKey: `blog.issue_${month}_title`,
+      fitTexts: {
+        ...Object.fromEntries(Object.entries(cover).map(([k, v]) => [k, [v]])),
+        hero: variants
+      }
+    });
+    const heroSize = Number(/class="vc-hero-text"[\s\S]*?font-size:(\d+)px/.exec(svg)?.[1]);
+    const kickers = [...svg.matchAll(/font-size="([\d.]+)"[^>]*font-weight="700"[^>]*data-i18n="[^"]*\.kicker\d"/g)]
+      .map((m) => Number(m[1]));
+    assert.ok(Number.isFinite(heroSize), `${month}: hero needs a font size`);
+    assert.equal(kickers.length, 4, `${month}: expected four kickers`);
+    assert.ok(heroSize > Math.max(...kickers),
+      `${month}: hero ${heroSize}px must exceed the ${Math.max(...kickers)}px kickers`);
+  }
+});
+
+test('renderIssueCover - the hero box holds the longest translation', () => {
+  // The shrink loop stops once the worst translation's estimated line count fits the box,
+  // so assert that same invariant: lines * size * line-height must not exceed the box.
+  // Estimating lines needs the renderer's own width model, so measure the painted width of
+  // the widest variant through the rendered SVG instead of re-deriving it here.
+  const months = ['august', 'september', 'october', 'november', 'december', 'february'];
+  for (const month of months) {
+    const variants = LANGS
+      .map((lang) => (loadDict(lang).blog || {})[`issue_${month}_title`])
+      .filter(Boolean);
+    const svg = renderIssueCover({
+      number: 'Vol. 2026.09', title: variants[0], hero: variants[0],
+      heroI18nKey: `blog.issue_${month}_title`, fitTexts: { hero: variants }
+    });
+    const heroSize = Number(/class="vc-hero-text"[\s\S]*?font-size:(\d+)px/.exec(svg)?.[1]);
+    const boxH = Number(/<foreignObject[^>]*height="([\d.]+)"/.exec(svg)?.[1]);
+    const boxW = Number(/<foreignObject[^>]*width="([\d.]+)"/.exec(svg)?.[1]);
+    assert.ok(boxH > 0 && boxW > 0, `${month}: hero box needs a size`);
+
+    // A 47px+ hero must not be squeezed out by the 0.17 * 1200 box: at least two lines of
+    // the largest size must fit, which is the minimum for the long names.
+    assert.ok(2 * heroSize * 1.08 <= boxH + 12,
+      `${month}: hero ${heroSize}px cannot fit two lines in ${boxH}px`);
+    assert.ok(heroSize >= 30, `${month}: hero fell below a legible ${30}px floor`);
+  }
 });

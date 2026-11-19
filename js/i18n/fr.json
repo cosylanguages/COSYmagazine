@@ -303,8 +303,7 @@
         "sub3": "Pas de premier trimestre muet",
         "sub4": "La chaleur avant les exercices",
         "month": "août",
-        "tag": "Numéro de la rentrée",
-        "hero": "LE PREMIER TRIMESTRE"
+        "tag": "Numéro de la rentrée"
       },
       "2026_09": {
         "kicker1": "LE PALIER",
@@ -316,8 +315,7 @@
         "sub3": "Ce qui le brise vraiment",
         "sub4": "Une erreur de mesure",
         "month": "septembre",
-        "tag": "Numéro du déblocage d’automne",
-        "hero": "LE NUMÉRO DU PALIER"
+        "tag": "Numéro du déblocage d’automne"
       },
       "2026_10": {
         "kicker1": "LE FONDATEUR",
@@ -329,8 +327,7 @@
         "sub3": "Le premier brouillon",
         "sub4": "Ce qui a changé",
         "month": "octobre",
-        "tag": "Numéro du fondateur",
-        "hero": "LE NUMÉRO DU FONDATEUR"
+        "tag": "Numéro du fondateur"
       },
       "2026_11": {
         "kicker1": "ACADÉMIE",
@@ -342,8 +339,7 @@
         "sub3": "Ce que disent les preuves",
         "sub4": "Une chronologie de la fluidité",
         "month": "novembre",
-        "tag": "Numéro d’immersion cognitive",
-        "hero": "IMMERSION COGNITIVE"
+        "tag": "Numéro d’immersion cognitive"
       },
       "2026_12": {
         "kicker1": "SOLSTICE",
@@ -355,8 +351,7 @@
         "sub3": "Thé, rythme, répétition",
         "sub4": "Sans note",
         "month": "décembre",
-        "tag": "Numéro du solstice d’hiver",
-        "hero": "LE SOLSTICE D’HIVER"
+        "tag": "Numéro du solstice d’hiver"
       },
       "2027_02": {
         "kicker1": "TENDRESSE",
@@ -368,8 +363,7 @@
         "sub3": "La vulnérabilité à voix haute",
         "sub4": "L’argent et le sentiment",
         "month": "février",
-        "tag": "Numéro romance et nuance",
-        "hero": "ROMANCE ET NUANCE"
+        "tag": "Numéro romance et nuance"
       },
       "podcast": {
         "kicker1": "ERREURS",
@@ -381,8 +375,7 @@
         "sub3": "L’erreur comme matière",
         "sub4": "Une habitude à la fois",
         "month": "",
-        "tag": "Numéro spécial",
-        "hero": "LES ERREURS DU SAMEDI"
+        "tag": "Numéro spécial"
       }
     },
     "zones": {

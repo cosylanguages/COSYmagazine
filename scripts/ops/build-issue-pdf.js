@@ -366,12 +366,16 @@ async function renderIssueCover(volume, lang, title) {
   for (const [key, value] of Object.entries(cover)) {
     if (typeof value === 'string' && value) fitTexts[key] = [value];
   }
+  // Size the hero from the issue name that is drawn, not from any cover copy.
+  fitTexts.hero = [title];
   return render({
     number: issueVolume(volume),
     title,
     tag: cover.tag || meta.tag || '',
     i18nKey: `catalog.covers.${volume.replace('.', '_')}`,
-    hero: cover.hero || title,
+    // The hero is the issue name, matching the web catalog.
+    hero: title,
+    heroI18nKey: '',
     fitTexts
   });
 }

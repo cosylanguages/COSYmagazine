@@ -159,6 +159,17 @@ async function build() {
   }
   const c = (key, fallback) => t(enDict, `catalog.${key}`, fallback);
 
+  // Every translation of the issue's name. The cover hero and the section heading share
+  // this one key, so the cover can never advertise a headline the issue does not have.
+  function allIssueTitleTexts(monthKey) {
+    const out = [];
+    for (const dict of dicts) {
+      const v = t(dict, `blog.issue_${monthKey}_title`, '');
+      if (v) out.push(v);
+    }
+    return out;
+  }
+
   // Saturday Mistakes is podcast content, not a monthly volume, but it is still published
   // material, so it gets its own section instead of being dropped from the catalog.
   const isPodcast = (number) => number === 'Podcast Special';
@@ -243,8 +254,18 @@ async function build() {
           tag: issue.tag || '',
           month: monthMatch ? MONTHS[parseInt(monthMatch[2], 10) - 1] : '',
           i18nKey: `catalog.covers.${isPodcast(issue.number) ? 'podcast' : metaKey}`,
-          hero: c(`covers.${isPodcast(issue.number) ? 'podcast' : metaKey}.hero`, heading),
-          fitTexts: allCoverTexts(isPodcast(issue.number) ? 'podcast' : metaKey)
+          // The hero is the issue's own name, not an invented headline, and it comes from
+          // the same key as the heading below it.
+          hero: heading,
+          heroI18nKey: isPodcast(issue.number)
+            ? 'catalog.podcast_series'
+            : (metaKey ? `blog.issue_${MONTHS[parseInt(monthMatch[2], 10) - 1]}_title` : ''),
+          fitTexts: {
+            ...allCoverTexts(isPodcast(issue.number) ? 'podcast' : metaKey),
+            hero: isPodcast(issue.number)
+              ? dicts.map((d) => t(d, 'catalog.podcast_series', '')).filter(Boolean)
+              : allIssueTitleTexts(MONTHS[parseInt(monthMatch[2], 10) - 1])
+          }
         })}</div>
         <header class="cat-issue-head">
           <div>

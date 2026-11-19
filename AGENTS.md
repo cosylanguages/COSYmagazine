@@ -130,6 +130,14 @@ generated output.
   `js/i18n/*.json` under `catalog.covers.<key>` and is passed in as `fitTexts`.
   Keep it that way — when the copy also lived in `ISSUE_COVERS`, the renderer
   measured one string and drew another, and long English lines overflowed.
+- The **hero line is the issue's real name**, taken from `blog.issue_<month>_title`
+  — the same key as the section heading — and passed as `heroI18nKey`. Never give
+  the cover an invented headline: a cover that said "THE FIRST TERM" while the
+  issue was "Get ready for school" shipped once and had to be pulled. Because the
+  name is long and Greek runs to 51 characters, the hero is HTML inside a
+  `foreignObject` so it wraps and re-wraps per language when shell.js swaps
+  `textContent`; a stacked-`<tspan>` hero would keep its built language. It is
+  sized to stay the largest type on the cover (tests assert it beats the kickers).
 - Each cover is a **photograph**, not drawn line art. Earlier parametric busts
   read as uncanny (white ellipse eyes), so covers now show rooms, objects and
   place, never a face. Photos live in `images/covers/<key>.jpg` and are

@@ -303,8 +303,7 @@
         "sub3": "No silent first term",
         "sub4": "Warmth over drills",
         "month": "August",
-        "tag": "Back to School Issue",
-        "hero": "THE FIRST TERM"
+        "tag": "Back to School Issue"
       },
       "2026_09": {
         "kicker1": "THE PLATEAU",
@@ -316,8 +315,7 @@
         "sub3": "What actually breaks it",
         "sub4": "A measurement error",
         "month": "September",
-        "tag": "Autumn Breakthrough Issue",
-        "hero": "THE PLATEAU ISSUE"
+        "tag": "Autumn Breakthrough Issue"
       },
       "2026_10": {
         "kicker1": "THE FOUNDER",
@@ -329,8 +327,7 @@
         "sub3": "The messy first draft",
         "sub4": "What changed",
         "month": "October",
-        "tag": "Founder's Edition",
-        "hero": "THE FOUNDER'S EDITION"
+        "tag": "Founder's Edition"
       },
       "2026_11": {
         "kicker1": "ACADEMIA",
@@ -342,8 +339,7 @@
         "sub3": "What the evidence says",
         "sub4": "A timeline for fluency",
         "month": "November",
-        "tag": "Cognitive Immersion Issue",
-        "hero": "COGNITIVE IMMERSION"
+        "tag": "Cognitive Immersion Issue"
       },
       "2026_12": {
         "kicker1": "SOLSTICE",
@@ -355,8 +351,7 @@
         "sub3": "Tea, rhythm, repeat",
         "sub4": "Without a grade",
         "month": "December",
-        "tag": "Winter Solstice Issue",
-        "hero": "THE WINTER SOLSTICE"
+        "tag": "Winter Solstice Issue"
       },
       "2027_02": {
         "kicker1": "TENDERNESS",
@@ -368,8 +363,7 @@
         "sub3": "Vulnerability aloud",
         "sub4": "Money and feeling",
         "month": "February",
-        "tag": "Romance & Nuance Issue",
-        "hero": "ROMANCE & NUANCE"
+        "tag": "Romance & Nuance Issue"
       },
       "podcast": {
         "kicker1": "MISTAKES",
@@ -381,8 +375,7 @@
         "sub3": "Errors as material",
         "sub4": "One habit at a time",
         "month": "",
-        "tag": "Special Issue",
-        "hero": "SATURDAY MISTAKES"
+        "tag": "Special Issue"
       }
     },
     "zones": {

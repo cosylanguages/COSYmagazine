@@ -45,6 +45,31 @@ for (const lang of LANGS) {
             issues.push({ issue: name, problem: `right line past centre: ${t.textContent.slice(0, 24)}` });
           }
         });
+
+        // The hero is HTML inside a foreignObject, so getBBox does not cover it. Measure
+        // its painted lines instead: it must wrap inside its box and never be clipped.
+        const hero = cover.querySelector('.vc-hero-text');
+        if (!hero) {
+          issues.push({ issue: name, problem: 'no hero' });
+          return;
+        }
+        const fo = hero.closest('foreignObject').getBoundingClientRect();
+        const range = document.createRange();
+        range.selectNodeContents(hero);
+        const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+        if (!lines.length) {
+          issues.push({ issue: name, problem: 'hero painted nothing' });
+        } else {
+          const top = Math.min(...lines.map((r) => r.top));
+          const bottom = Math.max(...lines.map((r) => r.bottom));
+          if (top < fo.top - 1 || bottom > fo.bottom + 1) {
+            issues.push({ issue: name, problem: `hero escapes its box: ${hero.textContent.slice(0, 24)}` });
+          }
+        }
+        const heroPx = parseFloat(getComputedStyle(hero).fontSize);
+        if (!(heroPx >= 30)) {
+          issues.push({ issue: name, problem: `hero is only ${heroPx}px` });
+        }
       });
       return issues;
     });

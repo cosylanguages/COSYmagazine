@@ -246,9 +246,11 @@ function renderPhoto({ photo, backdrop, accent, uid, height }) {
 /**
  * Renders one issue cover.
  *
- * @param {object} issue  { number, title, tag, month, i18nKey, hero, fitTexts }.
+ * @param {object} issue  { number, title, tag, month, i18nKey, hero, heroI18nKey, fitTexts }.
  *   `number` selects the art; `title` seeds the drawing and labels the image. Cover copy
  *   comes from `fitTexts` when given, so the drawn text is the text that was measured.
+ *   `heroI18nKey` points the hero line at the issue name (see `blog.issue_*_title`);
+ *   it defaults to `<i18nKey>.hero`.
  * @param {object} [options]
  * @param {number} [options.width]   default 900 (portrait 3:4)
  * @param {number} [options.height]  default 1200
@@ -268,6 +270,11 @@ export function renderIssueCover(issue, options = {}) {
   // When present, every string is also emitted with data-i18n so shell.js can swap it
   // as the reader changes interface language.
   const i18nBase = (issue && issue.i18nKey) || '';
+  // The hero is the issue's name, and that name lives outside the cover namespace:
+  // `blog.issue_<month>_title` is the same key the section heading uses, so cover and
+  // heading can never disagree. Fall back to the cover namespace for callers that only
+  // supply `i18nKey`.
+  const heroI18nKey = (issue && issue.heroI18nKey) || (i18nBase ? `${i18nBase}.hero` : '');
   // Widest translation of each string across all interface languages. Text is swapped at
   // runtime by shell.js, so sizing must assume the longest variant or a translation will
   // overflow the column the English text fit into.
@@ -397,30 +404,39 @@ export function renderIssueCover(issue, options = {}) {
     : '';
 
   // ---- Anchor headline in the bottom fifth ----
-  // The anchor headline is a short theme phrase, not the article title. Vogue's bottom
-  // line is a name plus an evocative phrase; a full article title cannot do that job and
-  // would also leak English onto localized covers.
-  // The hero is ONE text node on purpose: shell.js replaces textContent on the element
-  // carrying data-i18n, so a wrapped hero would keep its built language on the extra
-  // lines. It is therefore sized to fit a single line.
+  // The hero is the issue's own name. Names run long ("February Grammar & High Frequency
+  // Verbs") and translations run longer still (Greek is 51 characters), so a single line
+  // forces the type below the cover lines and inverts the hierarchy. The hero therefore
+  // wraps, inside a foreignObject so the browser re-flows it for each language: shell.js
+  // swaps textContent on the data-i18n element, and an HTML block re-wraps by itself,
+  // whereas stacked <tspan> lines would keep their built language.
   const heroText = (issue && issue.hero) || title;
   const heroVariants = fitOf('hero', heroText);
   const heroMeasure = width * 0.90;
-  let heroSize = width * 0.078;
-  for (let i = 0; i < 80; i++) {
-    const widest = Math.max(...heroVariants.map((t) => estimateWidth(t, heroSize)));
-    if (widest <= heroMeasure) break;
-    if (heroSize <= width * 0.012) break;
-    heroSize *= 0.94;
+  const heroBoxH = height * 0.17;
+  // Start from the single-line display size and shrink only until the longest translation
+  // wraps inside the box. Short names stay large; long ones give up a few points, never
+  // their hierarchy over the cover lines.
+  // The 8px reserve absorbs line-height rounding, so descenders are never clipped.
+  const heroLineHeight = 1.08;
+  const heroReserve = 8;
+  let heroSize = Math.round(width * 0.078);
+  const heroFloor = Math.round(width * 0.024);
+  const estimateLines = (t, size) => Math.max(1, Math.ceil(estimateWidth(t, size) / heroMeasure));
+  while (heroSize > heroFloor) {
+    const tallest = Math.max(...heroVariants.map((t) => estimateLines(t, heroSize) * heroSize * heroLineHeight));
+    if (tallest <= heroBoxH - heroReserve) break;
+    heroSize -= 1;
   }
-  heroSize = Math.round(heroSize);
   const heroBottom = height - height * 0.055;
+  const heroTop = heroBottom - heroBoxH;
 
   const hero = showText ? `
     <g class="vc-hero">
-      <text x="${width / 2}" y="${heroBottom}" text-anchor="middle"
-            font-family="${SERIF}" font-size="${heroSize}" font-weight="700"
-            fill="#FCF9F2" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55" stroke-width="${Math.max(2, width * 0.006)}" stroke-linejoin="round"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.hero"` : ''}>${escapeXml(heroText)}</text>
+      <foreignObject x="${width * 0.05}" y="${heroTop}" width="${heroMeasure}" height="${heroBoxH}">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="vc-hero-text"${heroI18nKey ? ` data-i18n="${escapeXml(heroI18nKey)}"` : ''}
+             style="display:flex;align-items:flex-end;justify-content:center;box-sizing:border-box;height:100%;margin:0;padding:0 0 ${Math.round(heroBoxH * 0.04)}px;text-align:center;font-family:${SERIF};font-weight:700;font-size:${heroSize}px;line-height:${heroLineHeight};color:#FCF9F2;text-shadow:0 0 5px ${backdrop},0 0 5px ${backdrop},0 0 3px ${backdrop};">${escapeXml(heroText)}</div>
+      </foreignObject>
       <line x1="${width * 0.30}" y1="${heroBottom + height * 0.018}"
             x2="${width * 0.70}" y2="${heroBottom + height * 0.018}"
             stroke="${accent}" stroke-width="${Math.max(1.5, width * 0.0022)}" />
