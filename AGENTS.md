@@ -114,6 +114,27 @@ generated output.
   asserts no untranslated English UI strings. Its brand allowlist is for legitimate
   external brand names only — never widen it to silence a real leak.
 
+## Issue covers
+
+- `js/art/vogue-cover.js` draws the portrait 3:4 covers on `issues-catalog.html`.
+  `ISSUE_COVERS` holds **art only** (palette, pose); the copy comes from
+  `js/i18n/*.json` under `catalog.covers.<key>` and is passed in as `fitTexts`.
+  Keep it that way — when the copy also lived in `ISSUE_COVERS`, the renderer
+  measured one string and drew another, and long English lines overflowed.
+- Every localized cover string must be a **single text node**. `shell.js` sets
+  `textContent` on the element carrying `data-i18n`, so a string split over
+  several nodes keeps its built language on the extra nodes and renders a
+  mixed-language cover. `tests/test_vogue_cover.mjs` asserts one node per key.
+- Cover text is sized for the **widest translation**, not the English string,
+  because the swap happens at runtime. Type is set on one line (no wrapping
+  across nodes) and shrinks to fit the column; keep kickers to 2–3 words.
+- `estimateWidth()` is a per-character-class estimate with a 1.32 safety factor,
+  calibrated against the real fonts (worst measured case 1.24x, Greek caps).
+  Re-measure before lowering it.
+- `tests/vogue_covers.spec.ts` renders every cover in all five interface
+  languages and fails on text that leaves the canvas or crosses into the
+  subject band.
+
 ## Known non-issues (do not "fix")
 
 - `content/**/posts/*.json` may reference local audio under `audio/` that is not committed; the
