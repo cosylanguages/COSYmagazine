@@ -15,10 +15,10 @@ on:
         description: 'Volume number (e.g. "Vol. 2026.08")'
         required: false
         default: 'Vol. 2026.08'
-      source_html:
-        description: 'Source HTML file for generation (if generate_and_upload)'
+      language:
+        description: 'Edition language (en, fr, ru) or "all" for every published edition'
         required: false
-        default: 'private-issues/august-2026.html'
+        default: 'all'
       pdf_path:
         description: 'Path to existing PDF file or URL (if upload_existing_file)'
         required: false
@@ -33,10 +33,6 @@ on:
         required: true
         default: true
 
-  push:
-    paths:
-      - 'magazines/**.pdf'
-      - 'private-issues/**.pdf'
 
 jobs:
   build-and-upload-pdf:
@@ -61,15 +57,14 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
         run: npx playwright install --with-deps chromium
 
-      - name: Generate PDF on GitHub and upload to Supabase
+      - name: Generate PDF editions on GitHub and upload to Supabase
         if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
           VOLUME_INPUT: ${{ inputs.volume_number }}
-          SOURCE_INPUT: ${{ inputs.source_html }}
-          TITLE_INPUT: ${{ inputs.issue_title }}
+          LANGUAGE_INPUT: ${{ inputs.language }}
           PUBLISH_INPUT: ${{ inputs.publish }}
         run: |
           if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
@@ -77,25 +72,17 @@ jobs:
             exit 1
           fi
 
-          mkdir -p private-issues
-          OUTPUT_PDF="private-issues/generated-${VOLUME_INPUT//[^a-zA-Z0-9.-]/_}.pdf"
-
-          echo "Generating PDF directly on GitHub from: $SOURCE_INPUT..."
-          CMD_ARGS=(--output "$OUTPUT_PDF")
-          if [ -n "$SOURCE_INPUT" ]; then
-            CMD_ARGS+=(--source "$SOURCE_INPUT")
+          # The workflow takes "Vol. 2026.08"; the generator takes "2026.08".
+          VOLUME="${VOLUME_INPUT#Vol. }"
+          ARGS=(--volume "$VOLUME")
+          if [ -n "$LANGUAGE_INPUT" ] && [ "$LANGUAGE_INPUT" != "all" ]; then
+            ARGS+=(--lang "$LANGUAGE_INPUT")
           fi
-          if [ -n "$VOLUME_INPUT" ]; then
-            CMD_ARGS+=(--volume "$VOLUME_INPUT")
+          if [ "$PUBLISH_INPUT" = "false" ]; then
+            ARGS+=(--no-publish)
           fi
 
-          # If the source HTML file does not exist locally, build draft if available
-          if [ ! -f "$SOURCE_INPUT" ] && [ -f "scripts/ops/build-issue-08-full-draft.js" ]; then
-            echo "Running draft compilation script..."
-            node scripts/ops/build-issue-08-full-draft.js || true
-          fi
-
-          node scripts/ops/publish-issue-pdf.js "${CMD_ARGS[@]}"
+          node scripts/ops/publish-issue-pdf.js "${ARGS[@]}"
 
       - name: Upload existing PDF triggered by Workflow Dispatch
         if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'upload_existing_file'

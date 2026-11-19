@@ -172,14 +172,12 @@
     "all_languages": "All languages",
     "browse_by_issue": "📖 Browse by Issue",
     "browse_all_articles": "📚 All Articles Catalog",
-    "explore_issue_blueprint": "Issue Blueprint & Recipes ➔",
+    "explore_issue_catalog": "Issue Catalog ➔",
     "view_mode_aria": "Switch view mode",
     "download_pdf": "PDF",
     "special_issue": "Special Issue",
     "catalog_pill": "Issue Catalog",
     "catalog_pill_title": "Every issue, every article, every language",
-    "blueprint_pill": "Issue Contents & Blueprint",
-    "blueprint_pill_title": "Explore what each and every magazine issue includes",
     "search_label": "Search articles",
     "read_in_label": "Read in",
     "issue_label": "Issue"
@@ -233,7 +231,7 @@
   },
   "catalog": {
     "kicker": "Issue Catalog",
-    "title": "Every 2026 issue, in one place.",
+    "title": "Every issue, in one place.",
     "lede": "The full catalog of COSYmagazine issues. Each issue is published as separate English, French and Russian editions, and every article links to all the languages it exists in.",
     "back": "← Back to Newsstand",
     "blueprint": "Issue blueprint →",
@@ -386,6 +384,39 @@
         "tag": "Special Issue",
         "hero": "SATURDAY MISTAKES"
       }
-    }
+    },
+    "zones": {
+      "fob": {
+        "name": "Front of Book",
+        "note": "Quick reads to open the issue"
+      },
+      "well": {
+        "name": "The Well",
+        "note": "The uninterrupted long read"
+      },
+      "bob": {
+        "name": "Back of Book",
+        "note": "One closing note"
+      }
+    },
+    "words_unit": "words",
+    "contents": "Contents",
+    "blueprint_label": "Editorial blueprint"
+  },
+  "section": {
+    "words_desk": "Words Desk",
+    "founder_dispatch": "Founder’s Dispatch",
+    "founder_interview": "In Conversation",
+    "mind_matters": "Mind Matters",
+    "grammar_made_cosy": "Grammar Made Cosy",
+    "in_conversation": "In Conversation",
+    "student_teacher_spotlight": "Student & Teacher",
+    "essay": "Essay",
+    "cultural_salon": "Cultural Salon",
+    "culinary_salon": "Culinary Salon",
+    "life_with_without": "With & Without",
+    "greatest_quotes": "The Greatest Quotes",
+    "science_expander": "Keeping Up with Science",
+    "debatable_relatable": "Debatable & Relatable"
   }
 }

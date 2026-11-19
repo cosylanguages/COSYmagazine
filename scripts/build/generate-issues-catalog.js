@@ -173,11 +173,6 @@ async function build() {
   const publishedPosts = (index.posts || []).filter((p) => !p.draft);
   const totalArticles = groupArticles(publishedPosts).length;
 
-  const blueprintHref = (issue) => (
-    isPodcast(issue.number)
-      ? 'podcast.html'
-      : `issues.html#${issue.anchor || 'blueprint'}`
-  );
 
   const sections = issues.map((issue) => {
     const issuePosts = publishedPosts.filter((p) => p.issue && p.issue.number === issue.number);
@@ -222,6 +217,7 @@ async function build() {
             <span class="cat-edition-flag" aria-hidden="true">${LANG_FLAGS[lang] || '🌐'}</span>
             <span class="cat-edition-lang">${esc(langName)}</span>
             <span class="cat-edition-count"><span data-i18n-count="catalog.count_article" data-count="${editionArticles.length}">${editionArticles.length} articles</span></span>
+            ${isPodcast(issue.number) ? '' : `<button type="button" class="cat-btn cat-btn-edition" data-action="download-issue-pdf" data-issue-id="${esc(issue.number)}" data-issue-number="${esc(issue.number)}" data-issue-language="${esc(lang)}" data-issue-title="${esc(heading)} (${esc(langName)})">📥 ${esc(langName)} PDF</button>`}
           </h3>
           <ul class="cat-article-list">
             ${editionArticles.map(({ article, display }) => renderArticle(article, display, c('read_in', 'Read in'), c('all_languages', 'All languages'))).join('')}
@@ -260,8 +256,7 @@ async function build() {
           </div>
           <div class="cat-issue-actions">
             <span class="cat-issue-count">${editionCount}<span data-i18n-count="catalog.count_article" data-count="${articles.length}">${articles.length} articles</span> · <span data-i18n-count="catalog.count_language" data-count="${languages.length}">${languages.length} languages</span></span>
-            <a class="cat-btn" href="${esc(blueprintHref(issue))}">${isPodcast(issue.number) ? '🎙️' : '📖'} <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>
-            ${isPodcast(issue.number) ? '' : `<button type="button" class="cat-btn" data-action="download-issue-pdf" data-issue-id="${esc(issue.number)}" data-issue-number="${esc(issue.number)}" data-issue-title="${esc(heading)}">📥 ${esc(c('download_pdf', 'PDF'))}</button>`}
+            ${isPodcast(issue.number) ? `<a class="cat-btn" href="podcast.html">🎙️ <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>` : ''}
           </div>
         </header>
         ${articleList}
@@ -285,13 +280,21 @@ async function build() {
     ? sections
     : `<p class="cat-empty">${esc(c('empty', 'No published issues yet.'))}</p>`;
 
+  // The catalog lists whatever is published, which can reach past December. Deriving the
+  // span keeps the document title honest instead of hardcoding a year that goes stale.
+  const years = [...new Set(issues
+    .map((i) => (/(\d{4})\.\d{2}/.exec(i.number || '') || [])[1])
+    .filter(Boolean))].sort();
+  const span = !years.length ? '' : (years.length === 1 ? years[0] : `${years[0]}–${years[years.length - 1]}`);
+  const titleSuffix = span ? ` | Every ${span} issue and every article` : ' | Every issue and every article';
+
   const html = `<!DOCTYPE html>
 <html lang="en" data-ui-lang="auto">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COSYmagazine Issue Catalog | Every 2026 issue and every article</title>
-  <meta name="description" content="The complete catalog of COSYmagazine issues: every article of every 2026 issue, in every language it is published in.">
+  <title>COSYmagazine Issue Catalog${esc(titleSuffix)}</title>
+  <meta name="description" content="The complete catalog of COSYmagazine issues: every article of every${span ? ` ${span}` : ''} issue, in every language it is published in.">
   <link rel="icon" href="images/logo.png">
   <link rel="canonical" href="${BASE}issues-catalog.html">
   <meta property="og:title" content="COSYmagazine Issue Catalog">
@@ -321,7 +324,7 @@ async function build() {
       <p class="ns-lede" data-i18n="catalog.lede">${esc(c('lede', ''))}</p>
       <div class="ns-head-links">
         <a class="ns-pill" href="index.html" data-i18n="catalog.back">${esc(c('back', '← Back to Newsstand'))}</a>
-        <a class="ns-pill" href="issues.html">📖 <span data-i18n="catalog.blueprint">${esc(c('blueprint', 'Issue blueprint →'))}</span></a>
+        <a class="ns-pill" href="podcast.html">🎙️ <span data-i18n="catalog.podcast">${esc(c('podcast', 'Podcast'))}</span></a>
       </div>
     </header>
 

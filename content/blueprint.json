@@ -1,0 +1,197 @@
+{
+  "kicker": "STANDARDIZED PUBLICATION RUBRIC",
+  "title": "The 19 Elements Running Through Every Issue",
+  "lede": "No issue is a random collection of articles. Every section weaves the month's central vibe into linguistic agility, communicative methodologies (Stop Translating, Go Creative, Go Diverse), speaking clubs, community contests, and authentic culinary recipes.",
+  "elements": [
+    {
+      "number": "01",
+      "label": "Cover",
+      "title": "Front Cover 🎨",
+      "description": "Vogue-inspired visual aesthetic, Fraunces serif title typography, seasonal color palette, issue volume metadata, and the monthly theme motto.",
+      "tags": [
+        "Editorial Design",
+        "Cover Spread"
+      ]
+    },
+    {
+      "number": "02",
+      "label": "L'Édito",
+      "title": "Letter from the Editor 💌",
+      "description": "Welcoming letter from JY DM introducing the human-made vision of COSYmagazine, connecting teachers and learners as a warm monthly journey.",
+      "tags": [
+        "By JY DM",
+        "Monthly Greeting"
+      ]
+    },
+    {
+      "number": "03",
+      "label": "Dispatch",
+      "title": "Founder's Editorial Dispatch 📰",
+      "description": "The foundational philosophical manifesto (e.g. Why Speaking-First is the Only Way to True Fluency) establishing the communicative rationale behind this month's theme.",
+      "tags": [
+        "By James (JY DM)",
+        "Foundational Essay"
+      ]
+    },
+    {
+      "number": "04",
+      "label": "Reflection & Club",
+      "title": "I Couldn't Help But Wonder 🌌",
+      "description": "The founder's introspective spark that inspired this theme. Concludes with twice-monthly speaking club sessions (adapted for B1–B2 and C1–C2 learners) plus a founder's \"💡 This could be a good research question\" prompt.",
+      "tags": [
+        "Speaking Club (B1-B2 & C1-C2)",
+        "Research Spark 💡"
+      ]
+    },
+    {
+      "number": "05",
+      "label": "Thematic Interview",
+      "title": "In Conversation: Founder's Interview",
+      "description": "An intimate Q&A interview with founder James deconstructing the monthly theme, personal language learning breakthroughs, and the communicative speaking-first philosophy.",
+      "tags": [
+        "Thematic Q&A",
+        "Editorial Room"
+      ]
+    },
+    {
+      "number": "06",
+      "label": "Speaking Debate",
+      "title": "Debatable & Relatable 🔥",
+      "description": "A provocative dilemma introducing the theme's core tensions: 3 compelling arguments for, 3 against, plus debate placards, nuance phrases, and provocative research questions.",
+      "tags": [
+        "Speaking Club Debate",
+        "A2–C2 Placards"
+      ]
+    },
+    {
+      "number": "07",
+      "label": "Community Voice",
+      "title": "In Conversation: Student & Teacher",
+      "description": "Heart-to-heart dialogues alternating between student breakthrough stories and teacher pedagogical reflections (to be separated as the community expands).",
+      "tags": [
+        "Student & Teacher",
+        "Real Experience"
+      ]
+    },
+    {
+      "number": "08",
+      "label": "Psychology",
+      "title": "Mind Matters 🧠",
+      "description": "Psychological deep-dive into cognitive biases, emotional shields, affective filters, and the quiet mental architecture governing human communication.",
+      "tags": [
+        "Case Study Batches",
+        "Cognitive Logic"
+      ]
+    },
+    {
+      "number": "09",
+      "label": "Creativity Desk",
+      "title": "Words & Creativity Desk 📚",
+      "description": "Three separate standalone formats rotating per issue: Stop Translating (sentence frames & reflex verbs), Go Creative (circumlocution & play), or Go Diverse (register & nuance). August features strictly Stop Translating.",
+      "tags": [
+        "Rotating Desk",
+        "Linked to COSYtools 🔎"
+      ]
+    },
+    {
+      "number": "10",
+      "label": "Empathy & Conditionals",
+      "title": "If You Were 🔮",
+      "description": "Hypothetical reality thought-experiments stepping into another's perception. Naturally introduces and accentuates the expressive power of conditional grammar.",
+      "tags": [
+        "Specular Improv",
+        "Conditionals Springboard"
+      ]
+    },
+    {
+      "number": "11",
+      "label": "Grammar",
+      "title": "Grammar Made Cosy (Comparative) 💡",
+      "description": "Flows seamlessly from the conditionals of If You Were into comparative grammar across our 5 primary languages: English, French, Italian, Russian, and Greek with CELTA inductive discovery (Notice 👀 → Concept Check 🧠).",
+      "tags": [
+        "EN • FR • IT • RU • EL",
+        "CCQ Checked"
+      ]
+    },
+    {
+      "number": "12",
+      "label": "Cosyscience",
+      "title": "Keeping Up with Science 🔬",
+      "description": "A peer-reviewed cognitive science or linguistics study expanding the theme, paired with the Cosyscience podcast and actionable research questions for language learners.",
+      "tags": [
+        "Cosyscience Podcast",
+        "Research Expander"
+      ]
+    },
+    {
+      "number": "13",
+      "label": "Reader Showcase",
+      "title": "Wonder Writing Contest Showcase ✍️",
+      "description": "Published winning 100-word micro-essays in target languages answering the previous month's Wonder prompt. Real student voices in print.",
+      "tags": [
+        "Winning Entries",
+        "A2–C1 Submissions"
+      ]
+    },
+    {
+      "number": "14",
+      "label": "Narrative",
+      "title": "My Life With & Without ⚖️",
+      "description": "Two-column comparative ledger exploring life before and after: contrasting extreme presence against total absence of a concept to practice narrative tenses.",
+      "tags": [
+        "Narrative Tenses",
+        "Ledger Spread"
+      ]
+    },
+    {
+      "number": "15",
+      "label": "Reader Submissions",
+      "title": "Idiom Detective & COSY Sightings 🕵️📸",
+      "description": "Readers cracking idiom riddles and submitting photos of their target language \"in the wild\" (street signs, quirky menus, overheard banter).",
+      "tags": [
+        "Language in the Wild",
+        "Community Spotlight"
+      ]
+    },
+    {
+      "number": "16",
+      "label": "Philosophy",
+      "title": "The Greatest Quotes 💬",
+      "description": "One profound quote unpacked in a café dialogue format. How philosophers, writers, and thinkers would debate its nuances over espresso.",
+      "tags": [
+        "Espresso Dialogue",
+        "Never 1 Answer"
+      ]
+    },
+    {
+      "number": "17",
+      "label": "Culinary Salon",
+      "title": "Culinary Salon: 5 Authentic Recipes 🍳",
+      "description": "Traditional culinary recipes representing all 5 main languages (English, French, Italian, Russian, Greek) celebrating the issue vibe, paired with food vocabulary and dinner table speaking prompts.",
+      "tags": [
+        "EN • FR • IT • RU • EL",
+        "Dinner Table Speaking"
+      ]
+    },
+    {
+      "number": "18",
+      "label": "Culture & Vibes",
+      "title": "Cultural Salon & Monthly Vibes 🎨",
+      "description": "Curated month vibes: Let's Celebrate (world festivals), Cinema Club picks, Karaoke Club tracks, Long Reads book chapters, and COSYgames pairing.",
+      "tags": [
+        "Films, Songs & Books",
+        "COSYpractice & Games"
+      ]
+    },
+    {
+      "number": "19",
+      "label": "Full-Page Puzzle Spread",
+      "title": "Full-Page Thematic Crossword 🧩",
+      "description": "End-of-issue playful consolidation: occupying an entire full page in print/PDF editions so it is bigger and legible, with interconnected vocabulary and idioms extracted directly from the issue's articles.",
+      "tags": [
+        "Full-Page Spread",
+        "Direct Issue Extraction"
+      ]
+    }
+  ]
+}

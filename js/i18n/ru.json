@@ -172,14 +172,12 @@
     "all_languages": "Все языки",
     "browse_by_issue": "📖 Читать по выпускам",
     "browse_all_articles": "📚 Каталог всех статей",
-    "explore_issue_blueprint": "Содержание и рецепты выпуска ➔",
+    "explore_issue_catalog": "Каталог выпусков ➔",
     "view_mode_aria": "Переключить режим просмотра",
     "download_pdf": "PDF",
     "special_issue": "Специальный выпуск",
     "catalog_pill": "Каталог номеров",
     "catalog_pill_title": "Каждый номер, каждая статья, каждый язык",
-    "blueprint_pill": "Содержание и план номеров",
-    "blueprint_pill_title": "Узнайте, что входит в каждый номер журнала",
     "search_label": "Поиск статей",
     "read_in_label": "Читать на",
     "issue_label": "Выпуск"
@@ -233,7 +231,7 @@
   },
   "catalog": {
     "kicker": "Каталог номеров",
-    "title": "Все номера 2026 года в одном месте.",
+    "title": "Все номера в одном месте.",
     "lede": "Полный каталог номеров COSYmagazine. Каждый номер выходит в английском, французском и русском изданиях, а каждая статья ссылается на все языки, на которых она существует.",
     "back": "← Назад к витрине",
     "blueprint": "Содержание номера →",
@@ -392,6 +390,39 @@
         "tag": "Специальный выпуск",
         "hero": "СУББОТНИЕ ОШИБКИ"
       }
-    }
+    },
+    "zones": {
+      "fob": {
+        "name": "В начале",
+        "note": "Короткие тексты для начала"
+      },
+      "well": {
+        "name": "В сердце выпуска",
+        "note": "Длинный текст без перерывов"
+      },
+      "bob": {
+        "name": "В завершение",
+        "note": "Одна заключительная заметка"
+      }
+    },
+    "words_unit": "слов",
+    "contents": "Содержание",
+    "blueprint_label": "Редакционная концепция"
+  },
+  "section": {
+    "words_desk": "Стол слов",
+    "founder_dispatch": "Слово основателя",
+    "founder_interview": "Интервью",
+    "mind_matters": "Ум и сознание",
+    "grammar_made_cosy": "Уютная грамматика",
+    "in_conversation": "Разговор",
+    "student_teacher_spotlight": "Ученик и учитель",
+    "essay": "Эссе",
+    "cultural_salon": "Культурный салон",
+    "culinary_salon": "Кулинарный салон",
+    "life_with_without": "С и без",
+    "greatest_quotes": "Великие цитаты",
+    "science_expander": "Наука рядом",
+    "debatable_relatable": "Спор и жизнь"
   }
 }

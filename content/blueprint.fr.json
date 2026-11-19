@@ -1,0 +1,102 @@
+{
+  "kicker": "RUBRIQUE DE PUBLICATION NORMALISÉE",
+  "title": "Les 19 éléments présents dans chaque numéro",
+  "lede": "Aucun numéro n'est une collection aléatoire d'articles. Chaque rubrique tisse l'ambiance du mois autour d'un même fil conducteur : apprendre à parler en parlant, dès la première leçon.",
+  "elements": [
+    {
+      "label": "Couverture",
+      "title": "Couverture 🎨",
+      "description": "Esthétique visuelle inspirée de Vogue, typographie sérif Fraunces, palette saisonnière, métadonnées du volume et devise du thème mensuel."
+    },
+    {
+      "label": "L'Édito",
+      "title": "Lettre de la rédaction 💌",
+      "description": "Lettre d'accueil de JY DM présentant la vision humaine de COSYmagazine, qui relie enseignants et apprenants dans un parcours mensuel chaleureux."
+    },
+    {
+      "label": "Éditorial",
+      "title": "Éditorial du fondateur 📰",
+      "description": "Le manifeste philosophique fondateur (par exemple « Pourquoi parler d'abord est la seule voie vers une vraie fluidité ») qui établit la logique communicative du thème du mois."
+    },
+    {
+      "label": "Réflexion & Club",
+      "title": "Je n'ai pas pu m'empêcher de me demander 🌌",
+      "description": "L'étincelle introspective du fondateur à l'origine du thème. Se conclut par deux sessions mensuelles de club de conversation (adaptées aux niveaux B1–B2 et C1–C2) et une piste du fondateur : « 💡 Voici une bonne question de recherche »."
+    },
+    {
+      "label": "Entretien thématique",
+      "title": "En conversation : entretien avec le fondateur",
+      "description": "Un entretien intime avec le fondateur James qui déconstruit le thème du mois, ses percées personnelles en apprentissage des langues et la philosophie du parler d'abord."
+    },
+    {
+      "label": "Débat oral",
+      "title": "Discutable et proche de vous 🔥",
+      "description": "Un dilemme provocateur qui introduit les tensions centrales du thème : 3 arguments pour, 3 contre, des pancartes de débat, des formules nuancées et des questions de recherche stimulantes."
+    },
+    {
+      "label": "Voix de la communauté",
+      "title": "En conversation : élève et enseignant",
+      "description": "Des dialogues à cœur ouvert alternant récits de progrès d'élèves et réflexions pédagogiques d'enseignants (à séparer au fur et à mesure que la communauté grandit)."
+    },
+    {
+      "label": "Psychologie",
+      "title": "L'esprit compte 🧠",
+      "description": "Analyse psychologique des biais cognitifs, des boucliers émotionnels, des filtres affectifs et de l'architecture mentale discrète qui régit la communication humaine."
+    },
+    {
+      "label": "Atelier créatif",
+      "title": "Atelier des mots et de la créativité 📚",
+      "description": "Trois formats autonomes qui alternent selon le numéro : Arrêter de traduire (formules et verbes réflexes), Devenir créatif (périphrase et jeu) ou Devenir varié (registre et nuance). En août : Arrêter de traduire uniquement."
+    },
+    {
+      "label": "Empathie & conditionnels",
+      "title": "Et si vous étiez 🔮",
+      "description": "Des expériences de pensée hypothétiques pour adopter la perception d'un autre. Introduit naturellement la puissance expressive de la grammaire conditionnelle."
+    },
+    {
+      "label": "Grammaire",
+      "title": "La grammaire en douceur (comparative) 💡",
+      "description": "Enchaîne sans rupture sur les conditionnels de « Et si vous étiez » vers une grammaire comparative dans nos 5 langues principales : anglais, français, italien, russe et grec, avec la découverte inductive CELTA (Remarquer 👀 → Vérifier le concept 🧠)."
+    },
+    {
+      "label": "Cosyscience",
+      "title": "Suivre la science 🔬",
+      "description": "Une étude évaluée par les pairs en sciences cognitives ou en linguistique qui approfondit le thème, accompagnée du podcast Cosyscience et de questions de recherche concrètes."
+    },
+    {
+      "label": "Vitrine des lecteurs",
+      "title": "Vitrine du concours d'écriture Wonder ✍️",
+      "description": "Des micro-essais gagnants de 100 mots publiés dans les langues cibles, en réponse à la consigne Wonder du mois précédent. De vraies voix d'élèves imprimées."
+    },
+    {
+      "label": "Récit",
+      "title": "Ma vie avec et sans ⚖️",
+      "description": "Un bilan comparatif en deux colonnes : la présence extrême opposée à l'absence totale d'un concept, pour pratiquer les temps du récit."
+    },
+    {
+      "label": "Contributions des lecteurs",
+      "title": "Détective des expressions & observations COSY 🕵️📸",
+      "description": "Des lecteurs qui résolvent des énigmes d'expressions et envoient des photos de leur langue cible « dans la nature » (panneaux, menus insolites, conversations surprises)."
+    },
+    {
+      "label": "Philosophie",
+      "title": "Les plus grandes citations 💬",
+      "description": "Une citation profonde décortiquée sous forme de dialogue de café. Comment philosophes, écrivains et penseurs en débattraient les nuances autour d'un espresso."
+    },
+    {
+      "label": "Salon culinaire",
+      "title": "Salon culinaire : 5 recettes authentiques 🍳",
+      "description": "Des recettes traditionnelles représentant nos 5 langues principales (anglais, français, italien, russe, grec), célébrant l'ambiance du numéro, avec vocabulaire culinaire et pistes de conversation à table."
+    },
+    {
+      "label": "Culture & ambiances",
+      "title": "Salon culturel & ambiances du mois 🎨",
+      "description": "Une sélection du mois : Célébrons (fêtes du monde), choix du Ciné-club, titres du Karaoké-club, chapitres de lectures longues et duos COSYgames."
+    },
+    {
+      "label": "Page de jeu",
+      "title": "Mots croisés thématiques pleine page 🧩",
+      "description": "Consolidation ludique en fin de numéro : une page entière dans les éditions imprimées et PDF, pour un format plus grand et lisible, avec un vocabulaire et des expressions tirés directement des articles du numéro."
+    }
+  ]
+}

@@ -81,7 +81,7 @@ test('sitemap.xml never declares a future lastmod', () => {
 
 test('sitemap.xml lists every static landing page', () => {
   const xml = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf-8');
-  for (const page of ['podcast.html', 'issues.html', 'issues-catalog.html']) {
+  for (const page of ['podcast.html', 'issues-catalog.html']) {
     assert.ok(
       xml.includes(`https://cosylanguages.github.io/COSYmagazine/${page}`),
       `sitemap must include ${page}`
@@ -104,6 +104,25 @@ test('issues-catalog.html lists every published issue article and every issue', 
   for (const issue of index.issues) {
     assert.ok(sections.has(issue.number), `catalog must have a section for ${issue.number}`);
   }
+});
+
+test('the catalog title never claims a year it does not cover', () => {
+  // The catalog is generated from what is published, so the span can reach past the
+  // current year. A hardcoded year in the <title> silently goes stale and misdescribes
+  // the page to search engines and to readers.
+  const html = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
+  const index = readJson(path.join(ROOT, 'index.json'));
+  const years = [...new Set(index.issues
+    .map((i) => (/(\d{4})\.\d{2}/.exec(i.number || '') || [])[1])
+    .filter(Boolean))].sort();
+  assert.ok(years.length > 0, 'the catalog should cover at least one year');
+
+  const title = /<title>([^<]+)<\/title>/.exec(html)[1];
+  const claimed = [...new Set(title.match(/\d{4}/g) || [])];
+  assert.deepEqual(claimed, years,
+    `the catalog <title> claims ${claimed.join(', ') || 'no year'} but covers ${years.join(', ')}`);
+  assert.ok(!/\d{4}/.test(/<h1[^>]*>([^<]*)<\/h1>/.exec(html)[1]),
+    'the visible heading must stay year-neutral, since it is shared by every language');
 });
 
 test('issues-catalog.html renders one edition per edition language, with only that language inside', () => {
@@ -167,24 +186,6 @@ test('issues-catalog.html keeps every language reachable from each article card'
   }
 });
 
-test('issues.html never repeats a page range across blueprint groups', () => {
-  const html = fs.readFileSync(path.join(ROOT, 'issues.html'), 'utf-8');
-  const headers = [...html.matchAll(/<h4 class="roster-group-title">[\s\S]*?<\/h4>/g)].map((m) => m[0]);
-  assert.ok(headers.length > 0, 'issues.html should render blueprint groups');
-
-  const seen = new Map();
-  for (const header of headers) {
-    const range = /^[\s\S]*?<\/span>\s*([0-9,\u2013\s&]+?)\s*•/.exec(header)?.[1];
-    if (!range) continue;
-    const pages = range.match(/\d+/g) || [];
-    for (const page of pages) {
-      const where = seen.get(page);
-      assert.ok(!where, `page ${page} is claimed by two blueprint groups: "${where}" and "${header.replace(/<[^>]+>/g, '').trim()}"`);
-      seen.set(page, header.replace(/<[^>]+>/g, '').trim());
-    }
-  }
-});
-
 test('issues-catalog.html has no duplicate language pills within a card', () => {
   const html = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
   const cards = html.match(/<li class="cat-article">[\s\S]*?<\/li>/g) || [];
@@ -195,14 +196,14 @@ test('issues-catalog.html has no duplicate language pills within a card', () => 
   }
 });
 
-test('issues.html and index.html use canonical volume identifiers for every issue', () => {
+test('the catalog and index use canonical volume identifiers for every issue', () => {
   const canonical = /^Vol\. \d{4}\.\d{2}$/;
-  const issuesHtml = fs.readFileSync(path.join(ROOT, 'issues.html'), 'utf-8');
+  const catalogHtml = fs.readFileSync(path.join(ROOT, 'issues-catalog.html'), 'utf-8');
 
-  const ids = [...issuesHtml.matchAll(/data-issue-(?:id|number)="([^"]+)"/g)].map((m) => m[1]);
-  assert.ok(ids.length > 0, 'issues.html should offer PDF downloads');
+  const ids = [...catalogHtml.matchAll(/data-issue-(?:id|number)="([^"]+)"/g)].map((m) => m[1]);
+  assert.ok(ids.length > 0, 'the catalog should offer PDF downloads');
   for (const id of ids) {
-    assert.match(id, canonical, `issues.html PDF id "${id}" must be a canonical volume number`);
+    assert.match(id, canonical, `catalog PDF id "${id}" must be a canonical volume number`);
   }
 
   const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf-8');
@@ -253,8 +254,8 @@ test('every issue heading has a localized title for its month', () => {
 
 test('every data-i18n key on the listing pages resolves in every interface language', () => {
   const langs = ['en', 'fr', 'it', 'ru', 'el'];
-  // issues.html is an English-only editorial blueprint with no translatable chrome,
-  // so only the two localized listing pages are checked here.
+  // The two localized listing pages; every other page is per-article and checked
+  // by the Playwright i18n spec.
   const pages = ['index.html', 'issues-catalog.html'];
 
   const flatten = (o, prefix = '', out = {}) => {

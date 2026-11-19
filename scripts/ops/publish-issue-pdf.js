@@ -1,39 +1,42 @@
 #!/usr/bin/env node
+/**
+ * Generates one PDF edition per language for an issue and uploads each to the
+ * private Supabase bucket.
+ *
+ * Editions are sold separately, so every language is its own object and its own
+ * `magazine_issues` row:
+ *
+ *   issues/cosymagazine-2026.08-en.pdf  ->  (Vol. 2026.08, en)
+ *   issues/cosymagazine-2026.08-fr.pdf  ->  (Vol. 2026.08, fr)
+ *
+ * Usage:
+ *   node scripts/ops/publish-issue-pdf.js --volume 2026.08                # all languages
+ *   node scripts/ops/publish-issue-pdf.js --volume 2026.08 --lang en
+ *   node scripts/ops/publish-issue-pdf.js --volume 2026.08 --generate-only
+ */
 
 const fs = require('fs');
 const path = require('path');
-const { pathToFileURL } = require('url');
-const { chromium } = require('playwright');
 
-const REPO_ROOT = path.resolve(__dirname, '..', '..');
-const SOURCE_HTML = path.join(REPO_ROOT, 'private-issues', 'august-2026.html');
-const DEFAULT_OUTPUT = path.join(REPO_ROOT, 'private-issues', 'august-2026.pdf');
+const { buildPdf, editionLanguages } = require('./build-issue-pdf.js');
+
+const ROOT = path.resolve(__dirname, '..', '..');
 const BUCKET = process.env.SUPABASE_BUCKET || 'magazine-editions';
-const ISSUE_VOLUME_NUMBER = 'Vol. 2026.08';
 
-function parseArgs() {
-  const args = process.argv.slice(2);
-  const options = {
-    source: SOURCE_HTML,
-    output: DEFAULT_OUTPUT,
-    volume: ISSUE_VOLUME_NUMBER,
-    generateOnly: false
-  };
-
-  for (let index = 0; index < args.length; index += 1) {
-    if (args[index] === '--generate-only') {
-      options.generateOnly = true;
-    } else if (args[index] === '--output' && args[index + 1]) {
-      options.output = path.resolve(process.cwd(), args[++index]);
-    } else if (args[index] === '--source' && args[index + 1]) {
-      options.source = path.resolve(process.cwd(), args[++index]);
-    } else if (args[index] === '--volume' && args[index + 1]) {
-      options.volume = args[++index];
-    } else {
-      throw new Error('Usage: npm run publish:issue:pdf [-- --generate-only] [--source <html-file>] [--output <file>] [--volume <volume_number>]');
-    }
+function parseArgs(argv) {
+  const options = { volume: '', lang: '', generateOnly: false, publish: true, keep: false };
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--volume') options.volume = argv[++i];
+    else if (arg === '--lang') options.lang = argv[++i];
+    else if (arg === '--generate-only') options.generateOnly = true;
+    else if (arg === '--no-publish') options.publish = false;
+    else if (arg === '--keep') options.keep = true;
+    else throw new Error(`Unknown argument: ${arg}`);
   }
-
+  if (!/^\d{4}\.\d{2}$/.test(options.volume)) {
+    throw new Error('Usage: --volume YYYY.MM (e.g. 2026.08) [--lang en] [--generate-only]');
+  }
   return options;
 }
 
@@ -41,44 +44,20 @@ function getSupabaseConfig() {
   const url = process.env.SUPABASE_URL;
   const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !serviceRoleKey) {
-    throw new Error('Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the trusted environment to upload.');
+    throw new Error('Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to upload.');
   }
   if (serviceRoleKey.split('.').length !== 3) {
-    throw new Error('SUPABASE_SERVICE_ROLE_KEY must be the JWT-formatted service_role key, not an sb_secret API key.');
+    throw new Error('SUPABASE_SERVICE_ROLE_KEY must be the JWT service_role key, not an sb_secret API key.');
   }
-
-  const parsedUrl = new URL(url);
-  if (parsedUrl.protocol !== 'https:' && !['localhost', '127.0.0.1'].includes(parsedUrl.hostname)) {
+  const parsed = new URL(url);
+  if (parsed.protocol !== 'https:' && !['localhost', '127.0.0.1'].includes(parsed.hostname)) {
     throw new Error('SUPABASE_URL must use HTTPS.');
   }
-
   return { url: url.replace(/\/+$/, ''), serviceRoleKey };
 }
 
-async function generatePdf(sourceHtml, outputPath) {
-  if (!fs.existsSync(sourceHtml)) throw new Error(`Missing source HTML: ${sourceHtml}`);
-
-  const browser = await chromium.launch({ headless: true });
-  try {
-    const page = await browser.newPage();
-    await page.goto(pathToFileURL(sourceHtml).href, { waitUntil: 'load' });
-    await page.evaluate(() => document.fonts.ready);
-
-    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    await page.pdf({
-      path: outputPath,
-      printBackground: true,
-      preferCSSPageSize: true
-    });
-  } finally {
-    await browser.close();
-  }
-
-  const pdf = fs.readFileSync(outputPath);
-  if (pdf.length < 1_000 || pdf.subarray(0, 5).toString() !== '%PDF-') {
-    throw new Error('Generated output is not a valid PDF.');
-  }
-  console.log(`Generated ${outputPath} (${pdf.length} bytes).`);
+function objectPath(volume, lang) {
+  return `issues/cosymagazine-${volume}-${lang}.pdf`;
 }
 
 async function ensurePrivateBucket(url, headers) {
@@ -88,7 +67,7 @@ async function ensurePrivateBucket(url, headers) {
 
   if (response.ok) {
     if (details.public === true) {
-      throw new Error(`Bucket "${BUCKET}" is public; refusing to upload a premium issue.`);
+      throw new Error(`Bucket "${BUCKET}" is public; refusing to upload a paid edition.`);
     }
     return;
   }
@@ -99,82 +78,90 @@ async function ensurePrivateBucket(url, headers) {
     throw new Error(`Could not inspect bucket (${response.status}): ${JSON.stringify(details).slice(0, 300)}`);
   }
 
-  const createResponse = await fetch(`${url}/storage/v1/bucket`, {
+  const created = await fetch(`${url}/storage/v1/bucket`, {
     method: 'POST',
     headers: { ...headers, 'Content-Type': 'application/json' },
     body: JSON.stringify({ id: BUCKET, name: BUCKET, public: false })
   });
-  if (!createResponse.ok) {
-    const message = (await createResponse.text()).slice(0, 300);
-    throw new Error(`Could not create private bucket (${createResponse.status}): ${message}`);
+  if (!created.ok) {
+    throw new Error(`Could not create private bucket (${created.status}): ${(await created.text()).slice(0, 300)}`);
   }
   console.log(`Created private bucket "${BUCKET}".`);
 }
 
-async function getIssueConfig(url, headers, volumeNumber) {
-  const query = new URLSearchParams({
-    select: 'id,volume_number,is_published,pdf_storage_path',
-    volume_number: `eq.${volumeNumber}`
-  });
-  const response = await fetch(`${url}/rest/v1/magazine_issues?${query}`, { headers });
-  if (!response.ok) {
-    const message = (await response.text()).slice(0, 300);
-    throw new Error(`Could not read issue configuration (${response.status}): ${message}`);
-  }
+/** Upserts the magazine_issues row so the edge function can resolve the edition. */
+async function upsertIssueRow(url, headers, volume, lang, title, publish) {
+  const volumeNumber = `Vol. ${volume}`;
+  const row = {
+    id: `vol-${volume.replace('.', '-')}-${lang}`,
+    volume_number: volumeNumber,
+    language: lang,
+    title,
+    is_published: publish,
+    pdf_storage_path: objectPath(volume, lang)
+  };
 
-  const rows = await response.json();
-  if (Array.isArray(rows) && rows.length === 1 && rows[0].pdf_storage_path) {
-    const objectPath = rows[0].pdf_storage_path;
-    if (
-      typeof objectPath !== 'string' ||
-      !objectPath.startsWith('issues/') ||
-      !objectPath.toLowerCase().endsWith('.pdf') ||
-      objectPath.includes('..')
-    ) {
-      throw new Error(`Set pdf_storage_path for "${volumeNumber}" to a PDF path under issues/.`);
-    }
-    return objectPath;
-  }
-
-  // Fallback default clean path
-  const clean = volumeNumber.toLowerCase().replace(/[^a-z0-9.-]/g, '_');
-  return `issues/cosymagazine-${clean}.pdf`;
-}
-
-async function uploadPdf(url, headers, pdfPath, objectPath) {
-  const encodedPath = objectPath.split('/').map(encodeURIComponent).join('/');
-  const response = await fetch(`${url}/storage/v1/object/${encodeURIComponent(BUCKET)}/${encodedPath}`, {
+  const response = await fetch(`${url}/rest/v1/magazine_issues?on_conflict=volume_number,language`, {
     method: 'POST',
     headers: {
       ...headers,
-      'Content-Type': 'application/pdf',
-      'x-upsert': 'true'
+      'Content-Type': 'application/json',
+      Prefer: 'resolution=merge-duplicates,return=minimal'
     },
+    body: JSON.stringify(row)
+  });
+
+  if (!response.ok) {
+    throw new Error(`Could not upsert ${volumeNumber}/${lang} (${response.status}): ${(await response.text()).slice(0, 300)}`);
+  }
+  console.log(`Registered ${volumeNumber} ${lang} (published: ${publish}).`);
+}
+
+async function uploadPdf(url, headers, pdfPath, target) {
+  const encoded = target.split('/').map(encodeURIComponent).join('/');
+  const response = await fetch(`${url}/storage/v1/object/${encodeURIComponent(BUCKET)}/${encoded}`, {
+    method: 'POST',
+    headers: { ...headers, 'Content-Type': 'application/pdf', 'x-upsert': 'true' },
     body: fs.readFileSync(pdfPath)
   });
 
   if (!response.ok) {
-    const message = (await response.text()).slice(0, 300);
-    throw new Error(`PDF upload failed (${response.status}): ${message}`);
+    throw new Error(`Upload failed for ${target} (${response.status}): ${(await response.text()).slice(0, 300)}`);
   }
-  console.log(`Uploaded ${BUCKET}/${objectPath} to private storage.`);
+  console.log(`Uploaded ${BUCKET}/${target}.`);
 }
 
 async function main() {
-  const options = parseArgs();
-  if (!options.generateOnly) getSupabaseConfig();
+  const options = parseArgs(process.argv.slice(2));
+  const langs = options.lang ? [options.lang] : editionLanguages(options.volume);
+  if (!langs.length) throw new Error(`No published editions found for ${options.volume}`);
 
-  await generatePdf(options.source, options.output);
-  if (options.generateOnly) return;
+  const config = options.generateOnly ? null : getSupabaseConfig();
+  const headers = config
+    ? { apikey: config.serviceRoleKey, Authorization: `Bearer ${config.serviceRoleKey}` }
+    : null;
+  if (config) await ensurePrivateBucket(config.url, headers);
 
-  const { url, serviceRoleKey } = getSupabaseConfig();
-  const headers = { apikey: serviceRoleKey, Authorization: `Bearer ${serviceRoleKey}` };
-  await ensurePrivateBucket(url, headers);
-  const objectPath = await getIssueConfig(url, headers, options.volume);
-  await uploadPdf(url, headers, options.output, objectPath);
+  const outDir = path.join(ROOT, 'private-issues');
+  fs.mkdirSync(outDir, { recursive: true });
+
+  for (const lang of langs) {
+    const pdfPath = path.join(outDir, `cosymagazine-${options.volume}-${lang}.pdf`);
+    const { pages, bytes } = await buildPdf(options.volume, lang, pdfPath, false);
+    console.log(`Built ${path.basename(pdfPath)} — ${pages} pages, ${(bytes / 1024).toFixed(0)} KB`);
+
+    if (!config) continue;
+    await uploadPdf(config.url, headers, pdfPath, objectPath(options.volume, lang));
+    await upsertIssueRow(config.url, headers, options.volume, lang, `COSYmagazine ${options.volume} (${lang})`, options.publish);
+    if (!options.keep) fs.unlinkSync(pdfPath);
+  }
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(`❌ ${error.message}`);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = { objectPath };

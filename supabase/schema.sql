@@ -145,16 +145,27 @@ create policy "Service role or Admins can insert purchases"
 -- 5. TABLE: magazine_issues
 -- Magazine issue registry, metadata, preview limits, and secure PDF cloud storage pointers.
 create table if not exists public.magazine_issues (
-  id text primary key, -- canonical identifier, e.g. 'vol-2026-08'
+  id text primary key, -- canonical identifier, e.g. 'vol-2026-08-en'
   volume_number text not null, -- 'Vol. 2026.08'
+  language text not null default 'en', -- 'en' | 'fr' | 'ru' — editions are sold separately
   title text not null, -- 'Get Ready for School'
   theme text,
   month_year text, -- 'August 2026'
   is_published boolean default false,
   preview_page_limit integer default 3,
-  pdf_storage_path text, -- e.g. 'issues/cosymagazine-vol-2026-08.pdf'
+  pdf_storage_path text, -- e.g. 'issues/cosymagazine-2026.08-en.pdf'
   created_at timestamptz default now()
 );
+
+-- Existing installations created before per-language editions: adopt the column
+-- and keep current rows as the English edition.
+alter table public.magazine_issues
+  add column if not exists language text not null default 'en';
+
+-- One row per volume per language. An index rather than an inline constraint so
+-- the rule also reaches tables created before the column existed.
+create unique index if not exists magazine_issues_volume_language_idx
+  on public.magazine_issues (volume_number, language);
 
 alter table public.magazine_issues enable row level security;
 

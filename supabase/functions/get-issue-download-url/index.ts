@@ -38,6 +38,14 @@ Deno.serve(async (req: Request) => {
     return jsonResponse({ error: 'A valid volume_number is required' }, 400);
   }
 
+  // Editions are sold separately, so the request names the language. Older
+  // clients that omit it keep working against the English edition.
+  const requestedLanguage = (body as { language?: unknown } | null)?.language;
+  if (requestedLanguage !== undefined && (typeof requestedLanguage !== 'string' || !/^[a-z]{2,3}$/.test(requestedLanguage))) {
+    return jsonResponse({ error: 'language must be a two- or three-letter code' }, 400);
+  }
+  const language = typeof requestedLanguage === 'string' ? requestedLanguage : 'en';
+
   const token = authorization.replace(/^Bearer\s+/i, '');
   const userClient = createClient(SUPABASE_URL, apiKey, {
     global: { headers: { Authorization: authorization } },
@@ -61,8 +69,9 @@ Deno.serve(async (req: Request) => {
 
   const { data: issue, error: issueError } = await userClient
     .from('magazine_issues')
-    .select('id, volume_number, is_published, pdf_storage_path')
+    .select('id, volume_number, language, is_published, pdf_storage_path')
     .eq('volume_number', volumeNumber)
+    .eq('language', language)
     .maybeSingle();
   if (issueError) {
     console.error('Issue lookup failed', issueError.message);

@@ -172,14 +172,12 @@
     "all_languages": "Tutte le lingue",
     "browse_by_issue": "📖 Sfoglia per numero",
     "browse_all_articles": "📚 Catalogo articoli",
-    "explore_issue_blueprint": "Sommario e ricette del numero ➔",
+    "explore_issue_catalog": "Catalogo dei numeri ➔",
     "view_mode_aria": "Cambia modalità di visualizzazione",
     "download_pdf": "PDF",
     "special_issue": "Numero speciale",
     "catalog_pill": "Catalogo dei numeri",
     "catalog_pill_title": "Ogni numero, ogni articolo, ogni lingua",
-    "blueprint_pill": "Sommario e struttura dei numeri",
-    "blueprint_pill_title": "Scopri cosa contiene ogni numero della rivista",
     "search_label": "Cerca articoli",
     "read_in_label": "Leggi in",
     "issue_label": "Numero"
@@ -233,7 +231,7 @@
   },
   "catalog": {
     "kicker": "Catalogo dei numeri",
-    "title": "Tutti i numeri del 2026, in un solo posto.",
+    "title": "Tutti i numeri, in un solo posto.",
     "lede": "Il catalogo completo dei numeri di COSYmagazine. Ogni numero esce in edizione inglese, francese e russa, e ogni articolo rimanda a tutte le lingue in cui esiste.",
     "back": "← Torna all’edicola",
     "blueprint": "Sommario del numero →",
@@ -386,6 +384,39 @@
         "tag": "Numero speciale",
         "hero": "GLI ERRORI DEL SABATO"
       }
-    }
+    },
+    "zones": {
+      "fob": {
+        "name": "In apertura",
+        "note": "Letture rapide per iniziare"
+      },
+      "well": {
+        "name": "Il Cuore",
+        "note": "La lettura lunga, senza interruzioni"
+      },
+      "bob": {
+        "name": "In chiusura",
+        "note": "Un’ultima nota"
+      }
+    },
+    "words_unit": "parole",
+    "contents": "Sommario",
+    "blueprint_label": "Carta editoriale"
+  },
+  "section": {
+    "words_desk": "Angolo delle Parole",
+    "founder_dispatch": "La Parola del Fondatore",
+    "founder_interview": "Intervista",
+    "mind_matters": "La Mente Conta",
+    "grammar_made_cosy": "Grammatica Cosy",
+    "in_conversation": "Intervista",
+    "student_teacher_spotlight": "Studente & Insegnante",
+    "essay": "Saggio",
+    "cultural_salon": "Salotto Culturale",
+    "culinary_salon": "Salotto Culinario",
+    "life_with_without": "Con & Senza",
+    "greatest_quotes": "Le Grandi Citazioni",
+    "science_expander": "La Scienza Quotidiana",
+    "debatable_relatable": "Dibattito & Realtà"
   }
 }

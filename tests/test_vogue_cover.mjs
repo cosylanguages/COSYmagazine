@@ -127,6 +127,43 @@ test('renderIssueCover - cover lines never reach the centre band', () => {
   }
 });
 
+test('renderIssueCover - the tag sits in the gutter between the cover-line blocks', () => {
+  // The tag is centred, so a long Russian or Greek tag spans most of the width. It must sit
+  // in the empty band between the upper-left and lower-right cover lines; anywhere else it
+  // lands on top of a cover line. The old "just below the chin" position collided with the
+  // second left cover line in ru and el.
+  for (const lang of LANGS) {
+    const covers = loadDict(lang).catalog.covers;
+    for (const [key, cover] of Object.entries(covers)) {
+      if (key === 'podcast') continue;
+      const fitTexts = {};
+      for (const [k, v] of Object.entries(cover)) if (typeof v === 'string' && v) fitTexts[k] = [v];
+      const svg = renderIssueCover({
+        number: `Vol. ${key.replace('_', '.')}`,
+        title: cover.hero,
+        tag: cover.tag,
+        hero: cover.hero,
+        i18nKey: `catalog.covers.${key}`,
+        fitTexts
+      });
+
+      const tagY = Number(/<text x="450" y="([\d.]+)"[^>]*data-i18n="[^"]*\.tag"/.exec(svg)?.[1]);
+      assert.ok(Number.isFinite(tagY), `${lang}/${key} must emit a centred tag line`);
+
+      // Baselines of the four cover-line kickers, split by side.
+      const ys = [...svg.matchAll(/<text x="[\d.]+" y="([\d.]+)"[^>]*font-weight="700"[^>]*data-i18n="[^"]*\.kicker(\d)"/g)]
+        .map((m) => ({ y: Number(m[1]), idx: Number(m[2]) }));
+      const left = ys.filter((l) => l.idx <= 2).map((l) => l.y);
+      const right = ys.filter((l) => l.idx >= 3).map((l) => l.y);
+      assert.equal(left.length, 2, `${lang}/${key} needs two left kickers`);
+      assert.equal(right.length, 2, `${lang}/${key} needs two right kickers`);
+
+      assert.ok(tagY > Math.max(...left), `${lang}/${key} tag at ${tagY} overlaps the left cover lines`);
+      assert.ok(tagY < Math.min(...right), `${lang}/${key} tag at ${tagY} overlaps the right cover lines`);
+    }
+  }
+});
+
 test('renderIssueCover - every i18n key is a single text node', () => {
   // shell.js swaps textContent on the element carrying data-i18n. If a string is split
   // across several nodes, only the first is translated and the rest keep the built

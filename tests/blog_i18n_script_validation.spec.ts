@@ -5,14 +5,15 @@ import { createServer } from 'http';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content');
 
-// Every post source under content/**/posts, skipping drafts/ the same way the build does.
+// Post sources live in content/**/posts/*.json; drafts/ and shared assets such as
+// content/blueprint.json are not posts and must not be treated as pages.
 function listPostFiles(dir: string): string[] {
   const out: string[] = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       if (entry.name !== 'drafts') out.push(...listPostFiles(full));
-    } else if (entry.name.endsWith('.json')) {
+    } else if (entry.name.endsWith('.json') && path.basename(dir) === 'posts') {
       out.push(full);
     }
   }

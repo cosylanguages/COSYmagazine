@@ -150,12 +150,15 @@ async function uploadPdfBuffer(url, headers, bucket, objectPath, buffer) {
   console.log(`✅ Uploaded ${bucket}/${objectPath} (${buffer.length} bytes) to Supabase Storage.`);
 }
 
-async function syncMagazineIssueRecord(url, headers, { volumeNumber, objectPath, title, publish }) {
+async function syncMagazineIssueRecord(url, headers, { volumeNumber, objectPath, title, publish, language }) {
   if (!volumeNumber) return;
 
+  // Editions are sold separately, so a volume has one row per language.
+  const lang = language || 'en';
   const query = new URLSearchParams({
-    select: 'id,volume_number,is_published,pdf_storage_path',
-    volume_number: `eq.${volumeNumber}`
+    select: 'id,volume_number,language,is_published,pdf_storage_path',
+    volume_number: `eq.${volumeNumber}`,
+    language: `eq.${lang}`
   });
   const getRes = await fetch(`${url}/rest/v1/magazine_issues?${query}`, { headers });
   if (!getRes.ok) {
@@ -175,26 +178,27 @@ async function syncMagazineIssueRecord(url, headers, { volumeNumber, objectPath,
       })
     });
     if (patchRes.ok) {
-      console.log(`✅ Updated magazine_issues entry for ${volumeNumber} (path: ${objectPath}).`);
+      console.log(`✅ Updated magazine_issues entry for ${volumeNumber}/${lang} (path: ${objectPath}).`);
     } else {
       console.warn(`Could not update magazine_issues entry (${patchRes.status}).`);
     }
   } else {
-    // Generate canonical id from volume number e.g. "vol-2026-08"
-    const canonicalId = volumeNumber.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+    // Generate canonical id from volume + language, e.g. "vol-2026-08-en"
+    const canonicalId = `${volumeNumber}-${lang}`.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
     const insertRes = await fetch(`${url}/rest/v1/magazine_issues`, {
       method: 'POST',
       headers: { ...headers, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
       body: JSON.stringify({
         id: canonicalId || `issue-${Date.now()}`,
         volume_number: volumeNumber,
+        language: lang,
         title: title || volumeNumber,
         pdf_storage_path: objectPath,
         is_published: publish
       })
     });
     if (insertRes.ok) {
-      console.log(`✅ Created magazine_issues entry for ${volumeNumber} (path: ${objectPath}).`);
+      console.log(`✅ Created magazine_issues entry for ${volumeNumber}/${lang} (path: ${objectPath}).`);
     } else {
       console.warn(`Could not insert magazine_issues entry (${insertRes.status}).`);
     }
@@ -225,13 +229,15 @@ async function uploadMagazinePdf(options = {}) {
     volumeNumber,
     objectPath,
     title: options.title,
-    publish: options.publish !== false
+    publish: options.publish !== false,
+    language: options.language
   });
 
   return {
     bucket: config.bucket,
     storagePath: objectPath,
-    volumeNumber
+    volumeNumber,
+    language: options.language || 'en'
   };
 }
 

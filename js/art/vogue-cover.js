@@ -514,8 +514,10 @@ export function renderIssueCover(issue, options = {}) {
     </g>
   ` : '';
 
-  // Tag sits below the chin so it never crosses the subject's face.
-  const tagY = Math.round(headCy + headRy * 1.42);
+  // Tag sits in the gutter between the upper-left and lower-right cover lines. Placing it
+  // just below the chin put it on the same line as the first left cover line, so a long
+  // Russian or Greek tag ran into that column.
+  const tagY = Math.round(height * 0.455);
   const tagLine = showText && tag ? `
     <text x="${width / 2}" y="${tagY}" text-anchor="middle" font-family="${SANS}"
           font-size="${Math.round(width * 0.0205)}" font-weight="600"

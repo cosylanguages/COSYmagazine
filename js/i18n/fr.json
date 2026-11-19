@@ -172,14 +172,12 @@
     "all_languages": "Toutes les langues",
     "browse_by_issue": "📖 Parcourir par numéro",
     "browse_all_articles": "📚 Catalogue d'articles",
-    "explore_issue_blueprint": "Sommaire et recettes du numéro ➔",
+    "explore_issue_catalog": "Catalogue des numéros ➔",
     "view_mode_aria": "Changer de mode d'affichage",
     "download_pdf": "PDF",
     "special_issue": "Numéro spécial",
     "catalog_pill": "Catalogue des numéros",
     "catalog_pill_title": "Chaque numéro, chaque article, chaque langue",
-    "blueprint_pill": "Sommaire et plan des numéros",
-    "blueprint_pill_title": "Découvrez le contenu de chaque numéro du magazine",
     "search_label": "Rechercher des articles",
     "read_in_label": "Lire en",
     "issue_label": "Numéro"
@@ -233,7 +231,7 @@
   },
   "catalog": {
     "kicker": "Catalogue des numéros",
-    "title": "Tous les numéros de 2026, au même endroit.",
+    "title": "Tous les numéros, au même endroit.",
     "lede": "Le catalogue complet des numéros de COSYmagazine. Chaque numéro paraît en éditions anglaise, française et russe, et chaque article renvoie à toutes les langues dans lesquelles il existe.",
     "back": "← Retour au kiosque",
     "blueprint": "Sommaire du numéro →",
@@ -386,6 +384,39 @@
         "tag": "Numéro spécial",
         "hero": "LES ERREURS DU SAMEDI"
       }
-    }
+    },
+    "zones": {
+      "fob": {
+        "name": "Ouverture",
+        "note": "Des lectures rapides pour commencer"
+      },
+      "well": {
+        "name": "Au cœur",
+        "note": "La grande lecture, sans interruption"
+      },
+      "bob": {
+        "name": "En clôture",
+        "note": "Une dernière note"
+      }
+    },
+    "words_unit": "mots",
+    "contents": "Sommaire",
+    "blueprint_label": "Charte éditoriale"
+  },
+  "section": {
+    "words_desk": "Le Coin des Mots",
+    "founder_dispatch": "Le Mot du Fondateur",
+    "founder_interview": "Entretien",
+    "mind_matters": "L’Esprit en Question",
+    "grammar_made_cosy": "Grammaire Cosy",
+    "in_conversation": "Entretien",
+    "student_teacher_spotlight": "Élève & Professeur",
+    "essay": "Essai",
+    "cultural_salon": "Salon Culturel",
+    "culinary_salon": "Salon Culinaire",
+    "life_with_without": "Avec & Sans",
+    "greatest_quotes": "Les Grandes Citations",
+    "science_expander": "La Science au Quotidien",
+    "debatable_relatable": "Débat & Vécu"
   }
 }

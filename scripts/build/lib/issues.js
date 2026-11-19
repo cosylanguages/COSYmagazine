@@ -3,7 +3,7 @@
  * Issue identity: canonical volume numbers, editorial metadata, and the notebook
  * look an article gets.
  *
- * ISSUE_META is the single source the newsstand, the catalog and issues.html read.
+ * ISSUE_META is the single source the newsstand and the issue catalog read.
  * Adding a volume means adding an entry here.
  */
 

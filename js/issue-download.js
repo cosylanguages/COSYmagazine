@@ -170,6 +170,7 @@
     const opts = options || {};
     const issueId = (issue && (issue.id || issue.number || issue.issue_id)) || '';
     const issueTitle = (issue && (issue.title || issue.issue_title || issueId)) || 'COSYmagazine Edition';
+    const issueLanguage = (issue && (issue.language || issue.issue_language)) || 'en';
 
     if (!issueId) {
       showFeedbackModal(
@@ -236,7 +237,7 @@
 
     try {
       const response = await supabase.functions.invoke('get-issue-download-url', {
-        body: { volume_number: issueId }
+        body: { volume_number: issueId, language: issueLanguage }
       });
 
       const { data, error } = response || {};
@@ -347,7 +348,8 @@
         e.preventDefault();
         const issueId = btn.dataset.issueId || btn.dataset.issueNumber || '';
         const issueTitle = btn.dataset.issueTitle || '';
-        await downloadIssue({ id: issueId, title: issueTitle }, btn);
+        const issueLanguage = btn.dataset.issueLanguage || 'en';
+        await downloadIssue({ id: issueId, title: issueTitle, language: issueLanguage }, btn);
       });
     });
   }

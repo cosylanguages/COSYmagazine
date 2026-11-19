@@ -14,7 +14,6 @@ const lastmod = (value) => {
 const urls = [
   { loc: BASE, lastmod: today },
   { loc: BASE + 'podcast.html', lastmod: today },
-  { loc: BASE + 'issues.html', lastmod: today },
   { loc: BASE + 'issues-catalog.html', lastmod: today },
 ]
   .concat(posts.map((p) => ({ loc: BASE + p.slug + '.html', lastmod: lastmod(p.updated || p.date) })));
