@@ -3,8 +3,23 @@ import path from 'path';
 import fs from 'fs';
 import { createServer } from 'http';
 
-const POSTS_DIR = path.join(process.cwd(), 'posts');
-const POST_FILES = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
+const CONTENT_DIR = path.join(process.cwd(), 'content');
+
+// Every post source under content/**/posts, skipping drafts/ the same way the build does.
+function listPostFiles(dir: string): string[] {
+  const out: string[] = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (entry.name !== 'drafts') out.push(...listPostFiles(full));
+    } else if (entry.name.endsWith('.json')) {
+      out.push(full);
+    }
+  }
+  return out;
+}
+
+const POST_FILES = listPostFiles(CONTENT_DIR);
 
 // Core target languages with non-Latin scripts that must strictly be localized
 const NON_LATIN_LANGS = new Set(['ru', 'el']);
@@ -66,7 +81,7 @@ test.afterAll(async () => {
 
 test.describe('Blog Script & Target Language i18n Validation', () => {
   for (const file of POST_FILES) {
-    const postData = JSON.parse(fs.readFileSync(path.join(POSTS_DIR, file), 'utf-8'));
+    const postData = JSON.parse(fs.readFileSync(file, 'utf-8'));
     if (postData.draft) continue;
 
     const lang = postData.language || 'en';

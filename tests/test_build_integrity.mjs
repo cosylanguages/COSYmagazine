@@ -10,13 +10,13 @@ const ROOT = path.join(__dirname, '..');
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf-8'));
 
+const { listPostFiles } = await import('../scripts/build/lib/content-paths.js');
+
 const sourcePosts = new Map();
-fs.readdirSync(path.join(ROOT, 'posts'))
-  .filter((f) => f.endsWith('.json'))
-  .forEach((f) => {
-    const post = readJson(path.join(ROOT, 'posts', f));
-    sourcePosts.set(post.slug, post);
-  });
+for (const file of listPostFiles()) {
+  const post = readJson(file);
+  sourcePosts.set(post.slug, post);
+}
 
 test('podcast.xml uses the Atom namespace and real enclosure metadata', () => {
   const xml = fs.readFileSync(path.join(ROOT, 'podcast.xml'), 'utf-8');

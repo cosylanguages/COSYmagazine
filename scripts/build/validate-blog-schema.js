@@ -352,7 +352,8 @@ function runCLI() {
   if (targetPath) {
     if (fs.existsSync(targetPath)) {
       if (fs.statSync(targetPath).isDirectory()) {
-        jsonFiles = fs.readdirSync(targetPath).filter(f => f.endsWith('.json')).map(f => path.join(targetPath, f));
+        const { walkJson } = require('./lib/content-paths.js');
+        jsonFiles = walkJson(targetPath);
       } else {
         jsonFiles = [targetPath];
       }
@@ -361,10 +362,7 @@ function runCLI() {
       process.exit(1);
     }
   } else {
-    const defaultPostsDir = path.join(__dirname, '..', '..', 'posts');
-    if (fs.existsSync(defaultPostsDir)) {
-      jsonFiles = fs.readdirSync(defaultPostsDir).filter(f => f.endsWith('.json')).map(f => path.join(defaultPostsDir, f));
-    }
+    jsonFiles = require('./lib/content-paths.js').listPostFiles();
   }
 
   if (jsonFiles.length === 0) {

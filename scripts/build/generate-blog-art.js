@@ -10,8 +10,9 @@
 const fs = require('fs');
 const path = require('path');
 
+const { listPostFiles } = require('./lib/content-paths.js');
+
 const BLOG_DIR = path.join(__dirname, '..', '..');
-const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const POSTS_JSON = path.join(BLOG_DIR, 'posts.json');
 const OG_DIR = path.join(BLOG_DIR, 'og');
 
@@ -65,10 +66,10 @@ async function generateBlogArt() {
   // posts.json / index.json read the same values, so the feed metadata, the source and
   // the rendered OG artwork can never disagree.
   const sourceArt = new Map();
-  if (fs.existsSync(POSTS_DIR)) {
-    const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
-    jsonFiles.forEach(file => {
-      const filePath = path.join(POSTS_DIR, file);
+  {
+    const jsonFiles = listPostFiles();
+    jsonFiles.forEach(filePath => {
+      const file = path.relative(BLOG_DIR, filePath);
       try {
         const postData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         const desk = postData.desk || 'Front Page';

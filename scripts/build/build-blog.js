@@ -34,8 +34,9 @@ const {
   issueVolumeLabel
 } = require('./lib/issues.js');
 
+const { listPostFiles } = require('./lib/content-paths.js');
+
 const BLOG_DIR = path.join(__dirname, '..', '..');
-const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const GUIDES_FILE = path.join(BLOG_DIR, 'guides.json');
 const POSTS_JSON = path.join(BLOG_DIR, 'posts.json');
 const INDEX_JSON = path.join(BLOG_DIR, 'index.json');
@@ -108,10 +109,6 @@ async function buildBlog() {
     console.warn('⚠️ Could not import art generator module:', e.message);
   }
 
-  if (!fs.existsSync(POSTS_DIR)) {
-    fs.mkdirSync(POSTS_DIR, { recursive: true });
-  }
-
   // 1. Load Guides metadata
   let guides = [];
   if (fs.existsSync(GUIDES_FILE)) {
@@ -125,15 +122,15 @@ async function buildBlog() {
 
   const guideSlugs = new Set(guides.map(g => g.slug));
 
-  // 2. Load JSON post files from posts/*.json
-  const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
+  // 2. Load JSON post sources from content/issues/** and content/website/**
+  const jsonFiles = listPostFiles();
   const allPosts = [];
   const postSlugs = new Set();
   const errors = [];
   const issuesSet = new Map();
 
-  jsonFiles.forEach(file => {
-    const filePath = path.join(POSTS_DIR, file);
+  jsonFiles.forEach(filePath => {
+    const file = path.relative(BLOG_DIR, filePath);
     let postData;
     try {
       postData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
