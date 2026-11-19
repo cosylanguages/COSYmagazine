@@ -12,7 +12,7 @@
  * or short, not to replace a layout proof. After the first proof, set
  * `print.pages` on an article to the real number (it then wins over the
  * estimate), and tune LAYOUT below if the estimates drift.
- * See docs/PRINT_SPEC.md.
+ * See docs/reference/PRINT_SPEC.md.
  */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) {

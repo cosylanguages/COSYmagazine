@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 /**
- * scripts/validate-podcast-readiness.js
+ * scripts/ops/validate-podcast-readiness.js
  * Writer's tool to validate blog posts for podcast readiness.
  * Flags missing `say` and `beat` fields for each content block and reports
  * which posts are 100% podcast-ready.
  *
- * Usage: node scripts/validate-podcast-readiness.js
+ * Usage: node scripts/ops/validate-podcast-readiness.js
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const BLOG_DIR = path.join(__dirname, '..');
+const BLOG_DIR = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 
 function validatePodcastReadiness() {

@@ -8,20 +8,20 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
-test('Supabase Schema SQL - files exist in docs and supabase directories', () => {
-  const docsSql = path.join(REPO_ROOT, 'docs', 'SUPABASE_SCHEMA.sql');
+test('Supabase Schema SQL - files exist in docs/reference and supabase directories', () => {
+  const docsSql = path.join(REPO_ROOT, 'docs', 'reference', 'SUPABASE_SCHEMA.sql');
   const sbSql = path.join(REPO_ROOT, 'supabase', 'schema.sql');
 
-  assert.ok(fs.existsSync(docsSql), 'docs/SUPABASE_SCHEMA.sql must exist');
+  assert.ok(fs.existsSync(docsSql), 'docs/reference/SUPABASE_SCHEMA.sql must exist');
   assert.ok(fs.existsSync(sbSql), 'supabase/schema.sql must exist');
 
   const content = fs.readFileSync(docsSql, 'utf-8');
   const sbContent = fs.readFileSync(sbSql, 'utf-8');
-  assert.equal(content, sbContent, 'docs/SUPABASE_SCHEMA.sql and supabase/schema.sql must match');
+  assert.equal(content, sbContent, 'docs/reference/SUPABASE_SCHEMA.sql and supabase/schema.sql must match');
 });
 
 test('Supabase Schema SQL - includes all required tables, constraints and triggers', () => {
-  const sql = fs.readFileSync(path.join(REPO_ROOT, 'docs', 'SUPABASE_SCHEMA.sql'), 'utf-8');
+  const sql = fs.readFileSync(path.join(REPO_ROOT, 'docs', 'reference', 'SUPABASE_SCHEMA.sql'), 'utf-8');
 
   // Verify core tables
   assert.match(sql, /create table if not exists public\.profiles/i);

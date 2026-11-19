@@ -15,7 +15,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `draft` | `boolean` | No | Whether the post is a draft (skipped in builds if `true`). | `true`, `false` |
 | `desk` | `string` | Yes | Primary editorial desk key (localisable via UI i18n). | `"Front Page"`, `"Saturday Mistakes"`, `"COSYtalks"`, `"Grammar"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"`, `"Reflections"` |
 | `format` | `string` | Yes | Article presentation format type. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
-| `section` | `string` | No | Specific magazine section taxonomy (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"front_cover"`, `"editor_letter"`, `"founder_dispatch"`, `"wonder_column"`, `"founder_interview"`, `"debatable_relatable"`, `"student_teacher_spotlight"`, `"mind_matters"`, `"words_desk"`, `"if_you_were"`, `"grammar_made_cosy"`, `"science_expander"`, `"wonder_contest_showcase"`, `"life_with_without"`, `"community_challenge"`, `"greatest_quotes"`, `"culinary_salon"`, `"cultural_salon"`, `"thematic_crossword"` (same ids as the editor and issue planner; the validator rejects others) |
+| `section` | `string` | No | Specific magazine section taxonomy (see `docs/issues/MAGAZINE_ISSUE_STRUCTURE.md`). | `"front_cover"`, `"editor_letter"`, `"founder_dispatch"`, `"wonder_column"`, `"founder_interview"`, `"debatable_relatable"`, `"student_teacher_spotlight"`, `"mind_matters"`, `"words_desk"`, `"if_you_were"`, `"grammar_made_cosy"`, `"science_expander"`, `"wonder_contest_showcase"`, `"life_with_without"`, `"community_challenge"`, `"greatest_quotes"`, `"culinary_salon"`, `"cultural_salon"`, `"thematic_crossword"` (same ids as the editor and issue planner; the validator rejects others) |
 | `level` | `string` | Yes | CEFR proficiency level targeted by the content. | `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–A1"`, `"A1–A2"`, `"B1–B2"`, `"C1–C2"`, `"A0–B2"` |
 | `issue` | `object` | Yes for issue articles, optional for `evergreen` and `podcast-companion` | Magazine issue volume & title metadata object. Omit it entirely for standalone blog articles (do not invent a fake issue). | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
 | `date` | `string` | Yes | Publication date in `YYYY-MM-DD` ISO format. | `"2026-09-10"` |
@@ -121,14 +121,14 @@ Set `"contentType": "evergreen"` (or `"podcast-companion"`) and leave `issue` ou
 - `owner` (`string`): who is responsible for the article.
 - `notes` (`string`): free-form editorial notes.
 - `featuresRealPerson` (`boolean`): set to `true` for interviews, spotlights and any story about a real learner or teacher. When `status` is `published`, the validator requires `ledger.consentOnFile` to be `"done"`.
-- `ledger` (`object`): each key is `"todo"`, `"done"` or `"na"`: `quotesVerified`, `claimsAttributed`, `consentOnFile`, `imageLicencesRecorded`, `noProtectedLyrics`, `proofread`. These mirror the verification rules in `docs/MAGAZINE_ISSUE_STRUCTURE.md`. Only `consentOnFile` blocks publication in the validator; the Studio warns about the rest.
+- `ledger` (`object`): each key is `"todo"`, `"done"` or `"na"`: `quotesVerified`, `claimsAttributed`, `consentOnFile`, `imageLicencesRecorded`, `noProtectedLyrics`, `proofread`. These mirror the verification rules in `docs/issues/MAGAZINE_ISSUE_STRUCTURE.md`. Only `consentOnFile` blocks publication in the validator; the Studio warns about the rest.
 
 ### Paper edition
 
 - `print.pages` (`number`, optional): overrides the Studio's page estimate once a layout proof exists.
 - Block `medium` (`"both"` | `"digital"` | `"print"`, optional, default `both`): `print` blocks (for example a printable crossword) are left out of the website and the read-aloud script; `digital` blocks (audio, interactive quizzes) are left out of the print preview.
 
-The full press specification is in `docs/PRINT_SPEC.md`.
+The full press specification is in `docs/reference/PRINT_SPEC.md`.
 
 ---
 
@@ -137,7 +137,7 @@ The full press specification is in `docs/PRINT_SPEC.md`.
 The validator checks required fields, allowed languages/desks/formats/block types, content type, status/draft consistency, the consent rule for real people, and block-specific structure. Run it with:
 
 ```bash
-node scripts/validate-blog-schema.js
+node scripts/build/validate-blog-schema.js
 ```
 The script inspects JSON post files in `posts/` and required interface keys in `js/i18n/`. It exits with code `0` if validation passes, or `1` if validation fails. Some descriptive conventions in this document (for example, tag element types and optional block properties) are not currently enforced by the validator.
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * scripts/build-blog.js
+ * scripts/build/build-blog.js
  * Builds static blog post HTML pages as Vogue Gazette editorial spreads
  * and generates posts.json & index.json directly from JSON source files.
  *
- * Usage: node scripts/build-blog.js
+ * Usage: node scripts/build/build-blog.js
  */
 
 const fs = require('fs');
@@ -23,7 +23,7 @@ try {
 const { validatePostSchema } = require('./validate-blog-schema.js');
 const { generatePodcastRss } = require('./generate-podcast-rss.js');
 
-const BLOG_DIR = path.join(__dirname, '..');
+const BLOG_DIR = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const GUIDES_FILE = path.join(BLOG_DIR, 'guides.json');
 const POSTS_JSON = path.join(BLOG_DIR, 'posts.json');
@@ -64,12 +64,12 @@ const DESK_KEY_MAP = {
 const translationsCache = {};
 function getTranslationsForLang(lang) {
   if (!translationsCache[lang]) {
-    const i18nPath = path.join(__dirname, '..', 'js', 'i18n', `${lang}.json`);
+    const i18nPath = path.join(__dirname, '..', '..', 'js', 'i18n', `${lang}.json`);
     if (fs.existsSync(i18nPath)) {
       translationsCache[lang] = JSON.parse(fs.readFileSync(i18nPath, 'utf-8'));
     } else {
       // Fallback to English dictionary if specific UI translation dict is not present
-      const fallbackPath = path.join(__dirname, '..', 'js', 'i18n', 'en.json');
+      const fallbackPath = path.join(__dirname, '..', '..', 'js', 'i18n', 'en.json');
       translationsCache[lang] = JSON.parse(fs.readFileSync(fallbackPath, 'utf-8'));
     }
   }
@@ -582,7 +582,7 @@ async function buildBlog() {
 
   // Shared podcast embed resolver (same module the browser uses)
   try {
-    podcastEmbed = await import(require('url').pathToFileURL(path.join(__dirname, '..', 'js', 'podcast-embed.js')).href);
+    podcastEmbed = await import(require('url').pathToFileURL(path.join(__dirname, '..', '..', 'js', 'podcast-embed.js')).href);
   } catch (e) {
     console.warn('⚠️ Could not import podcast embed resolver:', e.message);
   }
@@ -590,10 +590,10 @@ async function buildBlog() {
   // Dynamically import procedural SVG cover generator module
   let artModule;
   try {
-    artModule = await import('./js/art/generator.js');
+    artModule = await import('../../js/art/generator.js');
   } catch (e) {
     try {
-      artModule = await import('../js/art/generator.js');
+      artModule = await import('../../js/art/generator.js');
     } catch (err) {
       console.warn('⚠️ Could not import art generator module:', err.message);
     }

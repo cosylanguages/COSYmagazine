@@ -90,12 +90,12 @@ jobs:
           fi
 
           # If the source HTML file does not exist locally, build draft if available
-          if [ ! -f "$SOURCE_INPUT" ] && [ -f "scripts/build-issue-08-full-draft.js" ]; then
+          if [ ! -f "$SOURCE_INPUT" ] && [ -f "scripts/ops/build-issue-08-full-draft.js" ]; then
             echo "Running draft compilation script..."
-            node scripts/build-issue-08-full-draft.js || true
+            node scripts/ops/build-issue-08-full-draft.js || true
           fi
 
-          node scripts/publish-issue-pdf.js "${CMD_ARGS[@]}"
+          node scripts/ops/publish-issue-pdf.js "${CMD_ARGS[@]}"
 
       - name: Upload existing PDF triggered by Workflow Dispatch
         if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'upload_existing_file'
@@ -139,7 +139,7 @@ jobs:
             CMD_ARGS+=(--draft)
           fi
 
-          node scripts/upload-pdf-to-supabase.js "${CMD_ARGS[@]}"
+          node scripts/ops/upload-pdf-to-supabase.js "${CMD_ARGS[@]}"
 
       - name: Upload PDFs added/changed on git push
         if: github.event_name == 'push'
@@ -166,6 +166,6 @@ jobs:
           while IFS= read -r pdf; do
             if [ -f "$pdf" ]; then
               echo "Uploading $pdf to Supabase..."
-              node scripts/upload-pdf-to-supabase.js --file "$pdf"
+              node scripts/ops/upload-pdf-to-supabase.js --file "$pdf"
             fi
           done <<< "$CHANGED_PDFS"

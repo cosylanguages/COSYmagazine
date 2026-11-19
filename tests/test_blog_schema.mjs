@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { validatePostSchema } = require('../scripts/validate-blog-schema.js');
+const { validatePostSchema } = require('../scripts/build/validate-blog-schema.js');
 
 test('validatePostSchema - Valid schema object passes validation', () => {
   const validPost = {

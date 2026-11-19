@@ -7,7 +7,7 @@ French/Italian/Spanish articles but were written by an AI in languages where it 
 - These files are **not** built or published; the shorter articles in `posts/` stay live.
 - Passages the writer was unsure of end with `⚠` — check those first.
 - When a reviewer has approved a file, copy it over the matching file in `posts/`, remove any `⚠`, then run
-  `python3 scripts/add_fulllists.py && python3 scripts/add_references.py && npm run build && node scripts/validate-blog-schema.js`.
+  `python3 scripts/content/add_fulllists.py && python3 scripts/content/add_references.py && npm run build && node scripts/build/validate-blog-schema.js`.
 
 ## Status
 

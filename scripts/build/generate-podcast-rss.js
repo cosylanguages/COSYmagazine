@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 /**
- * scripts/generate-podcast-rss.js
+ * scripts/build/generate-podcast-rss.js
  * Generates canonical RSS 2.0 + iTunes Podcast feed (`podcast.xml`)
  * from blog post JSON schema files with podcast metadata.
  *
- * Usage: node scripts/generate-podcast-rss.js
+ * Usage: node scripts/build/generate-podcast-rss.js
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const BLOG_DIR = path.join(__dirname, '..');
+const BLOG_DIR = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const RSS_FILE = path.join(BLOG_DIR, 'podcast.xml');
 

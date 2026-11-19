@@ -7,7 +7,7 @@
 Part of the COSY ecosystem. Hub: [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) · Practice: [COSYpractice](https://github.com/cosylanguages/COSYpractice) · Tools: [COSYtools](https://github.com/cosylanguages/COSYtools).
 
 ## How it works
-Every article is one JSON file in `posts/`, validated against `SCHEMA.md`. A build turns them into static pages. **Adding an article needs no code change.**
+Every article is one JSON file in `posts/`, validated against `docs/reference/SCHEMA.md`. A build turns them into static pages. **Adding an article needs no code change.**
 
 ```bash
 npm install
@@ -15,7 +15,7 @@ npm run build      # posts → <slug>.html, index.json, posts.json, covers (og/)
 npm test           # node --test style checks in tests/*.mjs
 ```
 
-1. Add `posts/<slug>.json` (see `docs/BLOG_AUTHORING.md`; a translation sets `translationOf` to the base slug).
+1. Add `posts/<slug>.json` (see `docs/authoring/BLOG_AUTHORING.md`; a translation sets `translationOf` to the base slug).
 2. `npm run build`, then commit the generated files (GitHub Pages serves them as they are).
 
 Set `"draft": true` to keep a post out of the site.
@@ -26,7 +26,7 @@ Publishing magazine PDFs directly to private Supabase storage without using a co
 - **Git Push**: Simply drop a PDF in `magazines/` or `private-issues/` and commit/push; the GitHub Action automatically uploads it.
 - **In-Browser Studio**: In `editor.html`, log in as Founder and click **📤 Upload Magazine PDF** to upload directly from your device.
 
-See [docs/MAGAZINE_PDF_UPLOAD.md](docs/MAGAZINE_PDF_UPLOAD.md) for full instructions and secret configuration.
+See [docs/publishing/MAGAZINE_PDF_UPLOAD.md](docs/publishing/MAGAZINE_PDF_UPLOAD.md) for full instructions and secret configuration.
 
 ## Structure
 | Path | What |
@@ -35,7 +35,11 @@ See [docs/MAGAZINE_PDF_UPLOAD.md](docs/MAGAZINE_PDF_UPLOAD.md) for full instruct
 | `podcast.html` | Podcast desk |
 | `posts/*.json` | Source of truth |
 | `<slug>.html`, `index.json`, `posts.json`, `og/` | Generated, do not edit by hand |
-| `scripts/` | Build, validation, cover art, RSS, sitemap |
+| `scripts/build/` | Build pipeline, validation, cover art, RSS, sitemap |
+| `scripts/ops/` | PDF publishing, Supabase upload, stage video export |
+| `scripts/content/` | Python scripts that rewrite `posts/*.json` in bulk |
+| `scripts/archive/` | One-off scripts kept for reference, not wired to any command |
+| `docs/` | [Authoring, issues, publishing and reference docs](docs/README.md) |
 | `css/`, `js/`, `fonts/` | Design layer (shared COSY tokens, self-hosted Fraunces, Literata, Commissioner), shell, stage mode, flipbook |
 | `js/i18n/*.json` | Interface strings for the newsstand and post chrome |
 | `dev/` | Dev-only pages (cover art contact sheet, stage demo) |

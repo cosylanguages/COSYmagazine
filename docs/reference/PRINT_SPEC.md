@@ -76,7 +76,7 @@ reflects this; the database policy is the real gate.
 The fact-check ledger (quotes verified, claims attributed, consent on file, image
 licences recorded, no protected lyrics, proofread) is saved with the article. An
 article about a real person cannot be published until consent is marked done. The
-build validator enforces this too. See `SCHEMA.md`.
+build validator enforces this too. See `docs/reference/SCHEMA.md`.
 
 ## One paper edition, one language
 

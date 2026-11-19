@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 /**
- * scripts/generate-blog-art.js
+ * scripts/build/generate-blog-art.js
  * 1. Assigns sensible default artDirection metadata across posts.json and posts/*.json.
  * 2. Generates static SVG cover files in og/{slug}.svg for Open Graph and social media usage.
  *
- * Usage: node scripts/generate-blog-art.js
+ * Usage: node scripts/build/generate-blog-art.js
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const BLOG_DIR = path.join(__dirname, '..');
+const BLOG_DIR = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const POSTS_JSON = path.join(BLOG_DIR, 'posts.json');
 const OG_DIR = path.join(BLOG_DIR, 'og');
@@ -58,7 +58,7 @@ async function generateBlogArt() {
   }
 
   // Dynamic import for ES modules
-  const generatorModule = await import('../js/art/generator.js');
+  const generatorModule = await import('../../js/art/generator.js');
   const { renderCover } = generatorModule;
 
   // Canonical artDirection lives in posts/*.json. Normalise it there first, then let
