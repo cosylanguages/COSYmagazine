@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="tea-ring-wash" data-seed="founder-december-winter" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="630" fill="#f3f8ff" />
+    
+      <circle cx="710" cy="185" r="104" fill="none" stroke="#bedcff" stroke-width="3.5793626932427287" opacity="0.2" style="filter: blur(1px);" />
+      <circle cx="712" cy="187" r="96.78029643742367" fill="none" stroke="#bedcff" stroke-width="1.7896813466213644" opacity="0.15" />
+    <circle cx="762.0732359315565" cy="285.6922845704421" r="3.95226666261442" fill="#bedcff" opacity="0.18" /><circle cx="627.197507308438" cy="256.93473907809397" r="4.300134954042733" fill="#bedcff" opacity="0.18" /><circle cx="606.8519997375557" cy="234.87073265256652" r="4.553678339114413" fill="#bedcff" opacity="0.18" />
+      <circle cx="798" cy="108" r="77" fill="none" stroke="#6fa6e0" stroke-width="5.548749226145446" opacity="0.2" style="filter: blur(1px);" />
+      <circle cx="801" cy="110" r="74.02864850712008" fill="none" stroke="#6fa6e0" stroke-width="2.774374613072723" opacity="0.15" />
+    <circle cx="872.9220958993386" cy="59.38896567133667" r="4.207983573665842" fill="#6fa6e0" opacity="0.18" /><circle cx="793.1302727206113" cy="190.15166654430857" r="3.4814111955929548" fill="#6fa6e0" opacity="0.18" />
+      <circle cx="713" cy="35" r="79" fill="none" stroke="#bedcff" stroke-width="4.628286176361144" opacity="0.2" style="filter: blur(1px);" />
+      <circle cx="710" cy="34" r="76.33994011687348" fill="none" stroke="#bedcff" stroke-width="2.314143088180572" opacity="0.15" />
+    <circle cx="731.6452831410978" cy="130.70383096895702" r="2.7098182004410774" fill="#bedcff" opacity="0.18" /><circle cx="638.3270088504943" cy="-10.677619421634247" r="3.58592921635136" fill="#bedcff" opacity="0.18" /><circle cx="642.2434089061031" cy="81.68460318659231" r="2.7446848899126053" fill="#bedcff" opacity="0.18" />
+      <circle cx="706" cy="338" r="71" fill="none" stroke="#6fa6e0" stroke-width="4.074503269977868" opacity="0.2" style="filter: blur(1px);" />
+      <circle cx="707" cy="338" r="67.37046865233685" fill="none" stroke="#6fa6e0" stroke-width="2.037251634988934" opacity="0.15" />
+    <circle cx="688.1877160358597" cy="263.7591448529762" r="2.364573967177421" fill="#6fa6e0" opacity="0.18" /><circle cx="791.5294005846388" cy="368.1603540400878" r="3.597286317264661" fill="#6fa6e0" opacity="0.18" /><circle cx="634.5049041256502" cy="377.37345770531726" r="4.617207183269784" fill="#6fa6e0" opacity="0.18" />
+  
+      
+      <g transform="rotate(10 637 314.5)">
+        <rect x="487" y="175" width="300" height="279" rx="6" fill="#f3f8ff" opacity="0.3" stroke="#6fa6e0" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(5 517 362.5)">
+        <rect x="321" y="258" width="392" height="209" rx="6" fill="#bedcff" opacity="0.3" stroke="#6fa6e0" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(-4 772 264.5)">
+        <rect x="552" y="117" width="440" height="295" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#6fa6e0" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="1005,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1025,157.5 1005,0" fill="#FCF9F2" opacity="0.9" stroke="#6fa6e0" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(-8 710 40)" filter="url(#soft-shadow)">
+      <rect x="650" y="28" width="120" height="24" rx="2" fill="#bedcff" opacity="0.45" />
+      <line x1="650" y1="28" x2="650" y2="52" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="770" y1="28" x2="770" y2="52" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#6fa6e0" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 870 51 Q 870 63 882 63 Q 870 63 870 75 Q 870 63 858 63 Q 870 63 870 51 Z" fill="#bedcff" opacity="0.3" />
+      <path d="M 915 93 Q 915 101 923 101 Q 915 101 915 109 Q 915 101 907 101 Q 915 101 915 93 Z" stroke="#bedcff" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 69 146 C 79 131, 64 111, 84 96" />
+      <circle cx="73" cy="131" r="3" fill="#6fa6e0" opacity="0.5" />
+      <circle cx="79" cy="114" r="3" fill="#bedcff" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 77 583 Q 182 584 286 585" stroke="#bedcff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 87 586 Q 182 587 276 585" stroke="#6fa6e0" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="228" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#bedcff" stroke-width="1.2" />
+      <text x="34" y="40" fill="#2a5d9f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • COSYTALKS</text>
+    </g>
+  
+      
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#6fa6e0" stroke-width="1.2" />
+        <text x="54" y="474" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">THEMATIC INTERVIEW DESK • Vol. 2026.12</text>
+        <text x="54" y="510" fill="#2a5d9f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">In Conversation: Founder James</text>
+<text x="54" y="542" fill="#2a5d9f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">on Phrasal Verbs, Tea, and the</text>
+<text x="54" y="574" fill="#2a5d9f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Quiet Season of Learning</text>
+      </g>
+    
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
+    </svg>

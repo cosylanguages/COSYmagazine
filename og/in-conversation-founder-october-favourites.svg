@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="doodle-border" data-seed="founder-october-favourites" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="630" fill="#f6ead4" />
+    <path d="M 15 15 L 15 17 L 45 19 L 75 15 L 105 19 L 135 17 L 165 16 L 195 15 L 225 14 L 255 12 L 285 16 L 315 12 L 345 15 L 375 13 L 405 16 L 435 14 L 465 17 L 495 19 L 525 13 L 555 19 L 585 15 L 615 17 L 645 13 L 675 17 L 705 12 L 735 11 L 765 17 L 795 12 L 825 11 L 855 14 L 885 13 L 915 14 L 945 14 L 975 11 L 1005 12 L 1035 12 L 1065 19 L 1095 12 L 1125 16 L 1155 18 L 1185 19 L 1189 15 L 1184 45 L 1182 75 L 1181 105 L 1184 135 L 1188 165 L 1181 195 L 1186 225 L 1189 255 L 1187 285 L 1181 315 L 1187 345 L 1181 375 L 1184 405 L 1181 435 L 1187 465 L 1188 495 L 1186 525 L 1184 555 L 1185 585 L 1185 615 L 1185 619 L 1155 612 L 1125 614 L 1095 617 L 1065 617 L 1035 612 L 1005 619 L 975 612 L 945 612 L 915 617 L 885 612 L 855 619 L 825 611 L 795 611 L 765 616 L 735 614 L 705 614 L 675 616 L 645 617 L 615 616 L 585 611 L 555 611 L 525 614 L 495 619 L 465 611 L 435 611 L 405 617 L 375 617 L 345 615 L 315 619 L 285 617 L 255 616 L 225 614 L 195 617 L 165 615 L 135 617 L 105 613 L 75 616 L 45 611 L 15 616 L 11 615 L 13 585 L 17 555 L 11 525 L 15 495 L 19 465 L 16 435 L 19 405 L 12 375 L 18 345 L 16 315 L 14 285 L 19 255 L 15 225 L 13 195 L 11 165 L 14 135 L 12 105 L 11 75 L 19 45 L 12 15 Z" fill="none" stroke="#ffbed7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+    <circle cx="1162.5" cy="37.5" r="16" fill="#e0678f" opacity="0.2" />
+    <circle cx="37.5" cy="592.5" r="20" fill="#ffbed7" opacity="0.15" />
+  
+      
+      <g transform="rotate(-8 601 348.5)">
+        <rect x="369" y="225" width="464" height="247" rx="6" fill="#e0678f" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(9 608 253)">
+        <rect x="384" y="149" width="448" height="208" rx="6" fill="#ffbed7" opacity="0.3" stroke="#e0678f" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="957,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 977,157.5 957,0" fill="#FCF9F2" opacity="0.9" stroke="#e0678f" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(4 957 27)" filter="url(#soft-shadow)">
+      <rect x="897" y="15" width="120" height="24" rx="2" fill="#ffbed7" opacity="0.45" />
+      <line x1="897" y1="15" x2="897" y2="39" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="1017" y1="15" x2="1017" y2="39" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#e0678f" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 924 74 Q 924 86 936 86 Q 924 86 924 98 Q 924 86 912 86 Q 924 86 924 74 Z" fill="#ffbed7" opacity="0.3" />
+      <path d="M 969 116 Q 969 124 977 124 Q 969 124 969 132 Q 969 124 961 124 Q 969 124 969 116 Z" stroke="#ffbed7" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 51 135 C 61 120, 46 100, 66 85" />
+      <circle cx="55" cy="120" r="3" fill="#e0678f" opacity="0.5" />
+      <circle cx="61" cy="103" r="3" fill="#ffbed7" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 54 580 Q 164 576 274 580" stroke="#ffbed7" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 64 583 Q 164 579 264 582" stroke="#e0678f" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="228" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffbed7" stroke-width="1.2" />
+      <text x="34" y="40" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • COSYTALKS</text>
+    </g>
+  
+      
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#e0678f" stroke-width="1.2" />
+        <text x="54" y="474" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">THEMATIC INTERVIEW DESK • Vol. 2026.10</text>
+        <text x="54" y="510" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">In Conversation: Founder James</text>
+<text x="54" y="542" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">on His Favourite Things, and Why</text>
+<text x="54" y="574" fill="#b0245f" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">Play Beats Discipline</text>
+      </g>
+    
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
+    </svg>

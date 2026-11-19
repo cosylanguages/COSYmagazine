@@ -144,7 +144,15 @@ function buildIndexFeed({ publishedPosts, guides, issues, hasPlayer }) {
     ...guidesAsIndexPosts(guides)
   ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-  const issuesList = Array.from(issues.values());
+  // Sorted so the feed does not depend on which post filename the loader met first:
+  // adding a source would otherwise reshuffle this list. Podcast specials go last,
+  // matching the ordering the issues catalog uses.
+  const issuesList = Array.from(issues.values()).sort((a, b) => {
+    const isPodcast = (n) => n === 'Podcast Special';
+    if (isPodcast(a.number)) return 1;
+    if (isPodcast(b.number)) return -1;
+    return b.number.localeCompare(a.number);
+  });
 
   return {
     version: '2.0.0',

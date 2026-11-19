@@ -1,0 +1,170 @@
+{
+  "id": "post-in-conversation-founder-december-winter-solstice",
+  "slug": "in-conversation-founder-december-winter-solstice",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "founder_interview",
+  "format": "qa",
+  "level": "A2–B2",
+  "issue": {
+    "number": "Vol. 2026.12",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "In Conversation: Founder James on Phrasal Verbs, Tea, and the Quiet Season of Learning",
+  "kicker": "THEMATIC INTERVIEW DESK",
+  "dek": "December is the slowest month of the magazine’s year, on purpose. Founder James (JY DM) on why phrasal verbs are logical rather than chaotic, what winter rituals teach us about retention, and how to end a year of study without grading yourself.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Phrasal Verbs",
+    "Winter",
+    "Reflection"
+  ],
+  "readingTime": 7,
+  "status": "drafting",
+  "artDirection": {
+    "palette": [
+      "#4A5D4E",
+      "#FCFAF5",
+      "#8C4A2F",
+      "#D9A441"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-ring-wash",
+    "seed": "founder-december-winter",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "December closes the magazine’s year, and it is deliberately the quietest issue we publish. The theme is winter solstice warmth: seasonal rhythm, tea rituals, introspective living, and the very specific logic of phrasal verbs. It is a volume designed to be read slowly, in short sittings, beside a window. We asked the founder why a language magazine would choose stillness as its December theme.",
+      "say": "December closes the magazine’s year, and it is deliberately the quietest issue we publish. The theme is winter solstice warmth: seasonal rhythm, tea rituals, introspective living, and the very specific logic of phrasal verbs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "This Month: Winter Grammar & High Frequency Verbs",
+      "say": "This Month: Winter Grammar & High Frequency Verbs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vol. 2026.12</strong> pairs two things that look unrelated. The Grammar Made Cosy piece decodes phrasal verbs — how to read them, predict them, and invent new ones — while the Words desk publishes part two of the ten essential verbs series across fourteen languages. Around them, the issue keeps returning to seasonal ritual: warmth, repetition, and the small daily practices that make a language stick."
+    },
+    {
+      "type": "paragraph",
+      "text": "The argument is that winter is not a pause in learning. It is the season when consolidation happens."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: The Logic of Phrasal Verbs",
+      "say": "Part I: The Logic of Phrasal Verbs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Learners experience phrasal verbs as chaos — a thousand arbitrary combinations. You say they are logical. Where is the logic?",
+      "say": "Learners experience phrasal verbs as chaos — a thousand arbitrary combinations. You say they are logical. Where is the logic?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> If a reader wanted to stop memorising phrasal verbs and start predicting them, what is the first pattern they should learn to see?",
+      "say": "If a reader wanted to stop memorising phrasal verbs and start predicting them, what is the first pattern they should learn to see?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "pullquote",
+      "quote": "Phrasal verbs are not random. They are a small set of spatial ideas, wearing different clothes.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "Phrasal verbs are not random. They are a small set of spatial ideas, wearing different clothes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: Ritual, Rhythm, Retention",
+      "say": "Part II: Ritual, Rhythm, Retention"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Why does a magazine about language spend December talking about tea and seasonal rhythm?",
+      "say": "Why does a magazine about language spend December talking about tea and seasonal rhythm?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> What does a realistic winter study routine look like for someone with twenty minutes and no energy left at the end of the day?",
+      "say": "What does a realistic winter study routine look like for someone with twenty minutes and no energy left at the end of the day?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: Ending a Year Without Grading Yourself",
+      "say": "Part III: Ending a Year Without Grading Yourself"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> December invites self-assessment, and self-assessment usually turns into self-criticism. How should a learner look back on a year of study?",
+      "say": "December invites self-assessment, and self-assessment usually turns into self-criticism. How should a learner look back on a year of study?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> High-frequency verbs are the backbone of this issue. Why do the ten most common verbs deserve a second, dedicated volume?",
+      "say": "High-frequency verbs are the backbone of this issue. Why do the ten most common verbs deserve a second, dedicated volume?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Founder’s Research Spark",
+      "content": "💡 This could be a good research question: does distributed practice tied to an existing daily ritual (tea, commute, evening walk) improve long-term retention more than equal time in a single weekly session?",
+      "say": "This could be a good research question: does distributed practice tied to an existing daily ritual (tea, commute, evening walk) improve long-term retention more than equal time in a single weekly session?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part IV: Into the New Year",
+      "say": "Part IV: Into the New Year"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> The magazine returns in February. What should a reader carry through the quiet months in between?",
+      "say": "The magazine returns in February. What should a reader carry through the quiet months in between?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true
+}
