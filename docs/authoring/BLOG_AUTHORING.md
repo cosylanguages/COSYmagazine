@@ -9,9 +9,9 @@ This document is the definitive authoring specification and schema reference for
 Blog publishing in COSYlanguages follows a **zero-code, single-source-of-truth JSON pipeline**:
 
 - **Source Location**: `posts/*.json`
-- **Canonical Format**: Every article is written as a structured JSON object adhering to `SCHEMA.md`.
+- **Canonical Format**: Every article is written as a structured JSON object adhering to `docs/reference/SCHEMA.md`.
 - **Zero-Code Publishing**: Adding a new post requires **zero code changes** to index files, CSS, or JS templates. Add a JSON file under `posts/` and run the build script.
-- **Build Pipeline**: Executing `node scripts/build-blog.js` automatically:
+- **Build Pipeline**: Executing `node scripts/build/build-blog.js` automatically:
   1. Validates post schema and field constraints.
   2. Renders standalone static HTML post pages at the repository root (`{slug}.html`).
   3. Compiles the newsstand data at `posts.json` and `index.json`.
@@ -33,7 +33,7 @@ Each post JSON file MUST contain the following top-level fields:
 | `draft` | `boolean` | No | When `true`, post is excluded from production builds. | `false` |
 | `desk` | `string` | Yes | Editorial desk classification. | `"Front Page"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"`, `"Reflections"` |
 | `format` | `string` | Yes | Vogue/Gazette layout format. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
-| `section` | `string` | No | 14-section anatomy classification (see `docs/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
+| `section` | `string` | No | 14-section anatomy classification (see `docs/issues/MAGAZINE_ISSUE_STRUCTURE.md`). | `"founder_interview"`, `"learner_spotlight"`, `"words_core"`, `"grammar_cosy"`, `"saturday_mistakes"`, `"debatable_relatable"`, `"science_expander"`, `"greatest_quotes"`, `"wonder_column"`, `"mind_matters"`, `"life_with_without"`, `"if_you_were"`, `"cultural_salon"` |
 | `level` | `string` | Yes | CEFR target level. | `"A0–A1"`, `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–B2"` |
 | `issue` | `object` | Yes | Magazine volume and issue title object. | `{ "number": "Vol. 2026.08", "title": "Get ready for school" }` |
 | `date` | `string` | Yes | Publication date (`YYYY-MM-DD`). | `"2026-08-15"` |
@@ -119,7 +119,7 @@ Every block MAY include optional stage direction properties for automated audio 
 2. **Validate Schema**:
    Run the schema validator to verify syntax, required fields, and block structures:
    ```bash
-   node scripts/validate-blog-schema.js
+   node scripts/build/validate-blog-schema.js
    ```
 
 3. **Build Blog HTML & Assets**:
@@ -248,7 +248,7 @@ The home page shows cards in **English, French, Italian, Russian and Greek**, fo
 - **Digital and paper**: each block can be digital only or paper only (`medium`).
   Paper-only blocks are left out of the website.
 - **Paper planning**: use Start, "Plan an issue (pages)". Details and what is not
-  automated are in `docs/PRINT_SPEC.md`. Fields are in `SCHEMA.md`.
+  automated are in `docs/reference/PRINT_SPEC.md`. Fields are in `docs/reference/SCHEMA.md`.
 - **Scheduling**: set a publish date in the Editorial tab and publish. The site holds
   the article back and releases it on that day with the daily run. To cancel, clear
   the date or set the status back to a draft state. The release runs once a day, so

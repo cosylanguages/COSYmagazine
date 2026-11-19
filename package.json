@@ -4,10 +4,10 @@
   "description": "COSYmagazine: speaking-first language reads, built from JSON posts into static pages.",
   "private": true,
   "scripts": {
-    "build": "node scripts/build-blog.js && node scripts/generate-blog-art.js && node scripts/generate-issues-catalog.js && node scripts/generate-sitemap.js",
-    "publish:issue:pdf": "node scripts/publish-issue-pdf.js",
-    "upload:issue:pdf": "node scripts/upload-pdf-to-supabase.js",
-    "validate": "node scripts/validate-blog-schema.js",
+    "build": "node scripts/build/build-blog.js && node scripts/build/generate-blog-art.js && node scripts/build/generate-issues-catalog.js && node scripts/build/generate-sitemap.js",
+    "publish:issue:pdf": "node scripts/ops/publish-issue-pdf.js",
+    "upload:issue:pdf": "node scripts/ops/upload-pdf-to-supabase.js",
+    "validate": "node scripts/build/validate-blog-schema.js",
     "test": "node --test tests/*.mjs",
     "test-e2e": "playwright test"
   },

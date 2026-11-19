@@ -1,7 +1,7 @@
 /**
  * js/editor.js
  * Core Controller & Live Gazette Spread Preview Engine for COSYmagazine Studio.
- * Synchronized with SCHEMA.md, scripts/build-blog.js, and Supabase live updates.
+ * Synchronized with docs/reference/SCHEMA.md, scripts/build/build-blog.js, and Supabase live updates.
  */
 
 (function () {
@@ -164,7 +164,7 @@
 
   /**
    * Pre-publish review. Mirrors the required fields in
-   * scripts/validate-blog-schema.js, plus editorial warnings that the
+   * scripts/build/validate-blog-schema.js, plus editorial warnings that the
    * validator does not enforce. Returns [{ id, level: 'ok'|'warn'|'error', label, detail }].
    */
   function getReadiness(post) {

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * scripts/validate-blog-schema.js
- * Validates post JSON objects against the COSYlanguages Blog Post Schema (SCHEMA.md).
+ * scripts/build/validate-blog-schema.js
+ * Validates post JSON objects against the COSYlanguages Blog Post Schema (docs/reference/SCHEMA.md).
  *
- * Usage: node scripts/validate-blog-schema.js [filepath]
+ * Usage: node scripts/build/validate-blog-schema.js [filepath]
  */
 
 const fs = require('fs');
@@ -361,7 +361,7 @@ function runCLI() {
       process.exit(1);
     }
   } else {
-    const defaultPostsDir = path.join(__dirname, '..', 'posts');
+    const defaultPostsDir = path.join(__dirname, '..', '..', 'posts');
     if (fs.existsSync(defaultPostsDir)) {
       jsonFiles = fs.readdirSync(defaultPostsDir).filter(f => f.endsWith('.json')).map(f => path.join(defaultPostsDir, f));
     }
@@ -470,7 +470,7 @@ function runCLI() {
   let i18nErrors = 0;
 
   REQUIRED_BLOG_LANGS.forEach(lang => {
-    const langFile = path.join(__dirname, '..', 'js', 'i18n', `${lang}.json`);
+    const langFile = path.join(__dirname, '..', '..', 'js', 'i18n', `${lang}.json`);
     if (!fs.existsSync(langFile)) {
       console.error(`❌ Missing required i18n translation file: js/i18n/${lang}.json`);
       i18nErrors++;

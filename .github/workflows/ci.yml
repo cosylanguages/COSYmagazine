@@ -35,7 +35,7 @@ jobs:
             exit 1
           fi
       - name: Check inline JavaScript syntax
-        run: node scripts/check-inline-js.js
+        run: node scripts/build/check-inline-js.js
       - name: Run unit tests
         run: npm test
 

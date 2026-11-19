@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * scripts/export-stage-video.js
+ * scripts/ops/export-stage-video.js
  * Renders Stage Mode presentation to 1920x1080 30fps MP4 video frame-by-frame using Playwright and FFmpeg.
  *
  * Usage:
- *   node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>]
+ *   node scripts/ops/export-stage-video.js <slug> [--audio <file>] [--out <dir>]
  *
  * Example:
- *   node scripts/export-stage-video.js stage-demo-podcast --out dist/videos
+ *   node scripts/ops/export-stage-video.js stage-demo-podcast --out dist/videos
  */
 
 const fs = require('fs');
@@ -22,7 +22,7 @@ try {
   // Playwright is optional or only needed during actual video exports
 }
 
-const REPO_ROOT = path.resolve(__dirname, '..');
+const REPO_ROOT = path.resolve(__dirname, '..', '..');
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -50,7 +50,7 @@ function parseArgs() {
 
   if (!slug) {
     console.error('❌ Error: Missing required <slug> argument.');
-    console.error('Usage: node scripts/export-stage-video.js <slug> [--audio file] [--out dir] [--fps num] [--max-duration sec]');
+    console.error('Usage: node scripts/ops/export-stage-video.js <slug> [--audio file] [--out dir] [--fps num] [--max-duration sec]');
     process.exit(1);
   }
 

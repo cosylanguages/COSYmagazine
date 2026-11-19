@@ -6,7 +6,7 @@
  * Can be run from GitHub Actions, automated CI/CD pipelines, or scripts.
  *
  * Usage:
- *   node scripts/upload-pdf-to-supabase.js --file <path-to-pdf> [--volume "Vol. 2026.08"] [--title "Issue Title"]
+ *   node scripts/ops/upload-pdf-to-supabase.js --file <path-to-pdf> [--volume "Vol. 2026.08"] [--title "Issue Title"]
  */
 
 const fs = require('fs');
@@ -37,7 +37,7 @@ function parseArgs(args = process.argv.slice(2)) {
       options.publish = false;
     } else if (arg === '--help' || arg === '-h') {
       console.log(`
-Usage: node scripts/upload-pdf-to-supabase.js --file <path-to-pdf> [options]
+Usage: node scripts/ops/upload-pdf-to-supabase.js --file <path-to-pdf> [options]
 
 Options:
   --file <path>          Path to the PDF file to upload (required)
