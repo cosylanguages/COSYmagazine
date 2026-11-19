@@ -3,19 +3,21 @@
  * Issue covers built on the editorial formula of a fashion magazine cover:
  *
  *   - Masthead: high-contrast Didone serif spanning ~88% of the width, near the top edge.
- *   - Head-overlap: the subject's head crosses the masthead. Outer letters are re-drawn
- *     over the subject, middle letters sit behind it, which gives the logo its depth.
  *   - Cover lines: four, strictly on the left and right margins, leaving the centre clear.
  *   - Anchor headline: one dominant serif block in the bottom fifth.
  *   - Ink discipline: cream text plus a single accent colour per issue.
  *
- * No portrait photography exists in this repository, so the subject is drawn as
- * editorial line art. Illustrated covers are part of the fashion-magazine tradition,
- * and line art keeps the covers honest: it never pretends to be a photograph of a
- * real person.
+ * Each cover is a real photograph from Wikimedia Commons, restricted to CC0 or public
+ * domain so the covers can be sold inside the paid editions without attribution
+ * obligations. The image is a subject, not a portrait: covers show rooms, objects and
+ * place, never a drawn or photographed face, which is what made the earlier
+ * parametric line-art bust read as uncanny.
+ *
+ * Provenance for every file is recorded in images/covers/CREDITS.json, and
+ * `tests/test_cover_art.mjs` fails the build if a cover file, its credit entry, or its
+ * licence is missing.
  */
 
-import { createPRNG } from './rng.js';
 
 const SERIF = "Fraunces, 'Lora', Georgia, 'Times New Roman', serif";
 const SANS = "Commissioner, 'DM Sans', Helvetica, Arial, sans-serif";
@@ -25,70 +27,70 @@ const MASTHEAD_TEXT = 'COSYMAGAZINE';
 /** Per-issue art direction. Keyed by `Vol. YYYY.MM`. */
 const ISSUE_COVERS = {
   'Vol. 2026.08': {
-    accent: '#C8703F',
+    accent: '#E8A05C',
     backdrop: '#241C18',
     subjectTone: '#7A6250',
-    pose: 'close',
+    photo: 'images/covers/2026-08.jpg',
     coverLines: {
       left: [['LESSON ONE FEAR', 'Unlearning the red pen'], ['SAY IT OUT LOUD', 'A classroom rebuilt']],
       right: [['SPEAK FROM MINUTE ONE', 'No silent first term'], ['THE COSY METHOD', 'Warmth over drills']]
     }
   },
   'Vol. 2026.09': {
-    accent: '#C9A227',
+    accent: '#D9B84A',
     backdrop: '#1E2318',
     subjectTone: '#6E7C58',
-    pose: 'medium',
+    photo: 'images/covers/2026-09.jpg',
     coverLines: {
       left: [['ME VS PLATEAU', 'Why progress stalls'], ['RETIRE 50 PHRASES', 'The upgrade habit']],
       right: [['THE B1 WALL', 'What actually breaks it'], ['PLATEAU, REFRAMED', 'A measurement error']]
     }
   },
   'Vol. 2026.10': {
-    accent: '#D4573F',
+    accent: '#E0705A',
     backdrop: '#2A1A1D',
     subjectTone: '#82525C',
-    pose: 'close',
+    photo: 'images/covers/2026-10.jpg',
     coverLines: {
       left: [['FOUNDER\u2019S EDITION', 'His favourite things'], ['TEN FRAMES', 'Fourteen languages']],
       right: [['PLAY BEATS DISCIPLINE', 'The messy first draft'], ['ANOTHER YEAR', 'What changed']]
     }
   },
   'Vol. 2026.11': {
-    accent: '#8C8AD9',
+    accent: '#A9A6F0',
     backdrop: '#1A1B33',
     subjectTone: '#585A8C',
-    pose: 'medium',
+    photo: 'images/covers/2026-11.jpg',
     coverLines: {
       left: [['NOVEMBER ACADEMIA', 'How language rewires'], ['BEYOND SWITCHING', 'Living in five tongues']],
       right: [['THE PLASTIC BRAIN', 'What the evidence says'], ['MEMORY & RHYTHM', 'A timeline for fluency']]
     }
   },
   'Vol. 2026.12': {
-    accent: '#C9A227',
+    accent: '#E3C06A',
     backdrop: '#1B241F',
     subjectTone: '#5C7162',
-    pose: 'close',
+    photo: 'images/covers/2026-12.jpg',
     coverLines: {
       left: [['WINTER SOLSTICE', 'The quiet season'], ['PHRASAL VERBS', 'Decoded at last']],
       right: [['RITUAL & RETENTION', 'Tea, rhythm, repeat'], ['END THE YEAR', 'Without a grade']]
     }
   },
   'Vol. 2027.02': {
-    accent: '#C4727F',
+    accent: '#E08D9B',
     backdrop: '#261A20',
     subjectTone: '#7E5763',
-    pose: 'medium',
+    photo: 'images/covers/2027-02.jpg',
     coverLines: {
       left: [['ROMANCE & NUANCE', 'The spectrum of affection'], ['GENTLE NOUNS', 'Tenderness, translated']],
       right: [['SAY IT SOFTLY', 'Vulnerability aloud'], ['NEGOTIATE', 'Money and feeling']]
     }
   },
   'Podcast Special': {
-    accent: '#D9A441',
+    accent: '#E8B75C',
     backdrop: '#201C16',
     subjectTone: '#6E614C',
-    pose: 'close',
+    photo: 'images/covers/podcast.jpg',
     coverLines: {
       left: [['SATURDAY MISTAKES', 'The podcast series'], ['EVERY WEEK', 'Out loud']],
       right: [['LEARN FROM THE SLIP', 'Errors as material'], ['THE ROUTINE', 'One habit at a time']]
@@ -96,11 +98,13 @@ const ISSUE_COVERS = {
   }
 };
 
+/** Fallback photograph for an issue with no art direction of its own. */
+const DEFAULT_PHOTO = 'images/covers/2026-08.jpg';
+
 const DEFAULT_COVER = {
   accent: '#C9A227',
   backdrop: '#221C1A',
   subjectTone: '#6B6058',
-  pose: 'medium',
   coverLines: {
     left: [['THE NEW ISSUE', 'Words, voices, culture'], ['INSIDE', 'This edition']],
     right: [['SPEAK FROM DAY ONE', 'From the first page'], ['THE METHOD', 'Cosy by design']]
@@ -210,82 +214,31 @@ function estimateWidth(text, size, tracking = 0) {
 }
 
 /**
- * Editorial line-art bust. Drawn parametrically from the head centre and radii so the
- * same figure scales to any cover size. Eyes are rendered as open contours so the
- * subject reads as looking straight at the reader.
+ * Full-bleed photographic subject. The image is the cover's backdrop, so the cover is
+ * read as an editorial photograph with type set over it rather than as a drawn figure.
+ * A warm ink wash plus a vertical scrim is laid on top: the scrim darkens the top and
+ * bottom fifths where the masthead and hero sit, which is what keeps cream type legible
+ * over an unpredictable photograph.
  */
-function renderSubject({ cx, cy, rx, ry, shoulderY, shoulderW, tone, accent, pose, clipId }) {
-  const eyeY = cy + ry * 0.12;
-  const eyeDx = rx * 0.42;
-  const eyeRx = rx * 0.13;
-  const eyeRy = ry * 0.075;
-
-  const browY = eyeY - ry * 0.17;
-  const noseY = cy + ry * 0.42;
-  const lipY = cy + ry * 0.66;
-
-  const hairSweep = pose === 'close' ? 1.12 : 1.0;
-
+function renderPhoto({ photo, backdrop, accent, uid, height }) {
+  const scrimId = `vc-${uid}-scrim`;
   return `
-    <g class="vc-subject">
-      <!-- shoulders and neck -->
-      <path d="M ${cx - shoulderW} ${shoulderY + (ry * 2.6)}
-               C ${cx - shoulderW * 0.62} ${shoulderY + ry * 0.55},
-                 ${cx - rx * 0.72} ${shoulderY + ry * 0.1},
-                 ${cx - rx * 0.46} ${cy + ry * 0.96}
-               L ${cx - rx * 0.46} ${cy + ry * 1.02}
-               L ${cx + rx * 0.46} ${cy + ry * 1.02}
-               L ${cx + rx * 0.46} ${cy + ry * 0.96}
-               C ${cx + rx * 0.72} ${shoulderY + ry * 0.1},
-                 ${cx + shoulderW * 0.62} ${shoulderY + ry * 0.55},
-                 ${cx + shoulderW} ${shoulderY + (ry * 2.6)}"
-            fill="${tone}" />
-      <!-- hair mass behind the face -->
-      <path d="M ${cx - rx * hairSweep} ${cy + ry * 0.1}
-               C ${cx - rx * hairSweep} ${cy - ry * 1.28},
-                 ${cx + rx * hairSweep} ${cy - ry * 1.28},
-                 ${cx + rx * hairSweep} ${cy + ry * 0.1}
-               C ${cx + rx * hairSweep} ${cy + ry * 0.86},
-                 ${cx + rx * 0.8} ${cy + ry * 1.02},
-                 ${cx + rx * 0.46} ${cy + ry * 1.02}
-               L ${cx - rx * 0.46} ${cy + ry * 1.02}
-               C ${cx - rx * 0.8} ${cy + ry * 1.02},
-                 ${cx - rx * hairSweep} ${cy + ry * 0.86},
-                 ${cx - rx * hairSweep} ${cy + ry * 0.1} Z"
-            fill="${tone}" />
-      <!-- face plane, lifted a step so the contour reads -->
-      <path d="M ${cx} ${cy - ry}
-               C ${cx + rx * 0.86} ${cy - ry},
-                 ${cx + rx * 0.98} ${cy + ry * 0.2},
-                 ${cx + rx * 0.62} ${cy + ry * 0.72}
-               C ${cx + rx * 0.4} ${cy + ry * 1.02},
-                 ${cx - rx * 0.4} ${cy + ry * 1.02},
-                 ${cx - rx * 0.62} ${cy + ry * 0.72}
-               C ${cx - rx * 0.98} ${cy + ry * 0.2},
-                 ${cx - rx * 0.86} ${cy - ry},
-                 ${cx} ${cy - ry} Z"
-            fill="${tone}" stroke="${accent}" stroke-opacity="0.5" stroke-width="${Math.max(1, rx * 0.012)}" />
-      <!-- brows -->
-      <path d="M ${cx - eyeDx - eyeRx} ${browY} Q ${cx - eyeDx} ${browY - eyeRy * 0.8} ${cx - eyeDx + eyeRx} ${browY}"
-            fill="none" stroke="${accent}" stroke-opacity="0.85" stroke-width="${Math.max(1.4, rx * 0.022)}" stroke-linecap="round" />
-      <path d="M ${cx + eyeDx - eyeRx} ${browY} Q ${cx + eyeDx} ${browY - eyeRy * 0.8} ${cx + eyeDx + eyeRx} ${browY}"
-            fill="none" stroke="${accent}" stroke-opacity="0.85" stroke-width="${Math.max(1.4, rx * 0.022)}" stroke-linecap="round" />
-      <!-- eyes: open, direct -->
-      <ellipse cx="${cx - eyeDx}" cy="${eyeY}" rx="${eyeRx}" ry="${eyeRy}" fill="#FCF9F2" />
-      <ellipse cx="${cx + eyeDx}" cy="${eyeY}" rx="${eyeRx}" ry="${eyeRy}" fill="#FCF9F2" />
-      <circle cx="${cx - eyeDx}" cy="${eyeY}" r="${eyeRy * 0.82}" fill="#1A1512" />
-      <circle cx="${cx + eyeDx}" cy="${eyeY}" r="${eyeRy * 0.82}" fill="#1A1512" />
-      <circle cx="${cx - eyeDx + eyeRx * 0.24}" cy="${eyeY - eyeRy * 0.26}" r="${eyeRy * 0.22}" fill="#FFFFFF" />
-      <circle cx="${cx + eyeDx + eyeRx * 0.24}" cy="${eyeY - eyeRy * 0.26}" r="${eyeRy * 0.22}" fill="#FFFFFF" />
-      <!-- nose -->
-      <path d="M ${cx - rx * 0.05} ${eyeY + ry * 0.2} Q ${cx - rx * 0.1} ${noseY} ${cx + rx * 0.03} ${noseY}"
-            fill="none" stroke="${accent}" stroke-opacity="0.55" stroke-width="${Math.max(1, rx * 0.014)}" stroke-linecap="round" />
-      <!-- lips -->
-      <path d="M ${cx - rx * 0.2} ${lipY} Q ${cx} ${lipY - ry * 0.06} ${cx + rx * 0.2} ${lipY}
-               Q ${cx} ${lipY + ry * 0.09} ${cx - rx * 0.2} ${lipY} Z"
-            fill="${accent}" fill-opacity="0.75" />
-      <!-- accent: single earring -->
-      <circle cx="${cx + rx * 0.9}" cy="${cy + ry * 0.5}" r="${rx * 0.055}" fill="${accent}" />
+    <g class="vc-subject vc-photo">
+      <defs>
+        <linearGradient id="${scrimId}" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="${backdrop}" stop-opacity="0.86" />
+          <stop offset="20%" stop-color="${backdrop}" stop-opacity="0.62" />
+          <stop offset="32%" stop-color="${backdrop}" stop-opacity="0.22" />
+          <stop offset="56%" stop-color="${backdrop}" stop-opacity="0.18" />
+          <stop offset="74%" stop-color="${backdrop}" stop-opacity="0.46" />
+          <stop offset="89%" stop-color="${backdrop}" stop-opacity="0.80" />
+          <stop offset="100%" stop-color="${backdrop}" stop-opacity="0.92" />
+        </linearGradient>
+      </defs>
+      <image href="${escapeXml(photo)}" x="0" y="0" width="100%" height="${height}"
+             preserveAspectRatio="xMidYMid slice" />
+      <rect width="100%" height="${height}" fill="${accent}" fill-opacity="0.10" />
+      <rect width="100%" height="${height}" fill="url(#${scrimId})" />
     </g>
   `;
 }
@@ -300,7 +253,7 @@ function renderSubject({ cx, cy, rx, ry, shoulderY, shoulderW, tone, accent, pos
  * @param {number} [options.width]   default 900 (portrait 3:4)
  * @param {number} [options.height]  default 1200
  * @param {boolean} [options.showText] default true
- * @param {object} [options.art]     overrides for accent/backdrop/subjectTone/pose/coverLines
+ * @param {object} [options.art]     overrides for accent/backdrop/subjectTone/photo/coverLines
  */
 export function renderIssueCover(issue, options = {}) {
   const width = options.width || 900;
@@ -326,7 +279,7 @@ export function renderIssueCover(issue, options = {}) {
   };
 
   const art = { ...(ISSUE_COVERS[number] || DEFAULT_COVER), ...(options.art || {}) };
-  const { accent, backdrop, subjectTone, pose } = art;
+  const { accent, backdrop, subjectTone } = art;
   // Rendered cover text comes from the dictionary, never from ISSUE_COVERS: art data and
   // copy drifted apart once already, and the copy that is drawn must be the copy that was
   // measured. The first variant is English, which is what the static HTML ships.
@@ -346,9 +299,6 @@ export function renderIssueCover(issue, options = {}) {
   };
 
   const uid = idToken(`${number}|${title}`);
-  const clipId = `vc-${uid}-split`;
-
-  const prng = createPRNG(`vogue|${number}|${title}`);
 
   const M = width * 0.05;              // 5% safe margin
   // The face sits above the cover lines, so the centre only needs a gutter between the
@@ -363,25 +313,13 @@ export function renderIssueCover(issue, options = {}) {
   const mastheadSize = Math.round((width * 0.88) / (MASTHEAD_TEXT.length * MASTHEAD_ADVANCE));
   const mastheadBaseline = Math.round(height * 0.163);
 
-  // ---- Subject geometry: head must cross the masthead baseline ----
-  const headCx = width * 0.5;
-  const headRy = height * (pose === 'close' ? 0.135 : 0.115);
-  const headRx = headRy * 0.78;
-  const headCy = height * 0.175;
-  const shoulderY = height * 0.40;
-  const shoulderW = width * (pose === 'close' ? 0.42 : 0.38);
-
-  const subject = renderSubject({
-    cx: headCx,
-    cy: headCy,
-    rx: headRx,
-    ry: headRy,
-    shoulderY,
-    shoulderW,
-    tone: subjectTone,
+  // ---- Subject: a full-bleed photograph behind the type ----
+  const subject = renderPhoto({
+    photo: art.photo || DEFAULT_PHOTO,
+    backdrop,
     accent,
-    pose,
-    clipId
+    uid,
+    height
   });
 
   // textLength pins the masthead to its span regardless of which serif the client has,
@@ -390,18 +328,11 @@ export function renderIssueCover(issue, options = {}) {
   const mastheadText = (fill, extra = '') => `
     <text x="${width / 2}" y="${mastheadBaseline}" text-anchor="middle"
           font-family="${SERIF}" font-size="${mastheadSize}" font-weight="900"
-          letter-spacing="${-mastheadSize * 0.012}" fill="${fill}"
+          letter-spacing="${-mastheadSize * 0.012}" fill="${fill}" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55" stroke-width="${Math.max(2, width * 0.006)}" stroke-linejoin="round"
           textLength="${mastheadSpan}" lengthAdjust="spacingAndGlyphs" ${extra}>${escapeXml(MASTHEAD_TEXT)}</text>
   `;
 
-  // The head sits between these two cuts: letters left of it and right of it are
-  // redrawn in front, which is what produces the overlap.
-  const leftCut = headCx - headRx * 0.92;
-  const rightCut = headCx + headRx * 0.92;
-
-  const mastheadFront = showText ? `
-    <g clip-path="url(#${clipId})">${mastheadText('#FCF9F2')}</g>
-  ` : '';
+  const masthead = showText ? `<g class="vc-masthead">${mastheadText('#FCF9F2')}</g>` : '';
 
   // ---- Cover lines: two upper-left, two lower-right, never in the centre ----
   const colWidth = centerLeft - M;
@@ -489,7 +420,7 @@ export function renderIssueCover(issue, options = {}) {
     <g class="vc-hero">
       <text x="${width / 2}" y="${heroBottom}" text-anchor="middle"
             font-family="${SERIF}" font-size="${heroSize}" font-weight="700"
-            fill="#FCF9F2"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.hero"` : ''}>${escapeXml(heroText)}</text>
+            fill="#FCF9F2" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55" stroke-width="${Math.max(2, width * 0.006)}" stroke-linejoin="round"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.hero"` : ''}>${escapeXml(heroText)}</text>
       <line x1="${width * 0.30}" y1="${heroBottom + height * 0.018}"
             x2="${width * 0.70}" y2="${heroBottom + height * 0.018}"
             stroke="${accent}" stroke-width="${Math.max(1.5, width * 0.0022)}" />
@@ -522,7 +453,7 @@ export function renderIssueCover(issue, options = {}) {
     <text x="${width / 2}" y="${tagY}" text-anchor="middle" font-family="${SANS}"
           font-size="${Math.round(width * 0.0205)}" font-weight="600"
           letter-spacing="${(width * 0.0042).toFixed(2)}" fill="${accent}"
-          fill-opacity="0.9"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.tag"` : ''}>${escapeXml(String(tag).toUpperCase())}</text>
+          fill-opacity="0.95" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55" stroke-width="${Math.max(2, width * 0.006)}" stroke-linejoin="round"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.tag"` : ''}>${escapeXml(String(tag).toUpperCase())}</text>
   ` : '';
 
   const grainId = `vc-${uid}-grain`;
@@ -533,10 +464,6 @@ export function renderIssueCover(issue, options = {}) {
          data-issue="${escapeXml(number)}" data-vogue-cover="true" role="img"
          aria-label="${escapeXml(`${title} — ${number} cover`)}">
       <defs>
-        <clipPath id="${clipId}">
-          <rect x="0" y="0" width="${leftCut}" height="${height}" />
-          <rect x="${rightCut}" y="0" width="${width - rightCut}" height="${height}" />
-        </clipPath>
         <linearGradient id="vc-${uid}-bg" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="${backdrop}" />
           <stop offset="62%" stop-color="${backdrop}" />
@@ -557,9 +484,8 @@ export function renderIssueCover(issue, options = {}) {
       <rect width="${width}" height="${height}" fill="url(#vc-${uid}-bg)" />
       <rect width="${width}" height="${height}" fill="url(#vc-${uid}-halo)" />
 
-      ${showText ? `<g class="vc-masthead vc-masthead--behind">${mastheadText('#FCF9F2')}</g>` : ''}
       ${subject}
-      ${mastheadFront}
+      ${masthead}
       ${tagLine}
       ${corner}
       ${leftLines}

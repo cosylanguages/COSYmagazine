@@ -1,0 +1,68 @@
+{
+  "_note": "Cover photographs are CC0 or public domain, sourced from Wikimedia Commons. They are used inside paid editions, so only licences with no attribution obligation are accepted. Each entry records the source file page for provenance.",
+  "covers": {
+    "2026-08": {
+      "file": "images/covers/2026-08.jpg",
+      "title": "Digital carrel classroom.webp",
+      "artist": "Wikideas1",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Digital_carrel_classroom.webp",
+      "note": "empty study carrels - \"a classroom rebuilt\", no faces"
+    },
+    "2026-09": {
+      "file": "images/covers/2026-09.jpg",
+      "title": "Moss-covered stone stairs ascending a forest path.jpg",
+      "artist": "Krishna k. sahh",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Moss-covered_stone_stairs_ascending_a_forest_path.jpg",
+      "note": "stone stairs ascending a forest path - climbing out of the plateau"
+    },
+    "2026-10": {
+      "file": "images/covers/2026-10.jpg",
+      "title": "Field Notes and pencil (Unsplash).jpg",
+      "artist": "Helloquence helloquence",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Field_Notes_and_pencil_(Unsplash).jpg",
+      "note": "Field Notes and pencil - founder/notes edition"
+    },
+    "2026-11": {
+      "file": "images/covers/2026-11.jpg",
+      "title": "Chained Books - Chelsea Old Church, London - DSC02968.jpg",
+      "artist": "Daderot",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Chained_Books_-_Chelsea_Old_Church,_London_-_DSC02968.jpg",
+      "note": "chained books, Chelsea Old Church - academia, memory"
+    },
+    "2026-12": {
+      "file": "images/covers/2026-12.jpg",
+      "title": "Vintage teacup in front of tabletop Christmas tree.png",
+      "artist": "Funknendai",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Vintage_teacup_in_front_of_tabletop_Christmas_tree.png",
+      "note": "vintage teacup by a Christmas tree - winter ritual"
+    },
+    "2027-02": {
+      "file": "images/covers/2027-02.jpg",
+      "title": "Pierre-Auguste Renoir - Bouquet de roses.jpg",
+      "artist": "Pierre-Auguste Renoir",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Bouquet_de_roses.jpg",
+      "note": "Renoir, Bouquet de roses - romance & nuance (PD painting)"
+    },
+    "podcast": {
+      "file": "images/covers/podcast.jpg",
+      "title": "Shure SM61 Microphone with Shadow.jpg",
+      "artist": "Jenkuh",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Shure_SM61_Microphone_with_Shadow.jpg",
+      "note": "Shure SM61 microphone - the podcast series"
+    }
+  }
+}

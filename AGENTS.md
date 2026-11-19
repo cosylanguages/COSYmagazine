@@ -126,10 +126,26 @@ generated output.
 ## Issue covers
 
 - `js/art/vogue-cover.js` draws the portrait 3:4 covers on `issues-catalog.html`.
-  `ISSUE_COVERS` holds **art only** (palette, pose); the copy comes from
+  `ISSUE_COVERS` holds **art only** (palette, `photo`); the copy comes from
   `js/i18n/*.json` under `catalog.covers.<key>` and is passed in as `fitTexts`.
   Keep it that way — when the copy also lived in `ISSUE_COVERS`, the renderer
   measured one string and drew another, and long English lines overflowed.
+- Each cover is a **photograph**, not drawn line art. Earlier parametric busts
+  read as uncanny (white ellipse eyes), so covers now show rooms, objects and
+  place, never a face. Photos live in `images/covers/<key>.jpg` and are
+  **CC0 or public domain only** — the editions are sold, so no attribution or
+  share-alike licences. `images/covers/CREDITS.json` records the source page and
+  licence for every file; `tests/test_cover_art.mjs` fails if a cover, its credit
+  or a sellable licence is missing, and asserts the cover embeds `<image>` and
+  draws no `<ellipse>`. Add a new photo by dropping the file in, adding its
+  credit, and pointing `ISSUE_COVERS[key].photo` at it.
+- The photo is full-bleed under a vertical scrim. Keep the scrim light enough in
+  the middle band that the image reads (target mid-band luminance ~0.12–0.25),
+  and rely on the `paint-order="stroke"` halo behind cream type for legibility
+  rather than darkening the whole cover to black.
+- `scripts/ops/build-issue-pdf.js` writes its HTML into `private-issues/` and
+  loads it from `file://`, where a relative `images/covers/...` href would miss.
+  It inlines the photo as a data URI — keep that when touching the PDF path.
 - Every localized cover string must be a **single text node**. `shell.js` sets
   `textContent` on the element carrying `data-i18n`, so a string split over
   several nodes keeps its built language on the extra nodes and renders a

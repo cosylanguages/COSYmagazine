@@ -429,10 +429,24 @@ async function buildHtml(volume, lang) {
   const label = `${issueVolume(volume)} · ${langName} Edition`;
   const coverSvg = await renderIssueCover(volume, lang, title);
 
+  // The PDF is assembled as HTML in private-issues/ and loaded from a file:// URL, where a
+  // relative "images/covers/..." href would resolve next to the PDF and miss. Inline the
+  // photograph as a data URI so the print edition and the web edition draw the same cover.
+  const coverSvgInlined = coverSvg.replace(
+    /href="(images\/covers\/[^"]+)"/g,
+    (match, rel) => {
+      const abs = path.join(ROOT, rel);
+      if (!fs.existsSync(abs)) return match;
+      const mime = rel.endsWith('.png') ? 'image/png' : 'image/jpeg';
+      const b64 = fs.readFileSync(abs).toString('base64');
+      return `href="data:${mime};base64,${b64}"`;
+    }
+  );
+
   const pages = [];
 
   pages.push(`<section class="page"><div class="cover">
-  <div class="cover-art">${coverSvg}</div>
+  <div class="cover-art">${coverSvgInlined}</div>
   <div class="cover-foot">COSYmagazine · ${escapeHtml(label)}</div>
 </div></section>`);
 
