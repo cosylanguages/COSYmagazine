@@ -8,9 +8,9 @@ This document is the definitive authoring specification and schema reference for
 
 Blog publishing in COSYlanguages follows a **zero-code, single-source-of-truth JSON pipeline**:
 
-- **Source Location**: `posts/*.json`
+- **Source Location**: `content/**/posts/*.json` (issue articles under `content/issues/<YYYY-MM>/posts/`, site-only series under `content/website/<desk>/posts/`)
 - **Canonical Format**: Every article is written as a structured JSON object adhering to `docs/reference/SCHEMA.md`.
-- **Zero-Code Publishing**: Adding a new post requires **zero code changes** to index files, CSS, or JS templates. Add a JSON file under `posts/` and run the build script.
+- **Zero-Code Publishing**: Adding a new post requires **zero code changes** to index files, CSS, or JS templates. Add a JSON file under the right folder in `content/` and run the build script.
 - **Build Pipeline**: Executing `node scripts/build/build-blog.js` automatically:
   1. Validates post schema and field constraints.
   2. Renders standalone static HTML post pages at the repository root (`{slug}.html`).
@@ -114,7 +114,7 @@ Every block MAY include optional stage direction properties for automated audio 
 ## 4. Step-by-Step Publishing & Validation Workflow
 
 1. **Create the JSON file**:
-  Save a new JSON file in `posts/{slug}.json`.
+  Save a new JSON file in `content/issues/<YYYY-MM>/posts/{slug}.json` (or `content/website/<desk>/posts/` for a site-only series).
 
 2. **Validate Schema**:
    Run the schema validator to verify syntax, required fields, and block structures:
@@ -139,7 +139,7 @@ Every block MAY include optional stage direction properties for automated audio 
 
 ## 5. Worked Example Post
 
-Below is a complete, minimal, valid example of a post JSON file (`posts/sample-authoring-guide.json`):
+Below is a complete, minimal, valid example of a post JSON file (`content/issues/2026-08/posts/sample-authoring-guide.json`):
 
 ```json
 {
@@ -190,7 +190,7 @@ Below is a complete, minimal, valid example of a post JSON file (`posts/sample-a
     },
     {
       "type": "paragraph",
-      "text": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post in <code>posts/</code> and run the build script.",
+      "text": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post under <code>content/</code> and run the build script.",
       "say": "Publishing on COSYmagazine requires no HTML coding. Authors create a structured JSON post and run the build script."
     },
     {
@@ -203,9 +203,9 @@ Below is a complete, minimal, valid example of a post JSON file (`posts/sample-a
     {
       "type": "quiz",
       "question": "Which folder holds the canonical source JSON files for blog posts?",
-      "options": ["/posts/", "/html/", "/src/"],
+      "options": ["/content/", "/html/", "/src/"],
       "correctIndex": 0,
-      "explanation": "All canonical post JSON files are located in posts/.",
+      "explanation": "All canonical post JSON files are located under content/.",
       "say": "Quick check: Which folder holds canonical post files?"
     }
   ]

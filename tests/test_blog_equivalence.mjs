@@ -6,8 +6,8 @@ import { fileURLToPath } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const BLOG_DIR = path.join(__dirname, '..');
+const { listPostFiles } = await import('../scripts/build/lib/content-paths.js');
 
 function decodeEntities(str) {
   return String(str)
@@ -27,13 +27,13 @@ function cleanText(str) {
 }
 
 test('Every JSON post builds to HTML and retains text content', () => {
-  const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
+  const jsonFiles = listPostFiles();
   assert.ok(jsonFiles.length > 0, 'Should find JSON post files.');
 
   let checkedCount = 0;
 
   jsonFiles.forEach(file => {
-    const postData = JSON.parse(fs.readFileSync(path.join(POSTS_DIR, file), 'utf-8'));
+    const postData = JSON.parse(fs.readFileSync(file, 'utf-8'));
 
     // Skip drafts from HTML check
     if (postData.draft) {

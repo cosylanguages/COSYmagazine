@@ -18,7 +18,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-POSTS = os.path.join(ROOT, 'posts')
+CONTENT = os.path.join(ROOT, 'content')
 DRY = '--dry-run' in sys.argv
 
 E = {
@@ -200,7 +200,7 @@ def process(path):
 
 
 if __name__ == '__main__':
-    done = [r for r in (process(p) for p in sorted(glob.glob(os.path.join(POSTS, '*.json')))) if r]
+    done = [r for r in (process(p) for p in sorted(glob.glob(os.path.join(CONTENT, '**', 'posts', '*.json'), recursive=True))) if r]
     for slug, n in done:
         print(f'{n:2} refs  {slug}')
     print(f'\n{len(done)} articles carry a reference list.')

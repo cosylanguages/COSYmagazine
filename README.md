@@ -7,7 +7,7 @@
 Part of the COSY ecosystem. Hub: [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) · Practice: [COSYpractice](https://github.com/cosylanguages/COSYpractice) · Tools: [COSYtools](https://github.com/cosylanguages/COSYtools).
 
 ## How it works
-Every article is one JSON file in `posts/`, validated against `docs/reference/SCHEMA.md`. A build turns them into static pages. **Adding an article needs no code change.**
+Every article is one JSON file under `content/`, validated against `docs/reference/SCHEMA.md`. A build turns them into static pages. **Adding an article needs no code change.**
 
 ```bash
 npm install
@@ -15,7 +15,7 @@ npm run build      # posts → <slug>.html, index.json, posts.json, covers (og/)
 npm test           # node --test style checks in tests/*.mjs
 ```
 
-1. Add `posts/<slug>.json` (see `docs/authoring/BLOG_AUTHORING.md`; a translation sets `translationOf` to the base slug).
+1. Add `content/issues/<YYYY-MM>/posts/<slug>.json` (see `docs/authoring/BLOG_AUTHORING.md`; a translation sets `translationOf` to the base slug).
 2. `npm run build`, then commit the generated files (GitHub Pages serves them as they are).
 
 Set `"draft": true` to keep a post out of the site.
@@ -33,11 +33,11 @@ See [docs/publishing/MAGAZINE_PDF_UPLOAD.md](docs/publishing/MAGAZINE_PDF_UPLOAD
 |---|---|
 | `index.html` | Newsstand: latest issue, search, filters (desk, language, issue). State lives in the URL (`?desk=Words&lang=fr`). Translations are grouped under their article |
 | `podcast.html` | Podcast desk |
-| `posts/*.json` | Source of truth |
+| `content/**/posts/*.json` | Source of truth (grouped by issue) |
 | `<slug>.html`, `index.json`, `posts.json`, `og/` | Generated, do not edit by hand |
 | `scripts/build/` | Build pipeline, validation, cover art, RSS, sitemap |
 | `scripts/ops/` | PDF publishing, Supabase upload, stage video export |
-| `scripts/content/` | Python scripts that rewrite `posts/*.json` in bulk |
+| `scripts/content/` | Python scripts that rewrite `content/**/posts/*.json` in bulk |
 | `scripts/archive/` | One-off scripts kept for reference, not wired to any command |
 | `docs/` | [Authoring, issues, publishing and reference docs](docs/README.md) |
 | `css/`, `js/`, `fonts/` | Design layer (shared COSY tokens, self-hosted Fraunces, Literata, Commissioner), shell, stage mode, flipbook |

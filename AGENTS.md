@@ -8,7 +8,7 @@ directly, so generated output is committed (see the note at the bottom of
 
 ```bash
 npm install
-npm run build      # posts/*.json -> <slug>.html, index.json, posts.json, og/, podcast.xml, sitemap.xml
+npm run build      # content/**/posts/*.json -> <slug>.html, index.json, posts.json, og/, podcast.xml, sitemap.xml, content-manifest.json
 npm run validate   # schema + i18n dictionaries
 npm test           # node --test tests/*.mjs  (CommonJS scripts; .mjs tests are ESM)
 npx playwright test  # E2E specs in tests/*.spec.ts
@@ -20,19 +20,28 @@ generated output.
 
 ## Source of truth
 
-- `posts/<slug>.json` is the only source. Translations set `translationOf` to the
-  base slug and their own `language`. `draft: true` keeps a post out of the build.
+- `content/` holds every post source, grouped by role. `content/issues/<YYYY-MM>/posts/`
+  for articles belonging to a magazine issue, `content/website/<desk>/posts/` for site-only
+  series (Saturday Mistakes, the welcome page). See `content/README.md`.
+- A post's `issue.number` decides its folder; pages are written to `<slug>.html` at the
+  repository root, so moving a source file never changes a URL.
+- `content/issues/<YYYY-MM>/drafts/` holds staged, unpublished variants. The build skips
+  any directory named `drafts`, so drafts cannot leak into the site. `content/DRAFTS.md`
+  documents the review workflow.
 - `posts.json` (catalog) and `index.json` (newsstand feed) are generated mirrors.
-  A regression test asserts their metadata mirrors the `posts/*.json` sources.
-- `drafts-review/` holds staged, unpublished variants; the build never reads it.
+  A regression test asserts their metadata mirrors the `content/**/posts/*.json` sources.
+- `content-manifest.json` (generated) maps slug -> source path so `editor.html` can load
+  posts. Regenerate it with the build; do not hand-edit.
+- Discovery lives in one place: `scripts/build/lib/content-paths.js` (`listPostFiles()`).
+  Add new content roots there rather than re-globbing the tree.
 
 ## Architecture
 
 - `scripts/` is grouped by role: `build/` (the `npm run build` pipeline and validators),
   `ops/` (PDF, Supabase upload, stage video export), `content/` (Python scripts that rewrite
-  `posts/*.json` in bulk), `archive/` (one-off scripts that produced the current posts and are
+  `content/**/posts/*.json` in bulk), `archive/` (one-off scripts that produced the current posts and are
   kept only for reference). Nothing in `archive/` is wired into a package script.
-- `scripts/build/build-blog.js` is the entry point: it loads `posts/*.json`, decides what is
+- `scripts/build/build-blog.js` is the entry point: it loads `content/**/posts/*.json`, decides what is
   live, and writes the pages and mirrors. The rendering work lives in `scripts/build/lib/`:
 
   | Module | Responsibility |
@@ -44,6 +53,7 @@ generated output.
   | `post-page.js` | the full `<slug>.html` document template |
   | `catalog.js` | `posts.json` and `index.json` |
   | `audio.js` | podcast embed resolution, `hasPlayer`, player box |
+  | `content-paths.js` | where post sources live: `listPostFiles()`, `walkJson()` |
 
   `blocks.js` and `post-page.js` are pure: callers pass `{ isFirstParagraph, slug, lang }`
   or a full `ctx` object rather than relying on module-level state. Keep it that way —
@@ -106,7 +116,7 @@ generated output.
 
 ## Known non-issues (do not "fix")
 
-- `posts/*.json` may reference local audio under `audio/` that is not committed; the
+- `content/**/posts/*.json` may reference local audio under `audio/` that is not committed; the
   build omits a player when the file is absent, so nothing renders broken.
 - Some issues are future-dated on purpose (editorial calendar). Sitemap `lastmod`
   is clamped to the build date, so this is fine.

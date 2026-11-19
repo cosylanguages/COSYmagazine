@@ -16,7 +16,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-POSTS = os.path.join(ROOT, 'posts')
+CONTENT = os.path.join(ROOT, 'content')
 DRY = '--dry-run' in sys.argv
 
 HEAD_VERBS = {
@@ -243,7 +243,7 @@ def process(path):
 
 if __name__ == '__main__':
     report = []
-    for p in sorted(glob.glob(os.path.join(POSTS, '*.json'))):
+    for p in sorted(glob.glob(os.path.join(CONTENT, '**', 'posts', '*.json'), recursive=True)):
         r = process(p)
         if r:
             report.append(r)

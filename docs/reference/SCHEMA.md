@@ -139,7 +139,7 @@ The validator checks required fields, allowed languages/desks/formats/block type
 ```bash
 node scripts/build/validate-blog-schema.js
 ```
-The script inspects JSON post files in `posts/` and required interface keys in `js/i18n/`. It exits with code `0` if validation passes, or `1` if validation fails. Some descriptive conventions in this document (for example, tag element types and optional block properties) are not currently enforced by the validator.
+The script inspects JSON post files under `content/**/posts/` (skipping `drafts/`) and required interface keys in `js/i18n/`. It exits with code `0` if validation passes, or `1` if validation fails. Some descriptive conventions in this document (for example, tag element types and optional block properties) are not currently enforced by the validator.
 
 ### Scheduled publishing
 
