@@ -460,7 +460,7 @@
     const postSlug = params.get('slug');
     showTab(postSlug ? 'content' : (readSavedTab() || 'start'));
 
-    await loadCatalogPosts();
+    await Promise.all([loadCatalogPosts(), loadContentManifest()]);
 
     // Check user auth
     if (Auth) {
@@ -932,6 +932,25 @@
   /**
    * Load public posts.json index to populate "Open Existing Post" dropdown
    */
+  // slug -> repo path of the source JSON, so the studio can open posts whose
+  // sources live under content/ rather than a flat posts/ directory.
+  let contentManifest = null;
+
+  async function loadContentManifest() {
+    try {
+      const res = await fetch('content-manifest.json');
+      if (res.ok) contentManifest = await res.json();
+    } catch (e) {
+      console.warn('[Studio] Could not load content-manifest.json:', e);
+    }
+  }
+
+  function postSourceUrl(slug) {
+    const rel = contentManifest?.posts?.[slug];
+    // editor.html sits at the repo root, so the manifest's repo-relative path resolves as-is.
+    return rel || `posts/${encodeURIComponent(slug)}.json`;
+  }
+
   async function loadCatalogPosts() {
     try {
       const res = await fetch('posts.json');
@@ -969,8 +988,8 @@
   async function loadPostBySlug(slug) {
     setStatus(`Loading article "${slug}"...`, 'info');
     try {
-      const res = await fetch(`posts/${encodeURIComponent(slug)}.json`);
-      if (!res.ok) throw new Error(`Could not find posts/${slug}.json`);
+      const res = await fetch(postSourceUrl(slug));
+      if (!res.ok) throw new Error(`Could not find source for ${slug}`);
       const postData = await res.json();
       setCurrentPost(postData);
       setStatus(`Loaded "${postData.title}"`, 'success');
@@ -2783,7 +2802,7 @@
   async function fetchFullPost(slug) {
     if (currentPost && currentPost.slug === slug) return currentPost; // unsaved edits count
     if (plannerCache[slug]) return plannerCache[slug];
-    const res = await fetch(`posts/${encodeURIComponent(slug)}.json`);
+    const res = await fetch(postSourceUrl(slug));
     if (!res.ok) throw new Error(slug);
     plannerCache[slug] = await res.json();
     return plannerCache[slug];

@@ -2,7 +2,7 @@
 
 ## Sources and generated files
 
-Article content is authored in `posts/*.json`. The JSON post files are the source of truth; published HTML and metadata files are checked in because GitHub Pages serves the repository directly.
+Article content is authored as JSON under `content/` (`content/issues/<YYYY-MM>/posts/*.json` for issue articles, `content/website/<desk>/posts/*.json` for site-only series). The JSON post files are the source of truth; published HTML and metadata files are checked in because GitHub Pages serves the repository directly.
 
 `npm run build` runs three steps:
 

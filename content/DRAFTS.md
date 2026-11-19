@@ -4,9 +4,9 @@ Expanded versions of the Top 10 verbs articles (and later the sentence frames) f
 Chuvash (cv), Armenian (hy), Georgian (ka) and Tatar (tt). They follow the structure of the fully expanded
 French/Italian/Spanish articles but were written by an AI in languages where it is less reliable.
 
-- These files are **not** built or published; the shorter articles in `posts/` stay live.
+- These files are **not** built or published; the shorter articles in `content/**/posts/` stay live.
 - Passages the writer was unsure of end with `⚠` — check those first.
-- When a reviewer has approved a file, copy it over the matching file in `posts/`, remove any `⚠`, then run
+- When a reviewer has approved a file, copy it over the matching file in `content/**/posts/`, remove any `⚠`, then run
   `python3 scripts/content/add_fulllists.py && python3 scripts/content/add_references.py && npm run build && node scripts/build/validate-blog-schema.js`.
 
 ## Status

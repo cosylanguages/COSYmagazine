@@ -12,23 +12,22 @@ const fs = require('fs');
 const path = require('path');
 
 const BLOG_DIR = path.join(__dirname, '..', '..');
-const POSTS_DIR = path.join(BLOG_DIR, 'posts');
+const { listPostFiles } = require('../build/lib/content-paths.js');
 
 function validatePodcastReadiness() {
   console.log('🎙️ Validating Blog Posts for Podcast Readiness...\n');
 
-  if (!fs.existsSync(POSTS_DIR)) {
-    console.error('❌ Blog posts directory not found:', POSTS_DIR);
+  const jsonFiles = listPostFiles();
+  if (jsonFiles.length === 0) {
+    console.error('❌ No blog post sources found under content/');
     process.exit(1);
   }
-
-  const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
   let totalPosts = 0;
   let podcastReadyCount = 0;
   const reports = [];
 
-  jsonFiles.forEach(file => {
-    const filePath = path.join(POSTS_DIR, file);
+  jsonFiles.forEach(filePath => {
+    const file = path.basename(filePath);
     let post;
     try {
       post = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
@@ -71,6 +70,7 @@ function validatePodcastReadiness() {
 
     reports.push({
       file,
+      path: path.relative(BLOG_DIR, filePath),
       slug: post.slug || file.replace('.json', ''),
       title: post.title || 'Untitled',
       language: post.language || 'en',

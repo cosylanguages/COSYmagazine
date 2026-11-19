@@ -2,7 +2,7 @@
 
 ## Content and publishing
 
-- `posts/*.json` is the canonical source for article content.
+- `content/**/posts/*.json` is the canonical source for article content (see `content/README.md`).
 - Root-level article HTML, `posts.json`, `index.json`, `podcast.xml`, `sitemap.xml`, and `og/` artwork are generated publishing artifacts and are checked in for GitHub Pages.
 - `index.html`, `podcast.html`, and `issues.html` are the main editorial views. `editor.html` is the in-repository authoring interface.
 

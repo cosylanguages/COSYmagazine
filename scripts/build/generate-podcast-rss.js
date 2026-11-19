@@ -10,8 +10,9 @@
 const fs = require('fs');
 const path = require('path');
 
+const { listPostFiles } = require('./lib/content-paths.js');
+
 const BLOG_DIR = path.join(__dirname, '..', '..');
-const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const RSS_FILE = path.join(BLOG_DIR, 'podcast.xml');
 
 function escapeXml(unsafe) {
@@ -29,11 +30,10 @@ function generatePodcastRss() {
 
   const items = [];
 
-  if (fs.existsSync(POSTS_DIR)) {
-    const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
+  {
+    const jsonFiles = listPostFiles();
 
-    jsonFiles.forEach(file => {
-      const filePath = path.join(POSTS_DIR, file);
+    jsonFiles.forEach(filePath => {
       try {
         const post = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         const podcast = post.podcast || {};
