@@ -149,6 +149,9 @@ generated output.
 - `tests/blog_i18n_script_validation.spec.ts` renders every non-English page and
   asserts no untranslated English UI strings. Its brand allowlist is for legitimate
   external brand names only — never widen it to silence a real leak.
+- French post copy carries non-breaking spaces before `: ? ! ;` and inside guillemets.
+  Without them the flipbook and the printed PDF break `« préparation »` across a line
+  and start the next one with a stray `»`.
 
 ## Issue covers
 

@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-20T19:51:29.689Z",
+  "generatedAt": "2026-11-20T20:21:05.737Z",
   "stats": {
-    "totalPosts": 112,
+    "totalPosts": 114,
     "totalDesks": 13,
     "totalIssues": 7
   },
@@ -4278,6 +4278,94 @@
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
         "seed": "why-speaking-first",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-in-conversation-founder-august-school-fr",
+      "slug": "in-conversation-founder-august-school-fr",
+      "language": "fr",
+      "translationOf": "in-conversation-founder-august-school",
+      "desk": "COSYtalks",
+      "section": "founder_interview",
+      "format": "qa",
+      "level": "A2–C1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Entretien avec le fondateur : la peur du premier cours et désapprendre l'école",
+      "kicker": "ENTRETIEN THÉMATIQUE",
+      "dek": "Pourquoi des adultes éloquents et accomplis se figent-ils devant la porte de la classe ? Le fondateur James (JY DM) démonte l'encre rouge de l'enfance, le mythe de la « préparation » grammaticale, et explique comment parler dès la première minute apaise le cerveau qui apprend. Entretien réalisé par Alfinur M.",
+      "tags": [
+        "Interview",
+        "Founder",
+        "Pedagogy",
+        "Speaking-First",
+        "Psychology"
+      ],
+      "readingTime": 7,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "founder-august-school",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-in-conversation-founder-august-school-ru",
+      "slug": "in-conversation-founder-august-school-ru",
+      "language": "ru",
+      "translationOf": "in-conversation-founder-august-school",
+      "desk": "COSYtalks",
+      "section": "founder_interview",
+      "format": "qa",
+      "level": "A2–C1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Разговор с основателем: Джеймс о страхе первого урока",
+      "kicker": "ТЕМАТИЧЕСКОЕ ИНТЕРВЬЮ",
+      "dek": "Почему взрослые, свободно говорящие о работе, замирают на пороге класса? Основатель Джеймс (JY DM) разбирает детскую красную ручку, миф о «грамматической готовности» и объясняет, почему речь с первой минуты лечит мозг — и как разучиться школьному страху. Интервью взяла Алфинур М.",
+      "tags": [
+        "Interview",
+        "Founder",
+        "Pedagogy",
+        "Speaking-First",
+        "Psychology"
+      ],
+      "readingTime": 7,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "founder-august-school",
         "coverOverride": null
       },
       "draft": false
