@@ -4208,6 +4208,96 @@
     }
   },
   {
+    "slug": "in-conversation-founder-august-school-fr",
+    "title": "Entretien avec le fondateur : la peur du premier cours et désapprendre l'école",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "Pourquoi des adultes éloquents et accomplis se figent-ils devant la porte de la classe ? Le fondateur James (JY DM) démonte l'encre rouge de l'enfance, le mythe de la « préparation » grammaticale, et explique comment parler dès la première minute apaise le cerveau qui apprend. Entretien réalisé par Alfinur M.",
+    "author": "JY DM",
+    "reading_time": 7,
+    "cover_image": "",
+    "tags": [
+      "Interview",
+      "Founder",
+      "Pedagogy",
+      "Speaking-First",
+      "Psychology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "in-conversation-founder-august-school-fr.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A2–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "founder-august-school",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "in-conversation-founder-august-school-ru",
+    "title": "Разговор с основателем: Джеймс о страхе первого урока",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "COSYtalks",
+    "summary": "Почему взрослые, свободно говорящие о работе, замирают на пороге класса? Основатель Джеймс (JY DM) разбирает детскую красную ручку, миф о «грамматической готовности» и объясняет, почему речь с первой минуты лечит мозг — и как разучиться школьному страху. Интервью взяла Алфинур М.",
+    "author": "JY DM",
+    "reading_time": 7,
+    "cover_image": "",
+    "tags": [
+      "Interview",
+      "Founder",
+      "Pedagogy",
+      "Speaking-First",
+      "Psychology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "in-conversation-founder-august-school-ru.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A2–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "founder-august-school",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "in-conversation-founder-august-school",
     "title": "In Conversation: Founder James on the Fear of Lesson One and Unlearning School Trauma",
     "date": "2026-08-01",

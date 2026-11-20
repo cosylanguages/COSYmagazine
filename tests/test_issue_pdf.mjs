@@ -7,6 +7,7 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const { buildHtml, loadEdition, editionLanguages, runningDesks } = require(path.join(ROOT, 'scripts/ops/build-issue-pdf.js'));
+const { escapeHtml } = require(path.join(ROOT, 'scripts/build/lib/text.js'));
 
 const BLUEPRINT = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/blueprint.json'), 'utf8'));
 
@@ -55,7 +56,7 @@ test('the rendered edition carries the blueprint and no draft placeholders', asy
 
     const posts = loadEdition('2026.08', lang);
     for (const post of posts) {
-      assert.ok(html.includes(post.title), `${lang} edition is missing "${post.title}"`);
+      assert.ok(html.includes(escapeHtml(post.title)), `${lang} edition is missing "${post.title}"`);
     }
   }
 });
