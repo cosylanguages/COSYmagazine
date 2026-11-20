@@ -394,7 +394,10 @@
     },
     "words_unit": "mots",
     "contents": "Sommaire",
-    "blueprint_label": "Charte éditoriale"
+    "blueprint_label": "Charte éditoriale",
+    "edition": "Édition française",
+    "volume_label": "Vol.",
+    "about_edition": "À propos de cette édition"
   },
   "section": {
     "words_desk": "Le Coin des Mots",

@@ -400,7 +400,10 @@
     },
     "words_unit": "слов",
     "contents": "Содержание",
-    "blueprint_label": "Редакционная концепция"
+    "blueprint_label": "Редакционная концепция",
+    "edition": "Русское издание",
+    "volume_label": "Том",
+    "about_edition": "Об этом издании"
   },
   "section": {
     "words_desk": "Стол слов",

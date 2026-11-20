@@ -113,6 +113,27 @@ generated output.
 - Evergreen posts (`contentType: 'evergreen'`) belong to no volume, so they are absent
   from the issue catalog and carry no `issue_volume` in `posts.json`.
 
+### Print pagination
+
+- **Articles run on.** Only zone openers, the contents page and the appendix take
+  `break-before: page`. A forced break per article left sheets three-quarters blank when a
+  piece ended mid-page, which is what made the sold PDFs feel like drafts.
+- The article body is a `column-count: 2` flow, so page furniture inside it is fragile:
+  - `column-span: all` only works on a *direct* child of `.article-body`. `cleanPrintDom()`
+    unwraps the source's unclassed layout divs for exactly that reason — a table inside a
+    wrapper cannot span the gutter and jumps columns out of reading order.
+  - `break-inside: avoid` on the *first* block of the body (a banner, a box) makes Chromium
+    move the whole flow to the next page and leave the head alone on a blank sheet. Span it
+    instead, or drop the rule.
+- Body copy carries its own volume strings (`"Vol. 2026 — Master Editorial Hub"`). The build
+  rewrites a bare `Vol. YYYY` to `Vol. YYYY.MM`; without it every edition of a year prints
+  the same, wrong volume.
+- The editorial blueprint has 19 entries, more than one page holds. It is split in two by
+  text weight, not by count, because description lengths differ per language — a count split
+  left the Russian second page 14% full.
+- When checking a build, look for pages under ~45% fill. Zone openers are deliberately
+  sparse; anything else is a pagination bug.
+
 ## i18n
 
 - Interface strings live in `js/i18n/*.json`. Post free-text fields (e.g. a raw

@@ -13,7 +13,9 @@
     "test-e2e": "playwright test"
   },
   "dependencies": {
-    "marked": "^18.0.14"
+    "marked": "^18.0.14",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.5.438"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1"

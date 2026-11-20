@@ -129,11 +129,11 @@ test('renderIssueCover - cover lines never reach the centre band', () => {
   }
 });
 
-test('renderIssueCover - the tag sits in the gutter between the cover-line blocks', () => {
-  // The tag is centred, so a long Russian or Greek tag spans most of the width. It must sit
-  // in the empty band between the upper-left and lower-right cover lines; anywhere else it
-  // lands on top of a cover line. The old "just below the chin" position collided with the
-  // second left cover line in ru and el.
+test('renderIssueCover - the tag sits between the masthead and the first cover lines', () => {
+  // The tag is centred, so a long Russian or Greek tag spans most of the width. It sits in
+  // the darkened band directly under the logo, as a subtitle to the masthead, clear of all
+  // four cover lines. The old "just below the chin" position collided with the second left
+  // cover line in ru and el.
   for (const lang of LANGS) {
     const covers = loadDict(lang).catalog.covers;
     for (const [key, cover] of Object.entries(covers)) {
@@ -160,8 +160,12 @@ test('renderIssueCover - the tag sits in the gutter between the cover-line block
       assert.equal(left.length, 2, `${lang}/${key} needs two left kickers`);
       assert.equal(right.length, 2, `${lang}/${key} needs two right kickers`);
 
-      assert.ok(tagY > Math.max(...left), `${lang}/${key} tag at ${tagY} overlaps the left cover lines`);
-      assert.ok(tagY < Math.min(...right), `${lang}/${key} tag at ${tagY} overlaps the right cover lines`);
+      const mastheadY = Number(/<text x="450" y="([\d.]+)"[^>]*textLength=/.exec(svg)?.[1]);
+      assert.ok(Number.isFinite(mastheadY), `${lang}/${key} must emit the masthead`);
+      assert.ok(tagY > mastheadY, `${lang}/${key} tag at ${tagY} rides on the masthead at ${mastheadY}`);
+      assert.ok(tagY < Math.min(...left, ...right),
+        `${lang}/${key} tag at ${tagY} overlaps the cover lines at ${[...left, ...right].join(', ')}`);
+      assert.ok(tagY - mastheadY > 20, `${lang}/${key} tag at ${tagY} crowds the masthead at ${mastheadY}`);
     }
   }
 });

@@ -87,10 +87,13 @@ test('front matter is localized, so no edition prints an English blueprint', asy
 test('no edition prints emoji, which would render as empty boxes', async () => {
   // No emoji font is installed in the print browser, so an emoji reaches the page as
   // tofu. The blueprint copy is emoji-rich, so this guards the strip at assembly time.
-  const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{20E3}]/u;
+  const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{20E3}]/gu;
+  // The tick and cross are dingbats, not emoji: DejaVu Sans carries them and the
+  // "instead of / try this" cards use them as the right/wrong marks.
+  const TYPOGRAPHIC_MARKS = /[\u2713\u2717]/g;
   for (const lang of ['en', 'fr', 'ru']) {
     const html = await buildHtml('2026.08', lang);
-    const body = html.slice(html.indexOf('</head>'));
+    const body = html.slice(html.indexOf('</head>')).replace(TYPOGRAPHIC_MARKS, '');
     assert.ok(!EMOJI.test(body), `the ${lang} edition still prints an emoji`);
   }
 });
@@ -133,15 +136,49 @@ test('the body is grouped into zone opener pages, in print order', async () => {
 });
 
 test('the contents page never invents page numbers', async () => {
-  // Chromium cannot predict where a column grid breaks across printed pages, so any
-  // page number computed at assembly time is a guess. The PDF footer prints the real
-  // number instead; the contents page carries word counts.
+  // Chromium cannot predict where a column grid breaks across printed pages, so a page
+  // number written at assembly time would be a guess. Assembly therefore prints word
+  // counts, and `buildPdf` reads the real numbers back out of the printed pages and
+  // only keeps them when the second print has the same page count.
   const html = await buildHtml('2026.08', 'en');
   assert.ok(!/class="toc-pages">\d+</.test(html), 'contents entries must not carry fabricated page numbers');
   assert.ok(/class="toc-pages">[\d,]+ words</.test(html), 'contents entries carry word counts instead');
-  assert.ok(!/class="folio"/.test(html), 'page numbers come from the PDF footer, not an in-flow folio');
-  assert.ok(/displayHeaderFooter:\s*true/.test(fs.readFileSync(
-    path.join(ROOT, 'scripts/ops/build-issue-pdf.js'), 'utf8')), 'the PDF must ask Chromium for footer numbers');
+  assert.ok(!/class="folio"/.test(html), 'page numbers come from the printed pages, not an in-flow folio');
+  const source = fs.readFileSync(path.join(ROOT, 'scripts/ops/build-issue-pdf.js'), 'utf8');
+  assert.ok(/locateArticles\(/.test(source), 'the build must read the real page numbers back from the PDF');
+  assert.ok(/applyContentsPages\(/.test(source), 'the measured numbers are written into the contents page');
+  assert.ok(/countPdfPages\(numbered\) === before/.test(source),
+    'the numbered contents page is only kept when pagination did not move');
+  assert.ok(/drawFolios\(/.test(source), 'every printed page carries its own folio');
+});
+
+test('body copy never prints a bare volume year', async () => {
+  // Post bodies carry their own volume strings ("Vol. 2026 — Master Editorial Hub"). Printing
+  // them unchanged would name a different volume on every edition of the same year.
+  for (const lang of ['en', 'fr', 'ru']) {
+    const html = await buildHtml('2026.08', lang);
+    assert.ok(!/\bVol\.\s*\d{4}(?!\.\d)/.test(html),
+      `the ${lang} edition prints a volume without its month`);
+  }
+});
+
+test('articles run on, while openers and the appendix start a fresh page', async () => {
+  const html = await buildHtml('2026.08', 'en');
+  assert.ok(/\.article\s*\{[^}]*break-before:\s*auto/.test(html),
+    'an article must not force a page break, or a short piece leaves three-quarters of a sheet blank');
+  assert.ok(/\.page:not\(\.article\)\s*\{[^}]*break-before:\s*page/.test(html),
+    'zone openers, the contents page and the appendix still open on a new page');
+});
+
+test('the appendix is split into two balanced halves', async () => {
+  const html = await buildHtml('2026.08', 'en');
+  const sections = html.match(/<section class="page back-matter"[^>]*>[\s\S]*?<\/section>/g) || [];
+  assert.equal(sections.length, 2, '19 entries need two pages, split rather than spilled');
+  const numbers = sections.flatMap((s) => [...s.matchAll(/class="bp-num">(\d+)/g)].map((m) => Number(m[1])));
+  assert.deepEqual(numbers, BLUEPRINT.elements.map((e) => Number(e.number)),
+    'the two halves must print every element once, in order');
+  assert.ok(sections[0].includes('bp-intro'), 'the title and lede belong on the first half only');
+  assert.ok(!sections[1].includes('bp-intro'), 'the second half continues the list without repeating the lede');
 });
 
 test('long reads get the long-read treatment and everything else does not', async () => {

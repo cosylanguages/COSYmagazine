@@ -222,23 +222,35 @@ function estimateWidth(text, size, tracking = 0) {
  */
 function renderPhoto({ photo, backdrop, accent, uid, height }) {
   const scrimId = `vc-${uid}-scrim`;
+  const sideId = `vc-${uid}-sides`;
   return `
     <g class="vc-subject vc-photo">
       <defs>
         <linearGradient id="${scrimId}" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="${backdrop}" stop-opacity="0.86" />
-          <stop offset="20%" stop-color="${backdrop}" stop-opacity="0.62" />
-          <stop offset="32%" stop-color="${backdrop}" stop-opacity="0.22" />
+          <stop offset="0%" stop-color="${backdrop}" stop-opacity="0.90" />
+          <stop offset="24%" stop-color="${backdrop}" stop-opacity="0.66" />
+          <stop offset="34%" stop-color="${backdrop}" stop-opacity="0.24" />
           <stop offset="56%" stop-color="${backdrop}" stop-opacity="0.18" />
           <stop offset="74%" stop-color="${backdrop}" stop-opacity="0.46" />
-          <stop offset="89%" stop-color="${backdrop}" stop-opacity="0.80" />
-          <stop offset="100%" stop-color="${backdrop}" stop-opacity="0.92" />
+          <stop offset="89%" stop-color="${backdrop}" stop-opacity="0.82" />
+          <stop offset="100%" stop-color="${backdrop}" stop-opacity="0.94" />
+        </linearGradient>
+        <!-- The centre stays open for the photograph; the two side columns are darkened
+             so cream cover lines survive an unpredictable, often pale, image. -->
+        <linearGradient id="${sideId}" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="${backdrop}" stop-opacity="0.55" />
+          <stop offset="26%" stop-color="${backdrop}" stop-opacity="0.18" />
+          <stop offset="42%" stop-color="${backdrop}" stop-opacity="0" />
+          <stop offset="58%" stop-color="${backdrop}" stop-opacity="0" />
+          <stop offset="74%" stop-color="${backdrop}" stop-opacity="0.18" />
+          <stop offset="100%" stop-color="${backdrop}" stop-opacity="0.55" />
         </linearGradient>
       </defs>
       <image href="${escapeXml(photo)}" x="0" y="0" width="100%" height="${height}"
              preserveAspectRatio="xMidYMid slice" />
       <rect width="100%" height="${height}" fill="${accent}" fill-opacity="0.10" />
       <rect width="100%" height="${height}" fill="url(#${scrimId})" />
+      <rect width="100%" height="${height}" fill="url(#${sideId})" />
     </g>
   `;
 }
@@ -387,10 +399,12 @@ export function renderIssueCover(issue, options = {}) {
         <g class="vc-cover-line">
           <text x="${x}" y="${y.toFixed(1)}" text-anchor="${anchor}" font-family="${SANS}"
                 font-size="${kickerSize}" font-weight="700" letter-spacing="${kickerTrack}"
-                fill="${accent}"${kickerKey}>${escapeXml(kicker)}</text>
+                fill="${accent}" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.62"
+                stroke-width="${Math.max(2, width * 0.005)}" stroke-linejoin="round"${kickerKey}>${escapeXml(kicker)}</text>
           <text x="${x}" y="${(y + subSize * 1.45).toFixed(1)}" text-anchor="${anchor}"
                 font-family="${SERIF}" font-size="${subSize}" font-style="italic"
-                fill="#FCF9F2"${subKey}>${escapeXml(sub)}</text>
+                fill="#FCF9F2" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55"
+                stroke-width="${Math.max(2, width * 0.0045)}" stroke-linejoin="round"${subKey}>${escapeXml(sub)}</text>
         </g>
       `;
     }).join('');
@@ -428,7 +442,7 @@ export function renderIssueCover(issue, options = {}) {
     if (tallest <= heroBoxH - heroReserve) break;
     heroSize -= 1;
   }
-  const heroBottom = height - height * 0.055;
+  const heroBottom = height - height * 0.085;
   const heroTop = heroBottom - heroBoxH;
 
   const hero = showText ? `
@@ -461,14 +475,22 @@ export function renderIssueCover(issue, options = {}) {
     </g>
   ` : '';
 
-  // Tag sits in the gutter between the upper-left and lower-right cover lines. Placing it
-  // just below the chin put it on the same line as the first left cover line, so a long
-  // Russian or Greek tag ran into that column.
-  const tagY = Math.round(height * 0.455);
+  // Tag sits directly under the masthead, inside the darkened top band, as a subtitle
+  // to the logo. The centre band belongs to the photograph: putting the tag in the
+  // gutter between the cover lines (the old position) dropped it onto the subject and
+  // made a long Russian or Greek tag unreadable against a pale image.
+  const tagY = Math.round(height * 0.232);
+  const tagVariants = tag ? fitOf('tag', tag) : [];
+  let tagSize = Math.round(width * 0.0205);
+  const tagTrackRatio = 0.2;
+  while (tagSize > Math.round(width * 0.013)
+    && Math.max(...tagVariants.map((t) => estimateWidth(t, tagSize, tagSize * tagTrackRatio))) > width * 0.8) {
+    tagSize -= 1;
+  }
   const tagLine = showText && tag ? `
     <text x="${width / 2}" y="${tagY}" text-anchor="middle" font-family="${SANS}"
-          font-size="${Math.round(width * 0.0205)}" font-weight="600"
-          letter-spacing="${(width * 0.0042).toFixed(2)}" fill="${accent}"
+          font-size="${tagSize}" font-weight="600"
+          letter-spacing="${(tagSize * tagTrackRatio).toFixed(2)}" fill="${accent}"
           fill-opacity="0.95" paint-order="stroke" stroke="${backdrop}" stroke-opacity="0.55" stroke-width="${Math.max(2, width * 0.006)}" stroke-linejoin="round"${i18nBase ? ` data-i18n="${escapeXml(i18nBase)}.tag"` : ''}>${escapeXml(String(tag).toUpperCase())}</text>
   ` : '';
 

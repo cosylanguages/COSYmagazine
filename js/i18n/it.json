@@ -394,7 +394,10 @@
     },
     "words_unit": "parole",
     "contents": "Sommario",
-    "blueprint_label": "Carta editoriale"
+    "blueprint_label": "Carta editoriale",
+    "edition": "Edizione italiana",
+    "volume_label": "Vol.",
+    "about_edition": "Informazioni su questa edizione"
   },
   "section": {
     "words_desk": "Angolo delle Parole",
