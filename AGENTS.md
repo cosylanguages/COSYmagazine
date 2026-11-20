@@ -115,8 +115,7 @@ generated output.
 
 ### Print pagination
 
-- **Articles run on.** Only zone openers, the contents page and the appendix take
-  `break-before: page`. A forced break per article left sheets three-quarters blank when a
+- **Articles run on.** Only zone openers and the contents page take `break-before: page`. A forced break per article left sheets three-quarters blank when a
   piece ended mid-page, which is what made the sold PDFs feel like drafts.
 - The article body is a `column-count: 2` flow, so page furniture inside it is fragile:
   - `column-span: all` only works on a *direct* child of `.article-body`. `cleanPrintDom()`
@@ -128,11 +127,18 @@ generated output.
 - Body copy carries its own volume strings (`"Vol. 2026 — Master Editorial Hub"`). The build
   rewrites a bare `Vol. YYYY` to `Vol. YYYY.MM`; without it every edition of a year prints
   the same, wrong volume.
-- The editorial blueprint has 19 entries, more than one page holds. It is split in two by
-  text weight, not by count, because description lengths differ per language — a count split
-  left the Russian second page 14% full.
+- The editorial blueprint has 19 entries, more than one page holds, and it **runs on** from
+  the last article rather than opening a fresh page: that tail sheet is the only place a
+  two-column list can start without wasting paper. Hand-splitting it into "balanced halves"
+  was worse — two `column-count` containers do not flow into each other, so the second half
+  jumped to a new page and left one 15% full.
+- Chromium cannot print a per-page running head, so the desk name is stamped into the
+  footer with pdf-lib (`runningDesks()` + `drawFolios()`), in the edition language. That
+  needs a Unicode face — `@pdf-lib/fontkit` plus a system DejaVu — because the Russian desks
+  are Cyrillic. Without the font the foot falls back to the folio alone; nothing breaks.
 - When checking a build, look for pages under ~45% fill. Zone openers are deliberately
-  sparse; anything else is a pagination bug.
+  sparse; anything else is a pagination bug. Measure content only: blocks ending above
+  y≈795 pt, or the footer reads as full text.
 
 ## i18n
 

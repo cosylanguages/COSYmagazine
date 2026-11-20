@@ -329,6 +329,9 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 /* Zone openers, the contents page and the appendix open on a fresh page; articles run on. */
 .article { break-before: auto; }
 .page:not(.article) { break-before: page; }
+/* The appendix runs on too: the sheet the last article leaves half empty is the only
+   place a two-column list of 19 entries can start without wasting paper. */
+.page.back-matter { break-before: auto; page-break-before: auto; }
 .article-head { border-bottom: 1.6pt solid #1E1A17; padding-bottom: 3.2mm; margin-bottom: 5mm; break-after: avoid; }
 .article-meta {
   font-family: __SANS__; font-size: 6.8pt; letter-spacing: .12em;
@@ -914,31 +917,18 @@ async function buildHtml(volume, lang) {
   // The editorial charter closes the edition. It is production-facing copy, so it reads
   // as an appendix rather than opening the magazine, and the internal production tags
   // are left out of print.
-  const bpItem = (el) => `<div class="bp-item">
+  pages.push(`<section class="page back-matter" data-backmatter="true">
+  <div class="mast"><span>${escapeHtml(blueprintLabel)}</span><span>${escapeHtml(label)}</span></div>
+  <h2>${escapeHtml(blueprint.title)}</h2>
+  <p class="bp-intro">${escapeHtml(blueprint.lede)}</p>
+  <div class="bp-list">
+  ${blueprint.elements.map((el) => `<div class="bp-item">
     <span class="bp-num">${escapeHtml(el.number)} · ${escapeHtml(el.label)}</span>
     <div class="bp-title">${escapeHtml(el.title)}</div>
     <p class="bp-desc">${escapeHtml(el.description)}</p>
-  </div>`;
-  // Nineteen entries need more than one page, so the appendix is split in half rather
-  // than left to spill: a two-thirds-empty second page reads as a mistake.
-  const bpWeight = (el) => String(el.description || '').length + String(el.title || '').length * 2;
-  const bpTotal = blueprint.elements.reduce((sum, el) => sum + bpWeight(el), 0);
-  let bpSplit = blueprint.elements.length;
-  for (let i = 1, run = 0; i < blueprint.elements.length; i += 1) {
-    run += bpWeight(blueprint.elements[i - 1]);
-    if (run >= bpTotal / 2) { bpSplit = i; break; }
-  }
-  const bpHalves = [blueprint.elements.slice(0, bpSplit), blueprint.elements.slice(bpSplit)];
-  bpHalves.forEach((half, index) => {
-    pages.push(`<section class="page back-matter" data-backmatter="true">
-  <div class="mast"><span>${escapeHtml(blueprintLabel)}</span><span>${escapeHtml(label)}</span></div>
-  ${index === 0 ? `<h2>${escapeHtml(blueprint.title)}</h2>
-  <p class="bp-intro">${escapeHtml(blueprint.lede)}</p>` : ''}
-  <div class="bp-list">
-  ${half.map(bpItem).join('')}
+  </div>`).join('')}
   </div>
 </section>`);
-  });
 
   // Body copy carries its own volume strings ("Vol. 2026 — ..."), and a bare year would
   // print a different volume on every edition. Normalise them the way the web build does.
@@ -1070,7 +1060,10 @@ async function locateArticles(bodyBytes, articles, backTitle) {
       located[article.slug] = found + 2; // body index -> physical page (cover is 1)
       cursor = found;
     }
-    return located;
+    // Zone openers are near-empty pages, and they name their own zone, so the running
+    // foot must not repeat the previous article's desk over them.
+    const sparse = pages.map((text) => text.length < 400);
+    return { located, sparse };
   } finally {
     await loadingTask.destroy();
   }
@@ -1090,8 +1083,36 @@ function restoreContentsFallback() {
   });
 }
 
-/** Folios live in the bottom margin, drawn after the merge so the cover stays clean. */
-async function drawFolios(pdfDoc, font, color) {
+/** A Unicode face for the desk names: the editions print in Cyrillic as well as Latin. */
+const RUNNING_FONT_CANDIDATES = [
+  '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+  '/usr/share/fonts/TTF/DejaVuSans.ttf',
+  '/Library/Fonts/Arial Unicode.ttf'
+];
+
+async function embedRunningFont(pdfDoc) {
+  for (const file of RUNNING_FONT_CANDIDATES) {
+    if (!fs.existsSync(file)) continue;
+    try {
+      const fontkit = require('@pdf-lib/fontkit');
+      pdfDoc.registerFontkit(fontkit.default || fontkit);
+      return await pdfDoc.embedFont(fs.readFileSync(file), { subset: true });
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
+
+/**
+ * Folios live in the bottom margin, drawn after the merge so the cover stays clean.
+ * The desk name rides with them: Chromium cannot print a per-page running head, and a
+ * continuation page of a long article would otherwise carry nothing but a number.
+ */
+async function drawFolios(pdfDoc, font, color, running) {
+  const deskFont = running && running.font ? running.font : font;
+  const tracking = 0.55;
+  const size = 6.5;
   const pages = pdfDoc.getPages();
   pages.forEach((page, index) => {
     if (index === 0) return; // the cover carries no folio
@@ -1106,15 +1127,62 @@ async function drawFolios(pdfDoc, font, color) {
       color,
       opacity: 0.45
     });
-    page.drawText('COSYmagazine', { x: inset, y: baseline, size: 6.5, font, color });
+    page.drawText('COSYmagazine', { x: inset, y: baseline, size, font, color });
     page.drawText(number, {
-      x: width - inset - font.widthOfTextAtSize(number, 6.5),
+      x: width - inset - font.widthOfTextAtSize(number, size),
       y: baseline,
-      size: 6.5,
+      size,
       font,
       color
     });
+    const desk = running && running.desks.get(index + 1);
+    if (!desk) return;
+    const text = desk.toLocaleUpperCase();
+    const deskWidth = deskFont.widthOfTextAtSize(text, size) + tracking * (text.length - 1);
+    page.drawText(text, {
+      x: (width - deskWidth) / 2,
+      y: baseline,
+      size,
+      font: deskFont,
+      color,
+      characterSpacing: tracking
+    });
   });
+}
+
+/**
+ * Maps every printed page to the desk it belongs to, so the running foot can name it.
+ * Pages between an article's headline and the next headline are that article's; the
+ * appendix owns everything to the end. Near-empty opener pages are left unlabelled.
+ */
+function runningDesks(volume, lang, posts, located, sparse, pageCount) {
+  const desks = new Map();
+  if (!located) return desks;
+  const dict = i18nDict(lang);
+  const catalog = dict.catalog || {};
+  const sectionDict = dict.section || {};
+  const starts = [];
+  for (const post of posts) {
+    const page = located[post.slug];
+    if (!page) continue;
+    starts.push({
+      page,
+      desk: sectionDict[post.section] || String(post.section || '').replace(/_/g, ' ')
+    });
+  }
+  if (located.__backmatter__) {
+    starts.push({ page: located.__backmatter__, desk: catalog.blueprint_label || 'Editorial blueprint' });
+  }
+  starts.sort((a, b) => a.page - b.page);
+  starts.forEach((start, index) => {
+    const end = index + 1 < starts.length ? starts[index + 1].page - 1 : pageCount;
+    for (let page = start.page; page <= end; page += 1) {
+      if (page > pageCount) break;
+      if (sparse && sparse[page - 2]) continue;
+      desks.set(page, start.desk);
+    }
+  });
+  return desks;
 }
 
 async function buildPdf(volume, lang, outPath, keepHtml) {
@@ -1130,6 +1198,8 @@ async function buildPdf(volume, lang, outPath, keepHtml) {
 
   const posts = loadEdition(volume, lang);
   const backTitle = blueprintFor(lang).title;
+  let locatedPages = null;
+  let sparsePages = null;
 
   const { PDFDocument, StandardFonts, rgb } = require('pdf-lib');
   const browser = await chromium.launch({ headless: true });
@@ -1154,8 +1224,9 @@ async function buildPdf(volume, lang, outPath, keepHtml) {
     // read back from that PDF and written in. The second print keeps the same pagination
     // because the numbers occupy a fixed-width column, and the page count is checked to
     // prove it; if anything moved, the word counts stay rather than print wrong numbers.
-    const located = await locateArticles(bodyBytes, posts, backTitle);
-    if (located) {
+    const inspection = await locateArticles(bodyBytes, posts, backTitle);
+    if (inspection) {
+      const { located } = inspection;
       const before = countPdfPages(bodyBytes);
       await page.evaluate(applyContentsPages, located);
       const numbered = await page.pdf(printOptions);
@@ -1164,6 +1235,8 @@ async function buildPdf(volume, lang, outPath, keepHtml) {
       } else {
         await page.evaluate(restoreContentsFallback);
       }
+      locatedPages = located;
+      sparsePages = inspection.sparse;
     }
   } finally {
     await browser.close();
@@ -1178,7 +1251,11 @@ async function buildPdf(volume, lang, outPath, keepHtml) {
     merged.addPage(bodyPage);
   }
   const folioFont = await merged.embedFont(StandardFonts.Helvetica);
-  await drawFolios(merged, folioFont, rgb(0.54, 0.48, 0.43));
+  const runningFont = await embedRunningFont(merged);
+  await drawFolios(merged, folioFont, rgb(0.54, 0.48, 0.43), {
+    font: runningFont,
+    desks: runningDesks(volume, lang, posts, locatedPages, sparsePages, merged.getPageCount())
+  });
 
   merged.setTitle(`${title} — ${label}`);
   merged.setAuthor('COSYmagazine · COSY Languages');
@@ -1219,4 +1296,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { buildHtml, buildPdf, loadEdition, editionLanguages };
+module.exports = { buildHtml, buildPdf, loadEdition, editionLanguages, runningDesks };
