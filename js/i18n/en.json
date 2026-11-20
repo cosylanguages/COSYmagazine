@@ -394,7 +394,10 @@
     },
     "words_unit": "words",
     "contents": "Contents",
-    "blueprint_label": "Editorial blueprint"
+    "blueprint_label": "Editorial blueprint",
+    "edition": "English Edition",
+    "volume_label": "Vol.",
+    "about_edition": "About this edition"
   },
   "section": {
     "words_desk": "Words Desk",

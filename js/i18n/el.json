@@ -400,7 +400,10 @@
     },
     "words_unit": "λέξεις",
     "contents": "Περιεχόμενα",
-    "blueprint_label": "Εκδοτική ταυτότητα"
+    "blueprint_label": "Εκδοτική ταυτότητα",
+    "edition": "Ελληνική έκδοση",
+    "volume_label": "Τόμος",
+    "about_edition": "Σχετικά με αυτή την έκδοση"
   },
   "section": {
     "words_desk": "Γραφείο Λέξεων",
