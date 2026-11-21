@@ -1,0 +1,134 @@
+{
+  "id": "post-the-months-list-august",
+  "slug": "the-months-list-august",
+  "language": "en",
+  "desk": "Culture & Quotes",
+  "section": "cultural_salon",
+  "format": "list",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "The Month’s List: One Film, One Song, One Book",
+  "kicker": "CULTURAL SALON · A2–C1",
+  "dek": "Three things to take into September: a film about a classroom that gets it wrong and right, a song about refusing the script, and a memoir about arriving late.",
+  "tags": [
+    "Cultural Salon",
+    "August",
+    "Film",
+    "Music",
+    "Books"
+  ],
+  "readingTime": 6,
+  "printOrder": 180,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "the-months-list-august",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A list is not a syllabus. These three are here because each one argues with the others about the question the issue keeps asking: what does a room have to do before a person will speak in it?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The film: Dead Poets Society (1989)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Peter Weir’s film is set in 1959 in a boys’ boarding school in Vermont, where a new English teacher, John Keating, asks his class to stand on the desk and look at the room from above. It is the most quoted classroom film in English, and the most misunderstood: it is not a hymn to inspiration. It shows what happens when a school rewards performance and punishes the person performing."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Watch it for:** the register. Keating speaks to sixteen-year-olds as if they were adults; the headmaster speaks to them as if they were furniture. Listen to which voice the boys copy by the end.",
+        "**Language note:** the film is a catalogue of school English — *assignment*, *term*, *report*, *discipline*, *expelled*. Most of it is still in use in every English-speaking school.",
+        "**Content note:** a student’s suicide is central to the plot and is shown through its aftermath. If you are watching with a class, say so before you press play, and give anyone the option to leave."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** Keating tells the boys to seize the day; the school tells them to be careful. Which one does the film believe? Answer in one sentence, then find the scene that proves it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The song: ‘Make Your Own Kind of Music’ — Cass Elliot (1969)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Written by Barry Mann and Cynthia Weil and recorded by Cass Elliot in 1969, this is a three-minute argument against the script somebody else wrote for you. It is also a lesson in how English pop sings its consonants: almost every line lands on a hard sound, which makes it unusually easy to sing along to at A2."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Listen for:** the brass line that answers the voice, and the way the last chorus is louder than the first. That is arrangement doing the emotional work.",
+        "**Language note:** the song is built on imperatives — *sing*, *go*, *make*. Imperatives are the first structure a beginner can use to actually do something in a room.",
+        "**Rights note:** we print no lyrics. Sing it from a licensed source, or hum it — humming is free."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** Name one thing you do that your family or your school would not have chosen for you. Say it in the past tense: *I chose to…*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The book: Educated — Tara Westover (2018)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Westover grew up in rural Idaho in a family that did not send its children to school, and she sat in a classroom for the first time at seventeen. Her memoir is not really about the facts she missed. It is about what happens to a person when a room finally explains the rules out loud."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Read it for:** the scenes of learning in public — the first lecture, the first exam, the first time she asks a question and the room does not laugh.",
+        "**Language note:** the book is written in clear, short American sentences. It is a good first full-length book for a B1 reader who is tired of graded readers.",
+        "**Careful with:** the family violence and the medical neglect. This is not a gentle book, and it is not a book about language learning."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** What is one rule of the classroom that nobody ever explained to you, and that you had to guess? Say it in the present perfect: *Nobody has ever told me…*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "9 August: Book Lovers Day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Book Lovers Day is marked on 9 August in the English-speaking calendar. The Salon’s version of it is small and doable: bring one book to a speaking club and read the first paragraph aloud, badly, in your target language. Bad reading out loud is the fastest cure for the fear of reading out loud."
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does reading a whole book in a target language change how a learner speaks, or only how they read? Ask twelve learners to read one short book in six weeks and record a three-minute conversation before and after. Count hesitations, not vocabulary."
+    },
+    {
+      "type": "paragraph",
+      "text": "The list changes every month. If one of these three has already changed your mind about a classroom, write to the Salon and tell us which scene did it."
+    }
+  ],
+  "draft": false
+}

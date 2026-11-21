@@ -49,7 +49,7 @@ generated output.
   | `text.js` | `escapeHtml`, inline Markdown, `<title>` truncation |
   | `i18n.js` | dictionary loading and `tStrict` (no English fallback) |
   | `issues.js` | `ISSUE_META`, volume normalisation, notebook look |
-  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation) |
+  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation, crossword) |
   | `post-page.js` | the full `<slug>.html` document template |
   | `catalog.js` | `posts.json` and `index.json` |
   | `audio.js` | podcast embed resolution, `hasPlayer`, player box |
@@ -126,6 +126,16 @@ generated output.
   which is `break-inside: avoid`, so a head that does not fit moves to the next page whole.
 - Evergreen posts (`contentType: 'evergreen'`) belong to no volume, so they are absent
   from the issue catalog and carry no `issue_volume` in `posts.json`.
+- The `crossword` block is authored as `grid` (rows of letters, `#` blocked, `.` blank),
+  `across`/`down` entries with `number`, `clue`, `answer`. The build derives the clue
+  numbers from the grid (`crosswordNumbering`), so never hand-number entries. Print CSS
+  sizes the grid from `--cw-cols`/`--cw-rows`: a taller puzzle gets smaller cells instead
+  of overflowing the page. The caption and grid share `.crossword-board` with
+  `break-inside: avoid`, so the board never splits across a page; the clues and key flow
+  after it. A post with `printPageBreak: true` starts on a fresh page when a department
+  has to open at the top of one.
+  `CROSSWORD_LABELS` covers eight languages; add labels before publishing a crossword in
+  one of the others, or the chrome falls back to English.
 
 ### Print pagination
 

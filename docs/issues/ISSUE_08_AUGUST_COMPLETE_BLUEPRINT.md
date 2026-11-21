@@ -19,18 +19,25 @@ before the piece it opens — the openers are not boxed into front/well/back act
 | 10 | My Life With & Without | `life_with_without` | Opens Idiom Detective and COSY Sightings |
 | 11 | Idiom Detective / COSY Sightings | `idiom_detective`, `cosy_sightings` | The two pieces the ledger opens |
 | 12 | The Greatest Quotes | `greatest_quotes` | The outro; closes the main discussion |
+| 13 | The Month's List | `cultural_salon` | One film, one song, one book, and the Book Lovers Day prompt |
+| 14 | Culinary Salon | `culinary_salon` | Five breakfasts, one per kitchen language |
+| 15 | Thematic Crossword | `thematic_crossword` | The puzzle page; closes the issue before the appendix |
 
 Every speaking-club department carries the issue's theme in its own words and one
 "This could be a good research question" marginalia block.
 
-Still to build: Culinary Salon (recipes), the month's list (one film, one song or album, one book) and
-the thematic crossword. The crossword needs a block type and a grid renderer before it can print.
+The three departments the issue used to promise but did not print are now built: the month's list
+(`the-months-list-august`), the recipes (`culinary-salon-august`) and the puzzle
+(`crossword-august-first-words`). The crossword needed a block type, a grid renderer and print CSS;
+all three live in `blocks.js` and `build-issue-pdf.js` now. The board (caption plus grid) is grouped
+so it never splits across a page, and the clues and answer key follow it on the same page, which
+keeps the puzzle to one spread: opener on one page, grid, clues and key on the next.
 
 ## Production Brief
 
 This is the revised editorial plan for the first issue, not final page copy. The issue's promise is: **a new language can be a new beginning, and speaking does not have to wait for perfection.** It is for teens, adults, and seniors; examples should be age-inclusive without assuming the same goals or experiences.
 
-The requested full edition is now planned at 31 pages. The existing 24-page PDF is an earlier draft and does not yet match this roster. Do not present it as the completed edition until the missing interviews, contest entries, research review, cultural material, and puzzle are ready.
+The roster below is the editorial plan; the built edition now runs longer than 31 pages because the founder, student and teacher conversations print in full. The two conversations still staged in `drafts/` remain the only unwritten pages, and the contest showcase stays closed until winners and permissions exist.
 
 ## Editorial Rules
 
@@ -74,10 +81,10 @@ The revised full-edition plan is 31 pages. Keep the public preview to the cover,
 | 19 | Narrative Ledger | *My Life With & Without Fear of Evaluation*, clearly framed as an illustrative literary piece, not a real testimonial. |
 | 20 | If You Were | *If You Were a Kindergarten Teacher in Tokyo*: hypothetical scenario, culturally researched and not presented as a claim about all Japanese classrooms. |
 | 23 | Philosophy Café | Einstein's *“I am only passionately curious”*; verify wording and attribution before print, then unpack the idea through discussion. |
-| 24 | Cinema Pick | One film/series recommendation related to the issue; current draft pick: *Dead Poets Society*, with a content note and discussion question. |
-| 25 | Monthly Vibes | Five song picks, one each in EN/FR/IT/EL/RU, one book recommendation, and a Book Lovers Day prompt. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
-| 26–29 | Culinary Salon | Opening menu plus five complete, checked recipes for EN, FR, IT, RU, and EL communities, with region/context, useful language, and conversation prompts. |
-| 30–31 | End-of-Issue Crossword & Puzzle | Full-page thematic crossword spread occupying an entire A4 page with enlarged cells, connecting words extracted directly from Issue 08 (`BELONG`, `SPEAKING`, `TRAUMA`, `CURIOSITY`, `SYRNIKI`, `NEUROPLASTICITY`), followed by answer key/colophon on page 31. |
+| 24 | Cinema Pick | Folded into *The Month's List* rather than printed twice: *Dead Poets Society*, with a content note and a discussion question. |
+| 25 | Monthly Vibes → built as *The Month's List* | One film (*Dead Poets Society*, with a content note), one song (Cass Elliot, *Make Your Own Kind of Music*, no lyrics printed), one book (*Educated*), and the Book Lovers Day prompt for 9 August. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
+| 26–29 | Culinary Salon → built | Opening menu plus five recipes — porridge (EN), tartine au chocolat (FR), frittata di pasta (IT), syrniki (RU), yogurt with thyme honey and walnut (EL) — each with region/context, ingredients, method, a *Say it in…* table and a conversation prompt. |
+| 30–31 | End-of-Issue Crossword & Puzzle → built | *The August Crossword: First Words*: 18 entries in one grid, all drawn from Issue 08 — `NEUROPLASTICITY`, `CURIOSITY`, `SPEAKING`, `TRAUMA`, `BELONG`, `SYRNIKI`, `CLASSROOM` and eleven school words. The opener carries the title and the spoken-solve instructions; the next page carries the grid, both clue columns and the answer key (cells are sized from the grid's row count, so a taller puzzle shrinks rather than overflows). |
 
 ## Interview Question Bank
 

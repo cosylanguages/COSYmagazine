@@ -337,6 +337,7 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 /* ---- Articles: a two-column magazine grid ---- */
 /* Zone openers, the contents page and the appendix open on a fresh page; articles run on. */
 .article { break-before: auto; }
+.article.print-new-page { break-before: page; page-break-before: always; }
 .page:not(.article) { break-before: page; }
 /* The appendix runs on too: the sheet the last article leaves half empty is the only
    place a two-column list of 19 entries can start without wasting paper. */
@@ -354,6 +355,8 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .long-read .article-body { column-count: 2; }
 /* A subhead at the foot of a column that continues in the next one reads as a mistake. */
 .article-body h2, .article-body h3, .article-body h4 { break-after: avoid; }
+.article-body > h2 { column-span: all; margin-top: 5mm; }
+.article-body li { break-inside: avoid; }
 
 /* A table that flows from the bottom of the left column to the top of the right one reads
    out of order, so any block carrying a table spans the gutter whatever its wrapper. */
@@ -432,14 +435,14 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 
 /* ---- Editorial blueprint (back matter) ---- */
 .bp-intro { font-size: 9.6pt; line-height: 1.45; color: #4A3E35; margin: 0 0 5mm; max-width: 168mm; }
-.bp-list { column-count: 2; column-gap: 8mm; }
-.bp-item { break-inside: avoid; margin: 0 0 2.6mm; }
+.bp-list { column-count: 3; column-gap: 6mm; }
+.bp-item { break-inside: avoid; margin: 0 0 2.2mm; }
 .bp-num {
   font-family: __SANS__; font-size: 6.4pt; font-weight: 700; letter-spacing: .14em;
   text-transform: uppercase; color: #A2532F;
 }
-.bp-title { font-size: 10.4pt; font-weight: 700; margin: .5mm 0 .6mm; }
-.bp-desc { font-size: 8.1pt; line-height: 1.32; color: #4A3E35; margin: 0; }
+.bp-title { font-size: 9.6pt; font-weight: 700; margin: .4mm 0 .5mm; }
+.bp-desc { font-size: 7.7pt; line-height: 1.3; color: #4A3E35; margin: 0; }
 
 /* ---- Lexicon cards (the A0-A1 vocabulary chains) ---- */
 .lex-card {
@@ -661,6 +664,43 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .quote-tile { border-top: .5pt solid #D9CFC4; padding: 2mm 0; break-inside: avoid; }
 .quote-tile-text { font-style: italic; font-size: 9.2pt; margin: 0 0 1mm; }
 .quote-tile-author { font-family: __SANS__; font-size: 6.6pt; letter-spacing: .12em; text-transform: uppercase; color: #8A7A6D; }
+
+/* ---- Crossword: the grid is drawn from the letters, so it prints without JS ---- */
+.crossword { column-span: all; margin: 0; max-width: 100%; }
+.crossword-title {
+  font-family: __SANS__; font-size: 7.4pt; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: #A2532F; margin: 0 0 3mm;
+}
+.crossword-board { break-inside: avoid; }
+.crossword-grid {
+  break-inside: avoid;
+  display: grid; grid-template-columns: repeat(var(--cw-cols, 13), minmax(0, 1fr));
+  box-sizing: border-box; margin: 0 auto 6mm;
+  width: min(140mm, calc(var(--cw-max-h, 122mm) * var(--cw-cols, 15) / var(--cw-rows, 15)));
+}
+.cw-cell {
+  position: relative; aspect-ratio: 1 / 1; min-width: 0; display: flex;
+  align-items: center; justify-content: center;
+  border: .5pt solid #6B5B4E; font-size: 9.6pt; font-weight: 600; color: #1E1A17;
+}
+.cw-block { background: #1E1A17; border-color: #1E1A17; }
+.cw-blank { border: 0; background: transparent; }
+.cw-num { position: absolute; top: .3mm; left: .7mm; font-family: __SANS__; font-size: 5.2pt; color: #6B5B4E; }
+.crossword-clues { column-count: 2; column-gap: 8mm; }
+.crossword-clue-col { break-inside: avoid; }
+.crossword-clue-head {
+  font-family: __SANS__; font-size: 6.4pt; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #8A7A6D; margin: 0 0 1.4mm;
+}
+.crossword-clue-list { list-style: none; margin: 0 0 3mm; padding: 0; }
+.crossword-clue-list li { font-size: 8.2pt; line-height: 1.34; margin: 0 0 1mm; }
+.cw-clue-num { font-weight: 700; margin-right: .6mm; }
+.crossword-answers { break-inside: avoid; border-top: .5pt solid #D9CFC4; padding-top: 2mm; margin-top: 2mm; }
+.crossword-answers-title {
+  font-family: __SANS__; font-size: 6.2pt; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #8A7A6D; margin: 0 0 1mm;
+}
+.crossword-answers-body { font-size: 7.8pt; line-height: 1.55; color: #3A322C; margin: 0; letter-spacing: .01em; }
 
 /* ---- Figures from blocks.js ---- */
 .gazette-figure { margin: 5mm 0; }
@@ -922,7 +962,7 @@ async function buildHtml(volume, lang) {
 
     group.articles.forEach((item) => {
       const post = item.post;
-      pages.push(`<section class="page article${item.longRead ? ' long-read' : ''}">
+      pages.push(`<section class="page article${item.longRead ? ' long-read' : ''}${post.printPageBreak ? ' print-new-page' : ''}">
   <header class="article-head">
     <div class="mast"><span>${escapeHtml(sectionName(post))}</span><span>${escapeHtml(label)}</span></div>
     <p class="kicker">${escapeHtml(post.kicker || sectionName(post))}</p>

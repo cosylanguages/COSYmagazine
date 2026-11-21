@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-21T13:09:39.371Z",
+  "generatedAt": "2026-11-21T14:28:31.227Z",
   "stats": {
-    "totalPosts": 122,
+    "totalPosts": 125,
     "totalDesks": 13,
     "totalIssues": 7
   },
@@ -4298,6 +4298,92 @@
       "draft": false
     },
     {
+      "id": "post-crossword-august-first-words",
+      "slug": "crossword-august-first-words",
+      "language": "en",
+      "desk": "Culture & Quotes",
+      "section": "thematic_crossword",
+      "format": "quiz",
+      "level": "A2–C1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "The August Crossword: First Words",
+      "kicker": "THEMATIC CROSSWORD · A2–C1",
+      "dek": "18 words this issue keeps using, fitted into one grid. Solve it out loud with a partner and you have rehearsed half the vocabulary of the month.",
+      "tags": [
+        "Crossword",
+        "August",
+        "Vocabulary",
+        "Speaking Club"
+      ],
+      "readingTime": 6,
+      "printOrder": 200,
+      "artDirection": {
+        "palette": [
+          "#1E1A17",
+          "#FAF7F2",
+          "#A2532F",
+          "#0F6E56"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "crossword-august-first-words",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-culinary-salon-august",
+      "slug": "culinary-salon-august",
+      "language": "en",
+      "desk": "Culture & Quotes",
+      "section": "culinary_salon",
+      "format": "list",
+      "level": "A2–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Culinary Salon: Five Breakfasts for the First Week",
+      "kicker": "CULINARY SALON · A2–B2",
+      "dek": "One dish for each kitchen the magazine speaks: porridge, a chocolate tartine, a pasta frittata, syrniki, and yogurt with thyme honey. Five recipes, five languages, one September morning.",
+      "tags": [
+        "Culinary Salon",
+        "August",
+        "Recipes",
+        "Breakfast"
+      ],
+      "readingTime": 12,
+      "printOrder": 190,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "culinary-salon-august",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
       "id": "post-debatable-relatable-august-school-or-you",
       "slug": "debatable-relatable-august-school-or-you",
       "language": "en",
@@ -4769,6 +4855,50 @@
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
         "seed": "the-greatest-quotes-august-on-beginning",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-the-months-list-august",
+      "slug": "the-months-list-august",
+      "language": "en",
+      "desk": "Culture & Quotes",
+      "section": "cultural_salon",
+      "format": "list",
+      "level": "A2–C1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "The Month’s List: One Film, One Song, One Book",
+      "kicker": "CULTURAL SALON · A2–C1",
+      "dek": "Three things to take into September: a film about a classroom that gets it wrong and right, a song about refusing the script, and a memoir about arriving late.",
+      "tags": [
+        "Cultural Salon",
+        "August",
+        "Film",
+        "Music",
+        "Books"
+      ],
+      "readingTime": 6,
+      "printOrder": 180,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "the-months-list-august",
         "coverOverride": null
       },
       "draft": false

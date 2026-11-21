@@ -4208,6 +4208,94 @@
     }
   },
   {
+    "slug": "crossword-august-first-words",
+    "title": "The August Crossword: First Words",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Culture & Quotes",
+    "summary": "18 words this issue keeps using, fitted into one grid. Solve it out loud with a partner and you have rehearsed half the vocabulary of the month.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Crossword",
+      "August",
+      "Vocabulary",
+      "Speaking Club"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "crossword-august-first-words.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A2–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#1E1A17",
+        "#FAF7F2",
+        "#A2532F",
+        "#0F6E56"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "crossword-august-first-words",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "culinary-salon-august",
+    "title": "Culinary Salon: Five Breakfasts for the First Week",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Culture & Quotes",
+    "summary": "One dish for each kitchen the magazine speaks: porridge, a chocolate tartine, a pasta frittata, syrniki, and yogurt with thyme honey. Five recipes, five languages, one September morning.",
+    "author": "JY DM",
+    "reading_time": 12,
+    "cover_image": "",
+    "tags": [
+      "Culinary Salon",
+      "August",
+      "Recipes",
+      "Breakfast"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "culinary-salon-august.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A2–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "culinary-salon-august",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "debatable-relatable-august-school-or-you",
     "title": "Debatable & Relatable: Was It the School, or Was It You?",
     "date": "2026-08-01",
@@ -4689,6 +4777,51 @@
       "layout": "magazine-spread",
       "motif": "notebook-handwritten",
       "seed": "the-greatest-quotes-august-on-beginning",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "the-months-list-august",
+    "title": "The Month’s List: One Film, One Song, One Book",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Culture & Quotes",
+    "summary": "Three things to take into September: a film about a classroom that gets it wrong and right, a song about refusing the script, and a memoir about arriving late.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Cultural Salon",
+      "August",
+      "Film",
+      "Music",
+      "Books"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "the-months-list-august.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "A2–C1",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "the-months-list-august",
       "coverOverride": null
     }
   },

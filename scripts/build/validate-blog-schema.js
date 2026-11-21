@@ -68,6 +68,7 @@ const ALLOWED_BLOCK_TYPES = new Set([
   'culture-bite',
   'mistake-card',
   'quote-wall',
+  'crossword',
   'links'
 ]);
 
@@ -334,6 +335,34 @@ function validatePostSchema(postObj, sourceName = 'object') {
             errors.push(`[${blockRef}] Block "quote-wall" requires "quotes" array.`);
           }
           break;
+        case 'crossword': {
+          if (!Array.isArray(block.grid) || block.grid.length === 0 || block.grid.some((row) => typeof row !== 'string' || !row.length)) {
+            errors.push(`[${blockRef}] Block "crossword" requires a non-empty "grid" array of strings.`);
+            break;
+          }
+          if (new Set(block.grid.map((row) => row.length)).size > 1) {
+            errors.push(`[${blockRef}] Block "crossword" rows must all be the same length.`);
+          }
+          if (!/^[A-Za-z#.]+$/.test(block.grid.join(''))) {
+            errors.push(`[${blockRef}] Block "crossword" grid may only hold letters, "#" for blocked cells and "." for open space.`);
+          }
+          for (const dir of ['across', 'down']) {
+            const entries = block[dir];
+            if (!Array.isArray(entries) || entries.length === 0) {
+              errors.push(`[${blockRef}] Block "crossword" requires a non-empty "${dir}" clue array.`);
+              continue;
+            }
+            entries.forEach((entry, i) => {
+              if (!entry || typeof entry.number !== 'number' || typeof entry.clue !== 'string' || !entry.clue.trim()) {
+                errors.push(`[${blockRef}] crossword.${dir}[${i}] requires a number "number" and a non-empty "clue".`);
+              }
+              if (entry && typeof entry.answer !== 'string') {
+                errors.push(`[${blockRef}] crossword.${dir}[${i}] requires a string "answer" so the key can print.`);
+              }
+            });
+          }
+          break;
+        }
         case 'links':
           if (typeof block.destination !== 'string' || typeof block.url !== 'string' || typeof block.label !== 'string') {
             errors.push(`[${blockRef}] Block "links" requires "destination", "url", and "label" strings.`);
