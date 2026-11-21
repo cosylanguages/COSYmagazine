@@ -24,7 +24,7 @@ from reportlab.platypus import (CondPageBreak, BaseDocTemplate, PageTemplate, Fr
                                 KeepTogether, Table, TableStyle, HRFlowable)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, 'aug')          # article HTML
+SRC = os.environ.get('COSY_REPO', os.path.join(HERE, 'repo'))   # repo root: generated <slug>.html
 FONTS = os.path.join(HERE, 'fonts')
 IMG = os.path.join(HERE, 'images')
 OUT = os.path.join(HERE, 'out'); os.makedirs(OUT, exist_ok=True)
@@ -35,10 +35,10 @@ ML = MR = 54; MT = 62; MB = 72; GUT = 22
 CW = (W - ML - MR - GUT) / 2
 FULLW = W - ML - MR
 INK = HexColor('#1a1a18'); CREAM = HexColor('#faf7f2'); MUTED = HexColor('#6b6b66')
-FIELD = HexColor('#0b7d73')          # one accent per issue: August teal
-ACC = HexColor('#0b6b63')            # accent as text on cream
+FIELD = HexColor('#0F6E56')          # one accent per issue: August teal
+ACC = HexColor('#0F6E56')            # accent as text on cream
 MINT = HexColor('#bfe6df'); TINT = HexColor('#e8f2ef'); RULE = HexColor('#c9ddd8')
-ACC_HEX = '#0b6b63'
+ACC_HEX = '#0F6E56'
 
 ISSUE = 'VOL. 2026.08'
 
@@ -80,6 +80,10 @@ H2N = S('h2n', fontName='Jost-M', fontSize=7.2, leading=9, textColor=ACC, charSp
 H2 = S('h2', fontName='FrD', fontSize=15.5, leading=18.5, spaceAfter=7)
 SMALL = S('small', fontSize=8.8, leading=12, spaceAfter=3, alignment=TA_LEFT)
 CTA = S('cta', fontName='Jost-M', fontSize=7.2, leading=11, textColor=ACC, charSpace=1.3, spaceBefore=4, spaceAfter=2)
+
+H3 = S('h3', fontName='Jost-M', fontSize=7.2, leading=10, textColor=ACC, charSpace=1.6, spaceBefore=9, spaceAfter=4)
+TITLE_M = S('titlem', fontName='FrD', fontSize=31, leading=34, textColor=INK)
+TITLE_S = S('titles', fontName='FrD', fontSize=26, leading=29, textColor=INK)
 
 def roman(n): return ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'][n]
 
@@ -171,7 +175,7 @@ def draw_slot(c, shape, x, y, w, h, key):
         iw, ih = Image.open(found).size; s = max(w / iw, h / ih)
         c.drawImage(found, x + (w - iw * s) / 2, y + (h - ih * s) / 2, iw * s, ih * s)
     else:
-        c.setFillColor(HexColor('#2fa093')); c.drawPath(p, stroke=0, fill=1)
+        c.setFillColor(HexColor('#3a9a85')); c.drawPath(p, stroke=0, fill=1)
         c.clipPath(p, stroke=0, fill=0)
         ruled(c, x, y, x + w, y + h, gap=21, alpha=0.20)
     c.restoreState()
@@ -209,7 +213,7 @@ def mk_frames(kind):
     if kind == 'wide':  return [Frame(ML, MB, FULLW, hh, id='w', **z)]
     if kind == 'body':  return [Frame(ML, MB, CW, hh, id='c1', **z), Frame(ML + CW + GUT, MB, CW, hh, id='c2', **z)]
     if kind in ('first', 'first_s'):
-        HEAD = 262 if kind == 'first' else 168; bh = hh - HEAD - 14
+        HEAD = 240 if kind == 'first' else 168; bh = hh - HEAD - 14
         return [Frame(ML, H - MT - HEAD, FULLW, HEAD, id='h', **z),
                 Frame(ML, MB, CW, bh, id='c1', **z), Frame(ML + CW + GUT, MB, CW, bh, id='c2', **z)]
 
@@ -248,7 +252,8 @@ def split_markup(tokens, i):
     tail = ''.join(stack) + ''.join(tokens[i:])
     return head, tail
 
-def dropcap(markup, width, style, lines=3, size=50):
+def dropcap(markup, width, style, lines=3, size=None):
+    size = size or round(style.leading * 3.42)
     markup = typo(markup)
     m = re.match(r'^([^<\s])(.*)$', markup, re.S)
     if not m: return [Paragraph(markup, style)]
@@ -333,6 +338,24 @@ def render_article(art, qa=False):
             ts = S('mg1', fontName='Jost-M', fontSize=7, leading=10, textColor=ACC, charSpace=1.3, spaceAfter=4)
             bs = S('mg2', fontName='EBG-I', fontSize=10, leading=13.8)
             fl += [KeepTogether([box([P(esc(ti.get_text(' ', strip=True)).upper(), ts), P(inline(bo), bs)], bg=TINT), Spacer(1, 9)])]
+        elif name == 'h3':
+            fl.append(KeepTogether([CondPageBreak(60), P(esc(el.get_text(' ', strip=True)).upper(), H3)]))
+        elif 'format-quote-wall' in cls:
+            qs = S('qw', fontName='FrI', fontSize=14, leading=18.5, spaceAfter=4)
+            cs = S('qwc', fontName='Jost-M', fontSize=6.6, leading=9, textColor=ACC, charSpace=1.3)
+            for tile in el.find_all(class_='quote-tile'):
+                qt = tile.find(class_='quote-tile-text').get_text(' ', strip=True); au = tile.find(class_='quote-tile-author').get_text(' ', strip=True)
+                fl.append(KeepTogether([rule(CW, ACC, 0.8, 3, 6), P(esc(qt), qs), P(esc(au.lstrip('\u2014 ')).upper(), cs), Spacer(1, 3)]))
+        elif 'table-responsive-container' in cls:
+            rows = []
+            for ri, tr in enumerate(el.find('table').find_all('tr')):
+                cells = [clean(c.get_text(' ', strip=True)).strip() for c in tr.find_all(['th', 'td'])]
+                st = S('th2', fontName='Jost-M', fontSize=6.5, leading=9, textColor=ACC, charSpace=1.1) if ri == 0 else S('td2', fontSize=9.4, leading=12.4)
+                rows.append([P(esc(c).upper() if ri == 0 else esc(c), st) for c in cells])
+            t = Table(rows, colWidths=[CW * 0.44, CW * 0.56])
+            t.setStyle(TableStyle([('LINEBELOW', (0, 0), (-1, -1), 0.5, RULE), ('VALIGN', (0, 0), (-1, -1), 'TOP'), ('LEFTPADDING', (0, 0), (-1, -1), 0),
+                                   ('TOPPADDING', (0, 0), (-1, -1), 3.5), ('BOTTOMPADDING', (0, 0), (-1, -1), 3.5)]))
+            fl += [KeepTogether([t, Spacer(1, 8)])]
         elif name in ('ol', 'ul'):
             small = bool(re.search('further', ' '.join(art.get('class', []))))  # not used; further-reading handled below
             items = el.find_all('li', recursive=False)
@@ -465,8 +488,8 @@ def build_lexicon(path, first):
         t = Table([[num, left, right]], colWidths=[58, 190, FULLW - 248])
         t.setStyle(TableStyle([('VALIGN', (0, 0), (-1, -1), 'TOP'), ('LINEABOVE', (0, 0), (-1, 0), 0.6, RULE), ('LEFTPADDING', (0, 0), (-1, -1), 0),
                                ('TOPPADDING', (0, 0), (-1, -1), 11), ('BOTTOMPADDING', (0, 0), (-1, -1), 12)])); return t
-    s = [P('FRONT OF BOOK  \u00b7  THE LEXICON  \u00b7  A0\u2013A1', KICK), Spacer(1, 10),
-         P('Ten verbs to begin with', TITLE_L), Spacer(1, 11), rule(60, ACC, 1.2, 0, 11),
+    s = [P('WORDS DESK  \u00b7  A0\u2013A1', KICK), Spacer(1, 10),
+         P('Top 10 Essential Verbs for Absolute Beginners', TITLE), Spacer(1, 11), rule(60, ACC, 1.2, 0, 11),
          P('The ten essential verbs every beginner needs first: be, have, think, know, like, want, work and study, go, can, eat and drink. '
            'Say each example out loud before you read on.', DEK), Spacer(1, 22)]
     s += [row(r) for r in rows[:5]]
@@ -476,7 +499,7 @@ def build_lexicon(path, first):
           box([P('TRY IT', S('t1', fontName='Jost-M', fontSize=7, leading=10, textColor=ACC, charSpace=1.5, spaceAfter=4)),
                P('Choose any verb from the list and say one true sentence about yourself, out loud. Then change one word and say it again.', S('t2', fontName='EBG-I', fontSize=12.5, leading=17))], w=FULLW),
           Spacer(1, 12), P('CONJUGATION TABLES FOR EVERY LANGUAGE: COSYTOOLS', CTA)]
-    return run(path, first, 'Front of Book', s, [T_('lex', 'wide', bg_cream)])
+    return run(path, first, 'Words Desk', s, [T_('lex', 'wide', bg_cream)])
 
 # ---- long reads
 def build_article(path, first, section, slug, opener, header, qa=False):
@@ -491,9 +514,9 @@ def build_article(path, first, section, slug, opener, header, qa=False):
 
 def build_master(path, first):
     art = load('top-100-a0-a1'); story = [NextPageTemplate('body')]
-    story += header_block('The Well  \u00b7  Long read  \u00b7  A0\u2013A1', 'The Master List', 
+    story += header_block('Words Desk  \u00b7  Long read  \u00b7  A0\u2013A1', 'Top 100 A0\u2013A1: The Semantic Master List', 
                           'One hundred progressive chains of words across ten ordered domains, each with a can-do milestone. Read each chain aloud, left to right.',
-                          'By JY DM  \u00b7  12 min read  \u00b7  14 languages online', tstyle=TITLE_L)
+                          '12 min read  \u00b7  A0\u2013A1  \u00b7  14 languages online', tstyle=TITLE_M)
     secs = art.find_all('section', class_='domain-section')
     chain_st = S('ch', fontSize=11, leading=14, spaceAfter=0)
     lab_st = S('chl', fontName='Jost-M', fontSize=6.2, leading=8.4, textColor=MUTED, charSpace=1.1)
@@ -524,7 +547,7 @@ def build_master(path, first):
             ptxt = clean(mb.find('p').get_text(' ', strip=True)).strip()
             story.append(KeepTogether([Spacer(1, 3), box([P(f'MILESTONE {si}  \u00b7  CAN-DO GOAL', S('ml', fontName='Jost-M', fontSize=6.4, leading=9, textColor=ACC, charSpace=1.3, spaceAfter=3)),
                                                            P(esc(ptxt), S('mt', fontName='EBG-I', fontSize=10, leading=13.4))])]))
-    return run(path, first, 'The Well', story, [T_('first', 'first_s', bg_cream), T_('body', 'body', bg_cream)])
+    return run(path, first, 'Words Desk', story, [T_('first', 'first_s', bg_cream), T_('body', 'body', bg_cream)])
 
 # ---- interludes + back of book
 def build_interlude(path, first, quote, cap):
