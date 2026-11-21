@@ -22,7 +22,8 @@ const ALLOWED_SECTIONS = new Set([
   'front_cover', 'editor_letter', 'founder_dispatch', 'wonder_column', 'founder_interview',
   'debatable_relatable', 'student_teacher_spotlight', 'mind_matters', 'words_desk', 'if_you_were',
   'grammar_made_cosy', 'science_expander', 'wonder_contest_showcase', 'life_with_without',
-  'community_challenge', 'greatest_quotes', 'culinary_salon', 'cultural_salon', 'thematic_crossword'
+  'community_challenge', 'greatest_quotes', 'culinary_salon', 'cultural_salon', 'thematic_crossword',
+  'in_conversation', 'idiom_detective', 'cosy_sightings'
 ]);
 
 const ALLOWED_DESKS = new Set([
@@ -67,6 +68,7 @@ const ALLOWED_BLOCK_TYPES = new Set([
   'culture-bite',
   'mistake-card',
   'quote-wall',
+  'crossword',
   'links'
 ]);
 
@@ -333,6 +335,34 @@ function validatePostSchema(postObj, sourceName = 'object') {
             errors.push(`[${blockRef}] Block "quote-wall" requires "quotes" array.`);
           }
           break;
+        case 'crossword': {
+          if (!Array.isArray(block.grid) || block.grid.length === 0 || block.grid.some((row) => typeof row !== 'string' || !row.length)) {
+            errors.push(`[${blockRef}] Block "crossword" requires a non-empty "grid" array of strings.`);
+            break;
+          }
+          if (new Set(block.grid.map((row) => row.length)).size > 1) {
+            errors.push(`[${blockRef}] Block "crossword" rows must all be the same length.`);
+          }
+          if (!/^[A-Za-z#.]+$/.test(block.grid.join(''))) {
+            errors.push(`[${blockRef}] Block "crossword" grid may only hold letters, "#" for blocked cells and "." for open space.`);
+          }
+          for (const dir of ['across', 'down']) {
+            const entries = block[dir];
+            if (!Array.isArray(entries) || entries.length === 0) {
+              errors.push(`[${blockRef}] Block "crossword" requires a non-empty "${dir}" clue array.`);
+              continue;
+            }
+            entries.forEach((entry, i) => {
+              if (!entry || typeof entry.number !== 'number' || typeof entry.clue !== 'string' || !entry.clue.trim()) {
+                errors.push(`[${blockRef}] crossword.${dir}[${i}] requires a number "number" and a non-empty "clue".`);
+              }
+              if (entry && typeof entry.answer !== 'string') {
+                errors.push(`[${blockRef}] crossword.${dir}[${i}] requires a string "answer" so the key can print.`);
+              }
+            });
+          }
+          break;
+        }
         case 'links':
           if (typeof block.destination !== 'string' || typeof block.url !== 'string' || typeof block.label !== 'string') {
             errors.push(`[${blockRef}] Block "links" requires "destination", "url", and "label" strings.`);

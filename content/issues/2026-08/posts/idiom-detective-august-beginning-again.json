@@ -1,0 +1,84 @@
+{
+  "id": "post-idiom-detective-august-beginning-again",
+  "slug": "idiom-detective-august-beginning-again",
+  "language": "en",
+  "desk": "Words",
+  "section": "idiom_detective",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Idiom Detective: The Case of Beginning Again",
+  "kicker": "IDIOM DETECTIVE · B1–C2",
+  "dek": "Five languages, five ways of saying “back to the start” — and the one detail each of them hides.",
+  "tags": [
+    "Idiom Detective",
+    "August",
+    "Idioms"
+  ],
+  "readingTime": 3,
+  "printOrder": 140,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "idiom-detective-august-beginning-again",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The case: every language has a phrase for starting over, and none of them mean the same thing."
+    },
+    {
+      "type": "paragraph",
+      "text": "French: <em>reprendre à zéro</em> — to take it up again from zero. The verb is <em>reprendre</em>, to take back, which assumes you once held it. Italian: <em>ricominciare da capo</em> — to begin again from the head, from the top of the page. Russian: <em>начать с чистого листа</em> — to begin from a clean sheet, the sheet you tore out. Greek: <em>ξαναρχίζω από την αρχή</em> — I begin again from the beginning, with the repetition built into the verb. English: <em>back to square one</em>, which is a board game, not a page."
+    },
+    {
+      "type": "paragraph",
+      "text": "Read them together and the languages disagree about what a beginning is: a page, a game, a possession you lost."
+    },
+    {
+      "type": "paragraph",
+      "text": "A detective's rule: do not trust the translation, trust the picture. Ask what the phrase would look like if you drew it. <em>Clean sheet</em> gives you paper. <em>Square one</em> gives you a board. <em>Da capo</em> gives you a page you have already turned. The picture tells you what the language believes about time — whether a beginning is a return, a reset, or a small humiliation — and that belief will show up in how people use the phrase about themselves."
+    },
+    {
+      "type": "heading",
+      "text": "Case notes",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Which of the five images matches how you actually start again?",
+        "B1–B2: Translate “back to square one” into your language. What image did you use, and what does it assume?",
+        "C1–C2: The French phrase assumes you once held the thing. Does that make returning easier or harder than starting from nothing?",
+        "B1–B2: Draw one of the five phrases. Show it to your partner without saying which language it comes from."
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Do learners who can explain the literal image behind a target-language idiom use it more accurately than learners who memorise the meaning alone?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Next: the same words, met in the street."
+    }
+  ],
+  "draft": false
+}

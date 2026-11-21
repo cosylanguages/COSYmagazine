@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const { getStageTargetPath } = require('../scripts/ops/export-stage-video.js');
 
 test('stage exporter resolves generated pages from the repository root', () => {
-  assert.equal(getStageTargetPath('why-speaking-first'), '/why-speaking-first.html');
+  assert.equal(getStageTargetPath('in-conversation-founder-august-school'), '/in-conversation-founder-august-school.html');
 });
 
 test('stage exporter uses the dev demo page for its draft sample', () => {

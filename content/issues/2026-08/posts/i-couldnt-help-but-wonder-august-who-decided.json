@@ -1,0 +1,85 @@
+{
+  "id": "post-i-couldnt-help-but-wonder-august-who-decided",
+  "slug": "i-couldnt-help-but-wonder-august-who-decided",
+  "language": "en",
+  "desk": "Long Reads",
+  "section": "wonder_column",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "I Couldn’t Help But Wonder: Who Decided You Were Bad at Languages?",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE FOUNDER CONVERSATION",
+  "dek": "Every issue opens with one question we cannot put down. This month it is the sentence most adults still carry from school — and the reason the issue begins with the founder.",
+  "tags": [
+    "Speaking Club",
+    "Wonder",
+    "August",
+    "School Trauma"
+  ],
+  "readingTime": 3,
+  "printOrder": 10,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "i-couldnt-help-but-wonder-august-who-decided",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "There is a sentence that most adults who “cannot learn languages” are quoting from memory, and somebody else wrote it. A teacher, a report card, a parent signing a form. It was said once, in a corridor, when they were fourteen. Thirty years later it is still doing the talking."
+    },
+    {
+      "type": "paragraph",
+      "text": "This month’s question is not whether that sentence was fair. It is who had the authority to write it, and what they were actually measuring. We called the issue “Get ready for school” because September is when the sentence gets re-read: the notebooks, the enrolment forms, the adult standing at a classroom door deciding whether to go in."
+    },
+    {
+      "type": "paragraph",
+      "text": "So the issue opens where the sentence starts — with the person who runs the school now. In the conversation that follows, founder James (JY DM) sets out this issue’s themes himself: beginnings, school trauma, and the languages adults come back to. He explains why the issue carries the name it does, and why a magazine about speaking begins with a conversation rather than a lesson."
+    },
+    {
+      "type": "paragraph",
+      "text": "What makes the sentence durable is that it was never an argument. It arrived as a verdict, with a mark attached, in front of other people. Adults who were told they were bad at mathematics tend to say so lightly; adults who were told they were bad at languages tend to lower their voice. That difference is worth noticing, because it tells us the sentence was not about aptitude at all. It was about performance — and performance is something a room can change."
+    },
+    {
+      "type": "heading",
+      "text": "Talk it through",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Who told you that you were bad at languages? How old were you, and what were they measuring — your accent, your grammar, or your willingness to perform?",
+        "B1–B2: What would you have needed to hear in that corridor to walk into the room anyway?",
+        "C1–C2: Is “I’m not a language person” a fact about ability, or a fact about a room? Argue the opposite of what you believe, for two minutes.",
+        "B1–B2: Say the sentence you were given out loud. Then say what you would tell the fourteen-year-old who heard it."
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does the age at which a learner is first described as “bad at languages” predict how long they avoid speaking in adulthood — and does naming that moment aloud shorten the avoidance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keep your answer. By the last page of this issue we will ask for it again."
+    }
+  ],
+  "draft": false
+}
