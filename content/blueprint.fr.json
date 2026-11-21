@@ -14,9 +14,14 @@
       "description": "Lettre d'accueil de JY DM présentant la vision humaine de COSYmagazine, qui relie enseignants et apprenants dans un parcours mensuel chaleureux."
     },
     {
-      "label": "Éditorial",
-      "title": "Éditorial du fondateur 📰",
-      "description": "Le manifeste philosophique fondateur (par exemple « Pourquoi parler d'abord est la seule voie vers une vraie fluidité ») qui établit la logique communicative du thème du mois."
+      "number": "03",
+      "label": "Structure",
+      "title": "La séquence des rubriques",
+      "description": "Chaque rubrique de conversation ouvre l’article qu’elle introduit — la colonne d’émerveillement ouvre l’entretien du fondateur, le débat l’histoire de l’élève, la rubrique science la liste de mots — pour qu’aucune page ne reste seule et que le numéro se lise comme un seul fil.",
+      "tags": [
+        "Ordre de lecture",
+        "Clubs de conversation"
+      ]
     },
     {
       "label": "Réflexion & Club",

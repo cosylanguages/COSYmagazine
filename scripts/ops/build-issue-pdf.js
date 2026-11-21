@@ -431,15 +431,15 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .marginalia-body { margin: 0; }
 
 /* ---- Editorial blueprint (back matter) ---- */
-.bp-intro { font-size: 10.2pt; line-height: 1.5; color: #4A3E35; margin: 0 0 6mm; max-width: 152mm; }
+.bp-intro { font-size: 9.6pt; line-height: 1.45; color: #4A3E35; margin: 0 0 5mm; max-width: 168mm; }
 .bp-list { column-count: 2; column-gap: 8mm; }
-.bp-item { break-inside: avoid; margin: 0 0 3.4mm; }
+.bp-item { break-inside: avoid; margin: 0 0 2.6mm; }
 .bp-num {
   font-family: __SANS__; font-size: 6.4pt; font-weight: 700; letter-spacing: .14em;
   text-transform: uppercase; color: #A2532F;
 }
-.bp-title { font-size: 11pt; font-weight: 700; margin: .6mm 0 .7mm; }
-.bp-desc { font-size: 8.4pt; line-height: 1.38; color: #4A3E35; margin: 0; }
+.bp-title { font-size: 10.4pt; font-weight: 700; margin: .5mm 0 .6mm; }
+.bp-desc { font-size: 8.1pt; line-height: 1.32; color: #4A3E35; margin: 0; }
 
 /* ---- Lexicon cards (the A0-A1 vocabulary chains) ---- */
 .lex-card {
