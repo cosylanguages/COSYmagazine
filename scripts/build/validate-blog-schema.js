@@ -22,7 +22,8 @@ const ALLOWED_SECTIONS = new Set([
   'front_cover', 'editor_letter', 'founder_dispatch', 'wonder_column', 'founder_interview',
   'debatable_relatable', 'student_teacher_spotlight', 'mind_matters', 'words_desk', 'if_you_were',
   'grammar_made_cosy', 'science_expander', 'wonder_contest_showcase', 'life_with_without',
-  'community_challenge', 'greatest_quotes', 'culinary_salon', 'cultural_salon', 'thematic_crossword'
+  'community_challenge', 'greatest_quotes', 'culinary_salon', 'cultural_salon', 'thematic_crossword',
+  'in_conversation', 'idiom_detective', 'cosy_sightings'
 ]);
 
 const ALLOWED_DESKS = new Set([

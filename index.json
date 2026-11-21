@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-20T20:21:05.737Z",
+  "generatedAt": "2026-11-21T13:04:47.370Z",
   "stats": {
-    "totalPosts": 114,
+    "totalPosts": 122,
     "totalDesks": 13,
     "totalIssues": 7
   },
@@ -3706,7 +3706,8 @@
         "seed": "top-100-a0-a1-armenian",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-bashkir",
@@ -3747,7 +3748,8 @@
         "seed": "top-100-a0-a1-bashkir",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-breton",
@@ -3788,7 +3790,8 @@
         "seed": "top-100-a0-a1-breton",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-english",
@@ -3829,7 +3832,8 @@
         "seed": "top-100-a0-a1-english",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 110
     },
     {
       "id": "guide-top-100-a0-a1-french",
@@ -3870,7 +3874,8 @@
         "seed": "top-100-a0-a1-french",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-georgian",
@@ -3911,7 +3916,8 @@
         "seed": "top-100-a0-a1-georgian",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-german",
@@ -3952,7 +3958,8 @@
         "seed": "top-100-a0-a1-german",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-greek",
@@ -3993,7 +4000,8 @@
         "seed": "top-100-a0-a1-greek",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-italian",
@@ -4034,7 +4042,8 @@
         "seed": "top-100-a0-a1-italian",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-portuguese",
@@ -4075,7 +4084,8 @@
         "seed": "top-100-a0-a1-portuguese",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-russian",
@@ -4116,7 +4126,8 @@
         "seed": "top-100-a0-a1-russian",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-spanish",
@@ -4157,7 +4168,8 @@
         "seed": "top-100-a0-a1-spanish",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1-tatar",
@@ -4198,7 +4210,8 @@
         "seed": "top-100-a0-a1-tatar",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 120
     },
     {
       "id": "guide-top-100-a0-a1",
@@ -4239,45 +4252,218 @@
         "seed": "top-100-a0-a1",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 115
     },
     {
-      "id": "post-why-speaking-first",
-      "slug": "why-speaking-first",
+      "id": "post-cosy-sightings-august-first-day",
+      "slug": "cosy-sightings-august-first-day",
       "language": "en",
-      "desk": "Front Page",
-      "section": "founder_dispatch",
+      "desk": "Words",
+      "section": "cosy_sightings",
       "format": "essay",
-      "level": "A0–B2",
+      "level": "A1–C1",
       "issue": {
         "number": "Vol. 2026.08",
         "title": "Get ready for school"
       },
-      "date": "2026-08-03",
-      "title": "Why Speaking-First is the Only Way to True Fluency",
-      "kicker": "EDITORIAL ROOM",
-      "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+      "date": "2026-08-01",
+      "title": "COSY Sightings: The Language of the First Day",
+      "kicker": "COSY SIGHTINGS · A1–C1",
+      "dek": "Where this month’s words turned up in ordinary places — a bookshop till, a school gate, a bakery counter.",
       "tags": [
-        "Philosophy",
-        "Speaking",
-        "Methodology"
+        "COSY Sightings",
+        "August",
+        "Vocabulary"
       ],
-      "readingTime": 6,
+      "readingTime": 3,
+      "printOrder": 150,
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e3a8a",
-          "#f59e0b"
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
         ],
         "fonts": {
           "display": "Fraunces",
-          "text": "DM Sans",
+          "text": "Commissioner",
           "accent": "Caveat"
         },
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
-        "seed": "why-speaking-first",
+        "seed": "cosy-sightings-august-first-day",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-debatable-relatable-august-school-or-you",
+      "slug": "debatable-relatable-august-school-or-you",
+      "language": "en",
+      "desk": "Long Reads",
+      "section": "debatable_relatable",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Debatable & Relatable: Was It the School, or Was It You?",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE STUDENT CONVERSATION",
+      "dek": "Two defensible positions on the same memory. Pick a side, then find the story underneath it.",
+      "tags": [
+        "Speaking Club",
+        "Debatable & Relatable",
+        "August",
+        "School Trauma"
+      ],
+      "readingTime": 3,
+      "printOrder": 30,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "debatable-relatable-august-school-or-you",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-i-couldnt-help-but-wonder-august-who-decided",
+      "slug": "i-couldnt-help-but-wonder-august-who-decided",
+      "language": "en",
+      "desk": "Long Reads",
+      "section": "wonder_column",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "I Couldn’t Help But Wonder: Who Decided You Were Bad at Languages?",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE FOUNDER CONVERSATION",
+      "dek": "Every issue opens with one question we cannot put down. This month it is the sentence most adults still carry from school — and the reason the issue begins with the founder.",
+      "tags": [
+        "Speaking Club",
+        "Wonder",
+        "August",
+        "School Trauma"
+      ],
+      "readingTime": 3,
+      "printOrder": 10,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "i-couldnt-help-but-wonder-august-who-decided",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-idiom-detective-august-beginning-again",
+      "slug": "idiom-detective-august-beginning-again",
+      "language": "en",
+      "desk": "Words",
+      "section": "idiom_detective",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Idiom Detective: The Case of Beginning Again",
+      "kicker": "IDIOM DETECTIVE · B1–C2",
+      "dek": "Five languages, five ways of saying “back to the start” — and the one detail each of them hides.",
+      "tags": [
+        "Idiom Detective",
+        "August",
+        "Idioms"
+      ],
+      "readingTime": 3,
+      "printOrder": 140,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "idiom-detective-august-beginning-again",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-if-you-were-august-teacher-of-frightened-adults",
+      "slug": "if-you-were-august-teacher-of-frightened-adults",
+      "language": "en",
+      "desk": "Long Reads",
+      "section": "if_you_were",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "If You Were the Teacher of a Room of Frightened Adults",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE TEACHER CONVERSATION",
+      "dek": "A hypothetical with teeth: ninety minutes, twelve adults, and a room that has already decided not to speak.",
+      "tags": [
+        "Speaking Club",
+        "If You Were",
+        "August",
+        "Pedagogy"
+      ],
+      "readingTime": 3,
+      "printOrder": 80,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "if-you-were-august-teacher-of-frightened-adults",
         "coverOverride": null
       },
       "draft": false
@@ -4324,7 +4510,8 @@
         "seed": "founder-august-school",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 20
     },
     {
       "id": "post-in-conversation-founder-august-school-ru",
@@ -4368,7 +4555,8 @@
         "seed": "founder-august-school",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 20
     },
     {
       "id": "post-in-conversation-founder-august-school",
@@ -4409,6 +4597,178 @@
         "layout": "magazine-spread",
         "motif": "notebook-handwritten",
         "seed": "founder-august-school",
+        "coverOverride": null
+      },
+      "draft": false,
+      "printOrder": 20
+    },
+    {
+      "id": "post-keeping-up-with-science-august-first-hundred-words",
+      "slug": "keeping-up-with-science-august-first-hundred-words",
+      "language": "en",
+      "desk": "Words",
+      "section": "science_expander",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Keeping Up with Science: Why the First Hundred Words Are Worth More Than the Next Thousand",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE TOP 100 DESK",
+      "dek": "Frequency is not a shortcut. It is the shape of the language, and it is why the teaching section of this issue ends with a hundred words rather than a thousand.",
+      "tags": [
+        "Speaking Club",
+        "Science",
+        "August",
+        "Frequency"
+      ],
+      "readingTime": 3,
+      "printOrder": 100,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "keeping-up-with-science-august-first-hundred-words",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-mind-matters-august-imposter-at-the-front",
+      "slug": "mind-matters-august-imposter-at-the-front",
+      "language": "en",
+      "desk": "Long Reads",
+      "section": "mind_matters",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "Mind Matters: The Imposter at the Front of the Room",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE WORDS DESK",
+      "dek": "Why the first day of a language course feels like being found out — and what the desk that follows is built to do about it.",
+      "tags": [
+        "Speaking Club",
+        "Mind Matters",
+        "August",
+        "Psychology"
+      ],
+      "readingTime": 3,
+      "printOrder": 50,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "mind-matters-august-imposter-at-the-front",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-my-life-with-without-august-idioms",
+      "slug": "my-life-with-without-august-idioms",
+      "language": "en",
+      "desk": "Words",
+      "section": "life_with_without",
+      "format": "essay",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "My Life With & Without: Idioms",
+      "kicker": "SPEAKING CLUB · B1–C2 · OPENS IDIOM DETECTIVE AND COSY SIGHTINGS",
+      "dek": "With them you sound like a person. Without them you sound like a phrasebook that has been very well behaved.",
+      "tags": [
+        "Speaking Club",
+        "With & Without",
+        "August",
+        "Idioms"
+      ],
+      "readingTime": 3,
+      "printOrder": 130,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "my-life-with-without-august-idioms",
+        "coverOverride": null
+      },
+      "draft": false
+    },
+    {
+      "id": "post-the-greatest-quotes-august-on-beginning",
+      "slug": "the-greatest-quotes-august-on-beginning",
+      "language": "en",
+      "desk": "Culture & Quotes",
+      "section": "greatest_quotes",
+      "format": "quote-wall",
+      "level": "B1–C2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-01",
+      "title": "The Greatest Quotes: On Beginning",
+      "kicker": "THE GREATEST QUOTES · THE OUTRO",
+      "dek": "Four lines that survive being read aloud — and the one thing all of them leave out.",
+      "tags": [
+        "Greatest Quotes",
+        "August",
+        "Outro"
+      ],
+      "readingTime": 3,
+      "printOrder": 160,
+      "artDirection": {
+        "palette": [
+          "#993C1D",
+          "#FAF7F2",
+          "#0F6E56",
+          "#D97706"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "Commissioner",
+          "accent": "Caveat"
+        },
+        "layout": "magazine-spread",
+        "motif": "notebook-handwritten",
+        "seed": "the-greatest-quotes-august-on-beginning",
         "coverOverride": null
       },
       "draft": false
@@ -4454,7 +4814,8 @@
         "seed": "top-10-verbs-ba",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-br",
@@ -4497,7 +4858,8 @@
         "seed": "top-10-verbs-br",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-cv",
@@ -4540,7 +4902,8 @@
         "seed": "top-10-verbs-cv",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-de",
@@ -4583,7 +4946,8 @@
         "seed": "top-10-verbs-de",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-el",
@@ -4626,7 +4990,8 @@
         "seed": "top-10-verbs-el",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-en",
@@ -4668,7 +5033,8 @@
         "motif": "notebook-handwritten",
         "seed": "top-10-verbs-en",
         "coverOverride": null
-      }
+      },
+      "printOrder": 60
     },
     {
       "id": "post-top-10-verbs-es",
@@ -4711,7 +5077,8 @@
         "seed": "top-10-verbs-es",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-fr",
@@ -4754,7 +5121,8 @@
         "seed": "top-10-verbs-fr",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-hy",
@@ -4797,7 +5165,8 @@
         "seed": "top-10-verbs-hy",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-it",
@@ -4840,7 +5209,8 @@
         "seed": "top-10-verbs-it",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-ka",
@@ -4883,7 +5253,8 @@
         "seed": "top-10-verbs-ka",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-pt",
@@ -4926,7 +5297,8 @@
         "seed": "top-10-verbs-pt",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-ru",
@@ -4969,7 +5341,8 @@
         "seed": "top-10-verbs-ru",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "post-top-10-verbs-tt",
@@ -5012,7 +5385,8 @@
         "seed": "top-10-verbs-tt",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 70
     },
     {
       "id": "guide-top-10-verbs",
@@ -5059,7 +5433,8 @@
         "seed": "top-10-verbs",
         "coverOverride": null
       },
-      "draft": false
+      "draft": false,
+      "printOrder": 65
     }
   ]
 }

@@ -4165,45 +4165,220 @@
     }
   },
   {
-    "slug": "why-speaking-first",
-    "title": "Why Speaking-First is the Only Way to True Fluency",
-    "date": "2026-08-03",
+    "slug": "cosy-sightings-august-first-day",
+    "title": "COSY Sightings: The Language of the First Day",
+    "date": "2026-08-01",
     "updated": null,
-    "category": "Front Page",
-    "summary": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
+    "category": "Words",
+    "summary": "Where this month’s words turned up in ordinary places — a bookshop till, a school gate, a bakery counter.",
     "author": "JY DM",
-    "reading_time": 6,
+    "reading_time": 3,
     "cover_image": "",
     "tags": [
-      "Philosophy",
-      "Speaking",
-      "Methodology"
+      "COSY Sightings",
+      "August",
+      "Vocabulary"
     ],
     "featured": false,
     "type": "post",
-    "url": "why-speaking-first.html",
+    "url": "cosy-sightings-august-first-day.html",
     "issue_volume": "Vol. 2026.08",
     "issue_title": "Get ready for school",
     "content_type": "issue-article",
-    "cefr_level": "A0–B2",
+    "cefr_level": "A1–C1",
     "vibe": "Editorial Vibe",
     "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
     "audio_podcast": false,
     "artDirection": {
       "palette": [
-        "#0d9488",
-        "#faf7f2",
-        "#1e3a8a",
-        "#f59e0b"
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
       ],
       "fonts": {
         "display": "Fraunces",
-        "text": "DM Sans",
+        "text": "Commissioner",
         "accent": "Caveat"
       },
       "layout": "magazine-spread",
       "motif": "notebook-handwritten",
-      "seed": "why-speaking-first",
+      "seed": "cosy-sightings-august-first-day",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "debatable-relatable-august-school-or-you",
+    "title": "Debatable & Relatable: Was It the School, or Was It You?",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Two defensible positions on the same memory. Pick a side, then find the story underneath it.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "Debatable & Relatable",
+      "August",
+      "School Trauma"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "debatable-relatable-august-school-or-you.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "debatable-relatable-august-school-or-you",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "i-couldnt-help-but-wonder-august-who-decided",
+    "title": "I Couldn’t Help But Wonder: Who Decided You Were Bad at Languages?",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Every issue opens with one question we cannot put down. This month it is the sentence most adults still carry from school — and the reason the issue begins with the founder.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "Wonder",
+      "August",
+      "School Trauma"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "i-couldnt-help-but-wonder-august-who-decided.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "i-couldnt-help-but-wonder-august-who-decided",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "idiom-detective-august-beginning-again",
+    "title": "Idiom Detective: The Case of Beginning Again",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Words",
+    "summary": "Five languages, five ways of saying “back to the start” — and the one detail each of them hides.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Idiom Detective",
+      "August",
+      "Idioms"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "idiom-detective-august-beginning-again.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "idiom-detective-august-beginning-again",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "if-you-were-august-teacher-of-frightened-adults",
+    "title": "If You Were the Teacher of a Room of Frightened Adults",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "A hypothetical with teeth: ninety minutes, twelve adults, and a room that has already decided not to speak.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "If You Were",
+      "August",
+      "Pedagogy"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "if-you-were-august-teacher-of-frightened-adults.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "if-you-were-august-teacher-of-frightened-adults",
       "coverOverride": null
     }
   },
@@ -4339,6 +4514,181 @@
       "layout": "magazine-spread",
       "motif": "notebook-handwritten",
       "seed": "founder-august-school",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "keeping-up-with-science-august-first-hundred-words",
+    "title": "Keeping Up with Science: Why the First Hundred Words Are Worth More Than the Next Thousand",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Words",
+    "summary": "Frequency is not a shortcut. It is the shape of the language, and it is why the teaching section of this issue ends with a hundred words rather than a thousand.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "Science",
+      "August",
+      "Frequency"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "keeping-up-with-science-august-first-hundred-words.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "keeping-up-with-science-august-first-hundred-words",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "mind-matters-august-imposter-at-the-front",
+    "title": "Mind Matters: The Imposter at the Front of the Room",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Long Reads",
+    "summary": "Why the first day of a language course feels like being found out — and what the desk that follows is built to do about it.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "Mind Matters",
+      "August",
+      "Psychology"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "mind-matters-august-imposter-at-the-front.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "mind-matters-august-imposter-at-the-front",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "my-life-with-without-august-idioms",
+    "title": "My Life With & Without: Idioms",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Words",
+    "summary": "With them you sound like a person. Without them you sound like a phrasebook that has been very well behaved.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Speaking Club",
+      "With & Without",
+      "August",
+      "Idioms"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "my-life-with-without-august-idioms.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "my-life-with-without-august-idioms",
+      "coverOverride": null
+    }
+  },
+  {
+    "slug": "the-greatest-quotes-august-on-beginning",
+    "title": "The Greatest Quotes: On Beginning",
+    "date": "2026-08-01",
+    "updated": null,
+    "category": "Culture & Quotes",
+    "summary": "Four lines that survive being read aloud — and the one thing all of them leave out.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "Greatest Quotes",
+      "August",
+      "Outro"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "the-greatest-quotes-august-on-beginning.html",
+    "issue_volume": "Vol. 2026.08",
+    "issue_title": "Get ready for school",
+    "content_type": "issue-article",
+    "cefr_level": "B1–C2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "Target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": false,
+    "artDirection": {
+      "palette": [
+        "#993C1D",
+        "#FAF7F2",
+        "#0F6E56",
+        "#D97706"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "Commissioner",
+        "accent": "Caveat"
+      },
+      "layout": "magazine-spread",
+      "motif": "notebook-handwritten",
+      "seed": "the-greatest-quotes-august-on-beginning",
       "coverOverride": null
     }
   },

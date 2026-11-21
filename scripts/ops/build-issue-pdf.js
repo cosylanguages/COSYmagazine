@@ -129,6 +129,15 @@ function loadEdition(volume, lang) {
     .map((name) => JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8')))
     .filter((post) => !post.draft && post.language === lang);
 
+  // An issue can author its own running order with `printOrder` on each post. Departments
+  // then sit where the editor put them — an opener immediately before the piece it opens —
+  // instead of being boxed into the three acts. The number is copied to every language
+  // edition, so the same department lands in the same place in each.
+  if (posts.some((post) => Number.isFinite(post.printOrder))) {
+    return posts.sort((a, b) => (a.printOrder ?? Number.MAX_SAFE_INTEGER) - (b.printOrder ?? Number.MAX_SAFE_INTEGER)
+      || String(a.title).localeCompare(String(b.title)));
+  }
+
   const rank = (section) => {
     const index = SECTION_ORDER.indexOf(String(section || ''));
     return index === -1 ? SECTION_ORDER.length : index;
@@ -332,7 +341,8 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 /* The appendix runs on too: the sheet the last article leaves half empty is the only
    place a two-column list of 19 entries can start without wasting paper. */
 .page.back-matter { break-before: auto; page-break-before: auto; }
-.article-head { border-bottom: 1.6pt solid #1E1A17; padding-bottom: 3.2mm; margin-bottom: 5mm; break-after: avoid; }
+.article-head { border-bottom: 1.6pt solid #1E1A17; padding-bottom: 3.2mm; margin-bottom: 5mm;
+  break-after: avoid; break-inside: avoid; }
 .article-meta {
   font-family: __SANS__; font-size: 6.8pt; letter-spacing: .12em;
   text-transform: uppercase; color: #8A7A6D; margin-top: 2mm;
@@ -836,7 +846,18 @@ async function buildHtml(volume, lang) {
   const zoneName = (zone) => (zoneDict[zone] || {}).name || pacing.ZONE_LABELS[zone];
   const zoneNote = (zone) => (zoneDict[zone] || {}).note || '';
 
-  const plan = zones.filter((group) => group.articles.length > 0);
+  // An authored running order prints as one sequence: the departments are the structure,
+  // so there are no act openers to print and no act bands to group the contents under.
+  const sequenced = posts.some((post) => Number.isFinite(post.printOrder));
+  const sequenceArticles = posts.map((post) => Object.assign({ post }, pacing.classify(post)));
+  const plan = sequenced
+    ? [{
+      zone: 'sequence',
+      label: '',
+      articles: sequenceArticles,
+      words: sequenceArticles.reduce((sum, item) => sum + item.words, 0)
+    }]
+    : zones.filter((group) => group.articles.length > 0);
   const countWord = (n, forms) => {
     if (n === 1 && forms.one) return forms.one;
     if (lang === 'ru' || lang === 'el') {
@@ -866,11 +887,11 @@ async function buildHtml(volume, lang) {
   <h2 class="contents-title">${escapeHtml(title)}</h2>
   ${issueVibe ? `<p class="contents-intro">${escapeHtml(issueVibe)}</p>` : ''}
   ${plan.map((group) => `<div class="toc-zone">
-    <div class="toc-zone-head">
+    ${group.zone === 'sequence' ? '' : `<div class="toc-zone-head">
       <span class="toc-zone-name">${escapeHtml(zoneName(group.zone))}</span>
       <span class="toc-zone-pages">${group.words.toLocaleString('en-US')} ${escapeHtml(wordsUnit)}</span>
-    </div>
-    ${zoneNote(group.zone) ? `<p class="toc-zone-note">${escapeHtml(zoneNote(group.zone))}</p>` : ''}
+    </div>`}
+    ${group.zone !== 'sequence' && zoneNote(group.zone) ? `<p class="toc-zone-note">${escapeHtml(zoneNote(group.zone))}</p>` : ''}
     ${group.articles.map((item) => `<div class="toc-item">
       <span class="toc-sec">${escapeHtml(sectionName(item.post))}</span>
       <span class="toc-title">${escapeHtml(item.post.title)}</span>
@@ -890,7 +911,7 @@ async function buildHtml(volume, lang) {
 </section>`);
 
   plan.forEach((group) => {
-    pages.push(`<section class="page zone-opener">
+    if (group.zone !== 'sequence') pages.push(`<section class="page zone-opener">
   <div class="mast"><span>${escapeHtml(zoneName(group.zone))}</span><span>${escapeHtml(label)}</span></div>
   <div class="zone-open-body">
     <h2 class="zone-open-name">${escapeHtml(zoneName(group.zone))}</h2>
@@ -902,8 +923,8 @@ async function buildHtml(volume, lang) {
     group.articles.forEach((item) => {
       const post = item.post;
       pages.push(`<section class="page article${item.longRead ? ' long-read' : ''}">
-  <div class="mast"><span>${escapeHtml(sectionName(post))}</span><span>${escapeHtml(label)}</span></div>
   <header class="article-head">
+    <div class="mast"><span>${escapeHtml(sectionName(post))}</span><span>${escapeHtml(label)}</span></div>
     <p class="kicker">${escapeHtml(post.kicker || sectionName(post))}</p>
     <h1>${escapeHtml(post.title)}</h1>
     ${post.dek ? `<p class="dek">${escapeHtml(post.dek)}</p>` : ''}

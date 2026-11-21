@@ -1,0 +1,159 @@
+{
+  "id": "post-in-conversation-student-august-school-years",
+  "slug": "in-conversation-student-august-school-years",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "in_conversation",
+  "format": "qa",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "In Conversation: The Student Years — James on the Classroom He Came From",
+  "kicker": "SCHOOL MEMORIES DESK",
+  "dek": "Before he taught anyone, he was the one at the back of the room hoping not to be called on. The founder’s own account of the language he was made to study, the pressure that arrived with every report card, the one teacher who changed the temperature of the room, and the years he spent away before he came back. Interview by Alfinur M.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "School",
+    "Memories",
+    "Returning"
+  ],
+  "readingTime": 7,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "founder-august-student",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Before the method, before the magazine, before any of it, there was a boy in a classroom being asked a question he could not answer. This interview is the founder’s own account of that room: the language he was made to study, the pressure that arrived with every report card, the one teacher who changed the temperature of the room, and the years he spent away from languages before he came back. Teachers are not named here, and the memories are his own — this is a personal account, not a profile of anyone else.",
+      "say": "Before the method, before the magazine, there was a boy in a classroom being asked a question he could not answer. This interview is the founder's own account of that room."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: The Room He Came From",
+      "say": "Part 1: The room he came from"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Before COSY, before teaching, before any of this — what were you like in a language classroom at fourteen?",
+      "say": "Before COSY, before teaching, before any of this — what were you like in a language classroom at fourteen?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — needs: which language, which year, where you sat, what you did to avoid being called on.]</em> ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Which language was it, and who decided that you would study it?",
+      "say": "Which language was it, and who decided that you would study it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — needs: the language, whether it was chosen or assigned, and who made that decision.]</em> ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> What did pressure look like at your school — marks, reports, parents, the walk home?",
+      "say": "What did pressure look like at your school — marks, reports, parents, the walk home?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — needs: what happened after a bad mark, at home and in the corridor.]</em> ⚠"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: The Teacher Who Changed the Temperature",
+      "say": "Part 2: The teacher who changed the temperature"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Was there a teacher who helped? What did they do that the others did not?",
+      "say": "Was there a teacher who helped? What did they do that the others did not?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — keep the teacher unnamed; what we need is what they did: a phrase, a correction, a seat, a silence.]</em> ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> And one who did not — what did that person do that you still remember?",
+      "say": "And one who did not — what did that person do that you still remember?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — again unnamed; the incident matters more than the person.]</em> ⚠"
+    },
+    {
+      "type": "pullquote",
+      "quote": "I did not fail that language. I failed the way it was taught to me, and I spent years believing those were the same thing.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "I did not fail that language. I failed the way it was taught to me, and I spent years believing those were the same thing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: Leaving, and Coming Back",
+      "say": "Part 3: Leaving, and coming back"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> When did you first speak a foreign language outside a classroom and feel it actually work?",
+      "say": "When did you first speak a foreign language outside a classroom and feel it actually work?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — needs: the place, the person, the sentence you managed, and what happened next.]</em> ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> You stopped, and years later you came back. What made returning possible?",
+      "say": "You stopped, and years later you came back. What made returning possible?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — needs: what you did first, what you avoided, and how long it took before speaking felt possible.]</em> ⚠"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> What would you say to the version of you who had been told he was not good at languages?",
+      "say": "What would you say to the version of you who had been told he was not good at languages?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be recorded in the studio — this one carries the issue’s promise, so it should be your own words, unedited.]</em> ⚠"
+    },
+    {
+      "type": "culture-bite",
+      "title": "A Research Question for Readers",
+      "content": "💡 If adults who describe a discouraging school experience are asked to retell one classroom memory in the target language, does the retelling change how willing they are to speak in the next session — and in which direction?",
+      "say": "If adults who describe a discouraging school experience are asked to retell one classroom memory in the target language, does the retelling change how willing they are to speak in the next session?"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true,
+  "printOrder": 40
+}

@@ -1,0 +1,81 @@
+{
+  "id": "post-keeping-up-with-science-august-first-hundred-words",
+  "slug": "keeping-up-with-science-august-first-hundred-words",
+  "language": "en",
+  "desk": "Words",
+  "section": "science_expander",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Keeping Up with Science: Why the First Hundred Words Are Worth More Than the Next Thousand",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE TOP 100 DESK",
+  "dek": "Frequency is not a shortcut. It is the shape of the language, and it is why the teaching section of this issue ends with a hundred words rather than a thousand.",
+  "tags": [
+    "Speaking Club",
+    "Science",
+    "August",
+    "Frequency"
+  ],
+  "readingTime": 3,
+  "printOrder": 100,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "keeping-up-with-science-august-first-hundred-words",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Word frequency in natural language is brutally unequal. A handful of words do most of the work, and the tail is enormous: thousands of items that turn up once in a hundred thousand. Zipf’s law describes the shape; teachers live with the consequence."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why the section that follows prints a hundred words and not a thousand. A hundred well-chosen items give a beginner a real share of everyday text and speech. The next thousand give a smaller return for far more effort — and, more importantly, they delay the moment the learner says something out loud. The list is not a test. It is a floor."
+    },
+    {
+      "type": "paragraph",
+      "text": "The arithmetic is worth doing once. If a hundred items cover a large share of running text, then a learner who owns them is not a beginner reading beginner material — they are a beginner reading the language. The remaining vocabulary is mostly nouns that carry the topic rather than the sentence: the words you can look up without losing the thread. That is why the list ends where it does, and why the section that follows prints the words with examples rather than definitions."
+    },
+    {
+      "type": "heading",
+      "text": "Check the claim",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Take any paragraph in your target language. How many of its words are on the hundred-word list?",
+        "B1–B2: Which ten words would you add for your own life — your job, your family, your city?",
+        "C1–C2: “Frequency lists teach you to read about the world, not to talk about yourself.” Where is that true, and what would fix it?",
+        "B1–B2: Cover the right-hand column of any article in this issue and read only the hundred-word items. How much of the argument survives?"
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does a learner’s coverage of the hundred most frequent words predict their willingness to speak in an unscripted conversation better than their total vocabulary size does?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The desk follows: the top ten verbs first, then the hundred words they hold together."
+    }
+  ],
+  "draft": false
+}

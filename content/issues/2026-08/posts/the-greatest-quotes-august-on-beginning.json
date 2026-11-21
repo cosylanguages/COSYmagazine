@@ -1,0 +1,93 @@
+{
+  "id": "post-the-greatest-quotes-august-on-beginning",
+  "slug": "the-greatest-quotes-august-on-beginning",
+  "language": "en",
+  "desk": "Culture & Quotes",
+  "section": "greatest_quotes",
+  "format": "quote-wall",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "The Greatest Quotes: On Beginning",
+  "kicker": "THE GREATEST QUOTES · THE OUTRO",
+  "dek": "Four lines that survive being read aloud — and the one thing all of them leave out.",
+  "tags": [
+    "Greatest Quotes",
+    "August",
+    "Outro"
+  ],
+  "readingTime": 3,
+  "printOrder": 160,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "the-greatest-quotes-august-on-beginning",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "quote-wall",
+      "quotes": [
+        {
+          "quote": "The limits of my language mean the limits of my world.",
+          "author": "Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1921)"
+        },
+        {
+          "quote": "One language sets you in a corridor for life. Two languages open every door along the way.",
+          "author": "Frank Smith"
+        },
+        {
+          "quote": "Learning another language is not only learning different words for the same things, but learning another way to think about things.",
+          "author": "Flora Lewis"
+        },
+        {
+          "quote": "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart.",
+          "author": "attributed to Nelson Mandela"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Read together, these four lines agree on something: a language is not a subject, it is a territory. They disagree on almost everything else — Wittgenstein makes it a boundary, Smith a corridor, Lewis a second way of thinking, Mandela a door into someone else."
+    },
+    {
+      "type": "paragraph",
+      "text": "What all four leave out is the room. None of them mentions the ten minutes before a first lesson, the person deciding whether to speak, or the teacher who has to make that decision easier. This issue has been about that room: the founder’s, the student’s, the teacher’s, and yours."
+    },
+    {
+      "type": "paragraph",
+      "text": "The four lines also disagree about who is doing the work. Wittgenstein’s boundary is inherited; Smith’s corridor is chosen; Lewis’s second way of thinking is earned slowly; Mandela’s door is opened by someone else. Most learners need all four at different moments: the boundary to know what they are up against, the corridor to keep walking, the second way of thinking as the reward, and another person to open the door."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Which of the four is your reason for learning, this month? Say it in one sentence."
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Do learners who keep a written record of why they are learning — in their own words, revisited monthly — speak more often in class than learners who set only proficiency goals?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The main discussion ends here. What follows is the month’s list, the recipes, and the crossword — the parts of the magazine you use rather than read."
+    }
+  ],
+  "draft": false
+}

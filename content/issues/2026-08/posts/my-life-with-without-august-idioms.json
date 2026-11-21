@@ -1,0 +1,81 @@
+{
+  "id": "post-my-life-with-without-august-idioms",
+  "slug": "my-life-with-without-august-idioms",
+  "language": "en",
+  "desk": "Words",
+  "section": "life_with_without",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "My Life With & Without: Idioms",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS IDIOM DETECTIVE AND COSY SIGHTINGS",
+  "dek": "With them you sound like a person. Without them you sound like a phrasebook that has been very well behaved.",
+  "tags": [
+    "Speaking Club",
+    "With & Without",
+    "August",
+    "Idioms"
+  ],
+  "readingTime": 3,
+  "printOrder": 130,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "my-life-with-without-august-idioms",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An idiom is a small admission that a language is a shared history rather than a code. “To be in the same boat” cannot be assembled from its parts; it has to be inherited."
+    },
+    {
+      "type": "paragraph",
+      "text": "Life without idioms is perfectly functional. You can order, apologise, explain, and be understood for years. What you cannot do is be funny, or be brief, or signal that you belong. Life with them is a different kind of risk: use one badly and you sound like a tourist in the local hat. Use one well and the room relaxes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The test is not whether you know the idiom. It is whether you know when not to use it. <em>To be in the same boat</em> offered to someone who has just lost their job is a kindness; offered to someone who has just been promoted, it is an insult. The grammar of an idiom is fixed, but its social grammar is not, and that is the part no list can teach you. It is learned by watching who says it, to whom, and what happens next."
+    },
+    {
+      "type": "heading",
+      "text": "Try it",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Which idiom in your language has no equivalent in English? Describe the situation it names.",
+        "B1–B2: Tell a two-minute story that ends with an idiom. Your partner guesses the meaning from context.",
+        "C1–C2: “Idioms are the last thing you learn and the first thing that makes you sound fluent.” True, false, or only true for some languages?",
+        "C1–C2: Describe a time an idiom landed badly — yours or someone else's. What did the room do?"
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "When learners meet idioms in context rather than in lists, do they produce them spontaneously within the same month — and do they produce them accurately?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The two sections that follow hunt idioms in the wild: first a detective’s case file on the idioms of beginning again, then the places this month’s words turned up in ordinary life."
+    }
+  ],
+  "draft": false
+}
