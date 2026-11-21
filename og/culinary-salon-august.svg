@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="notebook-handwritten" data-seed="culinary-salon-august" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+      
+    <rect width="1200" height="630" fill="#fffef8" />
+    <line x1="0" y1="35" x2="1200" y2="35" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="63" x2="1200" y2="63" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="91" x2="1200" y2="91" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="119" x2="1200" y2="119" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="147" x2="1200" y2="147" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="175" x2="1200" y2="175" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="203" x2="1200" y2="203" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="231" x2="1200" y2="231" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="259" x2="1200" y2="259" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="287" x2="1200" y2="287" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="315" x2="1200" y2="315" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="343" x2="1200" y2="343" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="371" x2="1200" y2="371" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="399" x2="1200" y2="399" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="427" x2="1200" y2="427" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="455" x2="1200" y2="455" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="483" x2="1200" y2="483" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="511" x2="1200" y2="511" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="539" x2="1200" y2="539" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="567" x2="1200" y2="567" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="595" x2="1200" y2="595" stroke="#ffe250" stroke-width="1" opacity="0.22" /><line x1="0" y1="623" x2="1200" y2="623" stroke="#ffe250" stroke-width="1" opacity="0.22" />
+    <line x1="168" y1="0" x2="168" y2="630" stroke="#2d9cdb" stroke-width="2" opacity="0.35" />
+    <path d="M 720 483 Q 737 466 754 483 T 771 483" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 612 311 Q 642 281 672 311 T 702 311" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" /><path d="M 913 142 Q 942 113 971 142 T 1000 142" fill="none" stroke="#1e46a0" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+  
+      
+      <g transform="rotate(5 327 196)">
+        <rect x="137" y="94" width="380" height="204" rx="6" fill="#ffe250" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(7 561 216)">
+        <rect x="385" y="85" width="352" height="262" rx="6" fill="#fffef8" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(0 474 375)">
+        <rect x="319" y="251" width="310" height="248" rx="6" fill="#ffe250" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      <g transform="rotate(10 490.5 393)">
+        <rect x="283" y="221" width="415" height="344" rx="6" fill="#ffe250" opacity="0.3" stroke="#2d9cdb" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+    
+      
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="984,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1004,157.5 984,0" fill="#FCF9F2" opacity="0.9" stroke="#2d9cdb" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  
+      
+    <g transform="rotate(6 402 28)" filter="url(#soft-shadow)">
+      <rect x="342" y="16" width="120" height="24" rx="2" fill="#ffe250" opacity="0.45" />
+      <line x1="342" y1="16" x2="342" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="462" y1="16" x2="462" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  
+      
+    <g class="cover-tiny-doodles" stroke="#2d9cdb" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 883 58 Q 883 70 895 70 Q 883 70 883 82 Q 883 70 871 70 Q 883 70 883 58 Z" fill="#ffe250" opacity="0.3" />
+      <path d="M 928 100 Q 928 108 936 108 Q 928 108 928 116 Q 928 108 920 108 Q 928 108 928 100 Z" stroke="#ffe250" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 55 101 C 65 86, 50 66, 70 51" />
+      <circle cx="59" cy="86" r="3" fill="#2d9cdb" opacity="0.5" />
+      <circle cx="65" cy="69" r="3" fill="#ffe250" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-sketchy-underline">
+      <path d="M 42 592 Q 171 597 299 592" stroke="#ffe250" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 52 595 Q 171 600 289 594" stroke="#2d9cdb" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+  
+      
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="284" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#ffe250" stroke-width="1.2" />
+      <text x="34" y="40" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSYMAGAZINE • CULTURE &amp; QUOTES</text>
+    </g>
+  
+      
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="424" width="1152" height="182" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#2d9cdb" stroke-width="1.2" />
+        <text x="54" y="462" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">CULINARY SALON · A2–B2 • Vol. 2026.08</text>
+        <text x="54" y="500" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Culinary Salon: Five</text>
+<text x="54" y="536" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Breakfasts for the First</text>
+<text x="54" y="572" fill="#1e46a0" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Week</text>
+      </g>
+    
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.18" pointer-events="none" />
+    </svg>

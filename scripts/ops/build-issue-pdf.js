@@ -129,6 +129,15 @@ function loadEdition(volume, lang) {
     .map((name) => JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8')))
     .filter((post) => !post.draft && post.language === lang);
 
+  // An issue can author its own running order with `printOrder` on each post. Departments
+  // then sit where the editor put them — an opener immediately before the piece it opens —
+  // instead of being boxed into the three acts. The number is copied to every language
+  // edition, so the same department lands in the same place in each.
+  if (posts.some((post) => Number.isFinite(post.printOrder))) {
+    return posts.sort((a, b) => (a.printOrder ?? Number.MAX_SAFE_INTEGER) - (b.printOrder ?? Number.MAX_SAFE_INTEGER)
+      || String(a.title).localeCompare(String(b.title)));
+  }
+
   const rank = (section) => {
     const index = SECTION_ORDER.indexOf(String(section || ''));
     return index === -1 ? SECTION_ORDER.length : index;
@@ -328,11 +337,13 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 /* ---- Articles: a two-column magazine grid ---- */
 /* Zone openers, the contents page and the appendix open on a fresh page; articles run on. */
 .article { break-before: auto; }
+.article.print-new-page { break-before: page; page-break-before: always; }
 .page:not(.article) { break-before: page; }
 /* The appendix runs on too: the sheet the last article leaves half empty is the only
    place a two-column list of 19 entries can start without wasting paper. */
 .page.back-matter { break-before: auto; page-break-before: auto; }
-.article-head { border-bottom: 1.6pt solid #1E1A17; padding-bottom: 3.2mm; margin-bottom: 5mm; break-after: avoid; }
+.article-head { border-bottom: 1.6pt solid #1E1A17; padding-bottom: 3.2mm; margin-bottom: 5mm;
+  break-after: avoid; break-inside: avoid; }
 .article-meta {
   font-family: __SANS__; font-size: 6.8pt; letter-spacing: .12em;
   text-transform: uppercase; color: #8A7A6D; margin-top: 2mm;
@@ -344,6 +355,8 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .long-read .article-body { column-count: 2; }
 /* A subhead at the foot of a column that continues in the next one reads as a mistake. */
 .article-body h2, .article-body h3, .article-body h4 { break-after: avoid; }
+.article-body > h2 { column-span: all; margin-top: 5mm; }
+.article-body li { break-inside: avoid; }
 
 /* A table that flows from the bottom of the left column to the top of the right one reads
    out of order, so any block carrying a table spans the gutter whatever its wrapper. */
@@ -421,15 +434,15 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .marginalia-body { margin: 0; }
 
 /* ---- Editorial blueprint (back matter) ---- */
-.bp-intro { font-size: 10.2pt; line-height: 1.5; color: #4A3E35; margin: 0 0 6mm; max-width: 152mm; }
-.bp-list { column-count: 2; column-gap: 8mm; }
-.bp-item { break-inside: avoid; margin: 0 0 3.4mm; }
+.bp-intro { font-size: 9.6pt; line-height: 1.45; color: #4A3E35; margin: 0 0 5mm; max-width: 168mm; }
+.bp-list { column-count: 3; column-gap: 6mm; }
+.bp-item { break-inside: avoid; margin: 0 0 2.2mm; }
 .bp-num {
   font-family: __SANS__; font-size: 6.4pt; font-weight: 700; letter-spacing: .14em;
   text-transform: uppercase; color: #A2532F;
 }
-.bp-title { font-size: 11pt; font-weight: 700; margin: .6mm 0 .7mm; }
-.bp-desc { font-size: 8.4pt; line-height: 1.38; color: #4A3E35; margin: 0; }
+.bp-title { font-size: 9.6pt; font-weight: 700; margin: .4mm 0 .5mm; }
+.bp-desc { font-size: 7.7pt; line-height: 1.3; color: #4A3E35; margin: 0; }
 
 /* ---- Lexicon cards (the A0-A1 vocabulary chains) ---- */
 .lex-card {
@@ -652,6 +665,43 @@ caption { caption-side: top; text-align: left; font-family: __SANS__; font-size:
 .quote-tile-text { font-style: italic; font-size: 9.2pt; margin: 0 0 1mm; }
 .quote-tile-author { font-family: __SANS__; font-size: 6.6pt; letter-spacing: .12em; text-transform: uppercase; color: #8A7A6D; }
 
+/* ---- Crossword: the grid is drawn from the letters, so it prints without JS ---- */
+.crossword { column-span: all; margin: 0; max-width: 100%; }
+.crossword-title {
+  font-family: __SANS__; font-size: 7.4pt; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: #A2532F; margin: 0 0 3mm;
+}
+.crossword-board { break-inside: avoid; }
+.crossword-grid {
+  break-inside: avoid;
+  display: grid; grid-template-columns: repeat(var(--cw-cols, 13), minmax(0, 1fr));
+  box-sizing: border-box; margin: 0 auto 6mm;
+  width: min(140mm, calc(var(--cw-max-h, 122mm) * var(--cw-cols, 15) / var(--cw-rows, 15)));
+}
+.cw-cell {
+  position: relative; aspect-ratio: 1 / 1; min-width: 0; display: flex;
+  align-items: center; justify-content: center;
+  border: .5pt solid #6B5B4E; font-size: 9.6pt; font-weight: 600; color: #1E1A17;
+}
+.cw-block { background: #1E1A17; border-color: #1E1A17; }
+.cw-blank { border: 0; background: transparent; }
+.cw-num { position: absolute; top: .3mm; left: .7mm; font-family: __SANS__; font-size: 5.2pt; color: #6B5B4E; }
+.crossword-clues { column-count: 2; column-gap: 8mm; }
+.crossword-clue-col { break-inside: avoid; }
+.crossword-clue-head {
+  font-family: __SANS__; font-size: 6.4pt; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #8A7A6D; margin: 0 0 1.4mm;
+}
+.crossword-clue-list { list-style: none; margin: 0 0 3mm; padding: 0; }
+.crossword-clue-list li { font-size: 8.2pt; line-height: 1.34; margin: 0 0 1mm; }
+.cw-clue-num { font-weight: 700; margin-right: .6mm; }
+.crossword-answers { break-inside: avoid; border-top: .5pt solid #D9CFC4; padding-top: 2mm; margin-top: 2mm; }
+.crossword-answers-title {
+  font-family: __SANS__; font-size: 6.2pt; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #8A7A6D; margin: 0 0 1mm;
+}
+.crossword-answers-body { font-size: 7.8pt; line-height: 1.55; color: #3A322C; margin: 0; letter-spacing: .01em; }
+
 /* ---- Figures from blocks.js ---- */
 .gazette-figure { margin: 5mm 0; }
 .gazette-figure-img { display: block; width: 100%; }
@@ -836,7 +886,18 @@ async function buildHtml(volume, lang) {
   const zoneName = (zone) => (zoneDict[zone] || {}).name || pacing.ZONE_LABELS[zone];
   const zoneNote = (zone) => (zoneDict[zone] || {}).note || '';
 
-  const plan = zones.filter((group) => group.articles.length > 0);
+  // An authored running order prints as one sequence: the departments are the structure,
+  // so there are no act openers to print and no act bands to group the contents under.
+  const sequenced = posts.some((post) => Number.isFinite(post.printOrder));
+  const sequenceArticles = posts.map((post) => Object.assign({ post }, pacing.classify(post)));
+  const plan = sequenced
+    ? [{
+      zone: 'sequence',
+      label: '',
+      articles: sequenceArticles,
+      words: sequenceArticles.reduce((sum, item) => sum + item.words, 0)
+    }]
+    : zones.filter((group) => group.articles.length > 0);
   const countWord = (n, forms) => {
     if (n === 1 && forms.one) return forms.one;
     if (lang === 'ru' || lang === 'el') {
@@ -866,11 +927,11 @@ async function buildHtml(volume, lang) {
   <h2 class="contents-title">${escapeHtml(title)}</h2>
   ${issueVibe ? `<p class="contents-intro">${escapeHtml(issueVibe)}</p>` : ''}
   ${plan.map((group) => `<div class="toc-zone">
-    <div class="toc-zone-head">
+    ${group.zone === 'sequence' ? '' : `<div class="toc-zone-head">
       <span class="toc-zone-name">${escapeHtml(zoneName(group.zone))}</span>
       <span class="toc-zone-pages">${group.words.toLocaleString('en-US')} ${escapeHtml(wordsUnit)}</span>
-    </div>
-    ${zoneNote(group.zone) ? `<p class="toc-zone-note">${escapeHtml(zoneNote(group.zone))}</p>` : ''}
+    </div>`}
+    ${group.zone !== 'sequence' && zoneNote(group.zone) ? `<p class="toc-zone-note">${escapeHtml(zoneNote(group.zone))}</p>` : ''}
     ${group.articles.map((item) => `<div class="toc-item">
       <span class="toc-sec">${escapeHtml(sectionName(item.post))}</span>
       <span class="toc-title">${escapeHtml(item.post.title)}</span>
@@ -890,7 +951,7 @@ async function buildHtml(volume, lang) {
 </section>`);
 
   plan.forEach((group) => {
-    pages.push(`<section class="page zone-opener">
+    if (group.zone !== 'sequence') pages.push(`<section class="page zone-opener">
   <div class="mast"><span>${escapeHtml(zoneName(group.zone))}</span><span>${escapeHtml(label)}</span></div>
   <div class="zone-open-body">
     <h2 class="zone-open-name">${escapeHtml(zoneName(group.zone))}</h2>
@@ -901,9 +962,9 @@ async function buildHtml(volume, lang) {
 
     group.articles.forEach((item) => {
       const post = item.post;
-      pages.push(`<section class="page article${item.longRead ? ' long-read' : ''}">
-  <div class="mast"><span>${escapeHtml(sectionName(post))}</span><span>${escapeHtml(label)}</span></div>
+      pages.push(`<section class="page article${item.longRead ? ' long-read' : ''}${post.printPageBreak ? ' print-new-page' : ''}">
   <header class="article-head">
+    <div class="mast"><span>${escapeHtml(sectionName(post))}</span><span>${escapeHtml(label)}</span></div>
     <p class="kicker">${escapeHtml(post.kicker || sectionName(post))}</p>
     <h1>${escapeHtml(post.title)}</h1>
     ${post.dek ? `<p class="dek">${escapeHtml(post.dek)}</p>` : ''}

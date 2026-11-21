@@ -22,6 +22,85 @@ const FULLLIST_LABELS = {
   pt: { list: 'A lista completa', print: '🖨 Imprimir', pdf: '📄 Guardar como PDF', csv: '⬇ Tabela (CSV)' }
 };
 
+// Crossword chrome. The puzzle itself is authored in the post; only these three words
+// are interface copy, so they follow the edition language like the rest of the page.
+const CROSSWORD_LABELS = {
+  en: { across: 'Across', down: 'Down', answers: 'Answers' },
+  fr: { across: 'Horizontal', down: 'Vertical', answers: 'Solutions' },
+  it: { across: 'Orizzontali', down: 'Verticali', answers: 'Soluzioni' },
+  ru: { across: 'По горизонтали', down: 'По вертикали', answers: 'Ответы' },
+  el: { across: 'Οριζόντια', down: 'Κάθετα', answers: 'Λύσεις' },
+  es: { across: 'Horizontales', down: 'Verticales', answers: 'Soluciones' },
+  de: { across: 'Waagerecht', down: 'Senkrecht', answers: 'Lösungen' },
+  pt: { across: 'Horizontais', down: 'Verticais', answers: 'Soluções' }
+};
+
+/**
+ * Standard crossword numbering: a cell takes the next number when it starts an
+ * across or a down entry. Derived from the grid so the author never renumbers.
+ */
+function crosswordNumbering(grid) {
+  const numbers = grid.map((row) => row.split('').map(() => 0));
+  const isLetter = (r, c) => {
+    if (r < 0 || c < 0 || r >= grid.length || c >= grid[0].length) return false;
+    return grid[r][c] !== '#' && grid[r][c] !== '.';
+  };
+  let next = 1;
+  for (let r = 0; r < grid.length; r += 1) {
+    for (let c = 0; c < grid[0].length; c += 1) {
+      if (!isLetter(r, c)) continue;
+      const startsAcross = !isLetter(r, c - 1) && isLetter(r, c + 1);
+      const startsDown = !isLetter(r - 1, c) && isLetter(r + 1, c);
+      if (startsAcross || startsDown) numbers[r][c] = next++;
+    }
+  }
+  return numbers;
+}
+
+function renderCrosswordHtml(block, lang) {
+  const t = CROSSWORD_LABELS[lang] || CROSSWORD_LABELS.en;
+  const grid = Array.isArray(block.grid) ? block.grid : [];
+  if (!grid.length) return '';
+  const cols = Math.max(...grid.map((row) => row.length));
+  const numbers = crosswordNumbering(grid);
+
+  const cells = grid.map((row, r) => row.split('').map((ch, c) => {
+    if (ch === '#') return '<span class="cw-cell cw-block" aria-hidden="true"></span>';
+    if (ch === '.') return '<span class="cw-cell cw-blank" aria-hidden="true"></span>';
+    const num = numbers[r][c] ? `<span class="cw-num">${numbers[r][c]}</span>` : '';
+    return `<span class="cw-cell">${num}<span class="cw-letter">${escapeHtml(ch.toUpperCase())}</span></span>`;
+  }).join('')).join('');
+
+  const clueList = (entries) => (entries || []).map((entry) => `
+      <li value="${entry.number}"><span class="cw-clue-num">${entry.number}</span> ${parseFormattedText(entry.clue)}</li>`).join('');
+
+  const answers = block.showAnswers
+    ? `<div class="crossword-answers">
+    <h5 class="crossword-answers-title">${t.answers}</h5>
+    <p class="crossword-answers-body">${(block.across || []).map((e) => `${e.number}. ${escapeHtml(e.answer || '')}`).join(' · ')}<br>${(block.down || []).map((e) => `${e.number}. ${escapeHtml(e.answer || '')}`).join(' · ')}</p>
+  </div>`
+    : '';
+
+  return `
+<figure class="crossword" style="--cw-cols:${cols};--cw-rows:${grid.length}">
+  <div class="crossword-board">
+  ${block.title ? `<figcaption class="crossword-title">${parseFormattedText(block.title)}</figcaption>` : ''}
+  <div class="crossword-grid">${cells}</div>
+  </div>
+  <div class="crossword-clues">
+    <div class="crossword-clue-col">
+      <h5 class="crossword-clue-head">${t.across}</h5>
+      <ul class="crossword-clue-list">${clueList(block.across)}</ul>
+    </div>
+    <div class="crossword-clue-col">
+      <h5 class="crossword-clue-head">${t.down}</h5>
+      <ul class="crossword-clue-list">${clueList(block.down)}</ul>
+    </div>
+  </div>
+  ${answers}
+</figure>`;
+}
+
 function renderQuizCardHtml(q) {
   const optionsHtml = (q.options || []).map((opt, i) => `
         <button type="button" class="quiz-option-btn" data-correct="${i === q.correctIndex ? 'true' : 'false'}">
@@ -203,6 +282,9 @@ ${tr}
       `).join('');
       return `<div class="format-quote-wall">${quotesHtml}</div>`;
     }
+    case 'crossword': {
+      return renderCrosswordHtml(block, state.lang || 'en');
+    }
     case 'links': {
       return `
 <div class="gazette-link-block">
@@ -213,4 +295,4 @@ ${tr}
       return '';
   }
 }
-module.exports = { renderBlockToHtml, renderQuizCardHtml, FULLLIST_LABELS };
+module.exports = { renderBlockToHtml, renderQuizCardHtml, FULLLIST_LABELS, CROSSWORD_LABELS, crosswordNumbering };

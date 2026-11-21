@@ -1,17 +1,52 @@
 # COSYmagazine Vol.  2026.08 — Get Ready for School
 
+## Running order (as built)
+
+The issue prints as one sequence. Each post carries `printOrder`, so a department sits immediately
+before the piece it opens — the openers are not boxed into front/well/back acts.
+
+| # | Department | Section id | Role |
+|---|---|---|---|
+| 1 | I Couldn't Help But Wonder | `wonder_column` | Opens the issue and hands over to the founder conversation |
+| 2 | In Conversation: Founder | `founder_interview` | States the issue's themes and its name |
+| 3 | Debatable & Relatable | `debatable_relatable` | Opens the student conversation |
+| 4 | In Conversation: Student Years | `in_conversation` | Staged in `drafts/` until the answers are recorded |
+| 5 | Mind Matters | `mind_matters` | Opens the Words Desk |
+| 6 | Words Desk (top 10, then top 100) | `words_desk` | The teaching block |
+| 7 | If You Were | `if_you_were` | Opens the teacher conversation |
+| 8 | In Conversation: The Teacher's Room | `in_conversation` | Staged in `drafts/` until he has read it |
+| 9 | Keeping Up with Science | `science_expander` | Opens the Top 100 block |
+| 10 | My Life With & Without | `life_with_without` | Opens Idiom Detective and COSY Sightings |
+| 11 | Idiom Detective / COSY Sightings | `idiom_detective`, `cosy_sightings` | The two pieces the ledger opens |
+| 12 | The Greatest Quotes | `greatest_quotes` | The outro; closes the main discussion |
+| 13 | The Month's List | `cultural_salon` | One film, one song, one book, and the Book Lovers Day prompt |
+| 14 | Culinary Salon | `culinary_salon` | Five breakfasts, one per kitchen language |
+| 15 | Thematic Crossword | `thematic_crossword` | The puzzle page; closes the issue before the appendix |
+
+Every speaking-club department carries the issue's theme in its own words and one
+"This could be a good research question" marginalia block.
+
+The three departments the issue used to promise but did not print are now built: the month's list
+(`the-months-list-august`), the recipes (`culinary-salon-august`) and the puzzle
+(`crossword-august-first-words`). The crossword needed a block type, a grid renderer and print CSS;
+all three live in `blocks.js` and `build-issue-pdf.js` now. The board (caption plus grid) is grouped
+so it never splits across a page, and the clues and answer key follow it on the same page, which
+keeps the puzzle to one spread: opener on one page, grid, clues and key on the next.
+
 ## Production Brief
 
 This is the revised editorial plan for the first issue, not final page copy. The issue's promise is: **a new language can be a new beginning, and speaking does not have to wait for perfection.** It is for teens, adults, and seniors; examples should be age-inclusive without assuming the same goals or experiences.
 
-The requested full edition is now planned at 31 pages. The existing 24-page PDF is an earlier draft and does not yet match this roster. Do not present it as the completed edition until the missing interviews, contest entries, research review, cultural material, and puzzle are ready.
+The roster below is the editorial plan; the built edition now runs longer than 31 pages because the founder, student and teacher conversations print in full. The two conversations still staged in `drafts/` remain the only unwritten pages, and the contest showcase stays closed until winners and permissions exist.
 
 ## Editorial Rules
 
-- Opening sequence is fixed: Front Cover → Letter from the Editor (JY DM) → Founder's Editorial Dispatch.
+- Opening sequence is fixed: Front Cover → Letter from the Editor (JY DM) → the issue's opening
+  department. There is no Founder's Editorial Dispatch: the letter carries the founder's voice, and a
+  second essay in front of the first interview repeated it.
 - Keep one central question visible throughout: **What helps someone begin speaking again after fear, shame, or a discouraging classroom experience?**
 - Mark activities for A0–A2, B1–B2, and C1–C2. Use simpler language and more scaffolding at beginner levels; use more analysis and counterargument at advanced levels.
-- Alfinur M. interviews JY DM in both conversations. The first is about starting COSY Languages and sustaining motivation; the second is JY DM's personal retrospective on school and teachers. Keep the two interviews distinct, and do not invent James's memories or attribute unapproved quotations to him.
+- Alfinur M. interviews JY DM in three conversations, kept distinct: the **founder** (why COSY exists and how the method works), the **student** (his own school years, pressure, support, starting again), and the **teacher** (classroom practice: reading a room, scaffolding, feedback across ages). Do not invent James's memories or attribute unapproved quotations to him.
 - JY DM's school interview is a personal account, not an external student/teacher profile. Any separate *Student & Teacher Spotlight* requires a real, consenting contributor; do not fabricate a composite profile or testimonial.
 - The separate founder reflection on early acquisition and childhood curiosity remains deferred until JY DM supplies those memories and approves the wording.
 - Sprinkle practical micro-activities across departments: *Word of the Issue*, two idioms, and prompts to finish a thought, start from a given ending, or fill sentence gaps. Keep them brief and optional; fictional answers are welcome where a prompt touches personal experience.
@@ -32,11 +67,11 @@ The revised full-edition plan is 31 pages. Keep the public preview to the cover,
 |---|---|---|
 | 1 | Front Cover | *Get Ready for School*; subtitle: *A new language, a new beginning. Speak before you feel ready.* Use the COSY Languages logo and end-of-summer/new-beginnings doodles; avoid generic stock photography. |
 | 2 | Letter from the Editor (L'Édito) | Welcoming note from JY DM. |
-| 3–4 | Founder's Editorial Dispatch | *Why Speaking-First is the Only Way to True Fluency*. Keep the standalone article free and include it in the paid edition. |
 | 5–6 | In Conversation: Founder | Alfinur M. interviews JY DM about the 2020 origins of COSY Languages, early language-learning steps, what to avoid, handwriting, music, and motivation. Response to the continue/change/pause question is pending; founder review required. Set the scene as an online phone-camera conversation at James's home, with the vinyl player, books, and *Born to Die* visible. |
 | 7 | Wonder Column | *Why Do Adults Freeze at the Classroom Door?* Reflective opening, without diagnosing readers. |
 | 8 | Speaking Clubs + Research Spark | B1–B2 and C1–C2 adaptations for the Wonder question; include fields to explore and label the research question as a hypothesis. |
-| 9–10 | In Conversation: School Memories | Alfinur M. interviews JY DM about his own school experience, pressure, support, and starting again. Keep teachers unnamed in this draft; verify and obtain permission before using identifying details. This is not a substitute for an external student/teacher spotlight. |
+| 9–10 | In Conversation: School Memories | Alfinur M. interviews JY DM about his own school experience, pressure, support, and starting again. Keep teachers unnamed in this draft; verify and obtain permission before using identifying details. This is not a substitute for an external student/teacher spotlight. The questions are written and staged in `content/issues/2026-08/drafts/`; the answers are his to record. |
+| follows 9–10 | In Conversation: The Teacher's Room | JY DM as teacher: signs of apprehension, low-stakes entry tasks, the same method at A0–A2 / B1–B2 / C1–C2, feedback timing and age, mixed-age rooms. Drafted in full from his published method; founder review required before it prints. |
 | Deferred | Founder Reflection | Early acquisition and childhood curiosity; use founder-provided material, distinct from both Q&As. Do not invent memories. |
 | 11–12 | Fashion & Trends: The Trends Debate | *Typing vs Handwriting in Modern Schools*: three arguments for, three against, speaking placards, and sentence-finish/start/gap-fill prompts. |
 | 13–14 | Words & Creativity Desk: Stop Translating | Pillar 1: high-frequency verbs and *Word of the Issue*; Pillar 2: miming and circumlocution; Pillar 3: sensory upgrades across EN/FR/IT/RU/EL, with two idioms and optional sentence-completion practice. |
@@ -45,12 +80,11 @@ The revised full-edition plan is 31 pages. Keep the public preview to the cover,
 | 18 | Reader & Contest Showcase | Winning 100-word micro-essays in target languages, with optional sentence starts/gap fills. Hold this page until authentic winners and permissions are confirmed. |
 | 19 | Narrative Ledger | *My Life With & Without Fear of Evaluation*, clearly framed as an illustrative literary piece, not a real testimonial. |
 | 20 | If You Were | *If You Were a Kindergarten Teacher in Tokyo*: hypothetical scenario, culturally researched and not presented as a claim about all Japanese classrooms. |
-| 21–22 | Grammar Made Cosy | Present Continuous vs habitual meaning, compared across EN, FR, IT, RU, and EL; avoid one-to-one equivalence claims. |
 | 23 | Philosophy Café | Einstein's *“I am only passionately curious”*; verify wording and attribution before print, then unpack the idea through discussion. |
-| 24 | Cinema Pick | One film/series recommendation related to the issue; current draft pick: *Dead Poets Society*, with a content note and discussion question. |
-| 25 | Monthly Vibes | Five song picks, one each in EN/FR/IT/EL/RU, one book recommendation, and a Book Lovers Day prompt. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
-| 26–29 | Culinary Salon | Opening menu plus five complete, checked recipes for EN, FR, IT, RU, and EL communities, with region/context, useful language, and conversation prompts. |
-| 30–31 | End-of-Issue Crossword & Puzzle | Full-page thematic crossword spread occupying an entire A4 page with enlarged cells, connecting words extracted directly from Issue 08 (`BELONG`, `SPEAKING`, `TRAUMA`, `CURIOSITY`, `SYRNIKI`, `NEUROPLASTICITY`), followed by answer key/colophon on page 31. |
+| 24 | Cinema Pick | Folded into *The Month's List* rather than printed twice: *Dead Poets Society*, with a content note and a discussion question. |
+| 25 | Monthly Vibes → built as *The Month's List* | One film (*Dead Poets Society*, with a content note), one song (Cass Elliot, *Make Your Own Kind of Music*, no lyrics printed), one book (*Educated*), and the Book Lovers Day prompt for 9 August. Verify track metadata, cultural context, observance date, age suitability, availability, and rights; print no lyrics. |
+| 26–29 | Culinary Salon → built | Opening menu plus five recipes — porridge (EN), tartine au chocolat (FR), frittata di pasta (IT), syrniki (RU), yogurt with thyme honey and walnut (EL) — each with region/context, ingredients, method, a *Say it in…* table and a conversation prompt. |
+| 30–31 | End-of-Issue Crossword & Puzzle → built | *The August Crossword: First Words*: 18 entries in one grid, all drawn from Issue 08 — `NEUROPLASTICITY`, `CURIOSITY`, `SPEAKING`, `TRAUMA`, `BELONG`, `SYRNIKI`, `CLASSROOM` and eleven school words. The opener carries the title and the spoken-solve instructions; the next page carries the grid, both clue columns and the answer key (cells are sized from the grid's row count, so a taller puzzle shrinks rather than overflows). |
 
 ## Interview Question Bank
 

@@ -1,0 +1,81 @@
+{
+  "id": "post-debatable-relatable-august-school-or-you",
+  "slug": "debatable-relatable-august-school-or-you",
+  "language": "en",
+  "desk": "Long Reads",
+  "section": "debatable_relatable",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Debatable & Relatable: Was It the School, or Was It You?",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE STUDENT CONVERSATION",
+  "dek": "Two defensible positions on the same memory. Pick a side, then find the story underneath it.",
+  "tags": [
+    "Speaking Club",
+    "Debatable & Relatable",
+    "August",
+    "School Trauma"
+  ],
+  "readingTime": 3,
+  "printOrder": 30,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "debatable-relatable-august-school-or-you",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Debate is easy when the other side is a stranger. It gets harder when the other side is your own memory. This month the motion is simple and unfair: the classroom made you, or you made the classroom."
+    },
+    {
+      "type": "paragraph",
+      "text": "The debatable side: schools are machines for ranking children in public, and a language classroom is the purest version of that machine — every lesson a performance, with an audience and a mark. If you left school convinced you were bad at languages, the machine did that. The relatable side: plenty of people sat in the same room, with the same teacher, and left able to speak. Something in you chose the back row. Both are true often enough to be worth arguing about."
+    },
+    {
+      "type": "paragraph",
+      "text": "The motion matters because the two answers lead to different futures. If the school did it, you are waiting for a better school — a better method, a better teacher, a better app. If you did it, you are waiting for a better moment, which never arrives on its own. Most people hold both beliefs at once and act on neither, which is the most comfortable position and the least useful one."
+    },
+    {
+      "type": "heading",
+      "text": "Take a side",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: Describe the room where you first learned a foreign language. Where did you sit, and who was watching?",
+        "B1–B2: Tell your partner one thing the school got right. It is harder than complaining, and more useful.",
+        "C1–C2: “A bad language teacher is a story you tell to explain a decision you keep making.” Agree, disagree, or refine it.",
+        "C1–C2: Which answer would you prefer to be true, and what does that preference protect you from?"
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Among adults who describe a discouraging school experience, does retelling one classroom memory in the target language change how willing they are to speak in the next session — and in which direction?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The conversation that follows is one person’s answer, told from the back row. He founded this magazine, and before he taught anyone he was the student hoping not to be called on."
+    }
+  ],
+  "draft": false
+}

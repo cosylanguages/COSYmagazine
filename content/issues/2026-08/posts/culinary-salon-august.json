@@ -1,0 +1,439 @@
+{
+  "id": "post-culinary-salon-august",
+  "slug": "culinary-salon-august",
+  "language": "en",
+  "desk": "Culture & Quotes",
+  "section": "culinary_salon",
+  "format": "list",
+  "level": "A2–B2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Culinary Salon: Five Breakfasts for the First Week",
+  "kicker": "CULINARY SALON · A2–B2",
+  "dek": "One dish for each kitchen the magazine speaks: porridge, a chocolate tartine, a pasta frittata, syrniki, and yogurt with thyme honey. Five recipes, five languages, one September morning.",
+  "tags": [
+    "Culinary Salon",
+    "August",
+    "Recipes",
+    "Breakfast"
+  ],
+  "readingTime": 12,
+  "printOrder": 190,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "culinary-salon-august",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The first week of September is not a cooking week. It is a week of standing at a counter at seven in the morning, deciding whether there is time for anything at all. So this month’s Salon is five breakfasts, one from each of the five kitchen languages the magazine teaches in: English, French, Italian, Russian and Greek. Each one takes under half an hour, feeds two to four people, and can be made by someone who has never cooked it before."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cook one, then say what you did in the language it came from. The recipe is the lesson plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The menu"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Porridge with stewed apple** · England — before school, standing up",
+        "**Tartine au chocolat** · France — at four thirty, after school",
+        "**Frittata di pasta** · Italy — packed cold for lunch",
+        "**Syrniki** · Russia — weekend breakfast, with sour cream",
+        "**Yogurt with thyme honey and walnut** · Greece — any morning, in five minutes"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A note on the kitchen"
+    },
+    {
+      "type": "paragraph",
+      "text": "All five recipes were tested for this issue and written for a domestic stove and a single frying pan. Where an ingredient is hard to find outside its home country — tvorog, thyme honey, a proper baguette — the recipe names the nearest substitute. Substituting is not cheating."
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does cooking a dish in a target language, and eating it, change how well learners remember the food vocabulary? Run it with a speaking club: half the group reads the recipe in the language, half reads a translation. Two weeks later, ask both halves to name ten ingredients from memory.",
+      "text": "Does cooking a dish in the target language, and eating it, change how well learners remember the food vocabulary? Run it with a speaking club: half the group reads the recipe in the language, half reads a translation. Two weeks later, ask both halves to name ten ingredients."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "England: porridge with stewed apple"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oats are the cheapest breakfast in the English-speaking world and the one most likely to be eaten standing up. The apple is not decoration: it is the thing that makes a bowl of oats taste like a decision rather than a punishment."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "You need (for two)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "100 g rolled oats (not instant)",
+        "500 ml milk, or half milk and half water",
+        "A pinch of salt",
+        "1 eating apple, peeled and cut small",
+        "1 tablespoon honey, plus more for the table",
+        "Ground cinnamon"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Method"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Put the apple in a small pan with two tablespoons of water. Cook on medium heat for five minutes, until it softens but does not collapse. Take it off the heat.",
+        "Put the oats, milk and salt in a second pan. Bring to a gentle simmer, then cook for five minutes, stirring often, until the oats are soft and the porridge holds its shape on the spoon.",
+        "Take the pan off the heat and let it stand for two minutes. It thickens as it stands; add a splash of milk if it looks stiff.",
+        "Spoon into bowls, add the apple, drizzle with honey and dust with cinnamon. Eat immediately — porridge waits for nobody."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say it in English",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "to stir",
+          "to move a spoon round and round"
+        ],
+        [
+          "a pinch of salt",
+          "the amount you can hold between two fingers"
+        ],
+        [
+          "to simmer",
+          "to cook just below boiling"
+        ],
+        [
+          "Help yourself.",
+          "Take what you want."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** What did you eat on school mornings as a child? Use *used to*: *I used to eat…*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "France: la tartine au chocolat"
+    },
+    {
+      "type": "paragraph",
+      "text": "In France the meal after school has its own name — *le goûter* — and its own hour, around four thirty. The tartine is the simplest version: bread, butter, chocolate, and the patience to let the chocolate melt on the toast. Children eat it standing in the kitchen, talking about the day."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "You need (for two)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "4 slices of baguette, or 2 slices of good white bread",
+        "20 g butter, soft",
+        "4 squares of dark chocolate (at least 50 %)",
+        "A glass of cold milk"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Method"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Toast the bread lightly — it should be warm and dry, not brown.",
+        "Butter it while it is hot, right to the edges.",
+        "Lay the chocolate on top and wait one minute. The heat of the bread does the rest.",
+        "Cut each slice into strips — *les soldats* — and eat them with your fingers, dipping them in the milk if you are under ten or honest about it."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say it in French",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "le goûter",
+          "the after-school snack"
+        ],
+        [
+          "une tartine",
+          "bread with something spread on it"
+        ],
+        [
+          "C’est l’heure du goûter !",
+          "It’s snack time!"
+        ],
+        [
+          "faire trempette",
+          "to dip (informal, used with children)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** What is the meal you remember from your own childhood at four in the afternoon? Describe it in French with three ingredients and one verb."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Italy: frittata di pasta"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is what Italian families do with yesterday’s pasta: bind it with eggs and cheese, fry it flat, and cut it into wedges. It travels in a lunch box, tastes better at room temperature, and costs almost nothing. In Milan it is *la schiscetta*; everywhere else it is simply lunch."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "You need (for four)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "300 g cooked pasta, from the day before",
+        "4 eggs",
+        "60 g grated Parmesan or pecorino",
+        "100 g mozzarella or scamorza, cut small (optional)",
+        "2 tablespoons olive oil",
+        "Black pepper and a little salt"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Method"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Beat the eggs in a large bowl with the grated cheese, pepper and a pinch of salt.",
+        "Add the cold pasta and the mozzarella if you are using it. Mix until every piece is coated.",
+        "Heat the oil in a 24 cm frying pan on medium heat. Pour in the mixture and press it flat with a spatula.",
+        "Cook for five to six minutes, until the base is golden and comes away from the pan.",
+        "Turn it out onto a plate, slide it back in, and cook the other side for four to five minutes.",
+        "Rest for five minutes, then cut into wedges. Serve warm or cold — cold is traditional."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say it in Italian",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "la schiscetta",
+          "the lunch box (Milanese)"
+        ],
+        [
+          "sbattere le uova",
+          "to beat the eggs"
+        ],
+        [
+          "rosolare",
+          "to brown in a pan"
+        ],
+        [
+          "buono anche freddo",
+          "good cold too"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** What do you do with leftovers at home? Tell the class in Italian, using *avanzi* (leftovers) and one cooking verb."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Russia: syrniki"
+    },
+    {
+      "type": "paragraph",
+      "text": "*Syrniki* are small cheese pancakes made from *tvorog*, a fresh, dry curd cheese. They are the weekend breakfast of the Russian-speaking kitchen, served with sour cream, jam or condensed milk — and they are the reason the word SYRNIKI appears in this issue’s crossword."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "You need (about twelve small pancakes)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "500 g tvorog, 5–9 % fat (quark or dry cottage cheese works)",
+        "2 eggs",
+        "3 tablespoons sugar",
+        "100 g plain flour, plus more for dusting",
+        "A pinch of salt",
+        "Half a teaspoon of vanilla",
+        "Sunflower oil for frying",
+        "Sour cream, jam or condensed milk, to serve"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Method"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "If the tvorog is wet, drain it in a cloth for half an hour first. Wet cheese means more flour, and more flour means heavy pancakes.",
+        "Press the tvorog through a sieve, or mash it with a fork until it has no lumps.",
+        "Mix in the eggs, sugar, salt and vanilla, then the flour. Stop mixing as soon as it comes together.",
+        "Chill the mixture for fifteen minutes so it firms up.",
+        "Shape twelve patties about 1.5 cm thick and dust them with flour.",
+        "Fry on medium heat in a little oil, two to three minutes on each side, until deep golden.",
+        "Drain on paper and serve warm, with sour cream and jam on the table."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say it in Russian",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "творог",
+          "fresh curd cheese"
+        ],
+        [
+          "со сметаной",
+          "with sour cream"
+        ],
+        [
+          "Приятного аппетита!",
+          "Enjoy your meal!"
+        ],
+        [
+          "жарить на среднем огне",
+          "to fry on medium heat"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** Which food from your childhood do you cook now, and what do you change? Say it in Russian with *я готовлю* (I cook) and one adverb of frequency."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Greece: yogurt with thyme honey and walnut"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is not cooking. It is assembly, and it is the most Greek breakfast on the list: thick yogurt, thyme honey from Crete or the Peloponnese, walnuts broken by hand. Greek kitchens keep *γλυκό του κουταλιού* — spoon sweets — for guests; this is the everyday version."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "You need (for two)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "500 g thick Greek yogurt (2 % or 10 %)",
+        "4 tablespoons thyme honey",
+        "50 g walnuts, broken into pieces",
+        "Ground cinnamon",
+        "Fresh figs or grapes, if it is the season"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Method"
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Chill the bowls for ten minutes if you have time. Cold bowls keep the yogurt firm.",
+        "Spoon the yogurt in and flatten the top with the back of the spoon.",
+        "Pour the honey over in a thin line, not a puddle.",
+        "Scatter the walnuts, dust with cinnamon, and add fruit if you have it.",
+        "Serve at once — yogurt waits, but not for long."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Say it in Greek",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "γιαούρτι",
+          "yogurt"
+        ],
+        [
+          "θυμαρίσιο μέλι",
+          "thyme honey"
+        ],
+        [
+          "καρύδι",
+          "walnut"
+        ],
+        [
+          "Καλή όρεξη!",
+          "Enjoy your meal!"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "**Talk about it:** Which of the five would you actually make on a school morning? Vote, then defend your choice in Greek with *εγώ θα φάω* (I will eat)."
+    }
+  ],
+  "draft": false
+}

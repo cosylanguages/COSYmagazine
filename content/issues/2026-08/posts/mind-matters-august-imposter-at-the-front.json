@@ -1,0 +1,81 @@
+{
+  "id": "post-mind-matters-august-imposter-at-the-front",
+  "slug": "mind-matters-august-imposter-at-the-front",
+  "language": "en",
+  "desk": "Long Reads",
+  "section": "mind_matters",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Mind Matters: The Imposter at the Front of the Room",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE WORDS DESK",
+  "dek": "Why the first day of a language course feels like being found out — and what the desk that follows is built to do about it.",
+  "tags": [
+    "Speaking Club",
+    "Mind Matters",
+    "August",
+    "Psychology"
+  ],
+  "readingTime": 3,
+  "printOrder": 50,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "mind-matters-august-imposter-at-the-front",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Imposter syndrome is usually described as a workplace problem. In a language classroom it takes a different shape: you are not pretending to be qualified, you are pretending not to be a beginner. The beginner is the least powerful person in the room, so adults spend their first lessons hiding the thing they came to practise."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why the desk that follows this page is built the way it is. A frequency list looks like vocabulary. It is really a way of lowering the stakes: a hundred words that carry a large share of everything you will read, arranged so a beginner can produce a sentence in the first ten minutes rather than the first month."
+    },
+    {
+      "type": "paragraph",
+      "text": "Language teaching has a name for the consequence: the affective filter — the idea that anxiety, embarrassment and the fear of being judged act as a gate between what a learner knows and what a learner will say. The gate is not a metaphor for shyness. It is measurable in how much a person volunteers, and it opens and closes on very small signals: whether the teacher waits, whether anyone laughs, whether the first task can be failed privately."
+    },
+    {
+      "type": "heading",
+      "text": "Think it through",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: What do you do to hide that you are a beginner? Name three habits.",
+        "B1–B2: When did you last say something in a foreign language that was wrong and still worked?",
+        "C1–C2: “Adults do not fear mistakes. They fear being seen making them.” What is the difference, and which one does a classroom produce?",
+        "B1–B2: Which of those signals has closed the gate for you, and who opened it again?"
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "If adult learners are explicitly given permission to use gesture and circumlocution in their first lesson, does their anxiety about being wrong fall — or does it simply move to a different part of the lesson?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The desk begins overleaf with the ten verbs that carry most beginner sentences. Start there, out loud, before you feel ready."
+    }
+  ],
+  "draft": false
+}

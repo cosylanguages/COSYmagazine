@@ -1,0 +1,179 @@
+{
+  "id": "post-crossword-august-first-words",
+  "slug": "crossword-august-first-words",
+  "language": "en",
+  "desk": "Culture & Quotes",
+  "section": "thematic_crossword",
+  "format": "quiz",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "The August Crossword: First Words",
+  "kicker": "THEMATIC CROSSWORD · A2–C1",
+  "dek": "18 words this issue keeps using, fitted into one grid. Solve it out loud with a partner and you have rehearsed half the vocabulary of the month.",
+  "tags": [
+    "Crossword",
+    "August",
+    "Vocabulary",
+    "Speaking Club"
+  ],
+  "readingTime": 6,
+  "printOrder": 200,
+  "artDirection": {
+    "palette": [
+      "#1E1A17",
+      "#FAF7F2",
+      "#A2532F",
+      "#0F6E56"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "crossword-august-first-words",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Every word in this grid comes from the pages around it: the classroom in the photographs, the first minute of a lesson, the courage it takes to say the wrong thing out loud, one breakfast from the Culinary Salon. Solve it with a pen and a partner — one reads the clue, the other says the answer first."
+    },
+    {
+      "type": "paragraph",
+      "text": "**How to solve it aloud.** Read the clue in the language you are learning. Say the answer out loud before you write a letter. If you are stuck, say the first sound and let your partner finish the word. The grid rewards the people who speak first and write second."
+    },
+    {
+      "type": "crossword",
+      "title": "The August Crossword: First Words",
+      "grid": [
+        "..V..B.........",
+        "..O.RETURN.....",
+        "..I..G....S....",
+        "..CURIOSITY..F.",
+        "B.E..N....R..L.",
+        "E..C......N..U.",
+        "L..O...C.LISTEN",
+        "O..U.S.L..K..N.",
+        "NEUROPLASTICITY",
+        "G..A.E.S.R.....",
+        "...G.A.S.ACCENT",
+        "...E.K.R.U.....",
+        ".D...I.O.MEMORY",
+        "LESSON.O.A...E.",
+        ".S...G.M.....A.",
+        ".K...........D."
+      ],
+      "across": [
+        {
+          "number": 3,
+          "clue": "What an adult learner does to a language they dropped",
+          "answer": "RETURN"
+        },
+        {
+          "number": 5,
+          "clue": "The only engine that survives the first hundred words",
+          "answer": "CURIOSITY"
+        },
+        {
+          "number": 10,
+          "clue": "Half of every conversation, and the half schools skip",
+          "answer": "LISTEN"
+        },
+        {
+          "number": 12,
+          "clue": "What a new language asks of the brain — and why a late start still works",
+          "answer": "NEUROPLASTICITY"
+        },
+        {
+          "number": 14,
+          "clue": "Not a fault; a place you come from",
+          "answer": "ACCENT"
+        },
+        {
+          "number": 16,
+          "clue": "Where a word lives until you say it out loud",
+          "answer": "MEMORY"
+        },
+        {
+          "number": 18,
+          "clue": "One hour, one page, one idea",
+          "answer": "LESSON"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "clue": "The instrument this magazine is built around",
+          "answer": "VOICE"
+        },
+        {
+          "number": 2,
+          "clue": "To start again, badly, today",
+          "answer": "BEGIN"
+        },
+        {
+          "number": 4,
+          "clue": "Cheese pancakes on the August breakfast table",
+          "answer": "SYRNIKI"
+        },
+        {
+          "number": 6,
+          "clue": "Not perfect — just willing to keep going",
+          "answer": "FLUENT"
+        },
+        {
+          "number": 7,
+          "clue": "What a learner wants before they want accuracy",
+          "answer": "BELONG"
+        },
+        {
+          "number": 8,
+          "clue": "What it takes to say the wrong thing out loud",
+          "answer": "COURAGE"
+        },
+        {
+          "number": 9,
+          "clue": "The room this issue keeps returning to",
+          "answer": "CLASSROOM"
+        },
+        {
+          "number": 11,
+          "clue": "The skill COSY teaches first, and schools reward last",
+          "answer": "SPEAKING"
+        },
+        {
+          "number": 13,
+          "clue": "What one bad September can leave behind",
+          "answer": "TRAUMA"
+        },
+        {
+          "number": 15,
+          "clue": "The furniture the photographs keep returning to",
+          "answer": "DESK"
+        },
+        {
+          "number": 17,
+          "clue": "Do this aloud in class and nobody hears the accent",
+          "answer": "READ"
+        }
+      ],
+      "showAnswers": true
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does solving a crossword aloud, with a partner, move a word into active use faster than copying it into a notebook? Run it for two weeks with your speaking club: half the group copies ten words, half solves the puzzle aloud, then both groups use the words in a five-minute conversation. Count how many each group actually says."
+    },
+    {
+      "type": "paragraph",
+      "text": "One last instruction for the classroom: do not hand out the key. Read the answers aloud, one number at a time, and ask the group to mark their own grid. The correction is the lesson."
+    }
+  ],
+  "draft": false
+}

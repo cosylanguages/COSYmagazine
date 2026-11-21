@@ -49,7 +49,7 @@ generated output.
   | `text.js` | `escapeHtml`, inline Markdown, `<title>` truncation |
   | `i18n.js` | dictionary loading and `tStrict` (no English fallback) |
   | `issues.js` | `ISSUE_META`, volume normalisation, notebook look |
-  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation) |
+  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation, crossword) |
   | `post-page.js` | the full `<slug>.html` document template |
   | `catalog.js` | `posts.json` and `index.json` |
   | `audio.js` | podcast embed resolution, `hasPlayer`, player box |
@@ -110,8 +110,32 @@ generated output.
   Arrows (`→`, `↗`) are real editorial text and fall back to DejaVu, which is expected.
 - Quiz options (`.quiz-option-btn`) are study content, not chrome. Print CSS restyles them
   as an upper-alpha list; only reader-only buttons (`.fulllist-btn`, `.flip-nav`) are hidden.
+- An issue may author its own **running order** by giving every post a numeric `printOrder`.
+  `loadEdition()` then sorts by it and `buildHtml()` prints the issue as one sequence: no act
+  opener pages, no Front of Book / The Well bands in the contents. The number lives on the post,
+  so it travels to every language edition; an issue without `printOrder` keeps the three acts.
+  August 2026 uses this, and the roster is in `docs/issues/ISSUE_08_AUGUST_COMPLETE_BLUEPRINT.md`.
+- The recurring speaking-club departments (`wonder_column`, `debatable_relatable`, `mind_matters`,
+  `if_you_were`, `science_expander`, `life_with_without`, `greatest_quotes`) are openers and
+  outros, not standalone essays: each one carries the issue's theme in its own words, hands over
+  to the piece it opens (founder conversation, student conversation, the desk, teacher
+  conversation, the word list, Idiom Detective and COSY Sightings), and carries one
+  "This could be a good research question" marginalia block. `greatest_quotes` closes the main
+  discussion. Their position varies per issue — that is what `printOrder` is for.
+- A department must not print an orphan mast: the article mast lives inside `.article-head`,
+  which is `break-inside: avoid`, so a head that does not fit moves to the next page whole.
 - Evergreen posts (`contentType: 'evergreen'`) belong to no volume, so they are absent
   from the issue catalog and carry no `issue_volume` in `posts.json`.
+- The `crossword` block is authored as `grid` (rows of letters, `#` blocked, `.` blank),
+  `across`/`down` entries with `number`, `clue`, `answer`. The build derives the clue
+  numbers from the grid (`crosswordNumbering`), so never hand-number entries. Print CSS
+  sizes the grid from `--cw-cols`/`--cw-rows`: a taller puzzle gets smaller cells instead
+  of overflowing the page. The caption and grid share `.crossword-board` with
+  `break-inside: avoid`, so the board never splits across a page; the clues and key flow
+  after it. A post with `printPageBreak: true` starts on a fresh page when a department
+  has to open at the top of one.
+  `CROSSWORD_LABELS` covers eight languages; add labels before publishing a crossword in
+  one of the others, or the chrome falls back to English.
 
 ### Print pagination
 

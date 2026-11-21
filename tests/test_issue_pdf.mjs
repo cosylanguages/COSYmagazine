@@ -127,13 +127,25 @@ test('quiz options print as a list instead of being hidden as interactive chrome
   }
 });
 
-test('the body is grouped into zone opener pages, in print order', async () => {
+test('an authored running order prints as one sequence, in the order the issue declares', async () => {
+  // August authors `printOrder` on every post, so the departments are the structure: no act
+  // openers, no act bands in the contents, and the departments land in the declared order.
   const html = await buildHtml('2026.08', 'en');
-  const openers = [...html.matchAll(/zone-open-name">([^<]+)</g)].map((m) => m[1]);
-  assert.deepEqual(openers, ['Front of Book', 'The Well'],
-    'August has no back-of-book piece, so it must not print an empty Back of Book opener');
-  const contents = [...html.matchAll(/toc-zone-name">([^<]+)</g)].map((m) => m[1]);
-  assert.deepEqual(contents, openers, 'the contents page must group in the same order as the body');
+  assert.equal((html.match(/class="page zone-opener"/g) || []).length, 0,
+    'a sequenced issue must not print act openers');
+  assert.equal((html.match(/class="toc-zone-name"/g) || []).length, 0,
+    'a sequenced issue must not band the contents under the three acts');
+
+  const posts = loadEdition('2026.08', 'en');
+  const orders = posts.map((post) => post.printOrder);
+  assert.ok(orders.every(Number.isFinite), 'every August post declares its place in the running order');
+  assert.deepEqual(orders, [...orders].sort((a, b) => a - b), 'loadEdition sorts by printOrder');
+
+  const decode = (value) => value.replace(/&#39;/g, "'").replace(/&amp;/g, '&');
+  const titles = [...html.matchAll(/class="toc-title">([^<]+)</g)].map((m) => decode(m[1]));
+  if (titles[titles.length - 1] === BLUEPRINT.title) titles.pop(); // the appendix has its own row
+  const expected = posts.map((post) => decode(post.title));
+  assert.deepEqual(titles, expected, 'the contents page follows the same order as the body');
 });
 
 test('the contents page never invents page numbers', async () => {

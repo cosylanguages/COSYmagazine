@@ -1,0 +1,223 @@
+{
+  "id": "post-in-conversation-teacher-august-classroom",
+  "slug": "in-conversation-teacher-august-classroom",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "in_conversation",
+  "format": "qa",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "In Conversation: The Teacher’s Room — The First Ten Minutes",
+  "kicker": "THE TEACHING DESK",
+  "dek": "The founder interview asked why adults freeze at the classroom door. This one asks what a teacher does about it once the door is closed: reading a room, scaffolding a collapsing sentence, when to correct and when to say nothing, and why the method has to change shape for a sixteen-year-old, a tired parent and a seventy-year-old. Interview by Alfinur M.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Teaching",
+    "Pedagogy",
+    "Speaking-First"
+  ],
+  "readingTime": 8,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "founder-august-teacher",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Every teacher knows the sound of a room that has decided not to speak. It is not silence exactly — it is chairs, pens, a cough, and forty minutes of it. The founder interview in this issue asked why adults freeze at the classroom door. This one stays inside the room afterwards, with the person who has to do something about it in the first ten minutes. James (JY DM) has taught in the COSY studio and trains the teachers who work there. We asked him how he reads a room, how he scaffolds a sentence that is about to collapse, and why the same method has to change shape for a sixteen-year-old, a tired parent and a seventy-year-old returning to a language they last spoke at school.",
+      "say": "Every teacher knows the sound of a room that has decided not to speak. The founder interview asked why adults freeze at the classroom door. This one stays inside the room, with the person who has to do something about it in the first ten minutes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: Reading the Room",
+      "say": "Part 1: Reading the room"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> You walk into a first lesson. What do you notice in the first thirty seconds, before anyone has said a word?",
+      "say": "You walk into a first lesson. What do you notice in the first thirty seconds, before anyone has said a word?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> Posture and hands. A learner who has decided to disappear sits slightly behind the line of the others, hands under the table, notebook closed. Then I look for the opposite: the one who has already rehearsed a sentence and is waiting for permission to say it. Those people are not silent, they are loaded. And I look for who is watching the door.",
+      "say": "Posture and hands. A learner who has decided to disappear sits slightly behind the line of the others, hands under the table, notebook closed. Then I look for the opposite: the one who has rehearsed a sentence and is waiting for permission to say it. Those people are not silent, they are loaded."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> What does a freeze look like from your side of the table?",
+      "say": "What does a freeze look like from your side of the table?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> It is rarely blank. The face keeps working: the eyes go up and left, the mouth starts a shape and stops. What has happened is that the sentence got too long to hold. My job is not to wait it out, because waiting confirms that the silence is a verdict. I shorten the sentence for them. Not “what did you do at the weekend” but “just the city”. “Just the number.” “Just say it in three words.”",
+      "say": "It is rarely blank. The face keeps working: the eyes go up and left, the mouth starts a shape and stops. The sentence got too long to hold. Waiting confirms that the silence is a verdict. I shorten the sentence for them: just the city, just the number, just say it in three words."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> And what do you never do?",
+      "say": "And what do you never do?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> I never fill the silence with the answer. It is the fastest way to teach someone that the room will rescue them, and that they are the only person in it who cannot manage alone. I will repeat the frame, slow down, point at the word on the page — but the sentence has to leave their mouth, not mine.",
+      "say": "I never fill the silence with the answer. It teaches someone that the room will rescue them. I will repeat the frame, slow down, point at the word — but the sentence has to leave their mouth, not mine."
+    },
+    {
+      "type": "pullquote",
+      "quote": "A freeze is not an empty mind. It is a sentence that got too long to hold.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "A freeze is not an empty mind. It is a sentence that got too long to hold."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: The Scaffolding Ladder",
+      "say": "Part 2: The scaffolding ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> This issue’s dispatch describes sentence frames — eighty per cent of the sentence given, one word to insert. What does that look like minute by minute in lesson one?",
+      "say": "The dispatch describes sentence frames: eighty per cent of the sentence given, one word to insert. What does that look like minute by minute in lesson one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> Minute one: a name and one true fact inside a frame. <em>I am ___ and I live in ___.</em> They insert two words. Minute three: the same frame with a reason bolted on. <em>…because ___.</em> Minute six: they ask me the same question back, which is the first time in their lives they have used the target language to get information rather than to prove something. By minute ten they have said four true sentences about themselves, out loud, to a person who reacted. No grammar table has ever done that to anyone.",
+      "say": "Minute one: a name and one true fact inside a frame. Minute three: the same frame with a reason. Minute six: they ask me the question back, and use the language to get information rather than to prove something. By minute ten they have said four true sentences out loud."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> How does the same method change between A0–A2, B1–B2 and C1–C2?",
+      "say": "How does the same method change between A0 and A2, B1 and B2, C1 and C2?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> At A0–A2 the frame carries the grammar, so the learner never has to hold a rule and a thought at the same time. At B1–B2 the frame stops being a crutch and becomes a constraint: retell the same story in the past, then in the future, then in ninety seconds flat. Fluency is not speed of speech; it is the ability to survive being interrupted. At C1–C2 the scaffolding moves off the sentence and onto the stance: take a position, defend it, then argue the opposite with the same energy. Their mistake at that level is rarely grammar. It is agreeing too quickly.",
+      "say": "At A0 to A2 the frame carries the grammar, so the learner never holds a rule and a thought at the same time. At B1 to B2 the frame becomes a constraint: the same story in the past, then the future, then in ninety seconds. At C1 and C2 the scaffolding moves onto the stance: take a position, defend it, then argue the opposite."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Which low-stakes tasks do you reach for when a group goes stiff?",
+      "say": "Which low-stakes tasks do you reach for when a group goes stiff?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> Three, in this order. Say the sentence, then say it again louder — volume is permission, and it costs nothing. Then one-word answers with a reason attached, because a single word cannot be wrong. Then the pair swap: each learner repeats their partner’s sentence, not their own. Ownership is where the risk lives, so for five minutes we take the ownership away and let them be a mouth for someone else’s idea.",
+      "say": "Three, in this order. Say the sentence, then say it again louder, because volume is permission. Then one-word answers with a reason attached. Then the pair swap: each learner repeats their partner's sentence, not their own."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: Feedback, and the Ghost of the Red Pen",
+      "say": "Part 3: Feedback"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> When do you correct?",
+      "say": "When do you correct?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> After the message has landed. Interrupting a nervous beginner mid-sentence teaches exactly one thing, and it is not grammar: it is <em>do not start sentences</em>. I keep a small list while they talk and give back two or three items at the end. Not eleven. Eleven is not feedback, it is an inventory.",
+      "say": "After the message has landed. Interrupting a nervous beginner mid-sentence teaches one thing: do not start sentences. I keep a list while they talk and give back two or three items at the end. Not eleven."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Does the way you give feedback change with age?",
+      "say": "Does the way you give feedback change with age?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> Yes, and it is the part new teachers get wrong most often. Teenagers want to know the rule and whether they are normal — the unspoken question is <em>am I the only one who finds this hard?</em> Working adults want efficiency: what do I say next time, exactly, in this situation. Older learners often want the explanation, the why of it. They have earned the theory, and skipping it reads as condescension. And written feedback is where the red pen lives, so it has to be rationed and it has to be specific. “Good job” is not feedback. It is a mood.",
+      "say": "Yes. Teenagers want to know the rule and whether they are normal. Working adults want efficiency: what do I say next time, exactly. Older learners often want the explanation, the why of it. And written feedback is where the red pen lives, so it has to be rationed and specific. Good job is not feedback. It is a mood."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part IV: The Room Itself",
+      "say": "Part 4: The room itself"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> A room with a sixteen-year-old, a parent who has just finished work, and a seventy-year-old returning to a language they last spoke at school. How do you teach that?",
+      "say": "How do you teach a room with a sixteen-year-old, a parent who has just finished work, and a seventy-year-old returning to a language?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> I never ask any of them to perform for the whole room in the first lesson. Pairs, always. Then the seventy-year-old has an advantage nobody names: they have already survived being bad at something, publicly, and they are still here. The sixteen-year-old has a different advantage — they are not embarrassed about sounding wrong in front of a screen, so they will try a sentence at a volume an adult would not dare. Pair those two and both relax, because neither is being measured against the other. The tired parent needs one thing above all: to be told what is not required of them tonight.",
+      "say": "I never ask anyone to perform for the whole room in the first lesson. Pairs, always. The seventy-year-old has already survived being bad at something publicly. The sixteen-year-old is not embarrassed about sounding wrong. Pair them and both relax."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> What would you change about a learner’s first lesson, seen from the learner’s side?",
+      "say": "What would you change about a learner's first lesson, seen from the learner's side?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> The homework. Not “revise the verb <em>to be</em>” — one sentence, said out loud, to a real person, before the next lesson. A shop, a neighbour, a colleague. The lesson is where you practise; the street is where it counts, and most learners have never been asked to take it there in week one. That is the whole difference between a course and a beginning.",
+      "say": "The homework. Not revise the verb to be, but one sentence, said out loud, to a real person, before the next lesson. The lesson is where you practise; the street is where it counts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> Last question, and it is about your own work. What do you look for when you train a teacher?",
+      "say": "What do you look for when you train a teacher?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> Patience with silence, and the discipline not to fill it. The frames can be taught in an afternoon; anyone can learn the ladder. The other thing is a temperament, and I interview for it. A teacher who needs to be liked will rescue the learner too early, every time, and the learner will feel rescued rather than taught. If I have to choose between a brilliant linguist who cannot sit in a silence and a calm person who can, I take the calm person and teach them the linguistics.",
+      "say": "Patience with silence, and the discipline not to fill it. The frames can be taught in an afternoon. A teacher who needs to be liked will rescue the learner too early, every time."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> And the first ten minutes — are they a warm-up before the lesson, or the lesson?",
+      "say": "Are the first ten minutes a warm-up before the lesson, or the lesson?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> They are the lesson. Everything after them is either repair or momentum, and you do not get to choose which one you have bought. That is why the routine is written down, timed and boring: on the days I am tired, the routine still teaches, even when I would not.",
+      "say": "They are the lesson. Everything after them is either repair or momentum. That is why the routine is written down and boring: on the days I am tired, the routine still teaches, even when I would not."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M.:</strong> A teacher reads this tonight and has a lesson tomorrow morning. What do they change?",
+      "say": "A teacher reads this tonight and has a lesson tomorrow morning. What do they change?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> The first ten minutes. Put the textbook face down, give one frame, and have every learner say one true sentence to one other person before you write anything on the board. Then say nothing for three seconds after each answer — the silence is not empty, it is where the second sentence comes from. Everything else in your lesson plan can wait until minute eleven. None of it will matter if the room has already decided not to speak.",
+      "say": "The first ten minutes. Put the textbook face down, give one frame, and have every learner say one true sentence to one other person before you write anything on the board. Then say nothing for three seconds after each answer. Everything else can wait until minute eleven."
+    },
+    {
+      "type": "culture-bite",
+      "title": "A Research Question for Teachers",
+      "content": "💡 Does the timing of corrective feedback — during the utterance or after the message lands — change a learner’s willingness to speak in the following session? A small within-group study could compare two first lessons on the same material and count voluntary turns in week two.",
+      "say": "Does the timing of corrective feedback, during the utterance or after the message lands, change a learner's willingness to speak in the following session?"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true,
+  "printOrder": 90
+}
