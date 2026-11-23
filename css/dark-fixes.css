@@ -162,18 +162,22 @@ a[href*="podcasts.apple"],a[href*="apple.com/"].podcast-action-link,a[href*="app
 .printable-reference-card button { background: #0f766e !important; color: #ffffff !important; }
 
 /* Pastel call-out boxes pasted inline keep light ink that fails on the box */
-:is(html[data-theme="dark"], body.theme-dark) [style*="#f0f9ff"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0f9ff"] {
+  background: #16232B !important; color: #E8F0E9 !important;
+}
 :is(html[data-theme="dark"], body.theme-dark) [style*="#ecfdf5"],
-:is(html[data-theme="dark"], body.theme-dark) [style*="#eff6ff"],
 :is(html[data-theme="dark"], body.theme-dark) [style*="#f0fdf4"] {
-  background: #f2f8f2 !important; color: #1f2a24 !important;
+  background: #15241B !important; color: #E8F0E9 !important;
+}
+:is(html[data-theme="dark"], body.theme-dark) [style*="#eff6ff"] {
+  background: #171F2B !important; color: #E8F0E9 !important;
 }
 :is(html[data-theme="dark"], body.theme-dark) [style*="#f0f9ff"] *,
 :is(html[data-theme="dark"], body.theme-dark) [style*="#ecfdf5"] *,
 :is(html[data-theme="dark"], body.theme-dark) [style*="#eff6ff"] *,
-:is(html[data-theme="dark"], body.theme-dark) [style*="#f0fdf4"] * { color: #1f2a24 !important; }
-:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="0284c7"],
-:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="059669"] { color: #1f2a24 !important; }
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0fdf4"] * { color: #E8F0E9 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="0284c7"] { color: #7DD3FC !important; }
+:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="059669"] { color: #6EE7B7 !important; }
 :is(html[data-theme="dark"], body.theme-dark) .stage-container,
 :is(html[data-theme="dark"], body.theme-dark) .gazette-stage { background: #0f766e; }
 :is(html[data-theme="dark"], body.theme-dark) .podcast-box-header .podcast-ep-badge { color: #04231f !important; background: #5eead4 !important; }
@@ -214,3 +218,278 @@ a[href*="podcasts.apple"],a[href*="apple.com/"].podcast-action-link,a[href*="app
 :is(html[data-theme="dark"], body.theme-dark) .cosy-callout strong { color: #7fd6cc; }
 :is(html[data-theme="dark"], body.theme-dark) .mc-more-label,
 :is(html[data-theme="dark"], body.theme-dark) .mc-turn-label { color: #86efac !important; }
+
+/* Paper variable is only scoped to reading containers, so dev pages that
+   paint the body from it fall back to the light value. */
+:is(html[data-theme="dark"], body.theme-dark) { --gazette-paper-bg: #1f2621; }
+
+/* Polaroid frames around figures: keep the metaphor, drop the glare. */
+:is(html[data-theme="dark"], body.theme-dark) .post-full-content .page-body .gazette-figure-img,
+:is(html[data-theme="dark"], body.theme-dark) .post-full-content .page-body .cosy-fig {
+  background: #2A322B;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+
+/* Same corrections for visitors who follow the OS preference instead of
+   the in-page toggle; without this the tokens flip but these overrides
+   never load. */
+@media (prefers-color-scheme: dark) {
+html:not([data-theme="light"]) .podcast-box-title,
+html:not([data-theme="light"]) .podcast-card-title,
+html:not([data-theme="light"]) .podcast-card-title a{color:#f1f5f2}
+html:not([data-theme="light"]) .podcast-box-dek,
+html:not([data-theme="light"]) .podcast-card-dek,
+html:not([data-theme="light"]) .podcast-box-show{color:#b9c6bd}
+html:not([data-theme="light"]) .podcast-ep-badge,
+html:not([data-theme="light"]) .podcast-card-ep-num,
+html:not([data-theme="light"]) .podcast-card-btn,
+html:not([data-theme="light"]) .podcast-action-link{color:#5eead4}
+html:not([data-theme="light"]) .lang-switcher-active{background:#2dd4bf;color:#06201c}
+html:not([data-theme="light"]) .flipbook-indicator,
+html:not([data-theme="light"]) .folio-num,
+html:not([data-theme="light"]) .folio-desk-stamp{color:#b9c6bd}
+html:not([data-theme="light"]) .lang-word,
+html:not([data-theme="light"]) .phrase-pattern,
+html:not([data-theme="light"]) .featured-dek,
+html:not([data-theme="light"]) .back-home-link,
+html:not([data-theme="light"]) .ns-kicker,
+html:not([data-theme="light"]) .ns-issue-tag,
+html:not([data-theme="light"]) .ns-meta{color:#9fd3aa}
+html:not([data-theme="light"]) .instead-badge,
+html:not([data-theme="light"]) .try-badge{filter:brightness(1.35)}
+html:not([data-theme="light"]) .podcast-btn-script,
+html:not([data-theme="light"]) .podcast-card-ep-num,
+html:not([data-theme="light"]) .gazette-marginalia-title{color:#5eead4 !important}
+html:not([data-theme="light"]) .october-autumn-badge{color:#fbbf24 !important}
+html:not([data-theme="light"]) .gazette-quote cite,html:not([data-theme="light"]) blockquote cite{color:#b9c6bd}
+html:not([data-theme="light"]) .podcast-action-link:not([href*="spotify"]){color:#5eead4}
+html:not([data-theme="light"]) .editorial-heading,html:not([data-theme="light"]) .instead-try-header,
+html:not([data-theme="light"]) .folio-total,html:not([data-theme="light"]) .featured-dek{color:#b9c6bd}
+html:not([data-theme="light"]) cite{color:#b9c6bd}
+html:not([data-theme="light"]) .gazette-mode-link,html:not([data-theme="light"]) .dog-ear-label,
+html:not([data-theme="light"]) .podcast-ep-badge,html:not([data-theme="light"]) .podcast-show-name,
+html:not([data-theme="light"]) .lang-switcher-label,html:not([data-theme="light"]) .editorial-heading,
+html:not([data-theme="light"]) .instead-try-header,html:not([data-theme="light"]) cite,
+html:not([data-theme="light"]) .featured-dek,html:not([data-theme="light"]) .podcast-card-ep-num{color:#c9d6cd !important}
+html:not([data-theme="light"]) .lang-switcher-active{background:#2dd4bf !important;color:#06201c !important}
+html:not([data-theme="light"]) .editorial-kicker,html:not([data-theme="light"]) .podcast-ep-badge,
+html:not([data-theme="light"]) .read-more-link,html:not([data-theme="light"]) .gazette-back-link,
+html:not([data-theme="light"]) .podcast-action-link:not([href*="spotify"]){color:#7ff0dd !important}
+html:not([data-theme="light"]) .podcast-ep-badge{background:rgba(94,234,212,.14) !important}
+html:not([data-theme="light"]) .cat-edition-head,
+html:not([data-theme="light"]) .domain-head,
+html:not([data-theme="light"]) .domain-head *{ color: var(--cosy-color-ink, #ece7dc); }
+html:not([data-theme="light"]) .mc-se{ color: #fca5a5; }
+html:not([data-theme="light"]) .art-meta .tag-mod{ color: #fbbf24; }
+html:not([data-theme="light"]) .lex-card *:not(a){ color: inherit; }
+html:not([data-theme="light"]) .mc-compare .mc-side.mc-right p.mc-se,
+html:not([data-theme="light"]) p.mc-se{ color: #fca5a5 !important; }
+html:not([data-theme="light"]) .art-meta .art-tags .tag-mod,
+html:not([data-theme="light"]) .art-tags .tag-mod{ background: #3a2f16; color: #fbbf24; }
+html:not([data-theme="light"]) .gazette-drop-cap span.h,
+html:not([data-theme="light"]) .marginalia-body{
+  background: #1d4ed8; color: #dbeafe;
+}
+html:not([data-theme="light"]){ --teal-ink: #8DB695; }
+html:not([data-theme="light"]) p.gazette-drop-cap > span.h,
+html:not([data-theme="light"]) .gazette-drop-cap span.h{ background: #1d4ed8 !important; color: #dbeafe !important; }
+html:not([data-theme="light"]) .art-meta .art-tags span.tag-mod{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) body[data-issue] .mc-right .mc-sentence,
+html:not([data-theme="light"]) .mc-side.mc-right .mc-sentence{ color: #fca5a5 !important; }
+html:not([data-theme="light"]) .printable-reference-header button,
+html:not([data-theme="light"]) .printable-reference-card button{
+  background: #0f766e !important; color: #ffffff !important;
+}
+html:not([data-theme="light"]) [style*="#ecfdf5"],
+html:not([data-theme="light"]) [style*="#f0fdf4"]{
+  background: #15241B !important; color: #E8F0E9 !important;
+}
+html:not([data-theme="light"]) [style*="#eff6ff"]{
+  background: #171F2B !important; color: #E8F0E9 !important;
+}
+html:not([data-theme="light"]) [style*="#f0f9ff"] *,
+html:not([data-theme="light"]) [style*="#ecfdf5"] *,
+html:not([data-theme="light"]) [style*="#eff6ff"] *,
+html:not([data-theme="light"]) [style*="#f0fdf4"] *{ color: #E8F0E9 !important; }
+html:not([data-theme="light"]) .page-body h3[style*="0284c7"]{ color: #7DD3FC !important; }
+html:not([data-theme="light"]) .page-body h3[style*="059669"]{ color: #6EE7B7 !important; }
+html:not([data-theme="light"]) .stage-container,
+html:not([data-theme="light"]) .gazette-stage{ background: #0f766e; }
+html:not([data-theme="light"]) .podcast-box-header .podcast-ep-badge{ color: #04231f !important; background: #5eead4 !important; }
+html:not([data-theme="light"]) .gazette-marginalia-title{ color: #FCD34D; }
+html:not([data-theme="light"]) .podcast-action-link,
+html:not([data-theme="light"]) a.podcast-action{ background: #0f6b35 !important; color: #fff !important; }
+html:not([data-theme="light"]) h3[style*="0284c7"],
+html:not([data-theme="light"]) h3[style*="059669"]{ color: #1f2a24 !important; }
+html:not([data-theme="light"]) .gazette-marginalia .marginalia-title,
+html:not([data-theme="light"]) aside.gazette-marginalia > *:first-child{ color: #FCD34D !important; }
+html:not([data-theme="light"]) .tag-motif,
+html:not([data-theme="light"]) .tag-desk,
+html:not([data-theme="light"]) .tag-lang{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) .tag-motif{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) .flow-step-good{ color: #5eead4; }
+html:not([data-theme="light"]) .cosy-callout > strong,
+html:not([data-theme="light"]) .cosy-callout strong{ color: #7fd6cc; }
+html:not([data-theme="light"]) .mc-more-label,
+html:not([data-theme="light"]) .mc-turn-label{ color: #86efac !important; }
+}
+
+/* Same corrections for visitors who follow the OS preference instead of
+   the in-page toggle; without this the tokens flip but these overrides
+   never load. */
+@media (prefers-color-scheme: dark) {
+html:not([data-theme="light"]) .cosy-podcast-box,
+html:not([data-theme="light"]) .podcast-card{background:#1f2a23;border-color:rgba(255,255,255,.14);color:#e8f0e9}
+html:not([data-theme="light"]) .podcast-box-title,
+html:not([data-theme="light"]) .podcast-card-title,
+html:not([data-theme="light"]) .podcast-card-title a{color:#f1f5f2}
+html:not([data-theme="light"]) .podcast-box-dek,
+html:not([data-theme="light"]) .podcast-card-dek,
+html:not([data-theme="light"]) .podcast-box-show{color:#b9c6bd}
+html:not([data-theme="light"]) .podcast-ep-badge,
+html:not([data-theme="light"]) .podcast-card-ep-num,
+html:not([data-theme="light"]) .podcast-card-btn,
+html:not([data-theme="light"]) .podcast-action-link{color:#5eead4}
+html:not([data-theme="light"]) .lang-switcher-active{background:#2dd4bf;color:#06201c}
+html:not([data-theme="light"]) .flipbook-indicator,
+html:not([data-theme="light"]) .folio-num,
+html:not([data-theme="light"]) .folio-desk-stamp{color:#b9c6bd}
+html:not([data-theme="light"]) .lang-word,
+html:not([data-theme="light"]) .phrase-pattern,
+html:not([data-theme="light"]) .featured-dek,
+html:not([data-theme="light"]) .back-home-link,
+html:not([data-theme="light"]) .ns-kicker,
+html:not([data-theme="light"]) .ns-issue-tag,
+html:not([data-theme="light"]) .ns-meta{color:#9fd3aa}
+html:not([data-theme="light"]) .instead-badge,
+html:not([data-theme="light"]) .try-badge{filter:brightness(1.35)}
+html:not([data-theme="light"]) .podcast-btn-script,
+html:not([data-theme="light"]) .podcast-card-ep-num,
+html:not([data-theme="light"]) .gazette-marginalia-title{color:#5eead4 !important}
+html:not([data-theme="light"]) .october-autumn-badge{color:#fbbf24 !important}
+html:not([data-theme="light"]) .gazette-quote cite,html:not([data-theme="light"]) blockquote cite{color:#b9c6bd}
+html:not([data-theme="light"]) .podcast-action-link:not([href*="spotify"]){color:#5eead4}
+html:not([data-theme="light"]) .editorial-heading,html:not([data-theme="light"]) .instead-try-header,
+html:not([data-theme="light"]) .folio-total,html:not([data-theme="light"]) .featured-dek{color:#b9c6bd}
+html:not([data-theme="light"]) cite{color:#b9c6bd}
+html:not([data-theme="light"]) .gazette-mode-link,html:not([data-theme="light"]) .dog-ear-label,
+html:not([data-theme="light"]) .podcast-ep-badge,html:not([data-theme="light"]) .podcast-show-name,
+html:not([data-theme="light"]) .lang-switcher-label,html:not([data-theme="light"]) .editorial-heading,
+html:not([data-theme="light"]) .instead-try-header,html:not([data-theme="light"]) cite,
+html:not([data-theme="light"]) .featured-dek,html:not([data-theme="light"]) .podcast-card-ep-num{color:#c9d6cd !important}
+html:not([data-theme="light"]) .lang-switcher-active{background:#2dd4bf !important;color:#06201c !important}
+html:not([data-theme="light"]) .editorial-kicker,html:not([data-theme="light"]) .podcast-ep-badge,
+html:not([data-theme="light"]) .read-more-link,html:not([data-theme="light"]) .gazette-back-link,
+html:not([data-theme="light"]) .podcast-action-link:not([href*="spotify"]){color:#7ff0dd !important}
+html:not([data-theme="light"]) .podcast-ep-badge{background:rgba(94,234,212,.14) !important}
+html:not([data-theme="light"]) .gazette-body,
+html:not([data-theme="light"]) .gazette-wrapper,
+html:not([data-theme="light"]) .gazette-container,
+html:not([data-theme="light"]) .flipbook-page,
+html:not([data-theme="light"]) .page-body,
+html:not([data-theme="light"]) .gazette-reading-view,
+html:not([data-theme="light"]) .post-full-content,
+html:not([data-theme="light"]) .printable-reference-card,
+html:not([data-theme="light"]) .reading-article{
+  --post-palette-bg: #1f2621;
+  --gazette-paper-bg: #1f2621;
+  --blog-paper-light: #1f2621;
+  --blog-paper-card: #262e28;
+  --paper: #1f2621;
+  background-color: #1f2621;
+  --page-ink: #ece7dc;
+  --page-ink-soft: #b9afa3;
+  color: #ece7dc;
+}
+html:not([data-theme="light"]) .flow-step-bad,
+html:not([data-theme="light"]) .mc-wrong .mc-sentence,
+html:not([data-theme="light"]) .ns-card[data-issue="sat"]{ color: #fb7185; }
+html:not([data-theme="light"]) .cat-edition-head,
+html:not([data-theme="light"]) .domain-head,
+html:not([data-theme="light"]) .domain-head *{ color: var(--cosy-color-ink, #ece7dc); }
+html:not([data-theme="light"]) .mc-se{ color: #fca5a5; }
+html:not([data-theme="light"]) .art-meta .tag-mod{ color: #fbbf24; }
+html:not([data-theme="light"]) .vtag.is-everyday,
+html:not([data-theme="light"]) .vtag.is-work,
+html:not([data-theme="light"]) .vtag.is-formal{ background: rgba(255, 255, 255, 0.08); }
+html:not([data-theme="light"]) .lex-card{ --card-ink: #dbe4de; color: #dbe4de; }
+html:not([data-theme="light"]) .lex-card *:not(a){ color: inherit; }
+html:not([data-theme="light"]) .mc-compare .mc-side.mc-right p.mc-se,
+html:not([data-theme="light"]) p.mc-se{ color: #fca5a5 !important; }
+html:not([data-theme="light"]) .art-meta .art-tags .tag-mod,
+html:not([data-theme="light"]) .art-tags .tag-mod{ background: #3a2f16; color: #fbbf24; }
+html:not([data-theme="light"]) .gazette-drop-cap span.h,
+html:not([data-theme="light"]) .marginalia-body{
+  background: #1d4ed8; color: #dbeafe;
+}
+html:not([data-theme="light"]){ --teal-ink: #8DB695; }
+html:not([data-theme="light"]) .button,
+html:not([data-theme="light"]) a.button,
+html:not([data-theme="light"]) .cta-button,
+html:not([data-theme="light"]) .lex-card a[style*="--teal"]{
+  background: #3f6b4b !important;
+  color: #ffffff !important;
+}
+html:not([data-theme="light"]) body[data-issue] p.mc-se,
+html:not([data-theme="light"]) article.mc p.mc-se{ color: #fca5a5 !important; }
+html:not([data-theme="light"]) p.gazette-drop-cap > span.h,
+html:not([data-theme="light"]) .gazette-drop-cap span.h{ background: #1d4ed8 !important; color: #dbeafe !important; }
+html:not([data-theme="light"]) .art-meta .art-tags span.tag-mod{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) [style*="#faf7f2"],
+html:not([data-theme="light"]) [style*="#fffdf8"],
+html:not([data-theme="light"]) [style*="#fffef8"],
+html:not([data-theme="light"]) [style*="#faf7f2e"],
+html:not([data-theme="light"]) [style*="rgb(250, 247, 242)"]{ background: #262e28 !important; }
+html:not([data-theme="light"]) body[data-issue] .mc-right .mc-sentence,
+html:not([data-theme="light"]) .mc-side.mc-right .mc-sentence{ color: #fca5a5 !important; }
+html:not([data-theme="light"]) .printable-reference-header button,
+html:not([data-theme="light"]) .printable-reference-card button{
+  background: #0f766e !important; color: #ffffff !important;
+}
+html:not([data-theme="light"]) [style*="#f0f9ff"]{
+  background: #16232B !important; color: #E8F0E9 !important;
+}
+html:not([data-theme="light"]) [style*="#ecfdf5"],
+html:not([data-theme="light"]) [style*="#f0fdf4"]{
+  background: #15241B !important; color: #E8F0E9 !important;
+}
+html:not([data-theme="light"]) [style*="#eff6ff"]{
+  background: #171F2B !important; color: #E8F0E9 !important;
+}
+html:not([data-theme="light"]) [style*="#f0f9ff"] *,
+html:not([data-theme="light"]) [style*="#ecfdf5"] *,
+html:not([data-theme="light"]) [style*="#eff6ff"] *,
+html:not([data-theme="light"]) [style*="#f0fdf4"] *{ color: #E8F0E9 !important; }
+html:not([data-theme="light"]) .page-body h3[style*="0284c7"]{ color: #7DD3FC !important; }
+html:not([data-theme="light"]) .page-body h3[style*="059669"]{ color: #6EE7B7 !important; }
+html:not([data-theme="light"]) .stage-container,
+html:not([data-theme="light"]) .gazette-stage{ background: #0f766e; }
+html:not([data-theme="light"]) .podcast-box-header .podcast-ep-badge{ color: #04231f !important; background: #5eead4 !important; }
+html:not([data-theme="light"]) .cat-article-meta{ color: #A9C7AF; }
+html:not([data-theme="light"]) .gazette-marginalia-title{ color: #FCD34D; }
+html:not([data-theme="light"]) .ns-kicker,
+html:not([data-theme="light"]) .ns-issue-tag,
+html:not([data-theme="light"]) .cat-issue-tag,
+html:not([data-theme="light"]) .cat-issue-tag *{ color: #FDBA74 !important; }
+html:not([data-theme="light"]) .podcast-action-link,
+html:not([data-theme="light"]) a.podcast-action{ background: #0f6b35 !important; color: #fff !important; }
+html:not([data-theme="light"]) h3[style*="0284c7"],
+html:not([data-theme="light"]) h3[style*="059669"]{ color: #1f2a24 !important; }
+html:not([data-theme="light"]) .gazette-marginalia .marginalia-title,
+html:not([data-theme="light"]) aside.gazette-marginalia > *:first-child{ color: #FCD34D !important; }
+html:not([data-theme="light"]) .tag-motif,
+html:not([data-theme="light"]) .tag-desk,
+html:not([data-theme="light"]) .tag-lang{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) .tag-motif{ background: #3a2f16 !important; color: #fbbf24 !important; }
+html:not([data-theme="light"]) .flow-step-good{ color: #5eead4; }
+html:not([data-theme="light"]) .cosy-callout > strong,
+html:not([data-theme="light"]) .cosy-callout strong{ color: #7fd6cc; }
+html:not([data-theme="light"]) .mc-more-label,
+html:not([data-theme="light"]) .mc-turn-label{ color: #86efac !important; }
+html:not([data-theme="light"]){ --gazette-paper-bg: #1f2621; }
+html:not([data-theme="light"]) .post-full-content .page-body .gazette-figure-img,
+html:not([data-theme="light"]) .post-full-content .page-body .cosy-fig{
+  background: #2A322B;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+}
