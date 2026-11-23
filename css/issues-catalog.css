@@ -227,3 +227,13 @@ html[data-theme="dark"] .cat-lang-pill { background: #33422f; color: #FAF7F2; }
 
 .cat-lang-pill.is-hub { background: transparent; border: 1px dashed var(--border, rgba(74,107,80,.45)); }
 html[data-theme="dark"] .cat-lang-pill.is-hub { background: transparent; border-color: rgba(255,255,255,.3); }
+
+/* Night mode: the rust pills were tuned for cream only */
+html[data-theme="dark"] .cat-btn {
+  background: rgba(253, 186, 116, .12);
+  color: #FDBA74;
+  border-color: rgba(253, 186, 116, .30);
+}
+html[data-theme="dark"] .cat-btn:hover:not(:disabled) { background: #9A3412; color: #fff; }
+html[data-theme="dark"] .cat-nav-pill,
+html[data-theme="dark"] .cat-lang-pill { color: #E7EDE8; border-color: rgba(231, 237, 232, .25); }

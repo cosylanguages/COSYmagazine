@@ -1,29 +1,29 @@
 /* Dark-mode contrast fixes (loaded last). Light mode is untouched. */
-html[data-theme="dark"] .cosy-podcast-box,
-html[data-theme="dark"] .podcast-card{background:#1f2a23;border-color:rgba(255,255,255,.14);color:#e8f0e9}
-html[data-theme="dark"] .podcast-box-title,
-html[data-theme="dark"] .podcast-card-title,
-html[data-theme="dark"] .podcast-card-title a{color:#f1f5f2}
-html[data-theme="dark"] .podcast-box-dek,
-html[data-theme="dark"] .podcast-card-dek,
-html[data-theme="dark"] .podcast-box-show{color:#b9c6bd}
-html[data-theme="dark"] .podcast-ep-badge,
-html[data-theme="dark"] .podcast-card-ep-num,
-html[data-theme="dark"] .podcast-card-btn,
-html[data-theme="dark"] .podcast-action-link{color:#5eead4}
-html[data-theme="dark"] .lang-switcher-active{background:#2dd4bf;color:#06201c}
-html[data-theme="dark"] .flipbook-indicator,
-html[data-theme="dark"] .folio-num,
-html[data-theme="dark"] .folio-desk-stamp{color:#b9c6bd}
-html[data-theme="dark"] .lang-word,
-html[data-theme="dark"] .phrase-pattern,
-html[data-theme="dark"] .featured-dek,
-html[data-theme="dark"] .back-home-link,
-html[data-theme="dark"] .ns-kicker,
-html[data-theme="dark"] .ns-issue-tag,
-html[data-theme="dark"] .ns-meta{color:#9fd3aa}
-html[data-theme="dark"] .instead-badge,
-html[data-theme="dark"] .try-badge{filter:brightness(1.35)}
+:is(html[data-theme="dark"], body.theme-dark) .cosy-podcast-box,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card{background:#1f2a23;border-color:rgba(255,255,255,.14);color:#e8f0e9}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-box-title,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-title,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-title a{color:#f1f5f2}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-box-dek,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-dek,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-box-show{color:#b9c6bd}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-ep-badge,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-ep-num,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-btn,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-action-link{color:#5eead4}
+:is(html[data-theme="dark"], body.theme-dark) .lang-switcher-active{background:#2dd4bf;color:#06201c}
+:is(html[data-theme="dark"], body.theme-dark) .flipbook-indicator,
+:is(html[data-theme="dark"], body.theme-dark) .folio-num,
+:is(html[data-theme="dark"], body.theme-dark) .folio-desk-stamp{color:#b9c6bd}
+:is(html[data-theme="dark"], body.theme-dark) .lang-word,
+:is(html[data-theme="dark"], body.theme-dark) .phrase-pattern,
+:is(html[data-theme="dark"], body.theme-dark) .featured-dek,
+:is(html[data-theme="dark"], body.theme-dark) .back-home-link,
+:is(html[data-theme="dark"], body.theme-dark) .ns-kicker,
+:is(html[data-theme="dark"], body.theme-dark) .ns-issue-tag,
+:is(html[data-theme="dark"], body.theme-dark) .ns-meta{color:#9fd3aa}
+:is(html[data-theme="dark"], body.theme-dark) .instead-badge,
+:is(html[data-theme="dark"], body.theme-dark) .try-badge{filter:brightness(1.35)}
 
 /* Both modes: solid badges/buttons with white text need a darker fill */
 .try-badge{background:#0f766e !important;color:#fff !important}
@@ -33,34 +33,184 @@ html[data-theme="dark"] .try-badge{filter:brightness(1.35)}
 .october-autumn-badge{color:#92400e !important}
 .gazette-marginalia-title{color:#0f6e66 !important}
 .gazette-quote cite,blockquote cite{color:#4b5563}
-html[data-theme="dark"] .podcast-btn-script,
-html[data-theme="dark"] .podcast-card-ep-num,
-html[data-theme="dark"] .gazette-marginalia-title{color:#5eead4 !important}
-html[data-theme="dark"] .october-autumn-badge{color:#fbbf24 !important}
-html[data-theme="dark"] .gazette-quote cite,html[data-theme="dark"] blockquote cite{color:#b9c6bd}
-html[data-theme="dark"] .podcast-action-link:not([href*="spotify"]){color:#5eead4}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-btn-script,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-card-ep-num,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-marginalia-title{color:#5eead4 !important}
+:is(html[data-theme="dark"], body.theme-dark) .october-autumn-badge{color:#fbbf24 !important}
+:is(html[data-theme="dark"], body.theme-dark) .gazette-quote cite,:is(html[data-theme="dark"], body.theme-dark) blockquote cite{color:#b9c6bd}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-action-link:not([href*="spotify"]){color:#5eead4}
 a[style*="1db954"],a[href*="spotify"].podcast-action-link,a[href*="spotify"].podcast-card-btn{background:#15803d !important;color:#fff !important}
 .editorial-heading,.instead-try-header{color:#4b5563}
-html[data-theme="dark"] .editorial-heading,html[data-theme="dark"] .instead-try-header,
-html[data-theme="dark"] .folio-total,html[data-theme="dark"] .featured-dek{color:#b9c6bd}
+:is(html[data-theme="dark"], body.theme-dark) .editorial-heading,:is(html[data-theme="dark"], body.theme-dark) .instead-try-header,
+:is(html[data-theme="dark"], body.theme-dark) .folio-total,:is(html[data-theme="dark"], body.theme-dark) .featured-dek{color:#b9c6bd}
 .gazette-quote cite,cite{color:#4b5563}
-html[data-theme="dark"] cite{color:#b9c6bd}
+:is(html[data-theme="dark"], body.theme-dark) cite{color:#b9c6bd}
 /* Final pass (specificity-proof) */
 .gazette-mode-link,.dog-ear-label,.lang-switcher-label,.editorial-heading,.instead-try-header,cite,.podcast-card-ep-num{color:#0f5f58 !important}
 .lang-switcher-active{background:#0f766e !important;color:#fff !important}
 .dog-ear-label{color:#374151 !important}
 .lang-switcher-label,.editorial-heading,.instead-try-header,cite{color:#374151 !important}
-html[data-theme="dark"] .gazette-mode-link,html[data-theme="dark"] .dog-ear-label,
-html[data-theme="dark"] .podcast-ep-badge,html[data-theme="dark"] .podcast-show-name,
-html[data-theme="dark"] .lang-switcher-label,html[data-theme="dark"] .editorial-heading,
-html[data-theme="dark"] .instead-try-header,html[data-theme="dark"] cite,
-html[data-theme="dark"] .featured-dek,html[data-theme="dark"] .podcast-card-ep-num{color:#c9d6cd !important}
-html[data-theme="dark"] .lang-switcher-active{background:#2dd4bf !important;color:#06201c !important}
+:is(html[data-theme="dark"], body.theme-dark) .gazette-mode-link,:is(html[data-theme="dark"], body.theme-dark) .dog-ear-label,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-ep-badge,:is(html[data-theme="dark"], body.theme-dark) .podcast-show-name,
+:is(html[data-theme="dark"], body.theme-dark) .lang-switcher-label,:is(html[data-theme="dark"], body.theme-dark) .editorial-heading,
+:is(html[data-theme="dark"], body.theme-dark) .instead-try-header,:is(html[data-theme="dark"], body.theme-dark) cite,
+:is(html[data-theme="dark"], body.theme-dark) .featured-dek,:is(html[data-theme="dark"], body.theme-dark) .podcast-card-ep-num{color:#c9d6cd !important}
+:is(html[data-theme="dark"], body.theme-dark) .lang-switcher-active{background:#2dd4bf !important;color:#06201c !important}
 .editorial-kicker,.podcast-ep-badge,.podcast-action-link,.read-more-link,.gazette-back-link{color:#0f5f58 !important}
 .podcast-action-link[href*="spotify"]{color:#fff !important}
-html[data-theme="dark"] .editorial-kicker,html[data-theme="dark"] .podcast-ep-badge,
-html[data-theme="dark"] .read-more-link,html[data-theme="dark"] .gazette-back-link,
-html[data-theme="dark"] .podcast-action-link:not([href*="spotify"]){color:#7ff0dd !important}
-html[data-theme="dark"] .podcast-ep-badge{background:rgba(94,234,212,.14) !important}
+:is(html[data-theme="dark"], body.theme-dark) .editorial-kicker,:is(html[data-theme="dark"], body.theme-dark) .podcast-ep-badge,
+:is(html[data-theme="dark"], body.theme-dark) .read-more-link,:is(html[data-theme="dark"], body.theme-dark) .gazette-back-link,
+:is(html[data-theme="dark"], body.theme-dark) .podcast-action-link:not([href*="spotify"]){color:#7ff0dd !important}
+:is(html[data-theme="dark"], body.theme-dark) .podcast-ep-badge{background:rgba(94,234,212,.14) !important}
 a[href*="podcasts.apple"],a[href*="apple.com/"].podcast-action-link,a[href*="apple.com/"].podcast-card-btn{background:#7e22ce !important;color:#fff !important}
 .podcast-ep-badge{background:#e6f4f1 !important;color:#0f4f49 !important}
+
+/* ---------------------------------------------------------------------------
+   Night paper: the issue pages keep their light paper in light mode, but the
+   ink tokens already flip in dark mode. Without flipping the paper too, body
+   copy lands as cream-on-cream (1.15:1). Remap every paper variable at once.
+   --------------------------------------------------------------------------- */
+:is(html[data-theme="dark"], body.theme-dark) .gazette-body,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-wrapper,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-container,
+:is(html[data-theme="dark"], body.theme-dark) .flipbook-page,
+:is(html[data-theme="dark"], body.theme-dark) .page-body,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-reading-view,
+:is(html[data-theme="dark"], body.theme-dark) .post-full-content,
+:is(html[data-theme="dark"], body.theme-dark) .printable-reference-card,
+:is(html[data-theme="dark"], body.theme-dark) .reading-article {
+  --post-palette-bg: #1f2621;
+  --gazette-paper-bg: #1f2621;
+  --blog-paper-light: #1f2621;
+  --blog-paper-card: #262e28;
+  --paper: #1f2621;
+  background-color: #1f2621;
+  --page-ink: #ece7dc;
+  --page-ink-soft: #b9afa3;
+  color: #ece7dc;
+}
+
+/* Inks that are fine on paper but vanish on the night paper */
+:is(html[data-theme="dark"], body.theme-dark) .flow-step-bad,
+:is(html[data-theme="dark"], body.theme-dark) .mc-wrong .mc-sentence,
+:is(html[data-theme="dark"], body.theme-dark) .ns-card[data-issue="sat"] { color: #fb7185; }
+:is(html[data-theme="dark"], body.theme-dark) .cat-edition-head,
+:is(html[data-theme="dark"], body.theme-dark) .domain-head,
+:is(html[data-theme="dark"], body.theme-dark) .domain-head * { color: var(--cosy-color-ink, #ece7dc); }
+:is(html[data-theme="dark"], body.theme-dark) .mc-se { color: #fca5a5; }
+:is(html[data-theme="dark"], body.theme-dark) .art-meta .tag-mod { color: #fbbf24; }
+
+/* Paper-tinted chips that carried light-mode accent ink */
+:is(html[data-theme="dark"], body.theme-dark) .vtag.is-everyday,
+:is(html[data-theme="dark"], body.theme-dark) .vtag.is-work,
+:is(html[data-theme="dark"], body.theme-dark) .vtag.is-formal { background: rgba(255, 255, 255, 0.08); }
+
+/* Card heads and highlight blocks that keep light-mode ink on the night paper */
+:is(html[data-theme="dark"], body.theme-dark) .lex-card { --card-ink: #dbe4de; color: #dbe4de; }
+:is(html[data-theme="dark"], body.theme-dark) .lex-card *:not(a) { color: inherit; }
+:is(html[data-theme="dark"], body.theme-dark) .mc-compare .mc-side.mc-right p.mc-se,
+:is(html[data-theme="dark"], body.theme-dark) p.mc-se { color: #fca5a5 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .art-meta .art-tags .tag-mod,
+:is(html[data-theme="dark"], body.theme-dark) .art-tags .tag-mod { background: #3a2f16; color: #fbbf24; }
+:is(html[data-theme="dark"], body.theme-dark) .gazette-drop-cap span.h,
+:is(html[data-theme="dark"], body.theme-dark) .marginalia-body {
+  background: #1d4ed8; color: #dbeafe;
+}
+
+:root { --teal-ink: #5A7A5F; }
+:is(html[data-theme="dark"], body.theme-dark) { --teal-ink: #8DB695; }
+
+/* Sage is used both as ink and as a button fill. On the night paper the ink
+   must lift, but any fill that carries white text must stay deep. */
+:is(html[data-theme="dark"], body.theme-dark) .button,
+:is(html[data-theme="dark"], body.theme-dark) a.button,
+:is(html[data-theme="dark"], body.theme-dark) .cta-button,
+:is(html[data-theme="dark"], body.theme-dark) .lex-card a[style*="--teal"] {
+  background: #3f6b4b !important;
+  color: #ffffff !important;
+}
+
+/* Solid accent badges: one place, all issues */
+.august-banner-badge { background: #b45309 !important; color: #fff !important; }
+.september-banner-badge { background: #0f766e !important; color: #fff !important; }
+.october-banner-badge { background: #1d4ed8 !important; color: #fff !important; }
+.november-banner-badge { background: #0369a1 !important; color: #fff !important; }
+
+/* Night-paper leftovers: later sheets re-declare these, so pin them. */
+:is(html[data-theme="dark"], body.theme-dark) body[data-issue] p.mc-se,
+:is(html[data-theme="dark"], body.theme-dark) article.mc p.mc-se { color: #fca5a5 !important; }
+:is(html[data-theme="dark"], body.theme-dark) p.gazette-drop-cap > span.h,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-drop-cap span.h { background: #1d4ed8 !important; color: #dbeafe !important; }
+:is(html[data-theme="dark"], body.theme-dark) .art-meta .art-tags span.tag-mod { background: #3a2f16 !important; color: #fbbf24 !important; }
+
+/* Inline light "paper" boxes pasted into the copy stay cream in dark mode,
+   while the ink inside them flips: force the box onto the night paper. */
+:is(html[data-theme="dark"], body.theme-dark) [style*="#faf7f2"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#fffdf8"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#fffef8"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#faf7f2e"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="rgb(250, 247, 242)"] { background: #262e28 !important; }
+
+:is(html[data-theme="dark"], body.theme-dark) body[data-issue] .mc-right .mc-sentence,
+:is(html[data-theme="dark"], body.theme-dark) .mc-side.mc-right .mc-sentence { color: #fca5a5 !important; }
+
+:is(html[data-theme="dark"], body.theme-dark) .printable-reference-header button,
+:is(html[data-theme="dark"], body.theme-dark) .printable-reference-card button {
+  background: #0f766e !important; color: #ffffff !important;
+}
+.printable-reference-header button,
+.printable-reference-card button { background: #0f766e !important; color: #ffffff !important; }
+
+/* Pastel call-out boxes pasted inline keep light ink that fails on the box */
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0f9ff"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#ecfdf5"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#eff6ff"],
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0fdf4"] {
+  background: #f2f8f2 !important; color: #1f2a24 !important;
+}
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0f9ff"] *,
+:is(html[data-theme="dark"], body.theme-dark) [style*="#ecfdf5"] *,
+:is(html[data-theme="dark"], body.theme-dark) [style*="#eff6ff"] *,
+:is(html[data-theme="dark"], body.theme-dark) [style*="#f0fdf4"] * { color: #1f2a24 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="0284c7"],
+:is(html[data-theme="dark"], body.theme-dark) .page-body h3[style*="059669"] { color: #1f2a24 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .stage-container,
+:is(html[data-theme="dark"], body.theme-dark) .gazette-stage { background: #0f766e; }
+:is(html[data-theme="dark"], body.theme-dark) .podcast-box-header .podcast-ep-badge { color: #04231f !important; background: #5eead4 !important; }
+
+/* Remaining light-mode inks that never got a night value */
+:is(html[data-theme="dark"], body.theme-dark) .cat-article-meta { color: #A9C7AF; }
+:is(html[data-theme="dark"], body.theme-dark) .gazette-marginalia-title { color: #FCD34D; }
+
+/* Last stragglers: page-scoped rules outrank the generic dark palette */
+:is(html[data-theme="dark"], body.theme-dark) .ns-kicker,
+:is(html[data-theme="dark"], body.theme-dark) .ns-issue-tag,
+:is(html[data-theme="dark"], body.theme-dark) .cat-issue-tag,
+:is(html[data-theme="dark"], body.theme-dark) .cat-issue-tag * { color: #FDBA74 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .podcast-action-link,
+:is(html[data-theme="dark"], body.theme-dark) a.podcast-action { background: #0f6b35 !important; color: #fff !important; }
+:is(html[data-theme="dark"], body.theme-dark) h3[style*="0284c7"],
+:is(html[data-theme="dark"], body.theme-dark) h3[style*="059669"] { color: #1f2a24 !important; }
+
+/* Stage/reading previews kept cream ink on cream and teal on cream */
+.reading-header .reading-kicker { color: #0f766e !important; }
+.stage-launch-banner .stage-launch-btn,
+.stage-launch-btn { background: #0f766e !important; color: #fff !important; }
+:is(html[data-theme="dark"], body.theme-dark) .gazette-marginalia .marginalia-title,
+:is(html[data-theme="dark"], body.theme-dark) aside.gazette-marginalia > *:first-child { color: #FCD34D !important; }
+:is(html[data-theme="dark"], body.theme-dark) .tag-motif,
+:is(html[data-theme="dark"], body.theme-dark) .tag-desk,
+:is(html[data-theme="dark"], body.theme-dark) .tag-lang { background: #3a2f16 !important; color: #fbbf24 !important; }
+
+/* Light mode: accent colours used as *text* on paper need one step darker */
+.flow-step-good { color: #0f766e; }
+.cosy-callout > strong,
+.cosy-callout strong { color: #0f766e; }
+.mc-more-label, .mc-turn-label { color: #15803d !important; }
+.tag-motif { background: #fdf6e3; color: #8a5a00; }
+:is(html[data-theme="dark"], body.theme-dark) .tag-motif { background: #3a2f16 !important; color: #fbbf24 !important; }
+:is(html[data-theme="dark"], body.theme-dark) .flow-step-good { color: #5eead4; }
+:is(html[data-theme="dark"], body.theme-dark) .cosy-callout > strong,
+:is(html[data-theme="dark"], body.theme-dark) .cosy-callout strong { color: #7fd6cc; }
+:is(html[data-theme="dark"], body.theme-dark) .mc-more-label,
+:is(html[data-theme="dark"], body.theme-dark) .mc-turn-label { color: #86efac !important; }

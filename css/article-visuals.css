@@ -95,7 +95,7 @@ html[data-theme="dark"] {
 }
 .vcard-num {
   grid-row: 1 / span 2; width: 2.4rem; height: 2.4rem; display: grid; place-items: center;
-  border-radius: 50%; background: var(--post-palette-accent, #0d9488); color: #fff;
+  border-radius: 50%; background: color-mix(in srgb, var(--post-palette-accent, #0d9488) 55%, #000); color: #fff;
   font-family: var(--post-font-display, 'Fraunces', serif); font-weight: 800; font-size: 1.1rem;
 }
 .vcard-title {
@@ -151,7 +151,7 @@ html[data-theme="dark"] {
 }
 .flow-n {
   grid-row: 1 / span 3; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center;
-  background: var(--post-palette-accent, #0d9488); color: #fff; font-weight: 800;
+  background: color-mix(in srgb, var(--post-palette-accent, #0d9488) 55%, #000); color: #fff; font-weight: 800;
 }
 .flow-title { font-weight: 800; font-size: 1rem; }
 .flow-text { font-size: .88rem; color: var(--blog-ink-secondary, #44403c); line-height: 1.4; }
@@ -331,12 +331,11 @@ mark.hl-handwritten,
 }
 
 html[data-theme="dark"] .handwritten-note {
-  background: #3b82f6;
-  color: #ffffff;
-  border-color: #60a5fa;
+  background: #1d4ed8;
+  color: #dbeafe;
+  border-color: #3b82f6;
 }
 
-html[data-theme="dark"] .handwritten-note,
 html[data-theme="dark"] .handwritten-annotation,
 html[data-theme="dark"] .notebook-margin-note,
 html[data-theme="dark"] .doodle-accent,
@@ -464,7 +463,7 @@ html[data-theme="dark"] .notebook-margin-line {
 .mc-head { display: flex; align-items: center; gap: .75rem; margin-bottom: .9rem; }
 .mc-num {
   flex: none; display: grid; place-items: center; width: 2.2rem; height: 2.2rem; border-radius: 50%;
-  background: var(--post-palette-accent, #0d9488); color: #fff; font-weight: 800; font-size: .85rem;
+  background: color-mix(in srgb, var(--post-palette-accent, #0d9488) 55%, #000); color: #fff; font-weight: 800; font-size: .85rem;
 }
 .mc-title { margin: 0; font-size: 1.2rem; line-height: 1.25; }
 .mc-compare { display: grid; grid-template-columns: 1fr; gap: .6rem; }

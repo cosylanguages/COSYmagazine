@@ -1172,7 +1172,7 @@ html[data-theme="dark"] .gazette-masthead-meta {
 }
 
 .flow-step-pinnacle {
-  background: var(--post-palette-accent, #0d9488);
+  background: color-mix(in srgb, var(--post-palette-accent, #0d9488) 55%, #000);
   color: #ffffff;
   padding: 0.2rem 0.55rem;
   border-radius: 4px;
@@ -1215,7 +1215,7 @@ html[data-theme="dark"] .gazette-masthead-meta {
 }
 
 .august-banner-badge {
-  background: #d97706;
+  background: #b45309;
   color: #ffffff;
   font-family: var(--post-font-display, 'Fraunces', serif);
   font-weight: 900;
@@ -1283,7 +1283,7 @@ html[data-theme="dark"] .august-banner-content p {
 }
 
 .september-banner-badge {
-  background: #0d9488;
+  background: #0f766e;
   color: #ffffff;
   font-family: var(--post-font-display, 'Fraunces', serif);
   font-weight: 900;
@@ -1351,7 +1351,7 @@ html[data-theme="dark"] .september-banner-content p {
 }
 
 .october-banner-badge {
-  background: #2563eb;
+  background: #1d4ed8;
   color: #ffffff;
   font-family: var(--post-font-display, 'Fraunces', serif);
   font-weight: 900;
@@ -1419,7 +1419,7 @@ html[data-theme="dark"] .october-banner-content p {
 }
 
 .november-banner-badge {
-  background: #0284c7;
+  background: #0369a1;
   color: #ffffff;
   font-family: var(--post-font-display, 'Fraunces', serif);
   font-weight: 900;

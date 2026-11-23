@@ -2,10 +2,10 @@
 (function () {
   try {
     var t = localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme');
-    if (t === 'dark') {
+    if (t === 'dark' || t === 'light') {
+      document.documentElement.setAttribute('data-theme', t);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       document.documentElement.setAttribute('data-theme', 'dark');
-    } else if (t === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
     }
   } catch (e) {}
 })();
