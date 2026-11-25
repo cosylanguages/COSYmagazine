@@ -7,7 +7,7 @@
 
   function getLoginUrl() {
     if (typeof window === 'undefined' || !window.location) return LOGIN_URL;
-    return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}`;
+    return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}&v=20261125-1`;
   }
 
   function escapeHtml(str) {
