@@ -2,7 +2,13 @@
   'use strict';
 
   const LOGIN_URL = 'https://cosylanguages.github.io/COSYlanguages/login.html';
+
   const SUBSCRIPTION_URL = 'https://cosylanguages.github.io/COSYlanguages/courses/index.html';
+
+  function getLoginUrl() {
+    if (typeof window === 'undefined' || !window.location) return LOGIN_URL;
+    return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}`;
+  }
 
   function escapeHtml(str) {
     if (!str) return '';
@@ -214,7 +220,7 @@
         'Sign in Required',
         'Please sign in to your COSYlanguages account to download full PDF magazine editions.',
         'Sign In',
-        LOGIN_URL,
+        getLoginUrl(),
         false
       );
       return { success: false, error: 'unauthenticated' };
@@ -265,7 +271,7 @@
             'Sign in Required',
             'Your session may have expired. Please sign in to download this issue.',
             'Sign In',
-            LOGIN_URL,
+            getLoginUrl(),
             false
           );
           return { success: false, error: 'unauthenticated' };
