@@ -969,6 +969,8 @@
         },
 
         showPaywallModal: function (targetPage) {
+            const loginUrl = 'https://cosylanguages.github.io/COSYlanguages/login.html?redirect=' +
+                encodeURIComponent(window.location.href);
             let modal = document.getElementById('flipbook-paywall-gate');
             if (!modal) {
                 modal = document.createElement('div');
@@ -987,7 +989,7 @@
                             <div class="paywall-perk-item">🎙️ All Founder audio dispatches & speaking club materials</div>
                         </div>
                         <div class="paywall-actions">
-                            <a href="https://cosylanguages.github.io/COSYlanguages/login.html" class="paywall-btn paywall-btn-primary">Sign In / Subscribe →</a>
+                            <a href="${loginUrl}" class="paywall-btn paywall-btn-primary">Sign In / Subscribe →</a>
                             <button type="button" class="paywall-btn paywall-btn-outline" id="paywall-close-btn">Return to Preview</button>
                         </div>
                     </div>
