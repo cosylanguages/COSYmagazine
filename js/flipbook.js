@@ -970,7 +970,7 @@
 
         showPaywallModal: function (targetPage) {
             const loginUrl = 'https://cosylanguages.github.io/COSYlanguages/login.html?redirect=' +
-                encodeURIComponent(window.location.href);
+                encodeURIComponent(window.location.href) + '&v=20261125-1';
             let modal = document.getElementById('flipbook-paywall-gate');
             if (!modal) {
                 modal = document.createElement('div');

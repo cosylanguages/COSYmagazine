@@ -231,7 +231,7 @@
 
   function getRedirectLoginUrl() {
     if (typeof window === 'undefined') return LOGIN_URL;
-    return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}`;
+    return `${LOGIN_URL}?redirect=${encodeURIComponent(window.location.href)}&v=20261125-1`;
   }
 
   async function getUserSubscriptionStatus() {
