@@ -424,5 +424,42 @@
     "if_you_were": "Αν ήσουν",
     "idiom_detective": "Ντετέκτιβ ιδιωμάτων",
     "cosy_sightings": "Παρατηρήσεις COSY"
+  },
+  "notFound": {
+    "titleTag": "Η σελίδα δεν βρέθηκε | COSYmagazine",
+    "title": "Αυτή η σελίδα ξέφυγε από το σενάριο.",
+    "lede": "Το άρθρο που ψάχνετε δεν είναι εδώ. Το περιοδικό έχει πολλά άλλα.",
+    "back": "Επιστροφή στο περιοδικό"
+  },
+  "podcastDesk": {
+    "titleTag": "Το Γραφείο Podcast — cosylanguages / такиеязыки",
+    "metaDescription": "Ακούστε και διαβάστε τα επεισόδια του podcast cosylanguages / такиеязыки, τα σενάρια τηλεπροτροπής και τις σκηνικές παρουσιάσεις.",
+    "back": "← Επιστροφή στο blog και στο Gazette Hub",
+    "badge": "🎙️ Επίσημο Γραφείο Podcast",
+    "rss": "📡 Ροή RSS",
+    "title": "Το Γραφείο Podcast — cosylanguages / такиеязыки",
+    "tagline": "Ακούστε, μιλήστε και διαβάστε μαζί με κάθε άρθρο του blog. Κάθε άρθρο γίνεται ένα πλήρες επεισόδιο podcast, με σενάριο τηλεπροτροπής, επισήμανση ανάγνωσης και σκηνική παρουσίαση 16:9.",
+    "networkAria": "Επίσημο δίκτυο podcast",
+    "mainKicker": "ΚΥΡΙΟ BLOG ΚΑΙ PODCAST ΓΛΩΣΣΑΣ",
+    "mainTitle": "cosylanguages",
+    "mainDek": "Το επίσημο podcast για φυσική, προφορική εκμάθηση γλωσσών. Επεισόδια όπως «Σταματήστε να μεταφράζετε», «Οι 5 αγαπημένοι γραμματικοί κανόνες» και «Τα 10 βασικά ρήματα», με σενάρια τηλεπροτροπής και σκηνικές παρουσιάσεις 16:9.",
+    "scienceKicker": "PODCAST ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΛΕΣΧΗΣ ΟΜΙΛΙΑΣ",
+    "scienceTitle": "cosyscience",
+    "scienceDek": "Καθημερινό podcast επιστημονικών ειδήσεων που εξηγεί την έρευνα σε απλά, καθαρά αγγλικά. Συμπληρωματικό υλικό για τη λέσχη ομιλίας Keeping Up with Science.",
+    "episodesTitle": "🎙️ Κατάλογος επεισοδίων",
+    "episodesAria": "Επεισόδια podcast",
+    "languageLabel": "Γλώσσα",
+    "languageAria": "Γλώσσα επεισοδίου",
+    "allLanguages": "Όλες οι γλώσσες",
+    "episode": "ΕΠΕΙΣΟΔΙΟ",
+    "script": "📜 Σενάριο",
+    "stage": "📺 Παρουσίαση",
+    "read": "📖 Διαβάστε το άρθρο",
+    "listenSpotify": "Ακούστε στο Spotify",
+    "loadError": "Δεν ήταν δυνατή η φόρτωση του καταλόγου podcast.",
+    "blogFeed": "📜 Ροή blog",
+    "scienceClub": "🗣️ Λέσχη επιστήμης",
+    "mave": "☁️ Mave",
+    "maveStream": "☁️ Mave Stream"
   }
 }

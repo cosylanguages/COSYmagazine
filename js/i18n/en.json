@@ -418,5 +418,42 @@
     "if_you_were": "If You Were",
     "idiom_detective": "Idiom Detective",
     "cosy_sightings": "COSY Sightings"
+  },
+  "notFound": {
+    "titleTag": "Page not found | COSYmagazine",
+    "title": "This page wandered off script.",
+    "lede": "The article you are looking for is not here. The magazine has plenty more.",
+    "back": "Back to the magazine"
+  },
+  "podcastDesk": {
+    "titleTag": "The Podcast Desk — cosylanguages / такиеязыки",
+    "metaDescription": "Listen and read along with cosylanguages / такиеязыки podcast episodes, teleprompter scripts, and stage video decks.",
+    "back": "← Back to Blog & Gazette Hub",
+    "badge": "🎙️ Official Podcast Desk",
+    "rss": "📡 RSS Feed",
+    "title": "The Podcast Desk — cosylanguages / такиеязыки",
+    "tagline": "Listen, speak, and read along with every blog post. Each article doubles as a complete podcast episode with teleprompter scripts, read-along highlighting, and 16:9 stage presentations.",
+    "networkAria": "Official Podcasts Network",
+    "mainKicker": "MAIN BLOG & LANGUAGE PODCAST",
+    "mainTitle": "cosylanguages",
+    "mainDek": "The official podcast for natural, speaking-first language acquisition. Featuring episodes on \"Stop Translating\", \"Top 5 Favourite Grammar Rules\", and \"Top 10 Essential Verbs\" with full teleprompter scripts and 16:9 stage presentations.",
+    "scienceKicker": "SCIENCE & SPEAKING CLUB PODCAST",
+    "scienceTitle": "cosyscience",
+    "scienceDek": "A daily scientific news podcast deconstructing research in simple, clear English. Supplementary material for our Keeping Up with Science speaking club.",
+    "episodesTitle": "🎙️ Episodes Catalog",
+    "episodesAria": "Podcast Episodes",
+    "languageLabel": "Language",
+    "languageAria": "Episode language",
+    "allLanguages": "All languages",
+    "episode": "EPISODE",
+    "script": "📜 Script",
+    "stage": "📺 Stage Deck",
+    "read": "📖 Read Post",
+    "listenSpotify": "Listen on Spotify",
+    "loadError": "Unable to load podcast catalog.",
+    "blogFeed": "📜 Blog Feed",
+    "scienceClub": "🗣️ Science Club",
+    "mave": "☁️ Mave",
+    "maveStream": "☁️ Mave Stream"
   }
 }

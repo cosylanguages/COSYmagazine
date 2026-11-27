@@ -418,5 +418,42 @@
     "if_you_were": "Et si vous étiez",
     "idiom_detective": "Détective des expressions",
     "cosy_sightings": "Observations COSY"
+  },
+  "notFound": {
+    "titleTag": "Page introuvable | COSYmagazine",
+    "title": "Cette page s'est égarée.",
+    "lede": "L'article que vous cherchez n'est pas ici. Le magazine en a bien d'autres.",
+    "back": "Retour au magazine"
+  },
+  "podcastDesk": {
+    "titleTag": "Le Bureau du podcast — cosylanguages / такиеязыки",
+    "metaDescription": "Écoutez et lisez les épisodes du podcast cosylanguages / такиеязыки, les scripts de prompteur et les diaporamas de scène.",
+    "back": "← Retour au blog et au Gazette Hub",
+    "badge": "🎙️ Le Bureau du podcast",
+    "rss": "📡 Flux RSS",
+    "title": "Le Bureau du podcast — cosylanguages / такиеязыки",
+    "tagline": "Écoutez, parlez et lisez chaque article du blog. Chaque article devient un épisode complet du podcast, avec script de prompteur, surlignage de lecture et présentation de scène en 16:9.",
+    "networkAria": "Réseau officiel de podcasts",
+    "mainKicker": "BLOG PRINCIPAL ET PODCAST DE LANGUE",
+    "mainTitle": "cosylanguages",
+    "mainDek": "Le podcast officiel pour un apprentissage naturel et oral. Des épisodes sur « Arrêtez de traduire », « Top 5 des règles de grammaire préférées » et « Top 10 des verbes essentiels », avec scripts de prompteur et présentations de scène en 16:9.",
+    "scienceKicker": "PODCAST SCIENCE ET CLUB DE CONVERSATION",
+    "scienceTitle": "cosyscience",
+    "scienceDek": "Un podcast quotidien d'actualité scientifique qui décrypte la recherche dans un anglais simple et clair. Complément à notre club de conversation Keeping Up with Science.",
+    "episodesTitle": "🎙️ Catalogue des épisodes",
+    "episodesAria": "Épisodes du podcast",
+    "languageLabel": "Langue",
+    "languageAria": "Langue de l'épisode",
+    "allLanguages": "Toutes les langues",
+    "episode": "ÉPISODE",
+    "script": "📜 Script",
+    "stage": "📺 Diaporama",
+    "read": "📖 Lire l'article",
+    "listenSpotify": "Écouter sur Spotify",
+    "loadError": "Impossible de charger le catalogue du podcast.",
+    "blogFeed": "📜 Flux du blog",
+    "scienceClub": "🗣️ Club science",
+    "mave": "☁️ Mave",
+    "maveStream": "☁️ Mave Stream"
   }
 }

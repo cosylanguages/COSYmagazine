@@ -42,6 +42,8 @@ function generatePodcastRss() {
         // Only episodes whose audio is hosted (absolute URL) or present in this repo go into the feed.
         const audioUrl = rawAudio && (/^https?:/.test(rawAudio) || fs.existsSync(path.join(BLOG_DIR, rel))) ? (/^https?:/.test(rawAudio) ? rawAudio : rel) : null;
 
+        // RSS requires a playable audio enclosure. Posts that only have an external
+        // player page (Spotify/Mave) are listed on podcast.html but cannot be feed items.
         if (!audioUrl) return;
 
         const absoluteAudioUrl = audioUrl.startsWith('http')
@@ -54,17 +56,21 @@ function generatePodcastRss() {
 
         const pubDate = new Date(post.date || Date.now()).toUTCString();
         const epNum = podcast.episode || 1;
-        const durationSec = Math.max(120, (post.blocks || []).length * 45);
+        const durationSec = Number.isFinite(Number(podcast.duration)) && Number(podcast.duration) > 0
+          ? Math.round(Number(podcast.duration))
+          : null;
 
         // Enclosure metadata: the MIME type follows the file extension, and the byte
-        // length is only declared when the audio is a real file in this repo.
+        // length comes from podcast.audioLength or the local file when available.
         const audioExt = path.extname(audioUrl).toLowerCase();
         const audioMime = audioExt === '.mp3' ? 'audio/mpeg'
           : audioExt === '.m4a' ? 'audio/mp4'
           : audioExt === '.ogg' ? 'audio/ogg'
           : 'audio/mpeg';
-        let audioLength = null;
-        if (!/^https?:/.test(rawAudio)) {
+        let audioLength = Number.isFinite(Number(podcast.audioLength)) && Number(podcast.audioLength) > 0
+          ? Math.round(Number(podcast.audioLength))
+          : null;
+        if (audioLength == null && !/^https?:/.test(rawAudio)) {
           try {
             audioLength = fs.statSync(path.join(BLOG_DIR, rel)).size;
           } catch {
@@ -136,7 +142,7 @@ function generatePodcastRss() {
       <enclosure url="${escapeXml(item.audioUrl)}" type="${item.audioMime}"${item.audioLength != null ? ` length="${item.audioLength}"` : ''} />
       <itunes:episode>${item.epNum}</itunes:episode>
       <itunes:author>${escapeXml(item.author)}</itunes:author>
-      <itunes:duration>${item.durationSec}</itunes:duration>
+      ${item.durationSec != null ? `<itunes:duration>${item.durationSec}</itunes:duration>` : ''}
       <itunes:explicit>false</itunes:explicit>
     </item>`).join('\n')}
   </channel>

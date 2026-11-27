@@ -243,12 +243,14 @@
     if (!sb) return { isSubscribed: false, tier: 'free', issues: [] };
 
     try {
-      const { data: sub } = await sb
+      const { data: subs } = await sb
         .from('subscriptions')
         .select('tier, status, valid_until')
         .eq('user_id', user.id)
         .eq('status', 'active')
-        .maybeSingle();
+        .limit(10);
+
+      const sub = (subs || []).find(s => !s.valid_until || new Date(s.valid_until) > new Date()) || null;
 
       const { data: purchases } = await sb
         .from('issue_purchases')
@@ -270,14 +272,19 @@
     }
   }
 
-  async function hasPaidAccess(issueId) {
-    const user = await checkAuth();
-    if (!user) return false;
-    if (user.isFounder) return true;
+  // The flipbook gate is volume-level. The paid PDF edge function remains
+  // per-language and is the real entitlement boundary.
+  function normalizeIssueId(value) {
+    const s = String(value || '').toLowerCase();
+    const m = s.match(/(\d{4})[.\-_](\d{2})/);
+    return m ? `${m[1]}-${m[2]}` : '';
+  }
 
+  async function hasPaidAccess(issueId) {
     const sub = await getUserSubscriptionStatus();
     if (sub.isSubscribed) return true;
-    if (issueId && sub.issues.includes(issueId)) return true;
+    const wanted = normalizeIssueId(issueId);
+    if (wanted && sub.issues.some((id) => normalizeIssueId(id) === wanted)) return true;
     return false;
   }
 

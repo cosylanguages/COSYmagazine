@@ -8,6 +8,7 @@ const require = createRequire(import.meta.url);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const { buildHtml, loadEdition, editionLanguages, runningDesks } = require(path.join(ROOT, 'scripts/ops/build-issue-pdf.js'));
 const { escapeHtml } = require(path.join(ROOT, 'scripts/build/lib/text.js'));
+const pacing = require(path.join(ROOT, 'js/pacing.js'));
 
 const BLUEPRINT = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/blueprint.json'), 'utf8'));
 
@@ -216,8 +217,10 @@ test('the running foot names the desk, in the edition language', () => {
 
 test('long reads get the long-read treatment and everything else does not', async () => {
   const html = await buildHtml('2026.08', 'en');
+  const posts = loadEdition('2026.08', 'en');
+  const expected = posts.filter((post) => pacing.classify(post).longRead).length;
   const longReadSections = html.match(/<section class="page article long-read">/g) || [];
-  assert.equal(longReadSections.length, 1, 'August has exactly one 2,500+ word piece');
+  assert.equal(longReadSections.length, expected, 'every 2,500+ word piece gets the long-read class');
   assert.ok(/\.long-read \.article-body\s*\{[^}]*column-count:\s*2/.test(html),
     'long reads print in two columns');
 });

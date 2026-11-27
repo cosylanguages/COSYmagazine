@@ -6,12 +6,12 @@
  * without chasing module-level state. build-blog.js assembles `ctx`.
  */
 
-const { escapeHtml, getDocumentTitle } = require('./text.js');
+const { escapeHtml, getDocumentTitle, getMetaDescription } = require('./text.js');
 const { issueKey } = require('./issues.js');
 
 function renderPostPage(ctx) {
   const {
-    authorName, backToHubText, coverSvgHtml, deskKey, epBadgeText, fontAccent,
+    alternates = [], authorName, backToHubText, coverSvgHtml, deskKey, epBadgeText, fontAccent,
     fontDisplay, fontText, format, issueNum, issueTitle, kickerKey,
     langSwitcherHtml, minReadText, pageXofYText, palette, playerReady, post,
     postForScript, renderedBlocksHtml, returnToIndexText, scriptModeText,
@@ -19,18 +19,35 @@ function renderPostPage(ctx) {
     writtenByText
   } = ctx;
 
+  const alternatesHtml = alternates.length > 1
+    ? `\n${alternates.map((alt) => `    <link rel="alternate" hreflang="${escapeHtml(alt.language)}" href="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(alt.slug)}.html">`).join('\n')}
+    <link rel="alternate" hreflang="x-default" href="https://cosylanguages.github.io/COSYmagazine/${escapeHtml((alternates.find((alt) => alt.language === 'en') || alternates[0]).slug)}.html">`
+    : '';
+  const metaDescription = getMetaDescription(post.dek);
+
   return `<!DOCTYPE html>
 <html lang="${escapeHtml(post.language)}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(getDocumentTitle(post.title))}</title>
-    <meta name="description" content="${escapeHtml(post.dek)}">
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(post.slug)}.html">
+    <meta name="description" content="${escapeHtml(metaDescription)}">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(post.slug)}.html">${alternatesHtml}
+    <meta property="og:site_name" content="COSYmagazine">
     <meta property="og:title" content="${escapeHtml(getDocumentTitle(post.title))}">
-    <meta property="og:description" content="${escapeHtml(post.dek)}">
+    <meta property="og:description" content="${escapeHtml(metaDescription)}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/${escapeHtml(post.slug)}.html">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYmagazine/images/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1500">
+    <meta property="og:image:height" content="1500">
+    <meta property="og:image:alt" content="COSYmagazine">
+    <meta property="article:published_time" content="${escapeHtml(post.date)}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${escapeHtml(getDocumentTitle(post.title))}">
+    <meta name="twitter:description" content="${escapeHtml(metaDescription)}">
+    <meta name="twitter:image" content="https://cosylanguages.github.io/COSYmagazine/images/logo.png">
     <link rel="icon" href="images/logo.png">
     <meta name="theme-color" content="${escapeHtml(palette[1] || '#faf7f2')}">
     <script src="js/theme-init.js"></script>
@@ -58,7 +75,7 @@ function renderPostPage(ctx) {
       }
     </style>
 </head>
-<body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}">
+<body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-volume="${escapeHtml(issueNum || '')}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}">
 
     <div data-ecosystem-strip data-self="magazine"></div>
     <nav id="cosy-nav"></nav>

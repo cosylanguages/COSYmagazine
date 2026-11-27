@@ -3,6 +3,11 @@ node_modules/
 *.log
 /private-issues/
 
+# Sold PDFs are uploaded to Supabase, never committed to the public Pages repo.
+*.pdf
+/magazines/
+/dev/pdf-proof/
+
 # Python / test tooling caches
 __pycache__/
 *.pyc

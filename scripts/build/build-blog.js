@@ -21,6 +21,7 @@ const {
   renderStaticPodcastBoxHtml
 } = require('./lib/audio.js');
 const { renderPostPage } = require('./lib/post-page.js');
+const { renderLanguageSwitcherHtml, uniqueLanguageVariants, baseSlugFor } = require('./lib/language-switcher.js');
 const {
   DESKS_CATALOG,
   DESK_KEY_MAP,
@@ -46,48 +47,6 @@ const RESERVED_SLUGS = new Set([
   'posts',
   'guides'
 ]);
-
-const LANG_FLAG_MAP = {
-  en: '🇬🇧',
-  fr: '🇫🇷',
-  it: '🇮🇹',
-  ru: '🇷🇺',
-  el: '🇬🇷',
-  es: '🇪🇸',
-  de: '🇩🇪',
-  pt: '🇵🇹',
-  hy: '🇦🇲',
-  ka: '🇬🇪',
-  tt: '🌐',
-  ba: '🌐',
-  br: '🌐'
-};
-
-
-// Interactive quiz card: the correct answer is not revealed until the learner picks (see js/shell.js)
-function renderLanguageSwitcherHtml(currentPost, allPosts, langDict, lang) {
-  const baseSlug = currentPost.translationOf || (currentPost.slug.replace(/-(fr|it|ru|el|tt|ba|br|pt|es|de|hy|ka|cv|en)$/, ''));
-  const variants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
-
-  if (variants.length <= 1) return '';
-
-  const linksHtml = variants.map(v => {
-    const flag = LANG_FLAG_MAP[v.language] || '🌐';
-    const langCode = v.language.toUpperCase();
-    if (v.slug === currentPost.slug) {
-      return `<span class="lang-switcher-active">${flag} ${langCode}</span>`;
-    }
-    return `<a href="${v.slug}.html" class="lang-switcher-link">${flag} ${langCode}</a>`;
-  }).join(' ');
-
-  const readInLabel = (langDict && langDict.blog && langDict.blog.read_in) ? langDict.blog.read_in : 'Read in';
-
-  return `
-<div class="language-switcher-bar">
-  <span class="lang-switcher-label" data-i18n="blog.read_in">${escapeHtml(readInLabel)}</span>
-  ${linksHtml}
-</div>`;
-}
 
 async function buildBlog() {
   console.log('🚀 Starting COSYlanguages Vogue Gazette Build Pipeline...');
@@ -198,7 +157,12 @@ async function buildBlog() {
     const blockState = { isFirstParagraph: true, slug: post.slug, lang };
     // Print-only blocks (medium: "print") never appear on the website
     const renderedBlocksHtml = (post.blocks || []).filter(b => b.medium !== 'print').map(b => renderBlockToHtml(b, blockState)).join('\n');
-    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict, lang);
+    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict);
+    const baseSlug = baseSlugFor(post);
+    const alternates = uniqueLanguageVariants(
+      publishedPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug),
+      post.slug
+    ).map(({ language, slug }) => ({ language, slug }));
 
     // Inlined SVG cover art generated at build time
     let coverSvgHtml = '';
@@ -262,14 +226,13 @@ async function buildBlog() {
     const postForScript = {
       ...post,
       blocks: (post.blocks || []).filter(b => !b.webOnly && b.medium !== 'print'),
-      podcast: playerReady ? post.podcast : undefined,
       podcast: { ...(post.podcast || {}), audioUrl: resolveAudioUrl(post) },
       audio_podcast: false,
       coverSvg: coverSvgHtml
     };
 
     const htmlContent = renderPostPage({
-      authorName, backToHubText, coverSvgHtml, deskKey, epBadgeText, fontAccent,
+      alternates, authorName, backToHubText, coverSvgHtml, deskKey, epBadgeText, fontAccent,
       fontDisplay, fontText, format, issueNum, issueTitle, kickerKey,
       langSwitcherHtml, minReadText, pageXofYText, palette, playerReady, post,
       postForScript, renderedBlocksHtml, returnToIndexText, scriptModeText,

@@ -21,6 +21,7 @@ const { chromium } = require('playwright');
 const { renderBlockToHtml } = require('../build/lib/blocks.js');
 const { escapeHtml } = require('../build/lib/text.js');
 const { issueMetaFor } = require('../build/lib/issues.js');
+const { selectEditionPosts } = require('../build/lib/print-edition.js');
 const pacing = require('../../js/pacing.js');
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -124,10 +125,12 @@ function loadEdition(volume, lang) {
   const dir = path.join(issueDir(volume), 'posts');
   if (!fs.existsSync(dir)) throw new Error(`No posts directory for ${volume}: ${dir}`);
 
-  const posts = fs.readdirSync(dir)
-    .filter((name) => name.endsWith('.json'))
-    .map((name) => JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8')))
-    .filter((post) => !post.draft && post.language === lang);
+  const posts = selectEditionPosts(
+    fs.readdirSync(dir)
+      .filter((name) => name.endsWith('.json'))
+      .map((name) => JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'))),
+    lang
+  );
 
   // An issue can author its own running order with `printOrder` on each post. Departments
   // then sit where the editor put them — an opener immediately before the piece it opens —

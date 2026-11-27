@@ -139,7 +139,7 @@
 
             <button type="button" id="studio-save-live-btn" class="btn btn-primary" aria-disabled="true">
                 <svg class="icon" aria-hidden="true"><use href="#i-upload-cloud"/></svg>
-                <span class="btn-label">Publish</span>
+                <span class="btn-label">Save to DB</span>
             </button>
 
             <button type="button" id="studio-theme-btn" class="btn btn-icon btn-ghost" aria-label="Switch to dark theme" title="Switch theme">
@@ -675,6 +675,14 @@
                         <input type="text" id="studio-pdf-volume-input" class="form-control" placeholder="Vol. 2026.08" required autocomplete="off">
                     </div>
                     <div class="field">
+                        <label for="studio-pdf-language-input">Edition language</label>
+                        <select id="studio-pdf-language-input" class="form-control">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="ru">Русский</option>
+                        </select>
+                    </div>
+                    <div class="field">
                         <label for="studio-pdf-title-input">Issue title <span class="optional">(optional)</span></label>
                         <input type="text" id="studio-pdf-title-input" class="form-control" placeholder="Get Ready for School" autocomplete="off">
                     </div>
@@ -699,7 +707,7 @@
         <div class="modal-backdrop" data-close></div>
         <div class="modal-card modal-card-wide" role="dialog" aria-modal="true" aria-labelledby="studio-publish-modal-heading">
             <header class="modal-head">
-                <h2 id="studio-publish-modal-heading">Review before publishing</h2>
+                <h2 id="studio-publish-modal-heading">Save to the content database</h2>
                 <button type="button" id="studio-publish-modal-close" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
                     <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
                 </button>
@@ -710,14 +718,14 @@
                 <ul id="studio-readiness-list" class="readiness-list"></ul>
                 <div class="notice">
                     <svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-                    <p>Publishing saves this article to the COSY content database (Supabase). It does <strong>not</strong> change the static site files in this repository. To ship it with the next site build, also download the JSON and commit it to <code>posts/</code>.</p>
+                    <p>Saving stores this article in the COSY content database (Supabase). It does <strong>not</strong> change the static site files in this repository. To ship it with the next site build, also download the JSON and commit it to <code>content/</code>.</p>
                 </div>
                 <div id="studio-publish-msg" class="form-msg" role="status" aria-live="polite"></div>
             </div>
             <footer class="modal-foot">
                 <button type="button" class="btn" data-close>Cancel</button>
                 <button type="button" id="studio-publish-confirm-btn" class="btn btn-primary">
-                    <svg class="icon" aria-hidden="true"><use href="#i-upload-cloud"/></svg>Publish now
+                    <svg class="icon" aria-hidden="true"><use href="#i-upload-cloud"/></svg>Save to database
                 </button>
             </footer>
         </div>

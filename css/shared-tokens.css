@@ -303,6 +303,44 @@
     --btn-tertiary-color:                var(--sage-dark);
     --btn-tertiary-hover-color:          var(--sage-deep);
     --btn-tertiary-weight:               var(--cosy-font-weight-bold);
+
+    /* Compatibility aliases for older page styles that still use the pre-token names. */
+    --surface:                           var(--cosy-color-surface);
+    --surface-2:                         var(--cosy-color-cream-dark);
+    --card-bg:                           var(--cosy-color-surface);
+    --paper-bg:                          var(--cosy-color-cream);
+    --paper-txt:                         var(--cosy-color-ink);
+    --paper-base:                        var(--cosy-color-cream);
+    --paper-border:                      var(--cosy-color-border);
+    --paper-ink:                         var(--cosy-color-ink);
+    --contrast-bg:                       var(--cosy-color-sage-deep);
+    --contrast-txt:                      var(--cosy-color-sage-mist);
+    --border-color:                      var(--cosy-color-border);
+    --text-main:                         var(--cosy-color-ink);
+    --ink-light:                         var(--cosy-color-ink-faint);
+    --ink-secondary:                     var(--cosy-color-ink-soft);
+    --font-display:                      var(--font-serif);
+    --font-heading:                      var(--font-serif);
+    --font-body:                         var(--font-sans);
+    --post-font-text:                    var(--font-sans);
+    --blog-font-body:                    var(--font-sans);
+    --blog-font-display:                 var(--font-serif);
+    --post-font-body:                    var(--font-sans);
+    --post-font-display:                 var(--font-serif);
+    --blog-border:                       var(--cosy-color-border);
+    --cosy-color-primary:                var(--cosy-color-sage);
+    --cosy-color-surface-2:              var(--cosy-color-cream-dark);
+    --terracotta:                        var(--cosy-color-coral);
+    --brand-teal:                        var(--teal);
+    --indigo:                            var(--cosy-color-navy);
+    --safe-bottom:                       env(safe-area-inset-bottom, 0px);
+    --st-border:                         var(--cosy-color-border);
+    --st-ink-muted:                      var(--cosy-color-ink-muted);
+    --st-muted:                          var(--cosy-color-muted);
+    --pg-w:                              210mm;
+    --pg-h:                              297mm;
+    --gazette-ink-primary:               var(--cosy-color-ink);
+    --gazette-border-subtle:             var(--cosy-color-border);
 }
 
 /* ── 13. Shared Ecosystem Strip Component Styles ─────────────────────────── */

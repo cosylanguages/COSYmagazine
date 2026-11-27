@@ -70,6 +70,10 @@
       var v = dict[el.getAttribute('data-i18n-aria-label')];
       if (v) el.setAttribute('aria-label', v);
     });
+    document.querySelectorAll('[data-i18n-content]').forEach(function (el) {
+      var v = dict[el.getAttribute('data-i18n-content')];
+      if (v) el.setAttribute('content', v);
+    });
     document.querySelectorAll('[data-i18n-count]').forEach(function (el) {
       var n = Number(el.getAttribute('data-count'));
       if (!isFinite(n)) return;
@@ -191,4 +195,12 @@ document.addEventListener('click', function (e) {
     card.querySelectorAll('.quiz-option-btn').forEach(function (b) { b.disabled = true; });
     var ex = card.querySelector('.quiz-explanation'); if (ex) ex.hidden = false;
   } else { btn.disabled = true; }
+});
+
+/* ── Print buttons: delegated so article HTML stays free of inline handlers ── */
+document.addEventListener('click', function (e) {
+  var printBtn = e.target.closest && e.target.closest('[data-action="print"]');
+  if (!printBtn) return;
+  e.preventDefault();
+  window.print();
 });

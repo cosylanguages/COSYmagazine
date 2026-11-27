@@ -47,17 +47,27 @@ function parseFormattedText(text) {
 }
 
 // <title> is capped so long headlines are not truncated mid-word by search engines.
-function getDocumentTitle(title) {
+function getDocumentTitle(title, maxLength = 70) {
   const fullTitle = `${title} — COSYmagazine`;
   const characters = Array.from(fullTitle);
-  let documentTitle = characters.length <= 70
-    ? fullTitle
-    : `${characters.slice(0, 69).join('').trimEnd()}…`;
+  if (characters.length <= maxLength) return fullTitle;
 
-  while (documentTitle.length > 70) {
-    documentTitle = `${Array.from(documentTitle).slice(0, -2).join('').trimEnd()}…`;
-  }
-  return documentTitle;
+  const limit = maxLength - 1; // reserve the ellipsis
+  const slice = characters.slice(0, limit).join('');
+  const lastSpace = slice.lastIndexOf(' ');
+  const stem = (lastSpace > Math.floor(limit * 0.4) ? slice.slice(0, lastSpace) : slice).trimEnd();
+  return `${stem}…`;
 }
 
-module.exports = { escapeHtml, parseFormattedText, getDocumentTitle };
+function getMetaDescription(text, maxLength = 160) {
+  const characters = Array.from(String(text || '').trim());
+  if (characters.length <= maxLength) return characters.join('');
+
+  const limit = maxLength - 1; // reserve the ellipsis
+  const slice = characters.slice(0, limit).join('');
+  const lastSpace = slice.lastIndexOf(' ');
+  const stem = (lastSpace > Math.floor(limit * 0.5) ? slice.slice(0, lastSpace) : slice).trimEnd();
+  return `${stem}…`;
+}
+
+module.exports = { escapeHtml, parseFormattedText, getDocumentTitle, getMetaDescription };

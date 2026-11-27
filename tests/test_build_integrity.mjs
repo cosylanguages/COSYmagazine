@@ -47,6 +47,20 @@ test('posts.json artDirection matches the canonical source in posts/*.json', () 
   }
 });
 
+test('posts.json language and translationOf mirror the canonical source', () => {
+  const catalog = readJson(path.join(ROOT, 'posts.json'));
+  for (const entry of catalog) {
+    const source = sourcePosts.get(entry.slug);
+    if (!source) continue;
+    assert.equal(entry.language, source.language, `posts.json language drifted for ${entry.slug}`);
+    assert.equal(
+      entry.translationOf || null,
+      source.translationOf || null,
+      `posts.json translationOf drifted for ${entry.slug}`
+    );
+  }
+});
+
 test('index.json metadata stays in sync with the posts/*.json sources', () => {
   const index = readJson(path.join(ROOT, 'index.json'));
   for (const entry of index.posts) {

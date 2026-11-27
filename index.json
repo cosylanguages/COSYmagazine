@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-11-24T15:48:33.831Z",
+  "generatedAt": "2026-11-27T09:39:56.214Z",
   "stats": {
     "totalPosts": 125,
     "totalDesks": 13,
@@ -2293,6 +2293,8 @@
       "readingTime": 12,
       "podcast": {
         "episode": 10,
+        "duration": 1264,
+        "audioLength": 20443870,
         "audioUrl": "https://anchor.fm/s/f931c12c/podcast/play/127116641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433699518-44100-2-8081bb8b574d1.m4a",
         "externalUrl": "https://podcasters.spotify.com/pod/show/james-york6/episodes/5-Fun-Grammar-Rules-for-Intermediate-Learners-e3q5pt1"
       },
@@ -5543,6 +5545,8 @@
       "readingTime": 12,
       "podcast": {
         "episode": 2,
+        "duration": 750,
+        "audioLength": 12005458,
         "audioUrl": "https://anchor.fm/s/f931c12c/podcast/play/89733577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383908675-44100-2-eafbc55432c38.mp3",
         "externalUrl": "https://podcasters.spotify.com/pod/show/james-york6/episodes/2-TOP-10-verbs-e2mgv09"
       },

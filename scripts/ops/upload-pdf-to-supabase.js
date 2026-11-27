@@ -19,6 +19,7 @@ function parseArgs(args = process.argv.slice(2)) {
     file: null,
     volume: null,
     title: null,
+    language: null,
     storagePath: null,
     publish: true
   };
@@ -31,6 +32,8 @@ function parseArgs(args = process.argv.slice(2)) {
       options.volume = args[++i];
     } else if (arg === '--title' && args[i + 1]) {
       options.title = args[++i];
+    } else if ((arg === '--language' || arg === '--lang') && args[i + 1]) {
+      options.language = String(args[++i]).toLowerCase();
     } else if (arg === '--storage-path' && args[i + 1]) {
       options.storagePath = args[++i];
     } else if (arg === '--draft') {
@@ -42,6 +45,7 @@ Usage: node scripts/ops/upload-pdf-to-supabase.js --file <path-to-pdf> [options]
 Options:
   --file <path>          Path to the PDF file to upload (required)
   --volume <string>      Volume number (e.g. "Vol. 2026.08")
+  --language <code>      Edition language (en, fr, ru); inferred from the filename if omitted
   --title <string>       Title of the issue
   --storage-path <path>  Target storage path (defaults to issues/<filename>.pdf)
   --draft                Do not mark issue as published
@@ -50,7 +54,22 @@ Options:
     }
   }
 
+  if (options.language === 'all') {
+    throw new Error('Choose one edition language (--language en, fr, or ru), not "all".');
+  }
+  if (options.language && !/^[a-z]{2,3}$/.test(options.language)) {
+    throw new Error(`Invalid language code: ${options.language}. Use en, fr, or ru.`);
+  }
+
   return options;
+}
+
+const KNOWN_LANGUAGES = new Set(['en', 'fr', 'ru', 'es', 'de', 'pt', 'it', 'el', 'hy', 'ka', 'tt', 'ba', 'br', 'cv']);
+
+function deriveLanguageFromFilename(filepath) {
+  const basename = path.basename(filepath, path.extname(filepath)).toLowerCase();
+  const match = basename.match(/[-_.]([a-z]{2,3})$/);
+  return match && KNOWN_LANGUAGES.has(match[1]) ? match[1] : null;
 }
 
 function deriveVolumeFromFilename(filepath) {
@@ -214,6 +233,7 @@ async function uploadMagazinePdf(options = {}) {
   };
 
   const volumeNumber = options.volume || deriveVolumeFromFilename(options.file);
+  const language = options.language || deriveLanguageFromFilename(options.file) || 'en';
   let objectPath = options.storagePath;
   if (!objectPath) {
     const filename = path.basename(options.file);
@@ -230,14 +250,14 @@ async function uploadMagazinePdf(options = {}) {
     objectPath,
     title: options.title,
     publish: options.publish !== false,
-    language: options.language
+    language
   });
 
   return {
     bucket: config.bucket,
     storagePath: objectPath,
     volumeNumber,
-    language: options.language || 'en'
+    language
   };
 }
 
@@ -251,6 +271,7 @@ if (require.main === module) {
 
 module.exports = {
   parseArgs,
+  deriveLanguageFromFilename,
   deriveVolumeFromFilename,
   validatePdfFile,
   getSupabaseConfig,

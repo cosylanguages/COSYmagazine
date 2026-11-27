@@ -111,7 +111,7 @@
    * What the signed-in user can do. This only drives the interface: the real
    * gate for publishing is the database (row-level security), not this object.
    * Everyone can draft, import and export; founders (founder/admin/owner)
-   * can also publish live and upload issue PDFs.
+   * can also save to the content database and upload issue PDFs.
    */
   const STATUSES = ['idea', 'assigned', 'drafting', 'in-review', 'fact-checked', 'approved', 'published'];
   const STATUS_LABELS = {
@@ -1072,8 +1072,8 @@
           closeModal('studio-auth-modal');
           setStatus(
             user && user.isFounder
-              ? 'Signed in as founder. Publishing is unlocked.'
-              : 'Signed in. You can draft, import and export; publishing needs a founder account.',
+              ? 'Signed in as founder. Saving to the database is unlocked.'
+              : 'Signed in. You can draft, import and export; saving to the database needs a founder account.',
             'success'
           );
         } catch (err) {
@@ -1109,8 +1109,8 @@
       }
       if (capsEl) {
         capsEl.textContent = caps.isFounder
-          ? 'You can edit, export, publish live and upload issue PDFs.'
-          : 'You can edit, import and export articles. Publishing and PDF upload need a founder account.';
+          ? 'You can edit, export, save to the content database and upload issue PDFs.'
+          : 'You can edit, import and export articles. Saving to the database and PDF upload need a founder account.';
       }
     }
 
@@ -1120,8 +1120,8 @@
       btn.title = allowed ? allowedTitle : lockedTitle;
     };
     lock(saveLiveBtn, caps.publishLive,
-      'Review and publish this article',
-      caps.signedIn ? 'Publishing needs a founder account' : 'Sign in with a founder account to publish');
+      'Save this article to the content database',
+      caps.signedIn ? 'Saving needs a founder account' : 'Sign in with a founder account to save');
     lock(uploadPdfBtn, caps.uploadPdf,
       'Upload the issue PDF to private storage',
       caps.signedIn ? 'Uploading PDFs needs a founder account' : 'Sign in with a founder account to upload PDFs');
@@ -1256,7 +1256,7 @@
       copyBtn.addEventListener('click', copyCanonicalJson);
     }
 
-    // Publish: open the review dialog (founders only)
+    // Save to DB: open the review dialog (founders only)
     const saveLiveBtn = document.getElementById('studio-save-live-btn');
     if (saveLiveBtn) {
       saveLiveBtn.addEventListener('click', requestPublish);
@@ -1364,7 +1364,7 @@
 
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
-      // Ctrl+S / Cmd+S: founders review & publish, everyone else downloads the JSON
+      // Ctrl+S / Cmd+S: founders review & save, everyone else downloads the JSON
       if ((e.ctrlKey || e.metaKey) && e.key === 's') {
         e.preventDefault();
         if (getCapabilities(currentUser).publishLive) {
@@ -2906,6 +2906,7 @@
     const form = document.getElementById('studio-pdf-upload-form');
     const fileInput = document.getElementById('studio-pdf-file-input');
     const volumeInput = document.getElementById('studio-pdf-volume-input');
+    const languageInput = document.getElementById('studio-pdf-language-input');
     const titleInput = document.getElementById('studio-pdf-title-input');
     const publishCheck = document.getElementById('studio-pdf-publish-check');
     const statusMsg = document.getElementById('studio-pdf-status-msg');
@@ -2924,6 +2925,9 @@
         if (currentPost && currentPost.issue) {
           if (volumeInput && currentPost.issue.number) volumeInput.value = currentPost.issue.number;
           if (titleInput && currentPost.issue.title) titleInput.value = currentPost.issue.title;
+        }
+        if (languageInput && currentPost && ['en', 'fr', 'ru'].includes(currentPost.language)) {
+          languageInput.value = currentPost.language;
         }
         openModal('studio-pdf-modal');
       });
@@ -2946,6 +2950,7 @@
         e.preventDefault();
         const file = fileInput && fileInput.files && fileInput.files[0];
         const volume = volumeInput ? volumeInput.value.trim() : '';
+        const language = languageInput ? languageInput.value : 'en';
         const title = titleInput ? titleInput.value.trim() : '';
         const isPublished = publishCheck ? publishCheck.checked : true;
 
@@ -2965,6 +2970,10 @@
           setFormMsg(statusMsg, 'Volume number is required (for example Vol. 2026.08).', 'error');
           return;
         }
+        if (!['en', 'fr', 'ru'].includes(language)) {
+          setFormMsg(statusMsg, 'Choose an edition language (en, fr, or ru).', 'error');
+          return;
+        }
 
         const client = Auth ? Auth.getClient() : null;
         if (!client) {
@@ -2980,8 +2989,11 @@
         setFormMsg(statusMsg, 'Uploading the PDF to private storage…', 'info');
 
         try {
-          const cleanVolume = volume.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const storagePath = `issues/cosymagazine-${cleanVolume.toLowerCase()}.pdf`;
+          const volumeMatch = volume.match(/(\d{4})[.\-](\d{2})/);
+          const volumeSlug = volumeMatch
+            ? `${volumeMatch[1]}.${volumeMatch[2]}`
+            : volume.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+          const storagePath = `issues/cosymagazine-${volumeSlug}-${language}.pdf`;
 
           const { error: uploadErr } = await client.storage
             .from('magazine-editions')
@@ -2994,16 +3006,34 @@
 
           setFormMsg(statusMsg, 'PDF uploaded. Registering the issue…', 'info');
 
-          const canonicalId = volume.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-          const { error: dbErr } = await client
+          const canonicalId = `vol-${volumeMatch ? `${volumeMatch[1]}-${volumeMatch[2]}` : volumeSlug}-${language}`;
+          const { data: existing, error: lookupErr } = await client
             .from('magazine_issues')
-            .upsert({
-              id: canonicalId,
-              volume_number: volume,
-              title: title || volume,
-              pdf_storage_path: storagePath,
-              is_published: isPublished
-            }, { onConflict: 'id' });
+            .select('id,title')
+            .eq('volume_number', volume)
+            .eq('language', language)
+            .maybeSingle();
+          if (lookupErr) throw new Error(`Issue lookup failed: ${lookupErr.message}`);
+
+          const { error: dbErr } = existing
+            ? await client
+              .from('magazine_issues')
+              .update({
+                title: title || existing.title || volume,
+                pdf_storage_path: storagePath,
+                is_published: isPublished
+              })
+              .eq('id', existing.id)
+            : await client
+              .from('magazine_issues')
+              .insert({
+                id: canonicalId,
+                volume_number: volume,
+                language,
+                title: title || volume,
+                pdf_storage_path: storagePath,
+                is_published: isPublished
+              });
 
           if (dbErr) {
             // The file is stored but the issue is not registered, so readers will not see it yet.
@@ -3014,9 +3044,9 @@
             setStatus('PDF stored, but the issue was not registered.', 'error');
           } else {
             setFormMsg(statusMsg,
-              `Uploaded "${file.name}" and ${isPublished ? 'published' : 'saved as a draft'} ${volume}.`,
+              `Uploaded "${file.name}" for ${volume} (${language.toUpperCase()}) and ${isPublished ? 'published it' : 'saved it as a draft'}.`,
               'success');
-            setStatus(`Uploaded the ${volume} PDF.`, 'success');
+            setStatus(`Uploaded the ${volume} ${language.toUpperCase()} PDF.`, 'success');
           }
         } catch (err) {
           console.error('[Studio] PDF upload error:', err);
@@ -3032,16 +3062,16 @@
   }
 
   /**
-   * Review & publish
+   * Review & save
    */
   function requestPublish() {
     const caps = getCapabilities(currentUser);
     if (!caps.publishLive) {
       if (!currentUser) {
-        setStatus('Sign in with a founder account to publish.', 'info');
+        setStatus('Sign in with a founder account to save to the database.', 'info');
         openModal('studio-auth-modal');
       } else {
-        setStatus('Publishing needs a founder account. You can still export the JSON.', 'error');
+        setStatus('Saving to the database needs a founder account. You can still export the JSON.', 'error');
       }
       return;
     }
@@ -3099,7 +3129,7 @@
     confirmBtn.addEventListener('click', async () => {
       confirmBtn.disabled = true;
       const idle = confirmBtn.innerHTML;
-      confirmBtn.textContent = 'Publishing…';
+      confirmBtn.textContent = 'Saving…';
       const msg = $('studio-publish-msg');
       setFormMsg(msg, 'Saving to the content database…', 'info');
       const ok = await saveToSupabase();
@@ -3108,7 +3138,7 @@
       if (ok) {
         closeModal('studio-publish-modal');
       } else {
-        setFormMsg(msg, 'Publishing failed. Your work is still here; check your connection and try again, or download the JSON as a backup.', 'error');
+        setFormMsg(msg, 'Saving failed. Your work is still here; check your connection and try again, or download the JSON as a backup.', 'error');
       }
     });
   }
@@ -3116,7 +3146,7 @@
   async function saveToSupabase() {
     if (!currentPost) return false;
     if (!getCapabilities(currentUser).publishLive) {
-      setStatus('Publishing needs a founder account.', 'error');
+      setStatus('Saving to the database needs a founder account.', 'error');
       return false;
     }
     const client = Auth ? Auth.getClient() : null;
@@ -3126,9 +3156,9 @@
       return false;
     }
 
-    setStatus('Publishing…', 'info');
+    setStatus('Saving to the database…', 'info');
 
-    // Publishing makes the article live: stamp status/draft, undo if it fails.
+    // Saving marks the article published: stamp status/draft, undo if it fails.
     const before = { status: currentPost.status, draft: currentPost.draft };
     currentPost.status = 'published';
     currentPost.draft = false;
@@ -3166,12 +3196,12 @@
 
       markClean();
       renderEditorialPanel();
-      setStatus(`Published "${currentPost.slug}".`, 'success');
+      setStatus(`Saved "${currentPost.slug}" to the content database.`, 'success');
       return true;
     } catch (err) {
       revert();
       console.error('[Studio] Supabase save error:', err);
-      setStatus(`Could not publish: ${err.message}`, 'error');
+      setStatus(`Could not save: ${err.message}`, 'error');
       return false;
     }
   }

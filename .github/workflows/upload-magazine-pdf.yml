@@ -20,9 +20,9 @@ on:
         required: false
         default: 'all'
       pdf_path:
-        description: 'Path to existing PDF file or URL (if upload_existing_file)'
+        description: 'URL or existing file path (required for upload_existing_file)'
         required: false
-        default: 'magazines/august-2026.pdf'
+        default: ''
       issue_title:
         description: 'Title of the Magazine Issue (optional)'
         required: false
@@ -92,11 +92,21 @@ jobs:
           SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
           PDF_INPUT: ${{ inputs.pdf_path }}
           VOLUME_INPUT: ${{ inputs.volume_number }}
+          LANGUAGE_INPUT: ${{ inputs.language }}
           TITLE_INPUT: ${{ inputs.issue_title }}
           PUBLISH_INPUT: ${{ inputs.publish }}
         run: |
           if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
             echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          if [ -z "$PDF_INPUT" ]; then
+            echo "::error::Provide a PDF URL or an existing file path in pdf_path."
+            exit 1
+          fi
+          if [ -z "$LANGUAGE_INPUT" ] || [ "$LANGUAGE_INPUT" = "all" ]; then
+            echo "::error::upload_existing_file needs one edition language (en, fr, or ru)."
             exit 1
           fi
 
@@ -115,7 +125,7 @@ jobs:
             exit 1
           fi
 
-          CMD_ARGS=(--file "$FILE_PATH")
+          CMD_ARGS=(--file "$FILE_PATH" --language "$LANGUAGE_INPUT")
           if [ -n "$VOLUME_INPUT" ]; then
             CMD_ARGS+=(--volume "$VOLUME_INPUT")
           fi
@@ -128,31 +138,3 @@ jobs:
 
           node scripts/ops/upload-pdf-to-supabase.js "${CMD_ARGS[@]}"
 
-      - name: Upload PDFs added/changed on git push
-        if: github.event_name == 'push'
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
-        run: |
-          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
-            echo "::warning::SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not configured; skipping automatic push upload."
-            exit 0
-          fi
-
-          CHANGED_PDFS=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep -E '^(magazines|private-issues)/.*\.pdf$' || true)
-
-          if [ -z "$CHANGED_PDFS" ]; then
-            echo "No PDF files were added or modified in this push."
-            exit 0
-          fi
-
-          echo "Found modified/added PDF files:"
-          echo "$CHANGED_PDFS"
-
-          while IFS= read -r pdf; do
-            if [ -f "$pdf" ]; then
-              echo "Uploading $pdf to Supabase..."
-              node scripts/ops/upload-pdf-to-supabase.js --file "$pdf"
-            fi
-          done <<< "$CHANGED_PDFS"

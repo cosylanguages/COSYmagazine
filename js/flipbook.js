@@ -13,9 +13,14 @@
     'use strict';
 
     const SVG_NS_FREE = /<(div|table|ul|ol|figure|aside|section|img|audio|button|svg|iframe|blockquote|h[1-6])\b/i;
+    const PAYWALL_ISSUES = new Set(['aug', 'sep', 'oct', 'nov', 'dec', 'feb']);
 
     const COSYFlipbook = {
         currentPage: 1,
+        navRequest: 0,
+        paidAccess: null,
+        paywallEnabled: false,
+        issueId: '',
         totalPages: 1,
         pages: [],
         sourceNodes: null,
@@ -58,6 +63,10 @@
 
             this.container = document.querySelector('.post-full-content');
             if (!this.container) return;
+
+            this.issueId = String((document.body && document.body.dataset && document.body.dataset.issueVolume) || '').trim();
+            const issueKey = String((document.body && document.body.dataset && document.body.dataset.issue) || '').trim();
+            this.paywallEnabled = PAYWALL_ISSUES.has(issueKey);
 
             this.initLiveAnnouncer();
             this.captureSource();
@@ -939,30 +948,26 @@
             });
         },
 
-        checkPaywallGate: function (targetPageIndex) {
+        checkPaywallGate: async function (targetPageIndex) {
+            if (!this.paywallEnabled) return false;
+
             // Teaser threshold: first 3 pages are open to all readers.
-            // Page 4+ requires an active subscription or purchased issue.
+            // Page 4+ requires an active subscription or a purchased issue.
             const PREVIEW_LIMIT = 3;
             if (targetPageIndex <= PREVIEW_LIMIT) return false;
 
-            // Check if user has entitlement via CosyCMSAuth or sessionStorage override
-            if (window.CosyCMSAuth && typeof window.CosyCMSAuth.hasPaidAccess === 'function') {
-                const isPaid = (function () {
-                    try {
-                        const cached = sessionStorage.getItem('cosy_has_paid_access');
-                        if (cached === 'true') return true;
-                        const role = localStorage.getItem('cosy_user_role');
-                        if (role && (role === 'founder' || role === 'admin' || role === 'subscriber')) return true;
-                    } catch (e) {}
-                    return false;
-                })();
-                if (isPaid) return false;
-            } else {
+            // Do not trust localStorage or sessionStorage for entitlement. Ask the
+            // auth module, which reads the Supabase session and purchase rows.
+            if (this.paidAccess !== true) {
                 try {
-                    const role = localStorage.getItem('cosy_user_role');
-                    if (role && (role === 'founder' || role === 'admin' || role === 'subscriber')) return false;
-                } catch (e) {}
+                    this.paidAccess = !!(window.CosyCMSAuth &&
+                        typeof window.CosyCMSAuth.hasPaidAccess === 'function' &&
+                        await window.CosyCMSAuth.hasPaidAccess(this.issueId));
+                } catch (e) {
+                    this.paidAccess = false;
+                }
             }
+            if (this.paidAccess) return false;
 
             this.showPaywallModal(targetPageIndex);
             return true;
@@ -979,12 +984,12 @@
                 modal.innerHTML = `
                     <div class="editorial-paywall-card">
                         <span class="paywall-kicker">COSYMAGAZINE • DIGITAL EDITION</span>
-                        <h3 class="paywall-heading">Unlock the Full August Issue & PDF Archive</h3>
+                        <h3 class="paywall-heading">Unlock the Full Issue & PDF Archive</h3>
                         <p class="paywall-lede">
                             You've reached the end of the free editorial preview. The complete digital issue, full interview transcripts, speaking club guides, and printable high-resolution PDF are available exclusively to COSY subscribers.
                         </p>
                         <div class="paywall-perks">
-                            <div class="paywall-perk-item">✨ Full access to all 20 pages & interactive spreads</div>
+                            <div class="paywall-perk-item">✨ Full access to every page & interactive spread</div>
                             <div class="paywall-perk-item">📥 High-resolution downloadable PDF version (Supabase Cloud)</div>
                             <div class="paywall-perk-item">🎙️ All Founder audio dispatches & speaking club materials</div>
                         </div>
@@ -1007,15 +1012,17 @@
             modal.style.display = 'flex';
         },
 
-        showPage: function (pageIndex, updateHistory, animate) {
+        showPage: async function (pageIndex, updateHistory, animate) {
             if (updateHistory === undefined) updateHistory = true;
             if (animate === undefined) animate = true;
             if (pageIndex < 1) pageIndex = 1;
             if (pageIndex > this.totalPages) pageIndex = this.totalPages;
 
-            if (this.checkPaywallGate(pageIndex)) {
+            const request = ++this.navRequest;
+            if (await this.checkPaywallGate(pageIndex)) {
                 return;
             }
+            if (request !== this.navRequest) return;
 
             const spread = this.kind === 'spread';
             if (this.mode === 'flipbook' && spread) pageIndex = this.leftOfSpread(pageIndex);

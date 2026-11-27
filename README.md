@@ -22,8 +22,8 @@ Set `"draft": true` to keep a post out of the site.
 
 ## Publishing PDF Magazines to Supabase (Zero Console)
 Publishing magazine PDFs directly to private Supabase storage without using a console can be done via:
-- **GitHub Actions (One-Click UI)**: Go to **Actions** → **Upload Magazine PDF to Supabase** → click **Run workflow**. Supports file path or URL.
-- **Git Push**: Simply drop a PDF in `magazines/` or `private-issues/` and commit/push; the GitHub Action automatically uploads it.
+- **GitHub Actions (One-Click UI)**: Go to **Actions** → **Upload Magazine PDF to Supabase** → click **Run workflow**. Supports a local path or a URL.
+- **Git Push**: Do not commit sold PDFs to this public repository. Use the workflow's `upload_existing_file` mode with a URL, or the in-browser Studio.
 - **In-Browser Studio**: In `editor.html`, log in as Founder and click **📤 Upload Magazine PDF** to upload directly from your device.
 
 See [docs/publishing/MAGAZINE_PDF_UPLOAD.md](docs/publishing/MAGAZINE_PDF_UPLOAD.md) for full instructions and secret configuration.
