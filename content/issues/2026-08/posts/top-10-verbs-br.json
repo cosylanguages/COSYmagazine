@@ -1,0 +1,821 @@
+{
+  "id": "post-top-10-verbs-br",
+  "slug": "top-10-verbs-br",
+  "language": "br",
+  "translationOf": "top-10-verbs",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-03-01",
+  "title": "Ar 10 verb pennañ e brezhoneg evit ar re dhazerañ (A0–A1 / A2)",
+  "kicker": "KAVLEVR BREZHONEG — RANN 1 EUS 2",
+  "dek": "Deskit ar 10 verb pennañ e brezhoneg (bezañ, kaout, soñjal, gouzout/anavezout, plijout, c'hoant kaout, labourat/studiñ/deskiñ, mont, gallout, debriñ/evañ). Taolennoù conjugazhon war COSYtools.",
+  "tags": [
+    "Verbs",
+    "Breton",
+    "A0-A1",
+    "14Languages"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e3a8a",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "top-10-verbs-br",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Degemer mat e Rann 1 eus ar c'havlevr verboù evit al live A0–A1 hag A2 e brezhoneg! (Lennit ivez ar [Rann 2](top-10-verbs-part-2-br.html)). An taolennoù conjugazhon klok a c'haller kavout war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ar 10 verb pennañ (Rann 1)"
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Bezañ",
+          "Ar verb bezañ a verk an identelezh, ar vicher, al lec'h hag ar stad.",
+          "Er gêr emañ.",
+          "'Skoaziad on', 'Er gêr emaon'."
+        ],
+        [
+          "2",
+          "Kaout",
+          "Ar verb kaout a verk ar perc'henniezh hag an oad.",
+          "Ur c'hoar en deus.",
+          "'Ul levr am eus'."
+        ],
+        [
+          "3",
+          "Soñjal",
+          "Ar verb soñjal a verk ar soñjoù hag an ali.",
+          "Soñjal a ra en dazont.",
+          "'Soñjal a ran eo mat'."
+        ],
+        [
+          "4",
+          "Gouzout / Anavezout",
+          "Gouzout evit ar fedoù hag an diskoulmoù, anavezout evit an dud hag al lec'hioù.",
+          "anavez",
+          "'Gouzout a ran ar respont'."
+        ],
+        [
+          "5",
+          "Plijout",
+          "Ar verb plijout a verk ar santimantoù hag ar c'hoantoù.",
+          "Plijout a ra dezhañ beajiñ.",
+          "'Plijout a ra din ar brezhoneg'."
+        ],
+        [
+          "6",
+          "C'hoant kaout",
+          "C'hoant kaout a verk ar c'hoant hag ar bolontez.",
+          "C'hoant en deus da zeskiñ.",
+          "'C'hoant am eus da zeskiñ'."
+        ],
+        [
+          "7",
+          "Labourat / Studiñ / Deskiñ",
+          "Ar verboù labourat, studiñ ha deskiñ a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez.",
+          "desk",
+          "'Deskiñ a ran buan'."
+        ],
+        [
+          "8",
+          "Mont",
+          "Ar verb mont a verk an dilec'hiañ.",
+          "Mont a ra d'ar gêr.",
+          "'Mont a ran d'ar gêr'."
+        ],
+        [
+          "9",
+          "Gallout",
+          "Ar verb gallout a verk an aotre hag ar varregezh.",
+          "Gallout a ra komz.",
+          "'Gallout a ran komz brezhoneg'."
+        ],
+        [
+          "10",
+          "Debriñ / Evañ",
+          "Ar verboù debriñ hag evañ evit ar predoù, an diedoù hag an dud asambles.",
+          "ev",
+          "'Kalz a galon!', 'evañ ur banne'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Bezañ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **bezañ** a verk an identelezh, ar vicher, al lec'h hag ar stad."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "on",
+          "Skoaziad on."
+        ],
+        [
+          "Te",
+          "out",
+          "Prest out?"
+        ],
+        [
+          "Eñ / Hi",
+          "zo / emañ",
+          "Er gêr emañ."
+        ],
+        [
+          "Ni",
+          "omp",
+          "Laouen omp."
+        ],
+        [
+          "C'hwi",
+          "oc'h",
+          "Abred oc'h."
+        ],
+        [
+          "Int",
+          "int",
+          "Tud vat int."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Stad:** 'Skoaziad on', 'Er gêr emaon'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Kaout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **kaout** a verk ar perc'henniezh hag an oad."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "am eus",
+          "Ul levr am eus."
+        ],
+        [
+          "Te",
+          "az peus",
+          "Amzer az peus?"
+        ],
+        [
+          "Eñ / Hi",
+          "en deus / he deus",
+          "Ur c'hoar en deus."
+        ],
+        [
+          "Ni",
+          "hon eus",
+          "Ur goulenn hon eus."
+        ],
+        [
+          "C'hwi",
+          "hoc'h eus",
+          "Gwir hoc'h eus."
+        ],
+        [
+          "Int",
+          "o deus",
+          "Ur c'hi o deus."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Perc'henniezh:** 'Ul levr am eus'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Soñjal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **soñjal** a verk ar soñjoù hag an ali."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "soñjan",
+          "Soñjal a ran."
+        ],
+        [
+          "Te",
+          "soñjez",
+          "Petra a soñjez?"
+        ],
+        [
+          "Eñ / Hi",
+          "soñj",
+          "Soñjal a ra en dazont."
+        ],
+        [
+          "Ni",
+          "soñjomp",
+          "Soñjal a reomp kemend-all."
+        ],
+        [
+          "C'hwi",
+          "soñjit",
+          "Petra a soñjit?"
+        ],
+        [
+          "Int",
+          "soñjont",
+          "Soñjal a reont el labour."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Ali:** 'Soñjal a ran eo mat'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Gouzout / Anavezout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Gouzout** evit ar fedoù hag an diskoulmoù, **anavezout** evit an dud hag al lec'hioù."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Gouzout",
+        "Anavezout"
+      ],
+      "rows": [
+        [
+          "Me",
+          "ouzon",
+          "anavezan"
+        ],
+        [
+          "Te",
+          "ouzout",
+          "anavezout"
+        ],
+        [
+          "Eñ / Hi",
+          "oar",
+          "anavez"
+        ],
+        [
+          "Ni",
+          "ouzomp",
+          "anavezomp"
+        ],
+        [
+          "C'hwi",
+          "ouzoc'h",
+          "anavezoc'h"
+        ],
+        [
+          "Int",
+          "ouzont",
+          "anavezont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Gouiziegezh:** 'Gouzout a ran ar respont'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Plijout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **plijout** a verk ar santimantoù hag ar c'hoantoù."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Din",
+          "plij",
+          "Plijout a ra din ar c'hafe."
+        ],
+        [
+          "Dit",
+          "plij",
+          "Plijout a ra dit ar sonerezh?"
+        ],
+        [
+          "Dezhañ / Dezhi",
+          "plij",
+          "Plijout a ra dezhañ beajiñ."
+        ],
+        [
+          "Deomp",
+          "plij",
+          "Plijout a ra deomp ar sport."
+        ],
+        [
+          "Deoc'h",
+          "plij",
+          "Plijout a ra deoc'h al lennegezh?"
+        ],
+        [
+          "Dezho",
+          "plij",
+          "Plijout a ra dezho lenn."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Pliadur:** 'Plijout a ra din ar brezhoneg'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. C'hoant kaout"
+    },
+    {
+      "type": "paragraph",
+      "text": "**C'hoant kaout** a verk ar c'hoant hag ar bolontez."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "c'hoant am eus",
+          "C'hoant am eus da evañ dour."
+        ],
+        [
+          "Te",
+          "c'hoant az peus",
+          "Petra az peus c'hoant?"
+        ],
+        [
+          "Eñ / Hi",
+          "c'hoant en/he deus",
+          "C'hoant en deus da zeskiñ."
+        ],
+        [
+          "Ni",
+          "c'hoant hon eus",
+          "C'hoant hon eus da ziskuizhañ."
+        ],
+        [
+          "C'hwi",
+          "c'hoant hoc'h eus",
+          "C'hoant hoc'h eus kafe?"
+        ],
+        [
+          "Int",
+          "c'hoant o deus",
+          "C'hoant o deus mont d'ar gêr."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**C'hoant:** 'C'hoant am eus da zeskiñ'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Labourat / Studiñ / Deskiñ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verboù **labourat**, **studiñ** ha **deskiñ** a verk ar vicher, ar studioù hag ar mestroniañ barregezhioù nevez."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Labourat",
+        "Studiñ",
+        "Deskiñ"
+      ],
+      "rows": [
+        [
+          "Me",
+          "labouran",
+          "studian",
+          "deskan"
+        ],
+        [
+          "Te",
+          "labourez",
+          "studiez",
+          "deskez"
+        ],
+        [
+          "Eñ / Hi",
+          "labour",
+          "studi",
+          "desk"
+        ],
+        [
+          "Ni",
+          "labouromp",
+          "studiomp",
+          "deskomp"
+        ],
+        [
+          "C'hwi",
+          "labourit",
+          "studiit",
+          "deskit"
+        ],
+        [
+          "Int",
+          "labouront",
+          "studiont",
+          "deskont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Labourat:** 'Labourat a ran en un ti-embann'.",
+        "**Studiñ:** 'Studiñ a ran brezhoneg'.",
+        "**Deskiñ:** 'Deskiñ a ran buan'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Mont"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **mont** a verk an dilec'hiañ."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "an",
+          "Mont a ran d'al labour."
+        ],
+        [
+          "Te",
+          "ez",
+          "Pelec'h ez ez?"
+        ],
+        [
+          "Eñ / Hi",
+          "a",
+          "Mont a ra d'ar gêr."
+        ],
+        [
+          "Ni",
+          "eomp",
+          "Mont a reomp d'ar sinema."
+        ],
+        [
+          "C'hwi",
+          "it",
+          "Pelec'h ez it?"
+        ],
+        [
+          "Int",
+          "eont",
+          "Mont a reont d'ar skol."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Dilec'hiañ:** 'Mont a ran d'ar gêr'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Gallout"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verb **gallout** a verk an aotre hag ar varregezh."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Amzer-vremañ",
+        "Skouer"
+      ],
+      "rows": [
+        [
+          "Me",
+          "hallan",
+          "Gallout a ran sikour."
+        ],
+        [
+          "Te",
+          "hallez",
+          "Gallout a rez dont?"
+        ],
+        [
+          "Eñ / Hi",
+          "c'hall",
+          "Gallout a ra komz."
+        ],
+        [
+          "Ni",
+          "hallomp",
+          "Gallout a reomp kregiñ."
+        ],
+        [
+          "C'hwi",
+          "hallit",
+          "Gallout a rit adlavarout?"
+        ],
+        [
+          "Int",
+          "hallont",
+          "Gallout a reont dont."
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Barregezh:** 'Gallout a ran komz brezhoneg'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Debriñ / Evañ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar verboù **debriñ** hag **evañ** evit ar predoù, an diedoù hag an dud asambles."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Raganv",
+        "Debriñ",
+        "Evañ"
+      ],
+      "rows": [
+        [
+          "Me",
+          "debran",
+          "evan"
+        ],
+        [
+          "Te",
+          "debrez",
+          "evez"
+        ],
+        [
+          "Eñ / Hi",
+          "deb",
+          "ev"
+        ],
+        [
+          "Ni",
+          "debromp",
+          "evomp"
+        ],
+        [
+          "C'hwi",
+          "debrit",
+          "evit"
+        ],
+        [
+          "Int",
+          "debront",
+          "evont"
+        ]
+      ]
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Debriñ:** 'Debriñ a ran un aval'.",
+        "**Evañ:** 'Evañ a ran dour fresk'.",
+        "**Troioù-lavar:** 'Kalz a galon!', 'evañ ur banne'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Taolenn geñveriañ ar verboù"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keñveriadur ar verboù pennañ etre ar yezhoù :"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Yezhadur ha framm evit al live A0–A1 / A2"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Frammoù simpl:** Rannig + Verb + Renadenn.\n• **Verboù-skoazell:** Implij eus 'am eus', 'on' ha 'gallout'.\n• **Conjugazhon:** Gallout a reer sellet ouzh an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pleustriñ ha conjugazhon"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pleustrit war [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit ar [Rann 1](top-10-verbs-br.html) hag ar [Rann 2](top-10-verbs-part-2-br.html), ha kavout an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false,
+  "printOrder": 70
+}

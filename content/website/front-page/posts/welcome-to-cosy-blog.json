@@ -1,0 +1,68 @@
+{
+  "id": "post-welcome-to-cosy-blog",
+  "slug": "welcome-to-cosy-blog",
+  "language": "en",
+  "desk": "Front Page",
+  "format": "essay",
+  "level": "A0–A1",
+  "date": "2026-09-10",
+  "title": "Welcome to the COSY Editorial & Learning Corner",
+  "kicker": "EDITORIAL ROOM",
+  "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+  "tags": [
+    "Welcome",
+    "EcosystemUpdate",
+    "LanguageLearning"
+  ],
+  "readingTime": 1,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/welcome-to-cosy-blog-page-1.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "welcome-cosy-001",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Welcome to the official COSY Editorial & Learning Corner!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here at COSYlanguages, we believe in **speaking-first, immersion-based pedagogy**. Language learning is not about memorizing abstract tables in isolation; it is about connecting with real people and communicating authentically from day one."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Our Core Principles"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**100% Free & Open Access:** All learning materials, practice tools, and reference guides are freely accessible to learners worldwide.",
+        "**No-Translation Immersion:** Direct target-language immersion supported by contextual visual cues.",
+        "**CELTA-Aligned Standard:** Methodologically structured for real communicative competence."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!"
+    }
+  ],
+  "draft": false,
+  "contentType": "evergreen"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "post-if-you-were-august-teacher-of-frightened-adults",
+  "slug": "if-you-were-august-teacher-of-frightened-adults",
+  "language": "en",
+  "desk": "Long Reads",
+  "section": "if_you_were",
+  "format": "essay",
+  "level": "B1–C2",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "If You Were the Teacher of a Room of Frightened Adults",
+  "kicker": "SPEAKING CLUB · B1–C2 · OPENS THE TEACHER CONVERSATION",
+  "dek": "A hypothetical with teeth: ninety minutes, twelve adults, and a room that has already decided not to speak.",
+  "tags": [
+    "Speaking Club",
+    "If You Were",
+    "August",
+    "Pedagogy"
+  ],
+  "readingTime": 3,
+  "printOrder": 80,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "if-you-were-august-teacher-of-frightened-adults",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "If you were the teacher, you would have ninety minutes and twelve adults who have each been told, at some point, that they are bad at this. Two of them will not speak at all. One will speak too much. One will cry in the car afterwards, and you will never know."
+    },
+    {
+      "type": "paragraph",
+      "text": "You cannot fix their school years. You can decide what happens in the first ten minutes. Write your plan before you read the conversation that follows, because the person being interviewed has one, and it is more specific than most."
+    },
+    {
+      "type": "paragraph",
+      "text": "The twelve adults in your room do not arrive empty. One was told she had a good ear and then lost it in a bad year. One learned the language at his mother's kitchen table and has never been allowed to forget that it was not the standard version. One has a notebook from 1998 with the same twelve pages rewritten. You will not learn any of this in ninety minutes, and you do not need to. You need to design a first ten minutes that does not punish them for it."
+    },
+    {
+      "type": "heading",
+      "text": "Your first ten minutes",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "B1–B2: What do you say in the first minute? Write the sentence down.",
+        "B1–B2: What do you never do in the first ten minutes?",
+        "C1–C2: A learner gives a correct answer in a voice so quiet you have to guess it. Do you ask them to repeat it louder, accept it, or repeat it back correctly yourself? Defend the choice.",
+        "C1–C2: What would you have to stop doing for those twelve adults to speak in the first ten minutes?"
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Does the teacher’s first instruction — a task to perform or a frame to fill — change how many learners speak voluntarily in the following ninety minutes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The conversation that follows is the teacher’s answer in full: reading a room, scaffolding a sentence that is about to collapse, and why the same method has to change shape for a sixteen-year-old, a tired parent and a seventy-year-old."
+    }
+  ],
+  "draft": false
+}

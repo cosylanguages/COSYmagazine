@@ -1,0 +1,28 @@
+# Generated output lives at the repo root because GitHub Pages serves it directly.
+# Marking it as generated keeps diffs readable: GitHub collapses these files by
+# default and leaves them out of language statistics. They are still committed and
+# still served — this only changes how they are displayed.
+
+*.html               linguist-generated=true
+og/**                linguist-generated=true
+index.json           linguist-generated=true
+posts.json           linguist-generated=true
+podcast.xml          linguist-generated=true
+sitemap.xml          linguist-generated=true
+
+# Hand-written pages that happen to be HTML: keep them reviewable.
+index.html           linguist-generated=false
+issues.html          linguist-generated=false
+issues-catalog.html  linguist-generated=false
+podcast.html         linguist-generated=false
+404.html             linguist-generated=false
+editor.html          linguist-generated=false
+dev/**               linguist-generated=false
+
+# Binary assets
+*.pptx               binary
+*.pdf                binary
+*.mp3                binary
+*.woff2              binary
+*.png                binary
+*.jpg                binary

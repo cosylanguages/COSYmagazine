@@ -1,0 +1,264 @@
+{
+  "id": "post-top-10-verbs-part-2-ba",
+  "slug": "top-10-verbs-part-2-ba",
+  "language": "ba",
+  "translationOf": "top-10-verbs-part-2",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "Башҡорт теле буйынса иң мөһим 10 ҡылым, 2-се өлөш (A0–A1 / A2)",
+  "kicker": "БАШҠОРТ ТЕЛЕ МӘҒАРИФЫ — 2-СЕ ӨЛӨШ (БАРАЛЫҒЫ 2 ӨЛӨШ)",
+  "dek": "Киләһе 10 мөһим ҡылым (эшләү, һөйләү/әйтеү, ҡарау/күреү, тыңлау/ишетеү, кәрәк/тейеш, килеү/китергә, алыу/биреү, һорау/яуап биреү, көтөү, йәшәү). COSYtools битендә таблицалар.",
+  "tags": [
+    "Verbs",
+    "Bashkir",
+    "A0-A1",
+    "Part2"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0284c7",
+      "#f0f9ff",
+      "#0f172a"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-2-ba",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Башҡорт теле ҡылымдары ҡулланмаһының 2-се өлөшөнә рәхим итегеҙ! ([1-се өлөштө](top-10-verbs-ba.html) уҡырға мөмкин). Яңы 10 төп ҡылымды өйрәнәбеҙ. Барлыҡ ҡылым таблицалары [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Төп 10 Башҡорт ҡылымы (2-се өлөш)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Эшләү / Яһау:** Эш һәм ғәмәл (*Эш эшләү*).",
+        "**2. Һөйләү / Әйтеү:** Һөйләшеү һәм тел (*Һөйләшеү*).",
+        "**3. Ҡарау / Күреү:** Ҡарау һәм күреү (*Кино ҡарау*).",
+        "**4. Тыңлау / Ишетеү:** Тыңлау һәм ишетеү (*Музыка тыңлау*).",
+        "**5. Кәрәк / Тейеш:** Зарурилыҡ һәм кәңәш (*Кәрәк*, *тейеш*).",
+        "**6. Килеү / Китеү:** Хәрәкәт һәм китеү (*Өйгә килеү*, *юлға китеү*).",
+        "**7. Алыу / Биреү:** Алмашыу һәм тапшырыу (*Китап алыу*, *ҡул биреү*).",
+        "**8. Һорау / Яуап биреү:** Һорау биреү һәм яуап (*Һорау биреү*).",
+        "**9. Көтөү:** Сабырлыҡ һәм ваҡыт (*Автобус көтөү*).",
+        "**10. Йәшәү:** Йәшәү һәм урын (*Өфөлә йәшәйем*)."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-ba",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Эшләү / Яһау",
+          "Эш һәм ғәмәл (Эш эшләү).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Һөйләү / Әйтеү",
+          "Һөйләшеү һәм тел (Һөйләшеү).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Ҡарау / Күреү",
+          "Ҡарау һәм күреү (Кино ҡарау).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Тыңлау / Ишетеү",
+          "Тыңлау һәм ишетеү (Музыка тыңлау).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Кәрәк / Тейеш",
+          "Зарурилыҡ һәм кәңәш (Кәрәк, тейеш).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Килеү / Китеү",
+          "Хәрәкәт һәм китеү (Өйгә килеү, юлға китеү).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Алыу / Биреү",
+          "Алмашыу һәм тапшырыу (Китап алыу, ҡул биреү).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Һорау / Яуап биреү",
+          "Һорау биреү һәм яуап (Һорау биреү).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Көтөү",
+          "Сабырлыҡ һәм ваҡыт (Автобус көтөү).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Йәшәү",
+          "Йәшәү һәм урын (Өфөлә йәшәйем).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Телдәр араһында сағыштырыу таблицаһы"
+    },
+    {
+      "type": "paragraph",
+      "text": "Төрлө тел ғаиләләрендә төп ҡылымдарҙы сағыштырыу:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "А0–А1 / А2 кимәле өсөн грамматика"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Иң ябай һөйләм:** Эйә + Ҡылым.\n• **Ҡушымталар:** Ваҡыт һәм зат ҡушымталары.\n• **Таблицалар:** Барлыҡ ҡылым формалары [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Практика һәм ҡылым үҙгәреше"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) битендә тикшерегеҙ, [1-се өлөш](top-10-verbs-ba.html) һәм [2-се өлөш](top-10-verbs-part-2-ba.html) мәҡәләләрен уҡығыҙ, [COSYtools](https://cosylanguages.github.io/COSYtools/) битенә инегеҙ."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өҫтәмә уҡырға",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

@@ -1,0 +1,264 @@
+{
+  "id": "post-top-10-verbs-part-2-br",
+  "slug": "top-10-verbs-part-2-br",
+  "language": "br",
+  "translationOf": "top-10-verbs-part-2",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "Ar 10 verb pennañ e brezhoneg, Rann 2 (A0–A1 / A2)",
+  "kicker": "KAVLEVR BREZHONEG — RANN 2 EUS 2",
+  "dek": "Deskit an 10 verb war-lerc'h (ober, komz/lavarout, sellet/gwelout, selaou/klevout, rankout/dleout, dont/mont kuit, kemer/rein, goulenn/respont, gortoz, bevañ/chom). Taolennoù war COSYtools.",
+  "tags": [
+    "Verbs",
+    "Breton",
+    "A0-A1",
+    "Part2"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0284c7",
+      "#f0f9ff",
+      "#0f172a"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-2-br",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Degemer mat e Rann 2 eus ar c'havlevr verboù brezhonek evit al live A0–A1 hag A2! (Sellet ouzh ar [Rann 1](top-10-verbs-br.html) mar n'hoc'h eus ket he lennet). Taolennoù conjugazhon ar verboù a zo war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ar 10 verb pennañ (Rann 2)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Ober:** Obererezh (*Ober al labour*).",
+        "**2. Komz / Lavarout:** Komz ha lavarout (*Komz brezhoneg*).",
+        "**3. Sellet / Gwelout:** Sellet ha gwelout (*Sellet ouzh ur film*).",
+        "**4. Selaou / Klevout:** Selaou ha klevout (*Selaou sonerezh*).",
+        "**5. Rankout / Dleout:** Retiez ha kuzul (*Rankout a ran*).",
+        "**6. Dont / Mont kuit:** Donedigezh ha mont kuit (*Dont d'ar gêr*, *Mont kuit*).",
+        "**7. Kemer / Rein:** Eskemm ha prof (*Kemer ur banne*, *Rein un dorn*).",
+        "**8. Goulenn / Respont:** Goulennoù ha respontoù (*Goulenn ur gaoz*).",
+        "**9. Gortoz:** Gortoz ha basianted (*Gortoz ar c'harr-boutin*).",
+        "**10. Bevañ / Chom:** Bevañ hag annez (*Bevañ e Roazhon*)."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ober",
+          "Obererezh (Ober al labour).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Komz / Lavarout",
+          "Komz ha lavarout (Komz brezhoneg).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Sellet / Gwelout",
+          "Sellet ha gwelout (Sellet ouzh ur film).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Selaou / Klevout",
+          "Selaou ha klevout (Selaou sonerezh).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Rankout / Dleout",
+          "Retiez ha kuzul (Rankout a ran).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Dont / Mont kuit",
+          "Donedigezh ha mont kuit (Dont d'ar gêr, Mont kuit).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Kemer / Rein",
+          "Eskemm ha prof (Kemer ur banne, Rein un dorn).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Goulenn / Respont",
+          "Goulennoù ha respontoù (Goulenn ur gaoz).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Gortoz",
+          "Gortoz ha basianted (Gortoz ar c'harr-boutin).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Bevañ / Chom",
+          "Bevañ hag annez (Bevañ e Roazhon).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Taolenn geñveriañ ar verboù"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keñveriadur ar verboù pennañ etre ar yezhoù :"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Yezhadur ha framm evit al live A0–A1 / A2"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Frammoù simpl:** Rannig + Verb + Renadenn.\n• **Verboù-skoazell:** Implij eus 'am eus', 'on' ha 'gallout'.\n• **Conjugazhon:** Gallout a reer sellet ouzh an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pleustriñ ha conjugazhon"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Pleustrit war [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit ar [Rann 1](top-10-verbs-br.html) hag ar [Rann 2](top-10-verbs-part-2-br.html), ha kavout an taolennoù war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

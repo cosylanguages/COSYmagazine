@@ -1,0 +1,53 @@
+# COSYmagazine 🌿
+
+**COSYmagazine**: short, speaking-first reads for language learners (words, grammar made cosy, sentence frames, podcast), in English, French, Italian, Russian and Greek.
+
+**Live:** https://cosylanguages.github.io/COSYmagazine/
+
+Part of the COSY ecosystem. Hub: [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) · Practice: [COSYpractice](https://github.com/cosylanguages/COSYpractice) · Tools: [COSYtools](https://github.com/cosylanguages/COSYtools).
+
+## How it works
+Every article is one JSON file under `content/`, validated against `docs/reference/SCHEMA.md`. A build turns them into static pages. **Adding an article needs no code change.**
+
+```bash
+npm install
+npm run build      # posts → <slug>.html, index.json, posts.json, covers (og/), podcast.xml, sitemap.xml
+npm test           # node --test style checks in tests/*.mjs
+```
+
+1. Add `content/issues/<YYYY-MM>/posts/<slug>.json` (see `docs/authoring/BLOG_AUTHORING.md`; a translation sets `translationOf` to the base slug).
+2. `npm run build`, then commit the generated files (GitHub Pages serves them as they are).
+
+Set `"draft": true` to keep a post out of the site.
+
+## Publishing PDF Magazines to Supabase (Zero Console)
+Publishing magazine PDFs directly to private Supabase storage without using a console can be done via:
+- **GitHub Actions (One-Click UI)**: Go to **Actions** → **Upload Magazine PDF to Supabase** → click **Run workflow**. Supports a local path or a URL.
+- **Git Push**: Do not commit sold PDFs to this public repository. Use the workflow's `upload_existing_file` mode with a URL, or the in-browser Studio.
+- **In-Browser Studio**: In `editor.html`, log in as Founder and click **📤 Upload Magazine PDF** to upload directly from your device.
+
+See [docs/publishing/MAGAZINE_PDF_UPLOAD.md](docs/publishing/MAGAZINE_PDF_UPLOAD.md) for full instructions and secret configuration.
+
+## Structure
+| Path | What |
+|---|---|
+| `index.html` | Newsstand: latest issue, search, filters (desk, language, issue). State lives in the URL (`?desk=Words&lang=fr`). Translations are grouped under their article |
+| `podcast.html` | Podcast desk |
+| `content/**/posts/*.json` | Source of truth (grouped by issue) |
+| `<slug>.html`, `index.json`, `posts.json`, `og/` | Generated, do not edit by hand |
+| `scripts/build/` | Build pipeline, validation, cover art, RSS, sitemap |
+| `scripts/ops/` | PDF publishing, Supabase upload, stage video export |
+| `scripts/content/` | Python scripts that rewrite `content/**/posts/*.json` in bulk |
+| `scripts/archive/` | One-off scripts kept for reference, not wired to any command |
+| `docs/` | [Authoring, issues, publishing and reference docs](docs/README.md) |
+| `css/`, `js/`, `fonts/` | Design layer (shared COSY tokens, self-hosted Fraunces, Literata, Commissioner), shell, stage mode, flipbook |
+| `js/i18n/*.json` | Interface strings for the newsstand and post chrome |
+| `dev/` | Dev-only pages (cover art contact sheet, stage demo) |
+
+## Reading modes
+Append `?stage=1` (16:9 presentation) or `?script=1` (teleprompter) to any article URL.
+
+## Audio
+Episodes are linked only when the file exists at `audio/<slug>.mp3` (or `podcast.audioUrl` is an absolute URL). Until then an article shows "recording in production" and is left out of `podcast.xml`.
+
+© 2020–2026 COSY Languages. All rights reserved.

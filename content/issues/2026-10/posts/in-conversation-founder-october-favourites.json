@@ -1,0 +1,179 @@
+{
+  "id": "post-in-conversation-founder-october-favourites",
+  "slug": "in-conversation-founder-october-favourites",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "founder_interview",
+  "format": "qa",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM’s birthday & His favs"
+  },
+  "date": "2026-10-01",
+  "title": "In Conversation: Founder James on His Favourite Things, and Why Play Beats Discipline",
+  "kicker": "THEMATIC INTERVIEW DESK",
+  "dek": "It is the founder’s birthday, so we asked him the questions learners never get to ask: what he actually loves about language, which structures he reaches for first, and why the learners who play out loud overtake the ones who study hardest.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Playfulness",
+    "Conversation",
+    "Founder’s Edition"
+  ],
+  "readingTime": 7,
+  "status": "drafting",
+  "artDirection": {
+    "palette": [
+      "#B23A48",
+      "#FFF9F0",
+      "#1F6F8B",
+      "#E9A03B"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "doodle-border",
+    "seed": "founder-october-favourites",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "October is the founder’s edition, and it is also James’s birthday month. So this issue does something the magazine rarely does: it gets personal. Instead of asking how to learn, we asked what he loves — the structures, the sounds, the small rituals — and let the method explain itself from there. The theme of the volume is playfulness: conversational agility, the courage to speak a messy draft out loud, and the strange fact that learners who allow themselves to be silly progress faster than learners who are careful.",
+      "say": "October is the founder’s edition, and it is also James’s birthday month. So this issue does something the magazine rarely does: it gets personal. Instead of asking how to learn, we asked what he loves."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "This Month: JY DM’s Birthday & His Favs",
+      "say": "This Month: JY DM’s Birthday & His Favs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vol. 2026.10</strong> opens with a practical gift: ten reusable sentence frames, in fourteen languages, that let you speak from the first day without translating in your head. The COSYtalks piece then asks the question underneath the frames — why do we freeze the moment a conversation leaves the script? — and the Grammar desk closes with the founder’s own five favourite rules, chosen because they unlock the most speech for the least effort."
+    },
+    {
+      "type": "paragraph",
+      "text": "Playfulness is the thread. Every piece in this issue assumes you will say something wrong, and treats that as the point rather than the cost."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: What the Founder Actually Loves",
+      "say": "Part I: What the Founder Actually Loves"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Let’s start somewhere unusual. Forget pedagogy for a moment — what do you personally love about language? What made you care in the first place?",
+      "say": "Let’s start somewhere unusual. Forget pedagogy for a moment — what do you personally love about language? What made you care in the first place?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> You have said the sentence frames are your favourite thing the magazine has ever published. Why those, out of everything?",
+      "say": "You have said the sentence frames are your favourite thing the magazine has ever published. Why those, out of everything?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "pullquote",
+      "quote": "A sentence frame is a gift of eighty percent. You only have to bring one word.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "A sentence frame is a gift of eighty percent. You only have to bring one word."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> And your five favourite grammar rules — what is the one you would keep if you could only keep one?",
+      "say": "And your five favourite grammar rules — what is the one you would keep if you could only keep one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: Why We Freeze",
+      "say": "Part II: Why We Freeze"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> The COSYtalks piece this month is about freezing when conversation goes off script. Can you describe that feeling from the inside, as a learner yourself?",
+      "say": "The COSYtalks piece this month is about freezing when conversation goes off script. Can you describe that feeling from the inside, as a learner yourself?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> What is the cheapest, fastest way out of a freeze — something a reader could use in the next conversation they have?",
+      "say": "What is the cheapest, fastest way out of a freeze — something a reader could use in the next conversation they have?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: Play, and the Messy Draft",
+      "say": "Part III: Play, and the Messy Draft"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> ‘Celebrate the messy spoken draft’ is the phrase you use. Some readers will hear that as an excuse for sloppiness. How do you answer that?",
+      "say": "‘Celebrate the messy spoken draft’ is the phrase you use. Some readers will hear that as an excuse for sloppiness. How do you answer that?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> If a reader wanted to be deliberately playful this month — to treat language as a game — what would you actually have them do tomorrow?",
+      "say": "If a reader wanted to be deliberately playful this month — to treat language as a game — what would you actually have them do tomorrow?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Founder’s Research Spark",
+      "content": "💡 This could be a good research question: does deliberate play (role-play, absurd sentences, deliberate error) reduce speaking anxiety more than accuracy-focused drill?",
+      "say": "This could be a good research question: does deliberate play (role-play, absurd sentences, deliberate error) reduce speaking anxiety more than accuracy-focused drill?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part IV: Another Year",
+      "say": "Part IV: Another Year"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> It is your birthday month. What do you want the magazine to have become by the next one?",
+      "say": "It is your birthday month. What do you want the magazine to have become by the next one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true
+}

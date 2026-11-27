@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" role="img" aria-label="Stessa domanda, due percorsi" font-family="DM Sans, Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1e293b"/></marker></defs>
+<rect width="1000" height="540" rx="22" fill="#faf7f2"/>
+<text x="500.0" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#0d9488" font-family="Fraunces, Georgia, serif">Stessa domanda, due percorsi</text>
+<text x="40" y="84" font-size="16" font-weight="700" fill="#475569" letter-spacing="0.5">NELLO SCRIPT</text>
+<rect x="40" y="96" width="200" height="100" rx="16" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+<text x="140.0" y="151.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="140.0" dy="0">«Come sta?»</tspan></text>
+<line x1="244" y1="146.0" x2="274" y2="146.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="280" y="96" width="200" height="100" rx="16" fill="#99f6e4" stroke="#1e293b" stroke-width="2"/>
+<text x="380.0" y="141.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="380.0" dy="0">«Bene, grazie, e</tspan><tspan x="380.0" dy="20">lei?»</tspan></text>
+<line x1="484" y1="146.0" x2="514" y2="146.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="520" y="96" width="200" height="100" rx="16" fill="#bbf7d0" stroke="#1e293b" stroke-width="2"/>
+<text x="620.0" y="131.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="620.0" dy="0">Fluido e</tspan><tspan x="620.0" dy="20">automatico</tspan><tspan x="620.0" dy="20">(Sistema 1)</tspan></text>
+<text x="40" y="232" font-size="16" font-weight="700" fill="#475569" letter-spacing="0.5">FUORI COPIONE</text>
+<rect x="40" y="244" width="200" height="100" rx="16" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+<text x="140.0" y="299.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="140.0" dy="0">«Come sta?»</tspan></text>
+<line x1="244" y1="294.0" x2="274" y2="294.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="280" y="244" width="200" height="100" rx="16" fill="#fde68a" stroke="#1e293b" stroke-width="2"/>
+<text x="380.0" y="289.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="380.0" dy="0">«Malissimo.»</tspan><tspan x="380.0" dy="20">Sorpresa!</tspan></text>
+<line x1="484" y1="294.0" x2="514" y2="294.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="520" y="244" width="200" height="100" rx="16" fill="#fde68a" stroke="#1e293b" stroke-width="2"/>
+<text x="620.0" y="269.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="620.0" dy="0">Pianificare,</tspan><tspan x="620.0" dy="20">tradurre e</tspan><tspan x="620.0" dy="20">parlare insieme</tspan><tspan x="620.0" dy="20">(Sistema 2)</tspan></text>
+<line x1="724" y1="294.0" x2="754" y2="294.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="760" y="244" width="200" height="100" rx="16" fill="#fecaca" stroke="#1e293b" stroke-width="2"/>
+<text x="860.0" y="299.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="860.0" dy="0">Blocco</tspan></text>
+<text x="40" y="463.0" font-size="16" font-weight="700" fill="#475569" letter-spacing="0.5">IL TUO KIT</text>
+<rect x="280" y="408" width="200" height="100" rx="16" fill="#bbf7d0" stroke="#1e293b" stroke-width="2"/>
+<text x="380.0" y="463.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="380.0" dy="0">Frase cuscinetto</tspan></text>
+<line x1="484" y1="458.0" x2="514" y2="458.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="520" y="408" width="200" height="100" rx="16" fill="#bbf7d0" stroke="#1e293b" stroke-width="2"/>
+<text x="620.0" y="453.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="620.0" dy="0">Reagire +</tspan><tspan x="620.0" dy="20">chiedere</tspan></text>
+<line x1="724" y1="458.0" x2="754" y2="458.0" stroke="#1e293b" stroke-width="3" marker-end="url(#a)"/>
+<rect x="760" y="408" width="200" height="100" rx="16" fill="#bbf7d0" stroke="#1e293b" stroke-width="2"/>
+<text x="860.0" y="453.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b"><tspan x="860.0" dy="0">La conversazione</tspan><tspan x="860.0" dy="20">continua</tspan></text>
+<line x1="380" y1="348" x2="380" y2="402" stroke="#15803d" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="392" y="378" font-size="16" font-weight="700" fill="#15803d">Invece:</text>
+</svg>

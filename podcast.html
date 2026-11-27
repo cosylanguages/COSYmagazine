@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" data-ui-lang="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="podcastDesk.titleTag">The Podcast Desk — cosylanguages / такиеязыки</title>
+    <meta name="description" content="Listen and read along with cosylanguages / такиеязыки podcast episodes, teleprompter scripts, and stage video decks." data-i18n-content="podcastDesk.metaDescription">
+    <link rel="icon" href="images/logo.png">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="The Podcast Desk — cosylanguages / такиеязыки" data-i18n-content="podcastDesk.titleTag">
+    <meta property="og:description" content="Listen and read along with cosylanguages / такиеязыки podcast episodes, teleprompter scripts, and stage video decks." data-i18n-content="podcastDesk.metaDescription">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYmagazine/images/logo.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/podcast.html">
+    <meta property="og:type" content="website">
+
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/shell.css">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/podcast.html">
+    <style>
+        .podcast-hero-banner {
+            background: #1e293b;
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        .podcast-hero-content {
+            max-width: 640px;
+        }
+        .podcast-hero-title {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin: 0.5rem 0 1rem 0;
+            color: #ffffff;
+        }
+        .podcast-hero-dek {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        .podcast-rss-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #f59e0b;
+            color: #0f172a;
+            font-weight: 700;
+            padding: 0.75rem 1.5rem;
+            border-radius: 999px;
+            text-decoration: none;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+        .podcast-rss-btn:hover {
+            background: #fbbf24;
+            transform: translateY(-2px);
+        }
+        .podcast-episodes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .podcast-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .podcast-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            border-color: #0f766e;
+        }
+        .podcast-card-cover {
+            width: 100%;
+            height: 180px;
+            background: #0f172a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .podcast-card-cover img,
+        .podcast-card-cover svg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .podcast-card-body {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .podcast-card-ep-num {
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #0f766e;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .podcast-card-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+            line-height: 1.3;
+        }
+        .podcast-card-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .podcast-card-title a:hover {
+            color: #0f766e;
+        }
+        .podcast-card-dek {
+            font-size: 0.95rem;
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 1.25rem;
+            flex: 1;
+        }
+        .podcast-card-links {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            padding-top: 1rem;
+            border-top: 1px solid #f1f5f9;
+        }
+        .podcast-card-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.15s ease;
+        }
+        .podcast-btn-script {
+            background: rgba(13, 148, 136, 0.1);
+            color: #0f766e;
+        }
+        .podcast-btn-script:hover {
+            background: #0d9488;
+            color: #ffffff;
+        }
+        .podcast-btn-stage {
+            background: rgba(15, 23, 42, 0.08);
+            color: #0f172a;
+        }
+        .podcast-btn-stage:hover {
+            background: #0f172a;
+            color: #ffffff;
+        }
+        .podcast-btn-read {
+            background: var(--warm-white, #fdfbf7);
+            border: 1px solid #cbd5e1;
+            color: #475569;
+        }
+        .podcast-btn-read:hover {
+            border-color: #0f766e;
+            color: #0f766e;
+        }
+    </style>
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Podcast Desk \u2014 cosylanguages / \u0442\u0430\u043a\u0438\u0435\u044f\u0437\u044b\u043a\u0438",
+    "description": "Listen and read along with cosylanguages / \u0442\u0430\u043a\u0438\u0435\u044f\u0437\u044b\u043a\u0438 podcast episodes, teleprompter scripts, and stage video decks.",
+    "author": {
+        "@type": "Organization",
+        "name": "COSY Languages"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "COSY Languages",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://cosylanguages.github.io/COSYmagazine/images/logo.png"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cosylanguages.github.io/COSYmagazine/podcast.html"
+    }
+}
+  </script>
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
+  <link rel="stylesheet" href="css/dark-fixes.css">
+</head>
+<body class="blog-page">
+
+    <div data-ecosystem-strip data-self="magazine"></div>
+    <nav id="cosy-nav"></nav>
+
+    <div class="blog-wrapper">
+        <!-- Masthead -->
+        <header class="blog-header">
+            <div class="blog-header-top">
+                <a href="index.html" class="back-home-link" data-i18n="podcastDesk.back">← Back to Blog &amp; Gazette Hub</a>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <span class="gazette-badge" data-i18n="podcastDesk.badge">🎙️ Official Podcast Desk</span>
+                    <a href="podcast.xml" target="_blank" rel="noopener" class="gazette-badge" style="text-decoration: none; background: #f59e0b; color: #0f172a;" data-i18n="podcastDesk.rss">📡 RSS Feed</a>
+                </div>
+            </div>
+            <h1 class="blog-header-title" data-i18n="podcastDesk.title">The Podcast Desk — cosylanguages / такиеязыки</h1>
+            <p class="blog-header-tagline" data-i18n="podcastDesk.tagline">Listen, speak, and read along with every blog post. Each article doubles as a complete podcast episode with teleprompter scripts, read-along highlighting, and 16:9 stage presentations.</p>
+        </header>
+
+        <!-- Featured Podcasts Network Banner -->
+        <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;" aria-label="Official Podcasts Network" data-i18n-aria-label="podcastDesk.networkAria">
+            <!-- Show 1: COSYlanguages Podcast -->
+            <div class="podcast-hero-banner" style="margin-bottom: 0;">
+                <div class="podcast-hero-content">
+                    <span class="kicker" style="color: #f59e0b; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;" data-i18n="podcastDesk.mainKicker">MAIN BLOG &amp; LANGUAGE PODCAST</span>
+                    <h2 class="podcast-hero-title" style="font-size: 2rem;" data-i18n="podcastDesk.mainTitle">cosylanguages</h2>
+                    <p class="podcast-hero-dek" data-i18n="podcastDesk.mainDek">
+                        The official podcast for natural, speaking-first language acquisition. Featuring episodes on "Stop Translating", "Top 5 Favourite Grammar Rules", and "Top 10 Essential Verbs" with full teleprompter scripts and 16:9 stage presentations.
+                    </p>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.5rem;">
+                      <a href="https://open.spotify.com/show/043evwWwhO7LjIqPTUyfiU" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #0f6b35; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>🎧 Spotify</span>
+                      </a>
+                      <a href="https://podcasts.apple.com/us/podcast/cosylanguages/id1759372918?uo=4" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #a855f7; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>🍏 Apple Podcasts</span>
+                      </a>
+                      <a href="https://youtube.com/playlist?list=PLlvYuuNxy_qxrjnVid3ZHL3jONW1z-v2t&si=6r6TMCzECFopCmDS" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #b91c1c; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>▶️ YouTube</span>
+                      </a>
+                      <a href="https://cloud.mave.digital/74682" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #4338ca; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span data-i18n="podcastDesk.mave">☁️ Mave</span>
+                      </a>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+                      <a href="https://castbox.fm/vic/1759372918" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #c2410c; color: #ffffff; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span>📻 Castbox</span>
+                      </a>
+                      <a href="https://overcast.fm/itunes1759372918" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #b45309; color: #ffffff; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span>🟠 Overcast</span>
+                      </a>
+                      <a href="https://anchor.fm/s/f931c12c/podcast/rss" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #f59e0b; color: #0f172a; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span>📡 Anchor RSS</span>
+                      </a>
+                      <a href="podcast.xml" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: rgba(255,255,255,0.15); color: #fff; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span data-i18n="podcastDesk.blogFeed">📜 Blog Feed</span>
+                      </a>
+                    </div>
+                </div>
+                <div class="podcast-hero-art">
+                    <img src="images/logo.png" alt="COSYlanguages Podcast Logo" width="100" height="100" style="border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+                </div>
+            </div>
+
+            <!-- Show 2: COSYscience Podcast -->
+            <div class="podcast-hero-banner" style="margin-bottom: 0; background: linear-gradient(135deg, #0f172a 0%, #0369a1 100%);">
+                <div class="podcast-hero-content">
+                    <span class="kicker" style="color: #38bdf8; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;" data-i18n="podcastDesk.scienceKicker">SCIENCE &amp; SPEAKING CLUB PODCAST</span>
+                    <h2 class="podcast-hero-title" style="font-size: 2rem;" data-i18n="podcastDesk.scienceTitle">cosyscience</h2>
+                    <p class="podcast-hero-dek" data-i18n="podcastDesk.scienceDek">
+                        A daily scientific news podcast deconstructing research in simple, clear English. Supplementary material for our <strong>Keeping Up with Science</strong> speaking club.
+                    </p>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.5rem;">
+                      <a href="https://open.spotify.com/show/4qFYiQZCJakVcrIdldLH4n" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #0f6b35; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>🎧 Spotify</span>
+                      </a>
+                      <a href="https://podcasts.apple.com/us/podcast/cosyscience/id1757396345" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #a855f7; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>🍏 Apple Podcasts</span>
+                      </a>
+                      <a href="https://youtube.com/playlist?list=PLlvYuuNxy_qzOJxNxw3M6ggbKD92-FBFy&si=4xvlVCiMM8vwEyH9" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #b91c1c; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span>▶️ YouTube</span>
+                      </a>
+                      <a href="https://mave.stream/cosyscience" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #4338ca; color: #ffffff; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                        <span data-i18n="podcastDesk.maveStream">☁️ Mave Stream</span>
+                      </a>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+                      <a href="https://anchor.fm/s/f8d1b28c/podcast/rss" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #38bdf8; color: #0f172a; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span>🔬 Anchor RSS</span>
+                      </a>
+                      <a href="https://www.linkedin.com/showcase/cosyscience" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: #0a66c2; color: #ffffff; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span>💼 LinkedIn</span>
+                      </a>
+                      <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="podcast-rss-btn" style="background: rgba(255,255,255,0.15); color: #fff; padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                        <span data-i18n="podcastDesk.scienceClub">🗣️ Science Club</span>
+                      </a>
+                    </div>
+                </div>
+                <div class="podcast-hero-art">
+                    <div style="font-size: 4rem; line-height: 1; text-shadow: 0 4px 12px rgba(0,0,0,0.3);">🔬</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Episode Feed Grid -->
+        <main>
+            <section aria-label="Podcast Episodes" data-i18n-aria-label="podcastDesk.episodesAria">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap;">
+                    <h2 class="section-heading" style="margin-bottom: 0;" data-i18n="podcastDesk.episodesTitle">🎙️ Episodes Catalog</h2>
+                    <div><label class="visually-hidden" for="pod-lang" data-i18n="podcastDesk.languageLabel">Language</label><select id="pod-lang" class="bn-select" aria-label="Episode language" data-i18n-aria-label="podcastDesk.languageAria"></select></div>
+                </div>
+
+                <div class="podcast-episodes-grid" id="podcast-grid">
+                    <!-- Dynamic rendering via JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+<footer id="cosy-footer"></footer>
+
+    <script src="js/shell.js"></script>
+
+    <script>
+        const t = (key, fallback) => (window.t && window.t(key)) || fallback;
+        // Cover errors do not bubble, so listen in the capture phase.
+        document.addEventListener('error', function (event) {
+            const img = event.target;
+            if (!img || !img.classList || !img.classList.contains('podcast-cover') || img.dataset.fallback) return;
+            img.dataset.fallback = '1';
+            img.src = 'images/logo.png';
+            img.style.objectFit = 'contain';
+            img.style.padding = '1rem';
+        }, true);
+        async function loadPodcastDesk() {
+            const gridEl = document.getElementById('podcast-grid');
+            if (!gridEl) return;
+
+            try {
+                const res = await fetch('index.json');
+                const data = await res.json();
+                const posts = data.posts || [];
+
+                // Filter posts that have podcast metadata
+                const all = posts.filter(p => p.podcast || p.audio_podcast);
+                const names = { en: 'English', fr: 'Français', it: 'Italiano', ru: 'Русский', el: 'Ελληνικά' };
+                const sel = document.getElementById('pod-lang');
+                const langs = [...new Set(all.map(p => p.language || 'en'))];
+                if (!sel.options.length) {
+                    sel.innerHTML = '<option value="all">' + t('podcastDesk.allLanguages', 'All languages') + '</option>' + langs.map(l => `<option value="${l}">${names[l] || l}</option>`).join('');
+                    sel.value = langs.includes('en') ? 'en' : 'all';
+                    sel.addEventListener('change', loadPodcastDesk);
+                }
+                const podcastPosts = sel.value === 'all' ? all : all.filter(p => (p.language || 'en') === sel.value);
+
+                gridEl.innerHTML = podcastPosts.map(post => {
+                    const epNum = post.podcast?.episode || 1;
+                    const slug = post.slug;
+                    const title = post.title;
+                    const dek = post.dek || post.summary || '';
+                    const level = post.level || post.cefr_level || 'A0–B2';
+                    const lang = post.language || 'en';
+                    const coverArt = `og/${slug}.svg`;
+
+                    return `
+                      <article class="podcast-card">
+                        <div class="podcast-card-cover">
+                          <img src="${coverArt}" alt="${title}" class="podcast-cover">
+                        </div>
+                        <div class="podcast-card-body">
+                          <span class="podcast-card-ep-num">${t('podcastDesk.episode', 'EPISODE')} ${epNum} • ${lang.toUpperCase()} • ${level}</span>
+                          <h3 class="podcast-card-title">
+                            <a href="${slug}.html">${title}</a>
+                          </h3>
+                          <p class="podcast-card-dek">${dek}</p>
+
+                          <div class="podcast-card-links">
+                            ${post.podcast?.externalUrl ? `<a href="${post.podcast.externalUrl}" target="_blank" rel="noopener" class="podcast-card-btn" style="background: #0f6b35; color: #ffffff;" title="${t('podcastDesk.listenSpotify', 'Listen on Spotify')}">🎧 Spotify</a>` : ''}
+                            <a href="${slug}.html?script=1" class="podcast-card-btn podcast-btn-script">${t('podcastDesk.script', '📜 Script')}</a>
+                            <a href="${slug}.html?stage=1" class="podcast-card-btn podcast-btn-stage">${t('podcastDesk.stage', '📺 Stage Deck')}</a>
+                            <a href="${slug}.html" class="podcast-card-btn podcast-btn-read">${t('podcastDesk.read', '📖 Read Post')}</a>
+                          </div>
+                        </div>
+                      </article>
+                    `;
+                }).join('');
+            } catch (e) {
+                console.error('Failed loading podcast catalog:', e);
+                gridEl.innerHTML = '<p>' + t('podcastDesk.loadError', 'Unable to load podcast catalog.') + '</p>';
+            }
+        }
+
+        let podcastDeskStarted = false;
+        function startPodcastDesk() {
+            if (podcastDeskStarted) return;
+            podcastDeskStarted = true;
+            loadPodcastDesk();
+        }
+        if (window.__cosyI18nReady) startPodcastDesk();
+        else {
+            document.addEventListener('cosy:i18nready', startPodcastDesk, { once: true });
+            setTimeout(startPodcastDesk, 1500);
+        }
+    </script>
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
+</body>
+</html>

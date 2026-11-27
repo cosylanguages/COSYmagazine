@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, follow">
+<meta name="description" content="COSY Gazette — Stage Mode Demo">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Gazette — Stage Mode Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tokens.css">
+    <script src="../js/theme-init.js"></script>
+    <link rel="stylesheet" href="../css/stage.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'DM Sans', sans-serif;
+            background-color: var(--gazette-paper-bg, #faf7f2);
+            color: var(--gazette-ink-primary, #1e293b);
+        }
+
+        .reading-container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .reading-header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .reading-title {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+
+        .stage-launch-banner {
+            background: #1e293b;
+            color: #ffffff;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .stage-launch-btn {
+            background: #0d9488;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .vocab-word {
+            background: rgba(13, 148, 136, 0.15);
+            border-bottom: 2px solid #0d9488;
+            cursor: pointer;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+    </style>
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/dev/stage-demo.html">
+  <meta property="og:title" content="COSY Gazette — Stage Mode Demo">
+  <meta property="og:description" content="COSY Gazette — Stage Mode Demo">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/dev/stage-demo.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="COSY Gazette — Stage Mode Demo">
+  <meta name="twitter:description" content="COSY Gazette — Stage Mode Demo">
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "COSY Gazette \u2014 Stage Mode Demo",
+    "description": "COSY Gazette \u2014 Stage Mode Demo",
+    "author": {
+        "@type": "Organization",
+        "name": "COSY Languages"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "COSY Languages",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cosylanguages.github.io/COSYmagazine/dev/stage-demo.html"
+    }
+}
+  </script>
+  <link rel="stylesheet" href="../css/dark-fixes.css">
+</head>
+<body>
+    <div id="stage-app-container">
+        <!-- In Reading Mode: standard layout; in Stage Mode (?stage=1): 16:9 stage layout -->
+        <main class="reading-container">
+            <div class="stage-launch-banner">
+                <span>🎙️ Experience this post in 16:9 Animated Presentation Mode:</span>
+                <a href="?stage=1" class="stage-launch-btn">Launch Stage Mode ↗</a>
+            </div>
+
+            <article class="reading-article">
+                <header class="reading-header">
+                    <span class="reading-kicker" style="color: #0f766e; font-weight: 800; letter-spacing: 0.1em;">PODCAST STAGE DEMO</span>
+                    <h1 class="reading-title">Mastering Conversational Flow: Stage &amp; Podcast Demo</h1>
+                    <p class="reading-dek" style="font-size: 1.2rem; opacity: 0.85;">An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.</p>
+                </header>
+
+                <div class="reading-body">
+                    <h2>Welcome to Stage Mode 🎙️</h2>
+                    <p>In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.</p>
+
+                    <p>Click on this vocabulary word to test reading mode card magnification: <span class="vocab-word" data-cosydata-word="Circumlocution">Circumlocution</span>.</p>
+
+                    <blockquote style="border-left: 4px solid #0d9488; padding-left: 1rem; font-style: italic; margin: 2rem 0;">
+                        “Language learning becomes effortless when you immerse your eyes and ears simultaneously.” — JY DM
+                    </blockquote>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script type="module">
+        import { StageController } from '../js/stage/stage.js';
+
+        async function initApp() {
+            const container = document.getElementById('stage-app-container');
+            try {
+                const res = await fetch('../posts/stage-demo-podcast.json');
+                const post = await res.json();
+                new StageController(container, post);
+            } catch (e) {
+                console.error('Failed loading post:', e);
+            }
+        }
+
+        initApp();
+    </script>
+</body>
+</html>

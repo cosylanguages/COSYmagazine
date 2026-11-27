@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, follow">
+<meta name="description" content="COSY Gazette — Cover Art Contact Sheet">>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Gazette — Cover Art Contact Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tokens.css">
+    <script src="../js/theme-init.js"></script>
+    <style>
+        body {
+            background-color: var(--gazette-paper-bg, #faf7f2);
+            color: var(--gazette-ink-primary, #1e293b);
+            font-family: 'DM Sans', sans-serif;
+            padding: 2rem;
+            margin: 0;
+        }
+
+        .header-title {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+
+        .header-subtitle {
+            font-size: 1.1rem;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .art-card {
+            background: #ffffff;
+            border: 1px solid var(--gazette-border-subtle, rgba(30, 41, 59, 0.15));
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .art-preview {
+            width: 100%;
+            height: 225px;
+            background: #f1f5f9;
+        }
+
+        .art-preview svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .art-meta {
+            padding: 1rem;
+        }
+
+        .art-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+            line-height: 1.3;
+        }
+
+        .art-tags {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            flex-wrap: wrap;
+        }
+
+        .tag-desk {
+            color: #0f766e;
+        }
+
+        .tag-motif {
+            color: #d69e2e;
+        }
+
+        .tag-lang {
+            color: #2563eb;
+        }
+    
+        @media (prefers-color-scheme: dark) {
+            body { background-color: #151a16 !important; color: #e8f0e9 !important; }
+            .header-title, .header-subtitle, h2, h3, p, span, a, li { color: #e8f0e9 !important; }
+            .art-card, .art-meta, .card, .sheet { background: #1b211c !important; border-color: #33403a !important; }
+            .art-card .thumb, .art-card .preview { background: #232b26 !important; }
+        }
+    </style>
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYmagazine/dev/art-contact-sheet.html">
+  <meta property="og:title" content="COSY Gazette — Cover Art Contact Sheet">
+  <meta property="og:description" content="COSY Gazette — Cover Art Contact Sheet">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYmagazine/dev/art-contact-sheet.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="COSY Gazette — Cover Art Contact Sheet">
+  <meta name="twitter:description" content="COSY Gazette — Cover Art Contact Sheet">
+  <link rel="stylesheet" href="../css/dark-fixes.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">COSY Gazette • Cover Art Contact Sheet</h1>
+        <p class="header-subtitle">Deterministic procedural SVG cover artwork across all 37 published posts &amp; guides with full-bleed touch motifs and multi-script family styling.</p>
+    </header>
+
+    <main class="contact-grid" id="contact-grid">
+        <!-- Rendered dynamically by JS -->
+    </main>
+
+    <script type="module">
+        import { renderCover, resolveArtDirection } from '../js/art/generator.js';
+
+        async function initContactSheet() {
+            const grid = document.getElementById('contact-grid');
+            try {
+                const response = await fetch('../index.json');
+                const data = await response.json();
+                const posts = data.posts || [];
+
+                grid.innerHTML = posts.map(post => {
+                    const coverSvg = renderCover(post, { width: 400, height: 225, showText: true });
+                    const resolved = resolveArtDirection(post);
+                    const desk = post.desk || resolved.desk || 'Front Page';
+                    const motif = resolved.motif;
+                    const lang = (post.language || resolved.lang || 'en').toUpperCase();
+
+                    return `
+                        <article class="art-card">
+                            <div class="art-preview">
+                                ${coverSvg}
+                            </div>
+                            <div class="art-meta">
+                                <h2 class="art-title">${post.title}</h2>
+                                <div class="art-tags">
+                                    <span class="tag-desk">📍 ${desk}</span>
+                                    <span class="tag-motif">🎨 ${motif}</span>
+                                    <span class="tag-lang">🌐 ${lang}</span>
+                                </div>
+                            </div>
+                        </article>
+                    `;
+                }).join('');
+            } catch (err) {
+                console.error('Failed to load blog index:', err);
+            }
+        }
+
+        initContactSheet();
+    </script>
+</body>
+</html>

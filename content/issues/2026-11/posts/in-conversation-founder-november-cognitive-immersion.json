@@ -1,0 +1,170 @@
+{
+  "id": "post-in-conversation-founder-november-cognitive-immersion",
+  "slug": "in-conversation-founder-november-cognitive-immersion",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "founder_interview",
+  "format": "qa",
+  "level": "B2–C1",
+  "issue": {
+    "number": "Vol. 2026.11",
+    "title": "November Academia"
+  },
+  "date": "2026-11-01",
+  "title": "In Conversation: Founder James on How Languages Rewire the Brain",
+  "kicker": "THEMATIC INTERVIEW DESK",
+  "dek": "Neuroplasticity, code-switching, and the timelines we draw to explain tense. Founder James (JY DM) walks through the cognitive science behind this month’s issue — and separates what the evidence supports from what the internet repeats.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Neuroplasticity",
+    "Cognitive Science",
+    "Immersion"
+  ],
+  "readingTime": 8,
+  "status": "drafting",
+  "artDirection": {
+    "palette": [
+      "#3B3A8F",
+      "#FBF8F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "riso-print",
+    "seed": "founder-november-cognitive",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "November is the magazine’s most academic issue, and the theme is cognitive immersion: what actually happens in the brain when a second language takes up residence. The volume includes a long piece on code-switching and L2 integration, a piece on creative writing as a learning tool, a master timeline for verb tenses across five languages, and an essay on reclaiming a playful brain through neuroplasticity. It is a lot of theory, so we asked the founder to translate it.",
+      "say": "November is the magazine’s most academic issue, and the theme is cognitive immersion: what actually happens in the brain when a second language takes up residence."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "This Month: November Academia",
+      "say": "This Month: November Academia"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vol. 2026.11</strong> is deliberately heavier than the autumn issues. Four pieces carry the theme: the COSYtalks essay on moving beyond translation into genuine L2 integration; a companion essay on creative writing, from micro-sparks to full stories; the Grammar desk’s master timeline, which sets English, French, Italian, Russian and Greek tense systems side by side; and a closing essay on neuroplasticity and the playful brain."
+    },
+    {
+      "type": "paragraph",
+      "text": "The through-line is a claim worth testing: that a language is not stored as a set of rules, but as a network of habits that can be rewired at any age."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: The Rewiring Claim",
+      "say": "Part I: The Rewiring Claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> ‘Languages rewire the brain’ has become a slogan. What is the defensible version of that claim, and where does it tip into exaggeration?",
+      "say": "‘Languages rewire the brain’ has become a slogan. What is the defensible version of that claim, and where does it tip into exaggeration?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Adults are often told their window has closed. What does the evidence actually say about adult neuroplasticity and language?",
+      "say": "Adults are often told their window has closed. What does the evidence actually say about adult neuroplasticity and language?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "pullquote",
+      "quote": "The brain does not care how old you are. It cares whether you keep asking it to do the hard thing.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "The brain does not care how old you are. It cares whether you keep asking it to do the hard thing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: Code-Switching and Integration",
+      "say": "Part II: Code-Switching and Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Your essay argues that code-switching is not a failure of discipline but a stage of integration. Can you walk us through that?",
+      "say": "Your essay argues that code-switching is not a failure of discipline but a stage of integration. Can you walk us through that?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> What would a reader notice in their own speech that tells them integration is happening — a sign they are moving past translation?",
+      "say": "What would a reader notice in their own speech that tells them integration is happening — a sign they are moving past translation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: Timelines, Stories, and Memory",
+      "say": "Part III: Timelines, Stories, and Memory"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> The Grammar desk publishes a master timeline for five languages this month. Why does a spatial metaphor — a line, a timeline — help learners hold tense systems in their heads?",
+      "say": "The Grammar desk publishes a master timeline for five languages this month. Why does a spatial metaphor — a line, a timeline — help learners hold tense systems in their heads?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Creative writing is usually treated as an advanced luxury. You put it at the centre of this issue. Why?",
+      "say": "Creative writing is usually treated as an advanced luxury. You put it at the centre of this issue. Why?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Founder’s Research Spark",
+      "content": "💡 This could be a good research question: does narrative writing in the target language produce measurable gains in syntactic complexity compared with descriptive writing at the same proficiency level?",
+      "say": "This could be a good research question: does narrative writing in the target language produce measurable gains in syntactic complexity compared with descriptive writing at the same proficiency level?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part IV: The Playful Brain",
+      "say": "Part IV: The Playful Brain"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> ‘Reclaim your playful brain’ closes the issue. What does playfulness look like for an adult learner who feels they have none left?",
+      "say": "‘Reclaim your playful brain’ closes the issue. What does playfulness look like for an adult learner who feels they have none left?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true
+}

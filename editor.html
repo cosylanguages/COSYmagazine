@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSYmagazine Studio</title>
+    <meta name="description" content="The COSYmagazine Studio: build, edit, review and publish magazine issues and website articles.">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="images/logo.png">
+    <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
+
+    <!-- Apply the saved theme (or the system preference) before first paint -->
+    <script src="js/theme-init.js"></script>
+    <script>
+        try {
+            if (!document.documentElement.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        } catch (e) {}
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Core & editorial styling (used by the live preview) -->
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/article-visuals.css">
+    <link rel="stylesheet" href="css/notebook.css">
+    <link rel="stylesheet" href="css/editor.css">
+
+    <!-- Supabase JS Client SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1" integrity="sha384-YieCqqg9gQufX7+5HcFvCEg/n3KUEdl8/Jb+A6J0npf1mB740VayvwKjTrtCeUoy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/dark-fixes.css">
+</head>
+<body class="studio-body" data-view="edit">
+
+    <!-- Icon sprite (stroke icons, 24px grid) -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <defs>
+            <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+            <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+            <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+            <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+            <symbol id="i-chevron-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+            <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+            <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"/></symbol>
+            <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+            <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M10 11v6M14 11v6"/></symbol>
+            <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+            <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></symbol>
+            <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+            <symbol id="i-upload-cloud" viewBox="0 0 24 24"><path d="M4 14.9A7 7 0 1 1 15.7 8h1.8a4.5 4.5 0 0 1 2.5 8.2M12 12v9M16 16l-4-4-4 4"/></symbol>
+            <symbol id="i-file-up" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M12 18v-6M9 15l3-3 3 3"/></symbol>
+            <symbol id="i-log-in" viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/></symbol>
+            <symbol id="i-log-out" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+            <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+            <symbol id="i-book-open" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+            <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+            <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></symbol>
+            <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7.1-7.1l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7.1 7.1l1.7-1.7"/></symbol>
+            <symbol id="i-heading" viewBox="0 0 24 24"><path d="M4 12h8M4 18V6M12 18V6M17 12l3-2v8"/></symbol>
+            <symbol id="i-pilcrow" viewBox="0 0 24 24"><path d="M13 4v16M17 4v16M19 4H9.5a4.5 4.5 0 0 0 0 9H13"/></symbol>
+            <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+            <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3zM19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></symbol>
+            <symbol id="i-table" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></symbol>
+            <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></symbol>
+            <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></symbol>
+            <symbol id="i-quote" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.76-2-2-2H4c-1.25 0-2 .75-2 2v6c0 1.25.75 2 2 2h1c1 0 1 0 1 1v1c0 1-1 2-2 2s-1 0-1 1zM15 21c3 0 7-1 7-8V5c0-1.25-.76-2-2-2h-4c-1.25 0-2 .75-2 2v6c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3z"/></symbol>
+            <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></symbol>
+            <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+            <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.7 18-8-14a2 2 0 0 0-3.5 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.7-3zM12 9v4M12 17h.01"/></symbol>
+            <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+            <symbol id="i-check-circle" viewBox="0 0 24 24"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1M22 4 12 14l-3-3"/></symbol>
+            <symbol id="i-x-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6M9 9l6 6"/></symbol>
+            <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4"/></symbol>
+            <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></symbol>
+            <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></symbol>
+            <symbol id="i-undo" viewBox="0 0 24 24"><path d="M3 7v6h6M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"/></symbol>
+            <symbol id="i-expand" viewBox="0 0 24 24"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></symbol>
+            <symbol id="i-collapse" viewBox="0 0 24 24"><path d="m7 20 5-5 5 5M7 4l5 5 5-5"/></symbol>
+            <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.8 2.2a2 2 0 0 0-1.6 0L2.6 6.1a1 1 0 0 0 0 1.8l8.6 3.9a2 2 0 0 0 1.6 0l8.6-3.9a1 1 0 0 0 0-1.8zM22 17.7l-9.2 4.1a2 2 0 0 1-1.6 0L2 17.7M22 12.7l-9.2 4.1a2 2 0 0 1-1.6 0L2 12.7"/></symbol>
+            <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+            <symbol id="i-template" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="7" rx="1"/><rect x="3" y="14" width="9" height="7" rx="1"/><rect x="16" y="14" width="5" height="7" rx="1"/></symbol>
+            <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+            <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+            <symbol id="i-file-text" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+            <symbol id="i-mic-script" viewBox="0 0 24 24"><path d="M4 6h10M4 12h7M4 18h10M18 8v8M21 10v4"/></symbol>
+        </defs>
+    </svg>
+
+    <a class="skip-link" href="#studio-main">Skip to the editor</a>
+
+    <!-- App bar -->
+    <header class="studio-header">
+        <div class="studio-header-left">
+            <a class="studio-brand" href="index.html" title="Back to COSYmagazine">
+                <img src="images/logo.png" alt="" class="studio-logo" width="28" height="28">
+                <span class="studio-brand-name">COSYmagazine <span class="studio-brand-tag">Studio</span></span>
+            </a>
+            <span class="studio-header-sep" aria-hidden="true"></span>
+            <nav class="studio-crumbs" aria-label="Current article">
+                <span id="studio-crumb-issue" class="crumb-issue">Vol. —</span>
+                <svg class="icon icon-sm crumb-chev" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+                <span id="studio-crumb-title" class="crumb-title">Untitled article</span>
+                <span id="studio-dirty-badge" class="dirty-badge" hidden title="You have changes that are not exported or published yet">Unsaved</span>
+            </nav>
+        </div>
+
+        <div class="studio-header-right">
+            <span id="studio-status-bar" class="studio-status" role="status" aria-live="polite"></span>
+
+            <div class="menu">
+                <button type="button" id="studio-export-menu-btn" class="btn" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-export-menu">
+                    <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+                    <span class="btn-label">Export</span>
+                    <svg class="icon icon-sm" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+                </button>
+                <div id="studio-export-menu" class="menu-panel" role="menu" aria-label="Export and import" hidden>
+                    <button type="button" id="studio-download-json-btn" class="menu-item" role="menuitem">
+                        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+                        <span><strong>Download JSON</strong><small>Save as posts/&lt;slug&gt;.json</small></span>
+                    </button>
+                    <button type="button" id="studio-copy-json-btn" class="menu-item" role="menuitem">
+                        <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>
+                        <span><strong>Copy JSON</strong><small>To the clipboard</small></span>
+                    </button>
+                    <button type="button" id="studio-import-btn" class="menu-item" role="menuitem">
+                        <svg class="icon" aria-hidden="true"><use href="#i-file-up"/></svg>
+                        <span><strong>Import JSON…</strong><small>Open an article file</small></span>
+                    </button>
+                </div>
+                <input type="file" id="studio-file-import" accept=".json,application/json" hidden>
+            </div>
+
+            <button type="button" id="studio-save-live-btn" class="btn btn-primary" aria-disabled="true">
+                <svg class="icon" aria-hidden="true"><use href="#i-upload-cloud"/></svg>
+                <span class="btn-label">Save to DB</span>
+            </button>
+
+            <button type="button" id="studio-theme-btn" class="btn btn-icon btn-ghost" aria-label="Switch to dark theme" title="Switch theme">
+                <svg class="icon" aria-hidden="true"><use id="studio-theme-icon" href="#i-moon"/></svg>
+            </button>
+
+            <button type="button" id="studio-login-btn" class="btn">
+                <svg class="icon" aria-hidden="true"><use href="#i-log-in"/></svg>
+                <span class="btn-label">Sign in</span>
+            </button>
+
+            <div class="menu" id="studio-account" hidden>
+                <button type="button" id="studio-account-btn" class="account-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-account-menu">
+                    <span id="studio-account-initial" class="avatar" aria-hidden="true">?</span>
+                    <span id="studio-founder-badge" class="role-chip role-guest">Guest</span>
+                    <svg class="icon icon-sm" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+                </button>
+                <div id="studio-account-menu" class="menu-panel menu-panel-right" role="menu" aria-label="Account" hidden>
+                    <div class="menu-identity">
+                        <strong id="studio-account-email">Signed in</strong>
+                        <span id="studio-account-caps" class="menu-caps"></span>
+                    </div>
+                    <button type="button" id="studio-logout-btn" class="menu-item" role="menuitem">
+                        <svg class="icon" aria-hidden="true"><use href="#i-log-out"/></svg>
+                        <span><strong>Sign out</strong></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Workspace -->
+    <div class="studio-workspace" id="studio-main">
+
+        <!-- Left: builder -->
+        <aside class="studio-workbench" aria-label="Article builder">
+            <div class="wb-tabs" role="tablist" aria-label="Builder sections">
+                <button type="button" class="wb-tab" role="tab" id="tab-start" data-tab="start" aria-controls="panel-start" aria-selected="false">
+                    <svg class="icon" aria-hidden="true"><use href="#i-template"/></svg>Start
+                </button>
+                <button type="button" class="wb-tab" role="tab" id="tab-details" data-tab="details" aria-controls="panel-details" aria-selected="false">
+                    <svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg>Details
+                </button>
+                <button type="button" class="wb-tab" role="tab" id="tab-editorial" data-tab="editorial" aria-controls="panel-editorial" aria-selected="false">
+                    <svg class="icon" aria-hidden="true"><use href="#i-check-circle"/></svg>Editorial
+                </button>
+                <button type="button" class="wb-tab" role="tab" id="tab-content" data-tab="content" aria-controls="panel-content" aria-selected="true">
+                    <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>Content
+                    <span id="studio-block-count" class="tab-count">0</span>
+                </button>
+            </div>
+
+            <div class="wb-scroll">
+
+                <!-- START -->
+                <section class="wb-panel" id="panel-start" role="tabpanel" aria-labelledby="tab-start" data-panel="start" hidden>
+
+                    <div class="card">
+                        <h2 class="card-title">Where does this article live?</h2>
+                        <div class="segmented segmented-full" role="group" aria-label="Constructor mode">
+                            <button type="button" id="studio-mode-magazine-btn" class="segmented-btn is-active" data-mode="magazine" aria-pressed="true">
+                                <svg class="icon" aria-hidden="true"><use href="#i-book-open"/></svg>Magazine issue
+                            </button>
+                            <button type="button" id="studio-mode-website-btn" class="segmented-btn" data-mode="website" aria-pressed="false">
+                                <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>Website article
+                            </button>
+                        </div>
+
+                        <!-- Magazine mode -->
+                        <div id="workbench-issue-mode-panel" class="constructor-mode-panel">
+                            <div class="field">
+                                <label for="studio-issue-selector">Active edition</label>
+                                <div class="field-row">
+                                    <select id="studio-issue-selector" class="form-control"></select>
+                                    <button type="button" id="studio-edit-issue-btn" class="btn btn-icon" aria-label="Edit this issue" title="Edit this issue">
+                                        <svg class="icon" aria-hidden="true"><use href="#i-pencil"/></svg>
+                                    </button>
+                                    <button type="button" id="studio-create-issue-btn" class="btn btn-icon" aria-label="Create a new issue" title="Create a new issue">
+                                        <svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="studio-active-issue-card" class="issue-card">
+                                <div class="issue-card-row">
+                                    <span id="active-issue-vol-badge" class="issue-vol">Vol. 2026.08</span>
+                                    <strong id="active-issue-title-heading" class="issue-title">Get Ready for School</strong>
+                                </div>
+                                <p id="active-issue-theme-text" class="issue-theme"></p>
+                            </div>
+
+                            <div id="studio-issue-articles-box" class="issue-articles-box">
+                                <div class="issue-articles-header">
+                                    <label for="studio-issue-article-selector" class="issue-articles-label">
+                                        <svg class="icon icon-sm" aria-hidden="true"><use href="#i-book-open"/></svg>
+                                        <span>Issue Articles</span>
+                                    </label>
+                                    <span id="studio-issue-articles-count" class="badge">0 articles</span>
+                                </div>
+                                <select id="studio-issue-article-selector" class="form-control">
+                                    <option value="">Loading issue articles…</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <label for="studio-section-selector">Build a canonical section</label>
+                                <div class="field-row">
+                                    <select id="studio-section-selector" class="form-control"></select>
+                                    <button type="button" id="studio-apply-section-btn" class="btn btn-primary">Build</button>
+                                </div>
+                                <p id="studio-section-desc-hint" class="hint"></p>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <button type="button" id="studio-issue-planner-btn" class="btn btn-block">
+                                <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>
+                                <span>Plan an issue (pages)</span>
+                            </button>
+                            <button type="button" id="studio-upload-pdf-btn" class="btn btn-block" aria-disabled="true">
+                                <svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg>
+                                <span>Upload issue PDF</span>
+                                <span class="lock-tag"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-lock"/></svg>Founder</span>
+                            </button>
+                        </div>
+
+                        <!-- Website mode -->
+                        <div id="workbench-website-mode-panel" class="constructor-mode-panel" hidden>
+                            <p class="hint hint-lead">Standalone website articles, podcast scripts and digital guides.</p>
+                            <label class="switch-row" for="studio-is-magazine-part-check">
+                                <input type="checkbox" id="studio-is-magazine-part-check" class="switch-input">
+                                <span class="switch-ui" aria-hidden="true"></span>
+                                <span class="switch-text">
+                                    <strong>Part of a magazine issue</strong>
+                                    <small>Turn off for a standalone website piece.</small>
+                                </span>
+                            </label>
+                            <p id="studio-website-mode-status" class="hint"></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="card-title">Start from a template</h2>
+                        <div class="preset-grid">
+                            <button type="button" class="preset-card" data-preset="preset-cosytalks">
+                                <svg class="icon" aria-hidden="true"><use href="#i-mic-script"/></svg>
+                                <span class="preset-name">COSYtalks</span>
+                                <span class="preset-desc">Reflections &amp; Long Reads</span>
+                            </button>
+                            <button type="button" class="preset-card" data-preset="preset-grammar-by-cosy">
+                                <svg class="icon" aria-hidden="true"><use href="#i-book-open"/></svg>
+                                <span class="preset-name">Grammar by COSY</span>
+                                <span class="preset-desc">Timelines &amp; decision trees</span>
+                            </button>
+                            <button type="button" class="preset-card" data-preset="preset-words-by-cosy">
+                                <svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>
+                                <span class="preset-name">Words by COSY</span>
+                                <span class="preset-desc">Stop! frames &amp; top words</span>
+                            </button>
+                            <button type="button" class="preset-card" data-preset="preset-saturday-mistakes">
+                                <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+                                <span class="preset-name">Saturday Mistakes</span>
+                                <span class="preset-desc">Website-only slips &amp; quiz</span>
+                            </button>
+                            <button type="button" class="preset-card" data-preset="preset-thursday-stories">
+                                <svg class="icon" aria-hidden="true"><use href="#i-message"/></svg>
+                                <span class="preset-name">Thursday Stories</span>
+                                <span class="preset-desc">Website-only narrative journal</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="card-title">Open a published article</h2>
+                        <div class="field">
+                            <label for="studio-load-filter" class="visually-hidden">Filter articles</label>
+                            <div class="search-field">
+                                <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+                                <input type="search" id="studio-load-filter" class="form-control" placeholder="Filter by title or slug" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="field field-last">
+                            <label for="studio-load-selector" class="visually-hidden">Published article</label>
+                            <select id="studio-load-selector" class="form-control">
+                                <option value="">Loading articles…</option>
+                            </select>
+                            <p id="studio-load-count" class="hint"></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- DETAILS -->
+                <section class="wb-panel" id="panel-details" role="tabpanel" aria-labelledby="tab-details" data-panel="details" hidden>
+
+                    <div class="card">
+                        <h2 class="card-title">Headline</h2>
+                        <div class="field">
+                            <label for="meta-title">Title</label>
+                            <input type="text" id="meta-title" class="form-control" placeholder="Article headline" autocomplete="off">
+                        </div>
+                        <div class="field">
+                            <label for="meta-kicker">Kicker</label>
+                            <input type="text" id="meta-kicker" class="form-control" placeholder="e.g. SATURDAY MISTAKES" autocomplete="off">
+                            <p class="hint">The short label shown above the headline.</p>
+                        </div>
+                        <div class="field field-last">
+                            <label for="meta-dek">Dek (subheadline)</label>
+                            <textarea id="meta-dek" class="form-control" rows="3" placeholder="One or two sentences that sum up the article."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="card-title">Publishing</h2>
+                        <div class="field">
+                            <label for="meta-slug">Slug</label>
+                            <div class="affix-field">
+                                <span class="affix" aria-hidden="true">/</span>
+                                <input type="text" id="meta-slug" class="form-control mono" placeholder="my-article-slug" autocomplete="off" spellcheck="false" aria-describedby="meta-slug-hint">
+                                <span class="affix" aria-hidden="true">.html</span>
+                            </div>
+                            <p id="meta-slug-hint" class="hint">Lowercase letters, numbers and hyphens. Also the JSON file name.</p>
+                        </div>
+                        <div class="field-grid field-last">
+                            <div class="field">
+                                <label for="meta-language">Language</label>
+                                <select id="meta-language" class="form-control"></select>
+                            </div>
+                            <div class="field">
+                                <label for="meta-date">Date</label>
+                                <input type="date" id="meta-date" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="card-title">Classification</h2>
+                        <div class="field-grid">
+                            <div class="field">
+                                <label for="meta-desk">Desk</label>
+                                <select id="meta-desk" class="form-control"></select>
+                            </div>
+                            <div class="field">
+                                <label for="meta-level">CEFR level</label>
+                                <select id="meta-level" class="form-control"></select>
+                            </div>
+                            <div class="field">
+                                <label for="meta-format">Format</label>
+                                <select id="meta-format" class="form-control"></select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="meta-tags">Tags</label>
+                            <input type="text" id="meta-tags" class="form-control" placeholder="SpeakingFirst, Vocabulary, Grammar" autocomplete="off">
+                            <p class="hint">Separate with commas.</p>
+                        </div>
+                        <div class="field-grid field-last">
+                            <div class="field">
+                                <label for="meta-reading-time">Reading time (min)</label>
+                                <input type="number" id="meta-reading-time" class="form-control" min="1" max="60" value="5">
+                            </div>
+                            <div class="field">
+                                <label for="meta-podcast-ep">Podcast episode #</label>
+                                <input type="number" id="meta-podcast-ep" class="form-control" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="card-title">Issue</h2>
+                        <div class="field-grid field-last">
+                            <div class="field">
+                                <label for="meta-issue-number">Issue number</label>
+                                <input type="text" id="meta-issue-number" class="form-control" placeholder="Vol. 2026.12" autocomplete="off">
+                            </div>
+                            <div class="field">
+                                <label for="meta-issue-title">Issue title</label>
+                                <input type="text" id="meta-issue-title" class="form-control" placeholder="Winter Grammar" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- EDITORIAL -->
+                <section class="wb-panel" id="panel-editorial" role="tabpanel" aria-labelledby="tab-editorial" data-panel="editorial" hidden>
+                    <div class="card">
+                        <h2 class="card-title">Type and status</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ed-content-type">Content type</label>
+                                <select class="form-control" id="ed-content-type"></select>
+                                <p class="hint" id="ed-content-type-hint"></p>
+                            </div>
+                            <div class="form-group">
+                                <label for="ed-status">Status</label>
+                                <select class="form-control" id="ed-status"></select>
+                                <p class="hint" id="ed-status-hint"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ed-publish-at">Publish date (optional)</label>
+                            <input type="date" class="form-control" id="ed-publish-at">
+                            <p class="hint">Publish with a future date to schedule it: the site holds the article back and releases it automatically on that day (daily run at about 05:15 UTC). Leave empty to go live right away.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="ed-owner">Owner</label>
+                            <input type="text" class="form-control" id="ed-owner" placeholder="Who is responsible for this piece">
+                        </div>
+                        <div class="form-group">
+                            <label for="ed-notes">Editor notes</label>
+                            <textarea class="form-control" id="ed-notes" rows="3" placeholder="Internal notes. Not shown to readers."></textarea>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">Fact-check ledger</h2>
+                        <label class="check-row"><input type="checkbox" id="ed-real-person"> This article names or quotes a real person</label>
+                        <p class="hint">Publishing is blocked until consent is recorded as done for articles about real people.</p>
+                        <div id="ed-ledger" class="ledger"></div>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">Paper edition</h2>
+                        <dl class="summary-list" id="ed-print-summary"></dl>
+                        <div class="form-group fg-xs">
+                            <label for="ed-print-pages">Pages after layout proof</label>
+                            <input type="number" min="1" class="form-control" id="ed-print-pages" placeholder="Auto">
+                            <p class="hint">Leave empty to use the estimate. Once the article is laid out, enter the real page count.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CONTENT -->
+                <section class="wb-panel" id="panel-content" role="tabpanel" aria-labelledby="tab-content" data-panel="content">
+
+                    <div class="content-toolbar">
+                        <div class="content-toolbar-main">
+                            <button type="button" id="studio-add-block-btn" class="btn btn-primary" aria-expanded="false" aria-controls="studio-block-palette">
+                                <svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg>Add block
+                            </button>
+                            <button type="button" id="studio-quick-add-image-btn" class="btn" title="Insert an image block">
+                                <svg class="icon" aria-hidden="true"><use href="#i-image"/></svg><span class="btn-label">Image</span>
+                            </button>
+                            <button type="button" id="studio-quick-add-link-btn" class="btn" title="Insert an ecosystem link block">
+                                <svg class="icon" aria-hidden="true"><use href="#i-link"/></svg><span class="btn-label">Link</span>
+                            </button>
+                        </div>
+                        <div class="content-toolbar-aux">
+                            <span id="studio-stats-pill" class="stat-pill" title="Calculated live from the blocks">0 words · 1 min</span>
+                            <button type="button" id="studio-collapse-all-btn" class="btn btn-icon btn-ghost" aria-label="Collapse all blocks" title="Collapse all blocks">
+                                <svg class="icon" aria-hidden="true"><use href="#i-collapse"/></svg>
+                            </button>
+                            <button type="button" id="studio-expand-all-btn" class="btn btn-icon btn-ghost" aria-label="Expand all blocks" title="Expand all blocks">
+                                <svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="studio-block-palette" class="palette" aria-label="Block library">
+                        <div class="palette-head">
+                            <strong>Choose a block to insert</strong>
+                            <button type="button" id="studio-palette-close-btn" class="btn btn-ghost btn-sm">Close</button>
+                        </div>
+                        <div id="studio-palette-grid" class="palette-grid"></div>
+                    </div>
+
+                    <div class="element-bar" role="group" aria-label="Quick elements">
+                        <span class="element-bar-label">Quick elements</span>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="quote_pull" title="Stylised pullquote highlight">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-quote"/></svg>Pullquote
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="callout_spark" title="Research spark callout">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-bookmark"/></svg>Research spark
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="table_comparison" title="Comparative matrix table">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-table"/></svg>Matrix table
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="cards_vocabulary" title="Vocabulary upgrade cards">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-list"/></svg>Vocab cards
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="audio_script_dialogue" title="Dialogue with audio script">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-mic-script"/></svg>Audio script
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="thematic_crossword_preset" title="Full-page thematic crossword">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-table"/></svg>Crossword
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="timeline_visual" title="Visual grammar timeline">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-calendar"/></svg>Timeline
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="decision_tree_grammar" title="Grammar decision tree">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-layers"/></svg>Decision Tree
+                        </button>
+                        <button type="button" class="chip-btn studio-modular-insert-btn" data-preset="stop_translating_frames" title="Stop Translating frames table">
+                            <svg class="icon icon-sm" aria-hidden="true"><use href="#i-table"/></svg>Stop! Frames
+                        </button>
+                    </div>
+
+                    <div id="studio-blocks-container"></div>
+                </section>
+            </div>
+
+            <!-- Undo bar for deleted blocks -->
+            <div id="studio-undo-banner" class="undo-bar" role="status" hidden>
+                <span id="studio-undo-text">Block deleted.</span>
+                <button type="button" id="studio-undo-btn" class="btn btn-sm">
+                    <svg class="icon icon-sm" aria-hidden="true"><use href="#i-undo"/></svg>Undo
+                </button>
+            </div>
+        </aside>
+
+        <!-- Right: live preview -->
+        <main class="studio-preview-pane" aria-label="Live preview">
+            <div class="preview-bar">
+                <span class="preview-live"><span class="live-dot" aria-hidden="true"></span>Live preview</span>
+                <span id="studio-preview-mode" class="preview-mode">Magazine spread</span>
+                <span class="medium-switch" role="group" aria-label="Preview as">
+                    <button type="button" class="medium-btn is-active" data-medium-btn="screen" aria-pressed="true">Screen</button>
+                    <button type="button" class="medium-btn" data-medium-btn="print" aria-pressed="false">Print</button>
+                </span>
+                <code id="studio-preview-path" class="preview-path"></code>
+            </div>
+            <div class="preview-scroll">
+                <div class="studio-preview-wrapper" id="studio-preview-root"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Edit / Preview switch on narrow screens -->
+    <nav class="studio-viewbar" aria-label="Switch between editing and previewing">
+        <button type="button" class="viewbar-btn is-active" data-view-btn="edit" aria-pressed="true">
+            <svg class="icon" aria-hidden="true"><use href="#i-pencil"/></svg>Edit
+        </button>
+        <button type="button" class="viewbar-btn" data-view-btn="preview" aria-pressed="false">
+            <svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg>Preview
+        </button>
+    </nav>
+
+    <!-- Issue create / edit -->
+    <div id="studio-issue-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="studio-issue-modal-heading">
+            <form id="studio-issue-form">
+                <header class="modal-head">
+                    <h2 id="studio-issue-modal-heading">Create new issue</h2>
+                    <button type="button" id="studio-issue-modal-close" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
+                        <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+                    </button>
+                </header>
+                <div class="modal-body">
+                    <p class="modal-lead">Issue details apply to this editing session and are written into each article's <code>issue</code> field when you export or publish. They are not stored on a server.</p>
+                    <input type="hidden" id="issue-modal-mode" value="create">
+                    <input type="hidden" id="issue-modal-id" value="">
+                    <div class="field">
+                        <label for="issue-modal-volume">Volume number</label>
+                        <input type="text" id="issue-modal-volume" class="form-control" placeholder="Vol. 2027.03" required autocomplete="off">
+                    </div>
+                    <div class="field">
+                        <label for="issue-modal-title">Issue title</label>
+                        <input type="text" id="issue-modal-title" class="form-control" placeholder="Spring Renewal" required autocomplete="off">
+                    </div>
+                    <div class="field">
+                        <label for="issue-modal-theme">Core theme</label>
+                        <textarea id="issue-modal-theme" class="form-control" rows="2" placeholder="Conversational agility, creative expression, and stepping outside comfort zones…"></textarea>
+                    </div>
+                    <div class="field-grid field-last">
+                        <div class="field">
+                            <label for="issue-modal-date">Publication date</label>
+                            <input type="date" id="issue-modal-date" class="form-control">
+                        </div>
+                        <div class="field">
+                            <label for="issue-modal-color">Accent colour</label>
+                            <input type="color" id="issue-modal-color" class="form-control form-color" value="#993c1d">
+                        </div>
+                    </div>
+                </div>
+                <footer class="modal-foot">
+                    <button type="button" class="btn" data-close>Cancel</button>
+                    <button type="submit" id="studio-issue-submit-btn" class="btn btn-primary">Save issue</button>
+                </footer>
+            </form>
+        </div>
+    </div>
+
+    <!-- Magazine PDF upload -->
+    <div id="studio-planner-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card modal-wide" role="dialog" aria-modal="true" aria-labelledby="studio-planner-heading">
+            <header class="modal-head">
+                <h2 id="studio-planner-heading">Plan an issue</h2>
+                <button type="button" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
+                    <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+                </button>
+            </header>
+            <div class="modal-body">
+                <p class="modal-lead">Estimates the paper edition from the articles in an issue. One paper edition is printed in one language; articles in other languages stay on the website or go into that language's own edition. Inside pages must be a multiple of 4. These are estimates: enter real page counts after a layout proof.</p>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="planner-issue">Issue</label>
+                        <select class="form-control" id="planner-issue"></select>
+                    </div>
+                    <div class="form-group fg-sm">
+                        <label for="planner-language">Print language</label>
+                        <select class="form-control" id="planner-language"></select>
+                    </div>
+                    <div class="form-group fg-sm">
+                        <label for="planner-mode">Layout</label>
+                        <select class="form-control" id="planner-mode">
+                            <option value="fresh">New page each</option>
+                            <option value="flow">Shared pages</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="planner-body" class="planner-body" aria-live="polite"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="studio-pdf-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="studio-pdf-modal-heading">
+            <form id="studio-pdf-upload-form">
+                <header class="modal-head">
+                    <h2 id="studio-pdf-modal-heading">Upload issue PDF</h2>
+                    <button type="button" id="studio-pdf-modal-close" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
+                        <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+                    </button>
+                </header>
+                <div class="modal-body">
+                    <p class="modal-lead">Uploads the full edition to private storage (<code>magazine-editions</code>) and registers it in the issues table.</p>
+                    <div class="field">
+                        <label for="studio-pdf-file-input">PDF file</label>
+                        <input type="file" id="studio-pdf-file-input" class="form-control" accept=".pdf,application/pdf" required>
+                    </div>
+                    <div class="field">
+                        <label for="studio-pdf-volume-input">Volume number</label>
+                        <input type="text" id="studio-pdf-volume-input" class="form-control" placeholder="Vol. 2026.08" required autocomplete="off">
+                    </div>
+                    <div class="field">
+                        <label for="studio-pdf-language-input">Edition language</label>
+                        <select id="studio-pdf-language-input" class="form-control">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="ru">Русский</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="studio-pdf-title-input">Issue title <span class="optional">(optional)</span></label>
+                        <input type="text" id="studio-pdf-title-input" class="form-control" placeholder="Get Ready for School" autocomplete="off">
+                    </div>
+                    <label class="check-row" for="studio-pdf-publish-check">
+                        <input type="checkbox" id="studio-pdf-publish-check" checked>
+                        <span>Mark this issue as published immediately</span>
+                    </label>
+                    <div id="studio-pdf-status-msg" class="form-msg" role="status" aria-live="polite"></div>
+                </div>
+                <footer class="modal-foot">
+                    <button type="button" class="btn" data-close>Cancel</button>
+                    <button type="submit" id="studio-pdf-submit-btn" class="btn btn-primary">
+                        <svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg>Upload PDF
+                    </button>
+                </footer>
+            </form>
+        </div>
+    </div>
+
+    <!-- Review & publish -->
+    <div id="studio-publish-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card modal-card-wide" role="dialog" aria-modal="true" aria-labelledby="studio-publish-modal-heading">
+            <header class="modal-head">
+                <h2 id="studio-publish-modal-heading">Save to the content database</h2>
+                <button type="button" id="studio-publish-modal-close" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
+                    <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+                </button>
+            </header>
+            <div class="modal-body">
+                <dl id="studio-publish-summary" class="summary-list"></dl>
+                <h3 class="modal-subtitle">Checks</h3>
+                <ul id="studio-readiness-list" class="readiness-list"></ul>
+                <div class="notice">
+                    <svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
+                    <p>Saving stores this article in the COSY content database (Supabase). It does <strong>not</strong> change the static site files in this repository. To ship it with the next site build, also download the JSON and commit it to <code>content/</code>.</p>
+                </div>
+                <div id="studio-publish-msg" class="form-msg" role="status" aria-live="polite"></div>
+            </div>
+            <footer class="modal-foot">
+                <button type="button" class="btn" data-close>Cancel</button>
+                <button type="button" id="studio-publish-confirm-btn" class="btn btn-primary">
+                    <svg class="icon" aria-hidden="true"><use href="#i-upload-cloud"/></svg>Save to database
+                </button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Generic confirmation -->
+    <div id="studio-confirm-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card modal-card-narrow" role="alertdialog" aria-modal="true" aria-labelledby="studio-confirm-title" aria-describedby="studio-confirm-body">
+            <header class="modal-head">
+                <h2 id="studio-confirm-title">Are you sure?</h2>
+            </header>
+            <div class="modal-body">
+                <p id="studio-confirm-body" class="modal-lead"></p>
+            </div>
+            <footer class="modal-foot">
+                <button type="button" id="studio-confirm-cancel-btn" class="btn" data-close>Cancel</button>
+                <button type="button" id="studio-confirm-ok-btn" class="btn btn-danger">Continue</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Sign in -->
+    <div id="studio-auth-modal" class="modal" hidden>
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-card modal-card-narrow" role="dialog" aria-modal="true" aria-labelledby="studio-auth-heading">
+            <form id="studio-login-form">
+                <header class="modal-head">
+                    <h2 id="studio-auth-heading">Sign in to the Studio</h2>
+                    <button type="button" id="studio-modal-close" class="btn btn-icon btn-ghost" aria-label="Close" data-close>
+                        <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+                    </button>
+                </header>
+                <div class="modal-body">
+                    <p class="modal-lead">Use your COSY account. Everyone can draft, import and export articles; founder accounts can also publish and upload issue PDFs.</p>
+                    <div class="field">
+                        <label for="studio-auth-email">Email</label>
+                        <input type="email" id="studio-auth-email" class="form-control" required placeholder="you@cosylanguages.com" autocomplete="username">
+                    </div>
+                    <div class="field">
+                        <label for="studio-auth-password">Password</label>
+                        <input type="password" id="studio-auth-password" class="form-control" required autocomplete="current-password">
+                    </div>
+                    <div id="studio-auth-error" class="form-msg msg-error" role="alert"></div>
+                </div>
+                <footer class="modal-foot">
+                    <button type="button" class="btn" data-close>Cancel</button>
+                    <button type="submit" id="studio-login-submit-btn" class="btn btn-primary">Sign in</button>
+                </footer>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/cms-auth.js"></script>
+    <script src="js/studio-core.js"></script>
+    <script src="js/issue-studio.js"></script>
+    <script src="js/print-spec.js"></script>
+    <script src="js/editor-blocks.js"></script>
+    <script src="js/editor.js"></script>
+</body>
+</html>

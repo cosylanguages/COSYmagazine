@@ -1,0 +1,88 @@
+{
+  "id": "post-cosy-sightings-august-first-day",
+  "slug": "cosy-sightings-august-first-day",
+  "language": "en",
+  "desk": "Words",
+  "section": "cosy_sightings",
+  "format": "essay",
+  "level": "A1–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "COSY Sightings: The Language of the First Day",
+  "kicker": "COSY SIGHTINGS · A1–C1",
+  "dek": "Where this month’s words turned up in ordinary places — a bookshop till, a school gate, a bakery counter.",
+  "tags": [
+    "COSY Sightings",
+    "August",
+    "Vocabulary"
+  ],
+  "readingTime": 3,
+  "printOrder": 150,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "cosy-sightings-august-first-day",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Sightings is the part of the magazine where the language stops being homework. This month we looked for the vocabulary of beginning: enrolment, timetable, term, register, first day."
+    },
+    {
+      "type": "paragraph",
+      "text": "A bookshop at a station in Lyon, the first week of September: a hand-written card above the till reading <em>c’est la rentrée</em>. Not a slogan — a fact of national life, with its own grammar. <em>La rentrée</em> is a noun for an event everyone attends."
+    },
+    {
+      "type": "paragraph",
+      "text": "A school gate in Athens at twenty to eight: a grandmother telling a child <em>μην αγχώνεσαι</em>, do not stress yourself. The verb is <em>αγχώνομαι</em>, to be strangled by anxiety. English says “don’t worry”; Greek names the thing around your throat."
+    },
+    {
+      "type": "paragraph",
+      "text": "A bakery in Naples the same week: <em>si ricomincia</em>, we start again — said by the baker about the school run, not about the bread."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sightings are also a test of the hundred-word list. If the list is doing its job, a beginner should recognise a good share of what a city says in September: <em>open</em>, <em>new</em>, <em>first</em>, <em>day</em>, <em>time</em>, <em>start</em>. If most of a sign is still opaque, that is information too — not a failure, but a measurement of where you actually are, taken in the street rather than in a test."
+    },
+    {
+      "type": "heading",
+      "text": "Your own sightings",
+      "level": 3
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "A1–A2: Find one sign in your target language this week that uses a word from the hundred-word list. Photograph it or copy it.",
+        "B1–B2: Which word did you meet in the street before you met it in a lesson? What did you assume it meant?",
+        "C1–C2: What does your city’s vocabulary of September reveal that a textbook would leave out?",
+        "A1–A2: Copy three words from signs this week. Say each one out loud before you look it up."
+      ]
+    },
+    {
+      "type": "culture-bite",
+      "title": "This could be a good research question",
+      "content": "Do learners who record words seen in public spaces remember them longer than learners who meet the same words in a vocabulary list?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sightings runs every issue. Send yours to the desk."
+    }
+  ],
+  "draft": false
+}

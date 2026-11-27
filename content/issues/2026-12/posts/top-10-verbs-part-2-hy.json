@@ -1,0 +1,264 @@
+{
+  "id": "post-top-10-verbs-part-2-hy",
+  "slug": "top-10-verbs-part-2-hy",
+  "language": "hy",
+  "translationOf": "top-10-verbs-part-2",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "Հայերենի 10 հիմնական բայերը, Մաս 2 (A0–A1 / A2)",
+  "kicker": "ՀԱՅԵՐԵՆԻ ՈՒՂԵՑՈՒՅՑ — ՄԱՍ 2 (ԸՆԴՀԱՆՈՒՐ 2 ՄԱՍ)",
+  "dek": "Բացահայտեք հաջորդ 10 բայերը (անել, խոսել/ասել, նայել/տեսնել, լսել, պետք է, գալ/գնալ-հեռանալ, վերցնել/տալ, հարցնել/պատասխանել, սպասել, ապրել)։ Աղյուսակները COSYtools-ում։",
+  "tags": [
+    "Verbs",
+    "Armenian",
+    "A0-A1",
+    "Part2"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0284c7",
+      "#f0f9ff",
+      "#0f172a"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-2-hy",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Բարի գալուստ սկսնակների համար հայերենի բայերի ուղեցույցի Մաս 2! (Եթե չեք կարդացել [Մաս 1-ը](top-10-verbs-hy.html), սկսեք դրանից)։ Բոլոր բայական ձևերը հասանելի են [COSYtools](https://cosylanguages.github.io/COSYtools/)-ում։"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10 հիմնական բայերը (Մաս 2)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Անել:** Գործեր և պարտականություններ (*Անել դասերը*).",
+        "**2. Խոսել / Ասել:** Հաղորդակցություն (*Խոսել հայերեն*, *Ասել ճշմարտությունը*).",
+        "**3. Նայել / Տեսնել:** Ուշադրություն և տեսողություն (*Նայել ֆիլմ*).",
+        "**4. Լսել:** Լսողություն և ուշադրություն (*Երաժշտություն լսել*).",
+        "**5. Պետք է:** Անհրաժեշտություն և խորհուրդ (*Ես պետք է սովորեմ*).",
+        "**6. Գալ / Հեռանալ (Գնալ):** Ժամանում և մեկնում (*Գալ տուն*, *Գնալ ժամանակին*).",
+        "**7. Վերցնել / Տալ:** Փոխանակում և նվեր (*Սուրճ վերցնել*, *Ձեռք տալ*).",
+        "**8. Հարցնել / Պատասխանել:** Հարցեր և պատասխաններ (*Հարց տալ*, *Պատասխանել հեռախոսին*).",
+        "**9. Սպասել:** Սպասում և համբերություն (*Սպասել ավտոբուսին*).",
+        "**10. Ապրել:** Բնակություն և կյանք (*Ես ապրում եմ Երևանում*)."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-hy",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Անել",
+          "Գործեր և պարտականություններ (Անել դասերը).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Խոսել / Ասել",
+          "Հաղորդակցություն (Խոսել հայերեն, Ասել ճշմարտությունը).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Նայել / Տեսնել",
+          "Ուշադրություն և տեսողություն (Նայել ֆիլմ).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Լսել",
+          "Լսողություն և ուշադրություն (Երաժշտություն լսել).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Պետք է",
+          "Անհրաժեշտություն և խորհուրդ (Ես պետք է սովորեմ).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Գալ / Հեռանալ (Գնալ)",
+          "Ժամանում և մեկնում (Գալ տուն, Գնալ ժամանակին).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Վերցնել / Տալ",
+          "Փոխանակում և նվեր (Սուրճ վերցնել, Ձեռք տալ).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Հարցնել / Պատասխանել",
+          "Հարցեր և պատասխաններ (Հարց տալ, Պատասխանել հեռախոսին).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Սպասել",
+          "Սպասում և համբերություն (Սպասել ավտոբուսին).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Ապրել",
+          "Բնակություն և կյանք (Ես ապրում եմ Երևանում).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Բայերի համեմատական աղյուսակ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Հիմնական բայերի համեմատությունը տարբեր լեզուներում․"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Քերականություն A0–A1 / A2 մակարդակի համար"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Պարզ նախադասություններ․** Ենթակա + Բայ + Լրացում։\n• **Օժանդակ բայեր․** Ներկա և ապառնի ժամանակաձևերի կիրառություն։\n• **Խոնարհում․** Ամբողջական աղյուսակները տես [COSYtools](https://cosylanguages.github.io/COSYtools/)-ում։"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Վարժություններ և խոնարհում"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Կատարեք վարժություններ [COSYpractice](https://cosylanguages.github.io/COSYpractice/)-ում, կարդացեք [Մաս 1-ը](top-10-verbs-hy.html) և [Մաս 2-ը](top-10-verbs-part-2-hy.html), իսկ խոնարհման աղյուսակները տես [COSYtools](https://cosylanguages.github.io/COSYtools/)-ում։"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Լրացուցիչ ընթերցանություն",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

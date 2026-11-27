@@ -1,0 +1,6 @@
+/* Shared COSY design foundation (vendored from the COSYlanguages hub). */
+@import "fonts.css";
+@import "shared-tokens.css";
+@import "base.css";
+@import "components.css";
+@import "layout.css";

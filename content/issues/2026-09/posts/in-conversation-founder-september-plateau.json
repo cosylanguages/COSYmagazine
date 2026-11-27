@@ -1,0 +1,179 @@
+{
+  "id": "post-in-conversation-founder-september-plateau",
+  "slug": "in-conversation-founder-september-plateau",
+  "language": "en",
+  "desk": "COSYtalks",
+  "section": "founder_interview",
+  "format": "qa",
+  "level": "B1–C1",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-01",
+  "title": "In Conversation: Founder James on the Plateau Nobody Warns You About",
+  "kicker": "THEMATIC INTERVIEW DESK",
+  "dek": "You can order dinner, joke with a taxi driver, read a novel — and still feel like you have stopped improving. Founder James (JY DM) explains why the B1–B2 plateau is not a failure of talent, why ‘more of the same’ keeps you stuck, and how this month’s issue is built to break the loop.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Intermediate Plateau",
+    "B1-B2",
+    "Method"
+  ],
+  "readingTime": 8,
+  "status": "drafting",
+  "artDirection": {
+    "palette": [
+      "#8A4B1F",
+      "#FAF7F2",
+      "#2F6B4F",
+      "#C2703A"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "pressed-leaf",
+    "seed": "founder-september-plateau",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "September is when adults go back to studying. The notebooks come out, the app streaks restart, and the same quiet disappointment arrives a few weeks later: the words are there, the grammar is there, and yet every conversation sounds exactly like last year’s conversation. Learners call this stagnation. COSYmagazine calls it the plateau — and this entire issue is dedicated to it. We sat down with founder James (JY DM) to ask what the plateau actually is, why the usual advice makes it worse, and how the articles in this volume are designed to move a B1 speaker into B2 territory.",
+      "say": "September is when adults go back to studying. The notebooks come out, the app streaks restart, and the same quiet disappointment arrives a few weeks later. Learners call this stagnation. We call it the plateau, and this entire issue is dedicated to it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "This Month: Me vs the Intermediate Plateau",
+      "say": "This Month: Me vs the Intermediate Plateau"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before we begin, a word about the issue itself. <strong>Vol. 2026.09</strong> is built around a single diagnosis: intermediate learners do not lack vocabulary, they lack <em>range</em>. So the issue attacks range from four directions. The Words desk gives you fifty conversational upgrades for the phrases you already overuse, and fifty stronger adjectives to replace ‘very’. A second Words piece takes the ten most worn-out verbs and hands you precise synonyms. And the Long Read maps the plateau itself — what causes it, and what breaks it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Read together, the four pieces form a cycle: notice the repetition, replace it, then notice the new repetition one level up. That cycle is the whole method, and it is what the interview below unpacks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part I: Why Progress Stops Feeling Like Progress",
+      "say": "Part I: Why Progress Stops Feeling Like Progress"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> James, most learners describe the plateau as a wall. You describe it as a measurement error. What do you mean by that?",
+      "say": "James, most learners describe the plateau as a wall. You describe it as a measurement error. What do you mean by that?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "pullquote",
+      "quote": "You did not stop learning. You ran out of beginner problems to solve.",
+      "attribution": "James (JY DM), Founder of COSY Languages",
+      "say": "You did not stop learning. You ran out of beginner problems to solve."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> There is a version of this that is genuinely painful, though. Someone studies for a year and still freezes in a real conversation. Is that plateau, or is it something else?",
+      "say": "There is a version of this that is genuinely painful, though. Someone studies for a year and still freezes in a real conversation. Is that plateau, or is it something else?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part II: The Upgrade Habit",
+      "say": "Part II: The Upgrade Habit"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> This issue is full of ‘stop saying this, say that instead’ pieces. Why is swapping a phrase more powerful than learning a new one?",
+      "say": "This issue is full of ‘stop saying this, say that instead’ pieces. Why is swapping a phrase more powerful than learning a new one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> Fifty phrases, fifty adjectives, ten verbs — that is a lot of replacement. How should a reader actually work through this issue without drowning?",
+      "say": "Fifty phrases, fifty adjectives, ten verbs — that is a lot of replacement. How should a reader actually work through this issue without drowning?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part III: What Actually Moves a B1 to a B2",
+      "say": "Part III: What Actually Moves a B1 to a B2"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> If you had to name the single behaviour that separates learners who break through from learners who stay stuck for years, what would it be?",
+      "say": "If you had to name the single behaviour that separates learners who break through from learners who stay stuck for years, what would it be?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> What role does speaking — out loud, badly, in front of another person — play in this? Could a learner break the plateau silently, with reading and listening alone?",
+      "say": "What role does speaking — out loud, badly, in front of another person — play in this? Could a learner break the plateau silently, with reading and listening alone?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "culture-bite",
+      "title": "Founder’s Research Spark",
+      "content": "💡 This could be a good research question: does lexical range (type-token ratio in free speech) predict perceived fluency more strongly than grammatical accuracy at B1–B2?",
+      "say": "This could be a good research question: does lexical range (type-token ratio in free speech) predict perceived fluency more strongly than grammatical accuracy at B1–B2?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Part IV: This Issue in Practice",
+      "say": "Part IV: This Issue in Practice"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> A reader finishes this issue, closes the flipbook, and goes back to their ordinary week. What is the one habit you want them to carry out of it?",
+      "say": "A reader finishes this issue, closes the flipbook, and goes back to their ordinary week. What is the one habit you want them to carry out of it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>COSYmagazine:</strong> And looking ahead — what does the magazine do next, after the plateau?",
+      "say": "And looking ahead — what does the magazine do next, after the plateau?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James:</strong> <em>[Answer to be written in the studio — replace this line.]</em>"
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explore high-frequency verb conjugations on COSYtools"
+    }
+  ],
+  "draft": true
+}

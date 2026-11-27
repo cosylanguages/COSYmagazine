@@ -1,0 +1,209 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-ka",
+  "slug": "stop-translating-10-sentence-frames-ka",
+  "language": "ka",
+  "translationOf": "stop-translating-10-sentence-frames",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "შეწყვიტეთ თარგმნა! 10 მრავალჯერადი წინადადების სტრუქტურა პირველივე დღიდან ლაპარაკისთვის",
+  "kicker": "იბარტყეთ ახლავე",
+  "dek": "ისწავლეთ 10 წინადადების სტრუქტურა და 10 გადარჩენის ფრაზა, რათა შეწყვიტოთ სიტყვა-სიტყვით თარგმნა და იაზროვნოთ ქართულად.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Georgian"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-ka",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "ენის შემსწავლელთა უდიდესი დაბრკოლება სიტყვა-სიტყვით თარგმნაა. როდესაც სიტყვა არ იცით, გამოიყენეთ სტრუქტურები აზრის ასახსნელად."
+    },
+    {
+      "type": "paragraph",
+      "text": "აზრის პირდაპირ ქართულად გადმოცემა ქმნის ნამდვილ ენობრივ სიმარტივეს. ეს 10 სტრუქტურა დაგეხმარებათ ადამიანების, ადგილებისა და ნივთების აღწერაში."
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-ka",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "ეს არის ადამიანი, რომელიც...",
+          "ეს არის ადამიანი, რომელიც ბავშვებს ასწავლის.",
+          "მასწავლებელი"
+        ],
+        [
+          "2",
+          "ეს არის ადგილი, სადაც...",
+          "ეს არის ადგილი, სადაც საჭმელს ყიდულობენ.",
+          "ბაზარი"
+        ],
+        [
+          "3",
+          "ეს არის ნივთი, რომელიც...",
+          "ეს არის ნივთი, რომელიც დროს გვიჩვენებს.",
+          "საათი"
+        ],
+        [
+          "4",
+          "ამას იყენებენ...-თვის",
+          "ამას იყენებენ წერისთვის.",
+          "კალამი"
+        ],
+        [
+          "5",
+          "ეს არის დრო, როდესაც...",
+          "ეს არის დრო, როდესაც ადამიანებს სძინავთ.",
+          "ღამე"
+        ],
+        [
+          "6",
+          "ეს არის დღე, როდესაც...",
+          "ეს არის დღე, როდესაც ზეიმობენ.",
+          "დღესასწაული"
+        ],
+        [
+          "7",
+          "მაგალითად...",
+          "მე მიყვარს სპორტი. მაგალითად, ფეხბურთი.",
+          ""
+        ],
+        [
+          "8",
+          "ეს ნიშნავს...",
+          "'დიდი' ნიშნავს არა პატარას.",
+          ""
+        ],
+        [
+          "9",
+          "ეს ჰგავს...",
+          "ეს ჰგავს პატარა კომპიუტერს.",
+          ""
+        ],
+        [
+          "10",
+          "როგორ არის... ქართულად?",
+          "როგორ არის ეს ქართულად?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "💡 10 ძირითადი წინადადების სტრუქტურა"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. ეს არის ადამიანი, რომელიც...** → *ეს არის ადამიანი, რომელიც ბავშვებს ასწავლის.* (მასწავლებელი)",
+        "**2. ეს არის ადგილი, სადაც...** → *ეს არის ადგილი, სადაც საჭმელს ყიდულობენ.* (ბაზარი)",
+        "**3. ეს არის ნივთი, რომელიც...** → *ეს არის ნივთი, რომელიც დროს გვიჩვენებს.* (საათი)",
+        "**4. ამას იყენებენ...-თვის** → *ამას იყენებენ წერისთვის.* (კალამი)",
+        "**5. ეს არის დრო, როდესაც...** → *ეს არის დრო, როდესაც ადამიანებს სძინავთ.* (ღამე)",
+        "**6. ეს არის დღე, როდესაც...** → *ეს არის დღე, როდესაც ზეიმობენ.* (დღესასწაული)",
+        "**7. მაგალითად...** → *მე მიყვარს სპორტი. მაგალითად, ფეხბურთი.*",
+        "**8. ეს ნიშნავს...** → *'დიდი' ნიშნავს არა პატარას.*",
+        "**9. ეს ჰგავს...** → *ეს ჰგავს პატარა კომპიუტერს.*",
+        "**10. როგორ არის... ქართულად?** → *როგორ არის ეს ქართულად?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "🚀 10 აუცილებელი გადარჩენის ფრაზა"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. ეს არის ერთგვარი...** (*ეს არის ერთგვარი ცხოველი.*)",
+        "**2. ეს დამზადებულია...-გან.** (*ეს დამზადებულია ხისგან.*)",
+        "**3. ამას იყენებენ...-თვის.** (*ამას იყენებენ მოგზაურობისთვის.*)",
+        "**4. ეს არის... საპირისპირო.** (*ეს არის ძვირის საპირისპირო.*)",
+        "**5. ეს ჟღერს როგორც...** (*ეს ჟღერს როგორც მუსიკა.*)",
+        "**6. ამას აქვს...** (*ამას აქვს ოთხი თვალი/ბორბალი.*)",
+        "**7. ეს წააგავს...** (*ეს წააგავს მანქანას.*)",
+        "**8. ეს არის...-დან.** (*ეს არის საქართველოდან.*)",
+        "**9. სიტყვა არ ვიცი, მაგრამ...** (*სიტყვა არ ვიცი, მაგრამ ეს მომზადებისთვისაა.*)",
+        "**10. შეგიძლიათ გაამეოროთ?** (*კიდევ ერთხელ იტყვით?*)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "📌 შეჯამება"
+    },
+    {
+      "type": "paragraph",
+      "text": "ენის თავისუფლად ფლობა ყველა სიტყვის ცოდნა კი არა, გაჩუმებაზე უარის თქმაა. გამოიყენეთ ეს ფრაზები!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 დამატებითი საკითხავი",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

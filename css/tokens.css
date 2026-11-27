@@ -1,0 +1,135 @@
+/* ==========================================================================
+   COSYlanguages — Vogue Gazette Editorial Design Tokens (blog/css/tokens.css)
+   Tactile warm-paper aesthetic, responsive typography scale, & custom properties.
+   ========================================================================== */
+
+/* 1. Font Definitions & System Fallback Stack */
+/* Supporting Latin, Cyrillic (RU), and Greek (EL) character sets */
+:root {
+  --blog-font-display: 'Fraunces', 'Lora', Georgia, 'Times New Roman', serif;
+  --blog-font-body: 'DM Sans', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --blog-font-accent: 'Fraunces Italic', 'Lora', Georgia, serif;
+  --blog-font-mono: 'Courier New', Courier, monospace;
+
+  /* Type Scale */
+  --blog-text-xs: 0.75rem;     /* 12px */
+  --blog-text-sm: 0.875rem;    /* 14px */
+  --blog-text-base: 1.0625rem; /* 17px */
+  --blog-text-lg: 1.25rem;     /* 20px */
+  --blog-text-xl: 1.5rem;      /* 24px */
+  --blog-text-2xl: 2rem;       /* 32px */
+  --blog-text-3xl: 2.75rem;    /* 44px */
+  --blog-text-4xl: 3.5rem;     /* 56px */
+
+  /* Palette - Vogue Gazette Warm Paper */
+  --blog-paper-light: #faf7f2;
+  --blog-paper-card: #ffffff;
+  --blog-paper-aged: #f3ede4;
+  --blog-ink-primary: #1c1917;
+  --blog-ink-secondary: #44403c;
+  --blog-ink-muted: #6F6862;
+  --blog-accent-teal: #0d9488;
+  --blog-accent-crimson: #be123c;
+  --blog-accent-gold: #b45309;
+  --blog-accent-navy: #1e293b;
+  --blog-accent-sage: #3d5a45;
+  --blog-border-delicate: #e7e0d6;
+  --blog-border-strong: #292524;
+
+  /* Tactile Shadows & Paper Textures */
+  --blog-shadow-paper: 0 4px 20px -2px rgba(28, 25, 23, 0.06), 0 2px 6px -1px rgba(28, 25, 23, 0.04);
+  --blog-shadow-floating: 0 12px 32px -4px rgba(28, 25, 23, 0.12);
+  --blog-shadow-stamp: 2px 2px 0px rgba(28, 25, 23, 0.9);
+
+  /* SVG Noise Pattern Data URI for Warm Paper Texture */
+  --blog-texture-grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+
+  /* Dynamic ArtDirection Custom Properties (Overridable per post) */
+  --post-palette-accent: var(--blog-accent-teal);
+  --post-palette-bg: var(--blog-paper-light);
+  --post-palette-text: var(--blog-ink-primary);
+  --post-font-display: var(--blog-font-display);
+  --post-font-body: var(--blog-font-body);
+}
+
+/* 2. Dark Mode Theme Tokens */
+html[data-theme="dark"],
+html[data-theme="dark"] body.blog-page,
+html[data-theme="dark"] body.gazette-body,
+body.theme-dark.blog-page,
+body.theme-dark.gazette-body,
+[data-theme="dark"] .gazette-container {
+  --blog-paper-light: #181614;
+  --blog-paper-card: #221f1d;
+  --blog-paper-aged: #2c2825;
+  --blog-ink-primary: #f5f5f4;
+  --blog-ink-secondary: #d6d3d1;
+  --blog-ink-muted: #a8a29e;
+  --blog-accent-teal: #2dd4bf;
+  --blog-accent-crimson: #fb7185;
+  --blog-accent-gold: #fbbf24;
+  --blog-accent-navy: #94a3b8;
+  --blog-border-delicate: #3c3836;
+  --blog-border-strong: #f5f5f4;
+  --blog-shadow-paper: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --blog-shadow-stamp: 2px 2px 0px rgba(245, 245, 244, 0.8);
+
+  --post-palette-bg: var(--blog-paper-light) !important;
+  --post-palette-text: var(--blog-ink-primary) !important;
+  --post-palette-accent: var(--blog-accent-teal) !important;
+}
+
+/* 3. Base Warm Paper Texture Canvas */
+.gazette-container,
+.blog-page {
+  background-color: var(--post-palette-bg);
+  background-image: var(--blog-texture-grain);
+  color: var(--post-palette-text);
+  font-family: var(--post-font-body);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 4. Tactile Editorial Hand-Drawn Underlines & Stamps */
+.hand-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hand-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--post-palette-accent);
+  border-radius: 2px;
+  transform: rotate(-0.5deg);
+  opacity: 0.85;
+}
+
+.stamp-sticker {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  font-family: var(--blog-font-body);
+  font-size: var(--blog-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--blog-paper-card);
+  color: var(--blog-ink-primary);
+  border: 2px solid var(--blog-border-strong);
+  box-shadow: var(--blog-shadow-stamp);
+  transform: rotate(-2deg);
+}
+
+/* Reduced Motion Respect */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

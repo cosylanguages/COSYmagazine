@@ -1,0 +1,7 @@
+{
+  "source": "cosylanguages/COSYstudio",
+  "path": "packages/studio-core/studio-core.js",
+  "commit": "ba0588f5741133b25789073517110c2da45937c9",
+  "sha256": "d2489faea9a5a9697669d08107cc413e81086dbd4ba97035060b2e7bc1e639ad",
+  "note": "studio-core.js here must stay byte-identical to the COSYstudio copy at this commit. To update: copy the file from COSYstudio, then update commit and sha256."
+}

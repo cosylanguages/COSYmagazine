@@ -1,0 +1,386 @@
+{
+  "id": "post-saturday-mistakes-5-english-mistakes",
+  "slug": "saturday-mistakes-5-english-mistakes",
+  "language": "en",
+  "desk": "Saturday Mistakes",
+  "format": "list",
+  "level": "A2–B1",
+  "issue": {
+    "number": "Podcast Special",
+    "title": "Saturday Mistakes Series"
+  },
+  "date": "2026-10-24",
+  "title": "Saturday Mistakes Episode 1: 5 Common English Mistakes & How to Fix Them",
+  "kicker": "SATURDAY MISTAKES • EPISODE 1",
+  "dek": "Five mistakes English learners often make, why they happen, and a simple pattern to fix each one. With examples and a mini-quiz for every mistake.",
+  "tags": [
+    "SaturdayMistakes",
+    "EnglishGrammar",
+    "SpeakingFluency",
+    "PodcastEpisode"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "audio/saturday-mistakes-5-english-mistakes.mp3",
+    "externalUrl": "https://open.spotify.com/episode/6jhPLEMHeFsvhb4z7Tcfbp?si=L7SGzODgTiuvZ_icOpH-0g",
+    "appleUrl": "https://podcasts.apple.com/us/podcast/saturday-mistakes-5-english-5-french-mistakes-1/id1759372918?i=1000796814504",
+    "timestamp": "00:00 – 22:18"
+  },
+  "artDirection": {
+    "palette": [
+      "#2563eb",
+      "#faf7f2",
+      "#1e293b",
+      "#d97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "saturday-mistakes-en",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Welcome to **Saturday Mistakes**. Every week we look at five small mistakes that learners make, understand why they happen, and replace them with a pattern that sounds natural. Mistakes are not a problem. They are proof that you are learning.",
+      "say": "Welcome to Saturday Mistakes. Every week we look at five small mistakes that learners make, understand why they happen, and replace them with a pattern that sounds natural. Mistakes are not a problem. They are proof that you are learning.",
+      "beat": {
+        "duration": 17143,
+        "camera": "pan-zoom",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "This week we look at five common mistakes in English. Every mistake follows the same steps: the sentence that is not quite right, the better sentence, the reason, a simple rule and a mini-quiz. **Notice the pattern, not just the individual sentence.**",
+      "say": "This week we look at five common mistakes in English. Every mistake follows the same steps: the sentence that is not quite right, the better sentence, the reason, a simple rule and a mini-quiz. Notice the pattern, not just the individual sentence.",
+      "beat": {
+        "duration": 18000,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
+    },
+    {
+      "type": "image",
+      "url": "images/saturday-mistakes-routine-en.svg",
+      "alt": "Four steps: notice the mistake, understand why, learn the pattern, practise it. Mistakes are proof that you are learning.",
+      "caption": "**The weekly routine.** Four small steps, every Saturday."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Today's five mistakes",
+      "say": "Today's five mistakes",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Future forms",
+        "Spend time",
+        "Double negatives",
+        "Verbs + prepositions",
+        "Preposition combinations"
+      ],
+      "say": "Future forms Spend time Double negatives Verbs + prepositions Preposition combinations",
+      "beat": {
+        "duration": 4714,
+        "camera": "pan-zoom",
+        "target": "#block-4"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "Future forms",
+      "wrong": "“I will be go to the party tomorrow.”",
+      "right": "“I will go to the party tomorrow.”",
+      "why": "“Be” appears in many future sentences (“will be happy”, “will be working”), so learners add it everywhere.",
+      "rule": "After **will**, use the base verb: will + go. Use **will be + verb-ing** only for an action in progress at a future time.",
+      "examples": [
+        "I will work tomorrow.",
+        "I will be working at 9 a.m.",
+        "She will be happy."
+      ],
+      "quiz": {
+        "question": "Which sentence is correct?",
+        "options": [
+          "I will be visit my aunt.",
+          "I will visit my aunt.",
+          "I will visiting my aunt."
+        ],
+        "correctIndex": 1,
+        "explanation": "After “will” we use the base verb: I will visit."
+      },
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this",
+        "why": "Why it happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "1. Future forms. Not quite: “I will be go to the party tomorrow.”. Say this: “I will go to the party tomorrow.”. “Be” appears in many future sentences (“will be happy”, “will be working”), so learners add it everywhere. After will, use the base verb: will + go. Use will be + verb-ing only for an action in progress at a future time.",
+      "beat": {
+        "duration": 27000,
+        "camera": "pan-zoom",
+        "target": "#block-5"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Spend time",
+      "wrong": "“I spent time for learning English.”",
+      "right": "“I spent time learning English.”",
+      "why": "Many languages use a word like “for” or “to” here, so learners translate it directly.",
+      "rule": "Use **spend time + verb-ing**. Use “to + verb” to give a purpose: I study **to improve** my English.",
+      "examples": [
+        "I spent an hour practising English.",
+        "She spends time reading.",
+        "I study to improve my English."
+      ],
+      "quiz": {
+        "question": "I spend 30 minutes ___ before bed.",
+        "options": [
+          "to read",
+          "reading",
+          "for read"
+        ],
+        "correctIndex": 1,
+        "explanation": "“Spend time” is followed by the -ing form: reading."
+      },
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this",
+        "why": "Why it happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "2. Spend time. Not quite: “I spent time for learning English.”. Say this: “I spent time learning English.”. Many languages use a word like “for” or “to” here, so learners translate it directly. Use spend time + verb-ing. Use “to + verb” to give a purpose: I study to improve my English.",
+      "beat": {
+        "duration": 22286,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Double negatives",
+      "wrong": "“I don’t know nothing about it.”",
+      "right": "“I don’t know anything about it.”  /  “I know nothing about it.”",
+      "why": "In Spanish, Italian, French, Russian, Greek and many other languages, the negative is repeated (“no sé nada”). In standard English, one negative is enough.",
+      "rule": "Choose **one** negative pattern: **no + noun** or **don’t/doesn’t + verb + any(thing)**.",
+      "examples": [
+        "There is no milk.",
+        "There isn’t any milk.",
+        "I have no questions."
+      ],
+      "quiz": {
+        "question": "I checked my bag, but…",
+        "options": [
+          "I don’t have nothing.",
+          "I don’t have anything.",
+          "I have no anything."
+        ],
+        "correctIndex": 1,
+        "explanation": "With “don’t” we use “anything”. Or say it with one negative word: “I have nothing.”"
+      },
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this",
+        "why": "Why it happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "3. Double negatives. Not quite: “I don’t know nothing about it.”. Say this: “I don’t know anything about it.” / “I know nothing about it.”. In Spanish, Italian, French, Russian, Greek and many other languages, the negative is repeated (“no sé nada”). In standard English, one negative is enough. Choose one negative pattern: no + noun or don’t/doesn’t + verb + any(thing).",
+      "beat": {
+        "duration": 26571,
+        "camera": "pan-zoom",
+        "target": "#block-7"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Verbs + prepositions",
+      "wrong": "“We discussed about the problem.”",
+      "right": "“We discussed the problem.”",
+      "why": "“Discuss” already means “talk about”, so “about” is extra. Other verbs need a small word: arrive **at**, listen **to**.",
+      "rule": "Learn verbs with their pattern: **discuss** something, **listen to** something, **arrive at** the station.",
+      "examples": [
+        "I listened to music.",
+        "We arrived at the station.",
+        "She reached the station."
+      ],
+      "quiz": {
+        "question": "Choose the correct sentence.",
+        "options": [
+          "We discussed about it.",
+          "We discussed it.",
+          "We listened it."
+        ],
+        "correctIndex": 1,
+        "explanation": "“Discuss” has no preposition. “Listen” needs “to”: We listened to it."
+      },
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this",
+        "why": "Why it happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "4. Verbs + prepositions. Not quite: “We discussed about the problem.”. Say this: “We discussed the problem.”. “Discuss” already means “talk about”, so “about” is extra. Other verbs need a small word: arrive at, listen to. Learn verbs with their pattern: discuss something, listen to something, arrive at the station.",
+      "beat": {
+        "duration": 21429,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Preposition combinations",
+      "wrong": "“It depends of you.”",
+      "right": "“It depends on you.”",
+      "why": "Prepositions rarely translate word for word. The same idea uses different small words in different languages.",
+      "rule": "Learn the whole expression: **depend on**, **interested in**, **good at**, **afraid of**, **wait for**.",
+      "examples": [
+        "I’m interested in music.",
+        "She’s good at maths.",
+        "Wait for the bus."
+      ],
+      "quiz": {
+        "question": "I’m interested ___ learning French.",
+        "options": [
+          "on",
+          "in",
+          "at"
+        ],
+        "correctIndex": 1,
+        "explanation": "We say “interested in”."
+      },
+      "labels": {
+        "wrong": "Not quite",
+        "right": "Say this",
+        "why": "Why it happens",
+        "rule": "The COSY rule",
+        "examples": "More examples",
+        "turn": "Your turn"
+      },
+      "say": "5. Preposition combinations. Not quite: “It depends of you.”. Say this: “It depends on you.”. Prepositions rarely translate word for word. The same idea uses different small words in different languages. Learn the whole expression: depend on, interested in, good at, afraid of, wait for.",
+      "beat": {
+        "duration": 19286,
+        "camera": "pan-zoom",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Your 10-minute practice",
+      "say": "Your 10-minute practice",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-10"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Choose **two mistakes** that you sometimes make.",
+        "Write **three new sentences** for each one, using the rule.",
+        "Say them aloud and **record yourself**.",
+        "Compare your sentences with the examples above.",
+        "Next week, listen for the same patterns in real conversations."
+      ],
+      "say": "Choose two mistakes that you sometimes make. Write three new sentences for each one, using the rule. Say them aloud and record yourself. Compare your sentences with the examples above. Next week, listen for the same patterns in real conversations.",
+      "beat": {
+        "duration": 17143,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The COSY takeaway",
+      "say": "The COSY takeaway",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-12"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice the pattern. Practise the pattern. Make it your own. Which answer surprised you most? Write it down and use it in a sentence today.",
+      "say": "Notice the pattern. Practise the pattern. Make it your own. Which answer surprised you most? Write it down and use it in a sentence today.",
+      "beat": {
+        "duration": 10714,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Mistakes are part of learning.",
+      "say": "Mistakes are part of learning.",
+      "beat": {
+        "duration": 3000,
+        "camera": "pan-zoom",
+        "target": "#block-14"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Practise with the COSY exercises"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Corder, S. P. (1967).** The significance of learners' errors. *International Review of Applied Linguistics, 5*(4), 161–170.",
+        "**Hattie, J., & Timperley, H. (2007).** The power of feedback. *Review of Educational Research, 77*(1), 81–112.",
+        "**James, C. (1998).** *Errors in Language Learning and Use: Exploring Error Analysis.* Longman.",
+        "**Lyster, R., & Ranta, L. (1997).** Corrective feedback and learner uptake: Negotiation of form in communicative classrooms. *Studies in Second Language Acquisition, 19*(1), 37–66.",
+        "**Roediger, H. L., & Karpicke, J. D. (2006).** Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science, 17*(3), 249–255."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

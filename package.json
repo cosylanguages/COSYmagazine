@@ -1,0 +1,25 @@
+{
+  "name": "cosyblog",
+  "version": "1.0.0",
+  "description": "COSYmagazine: speaking-first language reads, built from JSON posts into static pages.",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build/build-blog.js && node scripts/build/generate-blog-art.js && node scripts/build/generate-issues-catalog.js && node scripts/build/generate-sitemap.js && node scripts/build/generate-content-manifest.js",
+    "build:og:jpg": "node scripts/ops/generate-og-jpg.js",
+    "build:issue:pdf": "node scripts/ops/build-issue-pdf.js",
+    "publish:issue:pdf": "node scripts/ops/publish-issue-pdf.js",
+    "upload:issue:pdf": "node scripts/ops/upload-pdf-to-supabase.js",
+    "validate": "node scripts/build/validate-blog-schema.js",
+    "test": "node --test tests/*.mjs",
+    "test-e2e": "playwright test"
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "marked": "^18.0.14",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}

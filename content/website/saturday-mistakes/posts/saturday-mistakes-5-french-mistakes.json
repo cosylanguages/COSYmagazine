@@ -1,0 +1,387 @@
+{
+  "id": "post-saturday-mistakes-5-french-mistakes",
+  "slug": "saturday-mistakes-5-french-mistakes",
+  "translationOf": "saturday-mistakes-5-english-mistakes",
+  "language": "fr",
+  "desk": "Saturday Mistakes",
+  "format": "list",
+  "level": "A2–B1",
+  "issue": {
+    "number": "Podcast Special",
+    "title": "Saturday Mistakes Series"
+  },
+  "date": "2026-10-24",
+  "title": "Erreurs du Samedi Épisode 1 : 5 erreurs courantes en français et comment les corriger",
+  "kicker": "ERREURS DU SAMEDI • ÉPISODE 1",
+  "dek": "Cinq erreurs fréquentes en français, pourquoi elles arrivent et un modèle simple pour corriger chacune. Avec des exemples et un mini-quiz pour chaque erreur.",
+  "tags": [
+    "SaturdayMistakes",
+    "FrenchGrammar",
+    "SpeakingFluency",
+    "PodcastEpisode"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "audio/saturday-mistakes-5-french-mistakes.mp3",
+    "externalUrl": "https://open.spotify.com/episode/6jhPLEMHeFsvhb4z7Tcfbp?si=L7SGzODgTiuvZ_icOpH-0g",
+    "appleUrl": "https://podcasts.apple.com/us/podcast/saturday-mistakes-5-english-5-french-mistakes-1/id1759372918?i=1000796814504",
+    "timestamp": "22:19 – fin"
+  },
+  "artDirection": {
+    "palette": [
+      "#16a34a",
+      "#faf7f2",
+      "#1e293b",
+      "#ca8a04"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "saturday-mistakes-fr",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Bienvenue dans **Erreurs du Samedi**. Chaque semaine, nous regardons cinq petites erreurs que font les apprenants, nous comprenons pourquoi elles arrivent et nous les remplaçons par un modèle naturel. Les erreurs ne sont pas un problème. Elles prouvent que vous apprenez.",
+      "say": "Bienvenue dans Erreurs du Samedi. Chaque semaine, nous regardons cinq petites erreurs que font les apprenants, nous comprenons pourquoi elles arrivent et nous les remplaçons par un modèle naturel. Les erreurs ne sont pas un problème. Elles prouvent que vous apprenez.",
+      "beat": {
+        "duration": 17571,
+        "camera": "pan-zoom",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Cette semaine : cinq erreurs fréquentes en français. Chaque erreur suit les mêmes étapes : la phrase qui n'est pas tout à fait correcte, la meilleure phrase, la raison, une règle simple et un mini-quiz. **Remarquez le modèle, pas seulement la phrase.**",
+      "say": "Cette semaine : cinq erreurs fréquentes en français. Chaque erreur suit les mêmes étapes : la phrase qui n'est pas tout à fait correcte, la meilleure phrase, la raison, une règle simple et un mini-quiz. Remarquez le modèle, pas seulement la phrase.",
+      "beat": {
+        "duration": 18000,
+        "camera": "pan-zoom",
+        "target": "#block-1"
+      }
+    },
+    {
+      "type": "image",
+      "url": "images/saturday-mistakes-routine-fr.svg",
+      "alt": "Quatre étapes : remarquer l'erreur, comprendre pourquoi, apprendre le modèle, s'entraîner. Les erreurs prouvent que vous apprenez.",
+      "caption": "**Le rituel de la semaine.** Quatre petites étapes, chaque samedi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les cinq erreurs du jour",
+      "say": "Les cinq erreurs du jour",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-3"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "L'accord de l'adjectif",
+        "Il faut / il fait",
+        "Étrange / étranger",
+        "Quantité + de",
+        "Présent ou passé ?"
+      ],
+      "say": "L'accord de l'adjectif Il faut / il fait Étrange / étranger Quantité + de Présent ou passé ?",
+      "beat": {
+        "duration": 7714,
+        "camera": "pan-zoom",
+        "target": "#block-4"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 1,
+      "title": "L'accord de l'adjectif",
+      "wrong": "Marie dit : « Je suis très heureux. »",
+      "right": "Marie dit : « Je suis très heureuse. »",
+      "why": "Dans beaucoup de langues, l'adjectif ne change pas. En français, il change avec la personne ou la chose décrite.",
+      "rule": "L'adjectif **s'accorde** en genre et en nombre : heureux → heureuse, content → contente. Apprenez souvent les deux formes ensemble.",
+      "examples": [
+        "Il est heureux. / Elle est heureuse.",
+        "Il est content. / Elle est contente.",
+        "Ils sont fatigués."
+      ],
+      "quiz": {
+        "question": "Ma sœur est très…",
+        "options": [
+          "heureux",
+          "heureuse",
+          "heureuses"
+        ],
+        "correctIndex": 1,
+        "explanation": "« Ma sœur » est féminin singulier : heureuse."
+      },
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "1. L'accord de l'adjectif. Pas tout à fait: Marie dit : « Je suis très heureux. ». Dites plutôt: Marie dit : « Je suis très heureuse. ». Dans beaucoup de langues, l'adjectif ne change pas. En français, il change avec la personne ou la chose décrite. L'adjectif s'accorde en genre et en nombre : heureux → heureuse, content → contente. Apprenez souvent les deux formes ensemble.",
+      "beat": {
+        "duration": 28714,
+        "camera": "pan-zoom",
+        "target": "#block-5"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 2,
+      "title": "Il faut / il fait",
+      "wrong": "« Il fait manger avant de partir. »",
+      "right": "« Il faut manger avant de partir. »",
+      "why": "Les deux mots se ressemblent à l'écrit, mais ils ne se prononcent pas pareil : il **faut** [fo] et il **fait** [fɛ].",
+      "rule": "**Il faut + infinitif** exprime une nécessité. **Il fait** parle du temps (il fait froid) ou d'une action (il fait ses devoirs).",
+      "examples": [
+        "Il faut dormir.",
+        "Il faut boire de l'eau.",
+        "Il fait froid ce matin."
+      ],
+      "quiz": {
+        "question": "Il est nécessaire de se reposer :",
+        "options": [
+          "Il fait se reposer.",
+          "Il faut se reposer.",
+          "Il faut se repose."
+        ],
+        "correctIndex": 1,
+        "explanation": "Pour une nécessité : il faut + infinitif (se reposer)."
+      },
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "2. Il faut / il fait. Pas tout à fait: « Il fait manger avant de partir. ». Dites plutôt: « Il faut manger avant de partir. ». Les deux mots se ressemblent à l'écrit, mais ils ne se prononcent pas pareil : il faut [fo] et il fait [fɛ]. Il faut + infinitif exprime une nécessité. Il fait parle du temps (il fait froid) ou d'une action (il fait ses devoirs).",
+      "beat": {
+        "duration": 30857,
+        "camera": "pan-zoom",
+        "target": "#block-6"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 3,
+      "title": "Étrange / étranger",
+      "wrong": "« J'ai un ami étrange du Japon. »",
+      "right": "« J'ai un ami étranger du Japon. »",
+      "why": "Les deux mots se ressemblent beaucoup, mais ils n'ont pas le même sens.",
+      "rule": "**Étrange** = bizarre, inhabituel. **Étranger** = qui vient d'un autre pays.",
+      "examples": [
+        "Un bruit étrange.",
+        "Un étudiant étranger.",
+        "Une langue étrangère."
+      ],
+      "quiz": {
+        "question": "Un étudiant qui vient du Japon :",
+        "options": [
+          "étrange",
+          "étranger",
+          "étrangère"
+        ],
+        "correctIndex": 1,
+        "explanation": "Il vient d'un autre pays et « étudiant » est masculin : étranger."
+      },
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "3. Étrange / étranger. Pas tout à fait: « J'ai un ami étrange du Japon. ». Dites plutôt: « J'ai un ami étranger du Japon. ». Les deux mots se ressemblent beaucoup, mais ils n'ont pas le même sens. Étrange = bizarre, inhabituel. Étranger = qui vient d'un autre pays.",
+      "beat": {
+        "duration": 21429,
+        "camera": "pan-zoom",
+        "target": "#block-7"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 4,
+      "title": "Quantité + de",
+      "wrong": "« Je veux assez argent. »",
+      "right": "« Je veux assez d'argent. »",
+      "why": "Après un mot de quantité, le français met toujours « de » avant le nom.",
+      "rule": "**beaucoup de, trop de, assez de, peu de** + nom. Devant une voyelle : **d'**.",
+      "examples": [
+        "Beaucoup de travail.",
+        "Assez de temps.",
+        "Beaucoup d'eau."
+      ],
+      "quiz": {
+        "question": "Beaucoup ___ eau.",
+        "options": [
+          "de",
+          "d'",
+          "des"
+        ],
+        "correctIndex": 1,
+        "explanation": "« Eau » commence par une voyelle : beaucoup d'eau."
+      },
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "4. Quantité + de. Pas tout à fait: « Je veux assez argent. ». Dites plutôt: « Je veux assez d'argent. ». Après un mot de quantité, le français met toujours « de » avant le nom. beaucoup de, trop de, assez de, peu de + nom. Devant une voyelle : d'.",
+      "beat": {
+        "duration": 22286,
+        "camera": "pan-zoom",
+        "target": "#block-8"
+      }
+    },
+    {
+      "type": "mistake-card",
+      "number": 5,
+      "title": "Présent ou passé ?",
+      "wrong": "« Hier soir, je regarde un film. »",
+      "right": "« Hier soir, j'ai regardé un film. »",
+      "why": "Des mots comme « hier » ou « ce matin » annoncent une action terminée. Le verbe doit être au passé.",
+      "rule": "Habitude → **présent**. Projet → **futur proche**. Action terminée → **passé composé**.",
+      "examples": [
+        "Je regarde mes e-mails le soir.",
+        "Je vais regarder mes e-mails.",
+        "J'ai regardé mes e-mails hier."
+      ],
+      "quiz": {
+        "question": "Hier soir, ___ un film.",
+        "options": [
+          "je regarde",
+          "je vais regarder",
+          "j'ai regardé"
+        ],
+        "correctIndex": 2,
+        "explanation": "« Hier soir » = action terminée : j'ai regardé."
+      },
+      "labels": {
+        "wrong": "Pas tout à fait",
+        "right": "Dites plutôt",
+        "why": "Pourquoi cette erreur",
+        "rule": "La règle COSY",
+        "examples": "Plus d'exemples",
+        "turn": "À vous de jouer"
+      },
+      "say": "5. Présent ou passé ?. Pas tout à fait: « Hier soir, je regarde un film. ». Dites plutôt: « Hier soir, j'ai regardé un film. ». Des mots comme « hier » ou « ce matin » annoncent une action terminée. Le verbe doit être au passé. Habitude → présent. Projet → futur proche. Action terminée → passé composé.",
+      "beat": {
+        "duration": 25714,
+        "camera": "pan-zoom",
+        "target": "#block-9"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Votre entraînement de 10 minutes",
+      "say": "Votre entraînement de 10 minutes",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-10"
+      }
+    },
+    {
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "Choisissez **deux erreurs** que vous faites parfois.",
+        "Écrivez **trois nouvelles phrases** pour chacune, avec la règle.",
+        "Dites-les à voix haute et **enregistrez-vous**.",
+        "Comparez vos phrases avec les exemples ci-dessus.",
+        "La semaine prochaine, repérez les mêmes modèles dans de vraies conversations."
+      ],
+      "say": "Choisissez deux erreurs que vous faites parfois. Écrivez trois nouvelles phrases pour chacune, avec la règle. Dites-les à voix haute et enregistrez-vous. Comparez vos phrases avec les exemples ci-dessus. La semaine prochaine, repérez les mêmes modèles dans de vraies conversations.",
+      "beat": {
+        "duration": 17143,
+        "camera": "pan-zoom",
+        "target": "#block-11"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "À retenir",
+      "say": "À retenir",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "target": "#block-12"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Remarquez le modèle. Entraînez-vous. Faites-le vôtre. Quelle réponse vous a surpris ? Notez-la et utilisez-la dans une phrase aujourd'hui.",
+      "say": "Remarquez le modèle. Entraînez-vous. Faites-le vôtre. Quelle réponse vous a surpris ? Notez-la et utilisez-la dans une phrase aujourd'hui.",
+      "beat": {
+        "duration": 8143,
+        "camera": "pan-zoom",
+        "target": "#block-13"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Les erreurs font partie de l'apprentissage.",
+      "say": "Les erreurs font partie de l'apprentissage.",
+      "beat": {
+        "duration": 3000,
+        "camera": "pan-zoom",
+        "target": "#block-14"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "https://cosylanguages.github.io/COSYpractice/",
+      "label": "Entraînez-vous avec les exercices COSY"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Pour aller plus loin",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les idées de cet article s’appuient sur des travaux publiés et sur la pratique de l’enseignement. Pour commencer :",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Corder, S. P. (1967).** The significance of learners' errors. *International Review of Applied Linguistics, 5*(4), 161–170.",
+        "**Hattie, J., & Timperley, H. (2007).** The power of feedback. *Review of Educational Research, 77*(1), 81–112.",
+        "**James, C. (1998).** *Errors in Language Learning and Use: Exploring Error Analysis.* Longman.",
+        "**Lyster, R., & Ranta, L. (1997).** Corrective feedback and learner uptake: Negotiation of form in communicative classrooms. *Studies in Second Language Acquisition, 19*(1), 37–66.",
+        "**Roediger, H. L., & Karpicke, J. D. (2006).** Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science, 17*(3), 249–255."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

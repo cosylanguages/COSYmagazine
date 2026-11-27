@@ -1,0 +1,141 @@
+{
+  "id": "post-in-conversation-founder-august-school-fr",
+  "slug": "in-conversation-founder-august-school-fr",
+  "language": "fr",
+  "translationOf": "in-conversation-founder-august-school",
+  "desk": "COSYtalks",
+  "section": "founder_interview",
+  "format": "qa",
+  "level": "A2–C1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-08-01",
+  "title": "Entretien avec le fondateur : la peur du premier cours et désapprendre l'école",
+  "kicker": "ENTRETIEN THÉMATIQUE",
+  "dek": "Pourquoi des adultes éloquents et accomplis se figent-ils devant la porte de la classe ? Le fondateur James (JY DM) démonte l'encre rouge de l'enfance, le mythe de la « préparation » grammaticale, et explique comment parler dès la première minute apaise le cerveau qui apprend. Entretien réalisé par Alfinur M.",
+  "tags": [
+    "Interview",
+    "Founder",
+    "Pedagogy",
+    "Speaking-First",
+    "Psychology"
+  ],
+  "readingTime": 7,
+  "artDirection": {
+    "palette": [
+      "#993C1D",
+      "#FAF7F2",
+      "#0F6E56",
+      "#D97706"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "Commissioner",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "founder-august-school",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Chaque mois d'août, quand les papeteries se remplissent de cahiers impeccables et de crayons taillés, des millions d'adultes sentent un nœud fantôme se serrer dans leur estomac. C'est l'écho persistant de l'école : la peur d'être interrogé, la terreur de l'encre rouge dans les marges, et la conviction paralysante qu'il faut étudier en secret jusqu'à être « prêt ». Pour le grand entretien de notre premier numéro, Vol. 2026.08, COSYmagazine s'entretient en exclusivité avec son fondateur, James (JY DM), pour comprendre pourquoi apprendre une langue à l'âge adulte commence par un désapprentissage, et comment le fait d'ouvrir la bouche dès le premier jour change tout.",
+      "say": "Chaque mois d'août, quand les papeteries se remplissent de cahiers impeccables et de crayons taillés, des millions d'adultes sentent un nœud fantôme se serrer dans leur estomac. C'est l'écho persistant de l'école. Pour le grand entretien de notre premier numéro, COSYmagazine s'entretient avec son fondateur, James, pour comprendre pourquoi apprendre une langue commence par un désapprentissage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie I : Le fantôme du stylo rouge",
+      "say": "Partie 1 : Le fantôme du stylo rouge"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M. :</strong> James, quand des adultes entrent dans une salle de classe de langue, ils n'apportent pas seulement de la curiosité : ils apportent trente ans de conditionnement. Quelle est la plus grande idée fausse que l'école nous a laissée sur l'apprentissage d'une langue ?",
+      "say": "James, quand des adultes entrent dans une salle de classe, ils n'apportent pas seulement de la curiosité : ils apportent trente ans de conditionnement. Quelle est la plus grande idée fausse que l'école nous a laissée ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James :</strong> L'école nous a appris qu'une erreur est une faute morale. Au lycée, quand tu conjugues mal un verbe, le professeur le barre d'un trait de rouge, retire deux points et te rend une copie qui murmure en substance : <em>tu n'es pas à la hauteur</em>. Cela fabrique un adulte pour qui le silence est un abri. Or la langue est un muscle acoustique et biologique, pas un examen d'arithmétique. Dans une vraie conversation, une erreur n'est pas un échec : c'est une donnée diagnostique. Elle indique à ton interlocuteur où te soutenir, et à ton cerveau où poser le prochain pont synaptique.",
+      "say": "L'école nous a appris qu'une erreur est une faute morale. Au lycée, quand tu conjugues mal un verbe, le professeur le barre d'un trait de rouge et retire deux points. Cela fabrique un adulte pour qui le silence est un abri. Or la langue est un muscle acoustique et biologique, pas un examen d'arithmétique."
+    },
+    {
+      "type": "pullquote",
+      "quote": "L'école nous a appris à nous taire jusqu'à être parfaits. La vie nous apprend que la perfection ne parle jamais.",
+      "attribution": "James (JY DM), fondateur de COSY Languages",
+      "say": "L'école nous a appris à nous taire jusqu'à être parfaits. La vie nous apprend que la perfection ne parle jamais."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie II : Le mythe de la « préparation »",
+      "say": "Partie 2 : Le mythe de la préparation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M. :</strong> Beaucoup d'apprenants disent : « Laisse-moi juste finir ce livre de grammaire, ou atteindre le B1 sur une application, et ensuite je réserverai un cours de conversation. » Pourquoi cet instinct est-il si contre-productif ?",
+      "say": "Beaucoup d'apprenants disent : laisse-moi finir ce livre de grammaire, ou atteindre le B1 sur une application, et ensuite je réserverai un cours de conversation. Pourquoi cet instinct est-il si contre-productif ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James :</strong> Parce que la reconnaissance passive et la production motrice active vivent dans des réseaux neuro-anatomiques complètement différents. Quand tu lis un tableau de grammaire, ton cortex visuel reconnaît des motifs. Mais quand un être humain te regarde dans les yeux et te demande ce que tu as mangé au petit-déjeuner, ton amygdale réagit à l'exposition sociale, tes cordes vocales doivent coordonner vingt muscles, et ta mémoire de travail doit retrouver des mots sous pression émotionnelle. Si tu attends de « te sentir prêt », tu attendras toute ta vie. On n'apprend pas à nager en lisant la chimie de l'eau depuis le ponton. On se mouille dès la première minute, quand l'eau est encore basse.",
+      "say": "Parce que la reconnaissance passive et la production motrice active vivent dans des réseaux neuro-anatomiques complètement différents. Quand tu lis un tableau de grammaire, ton cortex visuel reconnaît des motifs. Mais quand un être humain te regarde dans les yeux, ton amygdale réagit à l'exposition sociale. Si tu attends de te sentir prêt, tu attendras toute ta vie."
+    },
+    {
+      "type": "example",
+      "targetText": "« Monsieur, on dit « in » ou « at » ? » → « Raconte d'abord toute l'histoire ; on polira la préposition à la fin. »",
+      "gloss": "La priorité du parler d'abord : le sens et la projection vocale passent avant la correction syntaxique microscopique.",
+      "context": "Le réflexe pédagogique central du fondateur, dès le premier cours.",
+      "say": "« Monsieur, on dit in ou at ? » « Raconte d'abord toute l'histoire ; on polira la préposition à la fin. » Le sens et la projection vocale passent avant la correction syntaxique."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie III : Concevoir un cours sans anxiété",
+      "say": "Partie 3 : Concevoir un cours sans anxiété"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M. :</strong> Comment le programme COSY protège-t-il le filtre affectif de l'élève pendant ces vingt premières minutes terrifiantes ?",
+      "say": "Comment le programme COSY protège-t-il le filtre affectif de l'élève pendant ces vingt premières minutes terrifiantes ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James :</strong> En abaissant les enjeux cognitifs à zéro. Nous ne posons jamais de questions ouvertes et intimidantes du type « Parle-moi de toi ». À la place, nous donnons ce que nous appelons des <mark class=\"hl-handwritten\">cadres de phrase</mark>. Nous offrons 80 % de la phrase sur un plateau et demandons d'insérer un seul mot : leur ville, leur café préféré, leur race de chien favorite. À l'instant où leur voix produit une phrase vraie et authentique en français, en italien, en grec ou en russe, le cerveau reçoit une dose de dopamine. Le monstre sous le lit disparaît.",
+      "say": "En abaissant les enjeux cognitifs à zéro. Nous ne posons jamais de questions ouvertes et intimidantes. Nous donnons ce que nous appelons des cadres de phrase : 80 % de la phrase, et un seul mot à insérer. À l'instant où la voix produit une phrase vraie, le cerveau reçoit une dose de dopamine."
+    },
+    {
+      "type": "culture-bite",
+      "title": "L'étincelle de recherche du fondateur",
+      "content": "💡 Voici une bonne question de recherche : dans quelle mesure l'anxiété pré-communicative diminue-t-elle quand on donne explicitement aux apprenants adultes le droit d'user du geste et de la périphrase avant la précision syntaxique ?",
+      "say": "Voici une bonne question de recherche : dans quelle mesure l'anxiété pré-communicative diminue-t-elle quand on donne explicitement aux apprenants adultes le droit d'user du geste et de la périphrase avant la précision syntaxique ?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Partie IV : La vision de COSYmagazine",
+      "say": "Partie 4 : La vision de COSYmagazine"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Alfinur M. :</strong> Quel espoir nourris-tu pour les lecteurs qui tiennent ce premier numéro d'août entre leurs mains, ou qui l'ouvrent dans notre flipbook ?",
+      "say": "Quel espoir nourris-tu pour les lecteurs qui tiennent ce premier numéro d'août entre leurs mains ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>James :</strong> Je veux qu'ils vivent l'apprentissage des langues non comme une corvée froide ou un examen à forts enjeux, mais comme un salon culturel généreux. Comme en feuilletant Vogue, chaque page devrait réjouir l'œil, nourrir l'esprit de philosophie et de psychologie, et leur faire murmurer une nouvelle phrase à voix haute avant de tourner la page. Si un lecteur referme ce numéro et dit « Bonjour », « Ciao » ou « Γεια σου » à quelqu'un sans s'excuser de son accent, notre travail est fait.",
+      "say": "Je veux qu'ils vivent l'apprentissage des langues non comme une corvée froide ou un examen à forts enjeux, mais comme un salon culturel généreux. Comme en feuilletant Vogue, chaque page devrait réjouir l'œil et nourrir l'esprit. Si un lecteur referme ce numéro et dit bonjour à quelqu'un sans s'excuser de son accent, notre travail est fait."
+    },
+    {
+      "type": "links",
+      "destination": "tools",
+      "url": "https://cosylanguages.github.io/COSYtools/",
+      "label": "Explorez les conjugaisons des verbes les plus fréquents sur COSYtools"
+    }
+  ],
+  "draft": false,
+  "printOrder": 20
+}

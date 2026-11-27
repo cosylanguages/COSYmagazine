@@ -1,0 +1,209 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-br",
+  "slug": "stop-translating-10-sentence-frames-br",
+  "language": "br",
+  "translationOf": "stop-translating-10-sentence-frames",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Chom hep treiñ! 10 framm frazenn da implijout evit komz diouzhtu",
+  "kicker": "KOMZIT DIOUZHTU",
+  "dek": "Deskit 10 framm frazenn ha 10 frazenn treuzvevañ evit chom hep treiñ ger-ha-ger ha meizañ e brezhoneg.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Breton"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-br",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An diaester brasañ evit an dud eo treiñ ger-ha-ger. Pa ne anavezit ket ur ger, implijit frammoù evit displegañ ar pezh a fell deoc'h lavarout."
+    },
+    {
+      "type": "paragraph",
+      "text": "Displegañ e brezhoneg diouzhtu a ro ur gaoz flour. Ar 10 framm-mañ a sikouro ac'hanoc'h da zeskrivañ tud, lec'hioù ha traoù."
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Un den eo hag a...",
+          "Un den eo hag a gelenn d'ar vugale.",
+          "Mestr-skol"
+        ],
+        [
+          "2",
+          "Ur lec'h eo e-lec'h ma...",
+          "Ur lec'h eo e-lec'h ma prener boued.",
+          "C'harc'h"
+        ],
+        [
+          "3",
+          "Un dra eo hag a...",
+          "Un dra eo hag a ziskouez an eur.",
+          "Alerg"
+        ],
+        [
+          "4",
+          "Un dra eo a vez implijet evit...",
+          "Un dra eo a vez implijet evit skrivañ.",
+          "Pluenn"
+        ],
+        [
+          "5",
+          "Ur mare eo e-lec'h ma...",
+          "Ur mare eo e-lec'h ma kousk an dud.",
+          "Noz"
+        ],
+        [
+          "6",
+          "Un deiz eo e-lec'h ma...",
+          "Un deiz eo e-lec'h ma lider.",
+          "Gouel"
+        ],
+        [
+          "7",
+          "Da skouer...",
+          "Plijout a ra ar sport din. Da skouer, ar mell-droad.",
+          ""
+        ],
+        [
+          "8",
+          "Talvezout a ra...",
+          "'Bras' a dalvez n'eo ket bihan.",
+          ""
+        ],
+        [
+          "9",
+          "Hñvel eo ouzh...",
+          "Hñvel eo ouzh ur urzhiataer bihan.",
+          ""
+        ],
+        [
+          "10",
+          "Penaos e laverer... e brezhoneg?",
+          "Penaos e laverer se e brezhoneg?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "💡 Ar 10 framm frazenn pennañ"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Un den eo hag a...** → *Un den eo hag a gelenn d'ar vugale.* (Mestr-skol)",
+        "**2. Ur lec'h eo e-lec'h ma...** → *Ur lec'h eo e-lec'h ma prener boued.* (C'harc'h)",
+        "**3. Un dra eo hag a...** → *Un dra eo hag a ziskouez an eur.* (Alerg)",
+        "**4. Un dra eo a vez implijet evit...** → *Un dra eo a vez implijet evit skrivañ.* (Pluenn)",
+        "**5. Ur mare eo e-lec'h ma...** → *Ur mare eo e-lec'h ma kousk an dud.* (Noz)",
+        "**6. Un deiz eo e-lec'h ma...** → *Un deiz eo e-lec'h ma lider.* (Gouel)",
+        "**7. Da skouer...** → *Plijout a ra ar sport din. Da skouer, ar mell-droad.*",
+        "**8. Talvezout a ra...** → *'Bras' a dalvez n'eo ket bihan.*",
+        "**9. Hñvel eo ouzh...** → *Hñvel eo ouzh ur urzhiataer bihan.*",
+        "**10. Penaos e laverer... e brezhoneg?** → *Penaos e laverer se e brezhoneg?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "🚀 10 frazenn treuzvevañ"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Ur seurt... eo.** (*Ur seurt loen eo.*)",
+        "**2. Graet eo e...** (*Graet eo e koad.*)",
+        "**3. Implijet e vez evit...** (*Implijet e vez evit beajiñ.*)",
+        "**4. An eneb eo da...** (*An eneb eo da ger.*)",
+        "**5. Soniñ a ra evel...** (*Soniñ a ra evel sonerezh.*)",
+        "**6. Ban ez eus...** (*Pavar rod zo gantañ.*)",
+        "**7. Hñvel eo ouzh...** (*Hñvel eo ouzh ur c'harr.*)",
+        "**8. Donet a ra eus...** (*Donet a ra eus Breizh.*)",
+        "**9. Ne anavezan ket ar ger, met...** (*Ne anavezan ket ar ger, met evit keginañ eo.*)",
+        "**10. Gallout a reit adlavarout, mar plij?** (*Lavarit en-dro mar plij.*)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "📌 Diverradur"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ar flourded n'eo ket gouzout pep ger, met chom hep tevel. Implijit ar frammoù-mañ!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

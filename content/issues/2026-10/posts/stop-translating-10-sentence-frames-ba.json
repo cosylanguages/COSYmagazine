@@ -1,0 +1,209 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-ba",
+  "slug": "stop-translating-10-sentence-frames-ba",
+  "language": "ba",
+  "translationOf": "stop-translating-10-sentence-frames",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Тәржемә итмәгеҙ! Беренсе көндән һөйләшеү өсөн 10 һөйләм өлгөһө",
+  "kicker": "ҺӨЙЛӘШЕГЕҘ",
+  "dek": "Һүҙгә-һүҙ тәржемә итмәү өсөн 10 һөйләм өлгөһөн һәм 10 мөһим фразаны өйрәнегеҙ.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Bashkir"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-ba",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Тел өйрәнеүҙә төп тотҡарлыҡ — һүҙгә-һүҙ тәржемә итеү. Берәр һүҙҙе белмәһәгеҙ, аны әҙер һөйләм өлгөләре аша аңлатығыҙ."
+    },
+    {
+      "type": "paragraph",
+      "text": "Башҡортса тура аңлатыу һөйләмде тиҙләтә. Бу 10 өлгө кешеләрҙе, урындарҙы һәм әйберҙәрҙе һүрәтләргә ярышлы."
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "stop-translating-10-sentence-frames-ba",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Structure",
+        "Example",
+        "To describe"
+      ],
+      "rows": [
+        [
+          "1",
+          "Бу... кеше.",
+          "Бу балаларҙы уҡытыусы кеше.",
+          "Уҡытыусы"
+        ],
+        [
+          "2",
+          "Бу... урын.",
+          "Бу аҙыҡ-түлек ала торған урын.",
+          "Баҙар"
+        ],
+        [
+          "3",
+          "Бу... әйбер.",
+          "Бу ваҡытты күрһәтә торған әйбер.",
+          "Сәғәт"
+        ],
+        [
+          "4",
+          "Бу... өсөн ҡулланыла.",
+          "Бу яҙыу өсөн ҡулланыла.",
+          "Ҡәләм"
+        ],
+        [
+          "5",
+          "Бу... ваҡыт.",
+          "Бу кешеләр йоҡлай торған ваҡыт.",
+          "Төн"
+        ],
+        [
+          "6",
+          "Бу... көн.",
+          "Бу байрам итә торған көн.",
+          "Байрам"
+        ],
+        [
+          "7",
+          "Мәҫәлән...",
+          "Мин спорт яратам. Мәҫәлән, футбол.",
+          ""
+        ],
+        [
+          "8",
+          "Бу... тигәнде аңлата.",
+          "'Ул' тигән һүҙ аңлата.",
+          ""
+        ],
+        [
+          "9",
+          "Бу... оҡшаған.",
+          "Бу компютерға оҡшаған.",
+          ""
+        ],
+        [
+          "10",
+          "Башҡортса нисәк булыр?",
+          "Бу башҡортса нисәк булыр?",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "💡 10 төп һөйләм өлгөһө"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Бу... кеше.** → *Бу балаларҙы уҡытыусы кеше.* (Уҡытыусы)",
+        "**2. Бу... урын.** → *Бу аҙыҡ-түлек ала торған урын.* (Баҙар)",
+        "**3. Бу... әйбер.** → *Бу ваҡытты күрһәтә торған әйбер.* (Сәғәт)",
+        "**4. Бу... өсөн ҡулланыла.** → *Бу яҙыу өсөн ҡулланыла.* (Ҡәләм)",
+        "**5. Бу... ваҡыт.** → *Бу кешеләр йоҡлай торған ваҡыт.* (Төн)",
+        "**6. Бу... көн.** → *Бу байрам итә торған көн.* (Байрам)",
+        "**7. Мәҫәлән...** → *Мин спорт яратам. Мәҫәлән, футбол.*",
+        "**8. Бу... тигәнде аңлата.** → *'Ул' тигән һүҙ аңлата.*",
+        "**9. Бу... оҡшаған.** → *Бу компютерға оҡшаған.*",
+        "**10. Башҡортса нисәк булыр?** → *Бу башҡортса нисәк булыр?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "🚀 10 мөһим фраза"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Бу бер төр...** (*Бу бер төр хайуан.*)",
+        "**2. Бу... яһалған.** (*Бу ағастан яһалған.*)",
+        "**3. Бу... өсөн.** (*Бу сәйәхәт өсөн.*)",
+        "**4. Бу... ҡаршы һүҙ.** (*Бу кире һүҙ.*)",
+        "**5. Бу... оҡшаш ишетелә.** (*Бу музыкаға оҡшаш.*)",
+        "**6. Бының... бар.** (*Бының дүрт тәгәрмәсе бар.*)",
+        "**7. Бу... оҡшаш.** (*Бу машинаға оҡшаш.*)",
+        "**8. Бу... килгән.** (*Бу Башҡортостандан.*)",
+        "**9. Мин һүҙҙе белмәйем, шулай ҙа...** (*Мин һүҙҙе белмәйем, шулай ҙа бу аш бешереү өсөн.*)",
+        "**10. Ҡабатлағыҙ әле, зинһар.** (*Тағы бер тапҡыр әйтегеҙ.*)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "📌 Йомғаҡ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Иркен һөйләшеү — бөтә һүҙҙәрҙе белеү түгел, ә туҡтамай һөйләү. Бу фразаларҙы ҡулланығыҙ!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өҫтәмә уҡырға",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Bialystok, E. (1990).** *Communication Strategies: A Psychological Analysis of Second-Language Use.* Blackwell.",
+        "**Dörnyei, Z., & Scott, M. L. (1997).** Communication strategies in a second language: Definitions and taxonomies. *Language Learning, 47*(1), 173–210.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Tarone, E. (1980).** Communication strategies, foreign talk, and repair in interlanguage. *Language Learning, 30*(2), 417–431.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

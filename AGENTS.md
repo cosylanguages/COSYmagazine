@@ -1,0 +1,236 @@
+# AGENTS.md — COSYmagazine
+
+Static, speaking-first language-learning magazine. GitHub Pages serves the repo
+directly, so generated output is committed (see the note at the bottom of
+`.gitignore`). Do not hand-edit generated files.
+
+## Build & test
+
+```bash
+npm install
+npm run build        # content/**/posts/*.json -> <slug>.html, index.json, posts.json, og/, podcast.xml, sitemap.xml, content-manifest.json
+npm run build:og:jpg # after cover/post changes: 1200x630 social cards in og/
+npm run validate     # schema + i18n dictionaries
+npm test             # node --test tests/*.mjs  (CommonJS scripts; .mjs tests are ESM)
+npx playwright install chromium  # one-time browser install
+npx playwright test  # E2E specs in tests/*.spec.ts
+```
+
+`npm run build` must be idempotent: re-running it on the same day should change
+nothing except `generatedAt` in `index.json`. Verify with a diff before committing
+generated output.
+
+`npm run build:og:jpg` requires Playwright Chromium and rewrites `og/<slug>.jpg`
+from the generated SVGs. Run it after `npm run build` when a post or its cover
+changes; the JPEGs are committed and used by `og:image`.
+
+## Source of truth
+
+- `content/` holds every post source, grouped by role. `content/issues/<YYYY-MM>/posts/`
+  for articles belonging to a magazine issue, `content/website/<desk>/posts/` for site-only
+  series (Saturday Mistakes, the welcome page). See `content/README.md`.
+- A post's `issue.number` decides its folder; pages are written to `<slug>.html` at the
+  repository root, so moving a source file never changes a URL.
+- `content/issues/<YYYY-MM>/drafts/` holds staged, unpublished variants. The build skips
+  any directory named `drafts`, so drafts cannot leak into the site. `content/DRAFTS.md`
+  documents the review workflow.
+- `posts.json` (catalog) and `index.json` (newsstand feed) are generated mirrors.
+  A regression test asserts their metadata mirrors the `content/**/posts/*.json` sources.
+- `content-manifest.json` (generated) maps slug -> source path so `editor.html` can load
+  posts. Regenerate it with the build; do not hand-edit.
+- Discovery lives in one place: `scripts/build/lib/content-paths.js` (`listPostFiles()`).
+  Add new content roots there rather than re-globbing the tree.
+
+## Architecture
+
+- `scripts/` is grouped by role: `build/` (the `npm run build` pipeline and validators),
+  `ops/` (PDF, Supabase upload, stage video export), `content/` (Python scripts that rewrite
+  `content/**/posts/*.json` in bulk), `archive/` (one-off scripts that produced the current posts and are
+  kept only for reference). Nothing in `archive/` is wired into a package script.
+- `scripts/build/build-blog.js` is the entry point: it loads `content/**/posts/*.json`, decides what is
+  live, and writes the pages and mirrors. The rendering work lives in `scripts/build/lib/`:
+
+  | Module | Responsibility |
+  |---|---|
+  | `text.js` | `escapeHtml`, inline Markdown, `<title>` truncation |
+  | `i18n.js` | dictionary loading and `tStrict` (no English fallback) |
+  | `issues.js` | `ISSUE_META`, volume normalisation, notebook look |
+  | `blocks.js` | article blocks → HTML (headings, lists, tables, quiz, pronunciation, crossword) |
+  | `post-page.js` | the full `<slug>.html` document template |
+  | `catalog.js` | `posts.json` and `index.json` |
+  | `audio.js` | podcast embed resolution, `hasPlayer`, player box |
+  | `content-paths.js` | where post sources live: `listPostFiles()`, `walkJson()` |
+
+  `blocks.js` and `post-page.js` are pure: callers pass `{ isFirstParagraph, slug, lang }`
+  or a full `ctx` object rather than relying on module-level state. Keep it that way —
+  the previous version used mutable globals (`CURRENT_SLUG`, `CURRENT_LANG`) that made
+  rendering order matter.
+
+- `js/art/generator.js` (ESM) draws covers/motifs and is imported by the build,
+  `index.html`, `dev/art-contact-sheet.html`, and tests. `js/art/` has its own
+  `package.json` with `"type": "module"` so Node does not warn about the ESM/CJS mix there.
+- `js/` intentionally mixes ES modules (art, stage, flipbook, podcast-box, podcast-embed)
+  with CommonJS files loaded by node tests (editor, studio-core, print-spec, …). The repo
+  root must stay CommonJS because the `scripts/` files use `require`, and `js/` cannot be flipped
+  to `"type": "module"` wholesale without breaking those files. Node therefore prints a
+  benign `MODULE_TYPELESS_PACKAGE_JSON` warning for the ESM files under `js/`; it does not
+  affect the built site or the tests. Do not "fix" it by editing the root `package.json`.
+- `js/flipbook.js` powers post-page reading: desktop uses spreads ("PAGE 1–2 OF N"),
+  mobile uses single pages. The turn affordance is `.dog-ear-next` / `.dog-ear-prev`
+  (not every `.magazine-dog-ear` is visible — `prev` is disabled on page 1).
+- `index.html` is the newsstand (`ns-*` classes) and does NOT load `flipbook.js`.
+- `issues-catalog.html` is generated by `scripts/build/generate-issues-catalog.js`: one section
+  per issue, one card per base article with a language pill per translation. It is the
+  browse-everything page and the only issue hub. Each edition header carries a
+  per-language PDF download button (`data-action="download-issue-pdf"`); the file is
+  sold separately per language and resolved by `(volume_number, language)`.
+- Issue identity (tag, anchor, vibe) lives in `ISSUE_META` in `scripts/build/build-blog.js`,
+  keyed by `YYYY.MM`, and is emitted into `index.json`. The newsstand, the catalog and
+  `issues-catalog.html` all read that one map — do not reintroduce per-page copies.
+- `sitemap.xml` is generated by `scripts/build/generate-sitemap.js` from a small static
+  list (`index`, `podcast.html`, `issues-catalog.html`) plus every
+  published post. When a new top-level landing page is added, add it to that static
+  list; a test in `tests/test_build_integrity.mjs` guards the landing pages.
+- `robots.txt` allows all and points at the sitemap; it is hand-maintained.
+
+## Issues and editions
+
+- An issue is published as one **edition per edition language**. Only `en`, `fr`, `ru`
+  have editions (`EDITION_LANGS` in `scripts/build/generate-issues-catalog.js`). Other languages
+  (`es`, `de`, `pt`, `hy`, `ka`, `tt`, `ba`, `br`, `cv`) publish articles that live inside
+  the edition written in their own language — they are not separate issues.
+- An article belongs to the edition matching its own `language`, so the English edition
+  lists English articles only. The language pills on each catalog card still link every
+  published variant, so nothing becomes unreachable.
+- Articles in 14 languages that are one article are linked with `translationOf` to a hub
+  slug (`top-10-verbs`, `top-100-a0-a1`). Without it each variant counts as a separate
+  article and inflates the catalog. `tests/test_build_integrity.mjs` guards both rules.
+- `docs/issues/ISSUE_08_AUGUST_COMPLETE_BLUEPRINT.md` is the authoritative page roster for
+  August. The sold PDFs are produced by `scripts/ops/build-issue-pdf.js`
+  (`npm run build:issue:pdf`) and published by `scripts/ops/publish-issue-pdf.js`.
+- Sold PDFs are **not** committed (`private-issues/` is gitignored) and are gated behind
+  Supabase: `js/issue-download.js` calls the `get-issue-download-url` edge function with
+  `{ volume_number, language }`, so each edition is bought and served per language.
+- The print browser has no emoji font, so `build-issue-pdf.js` strips emoji at HTML
+  assembly. Do not print raw blueprint copy: it is emoji-rich and would come out as tofu.
+  Arrows (`→`, `↗`) are real editorial text and fall back to DejaVu, which is expected.
+- Quiz options (`.quiz-option-btn`) are study content, not chrome. Print CSS restyles them
+  as an upper-alpha list; only reader-only buttons (`.fulllist-btn`, `.flip-nav`) are hidden.
+- An issue may author its own **running order** by giving every post a numeric `printOrder`.
+  `loadEdition()` then sorts by it and `buildHtml()` prints the issue as one sequence: no act
+  opener pages, no Front of Book / The Well bands in the contents. The number lives on the post,
+  so it travels to every language edition; an issue without `printOrder` keeps the three acts.
+  August 2026 uses this, and the roster is in `docs/issues/ISSUE_08_AUGUST_COMPLETE_BLUEPRINT.md`.
+- The recurring speaking-club departments (`wonder_column`, `debatable_relatable`, `mind_matters`,
+  `if_you_were`, `science_expander`, `life_with_without`, `greatest_quotes`) are openers and
+  outros, not standalone essays: each one carries the issue's theme in its own words, hands over
+  to the piece it opens (founder conversation, student conversation, the desk, teacher
+  conversation, the word list, Idiom Detective and COSY Sightings), and carries one
+  "This could be a good research question" marginalia block. `greatest_quotes` closes the main
+  discussion. Their position varies per issue — that is what `printOrder` is for.
+- A department must not print an orphan mast: the article mast lives inside `.article-head`,
+  which is `break-inside: avoid`, so a head that does not fit moves to the next page whole.
+- Evergreen posts (`contentType: 'evergreen'`) belong to no volume, so they are absent
+  from the issue catalog and carry no `issue_volume` in `posts.json`.
+- The `crossword` block is authored as `grid` (rows of letters, `#` blocked, `.` blank),
+  `across`/`down` entries with `number`, `clue`, `answer`. The build derives the clue
+  numbers from the grid (`crosswordNumbering`), so never hand-number entries. Print CSS
+  sizes the grid from `--cw-cols`/`--cw-rows`: a taller puzzle gets smaller cells instead
+  of overflowing the page. The caption and grid share `.crossword-board` with
+  `break-inside: avoid`, so the board never splits across a page; the clues and key flow
+  after it. A post with `printPageBreak: true` starts on a fresh page when a department
+  has to open at the top of one.
+  `CROSSWORD_LABELS` covers eight languages; add labels before publishing a crossword in
+  one of the others, or the chrome falls back to English.
+
+### Print pagination
+
+- **Articles run on.** Only zone openers and the contents page take `break-before: page`. A forced break per article left sheets three-quarters blank when a
+  piece ended mid-page, which is what made the sold PDFs feel like drafts.
+- The article body is a `column-count: 2` flow, so page furniture inside it is fragile:
+  - `column-span: all` only works on a *direct* child of `.article-body`. `cleanPrintDom()`
+    unwraps the source's unclassed layout divs for exactly that reason — a table inside a
+    wrapper cannot span the gutter and jumps columns out of reading order.
+  - `break-inside: avoid` on the *first* block of the body (a banner, a box) makes Chromium
+    move the whole flow to the next page and leave the head alone on a blank sheet. Span it
+    instead, or drop the rule.
+- Body copy carries its own volume strings (`"Vol. 2026 — Master Editorial Hub"`). The build
+  rewrites a bare `Vol. YYYY` to `Vol. YYYY.MM`; without it every edition of a year prints
+  the same, wrong volume.
+- The editorial blueprint has 19 entries, more than one page holds, and it **runs on** from
+  the last article rather than opening a fresh page: that tail sheet is the only place a
+  two-column list can start without wasting paper. Hand-splitting it into "balanced halves"
+  was worse — two `column-count` containers do not flow into each other, so the second half
+  jumped to a new page and left one 15% full.
+- Chromium cannot print a per-page running head, so the desk name is stamped into the
+  footer with pdf-lib (`runningDesks()` + `drawFolios()`), in the edition language. That
+  needs a Unicode face — `@pdf-lib/fontkit` plus a system DejaVu — because the Russian desks
+  are Cyrillic. Without the font the foot falls back to the folio alone; nothing breaks.
+- When checking a build, look for pages under ~45% fill. Zone openers are deliberately
+  sparse; anything else is a pagination bug. Measure content only: blocks ending above
+  y≈795 pt, or the footer reads as full text.
+
+## i18n
+
+- Interface strings live in `js/i18n/*.json`. Post free-text fields (e.g. a raw
+  `issue.number` like `"Vol. 2026 — December Issue"`) must be normalized/localized
+  before display, or English leaks onto non-English pages. `build-blog.js` normalizes
+  issue numbers to `Vol. YYYY.MM` and derives issue titles from the month.
+- `tests/blog_i18n_script_validation.spec.ts` renders every non-English page and
+  asserts no untranslated English UI strings. Its brand allowlist is for legitimate
+  external brand names only — never widen it to silence a real leak.
+- French post copy carries non-breaking spaces before `: ? ! ;` and inside guillemets.
+  Without them the flipbook and the printed PDF break `« préparation »` across a line
+  and start the next one with a stray `»`.
+
+## Issue covers
+
+- `js/art/vogue-cover.js` draws the portrait 3:4 covers on `issues-catalog.html`.
+  `ISSUE_COVERS` holds **art only** (palette, `photo`); the copy comes from
+  `js/i18n/*.json` under `catalog.covers.<key>` and is passed in as `fitTexts`.
+  Keep it that way — when the copy also lived in `ISSUE_COVERS`, the renderer
+  measured one string and drew another, and long English lines overflowed.
+- The **hero line is the issue's real name**, taken from `blog.issue_<month>_title`
+  — the same key as the section heading — and passed as `heroI18nKey`. Never give
+  the cover an invented headline: a cover that said "THE FIRST TERM" while the
+  issue was "Get ready for school" shipped once and had to be pulled. Because the
+  name is long and Greek runs to 51 characters, the hero is HTML inside a
+  `foreignObject` so it wraps and re-wraps per language when shell.js swaps
+  `textContent`; a stacked-`<tspan>` hero would keep its built language. It is
+  sized to stay the largest type on the cover (tests assert it beats the kickers).
+- Each cover is a **photograph**, not drawn line art. Earlier parametric busts
+  read as uncanny (white ellipse eyes), so covers now show rooms, objects and
+  place, never a face. Photos live in `images/covers/<key>.jpg` and are
+  **CC0 or public domain only** — the editions are sold, so no attribution or
+  share-alike licences. `images/covers/CREDITS.json` records the source page and
+  licence for every file; `tests/test_cover_art.mjs` fails if a cover, its credit
+  or a sellable licence is missing, and asserts the cover embeds `<image>` and
+  draws no `<ellipse>`. Add a new photo by dropping the file in, adding its
+  credit, and pointing `ISSUE_COVERS[key].photo` at it.
+- The photo is full-bleed under a vertical scrim. Keep the scrim light enough in
+  the middle band that the image reads (target mid-band luminance ~0.12–0.25),
+  and rely on the `paint-order="stroke"` halo behind cream type for legibility
+  rather than darkening the whole cover to black.
+- `scripts/ops/build-issue-pdf.js` writes its HTML into `private-issues/` and
+  loads it from `file://`, where a relative `images/covers/...` href would miss.
+  It inlines the photo as a data URI — keep that when touching the PDF path.
+- Every localized cover string must be a **single text node**. `shell.js` sets
+  `textContent` on the element carrying `data-i18n`, so a string split over
+  several nodes keeps its built language on the extra nodes and renders a
+  mixed-language cover. `tests/test_vogue_cover.mjs` asserts one node per key.
+- Cover text is sized for the **widest translation**, not the English string,
+  because the swap happens at runtime. Type is set on one line (no wrapping
+  across nodes) and shrinks to fit the column; keep kickers to 2–3 words.
+- `estimateWidth()` is a per-character-class estimate with a 1.32 safety factor,
+  calibrated against the real fonts (worst measured case 1.24x, Greek caps).
+  Re-measure before lowering it.
+- `tests/vogue_covers.spec.ts` renders every cover in all five interface
+  languages and fails on text that leaves the canvas or crosses into the
+  subject band.
+
+## Known non-issues (do not "fix")
+
+- `content/**/posts/*.json` may reference local audio under `audio/` that is not committed; the
+  build omits a player when the file is absent, so nothing renders broken.
+- Some issues are future-dated on purpose (editorial calendar). Sitemap `lastmod`
+  is clamped to the build date, so this is fine.

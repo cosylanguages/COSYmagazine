@@ -1,0 +1,304 @@
+{
+  "id": "post-top-10-verbs-part-3-br",
+  "slug": "top-10-verbs-part-3-br",
+  "language": "br",
+  "translationOf": "top-10-verbs-part-3",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2027.02",
+    "title": "February Grammar & High Frequency Verbs"
+  },
+  "date": "2027-02-01",
+  "title": "Ar 10 verb pennañ e brezhoneg, Lodennoù 3 (A0–A1 / A2)",
+  "kicker": "KAVADENN AR BREZHONEG — LODENN 3 EUS 3",
+  "dek": "Dizoloit ar 10 verb pennañ war-lerc'h (dibab/prenañ/paeañ, kounaat/ankouaat, santout, kejañ, divizout, skrivañ/lenn/bizskrivañ, dispign/foranañ, c'hoari, bezañ a-du/enep, kas/kaout). Taolennoù treuzfeurmiñ war COSYtools.",
+  "tags": [
+    "Verbs",
+    "Breton",
+    "A0-A1",
+    "Part3"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 4,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#059669",
+      "#ecfdf5",
+      "#064e3b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-3-br",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Degemer mat e Lodenn 3 eus hor sturlevr verboù brezhonek evit an deraouidi A0–A1 hag A2! (Lennit [Lodenn 1](top-10-verbs-br.html) ha [Lodenn 2](top-10-verbs-part-2-br.html) m'ho peus o manket). Amañ e studiomp 10 verb novezh. Taolennoù conjugaison a c'haller kavout war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ar 10 verb pennañ (Lodenn 3)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Dibab / Prenañ / Paeañ:** Dibab ha kenwerzh.\n  • *Frazennoù eeun:* 'Dibab ul levr', 'Prenañ bara', 'Paeañ dre gartenn'.\n  • *Troioù-lavar:* 'dibab mat', 'prenañ enlinenn', 'paeañ koan'.",
+        "**2. Kounaat / Ankouaat:** Memor hag adkoun.\n  • *Frazennoù eeun:* 'Kounaat a ran da anv', 'Na ankoua ket da alc'hwezioù!'.\n  • *Troioù-lavar:* 'kounaat ober un dra bennak', 'ankouaat ar ger-tremen'.",
+        "**3. Santout:** Statud fizikel hag elfennoù.\n  • *Frazennoù eeun:* 'Santout mat a ran', 'Yen eo dezhi', 'Penaos e santez?'.\n  • *Troioù-lavar:* 'santout skuizhder', 'santout er gêr'.",
+        "**4. Kejañ:** Darempredoù ha tud.\n  • *Frazennoù eeun:* 'Plaejadur o kejañ ganit', 'Kejañ a reomp da 5 eur', 'Kejañ gant ur mignon'.\n  • *Troioù-lavar:* 'kejañ gant tud nevez', 'kejañ er c'hreiz-kêr'.",
+        "**5. Divizout:** Divizoù ha mennozhioù.\n  • *Frazennoù eeun:* 'Divizout a ran chom', 'Divizout diwar-benn ur raktres'.\n  • *Notenn a-bouez:* 'Lenn / diskoulmañ ur gudenn' eo ar ger mat (solve a problem).\n  • *Troioù-lavar:* 'divizout buan', 'kemer un diviz'.",
+        "**6. Skrivañ / Lenn / Bizskrivañ:** Skritur ha lennadurezh.\n  • *Frazennoù eeun:* 'Skrivañ ur postel', 'Lenn ul levr', 'Bizskrivañ ur gemennadenn'.\n  • *Troioù-lavar:* 'skrivañ dre skrid', 'lenn a-vouezh uhel', 'bizskrivañ buan'.",
+        "**7. Dispign / Foranañ:** Merañ ar madoù.\n  • *Frazennoù eeun:* 'Dispign arc'hant', 'Na foran ket da amzer!'.\n  • *Troioù-lavar:* 'dispign evit', 'tremen amzer gant ar familh'.",
+        "**8. C'hoari (an holl zoareoù):** C'hoarioù, sportoù, benvegoù, rolloù.\n  • *Frazennoù eeun:* 'C'hoari mell-droad / c'hoarioù', 'C meur a seurt: c'hoari gitar / piano', 'C'hoari ur roll'.\n  • *Troioù-lavar:* 'c'hoari ur benveg sonerezh', 'c meur a roll bras'.",
+        "**9. Bezañ a-du / Bezañ enep:** A-du hag ali.\n  • *Frazennoù eeun:* 'A-du on ganit', 'N'on ket a-du'.\n  • *Troioù-lavar:* 'bezañ a-du penn-da-benn', 'Kavout un emglev'.",
+        "**10. Kas / Kaout (reçevout):** Kasañ ha kaout.\n  • *Frazennoù eeun:* 'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.\n  • *Troioù-lavar:* 'kas ur postel', 'kaout respont'."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-3-br",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Dibab / Prenañ / Paeañ",
+          "Dibab ha kenwerzh.",
+          "'Dibab ul levr', 'Prenañ bara', 'Paeañ dre gartenn'.",
+          "'dibab mat', 'prenañ enlinenn', 'paeañ koan'."
+        ],
+        [
+          "2",
+          "Kounaat / Ankouaat",
+          "Memor hag adkoun.",
+          "'Kounaat a ran da anv', 'Na ankoua ket da alc'hwezioù!'.",
+          "'kounaat ober un dra bennak', 'ankouaat ar ger-tremen'."
+        ],
+        [
+          "3",
+          "Santout",
+          "Statud fizikel hag elfennoù.",
+          "'Santout mat a ran', 'Yen eo dezhi', 'Penaos e santez?'.",
+          "'santout skuizhder', 'santout er gêr'."
+        ],
+        [
+          "4",
+          "Kejañ",
+          "Darempredoù ha tud.",
+          "'Plaejadur o kejañ ganit', 'Kejañ a reomp da 5 eur', 'Kejañ gant ur mignon'.",
+          "'kejañ gant tud nevez', 'kejañ er c'hreiz-kêr'."
+        ],
+        [
+          "5",
+          "Divizout",
+          "Divizoù ha mennozhioù.",
+          "'Divizout a ran chom', 'Divizout diwar-benn ur raktres'.",
+          "'Lenn / diskoulmañ ur gudenn' eo ar ger mat (solve a problem)."
+        ],
+        [
+          "6",
+          "Skrivañ / Lenn / Bizskrivañ",
+          "Skritur ha lennadurezh.",
+          "'Skrivañ ur postel', 'Lenn ul levr', 'Bizskrivañ ur gemennadenn'.",
+          "'skrivañ dre skrid', 'lenn a-vouezh uhel', 'bizskrivañ buan'."
+        ],
+        [
+          "7",
+          "Dispign / Foranañ",
+          "Merañ ar madoù.",
+          "'Dispign arc'hant', 'Na foran ket da amzer!'.",
+          "'dispign evit', 'tremen amzer gant ar familh'."
+        ],
+        [
+          "8",
+          "C'hoari (an holl zoareoù)",
+          "C'hoarioù, sportoù, benvegoù, rolloù.",
+          "'C'hoari mell-droad / c'hoarioù', 'C meur a seurt: c'hoari gitar / piano', 'C'hoari ur roll'.",
+          "'c'hoari ur benveg sonerezh', 'c meur a roll bras'."
+        ],
+        [
+          "9",
+          "Bezañ a-du / Bezañ enep",
+          "A-du hag ali.",
+          "'A-du on ganit', 'N'on ket a-du'.",
+          "'bezañ a-du penn-da-benn', 'Kavout un emglev'."
+        ],
+        [
+          "10",
+          "Kas / Kaout (reçevout)",
+          "Kasañ ha kaout.",
+          "'Kas ur gemennadenn', 'Kaout al lizher', 'Arruout er porzh-houarn'.",
+          "'kas ur postel', 'kaout respont'."
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Taolenn geñveriañ ar verboù"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keñveriadur verboù Lodenn 3 hervez ar familhoù yezhoù:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Choose, Buy, Pay",
+          "Choisir / Acheter / Payer",
+          "Choose / Buy / Pay",
+          "Выбирать / Покупать / Платить",
+          "Сайлау / һайлау / Суйлама",
+          "არჩევა / ყიდვა / გადახდა"
+        ],
+        [
+          "Remember & Forget",
+          "Se souvenir / Oublier",
+          "Remember / Forget",
+          "Помнить / Забывать",
+          "Хәтерләү / Хәтерләү / Аса илме",
+          "მახსოვრობა / დავიწყება"
+        ],
+        [
+          "Write, Read, Type",
+          "Écrire / Lire / Taper",
+          "Write / Read / Type",
+          "Писать / Читать / Печатать",
+          "Язу / Яҙыу / Ҫырма",
+          "წერა / კითხვა / ბეჭდვა"
+        ],
+        [
+          "Spend & Waste",
+          "Dépenser / Gaspiller",
+          "Spend / Waste",
+          "Тратить / Транжирить",
+          "Сарыф итү / Тотоноу / Тӑкашлама",
+          "ხარჯვა / გაფლანგვა"
+        ],
+        [
+          "Send & Get",
+          "Envoyer / Obtenir",
+          "Send / Get",
+          "Отправлять / Получать",
+          "Җибәрү / Ебәреү / Ярма",
+          "გაგზავნა / მიღება"
+        ],
+        [
+          "Feel",
+          "Ressentir / Sentir",
+          "Feel / Sense",
+          "Чувствовать / Ощущать",
+          "Хис итү / Хис итеү / Туйма",
+          "გრძნობა / შეგრძნება"
+        ],
+        [
+          "Meet",
+          "Rencontrer / Croiser",
+          "Meet / Encounter",
+          "Встречать / Знакомиться",
+          "Очрашу / Осрашыу / Тĕл пулма",
+          "შეხვედრა / გაცნობა"
+        ],
+        [
+          "Decide",
+          "Décider / Résoudre",
+          "Decide / Resolve",
+          "Решать / Принимать решение",
+          "Карар итү / Ҡарар итеү / Йышӑнма",
+          "გადაწყვეტა / გადაჭრა"
+        ],
+        [
+          "Play",
+          "Jouer / Pratiquer",
+          "Play / Practice",
+          "Играть / Исполнять",
+          "Уйнау / Уйнау / Выляма",
+          "თამაში / დაკვრა"
+        ],
+        [
+          "Agree & Disagree",
+          "Être d'accord / Disconvenir",
+          "Agree / Disagree",
+          "Соглашаться / Не соглашаться",
+          "Килешү / Килешеү / Килĕшме",
+          "დათანხმება / უარყოფა"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": " Yezhadur ha frammoù (A0–A1 / A2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Frammoù eeun:** Rener + Verb + Renadenn.\n• **C'hoari:** implijet e vez 'c'hoari' ken evit ar sportoù ken evit ar benvegoù sonerezh.\n• **Treuzfeurmiñ:** Mirit an taolennoù klok war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "PRAKTIK HAG AMSOER"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 Implijit [COSYpractice](https://cosylanguages.github.io/COSYpractice/), lennit [Lodenn 1](top-10-verbs-br.html), [Lodenn 2](top-10-verbs-part-2-br.html) ha [Lodenn 3](top-10-verbs-part-3-br.html), ha klaskit ar conjugaison war [COSYtools](https://cosylanguages.github.io/COSYtools/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

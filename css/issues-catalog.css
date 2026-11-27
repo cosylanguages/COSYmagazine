@@ -1,0 +1,239 @@
+/* Issue catalog: every volume, every article, every language. */
+.cat-hero { max-width: 52rem; }
+.cat-nav {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border, rgba(74,107,80,.18));
+}
+.cat-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: .4rem .9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border, rgba(74,107,80,.25));
+  background: var(--warm-white, #fffdf8);
+  color: var(--ink, #1c1917);
+  text-decoration: none;
+  font-size: .85rem;
+  font-weight: 600;
+}
+.cat-nav-pill:hover { border-color: var(--cosy-color-primary, #3f6b4b); color: var(--cosy-color-primary, #3f6b4b); }
+.cat-summary { margin: 0 0 2rem; font-size: .9rem; color: var(--ink-muted, #5a5a50); }
+
+.cat-issue {
+  margin: 0 0 3rem;
+  padding: 1.5rem clamp(1rem, 2.5vw, 2rem) 1.75rem;
+  background: var(--warm-white, #fffdf8);
+  border: 1px solid var(--border, rgba(74,107,80,.2));
+  border-radius: 20px;
+  scroll-margin-top: 4.5rem;
+}
+
+/* Portrait cover beside the issue header. The cover keeps a 3:4 ratio so it reads as a
+   magazine front rather than a banner. */
+.cat-issue-cover {
+  float: none;
+  width: min(100%, 15rem);
+  margin: 0 0 1.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(38, 26, 22, .22);
+  aspect-ratio: 3 / 4;
+  background: #241C18;
+}
+.cat-issue-cover svg { display: block; width: 100%; height: 100%; }
+@media (min-width: 720px) {
+  .cat-issue-cover { float: left; margin: 0 1.5rem 1rem 0; }
+  .cat-issue-head { overflow: hidden; }
+}
+.cat-issue-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.1rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--border, rgba(74,107,80,.18));
+}
+.cat-issue-tag {
+  display: inline-block;
+  font: 700 .74rem/1 var(--font-sans, system-ui);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #993C1D;
+  margin-bottom: .45rem;
+}
+.cat-issue-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(1.35rem, 2.6vw, 1.8rem);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 .4rem;
+  text-wrap: balance;
+}
+.cat-issue-vibe {
+  margin: 0;
+  max-width: 46rem;
+  font-size: .95rem;
+  line-height: 1.5;
+  color: var(--ink-muted, #5a5a50);
+}
+.cat-issue-actions {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cat-issue-count {
+  font: 700 .74rem/1 var(--font-sans, system-ui);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--ink-muted, #5a5a50);
+  margin-right: .25rem;
+}
+.cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .5rem 1rem;
+  border-radius: 999px;
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: rgba(153, 60, 29, .08);
+  color: #993C1D;
+  border: 1px solid rgba(153, 60, 29, .2);
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+.cat-btn:hover:not(:disabled) { background: #993C1D; color: #fff; }
+.cat-btn:disabled, .cat-btn[aria-busy="true"] { opacity: .65; cursor: not-allowed; pointer-events: none; }
+
+.cat-edition {
+  margin: 1.4rem 0 2rem;
+}
+.cat-edition:last-child { margin-bottom: 0; }
+.cat-edition-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 0 0 .9rem;
+  padding-bottom: .45rem;
+  border-bottom: 1px dashed var(--border, rgba(74,107,80,.22));
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink, #2B2B2B);
+}
+.cat-edition-flag { font-size: 1.1rem; }
+.cat-edition-count {
+  font-family: 'Commissioner', system-ui, sans-serif;
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .02em;
+  color: var(--muted, #6B6B6B);
+}
+
+.cat-article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.1rem;
+}
+.cat-article {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  padding: 1rem 1.1rem 1.1rem;
+  border: 1px solid var(--border, rgba(74,107,80,.18));
+  border-radius: 14px;
+  background: var(--cream, #FAF7F2);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.cat-article:hover { transform: translateY(-2px); box-shadow: 0 10px 22px -16px rgba(35,56,39,.5); }
+.cat-article-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink, #1c1917);
+  text-decoration: none;
+  text-wrap: balance;
+}
+.cat-article-title:hover { text-decoration: underline; text-decoration-color: #F3C969; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.cat-article-dek {
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1.5;
+  color: var(--ink-muted, #5a5a50);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cat-article-meta {
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  font: 700 .7rem/1 var(--font-sans, system-ui);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--cosy-color-primary, #3f6b4b);
+}
+.cat-article-desk { color: var(--ink-muted, #5a5a50); }
+.cat-lang-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin-top: auto;
+  padding-top: .55rem;
+}
+.cat-lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
+  padding: .18rem .45rem;
+  border-radius: 6px;
+  background: var(--sage-mist, #F0F5F1);
+  color: var(--ink, #1c1917);
+  text-decoration: none;
+  font-size: .72rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+.cat-lang-pill:hover { background: #F3C969; border-color: rgba(0,0,0,.1); }
+.cat-lang-pill.is-base { border-color: var(--cosy-color-primary, #3f6b4b); }
+.cat-empty { color: var(--ink-muted, #5a5a50); }
+
+html[data-theme="dark"] .cat-issue { background: #1b251e; border-color: rgba(255,255,255,.12); }
+html[data-theme="dark"] .cat-issue-head { border-bottom-color: rgba(255,255,255,.1); }
+html[data-theme="dark"] .cat-article { background: #243027; border-color: rgba(255,255,255,.1); }
+html[data-theme="dark"] .cat-issue-vibe,
+html[data-theme="dark"] .cat-article-dek,
+html[data-theme="dark"] .cat-issue-count,
+html[data-theme="dark"] .cat-summary { color: #a3b899; }
+html[data-theme="dark"] .cat-article-title { color: #FAF7F2; }
+html[data-theme="dark"] .cat-nav-pill { background: #1b251e; border-color: rgba(255,255,255,.14); color: #FAF7F2; }
+html[data-theme="dark"] .cat-lang-pill { background: #33422f; color: #FAF7F2; }
+
+.cat-lang-pill.is-hub { background: transparent; border: 1px dashed var(--border, rgba(74,107,80,.45)); }
+html[data-theme="dark"] .cat-lang-pill.is-hub { background: transparent; border-color: rgba(255,255,255,.3); }
+
+/* Night mode: the rust pills were tuned for cream only */
+html[data-theme="dark"] .cat-btn {
+  background: rgba(253, 186, 116, .12);
+  color: #FDBA74;
+  border-color: rgba(253, 186, 116, .30);
+}
+html[data-theme="dark"] .cat-btn:hover:not(:disabled) { background: #9A3412; color: #fff; }
+html[data-theme="dark"] .cat-nav-pill,
+html[data-theme="dark"] .cat-lang-pill { color: #E7EDE8; border-color: rgba(231, 237, 232, .25); }

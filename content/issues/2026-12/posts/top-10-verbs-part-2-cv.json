@@ -1,0 +1,264 @@
+{
+  "id": "post-top-10-verbs-part-2-cv",
+  "slug": "top-10-verbs-part-2-cv",
+  "language": "cv",
+  "translationOf": "top-10-verbs-part-2",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "Чăваш чĕлхинчи чи кирлĕ 10 глагол, 2-мĕш пай (A0–A1 / A2)",
+  "kicker": "ЧĂВАШ ЧĔЛХИН СУМЛĂ ГИДĔ — 2-МĔШ ПАЙ (ПĔТĔМПЕ 2 ПАЙ)",
+  "dek": "Малалла 10 кирлĕ глагол (тăвасси, калаçасси/каласси, пăхасси/курасси, итлесси/ишитесси, кирлĕ, килесси/каймалли, илесси/парасси, ыйтасси/хуравламалли, кĕтесси, пурăнасси). Спряжени COSYtools битенче.",
+  "tags": [
+    "Verbs",
+    "Chuvash",
+    "A0-A1",
+    "Part2"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0284c7",
+      "#f0f9ff",
+      "#0f172a"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-2-cv",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Чăваш чĕлхи гидĕн 2-мĕш пайне килĕр! ([1-мĕш пайне](top-10-verbs-cv.html) вулăр). Чăваш глаголĕсен спряжени формасене [COSYtools](https://cosylanguages.github.io/COSYtools/) битенче уçса пăхма пулать."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Тĕп 10 Чăваш глаголĕ (2-мĕш пай)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Тăвасси:** Ĕçсем тата пулăмсем (*Ĕç тăвасси*).",
+        "**2. Калаçасси / Каласси:** Калаçу тата сăмах (*Чăвашла калаçасси*).",
+        "**3. Пăхасси / Курасси:** Асăрхаса пăхасси (*Фильм пăхасси*).",
+        "**4. Итлесси / Ишитесси:** Итлесси тата илтесси (*Музыка итлесси*).",
+        "**5. Кирлĕ:** Ыйтни тата тивĕçлĕх (*Мана кирлĕ*).",
+        "**6. Килесси / Каясси:** Куçни, килни тата кайни (*Киле килесси*, *каймалли*).",
+        "**7. Илесси / Парасси:** Улмаш тата парне (*Кĕнеке илесси*, *алă парасси*).",
+        "**8. Ыйтасси / Хуравламалли:** Ыйтусем тата хуравсем (*Ыйту парасси*).",
+        "**9. Кĕтесси:** Тӳсĕмлĕх тата вăхăт (*Автобус кĕтесси*).",
+        "**10. Пурăнасси:** Вырăн тата пурнăç (*Шупашкарта пурăнатăп*)."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-cv",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Тăвасси",
+          "Ĕçсем тата пулăмсем (Ĕç тăвасси).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Калаçасси / Каласси",
+          "Калаçу тата сăмах (Чăвашла калаçасси).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Пăхасси / Курасси",
+          "Асăрхаса пăхасси (Фильм пăхасси).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Итлесси / Ишитесси",
+          "Итлесси тата илтесси (Музыка итлесси).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Кирлĕ",
+          "Ыйтни тата тивĕçлĕх (Мана кирлĕ).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Килесси / Каясси",
+          "Куçни, килни тата кайни (Киле килесси, каймалли).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Илесси / Парасси",
+          "Улмаш тата парне (Кĕнеке илесси, алă парасси).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Ыйтасси / Хуравламалли",
+          "Ыйтусем тата хуравсем (Ыйту парасси).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Кĕтесси",
+          "Тӳсĕмлĕх тата вăхăт (Автобус кĕтесси).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Пурăнасси",
+          "Вырăн тата пурнăç (Шупашкарта пурăнатăп).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Глаголсен танлаштару таблици"
+    },
+    {
+      "type": "paragraph",
+      "text": "Тĕрлĕ чĕлхесем тăрăх тĕп глаголсене танлаштарни:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A0–A1 / A2 дăрăжĕ валли грамматика"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Сăмах йĕрки:** Вĕçлĕхсем тата глагол формисем.\n• **Агглютинаци:** Спряжени аффиксĕсем.\n• **Таблицасем:** Пуххине [COSYtools](https://cosylanguages.github.io/COSYtools/) битенче вулăр."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Практика тата спряжени"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) битенче хăнăхăр, [1-мĕш пай](top-10-verbs-cv.html) тата [2-мĕш пай](top-10-verbs-part-2-cv.html) статьисене вулăр, спряжени таблицисене [COSYtools](https://cosylanguages.github.io/COSYtools/) битенче пăхăр."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

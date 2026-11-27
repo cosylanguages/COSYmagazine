@@ -1,0 +1,140 @@
+name: Generate and Upload Magazine PDF to Supabase
+
+on:
+  workflow_dispatch:
+    inputs:
+      action_mode:
+        description: 'Operation Mode'
+        type: choice
+        required: true
+        default: 'generate_and_upload'
+        options:
+          - 'generate_and_upload'
+          - 'upload_existing_file'
+      volume_number:
+        description: 'Volume number (e.g. "Vol. 2026.08")'
+        required: false
+        default: 'Vol. 2026.08'
+      language:
+        description: 'Edition language (en, fr, ru) or "all" for every published edition'
+        required: false
+        default: 'all'
+      pdf_path:
+        description: 'URL or existing file path (required for upload_existing_file)'
+        required: false
+        default: ''
+      issue_title:
+        description: 'Title of the Magazine Issue (optional)'
+        required: false
+        default: ''
+      publish:
+        description: 'Mark issue as published (true/false)'
+        type: boolean
+        required: true
+        default: true
+
+
+jobs:
+  build-and-upload-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Install Playwright Chromium (for PDF generation on GitHub)
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate PDF editions on GitHub and upload to Supabase
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'generate_and_upload'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+          VOLUME_INPUT: ${{ inputs.volume_number }}
+          LANGUAGE_INPUT: ${{ inputs.language }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          # The workflow takes "Vol. 2026.08"; the generator takes "2026.08".
+          VOLUME="${VOLUME_INPUT#Vol. }"
+          ARGS=(--volume "$VOLUME")
+          if [ -n "$LANGUAGE_INPUT" ] && [ "$LANGUAGE_INPUT" != "all" ]; then
+            ARGS+=(--lang "$LANGUAGE_INPUT")
+          fi
+          if [ "$PUBLISH_INPUT" = "false" ]; then
+            ARGS+=(--no-publish)
+          fi
+
+          node scripts/ops/publish-issue-pdf.js "${ARGS[@]}"
+
+      - name: Upload existing PDF triggered by Workflow Dispatch
+        if: github.event_name == 'workflow_dispatch' && inputs.action_mode == 'upload_existing_file'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_BUCKET: ${{ secrets.SUPABASE_BUCKET || 'magazine-editions' }}
+          PDF_INPUT: ${{ inputs.pdf_path }}
+          VOLUME_INPUT: ${{ inputs.volume_number }}
+          LANGUAGE_INPUT: ${{ inputs.language }}
+          TITLE_INPUT: ${{ inputs.issue_title }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in repository secrets."
+            exit 1
+          fi
+
+          if [ -z "$PDF_INPUT" ]; then
+            echo "::error::Provide a PDF URL or an existing file path in pdf_path."
+            exit 1
+          fi
+          if [ -z "$LANGUAGE_INPUT" ] || [ "$LANGUAGE_INPUT" = "all" ]; then
+            echo "::error::upload_existing_file needs one edition language (en, fr, or ru)."
+            exit 1
+          fi
+
+          FILE_PATH="$PDF_INPUT"
+
+          if [[ "$FILE_PATH" =~ ^https?:// ]]; then
+            echo "Downloading PDF from URL: $FILE_PATH"
+            mkdir -p /tmp/magazine-uploads
+            TEMP_FILE="/tmp/magazine-uploads/$(basename "$FILE_PATH")"
+            curl -fsSL "$FILE_PATH" -o "$TEMP_FILE"
+            FILE_PATH="$TEMP_FILE"
+          fi
+
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "::error::Target PDF file not found at: $FILE_PATH"
+            exit 1
+          fi
+
+          CMD_ARGS=(--file "$FILE_PATH" --language "$LANGUAGE_INPUT")
+          if [ -n "$VOLUME_INPUT" ]; then
+            CMD_ARGS+=(--volume "$VOLUME_INPUT")
+          fi
+          if [ -n "$TITLE_INPUT" ]; then
+            CMD_ARGS+=(--title "$TITLE_INPUT")
+          fi
+          if [ "$PUBLISH_INPUT" = "false" ]; then
+            CMD_ARGS+=(--draft)
+          fi
+
+          node scripts/ops/upload-pdf-to-supabase.js "${CMD_ARGS[@]}"
+

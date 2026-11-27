@@ -1,0 +1,90 @@
+{
+  "id": "post-stage-demo-podcast",
+  "slug": "stage-demo-podcast",
+  "language": "en",
+  "desk": "The Podcast",
+  "format": "essay",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-10-18",
+  "title": "Mastering Conversational Flow: Stage & Podcast Demo",
+  "kicker": "PODCAST STAGE DEMO",
+  "dek": "An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.",
+  "tags": [
+    "StageMode",
+    "Podcast",
+    "Fluency",
+    "B1-B2"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 10,
+    "audioUrl": "audio/stage-demo-podcast.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#1a202c",
+      "#4a5568",
+      "#a0aec0",
+      "#f7fafc"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "stage-demo-podcast",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Welcome to Stage Mode 🎙️",
+      "say": "Welcome to Stage Mode! This interactive presentation mode turns any blog post into a animated presentation deck.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.",
+      "say": "In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pullquote",
+      "quote": "Language learning becomes effortless when you immerse your eyes and ears simultaneously.",
+      "attribution": "JY DM",
+      "say": "Language learning becomes effortless when you immerse your eyes and ears simultaneously.",
+      "beat": {
+        "duration": 5000,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Pedagogical Note on Stage Mode",
+      "content": "Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.",
+      "say": "Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.",
+      "beat": {
+        "duration": 5000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    }
+  ],
+  "draft": true
+}

@@ -1,0 +1,264 @@
+{
+  "id": "post-top-10-verbs-part-2-tt",
+  "slug": "top-10-verbs-part-2-tt",
+  "language": "tt",
+  "translationOf": "top-10-verbs-part-2",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026 — December Issue",
+    "title": "Winter Grammar & High Frequency Verbs"
+  },
+  "date": "2026-12-01",
+  "title": "Татар теле буенча иң мөһим 10 фигыль, 2 өлеш (A0–A1 / A2)",
+  "kicker": "ТАТАР ТЕЛЕ МӘГАРИФЕ — 2 ӨЛЕШ (БАРЛЫҒЫ 2 ӨЛЕШ)",
+  "dek": "Киләсе 10 мөһим фигыль (эшләү, сөйләү/әйтү, карау/күрү, тыңлау/ишетү, кирәк/тиеш, килү/китү, алу/бирү, сорау/җавап бирү, көтү, яшәү). Төрләндерү җадвәле COSYtools битендә.",
+  "tags": [
+    "Verbs",
+    "Tatar",
+    "A0-A1",
+    "Part2"
+  ],
+  "readingTime": 10,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": null
+  },
+  "artDirection": {
+    "palette": [
+      "#0284c7",
+      "#f0f9ff",
+      "#0f172a"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "top-10-verbs-part-2-tt",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Татар теле фигыльләре кулланмасының 2-нче өлешенә рәхим итегез! (Иң башта [1-нче өлешне](top-10-verbs-tt.html) укырга мөмкин). Могҗизалы 10 яңа фигыльне өйрәнәбез. Барлык төрләндерү формалары [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә бирелә."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Төп 10 Татар фигыле (2 өлеш)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**1. Эшләү / Ясау:** Эш һәм ясау (*Өй эшләрен эшләү*).",
+        "**2. Сөйләү / Әйтү:** Сөйләшү һәм сүз (*Татарча сөйләшү*).",
+        "**3. Карау / Күрү:** Игътибар һәм күрү (*Фильм карау*).",
+        "**4. Тыңлау / Ишетү:** Тыңлау һәм ишетү (*Музыка тыңлау*).",
+        "**5. Кирәк / Тиеш:** Зарурилык һәм киңәш (*Миңа өйрәнергә кирәк*).",
+        "**6. Килү / Китү:** Хәрәкәт, килү һәм китү (*Өйгә килү*, *юлга чыгу/китү*).",
+        "**7. Алу / Бирү:** Алмашу һәм бүләк итү (*Китап алу*, *ярдәм бирү*).",
+        "**8. Сорау / Җавап бирү:** Сораулар һәм җаваплар (*Сорау бирү*).",
+        "**9. Көтү:** Сабырлык һәм вакыт (*Автобус көтү*).",
+        "**10. Яшәү:** Яшәү урыны һәм тормыш (*Мин Казанда яшим*)."
+      ]
+    },
+    {
+      "type": "table",
+      "printable": true,
+      "listId": "top10",
+      "csvName": "top-10-verbs-part-2-tt",
+      "listTitle": "The full list",
+      "headers": [
+        "#",
+        "Verb",
+        "What it is for",
+        "Example",
+        "Useful phrases"
+      ],
+      "rows": [
+        [
+          "1",
+          "Эшләү / Ясау",
+          "Эш һәм ясау (Өй эшләрен эшләү).",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "Сөйләү / Әйтү",
+          "Сөйләшү һәм сүз (Татарча сөйләшү).",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "Карау / Күрү",
+          "Игътибар һәм күрү (Фильм карау).",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "Тыңлау / Ишетү",
+          "Тыңлау һәм ишетү (Музыка тыңлау).",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "Кирәк / Тиеш",
+          "Зарурилык һәм киңәш (Миңа өйрәнергә кирәк).",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "Килү / Китү",
+          "Хәрәкәт, килү һәм китү (Өйгә килү, юлга чыгу/китү).",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "Алу / Бирү",
+          "Алмашу һәм бүләк итү (Китап алу, ярдәм бирү).",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "Сорау / Җавап бирү",
+          "Сораулар һәм җаваплар (Сорау бирү).",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "Көтү",
+          "Сабырлык һәм вакыт (Автобус көтү).",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "Яшәү",
+          "Яшәү урыны һәм тормыш (Мин Казанда яшим).",
+          "",
+          ""
+        ]
+      ],
+      "webOnly": true
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Телләр арасында чагыштырма таблица"
+    },
+    {
+      "type": "paragraph",
+      "text": "Төрле тел гаиләләрендә төп фигыльләрне чагыштыру:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concept",
+        "Romance (FR/IT/ES/PT)",
+        "Germanic (EN/DE)",
+        "Slavic / Hellenic / Celtic / Arm",
+        "Turkic (TT/BA/CV)",
+        "Kartvelian (KA)"
+      ],
+      "rows": [
+        [
+          "Be / Exist",
+          "être / essere / ser, estar / ser, estar",
+          "be / sein",
+          "быть / είναι / bezañ / լինել",
+          "булу / булыу / пуласси",
+          "ყოფნა (qopna)"
+        ],
+        [
+          "Have / Possess",
+          "avoir / avere / tener / ter",
+          "have / haben",
+          "иметь (у меня есть) / έχω / kaout / ունենալ",
+          "бар (минем бар) / бар / пур",
+          "ქոնա / ყოლა"
+        ],
+        [
+          "Do / Make",
+          "faire / fare / hacer / fazer",
+          "do, make / machen, tun",
+          "делать / κάνω / ober / անել",
+          "эшләү / эшләү / тăвасси",
+          "կետება (keteba)"
+        ],
+        [
+          "Go",
+          "aller / andare / ir / ir",
+          "go / gehen",
+          "идти, ехать / πηγαίνω / mont / գնալ",
+          "бару / барыу / кайни",
+          "წასვლა (tsasvla)"
+        ],
+        [
+          "See / Look",
+          "voir, regarder / vedere, guardare",
+          "see, look / sehen, schauen",
+          "видеть, смотреть / βλέπω / gwelout / տեսնել",
+          "күрү, карау / күреү, ҡарау / курасси",
+          "ნახვა, ყურება"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "А0–А1 / А2 дәрәҗәсе өчен грамматика"
+    },
+    {
+      "type": "paragraph",
+      "text": "• **Гади җөмлә төзелеше:** Ия + Вакыт суффиксы + Фигыль.\n• **Агглютинация:** Фигыль ахырына заман һәм зат кушымталары ялгана.\n• **Төрләнеш җадвәле:** Барлык заман кушымчаларын [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә карагыз."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Практика һәм фигыль төрләнеше"
+    },
+    {
+      "type": "paragraph",
+      "text": "📌 [COSYpractice](https://cosylanguages.github.io/COSYpractice/) битендә белемегезне тикшерегез, [1-нче өлеш](top-10-verbs-tt.html) һәм [2-нче өлеш](top-10-verbs-part-2-tt.html) мәкаләләрен укыгыз, фигыль төрләнешен [COSYtools](https://cosylanguages.github.io/COSYtools/) битендә карагыз."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Өстәмә укырга",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999).** *Longman Grammar of Spoken and Written English.* Longman.",
+        "**Ellis, N. C. (2002).** Frequency effects in language processing: A review with implications for theories of implicit and explicit language acquisition. *Studies in Second Language Acquisition, 24*(2), 143–188.",
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Sinclair, J. (1991).** *Corpus, Concordance, Collocation.* Oxford University Press.",
+        "**Wray, A. (2002).** *Formulaic Language and the Lexicon.* Cambridge University Press."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}

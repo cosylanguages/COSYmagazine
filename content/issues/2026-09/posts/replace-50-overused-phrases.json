@@ -1,0 +1,754 @@
+{
+  "id": "post-replace-50-overused-phrases",
+  "slug": "replace-50-overused-phrases",
+  "language": "en",
+  "desk": "Words",
+  "section": "words_desk",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
+  "kicker": "WORDS",
+  "dek": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
+  "tags": [
+    "Phrases",
+    "IntermediatePlateau",
+    "Fluency",
+    "B1-B2"
+  ],
+  "readingTime": 11,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "audio/replace-50-overused-phrases.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Caveat"
+    },
+    "layout": "magazine-spread",
+    "motif": "notebook-handwritten",
+    "seed": "replace-50-overused-phrases",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "<div class=\"september-issue-banner\">\n    <div class=\"september-banner-badge\">⛰️ Vol. 2026.09 — Me vs Intermediate Plateau</div>\n    <div class=\"september-banner-content\">\n        <h4>Special Edition: Breaking the B1–B2 Ceiling</h4>\n        <p>Welcome to our September notebook special issue! Discover natural upgrades, stronger adjectives, and precise verb synonyms to overcome the intermediate plateau.</p>\n    </div>\n</div>"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you reach the **intermediate plateau (CEFR B1–B2)**, you can comfortably hold conversations, share opinions, and make yourself understood. However, almost every language teacher notices the same pattern: learners find themselves relying on a tiny cluster of \"safe\" phrases in every single discussion—defaulting over and over to *\"I think...\"*, *\"I agree\"*, *\"It depends\"*, or *\"I don't know\"*."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upgrading these daily expressions doesn't require memorizing complex, obscure idioms. By adopting subtle, natural conversational alternatives—and mastering clear **direct contrasts and opposites**—your English immediately sounds more expressive, warm, and authentic."
+    },
+    {
+      "type": "paragraph",
+      "text": "Here are 50 overused intermediate phrases broken down into practical conversational categories, complete with natural upgrades and direct opposites where applicable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Agreeing & Disagreeing (Direct Opposites)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expressing agreement or disagreement is the backbone of active conversation. Instead of defaulting to plain *\"I agree\"* or *\"I disagree\"*, try these nuanced alternatives:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "1. I agree ↔ 2. I disagree"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Agree:** *I agree.*\n- **Natural Upgrades:** *I completely agree.* • *Absolutely.* • *I couldn't agree more.* • *That's true.* • *You have a point.*",
+        "**Overused Disagree:** *I disagree.*\n- **Natural Upgrades:** *I'm not so sure.* • *I see it differently.* • *I don't quite agree.* • *I have a different view on this.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. It depends"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *It depends.*",
+        "**Natural Upgrades:** *It varies.* • *It really depends on the situation.* • *It isn't that simple.* • *It comes down to...*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Giving Opinions & Stating Uncertainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Moving beyond a mechanical *\"I think\"* or blunt *\"I don't know\"* adds instant polish to your discussions:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "4. I think..."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I think...*",
+        "**Natural Upgrades:** *I believe...* • *I'd say...* • *In my opinion...* • *From my point of view...* • *It seems to me...*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "5. I don't know"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I don't know.*",
+        "**Natural Upgrades:** *I'm not sure.* • *It's hard to say.* • *I haven't thought about that.* • *That's a good question.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "6. Maybe"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Maybe.*",
+        "**Natural Upgrades:** *Perhaps.* • *Possibly.* • *There's a chance.* • *It could be.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Affirmation & Refusal (Yes vs. No)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Polite conversations rely on varied ways to say yes, no, or of course:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "7. Of course"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Of course.*",
+        "**Natural Upgrades:** *Absolutely.* • *Definitely.* • *Naturally.* • *Without a doubt.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "8. Yes ↔ 9. No"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Yes:** *Yes.*\n- **Natural Upgrades:** *Certainly.* • *Definitely.* • *Exactly.* • *That's right.*",
+        "**Overused No:** *No.*\n- **Natural Upgrades:** *Not really.* • *I don't think so.* • *I'm afraid not.* • *Not exactly.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Courtesy, Apologies & Appreciation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Everyday social etiquette sounds much warmer when you expand your polite toolkit:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "10. Thank you"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Thank you.*",
+        "**Natural Upgrades:** *Thanks a lot.* • *I really appreciate it.* • *That's very kind of you.* • *Much appreciated.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "11. You're welcome"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *You're welcome.*",
+        "**Natural Upgrades:** *No problem.* • *My pleasure.* • *Anytime.* • *Don't mention it.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "12. I'm sorry"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I'm sorry.*",
+        "**Natural Upgrades:** *I apologize.* • *My apologies.* • *I didn't mean to.* • *Sorry about that.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Liking, Disliking & Loving (Direct Opposites)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of relying solely on *\"like\"* or *\"don't like\"*, describe your interests with precision:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "13. I like it ↔ 14. I don't like it"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Like:** *I like it.*\n- **Natural Upgrades:** *I'm a fan of it.* • *I'm really into it.* • *I enjoy it.* • *It's right up my alley.*",
+        "**Overused Dislike:** *I don't like it.*\n- **Natural Upgrades:** *It's not really my thing.* • *I'm not a fan.* • *It doesn't appeal to me.* • *I'm not keen on it.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "15. I love it"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I love it.*",
+        "**Natural Upgrades:** *I'm crazy about it.* • *I'm obsessed with it.* • *I absolutely love it.* • *I can't get enough of it.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Evaluative Judgments (Good vs. Bad / Interesting vs. Boring)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Broad evaluative adjectives carry far more impact when replaced with precise descriptive alternatives:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "16. It's good ↔ 17. It's bad"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Good:** *It's good.*\n- **Natural Upgrades:** *It's great.* • *It's excellent.* • *It's impressive.* • *It's outstanding.*",
+        "**Overused Bad:** *It's bad.*\n- **Natural Upgrades:** *It's disappointing.* • *It's awful.* • *It's poor.* • *It's terrible.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "18. It's interesting ↔ 19. It's boring"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Interesting:** *It's interesting.*\n- **Natural Upgrades:** *It's fascinating.* • *It's intriguing.* • *It's thought-provoking.* • *It's captivating.*",
+        "**Overused Boring:** *It's boring.*\n- **Natural Upgrades:** *It's dull.* • *It's repetitive.* • *It failed to keep my attention.* • *It's uninspiring.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "20. It's important"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *It's important.*",
+        "**Natural Upgrades:** *It's essential.* • *It's crucial.* • *It's vital.* • *It matters a lot.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "21. It's difficult ↔ 22. It's easy"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Difficult:** *It's difficult.*\n- **Natural Upgrades:** *It's challenging.* • *It's demanding.* • *It's complicated.* • *It's tough.*",
+        "**Overused Easy:** *It's easy.*\n- **Natural Upgrades:** *It's straightforward.* • *It's simple.* • *It's manageable.* • *It's a piece of cake (informal).*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Comprehension & Clarification (Direct Opposites)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clear communication requires smooth signals when listening to others:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "23. I understand ↔ 24. I don't understand"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Understand:** *I understand.*\n- **Natural Upgrades:** *I see.* • *That makes sense.* • *I get it.* • *I follow you.*",
+        "**Overused Don't Understand:** *I don't understand.*\n- **Natural Upgrades:** *I'm confused.* • *Could you explain that?* • *I'm not following.* • *Could you clarify?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "8. Discourse Connectors & Structure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Transition words connect ideas logically and keep long turn-taking fluid:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\n<div class=\"print-table-wrapper\" style=\"margin: 2rem 0; padding: 1.25rem; background: var(--blog-paper-card, #ffffff); border: 2px solid var(--post-palette-accent, #0d9488); border-radius: 12px;\">\n    <div style=\"display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--blog-border-delicate, rgba(74, 107, 80, 0.15)); padding-bottom: 0.75rem;\">\n        <div>\n            <h3 style=\"margin: 0; color: var(--post-palette-accent, #0d9488); font-family: var(--font-serif);\">📊 Complete Vocabulary Reference Table</h3>\n            <p style=\"margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--ink-muted, #4a4a4a);\">Full list of B1 intermediate default expressions and B2 natural upgrades.</p>\n        </div>\n        <button type=\"button\" data-action=\"print\" class=\"blog-print-btn\" style=\"display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--post-palette-accent, #0d9488); color: #ffffff; border: none; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 0.88rem;\">\n            🖨️ Print / Save Table (PDF)\n        </button>\n    </div>\n</div>\n"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Basic Connector",
+        "Natural Conversational Upgrades"
+      ],
+      "rows": [
+        [
+          "**25. For example...**",
+          "*For instance...* • *Such as...* • *To give an example...*"
+        ],
+        [
+          "**26. Also...**",
+          "*In addition...* • *What's more...* • *Besides...* • *Furthermore...*"
+        ],
+        [
+          "**27. But...**",
+          "*However...* • *On the other hand...* • *Having said that...* • *Even so...*"
+        ],
+        [
+          "**28. Because...**",
+          "*Since...* • *As...* • *Due to the fact that...* • *That's because...*"
+        ],
+        [
+          "**29. So...**",
+          "*Therefore...* • *As a result...* • *Consequently...* • *That's why...*"
+        ],
+        [
+          "**30. Finally...**",
+          "*In the end...* • *Ultimately...* • *Lastly...* • *To sum up...*"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "9. Desiring, Needing & Capability (Can vs. Can't)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Differentiate between basic desires, obligations, and physical or situational ability:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "31. I want..."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I want...*",
+        "**Natural Upgrades:** *I'd like...* • *I'm hoping to...* • *I'm looking to...* • *My goal is to...*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "32. I need..."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I need...*",
+        "**Natural Upgrades:** *I have to...* • *I'm supposed to...* • *It's necessary for me to...* • *I require...*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "33. I can... ↔ 34. I can't..."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Can:** *I can...*\n- **Natural Upgrades:** *I'm able to...* • *I manage to...* • *I have the opportunity to...*",
+        "**Overused Can't:** *I can't...*\n- **Natural Upgrades:** *I'm unable to...* • *I don't have the chance to...* • *It's impossible for me...*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "10. Quantity, Frequency & Time Horizons (Future vs. Past)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expressing amounts and time perspectives with precision:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "35. A lot of..."
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *A lot of...*",
+        "**Natural Upgrades:** *Plenty of...* • *Numerous...* • *A great deal of...* • *Tons of (informal).*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "36. Very often ↔ 37. Sometimes ↔ 38. Never"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Very Often:** *Very often.* → *Frequently.* • *Regularly.* • *Quite often.* • *Time and again.*",
+        "**Overused Sometimes:** *Sometimes.* → *From time to time.* • *Every now and then.* • *Occasionally.*",
+        "**Overused Never:** *Never.* → *Not once.* • *Under no circumstances.* • *At no time.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "39. Every day"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Every day.*",
+        "**Natural Upgrades:** *On a daily basis.* • *Day after day.* • *Each day.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "40. In the future ↔ 41. In the past"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused Future:** *In the future.*\n- **Natural Upgrades:** *Going forward.* • *Down the road.* • *Eventually.* • *In years to come.*",
+        "**Overused Past:** *In the past.*\n- **Natural Upgrades:** *Previously.* • *Back then.* • *In earlier times.* • *Once upon a time (stories).*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "11. Closing, Questions & Interactions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrapping up thoughts, prompting others, and reacting in real time:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "42. That's all"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *That's all.*",
+        "**Natural Upgrades:** *That's about it.* • *That's everything.* • *That's pretty much it.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "43. What do you think?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *What do you think?*",
+        "**Natural Upgrades:** *What's your opinion?* • *How do you see it?* • *What's your take on this?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "44. Really?"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Really?*",
+        "**Natural Upgrades:** *Is that so?* • *Seriously?* • *No way!* • *You're kidding!*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "45. I hope so"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I hope so.*",
+        "**Natural Upgrades:** *Fingers crossed.* • *Let us hope so.* • *I'm optimistic.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "46. Good luck!"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Good luck!*",
+        "**Natural Upgrades:** *Best of luck!* • *Wish you all the best!* • *I'm rooting for you!*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "47. Be careful"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Be careful.*",
+        "**Natural Upgrades:** *Watch out.* • *Take care.* • *Stay safe.* • *Be cautious.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "48. Excuse me"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *Excuse me.*",
+        "**Natural Upgrades:** *Pardon me.* • *Sorry to interrupt.* • *May I ask...?* • *Would you mind...?*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "49. I don't care"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *I don't care.*",
+        "**Natural Upgrades:** *It doesn't matter to me.* • *I'm fine either way.* • *I don't mind.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "50. That's amazing!"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Overused:** *That's amazing!*",
+        "**Natural Upgrades:** *That's incredible!* • *That's impressive!* • *That's unbelievable!* • *That's fantastic!*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "🌐 Multilingual Adaptations for FR, RU, IT & EL Learners"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every language has its own overused intermediate safety phrases and natural B1–B2 conversational upgrades. Here is how to express these key concepts in French, Russian, Italian, and Greek:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇫🇷 French (Phrases fréquentes & Opposés)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**D'accord ↔ Pas d'accord:** *Je suis d'accord.* → *Tout à fait.* / *Absolument.* / *Je partage votre avis.* ↔ *Je ne suis pas si sûr(e).* / *Je vois les choses différemment.*",
+        "**Je pense...:** *Je pense que...* → *À mon avis...* / *Selon moi...* / *Il me semble que...*",
+        "**Ça dépend:** *Ça dépend.* → *Ça varie.* / *Cela dépend de la situation.* / *Ce n'est pas si simple.*",
+        "**Je ne sais pas:** *Je ne sais pas.* → *C'est difficile à dire.* / *Je ne suis pas sûr(e).*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇷🇺 Russian (Частые фразы и противоположности)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Согласен ↔ Не согласен:** *Я согласен.* → *Совершенно верно.* / *Полностью согласен.* / *Вы правы.* ↔ *Я не совсем уверен.* / *Я смотрю на это иначе.*",
+        "**Я думаю...:** *Я думаю, что...* → *На мой взгляд...* / *Мне кажется, что...* / *По-моему...*",
+        "**Зависит:** *Это зависит.* → *По-разному.* / *Всё зависит от обстоятельств.*",
+        "**Не знаю:** *Я не знаю.* → *Сложно сказать.* / *Хороший вопрос.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇮🇹 Italian (Frasi comuni e opposti)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**D'accordo ↔ Non d'accordo:** *Sono d'accordo.* → *Sono assolutamente d'accordo.* / *Hai ragione.* / *Condivido in pieno.* ↔ *Non ne sono così sicuro/a.* / *La vedo diversamente.*",
+        "**Penso...:** *Penso che...* → *A mio parere...* / *Secondo me...* / *Mi sembra che...*",
+        "**Dipende:** *Dipende.* → *Cambia da caso a caso.* / *Dipende dalle circostanze.*",
+        "**Non so:** *Non lo so.* → *È difficile da dire.* / *È una buona domanda.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇬🇷 Greek (Συχνές φράσεις & Αντίθετα)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Συμφωνώ ↔ Διαφωνώ:** *Συμφωνώ.* → *Συμφωνώ απόλυτα.* / *Έχεις δίκιο.* ↔ *Δεν είμαι τόσο σίγουρος/η.* / *Το βλέπω διαφορετικά.*",
+        "**Νομίζω...:** *Νομίζω ότι...* → *Κατά τη γνώμη μου...* / *Από τη δική μου πλευρά...* / *Μου φαίνεται ότι...*",
+        "**Εξαρτάται:** *Εξαρτάται.* → *Ποικίλλει.* / *Εξαρτάται από την περίπτωση.*",
+        "**Δεν ξέρω:** *Δεν ξέρω.* → *Δύσκολο να πω.* / *Καλή ερώτηση.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Summary Practice: A Natural Upgrade in Action"
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice how replacing just a few generic phrases changes the tone of a real conversation:"
+    },
+    {
+      "type": "pullquote",
+      "quote": "**Before (Repetitive B1):**\n*\"I think this proposal is good. I agree with you, but it depends on the budget. In the future, I want to do this.\"*"
+    },
+    {
+      "type": "pullquote",
+      "quote": "**After (Upgraded B2):**\n*\"From my point of view, this proposal is impressive. I couldn't agree more, though it really comes down to the budget. Going forward, I'm hoping to move this forward.\"*"
+    },
+    {
+      "type": "paragraph",
+      "text": "Try picking **three phrases** from this list every week and actively applying them during your speaking club or writing practice!"
+    },
+    {
+      "type": "paragraph",
+      "text": "<hr>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "📚 Further reading",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ideas in this article rest on published research and teaching practice. Start with any of these:",
+      "webOnly": true,
+      "listId": "refs"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Hoey, M. (2005).** *Lexical Priming: A New Theory of Words and Language.* Routledge.",
+        "**Laufer, B., & Nation, P. (1995).** Vocabulary size and use: Lexical richness in L2 written production. *Applied Linguistics, 16*(3), 307–322.",
+        "**Lewis, M. (1993).** *The Lexical Approach: The State of ELT and a Way Forward.* Language Teaching Publications.",
+        "**Nation, I. S. P. (2001).** *Learning Vocabulary in Another Language.* Cambridge University Press.",
+        "**Pawley, A., & Syder, F. H. (1983).** Two puzzles for linguistic theory: Nativelike selection and nativelike fluency. In J. C. Richards & R. W. Schmidt (Eds.), *Language and Communication* (pp. 191–226). Longman.",
+        "**Richards, J. C. (2008).** *Moving Beyond the Plateau: From Intermediate to Advanced Levels in Language Learning.* Cambridge University Press.",
+        "**Schmitt, N. (2010).** *Researching Vocabulary: A Vocabulary Research Manual.* Palgrave Macmillan.",
+        "**Selinker, L. (1972).** Interlanguage. *International Review of Applied Linguistics, 10*(3), 209–231."
+      ],
+      "webOnly": true,
+      "listId": "refs",
+      "refs": true
+    }
+  ],
+  "draft": false
+}
