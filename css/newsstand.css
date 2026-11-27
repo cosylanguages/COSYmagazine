@@ -273,3 +273,13 @@ html[data-theme="dark"] .ns-issue-volume-header {
 html[data-theme="dark"] .ns-issue-volume-vibe {
   color: #a3b899;
 }
+
+/* Product identity: the lead panel and its art follow the editorial rhythm. */
+[data-product] .ns-lead {
+  border-radius: var(--cosy-product-radius, 22px);
+  box-shadow: var(--cosy-product-shadow, none);
+}
+
+[data-product] .ns-lead-art {
+  border-radius: var(--cosy-product-radius, 14px);
+}

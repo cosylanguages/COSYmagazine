@@ -79,7 +79,7 @@ function renderPostPage(ctx) {
       }
     </style>
 </head>
-<body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-volume="${escapeHtml(issueNum || '')}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}">
+<body class="blog-page gazette-body" data-issue="${issueKey(post)}" data-issue-volume="${escapeHtml(issueNum || '')}" data-issue-label="${escapeHtml(issueTitle)}" data-slug="${escapeHtml(post.slug)}" data-product="editorial">
 
     <div data-ecosystem-strip data-self="magazine"></div>
     <nav id="cosy-nav"></nav>

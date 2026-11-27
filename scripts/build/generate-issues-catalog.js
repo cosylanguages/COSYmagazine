@@ -334,7 +334,7 @@ async function build() {
   <link rel="stylesheet" href="css/issues-catalog.css">
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
 </head>
-<body class="ns-page cat-page">
+<body class="ns-page cat-page" data-product="editorial">
   <div data-ecosystem-strip data-self="magazine"></div>
   <nav id="cosy-nav"></nav>
 

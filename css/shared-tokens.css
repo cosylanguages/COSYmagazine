@@ -585,3 +585,61 @@ body.theme-dark .cosy-ecosystem-strip {
     background: #141A15;
     border-bottom-color: rgba(255, 255, 255, 0.08);
 }
+
+/* ── Product identity ─────────────────────────────────────────────────────
+   Mirrors COSYlanguages/shared/css/tokens.css (sections 10b and 14). A page
+   opts in with data-product on <body>; COSYmagazine is `editorial`. Identity
+   moves form only — radius, depth, display face — never colour. */
+:root {
+    --cosy-product-radius:               var(--cosy-radius-base, 18px);
+    --cosy-product-shadow:               var(--cosy-shadow-sm, 0 2px 12px rgba(46, 74, 51, 0.07));
+    --cosy-product-display:              var(--cosy-font-serif, Georgia, serif);
+    --cosy-product-display-weight:       600;
+    --cosy-product-tracking:             -0.01em;
+    --cosy-product-leading:              1.2;
+}
+
+[data-product="playful"] {
+    --cosy-product-radius:               var(--cosy-radius-lg, 22px);
+    --cosy-product-display-weight:       700;
+    --cosy-product-tracking:             0.01em;
+    --cosy-product-leading:              1.15;
+}
+
+[data-product="immersive"] {
+    --cosy-product-radius:               var(--cosy-radius-xl, 32px);
+    --cosy-product-display-weight:       700;
+    --cosy-product-tracking:             -0.02em;
+    --cosy-product-leading:              1.1;
+}
+
+[data-product="professional"] {
+    --cosy-product-radius:               var(--cosy-radius-sm, 8px);
+    --cosy-product-display:              var(--cosy-font-sans, system-ui, sans-serif);
+    --cosy-product-display-weight:       650;
+    --cosy-product-tracking:             0;
+    --cosy-product-leading:              1.25;
+}
+
+[data-product="social"] {
+    --cosy-product-radius:               var(--cosy-radius-base, 18px);
+    --cosy-product-display-weight:       600;
+    --cosy-product-tracking:             -0.005em;
+    --cosy-product-leading:              1.3;
+}
+
+[data-product="editorial"] {
+    --cosy-product-radius:               var(--cosy-radius-xs, 4px);
+    --cosy-product-shadow:               none;
+    --cosy-product-display:              var(--cosy-font-serif, Georgia, serif);
+    --cosy-product-display-weight:       500;
+    --cosy-product-tracking:             -0.02em;
+    --cosy-product-leading:              1.12;
+}
+
+[data-product] h1 {
+    font-family: var(--cosy-product-display);
+    font-weight: var(--cosy-product-display-weight);
+    letter-spacing: var(--cosy-product-tracking);
+    line-height: var(--cosy-product-leading);
+}
